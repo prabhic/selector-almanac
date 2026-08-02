@@ -1,0 +1,29 @@
+{
+  "name": "lev-selector-almanac",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Open-source searchable almanac of Lev Selector's weekly AI seminars",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prabhic/selector-almanac.git"
+  },
+  "homepage": "https://prabhic.github.io/selector-almanac/app/",
+  "scripts": {
+    "ingest": "node scripts/ingest.mjs",
+    "ingest:quick": "node scripts/ingest.mjs --quick",
+    "ingest:all": "node scripts/ingest.mjs --all",
+    "trends": "node scripts/build-trends.mjs",
+    "index": "node scripts/build-index.mjs",
+    "search:index": "node scripts/build-search-index.mjs",
+    "search:embed": "node scripts/embed-search-vectors.mjs",
+    "build": "npm run index && npm run search:index && npm run search:embed",
+    "extract-mock": "node scripts/extract-mock-data.mjs",
+    "serve": "npx --yes serve . -p 3456"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.17.2",
+    "jszip": "^3.10.1"
+  }
+}

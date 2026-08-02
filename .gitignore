@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.local
+.playwright-mcp/
+mock/
+# transformers model cache (re-download on embed)
+node_modules/@xenova/transformers/.cache/
+# large scraped source assets
+data/raw/
+*.pptx
+*.pdf
+# keep package-lock for reproducible ingest
