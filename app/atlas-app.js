@@ -16,7 +16,8 @@ const SERIES_LABELS = {
   "ai-weekly": "AI Weekly", seminar: "Seminar",
   "data-architect-2021": "Data Architect 2021", "data-science-2021": "Data Science 2021"
 };
-const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const SOURCE_REPO = "https://github.com/prabhic/selector-almanac";
+const DEMO_URL = "http://prabhanjan.in/selector-almanac/app/";
 const STOP = new Set(["the","a","an","of","in","on","to","and","or","for","is","was","did","does","do","when","what","how","why","who","first","about","with","it","he","lev","talk","talked","say","said","cover","covered","up","come","came","that","this","are","were"]);
 
 /** Month columns for the atlas heatmap; trailing month is 2× wide (still in progress). */
@@ -856,7 +857,8 @@ export class AtlasApp extends DCLogic {
       conceptGroups: conceptGroups, dossier: dossier,
       conceptHits: conceptHits,
       ask: ask, stream: stream, mapRows: mapRows,
-      hasDetail: !!sel, detail: detail, closeDetail: () => this.setState({ detailId: null })
+      hasDetail: !!sel, detail: detail, closeDetail: () => this.setState({ detailId: null }),
+      sourceRepo: SOURCE_REPO, demoUrl: DEMO_URL
     };
   }
 }

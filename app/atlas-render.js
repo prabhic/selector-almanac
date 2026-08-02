@@ -98,7 +98,9 @@ function renderSidebar(v) {
         <div style="display:flex;flex-direction:column;gap:2px">${topics}</div>
       </div>
       <div style="border-top:2px solid var(--color-divider);padding-top:14px;font-size:12px;line-height:1.5;color:var(--color-neutral-700)">
-        All content © <a href="https://www.youtube.com/@lev-selector" target="_blank" rel="noopener">Lev Selector</a>. Slides from <a href="https://github.com/lselector/seminar" target="_blank" rel="noopener">lselector/seminar</a>. This is a derived index — every view links back to the originals.
+        <div style="font-size:10px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-bottom:8px">Unofficial community index</div>
+        All content © <a href="https://www.youtube.com/@lev-selector" target="_blank" rel="noopener">Lev Selector</a>. Slides from <a href="https://github.com/lselector/seminar" target="_blank" rel="noopener">lselector/seminar</a>. This is a derived lens — every view links back to the originals.
+        <div style="margin-top:10px"><a href="${esc(v.sourceRepo)}" target="_blank" rel="noopener">Source on GitHub</a> · <a href="${esc(v.demoUrl)}" target="_blank" rel="noopener">Live demo</a></div>
       </div>
     </aside>`;
 }

@@ -89,7 +89,9 @@ Commit updated `data/` (not `data/raw/`, which is gitignored). First semantic se
 
 ## Share with Lev
 
-See [docs/OUTREACH.md](docs/OUTREACH.md) for a ready-to-send GitHub issue / comment template.
+Outreach issue: [lselector/seminar#4](https://github.com/lselector/seminar/issues/4)
+
+See [docs/OUTREACH.md](docs/OUTREACH.md) for YouTube comment templates.
 
 ## License
 

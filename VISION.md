@@ -1,4 +1,4 @@
-# Selector Almanac — Vision
+# Lev Selector Almanac — Vision
 
 **An aggregated, trend-aware home page for Lev Selector's weekly AI talks.** One place that turns years of his weekly YouTube seminars + the matching GitHub slide decks into a browsable, searchable timeline of what he covered, *when* — with every claim deep-linked back to the exact video moment and the exact slide.
 
