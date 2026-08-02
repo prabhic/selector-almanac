@@ -4,7 +4,7 @@
     "slug": "claude",
     "firstSeen": "2023-07-16",
     "seminarCount": 101,
-    "pointCount": 211,
+    "pointCount": 213,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -1585,6 +1585,20 @@
         "claim": "Google Gemini and Gemini Notebook vs Fable",
         "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=854s",
         "slideIndex": 12
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Claude Fable 5 Disproves Jacobian Conjecture",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1436s",
+        "slideIndex": 18
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "17 Tricks To Build 10x Faster with Claude",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2044s",
+        "slideIndex": 29
       }
     ]
   },
@@ -1593,7 +1607,7 @@
     "slug": "openai",
     "firstSeen": "2022-12-16",
     "seminarCount": 156,
-    "pointCount": 320,
+    "pointCount": 321,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -1753,6 +1767,13 @@
       "unknown-da-13-miscellaneous"
     ],
     "timeline": [
+      {
+        "date": null,
+        "seminarId": "unknown-da-13-miscellaneous",
+        "claim": "Microsoft Ignite - an annual conference for developers",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
       {
         "date": "2023-01-13",
         "seminarId": "2023-01-13-2023-01-13-chatgpt-rachael",
@@ -3989,9 +4010,9 @@
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Celeris 1 AI Speed vs ChatGPT 5 Celeris",
-        "videoUrl": null,
-        "slideIndex": 6
+        "claim": "GPT-5.6 Luna 80% Price Cut",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=252s",
+        "slideIndex": 5
       }
     ]
   },
@@ -4930,7 +4951,7 @@
     "slug": "open-models",
     "firstSeen": "2021-02-19",
     "seminarCount": 185,
-    "pointCount": 451,
+    "pointCount": 454,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -8275,6 +8296,27 @@
         "claim": "Buzz - open-source group chat/workspace",
         "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2064s",
         "slideIndex": 29
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "DeepSeek V4 Flash Released",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=329s",
+        "slideIndex": 6
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Kimi K3 is now available on Ollama cloud",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=418s",
+        "slideIndex": 7
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "LLaDA2.2-flash - Open-Source Diffusion Model",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1902s",
+        "slideIndex": 24
       }
     ]
   },
@@ -8283,7 +8325,7 @@
     "slug": "benchmarks",
     "firstSeen": "2021-01-22",
     "seminarCount": 164,
-    "pointCount": 179,
+    "pointCount": 178,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -9686,22 +9728,15 @@
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2026-07-31",
-        "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-        "videoUrl": null,
+        "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=30s",
         "slideIndex": 2
       },
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-        "videoUrl": null,
+        "claim": "Cost Per Intelligence Index",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=41s",
         "slideIndex": 3
       }
     ]
@@ -9711,7 +9746,7 @@
     "slug": "data-engineering",
     "firstSeen": "2021-02-05",
     "seminarCount": 33,
-    "pointCount": 66,
+    "pointCount": 50,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -9751,27 +9786,6 @@
       {
         "date": null,
         "seminarId": "unknown-da-01-intro",
-        "claim": "Become a Data Architect – session 1 Data",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-01-intro",
-        "claim": "What Does a Data Architect Do ? Data",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-01-intro",
-        "claim": "Good foundation in Computer Science, Software Architectures, Engineering",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-01-intro",
         "claim": "S3 (Simple Storage Service) EC2 (Elastic Compute Cloud)",
         "videoUrl": null,
         "slideIndex": 8
@@ -9782,20 +9796,6 @@
         "claim": "ADLS (Azure Data Lake Storage Gen2) blobs and",
         "videoUrl": null,
         "slideIndex": 9
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-02-algorithms",
-        "claim": "Become a Data Architect – session 2 Data",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-03-distributed-systems",
-        "claim": "Become a Data Architect – session 3 Distributed",
-        "videoUrl": null,
-        "slideIndex": 1
       },
       {
         "date": null,
@@ -9821,23 +9821,9 @@
       {
         "date": null,
         "seminarId": "unknown-da-04-sql-modern-dw",
-        "claim": "OLAP Cube – Rise and Fall Old way",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-04-sql-modern-dw",
         "claim": "Ralph Kimball’s paradigm: Each department in a company",
         "videoUrl": null,
         "slideIndex": 5
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-04-sql-modern-dw",
-        "claim": "Synapse Integrate Data Pipelines Azure Data Lake (Files",
-        "videoUrl": null,
-        "slideIndex": 8
       },
       {
         "date": null,
@@ -9947,23 +9933,9 @@
       {
         "date": null,
         "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
-        "claim": "ETL – Extract Transform Load Extract data from",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
         "claim": "Microsoft SQL Server on Azure cloud - very",
         "videoUrl": null,
         "slideIndex": 4
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-10-very-large-databases",
-        "claim": "How Analytical SQL Databases Have Evolved Row-based Column-based",
-        "videoUrl": null,
-        "slideIndex": 7
       },
       {
         "date": null,
@@ -9981,34 +9953,6 @@
       },
       {
         "date": null,
-        "seminarId": "unknown-da-12-firebolt",
-        "claim": "Firebolt Firebolt – Cloud Data Warehouse: beats performance",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "BigQuery Omni - Google Cross-Cloud Analytics Omni :",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "SQL Server 2022 – \"Azure Enabled\" SQL Server",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "SSIS = SQL Server Integration Services (since 2005)",
-        "videoUrl": null,
-        "slideIndex": 9
-      },
-      {
-        "date": null,
         "seminarId": "unknown-da-13-miscellaneous",
         "claim": "SSIS vs Azure ADF and Azure Synapse Integrate",
         "videoUrl": null,
@@ -10020,13 +9964,6 @@
         "claim": "/-- long term bounded analysis, high latency \\",
         "videoUrl": null,
         "slideIndex": 3
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-15-bigquery-omni",
-        "claim": "BigQuery Omni - Multi-Cloud queries Google BigQuery is",
-        "videoUrl": null,
-        "slideIndex": 1
       },
       {
         "date": null,
@@ -10097,20 +10034,6 @@
         "claim": "Ralph Kimball’s paradigm: Each department in a company",
         "videoUrl": null,
         "slideIndex": 3
-      },
-      {
-        "date": "2021-07-16",
-        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
-        "claim": "OLAP Cube – Rise and Fall Very good",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
-        "date": "2021-07-16",
-        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
-        "claim": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
-        "videoUrl": null,
-        "slideIndex": 6
       },
       {
         "date": "2021-07-16",
@@ -10217,7 +10140,7 @@
     "slug": "agents",
     "firstSeen": "2022-02-18",
     "seminarCount": 121,
-    "pointCount": 454,
+    "pointCount": 460,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -10344,10 +10267,24 @@
     "timeline": [
       {
         "date": null,
+        "seminarId": "unknown-da-05-synapse",
+        "claim": "Azure Synapse Analytics - Components Synapse Studio –",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
         "seminarId": "unknown-da-13-miscellaneous",
         "claim": "Apache Flume Flume is a distributed, reliable, and",
         "videoUrl": null,
         "slideIndex": 5
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-17-apache-airflow-intro",
+        "claim": "Basic components of Airflow environment Airflow Database Simplest",
+        "videoUrl": null,
+        "slideIndex": 3
       },
       {
         "date": "2022-03-11",
@@ -13495,30 +13432,58 @@
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "OpenAI AI Agent Escape Investigation OpenAI AI Agent",
-        "videoUrl": null,
-        "slideIndex": 8
+        "claim": "Claude Opus 5, Claude Managed Agents",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=171s",
+        "slideIndex": 4
       },
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Runtime & Loops in OpenClaw & Hermes OpenClaw",
-        "videoUrl": null,
-        "slideIndex": 9
-      },
-      {
-        "date": "2026-07-31",
-        "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Microsoft Agent Framework Harness Microsoft Agent Framework Harness",
-        "videoUrl": null,
+        "claim": "OpenAI AI Agent Escape Investigation",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=534s",
         "slideIndex": 10
       },
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Genspark AI Workspace 6.0 Updates Genspark AI Workspace",
-        "videoUrl": null,
+        "claim": "Runtime & Loops in OpenClaw & Hermes",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=596s",
+        "slideIndex": 10
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Microsoft Agent Framework Harness",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=642s",
         "slideIndex": 11
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Cognee - Persistent Memory for AI Agents",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1856s",
+        "slideIndex": 22
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Hive - Multi-Agent Orchestration",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2000s",
+        "slideIndex": 27
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Automating Email Outreach with Hermes Agent",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2007s",
+        "slideIndex": 27
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Tencent Hunyuan Research Agent",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2124s",
+        "slideIndex": 31
       }
     ]
   },
@@ -14598,23 +14563,23 @@
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "AI Updates Matthew Berman - using Codex to",
-        "videoUrl": null,
+        "claim": "Matthew Berman - Using Codex for Everything",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=157s",
         "slideIndex": 4
       },
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "AI Updates Anthropic removed 80% of Claude Code",
-        "videoUrl": null,
-        "slideIndex": 5
+        "claim": "Anthropic removed 80% of Claude Code prompts",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=371s",
+        "slideIndex": 6
       },
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "Model Fusion, Model Routing Cursor Router - Cuts",
-        "videoUrl": null,
-        "slideIndex": 12
+        "claim": "The Last 30 Days Skill for Claude Code",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1924s",
+        "slideIndex": 25
       }
     ]
   },
@@ -14623,7 +14588,7 @@
     "slug": "infra",
     "firstSeen": "2021-02-19",
     "seminarCount": 126,
-    "pointCount": 165,
+    "pointCount": 175,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -14755,6 +14720,20 @@
     "timeline": [
       {
         "date": null,
+        "seminarId": "unknown-da-01-intro",
+        "claim": "Cloud Storage Storage Transfer Service Cloud Functions Databases:",
+        "videoUrl": null,
+        "slideIndex": 10
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-04-sql-modern-dw",
+        "claim": "Synapse Integrate Data Pipelines Azure Data Lake (Files",
+        "videoUrl": null,
+        "slideIndex": 8
+      },
+      {
+        "date": null,
         "seminarId": "unknown-da-14-web-app",
         "claim": "Serving Active Content For active content you will",
         "videoUrl": null,
@@ -14768,11 +14747,60 @@
         "slideIndex": 4
       },
       {
+        "date": null,
+        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
+        "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
+        "claim": "Random Forest can not extrapolate RF does interpolation",
+        "videoUrl": null,
+        "slideIndex": 8
+      },
+      {
+        "date": "2021-02-19",
+        "seminarId": "2021-02-19-21-02-19-tree-randomforest-gradientboosting-lev",
+        "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+        "videoUrl": null,
+        "slideIndex": 5
+      },
+      {
+        "date": "2021-04-16",
+        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
+        "claim": "Azure - VM or DSVM VM (Virtual Machine)",
+        "videoUrl": null,
+        "slideIndex": 10
+      },
+      {
+        "date": "2021-04-23",
+        "seminarId": "2021-04-23-21-04-23-ml-geo-spatial-lev",
+        "claim": "Azure and Geo Spatial Azure Maps Azure Maps",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": "2021-05-14",
+        "seminarId": "2021-05-14-21-05-14-bayes-bayesian-lev",
+        "claim": "Bayes’ Theorem (conditional probability) or where A and",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
         "date": "2021-05-14",
         "seminarId": "2021-05-14-21-05-14-bayes-bayesian-lev",
         "claim": "Bayesian Inference Bayesian Estimation https://en.wikipedia.org/wiki/Bayesian_inference https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348 https://www.probabilitycourse.com/chapter9/9_1_0_bayesian_inference.php http://christianherta.de/lehre/dataScience/bayesian/introduction_into_bayesian_inference_with_pymc.slides.php",
         "videoUrl": null,
         "slideIndex": 12
+      },
+      {
+        "date": "2021-07-16",
+        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
+        "claim": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+        "videoUrl": null,
+        "slideIndex": 6
       },
       {
         "date": "2023-07-30",
@@ -15907,6 +15935,13 @@
         "claim": "Colibri Tiny Inference Engine",
         "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1543s",
         "slideIndex": 20
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "SGLang - Fast LLM Serving Engine",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=957s",
+        "slideIndex": 14
       }
     ]
   },
@@ -15915,7 +15950,7 @@
     "slug": "safety",
     "firstSeen": "2021-02-12",
     "seminarCount": 62,
-    "pointCount": 29,
+    "pointCount": 44,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -15983,6 +16018,55 @@
     "timeline": [
       {
         "date": null,
+        "seminarId": "unknown-da-01-intro",
+        "claim": "Design data-flow and data-storage strategy/architecture Build an inventory",
+        "videoUrl": null,
+        "slideIndex": 6
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-01-intro",
+        "claim": "Good foundation in Computer Science, Software Architectures, Engineering",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-03-distributed-systems",
+        "claim": "Become a Data Architect – session 3 Distributed",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-03-distributed-systems",
+        "claim": "Master/slave Sharding - horizontal partitioning Example: Sharding by",
+        "videoUrl": null,
+        "slideIndex": 9
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-06-purview",
+        "claim": "The 2 Problems. 90% of all data created",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-09-docker-kubernetes",
+        "claim": "VM, Docker, Kubernetes, Istio Kubernetes ( κυ β",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
+        "claim": "DevOps What is DevOps DevOps = Development (Dev)",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": null,
         "seminarId": "unknown-da-09-security-privacy",
         "claim": "Security Data security Access SSO = Single Sign-On",
         "videoUrl": null,
@@ -15990,8 +16074,64 @@
       },
       {
         "date": null,
+        "seminarId": "unknown-da-09-security-privacy",
+        "claim": "Encrypted communication over SSL/TLS Windows Data Protection API",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-11-powerbi-powerapps",
+        "claim": "High Level areas companies need help with Governance/Adoption/Rolling",
+        "videoUrl": null,
+        "slideIndex": 5
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-11-powerbi-powerapps",
+        "claim": "Power BI Adoption Framework Components Current State Why",
+        "videoUrl": null,
+        "slideIndex": 11
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-13-miscellaneous",
+        "claim": "Cross-Cloud Architectures Google Anthos - Uses Google Kubernetes",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-13-miscellaneous",
+        "claim": "BigQuery Omni - Google Cross-Cloud Analytics Omni :",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-13-miscellaneous",
+        "claim": "BIML Biml = Business Intelligence Markup Language Biml",
+        "videoUrl": null,
+        "slideIndex": 8
+      },
+      {
+        "date": null,
         "seminarId": "unknown-da-14-web-app",
         "claim": "Web Security Data security Access SSO = Single",
+        "videoUrl": null,
+        "slideIndex": 8
+      },
+      {
+        "date": "2021-02-12",
+        "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
+        "claim": "AI in Context Artificial Intelligence (AI) ML performing",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": "2021-04-16",
+        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
+        "claim": "AI in Context Artificial Intelligence (AI) ML performing",
         "videoUrl": null,
         "slideIndex": 8
       },
@@ -16191,7 +16331,7 @@
     "slug": "enterprise",
     "firstSeen": "2021-04-23",
     "seminarCount": 30,
-    "pointCount": 24,
+    "pointCount": 19,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-03-20-2026-03-20-ai-updates",
@@ -16227,13 +16367,6 @@
     "timeline": [
       {
         "date": null,
-        "seminarId": "unknown-da-04-sql-modern-dw",
-        "claim": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
-        "videoUrl": null,
-        "slideIndex": 6
-      },
-      {
-        "date": null,
         "seminarId": "unknown-da-06-purview",
         "claim": "Data Governance 2.0 Malte Thesenvitz Azure Purview",
         "videoUrl": null,
@@ -16249,23 +16382,9 @@
       {
         "date": null,
         "seminarId": "unknown-da-11-powerbi-powerapps",
-        "claim": "High Level areas companies need help with Governance/Adoption/Rolling",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-11-powerbi-powerapps",
         "claim": "Governance Model EDW BUSINESS UNIT DASHBOARDS , KPIs",
         "videoUrl": null,
         "slideIndex": 6
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-11-powerbi-powerapps",
-        "claim": "Power BI Adoption Framework Components Current State Why",
-        "videoUrl": null,
-        "slideIndex": 11
       },
       {
         "date": null,
@@ -16273,20 +16392,6 @@
         "claim": "Why worry about multi-cloud queries? Multi-Cloud is here",
         "videoUrl": null,
         "slideIndex": 3
-      },
-      {
-        "date": "2021-04-23",
-        "seminarId": "2021-04-23-21-04-23-ml-geo-spatial-lev",
-        "claim": "Azure and Geo Spatial Azure Maps Azure Maps",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": "2021-07-16",
-        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
-        "claim": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
-        "videoUrl": null,
-        "slideIndex": 4
       },
       {
         "date": "2021-12-10",
@@ -16400,7 +16505,7 @@
     "slug": "rag",
     "firstSeen": "2021-01-22",
     "seminarCount": 127,
-    "pointCount": 195,
+    "pointCount": 218,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
@@ -16533,10 +16638,101 @@
     "timeline": [
       {
         "date": null,
+        "seminarId": "unknown-da-04-sql-modern-dw",
+        "claim": "The Times of Inmon & Kimball Imagine computers",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-04-sql-modern-dw",
+        "claim": "OLAP Cube – Rise and Fall Old way",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-04-sql-modern-dw",
+        "claim": "MOLAP, MDX, DAX SSAS (Microsoft SQL Server Analysis",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
+        "claim": "ETL – Extract Transform Load Extract data from",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-10-very-large-databases",
+        "claim": "How Analytical SQL Databases Have Evolved Row-based Column-based",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-12-firebolt",
+        "claim": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-13-miscellaneous",
+        "claim": "SSIS = SQL Server Integration Services (since 2005)",
+        "videoUrl": null,
+        "slideIndex": 9
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-15-bigquery-omni",
+        "claim": "BigQuery Omni - Multi-Cloud queries Google BigQuery is",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-15-bigquery-omni",
+        "claim": "BigQuery | Architecture - overview Decoupled storage and",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-15-bigquery-omni",
+        "claim": "BigQuery UI / API / CLI Control Plane",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": null,
         "seminarId": "unknown-da-15-bigquery-omni",
         "claim": "BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier",
         "videoUrl": null,
         "slideIndex": 5
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
+        "claim": "Neural Net https://en.wikipedia.org/wiki/Artificial_neural_network NN is an unidirectional, only",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
+        "claim": "RNN Recurrent Neural Network (RNN) is advanced artificial",
+        "videoUrl": null,
+        "slideIndex": 8
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
+        "claim": "LSTM Drawbacks of RNN Long Term dependencies LSTM",
+        "videoUrl": null,
+        "slideIndex": 9
       },
       {
         "date": null,
@@ -16551,6 +16747,76 @@
         "claim": "From: https://www.slideshare.net/KristenHunter/civitas-learning-understanding-roc-curves For measuring the performance of retrieval",
         "videoUrl": null,
         "slideIndex": 4
+      },
+      {
+        "date": "2021-01-29",
+        "seminarId": "2021-01-29-21-01-29-regularization-lev",
+        "claim": "Different Types of Machine Learning Models Linear Regression",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": "2021-01-29",
+        "seminarId": "2021-01-29-21-01-29-regularization-lev",
+        "claim": "L 2 Parameter Regularization L 2 parameter norm",
+        "videoUrl": null,
+        "slideIndex": 12
+      },
+      {
+        "date": "2021-02-05",
+        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
+        "claim": "Qualitative, Naive (forecast = last value, or an",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-02-12",
+        "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
+        "claim": "- predictions (news and trends, investments, elections, sport",
+        "videoUrl": null,
+        "slideIndex": 8
+      },
+      {
+        "date": "2021-02-19",
+        "seminarId": "2021-02-19-21-02-19-tree-randomforest-gradientboosting-lev",
+        "claim": "Smallest Entropy (Largest Information Gain) ID3 (ID.3 =",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": "2021-04-16",
+        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
+        "claim": "predictions (predictive analytics, forecasting, trends, investments, elections, sport",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-04-16",
+        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
+        "claim": "OK, so what is Machine Learning? - A",
+        "videoUrl": null,
+        "slideIndex": 5
+      },
+      {
+        "date": "2021-04-23",
+        "seminarId": "2021-04-23-21-04-23-ml-geo-spatial-lev",
+        "claim": "Spatial Data Science (SDS) Spatial Data Science (SDS)",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-07-16",
+        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
+        "claim": "The Times of Inmon & Kimball Imagine computers",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-07-16",
+        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
+        "claim": "OLAP Cube – Rise and Fall Very good",
+        "videoUrl": null,
+        "slideIndex": 5
       },
       {
         "date": "2022-04-22",
@@ -17903,7 +18169,7 @@
     "slug": "multimodal",
     "firstSeen": "2023-04-21",
     "seminarCount": 72,
-    "pointCount": 83,
+    "pointCount": 79,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-17-2026-07-17-ai-updates",
@@ -17979,34 +18245,6 @@
       "unknown-da-09-security-privacy"
     ],
     "timeline": [
-      {
-        "date": null,
-        "seminarId": "unknown-da-01-intro",
-        "claim": "Design data-flow and data-storage strategy/architecture Build an inventory",
-        "videoUrl": null,
-        "slideIndex": 6
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-11-powerbi-powerapps",
-        "claim": "Factors of Adoption Overall data culture vision An",
-        "videoUrl": null,
-        "slideIndex": 12
-      },
-      {
-        "date": "2021-02-12",
-        "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
-        "claim": "AI in Context Artificial Intelligence (AI) ML performing",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
-        "date": "2021-04-16",
-        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
-        "claim": "AI in Context Artificial Intelligence (AI) ML performing",
-        "videoUrl": null,
-        "slideIndex": 8
-      },
       {
         "date": "2022-01-21",
         "seminarId": "2022-01-21-2022-01-21-45-management",
@@ -18567,7 +18805,7 @@
     "slug": "general",
     "firstSeen": "2021-01-22",
     "seminarCount": 113,
-    "pointCount": 3212,
+    "pointCount": 3241,
     "seminarIds": [
       "2026-07-31-2026-07-31-ai-updates",
       "2025-04-18-2025-04-18-ai-updates",
@@ -18687,13 +18925,6 @@
       {
         "date": null,
         "seminarId": "unknown-da-01-intro",
-        "claim": "Two Ways to Grow Learn new skills at",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-01-intro",
         "claim": "Generic Data Diagram",
         "videoUrl": null,
         "slideIndex": 4
@@ -18708,13 +18939,6 @@
       {
         "date": null,
         "seminarId": "unknown-da-01-intro",
-        "claim": "Cloud Storage Storage Transfer Service Cloud Functions Databases:",
-        "videoUrl": null,
-        "slideIndex": 10
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-01-intro",
         "claim": "BEAM - Business Event Analysis & Modeling Interview",
         "videoUrl": null,
         "slideIndex": 11
@@ -18725,6 +18949,13 @@
         "claim": "AWS to Azure services comparison - https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services Browse",
         "videoUrl": null,
         "slideIndex": 12
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-02-algorithms",
+        "claim": "Become a Data Architect – session 2 Data",
+        "videoUrl": null,
+        "slideIndex": 1
       },
       {
         "date": null,
@@ -18841,13 +19072,6 @@
       {
         "date": null,
         "seminarId": "unknown-da-03-distributed-systems",
-        "claim": "Master/slave Sharding - horizontal partitioning Example: Sharding by",
-        "videoUrl": null,
-        "slideIndex": 9
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-03-distributed-systems",
         "claim": "CAP Theorem CAP = Consistency, Availability, Partition Tolerance",
         "videoUrl": null,
         "slideIndex": 10
@@ -18865,20 +19089,6 @@
         "claim": "Kimball DW Framework Kimball Group – closed in",
         "videoUrl": null,
         "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-04-sql-modern-dw",
-        "claim": "The Times of Inmon & Kimball Imagine computers",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-04-sql-modern-dw",
-        "claim": "MOLAP, MDX, DAX SSAS (Microsoft SQL Server Analysis",
-        "videoUrl": null,
-        "slideIndex": 7
       },
       {
         "date": null,
@@ -18935,13 +19145,6 @@
         "claim": "Synapse Origins – Azure Data Factory Gen 1",
         "videoUrl": null,
         "slideIndex": 11
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-06-purview",
-        "claim": "The 2 Problems. 90% of all data created",
-        "videoUrl": null,
-        "slideIndex": 2
       },
       {
         "date": null,
@@ -19121,23 +19324,9 @@
       {
         "date": null,
         "seminarId": "unknown-da-09-docker-kubernetes",
-        "claim": "VM, Docker, Kubernetes, Istio Kubernetes ( κυ β",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-09-docker-kubernetes",
         "claim": "from Dedicated on-prem Server to VM (Cloud) to",
         "videoUrl": null,
         "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-09-docker-kubernetes",
-        "claim": "Containers grew from Linux development. Over the years",
-        "videoUrl": null,
-        "slideIndex": 4
       },
       {
         "date": null,
@@ -19212,20 +19401,6 @@
       {
         "date": null,
         "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
-        "claim": "DevOps What is DevOps DevOps = Development (Dev)",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
-        "claim": "YAML YAML = YAML Ain't Markup Language (original",
-        "videoUrl": null,
-        "slideIndex": 9
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
         "claim": "High Availability Clusters Question: If a load balancer",
         "videoUrl": null,
         "slideIndex": 12
@@ -19236,13 +19411,6 @@
         "claim": "Privacy Data Privacy, GDPR = General Data Protection",
         "videoUrl": null,
         "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-09-security-privacy",
-        "claim": "Encrypted communication over SSL/TLS Windows Data Protection API",
-        "videoUrl": null,
-        "slideIndex": 4
       },
       {
         "date": null,
@@ -19351,24 +19519,17 @@
       },
       {
         "date": null,
-        "seminarId": "unknown-da-12-firebolt",
-        "claim": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison",
+        "seminarId": "unknown-da-11-powerbi-powerapps",
+        "claim": "Factors of Adoption Overall data culture vision An",
         "videoUrl": null,
-        "slideIndex": 2
+        "slideIndex": 12
       },
       {
         "date": null,
         "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "Cross-Cloud Architectures Google Anthos - Uses Google Kubernetes",
+        "claim": "Azure Data Explorer, Kusto, KQL In 2014 –",
         "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "BIML Biml = Business Intelligence Markup Language Biml",
-        "videoUrl": null,
-        "slideIndex": 8
+        "slideIndex": 6
       },
       {
         "date": null,
@@ -19422,20 +19583,6 @@
       {
         "date": null,
         "seminarId": "unknown-da-15-bigquery-omni",
-        "claim": "BigQuery | Architecture - overview Decoupled storage and",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-15-bigquery-omni",
-        "claim": "BigQuery UI / API / CLI Control Plane",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-15-bigquery-omni",
         "claim": "Things to know There is no on-premise implementation.",
         "videoUrl": null,
         "slideIndex": 6
@@ -19446,13 +19593,6 @@
         "claim": "Introduction to Airflow",
         "videoUrl": null,
         "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-da-17-apache-airflow-intro",
-        "claim": "Basic components of Airflow environment Airflow Database Simplest",
-        "videoUrl": null,
-        "slideIndex": 3
       },
       {
         "date": null,
@@ -19534,16 +19674,16 @@
       {
         "date": null,
         "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
-        "claim": "Data Flow Bitcoin Price 6",
+        "claim": "How to present time series data a sequence",
         "videoUrl": null,
-        "slideIndex": 6
+        "slideIndex": 5
       },
       {
         "date": null,
         "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
-        "claim": "LSTM Drawbacks of RNN Long Term dependencies LSTM",
+        "claim": "Data Flow Bitcoin Price 6",
         "videoUrl": null,
-        "slideIndex": 9
+        "slideIndex": 6
       },
       {
         "date": null,
@@ -19621,6 +19761,27 @@
         "claim": "Model Explain-ability vs Performance",
         "videoUrl": null,
         "slideIndex": 6
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
+        "claim": "# from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best,",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
+        "claim": "XGBoost w/ hist method, 500 iterations, reg:squarederror max_depth",
+        "videoUrl": null,
+        "slideIndex": 11
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
+        "claim": "XGBoost w/ hist method, 500 iterations, reg:logistic max_depth",
+        "videoUrl": null,
+        "slideIndex": 12
       },
       {
         "date": "2021-01-22",
@@ -19723,9 +19884,37 @@
       {
         "date": "2021-02-05",
         "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
+        "claim": "Time Series Forecasting Lev Selector February 5, 2021",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-02-05",
+        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
+        "claim": "Forecasting in Power BI Power BI uses exponential",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": "2021-02-05",
+        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
+        "claim": "Forecasting Using Azure AutoML or MSFT Time Series",
+        "videoUrl": null,
+        "slideIndex": 5
+      },
+      {
+        "date": "2021-02-05",
+        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
         "claim": "More Details about different forecasting models",
         "videoUrl": null,
         "slideIndex": 7
+      },
+      {
+        "date": "2021-02-05",
+        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
+        "claim": "Exponential Smoothing Exponential Smoothing - a weighted moving",
+        "videoUrl": null,
+        "slideIndex": 8
       },
       {
         "date": "2021-02-05",
@@ -19765,13 +19954,6 @@
       {
         "date": "2021-02-12",
         "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
-        "claim": "Recent breakthroughs in DL made it practical (effective,",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": "2021-02-12",
-        "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
         "claim": "Andrew Ng - co-founded and led Google Brain",
         "videoUrl": null,
         "slideIndex": 5
@@ -19789,13 +19971,6 @@
         "claim": "AI Growth Predictions (Forbes, 2018)",
         "videoUrl": null,
         "slideIndex": 7
-      },
-      {
-        "date": "2021-02-12",
-        "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
-        "claim": "- predictions (news and trends, investments, elections, sport",
-        "videoUrl": null,
-        "slideIndex": 8
       },
       {
         "date": "2021-02-19",
@@ -19817,6 +19992,41 @@
         "claim": "Bootstrap Sampling method of preparing a set of",
         "videoUrl": null,
         "slideIndex": 12
+      },
+      {
+        "date": "2021-03-07",
+        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
+        "claim": "What is it? Why is it important? How",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-03-07",
+        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
+        "claim": "Agenda What is Cleaning Data & Feature Engineering",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-03-07",
+        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
+        "claim": "What is Cleaning Data & Feature Engineering? Feature",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": "2021-03-07",
+        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
+        "claim": "Why is Cleaning Data & Feature Engineering Important?",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": "2021-03-07",
+        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
+        "claim": "Tools for Feature Engineering Kalyan Veeramachaneni https://www.linkedin.com/in/kalyan-veeramachaneni-9861b821/ Max",
+        "videoUrl": null,
+        "slideIndex": 5
       },
       {
         "date": "2021-03-07",
@@ -19863,9 +20073,44 @@
       {
         "date": "2021-03-13",
         "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
+        "claim": "Feature Engineering for Text Data By Alex Ni",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-03-13",
+        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
+        "claim": "Agenda Quick recap on feature engineering Why do",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-03-13",
+        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
+        "claim": "What is Feature Engineering? A feature is typically",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": "2021-03-13",
+        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
+        "claim": "Feature Engineering for Structured Data For Numerical Data",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": "2021-03-13",
+        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
         "claim": "What if the feature is text-based only Text-based",
         "videoUrl": null,
         "slideIndex": 5
+      },
+      {
+        "date": "2021-03-13",
+        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
+        "claim": "Why do we need feature engineering for text?",
+        "videoUrl": null,
+        "slideIndex": 6
       },
       {
         "date": "2021-03-13",
@@ -19975,6 +20220,13 @@
       {
         "date": "2021-04-02",
         "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
+        "claim": "Feature Engineering & Feature Reduction Presented by Tyler",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-04-02",
+        "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
         "claim": "What is it? Data preparation! Reduce the number",
         "videoUrl": null,
         "slideIndex": 2
@@ -20029,6 +20281,48 @@
         "slideIndex": 9
       },
       {
+        "date": "2021-04-02",
+        "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
+        "claim": "Feature engineering Using domain knowledge to extract features",
+        "videoUrl": null,
+        "slideIndex": 10
+      },
+      {
+        "date": "2021-04-02",
+        "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
+        "claim": "H2O.ai – Automatic Feature Engineering",
+        "videoUrl": null,
+        "slideIndex": 11
+      },
+      {
+        "date": "2021-04-09",
+        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
+        "claim": "Featuretools Feature Engineering Automation at Work! Rachael Phillips",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-04-09",
+        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
+        "claim": "Table of Contents What is Feature Engineering and",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-04-09",
+        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
+        "claim": "What is Feature Engineering and What is Featuretools",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": "2021-04-09",
+        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
+        "claim": "What is Automatic Feature Engineering Important? Feature Engineering",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
         "date": "2021-04-09",
         "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
         "claim": "DEMO – Using Featuretools to Predict Missed Appointments",
@@ -20052,13 +20346,6 @@
       {
         "date": "2021-04-16",
         "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
-        "claim": "predictions (predictive analytics, forecasting, trends, investments, elections, sport",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": "2021-04-16",
-        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
         "claim": "Andrew Ng - co-founded and led Google Brain",
         "videoUrl": null,
         "slideIndex": 3
@@ -20069,20 +20356,6 @@
         "claim": "“AI is Life Extinction Event ?” “AI -",
         "videoUrl": null,
         "slideIndex": 4
-      },
-      {
-        "date": "2021-04-16",
-        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
-        "claim": "Recent breakthroughs in DL made it practical (effective,",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": "2021-04-16",
-        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
-        "claim": "Azure - VM or DSVM VM (Virtual Machine)",
-        "videoUrl": null,
-        "slideIndex": 10
       },
       {
         "date": "2021-04-16",
@@ -20178,13 +20451,6 @@
       {
         "date": "2021-05-14",
         "seminarId": "2021-05-14-21-05-14-bayes-bayesian-lev",
-        "claim": "Bayes’ Theorem (conditional probability) or where A and",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-05-14",
-        "seminarId": "2021-05-14-21-05-14-bayes-bayesian-lev",
         "claim": "Bayesian vs Frequentist Survivorship Bias in World War",
         "videoUrl": null,
         "slideIndex": 2
@@ -20223,6 +20489,13 @@
         "claim": "Naive Bayes Classifiers Simple probabilistic classifiers based on",
         "videoUrl": null,
         "slideIndex": 7
+      },
+      {
+        "date": "2021-05-14",
+        "seminarId": "2021-05-14-21-05-14-bayes-bayesian-lev",
+        "claim": "Bayesian Optimization Bayesian Optimization is a sequential optimization",
+        "videoUrl": null,
+        "slideIndex": 11
       },
       {
         "date": "2021-05-21",
@@ -20449,13 +20722,6 @@
         "slideIndex": 3
       },
       {
-        "date": "2021-07-09",
-        "seminarId": "2021-07-09-21-07-09-misc-lev",
-        "claim": "Question: How Link manages to do real-time replication?",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
         "date": "2021-07-16",
         "seminarId": "2021-07-16-21-07-16-alex-encoding-categorical-features-2",
         "claim": "Encoding categorical features Beyond One-hot Encoding, Part II",
@@ -20507,16 +20773,16 @@
       {
         "date": "2021-07-16",
         "seminarId": "2021-07-16-21-07-16-alex-encoding-categorical-features-2",
-        "claim": "Reference Beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 An introduction to general linear",
+        "claim": "17. CatBoostEncoder Non-unique mapping A gradient boosting based",
         "videoUrl": null,
-        "slideIndex": 9
+        "slideIndex": 8
       },
       {
         "date": "2021-07-16",
-        "seminarId": "2021-07-16-21-07-16-lev-link-for-cosmosdb-polaris",
-        "claim": "Question: How Link manages to do real-time replication?",
+        "seminarId": "2021-07-16-21-07-16-alex-encoding-categorical-features-2",
+        "claim": "Reference Beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 An introduction to general linear",
         "videoUrl": null,
-        "slideIndex": 2
+        "slideIndex": 9
       },
       {
         "date": "2021-07-16",
@@ -20538,13 +20804,6 @@
         "claim": "Kimball DW Framework Kimball Group – closed in",
         "videoUrl": null,
         "slideIndex": 1
-      },
-      {
-        "date": "2021-07-16",
-        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
-        "claim": "The Times of Inmon & Kimball Imagine computers",
-        "videoUrl": null,
-        "slideIndex": 2
       },
       {
         "date": "2021-07-16",
@@ -41164,9 +41423,191 @@
       {
         "date": "2026-07-31",
         "seminarId": "2026-07-31-2026-07-31-ai-updates",
-        "claim": "We do these weekly videos every Friday Stats:",
-        "videoUrl": null,
-        "slideIndex": 7
+        "claim": "Introduction",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=0s",
+        "slideIndex": 1
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Trend - RSI - Recursive Self-Improvement",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=11s",
+        "slideIndex": 2
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Microsoft Mage-Flow Text-to-Image",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=441s",
+        "slideIndex": 8
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Celeris 1 AI - Fastest Model",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=454s",
+        "slideIndex": 8
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "About This Channel",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=511s",
+        "slideIndex": 9
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Genspark AI Workspace 6.0 Updates",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=654s",
+        "slideIndex": 12
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Model Fusion, Model Routing",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=703s",
+        "slideIndex": 12
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Make Slide Presentation Videos in Google Slides",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=912s",
+        "slideIndex": 13
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Andrew NG's \"OpenWorker\"",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=993s",
+        "slideIndex": 14
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Recursive Super Intelligence by Richard Socher",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1046s",
+        "slideIndex": 15
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Tasklet",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1113s",
+        "slideIndex": 16
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "AI Prototyping Over Upfront Specs",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1168s",
+        "slideIndex": 16
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Trend - from Serverless to Monoliths",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1244s",
+        "slideIndex": 17
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Grok Build CLI",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1319s",
+        "slideIndex": 17
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "The Buzz platform Demo - very Exciting!",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1449s",
+        "slideIndex": 19
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Google OKF v.0.2",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1514s",
+        "slideIndex": 19
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Nativ - a local AI Runner for macOS",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1537s",
+        "slideIndex": 20
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Rust - LLM in Rust, Topcoat Rust web framework",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1587s",
+        "slideIndex": 21
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "DuckDB, Snowflake, Litestream",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1788s",
+        "slideIndex": 21
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Code Graph Tools - Graphify vs GitNexus vs CodeGraph",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1876s",
+        "slideIndex": 23
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Hermes Loop - Builder + Judge",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1889s",
+        "slideIndex": 23
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "5 VPS That Replaced My Entire AWS Bill",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1954s",
+        "slideIndex": 25
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Redis vs Valkey: Caching Architecture",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1978s",
+        "slideIndex": 26
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "SuperFile - Open Terminal File Manager",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2017s",
+        "slideIndex": 28
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Process-centric spec-driven development",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2084s",
+        "slideIndex": 29
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "How to Survive Using AI",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2112s",
+        "slideIndex": 30
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "GigaTokenizer - 1000x Faster Tokenizer",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2137s",
+        "slideIndex": 31
       }
     ]
   },
@@ -41174,9 +41615,10 @@
     "label": "Jobs & labor market",
     "slug": "jobs",
     "firstSeen": "2021-01-22",
-    "seminarCount": 169,
-    "pointCount": 172,
+    "seminarCount": 170,
+    "pointCount": 187,
     "seminarIds": [
+      "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
       "2026-07-17-2026-07-17-ai-updates",
       "2026-07-10-2026-07-10-ai-updates",
@@ -41350,10 +41792,73 @@
     "timeline": [
       {
         "date": null,
+        "seminarId": "unknown-da-01-intro",
+        "claim": "Become a Data Architect – session 1 Data",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-01-intro",
+        "claim": "Two Ways to Grow Learn new skills at",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-01-intro",
+        "claim": "What Does a Data Architect Do ? Data",
+        "videoUrl": null,
+        "slideIndex": 3
+      },
+      {
+        "date": null,
         "seminarId": "unknown-da-02-algorithms",
         "claim": "topological sort schedule a sequence of jobs based",
         "videoUrl": null,
         "slideIndex": 11
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-04-sql-modern-dw",
+        "claim": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
+        "videoUrl": null,
+        "slideIndex": 6
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-09-docker-kubernetes",
+        "claim": "Containers grew from Linux development. Over the years",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-09-etl-git-ci-cd-devops",
+        "claim": "YAML YAML = YAML Ain't Markup Language (original",
+        "videoUrl": null,
+        "slideIndex": 9
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-12-firebolt",
+        "claim": "Firebolt Firebolt – Cloud Data Warehouse: beats performance",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": null,
+        "seminarId": "unknown-da-13-miscellaneous",
+        "claim": "SQL Server 2022 – \"Azure Enabled\" SQL Server",
+        "videoUrl": null,
+        "slideIndex": 4
+      },
+      {
+        "date": "2021-02-12",
+        "seminarId": "2021-02-12-21-02-12-neural-networks-lev",
+        "claim": "Recent breakthroughs in DL made it practical (effective,",
+        "videoUrl": null,
+        "slideIndex": 4
       },
       {
         "date": "2021-02-12",
@@ -41365,9 +41870,44 @@
       {
         "date": "2021-04-16",
         "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
+        "claim": "Recent breakthroughs in DL made it practical (effective,",
+        "videoUrl": null,
+        "slideIndex": 7
+      },
+      {
+        "date": "2021-04-16",
+        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
         "claim": "Ray Kurzweil, chief engineer for Google and famous",
         "videoUrl": null,
         "slideIndex": 9
+      },
+      {
+        "date": "2021-07-09",
+        "seminarId": "2021-07-09-21-07-09-misc-lev",
+        "claim": "Ten Mistakes to Avoid In the Machine Learning",
+        "videoUrl": null,
+        "slideIndex": 1
+      },
+      {
+        "date": "2021-07-09",
+        "seminarId": "2021-07-09-21-07-09-misc-lev",
+        "claim": "Question: How Link manages to do real-time replication?",
+        "videoUrl": null,
+        "slideIndex": 5
+      },
+      {
+        "date": "2021-07-16",
+        "seminarId": "2021-07-16-21-07-16-lev-link-for-cosmosdb-polaris",
+        "claim": "Question: How Link manages to do real-time replication?",
+        "videoUrl": null,
+        "slideIndex": 2
+      },
+      {
+        "date": "2021-07-16",
+        "seminarId": "2021-07-16-21-07-16-lev-sql-modern-dw",
+        "claim": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
+        "videoUrl": null,
+        "slideIndex": 4
       },
       {
         "date": "2022-03-11",
@@ -42551,6 +43091,13 @@
         "claim": "Jobs & Layoffs",
         "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2425s",
         "slideIndex": 33
+      },
+      {
+        "date": "2026-07-31",
+        "seminarId": "2026-07-31-2026-07-31-ai-updates",
+        "claim": "Jobs & Layoffs",
+        "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2150s",
+        "slideIndex": 32
       }
     ]
   },
@@ -42830,7 +43377,7 @@
     "slug": "ml-fundamentals",
     "firstSeen": "2021-01-29",
     "seminarCount": 37,
-    "pointCount": 179,
+    "pointCount": 139,
     "seminarIds": [
       "2025-04-18-2025-04-18-ai-updates",
       "2024-10-11-2024-10-11-ai-updates",
@@ -42901,34 +43448,6 @@
       },
       {
         "date": null,
-        "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "Azure Data Explorer, Kusto, KQL In 2014 –",
-        "videoUrl": null,
-        "slideIndex": 6
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
-        "claim": "How to present time series data a sequence",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
-        "claim": "Neural Net https://en.wikipedia.org/wiki/Artificial_neural_network NN is an unidirectional, only",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
-        "claim": "RNN Recurrent Neural Network (RNN) is advanced artificial",
-        "videoUrl": null,
-        "slideIndex": 8
-      },
-      {
-        "date": null,
         "seminarId": "unknown-bitcoin-price-analysis-by-tweets",
         "claim": "Model Summary Predict the bitcoin price movement by",
         "videoUrl": null,
@@ -42940,13 +43459,6 @@
         "claim": "Bagging and Boosting Topics Bagging and Boosting concepts",
         "videoUrl": null,
         "slideIndex": 1
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
-        "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
-        "videoUrl": null,
-        "slideIndex": 3
       },
       {
         "date": null,
@@ -42965,20 +43477,6 @@
       {
         "date": null,
         "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
-        "claim": "# from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best,",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
-        "claim": "Random Forest can not extrapolate RF does interpolation",
-        "videoUrl": null,
-        "slideIndex": 8
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
         "claim": "Example Regression Problem Continuous target variable constrained by",
         "videoUrl": null,
         "slideIndex": 9
@@ -42991,32 +43489,11 @@
         "slideIndex": 10
       },
       {
-        "date": null,
-        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
-        "claim": "XGBoost w/ hist method, 500 iterations, reg:squarederror max_depth",
-        "videoUrl": null,
-        "slideIndex": 11
-      },
-      {
-        "date": null,
-        "seminarId": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
-        "claim": "XGBoost w/ hist method, 500 iterations, reg:logistic max_depth",
-        "videoUrl": null,
-        "slideIndex": 12
-      },
-      {
         "date": "2021-01-29",
         "seminarId": "2021-01-29-21-01-29-regularization-lev",
         "claim": "Regress vs Progress. Regress = simplify to the",
         "videoUrl": null,
         "slideIndex": 3
-      },
-      {
-        "date": "2021-01-29",
-        "seminarId": "2021-01-29-21-01-29-regularization-lev",
-        "claim": "Different Types of Machine Learning Models Linear Regression",
-        "videoUrl": null,
-        "slideIndex": 4
       },
       {
         "date": "2021-01-29",
@@ -43033,53 +43510,11 @@
         "slideIndex": 9
       },
       {
-        "date": "2021-01-29",
-        "seminarId": "2021-01-29-21-01-29-regularization-lev",
-        "claim": "L 2 Parameter Regularization L 2 parameter norm",
-        "videoUrl": null,
-        "slideIndex": 12
-      },
-      {
-        "date": "2021-02-05",
-        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
-        "claim": "Time Series Forecasting Lev Selector February 5, 2021",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-02-05",
-        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
-        "claim": "Qualitative, Naive (forecast = last value, or an",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": "2021-02-05",
-        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
-        "claim": "Forecasting in Power BI Power BI uses exponential",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
         "date": "2021-02-05",
         "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
         "claim": "Forecasting using Facebook Prophet .. https://github.com/facebook/prophet - ..",
         "videoUrl": null,
         "slideIndex": 4
-      },
-      {
-        "date": "2021-02-05",
-        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
-        "claim": "Forecasting Using Azure AutoML or MSFT Time Series",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
-        "date": "2021-02-05",
-        "seminarId": "2021-02-05-21-02-05-time-series-forecasting-lev",
-        "claim": "Exponential Smoothing Exponential Smoothing - a weighted moving",
-        "videoUrl": null,
-        "slideIndex": 8
       },
       {
         "date": "2021-02-12",
@@ -43133,20 +43568,6 @@
       {
         "date": "2021-02-19",
         "seminarId": "2021-02-19-21-02-19-tree-randomforest-gradientboosting-lev",
-        "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
-        "date": "2021-02-19",
-        "seminarId": "2021-02-19-21-02-19-tree-randomforest-gradientboosting-lev",
-        "claim": "Smallest Entropy (Largest Information Gain) ID3 (ID.3 =",
-        "videoUrl": null,
-        "slideIndex": 7
-      },
-      {
-        "date": "2021-02-19",
-        "seminarId": "2021-02-19-21-02-19-tree-randomforest-gradientboosting-lev",
         "claim": "Classification and Regression Trees (1984) by BFOS (BFOS",
         "videoUrl": null,
         "slideIndex": 9
@@ -43161,100 +43582,9 @@
       {
         "date": "2021-03-07",
         "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
-        "claim": "What is it? Why is it important? How",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-03-07",
-        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
-        "claim": "Agenda What is Cleaning Data & Feature Engineering",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": "2021-03-07",
-        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
-        "claim": "What is Cleaning Data & Feature Engineering? Feature",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
-        "date": "2021-03-07",
-        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
-        "claim": "Why is Cleaning Data & Feature Engineering Important?",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": "2021-03-07",
-        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
-        "claim": "Tools for Feature Engineering Kalyan Veeramachaneni https://www.linkedin.com/in/kalyan-veeramachaneni-9861b821/ Max",
-        "videoUrl": null,
-        "slideIndex": 5
-      },
-      {
-        "date": "2021-03-07",
-        "seminarId": "2021-03-07-21-03-07-featureengineering-rachael",
         "claim": "Other Imputation Methods K-NN: This means that the",
         "videoUrl": null,
         "slideIndex": 8
-      },
-      {
-        "date": "2021-03-13",
-        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
-        "claim": "Feature Engineering for Text Data By Alex Ni",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-03-13",
-        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
-        "claim": "Agenda Quick recap on feature engineering Why do",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": "2021-03-13",
-        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
-        "claim": "What is Feature Engineering? A feature is typically",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
-        "date": "2021-03-13",
-        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
-        "claim": "Feature Engineering for Structured Data For Numerical Data",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": "2021-03-13",
-        "seminarId": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
-        "claim": "Why do we need feature engineering for text?",
-        "videoUrl": null,
-        "slideIndex": 6
-      },
-      {
-        "date": "2021-04-02",
-        "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
-        "claim": "Feature Engineering & Feature Reduction Presented by Tyler",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-04-02",
-        "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
-        "claim": "Feature engineering Using domain knowledge to extract features",
-        "videoUrl": null,
-        "slideIndex": 10
-      },
-      {
-        "date": "2021-04-02",
-        "seminarId": "2021-04-02-21-04-02-featurereduction-tyler",
-        "claim": "H2O.ai – Automatic Feature Engineering",
-        "videoUrl": null,
-        "slideIndex": 11
       },
       {
         "date": "2021-04-02",
@@ -43262,41 +43592,6 @@
         "claim": "More feature importance Random Forest is essentially a",
         "videoUrl": null,
         "slideIndex": 12
-      },
-      {
-        "date": "2021-04-09",
-        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
-        "claim": "Featuretools Feature Engineering Automation at Work! Rachael Phillips",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-04-09",
-        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
-        "claim": "Table of Contents What is Feature Engineering and",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
-      {
-        "date": "2021-04-09",
-        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
-        "claim": "What is Feature Engineering and What is Featuretools",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
-      {
-        "date": "2021-04-09",
-        "seminarId": "2021-04-09-21-04-09-featuretools-rachael",
-        "claim": "What is Automatic Feature Engineering Important? Feature Engineering",
-        "videoUrl": null,
-        "slideIndex": 4
-      },
-      {
-        "date": "2021-04-16",
-        "seminarId": "2021-04-16-21-04-16-ml-in-azure-lev",
-        "claim": "OK, so what is Machine Learning? - A",
-        "videoUrl": null,
-        "slideIndex": 5
       },
       {
         "date": "2021-04-16",
@@ -43311,13 +43606,6 @@
         "claim": "Azure Machine Learning Machine Learning Workspace – set",
         "videoUrl": null,
         "slideIndex": 12
-      },
-      {
-        "date": "2021-04-23",
-        "seminarId": "2021-04-23-21-04-23-ml-geo-spatial-lev",
-        "claim": "Spatial Data Science (SDS) Spatial Data Science (SDS)",
-        "videoUrl": null,
-        "slideIndex": 1
       },
       {
         "date": "2021-04-23",
@@ -43404,13 +43692,6 @@
         "slideIndex": 10
       },
       {
-        "date": "2021-05-14",
-        "seminarId": "2021-05-14-21-05-14-bayes-bayesian-lev",
-        "claim": "Bayesian Optimization Bayesian Optimization is a sequential optimization",
-        "videoUrl": null,
-        "slideIndex": 11
-      },
-      {
         "date": "2021-06-11",
         "seminarId": "2021-06-11-21-06-11-encoding-categorical-features-alex",
         "claim": "3. OneHotEncoder Each level is mapped to a",
@@ -43421,20 +43702,6 @@
         "date": "2021-06-11",
         "seminarId": "2021-06-11-21-06-11-encoding-categorical-features-alex",
         "claim": "4. SumEncoder (Deviation coding) Belongs to a class",
-        "videoUrl": null,
-        "slideIndex": 8
-      },
-      {
-        "date": "2021-07-09",
-        "seminarId": "2021-07-09-21-07-09-misc-lev",
-        "claim": "Ten Mistakes to Avoid In the Machine Learning",
-        "videoUrl": null,
-        "slideIndex": 1
-      },
-      {
-        "date": "2021-07-16",
-        "seminarId": "2021-07-16-21-07-16-alex-encoding-categorical-features-2",
-        "claim": "17. CatBoostEncoder Non-unique mapping A gradient boosting based",
         "videoUrl": null,
         "slideIndex": 8
       },
@@ -44131,16 +44398,9 @@
     "slug": "gpt-openai",
     "firstSeen": "2024-05-10",
     "seminarCount": 0,
-    "pointCount": 33,
+    "pointCount": 32,
     "seminarIds": [],
     "timeline": [
-      {
-        "date": null,
-        "seminarId": "unknown-da-13-miscellaneous",
-        "claim": "Microsoft Ignite - an annual conference for developers",
-        "videoUrl": null,
-        "slideIndex": 3
-      },
       {
         "date": "2023-01-13",
         "seminarId": "2023-01-13-2023-01-13-ml-on-mac-m1-silicon",
@@ -44372,16 +44632,9 @@
     "slug": "coding-assistants",
     "firstSeen": "2023-01-20",
     "seminarCount": 0,
-    "pointCount": 4,
+    "pointCount": 3,
     "seminarIds": [],
     "timeline": [
-      {
-        "date": null,
-        "seminarId": "unknown-da-05-synapse",
-        "claim": "Azure Synapse Analytics - Components Synapse Studio –",
-        "videoUrl": null,
-        "slideIndex": 2
-      },
       {
         "date": "2022-10-28",
         "seminarId": "2022-10-28-2022-10-28-vscode",

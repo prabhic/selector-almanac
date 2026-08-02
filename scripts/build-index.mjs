@@ -7,6 +7,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildSessionPoints } from "./lib/corpus.mjs";
+import { linksForSlide } from "./lib/links.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -38,7 +39,12 @@ function buildSlides(seminars) {
   const out = {};
   for (const s of seminars) {
     if (!s.slides?.length) continue;
-    out[s.id] = s.slides.map((sl) => [sl.index, sl.title ?? "", sl.text ?? ""]);
+    out[s.id] = s.slides.map((sl) => {
+      const links = linksForSlide(sl, { max: 8 });
+      const row = [sl.index, sl.title ?? "", sl.text ?? ""];
+      if (links.length) row.push(links);
+      return row;
+    });
   }
   return out;
 }

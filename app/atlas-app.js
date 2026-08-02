@@ -1,5 +1,6 @@
 import { DCLogic } from "./dc-shim.js";
 import { searchIndex } from "./search.js";
+import { linksFromPt, linksFromSlideRow } from "./links.js";
 
 const TOPIC_LABELS = {
   claude: "Claude / Anthropic", openai: "OpenAI / GPT", google: "Google / Gemini",
@@ -20,6 +21,37 @@ const SOURCE_REPO = "https://github.com/prabhic/selector-almanac";
 const DEMO_URL = "http://prabhanjan.in/selector-almanac/app/";
 const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const STOP = new Set(["the","a","an","of","in","on","to","and","or","for","is","was","did","does","do","when","what","how","why","who","first","about","with","it","he","lev","talk","talked","say","said","cover","covered","up","come","came","that","this","are","were"]);
+
+function monthKey(y, m) {
+  return y + "-" + (m < 10 ? "0" + m : "" + m);
+}
+
+function monthKeyFromDate(d = new Date()) {
+  return monthKey(d.getFullYear(), d.getMonth() + 1);
+}
+
+/** Atlas grid runs through the later of corpus last month and today's calendar month. */
+function atlasEndMonth(data) {
+  let end = monthKeyFromDate();
+  (data || []).forEach(s => {
+    if (!s.d) return;
+    const k = s.d.slice(0, 7);
+    if (k > end) end = k;
+  });
+  return end;
+}
+
+function buildMonthsAll(endMonth) {
+  const endY = parseInt(endMonth.slice(0, 4), 10);
+  const monthsAll = [];
+  for (let y = 2021; y <= endY; y++) {
+    for (let m = 1; m <= 12; m++) {
+      const key = monthKey(y, m);
+      if (key <= endMonth) monthsAll.push(key);
+    }
+  }
+  return monthsAll;
+}
 
 /** Month columns for the atlas heatmap; trailing month is 2× wide (still in progress). */
 function buildAtlasColumns(monthsAll) {
@@ -90,7 +122,7 @@ export class AtlasApp extends DCLogic {
     if (!allowed || !this.state.data || !this.state.data.length || !cAll.length) return cAll;
     if (this._memo && this._memo.key === key) return this._memo.list;
     const semById = this._semById || {};
-    const maxT = new Date("2026-07-31").getTime(), DAY = 864e5;
+    const maxT = Date.now(), DAY = 864e5;
     const list = cAll.map(c => {
       const m = c.m.filter(x => allowed[x[0]]);
       if (!m.length) return null;
@@ -127,6 +159,9 @@ export class AtlasApp extends DCLogic {
       .then(([data, concepts]) => {
         this.setState({ data, concepts, loadError: null });
         if ((this.state.activeQ || "").trim()) this.refreshSearch();
+        fetch("../data/slides.json").then((r) => (r.ok ? r.json() : {})).then((slides) => {
+          if (slides && Object.keys(slides).length) this.setState({ slides });
+        }).catch(() => {});
       })
       .catch((err) => {
         this.setState({ loadError: String(err.message || err), data: null });
@@ -139,7 +174,7 @@ export class AtlasApp extends DCLogic {
     if (h) {
       if (h.q) this._draftQ = h.q;
       this.setState({
-        view: (h.v === "stream" ? "sessions" : h.v) || this.state.view, concept: h.c || null, activeQ: h.q || "",
+        view: (h.v === "stream" ? "sessions" : h.v === "receipts" ? "ask" : h.v) || this.state.view, concept: h.c || null, activeQ: h.q || "",
         year: h.y || "all", topic: h.t || "all", pins: h.p ? h.p.split(",") : [],
         cell: h.cell ? (() => { const [k, month] = h.cell.split(","); return k && month ? { k, month } : null; })() : null
       });
@@ -164,13 +199,81 @@ export class AtlasApp extends DCLogic {
     const p = d.split("-");
     return MONTHS[parseInt(p[1], 10) - 1] + " " + parseInt(p[2], 10) + ", " + p[0];
   }
+  fmtMonth(ym) {
+    if (!ym || ym.length < 7) return ym || "—";
+    const p = ym.split("-");
+    return MONTHS[parseInt(p[1], 10) - 1] + " " + p[0];
+  }
   hasTs(sec) { return typeof sec === "number" && sec >= 0; }
+
+  /** Backfill chapter time from index.pt when concepts.m still has sec=-1. */
+  enrichMention(s, sec, slide, text) {
+    if (this.hasTs(sec)) return { sec, slide, text };
+    const pts = s?.pt || [];
+    if (slide >= 0) {
+      const bySlide = pts.find(p => p[2] === slide);
+      if (bySlide && this.hasTs(bySlide[1])) return { sec: bySlide[1], slide: bySlide[2], text };
+    }
+    const words = (text || "").toLowerCase().replace(/[^\w\s]/g, " ").split(/\s+/).filter(w => w.length > 4);
+    const hit = pts.find(p => {
+      const hay = p[0].toLowerCase();
+      return words.some(w => hay.includes(w));
+    });
+    if (hit && this.hasTs(hit[1])) {
+      return { sec: hit[1], slide: hit[2] >= 0 ? hit[2] : slide, text };
+    }
+    return { sec, slide, text };
+  }
 
   fmtTs(sec) {
     if (!this.hasTs(sec)) return "—";
     const h = Math.floor(sec / 3600), m = Math.floor((sec % 3600) / 60), s = Math.floor(sec % 60);
     const pad = n => (n < 10 ? "0" + n : "" + n);
     return h ? h + ":" + pad(m) + ":" + pad(s) : m + ":" + pad(s);
+  }
+
+  sourceLinksFor(s, slideIdx, ptRow) {
+    const fromPt = linksFromPt(ptRow);
+    if (fromPt.length) return fromPt;
+    const slides = this.state.slides?.[s.id];
+    if (slides && slideIdx >= 0) {
+      const row = slides.find((x) => x[0] === slideIdx);
+      return linksFromSlideRow(row);
+    }
+    return [];
+  }
+
+  findPtRow(s, sec, slide, text) {
+    const pt = s.pt || [];
+    if (slide >= 0) {
+      const hit = pt.find((p) => p[2] === slide);
+      if (hit) return hit;
+    }
+    if (this.hasTs(sec)) {
+      const hit = pt.find((p) => p[1] === sec);
+      if (hit) return hit;
+    }
+    if (text) {
+      const hit = pt.find((p) => p[0] === text);
+      if (hit) return hit;
+    }
+    return null;
+  }
+
+  receiptRow(s, { sec, slide, text, ptRow }) {
+    const timed = this.hasTs(sec) && !!s.v;
+    return {
+      dateLabel: this.fmtDate(s.d),
+      seriesLabel: SERIES_LABELS[s.se] || s.se,
+      text: text,
+      tsLabel: timed ? "▶ " + this.fmtTs(sec) : (s.v ? "deck outline · no timestamp" : "deck only · no video"),
+      tsStyle: this.receiptStyle(timed),
+      ytUrl: s.v ? "https://www.youtube.com/watch?v=" + s.v.id + (timed ? "&t=" + sec + "s" : "") : "https://www.youtube.com/@lev-selector",
+      deckUrl: s.dk ? s.dk.u : "https://github.com/lselector/seminar",
+      slideLabel: slide ? "Slide " + slide + " ↗" : "Deck ↗",
+      sourceLinks: this.sourceLinksFor(s, slide ?? -1, ptRow),
+      open: () => this.open(s.id, timed ? sec : 0)
+    };
   }
 
   tokens(q) {
@@ -264,6 +367,10 @@ export class AtlasApp extends DCLogic {
     let p;
     if (chunk.pi >= 0 && s.pt && s.pt[chunk.pi]) p = s.pt[chunk.pi];
     else p = [chunk.t, chunk.sec >= 0 ? chunk.sec : -1, chunk.sl >= 0 ? chunk.sl : -1, chunk.tp, chunk.td ? "y" : "o"];
+    if (chunk.lk?.length && !p[5]) {
+      p = p.slice();
+      p[5] = chunk.lk;
+    }
     return { s, p, score };
   }
 
@@ -335,7 +442,19 @@ export class AtlasApp extends DCLogic {
     return { hits, conceptFromSearch: [], pending: false, mode: "legacy" };
   }
 
-  setView(v) { this.setState({ view: v }); }
+  setView(v) {
+    if (v === "atlas" && this.state.view === "atlas") {
+      this.clearScopeFilters();
+      return;
+    }
+    this.setState({ view: v });
+  }
+
+  clearScopeFilters() {
+    this._memo = null;
+    this.setState({ year: "all", topic: "all", cell: null, limit: 30 });
+    if ((this.state.activeQ || "").trim()) this.refreshSearch();
+  }
   open(id, start) { this.setState({ detailId: id, detailStart: start || 0 }); }
 
   commitSearch() {
@@ -397,7 +516,18 @@ export class AtlasApp extends DCLogic {
     const yearSet = {};
     data.forEach(s => { if (s.d) yearSet[s.d.slice(0, 4)] = true; });
     const years = [{ label: "All", key: "all" }].concat(Object.keys(yearSet).sort().reverse().map(y => ({ label: y, key: y })))
-      .map(y => ({ label: y.label, style: this.chipStyle(st.year === y.key), onClick: () => { this.setState({ year: y.key, limit: 30 }); this.refreshSearch(); } }));
+      .map(y => ({
+        label: y.label,
+        style: this.chipStyle(st.year === y.key),
+        onClick: () => {
+          this._memo = null;
+          if (y.key === "all" && st.year === "all") this.clearScopeFilters();
+          else {
+            this.setState({ year: y.key, limit: 30 });
+            if ((this.state.activeQ || "").trim()) this.refreshSearch();
+          }
+        },
+      }));
 
     // topic counts (chapter mentions)
     const counts = {};
@@ -405,7 +535,19 @@ export class AtlasApp extends DCLogic {
     const topics = [{ key: "all", label: "All topics", count: stats.chapters }].concat(
       Object.keys(counts).filter(k => k !== "general").sort((a, b) => counts[b] - counts[a])
         .map(k => ({ key: k, label: TOPIC_LABELS[k] || k, count: counts[k] }))
-    ).map(t => ({ label: t.label, count: t.count, style: this.rowStyle(st.topic === t.key), onClick: () => { this.setState({ topic: t.key, limit: 30 }); this.refreshSearch(); } }));
+    ).map(t => ({
+      label: t.label,
+      count: t.count,
+      style: this.rowStyle(st.topic === t.key),
+      onClick: () => {
+        this._memo = null;
+        if (t.key === "all" && st.topic === "all") this.clearScopeFilters();
+        else {
+          this.setState({ topic: t.key, limit: 30 });
+          if ((this.state.activeQ || "").trim()) this.refreshSearch();
+        }
+      },
+    }));
 
     const matched = this.matchSeminars();
     const scopeBits = [];
@@ -415,9 +557,9 @@ export class AtlasApp extends DCLogic {
 
     const tabDefs = [
       { key: "atlas", label: "Atlas", on: true },
-      { key: "concepts", label: "Concepts", on: true },
-      { key: "ask", label: "Receipts", on: !!st.activeQ },
-      { key: "sessions", label: "Sessions", on: true }
+      { key: "sessions", label: "Sessions", on: true },
+      { key: "ask", label: "Results", on: !!st.activeQ },
+      { key: "concepts", label: "Concepts", on: true }
     ];
     const tabs = tabDefs.map(t => {
       const s = this.tabStyle(st.view === t.key && (t.key !== "ask" || !!st.activeQ));
@@ -435,11 +577,9 @@ export class AtlasApp extends DCLogic {
     let allowed = null;
     if (filtersOn) { allowed = {}; this.scoped().forEach(s => { allowed[s.id] = 1; }); }
     const cAll = this.deriveConcepts(st.concepts || [], allowed, st.year + "|" + st.topic + "|" + ((st.concepts || []).length) + "|" + data.length);
-    const monthsAll = [];
-    for (let y = 2021; y <= 2026; y++) for (let m = 1; m <= 12; m++) {
-      const key = y + "-" + (m < 10 ? "0" + m : m);
-      if (key <= "2026-07") monthsAll.push(key);
-    }
+    const endMonth = atlasEndMonth(data);
+    const endYear = endMonth.slice(0, 4);
+    const monthsAll = buildMonthsAll(endMonth);
     const monthIdx = {}; monthsAll.forEach((m, i) => { monthIdx[m] = i; });
     const spark = months => {
       const series = new Array(monthsAll.length).fill(0);
@@ -468,7 +608,7 @@ export class AtlasApp extends DCLogic {
       items: cAll.filter(c => g[1].indexOf(c.kind) >= 0).sort(conceptByRecency).map(c => ({
         label: c.label, status: c.status,
         statusStyle: statusStyle(c.status),
-        n: c.n + " receipts", sem: c.sem + " sessions",
+        n: c.n + " mentions", sem: c.sem + " sessions",
         since: "since " + this.fmtDate(c.first),
         spark: spark(c.months),
         open: () => openConcept(c.k)
@@ -478,24 +618,16 @@ export class AtlasApp extends DCLogic {
     let dossier = { months: [], years: [], co: [], receipts: [] };
     const cSel = st.concept ? cAll.find(c => c.k === st.concept) : null;
     if (cSel) {
-      const mrec = cSel.m.map(x => ({ s: semById[x[0]], sec: x[1], slide: x[2], text: x[3] }))
-        .filter(x => x.s)
+      const mrec = cSel.m.map(x => {
+        const s = semById[x[0]];
+        if (!s) return null;
+        const e = this.enrichMention(s, x[1], x[2], x[3]);
+        const ptRow = this.findPtRow(s, e.sec, e.slide, e.text);
+        return { s, sec: e.sec, slide: e.slide, text: e.text, ptRow };
+      }).filter(Boolean)
         .sort((a, b) => (a.s.d || "").localeCompare(b.s.d || ""));
       const mrecNewest = mrec.slice().reverse();
-      const rowOf = r => {
-        const timed = this.hasTs(r.sec) && !!r.s.v;
-        return {
-          dateLabel: this.fmtDate(r.s.d),
-          seriesLabel: SERIES_LABELS[r.s.se] || r.s.se,
-          text: r.text,
-          tsLabel: timed ? "▶ " + this.fmtTs(r.sec) : (r.s.v ? "deck outline · no timestamp" : "deck only · no video"),
-          tsStyle: this.receiptStyle(timed),
-          ytUrl: r.s.v ? "https://www.youtube.com/watch?v=" + r.s.v.id + (timed ? "&t=" + r.sec + "s" : "") : "https://www.youtube.com/@lev-selector",
-          deckUrl: r.s.dk ? r.s.dk.u : "https://github.com/lselector/seminar",
-          slideLabel: r.slide ? "Slide " + r.slide + " ↗" : "Deck ↗",
-          open: () => this.open(r.s.id, timed ? r.sec : 0)
-        };
-      };
+      const rowOf = r => this.receiptRow(r.s, { sec: r.sec, slide: r.slide, text: r.text, ptRow: r.ptRow });
       const byYear = {};
       mrec.forEach(r => { const y = r.s.d.slice(0, 4); (byYear[y] = byYear[y] || []).push(r); });
       const mx = Math.max(1, ...cSel.months.map(x => x[1]));
@@ -505,7 +637,7 @@ export class AtlasApp extends DCLogic {
         kind: (cSel.kind.charAt(0).toUpperCase() + cSel.kind.slice(1)),
         status: cSel.status,
         statusStyle: statusStyle(cSel.status),
-        lead: cSel.n + " receipts across " + cSel.sem + " sessions — first on " + this.fmtDate(cSel.first) +
+        lead: cSel.n + " mentions across " + cSel.sem + " sessions — first on " + this.fmtDate(cSel.first) +
               ", last on " + this.fmtDate(cSel.last) + ". " +
               (cSel.status === "Rising" ? "Coverage is accelerating: " + cSel.recent + " mentions in the last six months against " + cSel.prior + " in the six before."
                : cSel.status === "Fading" ? "Coverage is cooling: " + cSel.recent + " mentions in the last six months against " + cSel.prior + " in the six before."
@@ -528,7 +660,7 @@ export class AtlasApp extends DCLogic {
             const key = r.text.toLowerCase().slice(0, 24);
             if (seen[key] || samples.length >= 3) return; seen[key] = 1; samples.push(rowOf(r));
           });
-          return { year: y, count: byYear[y].length + (byYear[y].length === 1 ? " receipt" : " receipts"), samples: samples };
+          return { year: y, count: byYear[y].length + (byYear[y].length === 1 ? " match" : " matches"), samples: samples };
         }),
         co: cSel.co.map(x => {
           const target = cAll.find(c => c.label === x[0]);
@@ -536,9 +668,9 @@ export class AtlasApp extends DCLogic {
         }),
         receipts: mrecNewest.slice(0, st.cLimit).map(rowOf),
         hasMore: mrec.length > st.cLimit,
-        moreLabel: "Show " + Math.min(60, mrec.length - st.cLimit) + " more receipts",
+        moreLabel: "Show " + Math.min(60, mrec.length - st.cLimit) + " more matches",
         more: () => this.setState({ cLimit: st.cLimit + 60 }),
-        allLabel: cSel.n + " receipts, newest first",
+        allLabel: cSel.n + " matches, newest first",
         back: () => this.setState({ concept: null })
       };
     }
@@ -546,13 +678,16 @@ export class AtlasApp extends DCLogic {
     // ---- ATLAS: every thread on one time grid ----
     let atlas = {
       rows: [], yearTicks: [], sorts: [], hasPins: false, pinNote: "", clearPins: () => {},
-      intro: "Loading the corpus — every thread on one 2021–2026 grid.", hoverLabel: "Hover a row to read a month"
+      intro: "Loading the corpus — every thread on one 2021–" + endYear + " grid.", hoverLabel: "Hover a square — each one is a calendar month", gridLegend: "Squares = months"
     };
     if (st.view === "atlas" && cAll.length) {
-      atlas.intro = cAll.length + " threads on one 2021–2026 grid, stacked as they entered the corpus" +
+      atlas.intro = cAll.length + " threads on one 2021–" + endYear + " grid, stacked as they entered the corpus" +
         (filtersOn ? " — counted only within the current filter" : "") +
-        ". Darker red is a heavier month. Click a square for that month's receipts, ＋ to pin a thread for comparison, a name for the dossier.";
-      atlas.hoverLabel = st.hover ? st.hover.label + " · " + st.hover.month + " · " + st.hover.v + (st.hover.v === 1 ? " receipt" : " receipts") : "Hover a row to read a month";
+        ". Each square is one calendar month — Lev's weekly sessions stack inside it. Darker red = more mentions that month. Click a square for that month's matches, ＋ to pin a thread, a name for the dossier.";
+      atlas.hoverLabel = st.hover
+        ? st.hover.label + " · " + this.fmtMonth(st.hover.month) + " · " + st.hover.v + (st.hover.v === 1 ? " mention" : " mentions")
+        : "Hover a square — each one is a calendar month";
+      atlas.gridLegend = "Squares = months · wider right edge = current month in progress";
       const pinned = {}; st.pins.forEach(k => { pinned[k] = 1; });
       const sorted = cAll.slice().sort((a, b) => {
         const pa = pinned[a.k] ? 0 : 1, pb = pinned[b.k] ? 0 : 1;
@@ -566,7 +701,9 @@ export class AtlasApp extends DCLogic {
         { label: "By first appearance", style: this.tabStyle(st.atlasSort !== "volume"), onClick: () => this.setState({ atlasSort: "first" }) },
         { label: "By volume", style: this.tabStyle(st.atlasSort === "volume"), onClick: () => this.setState({ atlasSort: "volume" }) }
       ];
-      atlas.yearTicks = ["2021", "2022", "2023", "2024", "2025", "2026"].map(y => {
+      const yearLabels = [];
+      for (let y = 2021; y <= parseInt(endYear, 10); y++) yearLabels.push(String(y));
+      atlas.yearTicks = yearLabels.map(y => {
         const n = monthsAll.filter(m => m.slice(0, 4) === y).length;
         const flex = y === monthsAll[monthsAll.length - 1]?.slice(0, 4) ? n + 1 : n;
         return {
@@ -581,28 +718,25 @@ export class AtlasApp extends DCLogic {
         const isOpen = st.cell && st.cell.k === c.k && st.cell.month;
         let expanded = null;
         if (isOpen && st.cell.month) {
-          const recs = c.m.map(x => ({ s: semById[x[0]], sec: x[1], slide: x[2], text: x[3] }))
-            .filter(x => x.s && x.s.d.slice(0, 7) === st.cell.month)
-            .sort((a, b) => (a.s.d || "").localeCompare(b.s.d || "") || (b.text.length - a.text.length));
+          const recs = c.m.map(x => {
+            const s = semById[x[0]];
+            if (!s) return null;
+            const e = this.enrichMention(s, x[1], x[2], x[3]);
+            const ptRow = this.findPtRow(s, e.sec, e.slide, e.text);
+            return { s, sec: e.sec, slide: e.slide, text: e.text, ptRow };
+          }).filter(x => x && x.s.d.slice(0, 7) === st.cell.month)
+            .sort((a, b) => (b.s.d || "").localeCompare(a.s.d || "") || (b.text.length - a.text.length));
           expanded = {
             key: c.k,
             month: st.cell.month,
-            title: c.label + " · " + st.cell.month,
-            count: recs.length + (recs.length === 1 ? " receipt" : " receipts") + " that month",
+            title: c.label + " · " + this.fmtMonth(st.cell.month),
+            count: recs.length + (recs.length === 1 ? " mention" : " mentions") + " that month" +
+              (recs.length > 5 ? " · showing 5 newest weekly sessions" : ""),
             close: () => this.setState({ cell: null }),
             openThread: () => openConcept(c.k),
-            rows: recs.slice(0, 5).map(r => {
-              const timed = this.hasTs(r.sec) && !!r.s.v;
-              return {
-                dateLabel: this.fmtDate(r.s.d), text: r.text,
-                tsLabel: timed ? "▶ " + this.fmtTs(r.sec) : (r.s.v ? "deck outline · no timestamp" : "deck only · no video"),
-                tsStyle: this.receiptStyle(timed),
-                deckUrl: r.s.dk ? r.s.dk.u : "https://github.com/lselector/seminar",
-                slideLabel: r.slide ? "Slide " + r.slide + " ↗" : "Deck ↗",
-                ytUrl: r.s.v ? "https://www.youtube.com/watch?v=" + r.s.v.id + (timed ? "&t=" + r.sec + "s" : "") : "https://www.youtube.com/@lev-selector",
-                open: () => this.open(r.s.id, timed ? r.sec : 0)
-              };
-            })
+            rows: recs.slice(0, 5).map(r => this.receiptRow(r.s, {
+              sec: r.sec, slide: r.slide, text: r.text, ptRow: r.ptRow
+            }))
           };
         }
         const buckets = [[], [], [], [], []];
@@ -700,7 +834,7 @@ export class AtlasApp extends DCLogic {
       ask.lead = pending
         ? "Searching corpus… loading semantic model on first query may take a few seconds."
         : hits.length
-        ? hits.length + " ranked receipt" + (hits.length === 1 ? "" : "s") + " across " + weeksWith.length + " sessions. First on " + this.fmtDate(firstHit && firstHit.d) +
+        ? hits.length + " ranked match" + (hits.length === 1 ? "" : "es") + " across " + weeksWith.length + " sessions. First on " + this.fmtDate(firstHit && firstHit.d) +
           ", most recently " + this.fmtDate(lastHit && lastHit.d) + ". Heaviest week: " + this.fmtDate(peak && peak.d) +
           " with " + (peak ? peak.n : 0) + " hits." + modeLabel +
           " Every line below is from Lev's video or deck — nothing paraphrased."
@@ -710,7 +844,7 @@ export class AtlasApp extends DCLogic {
       ask.first = this.fmtDate(firstHit && firstHit.d);
       ask.last = this.fmtDate(lastHit && lastHit.d);
       ask.peakLabel = peak && peak.n ? "peak " + peak.n + " · " + this.fmtDate(peak.d) : "";
-      ask.receiptsLabel = "Ranked receipts — chapter, timestamp, slide";
+      ask.receiptsLabel = "Ranked matches — chapter, timestamp, slide, cited sources";
       ask.findings = hits.slice(0, st.limit).map(hit => {
         const s = hit.s, p = hit.p;
         return {
@@ -723,11 +857,12 @@ export class AtlasApp extends DCLogic {
           deckUrl: s.dk ? s.dk.u : "https://github.com/lselector/seminar",
           slideLabel: p[2] >= 0 ? "Slide " + p[2] + " ↗" : "Deck ↗",
           topicLabel: TOPIC_LABELS[p[3]] || p[3],
+          sourceLinks: this.sourceLinksFor(s, p[2], p),
           open: () => this.open(s.id, this.hasTs(p[1]) ? p[1] : 0)
         };
       });
       ask.hasMore = hits.length > st.limit;
-      ask.moreLabel = "Show " + Math.min(30, hits.length - st.limit) + " more receipts";
+      ask.moreLabel = "Show " + Math.min(30, hits.length - st.limit) + " more results";
       ask.more = () => this.setState({ limit: st.limit + 30 });
     }
 
@@ -739,7 +874,7 @@ export class AtlasApp extends DCLogic {
           if (!c) return;
           conceptHits.push({
             label: c.label,
-            meta: c.n + " thread receipts · " + c.status + " · since " + this.fmtDate(c.first),
+            meta: c.n + " thread mentions · " + c.status + " · since " + this.fmtDate(c.first),
             open: () => openConcept(c.k)
           });
         });
@@ -750,7 +885,7 @@ export class AtlasApp extends DCLogic {
           return toks.some(t => hay.indexOf(t) >= 0);
         }).slice(0, 4).map(c => ({
           label: c.label,
-          meta: c.n + " thread receipts · " + c.status + " · since " + this.fmtDate(c.first),
+          meta: c.n + " thread mentions · " + c.status + " · since " + this.fmtDate(c.first),
           open: () => openConcept(c.k)
         }));
       }
@@ -831,16 +966,22 @@ export class AtlasApp extends DCLogic {
         slidesLabel: (sel.ns || 0) + " slides in the deck",
         chapters: (sel.ch || []).map(c => {
           const timed = this.hasTs(c[1]);
+          const slideNum = slideMap[c[1]];
+          const ptRow = this.findPtRow(sel, c[1], slideNum ?? -1, c[0]);
           return {
             ts: timed ? this.fmtTs(c[1]) : "deck",
             title: c[0],
-            slide: slideMap[c[1]] ? "slide " + slideMap[c[1]] : (timed ? "" : "outline"),
+            slide: slideNum ? "slide " + slideNum : (timed ? "" : "outline"),
             style: this.rowStyle(timed && st.detailStart === c[1]),
-            play: () => { if (timed) this.setState({ detailStart: c[1] }); }
+            play: () => { if (timed) this.setState({ detailStart: c[1] }); },
+            sourceLinks: this.sourceLinksFor(sel, slideNum ?? -1, ptRow)
           };
         }),
         slides: (st.slides && st.slides[sel.id] ? st.slides[sel.id] : []).map(x => ({
-          n: x[0], text: (x[2] || x[1] || "").slice(0, 320)
+          n: x[0],
+          title: x[1] || "",
+          text: (x[2] || x[1] || "").slice(0, 320),
+          sourceLinks: linksFromSlideRow(x)
         }))
       };
       if (!st.slides) this.loadSlides();

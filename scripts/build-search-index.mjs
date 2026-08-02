@@ -28,6 +28,7 @@ function compactChunk(c, i) {
     t: c.t,
   };
   if (c.ck) row.ck = c.ck;
+  if (c.lk?.length) row.lk = c.lk;
   return row;
 }
 

@@ -70,6 +70,21 @@ function tagLink(href, label, cls = "tag tag-outline") {
   return `<a class="${cls}" href="${esc(href)}" target="_blank" rel="noopener" style="border-radius:0">${esc(label)}</a>`;
 }
 
+function renderSourceLinks(links, max = 5) {
+  if (!links?.length) return "";
+  return links.slice(0, max).map((l) => tagLink(l.u, l.label, "tag tag-outline")).join("");
+}
+
+function renderReceipt(r) {
+  return `
+    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+      ${btn(r.open, r.tsLabel, r.tsStyle)}
+      ${tagLink(r.deckUrl, r.slideLabel)}
+      ${r.ytUrl ? tagLink(r.ytUrl, "YouTube ↗", "tag tag-neutral") : ""}
+      ${renderSourceLinks(r.sourceLinks)}
+    </div>`;
+}
+
 function renderSidebar(v) {
   const years = v.years.map((y) => btn(y.onClick, y.label, y.style, "tag")).join("");
   const topics = v.topics
@@ -85,7 +100,7 @@ function renderSidebar(v) {
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-variant-numeric:tabular-nums">
         <div><div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-neutral-600)">Sessions</div><div style="font-family:var(--font-heading);font-weight:700;font-size:22px">${esc(v.stats.weeks)}</div></div>
         <div><div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-neutral-600)">Videos</div><div style="font-family:var(--font-heading);font-weight:700;font-size:22px">${esc(v.stats.videos)}</div></div>
-        <div><div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-neutral-600)">Timed receipts</div><div style="font-family:var(--font-heading);font-weight:700;font-size:22px">${esc(v.stats.chapters)}</div></div>
+        <div><div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-neutral-600)">Timed chapters</div><div style="font-family:var(--font-heading);font-weight:700;font-size:22px">${esc(v.stats.chapters)}</div></div>
         <div><div style="font-size:10px;letter-spacing:0.12em;text-transform:uppercase;color:var(--color-neutral-600)">Slides</div><div style="font-family:var(--font-heading);font-weight:700;font-size:22px">${esc(v.stats.slides)}</div></div>
       </div>
       <div style="font-size:11px;color:var(--color-neutral-600)">${esc(v.stats.outline)} deck-outline chapters (no timestamp)</div>
@@ -122,15 +137,6 @@ function renderHeader(v) {
     </header>`;
 }
 
-function renderReceipt(r) {
-  return `
-    <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
-      ${btn(r.open, r.tsLabel, r.tsStyle)}
-      ${tagLink(r.deckUrl, r.slideLabel)}
-      ${r.ytUrl ? tagLink(r.ytUrl, "YouTube ↗", "tag tag-neutral") : ""}
-    </div>`;
-}
-
 function renderConcepts(v) {
   if (!v.isConceptIndex) return "";
   const groups = v.conceptGroups.map((g) => {
@@ -161,10 +167,9 @@ function renderDossier(v) {
     const samples = y.samples.map((r) => `
       <div style="display:flex;flex-direction:column;gap:5px">
         <div style="font-size:16px;line-height:1.4">${esc(r.text)}</div>
-        <div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+        <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:6px">
           <span style="font-size:12px;color:var(--color-neutral-600);font-variant-numeric:tabular-nums">${esc(r.dateLabel)}</span>
-          ${btn(r.open, r.tsLabel, r.tsStyle)}
-          ${tagLink(r.deckUrl, r.slideLabel)}
+          ${renderReceipt(r)}
         </div>
       </div>`).join("");
     return `<div style="display:grid;grid-template-columns:108px minmax(0,1fr);gap:24px;border-bottom:1px solid var(--color-neutral-300);padding:18px 0">
@@ -197,9 +202,7 @@ function renderDossier(v) {
       <div style="font-family:var(--font-heading);font-weight:700;font-size:22px;line-height:1.25;letter-spacing:-0.015em">${esc(d.origin.text)}</div>
       <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
         <span style="font-size:13px;color:var(--color-neutral-700)">${esc(d.origin.dateLabel)} · ${esc(d.origin.seriesLabel)}</span>
-        ${btn(d.origin.open, d.origin.tsLabel, d.origin.tsStyle)}
-        ${tagLink(d.origin.deckUrl, d.origin.slideLabel)}
-        ${tagLink(d.origin.ytUrl, "YouTube ↗", "tag tag-neutral")}
+        ${renderReceipt(d.origin)}
       </div>
     </div>
     <div><div style="font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:var(--color-neutral-600);border-bottom:2px solid var(--color-divider);padding-bottom:8px">How the framing moved, year by year</div>${years}</div>
@@ -226,6 +229,7 @@ function renderAsk(v) {
           ${tagLink(f.ytUrl, "YouTube ↗", "tag tag-neutral")}
           <span style="font-size:12px;color:var(--color-neutral-600)">${esc(f.topicLabel)}</span>
         </div>
+        ${f.sourceLinks?.length ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">${renderSourceLinks(f.sourceLinks, 6)}</div>` : ""}
       </div>
     </article>`).join("");
 
@@ -318,7 +322,7 @@ function renderAtlas(v) {
     </div>
     <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">${sorts}</div>
     <div style="display:flex;align-items:stretch;gap:0;border-bottom:2px solid var(--color-divider);padding-bottom:6px">
-      <div style="flex:0 0 216px"></div><div style="flex:1;display:flex">${ticks}</div>
+      <div style="flex:0 0 216px;font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-neutral-600);align-self:flex-end;padding-bottom:2px">${esc(a.gridLegend)}</div><div style="flex:1;display:flex">${ticks}</div>
     </div>
     <div style="display:flex;align-items:center;gap:14px;min-height:18px">
       <div style="font-size:12px;color:var(--color-neutral-700);font-variant-numeric:tabular-nums">${esc(a.hoverLabel)}</div>
@@ -344,8 +348,17 @@ function renderDetail(v) {
       <div style="font-size:14px;color:var(--color-neutral-700)">No video matched to this deck in the index — slides only.</div>
       ${tagLink(d.deckUrl, "Slide deck ↗", "btn btn-secondary")}
     </div>`;
-  const chapters = d.chapters.map((c) => btn(c.play, `<span style="font-variant-numeric:tabular-nums;color:var(--color-accent-700);font-size:13px;width:52px;flex:0 0 52px;text-align:left">${esc(c.ts)}</span><span style="flex:1;text-align:left;font-size:14px;line-height:1.35">${esc(c.title)}</span><span style="font-size:11px;color:var(--color-neutral-600);white-space:nowrap">${esc(c.slide)}</span>`, c.style, "", "", true)).join("");
-  const slides = d.slides.map((s) => `<div style="border-bottom:1px solid var(--color-neutral-300);padding:10px 0"><div style="font-size:11px;color:var(--color-neutral-600)">Slide ${esc(s.n)}</div><div style="font-size:13px;line-height:1.45">${esc(s.text)}</div></div>`).join("");
+  const chapters = d.chapters.map((c) => `
+    <div style="border-bottom:1px solid var(--color-neutral-300);padding:10px 0">
+      ${btn(c.play, `<span style="font-variant-numeric:tabular-nums;color:var(--color-accent-700);font-size:13px;width:52px;flex:0 0 52px;text-align:left">${esc(c.ts)}</span><span style="flex:1;text-align:left;font-size:14px;line-height:1.35">${esc(c.title)}</span><span style="font-size:11px;color:var(--color-neutral-600);white-space:nowrap">${esc(c.slide)}</span>`, c.style, "", "", true)}
+      ${c.sourceLinks?.length ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;padding-left:52px">${renderSourceLinks(c.sourceLinks, 6)}</div>` : ""}
+    </div>`).join("");
+  const slides = d.slides.map((s) => `
+    <div style="border-bottom:1px solid var(--color-neutral-300);padding:10px 0">
+      <div style="font-size:11px;color:var(--color-neutral-600)">Slide ${esc(s.n)}${s.title ? " · " + esc(s.title) : ""}</div>
+      <div style="font-size:13px;line-height:1.45;margin-top:4px">${esc(s.text)}</div>
+      ${s.sourceLinks?.length ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:8px">${renderSourceLinks(s.sourceLinks, 8)}</div>` : ""}
+    </div>`).join("");
 
   return `
     <div data-act="${bind(v.closeDetail)}" style="position:fixed;inset:0;background:rgba(32,30,29,0.28);z-index:19"></div>

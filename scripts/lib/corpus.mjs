@@ -2,6 +2,7 @@
  * Search corpus + compact session points — single source of truth for indexing.
  */
 import { tagAllTopics, extractTopics, isNoiseChapter } from "./topics.mjs";
+import { linksForSeminarPoint } from "./links.mjs";
 
 const SERIES_LABEL = {
   "ai-weekly": "AI Weekly",
@@ -52,7 +53,10 @@ export function buildSessionPoints(seminar, { maxSlidePoints = 12 } = {}) {
       const sec = timed ? c.startSeconds : -1;
       const slideIdx = slide?.index ?? null;
       if (slideIdx != null) slideMap[sec] = slideIdx;
-      pt.push([c.title, sec, slideIdx ?? -1, topic, timed ? "y" : "o"]);
+      const links = linksForSeminarPoint(seminar, slideIdx ?? -1, c.title);
+      const row = [c.title, sec, slideIdx ?? -1, topic, timed ? "y" : "o"];
+      if (links.length) row.push(links);
+      pt.push(row);
     }
   }
 
@@ -64,13 +68,16 @@ export function buildSessionPoints(seminar, { maxSlidePoints = 12 } = {}) {
       const dup = pt.some((p) => p[2] === slide.index);
       if (dup) continue;
       const topic = extractTopics(slide.text, slide.title, seminar.title)[0] ?? seminar.topics?.[0] ?? "general";
-      pt.push([
+      const links = linksForSeminarPoint(seminar, slide.index);
+      const row = [
         slide.title || `Slide ${slide.index}`,
         -1,
         slide.index,
         topic,
         "o",
-      ]);
+      ];
+      if (links.length) row.push(links);
+      pt.push(row);
       added++;
     }
   }
@@ -121,6 +128,7 @@ export function buildSearchChunks(seminars, concepts = []) {
         td: kind === "y",
         t: title,
         b: "",
+        lk: pt[pi]?.[5] ?? [],
         ...ctx,
       });
     }
@@ -128,6 +136,7 @@ export function buildSearchChunks(seminars, concepts = []) {
     for (const slide of seminar.slides ?? []) {
       if (usedSlides.has(slide.index) || isNoiseSlide(slide)) continue;
       const topic = extractTopics(slide.text, slide.title, seminar.title)[0] ?? seminar.topics?.[0] ?? "general";
+      const links = linksForSeminarPoint(seminar, slide.index);
       chunks.push({
         sid: seminar.id,
         ty: "slide",
@@ -139,6 +148,7 @@ export function buildSearchChunks(seminars, concepts = []) {
         td: false,
         t: slide.title || `Slide ${slide.index}`,
         b: (slide.text ?? "").slice(0, MAX_SLIDE_BODY_INDEX),
+        lk: links,
         ...ctx,
       });
     }

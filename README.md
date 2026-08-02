@@ -2,7 +2,7 @@
 
 **An unofficial, open-source index of [Lev Selector](https://www.youtube.com/@lev-selector)'s weekly AI seminars.**
 
-Browse years of weekly talks and [GitHub slide decks](https://github.com/lselector/seminar) on one Atlas grid — searchable, with every receipt deep-linked to the exact YouTube moment and slide.
+Browse years of weekly talks and [GitHub slide decks](https://github.com/lselector/seminar) on one Atlas grid — searchable, with every match deep-linked to the exact YouTube moment and slide.
 
 > **Not affiliated with Lev Selector** unless he chooses to adopt this project. All seminar content © Lev Selector. This is a derived lens, not a replacement — every view links back to his originals. See [ATTRIBUTION.md](ATTRIBUTION.md).
 
@@ -31,6 +31,7 @@ npm run serve          # http://localhost:3456/app/
 | Command | Purpose |
 |---------|---------|
 | `npm run ingest` | Ingest + slide text extraction |
+| `npm run ingest:refresh` | Weekly: re-match recent YouTube + rebuild index/search/embed |
 | `npm run ingest:all` | Full corpus 2021+ (slow; needs [yt-dlp](https://github.com/yt-dlp/yt-dlp)) |
 | `npm run index` | Rebuild `data/index.json` |
 | `npm run search:index` | Rebuild BM25 search corpus |
@@ -39,11 +40,10 @@ npm run serve          # http://localhost:3456/app/
 
 ## Features
 
-- **Atlas** — topic heatmap across months; pin threads; cell drill-down with receipts
+- **Atlas** — topic heatmap across months; pin threads; cell drill-down with matches
 - **Concepts** — longitudinal threads with dossiers and timestamps
-- **Search** — hybrid BM25 + semantic retrieval (MiniLM); press **Enter** in the search box
+- **Results** — hybrid BM25 + semantic search (press **Enter**); ranked hits with YouTube `&t=` links and slide anchors
 - **Sessions** — reverse-chronological browse
-- **Receipts** — ranked hits with YouTube `&t=` links and slide anchors
 
 Hosting is **fully static** — GitHub Pages works; no server required. See [docs/search.md](docs/search.md).
 
@@ -61,10 +61,20 @@ Hosting is **fully static** — GitHub Pages works; no server required. See [doc
 
 ## Data refresh
 
-After new seminars on YouTube/GitHub:
+**Weekly (after Friday AI-Updates video + deck land):**
 
 ```bash
-npm run ingest && npm run build
+npm run ingest:refresh          # re-match YouTube for deck-only + last 4 weeks, then rebuild search
+# or one session:
+node scripts/refresh-recent.mjs --date 2026-07-31 && npm run build
+```
+
+Requires [yt-dlp](https://github.com/yt-dlp/yt-dlp). Re-parses PPTX only when needed: `npm run ingest:refresh:parse`.
+
+**Full corpus rebuild** (new decks in GitHub, annual backfill):
+
+```bash
+npm run ingest:all && npm run build
 ```
 
 Commit updated `data/` (not `data/raw/`, which is gitignored). First semantic search in the browser downloads the MiniLM model (~23 MB, once cached).
