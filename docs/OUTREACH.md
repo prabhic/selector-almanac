@@ -6,8 +6,8 @@ Use this when opening a GitHub issue, YouTube comment, or email.
 
 Replace placeholders before sending:
 
-- **Demo:** `https://prabhic.github.io/selector-almanac/app/`
-- **Source:** `https://github.com/prabhic/selector-almanac`
+- **Demo:** http://prabhanjan.in/selector-almanac/app/
+- **Source:** https://github.com/prabhic/selector-almanac
 
 ## Suggested GitHub issue (on [lselector/seminar](https://github.com/lselector/seminar))
 
@@ -20,7 +20,7 @@ Hi Lev —
 
 I've been following your weekly AI seminars and built an open-source **Lev Selector Almanac**: a searchable timeline of your talks where every result links to a YouTube timestamp and the matching slide on this repo.
 
-- **Demo:** https://prabhic.github.io/selector-almanac/app/
+- **Demo:** http://prabhanjan.in/selector-almanac/app/
 - **Code:** https://github.com/prabhic/selector-almanac (MIT; attribution in README)
 
 It only indexes your public YouTube channel and this `seminar` repo — no rehosted videos or decks. Happy to adjust, contribute it here, transfer the repo, or leave it as an unofficial community tool — whatever you prefer.

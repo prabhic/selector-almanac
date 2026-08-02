@@ -6,13 +6,11 @@ Browse years of weekly talks and [GitHub slide decks](https://github.com/lselect
 
 > **Not affiliated with Lev Selector** unless he chooses to adopt this project. All seminar content © Lev Selector. This is a derived lens, not a replacement — every view links back to his originals. See [ATTRIBUTION.md](ATTRIBUTION.md).
 
-[![Live demo](https://img.shields.io/badge/demo-GitHub%20Pages-blue)](https://prabhic.github.io/selector-almanac/app/)
+[![Live demo](https://img.shields.io/badge/demo-live-blue)](http://prabhanjan.in/selector-almanac/app/)
 
 ## Live demo
 
-After you [publish to GitHub Pages](#publish-to-github-pages):
-
-`https://prabhic.github.io/selector-almanac/app/`
+**[prabhanjan.in/selector-almanac/app/](http://prabhanjan.in/selector-almanac/app/)** · [GitHub repo](https://github.com/prabhic/selector-almanac)
 
 Local:
 
@@ -87,7 +85,7 @@ Commit updated `data/` (not `data/raw/`, which is gitignored). First semantic se
 2. In the repo: **Settings → Pages → Build and deployment**
    - Source: **GitHub Actions**
 3. Push to `main` — the [pages workflow](.github/workflows/pages.yml) deploys the repo root.
-4. Open `https://prabhic.github.io/selector-almanac/app/`
+4. Open [prabhanjan.in/selector-almanac/app/](http://prabhanjan.in/selector-almanac/app/)
 
 ## Share with Lev
 
