@@ -18,6 +18,7 @@ const SERIES_LABELS = {
 };
 const SOURCE_REPO = "https://github.com/prabhic/selector-almanac";
 const DEMO_URL = "http://prabhanjan.in/selector-almanac/app/";
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 const STOP = new Set(["the","a","an","of","in","on","to","and","or","for","is","was","did","does","do","when","what","how","why","who","first","about","with","it","he","lev","talk","talked","say","said","cover","covered","up","come","came","that","this","are","were"]);
 
 /** Month columns for the atlas heatmap; trailing month is 2× wide (still in progress). */
