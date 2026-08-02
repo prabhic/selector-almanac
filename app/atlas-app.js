@@ -47,7 +47,7 @@ export class AtlasApp extends DCLogic {
     super(props);
     this._draftQ = "";
     this.state = {
-      data: null, concepts: null, slides: null, slidesLoading: false, useSlideText: false,
+      data: null, concepts: null, slides: null, slidesLoading: false,
       activeQ: "", view: props.defaultView || "atlas",
       year: "all", topic: "all", detailId: null, detailStart: 0, limit: 30,
       concept: null, cLimit: 40, atlasSort: "first", cell: null, pins: [], hover: null,
@@ -301,11 +301,8 @@ export class AtlasApp extends DCLogic {
 
     const toks = this.tokens(q);
     if (!toks.length) return scoped;
-    const slides = this.state.useSlideText ? this.state.slides : null;
     return scoped.filter(s => {
-      const base = (s.t + " " + (s.v ? s.v.t : "") + " " + (s.ch || []).map(c => c[0]).join(" ")).toLowerCase();
-      let hay = base;
-      if (slides && slides[s.id]) hay += " " + slides[s.id].map(x => x[2]).join(" ").toLowerCase();
+      const hay = (s.t + " " + (s.v ? s.v.t : "") + " " + (s.ch || []).map(c => c[0]).join(" ")).toLowerCase();
       return toks.every(t => hay.indexOf(t) >= 0);
     });
   }
@@ -333,10 +330,6 @@ export class AtlasApp extends DCLogic {
         const score = toks.filter(t => hay.indexOf(t) >= 0).length;
         if (score > 0) hits.push({ s, p, score });
       });
-      if (toks.length && this.state.useSlideText && this.state.slides && this.state.slides[s.id]) {
-        const sl = this.state.slides[s.id].filter(x => toks.every(t => (x[1] + " " + x[2]).toLowerCase().indexOf(t) >= 0));
-        sl.slice(0, 3).forEach(x => { hits.push({ s, p: [x[1].slice(0, 160), -1, x[0], "general"], score: 1 }); });
-      }
     });
     hits.sort((a, b) => (b.score - a.score) || ((b.s.d || "").localeCompare(a.s.d || "")));
     return { hits, conceptFromSearch: [], pending: false, mode: "legacy" };
@@ -860,13 +853,6 @@ export class AtlasApp extends DCLogic {
       onQuery: e => { this._draftQ = e.target.value; },
       onQueryKey: e => { if (e.key === "Enter") this.commitSearch(); },
       runAsk: () => this.commitSearch(),
-      toggleSlideText: () => { if (!st.useSlideText) this.loadSlides(); this.setState({ useSlideText: !st.useSlideText }); },
-      slideTextStyle: {
-        borderRadius: 0, borderLeft: "2px solid var(--color-divider)", borderRight: "2px solid var(--color-divider)",
-        background: st.useSlideText ? "var(--color-accent-100)" : "transparent",
-        color: st.useSlideText ? "var(--color-accent-700)" : "var(--color-neutral-700)",
-        fontSize: "12px", letterSpacing: "0.08em", textTransform: "uppercase", whiteSpace: "nowrap"
-      },
       isAsk: isAsk, isSessions: st.view === "sessions", isMap: st.view === "map",
       isAtlas: st.view === "atlas", atlas: atlas,
       conceptsHeadline: cAll.length + " threads under " + matched.length + (matched.length === 1 ? " session" : " sessions"),

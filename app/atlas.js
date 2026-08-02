@@ -1,4 +1,4 @@
-import { AtlasApp } from "./atlas-app.js?b=4";
+import { AtlasApp } from "./atlas-app.js?b=5";
 import {
   bind,
   clearHandlers,
@@ -7,7 +7,7 @@ import {
   handleKeydown,
   renderApp,
   setAtlasRegistry,
-} from "./atlas-render.js?b=4";
+} from "./atlas-render.js?b=5";
 
 const app = new AtlasApp({ defaultView: "atlas" });
 const atlasFns = new Map();

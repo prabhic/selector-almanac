@@ -110,9 +110,8 @@ function renderHeader(v) {
   return `
     <header style="border-bottom:2px solid var(--color-divider);padding:22px 32px 0;display:flex;flex-direction:column;gap:16px;flex:0 0 auto">
       <div style="display:flex;align-items:stretch;gap:0;border:2px solid var(--color-text)">
-        <input class="input" id="search-input" data-search-input data-inp="${bind("search-input", v.onQuery)}" data-key="${bind("search-key", v.onQueryKey)}" value="${esc(v.q)}" placeholder="Ask the corpus — press Enter — “when did MCP first come up?”, “agents”, “DeepSeek”" style="flex:1;border:0;background:var(--color-surface);font-size:17px;padding:14px 16px;outline:none;font-family:var(--font-body)">
-        ${btn(v.toggleSlideText, "Slide text", v.slideTextStyle, "btn btn-ghost", "toggle-slide-text")}
-        ${btn(v.runAsk, "Ask", { borderRadius: 0, paddingLeft: "22px", paddingRight: "22px" }, "btn btn-primary", "run-ask")}
+        <input class="input" id="search-input" data-search-input data-inp="${bind("search-input", v.onQuery)}" data-key="${bind("search-key", v.onQueryKey)}" value="${esc(v.q)}" placeholder="Search chapters, slides, and threads — press Enter" style="flex:1;border:0;background:var(--color-surface);font-size:17px;padding:14px 16px;outline:none;font-family:var(--font-body)">
+        ${btn(v.runAsk, "Search", { borderRadius: 0, paddingLeft: "22px", paddingRight: "22px" }, "btn btn-primary", "run-ask")}
       </div>
       <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
         ${tabs}
