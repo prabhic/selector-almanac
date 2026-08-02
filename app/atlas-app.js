@@ -51,7 +51,7 @@ export class AtlasApp extends DCLogic {
       activeQ: "", view: props.defaultView || "atlas",
       year: "all", topic: "all", detailId: null, detailStart: 0, limit: 30,
       concept: null, cLimit: 40, atlasSort: "first", cell: null, pins: [], hover: null,
-      search: null,
+      search: null, loadError: null,
     };
   }
 
@@ -114,6 +114,26 @@ export class AtlasApp extends DCLogic {
     return list;
   }
 
+  loadCorpus() {
+    if (this._corpusLoad) return this._corpusLoad;
+    this.setState({ loadError: null });
+    this._corpusLoad = Promise.all([
+      fetch("../data/index.json").then(async (r) => {
+        if (!r.ok) throw new Error(`index.json (${r.status})`);
+        return r.json();
+      }),
+      fetch("../data/concepts.json").then(async (r) => (r.ok ? r.json() : [])).catch(() => []),
+    ])
+      .then(([data, concepts]) => {
+        this.setState({ data, concepts, loadError: null });
+        if ((this.state.activeQ || "").trim()) this.refreshSearch();
+      })
+      .catch((err) => {
+        this.setState({ loadError: String(err.message || err), data: null });
+      });
+    return this._corpusLoad;
+  }
+
   componentDidMount() {
     const h = this.readHash();
     if (h) {
@@ -124,11 +144,7 @@ export class AtlasApp extends DCLogic {
         cell: h.cell ? (() => { const [k, month] = h.cell.split(","); return k && month ? { k, month } : null; })() : null
       });
     }
-    fetch("../data/index.json").then(r => r.json()).then(d => this.setState({ data: d }));
-    fetch("../data/concepts.json").then(r => r.json()).then(c => this.setState({ concepts: c }));
-    this.loadSearchIndex().then(() => {
-      if (this.state.activeQ) this.refreshSearch();
-    });
+    this.loadCorpus();
     this._esc = e => { if (e.key === "Escape" && this.state.detailId) this.setState({ detailId: null }); };
     window.addEventListener("keydown", this._esc);
   }
@@ -859,7 +875,7 @@ export class AtlasApp extends DCLogic {
       conceptHits: conceptHits,
       ask: ask, stream: stream, mapRows: mapRows,
       hasDetail: !!sel, detail: detail, closeDetail: () => this.setState({ detailId: null }),
-      sourceRepo: SOURCE_REPO, demoUrl: DEMO_URL
+      sourceRepo: SOURCE_REPO, demoUrl: DEMO_URL, loadError: st.loadError
     };
   }
 }

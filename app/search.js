@@ -1,5 +1,6 @@
 /**
  * Hybrid search: BM25 lexical + semantic vectors (RRF merge).
+ * Vectors (~10 MB) load lazily on first semantic search, not on page load.
  */
 import { embedQuery } from "./search-embed.js";
 import { EMBED_DIMS, rrfMerge, searchVectors } from "./search-math.js";
@@ -59,17 +60,21 @@ export class SearchIndex {
     this.lexical = null;
     this.manifest = null;
     this.vectors = null;
-    this.loading = null;
+    this._base = "../data/search";
+    this._coreLoad = null;
+    this._vectorLoad = null;
     this.error = null;
     this._cache = new Map();
     this._embedFailed = false;
   }
 
+  /** Lexical index only — ~5 MB, loaded on first search. */
   load(base = "../data/search") {
-    if (this.chunks) return Promise.resolve(this);
-    if (this.loading) return this.loading;
+    if (this.chunks && this.lexical) return Promise.resolve(this);
+    if (this._coreLoad) return this._coreLoad;
+    this._base = base;
 
-    this.loading = Promise.all([
+    this._coreLoad = Promise.all([
       fetch(`${base}/manifest.json`).then((r) => {
         if (!r.ok) throw new Error(`manifest.json ${r.status}`);
         return r.json();
@@ -82,24 +87,41 @@ export class SearchIndex {
         if (!r.ok) throw new Error(`lexical.json ${r.status}`);
         return r.json();
       }),
-      fetch(`${base}/vectors.f32.bin`)
-        .then((r) => (r.ok ? r.arrayBuffer() : null))
-        .catch(() => null),
     ])
-      .then(([manifest, chunks, lexical, vecBuf]) => {
+      .then(([manifest, chunks, lexical]) => {
         this.manifest = manifest;
         this.chunks = chunks;
         this.lexical = lexical;
-        if (vecBuf && manifest.embed?.dims) {
-          this.vectors = new Float32Array(vecBuf);
-        }
         return this;
       })
       .catch((err) => {
         this.error = err;
+        this._coreLoad = null;
         throw err;
       });
-    return this.loading;
+    return this._coreLoad;
+  }
+
+  /** Vector matrix — ~10 MB, deferred until semantic search. */
+  loadVectors() {
+    if (this.vectors) return Promise.resolve(this);
+    if (this._vectorLoad) return this._vectorLoad;
+    if (!this.manifest?.embed?.dims) return Promise.resolve(this);
+
+    this._vectorLoad = fetch(`${this._base}/vectors.f32.bin`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`vectors.f32.bin (${r.status})`);
+        return r.arrayBuffer();
+      })
+      .then((buf) => {
+        this.vectors = new Float32Array(buf);
+        return this;
+      })
+      .catch((err) => {
+        this._vectorLoad = null;
+        throw err;
+      });
+    return this._vectorLoad;
   }
 
   hasVectors() {
@@ -128,9 +150,15 @@ export class SearchIndex {
   }
 
   async searchVector(query, opts = {}) {
-    if (!this.hasVectors() || this._embedFailed) return [];
     const q = (query || "").trim();
-    if (!q) return [];
+    if (!q || this._embedFailed) return [];
+
+    try {
+      await this.loadVectors();
+    } catch {
+      return [];
+    }
+    if (!this.hasVectors()) return [];
 
     const dims = this.manifest.embed.dims;
     const count = this.manifest.embed.chunks ?? this.chunks.length;
@@ -142,10 +170,6 @@ export class SearchIndex {
     });
   }
 
-  /**
-   * Hybrid BM25 + semantic search (RRF). Async when vectors are available.
-   * @returns {Promise<Array<{ score: number, chunk: object, mode?: string }>>}
-   */
   async search(query, opts = {}) {
     await this.load();
     const q = (query || "").trim();
@@ -160,12 +184,14 @@ export class SearchIndex {
     let ranked;
     let mode = "lexical";
 
-    if (this.hasVectors() && !this._embedFailed) {
+    if (this.manifest?.embed && !this._embedFailed) {
       try {
         const vector = await this.searchVector(q, { ...opts, limit });
         const lists = [lexical];
-        lists.push(vector);
-        if (isQuestionQuery(q)) lists.push(vector);
+        if (vector.length) {
+          lists.push(vector);
+          if (isQuestionQuery(q)) lists.push(vector);
+        }
         ranked = rrfMerge(lists).slice(0, limit);
         mode = vector.length ? "hybrid" : "lexical";
       } catch {
@@ -185,7 +211,6 @@ export class SearchIndex {
     return hits;
   }
 
-  /** @returns {Promise<string[]>} */
   async sessionIds(query, opts = {}) {
     const hits = await this.search(query, opts);
     const seen = new Set();

@@ -369,13 +369,24 @@ function renderDetail(v) {
 
 export function renderApp(v) {
   const main = [renderConcepts(v), renderDossier(v), renderAsk(v), renderSessions(v), renderAtlas(v)].join("");
-  const loading = !v.ready ? `<div style="padding:40px 32px;color:var(--color-neutral-700)">Loading corpus…</div>` : main;
+  let body;
+  if (v.loadError) {
+    body = `<div style="padding:40px 32px;color:var(--color-neutral-800);max-width:520px">
+      <div style="font-family:var(--font-heading);font-weight:700;font-size:18px;margin-bottom:10px">Could not load corpus</div>
+      <div style="font-size:14px;line-height:1.5;color:var(--color-neutral-700);margin-bottom:16px">${esc(v.loadError)}</div>
+      <button type="button" data-act="${bind(() => location.reload())}" class="btn btn-primary" style="border-radius:0">Retry</button>
+    </div>`;
+  } else if (!v.ready) {
+    body = `<div style="padding:40px 32px;color:var(--color-neutral-700)">Loading corpus…</div>`;
+  } else {
+    body = main;
+  }
   return `
     <div style="display:flex;min-height:100vh;background:var(--color-bg);color:var(--color-text);font-family:var(--font-body)">
       ${renderSidebar(v)}
       <main style="flex:1;min-width:560px;display:flex;flex-direction:column;overflow:hidden">
         ${renderHeader(v)}
-        <section style="flex:1;min-height:0;overflow-y:auto">${loading}</section>
+        <section style="flex:1;min-height:0;overflow-y:auto">${body}</section>
       </main>
       ${renderDetail(v)}
     </div>`;

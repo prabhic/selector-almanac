@@ -1,4 +1,4 @@
-import { AtlasApp } from "./atlas-app.js";
+import { AtlasApp } from "./atlas-app.js?b=4";
 import {
   bind,
   clearHandlers,
@@ -7,7 +7,7 @@ import {
   handleKeydown,
   renderApp,
   setAtlasRegistry,
-} from "./atlas-render.js";
+} from "./atlas-render.js?b=4";
 
 const app = new AtlasApp({ defaultView: "atlas" });
 const atlasFns = new Map();
@@ -42,18 +42,27 @@ function paint() {
   const selStart = searchFocused ? focused.selectionStart : null;
   const selEnd = searchFocused ? focused.selectionEnd : null;
 
-  clearHandlers();
-  atlasFns.clear();
-  const v = app.renderVals();
-  root.innerHTML = renderApp(v);
-  attachAtlasListeners(root);
+  try {
+    clearHandlers();
+    atlasFns.clear();
+    const v = app.renderVals();
+    root.innerHTML = renderApp(v);
+    attachAtlasListeners(root);
 
-  if (searchFocused) {
-    const inp = root.querySelector("[data-search-input]");
-    if (inp) {
-      inp.focus();
-      if (selStart != null) inp.setSelectionRange(selStart, selEnd);
+    if (searchFocused) {
+      const inp = root.querySelector("[data-search-input]");
+      if (inp) {
+        inp.focus();
+        if (selStart != null) inp.setSelectionRange(selStart, selEnd);
+      }
     }
+  } catch (err) {
+    console.error(err);
+    root.innerHTML = `<div style="padding:40px 32px;font-family:system-ui,sans-serif;max-width:520px">
+      <h2 style="margin:0 0 12px;font-size:18px">Could not render the almanac</h2>
+      <p style="color:#555;line-height:1.5">${String(err.message || err)}</p>
+      <p style="color:#555;font-size:14px">Try a hard refresh (Cmd+Shift+R). If this persists, <a href="https://github.com/prabhic/selector-almanac/issues">report an issue</a>.</p>
+    </div>`;
   }
 }
 
