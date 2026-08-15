@@ -41,9 +41,57 @@ export async function parsePptxBuffer(buffer) {
   return slides;
 }
 
-export async function fetchAndParsePptx(rawUrl) {
+const IMAGE_MIME = {
+  png: "image/png",
+  jpg: "image/jpeg",
+  jpeg: "image/jpeg",
+  gif: "image/gif",
+  webp: "image/webp",
+  svg: "image/svg+xml",
+};
+
+/** Raster images referenced by each slide — PPTX stays in memory only. */
+export async function extractSlideImages(buffer) {
+  const zip = await JSZip.loadAsync(buffer);
+  const bySlide = {};
+
+  const relFiles = Object.keys(zip.files).filter((n) =>
+    /^ppt\/slides\/_rels\/slide\d+\.xml\.rels$/.test(n),
+  );
+
+  for (const relPath of relFiles) {
+    const n = +relPath.match(/slide(\d+)/)[1];
+    const xml = await zip.file(relPath).async("string");
+    const images = [];
+    const re = /Type="[^"]*\/image"[^>]*Target="([^"]+)"|Target="([^"]+)"[^>]*Type="[^"]*\/image"/gi;
+    let m;
+    while ((m = re.exec(xml))) {
+      const target = (m[1] || m[2] || "").replace(/\\/g, "/");
+      if (!target || /^https?:/i.test(target)) continue;
+      const mediaPath = target.startsWith("/")
+        ? target.slice(1)
+        : `ppt/slides/${target}`.replace(/\/slides\/\.\.\//g, "/");
+      const file = zip.file(mediaPath);
+      if (!file) continue;
+      const ext = mediaPath.split(".").pop()?.toLowerCase() ?? "";
+      const mime = IMAGE_MIME[ext];
+      if (!mime) continue;
+      const bytes = await file.async("base64");
+      images.push(`data:${mime};base64,${bytes}`);
+    }
+    if (images.length) bySlide[n] = images;
+  }
+
+  return bySlide;
+}
+
+export async function fetchPptxBuffer(rawUrl) {
   const res = await fetch(rawUrl);
   if (!res.ok) throw new Error(`PPTX fetch failed: ${res.status} ${rawUrl}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  return parsePptxBuffer(buf);
+  return Buffer.from(await res.arrayBuffer());
 }
+
+export async function fetchAndParsePptx(rawUrl) {
+  return parsePptxBuffer(await fetchPptxBuffer(rawUrl));
+}
+

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Build compact index + slides from seminars.json.
+ * Build compact index + slides from seminars.json, then append new concept mentions.
  * Search corpus is built separately via build-search-index.mjs (npm run search:index).
  */
 import { readFile, writeFile } from "node:fs/promises";
@@ -8,6 +8,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildSessionPoints } from "./lib/corpus.mjs";
 import { linksForSlide } from "./lib/links.mjs";
+import { refreshConceptMentions } from "./lib/concepts.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -59,10 +60,14 @@ async function main() {
 
   const conceptsPath = join(DATA, "concepts.json");
   try {
-    await readFile(conceptsPath, "utf8");
-    console.log("concepts.json kept (regenerate via scripts/extract-mock-data.mjs)");
-  } catch {
-    console.warn("concepts.json missing — run: node scripts/extract-mock-data.mjs");
+    const concepts = JSON.parse(await readFile(conceptsPath, "utf8"));
+    const { added, since, scanned } = refreshConceptMentions(concepts, seminars, {
+      log: (msg) => console.log(msg),
+    });
+    await writeFile(conceptsPath, JSON.stringify(concepts));
+    console.log(`concepts.json updated (+${added} mentions from ${scanned} session(s) since ${since})`);
+  } catch (err) {
+    console.warn(`concepts.json skipped — ${err.message}`);
   }
 
   console.log(`Wrote index.json (${index.length} sessions)`);

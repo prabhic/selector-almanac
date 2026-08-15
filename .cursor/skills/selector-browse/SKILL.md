@@ -40,9 +40,10 @@ npm run browse
 | ↑↓ | Move |
 | ←→ | Weeks ↔ content pane |
 | Tab | Chapters (YouTube) / Slides / Links (flat: Slide N · label) |
-| Enter | Open link / timestamp |
+| Enter | Open link / timestamp; on **Slides** tab, open HTML viewer |
 | y | Full YouTube |
-| d | Deck |
+| d | Slide viewer (temp HTML; jumps to current row) |
+| g | Original PPTX on GitHub |
 | q | Quit |
 
 ## Non-interactive CLI (automation only)

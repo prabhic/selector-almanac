@@ -14,6 +14,7 @@ import {
   slideLinkGroups,
 } from "./lib/browse.mjs";
 import { videoUrlAt } from "./lib/chapters.mjs";
+import { writeDeckViewer } from "./lib/deck-viewer.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -206,12 +207,12 @@ function linksCmd(weekly, ref) {
   }
 }
 
-function openCmd(weekly, kind, ref) {
+async function openCmd(weekly, kind, ref) {
   const { seminar } = resolveWeek(weekly, ref);
 
   if (kind === "deck") {
-    const url = seminar.deck?.githubUrl;
-    if (!url) fail("no deck URL for this week");
+    const slide = flagValue("--slide") ? Math.max(1, +flagValue("--slide") || 1) : 1;
+    const url = await writeDeckViewer(seminar, { slide, live: false });
     openUrl(url);
     return;
   }
@@ -274,7 +275,7 @@ async function main() {
       linksCmd(weekly, pos[1]);
       break;
     case "open":
-      openCmd(weekly, pos[1], pos[2]);
+      await openCmd(weekly, pos[1], pos[2]);
       break;
     case "help":
     case "--help":
@@ -286,6 +287,7 @@ Commands:
   show <date|#>               Week overview
   chapters|slides|links <date|#>
   open youtube|deck|link <date|#> [...]
+  open deck <date|#> [--slide N]   HTML viewer (temp; PPTX not stored)
 
 Interactive TUI: npm run browse`);
       break;

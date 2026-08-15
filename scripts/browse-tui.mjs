@@ -13,6 +13,7 @@ import {
   loadWeekly,
   openUrl,
 } from "./lib/browse.mjs";
+import { cleanupDeckViewer, guessedSlideIndex, writeDeckViewer } from "./lib/deck-viewer.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -74,7 +75,7 @@ const state = {
 };
 
 const STATUS_DEFAULT =
-  " 1/2/3 tabs · Tab next · ↑↓ list · ←→ weeks · Enter open · y YouTube · d deck · q quit";
+  " 1/2/3 tabs · Tab next · ↑↓ list · ←→ weeks · Enter open · y YouTube · d slides · g GitHub · q quit";
 
 function truncate(s, max = 96) {
   const t = (s ?? "").replace(/\s+/g, " ").trim();
@@ -156,9 +157,34 @@ function focusNext(dir) {
   focusPane(order[(i + dir + order.length) % order.length]);
 }
 
+async function openDeckViewerForCurrent() {
+  const seminar = currentSeminar();
+  if (!seminar) return;
+  const slide = guessedSlideIndex(seminar, {
+    view: state.view,
+    selectedIndex: contentBox.selected,
+  });
+  setStatus("Opening original deck…");
+  try {
+    const url = await writeDeckViewer(seminar, { slide });
+    if (url) {
+      await openUrl(url);
+      setStatus(`Opened original PPTX at slide ${slide}`);
+    } else {
+      setStatus(`Moved viewer to slide ${slide}`);
+    }
+  } catch (e) {
+    setStatus(`Slide viewer failed: ${e.message}`);
+  }
+}
+
 async function openSelection() {
   const seminar = currentSeminar();
   if (!seminar) return;
+  if (state.view === "slides") {
+    await openDeckViewerForCurrent();
+    return;
+  }
   const items = buildViewItems(seminar, state.view);
   const item = items[contentBox.selected];
   if (!item?.url) return setStatus("Nothing to open for this row");
@@ -371,17 +397,24 @@ screen.key(["y"], async () => {
 });
 
 screen.key(["d"], async () => {
+  await openDeckViewerForCurrent();
+});
+
+screen.key(["g"], async () => {
   const url = currentSeminar()?.deck?.githubUrl;
-  if (!url) return setStatus("No deck for this week");
+  if (!url) return setStatus("No GitHub deck URL");
   try {
     await openUrl(url);
-    setStatus("Opened slide deck");
+    setStatus("Opened original on GitHub");
   } catch (e) {
     setStatus(`Open failed: ${e.message}`);
   }
 });
 
-screen.key(["q", "C-c", "escape"], () => process.exit(0));
+screen.key(["q", "C-c", "escape"], () => {
+  cleanupDeckViewer();
+  process.exit(0);
+});
 
 weeksBox.on("focus", () => {
   state.focus = "weeks";

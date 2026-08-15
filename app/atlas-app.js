@@ -30,15 +30,27 @@ function monthKeyFromDate(d = new Date()) {
   return monthKey(d.getFullYear(), d.getMonth() + 1);
 }
 
-/** Atlas grid runs through the later of corpus last month and today's calendar month. */
-function atlasEndMonth(data) {
-  let end = monthKeyFromDate();
+/**
+ * Last month that actually has heatmap counts.
+ * Do not pad to calendar "today" — weekly ingest updates sessions before
+ * concepts.json, which painted a permanently empty wide "current month" column.
+ */
+function atlasEndMonth(concepts, data) {
+  let end = "";
+  (concepts || []).forEach(c => {
+    (c.months || []).forEach(pair => {
+      const k = pair[0];
+      const v = pair[1];
+      if (k && v && k > end) end = k;
+    });
+  });
+  if (end) return end;
   (data || []).forEach(s => {
     if (!s.d) return;
     const k = s.d.slice(0, 7);
     if (k > end) end = k;
   });
-  return end;
+  return end || monthKeyFromDate();
 }
 
 function buildMonthsAll(endMonth) {
@@ -53,14 +65,14 @@ function buildMonthsAll(endMonth) {
   return monthsAll;
 }
 
-/** Month columns for the atlas heatmap; trailing month is 2× wide (still in progress). */
-function buildAtlasColumns(monthsAll) {
+/** Widen only the calendar-current month, and only if that month is on the grid. */
+function buildAtlasColumns(monthsAll, currentMonth = monthKeyFromDate()) {
   const cols = [];
   for (let i = 0; i < monthsAll.length; i++) {
-    const isLast = i === monthsAll.length - 1;
-    const w = isLast ? 18 : 9;
-    const x = i === 0 ? 0 : cols[i - 1].x + (cols[i - 1].isLast ? 20 : 10);
-    cols.push({ month: monthsAll[i], x, w, isLast });
+    const inProgress = monthsAll[i] === currentMonth;
+    const w = inProgress ? 18 : 9;
+    const x = i === 0 ? 0 : cols[i - 1].x + (cols[i - 1].inProgress ? 20 : 10);
+    cols.push({ month: monthsAll[i], x, w, inProgress, isLast: inProgress });
   }
   const totalWidth = cols.length ? cols[cols.length - 1].x + cols[cols.length - 1].w : 0;
   return { cols, totalWidth };
@@ -577,7 +589,7 @@ export class AtlasApp extends DCLogic {
     let allowed = null;
     if (filtersOn) { allowed = {}; this.scoped().forEach(s => { allowed[s.id] = 1; }); }
     const cAll = this.deriveConcepts(st.concepts || [], allowed, st.year + "|" + st.topic + "|" + ((st.concepts || []).length) + "|" + data.length);
-    const endMonth = atlasEndMonth(data);
+    const endMonth = atlasEndMonth(cAll, data);
     const endYear = endMonth.slice(0, 4);
     const monthsAll = buildMonthsAll(endMonth);
     const monthIdx = {}; monthsAll.forEach((m, i) => { monthIdx[m] = i; });
@@ -687,7 +699,11 @@ export class AtlasApp extends DCLogic {
       atlas.hoverLabel = st.hover
         ? st.hover.label + " · " + this.fmtMonth(st.hover.month) + " · " + st.hover.v + (st.hover.v === 1 ? " mention" : " mentions")
         : "Hover a square — each one is a calendar month";
-      atlas.gridLegend = "Squares = months · wider right edge = current month in progress";
+      const currentMonth = monthKeyFromDate();
+      const currentOnGrid = monthsAll[monthsAll.length - 1] === currentMonth;
+      atlas.gridLegend = currentOnGrid
+        ? "Squares = months · wider cell = this month (still filling in)"
+        : "Squares = months";
       const pinned = {}; st.pins.forEach(k => { pinned[k] = 1; });
       const sorted = cAll.slice().sort((a, b) => {
         const pa = pinned[a.k] ? 0 : 1, pb = pinned[b.k] ? 0 : 1;
@@ -705,13 +721,13 @@ export class AtlasApp extends DCLogic {
       for (let y = 2021; y <= parseInt(endYear, 10); y++) yearLabels.push(String(y));
       atlas.yearTicks = yearLabels.map(y => {
         const n = monthsAll.filter(m => m.slice(0, 4) === y).length;
-        const flex = y === monthsAll[monthsAll.length - 1]?.slice(0, 4) ? n + 1 : n;
+        const flex = currentOnGrid && currentMonth.slice(0, 4) === y ? n + 1 : n;
         return {
           label: y,
           style: { flex: String(flex || 1), fontSize: "11px", letterSpacing: "0.1em", color: "var(--color-neutral-600)", borderLeft: "1px solid var(--color-neutral-300)", paddingLeft: "4px" }
         };
       });
-      const atlasCols = buildAtlasColumns(monthsAll);
+      const atlasCols = buildAtlasColumns(monthsAll, currentMonth);
       atlas.gridWidth = atlasCols.totalWidth;
       atlas.rows = sorted.map(c => {
         const mm = {}; c.months.forEach(x => { mm[x[0]] = x[1]; });
