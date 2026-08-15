@@ -1,0 +1,71 @@
+# Incremental data refresh: new decks from GitHub + re-match recent YouTube + rebuild index/search.
+# Manual: Actions → Data refresh (delta) → Run workflow
+# Schedule: Saturday 08:00 IST (02:30 UTC) — after Friday AI-Updates video + deck land.
+name: Data refresh (delta)
+
+on:
+  workflow_dispatch:
+    inputs:
+      weeks:
+        description: Weeks back to re-match YouTube and re-parse slides
+        required: false
+        default: "6"
+      parse_slides:
+        description: Download and parse PPTX for refresh targets
+        type: boolean
+        default: true
+  schedule:
+    - cron: "30 2 * * 6"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install yt-dlp
+        run: sudo apt-get update && sudo apt-get install -y yt-dlp
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Delta ingest and rebuild
+        env:
+          WEEKS: ${{ github.event.inputs.weeks || '6' }}
+          PARSE: ${{ (github.event_name == 'schedule' || github.event.inputs.parse_slides != 'false') && '1' || '0' }}
+        run: |
+          set -euo pipefail
+          node scripts/ingest-new-decks.mjs
+          ARGS=(--weeks "$WEEKS")
+          if [ "$PARSE" = "1" ]; then ARGS+=(--parse); fi
+          node scripts/refresh-recent.mjs "${ARGS[@]}"
+          npm run build
+
+      - name: Commit and push data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "$(cat <<'EOF'
+data: delta refresh from GitHub Actions.
+
+New decks from lselector/seminar, recent YouTube re-match, rebuilt search index.
+EOF
+)"
+          git push
