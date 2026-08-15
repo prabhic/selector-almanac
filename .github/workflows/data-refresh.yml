@@ -62,10 +62,5 @@ jobs:
             echo "No data changes to commit."
             exit 0
           fi
-          git commit -m "$(cat <<'EOF'
-data: delta refresh from GitHub Actions.
-
-New decks from lselector/seminar, recent YouTube re-match, rebuilt search index.
-EOF
-)"
+          git commit -m "data: delta refresh from GitHub Actions"
           git push
