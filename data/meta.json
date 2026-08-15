@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-08-02T12:12:13.373Z",
+  "generatedAt": "2026-08-15T13:53:52.515Z",
   "ingestMode": "full",
   "corpus": "all",
   "deckSource": "local-clone",
   "counts": {
-    "seminars": 315,
-    "decks": 315,
-    "decksInRepo": 315,
+    "seminars": 317,
+    "decks": 317,
+    "decksInRepo": 317,
     "weekly2025": 56,
     "weekly2026": 35,
-    "videos": 299,
-    "matched": 266,
-    "withChapters": 200,
+    "videos": 0,
+    "matched": 262,
+    "withChapters": 196,
     "topics": 16,
     "slidesParsed": 315
   },
@@ -22,8 +22,10 @@
   },
   "attribution": "All content © Lev Selector. This index is a derived lens with links back to originals.",
   "lastRefresh": {
-    "at": "2026-08-02T12:12:13.373Z",
+    "at": "2026-08-15T13:53:52.515Z",
     "sessions": [
+      "2026-08-14-2026-08-14-ai-updates",
+      "2026-08-07-2026-08-07-ai-updates",
       "2026-07-31-2026-07-31-ai-updates",
       "2026-07-24-2026-07-24-ai-updates",
       "2026-07-17-2026-07-17-ai-updates",
@@ -78,7 +80,14 @@
       "unknown-t-sql-window-functions",
       "unknown-ml-tree-randomforest-gradientboosting-2023-02-10"
     ],
-    "weeks": 4,
+    "weeks": 6,
     "oneDate": null
+  },
+  "lastDeltaIngest": {
+    "at": "2026-08-15T13:53:33.018Z",
+    "added": [
+      "2026/2026-08-07-AI-Updates.pptx",
+      "2026/2026-08-14-AI-Updates.pptx"
+    ]
   }
 }
