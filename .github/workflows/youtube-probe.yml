@@ -17,18 +17,7 @@ jobs:
       - name: Install yt-dlp (latest release)
         run: bash scripts/ci-install-yt-dlp.sh
 
-      - name: Raw yt-dlp channel list
-        run: |
-          set -eo pipefail
-          URL="https://www.youtube.com/channel/UCA4GfsgbI09cLzonTKryC6g/videos"
-          echo "Listing channel (first 5 ids)…"
-          yt-dlp --flat-playlist --print "%(id)s" "$URL" | head -5 || true
-          COUNT=$(yt-dlp --flat-playlist --print "%(id)s" "$URL" | wc -l)
-          echo "Total ids: $COUNT"
-          if [ "$COUNT" -lt 50 ]; then
-            echo "::error::YouTube list too small ($COUNT)"
-            exit 1
-          fi
-
       - name: Node probe (fetchYouTubeCatalog)
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: node scripts/probe-youtube.mjs

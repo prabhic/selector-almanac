@@ -29,6 +29,8 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
     steps:
       - uses: actions/checkout@v4
 

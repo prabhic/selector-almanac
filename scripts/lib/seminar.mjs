@@ -100,7 +100,11 @@ export function applyVideoMatch(seminar, match, { allowClear = false, log = () =
     duration: video.duration,
   };
   seminar.match = { confidence: match.confidence, method: match.method };
-  seminar.chapters = video.chapters ?? [];
+  const incomingChapters = video.chapters ?? [];
+  const sameVideo = seminar.video?.id === video.id;
+  if (incomingChapters.length > 0 || !sameVideo) {
+    seminar.chapters = incomingChapters;
+  }
   seminar.points = buildPoints(seminar);
   return true;
 }

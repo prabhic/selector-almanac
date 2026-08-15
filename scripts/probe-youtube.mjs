@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Probe YouTube channel access (for CI diagnostics).
- * Exit 0 if flat list + recent full metadata work.
+ * Exit 0 if flat playlist + date coverage work (video matching).
+ * Full metadata (chapters) is optional — often blocked on datacenter IPs.
  */
 import {
   fetchYouTubeCatalog,
@@ -18,6 +19,9 @@ function log(msg) {
 async function main() {
   log(`YouTube probe — min videos: ${MIN_CHANNEL_VIDEOS}`);
   log(`Node ${process.version} on ${process.platform} ${process.arch}`);
+  if (process.env.YOUTUBE_COOKIES || process.env.YOUTUBE_COOKIES_FILE) {
+    log("cookies: configured (full metadata may work)");
+  }
 
   let flat;
   try {
@@ -46,8 +50,8 @@ async function main() {
           `(${one.chapters?.length ?? 0} chapters, upload ${one.uploadDate ?? "?"})`,
       );
     } catch (err) {
-      log(`fetchVideoMeta sample FAILED for ${testId}: ${err.message}`);
-      process.exit(1);
+      log(`fetchVideoMeta sample: skipped (${err.message.slice(0, 100)})`);
+      log("  (flat playlist is enough for video matching in CI)");
     }
   }
 
@@ -59,9 +63,10 @@ async function main() {
     });
     const weekly = allVideos.filter((v) => v.isWeekly).length;
     const withChapters = allVideos.filter((v) => (v.chapters ?? []).length > 0).length;
+    const dated = allVideos.filter((v) => v.date).length;
     log(
       `fetchYouTubeCatalog: OK — ${allVideos.length} videos (${videoIds.length} ids), ` +
-        `${weekly} weekly-titled, ${withChapters} with chapters`,
+        `${dated} dated, ${weekly} weekly-titled, ${withChapters} with chapters`,
     );
     process.exit(0);
   } catch (err) {

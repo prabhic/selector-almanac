@@ -1,4 +1,7 @@
 import { execFile } from "node:child_process";
+import { writeFile, unlink } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { promisify } from "node:util";
 import { parseUploadDate, parseVideoTitleDate, isoFromParts } from "./dates.mjs";
 import { resolveChapters } from "./chapters.mjs";
@@ -9,13 +12,44 @@ const CHANNEL = "https://www.youtube.com/channel/UCA4GfsgbI09cLzonTKryC6g/videos
 /** Lev Selector channel has ~300 videos; refuse refresh if fetch looks broken. */
 export const MIN_CHANNEL_VIDEOS = 50;
 
-/** Standalone yt-dlp binary needs EJS scripts for YouTube full extraction. */
-function ytdlpFullExtractArgs() {
-  return ["--remote-components", "ejs:github", "--no-progress"];
+let cookieFilePromise;
+
+/** Optional base64 cookies.txt (YOUTUBE_COOKIES secret) bypasses datacenter bot blocks. */
+async function ytdlpCookieFile() {
+  const b64 = process.env.YOUTUBE_COOKIES?.trim();
+  if (!b64) return null;
+  if (!cookieFilePromise) {
+    cookieFilePromise = (async () => {
+      const path = join(tmpdir(), `yt-cookies-${process.pid}.txt`);
+      await writeFile(path, Buffer.from(b64, "base64"));
+      process.on("exit", () => {
+        unlink(path).catch(() => {});
+      });
+      return path;
+    })();
+  }
+  return cookieFilePromise;
 }
 
-function ytdlpFlatArgs() {
-  return ["--no-progress"];
+async function ytdlpBaseArgs() {
+  const args = ["--no-progress"];
+  const cookies = process.env.YOUTUBE_COOKIES_FILE?.trim();
+  if (cookies) {
+    args.push("--cookies", cookies);
+    return args;
+  }
+  const cookieFile = await ytdlpCookieFile();
+  if (cookieFile) args.push("--cookies", cookieFile);
+  return args;
+}
+
+/** Standalone yt-dlp binary needs EJS scripts for YouTube full extraction. */
+async function ytdlpFullExtractArgs() {
+  return [...(await ytdlpBaseArgs()), "--remote-components", "ejs:github"];
+}
+
+async function ytdlpFlatArgs() {
+  return ytdlpBaseArgs();
 }
 
 function execError(err) {
@@ -70,7 +104,7 @@ function parseYtdlpJson(stdout) {
 export async function fetchFlatPlaylist() {
   const { stdout } = await execFileAsync(
     "yt-dlp",
-    [...ytdlpFlatArgs(), "--flat-playlist", "-j", CHANNEL],
+    [...(await ytdlpFlatArgs()), "--flat-playlist", "-j", CHANNEL],
     { maxBuffer: 50 * 1024 * 1024 },
   );
 
@@ -112,7 +146,7 @@ export async function fetchVideoMeta(videoId) {
     const { stdout } = await execFileAsync(
       "yt-dlp",
       [
-        ...ytdlpFullExtractArgs(),
+        ...(await ytdlpFullExtractArgs()),
         "--skip-download",
         "-j",
         `https://www.youtube.com/watch?v=${videoId}`,
@@ -127,7 +161,7 @@ export async function fetchVideoMeta(videoId) {
   }
 }
 
-export async function fetchAllVideoMeta(videoIds, { concurrency = 4, onProgress } = {}) {
+export async function fetchAllVideoMeta(videoIds, { concurrency = 2, onProgress } = {}) {
   const results = new Map();
   let done = 0;
 
@@ -217,17 +251,17 @@ export async function fetchYouTubeCatalog({
   const fullOk = [...metaMap.values()].filter((v) => !v.error).length;
   const fullErrors = uniqueEnrichIds.length - fullOk;
 
-  if (uniqueEnrichIds.length > 0 && fullOk === 0) {
-    const sample = [...metaMap.values()].find((v) => v.error)?.error ?? "unknown";
-    throw new Error(
-      `YouTube metadata fetch failed (0/${uniqueEnrichIds.length} ok). ` +
-        `Sample error: ${sample}. ` +
-        "Ensure Deno is installed in CI (see scripts/ci-install-yt-dlp.sh).",
-    );
-  }
-
   if (fullErrors) {
-    log(`  warning: ${fullErrors} full-metadata error(s), using flat data as fallback`);
+    const sample = [...metaMap.values()].find((v) => v.error)?.error ?? "unknown";
+    log(
+      `  warning: ${fullErrors} full-metadata error(s), using flat data as fallback` +
+        (fullOk === 0 ? ` — ${sample.slice(0, 120)}` : ""),
+    );
+    if (fullOk === 0 && !process.env.YOUTUBE_COOKIES && !process.env.YOUTUBE_COOKIES_FILE) {
+      log(
+        "  hint: set YOUTUBE_COOKIES (base64 cookies.txt) in Actions secrets for chapter enrichment",
+      );
+    }
   }
 
   const enrichedById = new Map(baseVideos.map((v) => [v.id, v]));
