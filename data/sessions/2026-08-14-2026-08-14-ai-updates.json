@@ -15,9 +15,17 @@
     "rag",
     "multimodal",
     "safety",
-    "enterprise"
+    "enterprise",
+    "infra",
+    "jobs"
   ],
-  "video": null,
+  "video": {
+    "id": "A2E_9vCGN1s",
+    "title": "Exciting AI Updates Weekly - August 14, 2026",
+    "url": "https://www.youtube.com/watch?v=A2E_9vCGN1s",
+    "thumbnail": "https://i.ytimg.com/vi/A2E_9vCGN1s/hqdefault.jpg",
+    "duration": 2084
+  },
   "deck": {
     "path": "2026/2026-08-14-AI-Updates.pptx",
     "filename": "2026-08-14-AI-Updates.pptx",
@@ -26,15 +34,280 @@
     "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-08-14-AI-Updates.pptx"
   },
   "match": {
-    "confidence": "deck-only",
-    "method": "unmatched"
+    "confidence": "date",
+    "method": "exact-date"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\"",
+      "startSeconds": 22,
+      "label": "00:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Cost Per Intelligence Index",
+      "startSeconds": 73,
+      "label": "01:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Muse Glimmer Model",
+      "startSeconds": 189,
+      "label": "03:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok 4.6",
+      "startSeconds": 267,
+      "label": "04:27",
+      "source": "youtube"
+    },
+    {
+      "title": "GLM 5.3 , ZCode",
+      "startSeconds": 328,
+      "label": "05:28",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek V4 Pro",
+      "startSeconds": 390,
+      "label": "06:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini 3.7 Flash - August 13",
+      "startSeconds": 453,
+      "label": "07:33",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Ships GPT-5.6-Cyber",
+      "startSeconds": 495,
+      "label": "08:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Cross-Session Messaging",
+      "startSeconds": 503,
+      "label": "08:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Discovery Loop",
+      "startSeconds": 562,
+      "label": "09:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok Imagine Image 2.0",
+      "startSeconds": 622,
+      "label": "10:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Hermes Browser-Use Upgrade",
+      "startSeconds": 628,
+      "label": "10:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok Bot: Agent Team",
+      "startSeconds": 656,
+      "label": "10:56",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Nemotron 3.5 Lightning",
+      "startSeconds": 677,
+      "label": "11:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic is adding invisible watermarks",
+      "startSeconds": 766,
+      "label": "12:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Obsidian plugin v.2",
+      "startSeconds": 785,
+      "label": "13:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Coldcard Seed Exploit - $100 Mln Theft",
+      "startSeconds": 804,
+      "label": "13:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Prime Agent Harness vs Hermes",
+      "startSeconds": 836,
+      "label": "13:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Gauntlet Loop: AI QA",
+      "startSeconds": 950,
+      "label": "15:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Harness-R1: Outcome-Graded Agents",
+      "startSeconds": 1029,
+      "label": "17:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Mark Zuckerberg - AI Access",
+      "startSeconds": 1123,
+      "label": "18:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Double Descent Explained",
+      "startSeconds": 1171,
+      "label": "19:31",
+      "source": "youtube"
+    },
+    {
+      "title": "cmux - an Agent-Friendly Terminal",
+      "startSeconds": 1246,
+      "label": "20:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Stella's AI-App Launch",
+      "startSeconds": 1276,
+      "label": "21:16",
+      "source": "youtube"
+    },
+    {
+      "title": "VEED Fabric AI Video Test",
+      "startSeconds": 1300,
+      "label": "21:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Stanford Virtual Biotech",
+      "startSeconds": 1328,
+      "label": "22:08",
+      "source": "youtube"
+    },
+    {
+      "title": "GitHub vs Vercel vs Replit",
+      "startSeconds": 1367,
+      "label": "22:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Peter Diamandis Automagical Life",
+      "startSeconds": 1382,
+      "label": "23:02",
+      "source": "youtube"
+    },
+    {
+      "title": "granian vs uvicorn for SaaS",
+      "startSeconds": 1417,
+      "label": "23:37",
+      "source": "youtube"
+    },
+    {
+      "title": "LangGraph",
+      "startSeconds": 1489,
+      "label": "24:49",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Coding Skills: Modular Control",
+      "startSeconds": 1548,
+      "label": "25:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Karpathy's Prompting 2.0",
+      "startSeconds": 1589,
+      "label": "26:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Harness Improves Local AI",
+      "startSeconds": 1645,
+      "label": "27:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Blender Animations - AI + MCP",
+      "startSeconds": 1668,
+      "label": "27:48",
+      "source": "youtube"
+    },
+    {
+      "title": "MiniMax Code 2.0",
+      "startSeconds": 1720,
+      "label": "28:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Ling-3.0-tiny: Small, Sparse, Fast",
+      "startSeconds": 1757,
+      "label": "29:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Token Leak Fixes",
+      "startSeconds": 1784,
+      "label": "29:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Kestra: Governed AI Agents",
+      "startSeconds": 1851,
+      "label": "30:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Hermes /learn docs into skills",
+      "startSeconds": 1876,
+      "label": "31:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Pax Silica: Philippine AI Bet",
+      "startSeconds": 1921,
+      "label": "32:01",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenMausBot: Agent Teams",
+      "startSeconds": 1957,
+      "label": "32:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Sybase & Microsoft SQL Server",
+      "startSeconds": 1981,
+      "label": "33:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 2073,
+      "label": "34:33",
+      "source": "youtube"
+    }
+  ],
   "slides": [
     {
       "index": 1,
-      "title": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Meta DELTA",
-      "text": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Meta Muse Glimmer Model GLM 5.3 , ZCode Grok 4.6 DeepSeek V4 Pro Gemini 3.7 Flash - August 13 OpenAI Ships GPT-5.6-Cyber Claude Code Cross-Session Messaging AI Updates - Aug 14, 2026 Jobs & Layoffs “The first rule of autonomous systems: make recovery more automatic than the mistake.” Mark Zuckerberg - AI Access Double Descent Explained cmux - an Agent-Friendly Terminal Stella’s AI-App Launch VEED Fabric AI Video Test Stanford Virtual Biotech GitHub vs Vercel vs Replit Peter Diamandis Automagical Life granian vs uvicorn for SaaS LangGraph AI Coding Skills: Modular Control Karpathy’s Prompting 2.0 Harness Improves  Local AI Blender Animations - AI + MCP Discovery Loop Grok Imagine Image 2.0 Hermes Browser-Use Upgrade Grok Bot: Agent Team NVIDIA Nemotron 3.5 Lightning Anthropic is adding invisible watermarks Claude Obsidian plugin v.2 Coldcard Seed Exploit - $100 Mln Theft Prime Agent Harness vs Hermes Gauntlet Loop: AI QA Harness-R1: Outcome-Graded Agents MiniMax Code 2.0 Ling-3.0-tiny: Small, Sparse, Fast Claude Code Token Leak Fixes Kestra: Governed AI Agents Hermes /learn docs into skills Pax Silica: Philippine AI Bet OpenMausBot: Agent Teams Sybase & Microsoft SQL Server [test-delta]"
+      "title": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Meta",
+      "text": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Meta Muse Glimmer Model GLM 5.3 , ZCode Grok 4.6 DeepSeek V4 Pro Gemini 3.7 Flash - August 13 OpenAI Ships GPT-5.6-Cyber Claude Code Cross-Session Messaging AI Updates - Aug 14, 2026 Jobs & Layoffs “The first rule of autonomous systems: make recovery more automatic than the mistake.” Mark Zuckerberg - AI Access Double Descent Explained cmux - an Agent-Friendly Terminal Stella’s AI-App Launch VEED Fabric AI Video Test Stanford Virtual Biotech GitHub vs Vercel vs Replit Peter Diamandis Automagical Life granian vs uvicorn for SaaS LangGraph AI Coding Skills: Modular Control Karpathy’s Prompting 2.0 Harness Improves  Local AI Blender Animations - AI + MCP Discovery Loop Grok Imagine Image 2.0 Hermes Browser-Use Upgrade Grok Bot: Agent Team NVIDIA Nemotron 3.5 Lightning Anthropic is adding invisible watermarks Claude Obsidian plugin v.2 Coldcard Seed Exploit - $100 Mln Theft Prime Agent Harness vs Hermes Gauntlet Loop: AI QA Harness-R1: Outcome-Graded Agents MiniMax Code 2.0 Ling-3.0-tiny: Small, Sparse, Fast Claude Code Token Leak Fixes Kestra: Governed AI Agents Hermes /learn docs into skills Pax Silica: Philippine AI Bet OpenMausBot: Agent Teams Sybase & Microsoft SQL Server"
     },
     {
       "index": 2,
@@ -244,112 +517,400 @@
   ],
   "points": [
     {
-      "claim": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Meta",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=0s",
       "slideIndex": 1,
       "slideTitle": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Meta",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Crowd-sourced \"LM Arena\"",
+      "topic": "benchmarks",
+      "videoSeconds": 22,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=22s",
       "slideIndex": 2,
       "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-      "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Cost Per Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": 73,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=73s",
       "slideIndex": 3,
       "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Meta Muse Glimmer Muse Glimmer Model https://developer.meta.com/ai/models/muse-glimmer/ https://ollama.com/blog/muse-glimmer",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Meta Muse Glimmer Model",
+      "topic": "general",
+      "videoSeconds": 189,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=189s",
       "slideIndex": 4,
       "slideTitle": "Meta Muse Glimmer Muse Glimmer Model https://developer.meta.com/ai/models/muse-glimmer/ https://ollama.com/blog/muse-glimmer",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Grok 4.6 SpaceXAI Grok 4.6 - August 12",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Grok 4.6",
+      "topic": "general",
+      "videoSeconds": 267,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=267s",
       "slideIndex": 5,
       "slideTitle": "Grok 4.6 SpaceXAI Grok 4.6 - August 12",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "GLM 5.3 , ZCode Z.ai GLM-5.3 , ZCode",
+      "claim": "GLM 5.3 , ZCode",
       "topic": "open-models",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 328,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=328s",
       "slideIndex": 6,
       "slideTitle": "GLM 5.3 , ZCode Z.ai GLM-5.3 , ZCode",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates DeepSeek V4 Pro - Affordable Coding",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "DeepSeek V4 Pro",
+      "topic": "open-models",
+      "videoSeconds": 390,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=390s",
       "slideIndex": 7,
       "slideTitle": "AI Updates DeepSeek V4 Pro - Affordable Coding",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Gemini 3.7 Flash - August 13 Gemini 3.7",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Gemini 3.7 Flash - August 13",
+      "topic": "google",
+      "videoSeconds": 453,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=453s",
       "slideIndex": 8,
       "slideTitle": "Gemini 3.7 Flash - August 13 Gemini 3.7",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates OpenAI Ships GPT-5.6-Cyber GPT-5.6-Cyber is OpenAI's",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "OpenAI Ships GPT-5.6-Cyber",
+      "topic": "openai",
+      "videoSeconds": 495,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=495s",
       "slideIndex": 9,
       "slideTitle": "AI Updates OpenAI Ships GPT-5.6-Cyber GPT-5.6-Cyber is OpenAI's",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Weekly videos every Friday 7.25K subscribers, 306 videos",
-      "topic": "general",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Claude Code Cross-Session Messaging",
+      "topic": "coding",
+      "videoSeconds": 503,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=503s",
       "slideIndex": 10,
       "slideTitle": "Weekly videos every Friday 7.25K subscribers, 306 videos",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Discovery Loop Jeff Dean , chief scientist and",
-      "topic": "google",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Discovery Loop",
+      "topic": "general",
+      "videoSeconds": 562,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=562s",
       "slideIndex": 11,
       "slideTitle": "Discovery Loop Jeff Dean , chief scientist and",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates Grok Imagine Image 2.0 Magic Wand,",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Grok Imagine Image 2.0",
+      "topic": "general",
+      "videoSeconds": 622,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=622s",
+      "slideIndex": 11,
+      "slideTitle": "Discovery Loop Jeff Dean , chief scientist and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hermes Browser-Use Upgrade",
+      "topic": "general",
+      "videoSeconds": 628,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=628s",
       "slideIndex": 12,
       "slideTitle": "AI Updates Grok Imagine Image 2.0 Magic Wand,",
-      "source": "slide"
+      "source": "youtube"
+    },
+    {
+      "claim": "Grok Bot: Agent Team",
+      "topic": "agents",
+      "videoSeconds": 656,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=656s",
+      "slideIndex": 13,
+      "slideTitle": "Grok Bot: Agent Team Grok Bot: Agent Team",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Nemotron 3.5 Lightning",
+      "topic": "infra",
+      "videoSeconds": 677,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=677s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates NVIDIA Nemotron 3.5 Lightning open-source model",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic is adding invisible watermarks",
+      "topic": "claude",
+      "videoSeconds": 766,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=766s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Coldcard Seed Exploit - $100+ Mln",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Obsidian plugin v.2",
+      "topic": "claude",
+      "videoSeconds": 785,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=785s",
+      "slideIndex": 16,
+      "slideTitle": "Prime Agent Harness vs Hermes Prime Agent Harness",
+      "source": "youtube"
+    },
+    {
+      "claim": "Coldcard Seed Exploit - $100 Mln Theft",
+      "topic": "general",
+      "videoSeconds": 804,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=804s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates Gauntlet Loop: AI QA Gauntlet Loop",
+      "source": "youtube"
+    },
+    {
+      "claim": "Prime Agent Harness vs Hermes",
+      "topic": "agents",
+      "videoSeconds": 836,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=836s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates Harness-R1: Outcome-Graded Agents 1. deploy AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gauntlet Loop: AI QA",
+      "topic": "general",
+      "videoSeconds": 950,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=950s",
+      "slideIndex": 19,
+      "slideTitle": "Mark Zuckerberg - AI Access vs Compute Mark",
+      "source": "youtube"
+    },
+    {
+      "claim": "Harness-R1: Outcome-Graded Agents",
+      "topic": "agents",
+      "videoSeconds": 1029,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1029s",
+      "slideIndex": 20,
+      "slideTitle": "Double Descent Explained https://www.youtube.com/watch?v=NP8oGdiu8dQ https://mlu-explain.github.io/double-descent/ https://github.com/josch14/double-descent https://www.pnas.org/doi/10.1073/pnas.1903070116 https://arxiv.org/abs/1812.11118",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mark Zuckerberg - AI Access",
+      "topic": "general",
+      "videoSeconds": 1123,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1123s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates cmux - an Agent-Friendly Terminal cmux",
+      "source": "youtube"
+    },
+    {
+      "claim": "Double Descent Explained",
+      "topic": "general",
+      "videoSeconds": 1171,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1171s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Stella’s AI-App Launch The article claims",
+      "source": "youtube"
+    },
+    {
+      "claim": "cmux - an Agent-Friendly Terminal",
+      "topic": "agents",
+      "videoSeconds": 1246,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1246s",
+      "slideIndex": 23,
+      "slideTitle": "VEED Fabric AI Video Test VEED Fabric AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stella's AI-App Launch",
+      "topic": "general",
+      "videoSeconds": 1276,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1276s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates Stanford Virtual Biotech https://med.stanford.edu/cancer/about/news/inside-the-virtual-lab--how-ai-scientists-are-accelerating-disco.html https://github.com/zou-group/virtual-lab https://venturebeat.com/orchestration/stanford-is-running-37-000-ai-agents-as-a-virtual-biotech-and-one-of-its-drug-designs-got-independently-confirmed-by-merck",
+      "source": "youtube"
+    },
+    {
+      "claim": "VEED Fabric AI Video Test",
+      "topic": "general",
+      "videoSeconds": 1300,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1300s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates AI Dev Platforms: GitHub vs Vercel",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stanford Virtual Biotech",
+      "topic": "general",
+      "videoSeconds": 1328,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1328s",
+      "slideIndex": 26,
+      "slideTitle": "granian vs uvicorn for SaaS Peter Diamandis -",
+      "source": "youtube"
+    },
+    {
+      "claim": "GitHub vs Vercel vs Replit",
+      "topic": "general",
+      "videoSeconds": 1367,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1367s",
+      "slideIndex": 27,
+      "slideTitle": "granian vs uvicorn for SaaS https://uvicorn.dev https://github.com/Kludex/uvicorn https://github.com/emmett-framework/granian",
+      "source": "youtube"
+    },
+    {
+      "claim": "Peter Diamandis Automagical Life",
+      "topic": "general",
+      "videoSeconds": 1382,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1382s",
+      "slideIndex": 28,
+      "slideTitle": "AI Updates LangGraph: Runtime Over Diagrams https://langchain-ai.github.io/langgraph/ https://github.com/langchain-ai/langgraph",
+      "source": "youtube"
+    },
+    {
+      "claim": "granian vs uvicorn for SaaS",
+      "topic": "general",
+      "videoSeconds": 1417,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1417s",
+      "slideIndex": 29,
+      "slideTitle": "AI Updates AI Coding Skills: Modular Control https://www.youtube.com/watch?v=8D8ewFBJfFM",
+      "source": "youtube"
+    },
+    {
+      "claim": "LangGraph",
+      "topic": "general",
+      "videoSeconds": 1489,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1489s",
+      "slideIndex": 30,
+      "slideTitle": "Karpathy’s Prompting 2.0 Karpathy’s Prompting 2.0 https://www.youtube.com/watch?v=eMPWBunaOic https://karpathy.ai",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Coding Skills: Modular Control",
+      "topic": "general",
+      "videoSeconds": 1548,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1548s",
+      "slideIndex": 31,
+      "slideTitle": "Create Blender Animations AI & MCP https://www.blender.org https://www.youtube.com/watch?v=xBLGsYLwgks",
+      "source": "youtube"
+    },
+    {
+      "claim": "Karpathy's Prompting 2.0",
+      "topic": "general",
+      "videoSeconds": 1589,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1589s",
+      "slideIndex": 32,
+      "slideTitle": "AI Updates MiniMax Code 2.0 (August 7) Rebuilt",
+      "source": "youtube"
+    },
+    {
+      "claim": "Harness Improves Local AI",
+      "topic": "general",
+      "videoSeconds": 1645,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1645s",
+      "slideIndex": 32,
+      "slideTitle": "AI Updates MiniMax Code 2.0 (August 7) Rebuilt",
+      "source": "youtube"
+    },
+    {
+      "claim": "Blender Animations - AI + MCP",
+      "topic": "agents",
+      "videoSeconds": 1668,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1668s",
+      "slideIndex": 33,
+      "slideTitle": "AI Updates Ling-3.0-tiny: Small, Sparse, Fast https://huggingface.co/inclusionAI/Ling-3.0-tiny https://github.com/inclusionAI/Ling",
+      "source": "youtube"
+    },
+    {
+      "claim": "MiniMax Code 2.0",
+      "topic": "general",
+      "videoSeconds": 1720,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1720s",
+      "slideIndex": 34,
+      "slideTitle": "AI Updates Claude Code Token Leak Fixes The",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ling-3.0-tiny: Small, Sparse, Fast",
+      "topic": "general",
+      "videoSeconds": 1757,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1757s",
+      "slideIndex": 35,
+      "slideTitle": "AI Updates Kestra: Governed AI Agents Kestra combines",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code Token Leak Fixes",
+      "topic": "coding",
+      "videoSeconds": 1784,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1784s",
+      "slideIndex": 36,
+      "slideTitle": "AI Updates Hermes /learn docs into skills Hermes",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kestra: Governed AI Agents",
+      "topic": "agents",
+      "videoSeconds": 1851,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1851s",
+      "slideIndex": 37,
+      "slideTitle": "AI Updates Pax Silica: Philippine AI Bet Pax",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hermes /learn docs into skills",
+      "topic": "general",
+      "videoSeconds": 1876,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1876s",
+      "slideIndex": 38,
+      "slideTitle": "AI Updates OpenMausBot: Agent Teams Your own team",
+      "source": "youtube"
+    },
+    {
+      "claim": "Pax Silica: Philippine AI Bet",
+      "topic": "general",
+      "videoSeconds": 1921,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1921s",
+      "slideIndex": 39,
+      "slideTitle": "AI Updates Sybase & Microsoft SQL Server Sybase",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenMausBot: Agent Teams",
+      "topic": "agents",
+      "videoSeconds": 1957,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1957s",
+      "slideIndex": 40,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sybase & Microsoft SQL Server",
+      "topic": "general",
+      "videoSeconds": 1981,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1981s",
+      "slideIndex": 41,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2073,
+      "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=2073s",
+      "slideIndex": 42,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
     }
   ]
 }

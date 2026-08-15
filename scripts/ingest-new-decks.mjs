@@ -26,6 +26,7 @@ const ROOT = join(__dirname, "..");
 const args = process.argv.slice(2);
 const parsePptx = !args.includes("--no-parse");
 const allCorpus = args.includes("--all");
+const skipYoutube = args.includes("--skip-youtube");
 
 function log(msg) {
   process.stderr.write(`${msg}\n`);
@@ -112,7 +113,13 @@ async function main() {
   log(`  ${newPaths.length} new deck(s):`);
   for (const p of newPaths) log(`    + ${p}`);
 
-  const { allVideos, videosByDate } = await fetchYouTubeCatalog({ log, weeksForFullMeta: 8 });
+  let allVideos = [];
+  let videosByDate = new Map();
+  if (skipYoutube) {
+    log("  skipping YouTube (deck-only; match videos locally later)");
+  } else {
+    ({ allVideos, videosByDate } = await fetchYouTubeCatalog({ log, weeksForFullMeta: 8 }));
+  }
   const addedIds = [];
 
   for (const path of newPaths) {
@@ -131,7 +138,7 @@ async function main() {
 
   await writeAggregates(sorted, {
     refreshedIds: [],
-    videoCount: allVideos.length,
+    videoCount: skipYoutube ? meta.counts?.videos ?? null : allVideos.length,
     pendingRefresh: pending,
     lastDeltaIngest: {
       at: new Date().toISOString(),

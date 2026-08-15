@@ -61,15 +61,19 @@ Hosting is **fully static** — GitHub Pages works; no server required. See [doc
 
 ## Data refresh
 
-**Weekly (after Friday AI-Updates video + deck land):**
+TUI and the web app both read the same committed `data/` (sessions → `seminars.json` + search index). There is one corpus.
+
+**GitHub Actions (Saturday):** new PPTX from [`lselector/seminar`](https://github.com/lselector/seminar) and slide text only. It does **not** call YouTube.
+
+**Local (your machine, weekly, needs [yt-dlp](https://github.com/yt-dlp/yt-dlp)):** match videos and chapters, then push `data/`:
 
 ```bash
-npm run ingest:refresh          # re-match YouTube for deck-only + last 4 weeks, then rebuild search
+npm run ingest:refresh          # re-match YouTube for last 4 weeks + pending decks, then rebuild search
 # or one session:
 node scripts/refresh-recent.mjs --date 2026-07-31 && npm run build
 ```
 
-Requires [yt-dlp](https://github.com/yt-dlp/yt-dlp). Re-parses PPTX only when needed: `npm run ingest:refresh:parse`.
+Re-parse PPTX locally when needed: `npm run ingest:refresh:parse`.
 
 **Full corpus rebuild** (new decks in GitHub, annual backfill):
 

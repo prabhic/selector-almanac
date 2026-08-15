@@ -17,6 +17,7 @@
     "ingest:refresh": "node scripts/refresh-recent.mjs && npm run build",
     "ingest:refresh:parse": "node scripts/refresh-recent.mjs --parse && npm run build",
     "ingest:delta": "node scripts/ingest-new-decks.mjs && node scripts/refresh-recent.mjs --weeks 6 --parse && npm run build",
+    "ingest:decks": "node scripts/ingest-new-decks.mjs --skip-youtube && node scripts/refresh-recent.mjs --weeks 2 --parse --slides-only && npm run build",
     "restore:regressed": "node scripts/restore-regressed.mjs && npm run build",
     "compile": "node scripts/compile-sessions.mjs",
     "validate": "node scripts/validate-data.mjs",

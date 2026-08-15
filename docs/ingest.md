@@ -27,4 +27,6 @@ Keyword rules over titles, chapter names, and slide text — no LLM pass yet. Se
 - `--quick` — skip PPTX download/parse (faster; slides array empty)
 - `--limit N` — process only N decks (debug)
 
-Requires `yt-dlp` on PATH (`brew install yt-dlp`).
+Requires `yt-dlp` on PATH (`brew install yt-dlp`) for **local** YouTube matching.
+
+GitHub Actions ingest decks only (`--skip-youtube` / `--slides-only`). Match videos on a machine that can reach YouTube, then commit `data/` so TUI and the web UI stay in sync.

@@ -1,15 +1,15 @@
-# Incremental data refresh: new decks from GitHub + re-match recent YouTube + rebuild index/search.
+# CI: new PPTX from GitHub + re-parse recent slides. YouTube match/chapters stay local.
 # Manual: Actions → Data refresh (delta) → Run workflow
-# Schedule: Saturday 08:00 IST (02:30 UTC) — after Friday AI-Updates video + deck land.
+# Schedule: Saturday 08:00 IST (02:30 UTC) — after Friday AI-Updates deck lands.
 name: Data refresh (delta)
 
 on:
   workflow_dispatch:
     inputs:
       weeks:
-        description: Weeks back to re-match YouTube and re-parse slides
+        description: Weeks back to re-parse PPTX (YouTube is not fetched in CI)
         required: false
-        default: "6"
+        default: "2"
       parse_slides:
         description: Download and parse PPTX for refresh targets
         type: boolean
@@ -29,8 +29,6 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    env:
-      YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
     steps:
       - uses: actions/checkout@v4
 
@@ -39,23 +37,17 @@ jobs:
           node-version: "22"
           cache: npm
 
-      - name: Install yt-dlp (latest release)
-        run: bash scripts/ci-install-yt-dlp.sh
-
       - name: Install dependencies
         run: npm ci
 
-      - name: Probe YouTube access
-        run: node scripts/probe-youtube.mjs
-
-      - name: Delta ingest and rebuild
+      - name: Ingest new decks and re-parse slides
         env:
-          WEEKS: ${{ github.event.inputs.weeks || '6' }}
+          WEEKS: ${{ github.event.inputs.weeks || '2' }}
           PARSE: ${{ (github.event_name == 'schedule' || github.event.inputs.parse_slides != 'false') && '1' || '0' }}
         run: |
           set -euo pipefail
-          node scripts/ingest-new-decks.mjs
-          ARGS=(--weeks "$WEEKS")
+          node scripts/ingest-new-decks.mjs --skip-youtube
+          ARGS=(--weeks "$WEEKS" --slides-only)
           if [ "$PARSE" = "1" ]; then ARGS+=(--parse); fi
           node scripts/refresh-recent.mjs "${ARGS[@]}"
           npm run build
@@ -70,7 +62,7 @@ jobs:
             echo "No data changes to commit."
             exit 0
           fi
-          git commit -m "data: delta refresh from GitHub Actions"
+          git commit -m "data: deck ingest from GitHub Actions"
           git push
 
   deploy:

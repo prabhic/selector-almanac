@@ -8,6 +8,7 @@
  *   node scripts/refresh-recent.mjs --date 2026-07-31  # one session
  *   node scripts/refresh-recent.mjs --weeks 8 --parse  # re-fetch PPTX for recent decks
  *   node scripts/refresh-recent.mjs --all-unmatched    # also refresh old deck-only sessions
+ *   node scripts/refresh-recent.mjs --slides-only --parse  # PPTX only (CI; do not touch YouTube)
  */
 import { readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
@@ -34,6 +35,7 @@ const ROOT = join(__dirname, "..");
 
 const args = process.argv.slice(2);
 const parsePptx = args.includes("--parse");
+const slidesOnly = args.includes("--slides-only");
 const allUnmatched = args.includes("--all-unmatched");
 const dateIdx = args.indexOf("--date");
 const oneDate = dateIdx >= 0 ? args[dateIdx + 1] : null;
@@ -62,7 +64,9 @@ function shouldRefresh(seminar, since, { forceIds = new Set() } = {}) {
 
 async function main() {
   const since = cutoffDate(weeks);
-  log(`Refresh recent seminars (since ${since}, weeks=${weeks}${oneDate ? `, date=${oneDate}` : ""})`);
+  log(
+    `Refresh recent seminars (since ${since}, weeks=${weeks}${oneDate ? `, date=${oneDate}` : ""}${slidesOnly ? ", slides-only" : ""})`,
+  );
 
   const meta = JSON.parse(await readFile(join(DATA, "meta.json"), "utf8"));
   const forceIds = new Set(meta.pendingRefresh ?? []);
@@ -76,27 +80,37 @@ async function main() {
   }
   log(`  ${targets.length} session(s) to update`);
 
-  const { allVideos, videosByDate } = await fetchYouTubeCatalog({ log, weeksForFullMeta: weeks });
+  let allVideos = [];
+  let videosByDate = new Map();
+  if (slidesOnly) {
+    log("  skipping YouTube match (slides-only)");
+  } else {
+    ({ allVideos, videosByDate } = await fetchYouTubeCatalog({ log, weeksForFullMeta: weeks }));
+  }
 
   let updated = 0;
   for (const seminar of targets) {
-    const date = seminar.date ?? parseDeckDate(seminar.deck?.path ?? "");
-    const match = matchVideo(date, videosByDate, allVideos);
-    const video = match?.video ?? null;
-
+    let slidesChanged = false;
     if (parsePptx && seminar.deck?.rawUrl) {
       try {
         seminar.slides = await fetchAndParsePptx(seminar.deck.rawUrl);
+        slidesChanged = true;
         log(`  parsed slides: ${seminar.id} (${seminar.slides.length})`);
       } catch (err) {
         log(`  slide parse failed: ${seminar.id} — ${err.message}`);
       }
     }
 
-    if (video) refreshTopicsFromVideo(seminar, video);
+    let videoChanged = false;
+    if (!slidesOnly) {
+      const date = seminar.date ?? parseDeckDate(seminar.deck?.path ?? "");
+      const match = matchVideo(date, videosByDate, allVideos);
+      const video = match?.video ?? null;
+      if (video) refreshTopicsFromVideo(seminar, video);
+      videoChanged = applyVideoMatch(seminar, match, { log });
+    }
 
-    const videoChanged = applyVideoMatch(seminar, match, { log });
-    if (parsePptx || videoChanged) {
+    if (slidesChanged || videoChanged) {
       seminar.points = buildPoints(seminar);
     }
 
@@ -113,8 +127,8 @@ async function main() {
     refreshedIds: targets.map((s) => s.id),
     weeks,
     oneDate,
-    videoCount: allVideos.length,
-    pendingRefresh: [],
+    videoCount: slidesOnly ? meta.counts?.videos ?? null : allVideos.length,
+    pendingRefresh: slidesOnly ? (meta.pendingRefresh ?? []) : [],
     lastDeltaIngest: meta.lastDeltaIngest,
   });
 

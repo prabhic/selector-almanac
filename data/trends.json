@@ -88,8 +88,8 @@
     "2026-08-14"
   ],
   "weeklyTotals": {
-    "2026-08-14": 0,
-    "2026-08-07": 0,
+    "2026-08-14": 44,
+    "2026-08-07": 40,
     "2026-07-31": 48,
     "2026-07-24": 45,
     "2026-07-17": 43,
@@ -179,8 +179,8 @@
       "label": "Agents & orchestration",
       "blurb": "Tool use, MCP, OpenClaw, multi-agent systems",
       "firstSeen": "2025-01-10",
-      "totalMentions": 332,
-      "seminarWeeks": 68,
+      "totalMentions": 345,
+      "seminarWeeks": 70,
       "series": [
         {
           "date": "2025-01-10",
@@ -526,6 +526,16 @@
           "date": "2026-07-31",
           "count": 8,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 6,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 7,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -3184,12 +3194,116 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2124s",
           "videoSeconds": 2124,
           "label": "35:24"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Codebase Memory MCP",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=164s",
+          "videoSeconds": 164,
+          "label": "02:44"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Google Gemini Spark AI personal AI Agent",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=291s",
+          "videoSeconds": 291,
+          "label": "04:51"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Hermes Agent 0.20, Hermes + Buzz",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=629s",
+          "videoSeconds": 629,
+          "label": "10:29"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Tailscale Connects AI Agent to Mobile",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=674s",
+          "videoSeconds": 674,
+          "label": "11:14"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Liquid LFM2.5-2.6B small local agentic model",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=690s",
+          "videoSeconds": 690,
+          "label": "11:30"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Microsoft FARAH 1.5 Browser Agent Model",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=1049s",
+          "videoSeconds": 1049,
+          "label": "17:29"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Grok Bot: Agent Team",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=656s",
+          "videoSeconds": 656,
+          "label": "10:56"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Prime Agent Harness vs Hermes",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=836s",
+          "videoSeconds": 836,
+          "label": "13:56"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Harness-R1: Outcome-Graded Agents",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1029s",
+          "videoSeconds": 1029,
+          "label": "17:09"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "cmux - an Agent-Friendly Terminal",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1246s",
+          "videoSeconds": 1246,
+          "label": "20:46"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Blender Animations - AI + MCP",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1668s",
+          "videoSeconds": 1668,
+          "label": "27:48"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Kestra: Governed AI Agents",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1851s",
+          "videoSeconds": 1851,
+          "label": "30:51"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "OpenMausBot: Agent Teams",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1957s",
+          "videoSeconds": 1957,
+          "label": "32:37"
         }
       ],
       "momentum": {
-        "recent": 238,
+        "recent": 251,
         "prior": 94,
-        "delta": 144
+        "delta": 157
       }
     },
     "coding": {
@@ -3197,8 +3311,8 @@
       "label": "Coding assistants",
       "blurb": "Claude Code, Cursor, Copilot, vibe coding, Codex",
       "firstSeen": "2025-01-24",
-      "totalMentions": 163,
-      "seminarWeeks": 57,
+      "totalMentions": 167,
+      "seminarWeeks": 59,
       "series": [
         {
           "date": "2025-01-24",
@@ -3489,6 +3603,16 @@
           "date": "2026-07-31",
           "count": 3,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 2,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 2,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -4795,12 +4919,44 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1924s",
           "videoSeconds": 1924,
           "label": "32:04"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Muse Code vs Claude Code",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=354s",
+          "videoSeconds": 354,
+          "label": "05:54"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "doctor is a built-in Claude Code command",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=409s",
+          "videoSeconds": 409,
+          "label": "06:49"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Claude Code Cross-Session Messaging",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=503s",
+          "videoSeconds": 503,
+          "label": "08:23"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Claude Code Token Leak Fixes",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1784s",
+          "videoSeconds": 1784,
+          "label": "29:44"
         }
       ],
       "momentum": {
-        "recent": 121,
+        "recent": 125,
         "prior": 42,
-        "delta": 79
+        "delta": 83
       }
     },
     "claude": {
@@ -4808,8 +4964,8 @@
       "label": "Claude / Anthropic",
       "blurb": "Anthropic models, Sonnet, Opus, Fable",
       "firstSeen": "2025-01-10",
-      "totalMentions": 275,
-      "seminarWeeks": 67,
+      "totalMentions": 282,
+      "seminarWeeks": 69,
       "series": [
         {
           "date": "2025-01-10",
@@ -5150,6 +5306,16 @@
           "date": "2026-07-31",
           "count": 5,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 3,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 4,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -7352,12 +7518,68 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2044s",
           "videoSeconds": 2044,
           "label": "34:04"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Muse Code vs Claude Code",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=354s",
+          "videoSeconds": 354,
+          "label": "05:54"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "doctor is a built-in Claude Code command",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=409s",
+          "videoSeconds": 409,
+          "label": "06:49"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Claude /watch video skill - summarize content",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=477s",
+          "videoSeconds": 477,
+          "label": "07:57"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Claude Code Cross-Session Messaging",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=503s",
+          "videoSeconds": 503,
+          "label": "08:23"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Anthropic is adding invisible watermarks",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=766s",
+          "videoSeconds": 766,
+          "label": "12:46"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Claude Obsidian plugin v.2",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=785s",
+          "videoSeconds": 785,
+          "label": "13:05"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Claude Code Token Leak Fixes",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=1784s",
+          "videoSeconds": 1784,
+          "label": "29:44"
         }
       ],
       "momentum": {
-        "recent": 218,
+        "recent": 225,
         "prior": 57,
-        "delta": 161
+        "delta": 168
       }
     },
     "openai": {
@@ -7365,8 +7587,8 @@
       "label": "OpenAI / GPT",
       "blurb": "GPT, ChatGPT, Codex, OpenAI agents",
       "firstSeen": "2025-01-10",
-      "totalMentions": 163,
-      "seminarWeeks": 66,
+      "totalMentions": 165,
+      "seminarWeeks": 68,
       "series": [
         {
           "date": "2025-01-10",
@@ -7702,6 +7924,16 @@
           "date": "2026-07-31",
           "count": 3,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 1,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 1,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -9008,12 +9240,28 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=534s",
           "videoSeconds": 534,
           "label": "08:54"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "OpenAI Astra Solves 10 Math Problems",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=314s",
+          "videoSeconds": 314,
+          "label": "05:14"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "OpenAI Ships GPT-5.6-Cyber",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=495s",
+          "videoSeconds": 495,
+          "label": "08:15"
         }
       ],
       "momentum": {
-        "recent": 86,
+        "recent": 88,
         "prior": 77,
-        "delta": 9
+        "delta": 11
       }
     },
     "google": {
@@ -9021,8 +9269,8 @@
       "label": "Google / Gemini",
       "blurb": "Gemini, Google AI Mode, Flash models",
       "firstSeen": "2025-01-24",
-      "totalMentions": 83,
-      "seminarWeeks": 47,
+      "totalMentions": 85,
+      "seminarWeeks": 49,
       "series": [
         {
           "date": "2025-01-24",
@@ -9258,6 +9506,16 @@
           "date": "2026-07-24",
           "count": 4,
           "seminarId": "2026-07-24-2026-07-24-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 1,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 1,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -9924,12 +10182,28 @@
           "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1942s",
           "videoSeconds": 1942,
           "label": "32:22"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Google Gemini Spark AI personal AI Agent",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=291s",
+          "videoSeconds": 291,
+          "label": "04:51"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Gemini 3.7 Flash - August 13",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=453s",
+          "videoSeconds": 453,
+          "label": "07:33"
         }
       ],
       "momentum": {
-        "recent": 48,
+        "recent": 50,
         "prior": 35,
-        "delta": 13
+        "delta": 15
       }
     },
     "open-models": {
@@ -9937,8 +10211,8 @@
       "label": "Open models & China labs",
       "blurb": "Qwen, DeepSeek, Kimi, Mistral, Llama, Hugging Face",
       "firstSeen": "2025-01-10",
-      "totalMentions": 209,
-      "seminarWeeks": 73,
+      "totalMentions": 213,
+      "seminarWeeks": 75,
       "series": [
         {
           "date": "2025-01-10",
@@ -10309,6 +10583,16 @@
           "date": "2026-07-31",
           "count": 3,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 2,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 2,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -11983,12 +12267,44 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1902s",
           "videoSeconds": 1902,
           "label": "31:42"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Qwen 3.8 Max Open Weight",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=776s",
+          "videoSeconds": 776,
+          "label": "12:56"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Tencent Open-Source AI Memory System",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=874s",
+          "videoSeconds": 874,
+          "label": "14:34"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "GLM 5.3 , ZCode",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=328s",
+          "videoSeconds": 328,
+          "label": "05:28"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "DeepSeek V4 Pro",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=390s",
+          "videoSeconds": 390,
+          "label": "06:30"
         }
       ],
       "momentum": {
-        "recent": 112,
+        "recent": 116,
         "prior": 97,
-        "delta": 15
+        "delta": 19
       }
     },
     "benchmarks": {
@@ -11996,8 +12312,8 @@
       "label": "Benchmarks & leaderboards",
       "blurb": "LM Arena, evals, intelligence index",
       "firstSeen": "2025-01-03",
-      "totalMentions": 81,
-      "seminarWeeks": 68,
+      "totalMentions": 85,
+      "seminarWeeks": 70,
       "series": [
         {
           "date": "2025-01-03",
@@ -12338,6 +12654,16 @@
           "date": "2026-07-31",
           "count": 2,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 2,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 2,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -12988,12 +13314,44 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=41s",
           "videoSeconds": 41,
           "label": "00:41"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=10s",
+          "videoSeconds": 10,
+          "label": "00:10"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Cost Per Intelligence Index",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=56s",
+          "videoSeconds": 56,
+          "label": "00:56"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Crowd-sourced \"LM Arena\"",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=22s",
+          "videoSeconds": 22,
+          "label": "00:22"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Cost Per Intelligence Index",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=73s",
+          "videoSeconds": 73,
+          "label": "01:13"
         }
       ],
       "momentum": {
-        "recent": 47,
+        "recent": 51,
         "prior": 34,
-        "delta": 13
+        "delta": 17
       }
     },
     "rag": {
@@ -13001,8 +13359,8 @@
       "label": "RAG & memory",
       "blurb": "Retrieval, embeddings, vector DB, context memory",
       "firstSeen": "2025-01-24",
-      "totalMentions": 54,
-      "seminarWeeks": 38,
+      "totalMentions": 56,
+      "seminarWeeks": 39,
       "series": [
         {
           "date": "2025-01-24",
@@ -13193,6 +13551,11 @@
           "date": "2026-07-31",
           "count": 1,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 2,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
         }
       ],
       "timeline": [
@@ -13627,12 +13990,28 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1856s",
           "videoSeconds": 1856,
           "label": "30:56"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Codebase Memory MCP",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=164s",
+          "videoSeconds": 164,
+          "label": "02:44"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Tencent Open-Source AI Memory System",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=874s",
+          "videoSeconds": 874,
+          "label": "14:34"
         }
       ],
       "momentum": {
-        "recent": 33,
+        "recent": 35,
         "prior": 21,
-        "delta": 12
+        "delta": 14
       }
     },
     "multimodal": {
@@ -13640,8 +14019,8 @@
       "label": "Multimodal & media",
       "blurb": "Image/video/voice generation, diffusion",
       "firstSeen": "2025-02-28",
-      "totalMentions": 48,
-      "seminarWeeks": 37,
+      "totalMentions": 50,
+      "seminarWeeks": 38,
       "series": [
         {
           "date": "2025-02-28",
@@ -13827,6 +14206,11 @@
           "date": "2026-07-31",
           "count": 1,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 2,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
         }
       ],
       "timeline": [
@@ -14213,12 +14597,28 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1902s",
           "videoSeconds": 1902,
           "label": "31:42"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Dreamina Seedance 2.5 - AI Video Generation",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=807s",
+          "videoSeconds": 807,
+          "label": "13:27"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Empero Qwythos 27B - open, local, multimodal",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=1094s",
+          "videoSeconds": 1094,
+          "label": "18:14"
         }
       ],
       "momentum": {
-        "recent": 28,
+        "recent": 30,
         "prior": 20,
-        "delta": 8
+        "delta": 10
       }
     },
     "infra": {
@@ -14226,8 +14626,8 @@
       "label": "Infrastructure & chips",
       "blurb": "Nvidia, inference, serving, GPUs, cloud",
       "firstSeen": "2025-01-10",
-      "totalMentions": 91,
-      "seminarWeeks": 50,
+      "totalMentions": 93,
+      "seminarWeeks": 52,
       "series": [
         {
           "date": "2025-01-10",
@@ -14483,6 +14883,16 @@
           "date": "2026-07-31",
           "count": 1,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 1,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 1,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -15213,12 +15623,28 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=957s",
           "videoSeconds": 957,
           "label": "15:57"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Meta Compute - renting GPU capacity to external clients",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=1625s",
+          "videoSeconds": 1625,
+          "label": "27:05"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "NVIDIA Nemotron 3.5 Lightning",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=677s",
+          "videoSeconds": 677,
+          "label": "11:17"
         }
       ],
       "momentum": {
-        "recent": 47,
+        "recent": 49,
         "prior": 44,
-        "delta": 3
+        "delta": 5
       }
     },
     "jobs": {
@@ -15226,8 +15652,8 @@
       "label": "Jobs & labor market",
       "blurb": "Hiring, layoffs, demand for AI engineers",
       "firstSeen": "2025-01-03",
-      "totalMentions": 103,
-      "seminarWeeks": 69,
+      "totalMentions": 105,
+      "seminarWeeks": 71,
       "series": [
         {
           "date": "2025-01-03",
@@ -15578,6 +16004,16 @@
           "date": "2026-07-31",
           "count": 1,
           "seminarId": "2026-07-31-2026-07-31-ai-updates"
+        },
+        {
+          "date": "2026-08-07",
+          "count": 1,
+          "seminarId": "2026-08-07-2026-08-07-ai-updates"
+        },
+        {
+          "date": "2026-08-14",
+          "count": 1,
+          "seminarId": "2026-08-14-2026-08-14-ai-updates"
         }
       ],
       "timeline": [
@@ -16404,12 +16840,28 @@
           "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2150s",
           "videoSeconds": 2150,
           "label": "35:50"
+        },
+        {
+          "date": "2026-08-07",
+          "seminarId": "2026-08-07-2026-08-07-ai-updates",
+          "claim": "Jobs & Layoffs",
+          "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=1646s",
+          "videoSeconds": 1646,
+          "label": "27:26"
+        },
+        {
+          "date": "2026-08-14",
+          "seminarId": "2026-08-14-2026-08-14-ai-updates",
+          "claim": "Jobs & Layoffs",
+          "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=2073s",
+          "videoSeconds": 2073,
+          "label": "34:33"
         }
       ],
       "momentum": {
-        "recent": 61,
+        "recent": 63,
         "prior": 42,
-        "delta": 19
+        "delta": 21
       }
     },
     "safety": {
@@ -16599,32 +17051,32 @@
     {
       "slug": "claude",
       "label": "Claude / Anthropic",
-      "delta": 161,
-      "recent": 218
+      "delta": 168,
+      "recent": 225
     },
     {
       "slug": "agents",
       "label": "Agents & orchestration",
-      "delta": 144,
-      "recent": 238
+      "delta": 157,
+      "recent": 251
     },
     {
       "slug": "coding",
       "label": "Coding assistants",
-      "delta": 79,
-      "recent": 121
+      "delta": 83,
+      "recent": 125
     },
     {
       "slug": "jobs",
       "label": "Jobs & labor market",
-      "delta": 19,
-      "recent": 61
+      "delta": 21,
+      "recent": 63
     },
     {
       "slug": "open-models",
       "label": "Open models & China labs",
-      "delta": 15,
-      "recent": 112
+      "delta": 19,
+      "recent": 116
     }
   ],
   "cooling": [],
@@ -19436,66 +19888,66 @@
       {
         "date": "2026-08-07",
         "seminarId": "2026-08-07-2026-08-07-ai-updates",
-        "totalChapters": 0,
+        "totalChapters": 40,
         "counts": {
-          "agents": 0,
-          "coding": 0,
-          "claude": 0,
-          "openai": 0,
-          "google": 0,
-          "open-models": 0,
-          "benchmarks": 0,
-          "rag": 0,
-          "multimodal": 0,
-          "infra": 0,
-          "jobs": 0,
+          "agents": 6,
+          "coding": 2,
+          "claude": 3,
+          "openai": 1,
+          "google": 1,
+          "open-models": 2,
+          "benchmarks": 2,
+          "rag": 2,
+          "multimodal": 2,
+          "infra": 1,
+          "jobs": 1,
           "safety": 0
         },
         "shares": {
-          "agents": 0,
-          "coding": 0,
-          "claude": 0,
-          "openai": 0,
-          "google": 0,
-          "open-models": 0,
-          "benchmarks": 0,
-          "rag": 0,
-          "multimodal": 0,
-          "infra": 0,
-          "jobs": 0,
+          "agents": 0.15,
+          "coding": 0.05,
+          "claude": 0.075,
+          "openai": 0.025,
+          "google": 0.025,
+          "open-models": 0.05,
+          "benchmarks": 0.05,
+          "rag": 0.05,
+          "multimodal": 0.05,
+          "infra": 0.025,
+          "jobs": 0.025,
           "safety": 0
         }
       },
       {
         "date": "2026-08-14",
         "seminarId": "2026-08-14-2026-08-14-ai-updates",
-        "totalChapters": 0,
+        "totalChapters": 43,
         "counts": {
-          "agents": 0,
-          "coding": 0,
-          "claude": 0,
-          "openai": 0,
-          "google": 0,
-          "open-models": 0,
-          "benchmarks": 0,
+          "agents": 7,
+          "coding": 2,
+          "claude": 4,
+          "openai": 1,
+          "google": 1,
+          "open-models": 2,
+          "benchmarks": 2,
           "rag": 0,
           "multimodal": 0,
-          "infra": 0,
-          "jobs": 0,
+          "infra": 1,
+          "jobs": 1,
           "safety": 0
         },
         "shares": {
-          "agents": 0,
-          "coding": 0,
-          "claude": 0,
-          "openai": 0,
-          "google": 0,
-          "open-models": 0,
-          "benchmarks": 0,
+          "agents": 0.163,
+          "coding": 0.047,
+          "claude": 0.093,
+          "openai": 0.023,
+          "google": 0.023,
+          "open-models": 0.047,
+          "benchmarks": 0.047,
           "rag": 0,
           "multimodal": 0,
-          "infra": 0,
-          "jobs": 0,
+          "infra": 0.023,
+          "jobs": 0.023,
           "safety": 0
         }
       }
@@ -21913,27 +22365,27 @@
         "seminarId": "2026-08-07-2026-08-07-ai-updates",
         "leader": "claude",
         "leaderLabel": "Claude / Anthropic",
-        "leaderShare": 0,
+        "leaderShare": 0.075,
         "ranking": [
           {
             "slug": "claude",
             "label": "Claude / Anthropic",
-            "share": 0
-          },
-          {
-            "slug": "openai",
-            "label": "OpenAI / GPT",
-            "share": 0
-          },
-          {
-            "slug": "google",
-            "label": "Google / Gemini",
-            "share": 0
+            "share": 0.075
           },
           {
             "slug": "open-models",
             "label": "Open models & China labs",
-            "share": 0
+            "share": 0.05
+          },
+          {
+            "slug": "openai",
+            "label": "OpenAI / GPT",
+            "share": 0.025
+          },
+          {
+            "slug": "google",
+            "label": "Google / Gemini",
+            "share": 0.025
           }
         ]
       },
@@ -21942,27 +22394,27 @@
         "seminarId": "2026-08-14-2026-08-14-ai-updates",
         "leader": "claude",
         "leaderLabel": "Claude / Anthropic",
-        "leaderShare": 0,
+        "leaderShare": 0.093,
         "ranking": [
           {
             "slug": "claude",
             "label": "Claude / Anthropic",
-            "share": 0
-          },
-          {
-            "slug": "openai",
-            "label": "OpenAI / GPT",
-            "share": 0
-          },
-          {
-            "slug": "google",
-            "label": "Google / Gemini",
-            "share": 0
+            "share": 0.093
           },
           {
             "slug": "open-models",
             "label": "Open models & China labs",
-            "share": 0
+            "share": 0.047
+          },
+          {
+            "slug": "openai",
+            "label": "OpenAI / GPT",
+            "share": 0.023
+          },
+          {
+            "slug": "google",
+            "label": "Google / Gemini",
+            "share": 0.023
           }
         ]
       }
@@ -21971,41 +22423,41 @@
       {
         "slug": "claude",
         "label": "Claude / Anthropic",
-        "recentShare": 0.14088095238095238,
+        "recentShare": 0.1448809523809524,
         "priorShare": 0.05214285714285715,
-        "delta": 0.089,
+        "delta": 0.093,
         "direction": "up"
       },
       {
         "slug": "agents",
         "label": "Agents & orchestration",
-        "recentShare": 0.15076190476190474,
+        "recentShare": 0.1582142857142857,
         "priorShare": 0.08592857142857142,
-        "delta": 0.065,
+        "delta": 0.072,
         "direction": "up"
       },
       {
         "slug": "coding",
         "label": "Coding assistants",
-        "recentShare": 0.0775952380952381,
+        "recentShare": 0.07990476190476191,
         "priorShare": 0.031095238095238096,
-        "delta": 0.047,
+        "delta": 0.049,
         "direction": "up"
       },
       {
         "slug": "jobs",
         "label": "Jobs & labor market",
-        "recentShare": 0.04261904761904762,
+        "recentShare": 0.04376190476190476,
         "priorShare": 0.03383333333333333,
-        "delta": 0.009,
+        "delta": 0.01,
         "direction": "flat"
       },
       {
         "slug": "rag",
         "label": "RAG & memory",
-        "recentShare": 0.020380952380952385,
+        "recentShare": 0.021571428571428578,
         "priorShare": 0.014095238095238096,
-        "delta": 0.006,
+        "delta": 0.007,
         "direction": "flat"
       },
       {
@@ -22019,49 +22471,49 @@
       {
         "slug": "google",
         "label": "Google / Gemini",
-        "recentShare": 0.030214285714285718,
+        "recentShare": 0.031357142857142854,
         "priorShare": 0.029428571428571432,
-        "delta": 0.001,
+        "delta": 0.002,
         "direction": "flat"
       },
       {
         "slug": "benchmarks",
         "label": "Benchmarks & leaderboards",
-        "recentShare": 0.029928571428571433,
+        "recentShare": 0.03223809523809524,
         "priorShare": 0.03149999999999999,
-        "delta": -0.002,
+        "delta": 0.001,
         "direction": "flat"
       },
       {
         "slug": "multimodal",
         "label": "Multimodal & media",
-        "recentShare": 0.017857142857142863,
+        "recentShare": 0.019047619047619053,
         "priorShare": 0.023119047619047622,
-        "delta": -0.005,
+        "delta": -0.004,
         "direction": "flat"
       },
       {
         "slug": "openai",
         "label": "OpenAI / GPT",
-        "recentShare": 0.05383333333333332,
+        "recentShare": 0.05497619047619047,
         "priorShare": 0.06845238095238096,
-        "delta": -0.015,
+        "delta": -0.013,
         "direction": "down"
       },
       {
         "slug": "infra",
         "label": "Infrastructure & chips",
-        "recentShare": 0.03011904761904762,
+        "recentShare": 0.03126190476190476,
         "priorShare": 0.049714285714285704,
-        "delta": -0.02,
+        "delta": -0.018,
         "direction": "down"
       },
       {
         "slug": "open-models",
         "label": "Open models & China labs",
-        "recentShare": 0.07219047619047618,
+        "recentShare": 0.07449999999999998,
         "priorShare": 0.11254761904761904,
-        "delta": -0.04,
+        "delta": -0.038,
         "direction": "down"
       }
     ],
@@ -22070,9 +22522,9 @@
         "slug": "claude-code",
         "label": "Claude Code",
         "firstSeen": "2025-03-07",
-        "lastSeen": "2026-07-31",
-        "weeksMentioned": 46,
-        "totalMentions": 100,
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 48,
+        "totalMentions": 104,
         "series": [
           {
             "date": "2025-03-07",
@@ -22303,116 +22755,16 @@
             "date": "2026-07-31",
             "count": 2,
             "seminarId": "2026-07-31-2026-07-31-ai-updates"
-          }
-        ]
-      },
-      {
-        "slug": "openclaw",
-        "label": "OpenClaw",
-        "firstSeen": "2026-02-06",
-        "lastSeen": "2026-07-31",
-        "weeksMentioned": 20,
-        "totalMentions": 72,
-        "series": [
-          {
-            "date": "2026-02-06",
-            "count": 3,
-            "seminarId": "2026-02-06-2026-02-06-ai-updates"
           },
           {
-            "date": "2026-02-13",
-            "count": 4,
-            "seminarId": "2026-02-13-2026-02-13-ai-updates"
-          },
-          {
-            "date": "2026-02-20",
-            "count": 8,
-            "seminarId": "2026-02-20-2026-02-20-ai-updates"
-          },
-          {
-            "date": "2026-02-27",
-            "count": 19,
-            "seminarId": "2026-02-27-2026-02-27-ai-updates"
-          },
-          {
-            "date": "2026-03-06",
-            "count": 7,
-            "seminarId": "2026-03-06-2026-03-06-ai-updates"
-          },
-          {
-            "date": "2026-03-13",
-            "count": 5,
-            "seminarId": "2026-03-13-2026-03-13-ai-updates"
-          },
-          {
-            "date": "2026-03-20",
-            "count": 8,
-            "seminarId": "2026-03-20-2026-03-20-ai-updates"
-          },
-          {
-            "date": "2026-03-27",
-            "count": 3,
-            "seminarId": "2026-03-27-2026-03-27-ai-updates"
-          },
-          {
-            "date": "2026-04-10",
+            "date": "2026-08-07",
             "count": 2,
-            "seminarId": "2026-04-10-2026-04-10-ai-updates"
+            "seminarId": "2026-08-07-2026-08-07-ai-updates"
           },
           {
-            "date": "2026-04-17",
-            "count": 1,
-            "seminarId": "2026-04-17-2026-04-17-ai-updates"
-          },
-          {
-            "date": "2026-04-24",
-            "count": 1,
-            "seminarId": "2026-04-24-2026-04-24-ai-updates-1"
-          },
-          {
-            "date": "2026-04-24",
-            "count": 1,
-            "seminarId": "2026-04-24-2026-04-24-ai-updates-2"
-          },
-          {
-            "date": "2026-05-01",
+            "date": "2026-08-14",
             "count": 2,
-            "seminarId": "2026-05-01-2026-05-01-ai-updates"
-          },
-          {
-            "date": "2026-05-08",
-            "count": 2,
-            "seminarId": "2026-05-08-2026-05-08-ai-updates"
-          },
-          {
-            "date": "2026-05-15",
-            "count": 1,
-            "seminarId": "2026-05-15-2026-05-15-ai-updates"
-          },
-          {
-            "date": "2026-05-22",
-            "count": 1,
-            "seminarId": "2026-05-22-2026-05-22-ai-updates"
-          },
-          {
-            "date": "2026-05-29",
-            "count": 1,
-            "seminarId": "2026-05-29-2026-05-29-ai-updates"
-          },
-          {
-            "date": "2026-06-05",
-            "count": 1,
-            "seminarId": "2026-06-05-2026-06-05-ai-updates"
-          },
-          {
-            "date": "2026-07-10",
-            "count": 1,
-            "seminarId": "2026-07-10-2026-07-10-ai-updates"
-          },
-          {
-            "date": "2026-07-31",
-            "count": 1,
-            "seminarId": "2026-07-31-2026-07-31-ai-updates"
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
           }
         ]
       },
@@ -22420,9 +22772,9 @@
         "slug": "lm-arena",
         "label": "LM Arena",
         "firstSeen": "2025-01-03",
-        "lastSeen": "2026-07-31",
-        "weeksMentioned": 67,
-        "totalMentions": 71,
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 69,
+        "totalMentions": 73,
         "series": [
           {
             "date": "2025-01-03",
@@ -22758,6 +23110,126 @@
             "date": "2026-07-31",
             "count": 1,
             "seminarId": "2026-07-31-2026-07-31-ai-updates"
+          },
+          {
+            "date": "2026-08-07",
+            "count": 1,
+            "seminarId": "2026-08-07-2026-08-07-ai-updates"
+          },
+          {
+            "date": "2026-08-14",
+            "count": 1,
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
+          }
+        ]
+      },
+      {
+        "slug": "openclaw",
+        "label": "OpenClaw",
+        "firstSeen": "2026-02-06",
+        "lastSeen": "2026-07-31",
+        "weeksMentioned": 20,
+        "totalMentions": 72,
+        "series": [
+          {
+            "date": "2026-02-06",
+            "count": 3,
+            "seminarId": "2026-02-06-2026-02-06-ai-updates"
+          },
+          {
+            "date": "2026-02-13",
+            "count": 4,
+            "seminarId": "2026-02-13-2026-02-13-ai-updates"
+          },
+          {
+            "date": "2026-02-20",
+            "count": 8,
+            "seminarId": "2026-02-20-2026-02-20-ai-updates"
+          },
+          {
+            "date": "2026-02-27",
+            "count": 19,
+            "seminarId": "2026-02-27-2026-02-27-ai-updates"
+          },
+          {
+            "date": "2026-03-06",
+            "count": 7,
+            "seminarId": "2026-03-06-2026-03-06-ai-updates"
+          },
+          {
+            "date": "2026-03-13",
+            "count": 5,
+            "seminarId": "2026-03-13-2026-03-13-ai-updates"
+          },
+          {
+            "date": "2026-03-20",
+            "count": 8,
+            "seminarId": "2026-03-20-2026-03-20-ai-updates"
+          },
+          {
+            "date": "2026-03-27",
+            "count": 3,
+            "seminarId": "2026-03-27-2026-03-27-ai-updates"
+          },
+          {
+            "date": "2026-04-10",
+            "count": 2,
+            "seminarId": "2026-04-10-2026-04-10-ai-updates"
+          },
+          {
+            "date": "2026-04-17",
+            "count": 1,
+            "seminarId": "2026-04-17-2026-04-17-ai-updates"
+          },
+          {
+            "date": "2026-04-24",
+            "count": 1,
+            "seminarId": "2026-04-24-2026-04-24-ai-updates-1"
+          },
+          {
+            "date": "2026-04-24",
+            "count": 1,
+            "seminarId": "2026-04-24-2026-04-24-ai-updates-2"
+          },
+          {
+            "date": "2026-05-01",
+            "count": 2,
+            "seminarId": "2026-05-01-2026-05-01-ai-updates"
+          },
+          {
+            "date": "2026-05-08",
+            "count": 2,
+            "seminarId": "2026-05-08-2026-05-08-ai-updates"
+          },
+          {
+            "date": "2026-05-15",
+            "count": 1,
+            "seminarId": "2026-05-15-2026-05-15-ai-updates"
+          },
+          {
+            "date": "2026-05-22",
+            "count": 1,
+            "seminarId": "2026-05-22-2026-05-22-ai-updates"
+          },
+          {
+            "date": "2026-05-29",
+            "count": 1,
+            "seminarId": "2026-05-29-2026-05-29-ai-updates"
+          },
+          {
+            "date": "2026-06-05",
+            "count": 1,
+            "seminarId": "2026-06-05-2026-06-05-ai-updates"
+          },
+          {
+            "date": "2026-07-10",
+            "count": 1,
+            "seminarId": "2026-07-10-2026-07-10-ai-updates"
+          },
+          {
+            "date": "2026-07-31",
+            "count": 1,
+            "seminarId": "2026-07-31-2026-07-31-ai-updates"
           }
         ]
       },
@@ -22765,9 +23237,9 @@
         "slug": "gemini",
         "label": "Gemini",
         "firstSeen": "2025-01-24",
-        "lastSeen": "2026-07-24",
-        "weeksMentioned": 43,
-        "totalMentions": 67,
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 45,
+        "totalMentions": 69,
         "series": [
           {
             "date": "2025-01-24",
@@ -22983,6 +23455,16 @@
             "date": "2026-07-24",
             "count": 3,
             "seminarId": "2026-07-24-2026-07-24-ai-updates"
+          },
+          {
+            "date": "2026-08-07",
+            "count": 1,
+            "seminarId": "2026-08-07-2026-08-07-ai-updates"
+          },
+          {
+            "date": "2026-08-14",
+            "count": 1,
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
           }
         ]
       },
@@ -22990,9 +23472,9 @@
         "slug": "nvidia",
         "label": "Nvidia",
         "firstSeen": "2025-01-10",
-        "lastSeen": "2026-07-17",
-        "weeksMentioned": 42,
-        "totalMentions": 62,
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 43,
+        "totalMentions": 63,
         "series": [
           {
             "date": "2025-01-10",
@@ -23203,6 +23685,11 @@
             "date": "2026-07-17",
             "count": 2,
             "seminarId": "2026-07-17-2026-07-17-ai-updates"
+          },
+          {
+            "date": "2026-08-14",
+            "count": 1,
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
           }
         ]
       },
@@ -23210,9 +23697,9 @@
         "slug": "deepseek",
         "label": "DeepSeek",
         "firstSeen": "2025-01-10",
-        "lastSeen": "2026-07-31",
-        "weeksMentioned": 30,
-        "totalMentions": 48,
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 31,
+        "totalMentions": 49,
         "series": [
           {
             "date": "2025-01-10",
@@ -23363,6 +23850,111 @@
             "date": "2026-07-31",
             "count": 1,
             "seminarId": "2026-07-31-2026-07-31-ai-updates"
+          },
+          {
+            "date": "2026-08-14",
+            "count": 1,
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
+          }
+        ]
+      },
+      {
+        "slug": "mcp",
+        "label": "MCP",
+        "firstSeen": "2025-05-02",
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 18,
+        "totalMentions": 31,
+        "series": [
+          {
+            "date": "2025-05-02",
+            "count": 1,
+            "seminarId": "2025-05-02-2025-05-02-ai-updates"
+          },
+          {
+            "date": "2025-05-23",
+            "count": 1,
+            "seminarId": "2025-05-23-2025-05-23-ai-updates"
+          },
+          {
+            "date": "2025-06-27",
+            "count": 2,
+            "seminarId": "2025-06-27-2025-06-27-ai-updates"
+          },
+          {
+            "date": "2025-08-15",
+            "count": 8,
+            "seminarId": "2025-08-15-2025-08-15-ai-updates"
+          },
+          {
+            "date": "2025-08-22",
+            "count": 3,
+            "seminarId": "2025-08-22-2025-08-22-ai-updates"
+          },
+          {
+            "date": "2025-08-29",
+            "count": 1,
+            "seminarId": "2025-08-29-2025-08-29-ai-updates"
+          },
+          {
+            "date": "2025-09-12",
+            "count": 2,
+            "seminarId": "2025-09-12-2025-09-12-ai-updates"
+          },
+          {
+            "date": "2025-11-07",
+            "count": 1,
+            "seminarId": "2025-11-07-2025-11-07-ai-updates"
+          },
+          {
+            "date": "2025-11-14",
+            "count": 1,
+            "seminarId": "2025-11-14-2025-11-14-ai-updates"
+          },
+          {
+            "date": "2025-12-05",
+            "count": 2,
+            "seminarId": "2025-12-05-2025-12-05-ai-updates"
+          },
+          {
+            "date": "2026-01-02",
+            "count": 1,
+            "seminarId": "2026-01-02-2026-01-02-ai-updates"
+          },
+          {
+            "date": "2026-01-16",
+            "count": 1,
+            "seminarId": "2026-01-16-2026-01-16-ai-updates"
+          },
+          {
+            "date": "2026-02-27",
+            "count": 1,
+            "seminarId": "2026-02-27-2026-02-27-ai-updates"
+          },
+          {
+            "date": "2026-04-17",
+            "count": 1,
+            "seminarId": "2026-04-17-2026-04-17-ai-updates"
+          },
+          {
+            "date": "2026-05-29",
+            "count": 2,
+            "seminarId": "2026-05-29-2026-05-29-ai-updates"
+          },
+          {
+            "date": "2026-07-03",
+            "count": 1,
+            "seminarId": "2026-07-03-2026-07-03-ai-updates"
+          },
+          {
+            "date": "2026-08-07",
+            "count": 1,
+            "seminarId": "2026-08-07-2026-08-07-ai-updates"
+          },
+          {
+            "date": "2026-08-14",
+            "count": 1,
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
           }
         ]
       },
@@ -23370,9 +23962,9 @@
         "slug": "gpt-5",
         "label": "GPT-5 family",
         "firstSeen": "2025-08-08",
-        "lastSeen": "2026-07-31",
-        "weeksMentioned": 20,
-        "totalMentions": 29,
+        "lastSeen": "2026-08-14",
+        "weeksMentioned": 21,
+        "totalMentions": 30,
         "series": [
           {
             "date": "2025-08-08",
@@ -23473,96 +24065,11 @@
             "date": "2026-07-31",
             "count": 1,
             "seminarId": "2026-07-31-2026-07-31-ai-updates"
-          }
-        ]
-      },
-      {
-        "slug": "mcp",
-        "label": "MCP",
-        "firstSeen": "2025-05-02",
-        "lastSeen": "2026-07-03",
-        "weeksMentioned": 16,
-        "totalMentions": 29,
-        "series": [
+          },
           {
-            "date": "2025-05-02",
+            "date": "2026-08-14",
             "count": 1,
-            "seminarId": "2025-05-02-2025-05-02-ai-updates"
-          },
-          {
-            "date": "2025-05-23",
-            "count": 1,
-            "seminarId": "2025-05-23-2025-05-23-ai-updates"
-          },
-          {
-            "date": "2025-06-27",
-            "count": 2,
-            "seminarId": "2025-06-27-2025-06-27-ai-updates"
-          },
-          {
-            "date": "2025-08-15",
-            "count": 8,
-            "seminarId": "2025-08-15-2025-08-15-ai-updates"
-          },
-          {
-            "date": "2025-08-22",
-            "count": 3,
-            "seminarId": "2025-08-22-2025-08-22-ai-updates"
-          },
-          {
-            "date": "2025-08-29",
-            "count": 1,
-            "seminarId": "2025-08-29-2025-08-29-ai-updates"
-          },
-          {
-            "date": "2025-09-12",
-            "count": 2,
-            "seminarId": "2025-09-12-2025-09-12-ai-updates"
-          },
-          {
-            "date": "2025-11-07",
-            "count": 1,
-            "seminarId": "2025-11-07-2025-11-07-ai-updates"
-          },
-          {
-            "date": "2025-11-14",
-            "count": 1,
-            "seminarId": "2025-11-14-2025-11-14-ai-updates"
-          },
-          {
-            "date": "2025-12-05",
-            "count": 2,
-            "seminarId": "2025-12-05-2025-12-05-ai-updates"
-          },
-          {
-            "date": "2026-01-02",
-            "count": 1,
-            "seminarId": "2026-01-02-2026-01-02-ai-updates"
-          },
-          {
-            "date": "2026-01-16",
-            "count": 1,
-            "seminarId": "2026-01-16-2026-01-16-ai-updates"
-          },
-          {
-            "date": "2026-02-27",
-            "count": 1,
-            "seminarId": "2026-02-27-2026-02-27-ai-updates"
-          },
-          {
-            "date": "2026-04-17",
-            "count": 1,
-            "seminarId": "2026-04-17-2026-04-17-ai-updates"
-          },
-          {
-            "date": "2026-05-29",
-            "count": 2,
-            "seminarId": "2026-05-29-2026-05-29-ai-updates"
-          },
-          {
-            "date": "2026-07-03",
-            "count": 1,
-            "seminarId": "2026-07-03-2026-07-03-ai-updates"
+            "seminarId": "2026-08-14-2026-08-14-ai-updates"
           }
         ]
       },
@@ -23795,9 +24302,9 @@
         "slug": "qwen",
         "label": "Qwen",
         "firstSeen": "2025-01-10",
-        "lastSeen": "2026-07-24",
-        "weeksMentioned": 18,
-        "totalMentions": 22,
+        "lastSeen": "2026-08-07",
+        "weeksMentioned": 19,
+        "totalMentions": 23,
         "series": [
           {
             "date": "2025-01-10",
@@ -23888,6 +24395,11 @@
             "date": "2026-07-24",
             "count": 2,
             "seminarId": "2026-07-24-2026-07-24-ai-updates"
+          },
+          {
+            "date": "2026-08-07",
+            "count": 1,
+            "seminarId": "2026-08-07-2026-08-07-ai-updates"
           }
         ]
       },
@@ -31441,18 +31953,188 @@
       {
         "date": "2026-08-07",
         "seminarId": "2026-08-07-2026-08-07-ai-updates",
-        "novelCount": 0,
-        "totalChapters": 0,
-        "novelRatio": 0,
-        "highlights": []
+        "novelCount": 37,
+        "totalChapters": 40,
+        "novelRatio": 0.925,
+        "highlights": [
+          {
+            "claim": "\"Manual\" work is becoming a legacy",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=0s",
+            "videoSeconds": 0,
+            "label": "00:00"
+          },
+          {
+            "claim": "xAI Launches Grok Build Mode",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=96s",
+            "videoSeconds": 96,
+            "label": "01:36"
+          },
+          {
+            "claim": "Sakana AI Nature-Inspired Intelligence",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=135s",
+            "videoSeconds": 135,
+            "label": "02:15"
+          },
+          {
+            "claim": "Codebase Memory MCP",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=164s",
+            "videoSeconds": 164,
+            "label": "02:44"
+          },
+          {
+            "claim": "Demis Hassabis - Chief Scientist of Alphabet",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=223s",
+            "videoSeconds": 223,
+            "label": "03:43"
+          },
+          {
+            "claim": "Thinking Machines Inkling-Small 276B",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=248s",
+            "videoSeconds": 248,
+            "label": "04:08"
+          },
+          {
+            "claim": "Google Gemini Spark AI personal AI Agent",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=291s",
+            "videoSeconds": 291,
+            "label": "04:51"
+          },
+          {
+            "claim": "OpenAI Astra Solves 10 Math Problems",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=314s",
+            "videoSeconds": 314,
+            "label": "05:14"
+          },
+          {
+            "claim": "Muse Code vs Claude Code",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=354s",
+            "videoSeconds": 354,
+            "label": "05:54"
+          },
+          {
+            "claim": "doctor is a built-in Claude Code command",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=409s",
+            "videoSeconds": 409,
+            "label": "06:49"
+          },
+          {
+            "claim": "Claude /watch video skill - summarize content",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=477s",
+            "videoSeconds": 477,
+            "label": "07:57"
+          },
+          {
+            "claim": "Buzzy - cinematic AI canvas",
+            "seminarId": "2026-08-07-2026-08-07-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=J3oUaee542k&t=497s",
+            "videoSeconds": 497,
+            "label": "08:17"
+          }
+        ]
       },
       {
         "date": "2026-08-14",
         "seminarId": "2026-08-14-2026-08-14-ai-updates",
-        "novelCount": 0,
-        "totalChapters": 0,
-        "novelRatio": 0,
-        "highlights": []
+        "novelCount": 40,
+        "totalChapters": 43,
+        "novelRatio": 0.93,
+        "highlights": [
+          {
+            "claim": "Crowd-sourced \"LM Arena\"",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=22s",
+            "videoSeconds": 22,
+            "label": "00:22"
+          },
+          {
+            "claim": "Meta Muse Glimmer Model",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=189s",
+            "videoSeconds": 189,
+            "label": "03:09"
+          },
+          {
+            "claim": "Grok 4.6",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=267s",
+            "videoSeconds": 267,
+            "label": "04:27"
+          },
+          {
+            "claim": "GLM 5.3 , ZCode",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=328s",
+            "videoSeconds": 328,
+            "label": "05:28"
+          },
+          {
+            "claim": "Gemini 3.7 Flash - August 13",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=453s",
+            "videoSeconds": 453,
+            "label": "07:33"
+          },
+          {
+            "claim": "OpenAI Ships GPT-5.6-Cyber",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=495s",
+            "videoSeconds": 495,
+            "label": "08:15"
+          },
+          {
+            "claim": "Claude Code Cross-Session Messaging",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=503s",
+            "videoSeconds": 503,
+            "label": "08:23"
+          },
+          {
+            "claim": "Discovery Loop",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=562s",
+            "videoSeconds": 562,
+            "label": "09:22"
+          },
+          {
+            "claim": "Grok Imagine Image 2.0",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=622s",
+            "videoSeconds": 622,
+            "label": "10:22"
+          },
+          {
+            "claim": "Hermes Browser-Use Upgrade",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=628s",
+            "videoSeconds": 628,
+            "label": "10:28"
+          },
+          {
+            "claim": "Grok Bot: Agent Team",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=656s",
+            "videoSeconds": 656,
+            "label": "10:56"
+          },
+          {
+            "claim": "NVIDIA Nemotron 3.5 Lightning",
+            "seminarId": "2026-08-14-2026-08-14-ai-updates",
+            "videoUrl": "https://www.youtube.com/watch?v=A2E_9vCGN1s&t=677s",
+            "videoSeconds": 677,
+            "label": "11:17"
+          }
+        ]
       }
     ],
     "bursts": [
@@ -31697,49 +32379,55 @@
       {
         "date": "2026-08-07",
         "seminarId": "2026-08-07-2026-08-07-ai-updates",
-        "headline": "Claude / Anthropic-led week · 0 novel topics",
+        "headline": "Claude / Anthropic-led week · 37 novel topics",
         "bullets": [
-          "Claude / Anthropic led the narrative (0% of tagged chapters)"
+          "Claude / Anthropic led the narrative (8% of tagged chapters)",
+          "37 chapter topics not seen in the prior 8 weeks (93% novelty)",
+          "Top airtime: Agents & orchestration 15%, Claude / Anthropic 8%, Coding assistants 5%",
+          "New angles: \"Manual\" work is becoming a legacy · xAI Launches Grok Build Mode · Sakana AI Nature-Inspired Intelligence"
         ],
         "leader": "claude",
-        "leaderShare": 0,
-        "noveltyRatio": 0
+        "leaderShare": 0.075,
+        "noveltyRatio": 0.925
       },
       {
         "date": "2026-08-14",
         "seminarId": "2026-08-14-2026-08-14-ai-updates",
-        "headline": "Claude / Anthropic-led week · 0 novel topics",
+        "headline": "Claude / Anthropic-led week · 40 novel topics",
         "bullets": [
-          "Claude / Anthropic led the narrative (0% of tagged chapters)"
+          "Claude / Anthropic led the narrative (9% of tagged chapters)",
+          "40 chapter topics not seen in the prior 8 weeks (93% novelty)",
+          "Top airtime: Agents & orchestration 16%, Claude / Anthropic 9%, Coding assistants 5%",
+          "New angles: Crowd-sourced \"LM Arena\" · Meta Muse Glimmer Model · Grok 4.6"
         ],
         "leader": "claude",
-        "leaderShare": 0,
-        "noveltyRatio": 0
+        "leaderShare": 0.093,
+        "noveltyRatio": 0.93
       }
     ],
     "risingShare": [
       {
         "slug": "claude",
         "label": "Claude / Anthropic",
-        "recentShare": 0.14088095238095238,
+        "recentShare": 0.1448809523809524,
         "priorShare": 0.05214285714285715,
-        "delta": 0.089,
+        "delta": 0.093,
         "direction": "up"
       },
       {
         "slug": "agents",
         "label": "Agents & orchestration",
-        "recentShare": 0.15076190476190474,
+        "recentShare": 0.1582142857142857,
         "priorShare": 0.08592857142857142,
-        "delta": 0.065,
+        "delta": 0.072,
         "direction": "up"
       },
       {
         "slug": "coding",
         "label": "Coding assistants",
-        "recentShare": 0.0775952380952381,
+        "recentShare": 0.07990476190476191,
         "priorShare": 0.031095238095238096,
-        "delta": 0.047,
+        "delta": 0.049,
         "direction": "up"
       }
     ],
@@ -31747,25 +32435,25 @@
       {
         "slug": "openai",
         "label": "OpenAI / GPT",
-        "recentShare": 0.05383333333333332,
+        "recentShare": 0.05497619047619047,
         "priorShare": 0.06845238095238096,
-        "delta": -0.015,
+        "delta": -0.013,
         "direction": "down"
       },
       {
         "slug": "infra",
         "label": "Infrastructure & chips",
-        "recentShare": 0.03011904761904762,
+        "recentShare": 0.03126190476190476,
         "priorShare": 0.049714285714285704,
-        "delta": -0.02,
+        "delta": -0.018,
         "direction": "down"
       },
       {
         "slug": "open-models",
         "label": "Open models & China labs",
-        "recentShare": 0.07219047619047618,
+        "recentShare": 0.07449999999999998,
         "priorShare": 0.11254761904761904,
-        "delta": -0.04,
+        "delta": -0.038,
         "direction": "down"
       }
     ]
