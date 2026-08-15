@@ -1,0 +1,219 @@
+{
+  "id": "2022-11-18-2022-11-18-olap-cubes-makani",
+  "date": "2022-11-18",
+  "title": "OLAP-Cubes-Makani",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "general",
+    "rag"
+  ],
+  "video": {
+    "id": "2Oc2T33fhEA",
+    "title": "2022 11 18 OLAP cubes Makani",
+    "url": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+    "thumbnail": "https://i.ytimg.com/vi/2Oc2T33fhEA/hqdefault.jpg",
+    "duration": 1582
+  },
+  "deck": {
+    "path": "2022/2022-11-18-OLAP-Cubes-Makani.pptx",
+    "filename": "2022-11-18-OLAP-Cubes-Makani.pptx",
+    "title": "OLAP-Cubes-Makani",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-11-18-OLAP-Cubes-Makani.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-11-18-OLAP-Cubes-Makani.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Motivation: Think 90s",
+      "startSeconds": 175,
+      "label": "02:55",
+      "source": "youtube"
+    },
+    {
+      "title": "History of OLAP Cubes - Starting with a Scandal",
+      "startSeconds": 302,
+      "label": "05:02",
+      "source": "youtube"
+    },
+    {
+      "title": "OLAP Takes Over the World",
+      "startSeconds": 467,
+      "label": "07:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Resources",
+      "startSeconds": 1296,
+      "label": "21:36",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OLAP Cubes Standing on the Shoulders of Giants",
+      "text": "OLAP Cubes Standing on the Shoulders of Giants"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Makani Cartwright Data Scientist/Engineer @",
+      "text": "About the Speaker Makani Cartwright Data Scientist/Engineer @ Vareto makani.cartwright@gmail.com Enthusiastic builder of data products Predictive Modelling Forecasting Business Intelligence Data Pipelining"
+    },
+    {
+      "index": 3,
+      "title": "What is an OLAP Cube? OLAP (Online Analytical",
+      "text": "What is an OLAP Cube? OLAP (Online Analytical Processing) Term is rather outdated since all processing is online Refers to the fact that the system is designed for analytics as opposed to the Transactional nature of the OLTP systems that preceded it Cube Another misnomer, this refers to the multidimensional aspect of these systems Usually we need a lot more than three dimensions Location, Department, Month, Year, State, Brand, Category, …"
+    },
+    {
+      "index": 4,
+      "title": "Motivation: Think 90s Computation speed Computing reports was",
+      "text": "Motivation: Think 90s Computation speed Computing reports was excruciatingly slow In most cases, this is no longer a concern The world has now moved on where we are no longer resource constrained on memory and compute No source of truth Changes in underlying data can lead to two users pulling the same report with different definitions Ex: Does Expense include or exclude tax"
+    },
+    {
+      "index": 5,
+      "title": "History of OLAP Cubes - Starting with a",
+      "text": "History of OLAP Cubes - Starting with a Scandal Before 1990, many players developed increasingly complex database technologies By the early 90s, sophisticated databases were widely used but were painfully slow 1993 - Edgar F Codd first uses the term OLAP to describe database applications in his paper Providing OLAP to User-Analysts Also referred to as MOLAP - OLAP doesn’t exist without multi-dimensionality At the time, Codd was consulting with Arbour Software (currently Hyperion) and mentioned one of their products Due to the conflict of interest, the publisher, ComputerWorld, retracted the paper Both the product in question (Essbase, now Oracle Essbase) and the OLAP term have stuck Soon, nearly all analysis relied on structures similar to these cubes, with the major players (Microsoft, Oracle) all having an offering and further developing technologies"
+    },
+    {
+      "index": 6,
+      "title": "OLAP Takes Over the World Business users could",
+      "text": "OLAP Takes Over the World Business users could make queries hundreds of times faster, need to see individual transactions was minor Computationally heavy operations were done overnight Slice and dice type operations became a norm, translating to the modern pivot table and BI software Microsoft had first offering in 1998 with what is now SSAS Also developed MDX a multidimensional query language which became widespread Other offerings from Oracle, SAP, SAS"
+    },
+    {
+      "index": 7,
+      "title": "So what is an OLAP Cube? transaction_id location",
+      "text": "So what is an OLAP Cube? transaction_id location product_category date year month amount 1 NY Bar 2022/1/12 2022 1 100 2 NY Bar 2022/1/22 2022 1 100 3 SF Bar 2022/1/8 2022 1 100 4 SF Foo 2022/2/5 2022 2 100 5 NY Foo 2022/2/21 2022 2 100"
+    },
+    {
+      "index": 8,
+      "title": "So what is an OLAP Cube? year month",
+      "text": "So what is an OLAP Cube? year month location product_category SUM(amount) 2022 1 NY Bar 200 2022 1 SF Bar 100 2022 2 NY Foo 100 2022 2 SF Foo 100"
+    },
+    {
+      "index": 9,
+      "title": "Why should we care in 2022? Computations on",
+      "text": "Why should we care in 2022? Computations on aggregate values are still faster than going directly to raw data Some legacy systems still around, but mostly evolved into modern versions Firebolt, Apache Druid handle similar preaggregation Historical foundation of the modern data team and data engineering as a practice Inception of the ETL pipeline OLAP cubes defined the framework that we still use for reporting and analytics Aggregation rules defined on a per-query basis Categorical Dimensions have deterministic relationships that roll up into one another"
+    },
+    {
+      "index": 10,
+      "title": "Let’s talk Pitfalls Requires lots of design and",
+      "text": "Let’s talk Pitfalls Requires lots of design and management to maintain Non-additive aggregations get very tricky Record data is inaccessible without additional complexity Frankly, this is largely unnecessary in the modern technology world. However there are ALWAYS exceptions to the rule."
+    },
+    {
+      "index": 11,
+      "title": "Resources The Original Cobb Paper: http://www.estgv.ipv.pt/PaginasPessoais/jloureiro/ESI_AID2007_2008/fichas/codd.pdf Highly Recommended",
+      "text": "Resources The Original Cobb Paper: http://www.estgv.ipv.pt/PaginasPessoais/jloureiro/ESI_AID2007_2008/fichas/codd.pdf Highly Recommended Reading for anyone interested in OLAP cubes: https://analyticsengineers.club/whats-an-olap-cube/ History of the OLAP https://senturus.com/blog/olap-past-present-future/ OLAP Options Microsoft SSAS Oracle OLAP Apache Druid"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OLAP Cubes Standing on the Shoulders of Giants",
+      "source": "youtube"
+    },
+    {
+      "claim": "Motivation: Think 90s",
+      "topic": "general",
+      "videoSeconds": 175,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA&t=175s",
+      "slideIndex": 4,
+      "slideTitle": "Motivation: Think 90s Computation speed Computing reports was",
+      "source": "youtube"
+    },
+    {
+      "claim": "History of OLAP Cubes - Starting with a Scandal",
+      "topic": "general",
+      "videoSeconds": 302,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA&t=302s",
+      "slideIndex": 6,
+      "slideTitle": "OLAP Takes Over the World Business users could",
+      "source": "youtube"
+    },
+    {
+      "claim": "OLAP Takes Over the World",
+      "topic": "general",
+      "videoSeconds": 467,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA&t=467s",
+      "slideIndex": 9,
+      "slideTitle": "Why should we care in 2022? Computations on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Resources",
+      "topic": "general",
+      "videoSeconds": 1296,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA&t=1296s",
+      "slideIndex": 11,
+      "slideTitle": "Resources The Original Cobb Paper: http://www.estgv.ipv.pt/PaginasPessoais/jloureiro/ESI_AID2007_2008/fichas/codd.pdf Highly Recommended",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Speaker Makani Cartwright Data Scientist/Engineer @",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Makani Cartwright Data Scientist/Engineer @",
+      "source": "slide"
+    },
+    {
+      "claim": "What is an OLAP Cube? OLAP (Online Analytical",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+      "slideIndex": 3,
+      "slideTitle": "What is an OLAP Cube? OLAP (Online Analytical",
+      "source": "slide"
+    },
+    {
+      "claim": "History of OLAP Cubes - Starting with a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+      "slideIndex": 5,
+      "slideTitle": "History of OLAP Cubes - Starting with a",
+      "source": "slide"
+    },
+    {
+      "claim": "So what is an OLAP Cube? transaction_id location",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+      "slideIndex": 7,
+      "slideTitle": "So what is an OLAP Cube? transaction_id location",
+      "source": "slide"
+    },
+    {
+      "claim": "So what is an OLAP Cube? year month",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+      "slideIndex": 8,
+      "slideTitle": "So what is an OLAP Cube? year month",
+      "source": "slide"
+    },
+    {
+      "claim": "Let’s talk Pitfalls Requires lots of design and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=2Oc2T33fhEA",
+      "slideIndex": 10,
+      "slideTitle": "Let’s talk Pitfalls Requires lots of design and",
+      "source": "slide"
+    }
+  ]
+}

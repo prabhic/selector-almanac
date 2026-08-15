@@ -1,0 +1,328 @@
+{
+  "id": "2023-05-19-2023-05-19-aoaitechprimer-peter",
+  "date": "2023-05-19",
+  "title": "AOAITechPrimer-Peter",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "fine-tuning",
+    "rag"
+  ],
+  "video": {
+    "id": "gjeyQ1Z0PyI",
+    "title": "A Technical Primer in OpenAI Models and Interacting With Them - May 19, 2023",
+    "url": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI",
+    "thumbnail": "https://i.ytimg.com/vi/gjeyQ1Z0PyI/hqdefault.jpg",
+    "duration": 2898
+  },
+  "deck": {
+    "path": "2023/2023-05-19-AOAITechPrimer-Peter.pptx",
+    "filename": "2023-05-19-AOAITechPrimer-Peter.pptx",
+    "title": "AOAITechPrimer-Peter",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-05-19-AOAITechPrimer-Peter.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-05-19-AOAITechPrimer-Peter.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Peter Parker",
+      "startSeconds": 65,
+      "label": "01:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Model Use Cases",
+      "startSeconds": 177,
+      "label": "02:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Azure OpenAI | Comparing the GPT-3 models",
+      "startSeconds": 392,
+      "label": "06:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Azure OpenAI | Comparing the GPT-3.5 models",
+      "startSeconds": 771,
+      "label": "12:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Working with the ChatGPT model",
+      "startSeconds": 1054,
+      "label": "17:34",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT/GPT4 sample code",
+      "startSeconds": 1142,
+      "label": "19:02",
+      "source": "youtube"
+    },
+    {
+      "title": "An example of Prompt Engineering-Topic Classifier",
+      "startSeconds": 1461,
+      "label": "24:21",
+      "source": "youtube"
+    },
+    {
+      "title": "What does Fine-Tuning look like?",
+      "startSeconds": 1652,
+      "label": "27:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Embedding models",
+      "startSeconds": 1808,
+      "label": "30:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Azure OpenAl Service Responsible Al",
+      "startSeconds": 1906,
+      "label": "31:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Azure OpenAl Key Sites",
+      "startSeconds": 2044,
+      "label": "34:04",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Slide 1",
+      "text": ""
+    },
+    {
+      "index": 2,
+      "title": "Slide 2",
+      "text": ""
+    },
+    {
+      "index": 3,
+      "title": "Use cases: Generating natural language for chatbots and",
+      "text": "Use cases: Generating natural language for chatbots and virtual assistants that has memory of the previous history of chat Improving the accuracy and efficiency of automated customer service interactions Enhancing language translation software for more accurate and natural translations Generating more human-like content for social media and marketing campaigns Improving the effectiveness of natural language processing for tasks such as sentiment analysis and text classification Use cases: Generating natural language for chatbots and virtual assistants with awareness of the previous history of chat Power chatbots that can handle customer inquiries, provide assistance, and converse but doesn’t have memory of conversations Automatically summarize lengthy texts Assist writers by suggesting synonyms, correcting grammar and spelling errors, and even generating entire sentences or paragraphs Help researchers by quickly processing large amounts of data and generating insights, summaries, and visualizations to aid in analysis Generate good quality code based on natural language Use cases: Generating and understanding natural language for customer service interactions, chatbots, and virtual assistants – doesn’t have memory of conversations Generating high-quality code for programming languages based on natural language input. Providing accurate translations between languages Improving text summarization and content generation Provides for multi-modal interaction (text and images) Substantial reduction in Hallucinations Consistency between different runs is high GPT-3 Large, pretrained Language Models that use deep learning to generate content ChatGPT (preview) Customize generation by adding your data as context to the AI model GPT-4 (preview) Built-in responsible AI to detect and mitigate harmful use"
+    },
+    {
+      "index": 4,
+      "title": "Inferencing time Capability Ada Curie Cushman-codex Davinci-codex Capability",
+      "text": "Inferencing time Capability Ada Curie Cushman-codex Davinci-codex Capability Codex GPT-3 2048 Tokens Simple classification Parsing and formatting text 2048 Tokens Semantic search ranking Moderately complex classification 2048 Tokens Answering questions Complex, nuanced classification Babbage Davinci 4096 Tokens Summarizing for specific audience Generating creative content Azure OpenAI | Comparing the GPT 3 models"
+    },
+    {
+      "index": 5,
+      "title": "text-davinci-002 text-davinci-003 ChatGPT model (gpt-3.5-turbo) A GPT-3.5 model",
+      "text": "text-davinci-002 text-davinci-003 ChatGPT model (gpt-3.5-turbo) A GPT-3.5 model that was custom-tuned on natural language instructions and can perform a variety of tasks including summarization, question answering, classification, and more. An improvement over the text-davinci-002 model. The model is similar to its predecessor but generally more capable across all tasks. A model custom-tuned for working with dialogue. ChatGPT is a great model to use for conversational tasks. Model Description Azure OpenAI | Comparing the GPT 3-5 models Visit the Azure OpenAI Service pricing page for pricing details"
+    },
+    {
+      "index": 6,
+      "title": "Azure OpenAI GPT-4 Overview GPT-4 is a large",
+      "text": "Azure OpenAI GPT-4 Overview GPT-4 is a large multimodal model ( accepting text inputs, emitting text outputs ) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks. Apply here for GPT-4 access: applying for access to GPT-4 today GPT-4 is more reliable, creative , and able to handle much more nuanced instructions than GPT-3.5. Can do everything that GPT 3.5 can do + Visual Question and Answering (VQA) + Steerability + context length of 8,192 tokens"
+    },
+    {
+      "index": 7,
+      "title": "Previous GPT-3 models Previous models were text-in and",
+      "text": "Previous GPT-3 models Previous models were text-in and text-out (i.e., they accepted a prompt string and returned a completion to append to the prompt). Answer questions from the context below. Context: A neutron star is the collapsed core of a massive supergiant star, which had a total mass of between 10 and 25 solar masses, possibly more if the star was especially metal-rich. Q: What is a neutron star? A: The ChatGPT model The ChatGPT model is conversation-in and message-out. (i.e., it expects a prompt string that is formatted in a specific chat- like transcript format and returns a completion that represents a model-written message in the chat) [System Message] Assistant is an AI Chatbot designed to answer questions from the context provided below. Context: A neutron star is the collapsed core of a massive supergiant star, which had a total mass of between 10 and 25 solar masses, possibly more if the star was especially metal-rich. [User] What is a neutron star? [Assistant]"
+    },
+    {
+      "index": 8,
+      "title": "Chat Completion API (Recommended) A new API designed",
+      "text": "Chat Completion API (Recommended) A new API designed for working with Chat models (gpt-35-turbo and gpt-4). We recommend using this API moving forward. In this API, you pass in a series of messages rather than the prompt as a raw string making it easier to manage the conversation. Completion API The ChatGPT model also works with the existing completions API. In this API, you’ll format your prompt as a string and need to use the special tokens from Chat Markup Language . We generally recommend using the Chat API instead because the special tokens may get updated in future version of gpt-35-turbo meaning you would need to update your prompts before updating to newer versions of the model. <|im_start|>system Assistant is a large language model trained by OpenAI. <|im_end|> <|im_start|>user What is a garbanzo bean? <|im_end|> <|im_start|>assistant messages = [ { “role”: “system” , “content”: “Assistant is a large language model trained by OpenAI.” }, { “role”: “user” , “content”: “What is a garbanzo bean?” } ] There are two different APIs available for working with the ChatGPT model."
+    },
+    {
+      "index": 9,
+      "title": "{ \"choices\": [ { \"finish_reason\": \"stop\", \"index\": 0,",
+      "text": "{ \"choices\": [ { \"finish_reason\": \"stop\", \"index\": 0, \"message\": { \"content\": \"The founders of Microsoft are Bill Gates and Paul Allen. They co-founded the company in 1975.\", \"role\": \"assistant\" } } ], \"created\": 1679014551, \"id\": \"chatcmpl-6usfn2yyjkbmESe3G4jaQR6bsScO1\", \"model\": \"gpt-3.5-turbo-0301\", \"object\": \"chat.completion\", \"usage\": { \"completion_tokens\": 86, \"prompt_tokens\": 37, \"total_tokens\": 123 } } azure-docs/chat-completion.md at main · MicrosoftDocs/azure-docs · GitHub"
+    },
+    {
+      "index": 10,
+      "title": "Slide 10",
+      "text": ""
+    },
+    {
+      "index": 11,
+      "title": "Customer question: {insert new question here} Classified topic:",
+      "text": "Customer question: {insert new question here} Classified topic: Customer question: Hi there, do you know how to choose flood insurance? Classified topic: 2 Customer question: Hi there, I have a question on my auto insurance. Classified topic: 1 Customer question: Hi there, do you know how to apply for financial aid? Classified topic: 3 Classify customer's question. Classify between category 1 to 3. Detailed guidelines for how to choose: choose 1 if the question is about auto insurance. choose 2 if the question is about home flood insurance. choose 3 if the question is not relevant to insurance. – Topic Classifier Instructions High level and detailed Examples Order of examples matter Task and Prompting answer"
+    },
+    {
+      "index": 12,
+      "title": "Fine-tuning is a way of utilizing transfer learning.",
+      "text": "Fine-tuning is a way of utilizing transfer learning. Specifically, fine-tuning is a process that takes a model that has already been trained and tune it using a labeled dataset for a specific task. Fine-tuning results in a new model being generated with updated weights and biases. This contrasts with few-shot learning in which model weights and biases are not updated. To fine-tune a model, you'll need a set of training examples that each consist of a single input (\"prompt\") and its associated output (\"completion\")."
+    },
+    {
+      "index": 13,
+      "title": "For some use cases, fine-tuned less capable models",
+      "text": "For some use cases, fine-tuned less capable models (Ada, Babbage, Curie) performs well but more cost effective and faster than Davinci. Latency is important for use case. Because no need to include examples in the inputs to fine-tuned models, tokens on few-shot examples are removed, this enables lower-latency requests and saves inferencing costs. Customer has a lot of high-quality data and ground truth labels (at least a couple hundred for each use case), and customer committed to maintain high-quality data set overtime. Use case is very domain specific, so model needs to learn from a lot of examples to know how to provide correct answers, and the number of examples needed don't fit in prompt due to token limit (less likely with 32K token limit)."
+    },
+    {
+      "index": 14,
+      "title": "Slide 14",
+      "text": ""
+    },
+    {
+      "index": 15,
+      "title": "An embedding is a special format of data",
+      "text": "An embedding is a special format of data representation that can be easily utilized by machine learning models and algorithms. The embedding is an information dense representation of the semantic meaning of a piece of text. Each embedding is a vector of floating-point numbers, such that the distance between two embeddings in the vector space is correlated with semantic similarity between two inputs in the original format. For example, if two texts are similar, then their vector representations should also be similar."
+    },
+    {
+      "index": 16,
+      "title": "Embedding models Different Azure OpenAI Service embedding models",
+      "text": "Embedding models Different Azure OpenAI Service embedding models are specifically created to be good at a particular task. Similarity embeddings are good at capturing semantic similarity between two or more pieces of text. Text search embeddings help measure long documents relevant to a short query. Code search embeddings are useful for embedding code snippets and embedding natural language search queries. Embeddings make it easier to do machine learning on large inputs representing words by capturing the semantic similarities in a vector space. Therefore, we can use embeddings to determine if two text chunks are semantically related or similar, and provide a score to assess similarity."
+    },
+    {
+      "index": 17,
+      "title": "We strongly recommend using text–embedding–ada–002 (Version 2). This",
+      "text": "We strongly recommend using text–embedding–ada–002 (Version 2). This model/version provides parity with OpenAI’s text–embedding–ada– 002. To learn more about the improvements offered by this model, please refer to this blog post : https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models#embeddings-models Even if you are currently using Version 1, you should migrate to Version 2 to take advantage of the latest weights/updated token limit. Version 1 and Version 2 are not interchangeable, so document embedding and document search must be done using the same version of the model."
+    },
+    {
+      "index": 18,
+      "title": "Azure OpenAI Service Responsible AI",
+      "text": "Azure OpenAI Service Responsible AI"
+    },
+    {
+      "index": 19,
+      "title": "Azure OpenAI Key Sites Azure OpenAI Studio https://oai.azure.com",
+      "text": "Azure OpenAI Key Sites Azure OpenAI Studio https://oai.azure.com GitHub Azure-Samples - demo https://github.com/Azure-Samples/azure-search-openai-demo GitHub Microsoft Docs - OpenAI https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/cognitive-services/openai/overview.md Embeddings https://platform.openai.com/docs/guides/embeddings/what-are-embeddings GitHub OpenAI Cookbook https://github.com/openai/openai-cookbook/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Slide 1",
+      "source": "youtube"
+    },
+    {
+      "claim": "Peter Parker",
+      "topic": "general",
+      "videoSeconds": 65,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=65s",
+      "slideIndex": 3,
+      "slideTitle": "Use cases: Generating natural language for chatbots and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Model Use Cases",
+      "topic": "general",
+      "videoSeconds": 177,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=177s",
+      "slideIndex": 4,
+      "slideTitle": "Inferencing time Capability Ada Curie Cushman-codex Davinci-codex Capability",
+      "source": "youtube"
+    },
+    {
+      "claim": "Azure OpenAI | Comparing the GPT-3 models",
+      "topic": "openai",
+      "videoSeconds": 392,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=392s",
+      "slideIndex": 6,
+      "slideTitle": "Azure OpenAI GPT-4 Overview GPT-4 is a large",
+      "source": "youtube"
+    },
+    {
+      "claim": "Azure OpenAI | Comparing the GPT-3.5 models",
+      "topic": "openai",
+      "videoSeconds": 771,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=771s",
+      "slideIndex": 8,
+      "slideTitle": "Chat Completion API (Recommended) A new API designed",
+      "source": "youtube"
+    },
+    {
+      "claim": "Working with the ChatGPT model",
+      "topic": "openai",
+      "videoSeconds": 1054,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=1054s",
+      "slideIndex": 9,
+      "slideTitle": "{ \"choices\": [ { \"finish_reason\": \"stop\", \"index\": 0,",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT/GPT4 sample code",
+      "topic": "openai",
+      "videoSeconds": 1142,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=1142s",
+      "slideIndex": 11,
+      "slideTitle": "Customer question: {insert new question here} Classified topic:",
+      "source": "youtube"
+    },
+    {
+      "claim": "An example of Prompt Engineering-Topic Classifier",
+      "topic": "general",
+      "videoSeconds": 1461,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=1461s",
+      "slideIndex": 12,
+      "slideTitle": "Fine-tuning is a way of utilizing transfer learning.",
+      "source": "youtube"
+    },
+    {
+      "claim": "What does Fine-Tuning look like?",
+      "topic": "fine-tuning",
+      "videoSeconds": 1652,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=1652s",
+      "slideIndex": 14,
+      "slideTitle": "Slide 14",
+      "source": "youtube"
+    },
+    {
+      "claim": "Embedding models",
+      "topic": "rag",
+      "videoSeconds": 1808,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=1808s",
+      "slideIndex": 16,
+      "slideTitle": "Embedding models Different Azure OpenAI Service embedding models",
+      "source": "youtube"
+    },
+    {
+      "claim": "Azure OpenAl Service Responsible Al",
+      "topic": "general",
+      "videoSeconds": 1906,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=1906s",
+      "slideIndex": 17,
+      "slideTitle": "We strongly recommend using text–embedding–ada–002 (Version 2). This",
+      "source": "youtube"
+    },
+    {
+      "claim": "Azure OpenAl Key Sites",
+      "topic": "general",
+      "videoSeconds": 2044,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI&t=2044s",
+      "slideIndex": 19,
+      "slideTitle": "Azure OpenAI Key Sites Azure OpenAI Studio https://oai.azure.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "text-davinci-002 text-davinci-003 ChatGPT model (gpt-3.5-turbo) A GPT-3.5 model",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI",
+      "slideIndex": 5,
+      "slideTitle": "text-davinci-002 text-davinci-003 ChatGPT model (gpt-3.5-turbo) A GPT-3.5 model",
+      "source": "slide"
+    },
+    {
+      "claim": "Previous GPT-3 models Previous models were text-in and",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gjeyQ1Z0PyI",
+      "slideIndex": 7,
+      "slideTitle": "Previous GPT-3 models Previous models were text-in and",
+      "source": "slide"
+    }
+  ]
+}

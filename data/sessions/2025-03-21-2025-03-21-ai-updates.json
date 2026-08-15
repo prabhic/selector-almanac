@@ -1,0 +1,328 @@
+{
+  "id": "2025-03-21-2025-03-21-ai-updates",
+  "date": "2025-03-21",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "agents",
+    "open-models",
+    "claude"
+  ],
+  "video": {
+    "id": "h1vsw6yoMlA",
+    "title": "Have you heard these exciting AI news? - March 21, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+    "thumbnail": "https://i.ytimg.com/vi/h1vsw6yoMlA/hqdefault.jpg",
+    "duration": 1762
+  },
+  "deck": {
+    "path": "2025/2025-03-21-AI-Updates.pptx",
+    "filename": "2025-03-21-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-03-21-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-03-21-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Manus AI - 2 models, 29 tools",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Open Manus",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Baidu's ERNIE X1 & 4.5 - powerful and cheap",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia GTC (GPU Tech Conference)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "PC Agent",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mistral Small 3.1",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Anthropic Claude can now search the web",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Manus AI - 2 models, 29 tools Open",
+      "text": "Manus AI - 2 models, 29 tools Open Manus Baidu's ERNIE X1 & 4.5 - powerful and cheap Nvidia GTC (GPU Tech Conference) PC Agent Mistral Small 3.1 Anthropic Claude can now search the web AI Updates March 21 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs autoMate - AI-Powered Local Automation Chitu - open-source fast LLM inference OpenAI o1-pro - expensive OpenAI AI Audio models Llama - more than 1 Billion downloads Google has bought Wiz for $32 Billion Qodo (aka Codium) != Codeium QwenLM/QwQ - now open source alphaXiv - Discover, Discuss, Read arXiv papers SmolDocling - ultra-compact OCR model R1-Searcher & Search-R1 Models double their skills every 7 months Cohere's Command A Meta - Transformers without Normalization Gemini Embedding,  Google Gems CODI Self-Distillation Allen Institute for AI (AI2) OLMo 32B Agent S2 from Similar.ai Google Gemini - Canvas 12 Rules to Vibe Coding Boston Dynamics - Cartwheel In-Browser Graph RAG with Kuzu-Wasm RAG Chatbot on your data for $200 Everyone Offers AI-Agents Studios St. Patrick's Day March 17th"
+    },
+    {
+      "index": 2,
+      "title": "Manus AI - 2 models, 29 tools Manus",
+      "text": "Manus AI - 2 models, 29 tools Manus AI Manus AI, the autonomous AI agent developed by Chinese startup Butterfly Effect Manus AI uses existing foundation models: Anthropic's Claude 3.5 \"Sonnet v1\" (3.7 is being tested) fine-tuned versions of Alibaba's Qwen LLM (possibly for Chinese language tasks) Manus uses multiple AI models for different subtasks Manus has access to 29 different tools . The main ones are: Browser Use - browser_view, browser_navigate, browser_move_mouse, browser_press_key, browser_select_option, browser_scroll_up, browser_scroll_down, browser_console_exec File System Operations - file_find_by_name, file system operations including reading, writing, searching for content, creating directories, and compressing files Shell and Command Line Execution - shell_exec, shell_kill_process Knowledge and Data Processing - Knowledge module, knowledge base, Datasource module (API access), Retrieval-Augmented Generation (RAG) capabilities Other capabilities - Information gathering, fact-checking, and documentation; Data processing, analysis, and visualization; Content creation across multiple formats; Code generation and execution; Deployment of websites and applications Manus operates as a multi-agent system, meaning it integrates various AI models to handle tasks autonomously. This architecture includes: 1. A planning system for breaking down complex tasks 2. Memory components for maintaining context during task execution 3. Tool execution loops that allow the system to take actions and observe results 4. Asynchronous operation capabilities, allowing tasks to continue running even when users are not actively engaged The system runs from the cloud, enabling users to assign tasks and check back later for results, as the AI continues working in the background Open Manus https://www.youtube.com/watch?v=FbfbCMoNdlU - video https://digialps.com/openmanus-a-powerful-open-source-ai-agent-alternative-to-manus-ai/ https://github.com/mannaandpoem/OpenManus"
+    },
+    {
+      "index": 3,
+      "title": "Baidu's ERNIE X1 & ERNIE 4.5 Baidu's ERNIE",
+      "text": "Baidu's ERNIE X1 & ERNIE 4.5 Baidu's ERNIE X1 & ERNIE 4.5 beats o3, R1 & Sonet 3.7 100x times cheaper https://www.youtube.com/watch?v=hpzBzHOSECw ERNIE 4.5 - Heterogeneous Multimodal (text, images, audio, and video), Mixture-of-Experts, good at understanding, generation, reasoning, and memory; hallucination prevention, logical reasoning, and coding. ERNIE X1 - deep-thinking reasoning model, multimodal; focuses on understanding context, planning thought processes, reflecting on responses, and evolving over time; autonomous tools' use for complex tasks, such as advanced search, image understanding, and complex calculations; comparable to DeepSeek R1, at a lower cost. ERNIE 4.5 at 1% of GPT-4.5's cost ERNIE X1 at half the price of DeepSeek R1"
+    },
+    {
+      "index": 4,
+      "title": "Nvidia GTC GTC = GPU Technology Conference March",
+      "text": "Nvidia GTC GTC = GPU Technology Conference March 16-21 in San Jose, CA Keynote: Tue March 18 - NVIDIA CEO Jensen Huang https://www.nvidia.com/gtc/ https://www.youtube.com/watch?v=erhqbyvPesY - summary 2022 2024 2025 2026 2027 2028 GPU Codename Hopper Blackwell Blackwell (Ultra) Rubin Rubin (Ultra) Feynman GPU Family GH200 / GH100 GB200 / GB100 GB300 GR200? GR300? GF200? GPU SKU H100/H200 B100/B200 B300 R200? R300? F200? Vera CPU : 88-cores, 176 threads Rubin GPU - two chips, up to 50 PFLOPs of FP4,  288 GB of HBM4 memory Vera Rubin NVL576 system (2027 ?): Rubin GPUs - 576 (15 EF FP4) Vera CPUs - 12,672 Cores, 25,344 threads ExaFlops in one rack Groot N1 - foundation model for humanoid robotics, thinking fast and slow NVIDIA Llama Nemotron reasoning models Nano: 8B  distilled from Llama 3.1 8B Super: 49B distilled from Llama 3.3 70B Ultra: 253B distilled from Llama 3.1 405B CEO Jensen Huang in his  trademark black leather motorcycle jacket DGX Spark (formerly Project DIGITS) GB10, 128GB memory DGX Station - GB300 Grace Blackwell Ultra Desktop Superchip, 784GB memory"
+    },
+    {
+      "index": 5,
+      "title": "PC Agent PC-Agent: A Hierarchical Multi-Agent Collaboration Framework",
+      "text": "PC Agent PC-Agent: A Hierarchical Multi-Agent Collaboration Framework for Complex Task Automation on PC https://arxiv.org/abs/2502.14282 - paper https://github.com/X-PLUG/MobileAgent/tree/main/PC-Agent - GitHub Researchers from: MAIS, Institute of Automation, Chinese Academy of Sciences, China, School of Artificial Intelligence, University of Chinese Academy of Sciences, Alibaba Group, Beijing Jiaotong University, School of Information Science and Technology, ShanghaiTech University Active Perception Module - extracts locations and meaning via accessibility trees + MLLM-driven intention understanding and OCR for precise text localization (MLLM = Multimodal LLM) Hierarchical Multi-agent Collaboration implements a three-level decision process (Instruction-Subtask-Action) where a Manager Agent decomposes instructions into parameterized subtasks and manages dependencies, a Progress Agent tracks operation history, and a Decision Agent executes steps with perception and progress information. Reflection-based Dynamic Decision-making introduces a Reflection Agent that assesses execution correctness and provides feedback, enabling top-down task decomposition with bottom-up precision feedback across all four collaborating agents."
+    },
+    {
+      "index": 6,
+      "title": "Mistral Small 3.1 Mistral Small 3.1 Small (24b",
+      "text": "Mistral Small 3.1 Mistral Small 3.1 Small (24b parameters) Open source - Apache 2.0 Outperforms Gemma 3, GPT-4o Mini, Claude 3.5 Haiku Multimodal (text, images). Multilingual (dozens of languages). 24b parameters Ollama: https://ollama.com/library/mistral-small ollama run mistral-small can run on a single RTX 4090 or a Mac with 32GB RAM 128k tokens context length 150 tokens per second Agent-Centric - function calling, JSON outputting Advanced Reasoning https://mistral.ai/news/mistral-small-3-1 https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates 1 autoMate - AI-Powered Local Automation",
+      "text": "AI Updates 1 autoMate - AI-Powered Local Automation Tool open-source free alternative to Manus https://github.com/yuruotong1/autoMate Chitu - open-source LLM inference framework from China 300% faster while using 50% less GPU can effectively run on Chinese chips https://www.scmp.com/tech/tech-war/article/3302516/chip-war-chinese-start-aims-break-nvidias-grip-ai-new-model-framework https://qc-ai.cn - Qingcheng.AI, startup, since 2023 OpenAI o1-pro - expensive $150 / $600 per 1 Mln in/out tokens This is twice the price of GPT-4.5 This is 10x the price of o1 https://platform.openai.com/docs/models/o1-pro It is using more compute \"to think harder\". Early reviews weren’t very positive. The model is only slightly better. It struggled with Sudoku puzzles, fails on simple optical illusions Llama - more than 1 Billion downloads Google has bought Wiz for $32 Billion Wiz makes security tools to protect information in remote data centers Wiz based in New York, since 2020 AI & Data Security - two hottest trends Anthropic Claude can now search the web Available now in preview for paid Claude users in the U.S Example: what was the weather yesterday? Who has won the latest Super Bawl ? OpenAI AI Audio models Audio-to-Audio directly (without intermediate text) Faster, Understands intonations, accents, emotion Via API (Voice Agents SDK), 70% cheaper than ElevenLabs https://openai.com/index/introducing-our-next-generation-audio-models/ https://www.openai.fm"
+    },
+    {
+      "index": 8,
+      "title": "Qodo (aka Codium) != Codeium Qodo (formerly known",
+      "text": "Qodo (aka Codium) != Codeium Qodo (formerly known as Codium or CodiumAI) and Codeium are entirely different AI coding assistant tools Qodo - code quality , testing, and review processes \"quality-first\" approach to software development \"Qodo\" is derived from \"Quality\" and \"Code\" pricing: free & $19 per user-month https://www.qodo.ai Codeium - speed-focused code completion and generation numerous programming languages. https://codeium.com , windsurf editor - https://codeium.com/windsurf pricing: free & $15 per user-month"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 2 QwenLM/QwQ - now open source",
+      "text": "AI Updates 2 QwenLM/QwQ - now open source QwQ is the reasoning-specialized model within the Qwen series QwQ-32B, is a mid-sized model that competes effectively with top-tier reasoning models like DeepSeek-R1 and o1-mini https://github.com/QwenLM/QwQ alphaXiv - Discover, Discuss, and Read arXiv papers https://www.alphaxiv.org/explore developed by students at Stanford University's AI Lab uses Mistral OCR to read PDFs uses Claude 3.7 to understand and summarize it Users can access any arXiv paper on AlphaXiv by simply changing \"arXiv\" to \"alphaXiv\" in the URL of any arXiv paper SmolDocling - ultra-compact OCR model only 256M parameters https://arxiv.org/abs/2503.11576"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates 2 R1-Searcher A Reinforcement Learning-Based Framework",
+      "text": "AI Updates 2 R1-Searcher A Reinforcement Learning-Based Framework for Enhancing LLM Search Capabilities https://arxiv.org/abs/2503.05592 https://github.com/SsmallSong/R1-Searcher https://www.marktechpost.com/2025/03/12/this-ai-paper-introduces-r1-searcher-a-reinforcement-learning-based-framework-for-enhancing-llm-search-capabilities/ Search-R1 Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning https://arxiv.org/abs/2503.09516 https://github.com/PeterGriffinJin/Search-R1 Models double their skills every 7 months Measuring AI Ability to Complete Long Tasks https://arxiv.org/abs/2503.14499 For each year we look at tasks that best AI model agents can complete with 50% reliability, and how long it would take human professionals to do them (vertical axis) 2019 - 3 sec, 2022 - 1 min, now - 1 hour, 2028 - 1 day, 2030 - 1 month https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/ https://github.com/METR/eval-analysis-public"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates 2 Meta - Transformers without Normalization",
+      "text": "AI Updates 2 Meta - Transformers without Normalization Dynamic Tanh (DyT) https://arxiv.org/abs/2503.10622 https://jiachenzhu.github.io/DyT/ https://www.linkedin.com/posts/yann-lecun_more-details-about-normalization-free-training-activity-7306430053733617664-xRzr/ works better, but doesn't need extra calculations or tuning images, language, supervised learning, and self-supervised learning Cohere's Command A - 111B dense model Artificial Analysis Intelligence Index of 40, close to OpenAI GPT-4o 256K context window, 185 tokens/s Price $2.5/$10 per million input/output tokens available on Hugging Face for research available commercially with a license from Cohere https://digialps.com/openmanus-a-powerful-open-source-ai-agent-alternative-to-manus-ai/ Gemini Embedding universal embedding model that maintains high quality across languages, domains, and tasks https://www.arxiv.org/abs/2503.07891"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates 3 Google Gems - personalized versions",
+      "text": "AI Updates 3 Google Gems - personalized versions of Gemini (since August 2024) for paid subscribers - Gemini Advanced, Gemini for Google Workspace Frequent use: translators, prompt engineers, math tutors, and copywriters Gems now can reference a set of files (up to 10) New Pre-made Gems: Marketing insights, Sales pitch ideator, Hiring consultant,  Outreach specialist (sales and customer support), Copy creator, Sentiment analyzer https://workspace.google.com/blog/product-announcements/new-gemini-gems-deeper-knowledge-and-business-context https://blog.google/products/gemini/google-gems-tips/ https://support.google.com/gemini/answer/15235907 CODI: A Self-Distillation Framework for Efficient and Scalable Chain-of-Thought Reasoning in LLMs https://www.marktechpost.com/2025/03/09/this-ai-paper-introduces-codi-a-self-distillation-framework-for-efficient-and-scalable-chain-of-thought-reasoning-in-llms/ Allen Institute for AI (AI2) OLMo 32B Fully Open Model to Beat GPT 3.5 and GPT-4o mini https://github.com/allenai/OLMo-core https://huggingface.co/allenai/OLMo-2-0325-32B-Instruct https://allenai.org/blog/olmo2-32B"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates 4 Agent S2 from Similar.ai Open,",
+      "text": "AI Updates 4 Agent S2 from Similar.ai Open, Modular, Scalable Framework for \"Computer Use\" Agents https://www.simular.ai/agent-s2 https://github.com/simular-ai/agent-s Google Gemini - Canvas It can show python code, but can not run it It can show and run Javascript Doesn't work well with Mermaid diagrams yet"
+    },
+    {
+      "index": 14,
+      "title": "12 Rules to Vibe Code Without Frustration 12",
+      "text": "12 Rules to Vibe Code Without Frustration 12 Rules to Vibe Code Without Frustration by Peter yang https://creatoreconomy.so/p/12-rules-to-vibe-code-without-frustration Ask AI to create a plan , to create a README that includes: Requirements, Tech stack, Milestones (up to 5) to test. Consider using Grok for planning (or Sonet 3.7). Keep your tech stack simple . Most of the time, you can build apps with client and local storage. There’s often no need for: Servers, databases, or complex tooling. Give AI the right rules & documentation . Ask AI which version of libraries it knows - and use that. Or provide/paste-in documentation . Set up global and project rules in your AI IDE (Cursor). For example, Explain what you’ll do first and ask for my confirmation before coding. Do the simple thing first. Use modules instead of just a single file. Only make requested changes. Do not write duplicate code - please look for existing solutions in the codebase. Ask AI NOT to code : \"Tell me your plan first; don’t code.\" Ask AI for simple options : \"Give me a few options, starting with the simplest first. Don’t code.\";   \"Think as long as you need and ask me questions if you need more info.\" Break tasks into small steps . Ask AI to \"Keep it simple\". Ask AI to \"Implement the simplest next step I can test.\" Ask AI to change a specific file only. Start a fresh chat for each feature Include images (screenshots, graphs, diagrams) to give AI context Test after every change . AI can break your app. Ask AI to write tests for you. Don't hesitate to revert . Cursor and Windsurf have a \"Revert to checkpoint\" button that restores past versions of your code. Periodically ask \"Look for duplicate code or redundancies and list them.\" Then ask AI to make the simple fixes to keep your code base clean. Use Github for version control . Talk to AI - install voice dictation software like Superwhisper Ask AI to explain the code . \"Explain how this file works in simple terms.\" or \"Add comments that explain the code.\"  Put all code into one text file, paste it to AI - and ask \"Can you explain how this app works? Give me an overview of the tech architecture.\""
+    },
+    {
+      "index": 15,
+      "title": "Boston Dynamics - Cartwheel Boston Dynamics Atlas Robot",
+      "text": "Boston Dynamics - Cartwheel Boston Dynamics Atlas Robot can now do gymnastics : cartwheel, walk, run, crawl, roll, lower brake, handstand, ... https://www.youtube.com/watch?v=I44_zbEwz_w https://www.youtube.com/shorts/Oi7gROJPhVw"
+    },
+    {
+      "index": 16,
+      "title": "In-Browser Graph RAG with Kuzu-Wasm Fully In-Browser Graph",
+      "text": "In-Browser Graph RAG with Kuzu-Wasm Fully In-Browser Graph RAG with Kuzu-Wasm https://blog.kuzudb.com/post/kuzu-wasm-rag/ https://github.com/mlc-ai/web-llm - WebLLM https://mlc.ai - Machine Learning Compilation https://mlc.ai/models - MLC Models https://www.w3.org/TR/webgpu/ - WebGPU https://github.com/WebAssembly/memory64 - Memory Linkedin Example: https://github.com/kuzudb/wasm-linkedin-example Running Llama-3.1-8B 4-bit quantized model in WASM Llama-3.1-8B-Instruct-q4f32_1-MLC https://huggingface.co/mlc-ai/Llama-3.1-8B-Instruct-q4f32_1-MLC How to download our Linkedin Account data: https://www.linkedin.com/help/linkedin/answer/a1339364/downloading-your-account-data import { CreateMLCEngine } from \"@mlc-ai/web-llm\"; async main() { const appConfig = { \"model_list\": [ { \"model\": \" /url/to/my/llama \", \"model_id\": \" MyLlama-3b-v1-q4f32_0 \", \"model_lib\": \" /url/to/myllama3b.wasm \", } ], }; // override default const chatOpts = { \" repetition_penalty \": 1.01 }; // load a prebuilt model  with a chat option override // and app config under the hood, // it will load the model from myLlamaUrl // and cache it in the browser cache // The chat will also load the model library // from \"/url/to/myllama3b.wasm\", // assuming that it is compatible to the model in myLlamaUrl. const engine = await CreateMLCEngine( \" MyLlama-3b-v1-q4f32_0 \", { appConfig }, // engineConfig chatOpts, ); } DeepSeek R1 1.5B running FULLY LOCALLY in your browser at 60 tok/ sec powered by WebGPU https://x.com/reach_vb/status/1881809400995934640"
+    },
+    {
+      "index": 17,
+      "title": "RAG Chatbot on your data for $200 Prices",
+      "text": "RAG Chatbot on your data for $200 Prices for developing standard RAG chatbots went down from half-a-million to $200 Development time went down from several months to two days https://www.upwork.com/services/product/development-it-ai-chatbot-with-your-data-using-retrieval-augmented-generation-rag-1742353320763936768 Costs for a RAG project https://www.reddit.com/r/Rag/comments/1h2iitk/what_is_a_range_of_costs_for_a_rag_project/?rdt=59328"
+    },
+    {
+      "index": 18,
+      "title": "Everyone Offers AI-Agents Studios Microsoft OpenAI Amazon AWS",
+      "text": "Everyone Offers AI-Agents Studios Microsoft OpenAI Amazon AWS Google Oracle IBM Cohere Anthropic (USA) NVIDIA (USA) Salesforce (USA) Meta (USA) DeepMind (UK) Hugging Face (USA/France) Mistral AI (France) SAP (Germany) Siemens (Germany) Baidu (China) Alibaba Cloud (China) Tencent (China) SenseTime (China) Typically you get: Agent template libraries : pre-built templates paired with natural language prompts for different business scenarios Agent team orchestration : set up multiple agents to work alongside people (checkpoints, approvals, ...) Agent extensibility : modify and extend the 50+ (or 1000+) pre-packaged Applications AI agents by adding documents, tools, prompts, or APIs Choice of LLMs : select from LLMs specifically optimized for Vendor's platform/cloud. Usually Llama, Cohere, OpenAI, Claude, Gemini, or plug in other LLMs (may be industry-specific) Native integration with Vendor's platform/cloud (direct access, knowledge stores, predefined tools) Third-party system integration through secure APIs Trust and security framework - security configurations, policies, and access controls Validation and testing tools - for reliability, repeatability, explainability, security, and performance of AI outputs. Samsung (South Korea) LG AI Research (South Korea) SoftBank (Japan) Yandex (Russia) Mubadala Invest Company (UAE) Dubai Electricity and Water Authority (UAE) Etisalat (UAE) Saudi Aramco (Saudi Arabia) Infosys (India) Wipro (India) Moveworks (USA) ServiceNow (USA) UiPath (USA) Relay.app (USA) Postman (USA) Vertex AI Agent Builder (USA) LangChain (USA) LangGraph (USA) CrewAI (USA) Today's trend: vendors offer Agent Building Frameworks, Studios, etc. Example - Oracle \"AI Agent Studio\": https://www.oracle.com/news/announcement/oracle-introduces-ai-agent-studio-2025-03-20/"
+    },
+    {
+      "index": 19,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard English-only queries Total #models: 218 Total #votes: 2,801,990 Last updated: 2025-03-20 Coding China China China China China China China China x.ai China x.ai China China Cohere Cohere China"
+    },
+    {
+      "index": 20,
+      "title": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS",
+      "text": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS"
+    },
+    {
+      "index": 21,
+      "title": "Electric Vehicle for 13,000 euros GAC-Toyota starts pre-sales",
+      "text": "Electric Vehicle for 13,000 euros GAC-Toyota starts pre-sales of the bZ3X in China 13K .. 20K euros GAC Toyota Motor Co., Ltd. (GTMC) is a 50:50 joint venture between Guangzhou Automobile Group (GAC) and Toyota Motor Corporation that manufactures Toyota vehicles specifically for the Chinese market, headquartered in Guangzhou. https://www.electrive.com/2024/12/09/gac-toyota-starts-pre-sales-of-the-bz3x-in-china/"
+    },
+    {
+      "index": 22,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 23,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Manus AI - 2 models, 29 tools",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 1,
+      "slideTitle": "Manus AI - 2 models, 29 tools Open",
+      "source": "outline"
+    },
+    {
+      "claim": "Open Manus",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 5,
+      "slideTitle": "PC Agent PC-Agent: A Hierarchical Multi-Agent Collaboration Framework",
+      "source": "outline"
+    },
+    {
+      "claim": "Baidu's ERNIE X1 & 4.5 - powerful and cheap",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 8,
+      "slideTitle": "Qodo (aka Codium) != Codeium Qodo (formerly known",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia GTC (GPU Tech Conference)",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates 3 Google Gems - personalized versions",
+      "source": "outline"
+    },
+    {
+      "claim": "PC Agent",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 16,
+      "slideTitle": "In-Browser Graph RAG with Kuzu-Wasm Fully In-Browser Graph",
+      "source": "outline"
+    },
+    {
+      "claim": "Mistral Small 3.1",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 19,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Anthropic Claude can now search the web",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 23,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Manus AI - 2 models, 29 tools Manus",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 2,
+      "slideTitle": "Manus AI - 2 models, 29 tools Manus",
+      "source": "slide"
+    },
+    {
+      "claim": "Baidu's ERNIE X1 & ERNIE 4.5 Baidu's ERNIE",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 3,
+      "slideTitle": "Baidu's ERNIE X1 & ERNIE 4.5 Baidu's ERNIE",
+      "source": "slide"
+    },
+    {
+      "claim": "Nvidia GTC GTC = GPU Technology Conference March",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 4,
+      "slideTitle": "Nvidia GTC GTC = GPU Technology Conference March",
+      "source": "slide"
+    },
+    {
+      "claim": "Mistral Small 3.1 Mistral Small 3.1 Small (24b",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 6,
+      "slideTitle": "Mistral Small 3.1 Mistral Small 3.1 Small (24b",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 1 autoMate - AI-Powered Local Automation",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates 1 autoMate - AI-Powered Local Automation",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 QwenLM/QwQ - now open source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 2 QwenLM/QwQ - now open source",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 R1-Searcher A Reinforcement Learning-Based Framework",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates 2 R1-Searcher A Reinforcement Learning-Based Framework",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 Meta - Transformers without Normalization",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=h1vsw6yoMlA",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 2 Meta - Transformers without Normalization",
+      "source": "slide"
+    }
+  ]
+}

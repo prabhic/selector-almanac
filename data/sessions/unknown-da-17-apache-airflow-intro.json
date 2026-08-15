@@ -1,0 +1,193 @@
+{
+  "id": "unknown-da-17-apache-airflow-intro",
+  "date": null,
+  "title": "DA 17 Apache Airflow Intro",
+  "series": "data-architect-2021",
+  "topics": [
+    "open-models",
+    "agents",
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_17_Apache_Airflow_Intro.pptx",
+    "filename": "DA_17_Apache_Airflow_Intro.pptx",
+    "title": "DA 17 Apache Airflow Intro",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_17_Apache_Airflow_Intro.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_17_Apache_Airflow_Intro.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Introduction to Airflow",
+      "text": "Introduction to Airflow"
+    },
+    {
+      "index": 2,
+      "title": "What is Airflow? Open source workflow engine Program",
+      "text": "What is Airflow? Open source workflow engine Program with Python Schedule Monitor Scalable Dynamic Extensible"
+    },
+    {
+      "index": 3,
+      "title": "Basic components of Airflow environment Airflow Database Simplest",
+      "text": "Basic components of Airflow environment Airflow Database Simplest for a SQLite DB Can be hosted in MySQL, PostgreSQL, or  MSSQL Used for: Holds component relationship information Stores state All process reads and writes here. Airflow webserver Manages web GUI for seeing workloads Flask web server Airflow scheduler Responsible for orchestrating tasks Retrieves information from Airflow database Airflow executor Responsible for actually execution of defined code"
+    },
+    {
+      "index": 4,
+      "title": "Installation: Add an ENV variable for AIRFLOW_HOME `export",
+      "text": "Installation: Add an ENV variable for AIRFLOW_HOME `export AIRFLOW_HOME=~/[path for your Airflow home]` Install airflow with pip `pip3 install apache-airflow` Initialize Airflow DB - this will initialize a SQLite DB `airflow db init` Start the Airflow webserver `airflow webserver -p [local port]` Start the Airflow scheduler `airflow scheduler` Create an Airflow user `airflow users create -e [email] -f [firstname] -l [lastname] -u [username] -r [role]"
+    },
+    {
+      "index": 5,
+      "title": "DAGS DAG - Directed Acyclic Graph Collection of",
+      "text": "DAGS DAG - Directed Acyclic Graph Collection of tasks defined in Python code Show relationship and dependency between tasks Flow in one direction"
+    },
+    {
+      "index": 6,
+      "title": "Operators are key components to DAGs Basic operators:",
+      "text": "Operators are key components to DAGs Basic operators: DummyOperator BashOperator PythonOperator ShortCircuitOperator API operators: Azure AzureDataFactoryRunPipelineOperator ADLSDeleteOperator AWS S3CopyObjectOperator RedshiftSQLOperator Google BigQueryOperator GoogleCloudStorageOperator"
+    },
+    {
+      "index": 7,
+      "title": "Passing information from one task to another XCOMs",
+      "text": "Passing information from one task to another XCOMs Built-in functionality Allows access to information from tasks All tasks have a ‘result’ XCOM, but others can be set intentionally Limited to 48KB Use for simple passage of results Results in tasks being overly dependent on upstream tasks External storage Database Object store Use for passing large data between tasks"
+    },
+    {
+      "index": 8,
+      "title": "Demo http://localhost:8080 Sample dags are in my git",
+      "text": "Demo http://localhost:8080 Sample dags are in my git repo here: https://github.com/cgapperi/airflow_demo"
+    },
+    {
+      "index": 9,
+      "title": "More complex Code",
+      "text": "More complex Code"
+    },
+    {
+      "index": 10,
+      "title": "Resources Official Airflow documentation Operator documentation Mark Lamberti!",
+      "text": "Resources Official Airflow documentation Operator documentation Mark Lamberti! Medium author: Kaxil Naik Astronomer.io Resources Blog : 7 Common Errors to Check When Debugging Airflow DAGs Useful SQL queries for Apache Airflow Guides Airflow: Tips, Tricks & Pitfalls Testing DAGS (in Google Composer)"
+    },
+    {
+      "index": 11,
+      "title": "Questions?",
+      "text": "Questions?"
+    },
+    {
+      "index": 12,
+      "title": "Airflow web interface",
+      "text": "Airflow web interface"
+    },
+    {
+      "index": 13,
+      "title": "DAG Tree view",
+      "text": "DAG Tree view"
+    },
+    {
+      "index": 14,
+      "title": "DAG graph view",
+      "text": "DAG graph view"
+    },
+    {
+      "index": 15,
+      "title": "Airflow code view",
+      "text": "Airflow code view"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction to Airflow",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Introduction to Airflow",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Airflow? Open source workflow engine Program",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "What is Airflow? Open source workflow engine Program",
+      "source": "slide"
+    },
+    {
+      "claim": "Basic components of Airflow environment Airflow Database Simplest",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Basic components of Airflow environment Airflow Database Simplest",
+      "source": "slide"
+    },
+    {
+      "claim": "Installation: Add an ENV variable for AIRFLOW_HOME `export",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Installation: Add an ENV variable for AIRFLOW_HOME `export",
+      "source": "slide"
+    },
+    {
+      "claim": "DAGS DAG - Directed Acyclic Graph Collection of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "DAGS DAG - Directed Acyclic Graph Collection of",
+      "source": "slide"
+    },
+    {
+      "claim": "Operators are key components to DAGs Basic operators:",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Operators are key components to DAGs Basic operators:",
+      "source": "slide"
+    },
+    {
+      "claim": "Passing information from one task to another XCOMs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Passing information from one task to another XCOMs",
+      "source": "slide"
+    },
+    {
+      "claim": "Demo http://localhost:8080 Sample dags are in my git",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Demo http://localhost:8080 Sample dags are in my git",
+      "source": "slide"
+    },
+    {
+      "claim": "Resources Official Airflow documentation Operator documentation Mark Lamberti!",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Resources Official Airflow documentation Operator documentation Mark Lamberti!",
+      "source": "slide"
+    },
+    {
+      "claim": "Airflow web interface",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Airflow web interface",
+      "source": "slide"
+    }
+  ]
+}

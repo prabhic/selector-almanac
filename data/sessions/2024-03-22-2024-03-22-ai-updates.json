@@ -1,0 +1,342 @@
+{
+  "id": "2024-03-22-2024-03-22-ai-updates",
+  "date": "2024-03-22",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "agents",
+    "openai",
+    "open-models",
+    "jobs"
+  ],
+  "video": {
+    "id": "nsZw7_93K3U",
+    "title": "Have you heard these exciting AI news? - March 22, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=nsZw7_93K3U",
+    "thumbnail": "https://i.ytimg.com/vi/nsZw7_93K3U/hqdefault.jpg",
+    "duration": 1743
+  },
+  "deck": {
+    "path": "2024/2024-03-22-AI-Updates.pptx",
+    "filename": "2024-03-22-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-03-22-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-03-22-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "NvidiaGTC",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Agent workflows",
+      "startSeconds": 142,
+      "label": "02:22",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT 4 first anniversary",
+      "startSeconds": 474,
+      "label": "07:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Gro 1 released into open source",
+      "startSeconds": 573,
+      "label": "09:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Open source is thriving",
+      "startSeconds": 748,
+      "label": "12:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Mustafa Suan joins Microsoft",
+      "startSeconds": 1045,
+      "label": "17:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Sora 10",
+      "startSeconds": 1216,
+      "label": "20:16",
+      "source": "youtube"
+    },
+    {
+      "title": "AWS Kendra",
+      "startSeconds": 1448,
+      "label": "24:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Yan Lin Interview",
+      "startSeconds": 1570,
+      "label": "26:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Contextual AI",
+      "startSeconds": 1633,
+      "label": "27:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource",
+      "startSeconds": 1691,
+      "label": "28:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech layoffs",
+      "startSeconds": 1700,
+      "label": "28:20",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Nvidia GTC, Blackwell B200 Success to iterative Agent's",
+      "text": "Nvidia GTC, Blackwell B200 Success to iterative Agent's workflows Multi-Agent Software Development Microsoft AutoDev GPT-4 - Celebrating 1 year ! X.ai  Grok-1 - open-sourced Open-source AI is thriving Apple MM1 multimodal LLMs NeuroPrompts - automating prompt' tuning Apple acquired DarwinAI rerankers - open-source Agentic RAG Microsoft Mustafa Suleyman from Inflection Google partners with Samsung and Apple to bring Gemini to mobile phones Google  - Gemini 1.5 Pro API is available NLX - enterprise conversational AI RankPrompt - self-ranking, reasoning Open-Sora 1.0 ( vs OpenAI Sora) Meta - Reality Labs Research SceneScript Run LLMs locally Neuralink paralized patient controls computer with his mind maisa.ai - Mesa KPU OpenAI GPT-5 is expected in June AWS Kendra Quiet-STaR (Stanford) Joint Embedding Predictive Architecture Rag 2.0 from contextual.ai Tech Layoffs is lower this year AI Updates March 22 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Nvidia GTC March 18-21 Nvidia GTC = GPU",
+      "text": "Nvidia GTC March 18-21 Nvidia GTC  = GPU Technology Conference March 18-21 San Jose McEnery Convention Center, San Jose, CA Blackwell B200 chip vs Hopper: Blackwell has 208 Bln transistors, can do 20 petaFLOPS per GPU. It can run LLMs with trillion parameters 25 times faster than before. New NVLink - delivers 1.8 TBytes per second to each GPU. GB200 - a board that combines two B200 with a single Grace CPU. It offers x30 times the performance for LLM inference. It “reduces cost and energy consumption by up to 25x” over an H100 GB200 David Harold Blackwell (1919 – 2010) American statistician and mathematician, UC Berkeley (1954-88)"
+    },
+    {
+      "index": 3,
+      "title": "Success to iterative Agent's workflows GPT-3.5 (zero shot)",
+      "text": "Success to iterative Agent's workflows GPT-3.5 (zero shot) was 48.1% correct. GPT-4 (zero shot) does better at 67.0%. ... wrapped in an agent loop, GPT-3.5 achieves up to 95.1%. https://info.deeplearning.ai/robots-talk-back-ai-security-risks-political-deepfakes-pretrained-models-on-the-cheap Reflection: LLM examines its own work Tool use: web search, run code, ... Planning: LLM creates multi-step plans Multi-agent collaboration"
+    },
+    {
+      "index": 4,
+      "title": "Multi-Agent Software Development crewAI - open-source Multi-Agent Automations",
+      "text": "Multi-Agent Software Development crewAI - open-source Multi-Agent Automations https://www.crewai.com https://github.com/joaomdmoura/crewAI https://docs.crewai.com MetaGPT - open-source Multi-Agent Framework, Data Science Agent https://github.com/geekan/MetaGPT https://arxiv.org/abs/2402.18679 GPT-Pilot (now Pythagora ) - open-source , VSCode extension https://www.pythagora.ai https://github.com/Pythagora-io/gpt-pilot - open source https://marketplace.visualstudio.com/items?itemName=PythagoraTechnologies.gpt-pilot-vs-code SuperAGI - open-source , autonomous agents https://github.com/TransformerOptimus/SuperAGI https://superagi.com/open-source Devin from Cognition AI https://www.youtube.com/@Cognition-Labs https://www.cognition-labs.com/blog https://preview.devin.ai https://www.youtube.com/watch?v=G0qvYJVpgc0 - Scott Wu is really good at math :) GitHub Copilot - VS Code Extension https://blog.stackademic.com/using-github-copilot-in-vscode-and-xcode-ff9f3d951544 AutoGen - open source - build LLM apps using multiple agents https://github.com/microsoft/autogen OpenDevin - just started https://github.com/OpenDevin/OpenDevin More: GenWorlds - https://genworlds.com AutoGPT - https://github.com/Significant-Gravitas/AutoGPT LoopGPT - https://github.com/farizrahman4u/loopgpt/tree/main BabyAIG - https://github.com/yoheinakajima/babyagi ShortGPT - https://github.com/RayVentura/ShortGPT ChatDev - https://github.com/OpenBMB/ChatDev Camel - https://github.com/camel-ai/camel JARVIS - https://github.com/microsoft/JARVIS Tabnine - https://www.ourcrowd.com/companies/tabnine SWE-Bench - a dataset that tests systems' ability to solve GitHub issues automatically. The dataset collects 2,294 Issue-Pull Request pairs from 12 popular Python repositories. Evaluation is performed by unit test verification using post-PR behavior as the reference solution. https://www.swebench.com https://arxiv.org/abs/2310.06770 Microsoft AutoDev - a fully automated AI-driven software development framework. You tell it what to do - and it builds software.  91.5% and 87.8% for code/test generation https://arxiv.org/pdf/2403.08299.pdf Compare with Microsoft AutoGen - https://github.com/microsoft/autogen"
+    },
+    {
+      "index": 5,
+      "title": "Microsoft AutoDev Microsoft AutoDev - a fully automated",
+      "text": "Microsoft AutoDev Microsoft AutoDev - a fully automated AI-driven software development framework. You tell it what to do - and it builds software.  It uses multiple Agents running in a docker container to do coding, file manipulation, testing, git operations, etc. 91.5% and 87.8% for code/test generation https://arxiv.org/pdf/2403.08299.pdf https://www.marktechpost.com/2024/03/19/microsoft-introduces-autodev-a-fully-automated-artificial-intelligence-driven-software-development-framework/ Note - there is also a separate open-source (not Microsoft) project from China since April 2023 with the same name AutoDev which already has 1,400 stars: https://github.com/unit-mesh/auto-dev I think Microsoft should’ve used a different name or at least give credit"
+    },
+    {
+      "index": 6,
+      "title": "GPT-4 - Celebrating 1 year ! OpenAI GPT-4",
+      "text": "GPT-4 - Celebrating 1 year ! OpenAI GPT-4 was released on March 14, 2023 José Gregorio Argomedo found a fun and elegant way to celebrate 1-year anniversary He wrote a python script using LangChain agents and GPT-4 to generate an article about this event: https://www.linkedin.com/pulse/celebrating-gpt-4s-first-anniversary-ai-generated-article-argomedo-fnzrf/ And also shared the Jupyter notebook with the code: https://github.com/rsmchile/technology-experiments-multi-agent-create-blog-post/tree/main José Gregorio Argomedo https://www.linkedin.com/in/jose-gregorio-argomedo/"
+    },
+    {
+      "index": 7,
+      "title": "X.ai Grok-1 - open-sourced grok-1 Elon Musk has",
+      "text": "X.ai  Grok-1 - open-sourced grok-1 Elon Musk has promised to make X.ai Grok model open-source. So - here it is. Apache 2.0 license. March 17, 2024 blog: https://x.ai/blog/grok-os code: https://github.com/xai-org/grok-1 Huggingface: https://huggingface.co/xai-org/grok-1 314B params, 8K tokens context window, 8-bit precision Mixture-of-Experts : 8 experts, 2 experts active per  token 64 layers, 48 attention heads, 6,144-dim internal embeddings SentencePiece tokenizer with 131,072 tokens Activation Caching RoPE (Rotary Positional Embeddings) Base model not fine-tuned for any particular task. Trained from scratch by xAI using a custom training stack on top of JAX and Rust in October 2023 GitHub contains the torrent magnetic link to download the weights, also python code to download and run the model. The model uses 8bit precision, so 314B parameters means ~296GB size of the download (checkpoint) containing 773 files. Make sure to download the checkpoint and place ckpt-0 directory in checkpoint. Then, run pip install -r requirements.txt python run.py The script loads the checkpoint and samples from the model on a test input. Model is big (314 Bln params), need a big multi-GPU computer to run it."
+    },
+    {
+      "index": 8,
+      "title": "Misc 1 Open-source AI is thriving https://twitter.com/chiefaioffice/status/1768973268445274302 $8B+",
+      "text": "Misc 1 Open-source AI is thriving https://twitter.com/chiefaioffice/status/1768973268445274302 $8B+ invested in open-source AI over the last 2 years GitHub witnessed 148% YOY growth in contributors 248% YOY growth in the total number of Gen AI projects 400K+ models on Huggingface Logits of API-Protected LLMs Leak Proprietary Information https://arxiv.org/abs/2403.09539 It is possible to learn a surprisingly large amount of non-public information about an API-protected LLM from a relatively small number of API queries. Most modern LLMs suffer from a softmax bottleneck, which restricts the model outputs to a linear subspace of the full output space. This unlocks several capabilities. For example, we estimate the embedding size of OpenAI's gpt-3.5-turbo to be about 4,096, and number of params ~7 Bln . Apple MM1 , a family of multimodal LLMs text, image, video, audio small - up to 30B parameters SoTA in pre-training metrics perform competitively after fine-tuning. https://arxiv.org/abs/2403.09611 https://www.youtube.com/watch?v=QB5cSqrESlE Apple acquired Canada-based company DarwinAI which specializes in creating small efficient AI systems https://www.macrumors.com/2024/03/14/apple-acquires-darwinai/ rerankers provide a simple API for all popular rerankers https://github.com/AnswerDotAI/rerankers/ Initial retrieval in a RAG system is usually done using vector similarity. It is fast and cheap, but not good quality. The retrieved docs are scored for relevancy - and sorted based on scores. The top of the prioritized list is fed to LLM. There are multiple ways to do the scoring. Cross-Encoders (specifically trained Neural Networks) are good.  You can also use feature-based ML methods. Or even an LLM. Agentic RAG - https://cobusgreyling.medium.com/agentic-rag-context-augmented-openai-agents-578e96212bc0 Designing RAG - https://towardsdatascience.com/designing-rags-dbb9a7c1d729 RAG using Knowledge Graph - https://pub.towardsai.net/how-to-do-rag-without-vector-databases-45fd4f6ced06 RAG with Knowledge Graph - https://medium.com/@rajib76.gcp/rag-recipe-needs-a-knowledge-graph-feb263bdcb62 NeuroPrompts - Automatic tuning the prompts https://spectrum.ieee.org/prompt-engineering-is-dead https://arxiv.org/abs/2311.12229"
+    },
+    {
+      "index": 9,
+      "title": "Misc 2 RankPrompt : Step-by-Step Comparisons Make Language",
+      "text": "Misc 2 RankPrompt : Step-by-Step Comparisons Make Language Models Better Reasoners - (China) - https://arxiv.org/pdf/2403.12373.pdf RankPrompt is a new method for LLMs to self-rank their responses without additional resources. The ranking problem is plit into a series of comparisons among diverse responses, leveraging the inherent capabilities of LLMs to generate chains of comparison as contextual exemplars. RankPrompt significantly enhances the reasoning performance of ChatGPT and GPT-4, with improvements of up to 13%. Google - deals with Samsung and iPhone - integrating Gemini AI into smartphone NLX - enterprise conversational AI platform - raised additional $15 Mln - https://nlx.ai Microsoft has hired Mustafa Suleyman , the cofounder of $4 billion AI startup Inflection , to run Microsoft's AI operations . Karén Simonyan , another Inflection cofounder, is also joining Microsoft . Microsoft is paying $650 to Inflection. Microsoft CEO Satya Nadella Mustafa Suleyman Google - Gemini 1.5 Pro API is available https://medium.com/@manojpn/how-to-get-gemini-1-5-pro-api-key-bba09c46437e"
+    },
+    {
+      "index": 10,
+      "title": "Misc 3 Open-Sora 1.0 - https://github.com/hpcaitech/Open-Sora Can produce",
+      "text": "Misc 3 Open-Sora 1.0 - https://github.com/hpcaitech/Open-Sora Can produce 2 sec 512x512 videos Note: Original OpenAI Sora https://openai.com/sora can makes 60 sec videos at good resolution Meta - Reality Labs Research is announcing SceneScript , a novel method of generating scene layouts and representing scenes using language. https://ai.meta.com/blog/scenescript-3d-scene-reconstruction-reality-labs-research/ Run LLMs locally - many no-code / low-code ways to do it: Ollama - https://ollama.com LMStudio - https://lmstudio.ai TextGen WebUI - https://github.com/oobabooga/text-generation-webui GPT4All - https://gpt4all.io MLC LLM - https://github.com/mlc-ai/mlc-llm PrivateGPT - https://github.com/zylon-ai/private-gpt h2oGPT - https://github.com/h2oai/h2ogpt Jan - https://github.com/janhq/jan Neuralink Paralized patient plays chess on computer with his mind https://twitter.com/thekitze/status/1770711281508536421 OpenAI GPT-5 is expected in June https://www.firstpost.com/tech/openai-to-launch-gpt-5-in-a-few-months-will-be-the-closest-thing-to-agi-we-have-seen-yet-13751450.html https://maisa.ai - Mesa KPU (Knowledge Processing Unit) https://www.linkedin.com/pulse/ai-reasoning-breakthrough-mesas-kpu-decimates-gpt-4-timmy-vanheel-lrq1e/ Mesa claims the KPU achieved impressive results: 96.9% accuracy (zero-shot) GSM8K (math word problems): 86.2% accuracy (zero-shot) DROP (reading comprehension): 100% on multi-step arithmetic problems (vs 4% for GPT-4)"
+    },
+    {
+      "index": 11,
+      "title": "AWS Kendra AWS Kendra Indexing S3 bucket from",
+      "text": "AWS Kendra AWS Kendra Indexing S3 bucket from Python: https://docs.aws.amazon.com/kendra/latest/dg/gs-python.html Query API - https://docs.aws.amazon.com/kendra/latest/dg/searching-example.html Query API - https://docs.aws.amazon.com/kendra/latest/APIReference/API_Query.html Kendra has its own re-ranking. And it offers plugin to rerunk results of OpenSearch: https://docs.aws.amazon.com/kendra/latest/dg/opensearch-rerank.html AWS Comprehend may be used to \"enrich\" queries and improve the search results. It is used to preprocess user queries and extract entities (people, places, organizations, dates, etc.) and key phrases, and then add them into query. Example: A user query \"Show me contracts with Acme Corp.\" Comprehend extracts \"Acme Corp\" as an organization, providing an additional search signal for Kendra. Comprehend can also detect positive or negative Sentiment - and prioritize the results accordingly. It can also perform custom NLP Tasks, for example, industry-specific terminology."
+    },
+    {
+      "index": 12,
+      "title": "Self-Reflection Agent with self-reflection Quiet-STaR : Language Models",
+      "text": "Self-Reflection Agent with self-reflection Quiet-STaR : Language Models Can Teach Themselves to Think Before Speaking (Stanford) Paper - https://arxiv.org/pdf/2403.09629.pdf Video summary - https://www.youtube.com/watch?v=A_NE3ouBAUI GitHub: https://github.com/ezelikman/quiet-star Quiet-STaR , a generalization of STaR in which LMs learn to generate rationales at each token to explain future text, improving their predictions. We address key challenges, including 1) the computational cost of generating continuations, 2) the fact that the LM does not initially know how to generate or use internal thoughts, and 3) the need to predict beyond individual next tokens. To resolve these, we propose a token-wise parallel sampling algorithm, using learnable tokens indicating a thought’s start and end, and an extended teacher-forcing technique. Encouragingly, generated rationales disproportionately help model difficult-to-predict tokens and improve the LM’s ability to directly answer difficult questions. In particular, after continued pretraining of an LM on a corpus of internet text with Quiet-STaR, we find zero-shot improvements on GSM8K (5.9%→10.9%) and CommonsenseQA (36.3%→47.2%) and observe a perplexity improvement of difficult tokens in natural text. Crucially, these improvements require no fine-tuning on these tasks. Quiet-STaR marks a step towards LMs that can learn to reason in a more general and scalable way."
+    },
+    {
+      "index": 13,
+      "title": "V-JEPA Video Joint Embedding Predictive Architecture (V-JEPA) model",
+      "text": "V-JEPA Video Joint Embedding Predictive Architecture (V-JEPA) model https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/ Yann LeCun has proposed the original Joint Embedding Predictive Architectures (JEPA) in 2022. https://www.youtube.com/watch?v=bMoad-Fd9LI Yann interview with Lex Fridman Hierarchical Planning Scaling Bias, freedom of speech, open source is the answer"
+    },
+    {
+      "index": 14,
+      "title": "contextual.ai contextual.ai - startup https://contextual.ai building foundation models",
+      "text": "contextual.ai contextual.ai - startup https://contextual.ai building foundation models to run on your stack customizable, trustworthy, privacy-aware AI secure by default RAG 2.0 - https://contextual.ai/introducing-rag2/ A typical RAG is a \" Frankenstein’s monster\" using: a frozen off-the-shelf model for embeddings a vector database for retrieval a black-box LLM for generation The RAG 2.0 approach pretrains, fine-tunes, and aligns all components as a single integrated system, backpropagating through both the language model and the retriever to maximize performance Founders: Amanpreet Singh (CTO), Douwe Kiela (CEO) Microsoft Research, Meta/Facebook AI Research, Hugging Face, Cambridge, NYU, Stanford worked in foundation models (RAG, FLAVA, UniT, Bloom), dense retrieval (Hallucination reduction, MDR, Unsupervised QA), evaluation (SentEval, GLUE, SuperGLUE, Dynabench, Eval on the Hub), multimodality (Hateful Memes, Winoground, TextVQA, MMF) and representation learning (InferSent, GroundSent, Poincare embeddings)."
+    },
+    {
+      "index": 15,
+      "title": "models: 73 votes: 408,144 March 13, 2024 Starting",
+      "text": "models: 73 votes: 408,144 March 13, 2024 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard open source open source open source"
+    },
+    {
+      "index": 16,
+      "title": "Tech Layoffs are x3 times lower than in",
+      "text": "Tech Layoffs are x3 times lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io."
+    },
+    {
+      "index": 17,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 18,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "NvidiaGTC",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Nvidia GTC, Blackwell B200 Success to iterative Agent's",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agent workflows",
+      "topic": "agents",
+      "videoSeconds": 142,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=142s",
+      "slideIndex": 3,
+      "slideTitle": "Success to iterative Agent's workflows GPT-3.5 (zero shot)",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT 4 first anniversary",
+      "topic": "openai",
+      "videoSeconds": 474,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=474s",
+      "slideIndex": 4,
+      "slideTitle": "Multi-Agent Software Development crewAI - open-source Multi-Agent Automations",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gro 1 released into open source",
+      "topic": "open-models",
+      "videoSeconds": 573,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=573s",
+      "slideIndex": 6,
+      "slideTitle": "GPT-4 - Celebrating 1 year ! OpenAI GPT-4",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open source is thriving",
+      "topic": "open-models",
+      "videoSeconds": 748,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=748s",
+      "slideIndex": 7,
+      "slideTitle": "X.ai Grok-1 - open-sourced grok-1 Elon Musk has",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mustafa Suan joins Microsoft",
+      "topic": "general",
+      "videoSeconds": 1045,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1045s",
+      "slideIndex": 9,
+      "slideTitle": "Misc 2 RankPrompt : Step-by-Step Comparisons Make Language",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open Sora 10",
+      "topic": "general",
+      "videoSeconds": 1216,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1216s",
+      "slideIndex": 10,
+      "slideTitle": "Misc 3 Open-Sora 1.0 - https://github.com/hpcaitech/Open-Sora Can produce",
+      "source": "youtube"
+    },
+    {
+      "claim": "AWS Kendra",
+      "topic": "general",
+      "videoSeconds": 1448,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1448s",
+      "slideIndex": 12,
+      "slideTitle": "Self-Reflection Agent with self-reflection Quiet-STaR : Language Models",
+      "source": "youtube"
+    },
+    {
+      "claim": "Yan Lin Interview",
+      "topic": "general",
+      "videoSeconds": 1570,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1570s",
+      "slideIndex": 13,
+      "slideTitle": "V-JEPA Video Joint Embedding Predictive Architecture (V-JEPA) model",
+      "source": "youtube"
+    },
+    {
+      "claim": "Contextual AI",
+      "topic": "general",
+      "videoSeconds": 1633,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1633s",
+      "slideIndex": 15,
+      "slideTitle": "models: 73 votes: 408,144 March 13, 2024 Starting",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource",
+      "topic": "general",
+      "videoSeconds": 1691,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1691s",
+      "slideIndex": 16,
+      "slideTitle": "Tech Layoffs are x3 times lower than in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1700,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1700s",
+      "slideIndex": 18,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia GTC March 18-21 Nvidia GTC = GPU",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U",
+      "slideIndex": 2,
+      "slideTitle": "Nvidia GTC March 18-21 Nvidia GTC = GPU",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft AutoDev Microsoft AutoDev - a fully automated",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U",
+      "slideIndex": 5,
+      "slideTitle": "Microsoft AutoDev Microsoft AutoDev - a fully automated",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 1 Open-source AI is thriving https://twitter.com/chiefaioffice/status/1768973268445274302 $8B+",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U",
+      "slideIndex": 8,
+      "slideTitle": "Misc 1 Open-source AI is thriving https://twitter.com/chiefaioffice/status/1768973268445274302 $8B+",
+      "source": "slide"
+    },
+    {
+      "claim": "AWS Kendra AWS Kendra Indexing S3 bucket from",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U",
+      "slideIndex": 11,
+      "slideTitle": "AWS Kendra AWS Kendra Indexing S3 bucket from",
+      "source": "slide"
+    }
+  ]
+}

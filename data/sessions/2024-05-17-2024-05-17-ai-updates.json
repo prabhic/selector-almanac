@@ -1,0 +1,298 @@
+{
+  "id": "2024-05-17-2024-05-17-ai-updates",
+  "date": "2024-05-17",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "google",
+    "benchmarks",
+    "claude",
+    "rag",
+    "agents"
+  ],
+  "video": {
+    "id": "Y4QsIzi7PMI",
+    "title": "Have you heard these exciting AI news? May 17 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=Y4QsIzi7PMI",
+    "thumbnail": "https://i.ytimg.com/vi/Y4QsIzi7PMI/hqdefault.jpg",
+    "duration": 1405
+  },
+  "deck": {
+    "path": "2024/2024-05-17-AI-Updates.pptx",
+    "filename": "2024-05-17-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-05-17-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-05-17-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Open AI",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Gemini",
+      "startSeconds": 195,
+      "label": "03:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource Arena Leaderboard",
+      "startSeconds": 407,
+      "label": "06:47",
+      "source": "youtube"
+    },
+    {
+      "title": "anthropic AI Prompt Generator",
+      "startSeconds": 534,
+      "label": "08:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple and Open AI",
+      "startSeconds": 633,
+      "label": "10:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Ilia Suk leaves Open AI",
+      "startSeconds": 689,
+      "label": "11:29",
+      "source": "youtube"
+    },
+    {
+      "title": "When LTM is bigger than memory",
+      "startSeconds": 768,
+      "label": "12:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Which model to use for an agent",
+      "startSeconds": 875,
+      "label": "14:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Function calling",
+      "startSeconds": 1211,
+      "label": "20:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Coding assistance",
+      "startSeconds": 1244,
+      "label": "20:44",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI GPT-4o Google I/O - new models, apps,",
+      "text": "OpenAI GPT-4o Google I/O - new models, apps, and more Crowd-sourced \"Arena\" Leaderboard Model Comparison - Graphs AnthropicAI prompt generator How To Beat Conch AI Detector, StealthGPT WebLlama John Wiley & Sons closing 19 journals (due to AI) Apple + OpenAI Ilya Sutskever is leaving OpenAI When LLM is bigger than memory ... Which model to use for an Agent? Berkeley Function-Calling Leaderboard Coding Assistants Tech Layoffs were lower than in 2023 AI Updates May 17 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "GPT-4o : A new AI model with improved",
+      "text": "GPT-4o : A new AI model with improved capabilities in text, video, and audio processing. It is faster and more powerful than previous versions, offering enhanced performance and features. Desktop version of ChatGPT : A dedicated desktop application for ChatGPT, providing a streamlined and user-friendly experience for interacting with the AI chatbot. GPT-4 for all users : GPT-4, previously available only to paid subscribers, is now accessible to all ChatGPT users, including those using the free version. Enhanced user interface : An updated user interface for ChatGPT, focusing on improved usability and accessibility. OpenAI announcement - Monday May 13 Pricing (per 1 Mln tokens) https://openai.com/api/pricing/ gpt-4 :   $10    in,    $30 out gpt-4o:    $5    in,    $15 out Note: Google Gemini 1.5 Flash is > 10-times cheaper: Flash :    $0.35 in,      0.53 out GPT-4o is available for paid users voice features - not released yet flirtatious and engaging voice style (default voice has a \"California Valley Girl\" tone)"
+    },
+    {
+      "index": 3,
+      "title": "Gemini models - family of models, multimodal (images,",
+      "text": "Gemini models - family of models, multimodal (images, audio, video), 1 Mln tokens context length (or 2M), fast, efficient, scalable. Gemini Advanced subscription now includes the latest model. Gemini Nano integrated into Chrome! Imagen 3 - image generation model, available in Imagen FX. https://aitestkitchen.withgoogle.com/tools/image-fx MusicFX - https://aitestkitchen.withgoogle.com/tools/music-fx Veo - in VideoFX - creating short 1080p videos from text https://aitestkitchen.withgoogle.com/tools/video-fx https://deepmind.google/technologies/veo/ AI Scam Protection in Android - using Gemini Nano Firebase Genkit : An open-source framework for building AI-powered applications. Gemini in Android Studio : An AI coding companion with multimodal input support coming soon. Astra - newest assistant - universal AI agent that can see AND hear what you do live in real-time, and take action on your behalf. https://twitter.com/rowancheung/status/1790437573694996667 Google Search AI Overviews - https://blog.google/products/search/generative-ai-google-search-may-2024/ Google I/O 2024 - May 14, 2024 https://ai.google.dev/pricing Gemini 1.0 Pro (33k tokens), Gemini 1.5 Pro (1 Mln tokens), Gemini 1.5 Flash (1 Mln tokens) - light, fast, cheap https://deepmind.google/technologies/gemini/flash/ 1,500 Request per day for FREE Flash Pricing : ($0.35+0.53 / 1 Mt (for prompts up to 128Kt)"
+    },
+    {
+      "index": 4,
+      "title": "Total #models: 97. Total #votes: 1,131,288. Last updated:",
+      "text": "Total #models: 97. Total #votes: 1,131,288. Last updated: 2024-05-16 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 5,
+      "title": "Maxime Labonne tweets: https://twitter.com/maximelabonne/status/1790676962974867724 https://twitter.com/maximelabonne/status/1790519226677026831 Model Comparisons -",
+      "text": "Maxime Labonne tweets: https://twitter.com/maximelabonne/status/1790676962974867724 https://twitter.com/maximelabonne/status/1790519226677026831 Model Comparisons - Graphs Maxime Labonne Staff ML Scientist @ Liquid AI London, UK"
+    },
+    {
+      "index": 6,
+      "title": "AnthropicAI prompt generator. (also accepts variables to easily",
+      "text": "AnthropicAI prompt generator. (also accepts variables to easily inject external data). https://docs.anthropic.com/en/docs/prompt-generator Misc 1 WebLlama - browse the web by following instructions and talking to you - https://github.com/McGill-NLP/webllama How To Beat Conch AI Detector https://www.stealthgpt.ai/blog/how-to-beat-conch-ai-detector Humanize content with StealthGPT : This is the easiest and most effective method. https://www.stealthgpt.ai Write content manually: Conch AI has a low rate of false positives, so human-written content usually scores well. Use Conch AI’s Humanizing Tool: This is a paid option and may not be effective against other AI detectors. Introduce variety into content: Avoid repetitive sentence structures and phrases. This method can be challenging if you lack experience with AI content. Train the AI model in your writing voice: Provide the AI with samples of your writing to make the generated content more personal. This method may not be effective for neutral or informative writing styles. Tell a story: AI struggles with authentic storytelling, so adding personal anecdotes can help bypass detection. John Wiley & Sons, Inc. , a 200+ years old publishing company is closing 19 journals. They had to retract more than 11,300 papers recently \"that appeared compromised\" as generative AI makes it easier for paper mills to peddle fake research ."
+    },
+    {
+      "index": 7,
+      "title": "Apple + OpenAI SiriPro with OpenAI Free ChatGPT",
+      "text": "Apple + OpenAI SiriPro with OpenAI Free ChatGPT for Mac https://www.youtube.com/watch?v=ya2bxqbM3Yw https://siri-pro.com/en/ Misc 2 Stability AI is facing a cash crunch and is exploring a sale"
+    },
+    {
+      "index": 8,
+      "title": "Ilya Sutskever is leaving OpenAI Ilya Sutskever is",
+      "text": "Ilya Sutskever is leaving OpenAI Ilya Sutskever is leaving OpenAI. https://twitter.com/ilyasut/status/1790517455628198322 Ilya is a co-founder and chief scientist. He helped lead the coup against Sam Altman He later changed his mind. His employment status had been ambiguous since the ouster. Jakub Pachocki , the company's director of research, will be OpenAI's new chief scientist. Ilya Sutskever Jan Leike has also resigned . He was a co-lead of the Sutskever’s superalignment group. The news follows months of departures largely coming from OpenAI’s superalignment and safety teams. Jakub Pachocki -->> Jakub Pachocki, Greg Brockman, Ilya Sutskever, Sam Altman, Mira Murati Jan Leike"
+    },
+    {
+      "index": 9,
+      "title": "When LLM is bigger than memory ... I",
+      "text": "When LLM is bigger than memory ... I used my standard prompt asking to list 10 presidents on my M1 32GB MacBook Pro using ollama llama3-70b 4-bit model (~ 40GB size ). 40GB > 32GB, so the model couldn't fit into memory. It took 1 hour and 20 minutes to generate the answer !!! The prompt was: Please make a numbered chronological list of the last ten (10) US presidents in reverse order.  The list should start like this: 1. Joe Biden (2021-present); 2. Donald Trump (2017-2021); 3. Barack Obama (2009-2017);  the list should contain 10 rows. Important - make a fresh list. Disregard the chat history. Output only the list itself, nothing else. Output each list element on a separate line. Here is the output and stats: 1.⁠ ⁠Joe Biden (2021-present) 2.⁠ ⁠Donald Trump (2017-2021) 3.⁠ ⁠Barack Obama (2009-2017) 4.⁠ ⁠George W. Bush (2001-2009) 5.⁠ ⁠Bill Clinton (1993-2001) 6.⁠ ⁠George H.W. Bush (1989-1993) 7.⁠ ⁠Ronald Reagan (1981-1989) 8.⁠ ⁠Jimmy Carter (1977-1981) 9.⁠ ⁠Gerald Ford (1974-1977) 10.⁠ ⁠Richard Nixon (1969-1974) total duration: 1h 21m 35s load duration:        40s prompt eval count:    281 token(s) prompt eval duration: 1m 53s prompt eval rate:     2.48 tokens/s eval count:           114 token(s) eval duration:        1h 19m 2s eval rate: 0.02 tokens/s"
+    },
+    {
+      "index": 10,
+      "title": "Which model to use for an Agent? An",
+      "text": "Which model to use for an Agent? An agent has an internal loop , it can iterate , adjusting the approach. Agent can send internal messages, using LLM and functions (tools) . You can also create a multi-agent solutions, where agents send the messages to each other. And can get into loops as well. The model in agent has to be good. And it should be good at function calling . You should NOT use gpt-3.5-turbo, or mistral-7b, or llama3-8b . Because if you do, the agents may be making errors and getting into never-resolving loops. Remember how a year ago you would ask ChatGPT to write code. You would try to run it - it crushed. you ask the model to fix it. Over and over again. The model couldn't figure things out and get out of this loop. Today we have much better models. You should try to use the best LLM you can afford. Do NOT use GPT-3.5. Use GPT-4 or GPT-4o (especially with LangChain) LangChain framework started in October of 2022 with the release of OpenAI GPT-3. it is by far the most popular framework, and well tested with OpenAI models Some other options - LlamaIndex from Meta/Facebook, CrewAI, AutoGen GPT-4 GPT-3.5"
+    },
+    {
+      "index": 11,
+      "title": "https://gorilla.cs.berkeley.edu/leaderboard.html Berkeley Function-Calling Leaderboard Rank 🔼 Overall Acc",
+      "text": "https://gorilla.cs.berkeley.edu/leaderboard.html Berkeley Function-Calling Leaderboard Rank 🔼 Overall Acc Model Cost ($) Mean SD 1 87 GPT-4-0125-Preview (Prompt) 5.25 1.97 1.31 2 86.47 Claude-3-Opus-20240229 (Prompt) 10.84 4.61 1.53 3 84.35 GPT-4-1106-Preview (FC) 5.07 5.97 6.31 4 84.24 GPT-4-turbo-2024-04-09 (Prompt) 5.25 2.57 2.2 5 83.29 Gorilla-OpenFunctions-v2 (FC) 0.31 0.05 N/A 6 83.12 GPT-4-0125-Preview (FC) 4.83 4.72 5.76 7 82.12 Meta-Llama-3-70B-Instruct (Prompt) 1.1 0.18 N/A 8 81.24 GPT-4-turbo-2024-04-09 (FC) 4.78 5.48 6.37 9 81.06 Claude-3-Sonnet-20240229 (Prompt) 2.13 1.95 1.16 10 80.24 Mistral-Medium-2312 (Prompt) 1.76 2.75 2.15 11 79.06 Command-R-Plus (Prompt) (Optimized) 1.9 1.27 0.93 12 79 Command-R-Plus (Prompt) (Original) 1.9 1.32 0.94 13 79 Functionary-Medium-v2.4 (FC) N/A 2.49 2.69 14 78.47 Functionary-Small-v2.4 (FC) N/A 2.43 2.55 15 78.12 Command-R-Plus (FC) (Optimized) 1.06 1.9 1.34 16 76.47 Claude-3-Opus-20240229 (FC tools-2024-04-04) 30.87 12.92 3.95 17 75.24 Claude-instant-1.2 (Prompt) 0.95 1.21 0.69 18 73.29 Claude-3-Haiku-20240307 (Prompt) 0.18 1 0.49 19 70.29 Claude-2.1 (Prompt) 6.61 3.27 2.13 20 69.47 Command-R-Plus (FC) (Original) 1.07 1.9 0.99 21 67.59 Mistral-large-2402 (FC Auto) 4.95 3.02 2.94 22 64.88 DBRX-Instruct (Prompt) 1.25 0.64 0.41 GPT-4 & Claude3-Opus are on top Llama3-70b is good (on 7th place) GPT-3.5 is on 25th place, Llama3-8b is on 28th place"
+    },
+    {
+      "index": 12,
+      "title": "Coding Assistants GitHub Copilot https://github.com/features/copilot tabnine - local",
+      "text": "Coding Assistants GitHub Copilot https://github.com/features/copilot tabnine - local or remote LLMs https://www.tabnine.com Codeium (formerly Cody ) - local or remote LLMs https://codeium.com Cursor - https://cursor.sh - AI-first editor, a fork of VS Code, uses OpenAI models. One-click migration from VSCode Cursor is essentially VSCode enhanced with AI capabilities to boost productivity and improve the coding experience Snyk Code (code security) https://snyk.io/product/snyk-code/"
+    },
+    {
+      "index": 13,
+      "title": "Tech Layoffs were lower than in 2023 Layoffs",
+      "text": "Tech Layoffs were lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 14,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 15,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Open AI",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI GPT-4o Google I/O - new models, apps,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemini",
+      "topic": "google",
+      "videoSeconds": 195,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=195s",
+      "slideIndex": 3,
+      "slideTitle": "Gemini models - family of models, multimodal (images,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource Arena Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 407,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=407s",
+      "slideIndex": 4,
+      "slideTitle": "Total #models: 97. Total #votes: 1,131,288. Last updated:",
+      "source": "youtube"
+    },
+    {
+      "claim": "anthropic AI Prompt Generator",
+      "topic": "claude",
+      "videoSeconds": 534,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=534s",
+      "slideIndex": 6,
+      "slideTitle": "AnthropicAI prompt generator. (also accepts variables to easily",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple and Open AI",
+      "topic": "general",
+      "videoSeconds": 633,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=633s",
+      "slideIndex": 7,
+      "slideTitle": "Apple + OpenAI SiriPro with OpenAI Free ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ilia Suk leaves Open AI",
+      "topic": "general",
+      "videoSeconds": 689,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=689s",
+      "slideIndex": 9,
+      "slideTitle": "When LLM is bigger than memory ... I",
+      "source": "youtube"
+    },
+    {
+      "claim": "When LTM is bigger than memory",
+      "topic": "rag",
+      "videoSeconds": 768,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=768s",
+      "slideIndex": 10,
+      "slideTitle": "Which model to use for an Agent? An",
+      "source": "youtube"
+    },
+    {
+      "claim": "Which model to use for an agent",
+      "topic": "agents",
+      "videoSeconds": 875,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=875s",
+      "slideIndex": 12,
+      "slideTitle": "Coding Assistants GitHub Copilot https://github.com/features/copilot tabnine - local",
+      "source": "youtube"
+    },
+    {
+      "claim": "Function calling",
+      "topic": "general",
+      "videoSeconds": 1211,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=1211s",
+      "slideIndex": 13,
+      "slideTitle": "Tech Layoffs were lower than in 2023 Layoffs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Coding assistance",
+      "topic": "general",
+      "videoSeconds": 1244,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI&t=1244s",
+      "slideIndex": 15,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT-4o : A new AI model with improved",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI",
+      "slideIndex": 2,
+      "slideTitle": "GPT-4o : A new AI model with improved",
+      "source": "slide"
+    },
+    {
+      "claim": "Maxime Labonne tweets: https://twitter.com/maximelabonne/status/1790676962974867724 https://twitter.com/maximelabonne/status/1790519226677026831 Model Comparisons -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI",
+      "slideIndex": 5,
+      "slideTitle": "Maxime Labonne tweets: https://twitter.com/maximelabonne/status/1790676962974867724 https://twitter.com/maximelabonne/status/1790519226677026831 Model Comparisons -",
+      "source": "slide"
+    },
+    {
+      "claim": "Ilya Sutskever is leaving OpenAI Ilya Sutskever is",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI",
+      "slideIndex": 8,
+      "slideTitle": "Ilya Sutskever is leaving OpenAI Ilya Sutskever is",
+      "source": "slide"
+    },
+    {
+      "claim": "https://gorilla.cs.berkeley.edu/leaderboard.html Berkeley Function-Calling Leaderboard Rank 🔼 Overall Acc",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Y4QsIzi7PMI",
+      "slideIndex": 11,
+      "slideTitle": "https://gorilla.cs.berkeley.edu/leaderboard.html Berkeley Function-Calling Leaderboard Rank 🔼 Overall Acc",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "2023-10-03-2023-10-03-ln-small-models",
+  "date": "2023-10-03",
+  "title": "LN-Small-Models",
+  "series": "seminar",
+  "topics": [
+    "open-models"
+  ],
+  "video": {
+    "id": "PjodFXezjyk",
+    "title": "Ken McCarthy Interviews Lev Selector about AI for Business, October 5, 2023",
+    "url": "https://www.youtube.com/watch?v=PjodFXezjyk",
+    "thumbnail": "https://i.ytimg.com/vi/PjodFXezjyk/hqdefault.jpg",
+    "duration": 3642
+  },
+  "deck": {
+    "path": "2023/2023-10-03-LN-Small-Models.pptx",
+    "filename": "2023-10-03-LN-Small-Models.pptx",
+    "title": "LN-Small-Models",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-03-LN-Small-Models.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-03-LN-Small-Models.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-3d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "M ake Large Language Models S maller Quantization",
+      "text": "M ake Large Language Models S maller Quantization - reduce precision (16, 8, 4 bits) – almost without losing accuracy (~3 %) Mixed-precision quantization - go down to 2.5bits average. Pruning - removing unnecessary (small) weights from the model Train smaller model (70, 30, 13, 7 Bln parameters) Knowledge distillation - training a smaller model on the outputs of a larger model (like an adult teaching a child). ChatGPT runs on powerful servers which cost ~ $500K each. There are ways to make model smaller to run on a laptop or cell phone"
+    },
+    {
+      "index": 2,
+      "title": "Ollama - Run 4bit models on Macbook or",
+      "text": "Ollama - Run 4bit models on Macbook or Linux .. https://ollama.ai .. https://github.com/jmorganca/ollama ollama run llama2 #  7b     5.6 GB ollama run llama2-uncensored #  7b     5.6 GB ollama run mistral:latest #  7b     6.0 GB ollama run open-orca-platypus2 # 13b     9.7 GB ollama run codellama:34b-... # 34b    19.4 GB ollama run wizard-math:70b # 70b    45.0 GB ollama list # downloaded models"
+    }
+  ],
+  "points": [
+    {
+      "claim": "M ake Large Language Models S maller Quantization",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 1,
+      "slideTitle": "M ake Large Language Models S maller Quantization",
+      "source": "slide"
+    },
+    {
+      "claim": "Ollama - Run 4bit models on Macbook or",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 2,
+      "slideTitle": "Ollama - Run 4bit models on Macbook or",
+      "source": "slide"
+    }
+  ]
+}

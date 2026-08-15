@@ -1,0 +1,487 @@
+{
+  "id": "2022-02-25-2022-02-25-timeseries-forecast-ensemblemodel",
+  "date": "2022-02-25",
+  "title": "TimeSeries-Forecast-EnsembleModel",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "n3OWVkXJmHE",
+    "title": "Time Series Forecasting Using Tree Ensembles Methods",
+    "url": "https://www.youtube.com/watch?v=n3OWVkXJmHE",
+    "thumbnail": "https://i.ytimg.com/vi/n3OWVkXJmHE/hqdefault.jpg",
+    "duration": 2024
+  },
+  "deck": {
+    "path": "2022/2022-02-25-TimeSeries-Forecast-EnsembleModel.pptx",
+    "filename": "2022-02-25-TimeSeries-Forecast-EnsembleModel.pptx",
+    "title": "TimeSeries-Forecast-EnsembleModel",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-02-25-TimeSeries-Forecast-EnsembleModel.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-02-25-TimeSeries-Forecast-EnsembleModel.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "About the Presenter",
+      "startSeconds": 46,
+      "label": "00:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Agenda",
+      "startSeconds": 86,
+      "label": "01:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Traditional Forecasting Methods",
+      "startSeconds": 173,
+      "label": "02:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Forecasting with Machine Learning",
+      "startSeconds": 255,
+      "label": "04:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Simulated Data Set",
+      "startSeconds": 369,
+      "label": "06:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend, Event and Noise",
+      "startSeconds": 471,
+      "label": "07:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Cyclic Features (Trigonometric)",
+      "startSeconds": 499,
+      "label": "08:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Cyclic Features (Date Components)",
+      "startSeconds": 519,
+      "label": "08:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Splitting",
+      "startSeconds": 571,
+      "label": "09:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Tree-Based Ensemble Methods",
+      "startSeconds": 676,
+      "label": "11:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Tree-Based Ensembles Can't Extrapolate",
+      "startSeconds": 762,
+      "label": "12:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend + Tree-Based Ensemble Steps",
+      "startSeconds": 908,
+      "label": "15:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Fit and Forecast the Trend",
+      "startSeconds": 1038,
+      "label": "17:18",
+      "source": "youtube"
+    },
+    {
+      "title": "De-Trend the Target Variable",
+      "startSeconds": 1081,
+      "label": "18:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Train Tree-Based Model + Make Forecast",
+      "startSeconds": 1148,
+      "label": "19:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Feature Importance for Tree-Model",
+      "startSeconds": 1174,
+      "label": "19:34",
+      "source": "youtube"
+    },
+    {
+      "title": "ARIMA Forecast",
+      "startSeconds": 1362,
+      "label": "22:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend + Tree-Based vs. (Auto) ARIMA",
+      "startSeconds": 1416,
+      "label": "23:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Example Trend with Real World Data Set",
+      "startSeconds": 1494,
+      "label": "24:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusion",
+      "startSeconds": 1553,
+      "label": "25:53",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Science Seminar: Time Series Forecasting with Tree-Based",
+      "text": "Data Science Seminar: Time Series Forecasting with Tree-Based Ensemble Methods February 25, 2022"
+    },
+    {
+      "index": 2,
+      "title": "About the Presenter Brett Efaw Data Scientist at",
+      "text": "About the Presenter Brett Efaw Data Scientist at Idaho Power Company BEfaw@idahopower.com or brettefaw@gmail.com Work with various business groups to implement Data Science solutions Decision support Predictive modeling Forecasting BI and DS reporting/analysis applications"
+    },
+    {
+      "index": 3,
+      "title": "Agenda Traditional vs. (non-DL) ML Forecasting Methods Simulated",
+      "text": "Agenda Traditional vs. (non-DL) ML Forecasting Methods Simulated daily data set in Python Trend + Tree-based ensemble Feature engineering from date components De-trend (fit past and forecast future trend) Train tree-based model on de-trended target ~ date components Combine trend forecast + tree-based prediction Compare to traditional time series method (ARIMA) Discuss pros and cons of this approach"
+    },
+    {
+      "index": 4,
+      "title": "Traditional Forecasting Methods Predict future values as function",
+      "text": "Traditional Forecasting Methods Predict future values as function of past values Classic statistical methods: linear regression (or similar) to extrapolate (trend) into the future Classic time series methods: auto-regressive = regress data onto itself (from past) into the future"
+    },
+    {
+      "index": 5,
+      "title": "Forecasting with Machine Learning Predict future values as",
+      "text": "Forecasting with Machine Learning Predict future values as function of (calendar) features Extract features from Date/Time: Day of week, month, quarter, year Month of year Quarter of year Hour of day, week, month, year Minute of hour, day AM/PM Holiday/special event Business-specific process/change Some features are cyclic and can be transformed to a trigonometric scale Take advantage of knowing these features for future dates/times"
+    },
+    {
+      "index": 6,
+      "title": "Simulated Data Set Create a Pandas data frame",
+      "text": "Simulated Data Set Create a Pandas data frame with 3 years of daily data using date_range () Fill this data frame with columns for: noise: random noise from N(0,0.1) trend: linear trend from -1 to 1 event: -0.5 (dip), 0.5 (spike) or 0.0 dw : day of week dm: day of month dy : day of year dn : day (row) index Trig Conversion for Date Components: sdw : sine representation for day of week sdm : sine representation for day of month sdy : sine representation for day of year Target Variable: trend + sine components + event + noise"
+    },
+    {
+      "index": 7,
+      "title": "Trend, Event and Noise",
+      "text": "Trend, Event and Noise"
+    },
+    {
+      "index": 8,
+      "title": "Cyclic Features (Trigonometric)",
+      "text": "Cyclic Features (Trigonometric)"
+    },
+    {
+      "index": 9,
+      "title": "Cyclic Features (Date Components)",
+      "text": "Cyclic Features (Date Components)"
+    },
+    {
+      "index": 10,
+      "title": "Target Variable Long-term trend M ultiple seasonal periods",
+      "text": "Target Variable Long-term trend M ultiple seasonal periods"
+    },
+    {
+      "index": 11,
+      "title": "Time Series Splitting Primarily used for evaluating a",
+      "text": "Time Series Splitting Primarily used for evaluating a model’s forecast accuracy Split data into training/testing partitions while preserving order Number of splits (like number of folds in cross-validation) For example: 10 splits Test size = desired forecast horizon For example: 30 dates in future Maximum train size (default is all past data before test partition) See TimeSeriesSplit from sklearn.model_selection for more details sklearn.model_selection.TimeSeriesSplit — scikit-learn 1.0.2 documentation Visualizing cross-validation behavior in scikit-learn — scikit-learn 1.0.2 documentation"
+    },
+    {
+      "index": 12,
+      "title": "Tree-Based Ensemble Methods Tree-based ensembles are an extension",
+      "text": "Tree-Based Ensemble Methods Tree-based ensembles are an extension of Decision Trees Very flexible and fast algos used for both classification and regression Can handle numeric or categorical inputs No feature scaling/normalization required Random Forests sklearn.ensemble.RandomForestRegressor — scikit-learn 1.0.2 documentation Gradient Boosting sklearn.ensemble.GradientBoostingRegressor — scikit-learn 1.0.2 documentation"
+    },
+    {
+      "index": 13,
+      "title": "Tree-Based Ensembles Can’t Extrapolate One fundamental drawback for",
+      "text": "Tree-Based Ensembles Can’t Extrapolate One fundamental drawback for tree-based models: Can’t predict outside the range of observed values This can be a problem if the target variable extrapolates outside the range of past values"
+    },
+    {
+      "index": 14,
+      "title": "Trend + Tree-Based Ensemble y: Target variable dn",
+      "text": "Trend + Tree-Based Ensemble y: Target variable dn : day number (row sequence) Trend Model Formula: y = f( dn ) ydetrend : Target variable detrended dw : day of week (1-7) dm: day of month (1-31) dy : day of year (1-366) Tree-Based Model Formula: ydetrend = f( dw , dm, dy , event)"
+    },
+    {
+      "index": 15,
+      "title": "Trend + Tree-Based Ensemble Steps",
+      "text": "Trend + Tree-Based Ensemble Steps"
+    },
+    {
+      "index": 16,
+      "title": "Fit and Forecast the Trend LinearRegressor() from sklearn.linear_model",
+      "text": "Fit and Forecast the Trend LinearRegressor() from sklearn.linear_model"
+    },
+    {
+      "index": 17,
+      "title": "De-Trend the Target Variable Detrend = Actual –",
+      "text": "De-Trend the Target Variable Detrend = Actual – Trend Fit"
+    },
+    {
+      "index": 18,
+      "title": "Train Tree-Based Model + Make Forecast Final Forecast",
+      "text": "Train Tree-Based Model + Make Forecast Final Forecast = Trend Forecast ( LinearRegressor ) + Tree Prediction ( GradientBoostingRegressor )"
+    },
+    {
+      "index": 19,
+      "title": "Feature Importance for Tree-Model",
+      "text": "Feature Importance for Tree-Model"
+    },
+    {
+      "index": 20,
+      "title": "ARIMA ARIMA = Auto-Regressive Integrated Moving Average Use",
+      "text": "ARIMA ARIMA = Auto-Regressive Integrated Moving Average Use auto_arima () from pmdarima See: https://alkaline-ml.com/pmdarima/tips_and_tricks.html Also see Rob Hyndman’s online textbook (FPP): https://otexts.com/fpp2/arima-r.html (Version 2 - forecast:: auto.arima ) https://otexts.com/fpp3/arima-r.html (Version 3 - fable::ARIMA) Searches for “best” ARIMA parameters (p, d, q) Note: set the “m” parameter (number of observations per seasonal cycle) 7 for daily (used this for simulated data) 12 for monthly 52 for weekly"
+    },
+    {
+      "index": 21,
+      "title": "ARIMA Forecast",
+      "text": "ARIMA Forecast"
+    },
+    {
+      "index": 22,
+      "title": "Trend + Tree-Based vs. (Auto) ARIMA Method Avg.",
+      "text": "Trend + Tree-Based vs. (Auto) ARIMA Method Avg. % Error* Train Time* Tree-Based w/ Detrend 10.9% ~15sec Auto-ARIMA 18.3% ~12min *Across 10 splits with: test size = 30 and train size = 365*2 Using Lev’s fin_err () function statistics/ nb_Time_Series_Forecast_Error.ipynb at master · lselector /statistics · GitHub"
+    },
+    {
+      "index": 23,
+      "title": "Example Trend with Real-World Data Set Below is",
+      "text": "Example Trend with Real-World Data Set Below is an example of real time series data set (blue line) Trend fit with linear regression (red line) vs. signal filter (blue line)"
+    },
+    {
+      "index": 24,
+      "title": "Conclusion Topic: use tree-base ensemble algo for time",
+      "text": "Conclusion Topic: use tree-base ensemble algo for time series forecasting (model trend + use calendar features) Hyper-parameter tuning of tree-based ensemble algo Default params used in the demo Feature engineering options Date/time components vs. trigonometric representation Add other features that may be relevant to the time series being forecast Other considerations: Regular vs. irregular time series Ease of automation and/or implementation What is the frequency? Low (weekly or lower) High (daily or higher) Traditional method (ARIMA, ETS) Regular Irregular Strong ACF Weak ACF Tree-based ensemble method"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Data Science Seminar: Time Series Forecasting with Tree-Based",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Presenter",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 46,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=46s",
+      "slideIndex": 2,
+      "slideTitle": "About the Presenter Brett Efaw Data Scientist at",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agenda",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 86,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=86s",
+      "slideIndex": 3,
+      "slideTitle": "Agenda Traditional vs. (non-DL) ML Forecasting Methods Simulated",
+      "source": "youtube"
+    },
+    {
+      "claim": "Traditional Forecasting Methods",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 173,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=173s",
+      "slideIndex": 4,
+      "slideTitle": "Traditional Forecasting Methods Predict future values as function",
+      "source": "youtube"
+    },
+    {
+      "claim": "Forecasting with Machine Learning",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 255,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=255s",
+      "slideIndex": 6,
+      "slideTitle": "Simulated Data Set Create a Pandas data frame",
+      "source": "youtube"
+    },
+    {
+      "claim": "Simulated Data Set",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 369,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=369s",
+      "slideIndex": 7,
+      "slideTitle": "Trend, Event and Noise",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trend, Event and Noise",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 471,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=471s",
+      "slideIndex": 8,
+      "slideTitle": "Cyclic Features (Trigonometric)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cyclic Features (Trigonometric)",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 499,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=499s",
+      "slideIndex": 9,
+      "slideTitle": "Cyclic Features (Date Components)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cyclic Features (Date Components)",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 519,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=519s",
+      "slideIndex": 10,
+      "slideTitle": "Target Variable Long-term trend M ultiple seasonal periods",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Splitting",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 571,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=571s",
+      "slideIndex": 11,
+      "slideTitle": "Time Series Splitting Primarily used for evaluating a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tree-Based Ensemble Methods",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 676,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=676s",
+      "slideIndex": 13,
+      "slideTitle": "Tree-Based Ensembles Can’t Extrapolate One fundamental drawback for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tree-Based Ensembles Can't Extrapolate",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 762,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=762s",
+      "slideIndex": 14,
+      "slideTitle": "Trend + Tree-Based Ensemble y: Target variable dn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trend + Tree-Based Ensemble Steps",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 908,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=908s",
+      "slideIndex": 15,
+      "slideTitle": "Trend + Tree-Based Ensemble Steps",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fit and Forecast the Trend",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1038,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1038s",
+      "slideIndex": 16,
+      "slideTitle": "Fit and Forecast the Trend LinearRegressor() from sklearn.linear_model",
+      "source": "youtube"
+    },
+    {
+      "claim": "De-Trend the Target Variable",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1081,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1081s",
+      "slideIndex": 17,
+      "slideTitle": "De-Trend the Target Variable Detrend = Actual –",
+      "source": "youtube"
+    },
+    {
+      "claim": "Train Tree-Based Model + Make Forecast",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1148,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1148s",
+      "slideIndex": 18,
+      "slideTitle": "Train Tree-Based Model + Make Forecast Final Forecast",
+      "source": "youtube"
+    },
+    {
+      "claim": "Feature Importance for Tree-Model",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1174,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1174s",
+      "slideIndex": 19,
+      "slideTitle": "Feature Importance for Tree-Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "ARIMA Forecast",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1362,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1362s",
+      "slideIndex": 21,
+      "slideTitle": "ARIMA Forecast",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trend + Tree-Based vs. (Auto) ARIMA",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1416,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1416s",
+      "slideIndex": 22,
+      "slideTitle": "Trend + Tree-Based vs. (Auto) ARIMA Method Avg.",
+      "source": "youtube"
+    },
+    {
+      "claim": "Example Trend with Real World Data Set",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1494,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1494s",
+      "slideIndex": 23,
+      "slideTitle": "Example Trend with Real-World Data Set Below is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusion",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1553,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE&t=1553s",
+      "slideIndex": 24,
+      "slideTitle": "Conclusion Topic: use tree-base ensemble algo for time",
+      "source": "youtube"
+    },
+    {
+      "claim": "Forecasting with Machine Learning Predict future values as",
+      "topic": "product",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE",
+      "slideIndex": 5,
+      "slideTitle": "Forecasting with Machine Learning Predict future values as",
+      "source": "slide"
+    },
+    {
+      "claim": "Tree-Based Ensemble Methods Tree-based ensembles are an extension",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=n3OWVkXJmHE",
+      "slideIndex": 12,
+      "slideTitle": "Tree-Based Ensemble Methods Tree-based ensembles are an extension",
+      "source": "slide"
+    }
+  ]
+}

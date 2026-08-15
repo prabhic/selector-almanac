@@ -1,0 +1,362 @@
+{
+  "id": "2022-04-15-2022-04-15-time-series-forecasting-with-tree-based-ensembles-part-ii-",
+  "date": "2022-04-15",
+  "title": "Time-Series-Forecasting-with-Tree-Based-Ensembles-Part-II-Brett",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "benchmarks",
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "5GcCzKvrI1U",
+    "title": "Time Series Forecasting with Tree-Based Ensemble Methods: Part II",
+    "url": "https://www.youtube.com/watch?v=5GcCzKvrI1U",
+    "thumbnail": "https://i.ytimg.com/vi/5GcCzKvrI1U/hqdefault.jpg",
+    "duration": 2022
+  },
+  "deck": {
+    "path": "2022/2022-04-15-Time-Series-Forecasting-with-Tree-Based-Ensembles-Part-II-Brett.pptx",
+    "filename": "2022-04-15-Time-Series-Forecasting-with-Tree-Based-Ensembles-Part-II-Brett.pptx",
+    "title": "Time-Series-Forecasting-with-Tree-Based-Ensembles-Part-II-Brett",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-04-15-Time-Series-Forecasting-with-Tree-Based-Ensembles-Part-II-Brett.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-04-15-Time-Series-Forecasting-with-Tree-Based-Ensembles-Part-II-Brett.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "About the Presenter",
+      "startSeconds": 34,
+      "label": "00:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Overview",
+      "startSeconds": 69,
+      "label": "01:09",
+      "source": "youtube"
+    },
+    {
+      "title": "(A More Interesting) Simulated Data Set",
+      "startSeconds": 200,
+      "label": "03:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Model 1: Fit and Forecast Trend",
+      "startSeconds": 505,
+      "label": "08:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Model 2: Tree-Based Ensemble",
+      "startSeconds": 874,
+      "label": "14:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Auto-ARIMA Procedure",
+      "startSeconds": 1010,
+      "label": "16:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Comparison Between Models on Simulated Data Set",
+      "startSeconds": 1236,
+      "label": "20:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Real-World Data Set",
+      "startSeconds": 1329,
+      "label": "22:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend + Tree-Based Modeling Procedure",
+      "startSeconds": 1403,
+      "label": "23:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusion",
+      "startSeconds": 1529,
+      "label": "25:29",
+      "source": "youtube"
+    },
+    {
+      "title": "The End",
+      "startSeconds": 1604,
+      "label": "26:44",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Time Series Forecasting with Tree-Based Ensemble Methods: Part",
+      "text": "Time Series Forecasting with Tree-Based Ensemble Methods: Part II April 15, 2022"
+    },
+    {
+      "index": 2,
+      "title": "About the Presenter Brett Efaw Data Scientist at",
+      "text": "About the Presenter Brett Efaw Data Scientist at Idaho Power Company BEfaw@idahopower.com or brettefaw@gmail.com Work with various business groups to implement Data Science solutions Decision support Predictive modeling Forecasting BI and DS reporting/analysis applications"
+    },
+    {
+      "index": 3,
+      "title": "Overview Part I (DS Seminar 2022-02-25): data_science_seminar /2022_1",
+      "text": "Overview Part I (DS Seminar 2022-02-25): data_science_seminar /2022_1 at master · lselector / data_science_seminar · GitHub Time series forecasting approaches Compare XGBoost to Auto-ARIMA on a simple simulated data set Part II (DS Seminar 2022-04-15): Use a more complex simulated data set Real world data set (from Kaggle) Auto-ARIMA with exogenous regressors Simulated time series data set Multiple cyclic patterns/seasonality Non-linear trend Modeling/forecasting process Extract the “trend” from the time series Model 1: Fit and forecast the trend component Model 2: Use XGBoost (or similar tree-based algo) to model remainder Forecast = combination of model 1 + model 2 predictions"
+    },
+    {
+      "index": 4,
+      "title": "(A More Interesting) Simulated Data Set Cyclic pattern",
+      "text": "(A More Interesting) Simulated Data Set Cyclic pattern features: Day of week Day of month Day of year Sequence features: Day number Year Holiday effects: Holiday Day before/after holiday More realistic trend: Non-linear Randomly-spaced up/down steps numpy.random.choice () Smoothed out across time savgol_filter ()"
+    },
+    {
+      "index": 5,
+      "title": "Slide 5",
+      "text": ""
+    },
+    {
+      "index": 6,
+      "title": "Model 1: Fit and Forecast Trend M1-a. Extract",
+      "text": "Model 1: Fit and Forecast Trend M1-a. Extract the trend Use statsmodels.tsa.seasonal.STL () to decompose the time series (i.e. extract the trend) Trend = the number of time steps to include in the decomposition larger values = smoother trend (favors long-term) smaller values = wigglier trend (favors short-term) M1-b. Model the trend Use statsmodels.tsa.ar_model.AutoReg () to model (and forecast) the trend Lags = the number of time steps prior to consider as lagged inputs in regression model M1-c. Detrend the past (need these for Model 2) M1-d. Forecast the trend using model in M1-b Other parameters Period = the frequency of the time series (daily = 7, monthly = 12, quarterly = 4, etc.) Number of splits = the number of train/test splits for back-casting / model evaluation Test size = the number of time steps in the forecast horizon"
+    },
+    {
+      "index": 7,
+      "title": "Slide 7",
+      "text": ""
+    },
+    {
+      "index": 8,
+      "title": "Slide 8",
+      "text": ""
+    },
+    {
+      "index": 9,
+      "title": "Model 2: Tree-Based Ensemble Use tree-based ensemble to",
+      "text": "Model 2: Tree-Based Ensemble Use tree-based ensemble to model de-trended time series De-trending ensures the tree-based model can safely predict within the range of training examples. Features are calendar-based: Day-of-week Day-of-month Day-of-year Holidays (adjacent) Month-of-year Etc. HistGradientBoostingRegressor () parameters Max iterations = 300 Max tree depth = 30 Learning rate = 0.1 L2 regularization = 0.1 Forecast = trend forecast + tree-based prediction"
+    },
+    {
+      "index": 10,
+      "title": "Slide 10",
+      "text": ""
+    },
+    {
+      "index": 11,
+      "title": "Auto-ARIMA Procedure Compare trend + tree-based model to",
+      "text": "Auto-ARIMA Procedure Compare trend + tree-based model to auto-ARIMA procedure Implemented in Python via the pmdarima library based on auto.arima () function from R forecast package SARIMAX = S easonal A uto- R egressive I ntegrated M oving-Average with e X ogenous ARIMA, plus: Enable seasonality parameter Include exogenous regressors (calendar features) Parameters D = 1 (difference at lag-1) Period = 7 (daily frequency) Seasonal = True Stepwise = True Exogenous = matrix of external regressors (calendar features) Max iterations = 10 (default = 50) Note: For real-world data sets, try adding Fourier transforms instead of calendar features as exogenous regressors"
+    },
+    {
+      "index": 12,
+      "title": "Slide 12",
+      "text": ""
+    },
+    {
+      "index": 13,
+      "title": "Trend increased 2 nd half of this year",
+      "text": "Trend increased 2 nd half of this year Both models stayed relatively flat"
+    },
+    {
+      "index": 14,
+      "title": "Comparison Between Models on Simulated Data Set STL/",
+      "text": "Comparison Between Models on Simulated Data Set STL/ AutoReg Trend + XGBoost Train Time*: Trend: from 0:00:0.49 to 0:00:0.87 De-Trending: 0:00:0.01 XGBoost : from 0:00:1.26 to 0:00:1.36 Total: ~2-3 seconds per split Accuracy: from 1.3% to 3.2% Avg across splits: 2.3% Auto-ARIMA Train Time*: from 1min 16sec to 3min 28sec Accuracy: from 1.4% to 3.1% Avg across splits: 2.1% *4 splits with 365 test size each"
+    },
+    {
+      "index": 15,
+      "title": "Real-World Data Set Data Set on Kaggle: Daily",
+      "text": "Real-World Data Set Data Set on Kaggle: Daily website visitors (time series regression) | Kaggle This file contains 5 years of daily time series data for several measures of traffic on a statistical forecasting teaching notes website whose alias is statforecasting.com . The variables have complex seasonality that is keyed to the day of the week and to the academic calendar. The patterns you see here are similar in principle to what you would see in other daily data with day-of-week and time-of-year effects."
+    },
+    {
+      "index": 16,
+      "title": "Trend + Tree-Based Modeling Procedure Extract trend (STL)",
+      "text": "Trend + Tree-Based Modeling Procedure Extract trend (STL) Model trend ( AutoReg ) De-trend Trend model residuals Forecast trend Model residuals ( XGBoost ) Predict tree model Combined forecast Training Split i.e. Historical Testing Split i.e. Future Color Legend"
+    },
+    {
+      "index": 17,
+      "title": "Slide 17",
+      "text": ""
+    },
+    {
+      "index": 18,
+      "title": "Slide 18",
+      "text": ""
+    },
+    {
+      "index": 19,
+      "title": "Conclusion Method Avg Error (across 4 splits) Avg",
+      "text": "Conclusion Method Avg Error (across 4 splits) Avg Train Time (across 4 splits) Trend + Tree-Model 14.6% ~2sec Auto-ARIMA (SARIMAX) 21.6% ~2min"
+    },
+    {
+      "index": 20,
+      "title": "The End Some other forecasting tools worth checking",
+      "text": "The End Some other forecasting tools worth checking out: Azure AutoML Python SDK: Set up AutoML for time-series forecasting - Azure Machine Learning | Microsoft Docs No Code: Tutorial: Demand forecasting & AutoML - Azure Machine Learning | Microsoft Docs Modeltime (Business-Science) R: https://business-science.github.io/modeltime/ Prophet Github : https://github.com/facebook/prophet Python: https://pypi.org/project/prophet/ R: https://cran.r-project.org/web/packages/prophet/index.html Neural Prophet https://pytorch.org/ Much faster than Prophet, uses PyTorch Uses AR-Net for modeling autocorrelation Python notebooks and PPT will be available on Lev’s repo"
+    },
+    {
+      "index": 21,
+      "title": "Bonus: Azure AutoML Experiment : Daily Website Data",
+      "text": "Bonus: Azure AutoML Experiment : Daily Website Data Set"
+    },
+    {
+      "index": 22,
+      "title": "AutoML Explanations: MaxAbsScaler , ExtremeRandomTrees",
+      "text": "AutoML Explanations: MaxAbsScaler , ExtremeRandomTrees"
+    },
+    {
+      "index": 23,
+      "title": "MaxAbsScaler , ExtremeRandomTrees StandardScalerWrapper , LightGBM ProphetModel",
+      "text": "MaxAbsScaler , ExtremeRandomTrees StandardScalerWrapper , LightGBM ProphetModel"
+    },
+    {
+      "index": 24,
+      "title": "Bonus: Comparing Different Ensemble Methods # from sklearn.ensemble",
+      "text": "Bonus: Comparing Different Ensemble Methods # from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best, inspired by LightGBM ) RandomForestRegressor ExtraTreesRegressor # from xgboost !pip install xgboost XGBRegressor XGBRFRegressor All regressors had similar speed and accuracy. But the best was HistGradientBoostingRegressor - the histogram-based gradient boosting. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html https://machinelearningmastery.com/histogram-based-gradient-boosting-ensembles/ https://inria.github.io/scikit-learn-mooc/python_scripts/ensemble_hist_gradient_boosting.html Why the \"histogram-based\" approach is faster and better? The bottleneck in training any boosted trees algorithm is the time for finding the best split between values when building the trees This time can be significantly reduced if we pre-process the data for a given tree – aggregate them into \"bins\" So, we convert the continuous float numbers into limited number of discrete integer values This \"histogram binning\" reduces the number of tests needed to find best split This makes finding the split much faster - but reduces the accuracy To increase accuracy, we can simply increase the number of trees"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Time Series Forecasting with Tree-Based Ensemble Methods: Part",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Presenter",
+      "topic": "general",
+      "videoSeconds": 34,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=34s",
+      "slideIndex": 3,
+      "slideTitle": "Overview Part I (DS Seminar 2022-02-25): data_science_seminar /2022_1",
+      "source": "youtube"
+    },
+    {
+      "claim": "Overview",
+      "topic": "general",
+      "videoSeconds": 69,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=69s",
+      "slideIndex": 5,
+      "slideTitle": "Slide 5",
+      "source": "youtube"
+    },
+    {
+      "claim": "(A More Interesting) Simulated Data Set",
+      "topic": "general",
+      "videoSeconds": 200,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=200s",
+      "slideIndex": 7,
+      "slideTitle": "Slide 7",
+      "source": "youtube"
+    },
+    {
+      "claim": "Model 1: Fit and Forecast Trend",
+      "topic": "general",
+      "videoSeconds": 505,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=505s",
+      "slideIndex": 9,
+      "slideTitle": "Model 2: Tree-Based Ensemble Use tree-based ensemble to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Model 2: Tree-Based Ensemble",
+      "topic": "general",
+      "videoSeconds": 874,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=874s",
+      "slideIndex": 11,
+      "slideTitle": "Auto-ARIMA Procedure Compare trend + tree-based model to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Auto-ARIMA Procedure",
+      "topic": "general",
+      "videoSeconds": 1010,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=1010s",
+      "slideIndex": 14,
+      "slideTitle": "Comparison Between Models on Simulated Data Set STL/",
+      "source": "youtube"
+    },
+    {
+      "claim": "Comparison Between Models on Simulated Data Set",
+      "topic": "general",
+      "videoSeconds": 1236,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=1236s",
+      "slideIndex": 16,
+      "slideTitle": "Trend + Tree-Based Modeling Procedure Extract trend (STL)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Real-World Data Set",
+      "topic": "general",
+      "videoSeconds": 1329,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=1329s",
+      "slideIndex": 18,
+      "slideTitle": "Slide 18",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trend + Tree-Based Modeling Procedure",
+      "topic": "general",
+      "videoSeconds": 1403,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=1403s",
+      "slideIndex": 20,
+      "slideTitle": "The End Some other forecasting tools worth checking",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusion",
+      "topic": "general",
+      "videoSeconds": 1529,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=1529s",
+      "slideIndex": 22,
+      "slideTitle": "AutoML Explanations: MaxAbsScaler , ExtremeRandomTrees",
+      "source": "youtube"
+    },
+    {
+      "claim": "The End",
+      "topic": "general",
+      "videoSeconds": 1604,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U&t=1604s",
+      "slideIndex": 24,
+      "slideTitle": "Bonus: Comparing Different Ensemble Methods # from sklearn.ensemble",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Presenter Brett Efaw Data Scientist at",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U",
+      "slideIndex": 2,
+      "slideTitle": "About the Presenter Brett Efaw Data Scientist at",
+      "source": "slide"
+    },
+    {
+      "claim": "(A More Interesting) Simulated Data Set Cyclic pattern",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U",
+      "slideIndex": 4,
+      "slideTitle": "(A More Interesting) Simulated Data Set Cyclic pattern",
+      "source": "slide"
+    },
+    {
+      "claim": "Model 1: Fit and Forecast Trend M1-a. Extract",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=5GcCzKvrI1U",
+      "slideIndex": 6,
+      "slideTitle": "Model 1: Fit and Forecast Trend M1-a. Extract",
+      "source": "slide"
+    }
+  ]
+}

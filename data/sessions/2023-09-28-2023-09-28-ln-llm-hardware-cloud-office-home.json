@@ -1,0 +1,76 @@
+{
+  "id": "2023-09-28-2023-09-28-ln-llm-hardware-cloud-office-home",
+  "date": "2023-09-28",
+  "title": "LN-LLM-Hardware-cloud-office-home",
+  "series": "seminar",
+  "topics": [
+    "open-models",
+    "rag",
+    "infra"
+  ],
+  "video": {
+    "id": "m26ikHKCPbg",
+    "title": "AI Updates - September 29, 2023",
+    "url": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+    "thumbnail": "https://i.ytimg.com/vi/m26ikHKCPbg/hqdefault.jpg",
+    "duration": 940
+  },
+  "deck": {
+    "path": "2023/2023-09-28-LN-LLM-Hardware-cloud-office-home.pptx",
+    "filename": "2023-09-28-LN-LLM-Hardware-cloud-office-home.pptx",
+    "title": "LN-LLM-Hardware-cloud-office-home",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-28-LN-LLM-Hardware-cloud-office-home.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-28-LN-LLM-Hardware-cloud-office-home.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "What Hardware ChatGPT is Using ? OpenAI ChatGPT",
+      "text": "What Hardware ChatGPT is Using ? OpenAI ChatGPT run on powerful 8-GPU servers ~ $500K each GPT-3.5 175 Bln params * 2 bytes = 350 GBytes Requires at least 5 of 80GB GPUs (like A100 of H100) GPT-4 requires 8 servers like that, estimated $4M NVIDIA DGX H100"
+    },
+    {
+      "index": 2,
+      "title": "What Hardware LLaMa2 needs ? Full 70b model",
+      "text": "What Hardware LLaMa2 needs ? Full 70b model   ~ 160GB VRAM Reasonable server price is only ~$30K There are LLaMa 70b variants quantized down to 4bits. They can run at a $2.5K MacBook with 64GB memory."
+    },
+    {
+      "index": 3,
+      "title": "Run LLaMa 4bit at Home? Memory ? Price",
+      "text": "Run LLaMa 4bit at Home? Memory ? Price ? https://news.ycombinator.com/item?id=37067933 The tinybox - $15K George Hotz 144 VRAM (six AMD 7900 XTX - 24GB) CPU - AMD EPYC https://tinygrad.org https://www.youtube.com/watch?v=GKRu3Txc0sk People can buy Apple Mac Studio for only $5.4K with 192 memory. But Mac delivers only ~21 TFLOPS of compute, which is much less than 738 TFLOPS of the tinybox. Solution 2: MacBook Pro 14\" or 16\"  with 64GB memory - $2 , 5 00 Solution 3: Build your own desktop with two identical Nvidia RTX-3090. Buy RTX NVLink bridge connector at Best Buy for $80 - $3,000 Solution 1: Buy an Alienware gaming desktop with Nvidia RTX 3090 - $1,670 7b - 4GB,      13b - 8GB,      34b - 19GB,      70b - 45GB"
+    }
+  ],
+  "points": [
+    {
+      "claim": "What Hardware ChatGPT is Using ? OpenAI ChatGPT",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 1,
+      "slideTitle": "What Hardware ChatGPT is Using ? OpenAI ChatGPT",
+      "source": "slide"
+    },
+    {
+      "claim": "What Hardware LLaMa2 needs ? Full 70b model",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 2,
+      "slideTitle": "What Hardware LLaMa2 needs ? Full 70b model",
+      "source": "slide"
+    },
+    {
+      "claim": "Run LLaMa 4bit at Home? Memory ? Price",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 3,
+      "slideTitle": "Run LLaMa 4bit at Home? Memory ? Price",
+      "source": "slide"
+    }
+  ]
+}

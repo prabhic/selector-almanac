@@ -1,0 +1,40 @@
+{
+  "id": "unknown-da-10-bigquery-example",
+  "date": null,
+  "title": "DA 10 BigQuery Example",
+  "series": "data-architect-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_10_BigQuery_Example.pptx",
+    "filename": "DA_10_BigQuery_Example.pptx",
+    "title": "DA 10 BigQuery Example",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_10_BigQuery_Example.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_10_BigQuery_Example.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Google BigQuery trick BigQuery is designed for map-reduce",
+      "text": "Google BigQuery trick BigQuery is designed for map-reduce over huge amount of data (Tera-bytes and Peta-bytes). It charges not for compute usage, but for amount of data your query is touching. Here is an interesting illustration how a huge set of queries was running for 30 hrs, but the total charge was only $2. A client is using geographical location data – matching footprints of people to locations of stores. \"Recently I was matching 150M of footprints to 4M blocks. Blocks were in 20 US cities. So I did per city. But for New York it was still too much (4M footprints vs 1.5M blocks). The size of the cross join was enormous. So I had to split it in 24 sub-blocks and to do some other optimizations to reduce it. We ended up running it for something like 30 hours (in a loop). The query is trivial. I had to reduce usage of geometrical polygons_cover(point) function by the distance between polygon center to point in order to make it run, to filter the coverage after the join (thus reducing the potential cover_ calls, which are expensive as you can imagine) only to candidates , which is linear vs quadratic. I cannot even imagine how much it would cost us with compute credits. But total BQ cost was ... take a guess ... only $2 !! Why? Because the data I have touched were approx. 100 GB, and BQ charges $5/TB . You do not pay for compute time. You pay only for the data you touch\""
+    }
+  ],
+  "points": [
+    {
+      "claim": "Google BigQuery trick BigQuery is designed for map-reduce",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Google BigQuery trick BigQuery is designed for map-reduce",
+      "source": "slide"
+    }
+  ]
+}

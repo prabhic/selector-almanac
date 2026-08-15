@@ -1,0 +1,502 @@
+{
+  "id": "2024-01-05-2024-01-05-ai-updates",
+  "date": "2024-01-05",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "fine-tuning",
+    "open-models",
+    "rag",
+    "coding",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "xuvqhRkVgJk",
+    "title": "Have you heard these exciting AI news? - January 05, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+    "thumbnail": "https://i.ytimg.com/vi/xuvqhRkVgJk/hqdefault.jpg",
+    "duration": 1532
+  },
+  "deck": {
+    "path": "2024/2024-01-05-AI-Updates.pptx",
+    "filename": "2024-01-05-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-01-05-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-01-05-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "2024 AI predictions",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mixtral 8x7B in 24GB of VRAM",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Parameter Offloading - PowerInfer Parameter Offloading - Mixtral on 12GB",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Peter Diamandis & Elon Musk",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "jan.ai",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Learning Foreign Languages",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Hallucination Mitigation",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "WhiteRabbitNeo - Cybersecurity",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Self-Play Fine-Tuning",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "CrewAI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "RAGatouille",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Apple Ferret Model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft AI Key",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "JPMorgan DocLLM",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Prompts: Principled Instructions",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "CALM = Composition to Augment LMs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LLaMA Pro (block expansion)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "MOBILE ALOHA - Google Robot",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "MTEB - Better Embedding Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft Copilot App",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Reasoning with Foundation Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Hugging Face LLM Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI Race",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates January 05, 2024 2024 AI predictions",
+      "text": "AI Updates January 05, 2024 2024 AI predictions Mixtral 8x7B in 24GB of VRAM Parameter Offloading - PowerInfer Parameter Offloading - Mixtral on 12GB Peter Diamandis & Elon Musk jan.ai Learning Foreign Languages Hallucination Mitigation WhiteRabbitNeo - Cybersecurity Self-Play Fine-Tuning CrewAI RAGatouille Apple Ferret Model Microsoft AI Key JPMorgan DocLLM Prompts: Principled Instructions CALM = Composition to Augment LMs LLaMA Pro (block expansion) MOBILE ALOHA - Google Robot MTEB - Better Embedding Models Microsoft Copilot App Reasoning with Foundation Models Hugging Face LLM Leaderboard Crowd-sourced \"Arena\" leaderboard AI Race"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "2024 AI predictions 2024 AI predictions - by",
+      "text": "2024 AI predictions 2024 AI predictions - by William Falcon ⚡️ https://twitter.com/_willfalcon/status/1741138074506022968 1B models will outperform 70B models Models cheaply deployed on CPUs. Not API services Data quality will yield the next 10x boost in performance Open source models will beat the best private models Compilers will unlock at least 80% speed up in models (both training and inference) Legislation will side with content creators over model developers. 10 Predictions For AI in 2024 - Matthew Berman https://www.youtube.com/watch?v=Fbbu_GQcrwc 0:00 - LLaMA 3, AI Studio 7:19 - Gemini Ultra 11:30 - Robots (Tesla Optimus) 15:02 - Open Source Acceleration 21:13 - AI Agents 25:20 - No AGI 27:34 - Synthetic Data 29:29 - Multi-Modal as default 31:30 - Evil Bots, spam, fakes, etc - will get better. Solution - charge for sending messages. 34:16 - GPT4.5 - better, faster, cheaper 2023 - year of discoveries and POCs (Proof of Concept) 2024 - year of practical deployments and acceleration Smaller/faster models run on laptops and phones open source gaining on closed models language + reasoning + knowledge AI Agents, robotics, and more 2018|  2019    |   2020   |  2021  |   2022    | 2023     | 2024 AI - the fastest developing technology in human history. Compute numbers grow  ~ x10 every ~6 months Multiple huge (300..500..1,000) Megawatt data centers Forget about Moore's Law of doubling every 2-3 years! Providers will charge for data APIs (X.ai, Reddit, ...)"
+    },
+    {
+      "index": 4,
+      "title": "Mixtral 8x7B in 24GB of VRAM Mixtral 8x7B",
+      "text": "Mixtral 8x7B in 24GB of VRAM Mixtral 8x7B Instruct with AWQ & Flash Attention 2 https://twitter.com/reach_vb/status/1741175347821883502 All in ~24GB GPU VRAM & 10 lines of code! AWQ = Activation-aware Weight Quantization. It applies different levels of quantization to different weights based on their importance (weights). This makes the model smaller (fit into local device) - and gives faster inference! https://huggingface.co/docs/transformers/main_classes/quantization Flash Attention 2 - speeds up calculations using GPU memory hierarchy and avoiding costly matrix multiplications. Online softmax, better parallelism and work partitioning, GPU memory saving tricks Vaibhav Srivastav : https://vaibhav.wiki https://vaibhav.wiki/about # Your GPU(s) must be of Compute Capability 7.5 # (Turing RTX 20809 and later). # Your CUDA version must be CUDA 11.8 or later. # Requires installing AutoAWQ kernels. # https://github.com/casper-hansen/AutoAWQ # https://pypi.org/project/autoawq/ # https://github.com/casper-hansen/AutoAWQ_kernels # pip install git+ https://github.com/huggingface/transformers.git # pip install autoawq-kernels # pip install autoawq from transformers import AutoModelForCausalLM, AutoTokenizer, TextStreamer model_id = \" casperhansen/mixtral-instruct-awq \" tokenizer = AutoTokenizer.from_pretrained(model_id) model = AutoModelForCausalLM.from_pretrained( model_id, low_cpu_mem_usage=True, device_map=\"cuda:0\", attn_implementation=\"flash_attention_2\") streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True) tokens = tokenizer(text, return_tensors='pt').input_ids.to(\"cuda:0\") generation_output = model.generate( tokens, streamer=streamer, max_new_tokens=512)"
+    },
+    {
+      "index": 5,
+      "title": "Parameter Offloading PowerInfer can massively (x11) speed up",
+      "text": "Parameter Offloading PowerInfer can massively (x11) speed up inference on consumer GPUs. Almost reaching A100 levels. It outperforms llama.cpp by up to 11.69x while retaining model accuracy. You can use these models with PowerInfer today: - Falcon-40B - Llama2 family https://twitter.com/AlphaSignalAI/status/1737179455830045036 https://github.com/SJTU-IPADS/PowerInfer PowerInfer reached an average token generation rate of 13.20 tokens/s, with a peak of 29.08 tokens/s, across various LLMs (including OPT-175B) on a single NVIDIA RTX 4090 GPU, only 18% lower than that achieved by a top-tier server-grade A100 GPU. MPTI: run Mixtral on Free Google Colab or on Nvidia 3060 with 12GB It relies upon parameter offloading algorithms that accelerates offloading by taking advantage of innate properties of MoE LLMs. This technique works by loading model parameters just-in-time when they are needed for computation. Since most deep learning models use layers in a fixed order, offloading can pre-dispatch the next layer parameters in the background, ahead of time. https://twitter.com/rohanpaul_ai/status/1741103866047869222 https://arxiv.org/abs/2312.17238 Fast Inference of Mixture-of-Experts Language Models with Offloading Artyom Eliseev, Denis Mazur, MPTI"
+    },
+    {
+      "index": 6,
+      "title": "Peter Diamandis & Elon Musk Peter Diamandis &",
+      "text": "Peter Diamandis & Elon Musk Peter Diamandis & Elon Musk on Abundance, AGI, and The Media in 2024 https://www.youtube.com/watch?v=_PcL4w--uNs"
+    },
+    {
+      "index": 7,
+      "title": "jan.ai - Run Any Chatbot FREE Locally on",
+      "text": "jan.ai - Run Any Chatbot FREE Locally on Your Computer Jan.ai = open-source app runs LLMs locally 100% offline on your computer (Windows, Mac, Linux) https://jan.ai/docs/ https://github.com/janhq/jan https://www.youtube.com/watch?v=zkafOIyQM8s"
+    },
+    {
+      "index": 8,
+      "title": "Misc LLM Course: https://github.com/mlabonne/llm-course/tree/main Gemini vs. GPT-4V A",
+      "text": "Misc LLM Course: https://github.com/mlabonne/llm-course/tree/main Gemini vs. GPT-4V A Challenger to GPT-4V? - ttps://arxiv.org/abs/2312.12436v2 Gemini vs. GPT-4V - https://arxiv.org/abs/2312.15011v1 You can now run Mixtral on free Google colab instances: https://twitter.com/madiator/status/1741336858091798562 https://arxiv.org/pdf/2312.17238.pdf Learning Foreign Languages https://www.youtube.com/watch?v=5Jwtv1rRa-A What's the BEST AI For Language Learning? - https://www.youtube.com/watch?v=kXChJfHZrjU ChatGPT - best, you can talk to it (MSFT Bing on 2nd place) You can speak with the mobile app Or use a browser plugin on your computer - https://www.youtube.com/watch?v=Kn0B-tM8zao - - https://www.youtube.com/watch?v=QCiKQ6VuOos - A Comprehensive Survey of (32+) Hallucination Mitigation Techniques in LLMs https://arxiv.org/abs/2401.01313 WhiteRabbitNeo - AI Copilot for Cybersecurity https://www.youtube.com/watch?v=sAjlJlNarc4 - demo https://huggingface.co/whiterabbitneo/WhiteRabbitNeo-13B 3 hrs / $2: Nvidia RTX A6000 (48GB vram), min 6 vCPU, 48 GB ram, 256 GB SSD https://shop.massedcompute.com/products/beta-matthew-berman-new Text Generation WebUI https://github.com/oobabooga/text-generation-webui RAG course (Andrew Ng, DeepLearning.ai): https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/ Self-Play Fine-Tuning Converts Weak LMs to Strong LMs: https://arxiv.org/abs/2401.01335 - UCLA.edu GPT-Fast - fast inference (200+ tokens/sec on 8 GPUs) pure PyTorch and Mixtral 8x7B https://github.com/pytorch-labs/gpt-fast"
+    },
+    {
+      "index": 9,
+      "title": "Misc 2 Elvis Presley avatar - life-size digitally",
+      "text": "Misc 2 Elvis Presley avatar - life-size digitally recreated using AI and projections - to debut in London later this year Perplexity raises $73.6m - https://www.perplexity.ai Google Bard Advanced - paid version RAGatouille - open source RAG library https://github.com/bclavie/RAGatouille GPTs Store - OpenAI plans to launch it next week CrewAI - open source framework to create teams of models using local models or APIs (Gpt-4, ...), ollama , LangChain , ... (similar to AutoGen ) https://github.com/joaomdmoura/crewAI https://www.youtube.com/watch?v=tnejrr-0a94 - demo APPLE - Ferret Model Mutlimodal AI beats GPT-4 Vision https://github.com/apple/ml-ferret Ferret-7B, Ferret-13B Microsoft AI Key (Copilot Key) JPMorgan announced DocLLM - a transformer-based model focusing solely on bounding box information derived via OCR; enhances spatial layout comprehension without the need for complex vision encoders https://huggingface.co/papers/2401.00908 https://arxiv.org/abs/2401.00908"
+    },
+    {
+      "index": 10,
+      "title": "Principled Instructions Are All You Need https://arxiv.org/pdf/2312.16171v1.pdf Use:",
+      "text": "Principled Instructions Are All You Need https://arxiv.org/pdf/2312.16171v1.pdf Use: \"Your task is\", \"You MUST\", \"You will be penalized\", and \"Answer a question given in a natural, human-like manner\" Add \"I'm going to tip $(random amount) for a better solution!\" Use leading words like writing \"think step by step.\" Employ affirmative directives such as \"do\", do not use negative language like \"don't\". Repeat a specific word or phrase multiple times within a prompt. Better Prompts - Principled Instructions"
+    },
+    {
+      "index": 11,
+      "title": "No need to be polite with LLM so",
+      "text": "No need to be polite with LLM so there is no need to add phrases like “please”, “if you don’t mind”, “thank you”, “I would like to”, etc., and get straight to the point. Integrate the intended audience in the prompt, e.g., the audience is an expert in the field. Break down complex tasks into a sequence of simpler prompts in an interactive conversation. Employ affirmative directives such as ‘do,’ while steering clear of negative language like ‘don’t’. When you need clarity or a deeper understanding of a topic, idea, or any piece of information, utilize the following prompts: .. Explain [insert specific topic] in simple terms. .. Explain to me like I’m 11 years old. .. Explain to me as if I’m a beginner in [field]. .. Write the [essay/text/paragraph] using simple English like you’re explaining something to a 5-year-old. Add “I’m going to tip $xxx for a better solution!” Implement example-driven prompting (Use few-shot prompting). When formatting your prompt, start with ‘###Instruction###’, followed by either ‘###Example###’ or ‘###Question###’ if relevant. Subsequently, present your content. Use one or more line breaks to separate instructions, examples, questions, context, and input data. Incorporate the following phrases: “Your task is” and “You MUST”. Incorporate the following phrases: “You will be penalized”. use the phrase ”Answer a question given in a natural, human-like manner” in your prompts. Use leading words like writing “think step by step”. Add to your prompt the following phrase “Ensure that your answer is unbiased and does not rely on stereotypes”. Allow the model to elicit precise details and requirements from you by asking you questions until he has enough information to provide the needed output (for example, “From now on, I would like you to ask me questions to...”). Better Prompts - 26 principles ( https://arxiv.org/pdf/2312.16171v1.pdf ) To inquire about a specific topic or idea or any information and you want to test your understanding, you can use the following phrase: “Teach me the [Any theorem / topic / rule name] and include a test at the end, but don’t give me the answers and then tell me if I got the answer right when I respond”. Assign a role to the large language models. Use Delimiters. Repeat a specific word or phrase multiple times within a prompt. Combine Chain-of-thought (CoT) with few-Shot prompts. Use output primers, which involve concluding your prompt with the beginning of the desired output. Utilize output primers by ending your prompt with the start of the anticipated response. To write an essay /text /paragraph /article or any type of text that should be detailed: “Write a detailed [ essay / text / paragraph ] for me on [topic] in detail by adding all the information necessary”. To correct/change specific text without changing its style: “Try to revise every paragraph sent by users. You should only improve the user’s grammar and vocabulary and make sure it sounds natural. You should not change the writing style, such as making a formal paragraph casual”. When you have a complex coding prompt that may be in different files: “From now and on whenever you generate code that spans more than one file, generate a [ programming language ] script that can be run to automatically create the specified files or make changes to existing files to insert the generated code. [your question]”. When you want to initiate or continue a text using specific words, phrases, or sentences, utilize the following prompt: .. I’m providing you with the beginning [song lyrics/story/paragraph/essay...]: [ Insert lyrics / words / sentence ]’. Finish it based on the words provided. Keep the flow consistent. Clearly state the requirements that the model must follow in order to produce content, in the form of the keywords, regulations, hint, or instructions To write any text, such as an essay or paragraph, that is intended to be similar to a provided sample, include the following instructions: .. Please use the same language based on the provided paragraph [ / title / text  / essay / answer ]."
+    },
+    {
+      "index": 12,
+      "title": "CALM = Composition to Augment Language Models CALM",
+      "text": "CALM = Composition to Augment Language Models CALM = Composition to Augment Language Models (Google) - scale LLMs on new tasks .. https://www.youtube.com/watch?v=K3Sk-y24ZAQ - .. https://arxiv.org/pdf/2401.02412.pdf - paper CALM = efficient and practical composition of existing foundation models with more specific models to enable newer capabilities"
+    },
+    {
+      "index": 13,
+      "title": "LLaMA Pro: Progressive LLaMA with Block Expansion TLDR:",
+      "text": "LLaMA Pro: Progressive LLaMA with Block Expansion TLDR: take pretrained model freeze params add new blocks with last proj layer set to 0 train newblock you get model with new data without forgetting old (model will be big bcs of new blocks and slower but better than pretraing from scratch :) https://twitter.com/shxf0072/status/1743152815961493870 https://huggingface.co/papers/2401.02415 https://arxiv.org/pdf/2401.02415.pdf https://github.com/TencentARC/LLaMA-Pro - open source a new post-pre-training method for LLMs with an expansion of Transformer blocks tune the expanded blocks using only new corpus, efficiently and effectively improving the model’s knowledge without catastrophic forgetting achieve advanced performance among various benchmarks, demonstrating superiority over existing open models in the LLaMA family and the immense potential of reasoning and addressing diverse tasks as an intelligent agent"
+    },
+    {
+      "index": 14,
+      "title": "MOBILE ALOHA - Google Robot Google / Stanford",
+      "text": "MOBILE ALOHA - Google Robot Google / Stanford Robot Learning Bimanual Mobile Manipulation with Low-Cost Whole-Body Teleoperation Can be controlled remotely Can learn from demonstration - and then operate by itself https://mobile-aloha.github.io/resources/mobile-aloha.pdf https://mobile-aloha.github.io https://www.youtube.com/watch?v=Ckhf6WfXRI8"
+    },
+    {
+      "index": 15,
+      "title": "MTEB: Massive Text Embedding Benchmark Embedding model using",
+      "text": "MTEB: Massive Text Embedding Benchmark Embedding model using Mistral: seq length 32K, embedding length 4K https://huggingface.co/intfloat/e5-mistral-7b-instruct MTEB: Massive Text Embedding Benchmark https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    {
+      "index": 16,
+      "title": "Microsoft Copilot App Microsoft Copilot for Microsoft 365",
+      "text": "Microsoft Copilot App Microsoft Copilot for Microsoft 365 https://copilot.microsoft.com Nov 1, 2023 - for enterprise customers Jan 1, 2024 - for educational staff Microsoft Copilot App An Chat App to use Bing, ChatGPT-4, DALL-E-3 Free"
+    },
+    {
+      "index": 17,
+      "title": "Reasoning with Foundation Models Reasoning with Foundation Models",
+      "text": "Reasoning with Foundation Models Reasoning with Foundation Models https://twitter.com/omarsar0/status/1740729489661874632 https://arxiv.org/abs/2312.11562v4"
+    },
+    {
+      "index": 18,
+      "title": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "text": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py January 05, 2024 01.ai 01.ai Llama 01.ai Llama Llama Mixtral Llama Mixtral Mixtral Llama Llama"
+    },
+    {
+      "index": 19,
+      "title": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting",
+      "text": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting Elo rating for each model is set at 1000 Currently 65 models, 130K+ votes"
+    },
+    {
+      "index": 20,
+      "title": "The AI Race Nov 30, 2022 - ChatGPT",
+      "text": "The AI Race Nov 30, 2022 - ChatGPT release has pushed many companies to completely change their agenda and to re-organize around AI 2023 - year of discoveries, POCs 2024 - year of deployments AI Research: .. Berkeley, Carnegie Mellon, MIT, ... .. OpenAI .. Microsoft .. Meta .. Mistral.ai .. Stability.ai .. Anthropic .. Google DeepMind .. 01.ai .. X.ai .. Inflection.ai .. IBM Cloud Platforms: .. Microsoft, Azure .. Hugging Face .. Amazon Bedrock .. AWS EC2 .. Google Vertex AI .. Google CoLab .. IBM Watson .. Nvidia .. cloud.vast.ai .. paperspace.com .. LambdaLabs .. brev.dev Tools: .. RAG tools: Vector DBs, Graph DBs, PostgreSQL .. AutoGen .. TaskWeaver .. CrewAI .. MemGPT .. vLLM + AutoAWQ AI Chips: .. Nvidia .. Google TPUs .. Microsoft .. OpenAI .. Meta .. Apple .. Rain NPU ..  Cerebras Software: .. Python, PyTorch, JAX .. Rust Candle .. Nvidia CUDA, cuDNN, TensorRT SDK, DeepStream SDK, ... .. HuggingFace python modules (datasets, transformers) models, datasets, ... .. LangChain, LlamaIndex .. Apple MLX Model Training, Fine-tuning: .. HuggingFace .. Axolotl .. LoRA, QLoRA, S-LoRA .. wandb.ai (weights & biases) .. fast.ai Model Safety: .. Meta Purple Llama Front-End Dev: .. LangChain Studio .. Windows AI Studio .. Streamlit, Flask, Gradio .. voiceflow.com .. Text Generation WebUI Cloud App Dev: .. Hugging Face .. platform.openai.com .. Cohere.com .. RunPod.io .. replit.com + voiceflow.com .. chatbase.co Local Apps: .. Ollama .. LMStudio .. GPT4All .. MLC LLM .. PrivateGPT .. h2oGPT Datasets: .. HuggingFace .. Orca2, Open Orca .. Dolphin .. scale.com Chats: .. ChatGPT .. Bard .. Claude .. labs.perplexity.ai .. llama2.ai .. pi.ai AI Coding Tools: .. GPT Pilot in VS Code .. GitHub Copilot .. Google’s Duet AI .. JetBrains AI IDEs"
+    },
+    {
+      "index": 21,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "2024 AI predictions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates January 05, 2024 2024 AI predictions",
+      "source": "outline"
+    },
+    {
+      "claim": "Mixtral 8x7B in 24GB of VRAM",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Parameter Offloading - PowerInfer Parameter Offloading - Mixtral on 12GB",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 3,
+      "slideTitle": "2024 AI predictions 2024 AI predictions - by",
+      "source": "outline"
+    },
+    {
+      "claim": "Peter Diamandis & Elon Musk",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 4,
+      "slideTitle": "Mixtral 8x7B in 24GB of VRAM Mixtral 8x7B",
+      "source": "outline"
+    },
+    {
+      "claim": "jan.ai",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 4,
+      "slideTitle": "Mixtral 8x7B in 24GB of VRAM Mixtral 8x7B",
+      "source": "outline"
+    },
+    {
+      "claim": "Learning Foreign Languages",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 5,
+      "slideTitle": "Parameter Offloading PowerInfer can massively (x11) speed up",
+      "source": "outline"
+    },
+    {
+      "claim": "Hallucination Mitigation",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 6,
+      "slideTitle": "Peter Diamandis & Elon Musk Peter Diamandis &",
+      "source": "outline"
+    },
+    {
+      "claim": "WhiteRabbitNeo - Cybersecurity",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 7,
+      "slideTitle": "jan.ai - Run Any Chatbot FREE Locally on",
+      "source": "outline"
+    },
+    {
+      "claim": "Self-Play Fine-Tuning",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 8,
+      "slideTitle": "Misc LLM Course: https://github.com/mlabonne/llm-course/tree/main Gemini vs. GPT-4V A",
+      "source": "outline"
+    },
+    {
+      "claim": "CrewAI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 9,
+      "slideTitle": "Misc 2 Elvis Presley avatar - life-size digitally",
+      "source": "outline"
+    },
+    {
+      "claim": "RAGatouille",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 10,
+      "slideTitle": "Principled Instructions Are All You Need https://arxiv.org/pdf/2312.16171v1.pdf Use:",
+      "source": "outline"
+    },
+    {
+      "claim": "Apple Ferret Model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 11,
+      "slideTitle": "No need to be polite with LLM so",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft AI Key",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 11,
+      "slideTitle": "No need to be polite with LLM so",
+      "source": "outline"
+    },
+    {
+      "claim": "JPMorgan DocLLM",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 12,
+      "slideTitle": "CALM = Composition to Augment Language Models CALM",
+      "source": "outline"
+    },
+    {
+      "claim": "Prompts: Principled Instructions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 13,
+      "slideTitle": "LLaMA Pro: Progressive LLaMA with Block Expansion TLDR:",
+      "source": "outline"
+    },
+    {
+      "claim": "CALM = Composition to Augment LMs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 14,
+      "slideTitle": "MOBILE ALOHA - Google Robot Google / Stanford",
+      "source": "outline"
+    },
+    {
+      "claim": "LLaMA Pro (block expansion)",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 15,
+      "slideTitle": "MTEB: Massive Text Embedding Benchmark Embedding model using",
+      "source": "outline"
+    },
+    {
+      "claim": "MOBILE ALOHA - Google Robot",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 16,
+      "slideTitle": "Microsoft Copilot App Microsoft Copilot for Microsoft 365",
+      "source": "outline"
+    },
+    {
+      "claim": "MTEB - Better Embedding Models",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 17,
+      "slideTitle": "Reasoning with Foundation Models Reasoning with Foundation Models",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft Copilot App",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 18,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "Reasoning with Foundation Models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 18,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "Hugging Face LLM Leaderboard",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 19,
+      "slideTitle": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 20,
+      "slideTitle": "The AI Race Nov 30, 2022 - ChatGPT",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Race",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xuvqhRkVgJk",
+      "slideIndex": 21,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

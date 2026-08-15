@@ -1,0 +1,325 @@
+{
+  "id": "2022-10-07-2022-10-07-python-generate-docs",
+  "date": "2022-10-07",
+  "title": "Python generate docs",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "RaOKGINQxLk",
+    "title": "Generating MS Word, Excel, PPT, and PDF from Python Script",
+    "url": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+    "thumbnail": "https://i.ytimg.com/vi/RaOKGINQxLk/hqdefault.jpg",
+    "duration": 896
+  },
+  "deck": {
+    "path": "2022/2022-10-07-Python_generate_docs.pptx",
+    "filename": "2022-10-07-Python_generate_docs.pptx",
+    "title": "Python generate docs",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-10-07-Python_generate_docs.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-10-07-Python_generate_docs.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Document",
+      "startSeconds": 143,
+      "label": "02:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Insert Paragraph before Method",
+      "startSeconds": 214,
+      "label": "03:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Add a Page Break",
+      "startSeconds": 242,
+      "label": "04:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Create a Table",
+      "startSeconds": 381,
+      "label": "06:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Sentences",
+      "startSeconds": 562,
+      "label": "09:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Add an Image",
+      "startSeconds": 674,
+      "label": "11:14",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "DOC Generation with Python (Skip MS office SUITE",
+      "text": "DOC Generation with Python (Skip MS office SUITE and become the master of your own files)"
+    },
+    {
+      "index": 2,
+      "title": "Irina Dimitrov Health Care Management Data Science and",
+      "text": "Irina Dimitrov Health Care Management Data Science and Data Analysis FP&A (Financial Planning & Analysis) Live in Chicago (US)"
+    },
+    {
+      "index": 3,
+      "title": "Table of contents: Generate Word doc with text,",
+      "text": "Table of contents: Generate Word doc with text, image and table Generate Excel file with cells, content and image/graph Generate pdf file with text, image/logo, and various other sections Generate a powerpoint file with 2 slides which include text and image"
+    },
+    {
+      "index": 4,
+      "title": "G enerate Y our o wn d ocs",
+      "text": "G enerate Y our o wn d ocs w ith P ython Why : Automate 1. Document generation 2. Reporting 3. Invoicing Avoid constant updates of MS Office Use consistent templates across departments (content, logos, pricing, etc ) Avoid duplicative work"
+    },
+    {
+      "index": 5,
+      "title": "C reate a W ord doc",
+      "text": "C reate a W ord doc"
+    },
+    {
+      "index": 6,
+      "title": "C reate a W ord doc Use python-docx",
+      "text": "C reate a W ord doc Use python-docx library pip install python-docx from docx import Document #if you want to add pics from docx.shared import Inches doc = Document() #create title doc.add_heading ('Title of document', 0) doc_para = doc.add_paragraph (\"We're the only local provider of magnolia trees\") # add a run i.e , style like # bold, italic, underline, etc. doc_para.add_run ('\\ nCheck out our nursery!').bold = True doc_para.add_run ('\\n') doc_para.add_run ('\\ nOpen 364 days per year').italic = True"
+    },
+    {
+      "index": 7,
+      "title": "C reate a W ord doc _ continued",
+      "text": "C reate a W ord doc _ continued #if you want to add another paragraph before any other created previously first_para = doc_para.insert_paragraph_before ('WHY US’) # optional: doc.add_picture (' path_to_picture ') #or # doc.add_picture ('image-filename.png', width=Inches(1.0)) doc.add_picture ('C:/temp/magnolia_at_night.jpg', width=Inches(4.75)) https://python-docx.readthedocs.io/en/latest/user/quickstart.html#adding-a-picture"
+    },
+    {
+      "index": 8,
+      "title": "C reate a W ord doc _ continued",
+      "text": "C reate a W ord doc _ continued doc.add_page_break () doc.add_heading ('Our products', 2) doc_para2 = doc.add_paragraph ('\\ nList of products and prices ') https://python-docx.readthedocs.io/en/latest/user/quickstart.html"
+    },
+    {
+      "index": 9,
+      "title": "C reate a W ord doc _ continued",
+      "text": "C reate a W ord doc _ continued # optional:  create table; start with variable for list of flowers records = ( (3, 'PM01', 'Pink Magnolia', 25), (5, 'WM05', 'White Magnolia', 10), (1, 'GM02', 'Green Magnolia', 60) ) table = doc.add_table (rows=1, cols=4) hdr_cells = table.rows [0].cells hdr_cells [0].text = 'Qty' hdr_cells [1].text = 'Id' hdr_cells [2].text = 'Desc' hdr_cells [3].text = 'Price/tree' for qty, id, desc, price in records: row_cells = table.add_row ().cells row_cells [0].text = str(qty) row_cells [1].text = id row_cells [2].text = desc row_cells [3].text = str(price) https://www.codetd.com/en/article/7092452"
+    },
+    {
+      "index": 10,
+      "title": "C reate a W ord doc _ continued",
+      "text": "C reate a W ord doc _ continued https://python-docx.readthedocs.io/en/latest/user/quickstart.html"
+    },
+    {
+      "index": 11,
+      "title": "import xlsxwriter #define workbook object with output file",
+      "text": "import xlsxwriter #define workbook object with output file location workbook = xlsxwriter.Workbook ('hello.xlsx') #create worksheet in the workbook worksheet = workbook.add_worksheet () #add text to cell worksheet.write ('A1', 'Hello, world') worksheet.write ('A2', 'My name is Gru and soon I will rule all of you') worksheet.write ('B1', 'Hello, world') worksheet.write ('B2', 'We are the minions and where Gru goes, we go') workbook.close () Tutorial 2: Adding formatting to the XLSX File — XlsxWriter Documentation"
+    },
+    {
+      "index": 12,
+      "title": "# widen the target column to make the",
+      "text": "# widen the target column to make the text clearer. worksheet.set_column ('A:A', 30) # Insert an image. worksheet.write ('A5', 'Insert an image in a cell:') worksheet.insert_image ('B5', 'C:/Users/Irina/Desktop/Minions_pic.png ’ ) Create an EXCEL file_ continued Use the xlsxwriter library https://xlsxwriter.readthedocs.io/example_images.html"
+    },
+    {
+      "index": 13,
+      "title": "# Create a workbook and add a worksheet.",
+      "text": "# Create a workbook and add a worksheet. workbook = xlsxwriter.Workbook ('Expenses02.xlsx') worksheet = workbook.add_worksheet () # Add a bold format to use to highlight cells. bold = workbook.add_format ({'bold': True}) # Add a number format for cells with money. money = workbook.add_format ({' num_format ': '$#,##0'}) # Write some data headers. worksheet.write ('A1', 'Item', bold) worksheet.write ('B1', 'Cost', bold) Create an EXCEL file _ continued"
+    },
+    {
+      "index": 14,
+      "title": "expenses = ( ['Mortgage', 1000], ['Gas', 500], ['Food',",
+      "text": "expenses = ( ['Mortgage', 1000], ['Gas',   500], ['Food',  300], ['Gym',    150], ) # Start from the first cell below the headers. row = 1 col = 0 # Iterate over the data and write it out row by row. for item, cost in (expenses): worksheet.write (row, col, item) worksheet.write (row, col + 1, cost, money) row += 1 https://xlsxwriter.readthedocs.io/tutorial02.html Create an EXCEL file _ continued"
+    },
+    {
+      "index": 15,
+      "title": "# Write a total using a formula. worksheet.write",
+      "text": "# Write a total using a formula. worksheet.write (row, 0, 'Total', bold) worksheet.write (row, 1, '=SUM(B2:B5)', money) #to add a chart, use the chart class and add_chart method chart = workbook.add_chart ({‘type’: ‘column’}) # Configure the chart with one or more data series. chart.add_series ({'name': 'monthly expenses','categories ': '=Sheet1!$A$2:$A$5', 'values': '=Sheet1!$B$2:$B$5'}) #insert chart class as an embedded chart worksheet.insert_chart (‘A8’, chart) workbook.close () https://www.tutorialspoint.com/python_xlsxwriter/python_xlsxwriter_quick_guide.htm Create an EXCEL file _ continued"
+    },
+    {
+      "index": 16,
+      "title": "CREATE a PDF file - Use fpdf library",
+      "text": "CREATE a PDF file - Use fpdf library Pip install fpdf in your jupyter notebook or Powershell from fpdf import FPDF def header(self): # Logo self.image ('C:/Users/Irina/Desktop/Motorcycle.jpg', 10, 8, 33) # Arial bold 15 self.set_font ('Arial', 'B', 15) # Move to the right self.cell (80) # Title self.cell (30, 10, 'Life Goals', 1, 0, 'C') # Line break self.ln (20) https://pyfpdf.readthedocs.io/en/latest/Tutorial/index.html"
+    },
+    {
+      "index": 17,
+      "title": "Create a PDF file_ continued # Page footer",
+      "text": "Create a PDF file_ continued # Page footer def footer(self): # Position at 1.5 cm from bottom self.set_y (-15) # Arial italic 8 self.set_font ('Arial', 'I', 8) # Page number self.cell (0, 10, 'Page ' + str( self.page_no ()) + '/{ nb }', 0, 0, 'C')"
+    },
+    {
+      "index": 18,
+      "title": "Create a PDF file_ continued # Create an",
+      "text": "Create a PDF file_ continued # Create an instance of the PDF class pdf = PDF() #call the alias_nb_pages method to define the total number of pages (set to default nb ) pdf.alias_nb_pages () pdf.add_page () pdf.set_font ('Times', '', 12) #print cell with w, h, text, border and line/position for i in range(1, 5): pdf.cell (0, 10, 'When I grow up, I want to... ', 0, 1) pdf.output ('Test1.pdf', 'F') https://pyfpdf.readthedocs.io/en/latest/index.html"
+    },
+    {
+      "index": 19,
+      "title": "from pptx import Presentation #create presentation object root",
+      "text": "from pptx import Presentation #create presentation object root = Presentation() #create slide layout first_slide_layout = root.slide_layouts [0] #create slide object slide = root.slides.add_slide ( first_slide_layout ) slide.shapes.title.text = \" Your presentation\" #add a placeholder with index of 1; you can change the index for a different design slide.placeholders [1].text = \" Creating pptx file with Python“ root.save (\"Output1.pptx\") Create a Powerpoint presentation with the pptx library https://python-pptx.readthedocs.io/en/latest/user/quickstart.html"
+    },
+    {
+      "index": 20,
+      "title": "create a powerpoint presentation_ continued #add second slide",
+      "text": "create a powerpoint presentation_ continued #add second slide second_layout = root.slide_layouts [5] second_slide = root.slides.add_slide ( second_layout ) #comes with default textbox for title but you can create it as shown in previous slide #add textbox and text textbox = second_slide.shapes.add_textbox (inches(1), inches(1.5),inches(3), inches(3)) textframe = textbox.text_frame paragraph = textframe.add_paragraph () paragraph.text = “Bad boys, bad boys, whatcha gonna do? watcha gonna do when they come for you?\""
+    },
+    {
+      "index": 21,
+      "title": "create a powerpoint presentation_ continued https://python-pptx.readthedocs.io/en/latest/user/quickstart.html #add image",
+      "text": "create a powerpoint presentation_ continued https://python-pptx.readthedocs.io/en/latest/user/quickstart.html #add image to second slide img_path = 'C:/Users/Irina/Downloads/Dog_sunglasses.jpg’ #positioning left = Inches(3.5) top = Inches(2.5) #picture size height = Inches(4.5) pic = second_slide.shapes.add_picture ( img_path , left, top, height=height) root.save (‘Output1.pptx')"
+    },
+    {
+      "index": 22,
+      "title": "Create a powerpoint presentation_ continued https://python-pptx.readthedocs.io/en/latest/user/quickstart.html",
+      "text": "Create a powerpoint presentation_ continued https://python-pptx.readthedocs.io/en/latest/user/quickstart.html"
+    },
+    {
+      "index": 23,
+      "title": "Summary Generated word doc with text, image and",
+      "text": "Summary Generated word doc with text, image and table Generated excel file with cells, content and image/graph Generated pdf file with text, image/logo, and various other sections Generated a powerpoint file with 2 slides which include text and image For any questions, contact Irina at fcr_irina@yahoo.com"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "DOC Generation with Python (Skip MS office SUITE",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Document",
+      "topic": "general",
+      "videoSeconds": 143,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=143s",
+      "slideIndex": 5,
+      "slideTitle": "C reate a W ord doc",
+      "source": "youtube"
+    },
+    {
+      "claim": "Insert Paragraph before Method",
+      "topic": "general",
+      "videoSeconds": 214,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=214s",
+      "slideIndex": 8,
+      "slideTitle": "C reate a W ord doc _ continued",
+      "source": "youtube"
+    },
+    {
+      "claim": "Add a Page Break",
+      "topic": "general",
+      "videoSeconds": 242,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=242s",
+      "slideIndex": 12,
+      "slideTitle": "# widen the target column to make the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Create a Table",
+      "topic": "general",
+      "videoSeconds": 381,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=381s",
+      "slideIndex": 16,
+      "slideTitle": "CREATE a PDF file - Use fpdf library",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sentences",
+      "topic": "general",
+      "videoSeconds": 562,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=562s",
+      "slideIndex": 19,
+      "slideTitle": "from pptx import Presentation #create presentation object root",
+      "source": "youtube"
+    },
+    {
+      "claim": "Add an Image",
+      "topic": "general",
+      "videoSeconds": 674,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=674s",
+      "slideIndex": 23,
+      "slideTitle": "Summary Generated word doc with text, image and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Irina Dimitrov Health Care Management Data Science and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 2,
+      "slideTitle": "Irina Dimitrov Health Care Management Data Science and",
+      "source": "slide"
+    },
+    {
+      "claim": "Table of contents: Generate Word doc with text,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 3,
+      "slideTitle": "Table of contents: Generate Word doc with text,",
+      "source": "slide"
+    },
+    {
+      "claim": "G enerate Y our o wn d ocs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 4,
+      "slideTitle": "G enerate Y our o wn d ocs",
+      "source": "slide"
+    },
+    {
+      "claim": "C reate a W ord doc Use python-docx",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 6,
+      "slideTitle": "C reate a W ord doc Use python-docx",
+      "source": "slide"
+    },
+    {
+      "claim": "C reate a W ord doc _ continued",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 7,
+      "slideTitle": "C reate a W ord doc _ continued",
+      "source": "slide"
+    },
+    {
+      "claim": "C reate a W ord doc _ continued",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 9,
+      "slideTitle": "C reate a W ord doc _ continued",
+      "source": "slide"
+    },
+    {
+      "claim": "C reate a W ord doc _ continued",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 10,
+      "slideTitle": "C reate a W ord doc _ continued",
+      "source": "slide"
+    },
+    {
+      "claim": "import xlsxwriter #define workbook object with output file",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 11,
+      "slideTitle": "import xlsxwriter #define workbook object with output file",
+      "source": "slide"
+    }
+  ]
+}

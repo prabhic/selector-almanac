@@ -1,0 +1,60 @@
+{
+  "id": "2023-10-17-2023-10-17-ln-reduce-hallucinations",
+  "date": "2023-10-17",
+  "title": "LN-Reduce-Hallucinations",
+  "series": "seminar",
+  "topics": [
+    "rag"
+  ],
+  "video": {
+    "id": "P0gleu9WCGI",
+    "title": "AI Updates - October 20, 2023 - Open source AI, Fine-tuning LLMs, Ollama, LMStudio, Nvidia DGX",
+    "url": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+    "thumbnail": "https://i.ytimg.com/vi/P0gleu9WCGI/hqdefault.jpg",
+    "duration": 2126
+  },
+  "deck": {
+    "path": "2023/2023-10-17-LN-Reduce-Hallucinations.pptx",
+    "filename": "2023-10-17-LN-Reduce-Hallucinations.pptx",
+    "title": "LN-Reduce-Hallucinations",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-17-LN-Reduce-Hallucinations.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-17-LN-Reduce-Hallucinations.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-3d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Socrates Questions Can Reduce LLM Hallucinations Socrates (470–399",
+      "text": "Socrates Questions Can Reduce LLM Hallucinations Socrates (470–399 BC) Greece, Athens the founder of Western philosophy Plato ( 428-348 BC) Greece, Athens philosopher Aristotle (384–322 BC) Greece, Athens philosopher LLM can reduce hallucinations via Socratic self-questioning using simple specific focused questions. It gets expensive if using cloud-based services, because you end up submitting 10 questions instead of 1 . This is one more reason for running your models locally on your own hardware."
+    },
+    {
+      "index": 2,
+      "title": "Reduce Hallucinations - Terms and Publications CoT =",
+      "text": "Reduce Hallucinations - Terms and Publications CoT = Chain-of-Thought prompting ToT = Tree-of-Thought prompting Plan-and-Solve prompting Techniques For LLMs to Verify Themselves And Reduce Mistakes https://twitter.com/bindureddy/status/1712989785500025002 Chain-Of-Verification (CoVe) Reduces Hallucination In LLMs https://arxiv.org/pdf/2309.11495.pdf (September 2023) Large Language Models are Better Reasoners with Self-Verification https://export.arxiv.org/abs/2212.09561 (May 2023) RAG-Fusion https://github.com/Raudaschl/rag-fusion (October 2023) https://towardsdatascience.com/forget-rag-the-future-is-rag-fusion-1147298d8ad1 Promptbreeder - mutation/selection of prompts video: https://www.youtube.com/watch?v=tkX0EfNl4Fc paper: https://arxiv.org/abs/2309.16797 (September 2023)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Socrates Questions Can Reduce LLM Hallucinations Socrates (470–399",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 1,
+      "slideTitle": "Socrates Questions Can Reduce LLM Hallucinations Socrates (470–399",
+      "source": "slide"
+    },
+    {
+      "claim": "Reduce Hallucinations - Terms and Publications CoT =",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 2,
+      "slideTitle": "Reduce Hallucinations - Terms and Publications CoT =",
+      "source": "slide"
+    }
+  ]
+}

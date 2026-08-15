@@ -1,0 +1,283 @@
+{
+  "id": "2025-04-18-2025-04-18-ai-updates",
+  "date": "2025-04-18",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "benchmarks",
+    "rag",
+    "agents",
+    "coding",
+    "open-models",
+    "infra",
+    "claude",
+    "google",
+    "ml-fundamentals",
+    "enterprise",
+    "general"
+  ],
+  "video": {
+    "id": "H1E7jI47blY",
+    "title": "Have you heard these exciting AI news? - April 18, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=H1E7jI47blY",
+    "thumbnail": "https://i.ytimg.com/vi/H1E7jI47blY/hqdefault.jpg",
+    "duration": 1773
+  },
+  "deck": {
+    "path": "2025/2025-04-18-AI-Updates.pptx",
+    "filename": "2025-04-18-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-04-18-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-04-18-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "From AI Models  --  to AI Systems",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI GPT-4.1 OpenAI o3 & o4-mini Opera Agentic",
+      "text": "OpenAI GPT-4.1 OpenAI o3 & o4-mini Opera Agentic AI web browser experience Cursor \"Max Models\" NVIDIA - Native Python Support to CUDA Scale AI - 25 Bln valuation preparing training data NAS = Neural Architecture Search Windsurf Cascade on JetBrains IDEs AI Updates April 18, 2025 Crowd-sourced \"Arena\" Leaderboard \"LM Arena\" Search Tab and Other Tabs Jobs Linearity Theorem - improve LLM Quantization \"Task Master\" removes 90% Vibe coding errors OpenRouter Quasar Alpha MUSA SDK - alternative to Nvidia CUDA OpenHands LLM 32B from All Hands Dragontail model at LMArena NVIDIA UltraLong-8B Seaweed-7B Chinese AI model is better than Sora Chinese Kling AI Creative Studio OLMoTrace from Allen Institute for AI (Ai2) GPT for GSheets 7 GDocs - extension Amazon Nova Sonic GPT-4.1 & Llama-4 models on GitHub Models MAI-DS-R1 in GitHub Models Google rolls out AI video generator Gemini Live: Gemini App sees your android screen Affordable RAG re-ranking - One-Token Trick Wikipedia offers its data as a dataset Open AI uses Triton to write AI code Seadream Tops the Image Leaderboard n8n Workflow Automation DISCIPL = Planner + Follower Reasoning Ilya Sutskever's SSI valued at 32 Billion Emmy Noether - Symmetries in Physics From AI Models  --  to AI Systems"
+    },
+    {
+      "index": 2,
+      "title": "OpenAI GPT-4.1 GPT-4.1 (also \"mini\" and \"nano\"): https://www.youtube.com/watch?v=AIHNqAxzhRk",
+      "text": "OpenAI GPT-4.1 GPT-4.1 (also \"mini\" and \"nano\"): https://www.youtube.com/watch?v=AIHNqAxzhRk https://openai.com/index/gpt-4-1/ improved instruction following and long context capabilities outperforms GPT-4.0 (and even GPT-4.5 in some benchmark areas) smaller cheaper \"mini\" and \"nano\" models released pricing (per 1M tokens): $1.84 ($0.42 mini, $0.12 nano) Prompt caching discount increased from 50% to 75% coding - surpass o1-high and GPT-4.5 double the performance on the ADA polyglot benchmark better visual design better physics understanding 60% higher performance on Vince Cerf's internal coding benchmark better code suggestions in 55% of cases improved handling of XML, YAML, Markdown better understanding of negative instructions e nhanced content requirements ranking reduced overconfidence Context length 1 Million tokens (up from 128,000 in GPT-4.0) Excellent performance on \"needle in the haystack\" tests More accurate for RAG, Intelligent information retrieval Vision performance on par with GPT-4.5 GPT-4.1 mini outperforms GPT-4 mini for vision tasks Improved video long context understanding"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI o3 & o4-mini - AI Systems OpenAI",
+      "text": "OpenAI o3 & o4-mini - AI Systems OpenAI o3 & o4-mini https://openai.com/index/introducing-o3-and-o4-mini/ - intro & charts https://www.youtube.com/watch?v=sq8GBPUb3rk - video \"Flex\" plan - a 50% discount for slower processing ChatGPT memory feature AI can reference past conversations for more personalized interactions Note: xAI’s Grok also gets memory feature xAI's Grok Studio - create documents and apps OpenAI considers launching a social network to rival Elon Musk’s X and Meta’s Instagram GPT-5 delayed due to GPU shortages OpenAI will soon retire GPT-4 OpenAI Codex-CLI - open-source local coding agent https://github.com/openai/codex/tree/main/codex-cli"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates 1 Opera Agentic AI web browser",
+      "text": "AI Updates 1 Opera Agentic AI web browser experience An Opera AI agent called Browser Operator navigated the web on a user’s behalf in a science-fiction-like demonstration. https://www.tomsguide.com/computing/internet/exclusive-i-just-tried-operas-ai-powered-browser-operator-for-the-first-time-this-puts-chatgpt-on-notice Max Models in Cursor Cursor's default behavior is to send only a pruned or summarized portion of your context. This context reduction lead to frustrating experiences where models provide wrong answers The Solution - use Max Models in Cursor.  \"Max\" models are the same models - but without Cursor's heavy-handed context pruning. Both Claude 3.7 Sonnet MAX and Gemini 2.5 Pro MAX modes are designed to give the AI access to the entire long context that the underlying models support. In other words, Max models remove the artificial truncation or summarization that standard Cursor applies. https://www.vincentschmalbach.com/always-use-max-models-in-cursor-ide/ NVIDIA - Native Python Support to CUDA https://thenewstack.io/nvidia-finally-adds-native-python-support-to-cuda/ Scale AI - 25 Bln valuation - preparing training data Alexandr Wang https://en.wikipedia.org/wiki/Scale_AI"
+    },
+    {
+      "index": 5,
+      "title": "Neural Architecture Search - NAS NAS = Neural",
+      "text": "Neural Architecture Search - NAS NAS = Neural Architecture Search Came from deci.ai - Israeli startup Nvidia bought it 2 years ago , so deci.ai redirects to Nvidia Deci AI was co-founded in 2019 by Yonatan Geifman (CEO), Jonathan Elial (COO), and Ran El-Yaniv (Chief Scientist) They had developed SOTA object detection (YOLO-NAS - You Only Look Once). They used NAS while building it. NAS was used in Nvidia Llama 3.1 Nemotron Ultra 253B This LLM was released on April 8, 2025 It is derived from Meta Llama-3.1-405B-Instruct Open Source, accessible for commercial use Better than Llama4 and Deepseek-R1 Runs on an 8x H100 GPU setup with high inference throughput Cost-effective deployment compared to larger models, good for enterprise AI copilots, coding agents, scientific research assistants Toggleable \"Reasoning On/Off\" 128Ktokens Context Length https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1 https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1 https://sebastian-petrus.medium.com/nvidias-llama-nemotron-ultra-253b-via-api-b503bf8a0a37 Neural Architecture Search (NAS) is the process of automating the design of artificial neural network architectures How many layers should the network have? What type of layers should be used (e.g., convolutional, recurrent, dense)? How should these layers be connected? What hyperparameters (like learning rate, filter size) should be used within those layers? etc. NAS uses algorithms to automatically search through a space of possible architectures and find one that performs well on a specific task. NAS involves defining Search Space, selecting Search Strategy (Reinforcement Learning, Evolutionary Algorithms, Gradient-based Methods, Random Search), Performance Estimation Strategy for faster results (Training on smaller datasets or for fewer epochs, Using parameter sharing across child models, Predicting performance based on architectural properties)"
+    },
+    {
+      "index": 6,
+      "title": "We post our AI Updates Every Friday after",
+      "text": "We post our AI Updates Every Friday after 3pm EST It is usually 25-30 min long Links to slides are under the videos Subscribe to our YouTube channel to get notified when new videos are posted https://www.youtube.com/@lev-selector"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates 2 Windsurf Cascade on JetBrains IDEs",
+      "text": "AI Updates 2 Windsurf Cascade on JetBrains IDEs Agentic multi-step coding https://windsurf.com/blog/windsurf-wave-7 Note: OpenAI in talks about acquiring Windsurf for $3 Bln Linearity Theorem - improve LLM Quantization https://arxiv.org/abs/2411.17525 https://www.youtube.com/watch?v=Jfc07PuEhYo The \"linearity theorem\" helps to establish a direct relationship between the layer-wise ℓ2 reconstruction error and the model perplexity increase due to quantization. This enables: a simple data-free LLM quantization method using Hadamard rotations and MSE-optimal grids, dubbed HIGGS (Hadamard Incoherence with Gaussian MSE-optimal GridS), which outperforms all prior data-free approaches such as the extremely popular NF4 quantized format an optimal solution to the problem of finding non-uniform per-layer quantization levels which match a given compression constraint in the medium-bitwidth regime, obtained by reduction to dynamic programming. We demonstrate improved accuracy-compression trade-offs on Llama-3.1, Llama-3.2, and on Qwen-family models Further, we show that our method can be efficiently supported in terms of GPU kernels at various batch sizes, advancing both data-free and non-uniform quantization for LLMs."
+    },
+    {
+      "index": 8,
+      "title": "AI Updates 3 \"Task Master\" removes 90% Vibe",
+      "text": "AI Updates 3 \"Task Master\" removes 90% Vibe coding errors https://www.youtube.com/watch?v=1L509JK8p1I Idea - implement task management to reduce errors give AI coding agents a task management system that helps them understand the overall implementation plan and control the context for each step. Break down complex projects into small, manageable tasks; Track tasks' completion; Implement tasks in a logical order with dependencies mapped out Cloud Taskmaster - A command-line tool, integrates with Cursor Boomerang Task from Ruko Code - a similar tool with task management features OpenRouter - a platform providing access to many LLMs (OpenAI, Anthropic, Google, and many others) - https://openrouter.ai Quasar Alpha - one of the models on OpenRouter. https://medium.datadriveninvestor.com/i-used-openais-gpt-4-5-to-create-a-trading-strategy-it-returned-over-10x-the-broader-market-7ab2ccce8021"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 4 MUSA SDK - alternative to",
+      "text": "AI Updates 4 MUSA SDK - alternative to Nvidia CUDA by Chinese firm Moore Threads Supports Intel & ARM Processors along with their own GPUs Allows easy code porting from NVIDIA's CUDA Stack Allows parallel computing https://wccftech.com/china-first-in-house-alternative-to-nvidias-cuda-emerges-online/"
+    },
+    {
+      "index": 10,
+      "title": "OpenHands LLM 32B OpenHands LLM 32B from All",
+      "text": "OpenHands LLM 32B OpenHands LLM 32B from All Hands - https://www.all-hands.dev Strong & Open Coding Agent Model, 128k context built on top of Qwen Coder 2.5 Instruct 32B Self-Generated Training Data + Reinforcement Learning (RL) with SWE-Gym ( SWE = SoftWare Engineering ) SWE-Gym is the first environment designed specifically for training AI agents on real software engineering tasks. 2,438 Python tasks sourced from GitHub issues across 11 repositories like pandas ...; Executable environments (in terminal) with pre-configured dependencies and unit tests for each task; Test-driven verification to validate code solutions automatically https://www.all-hands.dev/blog/introducing-openhands-lm-32b----a-strong-open-coding-agent-model https://github.com/All-Hands-AI/OpenHands https://app.all-hands.dev - try it live ollama run huihui_ai/openhands-lm-abliterated ollama run omercelik/openhands-lm # we use this in PyCharm \"All Hands\" is based in the US ( University of Illinois Urbana Champaign and Carnegie Mellon University, Pittsburgh, PA) Founders: Robert Brennan (CEO), Xingyao Wang (Chief AI Officer), Graham Neubig (Chief Scientist) Funding from U.S.-based venture capital firms such as Menlo Ventures and Pillar VC 300 Contributors on GitHub"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates 5 Seaweed-7B Chinese video generation better",
+      "text": "AI Updates 5 Seaweed-7B Chinese video generation better than Sora ! from Bytedance, competitive against much larger models like Kling 1.6, Google Veo, massively outperforming Sora and Wan 2.1 text-to-video, image-to-video, and audio-driven synthesis output length up to 20 seconds. Multi-shot storytelling, controlled camera movements, synchronized audio-visual generation, realistic human animation and lip syncing Chinese models are crushing AI video leaderboards:  Wan (Alibaba), Kling, and ByteDance’s Seaweed https://www.youtube.com/watch?v=Gn2HlDfdCOA https://arxiv.org/abs/2504.08685 - paper Dragontail model at LMArena (Google?) on par with o3-mini-high and claude-3-7-sonnet-20250219-thinking-32k consistently delivers the correct answers ! https://www.geeky-gadgets.com/google-dragontail-ai-2025/ https://www.youtube.com/watch?v=LbiEkzt7yhQ NVIDIA UltraLong-8B Ultra-Long Context LLMs (1M, 2M, and 4M tokens) From Llama3.1-8B-Instruct 128K to 4M - https://arxiv.org/abs/2504.06214 https://huggingface.co/collections/nvidia/ultralong-67c773cfe53a9a518841fbbe https://www.marktechpost.com/2025/04/12/nvidia-a-releases-introduce-ultralong-8b-a-series-of-ultra-long-context-language-models-designed-to-process-extensive-sequences-of-text-up-to-1m-2m-and-4m-tokens/ Chinese Kling AI Creative Studio Kling 2.0 Master - video Kolors 2.0 - images sequential actions and expressions; natural speed and fluid motions; styles, editing https://www.klingai.com/global/"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates 6 Browser extension - GPT for",
+      "text": "AI Updates  6 Browser extension - GPT for Sheets™ and Docs™ brings ChatGPT, Gemini™, Claude, Perplexity and other AIs directly into Google Sheets™ and Google Docs™. https://workspace.google.com/marketplace/app/gpt_for_sheets_and_docs/677318054654 Amazon Nova Sonic - speech generation on AWS Bedrock OLMoTrace from Allen Institute for AI (Ai2) Tracing LLM Outputs Back to Trillions of Training Tokens https://arxiv.org/abs/2504.07096 Harvard Business Review research indicates that therapy and companionship have become the top use cases for AI Microsoft slows down data center expansion It shifts from costly AI training to money making AI inference. Moving towards a more balanced approach that prioritizes efficiency and cost-effectiveness. There are also concerns about a potential oversupply of AI infrastructure , leading to a more cautious approach to data center investments"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates 7 GPT-4.1 & Llama-4 models on",
+      "text": "AI Updates  7 GPT-4.1 & Llama-4 models on GitHub Models https://github.com/marketplace/models Google rolls out AI video generator to Gemini Advanced subscribers Veo 2 text-to-video AI model creating high-resolution clips with \"cinematic realism\" Select Veo 2 from the Gemini model dropdown Enter a prompt to generate an eight-second video in 720p Whisk Animate tool is coming to Google One AI Premium users https://www.theverge.com/news/648816/google-veo-2-ai-video-generation-gemini-advanced US government now requires Nvidia to get a permit to sell its H-20 AI chips to China, fearing misuse in powerful computers. Affordable RAG re-ranking - One-Token Trick Ask LLM to tell if the text is relevant or not using 1 token response length - thus reducing the cost. https://blog.getzep.com/the-one-token-trick/ MAI-DS-R1 in GitHub Models MAI-DS-R1 is an updated version of DeepSeek-R1 It is refined by Microsoft AI to handle complex queries, work across multiple languages, and provide access to previously restricted information https://github.blog/changelog/2025-04-17-mai-ds-r1-is-now-generally-available-in-github-models/ Gemini Live - feature of Gemini app on Android allowing it to see and respond to what is on your screen"
+    },
+    {
+      "index": 14,
+      "title": "Wikipedia offers its data as a dataset Wikipedia",
+      "text": "Wikipedia offers its data as a dataset Wikipedia Offers AI-Ready Dataset to Ease Bot Surge Wikipedia is being hit by overwhelming traffic from AI bots scraping its pages for training data To reduce this traffic, Wikimedia Foundation has partnered with Kaggle (Google) to release an official, AI-friendly JSON formatted version of Wikipedia. The datasets in English and French, stripped of links, citations, and markdown Kaggle with host the dataset and help make it easily accessible to researchers and developers."
+    },
+    {
+      "index": 15,
+      "title": "Open AI uses Triton to write AI code",
+      "text": "Open AI uses Triton to write AI code Open AI uses Triton to write AI code https://triton-lang.org/main/index.html https://github.com/triton-lang/triton https://triton-lang.org/main/python-api/triton.html Triton is a language and compiler for parallel programming . It is Python-based programming environment for writing custom Deep Neural Networks compute kernels. Nvidia Triton Inference Server - completely separate project. Naming c oincidence import torch import triton import triton.language as tl # ----------------------------------------------------------- @triton.jit def add_kernel(x_ptr, y_ptr, output_ptr, n_elements, BLOCK_SIZE: tl.constexpr): pid = tl.program_id(axis=0) block_start = pid * BLOCK_SIZE offsets = block_start + tl.arange(0, BLOCK_SIZE) mask = offsets < n_elements x = tl.load(x_ptr + offsets, mask=mask) y = tl.load(y_ptr + offsets, mask=mask) output = x + y tl.store(output_ptr + offsets, output, mask=mask) # ----------------------------------------------------------- def add(x: torch.Tensor, y: torch.Tensor): output = torch.empty_like(x) assert x.is_cuda and y.is_cuda and output.is_cuda n_elements = output.numel() grid = lambda meta: (triton.cdiv(n_elements, meta['BLOCK_SIZE']), ) add_kernel[grid](x, y, output, n_elements, BLOCK_SIZE=1024) return output # ----------------------------------------------------------- # Example usage: torch.manual_seed(0) size = 98432 x = torch.rand(size, device='cuda') y = torch.rand(size, device='cuda') output_triton = add(x, y) output_torch = x + y print(f'The maximum difference between torch and triton is ' f'{torch.max(torch.abs(output_torch - output_triton))}')"
+    },
+    {
+      "index": 16,
+      "title": "Seadream Tops the Image Leaderboard ByteDance’s Seadream 3.0",
+      "text": "Seadream Tops the Image Leaderboard ByteDance’s Seadream 3.0 (Mogao) https://x.com/ArtificialAnlys/status/1912122278722379903 https://team.doubao.com/en/tech/seedream3_0 Seadream 3.0 - Hi-Res Text-to-Image Model Artificial Analysis Image Arena Leaderboard https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard https://huggingface.co/spaces/ArtificialAnalysis/Text-to-Image-Leaderboard"
+    },
+    {
+      "index": 17,
+      "title": "n8n Workflow Automation n8n is an open-source workflow",
+      "text": "n8n Workflow Automation n8n is an open-source workflow automation https://n8n.io ( nodemation ) connect different apps, tools, and services—such as Slack, Google Sheets, databases, and APIs—using a visual, drag-and-drop interface Supports over 400 native integrations and can connect to thousands of other apps via HTTP requests if they offer an API Hybrid No-Code/Low-Code Self-Hosting & Cloud Options allows integration of AI tools and agents into workflows Open Source & Community Driven n8n is often chosen over competitors like Zapier or Make for its flexibility, open-source nature, and ability to self-host"
+    },
+    {
+      "index": 18,
+      "title": "DISCIPL = Planner + Follower Reasoning MIT Researchers",
+      "text": "DISCIPL = Planner + Follower Reasoning MIT Researchers Introduce DISCIPL . It is a reasoning framework consisting of two steps - a \"Planner\" and \"Follower\" . A \"Planner\" language model generates a task-specific inference program in a python-based framework. This program is then  executed by a population of \"Follower\" models to search for valid outputs. These programs operate by iteratively proposing partial solutions and scoring them based on constraints. The architecture supports multiple inference techniques, including importance sampling , Sequential Monte Carlo (SMC) , and rejection sampling . In performance evaluations, DISCIPL proved remarkably effective raising success from 4% to 87-88%, surpassing GPT-4o-mini in some instances . https://arxiv.org/pdf/2504.07081 - paper https://www.marktechpost.com/2025/04/16/mit-researchers-introduce-discipl-a-self-steering-framework-using-planner-and-follower-language-models-for-efficient-constrained-generation-and-reasoning/"
+    },
+    {
+      "index": 19,
+      "title": "Ilya Sutskever's SSI valued at 32 Billion Alphabet",
+      "text": "Ilya Sutskever's SSI valued at 32 Billion Alphabet & Nvidia invest in OpenAI co-founder Ilya Sutskever's Startup SSI (Safe Super Intelligence) SSI raised additional $2B at $32B valuation SSI will use Google's TPU chips AI developers have historically preferred Nvidia's GPUs which hold more than 80% of the AI chips market. But SSI is so far primarily using TPUs rather than GPUs for its AI research and development Amazon is building Trainium and Inferentia chips. Anthropic continues to use TPUs for its AI development Safe Super Intelligence Inc. (SSI): Sole Focus and long term goal is building \"safe superintelligence\". This is their mission, name, and sole product SSI considers this the most important technical problem of our time - creating AI vastly smarter than humans, while ensuring it remains aligned with human interests and values, preventing potential existential risks Developing this superintelligence \"safely\" Research-Oriented, intentionally insulate themselves from short-term commercial pressures, product cycles, and management overhead that might distract from their core mission SSI has offices in Palo Alto, California, and Tel Aviv, Israel"
+    },
+    {
+      "index": 20,
+      "title": "Emmy Noether - Symmetries in Physics Symmetries in",
+      "text": "Emmy Noether - Symmetries in Physics Symmetries in Physics According to Emmy Noether Translation Symmetry in Space = position doesn't matter. This symmetry leads to conservation of momentum - when you throw an object in empty space, it continues moving at constant velocity. Rotation Symmetry = The laws of physics remain unchanged when you rotate an experiment. This symmetry leads to conservation of angular momentum - a spinning object in empty space will continue spinning indefinitely. Time Translation Symmetry = The laws of physics don't change over time; experiments done today or tomorrow yield the same results. This symmetry leads to conservation of energy - in a static universe, energy would be conserved. Local Symmetries (General Covariance) = In general relativity, the laws of physics look the same regardless of your frame of reference, even for accelerating or rotating frames. However, these are local symmetries (applying to small regions) rather than global symmetries. Gauge Symmetry = Electrons have a \"phase\" that can be offset by any amount simultaneously for all electrons without changing anything physically. This symmetry leads to conservation of electric charge. https://www.youtube.com/watch?v=lcjdwSY2AzM https://en.wikipedia.org/wiki/Emmy_Noether Derek Muller Emmy Noether 1882-1935"
+    },
+    {
+      "index": 21,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai English-only queries Total #models: 225 Total #votes: 2,871,517 Last updated: 2025-04-16 Coding China China China China China x.ai x.ai China China China China China China China Llama-4-Maverick is still on 30th place"
+    },
+    {
+      "index": 22,
+      "title": "\"LM Arena\" Search Tab and Other Tabs",
+      "text": "\"LM Arena\" Search Tab and Other Tabs"
+    },
+    {
+      "index": 23,
+      "title": "Jobs AI Job Market Growth Despite Workforce Uncertainty",
+      "text": "Jobs AI Job Market Growth Despite Workforce Uncertainty AI-related jobs are increasing after a slight dip Global demand is up, especially in Singapore, Luxembourg, and Hong Kong Some businesses expect AI to shrink their workforce, others predict growth. Tools like GitHub Copilot might increase hiring but shift job skills toward more human-centered abilities Python remains the most sought-after skill, but interest in generative AI is rising. A gender imbalance persists in AI jobs, H igh training costs are shifting advanced research from universities to companies. More funding and collaboration are needed to support future AI workforce demands."
+    },
+    {
+      "index": 24,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 25,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "From AI Models  --  to AI Systems",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI GPT-4.1 OpenAI o3 & o4-mini Opera Agentic",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI GPT-4.1 GPT-4.1 (also \"mini\" and \"nano\"): https://www.youtube.com/watch?v=AIHNqAxzhRk",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI GPT-4.1 GPT-4.1 (also \"mini\" and \"nano\"): https://www.youtube.com/watch?v=AIHNqAxzhRk",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI o3 & o4-mini - AI Systems OpenAI",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI o3 & o4-mini - AI Systems OpenAI",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 1 Opera Agentic AI web browser",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates 1 Opera Agentic AI web browser",
+      "source": "slide"
+    },
+    {
+      "claim": "Neural Architecture Search - NAS NAS = Neural",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 5,
+      "slideTitle": "Neural Architecture Search - NAS NAS = Neural",
+      "source": "slide"
+    },
+    {
+      "claim": "We post our AI Updates Every Friday after",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 6,
+      "slideTitle": "We post our AI Updates Every Friday after",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 Windsurf Cascade on JetBrains IDEs",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates 2 Windsurf Cascade on JetBrains IDEs",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 3 \"Task Master\" removes 90% Vibe",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates 3 \"Task Master\" removes 90% Vibe",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 4 MUSA SDK - alternative to",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 4 MUSA SDK - alternative to",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenHands LLM 32B OpenHands LLM 32B from All",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 10,
+      "slideTitle": "OpenHands LLM 32B OpenHands LLM 32B from All",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 5 Seaweed-7B Chinese video generation better",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 5 Seaweed-7B Chinese video generation better",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 6 Browser extension - GPT for",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=H1E7jI47blY",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates 6 Browser extension - GPT for",
+      "source": "slide"
+    }
+  ]
+}

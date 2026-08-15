@@ -1,0 +1,245 @@
+{
+  "id": "2023-09-29-2023-09-29-ai-updates-lev",
+  "date": "2023-09-29",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "claude",
+    "openai",
+    "general",
+    "open-models",
+    "benchmarks",
+    "rag",
+    "multimodal",
+    "coding",
+    "google"
+  ],
+  "video": {
+    "id": "m26ikHKCPbg",
+    "title": "AI Updates - September 29, 2023",
+    "url": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+    "thumbnail": "https://i.ytimg.com/vi/m26ikHKCPbg/hqdefault.jpg",
+    "duration": 940
+  },
+  "deck": {
+    "path": "2023/2023-09-29-AI-Updates-Lev.pptx",
+    "filename": "2023-09-29-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-29-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-29-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates September 29, 2023",
+      "text": "AI Updates September 29, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "60 years ago - nuclear arms race and",
+      "text": "60 years ago - nuclear arms race and space race between US and Soviet Union Anthropic will shift its operations to AWS. This deal could be largest AWS startup investment ever. Amazon states that they are getting only a minor stake in Anthropic, not even a seat on the board. The valuation is undisclosed. Could it be ~$40B ? https://www.cnbc.com/2023/09/25/amazon-to-invest-up-to-4-billion-in-anthropic-a-rival-to-chatgpt-developer-openai.html Amazon investing $4 Bln into Anthropic Today - AI Race globally (US, Europe, Asia) OpenAI is reportedly raising funds at a valuation of $80-$90 Bln https://techcrunch.com/2023/09/26/openai-is-reportedly-raising-funds-at-a-valuation-of-80-billion-to-90-billion/"
+    },
+    {
+      "index": 4,
+      "title": "Speed of Development in AI Keep Increasing Wave",
+      "text": "Speed of Development in AI Keep Increasing Wave of Change Tsunami Wave Blast"
+    },
+    {
+      "index": 5,
+      "title": "Anthropic's Constitutional AI Great 14 min interview with",
+      "text": "Anthropic's Constitutional AI Great 14 min interview with Dario Amodei, CEO of Anthropic. Very concise explanation of how Claude is different from ChatGPT. .. https://www.youtube.com/watch?v=5GtVrk00eck Ideas Scaling models make them better. Alignment is important. Claude - safety and controllability, predictability. Constitutional AI - following explicit set of principles Reinforcement Learning - learning from user feedback Constitutional AI vs meta-prompting. Meta-prompting = forcing the model to follow specific instructions. Constitutional AI = taking the model to a school. Training the model to follow principles. Use a 2nd model to evaluate if the 1st model follows the principles. Do it in a loop. Data Privacy and Security, Amazon Bedrock .. https://aws.amazon.com/bedrock/ Challenge of evaluation the model's output Existential risks Difficulty of keeping open source models safe Dario Amodei, CEO of Anthropic"
+    },
+    {
+      "index": 6,
+      "title": "Meta is Doing God’s Work Meta is Doing",
+      "text": "Meta is Doing God’s Work Meta is Doing God’s Work by Releasing Shockingly-Good Coding Models to the World LLaMa,    Code LLaMa https://medium.com/@ignacio.de.gregorio.noblejas/meta-is-doing-gods-work-releases-shockingly-good-coding-models-to-the-world-848975e7d1f0 Yann LeCun, Chief AI Scientist at Meta, is convinced that \"open-source solutions will eventually win over private ones like ChatGPT.\" Why Meta is doing this? The official reason? - Because they feel that such a disruptive technology should be open-source. The probable real reason? - They want to ensure that no company on Earth develops a moat around AI , by making sure that the knowledge required to build these high-tech solutions is open to the public. For instance, if you’re Microsoft or OpenAI and you launch your closed-sourced new model, and three weeks later Meta launches an open-source version that is ‘close enough’ in terms of performance, your technological moat is gone."
+    },
+    {
+      "index": 7,
+      "title": "Meta Connect 2023 Meta Connect 2023 was a",
+      "text": "Meta Connect 2023 Meta Connect 2023  was a two-day event Sept 27, 28. Meta Quest 3 mixed-reality device VR games and apps Meta Quest for Business Ray-Ban Meta Smart Glasses (with AI, cameras, and speakers - can be used for live streaming, you can talk to it, it can answer your questions) AI Chatbots, Llamas, and IMUs (inertial measurement units) ImageBind - single multimodal embedding (text, image/video, audio, 3D depth, thermal, inertial) Meta AI Studio platform Emu - high quality text-to-image AI latent diffusion model. P re-trained on 1.1 B image-text pairs and fine-tuned with only a few thousand carefully selected high-quality images. AI in all messaging apps (Messenger, WhatsApp, ...) Meta Quest 3 ImageBind Smart Glasses"
+    },
+    {
+      "index": 8,
+      "title": "AI Race Status HuggingFace.co > 1379 entries (was",
+      "text": "AI Race Status HuggingFace.co > 1379 entries (was ~346 entries on July 16th) Google Gemini - multimodal generative AI (answer to GPT-4) partially out Meta 3 to be released in 2024, using their own infrastructure Microsoft - event Sept 21 - Copilot (Bing, Edge, Microsoft 365, Surface and Windows) OpenAI - ChatGPT can now see, hear, and speak. Voice mode and image inputs - starting to feel like the interface to a real AI DALL-E 3, race against Google towards multimodal model Apple - Local LLMs - Enthropic - Claude 2 stability.ai (image, audio, language) - text2image - install locally - https://www.youtube.com/watch?v=aiZWEbUjAGw - stable audio - https://stability.ai/stable-audio - stableLM (LLM) - https://github.com/stability-AI/stableLM/ Tesla : humanoid Tesla Bot \"Optimus\" (robot) learns new skills. According to Musk, it will be the : \"Majority of Tesla’s Long-Term Value.\" https://twitter.com/Tesla_Optimus/status/1705728820693668189 Does a language model trained on “A is B” generalize to “B is A”? E.g. When trained only on “George Washington was the first US president”, can models automatically answer “Who was the first US president?” Our new paper shows they cannot! - Owain Evans https://twitter.com/OwainEvans_UK Alibaba - trying to capture the vast Chinese LLM assistant market https://twitter.com/teortaxesTex/status/1706431894970077364 Mistral AI (France, people from DeepMind & Meta) has raised $113M in June. They just released their first teaser - a 7b open-source LLM .. https://mistral.ai .. https://huggingface.co/docs/transformers/main/model_doc/mistral .. https://ollama.ai/library/mistral"
+    },
+    {
+      "index": 9,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset and links https://huggingface.co/spaces/gsaivinay/open_llm_leaderboard - added GPT-4 and GPT-3.5 Sep 29, 2023 1368 entries (was ~346 entries on July 16th before LLaMa July 18) GPT-4 (best) and GPT-3.5 (31st place) provided for comparison All top positions (except GPT) are LLaMa 70B 16bit and require ~160 GB VRAM to run. Reducing N-params from 70B down to 30,13,7B causes severe reduction of average test scores Reducing precision from 16bits down to 4bits surprisingly preserves the quality of the model rank    size  avg_quality  bits  VRAM  name 0   1,760B    84.3        16  4,000  GPT-4 1      70B    74.06       16    160  AIDC-ai-business/Marcoroni-70B-v1 2      70B 74.05       16    160  ICBU-NPU/FashionGPT-70B-V1.1 ... 33     175B    71.9        16    400  GPT-3.5 37      70B    71.36        8    160  garage-bAInd/Camel-Platypus2-70B ?      70B    70.37        4     45  garage-bAInd/Camel-Platypus2-70B 75      65B    69.94       16    160  upstage/llama-65b-instruct 92     180B    68.74       16    400  tiiuae/ falcon-180B 120      70B    66.8        16 160 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 13B    66.03       16         Aspik101/trurl-2-13b-pl-instruct_unload 30B    64.21        4     20  gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps 40b    63.47       16         tiiuae/ falcon-40b -instruct (was #1 before LLaMa2) 13B    63.19        4     10  Open-Orca/OpenOrca-Platypus2-13B 7b    62.4         4      6  mistralai/Mistral-7B-v0.1 7b    59.89       16         HyperbeeAI/Tulpar-7b-v0 7b    55.72        4      6  joehuangx/spatial-vicuna-7b-v1.5-LoRA"
+    },
+    {
+      "index": 10,
+      "title": "Embedding Model and Vector Search Retriever VectorDB Augmented",
+      "text": "Embedding Model and Vector Search Retriever VectorDB Augmented Query LLM Query Response Embedding Model - How Text Converted to Vectors Vector Search - SQL, tags, cosine similarity, etc. Example searching within a Bible text: Prompt: \" who divided the waters of red sea \" Good Embedding + Search : \" Moses , following God’s command, stretched out his hand over the sea with his staff, and God caused the sea to be divided \" Bad Embedding + Search : \"And king Solomon made a navy of ships in Eziongeber, which [is] beside Eloth, on the shore of the Red sea , in the land of Edom.\""
+    },
+    {
+      "index": 11,
+      "title": "what is the best embedding model for semantic",
+      "text": "what is the best embedding model for semantic search Massive Text Embedding Benchmark (MTEB) Leaderboard ~80 models. https://huggingface.co/spaces/mteb/leaderboard Lexical search = keyword search (exact matches) Semantic search = looks at the meaning of words and phrases Embedding model - transform text into an embedding vector (a.k.a. bi-encoder - performing self-attention over the input and candidate label, mapping them to a dense vector space, combining them at the end for a final representation). OpenAI's text-embedding-ada-002 is a leading embedding model. It can embed approximately 6,000 words (12 pages) into a 1,536-dimensional vector. It is only available via API. https://platform.openai.com/docs/guides/embeddings/what-are-embeddings Convert open-source 768-dimensional MPNet embeddings into text-ada-002 embeddings - https://arxiv.org/abs/2306.12689"
+    },
+    {
+      "index": 12,
+      "title": "What is the best embedding model for semantic",
+      "text": "What is the best embedding model for semantic search Some embedding models for semantic search: BERT (open source - Bidirectional Encoder Representations from Transformers ): This model is a good fit for semantic search because it can be used to classify documents as relevant or irrelevant for a specific query. Bi-encoder: This model is fast because it can compute the embeddings of documents in a corpus once and for all. SBERT (open source): multi- qa -dot , uses mean pooling for encoding and cosine-similarity for retrieval. https://www.sbert.net - sentence_transformers (train your own embedding models) Cohere : This model returns a vector of length 4096. Pre-Trained Sentence Embedding Models: These models are suitable for symmetric semantic search. Pre-Trained MS MARCO Models: These models are suitable for asymmetric semantic search. BGE (open source, HuggingFace ) - considered the best open-source embedding models txtai - all-in-one embeddings database is for semantic search and language model workflows. ChromaDB - open-source vectorDB for storing vector embeddings for LLM applications."
+    },
+    {
+      "index": 13,
+      "title": "How to Build an LLM from Scratch https://towardsdatascience.com/how-to-build-an-llm-from-scratch-8c477768f1f9",
+      "text": "How to Build an LLM from Scratch https://towardsdatascience.com/how-to-build-an-llm-from-scratch-8c477768f1f9 Meta’s Llama 2 models required for training: 7b model -   180,000 GPU-hours 70b model - 1,700,000 GPU-hours So 100b model ~ 2,400,000 GPU-hours Renting GPU on cloud: $1-2 per hour per one A100 GPU So ~100b model training would cost ~$3M Buying hardware: One A100 cost ~$10K  (H100 ~31K) Say we buy 1,000 of A100s for $10M Energy 1,000 Megawatt-hours to train a 100b model One Megawatt-hour costs $100 So energy to train 100b model: ~$100K Salaries - at least $1M Step 1: Data Curation - Terabytes of data .. GPT-3 175b: 0.5T Tokens .. Llama 70b: 2T tokens .. Falcon 180b: 3.5T Clean text, remove low quality texts, de-duplicate, remove private and copyrighted materials, tokenize Step 2: Architecture (transformer): Encoder-only (self-attention, embedding) Decoder-only - causal (asymmetric) language modeling, does not allow (masked) self-attention with future elements in a sequence. This works well for text generation and is used in most LLMs (GPT-3, Llama, Falcon, ... ) Encoder-Decoder - translation, summarization, ... - adds cross-attention between encoder and decoder (a.k.a masked language model or denoising autoencoder). Facebook’s BART (~140M params) is using this design. Step 3: Training - self-supervised learning. mixed precision training, 3D parallelism (pipeline, model, data), Zero Redundancy Optimizer (ZeRO) - to reduce redundancy during parallelism. Checkpointing, wight decay (penalize for large parameter values), gradient clipping (avoid large gradients), Batch size, Learning rate, Optimizer, Dropout Step 4: Evaluation - ARC, Hellaswag, Massive Multitask Language Understanding (MMLU), TruthfulQA"
+    },
+    {
+      "index": 14,
+      "title": "Training a LLM Costs GPT-4 training was $100M",
+      "text": "Training a LLM Costs GPT-4 training was $100M (as per Sam Altman) GPT-3 training was   ~$5M Original LLaMa was trained on 2048 GPUs A100 for 23 days. Cost if renting = $1.7M ( if paying $1.5/hr for an A100 80GB GPU) Cost if buying = $30M (electricity ~$30K) LLaMa2 training ( if paying $1.5/hr for a A100 80GB GPU): size     gpu-hrs    $ 7B:     184,320  $0.28M 13B:     368,640  $0.54M 70B:   1,720,320  $2.58M ----------------------- Total: 3,311,616  $5M $85K to train LLaMA-2-7b model: https://news.ycombinator.com/item?id=35391469 $30K to train 7B model https://www.linkedin.com/pulse/quick-cost-analysis-openais-new-fine-tuning-gpt-35-model-khanh-le/ https://news.ycombinator.com/item?id=35008694 A more economical alternative is to fine-tune an existing LLM Fine-tuning a LLaMA-2-7b model: https://www.reddit.com/r/LocalLLaMA/comments/16cvwlh/detailed_log_of_my_findings_and_failures_training/ DeepLearning.ai Efficient Fine-Tuning for Llama-v2-7b on a Single GPU https://www.youtube.com/watch?v=g68qlo9Izf0 Alpaca Model fine-tuned for $600 https://medium.com/@martin-thissen/llama-alpaca-chatgpt-on-your-local-computer-tutorial-17adda704c23 How to Build a Multi-GPU System for Deep Learning in 2023 https://towardsdatascience.com/how-to-build-a-multi-gpu-system-for-deep-learning-in-2023-e5bbb905d935"
+    },
+    {
+      "index": 15,
+      "title": "RAG - Vector Search is not all you",
+      "text": "RAG - Vector Search is not all you need https://ai.plainenglish.io/vector-search-is-not-all-you-need-ecd0f16ad65e Retrieval Augmented Generation (RAG) Embedding models (BERT or RoBERTa) Searching using vector similarity Semantic Gap Between Questions and Answers Q and A vectors may be not similar. Embeddings fail to capture the inferential link Q -> A . One text passage may contain several ideas. If the whole passage is represented by one vector, it is impossible to distinguish relevant sections from irrelevant ones. U sing sentence-level chunks can help isolate concepts, but increases number of vectors (computational overhead). There is trade-offs between precision and tractability. Some questions demand synthesizing facts spread across multiple documents . Vector search can not do such multi-hop reasoning . Semantic model is opaque about how passages are selected. This lack of transparency makes results difficult to explain, verify, and improve. It also limits deployability for business-critical applications. A core limitation of standard vector search is its singular focus on semantic similarity. However, real-world reasoning requires modeling diverse relationships between content. Knowledge graph of relationships : Topical - share rare words (topics) Semantic - connect vectors based on vector similarity Structural - connected to the specific sections, pages, or documents they appear in Temporal - events linked chronologically. Entity relationships - co-reference links between passages referencing the same real-world entities .. https://towardsdatascience.com/all-you-need-to-know-about-vector-databases-and-how-to-use-them-to-augment-your-llm-apps-596f39adfedb .. https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53"
+    },
+    {
+      "index": 16,
+      "title": "VectorDB, Fine Tuning, Running llama2 on Mac, extracting",
+      "text": "VectorDB, Fine Tuning, Running llama2 on Mac, extracting data from documents, ... All You Need to Know about Vector Databases and How to Use Them to Augment Your LLM Apps - by Dominik Polzer https://towardsdatascience.com/all-you-need-to-know-about-vector-databases-and-how-to-use-them-to-augment-your-llm-apps-596f39adfedb Fine Tuning LLM: Parameter Efficient Fine Tuning (PEFT) — LoRA & QLoRA — Part 1 - by A B Vijay Kumar https://abvijaykumar.medium.com/fine-tuning-llm-parameter-efficient-fine-tuning-peft-lora-qlora-part-1-571a472612c4 How to run llama2(13B/70B) on mac - llama.cpp https://taozhi.medium.com/how-to-run-llama2-13b-70b-on-mac-cd001b363801 Extract Data from Documents with ChatGPT https://wavelineai.medium.com/extract-data-from-documents-with-chatgpt-1ad6a507a3f0 10 Ways to Improve the Performance of Retrieval Augmented Generation Systems https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c Beyond Vector Search: Knowledge Management with Generative AI https://medium.com/@dave-shap/beyond-vector-search-knowledge-management-with-generative-ai-6c2d10b481a0 Practitioners guide to fine-tune LLMs for domain-specific use case https://cismography.medium.com/practitioners-guide-to-fine-tune-llms-for-domain-specific-use-case-part-1-4561714d874f Combining Text-to-SQL with Semantic Search for Retrieval Augmented Generation https://medium.com/llamaindex-blog/combining-text-to-sql-with-semantic-search-for-retrieval-augmented-generation-c60af30ec3b Run Faster, Run Lighter: The Art of Running Quantized Models on Your Laptop https://artificialcorner.com/run-faster-run-lighter-the-art-of-running-quantized-models-on-your-laptop-6d8095c23322 Fine-Tuning Your Embedding ... for RAG https://betterprogramming.pub/fine-tuning-your-embedding-model-to-maximize-relevance-retrieval-in-rag-pipeline-2ea3fa231149"
+    },
+    {
+      "index": 17,
+      "title": "Running 3B LLM locally on iOS and Android",
+      "text": "Running 3B LLM locally on iOS and Android compiled a PyTorch AI model to run locally on iOS & Android! https://www.youtube.com/watch?v=c8YM15v9w8M start by building a simple language model in Python that runs on an Intel CPU then accelerate it using CUDA for Nvidia GPUs Metal for iOS GPUs Vulkan for Android GPUs Tensor Virtual Machine for both iOS and Android comparing and contrasting different GPU programming techniques (computation vs allocation, abstraction vs transformation, stochastic optimization vs gradient based optimization) next goal is to get a 3B model to pass the US Medical Licensing exam and run on mobile devices Siraj Raval"
+    },
+    {
+      "index": 18,
+      "title": "AI project ideas for a large company or",
+      "text": "AI project ideas for a large company or industry sector? The Batch a brainstorming recipe: (i) break jobs down into tasks, (ii) evaluate common tasks for AI assistance or automation, (iii) assess value. https://www.deeplearning.ai/the-batch/issue-215/ Andrew Ng"
+    },
+    {
+      "index": 19,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates September 29, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates September 29, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "60 years ago - nuclear arms race and",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 3,
+      "slideTitle": "60 years ago - nuclear arms race and",
+      "source": "slide"
+    },
+    {
+      "claim": "Speed of Development in AI Keep Increasing Wave",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 4,
+      "slideTitle": "Speed of Development in AI Keep Increasing Wave",
+      "source": "slide"
+    },
+    {
+      "claim": "Anthropic's Constitutional AI Great 14 min interview with",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 5,
+      "slideTitle": "Anthropic's Constitutional AI Great 14 min interview with",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta is Doing God’s Work Meta is Doing",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 6,
+      "slideTitle": "Meta is Doing God’s Work Meta is Doing",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta Connect 2023 Meta Connect 2023 was a",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 7,
+      "slideTitle": "Meta Connect 2023 Meta Connect 2023 was a",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Race Status HuggingFace.co > 1379 entries (was",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 8,
+      "slideTitle": "AI Race Status HuggingFace.co > 1379 entries (was",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 9,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "source": "slide"
+    },
+    {
+      "claim": "Embedding Model and Vector Search Retriever VectorDB Augmented",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 10,
+      "slideTitle": "Embedding Model and Vector Search Retriever VectorDB Augmented",
+      "source": "slide"
+    },
+    {
+      "claim": "what is the best embedding model for semantic",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 11,
+      "slideTitle": "what is the best embedding model for semantic",
+      "source": "slide"
+    },
+    {
+      "claim": "What is the best embedding model for semantic",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 12,
+      "slideTitle": "What is the best embedding model for semantic",
+      "source": "slide"
+    }
+  ]
+}

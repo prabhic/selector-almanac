@@ -1,0 +1,763 @@
+{
+  "id": "2026-01-23-2026-01-23-ai-updates",
+  "date": "2026-01-23",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "agents",
+    "benchmarks",
+    "coding",
+    "claude",
+    "open-models",
+    "google",
+    "multimodal",
+    "openai",
+    "infra",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "cZYFF1zvI8k",
+    "title": "Have you heard these exciting AI news? - January 23, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=cZYFF1zvI8k",
+    "thumbnail": "https://i.ytimg.com/vi/cZYFF1zvI8k/hqdefault.jpg",
+    "duration": 1951
+  },
+  "deck": {
+    "path": "2026/2026-01-23-AI-Updates.pptx",
+    "filename": "2026-01-23-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-01-23-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-01-23-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "From manual coder to orchestrator of AI agent fleets",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 24,
+      "label": "00:24",
+      "source": "youtube"
+    },
+    {
+      "title": "skills.sh - directory of skills",
+      "startSeconds": 75,
+      "label": "01:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Cline vs Claude Code AI coding assistants",
+      "startSeconds": 224,
+      "label": "03:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Block's open-source Goose vs Claude Code",
+      "startSeconds": 293,
+      "label": "04:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Stack Overflow - Rapid Decline",
+      "startSeconds": 349,
+      "label": "05:49",
+      "source": "youtube"
+    },
+    {
+      "title": "GLM-4.7 Flash - Lightweight and Free",
+      "startSeconds": 375,
+      "label": "06:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Baidu ERNIE 5.0 - 2.4T params",
+      "startSeconds": 431,
+      "label": "07:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Anti-gravity Update - Skill Builder capability",
+      "startSeconds": 482,
+      "label": "08:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini CLI Update: Session Persistence",
+      "startSeconds": 557,
+      "label": "09:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Aion UI - open-source \"Co-work\" alternative",
+      "startSeconds": 595,
+      "label": "09:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Manus AI (Meta) - develop mobile apps",
+      "startSeconds": 714,
+      "label": "11:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code extension for VS Code",
+      "startSeconds": 764,
+      "label": "12:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Moonshots podcast with Ray Kurzweil",
+      "startSeconds": 820,
+      "label": "13:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Google AI Studio upgrades",
+      "startSeconds": 894,
+      "label": "14:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Robotics muscles (actuators)",
+      "startSeconds": 913,
+      "label": "15:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Google TranslateGemma",
+      "startSeconds": 997,
+      "label": "16:37",
+      "source": "youtube"
+    },
+    {
+      "title": "PixVerse AI Video Generation in Real Time",
+      "startSeconds": 1026,
+      "label": "17:06",
+      "source": "youtube"
+    },
+    {
+      "title": "FLUX.2 Klein - generate AI Images in 0.5 sec",
+      "startSeconds": 1069,
+      "label": "17:49",
+      "source": "youtube"
+    },
+    {
+      "title": "How to Rank #1 with NotebookLM AI SEO",
+      "startSeconds": 1081,
+      "label": "18:01",
+      "source": "youtube"
+    },
+    {
+      "title": "AI research workflow: Perplexity + NotebookLM",
+      "startSeconds": 1119,
+      "label": "18:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Wikipedia deal: Microsoft, Meta, Amazon",
+      "startSeconds": 1132,
+      "label": "18:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft OptiMind-SFT (a.k.a. OptiMind)",
+      "startSeconds": 1138,
+      "label": "18:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Google AI Edge",
+      "startSeconds": 1179,
+      "label": "19:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Taiwan invests $250 Bln into US",
+      "startSeconds": 1208,
+      "label": "20:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Thinking Machines Lab loses two co-founders",
+      "startSeconds": 1229,
+      "label": "20:29",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Open Responses Standard",
+      "startSeconds": 1255,
+      "label": "20:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Cursor ran 100s of AI coding agents for weeks",
+      "startSeconds": 1295,
+      "label": "21:35",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Updates",
+      "startSeconds": 1347,
+      "label": "22:27",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Nemotron-Speech ASR",
+      "startSeconds": 1396,
+      "label": "23:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Deepseek Engram Conditional Memory",
+      "startSeconds": 1434,
+      "label": "23:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia personaplex-7b-v1",
+      "startSeconds": 1507,
+      "label": "25:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Emotion Computing",
+      "startSeconds": 1599,
+      "label": "26:39",
+      "source": "youtube"
+    },
+    {
+      "title": "NousCoder-14B Trained with RL",
+      "startSeconds": 1621,
+      "label": "27:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft VibeVoice-ASR",
+      "startSeconds": 1660,
+      "label": "27:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Myrothinker 1.5 - 30B & 235B",
+      "startSeconds": 1666,
+      "label": "27:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Haystack, LangChain, LlamaIndex",
+      "startSeconds": 1706,
+      "label": "28:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Research Job Market Predictions",
+      "startSeconds": 1760,
+      "label": "29:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Boris Cherny about career trajectory",
+      "startSeconds": 1851,
+      "label": "30:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1918,
+      "label": "31:58",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard skills.sh - directory of",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard skills.sh - directory of skills Cline vs Claude Code AI coding assistants Block's open-source Goose vs Claude Code Stack Overflow - Rapid Decline GLM-4.7 Flash - Lightweight and Free Baidu ERNIE 5.0 - 2.4T params AI Updates - Jan 23 , 2026 Microsoft Research Job Market Predictions Boris Cherny about career trajectory Jobs, Layoffs, demand for AI Engineers Anti-gravity Update - Skill Builder capability Gemini CLI Update: Session Persistence Aion UI - open-source \"Co-work\" alternative Manus AI (Meta) - develop mobile apps Claude Code extension for VS Code Moonshots podcast with Ray Kurzweil Google AI Studio upgrades Robotics muscles (actuators) Google TranslateGemma PixVerse AI Video Generation in Real Time FLUX.2 Klein - generate AI Images in 0.5 sec How to Rank #1 with NotebookLM AI SEO Wikipedia deal: Microsoft, Meta, Amazon AI research workflow: Perplexity + NotebookLM Microsoft OptiMind-SFT (a.k.a. OptiMind) Google AI Edge Taiwan invests $250 Bln into US Thinking Machines Lab loses two co-founders OpenAI Open Responses Standard Cursor ran 100s of AI coding agents for weeks OpenAI Updates VIDIA Nemotron-Speech ASR Deepseek Engram Conditional Memory Nvidia personaplex-7b-v1 Emotion Computing NousCoder-14B Trained with RL Microsoft VibeVoice-ASR Myrothinker 1.5 - 30B & 235B Haystack, LangChain, LlamaIndex From manual coder to orchestrator of AI agent fleets"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for January 16 China x.ai x.ai x.ai x.ai Google Gemini Claude OpenAI Open Source China China China China China deepseek-v3.2  -  671B ernie-5.0 - 2.4T glm-4.6 - 355B kimi-k2-thinking - 1T longcat-flash-chat - 560B qwen3-max - 1T qwen3-235b-a22b - 235B China China Model Score gemini-3-pro 1490 grok-4.1-thinking 1477 gemini-3-flash 1472 claude-opus-4-5-20251101-thinking-32k 1470 claude-opus-4-5-20251101 1467 grok-4.1 1465 gemini-3-flash (thinking-minimal) 1462 ernie-5.0-0110 1459 gpt-5.1-high 1458 gemini-2.5-pro 1451 claude-sonnet-4-5-20250929-thinking-32k 1451 ernie-5.0-preview-1203 1450 claude-sonnet-4-5-20250929 1450 claude-opus-4-1-20250805-thinking-16k 1449 claude-opus-4-1-20250805 1445 gpt-5.2 1445 gpt-4.5-preview-2025-02-27 1444 chatgpt-4o-latest-20250326 1442 glm-4.7 1441 gpt-5.2-high 1436 gpt-5.1 1435 gpt-5-high 1435 qwen3-max-preview 1434 o3-2025-04-16 1433 Model Score claude-opus-4-5-20251101-thinking-32k 1537 claude-sonnet-4-5-20250929-thinking-32k 1523 claude-opus-4-5-20251101 1519 gemini-3-pro 1517 claude-opus-4-1-20250805-thinking-16k 1512 claude-sonnet-4-5-20250929 1509 grok-4.1-thinking 1509 gpt-5.2 1505 claude-opus-4-1-20250805 1504 gemini-3-flash 1501 gemini-3-flash (thinking-minimal) 1501 ernie-5.0-0110 1497 claude-opus-4-20250514-thinking-16k 1497 grok-4.1 1496 gpt-5.1-high 1495 gpt-5.2-high 1494 glm-4.7 1485 kimi-k2-thinking-turbo 1484 qwen3-max-preview 1482 gpt-5.1 1478 claude-haiku-4-5-20251001 1478 qwen3-max-2025-09-23 1476 longcat-flash-chat 1474 deepseek-v3.2-exp-thinking 1473 China China China"
+    },
+    {
+      "index": 3,
+      "title": "skills.sh - directory of skills skills.sh - stores",
+      "text": "skills.sh - directory of skills skills.sh - stores URLs/references to GitHub repositories https://skills.sh https://skills.sh/docs A web directory, leaderboard, and finder for skills - I counted 6574 skills. Each skill is essentially a Markdown file. It starts with two lines (name and description) followed by markdown text. Each skill may also have optional bundled resources - scripts, references, assets, examples. bigquery-skill/ ├── SKILL.md └── reference/ ├── finance.md ├── sales.md ├── product.md └── marketing.md You can install using \"npx skills add\" command, for example: npx skills add https://github.com/remotion-dev/skills --skill remotion-best-practices npx skills add https://github.com/vercel-labs/agent-skills --skill web-design-guidelines You need to provide the Github URL and the skill name During installation it finds your agents (for example, Claude Code) and asks where to install (typically to ~/.claude/skills/) Progressive loading (only 50 tokens per header) - allows developers to have hundreds of skills active without overwhelming the context window This makes it significantly lighter than traditional MCP servers The skills.sh has a leaderboard that ranks skills based on anonymous telemetry data from CLI installations"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates Cline vs Claude Code AI coding",
+      "text": "AI Updates Cline vs Claude Code AI coding assistants Cline is VS Code  extension. Claude Code is primarily a terminal app, good for scripting actions and for team work Cline was around for approx 1.5 year and has estimated 4 Mln users; it is free and open source Claude Code user-base is MUCH  bigger. The 3 largest AI assistants are: GitHub Copilot, Cursor (by Anysphere), Claude Code Claude Code also has become available as a VS Code extension (Jan 20th) - and already has more than 3 Mln downloads - more than Cline. Block's open-source Goose vs Claude Code https://github.com/block/goose - more than 27K GitHub stars https://block.github.io/goose/ https://block.github.io/goose/docs/quickstart/ https://block.github.io/goose/docs/getting-started/installation/ Goose is available as both a desktop application and CLI tool , supporting macOS, Linux, and Windows. Supports variety of models You can install Goose via download script or Homebrew: curl -fsSL https://github.com/block/goose/releases/download/stable/download_cli.sh | bash brew install --cask block-goose brew install block-goose-cli No subscription fees, no cloud dependencies, no usage limits"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates Stack Overflow - Rapid Decline Its",
+      "text": "AI Updates Stack Overflow - Rapid Decline Its massive repository of public coding knowledge was used to train the very AI models that have now replaced it Since late 2022, developers have pivoted from searching message boards to using AI agents and LLMs for instant, personalized debugging and code generation The founders sold the platform for $1.8 Bln in 2021, just before the AI boom decimated its traffic and value As developers use AI to generate code, compile, debug, and test it - this data is used by AI providers to train the models instead of human posts GLM-4.7 Flash - Lightweight and Free High-speed coding, agent building, and UI generation Reasoning (\"interleaved\" and \"preserved\" thinking) Impressive 59% on SWE-bench Verified (full version ~74%) 30B MoE architecture, lightning-fast responses, handles long-context tasks without losing accuracy Practical Use Cases - coding, AI Agents, UI Generation Can be accessed via the Z.ai API (with a free tier) or deploy it locally using weights from Hugging Face for complete privacy and zero latency Baidu ERNIE 5.0 Native omni-modal large model 2.4T-parama MoE, under 3% active params https://x.com/Baidu_Inc/status/2014252300018254054"
+    },
+    {
+      "index": 6,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 6.06K subscribers, 263 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates Anti-gravity Update - Skill Builder capability",
+      "text": "AI Updates Anti-gravity Update - Skill Builder capability Teach AI agents custom workflows using a single prompt The agent observes a user’s actions once, captures the pattern, and saves it as a reusable skill Zero Coding, Dynamic Learning (skills adapt to inputs), chaining multiple skills to create automated end-to-end business processes Users can tag specific agents (e.g., @frontend-design) to generate superior, modern code compared to standard prompts Notebook LM Integration: A new research skill that allows Anti-gravity to query Google Notebook LM URLs for specific data extraction. Loki Mode: An autonomous system that dispatches parallel agents to handle planning, architecture, and verification. Deployment: Easy integration with platforms like Vercel and Netlify via Model Context Protocol (MCP) tools. https://www.youtube.com/watch?v=Nr4DuTI27CY https://www.youtube.com/watch?v=tdzFX2u3dgA Gemini CLI Update: Session Persistence Automatic background session saving - every prompt and response is stored locally Use \"gemini -res\" to instantly resume the most recent conversation exactly where it left off Use /resume command within the CLI to open a searchable list of all past conversations, allowing users to jump back into specific workflows from days prior https://www.youtube.com/watch?v=-luEGxUCbTA Google Anti-gravity + Open Code \"conductor and lead engineer\" workflow Anti-gravity good at planning Open Code is superior for surgical code changes and model flexibility Demo: using Anti-gravity (powered by Opus 4.5) to generate a complex implementation plan; Using Open Code as attachment to execute the plan (do the coding) https://www.youtube.com/watch?v=dzDVt3-MTRk"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates Manus AI (Meta) - develop mobile",
+      "text": "AI Updates Manus AI (Meta) - develop mobile apps Easy to use, packages files for iOS and Android Overall preferred over Lovable - better reliability and real-world utility Manus can also automate daily tasks (research, saving reports to GDrive) https://www.youtube.com/watch?v=WSSs4WGImOQ Claude Code extension for VS Code Claude Code operates within VS Code sidebar, offers user-friendly UI than the terminal-based version Supports planning modes, sub-agents, custom slash commands, and Model Context Protocol (MCP) Auto-Compact Feature - solves context window limitations by automatically managing tokens, allowing for longer development sessions without performance drops Real-Time Problem Solving - the tool can read error messages, fix bugs, use a \"browser agent\" for testing https://www.youtube.com/watch?v=YZoxOVQT_RM Claude Code Updates - Custom Planning Directory, Automated Plan Workflows (PostToolUse hooks), Context Management, MCP Tool Search, ... Aion UI - open-source \"Co-work\" alternative Co-work is restricted to Anthropic Pro/Max users Aion UI functions as a local AI Operating System (AIOS) that integrates multiple agents, including Gemini, Claude Code, and various open-source models Automatically detects and manages various installed AI agents in one graphical dashboard Agents can read, create, and organize local files directly on your machine Supports 9+ visual formats (PDF, Excel, HTML, etc.), allowing users to view AI generations without switching apps Users can configure local models via Ollama, add custom skills, and connect to different gateways like OpenRouter or the Gemini CLI for free usage https://www.youtube.com/watch?v=yUU5E-U5B3M https://github.com/iOfficeAI/AionUi"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Moonshots podcast with Ray Kurzweil Discusses",
+      "text": "AI Updates Moonshots podcast with Ray Kurzweil Discusses the accelerating timeline toward the Singularity Singularity = we become 1,000 times more intelligent by merging with AI Kurzweil reaffirms his long-standing predictions: .. Human-level AI (AGI) by 2029 .. Singularity by 2045. Longevity Escape Velocity: Predicted for 2032, where medical advances add more than one year to your life expectancy for every year that passes. Brain-Computer Interfaces (BCI): High-bandwidth interfaces are expected by the mid-2030s, allowing human thoughts to merge seamlessly with the cloud. The Future of Life: By 2086, Kurzweil suggests most intelligence will exist as software running on computronium - matter optimized for maximum processing power. https://www.youtube.com/watch?v=8iWSNwIRazc Google AI Studio upgrades Integration of Veo 3.1, which allows for high-quality, 4K video generation, consistent character rendering, and native vertical video for social media. AI Studio now supports advanced agent building - automate workflows and generate Python scripts Data handling - ingest files directly from URLs (including AWS S3 and Azure) and increased file size limits Future  - GitHub integration, built-in authentication, and Stripe support https://www.youtube.com/watch?v=rsHYx6IJmx0"
+    },
+    {
+      "index": 10,
+      "title": "Robotics muscles (actuators) Modern humanoid robots primarily use",
+      "text": "Robotics muscles (actuators) Modern humanoid robots primarily use rotating electric motors combined with gear reduction systems (like harmonic drives or planetary gears) as their main actuation mechanism for hands and feet These joint motors serve as the \"muscles\" of humanoid robots and typically account for over 30% of the overall bill of materials cost in high-performance humanoid systems https://www.roboticstomorrow.com/story/2025/06/joint-actuators-the-fundamental-component-for-humanoid-robots-power-and-dexterity/24924/ For legs, ankle joints typically have at least two actuators to control dorsiflexion/plantarflexion (pointing the foot up or down) and inversion/eversion (tilting the foot inward or outward) Some designs use linkage mechanisms where actuators drive knee joints through four-bar linkages rather than direct rotation The motors prioritize lightweight components with high torque density to minimize inertia and enhance agility while maintaining precise control https://www.youtube.com/watch?v=fhRgwjEd3g8 Artificial muscle actuators research - soft actuators made from 3D-printed rubbers that can move and stiffen like biological muscle, In 2025, South Korean researchers created magnetic composite actuators that can lift approximately 4,000 times their own weight and achieve 86.4% strain (over double human muscle performance) by using tunable stiffness polymers with magnetic microparticles https://news.northwestern.edu/stories/2025/07/bone-ified-muscles-could-be-robots-next-flex Upper limb joints have reached consensus around harmonic drive modules, while lower limb joints still vary between harmonic, planetary, RV rotary actuators, and linear actuators based on screws A Deep Dive into Actuators for Humanoid Robotics https://www.youtube.com/watch?v=FXC5ZFBefvs Rotary or Linear"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates Google TranslateGemma open-weight LLM, built on",
+      "text": "AI Updates Google TranslateGemma open-weight LLM, built on Gemma 3 4B, 12B, and 27B params 55 languages Multimodal (text & images) Image Translation - not very good, significant hallucinations https://www.youtube.com/watch?v=JBr3cQph5hU PixVerse AI Video Generation in Real Time PixVerse is an Alibaba-backed Beijing startup that launched the first real-time interactive AI video generation tool on January 13, 2026 Founded in 2023, the company has raised over $60 million in funding and serves 16 million monthly active users with projected $40 million annual revenue Users can control video generation in real-time at 1080P resolution, directing characters' emotions and actions like a film director PixVerse V5 leads globally in image-to-video generation, surpassing Google's Veo 3, with V5.5 adding integrated audio and multi-shot capabilities https://www.cnbc.com/2026/01/13/alibaba-backed-pixverse-real-time-ai-video-generation-tool-investors-startup-openai-sora.html FLUX.2 Klein - generate AI Images in 0.5 sec Extreme speed, high-quality images in less than a second Image editing using AI https://www.youtube.com/watch?v=672XOB_yD-A"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates How to Rank #1 with NotebookLM",
+      "text": "AI Updates How to Rank #1 with NotebookLM AI SEO Deep Research - gather authoritative sources, analyze competitor blogs, and identify search intent Structured SEO Analysis - generate a detailed outline (H1–H4) with suggested keyword placements and internal link opportunities Refining Content Draft - expand the outline into a 2,000+ word article that sounds human and avoids repetition Generating Infographics - visual summaries and alt-text descriptions to increase engagement and backlink potential Build Data Tables - structured tables (e.g., keyword difficulty or competitor metrics) to increase authority and time-on-page Final Assembly - Use NotebookLM to assemble the full post with meta tags and specific placement notes for visuals and tables https://www.youtube.com/watch?v=KjUPBOCPBKg Wikipedia signs AI training deals with Microsoft, Meta, and Amazon AI research workflow: Perplexity + NotebookLM 1. Research and Vetting (Perplexity) - Deep Research, Source Selection, Verification 2. Synthesis and Creation (NotebookLM) https://www.youtube.com/watch?v=MxFcCHz1e7A"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates Microsoft OptiMind-SFT (a.k.a. OptiMind) Open-source 20-B",
+      "text": "AI Updates Microsoft OptiMind-SFT (a.k.a. OptiMind) Open-source 20-B params MoE AI model, 128K context Converting complex business problems into formal Mixed Integer Linear Programs (MILP) and executable Gurobi Python code Optimization Expert-in-the-Loop: Microsoft trained the model using a \"cleaned\" dataset where human experts identified and corrected common mathematical modeling errors. The system supports multi-stage inference, where it classifies problems, provides self-hints, and uses a \"solver-in-the-loop\" approach to execute code and self-correct based on error logs. While it requires significant hardware (at least 32GB VRAM) and human oversight for safety-critical tasks, Optim-SFT aims to make high-level decision science accessible to non-experts https://www.youtube.com/watch?v=9ZseQ-hXcp4 Google AI Edge Run AI models on mobile devices and microcontrollers without a cloud or internet connection Uses  TensorFlow and PyTorch Fast performance, improved privacy, and offline functionality across Android, iOS, and the web Low-code APIs for vision, text, and audio. LiteRT - optimized runtime for CPU, GPU, and NPU execution Model Explorer - visualizing and debugging model bottlenecks AI Edge Portal - A private preview platform for benchmarking models on over 100 real physical devices to track latency, memory, and battery drain Use Gemma LLM and multimodal apps, allowing businesses to ensure high performance on everything from budget phones to flagships before deployment https://www.youtube.com/watch?v=-O-enNK6vYs"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Taiwan invests $250 Bln into US",
+      "text": "AI Updates Taiwan invests $250 Bln into US Into U.S. semiconductor, energy, and AI production, with another $250 billion in credit guarantees In exchange, the U.S. will lower tariffs on Taiwanese goods and increase investment in Taiwan’s tech and defense sectors The deal aims to reduce U.S. reliance on foreign chipmakers and deepen bilateral tech ties amid tensions with China. Thinking Machines Lab loses two co-founders Thinking Machines Lab , founded by former OpenAI CTO Mira Murati, is losing two co-founders as Barret Zoph and Luke Metz return to OpenAI. Another early employee, Sam Schoenholz, is also rejoining the company. Murati announced Zoph’s exit and named Soumith Chintala as the new CTO, without addressing the other departures. The moves follow a $2B seed round valuing the startup at $12B. OpenAI Open Responses Standard Specification for building interoperable, multi-provider LLM interfaces; It allows developers to switch between provider without rewriting their code. Early adopters - Hugging Face contributors The standard aiming to reduce lock-in while preserving advanced features across providers. https://huggingface.co/blog/open-responses"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Cursor ran 100s of AI coding",
+      "text": "AI Updates Cursor ran 100s of AI coding agents for weeks In one experiment producing a 3M+ line web browser built entirely from the ground up using GPT 5.2 Cursor organized agents into planners, workers, and judges (similar to the viral Ralph Wiggum technique), allowing hundreds of agents to run and collaborate together The browser was built in under a week by the agents from scratch, with the final output actually loading simple websites correctly Other experiments included a Windows 7 emulator, an Excel clone, and an internal migration of Cursor's codebase, each spanning a Million+ lines of code OpenAI Updates $20 Bln in annual revenue $8/mo \"ChatGPT Go\" plan - uses GPT-5.2 Instant - fast cheap model Ads are being introduced to the Free and Go tiers Flywheel: - more usage leads to more data, which trains better models, driving more revenue to buy more compute. NVIDIA Nemotron-Speech ASR ASR = Automatic Speech Recognition Uses cache-aware streaming which only processes new audio \"deltas\" and stores past computations in an internal cache. 3x higher efficiency and zero latency drift under heavy loads; A 600M params model, outperforms larger models in both speed and word error rate https://www.youtube.com/watch?v=83DSjiLgWI8"
+    },
+    {
+      "index": 16,
+      "title": "Deepseek Engram Deepseek Engram - Conditional Memory via",
+      "text": "Deepseek Engram Deepseek Engram - Conditional Memory via Scalable Lookup Engram is a conditional memory module that adds a new type of sparsity to LLMs alongside existing Mixture-of-Experts (MoE) approaches Unlike traditional Transformers that simulate knowledge retrieval through computation, Engram enables O(1) lookups using modernized N-gram embeddings, storing up to 27B parameters. The researchers discovered a U-shaped scaling law that optimizes the balance between neural computation (MoE) and static memory (Engram) Mechanistic analysis reveals Engram handles static reconstruction in early layers, effectively deepening the network for complex reasoning, while delegating local dependencies to lookups frees attention for global context, dramatically improving long-context retrieval (Multi-Query NIAH: 84.2→97.0) https://github.com/deepseek-ai/Engram/tree/main https://arxiv.org/abs/2601.07372 DeepSeek V4 Leak Evidence on GitHub suggests DeepSeek is preparing its next flagship model for a mid-February 2026 release Technical shifts in KV cache and FP8 support hint at a major architectural overhaul focused on efficiency and coding Microsoft VibeVoice-ASR Speech-to-text model, 9B params, 64K-token context window Transcribes up to 60 min of audio https://huggingface.co/microsoft/VibeVoice-ASR"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates Nvidia personaplex-7b-v1 A full duplex speech",
+      "text": "AI Updates Nvidia personaplex-7b-v1 A full duplex speech to speech conversational model that targets natural voice interactions with precise persona control. From ASR→LLM→TTS to a single full duplex model Conventional voice assistants usually run a cascade. Automatic Speech Recognition (ASR) converts speech to text, a language model generates a text answer, and Text to Speech (TTS) converts back to audio Each stage adds latency, and the pipeline cannot handle overlapping speech, natural interruptions, or dense backchannels PersonaPlex replaces this stack with a single Transformer model that performs streaming speech understanding and speech generation in one network https://huggingface.co/nvidia/personaplex-7b-v1 https://www.marktechpost.com/2026/01/17/nvidia-releases-personaplex-7b-v1-a-real-time-speech-to-speech-model-designed-for-natural-and-full-duplex-conversations/ Emotion Computing Researchers in Japan published a framework that identifies human emotions with 75% accuracy using bodily signals (like heart rate) and visual data, rather than just text analysis. https://arxiv.org/abs/2404.08295 NousCoder-14B - Open Source Nous Research - programming model trained via RL by executing code in a sandbox and receiving rewards for success https://huggingface.co/NousResearch/NousCoder-14B"
+    },
+    {
+      "index": 18,
+      "title": "Myrothinker Myrothinker v1.5 open-source web research agent By",
+      "text": "Myrothinker Myrothinker v1.5 open-source web research agent By Myromind AI - deep research and code execution Direct competitor to OpenAI and Google Gemini Deep Research Ranks at the top of benchmarks like HLE and GAIA for real-world agent tasks; 256K-token context window; 30B and 235B versions; can handle up to 400 tool calls per task; uses \"interactive scaling\" to think, act, and evaluate results in a continuous loop You can download and run the model locally via GitHub, allowing for total data privacy and customization. https://www.youtube.com/watch?v=YeJjr5-rVww https://huggingface.co/miromind-ai/MiroThinker-v1.5-30B https://huggingface.co/miromind-ai/MiroThinker-v1.5-235B https://miromind.ccgxk.com/ https://github.com/MiroMindAI/MiroThinker"
+    },
+    {
+      "index": 19,
+      "title": "Haystack, LangChain, LlamaIndex Haystack, LangChain, and LlamaIndex are",
+      "text": "Haystack, LangChain, LlamaIndex Haystack, LangChain, and LlamaIndex are three leading open-source frameworks for building LLM / RAG applications Haystack - production-oriented and enterprise-ready designed for large-scale deployments requiring robust document handling, stability, and compliance It features a modular, component-based architecture with strong metadata filtering and hybrid retrieval capabilities LangChain - orchestration and rapid prototyping It offers maximum flexibility for building complex agent workflows, multi-modal applications, and dynamic systems requiring sophisticated context retention and real-time updates LangChain has captured significant developer mindshare for experimentation LlamaIndex - pecializes in fast information retrieval with dynamic chunking and flexible indexing strategies, though it's more limited in scope than the other frameworks Recent benchmarks show minimal performance differences when using identical components All three achieve 100% accuracy with variation mainly in token consumption (Haystack most efficient at ~1,570 tokens vs LangChain's ~2,400) Framework choice depends on whether you prioritize production stability (Haystack), development flexibility (LangChain), or retrieval simplicity (LlamaIndex)"
+    },
+    {
+      "index": 20,
+      "title": "Microsoft Research Job Market Predictions Microsoft Research Job",
+      "text": "Microsoft Research Job Market Predictions Microsoft Research Job Market Predictions. Transformation vs. Elimination. High-Risk jobs - White Collar (translation, writing, sales, customer service, coding) Low Risk - Physical/Human-Centric (construction, electricians, nursing, personal services) 2025 - Entry-level \"extinction\" and the initial 85 Mln jobs outsourced to AI globally (but 97 Mln AI related jobs have emerged) 2026 - Industry transformation (jobs losses in manufacturing, transportation, healthcare), but growth in AI-related management roles 2027 : The \"Skill Revolution\" where the divide between AI-literate workers and others becomes permanent. AI literacy becomes a mandatory requirement for high-paying roles; 70% of job skills globally are expected to change By 2027, workers with AI skills will earn roughly 56% more than those without Three strategies for workers: 1. Collaborate, don't compete: Use AI to handle routine tasks and move \"up the value chain\" 2. Focus on Human Skills: Double down on ethics, strategy, and emotional intelligence 3. Gain AI Literacy: Learn to prompt and manage AI systems to remain employable and access higher wages https://www.youtube.com/watch?v=x3QSOXgxp6I https://arxiv.org/pdf/2507.07935 https://www.microsoft.com/en-us/research/publication/working-with-ai-measuring-the-occupational-implications-of-generative-ai/"
+    },
+    {
+      "index": 21,
+      "title": "Boris Cherny about career trajectory Boris Cherny about",
+      "text": "Boris Cherny about career trajectory Boris Cherny about career trajectory Boris Cherny, creator of Claude Code, former Principal Engineer at Meta He progressed from a mid-level engineer to a high-level IC He emphasize the value of being a \"generalist\" and seeking \"latent demand\" - building products based on how users are already hacking existing tools At Meta Boris rose through the levels by taking initiative on high-leverage \"side quests,\" such as creating internal state management frameworks (Undux) and leading massive migrations like the rewrite of Facebook Groups onto the Comet platform At Instagram - he moved to Tokyo to maintain his relationship, which inadvertently helped him avoid \"meeting burnout\" and return to deep coding, eventually leading the migration of Instagram's backend from Python to Hack At Anthropic - driven by a mission-oriented culture and a love for sci-fi, he developed Claude Code Boris argues that engineers should \"build for the model six months from now ,\" not the model of today. He highlights that Claude Code has increased engineer productivity at Anthropic by nearly 70%, shifting the developer's role from manual coding to \"orchestrating\" fleets of AI agents His ultimate advice for engineers is to maintain \"common sense\" and focus on solving real user problems rather than just following organizational processes"
+    },
+    {
+      "index": 22,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs The Tech Layoff Tracker In",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs The Tech Layoff Tracker In 2026: 6,702 people laid off (291 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs Amazon in process of laying off ~30K corporate jobs https://www.reuters.com/business/world-at-work/amazon-plans-thousands-more-corporate-job-cuts-next-week-sources-say-2026-01-22/"
+    },
+    {
+      "index": 23,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "From manual coder to orchestrator of AI agent fleets",
+      "topic": "agents",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard skills.sh - directory of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 24,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=24s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "skills.sh - directory of skills",
+      "topic": "general",
+      "videoSeconds": 75,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=75s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cline vs Claude Code AI coding assistants",
+      "topic": "coding",
+      "videoSeconds": 224,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=224s",
+      "slideIndex": 3,
+      "slideTitle": "skills.sh - directory of skills skills.sh - stores",
+      "source": "youtube"
+    },
+    {
+      "claim": "Block's open-source Goose vs Claude Code",
+      "topic": "coding",
+      "videoSeconds": 293,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=293s",
+      "slideIndex": 3,
+      "slideTitle": "skills.sh - directory of skills skills.sh - stores",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stack Overflow - Rapid Decline",
+      "topic": "general",
+      "videoSeconds": 349,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=349s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Cline vs Claude Code AI coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "GLM-4.7 Flash - Lightweight and Free",
+      "topic": "open-models",
+      "videoSeconds": 375,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=375s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Stack Overflow - Rapid Decline Its",
+      "source": "youtube"
+    },
+    {
+      "claim": "Baidu ERNIE 5.0 - 2.4T params",
+      "topic": "general",
+      "videoSeconds": 431,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=431s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Stack Overflow - Rapid Decline Its",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anti-gravity Update - Skill Builder capability",
+      "topic": "general",
+      "videoSeconds": 482,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=482s",
+      "slideIndex": 6,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini CLI Update: Session Persistence",
+      "topic": "google",
+      "videoSeconds": 557,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=557s",
+      "slideIndex": 6,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Aion UI - open-source \"Co-work\" alternative",
+      "topic": "open-models",
+      "videoSeconds": 595,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=595s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates Anti-gravity Update - Skill Builder capability",
+      "source": "youtube"
+    },
+    {
+      "claim": "Manus AI (Meta) - develop mobile apps",
+      "topic": "general",
+      "videoSeconds": 714,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=714s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates Anti-gravity Update - Skill Builder capability",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code extension for VS Code",
+      "topic": "coding",
+      "videoSeconds": 764,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=764s",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates Manus AI (Meta) - develop mobile",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moonshots podcast with Ray Kurzweil",
+      "topic": "general",
+      "videoSeconds": 820,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=820s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Moonshots podcast with Ray Kurzweil Discusses",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google AI Studio upgrades",
+      "topic": "google",
+      "videoSeconds": 894,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=894s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Moonshots podcast with Ray Kurzweil Discusses",
+      "source": "youtube"
+    },
+    {
+      "claim": "Robotics muscles (actuators)",
+      "topic": "general",
+      "videoSeconds": 913,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=913s",
+      "slideIndex": 10,
+      "slideTitle": "Robotics muscles (actuators) Modern humanoid robots primarily use",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google TranslateGemma",
+      "topic": "general",
+      "videoSeconds": 997,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=997s",
+      "slideIndex": 10,
+      "slideTitle": "Robotics muscles (actuators) Modern humanoid robots primarily use",
+      "source": "youtube"
+    },
+    {
+      "claim": "PixVerse AI Video Generation in Real Time",
+      "topic": "multimodal",
+      "videoSeconds": 1026,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1026s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates Google TranslateGemma open-weight LLM, built on",
+      "source": "youtube"
+    },
+    {
+      "claim": "FLUX.2 Klein - generate AI Images in 0.5 sec",
+      "topic": "multimodal",
+      "videoSeconds": 1069,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1069s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates How to Rank #1 with NotebookLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to Rank #1 with NotebookLM AI SEO",
+      "topic": "google",
+      "videoSeconds": 1081,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1081s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates How to Rank #1 with NotebookLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI research workflow: Perplexity + NotebookLM",
+      "topic": "google",
+      "videoSeconds": 1119,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1119s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates Microsoft OptiMind-SFT (a.k.a. OptiMind) Open-source 20-B",
+      "source": "youtube"
+    },
+    {
+      "claim": "Wikipedia deal: Microsoft, Meta, Amazon",
+      "topic": "general",
+      "videoSeconds": 1132,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1132s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates Microsoft OptiMind-SFT (a.k.a. OptiMind) Open-source 20-B",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft OptiMind-SFT (a.k.a. OptiMind)",
+      "topic": "general",
+      "videoSeconds": 1138,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1138s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Taiwan invests $250 Bln into US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google AI Edge",
+      "topic": "google",
+      "videoSeconds": 1179,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1179s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Cursor ran 100s of AI coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "Taiwan invests $250 Bln into US",
+      "topic": "general",
+      "videoSeconds": 1208,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1208s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Cursor ran 100s of AI coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "Thinking Machines Lab loses two co-founders",
+      "topic": "general",
+      "videoSeconds": 1229,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1229s",
+      "slideIndex": 16,
+      "slideTitle": "Deepseek Engram Deepseek Engram - Conditional Memory via",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Open Responses Standard",
+      "topic": "openai",
+      "videoSeconds": 1255,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1255s",
+      "slideIndex": 16,
+      "slideTitle": "Deepseek Engram Deepseek Engram - Conditional Memory via",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cursor ran 100s of AI coding agents for weeks",
+      "topic": "agents",
+      "videoSeconds": 1295,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1295s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates Nvidia personaplex-7b-v1 A full duplex speech",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Updates",
+      "topic": "openai",
+      "videoSeconds": 1347,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1347s",
+      "slideIndex": 18,
+      "slideTitle": "Myrothinker Myrothinker v1.5 open-source web research agent By",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Nemotron-Speech ASR",
+      "topic": "infra",
+      "videoSeconds": 1396,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1396s",
+      "slideIndex": 18,
+      "slideTitle": "Myrothinker Myrothinker v1.5 open-source web research agent By",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deepseek Engram Conditional Memory",
+      "topic": "open-models",
+      "videoSeconds": 1434,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1434s",
+      "slideIndex": 19,
+      "slideTitle": "Haystack, LangChain, LlamaIndex Haystack, LangChain, and LlamaIndex are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia personaplex-7b-v1",
+      "topic": "infra",
+      "videoSeconds": 1507,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1507s",
+      "slideIndex": 19,
+      "slideTitle": "Haystack, LangChain, LlamaIndex Haystack, LangChain, and LlamaIndex are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Emotion Computing",
+      "topic": "general",
+      "videoSeconds": 1599,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1599s",
+      "slideIndex": 20,
+      "slideTitle": "Microsoft Research Job Market Predictions Microsoft Research Job",
+      "source": "youtube"
+    },
+    {
+      "claim": "NousCoder-14B Trained with RL",
+      "topic": "general",
+      "videoSeconds": 1621,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1621s",
+      "slideIndex": 20,
+      "slideTitle": "Microsoft Research Job Market Predictions Microsoft Research Job",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft VibeVoice-ASR",
+      "topic": "general",
+      "videoSeconds": 1660,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1660s",
+      "slideIndex": 21,
+      "slideTitle": "Boris Cherny about career trajectory Boris Cherny about",
+      "source": "youtube"
+    },
+    {
+      "claim": "Myrothinker 1.5 - 30B & 235B",
+      "topic": "general",
+      "videoSeconds": 1666,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1666s",
+      "slideIndex": 22,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs The Tech Layoff Tracker In",
+      "source": "youtube"
+    },
+    {
+      "claim": "Haystack, LangChain, LlamaIndex",
+      "topic": "general",
+      "videoSeconds": 1706,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1706s",
+      "slideIndex": 22,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs The Tech Layoff Tracker In",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Research Job Market Predictions",
+      "topic": "jobs",
+      "videoSeconds": 1760,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1760s",
+      "slideIndex": 23,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boris Cherny about career trajectory",
+      "topic": "general",
+      "videoSeconds": 1851,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1851s",
+      "slideIndex": 23,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1918,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1918s",
+      "slideIndex": 24,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

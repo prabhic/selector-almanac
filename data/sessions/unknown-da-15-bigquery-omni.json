@@ -1,0 +1,112 @@
+{
+  "id": "unknown-da-15-bigquery-omni",
+  "date": null,
+  "title": "DA 15 BigQuery Omni",
+  "series": "data-architect-2021",
+  "topics": [
+    "rag",
+    "enterprise",
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_15_BigQuery_Omni.pptx",
+    "filename": "DA_15_BigQuery_Omni.pptx",
+    "title": "DA 15 BigQuery Omni",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_15_BigQuery_Omni.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_15_BigQuery_Omni.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "BigQuery Omni - Multi-Cloud queries Google BigQuery is",
+      "text": "BigQuery Omni - Multi-Cloud queries Google BigQuery is Google Cloud's enterprise data warehouse for analytics Gigabyte to Exabyte scale SQL queries Encrypted, durable, highly available Fully managed and serverless for maximum agility and scale Real-time insights from streaming data Built-in ML for out-of-the-box predictive insights High-speed, in-memory BI Engine for faster reporting and analysis BigQuery Omni is an option to run queries accross multiple clouds ( Google, AWS, Azure, ... ) “A flexible, multi-cloud analytics solution that lets you analyze data across public clouds without leaving the familiar BigQuery user interface”"
+    },
+    {
+      "index": 2,
+      "title": "BigQuery | Architecture - overview Decoupled storage and",
+      "text": "BigQuery | Architecture - overview Decoupled storage and compute for maximum flexibility Petabit Network BigQuery High-Available Cluster Compute (Dremel) Replicated, Distributed Storage (99.9999999999% durability) Distributed Memory Shuffle Tier Streaming Ingest Free Bulk Loading SQL:2011 Compliant REST API Client Libraries In 7 languages Web UI, CLI"
+    },
+    {
+      "index": 3,
+      "title": "Why worry about multi-cloud queries? Multi-Cloud is here",
+      "text": "Why worry about multi-cloud queries? Multi-Cloud is here to stay Benefits: Optimization by workload Bulwark against vendor lock-in Improve up-time Reducing latency Multi-cloud challenges: Governance Cohesive solution architecture Managing costs Data protection Skillset coverage Multiple divergent data sources"
+    },
+    {
+      "index": 4,
+      "title": "BigQuery UI / API / CLI Control Plane",
+      "text": "BigQuery UI / API / CLI Control Plane & Metadata on Google Cloud Google Cloud region Petabit Network BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier BigQuery Storage BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier AWS APIs Customer S3 Storage AWS region (Omni) BigQuery Routers powered by Anthos Note about getting connected to access S3: Create AWS IAM role with policy attachment allowing access to S3 bucket Create GCP connection with ARN of AWS IAM role created on AWS Attach trust policy to AWS IAM role BigQuery Omni | Architecture - review"
+    },
+    {
+      "index": 5,
+      "title": "BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier",
+      "text": "BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier AWS APIs Customer S3 Storage powered by Anthos AWS region (Omni) BigQuery account Customer account BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier Azure APIs Customer Storage powered by Anthos Azure region (Omni) BigQuery account Customer account Google Anthos is used to manage clusters to run queries on other clouds - https://cloud.google.com/anthos"
+    },
+    {
+      "index": 6,
+      "title": "Things to know There is no on-premise implementation.",
+      "text": "Things to know There is no on-premise implementation. Cross-cloud joins are in alpha Requires slot commitment (Flat-rate or Flex-slot) There is no additional GCP costs for queries with results exported to connected cloud There are additional cost on external cloud on which the query runs If queries run either in BQ console, ingested to BQ, or to GCS they will incur ingress costs This PPT is a shortened version of the YouTube presentation by Chris von Rabenau - https://www.youtube.com/watch?v=GCzcMUS_8og - Chris is a BI Architect and Google Professional Cloud Architect: - https://www.linkedin.com/in/cvr/ -"
+    }
+  ],
+  "points": [
+    {
+      "claim": "BigQuery Omni - Multi-Cloud queries Google BigQuery is",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "BigQuery Omni - Multi-Cloud queries Google BigQuery is",
+      "source": "slide"
+    },
+    {
+      "claim": "BigQuery | Architecture - overview Decoupled storage and",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "BigQuery | Architecture - overview Decoupled storage and",
+      "source": "slide"
+    },
+    {
+      "claim": "Why worry about multi-cloud queries? Multi-Cloud is here",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Why worry about multi-cloud queries? Multi-Cloud is here",
+      "source": "slide"
+    },
+    {
+      "claim": "BigQuery UI / API / CLI Control Plane",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "BigQuery UI / API / CLI Control Plane",
+      "source": "slide"
+    },
+    {
+      "claim": "BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "BigQuery Compute clusters (Dremel) Distributed Memory Shuffle Tier",
+      "source": "slide"
+    },
+    {
+      "claim": "Things to know There is no on-premise implementation.",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Things to know There is no on-premise implementation.",
+      "source": "slide"
+    }
+  ]
+}

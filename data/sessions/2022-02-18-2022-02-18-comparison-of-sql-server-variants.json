@@ -1,0 +1,353 @@
+{
+  "id": "2022-02-18-2022-02-18-comparison-of-sql-server-variants",
+  "date": "2022-02-18",
+  "title": "Comparison-of-SQL-Server-Variants",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "agents",
+    "enterprise"
+  ],
+  "video": {
+    "id": "_cdMbz2RhNk",
+    "title": "Comparison of SQL Server Variants",
+    "url": "https://www.youtube.com/watch?v=_cdMbz2RhNk",
+    "thumbnail": "https://i.ytimg.com/vi/_cdMbz2RhNk/hqdefault.jpg",
+    "duration": 2044
+  },
+  "deck": {
+    "path": "2022/2022-02-18-Comparison-of-SQL-Server-Variants.pptx",
+    "filename": "2022-02-18-Comparison-of-SQL-Server-Variants.pptx",
+    "title": "Comparison-of-SQL-Server-Variants",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-02-18-Comparison-of-SQL-Server-Variants.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-02-18-Comparison-of-SQL-Server-Variants.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "SQL Server Variants",
+      "startSeconds": 90,
+      "label": "01:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Comparison",
+      "startSeconds": 355,
+      "label": "05:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Dedicated SQL Pool",
+      "startSeconds": 579,
+      "label": "09:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Serverless SQL Pool",
+      "startSeconds": 650,
+      "label": "10:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Online Analytical Processing",
+      "startSeconds": 959,
+      "label": "15:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Differences",
+      "startSeconds": 1101,
+      "label": "18:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Types",
+      "startSeconds": 1256,
+      "label": "20:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Primary Key",
+      "startSeconds": 1508,
+      "label": "25:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Storage Procedures",
+      "startSeconds": 1633,
+      "label": "27:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Triggers",
+      "startSeconds": 1747,
+      "label": "29:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Update and Delete",
+      "startSeconds": 1826,
+      "label": "30:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Unsupported Features",
+      "startSeconds": 1906,
+      "label": "31:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusion",
+      "startSeconds": 1987,
+      "label": "33:07",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Comparison of SQL Server Variants By Tyler Williams",
+      "text": "Comparison of SQL Server Variants By Tyler Williams"
+    },
+    {
+      "index": 2,
+      "title": "Flavors of SQL Server SQL Server on-premises Latest",
+      "text": "Flavors of SQL Server SQL Server on-premises Latest GA:  SQL Server 2019 SQL Server on Azure VM (IaaS) Azure SQL Server Managed Instance (PaaS) Azure SQL DB (PaaS/DBaaS) Azure Synapse Dedicated SQL Pools (PDW) Azure Synapse Serverless SQL Pools"
+    },
+    {
+      "index": 3,
+      "title": "Service Comparison",
+      "text": "Service Comparison"
+    },
+    {
+      "index": 4,
+      "title": "“Traditional” SQL Server On-prem SQL Server SQL Server",
+      "text": "“Traditional” SQL Server On-prem SQL Server SQL Server on VM (IaaS) SQL Server Managed Instance (PaaS w/ server) Azure SQL DB (PaaS w/o server) Feature parity with on-prem 100% 100% Near-100% Nearly all DB features, no server SQL Server Agent Yes Yes Yes No SSIS Catalog Yes Yes Yes* No Cross-DB queries Yes Yes Yes No DB Mail Yes Yes Yes No Common Language Runtime (CLR) Yes Yes Yes No https://docs.microsoft.com/en-us/azure/azure-sql/database/features-comparison https://docs.microsoft.com/en-us/azure/azure-sql/managed-instance/transact-sql-tsql-differences-sql-server *Doesn’t run the packages natively, but works in conjunction with Azure Data Factory or Synapse Analytics"
+    },
+    {
+      "index": 5,
+      "title": "Synapse Dedicated SQL Pool Distributed nature is key",
+      "text": "Synapse Dedicated SQL Pool Distributed nature is key to optimization All tables must have distribution function defined ROUND_ROBIN HASH REPLICATE Always 60 distributions, but number of nodes increases as pool is scaled https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute"
+    },
+    {
+      "index": 6,
+      "title": "Serverless SQL Pool Created by default in any",
+      "text": "Serverless SQL Pool Created by default in any Synapse Analytics instance Contains only metadata/object definitions No Storage; compute only Can leverage External Tables, just as any other SQL DB does Can define views, which provide visibility to underlying filenames and paths"
+    },
+    {
+      "index": 7,
+      "title": "Synapse Dedicated SQL Pool versus “Traditional” SQL Server",
+      "text": "Synapse Dedicated SQL Pool versus “Traditional” SQL Server"
+    },
+    {
+      "index": 8,
+      "title": "Online Transaction Processing (OLTP) Optimized for processing individual",
+      "text": "Online Transaction Processing (OLTP) Optimized for processing individual records or isolated groups of records Banking application for paying bills Enterprise Resource Planning (ERP) system for managing warehouse inventory Travel website for booking a vacation Normalized data to minimize data redundancy Entities and attributes have their own tables, with their own keys, and relationships defined between tables Relationships must be enforced to prevent “orphaned” records Row-based storage and indexing Data manipulation processes are grouped into transactions, where if any component fails, the system can ensure data integrity remains"
+    },
+    {
+      "index": 9,
+      "title": "Online Analytical Processing (OLAP) Optimized for reading and",
+      "text": "Online Analytical Processing (OLAP) Optimized for reading and aggregating large data sets Data is often denormalized, or flattened Storage is cheap, so redundant data is not as much an issue if it helps speed up and simplify data queries Often utilizes columnar storage and/or indexing Data is loaded and processed in batches, not transactions Azure Synapse Analytics aligns with this type of system"
+    },
+    {
+      "index": 10,
+      "title": "Why don’t Synapse Pools have feature parity with",
+      "text": "Why don’t Synapse Pools have feature parity with SQL Server? Even though both utilize T-SQL as the query language, the underlying architecture is very different SQL Server is a single query engine, but Synapse spreads compute across 60 parallel distributions and multiple nodes Several common SQL Server features are difficult or impossible to implement in Synapse SQL Pools, due to the distributions IDENTITY columns and MERGE statements are only recently supported in Synapse"
+    },
+    {
+      "index": 11,
+      "title": "Data Types Data types supported in both databases",
+      "text": "Data Types Data types supported in both databases String Types (char, varchar, nvarchar , …) Date Types  (date, datetime, datetime2, datetimeoffset , …) Numeric Types  (int, float, decimal, …) varbinary Data types unsupported in Synapse Dedicated SQL Pools XML Geometry Geography Image Table User-defined types"
+    },
+    {
+      "index": 12,
+      "title": "Column Constraints in Synapse SQL Pools Foreign Key",
+      "text": "Column Constraints in Synapse SQL Pools Foreign Key Constraints not supported Not needed in a Kimball model (star/snowflake schema) anyway Fact inserts always use lookups to get surrogate keys Too much maintenance overhead Primary Keys are partially supported Only when NONCLUSTERED is used Only when NOT ENFORCED is used Unique Keys are partially supported Only when NOT ENFORCED is used"
+    },
+    {
+      "index": 13,
+      "title": "Example of “non-enforced” PK When columns are defined",
+      "text": "Example of “non-enforced” PK When columns are defined as unique or primary key, query optimizer will consider the constraint It is up to the application or user to ensure that the PK remains unique TableId (PK) Code 1 abc 2 def 3 ghi 1 abc 4 jkl TableId COUNT 1 1 2 1 3 1 1 1 4 1 SELECT TableId , COUNT ( 0 ) FROM ExampleTable GROUP BY TableId Query with aggregate Actual result set ExampleTable TableId COUNT 1 2 2 1 3 1 4 1 Expected result set"
+    },
+    {
+      "index": 14,
+      "title": "Stored Procedures In “Traditional” SQL Server, stored procs",
+      "text": "Stored Procedures In “Traditional” SQL Server, stored procs are compiled the first time they are executed, and the execution plan is cached In Synapse Dedicated SQL Pools, stored procs are parsed, translated, and optimized at runtime Each statement is converted into distributed queries Other Synapse limitations No INSERT…EXECUTE support No table-valued parameters No default parameters No encryption option"
+    },
+    {
+      "index": 15,
+      "title": "Triggers and Cursors Triggers – programmatic constructs that",
+      "text": "Triggers and Cursors Triggers – programmatic constructs that execute before, after, or instead of INSERT, UPDATE, or DELETE commands on a table Other triggers run in response to DDL events (CREATE, ALTER, DROP) or to LOGON events Cursors allow code to loop through a data result set one record at a time These objects are supported by “traditional” SQL Server, but NOT Synapse Dedicated SQL Pools"
+    },
+    {
+      "index": 16,
+      "title": "Update/Delete Standard T-SQL UPDATE a SET a .",
+      "text": "Update/Delete Standard T-SQL UPDATE a SET a . [Description] = b . NewDesc FROM FirstTable a INNER JOIN SecondTable b ON a . FirstId = b . FirstId Synapse Dedicated SQL Pool UPDATE FirstTable SET [Description] = b . NewDesc FROM SecondTable b WHERE b . FirstId = FirstTable . FirstId"
+    },
+    {
+      "index": 17,
+      "title": "Other Unsupported Features Triggers are not supported Cursors",
+      "text": "Other Unsupported Features Triggers are not supported Cursors are not supported Table-valued functions not officially supported You can still create them and call them, but they aren’t visible in Management Studio They also won’t build as part of a Visual Studio Database Project"
+    },
+    {
+      "index": 18,
+      "title": "References https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-data-types https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-table-constraints https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-stored-procedures https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15",
+      "text": "References https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-data-types https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-table-constraints https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-stored-procedures https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Comparison of SQL Server Variants By Tyler Williams",
+      "source": "youtube"
+    },
+    {
+      "claim": "SQL Server Variants",
+      "topic": "general",
+      "videoSeconds": 90,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=90s",
+      "slideIndex": 2,
+      "slideTitle": "Flavors of SQL Server SQL Server on-premises Latest",
+      "source": "youtube"
+    },
+    {
+      "claim": "Comparison",
+      "topic": "general",
+      "videoSeconds": 355,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=355s",
+      "slideIndex": 4,
+      "slideTitle": "“Traditional” SQL Server On-prem SQL Server SQL Server",
+      "source": "youtube"
+    },
+    {
+      "claim": "Dedicated SQL Pool",
+      "topic": "general",
+      "videoSeconds": 579,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=579s",
+      "slideIndex": 5,
+      "slideTitle": "Synapse Dedicated SQL Pool Distributed nature is key",
+      "source": "youtube"
+    },
+    {
+      "claim": "Serverless SQL Pool",
+      "topic": "general",
+      "videoSeconds": 650,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=650s",
+      "slideIndex": 6,
+      "slideTitle": "Serverless SQL Pool Created by default in any",
+      "source": "youtube"
+    },
+    {
+      "claim": "Online Analytical Processing",
+      "topic": "general",
+      "videoSeconds": 959,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=959s",
+      "slideIndex": 8,
+      "slideTitle": "Online Transaction Processing (OLTP) Optimized for processing individual",
+      "source": "youtube"
+    },
+    {
+      "claim": "Differences",
+      "topic": "general",
+      "videoSeconds": 1101,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1101s",
+      "slideIndex": 9,
+      "slideTitle": "Online Analytical Processing (OLAP) Optimized for reading and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Types",
+      "topic": "general",
+      "videoSeconds": 1256,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1256s",
+      "slideIndex": 10,
+      "slideTitle": "Why don’t Synapse Pools have feature parity with",
+      "source": "youtube"
+    },
+    {
+      "claim": "Primary Key",
+      "topic": "general",
+      "videoSeconds": 1508,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1508s",
+      "slideIndex": 11,
+      "slideTitle": "Data Types Data types supported in both databases",
+      "source": "youtube"
+    },
+    {
+      "claim": "Storage Procedures",
+      "topic": "general",
+      "videoSeconds": 1633,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1633s",
+      "slideIndex": 13,
+      "slideTitle": "Example of “non-enforced” PK When columns are defined",
+      "source": "youtube"
+    },
+    {
+      "claim": "Triggers",
+      "topic": "general",
+      "videoSeconds": 1747,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1747s",
+      "slideIndex": 14,
+      "slideTitle": "Stored Procedures In “Traditional” SQL Server, stored procs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Update and Delete",
+      "topic": "general",
+      "videoSeconds": 1826,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1826s",
+      "slideIndex": 15,
+      "slideTitle": "Triggers and Cursors Triggers – programmatic constructs that",
+      "source": "youtube"
+    },
+    {
+      "claim": "Unsupported Features",
+      "topic": "general",
+      "videoSeconds": 1906,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1906s",
+      "slideIndex": 17,
+      "slideTitle": "Other Unsupported Features Triggers are not supported Cursors",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusion",
+      "topic": "general",
+      "videoSeconds": 1987,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk&t=1987s",
+      "slideIndex": 18,
+      "slideTitle": "References https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-data-types https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-table-constraints https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-develop-stored-procedures https://docs.microsoft.com/en-us/sql/t-sql/queries/update-transact-sql?view=sql-server-ver15",
+      "source": "youtube"
+    },
+    {
+      "claim": "Synapse Dedicated SQL Pool versus “Traditional” SQL Server",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk",
+      "slideIndex": 7,
+      "slideTitle": "Synapse Dedicated SQL Pool versus “Traditional” SQL Server",
+      "source": "slide"
+    },
+    {
+      "claim": "Column Constraints in Synapse SQL Pools Foreign Key",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_cdMbz2RhNk",
+      "slideIndex": 12,
+      "slideTitle": "Column Constraints in Synapse SQL Pools Foreign Key",
+      "source": "slide"
+    }
+  ]
+}

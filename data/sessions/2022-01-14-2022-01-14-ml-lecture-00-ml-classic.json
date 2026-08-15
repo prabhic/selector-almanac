@@ -1,0 +1,419 @@
+{
+  "id": "2022-01-14-2022-01-14-ml-lecture-00-ml-classic",
+  "date": "2022-01-14",
+  "title": "ML lecture 00 ml classic",
+  "series": "seminar",
+  "topics": [
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "z2CjHB5wTZo",
+    "title": "Classical Machine Learning Tools",
+    "url": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+    "thumbnail": "https://i.ytimg.com/vi/z2CjHB5wTZo/hqdefault.jpg",
+    "duration": 1941
+  },
+  "deck": {
+    "path": "2022/2022-01-14-ML_lecture_00_ml_classic.pptx",
+    "filename": "2022-01-14-ML_lecture_00_ml_classic.pptx",
+    "title": "ML lecture 00 ml classic",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-01-14-ML_lecture_00_ml_classic.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-01-14-ML_lecture_00_ml_classic.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Most Common Classical Algorithms",
+      "startSeconds": 122,
+      "label": "02:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Logistic Regression",
+      "startSeconds": 377,
+      "label": "06:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Binary Classification Problem",
+      "startSeconds": 779,
+      "label": "12:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Boosting Algorithms",
+      "startSeconds": 880,
+      "label": "14:40",
+      "source": "youtube"
+    },
+    {
+      "title": "More forecasting",
+      "startSeconds": 1024,
+      "label": "17:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Jason Brownlee",
+      "startSeconds": 1110,
+      "label": "18:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Clustering Algorithms",
+      "startSeconds": 1888,
+      "label": "31:28",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Classical Machine Learning Tools",
+      "text": "Classical Machine Learning Tools"
+    },
+    {
+      "index": 2,
+      "title": "Deep Learning (DL) ML implemented as Neural Network",
+      "text": "Deep Learning (DL) ML implemented as Neural Network Data Science (DS) computer skills + statistics CSV files, SQL, PowerPoint Machine Learning (ML) DS where algorithm learns from data to make predictions Artificial General Intelligence (AGI) AI that could successfully perform any intellectual task that a human can (Turing test (1950), ...) Artificial Intelligence (AI) ML (DL) learning \"human\" abilities (speech and music recognition, conversation, visual recognition, video prediction, reasoning, self-driving cars, playing games, etc.)"
+    },
+    {
+      "index": 3,
+      "title": "Machine Learning Systems = Prediction Machines Ajay Agrawal",
+      "text": "Machine Learning Systems = Prediction Machines Ajay Agrawal University of Toronto ML = \"Cheap Predictions\" AI = \"Cheap Predictions\""
+    },
+    {
+      "index": 4,
+      "title": "OK, so what is Machine Learning? - A",
+      "text": "OK, so what is Machine Learning? - A computer program - used to describe data in a compressed way - to make predictions and take actions - most common ML tasks - regression or classification Linear Regression  y = f(x) = ax + b Model uses only two parameters : a = slope, b = intercept Other standard ML models may have up to 1-2 thousand parameters . Regression & Classification Classification - Logistic Regression Decision trees (Random Forest, XGBoost) Clustering (K-Means, ...) KNN (K-Nearest Neighbours) SVM (Support Vector Machines), PCA (Principal Component Analysis), LDA (Linear Discriminant Analysis), etc. Typical example - classification – dog or cat. CNN model (Convolutional Neural Network) may have millions of parameters. Deep learning text (NLP) models may have up to 175 Bln parameters . Some applications: Recognizing images, music, speech NLP = Natural Language Processing Machine Translation supervised, unsupervised, reinforcement learning Generative Models (GANs) Simple Analytics Standard ML Neural Networks (Deep Learning)"
+    },
+    {
+      "index": 5,
+      "title": "Four Most Common \"Classical\" ML Algorithms Forecasting Anomaly",
+      "text": "Four Most Common \"Classical\" ML Algorithms Forecasting Anomaly Detection Regression Classification"
+    },
+    {
+      "index": 6,
+      "title": "Most Common \"Classical\" Algorithms Regression & Classification -",
+      "text": "Most Common \"Classical\" Algorithms Regression & Classification - Regression – draw line through points - Classification – find to which class the data point belongs Supervised vs unsupervised - Supervised – data is \"labeled\" (cat or dog, bought or not, ...) - Unsupervised – we need to find order in data (Clustering, Principal Component Analysis, etc.) Predictive Analytics - Regression - Classification (this type of prospects buy with 70% probability) - Recommendations (Collaborative Filtering – people who bought this also bought that) - Time Series Forecasting with seasonality and trend Anomaly Detection (how far the event from the mean)"
+    },
+    {
+      "index": 7,
+      "title": "Model – Linear Regression Linear Regression y =",
+      "text": "Model – Linear Regression Linear Regression  y = f(x) = ax + b Model uses only two numbers: a = slope, b = intercept rng = np.random.RandomState(seed=None) x = 10 * rng.rand(50) # 50 random numbers in [0,10] y = 2 * x - 5 + rng.randn(50) # 50 numbers between [-5, 15] from sklearn.linear_model import LinearRegression model = LinearRegression(fit_intercept=True) model.fit ( x [:, np.newaxis], y ) # here x - one or more columns, y - row # show the model line: xt = np.linspace(0, 10, 1000) yt = model.predict ( xt [:, np.newaxis]) # this will draw a line yp = model.predict ( x [:, np.newaxis]) fig, ax = plt.subplots() _ = ax.scatter(x,   y, marker='.', color= 'blue '); # training data _ = ax.scatter(x,  yp, marker='.', color= ' red '); # project on line _ = ax.plot.  (xt, yt,             color='green'); # line _ = plt.show(); Multivariate Linear Regression"
+    },
+    {
+      "index": 8,
+      "title": "Logistic Regression (binary classification model) The \"beta\" coefficients",
+      "text": "Logistic Regression (binary classification model) The \"beta\" coefficients are fitted using iteratively gradient descent. Common error function consists of two separate functions (for target values 0 and 1). It is called \"Log-Loss\" error function. If “q” is model prediction, and “p” is probability of actual label, then similarity between q & p can be expressed as cross-entropy H(p,q):"
+    },
+    {
+      "index": 9,
+      "title": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "text": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) – uses smallest Entropy metrics C4.5 – successor of ID3 (since 1993), uses Entropy metrics CART (Classification And Regression Tree) – (since 1984),  uses Gini metrics CHAID (CHi-squared Automatic Interaction Detector) . Performs multi-level splits when computing classification trees. MARS : extends decision trees to handle numerical data better. Conditional Inference Trees . Statistics-based approach that uses non-parametric tests as splitting criteria, corrected for multiple testing to avoid overfitting. This approach results in unbiased predictor selection and does not require pruning. DT goes from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). DT can do classification or regression. DTs are intuitive and easily interpretable. Algorithms for constructing DTs usually work top-down, by choosing and splitting on a variable at each step that most informative for the target label (produces the purest daughter nodes). Splits can result in more than two branches. Decision Tree Building Algorithms Trees: Greedy splitting (top->down) Greedy pruning (to prevent over-fitting) Fast and easy to build Surprisingly good Explainable"
+    },
+    {
+      "index": 10,
+      "title": "Ensemble Learning Idea - train several models to",
+      "text": "Ensemble Learning Idea - train several models to do predictions. Then combine predictions of these models to get a better predictor."
+    },
+    {
+      "index": 11,
+      "title": "Idea: make a reliable system from unreliable blocks",
+      "text": "Idea: make a reliable system from unreliable blocks using single-shot democratic voting Computer 1 Computer 2 Computer 3 Data Majority voting system Idea: get to correct answer by making multiple corrective steps 1 st approximation correction correction correction ... Bagging Boosting Weighted voting system Power of the majority committee, senate, congress, council, board of directors, ... Power of validation science, open source community, ... Wrong bias is not removed, it is simply averaged Wrong bias is removed using correction and validation"
+    },
+    {
+      "index": 12,
+      "title": "Ensemble Learning Idea - train several models to",
+      "text": "Ensemble Learning Idea - train several models to do predictions. Then combine predictions of these models to get a better predictor. It is possible to combine any types of models into one predictor. But commonly people combine variations of similar models, like decision trees models. Two most famous approaches are: - \"Random Forest\" - \"Gradient Boosted Trees\" Under the hood these models combine 100 ... 200+ similar trees. The differences between algorithms: how you select the data to train those trees how you combine the predictions of these trees"
+    },
+    {
+      "index": 13,
+      "title": "Ensemble tree classifiers ( Random Forest , XGBoost",
+      "text": "Ensemble tree classifiers ( Random Forest , XGBoost ) can solve complicated problems Binary Classification Problem Example – two classes: red and grey. Ensemble Tree Classifiers succeed where Linear Classifiers fail"
+    },
+    {
+      "index": 14,
+      "title": "Classification and Regression Trees (1984) by BFOS (BFOS",
+      "text": "Classification and Regression Trees (1984) by BFOS (BFOS = Breiman, Friedman, Olshen, Stone) Leo Breiman UC Berkeley Statistics 1928-2005 Jerome H. Friedman Statistics UC Berkeley, Stanford 1939- Charles J. Stone Math, Probability UCLA, UC Berkeley 1936-2019 Richard A. Olshen Biostatistics UC Berkeley, Stanford 1942- Random Decision Forests (1995) by Tin Kam Ho Tin Kam Ho at Bell Labs in NJ. then AI at IBM (since 2014) Adele Cutler UC Berkeley, then Utah State University. Wrote original Random Forest in Fortran with Leo Breiman in 2002-2003 https://www.stat.berkeley.edu/~breiman/RandomForests/cc_software.htm FORTRAN Random Forest 2002-2003"
+    },
+    {
+      "index": 15,
+      "title": "Boosting Algorithms From Wikipedia, etc: The idea of",
+      "text": "Boosting Algorithms From Wikipedia, etc: The idea of gradient boosting originated in the observation by Leo Breiman that boosting can be interpreted as an optimization algorithm on a suitable cost function ( 1997 , Berkeley). Explicit regression gradient boosting algorithms were subsequently developed by Jerome H. Friedman ( 1999 , Berkeley). ... simultaneously with the more general functional gradient boosting perspective of Llew Mason, Jonathan Baxter, Peter Bartlett and Marcus Frean ( 1999 ). Stochastic gradient boosting - by Jerome H.Friedman, 2002 – adding random sampling to gradient boosting algorithm improves speed and accuracy. AdaBoost ( 1995 ) Yoav Freund & Robert Schapire (2003 Gödel Prize). XGBoost ( 2014 ) more flexible and optimized Tianqi Chen (was a Ph.D. student) Light GBM ( 2016 , Microsoft) fast-performing, distributed (GBM = Gradient Boosting Machine) CatBoost ( 2017 , Yandex) big data, categorical data, multiple GPUs. Leo Breiman UC Berkeley Jerome H. Friedman UC Berkeley, Stanford Strength of Weak Learners"
+    },
+    {
+      "index": 16,
+      "title": "RandomForestRegressor can NOT do extrapolation It does interpolation",
+      "text": "RandomForestRegressor can NOT do extrapolation It does interpolation for values inside the range of values. But it can not go outside. - https://neptune.ai/blog/random-forest-regression-when-does-it-fail-and-why RandomForest Regressor works by finding closest matches in given range. We take random subset of data (columns, rows), and build a tree splitting by \"x\". Each leave has \"x\" and \"y\". We build hundred trees like this. For inference, given value \"x\" we traverse all 100 trees (by \"x\") and find 100 values of \"y\". Then we average them to get the desired prediction. The result is always within the range of \"y\" values. It can not extrapolate. If you look at prediction values they will look like this: RandomForest Regressor should not be used for time series forecasting. Instead you can use SVM regression, Linear Regression, Deep Lerning (RNN), combining predictors using stacking, etc. We can use modified versions of random forest, for example Regression Enhanced Random Forest (RERF, 2017): - https://arxiv.org/pdf/1904.10416.pdf"
+    },
+    {
+      "index": 17,
+      "title": "More forecasting Naive Qualitative (forecast = last value,",
+      "text": "More forecasting Naive Qualitative (forecast = last value, or an average of last period) Trend, Linear Regression Multivariate Linear Regression Exponential Smoothing (weighted moving average) Holt-Winters = Triple Exponential Smoothing (smooth, trend, seasonality) Fourier decomposition to model Seasonality ARMA (Auto-Regressive Moving Average) ARIMA (Auto-Regressive Integrated Moving Average) SARIMA (S=Seasonality), SARIMAX (X - eXogenous regressors) Auto-correlations , bivariate cross-correlation, multivariate time series analysis Causal (cause-effect) - modeling specific causes/drivers that can influence the target value (drivers – number of resources, spending on advertising, promotion, legal change, website redesign, sport event, new law, election, etc.). Some drivers cause permanent shift, others – temporary response. Monte-Carlo (Random Walk Simulation) Classification (Random Forest, Boosting, etc.) - \"this type of ... historically was causing ...\" Neural Networks - LSTM (Long Short Term Memory), multivariate LSTM, GRU (Gated Recurrent Unit) Facebook Prohpet - Azure AutoML – AWS DeepAR - supervised learning algorithm, uses RNN (Recurrent Neural Network), uses 1 or multiple similar 1-dim time series. etc."
+    },
+    {
+      "index": 18,
+      "title": "Jason Brownlee Best two books on time series",
+      "text": "Jason Brownlee Best two books on time series forecasting: Jason Brownlee Melbourne, Australia Jason wrote 21 books on Machine Learning. I highly recommend to buy all of them. They come as PDF with separate python code files. https://www.linkedin.com/in/jasonbrownlee/ https://machinelearningmastery.com/ https://SuperFastPython.com Introduction to Time Series Forecasting With Python Deep Learning for Time Series Forecasting"
+    },
+    {
+      "index": 19,
+      "title": "Python, Jupyter, Scikit-Learn, ... Anaconda Python - https://www.anaconda.com",
+      "text": "Python, Jupyter, Scikit-Learn, ... Anaconda Python - https://www.anaconda.com Jupyter notebooks - https://jupyter.org python modules: - pandas - https://pandas.pydata.org - NumPy - https://numpy.org - matplotlib - https://matplotlib.org - scikit-learn - https://scikit-learn.org/stable - SciPy - https://scipy.org For Deep Leaning: - Google TensorFlow+Keras - https://www.tensorflow.org - Facebook PyTorch - https://pytorch.org"
+    },
+    {
+      "index": 20,
+      "title": "Anomaly Detection: Isolation Forest (IF) & RRCF (RRCF",
+      "text": "Anomaly Detection: Isolation Forest (IF) & RRCF (RRCF = AWS Robust Random Cut Forest) https://en.wikipedia.org/wiki/Isolation_forest - https://stackoverflow.com/questions/63115867/isolation-forest-vs-robust-random-cut-forest-in-outlier-detection – Isolation Forest: https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf – paper https://towardsdatascience.com/outlier-detection-with-isolation-forest-3d190448d45e – tutorial RCF: http://proceedings.mlr.press/v48/guha16.pdf – paper https://freecontent.manning.com/the-randomcutforest-algorithm/ - tutorial Both algorithms are ensemble methods based on decision trees. Both aim to isolate every single point. Ouliers tend to require less steps to get isolated. Isolation Forest (IF) is open source (sklearn), whereas AWS RRCF is closed source (although look at https://github.com/kLabUM/rrcf ) RRCF can work on streams (in streaming analytics service Kinesis Data Analytics) – it has partial_fit() method. RRCF is more scalable, can be parallelized between multiple machines . It also supports Pipe mode (streaming data via unix pipes) which makes it able to learn on much bigger data than what fits on disk RRCF performs better in high-dimensional space because it gives more weight to dimension with higher variance (according to SageMaker doc), while Isolation Forest samples at random Anomaly score is calculated differently. IF 's score is based on distance from the root node. RRCF is based on how much a new point changes the tree structure (i.e., shift in the tree size by including the new point). This makes RRCF less sensitive to the sample size Anomaly"
+    },
+    {
+      "index": 21,
+      "title": "ROC Curve & Precision-Recall Curve Receiver Operating Characteristic",
+      "text": "ROC Curve & Precision-Recall Curve Receiver Operating Characteristic ( ROC ) curves for a binary classifier: True Positive Rate (TPR) vs False Positive Rate (FPR) at various threshold settings . ROC curve was first developed by radar engineers during World War II for quantifying the quality of detection of enemy airplanes. TPR  = REC = Recall or Sensitivity = TP/P  =  TP / (TP + FN) ( planes classified as planes / all planes' events) FPR = False Positive Rate = fall-out =  FP / N  =  FP / (FP + TN) ( noise classified as planes / all noise events ) PRE = Precision = TP/(TP+FP) ( planes classified as planes / all events classified as planes) TNR = SPC = Specificity = TN/N  =  TN/(FP+TN) (True Negative Rate) - ------------------------------------------------------------------------------- AUC = Area Under the Curve Simply the area under the ROC curve (1 = very good, 0.5 = bad) -------------------------------------------------------------------------------- F1 Score - a single number evaluation metric , harmonic average of the precision and recall : High Precision, Low Recall Low Precision, High Recall ROC Curve Precision-Recall Curve Low Threshold High Threshold Recall FPR Planes Noise Selecting Threshold Radar detects planes. It need to separate \"plane\" signals from noise."
+    },
+    {
+      "index": 22,
+      "title": "Noise Planes Noise Planes Noise Planes Noise Planes",
+      "text": "Noise Planes Noise Planes Noise Planes Noise Planes Precision – 100% Recall – 15% Ideal: Precision – 100% Recall – 100% Precision – 50% Recall – 100% Good: Precision – 90% Recall – 90% Noise Planes + Good Precision = Sniper Good Recall = Cover All Good"
+    },
+    {
+      "index": 23,
+      "title": "ROC AUC is terrible for imbalanced data. Precision-Recall",
+      "text": "ROC AUC is terrible for imbalanced data. Precision-Recall is much better. Imagine imbalanced data set: for 10 airplanes we get 10,000 noise spikes. Suppose we have a classifier with reasonably good ROC curve, which at the \"sweet spot\" identifies 90% of planes and only 1% of noise as planes. The AUC will be very close to 1. But it is actually a terrible classifier. Because it will cry \"plane!\" for noise spikes 10 times more than for real planes! The Precision-Recall curve is a much better indicator. Please see example on the right. ROC Precision - Recall"
+    },
+    {
+      "index": 24,
+      "title": "Confusion Matrix from sklearn import metrics expected =",
+      "text": "Confusion Matrix from sklearn import metrics expected = target predicted = model.predict(data) metrics.precision_score(expected, predicted) metrics.recall_score(expected, predicted) metrics.roc_curve(expected, predicted) metrics.roc_auc_score(expected, predicted) metrics.confusion_matrix(expected, predicted) [[194156   4864] [    23    321]] For a simple binary classifier we are predicting one of two possibilities (Yes/No, Positive/Negative, Plane/No-Plane, Normal/Abnormal, etc.). So we construct a 2x2 matrix to visualize True & False Positives and Negatives. Accuracy  =  sum(Diagonal) / sum(ALL)  =  sum(Correct) / sum(ALL) Precision  =  TP / (TP+FP) Recall  =  TP / (TP+FN)  =  TP / All_Actual_Positives"
+    },
+    {
+      "index": 25,
+      "title": "Medical Test Paradox – Predictive Power of Positive",
+      "text": "Medical Test Paradox – Predictive Power of Positive or Negative Test Result from https://www.youtube.com/watch?v=lG4VkPoG3ko We have 1,000 people. 1% of them have a disease: N_sick    = 10 N_healthy = 990 We use a test with sensitivity SE = 90% and specificity SP = 91%. This means that test shows results as following: TP = True Positive   =   N_sick    * SE/100   =     9 out of  10 TN = True Negative   =   N_healthy * SP/100   =   901 out of 990 FN = False Negative  =   1 out of  10 FP = False Positive  =  89 out of 990 What is the predictive power of this test? Positive result :  TP/(TP+FP)  =    9/(9+89)   = 0.092  (1 in 11 chance) Negative result :  TN/(TN+FN)  =  901/(901+1)  = 0.999  (very good) Sensitivity = Recall = True Positive Rate (TPR) : TPR = (TP / P) = TP / (TP + FN) Specificity (SPC)    = True Negative Rate (TNR) : SPC = (TN / N) = TN / (FP + TN) Positive Negative Disease 9 1 Healthy 89 901 Sick Healthy Specificity Sensitivity Test Results: Red = Positive White = Negative"
+    },
+    {
+      "index": 26,
+      "title": "Overfitting and Regularization Goal of training the model",
+      "text": "Overfitting and Regularization Goal of training the model is to fit/learn a \" regularity \" in the data, and to avoid fitting noise (avoid overfitting). How do we know that we are overfitting? Let's split data into two sets: - training - testing If we overfit on the training data (learn regularity and some noise specific to the training data), then accuracy measured on the test data may be bad (model doesn't generalize well). Solution – try to find a more \" regular \" solution (less noise, less overfitting). High Bias model (underfitting, model too simple) High Variance model (model too complex, overfitting - fits noise) Bias/Variance Trade-off , Good Generalization How to find \"REGULARITY\""
+    },
+    {
+      "index": 27,
+      "title": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization.",
+      "text": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization. Suppose we have a OLS (Ordinary Linear Squared) regression where two parameters x1 & x2 are not orthogonal, but are equal, proportional to each other, or highly correlated. Then there may be an infinite number of coefficients which will fit the model. For example, (a*x1 - x2),    (100*a*x1 - 100*x2), etc. If we are trying to minimize the cost function in the multidimensional space of coefficients, we will get an infinite diagonal groove (ridge) for a*x1 = x2. Any place at the bottom of this ridge is equally good for us. So we will get a big variability in possible values of coefficients for x1 & x2. In other words, the solution will be unstable. We can reduce this variability by adding additional regularization factor to the loss function as a sum of squares of coeffitients. When we minimizing this expression, bigger  \"lambda\" value will cause smaller \"beta\" values, thus keeping the coefficients \"beta\" from becoming too large. This is called \" Ridge Regression \". It changes the infinitely long ridge into a local minimum. Why Ridge Regression is called Ridge ..."
+    },
+    {
+      "index": 28,
+      "title": "Minimum “cost” without regularization Compromize min(cost + penalty)",
+      "text": "Minimum “cost” without regularization Compromize min(cost + penalty) Cons: bias (shift), Pros: low variance Minimum of the “penalty” regularization term One way to do avoid overfitting can be to avoid big \"weights\" in the model."
+    },
+    {
+      "index": 29,
+      "title": "In Ridge Regression we add a \" regularization",
+      "text": "In Ridge Regression we add a \" regularization \" term as sum of squares ( L2 norm ). In LASSO Regression we add a \" regularization \" term as sum of abs values ( L1 norm ). LASSO = Least Absolute Shrinkage and Selection Operator . LASSO favors solutions on the tips of the bounding surface for coefficients, where some of coefficients are zero. Thus it favors \"sparse\" solutions. Elastic Net - A combination of Ridge Regression and LASSO. Why LASSO favors sparse solutions Regularization - LASSO, Elastic Net Fig 6.7 from \"An Introduction to Statistical Learning\" by Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (Springer 2013-2017) Contours of the error and constraint functions for the lasso (left) and ridge regression (right). The solid blue areas are the constraint regions, | β 1 | + | β 2 | ≤ s and β 1 2 + β 2 2 ≤ s, while the red ellipses are the contours of the RSS (Residual Sum of Squares)."
+    },
+    {
+      "index": 30,
+      "title": "Feature Engineering Typical Operations: Removing obviously non-relevant data",
+      "text": "Feature Engineering Typical Operations: Removing obviously non-relevant data (empty or not-changing columns/rows, row_id, etc. ) Synthetic Features (Example: Income / Price) Select relevant columns (Kolmogorov-Smirnov test, etc.) Sparse features – consider converting/combining (Example: grouping penny-stocks together) Impute missing data (with mean, median, most frequent, KNN, extrapolation or interpolation, MICE (Multivariate Imputation by Chained Equation), etc. Outliers (use box-plots and scatterplots to find), filter-out or change Collinearity – reduce (combine features, use PCA (Principal Component Analysis) Factor Analysis (finding underlying common factor for several features) – reduce number of features Aggregating, Binning / Bucketing - df[col] = pd.qcut(df[col], 10) Grouping of some features together (numeric - sum() or mean(), categorical – by frequency) Transformations & Interactions (see H2O.ai Driverless AI as a good example) One-hot Encoding ( use pd.get_dummies() function in pandas) Split features (for example, split text) Scaling (Normalization or Standardization) Dates – convert to features (Day of week, Month, Year, Day of year, Quarter, diff between dates) Feature Importance – training with different subsets of features (ex. Random Forest) allows to figure out feature importance – and helps to remove non-important features Text - extract synthetic features (for example, sentiment (Positive, Neutral, Negative) Cleaning Data and Feature Engineering typically take 80% of time of a Data Science Project! A feature is typically a column in a data set One-Hot Encoding \"Feature engineering is the process of transforming raw data into features that better represent the underlying problem to the predictive models, resulting in improved model accuracy on unseen data.\"  - Dr. Jason Brownlee"
+    },
+    {
+      "index": 31,
+      "title": "Feature Engineering Tools – part 1 Pandas, NumPy,",
+      "text": "Feature Engineering Tools – part 1 Pandas, NumPy, Matplotlib, Seaborn Scikit-learn Dataset transformations: https://scikit-learn.org/stable/data_transforms.html 6.1. Pipelines and composite estimators 6.1.1. Pipeline: chaining estimators 6.1.2. Transforming target in regression 6.1.3. FeatureUnion: composite feature spaces 6.1.4. ColumnTransformer for heterogeneous data 6.1.5. Visualizing Composite Estimators 6.2. Feature extraction 6.2.1. Loading features from dicts 6.2.2. Feature hashing 6.2.3. Text feature extraction 6.2.4. Image feature extraction 6.3. Preprocessing data 6.3.1. Standardization, or mean removal and variance scaling 6.3.2. Non-linear transformation 6.3.3. Normalization 6.3.4. Encoding categorical features 6.3.5. Discretization 6.3.6. Imputation of missing values 6.3.7. Generating polynomial features 6.3.8. Custom transformers 6.4. Imputation of missing values 6.4.1. Univariate vs. Multivariate Imputation 6.4.2. Univariate feature imputation 6.4.3. Multivariate feature imputation 6.4.4. References 6.4.5. Nearest neighbors imputation 6.4.6. Marking imputed values 6.5. Unsupervised dimensionality reduction 6.5.1. PCA: principal component analysis 6.5.2. Random projections 6.5.3. Feature agglomeration 6.6. Random Projection 6.6.1. The Johnson-Lindenstrauss lemma 6.6.2. Gaussian random projection 6.6.3. Sparse random projection 6.7. Kernel Approximatio n 6.7.1. Nystroem Method for Kernel Approximation 6.7.2. Radial Basis Function Kernel 6.7.3. Additive Chi Squared Kernel 6.7.4. Skewed Chi Squared Kernel 6.7.5. Polynomial Kernel Approximation via Tensor Sketch 6.7.6. Mathematical Details 6.8. Pairwise metrics, Affinities and Kernels 6.8.1. Cosine similarity 6.8.2. Linear kernel 6.8.3. Polynomial kernel 6.8.4. Sigmoid kernel 6.8.5. RBF kernel 6.8.6. Laplacian kernel 6.8.7. Chi-squared kernel 6.9. Transforming the prediction target (y) 6.9.1. Label binarization 6.9.2. Label encoding"
+    },
+    {
+      "index": 32,
+      "title": "PCA = Principal Component Analysis",
+      "text": "PCA = Principal Component Analysis"
+    },
+    {
+      "index": 33,
+      "title": "The original SVM algorithm was invented by Vladimir",
+      "text": "The original SVM algorithm was invented by Vladimir N. Vapnik and Alexey Ya. Chervonenkis in 1963. In 1992, Bernhard E. Boser, Isabelle M. Guyon and Vladimir N. Vapnik suggested a way to create nonlinear classifiers by applying the kernel trick to maximum-margin hyperplanes. Vladimir N. Vapnik Alexey Chervonenkis Bernhard E. Boser Isabelle M. Guyon Support Vector Machine (SVM) A vanilla SVM is a type of linear separator . We draw a straight line through our data down the middle to separate it into two classes. If we can't draw a line through data, we can transform the data into a feature representation where the separation becomes possible. “kernel trick” – use “kernel functions”, which enable them to operate in a high-dimensional, implicit feature space without ever computing the coordinates of the data in that space, but rather by simply computing the inner products between the images of all pairs of data in the feature space. This operation is often computationally cheaper than the explicit computation of the coordinates. This approach is called the \"kernel trick\"."
+    },
+    {
+      "index": 34,
+      "title": "SVM Continued ... A nonlinear classification problem can",
+      "text": "SVM Continued ... A nonlinear classification problem can be converted to a linear classification problem by mapping the input vectors from the input space to a higher dimensional feature space . A kernel is a similarity function. It is a function that you, as the domain expert, provide to a machine learning algorithm. It takes two inputs and spits out how similar they are. You use kernels instead of dot-products of your vectors. Many machine learning algorithms can be expressed entirely in terms of dot products. Mercer's theorem: Under some conditions, every kernel function can be expressed as a dot product in a (possibly infinite dimensional) feature space. In many cases, computing the kernel is easy, but computing the feature vector corresponding to the kernel is really really hard. The feature vector for even simple kernels can blow up in size. For kernels like the RBF (Radial Basis Function) kernel ( k(x,y) = exp( -(x-y) 2 ), the corresponding feature vector is infinite dimensional. Yet, computing the kernel is almost trivial. Many machine learning algorithms can be written to only use dot products, and then we can replace the dot products with kernels. By doing so, we don't have to use the feature vector at all. This means that we can work with highly complex, efficient-to-compute, and yet high performing kernels without ever having to write down the huge and potentially infinite dimensional feature vector. Polynomial kernels can be thought of projecting a vector into a higher dimensional space. Gaussian kernel can be thought as a projection into infinite-dimensional space because its Taylor expansion has infinite number of elements."
+    },
+    {
+      "index": 35,
+      "title": "K-Nearest Neighbors (KNN) Identify new data based on",
+      "text": "K-Nearest Neighbors (KNN) Identify new data based on proximity to old data. \"Tell me who your closest five friends are, and I will tell you who you are\""
+    },
+    {
+      "index": 36,
+      "title": "K-means clustering Partition “n” observations into “k” clusters",
+      "text": "K-means clustering Partition “n” observations into “k” clusters in which each observation belongs to the cluster with the nearest mean K-means algorithm finds clusters iterativly repeating two steps: - Assignment step : Assign each observation to the cluster whose mean has the least squared Euclidean distance (this is intuitively the \"nearest\" mean) - Update step : Calculate the new means as centroids of the observations in the new clusters."
+    },
+    {
+      "index": 37,
+      "title": "Clustering Algorithms",
+      "text": "Clustering Algorithms"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Classical Machine Learning Tools",
+      "source": "youtube"
+    },
+    {
+      "claim": "Most Common Classical Algorithms",
+      "topic": "general",
+      "videoSeconds": 122,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=122s",
+      "slideIndex": 6,
+      "slideTitle": "Most Common \"Classical\" Algorithms Regression & Classification -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Logistic Regression",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 377,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=377s",
+      "slideIndex": 11,
+      "slideTitle": "Idea: make a reliable system from unreliable blocks",
+      "source": "youtube"
+    },
+    {
+      "claim": "Binary Classification Problem",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 779,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=779s",
+      "slideIndex": 16,
+      "slideTitle": "RandomForestRegressor can NOT do extrapolation It does interpolation",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boosting Algorithms",
+      "topic": "general",
+      "videoSeconds": 880,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=880s",
+      "slideIndex": 22,
+      "slideTitle": "Noise Planes Noise Planes Noise Planes Noise Planes",
+      "source": "youtube"
+    },
+    {
+      "claim": "More forecasting",
+      "topic": "general",
+      "videoSeconds": 1024,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=1024s",
+      "slideIndex": 27,
+      "slideTitle": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization.",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jason Brownlee",
+      "topic": "general",
+      "videoSeconds": 1110,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=1110s",
+      "slideIndex": 32,
+      "slideTitle": "PCA = Principal Component Analysis",
+      "source": "youtube"
+    },
+    {
+      "claim": "Clustering Algorithms",
+      "topic": "general",
+      "videoSeconds": 1888,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo&t=1888s",
+      "slideIndex": 37,
+      "slideTitle": "Clustering Algorithms",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deep Learning (DL) ML implemented as Neural Network",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 2,
+      "slideTitle": "Deep Learning (DL) ML implemented as Neural Network",
+      "source": "slide"
+    },
+    {
+      "claim": "Machine Learning Systems = Prediction Machines Ajay Agrawal",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 3,
+      "slideTitle": "Machine Learning Systems = Prediction Machines Ajay Agrawal",
+      "source": "slide"
+    },
+    {
+      "claim": "OK, so what is Machine Learning? - A",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 4,
+      "slideTitle": "OK, so what is Machine Learning? - A",
+      "source": "slide"
+    },
+    {
+      "claim": "Four Most Common \"Classical\" ML Algorithms Forecasting Anomaly",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 5,
+      "slideTitle": "Four Most Common \"Classical\" ML Algorithms Forecasting Anomaly",
+      "source": "slide"
+    },
+    {
+      "claim": "Model – Linear Regression Linear Regression y =",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 7,
+      "slideTitle": "Model – Linear Regression Linear Regression y =",
+      "source": "slide"
+    },
+    {
+      "claim": "Logistic Regression (binary classification model) The \"beta\" coefficients",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 8,
+      "slideTitle": "Logistic Regression (binary classification model) The \"beta\" coefficients",
+      "source": "slide"
+    },
+    {
+      "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 9,
+      "slideTitle": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "source": "slide"
+    },
+    {
+      "claim": "Ensemble Learning Idea - train several models to",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 10,
+      "slideTitle": "Ensemble Learning Idea - train several models to",
+      "source": "slide"
+    },
+    {
+      "claim": "Ensemble Learning Idea - train several models to",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=z2CjHB5wTZo",
+      "slideIndex": 12,
+      "slideTitle": "Ensemble Learning Idea - train several models to",
+      "source": "slide"
+    }
+  ]
+}

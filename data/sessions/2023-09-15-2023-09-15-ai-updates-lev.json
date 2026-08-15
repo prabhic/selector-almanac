@@ -1,0 +1,223 @@
+{
+  "id": "2023-09-15-2023-09-15-ai-updates-lev",
+  "date": "2023-09-15",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "claude",
+    "openai",
+    "open-models",
+    "benchmarks",
+    "fine-tuning",
+    "infra",
+    "general"
+  ],
+  "video": {
+    "id": "6RMbtGppAlA",
+    "title": "HuggingFace - a $4.5 Bln AI Company  - September 15, 2023",
+    "url": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+    "thumbnail": "https://i.ytimg.com/vi/6RMbtGppAlA/hqdefault.jpg",
+    "duration": 568
+  },
+  "deck": {
+    "path": "2023/2023-09-15-AI-Updates-Lev.pptx",
+    "filename": "2023-09-15-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-15-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-15-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates September 15, 2023",
+      "text": "AI Updates September 15, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Cloud architecture, fin-tech, application security Crypto, accounting Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Status Page HuggingFace.co > 1250 entries (was ~346",
+      "text": "Status Page HuggingFace.co > 1250 entries (was ~346 entries on July 16th) Google Meta Microsoft / OpenAI Anthropic Claude.ai Apple Local LLMs: ollama.ai,  gpt4all.io tiiuae/falcon-180B stability.ai"
+    },
+    {
+      "index": 4,
+      "title": "LLaMa 2 Influence July 18, 2023 Meta has",
+      "text": "LLaMa 2 Influence July 18, 2023 Meta has open-sourced LLaMa 2 Llama 2 was made free for research and commercial use Meta collaborates with Microsoft to make LLaMa available on Azure cloud and on Windows OS The license for Llama 2 is generous and permissive. However, it prohibits using Llama to improve any other large language model, excluding Llama 2. Users must also request a special commercial license if their product's MAU exceed 700 million. MAU = Monthly Active Users Open community started working on LLaMa2 to improve it. Creating new datasets and training protocols. Also reducing model size (precision or number of parameters). In just two months approximately a thousand models were added to the Huggingface.co open- llm -leaderboard. It is really an explosion of development July 18, 2023 - Meta has open-sourced LLaMa-2. This started the explosive process of creating new models based on LLaMa-2. Close to a thousand new models were posted on HuggingFace.co in 2 months."
+    },
+    {
+      "index": 5,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can not copy https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset and links https://huggingface.co/spaces/gsaivinay/open_llm_leaderboard - added GPT-4 and GPT-3.5 Sep 15, 2023 approx 1250 entries (was ~346 entries on July 16th before LLaMa July 18) All top positions are LLaMa 70B 16bit and require ~160 GB VRAM to run. Reducing N-params from 70B down to 30,13,7B causes severe reduction of average test scores Reducing precision from 16bits down to 4bits surprisingly preserves the quality of the model (ranks below are approximate) rank    size avg_quality bits  VRAM  name 1      70B 73.94       16    160  AIDC-ai-business/Marcoroni-70B 33      70B    71.36        8 160 garage- bAInd /Camel-Platypus2-70B 50      70B    70.37        4     45  garage- bAInd /Camel-Platypus2-70B 55      65B    69.94       16    160  upstage/llama-65b-instruct 61     180B    68.74       16    400 tiiuae / falcon-180B 107      70B    66.8        16 160 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 100      13B    66.03       16         Aspik101/trurl-2-13b-pl-instruct_unload 145      30B    64.21        4     20 gaodrew /gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps 168      40b    63.47       16 tiiuae / falcon-40b -instruct (was #1 before LLaMa2) 181      13B    63.19        4     10  Open-Orca/OpenOrca-Platypus2-13B 348       7b    59.89       16 HyperbeeAI /Tulpar-7b-v0 565       7b    55.72        4      6 joehuangx /spatial-vicuna-7b-v1.5-LoRA"
+    },
+    {
+      "index": 6,
+      "title": "LLaMa 1 vs LLaMa 2 vs GPT LLaMa",
+      "text": "LLaMa 1 vs LLaMa 2 vs GPT LLaMa 1 February 2023 7b, 13b, 33b, and 65b 2,048 tokens context length trained on 1.4 trillion tokens 13b outperformed GPT-3 on most NLP benchmarks noncommercial license LLaMa 2 July 18, 2023 7b, 13b, 70b 4,096 tokens context length trained on two trillion tokens open for non-commercial and commercial use GPT-4 March 2023 8 x 220b 8,192 or 32,768  tokens context length trained on 13 trillion tokens using Reinforcement Learning (RL) in addition to regular methods of training transformers close code GPT-3 (June 2020) & GPT-3.5 (Nov 2022) 175b 2,048 & 4,096 tokens context length trained on 0.5 trillion tokens close code"
+    },
+    {
+      "index": 7,
+      "title": "How do open source LLMs compare to GPT-4?",
+      "text": "How do open source LLMs compare to GPT-4? https://ai.stackexchange.com/questions/41214/how-do-open-source-llms-compare-to-gpt-4 Huggingface - 4 key benchmarks from the Eleuther AI Language Model Evaluation Harness: ARC = AI2 Reasoning Challenge (25-shot) - a set of grade-school science questions. HellaSwag (10-shot) - a test of common sense inference, which is easy for humans (~95%) but challenging for SOTA models. MMLU (5-shot) - a test to measure a text model’s multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. TruthfulQA (0-shot) - a test to measure a model’s propensity to reproduce falsehoods commonly found online. ARC reasoning HellaSwag common sense MMLU (math, history, etc) TruthfulQA truthful ? GPT-4 96.3 95.3 86.4 59 GPT-3.5 85.2 85.5 70 47 Top 70b 72.1 87.4 69.91 65.81 Falcon 180B 69.8 88.95 70.54 45.67 Top 4bit (13b) 57.68 81.05 51.82 45.69"
+    },
+    {
+      "index": 8,
+      "title": "Different Types of Thinking Abstract thinking: Thinking about",
+      "text": "Different Types of Thinking Abstract thinking: Thinking about ideas and concepts that are not concrete or tangible. Analytical thinking: Thinking that involves breaking down information into smaller parts and examining them closely. Application thinking: Thinking about how to apply knowledge or skills to solve problems or complete tasks. Associative thinking: Thinking that involves making connections between seemingly unrelated ideas or concepts. Concrete thinking: Thinking about things that are real and tangible. Creative thinking: Thinking that involves generating new ideas or solutions to problems. Critical thinking: Thinking that involves evaluating information and arguments carefully to reach a sound conclusion. Divergent thinking: Thinking that involves generating a wide range of possible solutions to a problem. Inductive thinking: Thinking that involves drawing general conclusions from specific observations. Logical thinking: Thinking that involves using logic and reasoning to reach a conclusion. Mathematical thinking: Thinking that involves using mathematical concepts and principles to solve problems. Metacognitive thinking: Thinking about one's own thinking process. Problem-solving thinking: Thinking that involves identifying and solving problems. Rational thinking: Thinking that is based on reason and logic. Systems thinking: Thinking that involves understanding how different parts of a system interact with each other. Strategic thinking: Thinking about the long-term goals and objectives of a plan or action. Tactical thinking: Thinking about the short-term steps that need to be taken to achieve a goal."
+    },
+    {
+      "index": 9,
+      "title": "GPT Thinking GPT's \"thinking\" is based on statistical",
+      "text": "GPT Thinking GPT's \"thinking\" is based on statistical patterns in the data it has been trained on. GPT's responses are based on what it has seen before, rather than on its own understanding of the world. For example, if GPT is asked to write a story about a dog, it is likely to generate a story that is similar to other stories it has seen about dogs. GPT does not have the same ability as humans to think abstractly, critically, or creatively."
+    },
+    {
+      "index": 10,
+      "title": "GPT thinking in Humans Most people don't really",
+      "text": "GPT thinking in Humans Most people don't really think. They act like ChatGPT : generate next words based on previous words and on what they were trained on (TV, Religion, daily conversations, etc ). People talk to themselves in the same way. One phrase causes another, causes another, ...  Chain of phrases and images. ChatGPT in the brain . These chains of \"thoughts\" go different ways depending on how the person feels at the moment. The person thinks that it is \"logical thinking\". But it is just the flow of \" ChatGPT -like\" words' generation . It seems logical from inside. You sit inside you. You trust your own \"thoughts\". You are defenseless against your own thoughts. ChatGPT . Very few people can actually think. Think from first principles. Think from simple structures. Think systematically, not in ChatGPT way. Think strategically. Create truly new stuff (ideas, music, ...) GPT GPT Systematic thinking must have an object of thinking. Output of ChatGPT typically doesn't have independent structure. It is descriptions of parallels and complexities. A good habit is to keep asking yourself: \"am I a ChatGPT?\" \"am I talking to a ChatGPT?\" If so, why keep talking in the first place? You need to try to stop being a ChatGPT. To stop listening to ChatGPT inside you. To start understanding simple truths about yourself, your true essence. And start thinking from this understanding."
+    },
+    {
+      "index": 11,
+      "title": "Hosting Your Own Embeddding Model Hosting A Text",
+      "text": "Hosting Your Own Embeddding Model Hosting A Text Embedding Model That is Better, Cheaper, and Faster Than OpenAI’s Solution (which is #13 below) https://medium.com/@kelvin.lu.au/hosting-a-text-embedding-model-that-is-better-cheaper-and-faster-than-openais-solution-7675d8e7cab2 Massive Text Embedding Benchmark (MTEB) Leaderboard https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    {
+      "index": 12,
+      "title": "LLMs, RAG, & the missing storage layer for",
+      "text": "LLMs, RAG, & the missing storage layer for AI by Ayush Chaurasia  (Retrieval Augmented Generation(RAG)) https://blog.lancedb.com/llms-rag-the-missing-storage-layer-for-ai-28ded35fa984 Knowledge base Embedding model Retriever Response generator (LLM) LLMs, RAG, Storage for AI"
+    },
+    {
+      "index": 13,
+      "title": "https://gradient.ai San Francisco, CA - https://www.linkedin.com/company/gradient-ai-platform/ founded in",
+      "text": "https://gradient.ai San Francisco, CA - https://www.linkedin.com/company/gradient-ai-platform/ founded in 2022, ~30 people web-API-based LLM developer platform helps companies build private AI applications using open-source LLMs private, SOC2 compliant fine-tuning and inference via a single API call pay by token No infrastructure needed video: Fine Tune LLaMA 2 In FIVE MINUTES! https://www.youtube.com/watch?v=74NSDMvYZ9Y ."
+    },
+    {
+      "index": 14,
+      "title": "Mifcom Big Boss Computer with Seven 4090 GPUs",
+      "text": "Mifcom Big Boss Computer with Seven 4090 GPUs The Mifcom Big Boss - high end PC 7x Nvidia RTX 4090 GPUs (toal 168GB VRAM) water cooled CPU: AMD Ryzen Threadripper PRO 5995WX, 64x 2.7GHz, 288MB L3 cache Moterboard: ASUS Pro WS SAGE, WRX80 System memory: 128GB DDR4-3200, ECC Disk: 4TB WD Black SN850X Power 2x 2000W (requires two 230V 16A circuits) Price $31,500 Can run LLaMa2 at full accuracy https://www.mifcom.de/big-boss-cid361"
+    },
+    {
+      "index": 15,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates September 15, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates September 15, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Status Page HuggingFace.co > 1250 entries (was ~346",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 3,
+      "slideTitle": "Status Page HuggingFace.co > 1250 entries (was ~346",
+      "source": "slide"
+    },
+    {
+      "claim": "LLaMa 2 Influence July 18, 2023 Meta has",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 4,
+      "slideTitle": "LLaMa 2 Influence July 18, 2023 Meta has",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 5,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can",
+      "source": "slide"
+    },
+    {
+      "claim": "LLaMa 1 vs LLaMa 2 vs GPT LLaMa",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 6,
+      "slideTitle": "LLaMa 1 vs LLaMa 2 vs GPT LLaMa",
+      "source": "slide"
+    },
+    {
+      "claim": "How do open source LLMs compare to GPT-4?",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 7,
+      "slideTitle": "How do open source LLMs compare to GPT-4?",
+      "source": "slide"
+    },
+    {
+      "claim": "Different Types of Thinking Abstract thinking: Thinking about",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 8,
+      "slideTitle": "Different Types of Thinking Abstract thinking: Thinking about",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT Thinking GPT's \"thinking\" is based on statistical",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 9,
+      "slideTitle": "GPT Thinking GPT's \"thinking\" is based on statistical",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT thinking in Humans Most people don't really",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 10,
+      "slideTitle": "GPT thinking in Humans Most people don't really",
+      "source": "slide"
+    },
+    {
+      "claim": "Hosting Your Own Embeddding Model Hosting A Text",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 11,
+      "slideTitle": "Hosting Your Own Embeddding Model Hosting A Text",
+      "source": "slide"
+    },
+    {
+      "claim": "LLMs, RAG, & the missing storage layer for",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 12,
+      "slideTitle": "LLMs, RAG, & the missing storage layer for",
+      "source": "slide"
+    }
+  ]
+}

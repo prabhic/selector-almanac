@@ -1,0 +1,208 @@
+{
+  "id": "2023-02-24-2023-02-24-calculating-tracking-error-ilya",
+  "date": "2023-02-24",
+  "title": "Calculating-Tracking-Error-Ilya",
+  "series": "seminar",
+  "topics": [
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "Au882ry-Yuc",
+    "title": "Time Series With Machine Learning - February 24, 2023",
+    "url": "https://www.youtube.com/watch?v=Au882ry-Yuc",
+    "thumbnail": "https://i.ytimg.com/vi/Au882ry-Yuc/hqdefault.jpg",
+    "duration": 1798
+  },
+  "deck": {
+    "path": "2023/2023-02-24-Calculating-Tracking-Error-Ilya.pptx",
+    "filename": "2023-02-24-Calculating-Tracking-Error-Ilya.pptx",
+    "title": "Calculating-Tracking-Error-Ilya",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-02-24-Calculating-Tracking-Error-Ilya.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-02-24-Calculating-Tracking-Error-Ilya.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Algorithms",
+      "startSeconds": 477,
+      "label": "07:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Machine Learning Methods",
+      "startSeconds": 807,
+      "label": "13:27",
+      "source": "youtube"
+    },
+    {
+      "title": "SKTime",
+      "startSeconds": 928,
+      "label": "15:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Classification",
+      "startSeconds": 990,
+      "label": "16:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Removing Time Series",
+      "startSeconds": 1084,
+      "label": "18:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Motion Classification",
+      "startSeconds": 1235,
+      "label": "20:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Resources",
+      "startSeconds": 1304,
+      "label": "21:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusions",
+      "startSeconds": 1431,
+      "label": "23:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Backup",
+      "startSeconds": 1459,
+      "label": "24:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Distances",
+      "startSeconds": 1486,
+      "label": "24:46",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Calculating Tracking Error For Direct Indexing by Ilya",
+      "text": "Calculating Tracking Error For Direct Indexing by Ilya Kipnis"
+    },
+    {
+      "index": 2,
+      "title": "Notes: x'Sx x' = 1xn, S = nxn",
+      "text": "Notes: x'Sx x' = 1xn, S  = nxn covariance matrix, x  = nx1 = 1x1 ex-ante estimation of volatility (x-.002)'S(x-.002) rolling_standard_deviation ( portfolio_returns - index_returns , 21)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Calculating Tracking Error For Direct Indexing by Ilya",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Algorithms",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 477,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=477s",
+      "slideIndex": 1,
+      "slideTitle": "Calculating Tracking Error For Direct Indexing by Ilya",
+      "source": "youtube"
+    },
+    {
+      "claim": "Machine Learning Methods",
+      "topic": "general",
+      "videoSeconds": 807,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=807s",
+      "slideIndex": 1,
+      "slideTitle": "Calculating Tracking Error For Direct Indexing by Ilya",
+      "source": "youtube"
+    },
+    {
+      "claim": "SKTime",
+      "topic": "general",
+      "videoSeconds": 928,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=928s",
+      "slideIndex": 1,
+      "slideTitle": "Calculating Tracking Error For Direct Indexing by Ilya",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Classification",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 990,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=990s",
+      "slideIndex": 1,
+      "slideTitle": "Calculating Tracking Error For Direct Indexing by Ilya",
+      "source": "youtube"
+    },
+    {
+      "claim": "Removing Time Series",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1084,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1084s",
+      "slideIndex": 2,
+      "slideTitle": "Notes: x'Sx x' = 1xn, S = nxn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Motion Classification",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1235,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1235s",
+      "slideIndex": 2,
+      "slideTitle": "Notes: x'Sx x' = 1xn, S = nxn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Resources",
+      "topic": "general",
+      "videoSeconds": 1304,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1304s",
+      "slideIndex": 2,
+      "slideTitle": "Notes: x'Sx x' = 1xn, S = nxn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusions",
+      "topic": "general",
+      "videoSeconds": 1431,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1431s",
+      "slideIndex": 2,
+      "slideTitle": "Notes: x'Sx x' = 1xn, S = nxn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Backup",
+      "topic": "general",
+      "videoSeconds": 1459,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1459s",
+      "slideIndex": 2,
+      "slideTitle": "Notes: x'Sx x' = 1xn, S = nxn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Distances",
+      "topic": "general",
+      "videoSeconds": 1486,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1486s",
+      "slideIndex": 2,
+      "slideTitle": "Notes: x'Sx x' = 1xn, S = nxn",
+      "source": "youtube"
+    }
+  ]
+}

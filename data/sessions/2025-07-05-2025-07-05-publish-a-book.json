@@ -1,0 +1,646 @@
+{
+  "id": "2025-07-05-2025-07-05-publish-a-book",
+  "date": "2025-07-05",
+  "title": "Publish-a-book",
+  "series": "seminar",
+  "topics": [
+    "benchmarks",
+    "agents",
+    "open-models",
+    "multimodal",
+    "openai",
+    "infra",
+    "claude",
+    "google",
+    "jobs"
+  ],
+  "video": {
+    "id": "CDskqmyK7v4",
+    "title": "Have you heard these exciting AI news? - July 04, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=CDskqmyK7v4",
+    "thumbnail": "https://i.ytimg.com/vi/CDskqmyK7v4/hqdefault.jpg",
+    "duration": 1868
+  },
+  "deck": {
+    "path": "2025/2025-07-05-Publish-a-book.pptx",
+    "filename": "2025-07-05-Publish-a-book.pptx",
+    "title": "Publish-a-book",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-07-05-Publish-a-book.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-07-05-Publish-a-book.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 30,
+      "label": "00:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Baidu Ernie 4.5 Open-Sourced",
+      "startSeconds": 134,
+      "label": "02:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Huawei's Pangu ProE MoGE Architecture",
+      "startSeconds": 296,
+      "label": "04:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Terminal-Based AI",
+      "startSeconds": 378,
+      "label": "06:18",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Agents for Coding",
+      "startSeconds": 445,
+      "label": "07:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Dr. Ilya Sutskever, Open Univ. 2025",
+      "startSeconds": 576,
+      "label": "09:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Gemma 3n",
+      "startSeconds": 625,
+      "label": "10:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Go-Browse from CMU",
+      "startSeconds": 660,
+      "label": "11:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Polaris Math Reasoning Models",
+      "startSeconds": 680,
+      "label": "11:20",
+      "source": "youtube"
+    },
+    {
+      "title": "TOWER+ Multilingual LLM Framework",
+      "startSeconds": 699,
+      "label": "11:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Cluely - cheat on everything (startup)",
+      "startSeconds": 717,
+      "label": "11:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok 3.5 Cancelled, Grok-4 coming in July",
+      "startSeconds": 739,
+      "label": "12:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent Hunyuan-A13B open source",
+      "startSeconds": 761,
+      "label": "12:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Inception AI's Mercury Diffusion LLM",
+      "startSeconds": 790,
+      "label": "13:10",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI's Deep Research API & Prompts",
+      "startSeconds": 806,
+      "label": "13:26",
+      "source": "youtube"
+    },
+    {
+      "title": "China builds AI Computing Center in Tibet",
+      "startSeconds": 834,
+      "label": "13:54",
+      "source": "youtube"
+    },
+    {
+      "title": "\"Future be like tab tab tab\" - Andrej Karpathy",
+      "startSeconds": 859,
+      "label": "14:19",
+      "source": "youtube"
+    },
+    {
+      "title": "2024Nvidia GB202 is the largest Blackwell chip",
+      "startSeconds": 879,
+      "label": "14:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Tesla - first driverless delivery of a new car",
+      "startSeconds": 925,
+      "label": "15:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Amazon new AI model for robotics",
+      "startSeconds": 940,
+      "label": "15:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude can use Gemini CLI to process big codebase",
+      "startSeconds": 964,
+      "label": "16:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft AI diagnoses better than doctors",
+      "startSeconds": 1008,
+      "label": "16:48",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Charge $10M+ for Consulting Services",
+      "startSeconds": 1025,
+      "label": "17:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Desktop Extensions",
+      "startSeconds": 1069,
+      "label": "17:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Oracle building data centers",
+      "startSeconds": 1121,
+      "label": "18:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Hugging Face shuts down HuggingChat",
+      "startSeconds": 1189,
+      "label": "19:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Deep Agent from Abacus AI",
+      "startSeconds": 1208,
+      "label": "20:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Use ChatGPT as Photo Editing Studio",
+      "startSeconds": 1246,
+      "label": "20:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple MLX Framework",
+      "startSeconds": 1318,
+      "label": "21:58",
+      "source": "youtube"
+    },
+    {
+      "title": "The 5-Word Fix Makes AI Prompts 10x Smarter",
+      "startSeconds": 1360,
+      "label": "22:40",
+      "source": "youtube"
+    },
+    {
+      "title": "FastHTML and MonsterUI",
+      "startSeconds": 1396,
+      "label": "23:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Test AI Agents using \"Judge\" Agent",
+      "startSeconds": 1506,
+      "label": "25:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Speech-to-Text Systems",
+      "startSeconds": 1604,
+      "label": "26:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Largest Quantum Computers",
+      "startSeconds": 1679,
+      "label": "27:59",
+      "source": "youtube"
+    },
+    {
+      "title": "First Computer Bug",
+      "startSeconds": 1772,
+      "label": "29:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs",
+      "startSeconds": 1849,
+      "label": "30:49",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "How to write and Self-publish a Book",
+      "text": "How to write and Self-publish a Book"
+    },
+    {
+      "index": 2,
+      "title": "Publish a book in 1 day with ChatGPT",
+      "text": "Publish a book in 1 day with ChatGPT and Amazon Kindle In March 2023 Ken McCarthy has published 3 books using ChatGPT. For one of them it took him just 12 hours from start to uploading to Kindle. First you ask ChatGPT about the topics, create table of contents. Then for each chapter you ask for a list of subtopics. Then for each of subtopics you ask ChatGPT to write text. Finally you combine all pieces together."
+    },
+    {
+      "index": 3,
+      "title": "Nowadays you can write a book in MS",
+      "text": "Nowadays you can write a book in MS Word, and submit to Amazon. You can choose whether you want to make the book strictly electronic (Kindle), or a paper book (POD = Print-on-Demand). .. POD = Print On Demand .. KDP = Kindle Direct Publishing This process is so much simpler than in the old days when you had to go through a publishing company. Thirty years ago, the word \"publishing\" have meant producing a minimum of 20-30 thousand copies of the book, and then delivering these books to thousands of bookstores  across the country. Nowadays you can still use the services of publishing companies. These companies have professional editors and designers. They can do all technical work around producing and marketing the book. Publishing companies make most of their money from book sales. Some publishing companies will do all the work for free. Other companies may ask for thousands of dollars up-front. Do you need a publisher? POD: Books are printed \"on-demand\" when they are ordered on the website KDP: electronic books"
+    },
+    {
+      "index": 4,
+      "title": "How to write a book \"in 90 minutes\"",
+      "text": "How to write a book \"in 90 minutes\" .. The 90-Minute Book - by Dean Jackson .. https://www.amazon.com/90-Minute-Book-Dean-Jackson/dp/1494294230 Main ideas: select a topic, select title make 1-page plan for interview (questions) - 30 min conduct the interview, make audio recording (1 hr) transcribe audio into text (just google for transcribe interview – there are many options, prices from 0 to $1.50/page edit text into a book - find editor at upwork.com ($100) self-publish on amazon: .. POD = Print On Demand .. KDP = Kindle Direct Publishing Good reviews - https://self-publishingschool.com/self-publishing-on-amazon/ A course - https://bookschool.scribemedia.com/how-to-publish-a-book-course/ Dean Jackson Helping Entrepreneurs & Realtors Make More Money"
+    },
+    {
+      "index": 5,
+      "title": "How to write a book \"in two weeks\"",
+      "text": "How to write a book \"in two weeks\" How To Write A Book On Anything In 14 Days or Less… GUARANTEED!! A Professional’s Guide The complete, no-holds-barred Success System for getting your marketable book written faster than you ever thought possible and succeeding as a published author! Steve Manning 905-686-4891 e-mail: Steve@WriteABookNow.com ISBN 0-9692613-1-4 Retail price: $399.95 Steve Manning Select a topic Test several titles Make a list of chapters (n=10) Make a list of sub-chapters (m=7) – thus you have n*m \"buckets\" Fill buckets with content (3/4-page text per bucket) – no editing Edit buckets in reverse order (from the end of the book)"
+    },
+    {
+      "index": 6,
+      "title": "Course on Publishing a Book Tucker Max https://www.tuckermax.com",
+      "text": "Course on Publishing a Book Tucker Max https://www.tuckermax.com https://en.wikipedia.org/wiki/Tucker_Max A course on publishing: .. https://bookschool.scribemedia.com/how-to-publish-a-book-course/ Publishing Course Lessons Prepare Your Manuscript 1. Pick Your Book Title 2. Write Your Book Dedication 3. Write Your Book Acknowledgements 4. Copyediting and Proofreading Your Manuscript 5. Write Your Book Description 6. Write Your Author Bio Design Your Book 7. Get a Great Author Photo 8. Get Blurbs For Your Book 9. How to Get a Great Book Cover 10. Design Your Book Layout Publish Your Book 11. How to Pick the Right Publishing Option 12. What to Charge For Your Book"
+    },
+    {
+      "index": 7,
+      "title": "How to self-publish \"the same day\" There are",
+      "text": "How to self-publish \"the same day\" There are detailed instructions on formatting your book: .. https://kdp.amazon.com/en_US/help/topic/G202145400 Once you have your book as files (text and cover), you can submit it to Amazon Kindle following these steps: .. https://self-publishingschool.com/self-publishing-on-amazon/ Scott Allan Step 1. Create an Amazon Kindle Direct Publishing (KDP) Account Step 2. Add a new Kindle ebook (a “new title”) Step 3. Set Your Primary Language Step 4. Enter your book title and subtitle Step 5. Enter the Author name Step 6. Enter your book description Step 7. Verify your publishing rights Step 8. Choose your keywords Step 9. Choose two categories for your book Step 10. Choose the right age range (if this applies) Step 11. Choose your book release option Step 12. Select DRM rights Step 13. Upload your book Step 14. Upload your book cover Step 15. Preview your book Step 16. ISBN and Publisher (optional) Step 17: Upload your book when you are ready"
+    },
+    {
+      "index": 8,
+      "title": "Formatting your Book Book Text - in MS",
+      "text": "Formatting your Book Book Text - in MS Word: Set paper size to 8.5\" x 5.5\" Layout Margins: 0.5\" Font: Times Font size: 11 (small - 10, in tables - 9) Bold Titles: 11\", 16\", 20\" Page numbers – bottom Note: printing is done 4 pages at a time. Last page should be blank. Front and back covers (and spine) of the book: page size: 5.5\"w x 8.5\"h spine:     0.493\"w x 8.5\"h   (!!!  fix spine width) bleeding - 1/16\" Note: bleeding = extra size to allow artwork to reach the edge of a page (page printed - then trimmed). image size (!!!  fix spine width): height = 8.75\" (8.5\" + (1/16)*2) width = 11.618\" (5.5 + 0.493\" + 5.5 + (1/16)*2) Cover - 3 photoshop image files : front, back, and spine. Image sizes: For front and back add 1/8 on every side for bleeding. So the image size should be 8.75 x 5.75. Spine will be approximately 5/8\". We need to add 1/16 on each side for bleeding. So the size of the image for the spine is 8.125 x 0.75\" The images can be 300 dpi or 600dpi. We can use color photographs and /or graphics as needed. Note:   Image Mode in photoshop should be \"CMYK color\". Note:   The bar codes will be placed on the bottom of the back cover. So don't put text there. Table of contents in Microsoft Word - https://shaunakelly.com/word/numbering/tableofcontents.html In main text apply \"Heading 1\" style to chapter titles, \"Heading 2\" to sub-headings, \"Heading 3\" to sub-sub, etc. Click on page where you want TOC to appear, go to menu: References > Table of Contents. Here are formatting instructions from Kindle .. https://kdp.amazon.com/en_US/help/topic/G202145400"
+    },
+    {
+      "index": 9,
+      "title": "Using GenAI Technical Approach: Use GenAI to select",
+      "text": "Using GenAI Technical Approach: Use GenAI to select topic, title Generate table of contents (10 chapters?) Then for each chapter generate titles of sub-chapters Let's say: 10 chapters x 10 subchapters = 100 pieces Use AI to fill each piece with content. Use another AI to edit the whole book Use another process to \"Humanize\" the text (to avoid being flagged by AI content detectors) Finally the book can be nicely written into a formatted MS Word document. https:// github.com / lselector /seminar/tree/master/2022/py2docs AI content detectors: https://originality.ai https://www.zerogpt.com https://contentatscale.ai https://gowinston.ai https://copyleaks.com https://www.turnitin.com https://gptzero.me Text Humanizers: https://humbot.ai https://undetectableai.ai Book Generator Tool https://rocketwriter.ai/pricing https://go2.designrr.io/wordgenie2 https://wordgenie.de/en/"
+    },
+    {
+      "index": 10,
+      "title": "Kindle Direct Publishing – you submit your own",
+      "text": "Kindle Direct Publishing – you submit your own book .. https://kdp.amazon.com Amazon Publishing – they will do all the work for you (for a fee) .. https://amazonpublishinghub.com Upwork – hire an editor or designer .. https://www.upwork.com Services"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "How to write and Self-publish a Book",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 30,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=30s",
+      "slideIndex": 1,
+      "slideTitle": "How to write and Self-publish a Book",
+      "source": "youtube"
+    },
+    {
+      "claim": "Baidu Ernie 4.5 Open-Sourced",
+      "topic": "general",
+      "videoSeconds": 134,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=134s",
+      "slideIndex": 2,
+      "slideTitle": "Publish a book in 1 day with ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Huawei's Pangu ProE MoGE Architecture",
+      "topic": "general",
+      "videoSeconds": 296,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=296s",
+      "slideIndex": 2,
+      "slideTitle": "Publish a book in 1 day with ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Terminal-Based AI",
+      "topic": "general",
+      "videoSeconds": 378,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=378s",
+      "slideIndex": 2,
+      "slideTitle": "Publish a book in 1 day with ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Agents for Coding",
+      "topic": "agents",
+      "videoSeconds": 445,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=445s",
+      "slideIndex": 2,
+      "slideTitle": "Publish a book in 1 day with ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Dr. Ilya Sutskever, Open Univ. 2025",
+      "topic": "general",
+      "videoSeconds": 576,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=576s",
+      "slideIndex": 3,
+      "slideTitle": "Nowadays you can write a book in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemma 3n",
+      "topic": "open-models",
+      "videoSeconds": 625,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=625s",
+      "slideIndex": 3,
+      "slideTitle": "Nowadays you can write a book in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Go-Browse from CMU",
+      "topic": "general",
+      "videoSeconds": 660,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=660s",
+      "slideIndex": 3,
+      "slideTitle": "Nowadays you can write a book in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Polaris Math Reasoning Models",
+      "topic": "general",
+      "videoSeconds": 680,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=680s",
+      "slideIndex": 3,
+      "slideTitle": "Nowadays you can write a book in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "TOWER+ Multilingual LLM Framework",
+      "topic": "general",
+      "videoSeconds": 699,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=699s",
+      "slideIndex": 4,
+      "slideTitle": "How to write a book \"in 90 minutes\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cluely - cheat on everything (startup)",
+      "topic": "general",
+      "videoSeconds": 717,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=717s",
+      "slideIndex": 4,
+      "slideTitle": "How to write a book \"in 90 minutes\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Grok 3.5 Cancelled, Grok-4 coming in July",
+      "topic": "general",
+      "videoSeconds": 739,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=739s",
+      "slideIndex": 4,
+      "slideTitle": "How to write a book \"in 90 minutes\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent Hunyuan-A13B open source",
+      "topic": "open-models",
+      "videoSeconds": 761,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=761s",
+      "slideIndex": 4,
+      "slideTitle": "How to write a book \"in 90 minutes\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Inception AI's Mercury Diffusion LLM",
+      "topic": "multimodal",
+      "videoSeconds": 790,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=790s",
+      "slideIndex": 5,
+      "slideTitle": "How to write a book \"in two weeks\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI's Deep Research API & Prompts",
+      "topic": "openai",
+      "videoSeconds": 806,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=806s",
+      "slideIndex": 5,
+      "slideTitle": "How to write a book \"in two weeks\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "China builds AI Computing Center in Tibet",
+      "topic": "general",
+      "videoSeconds": 834,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=834s",
+      "slideIndex": 5,
+      "slideTitle": "How to write a book \"in two weeks\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "\"Future be like tab tab tab\" - Andrej Karpathy",
+      "topic": "general",
+      "videoSeconds": 859,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=859s",
+      "slideIndex": 5,
+      "slideTitle": "How to write a book \"in two weeks\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "2024Nvidia GB202 is the largest Blackwell chip",
+      "topic": "infra",
+      "videoSeconds": 879,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=879s",
+      "slideIndex": 6,
+      "slideTitle": "Course on Publishing a Book Tucker Max https://www.tuckermax.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tesla - first driverless delivery of a new car",
+      "topic": "general",
+      "videoSeconds": 925,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=925s",
+      "slideIndex": 6,
+      "slideTitle": "Course on Publishing a Book Tucker Max https://www.tuckermax.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "Amazon new AI model for robotics",
+      "topic": "general",
+      "videoSeconds": 940,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=940s",
+      "slideIndex": 6,
+      "slideTitle": "Course on Publishing a Book Tucker Max https://www.tuckermax.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude can use Gemini CLI to process big codebase",
+      "topic": "claude",
+      "videoSeconds": 964,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=964s",
+      "slideIndex": 6,
+      "slideTitle": "Course on Publishing a Book Tucker Max https://www.tuckermax.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft AI diagnoses better than doctors",
+      "topic": "general",
+      "videoSeconds": 1008,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1008s",
+      "slideIndex": 7,
+      "slideTitle": "How to self-publish \"the same day\" There are",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Charge $10M+ for Consulting Services",
+      "topic": "openai",
+      "videoSeconds": 1025,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1025s",
+      "slideIndex": 7,
+      "slideTitle": "How to self-publish \"the same day\" There are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Desktop Extensions",
+      "topic": "claude",
+      "videoSeconds": 1069,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1069s",
+      "slideIndex": 7,
+      "slideTitle": "How to self-publish \"the same day\" There are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Oracle building data centers",
+      "topic": "general",
+      "videoSeconds": 1121,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1121s",
+      "slideIndex": 7,
+      "slideTitle": "How to self-publish \"the same day\" There are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hugging Face shuts down HuggingChat",
+      "topic": "open-models",
+      "videoSeconds": 1189,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1189s",
+      "slideIndex": 8,
+      "slideTitle": "Formatting your Book Book Text - in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deep Agent from Abacus AI",
+      "topic": "agents",
+      "videoSeconds": 1208,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1208s",
+      "slideIndex": 8,
+      "slideTitle": "Formatting your Book Book Text - in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use ChatGPT as Photo Editing Studio",
+      "topic": "openai",
+      "videoSeconds": 1246,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1246s",
+      "slideIndex": 8,
+      "slideTitle": "Formatting your Book Book Text - in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple MLX Framework",
+      "topic": "general",
+      "videoSeconds": 1318,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1318s",
+      "slideIndex": 8,
+      "slideTitle": "Formatting your Book Book Text - in MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "The 5-Word Fix Makes AI Prompts 10x Smarter",
+      "topic": "general",
+      "videoSeconds": 1360,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1360s",
+      "slideIndex": 9,
+      "slideTitle": "Using GenAI Technical Approach: Use GenAI to select",
+      "source": "youtube"
+    },
+    {
+      "claim": "FastHTML and MonsterUI",
+      "topic": "general",
+      "videoSeconds": 1396,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1396s",
+      "slideIndex": 9,
+      "slideTitle": "Using GenAI Technical Approach: Use GenAI to select",
+      "source": "youtube"
+    },
+    {
+      "claim": "Test AI Agents using \"Judge\" Agent",
+      "topic": "agents",
+      "videoSeconds": 1506,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1506s",
+      "slideIndex": 9,
+      "slideTitle": "Using GenAI Technical Approach: Use GenAI to select",
+      "source": "youtube"
+    },
+    {
+      "claim": "Speech-to-Text Systems",
+      "topic": "general",
+      "videoSeconds": 1604,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1604s",
+      "slideIndex": 9,
+      "slideTitle": "Using GenAI Technical Approach: Use GenAI to select",
+      "source": "youtube"
+    },
+    {
+      "claim": "Largest Quantum Computers",
+      "topic": "general",
+      "videoSeconds": 1679,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1679s",
+      "slideIndex": 10,
+      "slideTitle": "Kindle Direct Publishing – you submit your own",
+      "source": "youtube"
+    },
+    {
+      "claim": "First Computer Bug",
+      "topic": "general",
+      "videoSeconds": 1772,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1772s",
+      "slideIndex": 10,
+      "slideTitle": "Kindle Direct Publishing – you submit your own",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1849,
+      "videoUrl": "https://www.youtube.com/watch?v=CDskqmyK7v4&t=1849s",
+      "slideIndex": 10,
+      "slideTitle": "Kindle Direct Publishing – you submit your own",
+      "source": "youtube"
+    }
+  ]
+}

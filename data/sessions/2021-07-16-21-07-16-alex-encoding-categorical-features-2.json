@@ -1,0 +1,152 @@
+{
+  "id": "2021-07-16-21-07-16-alex-encoding-categorical-features-2",
+  "date": "2021-07-16",
+  "title": "Alex Encoding categorical features 2",
+  "series": "data-science-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Alex_Encoding_categorical_features_2.pptx",
+    "filename": "21-07-16-Alex_Encoding_categorical_features_2.pptx",
+    "title": "Alex Encoding categorical features 2",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Alex_Encoding_categorical_features_2.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Alex_Encoding_categorical_features_2.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Encoding categorical features Beyond One-hot Encoding, Part II",
+      "text": "Encoding categorical features Beyond One-hot Encoding, Part II by Alex Ni June 11, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Recap: 17 ways of encoding categorical variables OrdinalEncoder",
+      "text": "Recap: 17 ways of encoding categorical variables OrdinalEncoder CountEncoder OnehotEncoder SumEncoder BackwardDifferenceEncoder HelmertEncoder PolynomialEncoder BinaryEncoder BaseNEconder HashingEncoder TargetEconder MEstimateEncoder JamesSteinEncoder GLMMEncoder WOEEncoder LeaveOneOutEncoder CatBosstEncoder Method Unsupervised: the encoding is based solely on the categorical column Supervised: the encoding is based on some function of original column and a second (numeric) column Output dimension The encoding of a categorical column may produce one numeric column (output dimension = 1) or many numeric columns (output dimension > 1) Mapping Whether each level is mapping to a unique output"
+    },
+    {
+      "index": 3,
+      "title": "14. GLMMEncoder Fit a General Linear Mixed Models(GLMM)",
+      "text": "14. GLMMEncoder Fit a General Linear Mixed Models(GLMM) with no regressors (only the intercept) and use the levels as groups Exploits the fact that Linear Mixed Effect Models are designed precisely for handling homogeneous groups of observations Homogeneous groups Students sampled from within same classrooms Patients seen by the same doctor"
+    },
+    {
+      "index": 4,
+      "title": "General Linear Mixed Model An extension of simple",
+      "text": "General Linear Mixed Model An extension of simple linear model that incorporates fixed and random effects Particularly useful when there is non-independence in the data Fixed effect: Variables that are constant or change at a constant rate over time across individuals Example: Age, sex, ethnicity, etc. Random effect: Unpredictable variables Example: price of a new car depending on make, year, location A good explanation from here: https://stats.idre.ucla.edu/other/mult-pkg/introduction-to-linear-mixed-models/ Fixed effect Random effect"
+    },
+    {
+      "index": 5,
+      "title": "15. WOEEncoder Weight of Evidence(WOE) Only works for",
+      "text": "15. WOEEncoder Weight of Evidence(WOE) Only works for binary target variable (predict 0 or 1) Consider distribution of 1s (# of 1s in each group / # of 1s in all y) distributions of 0s (# of 0s in each group / # of 0s in all y) Core of algorithm: Divide the distribution of 1s by the distribution of 0s for each group Then take the logarithm of that value"
+    },
+    {
+      "index": 6,
+      "title": "Issues with TargetEncoder and GLMMEncoder Target Encoding introduces",
+      "text": "Issues with TargetEncoder and GLMMEncoder Target Encoding introduces a parameter called “smoothing”, which depends on how “credible” is the group mean. GLMMEncoder needs to fit a general linear mixed model before the encoding. We may have issues of row-wise leakage improper sharing of information between rows of data"
+    },
+    {
+      "index": 7,
+      "title": "16. LeaveOneOutEncoder Non-unique mapping A vanilla target encoding",
+      "text": "16. LeaveOneOutEncoder Non-unique mapping A vanilla target encoding For each row, it does not consider the value of y observed for that row. Then take the mean of the y"
+    },
+    {
+      "index": 8,
+      "title": "17. CatBoostEncoder Non-unique mapping A gradient boosting based",
+      "text": "17. CatBoostEncoder Non-unique mapping A gradient boosting based encoding algorithm, works like LeaveOneOutEncoder but following an on-line approach Assume the rows above the current row have been observed previously in time, while the rows below have yet to be observed (i.e. will be observed in the future). Then, the algorithm does a leave-one-out encoding, but based only on the rows already observe"
+    },
+    {
+      "index": 9,
+      "title": "Reference Beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 An introduction to general linear",
+      "text": "Reference Beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 An introduction to general linear mixed model https://stats.idre.ucla.edu/other/mult-pkg/introduction-to-linear-mixed-models/ Catboost https://catboost.ai/docs/concepts/algorithm-main-stages_cat-to-numberic.html"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Encoding categorical features Beyond One-hot Encoding, Part II",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Encoding categorical features Beyond One-hot Encoding, Part II",
+      "source": "slide"
+    },
+    {
+      "claim": "Recap: 17 ways of encoding categorical variables OrdinalEncoder",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Recap: 17 ways of encoding categorical variables OrdinalEncoder",
+      "source": "slide"
+    },
+    {
+      "claim": "14. GLMMEncoder Fit a General Linear Mixed Models(GLMM)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "14. GLMMEncoder Fit a General Linear Mixed Models(GLMM)",
+      "source": "slide"
+    },
+    {
+      "claim": "General Linear Mixed Model An extension of simple",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "General Linear Mixed Model An extension of simple",
+      "source": "slide"
+    },
+    {
+      "claim": "15. WOEEncoder Weight of Evidence(WOE) Only works for",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "15. WOEEncoder Weight of Evidence(WOE) Only works for",
+      "source": "slide"
+    },
+    {
+      "claim": "Issues with TargetEncoder and GLMMEncoder Target Encoding introduces",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Issues with TargetEncoder and GLMMEncoder Target Encoding introduces",
+      "source": "slide"
+    },
+    {
+      "claim": "16. LeaveOneOutEncoder Non-unique mapping A vanilla target encoding",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "16. LeaveOneOutEncoder Non-unique mapping A vanilla target encoding",
+      "source": "slide"
+    },
+    {
+      "claim": "17. CatBoostEncoder Non-unique mapping A gradient boosting based",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "17. CatBoostEncoder Non-unique mapping A gradient boosting based",
+      "source": "slide"
+    },
+    {
+      "claim": "Reference Beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 An introduction to general linear",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Reference Beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 An introduction to general linear",
+      "source": "slide"
+    }
+  ]
+}

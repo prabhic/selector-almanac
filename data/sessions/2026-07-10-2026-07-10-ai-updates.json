@@ -1,0 +1,754 @@
+{
+  "id": "2026-07-10-2026-07-10-ai-updates",
+  "date": "2026-07-10",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "openai",
+    "google",
+    "data-engineering",
+    "claude",
+    "infra",
+    "open-models",
+    "agents",
+    "fine-tuning",
+    "coding",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "6x28pfmf0yU",
+    "title": "Exciting AI Updates Weekly - July 10, 2026",
+    "url": "https://www.youtube.com/watch?v=6x28pfmf0yU",
+    "thumbnail": "https://i.ytimg.com/vi/6x28pfmf0yU/hqdefault.jpg",
+    "duration": 2091
+  },
+  "deck": {
+    "path": "2026/2026-07-10-AI-Updates.pptx",
+    "filename": "2026-07-10-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-07-10-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-07-10-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Taught AI to answer, now we teach it to act",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 36,
+      "label": "00:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok 4.5, GPT-5.6, Gemini 3.5, Muse-spark 1.1",
+      "startSeconds": 105,
+      "label": "01:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic Fable 5 and Mythos 5 Models",
+      "startSeconds": 213,
+      "label": "03:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Fable 5 promo",
+      "startSeconds": 247,
+      "label": "04:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude to Modify its own Claude.md",
+      "startSeconds": 277,
+      "label": "04:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Boris Cherny on 5 new roles",
+      "startSeconds": 363,
+      "label": "06:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Visionary, A Cow",
+      "startSeconds": 412,
+      "label": "06:52",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI optimizations cut inference cost x2",
+      "startSeconds": 482,
+      "label": "08:02",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek DSpark Speculative Decoding",
+      "startSeconds": 510,
+      "label": "08:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Chinese Models Are Cheaper",
+      "startSeconds": 599,
+      "label": "09:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Organization-wide Agent",
+      "startSeconds": 711,
+      "label": "11:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Composio SDK connects agents to 100s of apps",
+      "startSeconds": 806,
+      "label": "13:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent's Hy3 - open MoE LLM",
+      "startSeconds": 830,
+      "label": "13:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Model Routing Saves 60% - 90% of costs",
+      "startSeconds": 861,
+      "label": "14:21",
+      "source": "youtube"
+    },
+    {
+      "title": "China's 140 humanoid robot companies",
+      "startSeconds": 937,
+      "label": "15:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Computational archaeology",
+      "startSeconds": 960,
+      "label": "16:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Aravind Srinivas Interview",
+      "startSeconds": 1008,
+      "label": "16:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Sentdex - Local Models",
+      "startSeconds": 1038,
+      "label": "17:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Standard for the Karpathy LLM Wiki",
+      "startSeconds": 1104,
+      "label": "18:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude in Chrome Extension",
+      "startSeconds": 1195,
+      "label": "19:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Python for Karpathy-style wiki",
+      "startSeconds": 1235,
+      "label": "20:35",
+      "source": "youtube"
+    },
+    {
+      "title": "KV (Key-Value) Cache and PagedAttention",
+      "startSeconds": 1283,
+      "label": "21:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Boston Dynamics 5th Gen Atlas",
+      "startSeconds": 1346,
+      "label": "22:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Chinese company Ubtech - UWorld U1 Robots",
+      "startSeconds": 1380,
+      "label": "23:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Qualcomm Uses Mojo Prog. Language",
+      "startSeconds": 1414,
+      "label": "23:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Mobile OpenClaw - Android and iOS",
+      "startSeconds": 1478,
+      "label": "24:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Three AI world model paradigms",
+      "startSeconds": 1500,
+      "label": "25:00",
+      "source": "youtube"
+    },
+    {
+      "title": "JEPA is just LoRA in disguise",
+      "startSeconds": 1572,
+      "label": "26:12",
+      "source": "youtube"
+    },
+    {
+      "title": "AI amplifies existing skill levels",
+      "startSeconds": 1620,
+      "label": "27:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Brain2Qwerty v2",
+      "startSeconds": 1656,
+      "label": "27:36",
+      "source": "youtube"
+    },
+    {
+      "title": "10 core components of an AI agent harness",
+      "startSeconds": 1726,
+      "label": "28:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Design's June 2026 update",
+      "startSeconds": 1779,
+      "label": "29:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Certified Architect (CCA-F) Exam",
+      "startSeconds": 1803,
+      "label": "30:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Alex Hormozi's three-folder organization",
+      "startSeconds": 1880,
+      "label": "31:20",
+      "source": "youtube"
+    },
+    {
+      "title": "llama.cpp - Georgi Gerganov",
+      "startSeconds": 1941,
+      "label": "32:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Source Repos for Claude Code",
+      "startSeconds": 2002,
+      "label": "33:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Evolution of RAG",
+      "startSeconds": 2028,
+      "label": "33:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 2077,
+      "label": "34:37",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Grok 4.5, GPT‑5.6, Gemini",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Grok 4.5, GPT‑5.6, Gemini 3.5 Anthropic Fable 5 and Mythos 5 Models Fable 5 promo Claude to Modify its own Claude.md Boris Cherny on 5 new roles Visionary, A Cow OpenAI optimizations cut inference cost x2 DeepSeek DSpark Speculative Decoding AI Updates - July 10, 2026 Jobs & Layoffs First we taught machines to answer. Now we teach them to act. Use Python for Karpathy-style wiki KV (Key-Value) Cache and PagedAttention Boston Dynamics 5th Gen Atlas Chinese company Ubtech - UWorld U1 Robots Qualcomm Uses Mojo Prog. Language Mobile OpenClaw - Android and iOS Three AI world model paradigms JEPA is just LoRA in disguise AI amplifies existing skill levels Meta Brain2Qwerty v2 10 core components of an AI agent harness Claude Design’s June 2026 update Claude Certified Architect (CCA-F) Exam Alex Hormozi's three-folder organization llama.cpp - Georgi Gerganov Open Source Repos for Claude Code Evolution of RAG Chinese Models Are Cheaper Organization-wide Agent Composio SKD connects agents to 100s of apps Tencent’s Hy3 - open MoE LLM Model Routing Saves 60% - 90% of costs China’s 140 humanoid robot companies Computational archaeology Aravind Srinivas Interview Sentdex - Local Models Open Standard for the Karpathy LLM Wiki Claude in Chrome Extension"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for July 1 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB GLM-5.1 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k2.6 - 1T Xiaomi MiMo-V2-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-fable-5 1563 ■ claude-opus-4-7-thinking 1553 ■ claude-opus-4-6-thinking 1551 ■ claude-opus-4-7 1550 ■ claude-opus-4-6 1548 ■ claude-opus-4-8 1537 ■ claude-opus-4-8-thinking 1537 ■ claude-opus-4-5-20251101-thinking-32k 1530 ■ claude-sonnet-4-6 1527 ■ qwen3.7-max-preview 1526 ■ muse-spark 1525 ■ glm-5.1 1524 ■ claude-opus-4-5-20251101 1523 ■ gemini-3.1-pro-preview 1522 ■ gpt-5.4-high 1521 ■ claude-sonnet-4-5-20250929-thinking-32k 1520 ■ mimo-v2.5-pro 1520 ■ gemini-3-pro 1519 ■ gpt-5.5-high 1518 ■ gpt-5.2-chat-latest-20260210 1516 ■ glm-5.2 (max) 1515 ■ claude-sonnet-5-thinking 1515 ■ gpt-5.4 1514 ■ grok-4.20-beta-0309-reasoning 1514 ■ claude-sonnet-4-5-20250929 1514 Code Model Score ■ claude-fable-5 1509 ■ claude-opus-4-6-thinking 1504 ■ claude-opus-4-7-thinking 1502 ■ claude-opus-4-6 1499 ■ claude-opus-4-7 1494 ■ muse-spark 1487 ■ gemini-3.1-pro-preview 1486 ■ gemini-3-pro 1486 ■ claude-opus-4-8-thinking 1484 ■ gpt-5.5-high 1481 ■ gemini-3.5-flash 1479 ■ gpt-5.4-high 1478 ■ claude-opus-4-8 1477 ■ gpt-5.2-chat-latest-20260210 1476 ■ qwen3.7-max-preview 1475 ■ gpt-5.5 1475 ■ grok-4.20-beta-0309-reasoning 1475 ■ grok-4.20-beta1 1474 ■ gemini-3-flash 1473 ■ claude-opus-4-5-20251101-thinking-32k 1473 ■ gpt-5.5-instant 1473 ■ glm-5.1 1472 ■ claude-sonnet-4-6 1472 ■ grok-4.20-multi-agent-beta-0309 1470 ■ claude-opus-4-5-20251101 1469"
+    },
+    {
+      "index": 3,
+      "title": "AI Updates Grok 4.5 by xAI/SpaceXAI (July 8-9)",
+      "text": "AI Updates Grok 4.5 by xAI/SpaceXAI (July 8-9) coding, agentic tasks, and knowledge work 1.5 Trillion-parameter V9 foundation Trained with Cursor coding data It targets Opus-class performance The model is optimized for tools and agents, aiming to power autonomous workflows for soft.dev. & research Grok 4.5 is being positioned as a cheaper, high-capability alternative to leading models Pricing $2 / $6 in/out per 1M (compare $5 / $25 Claude Opus) OpenAI GPT‑5.6 models: Sol, Terra, Luna (July 9) https://www.youtube.com/watch?v=mD1F5DsC5tc Pricing -  in/out per 1M token Sol - $5 / $30, the flagship Terra - $2.50/$15 - balanced, like 5.5 Luna $1/$6 - fastest and most affordable 1.5M-token context window Gemini 3.5 Flash (May 19) $1.5 / $9 Gemini 3.5 Pro (still in limited preview) $2.5 / $15 Anthropic’s Fable 5 promo for subscriptions Through July 12 Fable 5 is available as part of your subscription (up to 50% of your weekly limits) Starting July 13 Fable 5 will no longer be part of subscriptions. It will require \"usage credits\" Re-release of Fable 5 and Mythos 5 models Anthropic introduced a strict, government collaborated safety classifier However, this classifier frequently flags harmless coding or biology prompts, automatically downgrading paying users to the older, cheaper Opus 4.8 model. Developers discovered a hidden anti-distillation mechanism inside Claude Code that secretly alters system prompt characters to track unauthorized Chinese proxies and resellers This raises significant user transparency and trust concerns https://www.youtube.com/watch?v=d6R3tsSD270"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates Instruct Claude to Modify its own",
+      "text": "AI Updates Instruct Claude to Modify its own Claude.md file Paste this into claude to build 10x faster... (Boris Cherny Method) https://www.youtube.com/watch?v=9nTG1B1No_E At the end of your claude.md file add this phrase under a dedicated section (like # Self-Learning or # Instructions): When I correct you or catch you making a mistake before continuing add the lesson as a oneline rule under #lessons so it never happens again This instructs Claude to update its own markdown file. When a user corrects Claude, the AI automatically appends that mistake as a one-line rule under a dedicated lessons section. Boris Cherny of Anthropic on 5 new roles Instead of traditional roles like engineer or designer hire for five archetypes: Prototypers: generate many ideas Builders: turn the best ones into real products Sweepers: refine systems, remove bad ideas, and improve quality Growers: focus on product-market fit using data and user feedback Maintainers: ensure systems stay reliable and scalable over time The mix depends on stage: early teams need prototypers, builders, and sweepers; growth adds growers; mature products rely more on sweepers, growers, and maintainers Hire based on function and impact, not job titles or resumes https://x.com/bcherny/status/2071379474277613732 What is missing? Boris Cherny has described only roles for implementation of the idea. But who formulates this idea? We need to have someone like Steve Jobs - a visionary. Someone to define a direction, goal, intent, strategy We need someone who knows where to hit. Remember this old story: A factory machine breaks down. A consultant taps one spot with a hammer and the machine starts. His invoices $1 for hitting, and $9,999 for knowing where to hit. Dan Sullivan from Strategic Coach explains how business owners do everything themselves behave as \"self-milking cow\" - He encourages business leaders to delegate, build systems, and find the \"Who\" to execute tasks"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates OpenAI optimizations cut inference cost x2",
+      "text": "AI Updates OpenAI optimizations cut inference cost x2 Serve ChatGPT for logged‑out users with only a few hundred NVIDIA GPUs, versus far larger fleets before They have not disclosed details, but observers believe it’s a combination of aggressive quantization, smarter KV caching, highly efficient batching, and routing simpler queries to cheaper models, all backed by better low‑level kernel and serving‑stack tuning The business impact is significant: cheaper inference can support lower API prices, higher usage limits, and better profit margins So inference efficiency is a key competitive moat DeepSeek DSpark Speculative Decoding Accelerates AI generation speed by 80+% Increases total output capacity by 700% without losing quality Traditional speculative decoding uses small models to draft text ahead for a larger model to verify, but drafts are often slow or error-prone due to sentence decay DSpark fixes this by using a parallel drafter enhanced with a lightweight Markov head to eliminate errors It also introduces a confidence head that dynamically adjusts draft lengths based on context predictability - like shortening drafts for creative tasks and lengthening them for deterministic coding Finally, DSpark is hardware-aware, regulating drafts based on real-time GPU loads to optimize multi-user data centers https://www.youtube.com/watch?v=J0D7qV3nl7w Z.ai GLM-5.2 + DeepSeek's DSpark Beats Claude + 85% Faster + OpenSource + Affordable https://www.youtube.com/watch?v=wDpN2ORnqZk"
+    },
+    {
+      "index": 6,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 7K subscribers, 295 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 7,
+      "title": "Chinese Models Are Cheaper Claude 3.5 Sonnet vs",
+      "text": "Chinese Models Are Cheaper Claude 3.5 Sonnet vs DeepSeek V4 Pro Both have built a website for coffee shop: animated interactive drink configurator, database for orders, admin dashboard Costs: Sonnet - $11, DeepSeek - $0.08 Sonnet - more reliable drink configurator and case-insensitive admin search, but no navigation menu or a footer DeepSeek built a cleaner, more complete layout with a sticky menu, though its configurator had minor pricing bugs https://www.youtube.com/watch?v=Yot-6wXrcyI (in Russian) Flappy Bird Test: .. DeepSeek v4 Pro .. GLM 5.2 .. Fable 5 https://www.youtube.com/watch?v=i6r0GyFpI4I"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates Organization-wide Agent - Andrej Karpathy https://x.com/karpathy/status/2069547676849557725",
+      "text": "AI Updates Organization-wide Agent - Andrej Karpathy https://x.com/karpathy/status/2069547676849557725 https://www.youtube.com/watch?v=eMVaGOsfYs8 from (1) isolated web chatbots and (2) desktop apps to (3) persistent, organization-wide AI entities Anthropic’s Tag feature in Slack - generates 65% of Anthropic's internal product code ! AI can now act as an active, multiplayer \"employee\" deeply integrated across a company’s entire system, tools, and context. \"Claude Tag\" is currently only for Team/Enterprise A small businesses can build a similar functionality using custom Telegram bots connected via AWS and tools like Composio Composio SKD connects agents to 100s of apps (GitHub, Slack, Salesforce, Notion, Jira, Gmail, databases, OS tools) It handles authentication (OAuth, API keys, JWT(JSON Web Token)), sandboxed execution, logging, and dashboards so you don’t have to hand‑roll API glue and infra for each tool This makes it useful for turning agent prototypes into production workflows like code assistants, sales bots, or admin helpers https://composio.dev https://github.com/ComposioHQ/composio https://aws.amazon.com/marketplace/pp/prodview-skjxykuajjn34 https://github.com/ComposioHQ/composio/blob/master/docs/introduction/intro/overview.mdx"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Tencent’s Hy3 - open MoE LLM",
+      "text": "AI Updates Tencent’s Hy3 - open MoE LLM Reasoning, coding, and agentic workflows 295B params, 21B active per token Context length 256K tokens Suitable for large codebases and extensive documents “fast vs deep” config Strong on SWE‑bench coding tasks and advanced math/scientific reasoning Cost‑efficient for production use https://www.tencent.com/en-us/articles/2202386.html Model Routing Helps to Save 60% - 90% of costs Planning - use highly capable, expensive \"frontier\" model Execution - use a cheaper, specialized model Because output tokens cost significantly more than input tokens, offloading the high-volume code-generation phase to cheaper models drives massive savings https://www.youtube.com/watch?v=1KKB_UiW6ls"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates China - 140 humanoid robot companies,",
+      "text": "AI Updates China - 140 humanoid robot companies, 330+ models Major players - Unitree, AgiBot and UBTECH (80–85% of global installations) Computational archaeology - decipher 2,000-y.old carbonized Vesuvius scrolls using high‑resolution X‑ray micro‑CT scans, virtual unwrapping algorithms, and Deep‑learning models trained to detect faint ink signals on these surfaces invisible to human eyes From single words to fully decoded scrolls https://www.theguardian.com/science/2024/feb/05/ai-helps-scholars-read-scroll-buried-when-vesuvius-erupted-in-ad79 Joe Rogan Experience #2521 - Aravind Srinivas https://www.youtube.com/watch?v=fOLu-pWQssQ The Brahmastra & Ancient Weapons: They discuss the Mahabharata (an ancient Hindu epic estimated to be 1,500 to 2,500 years old). The guest describes the Brahmastra as the ancient equivalent of a hydrogen bomb The Currency of the Future - \"curiosity premium.\" As the cost of cognition drops to the cost of compute. Status and success will shift to those who know how to ask the deepest, most original questions. True intelligence will be defined by problem-poking, agency, execution, and the intellectual humility to self-correct when faced with new data Economic Shifting - \"AI dividend\" or subsidy system similar to the Alaska Permanent Fund or resource-abundant Gulf States"
+    },
+    {
+      "index": 11,
+      "title": "Sentdex Sentdex - https://www.youtube.com/watch?v=AgpeggCsRH4 Running AI Locally Doesn't",
+      "text": "Sentdex Sentdex - https://www.youtube.com/watch?v=AgpeggCsRH4 Running AI Locally Doesn't Require an Expensive Setup A single consumer GPU like an RTX 3090 or 4090 can handle roughly 70% to 90% of local coding and general Q&A model needs GLM-52 Quantizations - standard 8-bit KV caching significantly degrades GLM-52's performance after 1k to 8k context lengths. Switching to a 16-bit KV cache fixes this Using Terminal Bench v2.1 for long-horizon agentic coding tests, he found that a highly compressed 2-bit quantization of GLM-52 performs almost identically to the 4-bit version Scaling \"test-time compute\" (allowing a model more tokens to actively reason through a problem before answering) significantly levels the playing field. Even a fundamentally \"dumber\" model can achieve incredible benchmark results if it is allowed to reason for a long time. Because of this, he argues that closed-source giants have no permanent moat over open-source alternatives DeepSeek V4 Flash - very fast and extremely cheap via providers like Open Router (roughly 14 cents per million input tokens) Qwen-3.6-35B-A3B / Qwen 2.5 Coder - work on single 24GB GPU (especially good when paired with Multi-Token Prediction (MTP) to maximize tokens-per-second) Agents Hermes (general purpose) & Minion (for coding) Sentdex - https://www.youtube.com/watch?v=31MvP7yHzxM Running AI Locally for software engineering Half of coding tasks can be done with local models like Qwen 32B or 27B, relying on cloud APIs only when needed DeepSeek V4 Flash is best for fully local setup. MoE, 13B active, runs fast at native precision via vLLM and tensor parallelism Aggressive quantization, like dropping to an 8-bit KV cache, severely tanks model intelligence Ultimately, fast local models excel when developers remain in the loop to guide them."
+    },
+    {
+      "index": 12,
+      "title": "AI Updates Open Knowledge Format (OKF) from Google",
+      "text": "AI Updates Open Knowledge Format (OKF) from Google Open Standard for the Karpathy LLM Wiki https://www.youtube.com/watch?v=T33iI6izAKw https://www.youtube.com/watch?v=VHKXIHP4i10 OKF is a standardized file format consisting of structured Markdown documents OKF operates like a curated, cross-linked wiki handbook that an AI agent can directly read, navigate, and update Claude in Chrome is Anthropic’s official Chrome extension It lets Claude see the page you have open, understand its structure, and then take actions like clicking buttons, following links, filling forms, and extracting or summarizing information Combined with Claude Code, you can build or modify a web app in the terminal, then have Claude in Chrome open and exercise the running app to test flows and catch issues without manual copy‑paste Functionally, it turns Claude from a pure chat assistant into a lightweight browser automation agent that operates within your existing authenticated Chrome session https://claude.com/claude-for-chrome https://claude.ai/chrome https://www.anthropic.com/news/claude-for-chrome https://code.claude.com/docs/en/chrome"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates Use Python to make Karpathy-style wiki",
+      "text": "AI Updates Use Python to make Karpathy-style wiki https://towardsdatascience.com/llm-wikis-are-over-engineered-i-replaced-mine-with-a-pure-python-compiler/ KV (Key-Value) Cache and PagedAttention These are open-source mechanisms from the vLLM inference engine - used to speed up LLMs https://www.youtube.com/watch?v=o0gkdZBtwEg During LLM inference, the prefill phase processes the prompt, while the decode phase generates tokens sequentially Normally, generating a new token requires recomputing all previous tokens, which degrades performance KV caching prevents this by saving past key-value matrices However, standard KV caching creates fragmented memory by pre-allocating large, rigid slots PagedAttention solves this by breaking the cache into small, non-contiguous pages mapped dynamically, cutting memory waste by up to 80% The video concludes with optimization tips, including .. tuning memory utilization .. enabling prefix caching .. using chunked prefill How to Talk to Claude https://www.youtube.com/watch?v=OgT1Or4OP1k Cal Hyslop explains that you should shift from asking simple questions to providing 3 things: - context - outcome (what is required) - role (to expose blind spots and analyze decisions)"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Boston Dynamics’ fifth-generation Atlas humanoid robot",
+      "text": "AI Updates Boston Dynamics’ fifth-generation Atlas humanoid robot Reduced complexity by nearly an order of magnitude Reducing number of parts, simplifying manufacturing, which improves reliability and lowers costs Backed by Hyundai’s mass-production expertise, Atlas is being positioned for large-scale deployment Plans for up to 30,000 units annually Physical agility remains a core strength Boston Dynamics is combining advanced control systems with higher-level decision-making, aiming to turn Atlas from an expensive showcase into a commercially viable, flexible industrial worker https://www.forbes.com/sites/johnkoetsier/2026/07/02/boston-dynamics-new-atlas-humanoid-robot-order-of-magnitude-simpler/ Chinese company Ubtech - UWorld U1 series of robots The world's first full-sized humanoid robots for mass production Starting at $17,600 Lifelike  - silicone skin, 88 motion joints, and an emotion-aware AI model that reads feelings with over 90% accuracy U1 offers conversational memory and context awareness U1 secured 13K launch-day orders Ubtech plans to donate 100 customized units for grieving or lonely individuals (using 3D facial reconstruction to replicate faces) https://www.ubtrobot.com"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Qualcomm Uses Mojo programming language Qualcomm",
+      "text": "AI Updates Qualcomm Uses Mojo programming language Qualcomm recently acquired Modular, a startup founded by compiler expert Chris Lattner (LLVM, Swift, Mojo) Modular created Mojo Mojo = Python-like syntax + high-performance execution Mojo can run on Nvidia, AMD, and Apple chips In performance tests, pure Mojo kernels match Nvidia's flagship libraries on native hardware By integrating Mojo with its upcoming AI data center cards, Qualcomm provides a cross-compatible software ecosystem capable of threatening Nvidia’s market chokehold https://www.youtube.com/watch?v=aUftJ0xBmeY Mobile OpenClaw now works with Android and iOS. It can talk to you, access photos, contacts, calendar, notifications, device state"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates Three AI world model paradigms: Meta’s",
+      "text": "AI Updates Three AI world model paradigms: Meta’s JEPA, WorldLabs’ taxonomy, Einstein World Models concept JEPA focuses on learning world within an abstract latent space WorldLabs structures world models into renderers, simulators, and planners Einstein World Models framework from MBZUAI (Mohamed bin Zayed University of Artificial Intelligence, Abu Dhabi, UAE) treats world models as modular tools. LLMs remain the primary reasoner, calling on visual world modules to perform thought experiments when linguistic reasoning falls short The speaker argues that unified embedding architectures like JEPA may fail, predicting that future AI will favor modular, tool-based visual physics simulations controlled by LLMs https://www.youtube.com/watch?v=tv17bmE2FNY JEPA is just LoRA in disguise JEPA acts as a matrix factorization mechanism creating a low-rank approximation of the world's transition dynamics New research from Peking University and the University of Sydney provides a math explanation of Joint Embedding Predictive Architecture (JEPA) By filtering out high-dimensional visual noise like pixels, JEPA focuses purely on action-relevant movements This dynamic creates a critical balance between approximation error and sample complexity error Drawing a parallel to low-rank adaptation (LoRA) in language models, the host introduces a novel concept: creating \"JEPA adapters.\" These specialized add-ons could efficiently fine-tune foundational world models for specific domains, such as medical robotics, without intensive retraining https://www.youtube.com/watch?v=2RVz67hxSAU"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates AI has not made people universally",
+      "text": "AI Updates AI has not made people universally better It amplifies existing skill levels Skilled engineers use it to dramatically increase productivity, turning weeks of work into hours Unskilled users generate fragile code, technical debt, and costly failures they cannot diagnose. Real-world incidents show how misuse leads to security breaches, data loss, and wasted resources The market reflects this divide: top-tier models drive innovation, while cheaper alternatives commoditize routine tasks Meanwhile, a growing ecosystem resells access and exploits leaked API keys Ultimately, AI rewards strong fundamentals and punishes their absence, widening the gap between competent professionals and those relying blindly on automation. https://www.linkedin.com/pulse/learned-helplessness-service-viacheslav-kasatkin-dvupc/ Meta Brain2Qwerty v2 Measures magnetic field around the head using MEG (Magneto-Encephalography scanner) Uses AI to decode brain activity into text while the patient is typing 61% average word accuracy, peaking at 78% for the top participant Requires giant laboratory equipment Holds massive long-term potential for paralyzed patients"
+    },
+    {
+      "index": 18,
+      "title": "AI Updates 10 core components of an AI",
+      "text": "AI Updates 10 core components of an AI agent harness: https://www.youtube.com/watch?v=mQfTdNVCOB0 Instructions - rules, prompts, styling guides Context Delivery - read files, stack traces, relevant data Context Management - filter and compresses transcripts, re-rank data, reduce noise Tool Interface (schemas, MCP) to request actions Execution Environment (sandbox, container) Durable State - persistence mechanism (database, memory) Orchestration - retry, step-by-step, human approval gates Sub-Agents - delegating specialized sub-tasks Skills and Procedures - reusable playbooks and checklists Verification & Observability - test output, logs for debugging Claude Design’s June 2026 update Adds proper design system imports, a better canvas editor, and tighter Claude Code integration You can now use real components from your GitHub or design files, edit layouts directly on a canvas, and sync designs with code in both directions The goal is to keep work on-brand while reducing token usage in everyday product design workflows https://claude2video.com/blog/claude-design-june-2026-update"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates Anthropic’s Claude Certified Architect (CCA-F) Exam",
+      "text": "AI Updates Anthropic’s Claude Certified Architect (CCA-F) Exam Prep in 4 weeks for test (60 questions across 5 domains) https://www.youtube.com/watch?v=akzKBQVyFEI Claude is presented as a stateless model behind a single messages API, with four key layers: raw API, Agent SDK, Claude Code, and MCP for tool integration The guide then walks through each domain: Agentic loops and multi-agent orchestration (including correct tool_use sequencing and targeted retries) Claude Code configuration via claude.md hierarchy and commands Prompt engineering with strict, checkable rules and forced JSON tool calls Robust tool/MCP design with clear descriptions and structured errors Context/reliability patterns like case blocks, prompt caching, and escalation rules https://www.anthropiccertifications.com/learn https://preporato.com/certificates/claude-certified-architect"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates Alex Hormozi's three-folder organization for AI",
+      "text": "AI Updates Alex Hormozi's three-folder organization for AI Agent \" Business Context \" - md files - company's identity, target audience, brand voice, and goals \" Data \" - raw training materials, such as past newsletters, to help the AI mirror specific tones and writing cadences \" Prompts \" - highly detailed, reusable prompt templates specifying strict roles, rules, and structures https://www.youtube.com/watch?v=q1_AjJAmDGY"
+    },
+    {
+      "index": 21,
+      "title": "llama.cpp llama.cpp \"finetune\" utility was removed Current versions",
+      "text": "llama.cpp llama.cpp \"finetune\" utility was removed Current versions focus on inference, quantization, and serving You can fine-tune your model today using a PyTorch-based stack (e.g., TRL or LLaMA-Factory) and then convert the resulting Hugging Face model to GGUF for high-performance CPU or edge inference with llama.cpp This lets you leverage robust training tooling while still using llama.cpp where it excels: lightweight, fast local serving of already fine-tuned models https://github.com/ggml-org/llama.cpp/tree/213701b51a17175d0d326b566efc03f30ec7fbe6/examples/finetune Accelerating llama.cpp using Claude Fable 5 Codacus uses Claude 5 Fable to optimize the llama.cpp codebase on a mid-range local AI rig The AI analyzed the software, profiled performance, and achieved a massive 64.5% speedup in prefill prompt processing. Claude discovered that the GPU sits idle over 41% of the time waiting for MoE model weights to transfer from system RAM across the slow PCIe bus To fix this, the AI enabled pinned mmapped memory for faster transfers and restructured the pipeline to upload expert layers in parallel while the GPU computes attention. https://www.youtube.com/watch?v=VytSYCDhWQ0 llama.cpp https://github.com/ggml-org/llama.cpp Georgi Gerganov"
+    },
+    {
+      "index": 22,
+      "title": "AI Updates Open Source Repos for Claude Code",
+      "text": "AI Updates Open Source Repos for Claude Code https://www.youtube.com/watch?v=IRPEfl2BD_c Claude Video - https://github.com/bradautomates/claude-video - video ingestion - transcribes audio via Groq's free Whisper model and intelligently extracts keyframes NotebookLM-MCP - https://github.com/topics/google-notebooklm - brings Google’s NotebookLM into the Claude Code terminal, allows you to offload huge document research and synthesis tasks to Google's servers for free Graphify - https://graphify.net - maps codebases by compressing files into a knowledge graph of nodes and clusters (not needing expensive vector DBs) Obsidian Skills - https://github.com/topics/google-notebooklm - compact repo trains Claude Code on best practices for managing markdown files, PDFs, and media assets within an Obsidian notebook Impeccable - https://github.com/pbakaus/impeccable - open-source design tool Ponytail - https://www.youtube.com/watch?v=2xuFcmUAQUc - A token-efficiency plugin outputting up to 54% fewer lines of code Evolution of RAG - https://www.youtube.com/watch?v=cyQ4ffFU27Y Naive RAG - simple semantic vector searches - suffers from strict chunking limitations. Advanced RAG  - adding pre-retrieval (multi-query expansion) and post-retrieval reranking algorithms GraphRAG - structured knowledge graphs map relationships across documents Agentic RAG - handles queries using autonomous reasoning loops to dynamically choose tools, trading high latency for maximum flexibility"
+    },
+    {
+      "index": 23,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 119K in 2026 (as of July 3, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 164,483 people laid off (894 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs “Oracle sheds 21,000 jobs, shrinking the company’s headcount by 13% as it continues to invest in Artificial Intelligence.” - The Wall Street Journal"
+    },
+    {
+      "index": 24,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 25,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Taught AI to answer, now we teach it to act",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Grok 4.5, GPT‑5.6, Gemini",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 36,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=36s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Grok 4.5, GPT-5.6, Gemini 3.5, Muse-spark 1.1",
+      "topic": "openai",
+      "videoSeconds": 105,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=105s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic Fable 5 and Mythos 5 Models",
+      "topic": "claude",
+      "videoSeconds": 213,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=213s",
+      "slideIndex": 3,
+      "slideTitle": "AI Updates Grok 4.5 by xAI/SpaceXAI (July 8-9)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fable 5 promo",
+      "topic": "claude",
+      "videoSeconds": 247,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=247s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Instruct Claude to Modify its own",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude to Modify its own Claude.md",
+      "topic": "claude",
+      "videoSeconds": 277,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=277s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Instruct Claude to Modify its own",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boris Cherny on 5 new roles",
+      "topic": "general",
+      "videoSeconds": 363,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=363s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates OpenAI optimizations cut inference cost x2",
+      "source": "youtube"
+    },
+    {
+      "claim": "Visionary, A Cow",
+      "topic": "general",
+      "videoSeconds": 412,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=412s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates OpenAI optimizations cut inference cost x2",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI optimizations cut inference cost x2",
+      "topic": "openai",
+      "videoSeconds": 482,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=482s",
+      "slideIndex": 6,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek DSpark Speculative Decoding",
+      "topic": "open-models",
+      "videoSeconds": 510,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=510s",
+      "slideIndex": 7,
+      "slideTitle": "Chinese Models Are Cheaper Claude 3.5 Sonnet vs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chinese Models Are Cheaper",
+      "topic": "general",
+      "videoSeconds": 599,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=599s",
+      "slideIndex": 7,
+      "slideTitle": "Chinese Models Are Cheaper Claude 3.5 Sonnet vs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Organization-wide Agent",
+      "topic": "agents",
+      "videoSeconds": 711,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=711s",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates Organization-wide Agent - Andrej Karpathy https://x.com/karpathy/status/2069547676849557725",
+      "source": "youtube"
+    },
+    {
+      "claim": "Composio SDK connects agents to 100s of apps",
+      "topic": "agents",
+      "videoSeconds": 806,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=806s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Tencent’s Hy3 - open MoE LLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent's Hy3 - open MoE LLM",
+      "topic": "general",
+      "videoSeconds": 830,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=830s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Tencent’s Hy3 - open MoE LLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Model Routing Saves 60% - 90% of costs",
+      "topic": "general",
+      "videoSeconds": 861,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=861s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates China - 140 humanoid robot companies,",
+      "source": "youtube"
+    },
+    {
+      "claim": "China's 140 humanoid robot companies",
+      "topic": "general",
+      "videoSeconds": 937,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=937s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates China - 140 humanoid robot companies,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Computational archaeology",
+      "topic": "general",
+      "videoSeconds": 960,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=960s",
+      "slideIndex": 11,
+      "slideTitle": "Sentdex Sentdex - https://www.youtube.com/watch?v=AgpeggCsRH4 Running AI Locally Doesn't",
+      "source": "youtube"
+    },
+    {
+      "claim": "Aravind Srinivas Interview",
+      "topic": "general",
+      "videoSeconds": 1008,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1008s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates Open Knowledge Format (OKF) from Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sentdex - Local Models",
+      "topic": "general",
+      "videoSeconds": 1038,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1038s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates Open Knowledge Format (OKF) from Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open Standard for the Karpathy LLM Wiki",
+      "topic": "general",
+      "videoSeconds": 1104,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1104s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates Use Python to make Karpathy-style wiki",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude in Chrome Extension",
+      "topic": "claude",
+      "videoSeconds": 1195,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1195s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Boston Dynamics’ fifth-generation Atlas humanoid robot",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Python for Karpathy-style wiki",
+      "topic": "general",
+      "videoSeconds": 1235,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1235s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Boston Dynamics’ fifth-generation Atlas humanoid robot",
+      "source": "youtube"
+    },
+    {
+      "claim": "KV (Key-Value) Cache and PagedAttention",
+      "topic": "general",
+      "videoSeconds": 1283,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1283s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Qualcomm Uses Mojo programming language Qualcomm",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boston Dynamics 5th Gen Atlas",
+      "topic": "general",
+      "videoSeconds": 1346,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1346s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates Three AI world model paradigms: Meta’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chinese company Ubtech - UWorld U1 Robots",
+      "topic": "general",
+      "videoSeconds": 1380,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1380s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates Three AI world model paradigms: Meta’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qualcomm Uses Mojo Prog. Language",
+      "topic": "general",
+      "videoSeconds": 1414,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1414s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates AI has not made people universally",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mobile OpenClaw - Android and iOS",
+      "topic": "agents",
+      "videoSeconds": 1478,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1478s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates AI has not made people universally",
+      "source": "youtube"
+    },
+    {
+      "claim": "Three AI world model paradigms",
+      "topic": "general",
+      "videoSeconds": 1500,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1500s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates 10 core components of an AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "JEPA is just LoRA in disguise",
+      "topic": "fine-tuning",
+      "videoSeconds": 1572,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1572s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Anthropic’s Claude Certified Architect (CCA-F) Exam",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI amplifies existing skill levels",
+      "topic": "general",
+      "videoSeconds": 1620,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1620s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Anthropic’s Claude Certified Architect (CCA-F) Exam",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Brain2Qwerty v2",
+      "topic": "general",
+      "videoSeconds": 1656,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1656s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates Alex Hormozi's three-folder organization for AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "10 core components of an AI agent harness",
+      "topic": "agents",
+      "videoSeconds": 1726,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1726s",
+      "slideIndex": 21,
+      "slideTitle": "llama.cpp llama.cpp \"finetune\" utility was removed Current versions",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Design's June 2026 update",
+      "topic": "claude",
+      "videoSeconds": 1779,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1779s",
+      "slideIndex": 21,
+      "slideTitle": "llama.cpp llama.cpp \"finetune\" utility was removed Current versions",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Certified Architect (CCA-F) Exam",
+      "topic": "claude",
+      "videoSeconds": 1803,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1803s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Open Source Repos for Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alex Hormozi's three-folder organization",
+      "topic": "general",
+      "videoSeconds": 1880,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1880s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Open Source Repos for Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "llama.cpp - Georgi Gerganov",
+      "topic": "open-models",
+      "videoSeconds": 1941,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=1941s",
+      "slideIndex": 23,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open Source Repos for Claude Code",
+      "topic": "coding",
+      "videoSeconds": 2002,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=2002s",
+      "slideIndex": 24,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Evolution of RAG",
+      "topic": "rag",
+      "videoSeconds": 2028,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=2028s",
+      "slideIndex": 24,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2077,
+      "videoUrl": "https://www.youtube.com/watch?v=6x28pfmf0yU&t=2077s",
+      "slideIndex": 25,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

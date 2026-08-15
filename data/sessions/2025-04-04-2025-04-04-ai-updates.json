@@ -1,0 +1,342 @@
+{
+  "id": "2025-04-04-2025-04-04-ai-updates",
+  "date": "2025-04-04",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "infra",
+    "openai",
+    "multimodal"
+  ],
+  "video": {
+    "id": "K3FrMdk_nCU",
+    "title": "Have you heard these exciting AI news? - April 04, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+    "thumbnail": "https://i.ytimg.com/vi/K3FrMdk_nCU/hqdefault.jpg",
+    "duration": 2183
+  },
+  "deck": {
+    "path": "2025/2025-04-04-AI-Updates.pptx",
+    "filename": "2025-04-04-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-04-04-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-04-04-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Elon Musk Merges xAI and X",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Alibaba Qwen Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "\"Oversinking\" - thinking too much",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Yann LeCun \"No Way In HELL AGI In 2 Years\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Chain-of-Tools",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia Quantum Research Center",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GPT-4o update & Image Generation",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Elon Musk Merges xAI and X Alibaba Qwen",
+      "text": "Elon Musk Merges xAI and X Alibaba Qwen Models \"Oversinking\" - thinking too much Yann LeCun \"No Way In HELL AGI In 2 Years\" Chain-of-Tools Nvidia Quantum Research Center GPT-4o update & Image Generation AI Updates April 4 , 202 5 Crowd-sourced \"Arena\" Leaderboard OpenVLThinker-7B - Visual Reasoning Cursor limits content length to 70k tokens Anthropic - How LLMs \"think\" 20 ideas for a startup Zhipu AI GLM series of models Google TxGemma - open models for Drug Discovery Isomorphic Labs - Alphabet’s AI drug discovery Mistral: Ministral 8b - model for Edge & privacy Runway's Gen-4  AI Video Generator OpenHands 32B LM for software Engineering Mixture-of-Mamba - a new State Space Model (SSM) Extropic AI chips aiming to outperform Nvidia Nova Act - Amazon's AI for web browser automation GenSpark Super Agent GPT 4.5 passes Turing Test better than Humans Claude and OpenAI for Education Augment Code xTrimoPGLM - 100B protein model Humanoid Robots Find billion dollar idea Ollama for coding in PyCharm or VS Code Cursor grew x20 in one year AI proves - human fingerprints are not unique Kat Orekhova - Startups and AI scikit-learn on GPU"
+    },
+    {
+      "index": 2,
+      "title": "Elon Musk Merges xAI and X xAI -",
+      "text": "Elon Musk Merges xAI and X xAI - an AI startup, has officially acquired X (formerly Twitter) in an all-stock deal. The move merges two of Musk’s ventures into one to unify data, infrastructure, and distribution under one roof. Valuations: xAI at $80B and X at $33B = $113B Total X.ai and X.com bring together models, compute, talent, 600M+ users, massive amounts of data and a live testing ground for AI applications Musk is positioning xAI to compete head-to-head with OpenAI, Google DeepMind, and Anthropic. He’s already poached top AI talent, built large-scale infrastructure, and launched Grok 3, a model rivaling industry leaders in key benchmarks. In the meantime OpenAI: received $40 Bln and $300 Bln valuation. Reached 20M paid subscribers Reached estimated $5B annual run rate And GPT-4o text-to-image is excellent"
+    },
+    {
+      "index": 3,
+      "title": "Alibaba Qwen Models Alibaba Qwen models: Proprietary: Qwen2.5-Max",
+      "text": "Alibaba Qwen Models Alibaba Qwen models: Proprietary: Qwen2.5-Max (Jan 2025) - outperforms GPT-4o and DeepSeek-V3 accessible via API, Alibaba Cloud and Higging Face Open source models: Qwen2.5-32B (Feb 26) QwQ-32B (March 6) - reasoning QVQ-Max (March 28) - 32B visual reasoning model https://qwenlm.github.io/blog/qvq-max-preview/ Qwen2.5-VL-32B-Instruct (March 24) - multimodal Qwen2.5-Omni-7B (March 26) multimodal, small, cost effective The main scientists and contributors behind the creation of Qwen models include: Zhibin Gou: A core contributor with a background linked to Tsinghua University. Zhihong Shao: Another key contributor from Tsinghua University, who has co-authored papers with Nan Duan (Microsoft Research Asia (MSRA)). Zhenda Xie: A notable contributor to the development of Qwen models. An Yang: Credited as the submitter of the Qwen Technical Report on arXiv QVQ-Max - visual reasoning model https://qwenlm.github.io/blog/qvq-max-preview/"
+    },
+    {
+      "index": 4,
+      "title": "Oversinking - thinking too much The Danger of",
+      "text": "Oversinking - thinking too much The Danger of Overthinking The Danger of Overthinking: Examining the Reasoning-Action Dilemma in Agentic Tasks - https://arxiv.org/abs/2502.08235 The AI Reasoning Paradox: Why Agents FAIL - https://www.youtube.com/watch?v=vpNmKN2szt8 oversinking = spending too much time on internal reasoning rather than taking effective actions. Some models take x41 times more tokens than others for reasoning. Higher oversinking scores strongly correlate with lower task success rates Three symptoms of oversinking: (1) Analysis paralysis: Extensive planning with minimal concrete actions; (2) Rouge actions: Taking actions without waiting for feedback; (3) Premature disengagement: Terminating tasks based on internal assessment Counter-measures: Length budgeting System/model switching Parallel search Reinforcement learning with length rewards Subquadratic attention (Mamba ?)"
+    },
+    {
+      "index": 5,
+      "title": "Yann LeCun \"No Way In HELL AGI In",
+      "text": "Yann LeCun \"No Way In HELL AGI In 2 Years\" Yann LeCun, AI Godfather: \"No Way In HELL AGI In 2 Years\" https://www.youtube.com/shorts/MCyZDrrvwvM https://www.youtube.com/watch?v=Ny4XilJuuy4&t=162s okay so the first thing you can say is we are not going to get to human level AI by just scaling up LLMs, this is just not going to happen. There's no way, absolutely no way and whatever you can hear from some of my more adventurous colleagues, it's not going to happen within the next two years. There's absolutely no way in hell to, pardon my French, the idea that we we're going to have, a country of Genius in the data center. That's complete BS.  There's absolutely no way. What we're going to have maybe is systems that are trained on sufficiently large amounts of data, that any question that any reasonable person may ask will will find an answer through those systems. And it would feel like you have a PhD sitting next to you. But it's not a PhD you have next to you, it's a system with gigantic memory and retrieval ability. Not a system that can invent solutions to new problems which is really what a PhD is."
+    },
+    {
+      "index": 6,
+      "title": "Chain-of-Tools Chain-of-Tools: Utilizing Massive Unseen Tools in the",
+      "text": "Chain-of-Tools Chain-of-Tools: Utilizing Massive Unseen Tools in the CoT Reasoning of Frozen Language Models https://github.com/fairyshine/Chain-of-Tools https://arxiv.org/abs/2503.16779v1 Challenge - make LLMs use many tools efficiently. Including tools it never seen before. Chain-of-Tools (CoTools) is a new method that keeps the foundation LLM completely frozen while adding specialized modules for tool integration. No additional training is required. Three key components: 1) A Tool Judge that determines when to call tools during text generation by analyzing the hidden states of the LLM , 2) A Tool Retriever that selects appropriate tools by matching query vectors with tool vectors derived from tool descriptions, and 3) A Tool Calling component that handles parameter filling and execution . CoTools outperforms baseline methods across multiple benchmarks High performance even with hundreds or thousands of tools For unseen tools specifically, CoTools achieved 10.4% top-1 accuracy and 33.7% top-5 accuracy, while the baseline couldn't handle unseen tools at all (0% accuracy)."
+    },
+    {
+      "index": 7,
+      "title": "Nvidia Quantum Research Center Nvidia Accelerated Quantum Research",
+      "text": "Nvidia Quantum Research Center Nvidia Accelerated Quantum Research Center (NVAQC) In Boston, Street address location is not known yet NVAQC plans to start running quantum simulations in 2025 https://www.youtube.com/watch?v=ZatGE3f1Rl0 https://www.threads.net/@businessnews100/post/DHcxN2AotOZ https://www.nvidia.com/en-us/solutions/quantum-computing/accelerated-quantum-center/ Idea - integrate AI, supercomputing, and quantum computing Use AI to help with error correction in quantum computers (boost quantum stability) NVAQC will do large-scale simulations (quantum processors + classical computers + AI) Nvidia collaborates with Quantinuum, QuEra, Quantum Machines, Harvard, MIT Hybrid quantum computing platforms - DGX Quantum and CUDA-Q Poosible applications - AI training, drug discovery, cybersecurity D-Wave Quantum Inc. (NYSE: QBTS) and the pharmaceutical division of Japan Tobacco Inc. (\"JT\") - joint proof-of-concept proving that LLM hybrid models (conventional + quantum) outperformed classical methods in the drug discovery process. https://finance.yahoo.com/news/japan-tobacco-d-wave-announce-110000623.html"
+    },
+    {
+      "index": 8,
+      "title": "GPT-4o update & Image Generation GPT-4o update surpasses",
+      "text": "GPT-4o update & Image Generation GPT-4o update surpasses GPT-4.5 Better at following detailed instructions and complex technical and coding problems, Improved intuition and creativity, text-to-image https://help.openai.com/en/articles/6825453-chatgpt-release-notes https://openai.com/chatgpt/team/ https://x.com/OpenAI/status/1905331956856050135 GPT-4o Image Generation https://www.youtube.com/watch?v=nZDpoICcxLM - video by Peter Yang 1. Turn your family photos into Ghibli Studio type art https://en.wikipedia.org/wiki/Studio_Ghibli 2. Create professional marketing assets ( products and text ) 3. Mock up product designs 4. Edit YouTube thumbnails 5. Help in designing anime short movies You can edit the image with text prompt and images (including style transfer) OpenAI has not confirmed whether Studio Ghibli's works were part of the training data for GPT-4o The ability to closely mimic the Ghibli studio's distinctive aesthetic has raised questions about intellectual property rights and the legality of AI-generated art."
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 1 Cursor limits content length to",
+      "text": "AI Updates 1 Cursor limits content length to 70k tokens https://forum.cursor.com/t/the-whole-200k-context-window-of-claude-3-7-sonnet-max/69736 OpenVLThinker-7B - A RL-Model for Complex Visual Reasoning and Step-by-Step Problem Solving in Multimodal Systems (UCLA - University of California, Los Angeles) https://www.marktechpost.com/2025/03/28/ucla-researchers-released-openvlthinker-7b-a-reinforcement-learning-driven-model-for-enhancing-complex-visual-reasoning-and-step-by-step-problem-solving-in-multimodal-systems/ Anthropic - How LLMs \"think\" Anthropic has developed a new method for peering inside large language models (LLMs) like Claude. How LLMs process information and make decisions. The research was published in two papers (links below). They used \"circuit tracing methodology\" The models plan ahead when writing poetry The models use the same internal blueprint to interpret ideas regardless of language Sometimes even work backward from a desired outcome instead of simply building up from the facts. https://transformer-circuits.pub/2025/attribution-graphs/methods.html https://transformer-circuits.pub/2025/attribution-graphs/biology.html 20 ideas for a startup https://x.com/gregisenberg/status/1906066968068719016 Zhipu AI (since 2019, China's startup from a Tsinghua University ) has developed the GLM series of models. GLM4 outperforms OpenAI's GPT-4. Funded by government. Released a free AI agent called AutoGLM Rumination . It uses Zhipu's proprietary models (GLM-Z1-Air and GLM-4-Air-0414). GLM-Z1-Air matches DeepSeek's R1 in performance while running up to x8 times faster and requiring only 1/30 of the computing resources . It will be available for free (compare to $199/mo for Manus) https://www.reuters.com/technology/artificial-intelligence/chinas-zhipu-ai-launches-free-ai-agent-intensifying-domestic-tech-race-2025-03-31/"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates 2 Isomorphic Labs - Alphabet’s AI",
+      "text": "AI Updates 2 Isomorphic Labs - Alphabet’s AI drug discovery platform raises $600M from Thrive accurately predicting the 3D structure, model biological systems, predict drug interactions within body, design novel therapeutic molecules, accelerating Drug Discovery, collaboration with large pharmaceutical companies https://techcrunch.com/2025/03/31/alphabets-ai-drug-discovery-platform-isomorphic-labs-raises-600m-from-thrive/ Mistral: Ministral 8b - model for Edge & private computing https://openrouter.ai/mistral/ministral-8b Eefficiency in knowledge-intensive tasks, commonsense reasoning, and function-calling Specialized interleaved sliding-window attention mechanism, enabling faster and more memory-efficient inference. Ministral 8B excels in local, low-latency applications such as offline translation, smart assistants, autonomous robotics, and local analytics. Up to 128k context length Can function as a performant intermediary in multi-step agentic workflows Outperforms comparable models like Mistral 7B across benchmarks Google TxGemma - open models for Drug Discovery https://www.infoq.com/news/2025/03/txgemma-google-deepmind/ https://developers.googleblog.com/en/introducing-txgemma-open-models-improving-therapeutics-development/ TxGemma predicts and explains its drug effectiveness predictions. Trained on 7 Mln  examples Three sizes: 2B, 9B, and 27B parameters Classification – Predicting whether a molecule can cross the blood-brain barrier. Regression – Estimating drug binding affinity. Generation – Inferring reactants from chemical reactions. In benchmark tests, the 27B Predict model outperformed or matched specialized models on 64 of 66 key tasks. TxGemma-Chat  - researches can ask questions, multi-turn discussions. A fine-tuning example Colab notebook, allowing researchers to adjust the model for their own data. Agentic-Tx - multi-step research Agent workflow Runway's Gen-4  AI Video Generator Maintains character and scene consistency across different shots and angles Users can generate 5-10 second clips at 720p resolution The model uses reference images and descriptions to create consistent outputs Runway Raises $308M to Build the \"Hollywood of AI\" OpenHands LM - 32B model for software Engineering https://x.com/allhands_ai/status/1906760162406285442 a 32B model with matching performance on software engineering tasks benchmarks like SWE-Bench Verified. This is 20 times smaller than the DeepSeek model!"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates 3 Mixture-of-Mamba - a new State",
+      "text": "AI Updates 3 Mixture-of-Mamba - a new State Space Model (SSM) Mixture-of-Mamba: Enhancing Multi-Modal State-Space Models with Modality-Aware Sparsity https://arxiv.org/abs/2501.16295v1 Multi-modal pretraining (text, image, speech). 1.4B parameters, requires much less FLOPs (25-42% of base model) Extropic startup - AI chips, aiming to outperform Nvidia https://opentools.ai/news/extropic-the-startup-challenging-nvidias-ai-dominance Nova Act - Amazon's new AI model for web browser automation Filling forms, making purchases, scheduling tasks, and navigating websites without human input Available via Nova Act SDK, supports natural language commands and Python scripting for building intelligent applications Currently available as a research preview in the US Nova Act is already integrated into features of Alexa Plus and aims to handle complex, multi-step tasks efficiently Amazon highlights its cost-effectiveness and scalability compared to competitors https://labs.amazon.science/blog/nova-act"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates 4 GenSpark Super Agent - AI-powered",
+      "text": "AI Updates 4 GenSpark Super Agent - AI-powered platform. Generating personalized \"Sparkpages,\" conducting deep research, providing news briefings, and supporting creative industries like fashion. The tool emphasizes saving time while enhancing productivity https://www.genspark.ai GenSpark AI (Super Agent) is a small AI-focused division of GenSpark - a Training Services company. GenSpark AI has less than 50 employees, headquartered in Palo Alto, CA. GenSpark AI was founded by former Baidu executives, it raised $160 million in funding, with a current valuation of $530 million as of early 2025. GPT 4.5 passes Turing Test better than Humans University of California San Diego recruited two groups of human participants (126 UCSD psychology undergraduates and 158 from \"Prolific\" recruiters). OpenAI GPT‑4.5 with a “PERSONA” prompt managed a win rate of 73% on Turing test - https://arxiv.org/html/2503.23674v1"
+    },
+    {
+      "index": 13,
+      "title": "Claude and OpenAI for Education Anthropic launches an",
+      "text": "Claude and OpenAI for Education Anthropic launches an AI chatbot plan for colleges and universities This is an answer to OpenAI’s ChatGPT Edu plan https://techcrunch.com/2025/04/02/anthropic-launches-an-ai-chatbot-tier-for-colleges-and-universities/ https://openai.com/chatgpt/education/ MBA Students at Harvard Business School Must Take AI Course To Graduate https://www.thecrimson.com/article/2025/4/4/hbs-makes-ai-class-required/"
+    },
+    {
+      "index": 14,
+      "title": "Augment Code Augment Code is a sophisticated AI-powered",
+      "text": "Augment Code Augment Code is a sophisticated AI-powered platform designed specifically for professional software engineers and large-scale software projects. it deeply understands a company's specific codebase, dependencies, and even external APIs It uses RAG to provide precise, context-aware suggestions Developers can ask questions about their codebase, troubleshoot issues, and get explanations about components, APIs, or bugs It offers in-line code completions, generates complex snippets or entire functions, and simplifies multi-step changes like refactors or dependency upgrades Its \"Next Edit\" feature guides developers through associated updates across files, tests, and documentation Helps team collaboration by breaking down knowledge silos Helps onboard new developers quickly by answering questions about the codebase and guiding them through tasks Integrates with GitHub, Jira, Notion, and Slack Has multimodal capabilities (e.g., debugging with images) has 200,000-token context window Has \"Memories\" that adapt to individual coding styles over time Help to do impact analysis, intelligent code reuse, automated documentation generation, and change propagation across the entire codebase prioritizes security with SOC 2 Level 2 certification 65.4% success rate on our first-ever SWE-bench submission we combined Claude Sonnet 3.7 as our core driver, along with OpenAI’s o1 as our ensembler. We deferred leveraging our own models to build a strong open-source baseline agent with off-the-shelf models. https://www.augmentcode.com/blog/1-open-source-agent-on-swe-bench-verified-by-combining-claude-3-7-and-o1 SWE-bench tests how well AI systems handle software engineering tasks pulled from actual GitHub issues in popular open-source projects"
+    },
+    {
+      "index": 15,
+      "title": "xTrimoPGLM - 100B protein model xTrimoPGLM: unified 100B",
+      "text": "xTrimoPGLM - 100B protein model xTrimoPGLM: unified 100B pretrained transformer for deciphering proteins Helps to handle both protein understanding and protein generation tasks Trained on 1 Trillion tokens, uses novel pretraining strategy that jointly optimizes both autoencoding and autoregressive objectives Solves the previous limitation where models typically excelled at either understanding or generation, but not both Outperforms advanced baselines across 18 protein understanding benchmarks spanning four categories Facilitates atomic-resolution visualization of protein structures Powers an advanced three-dimensional structural prediction model that surpasses existing language model-based tools Generates de novo protein sequences that follow natural principles Supports programmable generation after supervised fine-tuning on curated sequences https://www.nature.com/articles/s41592-025-02636-z https://huggingface.co/biomap-research"
+    },
+    {
+      "index": 16,
+      "title": "Humanoid Robots Robots brush and style your hair",
+      "text": "Humanoid Robots Robots brush and style your hair Unitree Dex5 Dexterous Hand https://www.youtube.com/watch?v=0rwYOa7pJCs"
+    },
+    {
+      "index": 17,
+      "title": "Find billion dollar idea Framework to find the",
+      "text": "Find billion dollar idea Framework to find the next cursor-like billion dollar idea by Greg Isenberg: look for skilled professionals who spend 6+ hours a day in a specific software tool - the more arcane, the better identify tasks within their workflow that require deep expertise but follow patterns - these are ripe for ai assistance focus on industries with high hourly rates ($100+) where time savings translate directly to revenue or cost reduction seek workflows with specialized vocabulary that generic ai struggles with but domain-specific ai could master prioritize tasks that involve both creativity and technical constraints - the sweet spot for human-ai collaboration build for existing interfaces people already know rather than forcing new workflows start with a tiny, almost embarrassingly specific niche - e.g., not \"legal\" but \"divorce proceedings in california\" solve for the 80% case that's repetitive, leaving humans to handle the complex 20% the best opportunities feel like \"ai-enhanced superpowers\" rather than \"ai replacements\" if it can be on the cloud, that's a good sign - https://x.com/gregisenberg/status/1906332104381620473 Just feed this post into Grok - and ask is to generate ideas :)"
+    },
+    {
+      "index": 18,
+      "title": "Ollama for coding in PyCharm or VS Code",
+      "text": "Ollama for coding in PyCharm or VS Code How to use Ollama for coding in PyCharm or VS Code : In PyCharm - go to Settings > Plugins and type ollama, AI, LLM, etc. consider these plugins: - ProxyAI           : 4.24,   585K - DevoxxGenie       : 4.54,    16K - MyOllamaEnhancer  : 4.48,     2K - OllamAssist       : 4.04,     3K In VS Code go to extensions - and search: @popular ollama @popular copilot @popular ChatGPT For example: - Codeium (creators of Windsurf) - Cline - ChatGPT Copilot (works with Ollama) - Ollama Autocoder - Ollama Copilot - ... Local Models: Qwen2.5-32B & QwQ-32B - reasoning Mistral-Small  & Mistral-Codestral gemma3:27b (also GemmaCoder3-12b) DeepSeek-R1 671B DeepSeek V3.1 Coder 33B OpenHands LM - 32B Cursor raised $625M at $9.6B valuation . In less than a year the startup valuation went  x20 from $400M to $2.5B to ~10B https://x.com/ArfurRock/status/1906768733135098360 But ... many developers are cancelling cursor subscriptions Some are switching to Windsurf, some to other solutions, many of which are free https://analyticsindiamag.com/ai-features/why-developers-are-cancelling-cursor-subscriptions/ Replit - raising money at $3 Bln valuation Codeium Windsurf Wave 6 - https://www.windsurf.com/blog/windsurf-wave-6 Single click deployment; Enterprise access to MCPs; Turbo Mode; Commit message generation (auto-summarize diffs); Support long conversation; context includes user search, Jupyter Notebook support; many misc. improvements: MCP SSE support, a couple new icons, ability to edit suggested terminal commands, and more Cline - open-source AI coding - VS Code extension. Plan and execute dev tasks collaboratively. Step-by-step approach with user oversight and privacy. Roo Code (a.k.a. \" Roo Cline \") - a free and open source VS Code extension. Cycle through planning, coding, running, and debugging with minimal intervention. Multiple personas/modes (e.g. Code mode, Architect mode, QA mode). Free and open-source"
+    },
+    {
+      "index": 19,
+      "title": "AI - Human Fingerprints are Not Unique AI",
+      "text": "AI - Human Fingerprints are Not Unique AI proves that human fingerprints are not unique Challenges Fingerprint Uniqueness Assumption in Forensics https://www.earth.com/news/ai-proves-that-fingerprints-are-not-unique-shattering-long-held-belief-legal-implications/ Unveiling intra-person fingerprint similarity via deep contrastive learning https://www.science.org/doi/10.1126/sciadv.adi0329 It was a 100+ years old belief that fingerprints from different fingers of the same person are completely unique Researchers used a deep contrastive network AI system was trained on approximately 60,000 fingerprints AI system shows above 99.99% confidence that fingerprints from different fingers of the same person share very strong similarities. The accuracy was highest when multiple samples were analyzed together, potentially enhancing existing forensic methods by more than tenfold . The research team faced significant resistance during the peer review process. Their work was initially rejected by established forensics journals. Interestingly, the AI wasn't using traditional \"minutiae\" (branch patterns and endpoints in ridges) but instead focused on \"angles and curvatures of the swirls and loops in the center of the fingerprint\" - features that human experts may have overlooked."
+    },
+    {
+      "index": 20,
+      "title": "Kat Orekhova - Startups and AI Adopted Podcast",
+      "text": "Kat Orekhova - Startups and AI Adopted Podcast Ep.11 | Kat Orekhova: CEO - Vareto | AI the new Paradigm https://www.youtube.com/watch?v=I-q2LYaq9uE Discussion about AI transforming startups and businesses today Kat Orekhova worked as a product leader at Facebook (Meta) and Ironclad, been a Sequoia Capital Scout, and now runs her own VC firm and FP&A firm Vareto ( https://vareto.com ) AI is dramatically changing how startups operate, making it easier than ever to prototype products. What used to take months now takes hours. The challenge has shifted to differentiation and sustainability. With more competition, standing out becomes harder. Kat distinguishes between two emerging types of AI businesses: \"go-to-market\" startups (built quickly with AI tools, similar to e-commerce) and \"R&D\" startups (involving deeper technical innovation). For financial operations (Kat's current focus with Vereto), AI adoption faces higher stakes due to security, privacy, and accuracy concerns. In finance, AI is augmenting rather than replacing professionals. Large established companies are rushing to add AI features to stay competitive, even when customers may not be explicitly requesting them. AI-native startups have advantages over legacy systems that weren't built with data integration and flexibility in mind. Kat predicts we'll see more successful companies than ever before, with a growing long tail of specialized AI startups rather than just a few dominant players. Her advice for AI entrepreneurs: Focus on building a real business with customers willing to pay, rather than getting caught up in the trappings of startup culture. \"It's easier than ever to build a web application today, but just because competition is harder doesn't mean big businesses can't be built.\""
+    },
+    {
+      "index": 21,
+      "title": "scikit-learn on GPU Nvidia \"cuML\" can accelerate scikit-learn",
+      "text": "scikit-learn on GPU Nvidia \"cuML\" can accelerate scikit-learn up to 50 times faster for some algorithms Supported algorithms include random forests, k-means clustering, principal component analysis (PCA), and others. Unsupported operations automatically fall back to CPU execution. To enable GPU acceleration, you simply load the cuML extension in your Python environment: %load_ext cuml.accel"
+    },
+    {
+      "index": 22,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard English-only queries Total #models: 221 Total #votes: 2,829,853 Last updated: 2025-03-30 Coding China China China China China China China China x.ai x.ai China Cohere China China"
+    },
+    {
+      "index": 23,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Elon Musk Merges xAI and X",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 1,
+      "slideTitle": "Elon Musk Merges xAI and X Alibaba Qwen",
+      "source": "outline"
+    },
+    {
+      "claim": "Alibaba Qwen Models",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 5,
+      "slideTitle": "Yann LeCun \"No Way In HELL AGI In",
+      "source": "outline"
+    },
+    {
+      "claim": "\"Oversinking\" - thinking too much",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 1 Cursor limits content length to",
+      "source": "outline"
+    },
+    {
+      "claim": "Yann LeCun \"No Way In HELL AGI In 2 Years\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 13,
+      "slideTitle": "Claude and OpenAI for Education Anthropic launches an",
+      "source": "outline"
+    },
+    {
+      "claim": "Chain-of-Tools",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 16,
+      "slideTitle": "Humanoid Robots Robots brush and style your hair",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia Quantum Research Center",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 20,
+      "slideTitle": "Kat Orekhova - Startups and AI Adopted Podcast",
+      "source": "outline"
+    },
+    {
+      "claim": "GPT-4o update & Image Generation",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 24,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Elon Musk Merges xAI and X xAI -",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 2,
+      "slideTitle": "Elon Musk Merges xAI and X xAI -",
+      "source": "slide"
+    },
+    {
+      "claim": "Alibaba Qwen Models Alibaba Qwen models: Proprietary: Qwen2.5-Max",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 3,
+      "slideTitle": "Alibaba Qwen Models Alibaba Qwen models: Proprietary: Qwen2.5-Max",
+      "source": "slide"
+    },
+    {
+      "claim": "Oversinking - thinking too much The Danger of",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 4,
+      "slideTitle": "Oversinking - thinking too much The Danger of",
+      "source": "slide"
+    },
+    {
+      "claim": "Chain-of-Tools Chain-of-Tools: Utilizing Massive Unseen Tools in the",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 6,
+      "slideTitle": "Chain-of-Tools Chain-of-Tools: Utilizing Massive Unseen Tools in the",
+      "source": "slide"
+    },
+    {
+      "claim": "Nvidia Quantum Research Center Nvidia Accelerated Quantum Research",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 7,
+      "slideTitle": "Nvidia Quantum Research Center Nvidia Accelerated Quantum Research",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT-4o update & Image Generation GPT-4o update surpasses",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 8,
+      "slideTitle": "GPT-4o update & Image Generation GPT-4o update surpasses",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 Isomorphic Labs - Alphabet’s AI",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates 2 Isomorphic Labs - Alphabet’s AI",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 3 Mixture-of-Mamba - a new State",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 3 Mixture-of-Mamba - a new State",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 4 GenSpark Super Agent - AI-powered",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=K3FrMdk_nCU",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates 4 GenSpark Super Agent - AI-powered",
+      "source": "slide"
+    }
+  ]
+}

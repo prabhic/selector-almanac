@@ -1,0 +1,558 @@
+{
+  "id": "2024-07-26-2024-07-26-ai-updates",
+  "date": "2024-07-26",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "rag",
+    "openai",
+    "infra",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "BEauSe5zwT8",
+    "title": "Have you heard these exciting AI news? - July 26, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+    "thumbnail": "https://i.ytimg.com/vi/BEauSe5zwT8/hqdefault.jpg",
+    "duration": 1548
+  },
+  "deck": {
+    "path": "2024/2024-07-26-AI-Updates.pptx",
+    "filename": "2024-07-26-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-07-26-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-07-26-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Meta Llama 3.1",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta: New Models + Tools",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Open-source catches up with Closed-source",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mistral-Nemo-Instruct-2407",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Stanford STORM AI - write Wikipedia post",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mem0 - memory across sessions",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI cancer diagnostics 84% vs 64% Human",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Trump: \"Make America First in AI\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI Alzheimer's diagnostics with 80% accuracy",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI to design its own custom chips",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia's new AI chip B20 for China",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Apple DCLM-Baseline-7B model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "window.ai - run LLM in Google Chrome",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "SKILD.AI model for robots",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Triplex - a SOTA LLM for Knowledge Graphs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ollama Tool Calling",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia Minitron 8B and 4B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Stability.ai Stable Video 4D",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mistral Large 2",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrej Karpathy's YouTube playlist",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Yann LeCun: Fine-tuned Llama-3.1-8b vs GPT-4o",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "PandasAI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "CARTE: Pretraining & Transfer for Tabular Learning",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Deepmind’s AlphaProof",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI GPT-4o Mini \"instruction hierarchy\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI SearchGPT",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tenstorrent",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs in 2024 are lower than last year",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Meta Llama 3.1 Meta: New Models + Tools",
+      "text": "Meta Llama 3.1 Meta: New Models + Tools Open-source catches up with Closed-source Mistral-Nemo-Instruct-2407 Stanford STORM AI - write Wikipedia post Mem0 - memory across sessions AI cancer diagnostics 84% vs 64% Human Trump: \"Make America First in AI\" AI Alzheimer's diagnostics with 80% accuracy OpenAI to design its own custom chips Nvidia's new AI chip B20 for China Apple DCLM-Baseline-7B model window.ai - run LLM in Google Chrome SKILD.AI model for robots Triplex - a SOTA LLM for Knowledge Graphs Ollama Tool Calling Nvidia Minitron 8B and 4B Stability.ai Stable Video 4D Mistral Large 2 Andrej Karpathy's YouTube playlist Yann LeCun: Fine-tuned Llama-3.1-8b vs GPT-4o PandasAI CARTE: Pretraining & Transfer for Tabular Learning Deepmind’s AlphaProof OpenAI GPT-4o Mini \"instruction hierarchy\" OpenAI SearchGPT Tenstorrent Crowd-sourced \"Arena\" Leaderboard Tech Layoffs in 2024 are lower than last year AI Updates July 26 , 2024 \"Remote jobs get 1,000 applicants each\" - Dr. Derek Austin"
+    },
+    {
+      "index": 2,
+      "title": "Meta Llama 3.1 Meta Llama 3.1 - 405B,",
+      "text": "Meta Llama 3.1 Meta Llama 3.1 - 405B, 70B, 8B versions, open-source 405B on par with GPT-4o and Claude 3.5 Sonnet 128k context length, multi-lingual, coding, reasoning, tool use Open/free weights and code, license that enables fine-tuning, distillation into other models, and deployment anywhere. Llama Stack APIs, over 25 partners, including AWS, NVIDIA, Databricks, Groq, Dell, Azure, and Google Cloud. https://ollama.com/library/llama3.1 https://twitter.com/ylecun/status/1815772369572520120 https://ai.meta.com/blog/meta-llama-3-1/ https://llama.meta.com https://twitter.com/AIatMeta/status/1816189043706847626 https://huggingface.co/meta-llama https://github.com/meta-llama/llama-agentic-system - Agentic System On Ollama: .. 405b  231 GB ..  70b   40 GB ..   8b  4.7 GB Llama 3.1 was trained on over 15T tokens on 16,000 Nvidia H100 GPUs , 31 Mln GPU hours, training cost $500 Mln . SFT  (Supervised Fine-Tuning) was used for post-training for Code, Math, Multilinguality, Long Context, Tool Use Hardware for 405B model: 405b*2Bytes = 810 GB of VRAM 2 nodes * 8 Nvidia H100 16 * 80GB = 960GB VRAM Or 1 node with 5 AMD Instinct MI300X 5 * 192GB =  960GB Octo.ai offers Llama 3.1 405B at ($3/$9) per M in/out tokens GPT-4o  (5/15) GPT-4o mini (0.15/0.6)"
+    },
+    {
+      "index": 3,
+      "title": "Meta: New Models + Tools Mark Zuckerberg on",
+      "text": "Meta: New Models + Tools Mark Zuckerberg on Llama 3.1, Open Source, AI Agents, Safety, and more https://www.youtube.com/watch?v=Vy3OkbtUa5k https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/ Release of Llama 3.1 405B - first open-sourced frontier AI model Real-world use cases for Llama 3.1 in various industries Stack of open-source AI tools to build custom solutions Meta to become universal framework for creating custom solutions Effects that open-source AI may have on society Balancing power and managing bad actors, mitigate risks Open source and global competition AI Tools to accelerate innovation and economic growth Mark on Apple and lessons from the past. Open vs closed. Future of AI: Llama 3 and beyond. Prediction: Billions of personalized AI agents Factors to changing anti-AI sentiment: Analysis of the reasons behind shifting public perceptions regarding AI technology. Meta Llama models Meta tools to distill and finetune Billions of custom models and personalized AI agents Price per Mln tokens (in+out): ------------------------------------ Llama 3.1 405b       $6 Llama 3.1 405b Groq  $1.64 (250 t/s) Llama 3.1 70b        $1.27 Llama 3.1 8b         $0.18 ------------------------------------ GPT-4o              $20 GPT-4-turbo         $40 Claude 3.5 Sonnet   $18 Claude 3 Opus       $90 ------------------------------------ https://llmpricecheck.com/fireworks/llama-3.1-405b-instruct/ https://openai.com/api/pricing/ https://docs.anthropic.com/claude/docs/models-overview"
+    },
+    {
+      "index": 4,
+      "title": "Open-source catches up with Closed-source The trend is",
+      "text": "Open-source catches up with Closed-source The trend is clear ... small open-source models, distillation and fine-tuning, serving, and data collection. One or two frontier closed-source models will still be valuable. https://twitter.com/AravSrinivas/status/1816248208802336975"
+    },
+    {
+      "index": 5,
+      "title": "Mistral-Nemo-Instruct-2407 On Hugginface: https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407 (safetensors) https://huggingface.co/QuantFactory/Mistral-Nemo-Instruct-2407-GGUF/tree/main (GGUF) https://huggingface.co/InferenceIllusionist/Mistral-Nemo-Instruct-12B-iMat-GGUF/tree/main",
+      "text": "Mistral-Nemo-Instruct-2407 On Hugginface: https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407 (safetensors) https://huggingface.co/QuantFactory/Mistral-Nemo-Instruct-2407-GGUF/tree/main (GGUF) https://huggingface.co/InferenceIllusionist/Mistral-Nemo-Instruct-12B-iMat-GGUF/tree/main (GGUF) Layers: 40           (vs  32 in 7b) Dim: 5,120           (vs  4k in 7b) Hidden dim: 14,436   (vs  4k in 7b) Vocab. size: 128k    (vs 32k in 7b) Activation Function: SwiGLU Head dim: 128 Number of heads: 32 Number of kv-heads: 8 (GQA) Rotary embeddings (theta = 1M) Drop-in replacement of Mistral 7B Apache 2 License Pre-trained and instruct 128k context window Multilingual and code 12B params q4 file 7 GB July 23 - Ollama was updated to version 0.2.8, and it can now run mistral-nemo: ollama run mistral-nemo"
+    },
+    {
+      "index": 6,
+      "title": "Misc 1 Stanford STORM AI - write Wikipedia",
+      "text": "Misc 1 Stanford STORM AI - write Wikipedia post https://www.youtube.com/watch?v=GtGW9pExqV0 A new study from UCLA found that an AI tool i dentified prostate cancer with 84% accuracy, compared to 67% accuracy for cases detected by physicians . https://www.foxnews.com/health/artificial-intelligence-detects-cancer-17-more-accuracy-than-doctors-ucla-study?utm_source=substack&utm_medium=email Allies of former President Donald Trump have reportedly drafted a sweeping AI executive order that aims to boost military technology and reduce regulations on AI development. \"Make America First in AI\" . https://arstechnica.com/information-technology/2024/07/trump-allies-want-to-make-america-first-in-ai-with-sweeping-executive-order/ Mem0 - platform to maintain memory across sessions https://www.youtube.com/watch?v=fW9rdtuuQ-Y OpenAI looking for partners to design its own custom chips https://www.silicon.co.uk/ai/openai-broadcom-in-talks-over-development-of-ai-chip-report-572277 Nvidia is developing a new B20 AI chip for China which is tailored to comply with U.S. export controls for the Chinese market. Researchers from Cambridge University have developed an AI tool that can predict the progression of Alzheimer's disease with over 80% accuracy using speech data. https://www.windowscentral.com/software-apps/a-new-cutting-edge-ai-tool-predicts-the-progression-of-alzheimers-disease-with-over-80-accuracy-minus-the-scalpel"
+    },
+    {
+      "index": 7,
+      "title": "Misc 2 Apple DCLM-Baseline-7B model . - context",
+      "text": "Misc 2 Apple DCLM-Baseline-7B model . - context length = 2K open-source, trained on 2.5T DCLM dataset DCLM = DataComp for Language Models https://huggingface.co/apple/DCLM-7B window.ai   API - new Google Chrome API (currently only available in Chrome Canary) - native AI models that are ran locally and completely offline. https://afficone.com/blog/window-ai-new-chrome-feature-api/ Triplex - a SOTA LLM for Knowledge Graph Construction https://owencolegrove.substack.com/p/triplex-a-sota-llm-for-knowledge outperforms few-shot prompted GPT-4 at 1/60th the inference cost. small, can run directly on your laptop Open Source https://huggingface.co/SciPhi/Triplex , https://ollama.com/sciphi/triplex Specifically trained for triple extraction, the cornerstone of knowledge graph construction. Instructable: You can specify exact input entity types and relationships, ensuring high-fidelity output tailored to your needs. Triplex efficiently converts unstructured text into \"semantic triples\" - the building blocks of knowledge graphs. These triples follow a (subject > predicate > object) format. For example: Input: \"Paris is the capital of France\" Output: CITY: Paris > CAPITAL_OF > COUNTRY: France CITY: Paris > LOCATED_IN > COUNTRY: France SKILD.AI - https://www.skild.ai - since 2023, founded by Abhinav Gupta and Deepak Pathak, two former Carnegie Mellon University professors, created a foundational model for a \"general purpose brain\" that can be slotted into a variety of robots, enabling them to do things like climbing steep slopes, walking over objects obstructing its path and identifying and picking up items. Raised $300 Mln at a $1.5 Bln valuation"
+    },
+    {
+      "index": 8,
+      "title": "Ollama Tool Calling Ollama now supports tool calling",
+      "text": "Ollama Tool Calling Ollama now supports tool calling with popular models such as Meta's Llama 3.1, Mistral Nemo, Firefunction v2,  Command-R+, and many others). Typical usage: Functions and APIs Web browsing Code interpreter and more! To have models call tools, you can provide a list of available tools via the tools field in Ollama’s API. The supported models will now answer with a tool_calls response in the API . Tool responses can be provided via messages with the tool role . Ollama’s OpenAI compatible endpoint also now supports tools, making it possible to switch to using Llama 3.1 and other models. Python Example: https://github.com/ollama/ollama-python/blob/main/examples/tools/main.py Ollama Python Library: https://github.com/ollama/ollama-python Ollama is a company founded in July 2023 by Jeffrey Morgan and Michael Chiang in Toronto, Ontario, Canada https://www.linkedin.com/in/jmorganca/ https://www.linkedin.com/in/mchiang0610/"
+    },
+    {
+      "index": 9,
+      "title": "Misc 3 Nvidia Minitron 8B and 4B -",
+      "text": "Misc 3 Nvidia Minitron 8B and 4B - pruned versions of Nemotron-4 15B model, which require up to 40x fewer training tokens and result in 1.8x compute cost savings compared to training from scratch. These models show up to 16% improvement in MMLU scores compared to training from scratch , perform comparably to models like Mistral 7B and Llama-3 8B, and are intended for research and development purposes only. Pruning is similar to quantization. Mistral Large 2 - new model on Mistral la Plateforme 128k context window, 123 Bln params non-commercial license supports dozens of languages including French, German, Spanish, Italian, Portuguese, Arabic, Hindi, Russian, Chinese, Japanese, and Korean supports 80+ coding languages including Python, Java, C, C++, JavaScript, and Bash. https://mistral.ai/news/mistral-large-2407/ Accuracy for coding Stability.ai Stable Video 4D : 128k context length, 123Bln params https://stability.ai/news/stable-video-4d https://huggingface.co/stabilityai/sv4d"
+    },
+    {
+      "index": 10,
+      "title": "Misc 4 Andrej Karpathy's YouTube playlist on Neural",
+      "text": "Misc 4 Andrej Karpathy's YouTube playlist on Neural Networks https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ Yann LeCun: Fine-tuned Llama 3.1 8B blows GPT-4o mini out of the water on every task. There has never been an open model this small, this good. https://twitter.com/ylecun/status/1815858771610210756 PandasAI is a Python platform that makes it easy to ask questions to your data in natural language. https://github.com/Sinaptik-AI/pandas-ai CARTE: Pretraining and Transfer for Tabular Learning https://arxiv.org/abs/2402.16785 https://gael-varoquaux.info/science/carte-toward-table-foundation-models.html https://x.com/GaelVaroquaux/status/1814198479045931141 Deepmind’s AlphaProof & AlphaGeometry 2 AlphaProof scores silver in math olympiad https://deepmind.google/discover/blog/ai-solves-imo-problems-at-silver-medal-level/"
+    },
+    {
+      "index": 11,
+      "title": "Misc 5 OpenAI GPT-4o Mini model \"instruction hierarchy\"",
+      "text": "Misc 5 OpenAI GPT-4o Mini model \"instruction hierarchy\" - a new technique to block the \"ignore all previous instructions\" loophole . The enhanced prioritization of system instructions over user prompts aims to address growing safety and trust concerns surrounding AI models. OpenAI SearchGPT - blends traditional web searches with AI capabilities. Is launched for testing. Microsoft is adding AI-powered summaries to Bing search results. https://www.engadget.com/microsoft-is-adding-ai-powered-summaries-to-bing-search-results-203053790.html Grammarly is dead. Apple Just Completely Wrecked Grammarly with Apple Intelligence https://medium.com/swlh/apple-just-completely-wrecked-grammarly-with-apple-intelligence-ea9bdc27c317 Run models in Browser"
+    },
+    {
+      "index": 12,
+      "title": "Tenstorrent Idea - put each layer of a",
+      "text": "Tenstorrent Idea - put each layer of a 32-layer transformer on a separate chip. Put 32 chips in one box - making a pipeline for transformer. n150 and n300 cards ($1K .. $1.4K) TT-LoudBox for $12K, TT-QuietBox for $15K https://tenstorrent.com https://www.youtube.com/watch?v=lPX1H3jW8ZQ - AI Hardware w/ Jim Keller Tenstorrent's AI accelerator architecture - reducing data movement bottlenecks. Tenstorrent's Grayskull AI accelerator cards use a grid of 12x12 \"Tensix\" cores, each containing 5 RISC-V RV32IMC cores = 720 cores. The Tensix cores do not have direct access to DRAM, data must be moved via explicit DMA. There are no caches, so caching must be done in software This architecture is designed to reduce unnecessary data movement compared to GPUs The Grayskull e75 & e150 cards have 8GB memory High performance on LLMs is achieved by pipelining multiple matrix-vector multiplications However, the memory bandwidth is still a bottleneck for LLMs Tenstorrent's solution is to link multiple chips together via 100G Ethernet to distribute compute and increase effective memory bandwidth This distributed approach is not ideal, the current Grayskull cards have limited memory capacity and bandwidth which could be a bottleneck. Future generations with more memory and multi-chip scaling may be better suited for LLMs."
+    },
+    {
+      "index": 13,
+      "title": "Total #models: 118. Total #votes: 1,531,686. Last updated:",
+      "text": "Total #models: 118. Total #votes: 1,531,686. Last updated: 2024-07-25. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 14,
+      "title": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "text": "Total #models: 115. Total #votes: 1,450,208. Last updated: 2024-07-08. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 118. Total #votes: 1,531,686. Last updated: 2024-07-25."
+    },
+    {
+      "index": 15,
+      "title": "Tech Layoffs in 2024 are lower than last",
+      "text": "Tech Layoffs in 2024 are lower than last year Layoffs - https://layoffs.fyi Employees: \" You told us things will get better this year! But… why firings? Revenues are increasing… Productivity is at an all-time high! \" Company: \"Take your pick, we've got … 'Cost-cutting efforts' … 'Strategic restructuring' … 'Unexpected Macro Environment' … 'Optimizing for growth' … Oh, this one's good, 'A renewed focus on AI.' https://entreprenal.com/the-layoffs-wont-stop-anytime-soon-23784dcb8e50 Be an early applicant: https://medium.com/career-programming/i-paid-3-000-for-career-coaching-this-1-tip-paid-me-a-1000-roi-4d21e1bd6862"
+    },
+    {
+      "index": 16,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 17,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Meta Llama 3.1",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 1,
+      "slideTitle": "Meta Llama 3.1 Meta: New Models + Tools",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta: New Models + Tools",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 2,
+      "slideTitle": "Meta Llama 3.1 Meta Llama 3.1 - 405B,",
+      "source": "outline"
+    },
+    {
+      "claim": "Open-source catches up with Closed-source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 2,
+      "slideTitle": "Meta Llama 3.1 Meta Llama 3.1 - 405B,",
+      "source": "outline"
+    },
+    {
+      "claim": "Mistral-Nemo-Instruct-2407",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 3,
+      "slideTitle": "Meta: New Models + Tools Mark Zuckerberg on",
+      "source": "outline"
+    },
+    {
+      "claim": "Stanford STORM AI - write Wikipedia post",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 3,
+      "slideTitle": "Meta: New Models + Tools Mark Zuckerberg on",
+      "source": "outline"
+    },
+    {
+      "claim": "Mem0 - memory across sessions",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 4,
+      "slideTitle": "Open-source catches up with Closed-source The trend is",
+      "source": "outline"
+    },
+    {
+      "claim": "AI cancer diagnostics 84% vs 64% Human",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 4,
+      "slideTitle": "Open-source catches up with Closed-source The trend is",
+      "source": "outline"
+    },
+    {
+      "claim": "Trump: \"Make America First in AI\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 5,
+      "slideTitle": "Mistral-Nemo-Instruct-2407 On Hugginface: https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407 (safetensors) https://huggingface.co/QuantFactory/Mistral-Nemo-Instruct-2407-GGUF/tree/main (GGUF) https://huggingface.co/InferenceIllusionist/Mistral-Nemo-Instruct-12B-iMat-GGUF/tree/main",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Alzheimer's diagnostics with 80% accuracy",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 6,
+      "slideTitle": "Misc 1 Stanford STORM AI - write Wikipedia",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI to design its own custom chips",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 6,
+      "slideTitle": "Misc 1 Stanford STORM AI - write Wikipedia",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia's new AI chip B20 for China",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 7,
+      "slideTitle": "Misc 2 Apple DCLM-Baseline-7B model . - context",
+      "source": "outline"
+    },
+    {
+      "claim": "Apple DCLM-Baseline-7B model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 7,
+      "slideTitle": "Misc 2 Apple DCLM-Baseline-7B model . - context",
+      "source": "outline"
+    },
+    {
+      "claim": "window.ai - run LLM in Google Chrome",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 8,
+      "slideTitle": "Ollama Tool Calling Ollama now supports tool calling",
+      "source": "outline"
+    },
+    {
+      "claim": "SKILD.AI model for robots",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 8,
+      "slideTitle": "Ollama Tool Calling Ollama now supports tool calling",
+      "source": "outline"
+    },
+    {
+      "claim": "Triplex - a SOTA LLM for Knowledge Graphs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 9,
+      "slideTitle": "Misc 3 Nvidia Minitron 8B and 4B -",
+      "source": "outline"
+    },
+    {
+      "claim": "Ollama Tool Calling",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 10,
+      "slideTitle": "Misc 4 Andrej Karpathy's YouTube playlist on Neural",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia Minitron 8B and 4B",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 10,
+      "slideTitle": "Misc 4 Andrej Karpathy's YouTube playlist on Neural",
+      "source": "outline"
+    },
+    {
+      "claim": "Stability.ai Stable Video 4D",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 11,
+      "slideTitle": "Misc 5 OpenAI GPT-4o Mini model \"instruction hierarchy\"",
+      "source": "outline"
+    },
+    {
+      "claim": "Mistral Large 2",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 11,
+      "slideTitle": "Misc 5 OpenAI GPT-4o Mini model \"instruction hierarchy\"",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrej Karpathy's YouTube playlist",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 12,
+      "slideTitle": "Tenstorrent Idea - put each layer of a",
+      "source": "outline"
+    },
+    {
+      "claim": "Yann LeCun: Fine-tuned Llama-3.1-8b vs GPT-4o",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 12,
+      "slideTitle": "Tenstorrent Idea - put each layer of a",
+      "source": "outline"
+    },
+    {
+      "claim": "PandasAI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 13,
+      "slideTitle": "Total #models: 118. Total #votes: 1,531,686. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "CARTE: Pretraining & Transfer for Tabular Learning",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 14,
+      "slideTitle": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Deepmind’s AlphaProof",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 14,
+      "slideTitle": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI GPT-4o Mini \"instruction hierarchy\"",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 15,
+      "slideTitle": "Tech Layoffs in 2024 are lower than last",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI SearchGPT",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 15,
+      "slideTitle": "Tech Layoffs in 2024 are lower than last",
+      "source": "outline"
+    },
+    {
+      "claim": "Tenstorrent",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 16,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 16,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs in 2024 are lower than last year",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BEauSe5zwT8",
+      "slideIndex": 17,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

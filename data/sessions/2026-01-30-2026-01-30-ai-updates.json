@@ -1,0 +1,694 @@
+{
+  "id": "2026-01-30-2026-01-30-ai-updates",
+  "date": "2026-01-30",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "benchmarks",
+    "agents",
+    "open-models",
+    "coding",
+    "claude",
+    "openai",
+    "safety",
+    "multimodal",
+    "google",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "WVYIr4rR-DQ",
+    "title": "Have you heard these exciting AI news? - January 30, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=WVYIr4rR-DQ",
+    "thumbnail": "https://i.ytimg.com/vi/WVYIr4rR-DQ/hqdefault.jpg",
+    "duration": 1883
+  },
+  "deck": {
+    "path": "2026/2026-01-30-AI-Updates.pptx",
+    "filename": "2026-01-30-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-01-30-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-01-30-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "NVIDIA CEO wants AI to write 100% of the code",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 39,
+      "label": "00:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Stable-DiffCoder-8B-Instruct",
+      "startSeconds": 91,
+      "label": "01:31",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Climate \"Earth-2\" models",
+      "startSeconds": 115,
+      "label": "01:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent HunyuanImage 3.0-Instruct",
+      "startSeconds": 153,
+      "label": "02:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Skills v1.1.1",
+      "startSeconds": 169,
+      "label": "02:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Problem - Agents not invoking (ignoring) skills",
+      "startSeconds": 186,
+      "label": "03:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Kimi K2.5 by Moonshot AI",
+      "startSeconds": 256,
+      "label": "04:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Kimi Code, open-source coding agent - Apache 2.0",
+      "startSeconds": 304,
+      "label": "05:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Apps in Claude & in ChatGPT",
+      "startSeconds": 356,
+      "label": "05:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Updates",
+      "startSeconds": 460,
+      "label": "07:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Jensen Huang: \"Stop Coding\"",
+      "startSeconds": 548,
+      "label": "09:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude-Flow",
+      "startSeconds": 573,
+      "label": "09:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Moltbot (originally Clawdbot)",
+      "startSeconds": 682,
+      "label": "11:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Moltbot Security Disaster",
+      "startSeconds": 809,
+      "label": "13:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Eigent is an open-source desktop application",
+      "startSeconds": 841,
+      "label": "14:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Co-work Use Cases",
+      "startSeconds": 953,
+      "label": "15:53",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Reached \"High\" Level of Cybersecurity",
+      "startSeconds": 1022,
+      "label": "17:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Google & Sakana AI Partnership",
+      "startSeconds": 1055,
+      "label": "17:35",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI's \"Value Sharing\" Strategy",
+      "startSeconds": 1098,
+      "label": "18:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen3-TTS open-source text-to-speech models",
+      "startSeconds": 1164,
+      "label": "19:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Google AI Plus $7.99/month in the U.S",
+      "startSeconds": 1196,
+      "label": "19:56",
+      "source": "youtube"
+    },
+    {
+      "title": "RAG Reasoning Collapse",
+      "startSeconds": 1266,
+      "label": "21:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Zenflow autonomous AI software engineer",
+      "startSeconds": 1341,
+      "label": "22:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Automated Quality Assurance (QA)",
+      "startSeconds": 1437,
+      "label": "23:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Create AI YouTuber",
+      "startSeconds": 1537,
+      "label": "25:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Maya 200 inference chip",
+      "startSeconds": 1558,
+      "label": "25:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Tesla is ending Models S & X to focus on AI and robotics",
+      "startSeconds": 1584,
+      "label": "26:24",
+      "source": "youtube"
+    },
+    {
+      "title": "UAE K2 Think open-source model",
+      "startSeconds": 1619,
+      "label": "26:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok Imagine - text to videos up to 15 sec",
+      "startSeconds": 1631,
+      "label": "27:11",
+      "source": "youtube"
+    },
+    {
+      "title": "How to Advertise with AI",
+      "startSeconds": 1651,
+      "label": "27:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Git & GitHub",
+      "startSeconds": 1705,
+      "label": "28:25",
+      "source": "youtube"
+    },
+    {
+      "title": "AI for Academic & Research Work",
+      "startSeconds": 1813,
+      "label": "30:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1863,
+      "label": "31:03",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Stable-DiffCoder-8B-Instruct NVIDIA Climate \"Earth-2\"",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Stable-DiffCoder-8B-Instruct NVIDIA Climate \"Earth-2\" models Tencent HunyuanImage 3.0-Instruct Skills v1.1.1 Problem - Agents not invoking (ignoring) skills Kimi K2.5 by Moonshot AI Kimi Code, open-source coding agent - Apache 2.0 AI Updates - Jan 30 , 2026 Git & GitHub AI for Academic & Research Work Jobs, Layoffs, demand for AI Engineers Apps in Claude & in ChatGPT Claude Code Updates Jensen Huang: \"Stop Coding\" Claude-Flow Moltbot (originally Clawdbot) Moltbot Security Disaster Eigent is an open-source desktop application Claude Co-work Use Cases OpenAI Reached \"High\" Level of Cybersecurity Google & Sakana AI Partnership OpenAI’s \"Value Sharing\" Strategy Qwen3-TTS open-source text-to-speech models Google AI Plus $7.99/month in the U.S RAG Reasoning Collapse Zenflow autonomous AI software engineer Automated Quality Assurance (QA) Create AI YouTuber Microsoft Maya 200 inference chip UAE K2 Think open-source model Grok Imagine - text to videos up to 15 sec Tesla is ending Models S & X to focus on AI and robotics How to Advertise with AI NVIDIA CEO Jensen Huang ... wants his engineers to spend \"exactly zero percent\" of their time writing code, with AI tools handling the coding tasks instead"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for January 29 China x.ai x.ai x.ai x.ai Google Gemini Claude OpenAI Open Source China China China China deepseek-v3.2  -  671B ernie-5.0 - 2.4T glm-4.6 - 355B kimi-k2-thinking - 1T longcat-flash-chat - 560B qwen3-max - 1T qwen3-235b-a22b - 235B China China China China China China China Model Score gemini-3-pro 1487 grok-4.1-thinking 1475 gemini-3-flash 1471 claude-opus-4-5-20251101-thinking-32k 1468 claude-opus-4-5-20251101 1466 grok-4.1 1466 gemini-3-flash (thinking-minimal) 1463 gpt-5.1-high 1459 ernie-5.0-0110 1453 claude-sonnet-4-5-20250929-thinking-32k 1450 claude-sonnet-4-5-20250929 1450 kimi-k2.5-thinking 1450 gemini-2.5-pro 1450 ernie-5.0-preview-1203 1449 claude-opus-4-1-20250805-thinking-16k 1448 claude-opus-4-1-20250805 1445 gpt-4.5-preview-2025-02-27 1444 chatgpt-4o-latest-20250326 1443 glm-4.7 1440 gpt-5.2 1440 gpt-5.2-high 1440 gpt-5.1 1435 gpt-5-high 1435 qwen3-max-preview 1434 Model Score claude-opus-4-5-20251101-thinking-32k 1538 claude-sonnet-4-5-20250929-thinking-32k 1521 claude-opus-4-5-20251101 1519 gemini-3-pro 1519 kimi-k2.5-thinking 1514 claude-opus-4-1-20250805-thinking-16k 1512 claude-sonnet-4-5-20250929 1510 grok-4.1-thinking 1507 gemini-3-flash (thinking-minimal) 1505 gemini-3-flash 1505 claude-opus-4-1-20250805 1503 claude-opus-4-20250514-thinking-16k 1497 grok-4.1 1495 gpt-5.1-high 1495 gpt-5.2 1494 gpt-5.2-high 1493 ernie-5.0-0110 1491 glm-4.7 1487 kimi-k2-thinking-turbo 1484 qwen3-max-preview 1482 claude-haiku-4-5-20251001 1478 qwen3-max-2025-09-23 1477 gpt-5.1 1475 longcat-flash-chat 1475"
+    },
+    {
+      "index": 3,
+      "title": "Stable-DiffCoder-8B-Instruct Stable-DiffCoder-8B-Instruct An 8B params code diffusion language",
+      "text": "Stable-DiffCoder-8B-Instruct Stable-DiffCoder-8B-Instruct An 8B params code diffusion language model from ByteDance Uses mask diffusion instead of traditional autoregressive generation Built on the Seed-Coder architecture Introduces block diffusion continual pretraining with tailored warmup and noise scheduling to stabilize training The model demonstrates superior performance compared to its autoregressive counterpart across code generation benchmarks like HumanEval (86.6%) and MBPP (85.7%), outperforming most ~8B autoregressive and diffusion-based code models The model supports 8K-token context length https://huggingface.co/ByteDance-Seed/Stable-DiffCoder-8B-Instruct"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates NVIDIA Climate \"Earth-2\" models 3 new",
+      "text": "AI Updates NVIDIA Climate \"Earth-2\" models 3 new models powered by novel architectures: Atlas, StormScope, and HealDA Accelerate forecasting speeds by orders of magnitude while delivering accuracy that rivals or exceeds traditional methods The suite includes three new breakthrough models: (1) Earth-2 Medium Range : High-accuracy 15-day forecasts across 70+ variables, (2) Earth-2 Nowcasting : Generative AI that delivers kilometer-scale storm predictions in minutes (3) Earth-2 Global Data Assimilation - combines diverse observations (from satellites, weather balloons, and ground stations) into a consistent snapshot of the current state of the atmosphere Tencent HunyuanImage 3.0-Instruct is officially open-sourced ! Ranks global tier-1 on @arena’s Image Edit leaderboard The world's strongest open-source Image-to-Image model! https://github.com/Tencent-Hunyuan/HunyuanImage-3.0 https://x.com/TencentHunyuan/status/2016356787361087615 https://huggingface.co/tencent/HunyuanImage-3.0-Instruct"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates Skills v1.1.1 Interactive discovery, open source",
+      "text": "AI Updates Skills v1.1.1 Interactive discovery, open source release, and agent support https://github.com/vercel-labs/skills Problem - Agents not invoking (ignoring) skills This happens because most frontier models are not yet fully trained on using skills compared to standard tool usage Surprisingly, adding skills sometimes performed worse than the baseline The most effective alternative is using an \"agents.md\" or \"clode.md\" file to house grounding information Instead of relying on autonomous skill invocation, developers should stuff summarized documentation directly into these grounding files By compressing context - for instance, from 40KB to 8KB - developers can mitigate \"context rot\" while ensuring the agent actually follows the necessary instructions and documentation http://www.youtube.com/watch?v=A_1ELXEVp5w"
+    },
+    {
+      "index": 6,
+      "title": "Kimi K2.5 Kimi K2.5 by Moonshot AI -",
+      "text": "Kimi K2.5 Kimi K2.5 by Moonshot AI - Open Source MoE architecture with 1 Trillion total params (32B activated), 61 layers with 384 experts that select 8 per token 256K-tokens context window in \"Thinking Mode\" Natively multimodal, pre-trained on 15 trillion mixed visual and text tokens with an integrated MoonViT vision encoder - understands images and videos without external adapters In benchmarks, Kimi K2.5 demonstrates competitive performance against Claude Opus 4.5 and Gemini 3 Pro On SWE-Bench Verified, it outperforms Gemini 3 Pro, and beats both GPT 5.2 and Gemini 3 Pro on SWE-Bench Multilingual For video understanding, it surpassed GPT 5.2 and Claude Opus 4.5 on VideoMMMU benchmarks One evaluation placed Kimi K2.5 at 64% compared to Gemini 3 Pro's 100% and Claude Opus 4.5 Max's 74% The model supports native INT4 quantization for efficient deployment Kimi Code, open-source coding agent - Apache 2.0 Python-based, easy to extend. Fully transparent — clear, safe, reliable. Seamlessly integrates with VS Code, Cursor, JetBrains, ... Fully-featured & out-of-the-box ready. Switch over in seconds. Native Multimodal support https://x.com/Kimi_Moonshot/status/2016034259350520226"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 6.16K subscribers, 266 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "Apps in Claude & in ChatGPT Anthropic Claude",
+      "text": "Apps in Claude & in ChatGPT Anthropic Claude recently launched interactive third-party apps directly within its chat interface for paid subscriptions Amplitude - Analytics platform Asana - Project management (can turn chats into projects) Box - File storage (search files, preview documents) Canva - Design tool Clay - CRM and data enrichment Figma - Design collaboration Hex - Data analytics monday.com - Work management Slack - Team communication Salesforce Agentforce 360 is coming soon ChatGPT offers a broader range of third-party app integrations through its App Store , including: Spotify - Music streaming and playlist creation Canva - Design and graphics Figma - Design collaboration Booking.com and Expedia - Travel booking Zillow - Real estate search Coursera - Educational content DoorDash and Uber - Food delivery and transportation Zapier - Automation with 5,000+ apps (Gmail, Slack, Google Sheets, HubSpot, etc.)"
+    },
+    {
+      "index": 9,
+      "title": "Claude Code Updates Key Claude Code Updates and",
+      "text": "Claude Code Updates Key Claude Code Updates and tweaks by Yaron Been Main update - Native Persistent Memory http://www.youtube.com/watch?v=AbGBM-aGDJw Tasks & Dependencies - Claude can now create tasks with dependencies that are stored in metadata and the file system Collaboration - Multiple sessions or sub-agents can collaborate on the same task list, and updates are broadcasted across all active sessions Replacement for \"Beads\" the native solution replaces the need for third-party repositories like \"Beads,\" which previously handled persistent to-do lists for AI agents New Workflow Enhancements & Skills 1. Test-Driven Development (TDD) in Plan Mode - write tests first in Claude's \"plan mode\" 2. Use Codex MCP to write the tests and Claude to write the code to pass them, leveraging the different \"perspectives\" of the two models 3. Use \"Reinforce\" command that spins up six concurrent agents (three Codex, three Opus 4.5). They analyze code for bugs, security breaches, UX/UI improvements, and performance . 4. CLI status line to show context window usage (e.g., % of 200k tokens) and an error counter tracking number of errors 5. A script to skim local conversation logs to identify recurring errors , helping to spot patterns in where the AI is struggling 6. Docker \"YOLO\" Mode - for research or tasks that don't require manual approval, run Claude Code in an isolated Docker container  using YOLO mode. This prevents the AI from cluttering local environment while avoiding constant permission prompts 7. \"Thinking Critically\" Skill - a custom command that forces Claude to challenge the user's assumptions, identify implicit constraints, perform trade-off analysis, and conduct a \"failure-first\" analysis before writing code Yaron mentions that he is becoming more selective about testing new AI repositories. He believes that if a third-party solution (like \"Beads\") is truly valuable, it will eventually be natively integrated into major tools like Claude Code or OpenCode, so he prefers to \"double down\" on what is already working Yaron Been"
+    },
+    {
+      "index": 10,
+      "title": "Jensen Huang: \"Stop Coding\" NVIDIA CEO Jensen Huang",
+      "text": "Jensen Huang: \"Stop Coding\" NVIDIA CEO Jensen Huang stated that he wants his engineers to spend \"exactly zero percent\" of their time writing code, with AI tools handling the coding tasks instead Huang articulated this vision during an appearance on the No Priors AI podcast in January 2026, where he revealed that every engineer at NVIDIA now uses Cursor, an AI coding assistant, throughout their workday According to Huang, coding is merely a task—the mechanical implementation—while the true purpose of engineering is discovering and solving problems that haven't yet been identified He stated, \"Nothing would give me more joy than if none of our engineers were coding at all, and they were just purely solving undiscovered problems\" https://www.linkedin.com/posts/linasbeliunas_jensen-huang-just-said-the-quiet-part-out-activity-7418389362226233344-WqLu At a recent NVIDIA all-hands meeting, Huang reportedly challenged managers who were asking teams to limit AI tool usage, saying \"Are you insane?\" His goal is to free engineers entirely from what he calls \"syntax\" so they can focus on higher-level system architecture, algorithmic development, and tackling complex, unresolved challenges Huang has been advocating this \"Purpose vs Task\" idea across multiple public conversations Huang's vision aligns with broader industry trends and statements from Google CEO Sundar Pichai and Anthropic CEO Dario Amodei However even Andrej Karpathy, former Tesla AI director who coined the term \"vibe coding,\" admitted his recent project was \"basically entirely hand-written\" because AI agents \"just didn't work well enough\"."
+    },
+    {
+      "index": 11,
+      "title": "Claude-Flow Claude-Flow v3: Enterprise AI Orchestration Platform AI",
+      "text": "Claude-Flow Claude-Flow v3: Enterprise AI Orchestration Platform AI multi-agent orchestration dev. framework, open-source By Reuven Cohen (GitHub: ruvnet), Toronto Area, Canada Teams can deploy, coordinate, and optimize specialized AI agents working together on complex software engineering tasks 13.2K stars on Github CLI and MCP server for command and control Uses Q-Learning and MoE with 8 experts, 42+ skills, and 17 hooks to intelligently direct tasks Swarm Coordination - manages agents using various topologies (mesh, hierarchical, ring, star) and consensus mechanisms (Raft, BFT, Gossip, CRDT) Includes 54+ specialized agents (coder, tester, reviewer, architect, security, etc.) Memory system (AgentDB) , multiple LLM providers (Claude, GPT, Gemini, Ollama), and 12 workers for tasks like ultralearn, audit, and optimize Hive-Mind Architecture - a \"Queen\" agent acts as the master orchestrator The Queen doesn't write code directly but analyzes tasks, breaks them into logical subtasks, delegates to appropriate worker agents, monitors progress, and manages communication This allows multiple specialized agents to work simultaneously on different parts of a project while sharing knowledge through an intelligent memory bank. Advanced Intelligence (RuVector) Version 3 introduces self-learning neural capabilities through RuVector components: SONA = Self-Optimizing Neural Architecture - learns optimal routing in <0.05ms EWC++ = Elastic Weight Consolidation - preventing catastrophic forgetting (preserves 95%+ knowledge) Flash Attention - Optimized computation with 2.49x-7.47x speedup HNSW - Vector search 150x-12,500x faster than traditional methods LoRA/MicroLoRA - Efficient fine-tuning with 128x compression Get started: npx claude-flow@v3alpha init The framework supports recursive development - it can build and improve itself using the same agents it orchestrates https://github.com/ruvnet/claude-flow https://www.reddit.com/r/ClaudeAI/comments/1l87dj7/claudeflow_multiagent_orchestration_platform_for/"
+    },
+    {
+      "index": 12,
+      "title": "Moltbot (originally Clawdbot) Moltbot - open source, local",
+      "text": "Moltbot (originally Clawdbot) Moltbot - open source, local personal AI Assistant Written in TypeScript, combines \"Claude Code\" with persistent memory and extensive computer access. Connects WhatsApp, Telegram, Slack, Discord, Signal, iMessage , emails, calendars, cameras, smart-home devices, ... to models such as Claude, ChatGPT, Gemini, xAI Grok, Mistral and local backends Uses tools via standard SKILL.md format Its workflow runtime \" Lobster \" executes multi-step, typed pipelines with explicit approvals and resumable state Clawdbot runs on your own hardware or a small VPS It uses cron-like scheduling, integrates with notes, tasks, repos and smart home systems Created by Peter Steinberger - an Austrian software engineer and serial entrepreneur originally from Vienna, Austria, who now splits his time between Vienna and London Peter Steinberger changed the name from ClawdBot to Moltbot on January 27, 2026. Original name was based on \"Clawd,\" the Claude Code mascot, and Anthropic owned the trademark AI agent needed to \"molt\" (shed its shell) to adopt a new identity. So it was called \"Moltbot\" as a fitting reference to the lobster theme https://Molt.bot https://github.com/moltbot/moltbot http://www.youtube.com/watch?v=MUDvwqJWWIw Clawdbot - can write and execute code, manage files (localy and on Google Drive), check emails, and browse the web via a Chrome extension; Can place phone calls It learns your preferences over time and has a customizable \"soul.md\" file that dictates its personality and behavior Social Media Management - drafting and sending replies to comments on X posts Highly customizable, open-source, runs 24/7, and allows for complex \"daisy-chaining\" of different AI models The project is only 2 months old, can occasionally crash or get stuck in tool-call loops; security risks if improperly configured Can be installed on Mac, Windows, and Linux npm install -g moltbot@latest moltbot onboard --install-daemon moltbot gateway --port 18789 --verbose moltbot message send --to +1234567890 --message \"Hello\" moltbot agent --message \"Ship checklist\" --thinking high 🦞"
+    },
+    {
+      "index": 13,
+      "title": "Moltbot Security Disaster In just 72 hours, the",
+      "text": "Moltbot Security Disaster In just 72 hours, the Moltbot collapsed into a $16 Mln crypto scam and security disaster http://www.youtube.com/watch?v=mPWY7qiISoA . During the Clawdbot → Moltbot rebrand, the previous GitHub adn social identities of the project were briefly released - and then grabbed by others within seconds! Automated “handle snipers” and squatters took over the old Clawdbot handle on X and the old GitHub org, then used those to post crypto wallet addresses and imply an “official” token. The token was never official: the project’s creator repeatedly stated he had not launched, endorsed, or planned any token at all. Traders piled in on the assumption this was an early, sanctioned AI-related coin; when the denial hit and liquidity was pulled, late entrants were effectively rugged while the anonymous token creators walked away with large profits. The whole ~ 3-day episode exposed serious security issues in how many people deployed the bot This incident serves as a blueprint for future AI-related scams. Users should remain skeptical of \"too good to be true\" tools and avoid granting full system access to unverified software in the current \"wild west\" of AI Independently of the token drama, security researchers scanned the internet and found hundreds of Moltbot/Clawdbot control panels exposed publicly, often with no authentication at all https://www.bitdefender.com/en-us/blog/hotforsecurity/moltbot-security-alert-exposed-clawdbot-control-panels-risk-credential-leaks-and-account-takeovers These exposed instances leaked API keys, OAuth tokens, and conversation histories and, in some cases, allowed unauthenticated command execution on the host system https://vibeaudits.com/blog/64000-github-stars-16m-scam-moltbot-clawdbot-security-nightmare The root cause was not a zero‑day in the code but widespread bad deployments (trusting localhost, misconfigured reverse proxies); given Moltbot’s broad system access, this turned into a high‑impact security incident Several post‑mortems and timelines describe a roughly three‑day window from explosive GitHub popularity, to trademark C&D and rebrand, to handle sniping, token launches, and then mass security scanning and disclosures"
+    },
+    {
+      "index": 14,
+      "title": "Eigent - Desktop Personal AI Workforce Eigent is",
+      "text": "Eigent - Desktop Personal AI Workforce Eigent is an open-source desktop application (Apache 2.0) https://github.com/eigent-ai/eigent - 11.7K stars https://www.camel-ai.org - CAMEL-AI multi-agent framework . Includes Developer agents, Browser agents, Document agents, Multi-Modal agents A startup in UK that went open-source (after release of Claude Co-Work) Deploys a \"personal AI workforce\" on your local machine, orchestrating multiple specialized AI agents (complex, multi-step tasks, locally) https://www.camel-ai.org/blogs/a-guide-to-building-a-fully-local-ai-workforce-with-eigent Privacy-First Design - everything runs locally on your computer Flexible Deployment - Supports both local-only operation (zero cloud dependency) and cloud-connected (API keys) Extensive Tool Integration - over 200 MCP compatible tools for browser automation, code execution, document processing, terminal access, etc. - and you can also add custom tools Enterprise Features - SSO, access control, human-in-the-loop controls for oversight, and commercial licensing options Eigent fits scenarios requiring automation of multi-step workflows such as research assistance, product research, automated report generation, data cleaning, and office automation. The platform is particularly valuable for developers and teams needing complete control over their AI processes without sending data to external servers. [jimmysong](https://jimmysong.io/ai/eigent/) https://github.com/eigent-ai Claude Co-work Use Cases Desktop File Organization - sorting files into folders/subfolders Browser Control - navigate, do actions, downloads Multitask Parallel Processing - organizing files, creating presentations, managing spreadsheets at once Create Branded Presentation (provide logos, colors) Data Collection (Shopify, CRMs) data Analysis, create visual dashboards Automated Video Editing - find engaging moments, cut into vertical clips optimized for Tik Tok or Instagram Google Workspace - check Google Calendar, schedule  meetings, summarize important emails MCP Server Connections (work with Asana, etc.) Schedule workflows such as generating and posting LinkedIn content at a specific time every day https://www.youtube.com/watch?v=eq05p90xyJw"
+    },
+    {
+      "index": 15,
+      "title": "OpenAI Reached \"High\" Level of Cybersecurity \"We are",
+      "text": "OpenAI Reached \"High\" Level of Cybersecurity \"We are going to reach the Cybersecurity High level\" - Sam Altman Shifting focus toward \"defensive acceleration\" to help people patch bugs faster than they can be exploited OpenAI announced that its upcoming Codex coding model updates will reach the \"High\" cybersecurity level for the first time. https://the-decoder.com/openais-upcoming-codex-update-will-hit-the-companys-high-cybersecurity-risk-level-for-the-first-time/ In response, OpenAI is shifting toward \"defensive acceleration,\" prioritizing AI tools that help people patch vulnerabilities faster than they can be exploited CEO Sam Altman emphasized the importance of rapid adoption of these defensive tools , noting that \"there will be many very capable models in the world soon\" Initially, OpenAI will implement product restrictions to block misuse, while transitioning toward the defensive acceleration approach as supporting evidence emerges https://x.com/sama/status/2014733975755817267"
+    },
+    {
+      "index": 16,
+      "title": "Google & Sakana AI Partnership Google & Sakana",
+      "text": "Google & Sakana AI Partnership Google & Sakana AI Partnership Google is making a financial investment and forming a strategic partnership with Japan-based Sakana AI. They aim to leverage models like Gemini and Gemma to accelerate breakthroughs in automated scientific discovery Sakana AI is a Tokyo-based AI startup founded in 2023 by David Ha, Llion Jones (co-author of the \"Attention Is All You Need\" paper), and Ren Ito. The company is famous for its nature-inspired approach to AI development, particularly its Evolutionary Model Merge technique that \"breeds\" new AI models by combining existing ones rather than training from scratch This method uses evolutionary algorithms to automatically merge open-source models , creating powerful new systems without expensive retraining Other notable innovations include The AI Scientist , which automates scientific research, and the Continuous Thought Machine for brain-like reasoning. The company raised approximately $200 Mln in Series A in 2024."
+    },
+    {
+      "index": 17,
+      "title": "AI Updates OpenAI’s \"Value Sharing\" Strategy Instead of",
+      "text": "AI Updates OpenAI’s \"Value Sharing\" Strategy Instead of just charging for API tokens or compute, OpenAI may partner with pharmaceutical companies to discover new drugs and take a percentage of the final product's value For startups, this is essentially a form of venture capital. Instead of raising money to buy compute, companies get the compute directly from OpenAI in exchange for equity or a license to the discovery Qwen3-TTS open-source text-to-speech models Sizes: (1.7B & 0.6B params) Advanced voice cloning, voice design, and speech generation Clone the voice using just 3 seconds of reference audio 10 major languages (Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish, and Italian) Can run on GPUs with 6GB of VRAM https://huggingface.co/spaces/Qwen/Qwen3-TTS"
+    },
+    {
+      "index": 18,
+      "title": "Google Updates Google AI Plus $7.99/month in the",
+      "text": "Google Updates Google AI Plus $7.99/month in the U.S Gemini 3 Pro and Nano Banana Pro models in the Gemini app, Deep Research capabilities, AI filmmaking tools in Flow, and research assistance in NotebookLM Subscribers receive 200GB of cloud storage and 200 monthly AI credits for video generation, with the ability to share benefits with up to five family members This is an entry-level alternative to the more expensive AI Pro plan ($20/month), designed to make advanced AI tools accessible at a lower price point and compete with ChatGPT's similar offerings The plan is now available in 35 countries and territories globally https://www.eweek.com/news/google-ai-plus-rollout-35-countries/ Google Gemini Chrome Integration - Nano Banana, \"Auto browse\", sidebar with Gemini chatbot Personal Intelligence - connect Gemini to Gmail, Photos, YouTube, and Search Google Search - Gemini 3 for AI Overviews Agentic Commerce - Business Agent - chat with brands"
+    },
+    {
+      "index": 19,
+      "title": "RAG Reasoning Collapse \"RAG Reasoning Collapse\" - occurs",
+      "text": "RAG Reasoning Collapse \"RAG Reasoning Collapse\" - occurs when RAG systems provide information that conflicts with an LLM's pre-trained internal memory Models frequently fail to propagate that new information through complex reasoning chains 2026 study from EPFL and Stony Brook -  internal parametric knowledge often overrides external context, causing the model to hallucinate or revert to outdated facts during multi-step tasks This is particularly problematic in coding or technical fields where logic is intertwined with specific data. Current RAG techniques are fragile for mission-critical applications To truly fix this, the industry may need to move beyond simple retrieval toward more advanced fine-tuning and post-training methods that can effectively \"overwrite\" an LLM’s fundamental beliefs https://www.youtube.com/watch?v=BmzdS-a-G8g"
+    },
+    {
+      "index": 20,
+      "title": "Zenflow - Autonomous AI Software Engineer Zenflow is",
+      "text": "Zenflow - Autonomous AI Software Engineer Zenflow is an autonomous AI software engineering system designed for production-ready, end-to-end development Unlike standard AI tools that rely on simple prompting, Zenflow uses \"spec-driven orchestration\" to manage multiple AI agents . This ensures code stays aligned with technical requirements and prevents \"prompt drift.\" Key features include parallel execution , where multiple agents work on different modules simultaneously, and autonomous verification agents that test and review code before shipping The platform offers four modes: Quick Changes, Fix Bugs, Spec and Build, and a full Spec-Driven Development (SDD) workflow. Zenflow integrates with GitHub and supports MCP servers for documentation and automation During a demonstration, the system successfully built a complex Habit Tracker app with backend logic and analytics By automating the technical specification and execution phases, Zenflow allows developers to build functional, polished applications at scale with minimal oversight. https://www.youtube.com/watch?v=xxppO2ws-J8 https://zencoder.ai/zenflow Zencoder is an AI startup founded in 2023 by Andrew Filev It offers an orchestration platform for AI-powered software development with spec-driven workflows and AI coding agents https://www.linkedin.com/in/filev Offers  Zenflow and Zencoder agents Zenflow is the workflow engine that coordinates multi-agent execution and enforces development specifications Zencoder agents handle the actual implementation tasks including code generation, code repair, test generation, and real-time optimization The company's headquarters is located at 500 W Hamilton Avenue in Campbell, California (San Jose area) Zencoder size ~70 people - AI experts, engineers, and data scientists distributed across the globe Spec → Plan → Implement → Test → Verify → Merge Andrew Filev"
+    },
+    {
+      "index": 21,
+      "title": "Automated Quality Assurance (QA) The challenge has shifted",
+      "text": "Automated Quality Assurance (QA) The challenge has shifted from writing code to trusting the code. The Trust Gap - development velocity has exploded, but validation processes are still stuck in slow, manual cycles Competitive advantage shifts to reliability. How to ship software instantly while maintaining total trust in the product's stability - http://www.youtube.com/watch?v=MEtDwwi7bEU Abacus AI’s \"Deep Agent\" - a \"mindset-driven\" automated QA designed to \"think\" like a QA engineer, proactively pressure-testing products to find breakpoints Autonomous Workflow - building apps, debugging, monitoring, and scaling Safety Nets - weekly automated testing for \"vibe-coded\" apps; automatic infrastructure scaling - based on real-time traffic Effective QA requires switching between different user personas. Deep Agent can simulate various perspectives - such as confused users, or those in different global regions Deep Agent checks also for \"simple\" errors like broken links and UI glitches that cause \"quiet\" revenue loss (landing pages, order forms) It catches regional UI issues and language variations that might be invisible to the local development team but disruptive 2026 - year of hybrid teams. AI agents handle execution and humans focus on strategy and judgment"
+    },
+    {
+      "index": 22,
+      "title": "AI Updates Microsoft Maya 200 inference chip Built",
+      "text": "AI Updates Microsoft Maya 200 inference chip Built on TSMC’s cutting-edge 3-nanometer process with over 140 Bln transistors 10 petaFLOPS in FP4 5 petaFLOPS in FP8 Create AI YouTuber - text to cloned voice Tutorial - how to create an \"AI YouTuber\" by coding a Python program that clones voice and converts written scripts into high-quality audio voiceovers - https://www.youtube.com/watch?v=D_ELyz_leRc Voice Cloning using Inworld TTS 1.5 Coding the Python script to interact with the Inworld API A function called `convert_script_to_speech()` reads the .txt file and generates audio file UAE K2 Think open-source model to provide a sovereign alternative to US and Chinese systems Grok Imagine - text to videos up to 15 sec Acquire an API Key at https://fal.ai Install python client \"fal-client\" & \"python-dotenv\" Tesla is ending production of its Model S and Model X cars to focus on AI and robotics (Optimus) CEO Elon Musk announced Wednesday that the company will convert its Fremont factory to produce Optimus humanoid robots, aiming for $1 Mln units annually The strategic shift includes a massive investment in autonomous Cyber Cabs and physical AI technology."
+    },
+    {
+      "index": 23,
+      "title": "How to Advertise with AI In this video,",
+      "text": "How to Advertise with AI In this video, PJ Ace, a pioneer in AI-driven advertising , joins the *Marketing Against the Grain* podcast to break down his workflow for creating high-end viral videos , including the David Beckham IM8 ad which garnered 233 million views in just three days https://www.youtube.com/watch?v=yUdE9oj3sWk . The best results come from mirroring traditional filmmaking roles. His team utilizes a five-person structure: Writer & Director - script concept, creative vision Cinematographer - Using Ideogram and Google’s Nano Banana Pro to generate visual references and mood boards Animator & Editor -  Taking static images into tools like Kling or V3 to bring scenes to life Storyboarding in Figma - PJ lays out his entire sequence in Figma, placing the voiceover lines next to the corresponding AI-generated shots to ensure visual flow The 2x2 Grid Method - generates four related shots in a single 2x2 grid. This ensures that lighting, character likeness, and location remain consistent across different camera angles Motion Control with Kling - a \"driving performance\" from a real actor can be used to animate an AI character's face, preserving micro-expressions and nuance Hyper-Niche Content - PJ predicts that AI will lower the cost of storytelling so significantly that we will see a surge in \"niche\" high-quality series (e.g., specific Star Wars or Warhammer stories) made by small teams for millions rather than 100s  of millions of $ Hybrid Filmmaking - real actors performing on LED backgrounds (like The Mandalorian), while wide shots and complex battle sequences are handled by AI to save costs Cost Efficiency - PJ ballparks that a commercial that used to cost $3 Mln can now be produced for roughly $300,000 (10x cheaper) using these modern AI workflows For \"challenger brands,\" AI offers a way to surprise audiences and compete with major incumbents. However, he warns that major brands (like Coca-Cola) must be more careful, as they face higher scrutiny and \"uncanny valley\" risks with their established brand equity"
+    },
+    {
+      "index": 24,
+      "title": "Git & GitHub Linus Torvalds has created Git",
+      "text": "Git & GitHub Linus Torvalds has created Git in April 2005 in only 5-10 days The motivation was a licensing dispute with BitKeeper GitHub was founded in 2007, launched in April 2008 Microsoft acquired GitHub on October 26, 2018 , for $7.5 Billion In 2024 GitHub's ARR reached 2 Bln GitHub could be valued at approximately $16-18 Bln or more The platform has grown from 28 Mln developers at acquisition to over 150 Mln developers as of 2025, with more than 1 Bln repositories. GitHub Copilot accounts for over 40% of GitHub revenue growth GitHub Copilot had become a larger business on its own than all of GitHub was at the time of acquisition"
+    },
+    {
+      "index": 25,
+      "title": "AI for Academic & Research Work Literature Review",
+      "text": "AI for Academic & Research Work Literature Review & Discovery: ScholarAI - Connects directly to PubMed, Semantic Scholar, and JSTOR for searching and summarizing peer-reviewed research https://aischoollibrarian.substack.com/p/top-10-ai-research-tools-for-2026 Elicit - Specialized for research question answering and systematic reviews - https://paperguide.ai/blog/ai-tools-for-research/ Consensus - Provides citation-backed answers by integrating multiple research sources - https://ssbr-edu.ch/free_tools_for_academic_research_in_2026/ Scite - Shows how research articles cite each other and helps identify influential sources - https://www.reddit.com/r/IBO/comments/1lraery/ai_tools_for_academic_writing_which_ones_are/ Semantic Scholar - Offers AI-generated summaries and citation graphs for paper discovery - https://paperguide.ai/blog/ai-tools-for-research/ Academic Writing: Paperpal - Helps with academic writing quality and structure https://paperguide.ai/blog/best-ai-paper-writing-tools/ Jenni AI - AI writing workspace with in-text citations in 2,600+ citation styles - https://scholarai.io Gemini Deep Research - Generates personalized research plans and can function as a research assistant https://www.nature.com/articles/d41586-025-01069-0 OpenAI Prism - free workspace for scientists powered by GPT-5.2 Integrated with LaTeX and scientific databases like arXiv, it allows researchers to draft papers, manage citations, and convert whiteboard drawings into digital diagrams within a single environment Reading & Analysis: SciSpace - copilot for reading papers, thematic analysis, and literature summarization - https://paperguide.ai/blog/ai-tools-for-research/ Paperguide - AI search, deep research capabilities, summaries, and citation management - https://paperguide.ai/blog/ai-tools-for-research/ NVivo & ATLAS.ti - Research-focused tools for qualitative data analysis with transparent AI support https://lumivero.com/resources/blog/ai-tools-for-academic-research/ Citation & Reference Management Citavi - Assists with reference management and knowledge organization aligned with academic standards"
+    },
+    {
+      "index": 26,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 22K  in 2026 (as of January 30, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 25,337 people laid off (845 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 27,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 28,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "NVIDIA CEO wants AI to write 100% of the code",
+      "topic": "infra",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Stable-DiffCoder-8B-Instruct NVIDIA Climate \"Earth-2\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 39,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=39s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stable-DiffCoder-8B-Instruct",
+      "topic": "general",
+      "videoSeconds": 91,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=91s",
+      "slideIndex": 3,
+      "slideTitle": "Stable-DiffCoder-8B-Instruct Stable-DiffCoder-8B-Instruct An 8B params code diffusion language",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Climate \"Earth-2\" models",
+      "topic": "infra",
+      "videoSeconds": 115,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=115s",
+      "slideIndex": 3,
+      "slideTitle": "Stable-DiffCoder-8B-Instruct Stable-DiffCoder-8B-Instruct An 8B params code diffusion language",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent HunyuanImage 3.0-Instruct",
+      "topic": "general",
+      "videoSeconds": 153,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=153s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates NVIDIA Climate \"Earth-2\" models 3 new",
+      "source": "youtube"
+    },
+    {
+      "claim": "Skills v1.1.1",
+      "topic": "general",
+      "videoSeconds": 169,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=169s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Skills v1.1.1 Interactive discovery, open source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Problem - Agents not invoking (ignoring) skills",
+      "topic": "agents",
+      "videoSeconds": 186,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=186s",
+      "slideIndex": 6,
+      "slideTitle": "Kimi K2.5 Kimi K2.5 by Moonshot AI -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kimi K2.5 by Moonshot AI",
+      "topic": "open-models",
+      "videoSeconds": 256,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=256s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kimi Code, open-source coding agent - Apache 2.0",
+      "topic": "agents",
+      "videoSeconds": 304,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=304s",
+      "slideIndex": 8,
+      "slideTitle": "Apps in Claude & in ChatGPT Anthropic Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apps in Claude & in ChatGPT",
+      "topic": "claude",
+      "videoSeconds": 356,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=356s",
+      "slideIndex": 8,
+      "slideTitle": "Apps in Claude & in ChatGPT Anthropic Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code Updates",
+      "topic": "coding",
+      "videoSeconds": 460,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=460s",
+      "slideIndex": 9,
+      "slideTitle": "Claude Code Updates Key Claude Code Updates and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jensen Huang: \"Stop Coding\"",
+      "topic": "general",
+      "videoSeconds": 548,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=548s",
+      "slideIndex": 10,
+      "slideTitle": "Jensen Huang: \"Stop Coding\" NVIDIA CEO Jensen Huang",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude-Flow",
+      "topic": "claude",
+      "videoSeconds": 573,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=573s",
+      "slideIndex": 11,
+      "slideTitle": "Claude-Flow Claude-Flow v3: Enterprise AI Orchestration Platform AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moltbot (originally Clawdbot)",
+      "topic": "general",
+      "videoSeconds": 682,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=682s",
+      "slideIndex": 12,
+      "slideTitle": "Moltbot (originally Clawdbot) Moltbot - open source, local",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moltbot Security Disaster",
+      "topic": "safety",
+      "videoSeconds": 809,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=809s",
+      "slideIndex": 12,
+      "slideTitle": "Moltbot (originally Clawdbot) Moltbot - open source, local",
+      "source": "youtube"
+    },
+    {
+      "claim": "Eigent is an open-source desktop application",
+      "topic": "open-models",
+      "videoSeconds": 841,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=841s",
+      "slideIndex": 13,
+      "slideTitle": "Moltbot Security Disaster In just 72 hours, the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Co-work Use Cases",
+      "topic": "claude",
+      "videoSeconds": 953,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=953s",
+      "slideIndex": 14,
+      "slideTitle": "Eigent - Desktop Personal AI Workforce Eigent is",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Reached \"High\" Level of Cybersecurity",
+      "topic": "openai",
+      "videoSeconds": 1022,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1022s",
+      "slideIndex": 15,
+      "slideTitle": "OpenAI Reached \"High\" Level of Cybersecurity \"We are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google & Sakana AI Partnership",
+      "topic": "general",
+      "videoSeconds": 1055,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1055s",
+      "slideIndex": 16,
+      "slideTitle": "Google & Sakana AI Partnership Google & Sakana",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI's \"Value Sharing\" Strategy",
+      "topic": "openai",
+      "videoSeconds": 1098,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1098s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates OpenAI’s \"Value Sharing\" Strategy Instead of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qwen3-TTS open-source text-to-speech models",
+      "topic": "open-models",
+      "videoSeconds": 1164,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1164s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates OpenAI’s \"Value Sharing\" Strategy Instead of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google AI Plus $7.99/month in the U.S",
+      "topic": "google",
+      "videoSeconds": 1196,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1196s",
+      "slideIndex": 18,
+      "slideTitle": "Google Updates Google AI Plus $7.99/month in the",
+      "source": "youtube"
+    },
+    {
+      "claim": "RAG Reasoning Collapse",
+      "topic": "rag",
+      "videoSeconds": 1266,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1266s",
+      "slideIndex": 19,
+      "slideTitle": "RAG Reasoning Collapse \"RAG Reasoning Collapse\" - occurs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Zenflow autonomous AI software engineer",
+      "topic": "jobs",
+      "videoSeconds": 1341,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1341s",
+      "slideIndex": 20,
+      "slideTitle": "Zenflow - Autonomous AI Software Engineer Zenflow is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Automated Quality Assurance (QA)",
+      "topic": "general",
+      "videoSeconds": 1437,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1437s",
+      "slideIndex": 21,
+      "slideTitle": "Automated Quality Assurance (QA) The challenge has shifted",
+      "source": "youtube"
+    },
+    {
+      "claim": "Create AI YouTuber",
+      "topic": "general",
+      "videoSeconds": 1537,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1537s",
+      "slideIndex": 21,
+      "slideTitle": "Automated Quality Assurance (QA) The challenge has shifted",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Maya 200 inference chip",
+      "topic": "infra",
+      "videoSeconds": 1558,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1558s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Microsoft Maya 200 inference chip Built",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tesla is ending Models S & X to focus on AI and robotics",
+      "topic": "general",
+      "videoSeconds": 1584,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1584s",
+      "slideIndex": 23,
+      "slideTitle": "How to Advertise with AI In this video,",
+      "source": "youtube"
+    },
+    {
+      "claim": "UAE K2 Think open-source model",
+      "topic": "open-models",
+      "videoSeconds": 1619,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1619s",
+      "slideIndex": 24,
+      "slideTitle": "Git & GitHub Linus Torvalds has created Git",
+      "source": "youtube"
+    },
+    {
+      "claim": "Grok Imagine - text to videos up to 15 sec",
+      "topic": "general",
+      "videoSeconds": 1631,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1631s",
+      "slideIndex": 25,
+      "slideTitle": "AI for Academic & Research Work Literature Review",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to Advertise with AI",
+      "topic": "general",
+      "videoSeconds": 1651,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1651s",
+      "slideIndex": 26,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git & GitHub",
+      "topic": "general",
+      "videoSeconds": 1705,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1705s",
+      "slideIndex": 26,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI for Academic & Research Work",
+      "topic": "general",
+      "videoSeconds": 1813,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1813s",
+      "slideIndex": 27,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1863,
+      "videoUrl": "https://www.youtube.com/watch?v=WVYIr4rR-DQ&t=1863s",
+      "slideIndex": 28,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

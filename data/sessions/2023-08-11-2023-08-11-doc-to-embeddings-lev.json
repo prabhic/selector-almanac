@@ -1,0 +1,242 @@
+{
+  "id": "2023-08-11-2023-08-11-doc-to-embeddings-lev",
+  "date": "2023-08-11",
+  "title": "Doc-to-Embeddings-Lev",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "safety",
+    "claude",
+    "openai",
+    "open-models",
+    "rag",
+    "ml-fundamentals",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "gOxEjANA7_M",
+    "title": "Updates about AI - August 11, 2023",
+    "url": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+    "thumbnail": "https://i.ytimg.com/vi/gOxEjANA7_M/hqdefault.jpg",
+    "duration": 1262
+  },
+  "deck": {
+    "path": "2023/2023-08-11-Doc-to-Embeddings-Lev.pptx",
+    "filename": "2023-08-11-Doc-to-Embeddings-Lev.pptx",
+    "title": "Doc-to-Embeddings-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-11-Doc-to-Embeddings-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-11-Doc-to-Embeddings-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI - Embedding Models Presented by Lev Selector",
+      "text": "AI - Embedding Models Presented by Lev Selector August 11 , 2023 Embeddings? Why Use Them? Choosing an Embedding Model Using LangChain to convert PDF to TXT to Embedding Indexing Thousands of PDFs using parallel GPU-servers OCR (Optical Character Recognition), tesseract Using Bard or Other Modern Multi-modal AI models"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data crypto, accounting cloud architecture, fin-tech, application security Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Why Embeddings? Use Case: Question Answering Based on",
+      "text": "Why Embeddings? Use Case: Question Answering Based on Your Local Data LLM Chatbot Vector DB Augmented Prompt Query Prompt Local Data Recent progress in Generative AI is showing great ability of LLMs (Large Language Models) for language understanding and answering questions in a meaningful way. There are many big public models ( ChatGPT , Google Bard, Claude, Meta LLaMa , Stable Beluga , etc ). Also hundreds of open source solutions. We can install an LLM locally and we can make it answer questions based on our local internal data . For this we need to use \" embeddings \". In parallel with the development of LLMs, there was a great progress in developing the \" Embeddings Models \". These models use artificial Neural Networks to encode the content into vectors. This is similar to how the information is encoded in LLMs themselves. The encoded data then can be stored in a specialized database, called \" Vector Database \". This database can be searched using \"similarity search\" techniques. A combination of local LLM, Embedding model, and a vector database can be used to create a local system that can search through your documents and provide information in a meaningful way."
+    },
+    {
+      "index": 4,
+      "title": "Vector space models have been used in semantic",
+      "text": "Vector space models have been used in semantic similarity research since the 1990s. Many models were created, for example Latent Dirichlet Allocation (LDA), Latent Semantic Analysis (LSA) The term word embeddings was originally coined by Bengio et al. in 2003 who trained them in a neural language model together with the model’s parameters. Collobert and Weston (2008) have demonstrated the power of pre-trained word embeddings word2vec model ( Mikolov et al. 2013 )  - a toolkit for pre-trained embeddings Glove ( Pennington et al. 2014 ) - a competitive set of pre-trained embeddings Many neural network architectures today are built using embeddings What is an Embedding? An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors Embeddings make it easier to do machine learning on large inputs like sparse vectors representing words. Ideally, an embedding captures some of the semantics of the input by placing semantically similar inputs close together in the embedding space . An embedding can be learned and reused across models Yoshua Bengio Canada"
+    },
+    {
+      "index": 5,
+      "title": "An embedding model is a neural network trained",
+      "text": "An embedding model is a neural network trained to encode discrete objects like words or items into dense vector representations that capture semantic meanings. Input: discrete object like a word, sentence, image, product, etc. Output: a dense vector of real numbers representing the input Objective: Embedding models are trained so that semantically similar inputs are mapped to nearby points in the embedding space . The training objectives enforce this by predicting context, nearby words, etc. Geometry : The relative geometry between embedded points encodes semantic relationships. Closer vectors imply more semantic similarity . Dimensionality : Typical dimensions range from 50 to 1000s, with higher dimensions capturing more complex relationships. Training: Embedding models are trained on large datasets to learn the mapping from discrete inputs to dense vectors. Stochastic gradient descent is commonly used. Usage: The dense embedded vectors are used as feature inputs to various downstream models for tasks like classification, retrieval, etc. Some popular examples of embedding models include Word2Vec, Doc2Vec, BERT, item2vec for recommendations, node2vec for networks, etc. Overall, embeddings provide a way to represent discrete semantic objects in a continuous vector space. What is an Embedding Model?"
+    },
+    {
+      "index": 6,
+      "title": "Word embedding - techniques to map words or",
+      "text": "Word embedding - techniques to map words or phrases from the vocabulary to vectors of real numbers. Main idea - a word  can be described by its “neighbors” – a company that this word has. Similar words tend to have similar neighbors. Numerical vectors ( word embeddings ) are constructed so that we can do vector arithmetic on them: ”king” – “he” + “she”   ~   “queen” word2vec is a two-layer neural net that processes text. Its input is a text corpus and its output is a set of vectors of real numbers (typically in ~100 dimensional space). We train this  network to represent meaning (semantics) of words as vectors. Note: nowadays there are many models in other areas converting something to vectors, for example: node2vec (for graphs), dna2vec for DNA sequences, etc. word2vec Tomas Mikolov published word2vec in 2013"
+    },
+    {
+      "index": 7,
+      "title": "GloVe = Global Vectors for Word Representation Published",
+      "text": "GloVe = Global Vectors for Word Representation Published by Stanford in 2014 GloVe is an unsupervised learning algorithm. It learns vectors by doing a dimensionality reduction on the co-occurrence counts matrix. Model tries to minimize a \"reconstruction loss\". The counts matrix is preprocessed by normalizing the counts and log-smoothing them GloVe algorithm is easier to parallelize than word2vec, which means it is easier to train over more data GloVe BERT = Bidirectional Encoder Representations from Transformers Introduced by Google in 2018 BERT is a modification of the Transformer model It only uses the Encoder part (to make \"Encoder Representations\") These latent representations then can be used for some other function - classification, sentiment analysis, etc. BERT pre-trains these representations from unlabeled text BERT is bi-directional (jointly conditioning on both left and right context) BERT is pre-trained on a large corpus of text and then fine-tuned for specific tasks, like question answering, named entity recognition, or sentiment analysis BERT"
+    },
+    {
+      "index": 8,
+      "title": "Embedding models - Hugging Face MTEB leaderboard Massive",
+      "text": "Embedding models - Hugging Face MTEB leaderboard Massive Text Embedding Benchmark (MTEB) Leaderboard https://huggingface.co/spaces/mteb/leaderboard OpenAI Deploy the No 1 embedding model on Huggingface with python https://www.youtube.com/watch?v=ZB1nn3JWyec ~100 models"
+    },
+    {
+      "index": 9,
+      "title": "How Embedding Models Work Embedding models are used",
+      "text": "How Embedding Models Work Embedding models are used to represent words or items as dense vectors of real numbers They are trained on large datasets to learn these representations The training objective is usually to predict a target word from its context or vice versa This allows words that frequently occur together or have similar meanings to have similar vector representations Popular embedding techniques include word2vec, GloVe, and BERT Word2vec uses a shallow neural network to learn word embeddings GloVe uses global word co-occurrence statistics BERT is a transformer model pretrained on large text corpora After training, each word is associated with a vector like [0.1, 0.3, 0.2, ...] The cosine similarity between two word vectors captures the semantic similarity between the words These word vectors are then used as input features for various natural language processing models"
+    },
+    {
+      "index": 10,
+      "title": "How Longer Embedding Models Work Longer sequence embedding",
+      "text": "How Longer Embedding Models Work Longer sequence embedding models (that can handle 512, 1024 or more tokens) work on a similar principle. They are trained on large corpora of long sequences of text, like sentences, paragraphs or documents. The objective remains the same - to predict target words from context Popular long sequence models include ELMo, ULMFiT, Transformer-XL and BERT Their architectures use various techniques like CNNs or Self-attention After training, each token is associated with a dense vector capturing its meaning within a long sequence. The vectors are concatenated or pooled to represent the full passage meaning For a 1024 token input, the output may be a 1024x768 matrix representing each token vector, which can be aggregated for passage level meanings Long range models enable representing meaning in lengthy texts and model complex semantic relationships across a document. The longer context results in richer and more nuanced representations"
+    },
+    {
+      "index": 11,
+      "title": "Choosing a model Models are evaluated on their",
+      "text": "Choosing a model Models are evaluated on their ability to correctly handle Classification, Clustering, Reranking They differ in their size and performance They differ in the dimensions of vectors and in the maximum length of the input Some of them are truly free and open source - and can be used locally. Others (like OpenAI) require a small payment , and sending all data via Internet to OpenAI As the models are Neural Networks - they perform much faster on computers with NVIDIA CUDA-compatible GPU"
+    },
+    {
+      "index": 12,
+      "title": "OpenAI Embedding Model: 1 cent per 150 pages",
+      "text": "OpenAI Embedding Model:   1 cent per 150 pages OpenAI’s Embedding Model With Vector Database https://betterprogramming.pub/openais-embedding-model-with-vector-database-b69014f04433 OpenAI updated in December 2022 the Embedding model to text-embedding-ada-002 . The new model offers: 90%-99.8% lower price ($0.01 per 100,000 tokens = 150 pages) 1/8th embeddings dimensions size reduces vector database costs Endpoint unification for ease of use State-of-the-Art performance for text search, code search, and sentence similarity Context window increased from 2048 to 8192 Choosing the Right Embedding Model - a Guide for LLM Applications https://medium.com/@ryanntk/choosing-the-right-embedding-model-a-guide-for-llm-applications-7a60180d28e3 1 token = 4 chars (in English) 1 word = 5 chars = 1.25 tokens 400 chars = 100 tokens = 75 words 1 page (single-spaced) = 500 words = 2,500 chars = 625 tokens 100,000 tokens = 75,000 words = 150 pages 8192 tokens = 6,150 words = 12 pages"
+    },
+    {
+      "index": 13,
+      "title": "Using Embedding Models in LangChain Working with embeddings",
+      "text": "Using Embedding Models in LangChain Working with embeddings in LangChain https://python.langchain.com/docs/modules/data_connection/text_embedding/ To get your API key, go here: https://platform.openai.com/account/api-keys pip install langchain pip install openai pip install tiktoken export OPENAI_API_KEY=\"...\" from langchain.embeddings import OpenAIEmbeddings embeddings_model = OpenAIEmbeddings(openai_api_key=\"...\") mylist =  [ \"Hi there!\",  \"Oh, hello!\", \"What's your name?\", \"My friends call me World again and again and again\", \"Hello World!\" ] embeddings = embeddings_model.embed_documents(mylist) N = len(embeddings) print(f\"Number of embeddings N = {N}\") for ii in range(N): print(f\"{ii:2} : {len(embeddings[3])}\") # 1536 for each of 5 phrases embedded_query = embeddings_model.embed_query( \"What was the name mentioned in the conversation?\" ) print(len(embedded_query)) # 1536"
+    },
+    {
+      "index": 14,
+      "title": "Vector DB - Storing and Querying But it",
+      "text": "Vector DB - Storing and Querying But it is also possible to represent the data by multiple vectors: Text consist of 1,000 tokens. Each token is converted into a vector of dimensionality 512. So we write 1,000 vectors Query consists of 100 tokens. We convert each token into a vector of dimensionality 512. So we have 100 vectors For similarity search we compare each of 1,000 vectors of data with each of 100 vectors of query. So we calculate 100,000 scores So both Data and Query are represented by sequences of vectors Important - for   both data and query we have to use the same embedding model and same dimensionality We usually represent the data piece by just one vector, and query by just one vector. https://alphasec.io/langchain-decoded-part-2-embeddings/ https://platform.openai.com/docs/guides/embeddings/what-are-embeddings"
+    },
+    {
+      "index": 15,
+      "title": "Embedding of 2,000 PDF files (33K pages) in",
+      "text": "Embedding of 2,000 PDF files (33K pages) in 75 minutes import os from tqdm import tqdm from langchain.document_loaders import PyPDFLoader # extracts text, ignores images from langchain.embeddings import HuggingFaceEmbeddings from langchain.text_splitter import RecursiveCharacterTextSplitter from langchain.vectorstores import FAISS # Facebook AI Similarity Search Library text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100, length_function=len,) model_name = \" sentence-transformers/all-mpnet-base-v2 \" model_kwargs = {\"device\": \"cuda\"} hf = HuggingFaceEmbeddings(model_name=model_name, model_kwargs=model_kwargs) directory = '/tmp/data/' pdf_documents = [os.path.join(directory, filename) for filename in os.listdir(directory)] langchain_documents = [] for document in tqdm(pdf_documents): try: loader = PyPDFLoader(document) data = loader.load() langchain_documents.extend(data) except Exception: continue print(\"Num pages: \", len(langchain_documents)) print(\"Splitting all documents\") split_docs = text_splitter.split_documents(langchain_documents) print(\" Embed and create vector index \") db = FAISS.from_documents(split_docs, embedding=hf) 8 sec / page https://www.anyscale.com/blog/turbocharge-langchain-now-guide-to-20x-faster-embedding"
+    },
+    {
+      "index": 16,
+      "title": "Index 2,000 PDFs (33,000 pages) in 4 min",
+      "text": "Index 2,000 PDFs (33,000 pages) in 4 min using a Ray Cluster Turbocharge LangChain: guide to 20x faster embedding using multi-node Ray cluster on AWS, Azure, CGP, .... https://www.anyscale.com/blog/turbocharge-langchain-now-guide-to-20x-faster-embedding https://www.youtube.com/watch?v=hGnZajytlac PDF: 100KB/page 33,000 pages = 3.3 GBytes We have 4 machines Each has 5 GPUs Total - 20 GPUs We run 20 processes in parallel, each process on its own GPU."
+    },
+    {
+      "index": 17,
+      "title": "OCR, tesseract OCR = Optical Character Recognition LangChain's",
+      "text": "OCR, tesseract OCR = Optical Character Recognition LangChain's PyPDFLoader does not do any OCR. It parses the PDF to extract the text strings. It ignores images. So if you have a PDF containing text as an image - PyPDFLoader will not help. You will need to do OCR The most common go-to library for OCR is Tesseract Tesseract OCR (HP 1985-2005, Open- sorced in 2005, then developed by Google) https://github.com/tesseract-ocr/tesseract https://tesseract-ocr.github.io/tessdoc/ - User Manual https://github.com/madmaze/pytesseract - Python Tesseract https://pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/ - Using Tesseract OCR with Python Tesseract uses LSTM Neural Network under the hood Tesseract is known to poorly handle small print at the bottom of invoices - https://medium.com/ixorthink/comparing-tesseract-ocr-with-google-vision-ocr-for-text-recognition-in-invoices-bddf98f3f3bd - Tesseract vs Google Vision OCR On Mac: brew install tesseract pip install pytesseract tesseract myimage.tif myimage -- oem 1 -l eng # outputs text file myimage.txt In geometry, a tesseract is the four-dimensional analogue of the cube Cloud Vision API cost ~$1 per thousand images (after free first 1,000/month)"
+    },
+    {
+      "index": 18,
+      "title": "Online OCR from Major Clouds (and AI models)",
+      "text": "Online OCR from Major Clouds (and AI models) Google - https://cloud.google.com/use-cases/ocr Google Bard can use Google Lens - https://www.youtube.com/watch?v=rp6i0tWo7e8 AWS - Amazon Textract - https://aws.amazon.com/textract/ Azure AI Vision (OCR and AI) - https://azure.microsoft.com/en-us/products/ai-services/ai-vision"
+    },
+    {
+      "index": 19,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI - Embedding Models Presented by Lev Selector",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 1,
+      "slideTitle": "AI - Embedding Models Presented by Lev Selector",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "Why Embeddings? Use Case: Question Answering Based on",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 3,
+      "slideTitle": "Why Embeddings? Use Case: Question Answering Based on",
+      "source": "slide"
+    },
+    {
+      "claim": "Vector space models have been used in semantic",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 4,
+      "slideTitle": "Vector space models have been used in semantic",
+      "source": "slide"
+    },
+    {
+      "claim": "An embedding model is a neural network trained",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 5,
+      "slideTitle": "An embedding model is a neural network trained",
+      "source": "slide"
+    },
+    {
+      "claim": "Word embedding - techniques to map words or",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 6,
+      "slideTitle": "Word embedding - techniques to map words or",
+      "source": "slide"
+    },
+    {
+      "claim": "GloVe = Global Vectors for Word Representation Published",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 7,
+      "slideTitle": "GloVe = Global Vectors for Word Representation Published",
+      "source": "slide"
+    },
+    {
+      "claim": "Embedding models - Hugging Face MTEB leaderboard Massive",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 8,
+      "slideTitle": "Embedding models - Hugging Face MTEB leaderboard Massive",
+      "source": "slide"
+    },
+    {
+      "claim": "How Embedding Models Work Embedding models are used",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 9,
+      "slideTitle": "How Embedding Models Work Embedding models are used",
+      "source": "slide"
+    },
+    {
+      "claim": "How Longer Embedding Models Work Longer sequence embedding",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 10,
+      "slideTitle": "How Longer Embedding Models Work Longer sequence embedding",
+      "source": "slide"
+    },
+    {
+      "claim": "Choosing a model Models are evaluated on their",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 11,
+      "slideTitle": "Choosing a model Models are evaluated on their",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI Embedding Model: 1 cent per 150 pages",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 12,
+      "slideTitle": "OpenAI Embedding Model: 1 cent per 150 pages",
+      "source": "slide"
+    }
+  ]
+}

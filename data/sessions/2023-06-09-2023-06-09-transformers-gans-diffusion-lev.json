@@ -1,0 +1,274 @@
+{
+  "id": "2023-06-09-2023-06-09-transformers-gans-diffusion-lev",
+  "date": "2023-06-09",
+  "title": "Transformers-GANs-Diffusion-Lev",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "safety",
+    "general",
+    "openai",
+    "google",
+    "multimodal",
+    "rag",
+    "infra",
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "CA0Yfds-nlc",
+    "title": "Generative AI - Transformers, GANs, Stable Diffusion. June 9, 2023",
+    "url": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+    "thumbnail": "https://i.ytimg.com/vi/CA0Yfds-nlc/hqdefault.jpg",
+    "duration": 2131
+  },
+  "deck": {
+    "path": "2023/2023-06-09-Transformers-GANs-Diffusion-Lev.pptx",
+    "filename": "2023-06-09-Transformers-GANs-Diffusion-Lev.pptx",
+    "title": "Transformers-GANs-Diffusion-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-06-09-Transformers-GANs-Diffusion-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-06-09-Transformers-GANs-Diffusion-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Models: Transformer GAN Diffusion Presented by Lev Selector",
+      "text": "Models: Transformer GAN Diffusion Presented by Lev Selector June 9 , 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: crypto, accounting cloud architecture, fin-tech, application security Generative AI Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Question: How Generative AI works? How it generate",
+      "text": "Question: How Generative AI works? How it generate new content?  (text, image, music, ...) Is it created from nothing? Answer: It is not created from nothing. Generative AI system first learns from large amounts of existing data, and then it can use the latent representation of this data and some randomness to generate new examples that are similar to the data it has seen before. Does Generative AI Create New Content?"
+    },
+    {
+      "index": 4,
+      "title": "Example - DALL-E 2 uses all three types",
+      "text": "Example - DALL-E 2 uses all three types of these model types in one system. .. https://openai.com/dall-e-2 DALL-E 2 is a large language model (LLM) developed by OpenAI that can generate realistic images from text descriptions. It was first announced in April 2022, and is a successor to the original DALL-E model, which was released in January 2021. DALL-E 2 is trained on a massive dataset of images and text descriptions. This allows it to learn the relationship between words and images , and to generate images that are both realistic and visually appealing. To use DALL-E 2 , you simply need to provide a text description of the image you want to generate. For example, you could type in \"a cat sitting on a couch\" or \"a painting of a sunset over the ocean.\" DALL-E 2 will then generate an image that matches your description. DALL-E 2 uses two main models: a text encoder and a diffusion model. Text encoder is a transformer GPT-3 language model (developed by OpenAI) Diffusion model is based on the BigGAN generative model (developed by Google AI) Note: BigGAN is a deep convolutional generative adversarial network that has been trained on a massive dataset of images. This allows BigGAN to generate images that are both realistic and high-quality Transformers, GANs, Diffusion Models are everywhere"
+    },
+    {
+      "index": 5,
+      "title": "Transformers",
+      "text": "Transformers"
+    },
+    {
+      "index": 6,
+      "title": "Word Dictionary Naively translating each word Word2Vec (Google,",
+      "text": "Word Dictionary Naively translating each word Word2Vec (Google, 2013) Words are presented by vectors (embeddings). These vectors are obtained by training the 2-layer network on large number of texts. These vectors capture semantic meaning based on context; words appearing in similar contexts have vectors close to each other in this space. This enables the model to infer word relationships, like \"king\" is to \"queen\" as \"man\" is to \"woman\". Attention (Google, 2016) GNMT = Google Neural Machine Translation Attention is a technique that helps the model focus on relevant parts of the input when processing data. Attention assigns different weights or \" attention scores\" to different parts of the input, highlighting what is important for the task at hand. This is especially useful in tasks involving sequential data like text or time series, where certain elements in the sequence may be more relevant than others depending on the context. if-else models Large programs written by linguists Transformer (Google, 2017) Transformer is a type of model architecture introduced in a paper called \"Attention is All You Need\" by Vaswani et al., 2017. It's a model that uses attention mechanisms exclusively , doing away with the need for recurrence or convolutions entirely, as seen in previous models like RNNs and CNNs. The Transformer model employs a special kind of attention mechanism called self-attention (or scaled dot-product attention) to weigh the importance of different elements in the input data. This enables the model to consider the full context of a sequence in parallel , making it very effective for many tasks involving sequential data, such as language translation, text generation, and more. Path to Transformers Transforming sequences (text or code) Translation is a famous example"
+    },
+    {
+      "index": 7,
+      "title": "Input Embedding: The input sequence (a sentence, for",
+      "text": "Input Embedding: The input sequence (a sentence, for example) is first converted into a set of input vectors, one for each word or token in the sequence. Calculate Query, Key, and Value vectors: These vectors are computed for each word using separate weight matrices that are learned during the training process. Score Calculation: The attention score for each word is calculated by taking the dot product of its Query vector with the Key vector of every other word in the sequence . This score reflects the relevance of other words to the current word . Softmax Normalization: The scores are then passed through a softmax function. This converts the scores into probabilities that sum up to 1. The softmax function also amplifies the effect of the highest scores. Calculate Output Vectors: Finally, each of these softmax scores is multiplied with the respective Value vector, and the results are summed up to produce the final output vector for each word . This output vector is a weighted sum of all the Value vectors, where the weights are the softmax scores. In essence, this attention score calculation process allows the model to decide how much \"attention\" each word in the input sequence should pay to every other word , creating an interrelated representation of the whole sequence. Self-Attention In Transformer The Query, Key, and Value vectors are calculated using three separate weight matrices that the model learns during training. For each word (or token) in the input, these weight matrices are used to transform the original input vector (the word embedding) into the Query, Key, and Value vectors. Query Vector (Q) : the representation of the current word or token. It is used to score the relationship with other words in the sequence. Key Vector (K) : This vector is a representation of all other words or tokens in the sequence. Each word in the sequence has a corresponding Key vector, which is compared with the Query vector to compute the attention scores. Value Vector (V) : This vector is a final representation of the other words or tokens in the sequence. It is used in the final computation of the new representation for the current word . It doesn't influence the attention scores, but is weighted by them to provide the output. self-attention : the attention mechanism attends to different positions or elements within the same input sequence. It allows the model to weigh the importance of different words relative to each other within the input multi-headed attention : if you use attention with 8 heads, you will have 8 separate attention matrices  that capture different patterns and relationships in the input data. The outputs from these multiple attention heads are then typically combined in some way"
+    },
+    {
+      "index": 8,
+      "title": "The size of the attention matrices in Google",
+      "text": "The size of the attention matrices in Google Translate depends on the model used. The original Google Neural Machine Translation (GNMT) model used attention matrices of size 64x64. However, newer models, such as the Transformer model, use attention matrices of size 1024x1024. The size of the attention matrices affects the amount of information that can be attended to, and therefore the accuracy of the translation. in the Transformer model, the attention matrix is calculated separately for every phrase or token in the input sequence . The attention mechanism allows the model to weigh the importance of each token relative to the others when processing information. This attention process is performed independently for each token in the sequence and helps the model capture long-range dependencies and relationships between different parts of the input. each layer in a multi-layer Transformer does NOT use the same attention matrix. In the Transformer architecture, each layer has its own set of learnable parameters, including different attention matrices. During the forward pass through the Transformer's multiple layers, each layer's attention matrix is calculated independently based on the input from the previous layer. This allows the model to learn different patterns and relationships at each layer and capture different levels of abstraction from the input data. The idea of having multiple layers with distinct attention matrices is essential for the Transformer's ability to model complex dependencies in sequences and achieve state-of-the-art performance on various natural language processing tasks. The following matrices are recalculated for each sequence during inference: 1. Attention Matrices: The attention matrices are recalculated for each token in the input sequence during inference. The model calculates the attention weights based on the input sequence being processed. 2. Layer Normalization Matrices: Layer normalization is applied to the hidden representations after each layer. The normalization parameters are recalculated for each sequence. 3. Encoder-Decoder Attention Matrices (for seq2seq models): In seq2seq models, the encoder-decoder attention matrices are recalculated for each input sequence when generating the decoder outputs. After the training is completed, the following matrices are fixed after training and remain constant during inference (when making predictions): 1. Input Embedding Matrix: maps each token to a fixed dense vector representation. 2. Positional Encoding Matrix: provides positional information to the input tokens and remains the same for all input sequences. 3. WQ, WK, WV: these matrices used in calculating attention 4. Output Embedding Matrix: maps hidden representations to output token probabilities or scores. 5. Feed-Forward Neural Network (FFN) Matrices: they are applied during inference to transform the hidden representations through non-linear transformations. In the decoder, the self-attention layer is only allowed to attend to earlier positions in the output sequence. This is done by masking future positions (setting them to -inf) before the softmax step in the self-attention calculation. The “ Encoder-Decoder Attention ” layer works just like multiheaded self-attention, except it creates its Queries matrix from the layer below it, and takes the Keys and Values matrix from the output of the encoder stack ."
+    },
+    {
+      "index": 9,
+      "title": "Very Good Illustrated Explanation of the Transformer http://jalammar.github.io/",
+      "text": "Very Good Illustrated Explanation of the Transformer http://jalammar.github.io/ https://www.youtube.com/@arp_ai http://jalammar.github.io/illustrated-transformer/"
+    },
+    {
+      "index": 10,
+      "title": "The Encoder and Decoder are two main components",
+      "text": "The Encoder and Decoder are two main components of a Transformer. Each each consist of a stack of identical layers. In essence, the Encoder processes and learns representations from the input data, and the Decoder uses those representations to generate the output data. Transformer: Encoder and Decoder Decoder: The decoder's role begins once the encoder has processed the entire input. The decoder generates the output data (e.g., a sentence in the target language in a translation task) one part at a time. It takes the output of the encoder (the encoded input data) and uses it to generate the output by paying selective attention to it, using another set of learned weights. Each layer of the decoder also consists of two sub-layers like the encoder, but with an additional third sub-layer . These are the self-attention mechanism , an encoder-decoder attention mechanism , and a feed-forward neural network . The encoder-decoder attention allows the decoder to focus on different parts of the input sequence, based on the current state of the output. Encoder: The encoder's role is to process the input data (e.g., a sentence in the source language in a translation task) and encode it into a series of vectors that contain the learned representation of the input. The encoder doesn't understand the context or meaning of the data; instead, it learns patterns and relationships within the data. In each layer of the encoder, the input goes through two sub-layers : the self-attention mechanism and a f eed-forward neural network . The self-attention mechanism allows the model to consider other words in the input when encoding each word, while the feed-forward network transforms the data further. The outputs of these layers are then passed through residual connections (skip connections) and layer normalization to improve the learning process."
+    },
+    {
+      "index": 11,
+      "title": "How transformer architecture deals with very long sentences",
+      "text": "How transformer architecture deals with very long sentences ? Transformer architectures rely on self-attention mechanisms to process input sentences. It considers the entire input sequence at once (regardless of length). This may require a l ot of memory for long sentences . Transformers use position encodings for tokens in the sequence (which may be less reliable as sequences get longer). To manage these issues, several approaches have been proposed: 1. Gradient Checkpointing: reduces the memory requirements at the cost of compute time. It saves only a subset of intermediate states in the forward pass, and recomputes the rest during the backward pass. 2. Longformer: changes the self-attention mechanism to be a combination of sliding-window attention and global attention , reducing the memory requirements from quadratic to linear . 3. Reformer: uses locality-sensitive hashing (LSH) to approximate the attention mechanism , reducing memory requirements, and also introduces a technique called reversible layers to further reduce memory usage . 4. BigBird: handle longer sequences by using a combination of global, sliding-window, and random attention ."
+    },
+    {
+      "index": 12,
+      "title": "Transformer - sizes of the matrices? The input",
+      "text": "Transformer - sizes of the matrices? The input sequence length N and the hidden size H are two important hyperparameters. For example, the standard size N=64, hidden vector size H=512 In the original Transformer model, the sizes of the query, key, and value matrices are the  same: NxH. The size of the \" Attention Matrix \" is NxN If the input sentence is short - it can be padded to standard length N . If the input sentence is longer than N , the algorithm needs to use one of methods to fit into N. Truncate the input sentence at the beginning or at the end Sliding Window - the input sentence is divided into smaller segments or windows, and the model processes each segment separately. Chunking - split into smaller chunks or sub-sentences. Each chunk can be processed independently, and the outputs can be combined or aggregated to obtain the final representation. The GPT 3.5 model restricts user questions to 4,097 tokens (~ 3,000 words). Each token is represented by a vector with size/dimension = 12,288. Number of layers:                   96 Number of attention heads:          96 Dimensions of its hidden layers: 12288 Sequence length:                  2048 Number of parameters:             175B The ChatGPT 4.0 can process up to 25,000 words of text from the user (depending on the model): Model                      Max Tokens Ada, Babbage, Curie           2048 DaVinci, ChatGPT              4096 GPT-4 8k context              8192 GPT-4 32k context            32768 Google Translate progress: number of layers (encoder, decoder), vector dimensions, number of attention heads, max number of input tokens: Year  Layers  Dimension  Heads Input_Tokens ------------------------------------------- 2016     6       128        8        512 2018     8       512       16       1024 2020    12      1024       32       2048"
+    },
+    {
+      "index": 13,
+      "title": "BERT & GPT BERT = Bidirectional Encoder Representations",
+      "text": "BERT & GPT BERT = Bidirectional Encoder Representations from Transformers Introduced by Google in 2018 BERT is a modification of the Transformer model It only uses the Encoder part (to make \"Encoder Representations\") These latent representations then can be used for some other function - classification, sentiment analysis, etc. BERT pre-trains these representations from unlabeled text BERT is bi-directional (jointly conditioning on both left and right context) BERT is pre-trained on a large corpus of text and then fine-tuned for specific tasks, like question answering, named entity recognition, or sentiment analysis GPT = Generative Pretrained Transformer Developed by OpenAI in 2018 Uses a Transformer-based architecture to generate human-like text Uses the Decoder part of the transformer architecture The model is trained on a vast amount of text Given a sequence of words as input, it predicts the most likely next word, enabling it to generate complete sentences and paragraphs Can generate text, translation,summarization , etc. Currently in use versions 3, 3.5, 4 Up to 175 Bln parameters"
+    },
+    {
+      "index": 14,
+      "title": "GANs",
+      "text": "GANs"
+    },
+    {
+      "index": 15,
+      "title": "Ian Goodfellow GAN Both Detective and Criminal receive",
+      "text": "Ian Goodfellow GAN Both Detective and Criminal receive the same set of images (for example, pictures of cats and dogs). Criminal randomly generates “fake” images (cat with 6 legs and two tails, etc.). Detective learns to discriminate real images from fakes and becomes better and better. Criminal learns to make better and better fakes. Adversarial relationship helps both become better very fast. Generative Adversarial Networks (GANs) (2014) Police Detective (recognizes images) Artistic Criminal (generates fake images) Thesis (2014): https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/11674/Goodfellow_Ian_2014_these.pdf Generative Adversarial Nets, 2014 (8 authors) https://papers.nips.cc/paper_files/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf Unreal Person: https://www.unrealperson.com"
+    },
+    {
+      "index": 16,
+      "title": "Generative Adversarial Networks (GANs) are a class of",
+      "text": "Generative Adversarial Networks (GANs) are a class of machine learning frameworks designed to generate new data instances that resemble the training data. In the context of image generation, GANs work through a game-like scenario between two neural networks: a generator and a discriminator . The training process involves a two-player minimax game , where the generator tries to maximize the probability of the discriminator making a mistake, while the discriminator tries to minimize this same probability. In other words, the generator is trying to produce data that the discriminator can't distinguish from real data, while the discriminator is trying to get better at distinguishing between real and fake data. Over time, the generator network gets better at generating realistic images, while the discriminator gets better at identifying fake images. This dynamic continues until the generator is producing very realistic images, and the discriminator can't distinguish these from the real images with better accuracy than random guessing. The end result is a generator network that can create realistic synthetic images, given a point in the latent space (random noise vector) as input. These generated images resemble the distribution of the original training data. Generator : takes a random noise vector (a random point in the latent space) as input a and outputs an image. Its goal is to generate images that look as realistic as possible (to fool the discriminator into believing that the generated images are real) Discriminator : takes an image as input (either real from the training set or fake from the generator) and outputs a score representing its confidence that the image is real (from the training set). Its goal is to correctly classify images as real or fake GAN"
+    },
+    {
+      "index": 17,
+      "title": "BigGAN (Google, 2018) - used by DALL-E 2",
+      "text": "BigGAN (Google, 2018) - used by DALL-E 2 The base for the model is the Self-Attention GAN, or SAGAN for short, described by Han Zhang, et al. in the 2018 paper tilted “Self-Attention Generative Adversarial Networks.” Can generate larger and higher-quality images, such as 256×256 and 512×512 images https://machinelearningmastery.com/a-gentle-introduction-to-the-biggan/ BigGAN GigaGAN GigaGAN (2022) is a large-scale generative adversarial network (GAN) that was developed by researchers at POSTECH, CMU, and Adobe It can generate high-quality images at a much faster rate than previous GANs GigaGAN is built on top of the StyleGAN architecture (NVIDIA) by using a larger and more diverse training dataset, a more powerful discriminator, a new more effective and more efficient training algorithm 1+ Bln parameters Can generate high-quality images very fast: 512x512 px outputs in 0.13 sec, which is orders of magnitude faster than previous generations Can synthesize high-resolution images (16-megapixels in 3.66 sec) Supports various latent space editing applications such as latent interpolation, style mixing, and vector arithmetic operations Popular GANs CycleGAN StyleGAN pixelRNN text-2-image DiscoGAN lsGAN"
+    },
+    {
+      "index": 18,
+      "title": "Diffusion Models",
+      "text": "Diffusion Models"
+    },
+    {
+      "index": 19,
+      "title": "Diffusion models are a promising new approach to",
+      "text": "Diffusion models are a promising new approach to generative modeling : Image generation - realistic images (new product designs, generating realistic backgrounds for movies and TV shows, and creating custom avatars for online games) Image denoising - repairing damaged or blurry images, or for improving the quality of images that have been taken in low-light conditions Image inpainting - fill in missing parts of images - repairing damaged or incomplete images, or creating new creative compositions Text generation - writing creative content, generating realistic dialogue for movies and TV shows, and creating custom chatbots Audio generation - creating new music, generating realistic sound effects, and creating custom audiobooks Diffusion for Generative Modeling Stable Diffusion is a deep learning, text-to-image model. Question: Who has created the Stable Diffusion model ? Answer: The founder of StabilityAI, Emad Mostaque , along with the collaboration of RunwayML and LMU Munich, LAION, and EleutherAI. Stable Diffusion was made public and open source on 22 August 2022 Diffusion models were introduced in 2015 with a motivation from non-equilibrium thermodynamics They are Markov chains trained using variational inference The goal of diffusion models is to learn the latent structure of a dataset by modeling the way in which data points diffuse through the latent space In computer vision, this means that a neural network is trained to denoise images blurred with Gaussian noise by learning to reverse the diffusion process"
+    },
+    {
+      "index": 20,
+      "title": "Mohammad Emad Mostaque is the founder (2019) and",
+      "text": "Mohammad Emad Mostaque is the founder (2019) and CEO of Stability AI, (London, England, UK, ~170 employees), the company that developed Stable Diffusion (Original authors: Runway, CompVis , and Stability AI) Good short video: https://www.youtube.com/watch?v=WgIlAB3cS6U Emad Mostaque Emad Mostaque Stable Diffusion is a deep learning, text-to-image model released in 2022. It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations guided by a text prompt. It was developed by the start-up Stability AI in collaboration with a number of academic researchers and non-profit organizations. It is open source. https://en.wikipedia.org/wiki/Stable_Diffusion https://github.com/Stability-AI/stablediffusion https://replicate.com/stability-ai/stable-diffusion/examples Generated Image"
+    },
+    {
+      "index": 21,
+      "title": "There are three main types of diffusion models",
+      "text": "There are three main types of diffusion models in machine learning: DDPM = Denoising Diffusion Probabilistic Model. DDPM learns to denoise images by adding noise to them and then learning to reverse the process. This is done by training a neural network to predict the probability of each pixel in an image being noisy. SGM = Score-based Generative Model. SGM learns to generate images by predicting the score (likelihood) of each pixel in an image. SDE = Stochastic Differential Equation. SDE uses a differential equation to model the evolution of an image over time. The differential equation is used to predict how the image will change as it is corrupted by noise. Each type of diffusion model has its own advantages and disadvantages. DDPMs are relatively easy to train and can generate high-quality images. However, they can be slow to sample from. SGMs are faster to sample from, but they can be more difficult to train and can generate lower-quality images. SDEs are the most difficult to train, but they can generate the highest-quality images. Diffusion Models — DDPMs, DDIMs, and Classifier Free Guidance .. https://betterprogramming.pub/diffusion-models-ddpms-ddims-and-classifier-free-guidance-e07b297b2869 Three main types of diffusion models in ML Question: Is \" Stable Diffusion \" a DDPM, SGM, or SDE ? Answer: Stable Diffusion is not a specific model, but rather a general approach to diffusion models. It is based on the idea of using a noise distribution that is stable , meaning that it does not change as the model is trained. This makes it possible to train diffusion models more reliably and efficiently."
+    },
+    {
+      "index": 22,
+      "title": "How Stable Diffusion Works Stable Diffusion creates images",
+      "text": "How Stable Diffusion Works Stable Diffusion creates images from text descriptions. Stable Diffusion can generate high-quality images that are indistinguishable from real photos - while using less than 1 Bln parameters https://towardsdatascience.com/stable-diffusion-best-open-source-version-of-dall-e-2-ebcdf1cb64bc https://jalammar.github.io/illustrated-stable-diffusion/ https://www.youtube.com/watch?v=J87hffSMB60 When we train the Stable Diffusion model, we give it pairs of (text, image). We train the text encoder and image encoder neural networks to encode the text and image into latent vectors , and we use contrastive learning to minimize the distance between these vectors. This means that the model learns to associate text and image, because they being encoded into the same latent vector. The vector is a 2D tensor (typically with 77 rows and 768 columns) We also train the decoder to generate images from latent vectors - using VAE (Variational Auto-Encoder) architecture. So overall it is a supervised learning using VAE (Variational AutoEncoder ) architecture. When we use the trained model, we encode the text into latent vector use this vector to condition the latent-to-latent diffusion process to add noise (to avoid overfitting to training data) use denoiser part of VAE to remove noise from latent vector compare the output latent vector to the latent vector from text iteratively repeat the process until we get good fit and the sufficiently low level of noise in the output latent vector decode the output latent vector into image repeat until the image is satisfactory"
+    },
+    {
+      "index": 23,
+      "title": "Diffusion Models https://www.youtube.com/watch?v=344w5h24-h8 http://proceedings.mlr.press/v37/sohl-dickstein15.pdf https://en.wikipedia.org/wiki/Diffusion_model Diffusion Models",
+      "text": "Diffusion Models https://www.youtube.com/watch?v=344w5h24-h8 http://proceedings.mlr.press/v37/sohl-dickstein15.pdf https://en.wikipedia.org/wiki/Diffusion_model Diffusion Models"
+    },
+    {
+      "index": 24,
+      "title": "http://jalammar.github.io/illustrated-stable-diffusion/ Best Illustrated Explanation of Stable Diffusion -",
+      "text": "http://jalammar.github.io/illustrated-stable-diffusion/ Best Illustrated Explanation of Stable Diffusion - by Jay Alammar"
+    },
+    {
+      "index": 25,
+      "title": "GigaGAN vs Stable Diffusion GigaGAN is significantly (10-20",
+      "text": "GigaGAN vs Stable Diffusion GigaGAN is significantly (10-20 times) faster than comparable Stable Diffusion On an Nvidia A100, GAN generates an image in 0.13 seconds, Muse-3B takes 1.3 seconds, Stable Diffusion (v.1.5) 2.9 seconds. GigaGAN was created by researchers from POSTECH, Carnegie Mellon University, and Adobe Research It is a billion-parameter GAN model that, like Stable Diffusion, DALL-E 2, or Midjourney, has been trained on a large dataset and is capable of text-to-image synthesis GigaGAN is six times larger than the largest GAN to date and was trained by the team using the LAION-2B dataset of over 2 billion image-text pairs, and COYO-700M with 747 Million image-text pairs. An upscaler based on GigaGAN was trained using Adobe Stock photos. https://the-decoder.com/gigagan-an-old-ai-architecture-shows-off-some-new-tricks/ https://mingukkang.github.io/GigaGAN/ GigaGAN architecture"
+    },
+    {
+      "index": 26,
+      "title": "Open Source text-to-image Craiyon (formerly DALL-E Mini) -",
+      "text": "Open Source text-to-image Craiyon (formerly DALL-E Mini) - an AI model based on the original DALL-E that was trained on unfiltered data from the Internet https://pypi.org/project/craiyon.py/ https://github.com/borisdayma/dalle-mini https://huggingface.co/dalle-mini/dalle-mini https://huggingface.co/dalle-mini/dalle-mega pip install dalle-mini pip install -U craiyon.py from craiyon import Craiyon generator = Craiyon() # Instantiates the api wrapper result = generator.generate( \"Photorealistic image of shrek eating earth\" , negative_prompt=\"spoon\", model_type=\"art\") print(result.description) # Description about the generated images # >>> Shrek devouring planet Earth with a sinister grin result.save_images() # Saves the generated images to # 'current working directory/generated', # you can also provide a custom path"
+    },
+    {
+      "index": 27,
+      "title": "Thank You",
+      "text": "Thank You"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Models: Transformer GAN Diffusion Presented by Lev Selector",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 1,
+      "slideTitle": "Models: Transformer GAN Diffusion Presented by Lev Selector",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "Question: How Generative AI works? How it generate",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 3,
+      "slideTitle": "Question: How Generative AI works? How it generate",
+      "source": "slide"
+    },
+    {
+      "claim": "Example - DALL-E 2 uses all three types",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 4,
+      "slideTitle": "Example - DALL-E 2 uses all three types",
+      "source": "slide"
+    },
+    {
+      "claim": "Word Dictionary Naively translating each word Word2Vec (Google,",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 6,
+      "slideTitle": "Word Dictionary Naively translating each word Word2Vec (Google,",
+      "source": "slide"
+    },
+    {
+      "claim": "Input Embedding: The input sequence (a sentence, for",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 7,
+      "slideTitle": "Input Embedding: The input sequence (a sentence, for",
+      "source": "slide"
+    },
+    {
+      "claim": "The size of the attention matrices in Google",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 8,
+      "slideTitle": "The size of the attention matrices in Google",
+      "source": "slide"
+    },
+    {
+      "claim": "Very Good Illustrated Explanation of the Transformer http://jalammar.github.io/",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 9,
+      "slideTitle": "Very Good Illustrated Explanation of the Transformer http://jalammar.github.io/",
+      "source": "slide"
+    },
+    {
+      "claim": "The Encoder and Decoder are two main components",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 10,
+      "slideTitle": "The Encoder and Decoder are two main components",
+      "source": "slide"
+    },
+    {
+      "claim": "How transformer architecture deals with very long sentences",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 11,
+      "slideTitle": "How transformer architecture deals with very long sentences",
+      "source": "slide"
+    },
+    {
+      "claim": "Transformer - sizes of the matrices? The input",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CA0Yfds-nlc",
+      "slideIndex": 12,
+      "slideTitle": "Transformer - sizes of the matrices? The input",
+      "source": "slide"
+    }
+  ]
+}

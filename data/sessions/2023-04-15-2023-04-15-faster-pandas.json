@@ -1,0 +1,131 @@
+{
+  "id": "2023-04-15-2023-04-15-faster-pandas",
+  "date": "2023-04-15",
+  "title": "Faster Pandas",
+  "series": "seminar",
+  "topics": [
+    "rag",
+    "general"
+  ],
+  "video": {
+    "id": "wHBUZjsLbBU",
+    "title": "Polars is better than Pandas - April 14, 2023",
+    "url": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+    "thumbnail": "https://i.ytimg.com/vi/wHBUZjsLbBU/hqdefault.jpg",
+    "duration": 2952
+  },
+  "deck": {
+    "path": "2023/2023-04-15-Faster_Pandas.pptx",
+    "filename": "2023-04-15-Faster_Pandas.pptx",
+    "title": "Faster Pandas",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-04-15-Faster_Pandas.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-04-15-Faster_Pandas.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Faster Pandas Pandas Alternatives iterrows vs apply vs",
+      "text": "Faster Pandas Pandas Alternatives iterrows vs apply vs vectorizing vs masking decrease memory usage in pandas Pandas Alternatives Python Polars Dask Ray Modin Vaex R data.table dplyr"
+    },
+    {
+      "index": 2,
+      "title": "Polars # pip install polars import polars as",
+      "text": "Polars # pip install polars import polars as pl q = ( pl.scan_csv(\"iris.csv\") .filter(pl.col(\"sepal_length\") > 5) .groupby(\"species\") .agg(pl.all().sum()) ) df = q.collect() Polars is very fast and memory efficient written in Rust, uses Apache Arrow Can handle more data than fits in memory ! (Hybrid Streaming) Lazy | eager execution, Multi-threaded SIMD (Single Instruction / Multiple Data) Query optimization, Powerful expression API (Rust | Python | NodeJS | ...) https://www.pola.rs/ https://github.com/pola-rs/polars https://pola-rs.github.io/polars-book/user-guide/ https://towardsdatascience.com/pandas-vs-polars-a-syntax-and-speed-comparison-5aa54e27497e https://github.com/lselector/python_tutorials/blob/master/p01_Polars.ipynb Pandas         Polars"
+    },
+    {
+      "index": 3,
+      "title": "Dask # pip install \"dask[complete]\" import dask.dataframe as",
+      "text": "Dask # pip install \"dask[complete]\" import dask.dataframe as dd df = dd.read_csv( 'myfile.csv ') print(df) from dask.distributed import Client client = Client() # multiprocessing # or client = Client(processes=False) # multithreading def add(a): return a+10 a = client.submit(add, 10) print(a) Dask - large parallel DataFrame composed of many smaller pandas DataFrames . https://www.dask.org Ray Datasets # pip install ray[complete] import ray df=ray.data.read_csvmy(\" myfile.csv \") print(df) Ray Datasets - load and exchange data in Ray libraries. P rovide basic distributed data transformations. https://www.ray.io/ray-datasets"
+    },
+    {
+      "index": 4,
+      "title": "# pip install modin import modin.pandas as pd",
+      "text": "# pip install modin import modin.pandas as pd df=pd.read_csv(\" myfile.csv \") print(df) Scale your pandas workflows by changing one line of code ( import modin.pandas as pd ). Modin uses Ray, Dask, or Unidist. Its syntax is very similar to pandas, but Modin is much faster https://modin.readthedocs.io/en/stable/ https://github.com/modin-project/modin # pip install vaex import vaex df=vaex.read_csv(\" myfile.csv \") print(df) Vaex – like pandas for big data, faster, can calculate stats (mean, sum, count, standard deviation etc. ) on an N-dimensional grid for more than a billion (10^9) samples/rows per second. Has good visualization tools. https://vaex.io Netherlands Maarten Breddels, PhD Jovan Veljanoski, PhD Yonatan Alexander"
+    },
+    {
+      "index": 5,
+      "title": "data.table – R-library data.table is an R package",
+      "text": "data.table – R-library data.table is an R package that provides an enhanced version of data.frames , which are the standard data structure for storing data in base R https://cran.r-project.org/web/packages/data.table/vignettes/datatable-intro.html dplyr – R library https://dplyr.tidyverse.org https://en.wikipedia.org/wiki/Dplyr One of the core packages of the tidyverse in the R programming language, dplyr is primarily a set of functions designed to enable DataFrame manipulation dplyr"
+    },
+    {
+      "index": 6,
+      "title": "How to make your Pandas operation 100x faster",
+      "text": "How to make your Pandas operation 100x faster .. https://towardsdatascience.com/how-to-make-your-pandas-operation-100x-faster-81ebcd09265c How to Speed up Pandas by 100x .. https://medium.com/geekculture/simple-tricks-to-speed-up-pandas-by-100x-3b7e705783a8 Good video in Russian .. https://www.youtube.com/watch?v=DMjCQwUIoTk Don’t use Apply in Python, follow these Best Practices! .. https://towardsdatascience.com/dont-use-apply-in-python-there-are-better-alternatives-dc6364968f44 How to Speed-Up Pandas Operations iterrows() is VERY slow, apply() is also slow numpy is better column operations are fastest (.loc, mask) pd.cut() is fastest for making histogram bins To time, use \"%timeit\" For graphs use module \"perfplot\""
+    },
+    {
+      "index": 7,
+      "title": "# Use only columns you need: df =",
+      "text": "# Use only columns you need: df = pd.read_csv ( \" myfile.csv \", usecols =[\" col1 \", \" col2 \"]) df.info (verbose=False, memory_usage =\" deep \") # use smaller numeric types: # object – use type \"category\" int8 – 1 byte int16 – 2 bytes int64 – 8 bytes df.info (verbose=False) df.memory_usage () df [col1]. memory_usage () df.memory_usage ().sum() df = pd.read_csv (\" myfile.csv \", dtype ={\"col1\":\" int8 \",\"col2\":\" category \"}) # sometimes it is best not to specify column dtypes in read_csv (), # but instead use DataFrame.astype () afterwards df [ mycol ] = df [ mycol ]. astype ( 'int16 ') cat_cols = df.select_dtypes (\" object \").columns df [ cat_cols ] = df [ cat_cols ]. astype (\" category \") Decrease Memory Usage in Pandas https://pythonspeed.com/articles/pandas-load-less-data/ https:// itnext.io /the-fastest-way-to-read-a-csv-file-in-pandas-2-0-532c1f978201 # Change from float to int (losing accuracy): ( df [ mycol ]*100). astype (\" int8 \") # get random subset of data (sampling) from random import random def sample( row_number ): if row_number == 0: return False return random() > 0.001 df_sample = pd.read_csv (\" myfile.csv \", skiprows =sample) # Split big dataset into several files # and process them separately # read big file in chinks: result = None for chunk in pd.read_csv (\" myfile.csv \", chunksize =1000): # process dataframe chunk and get chunk_result if result is None: result = chunk_result else: result = result.add ( chunk_result , fill_value =0)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Faster Pandas Pandas Alternatives iterrows vs apply vs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 1,
+      "slideTitle": "Faster Pandas Pandas Alternatives iterrows vs apply vs",
+      "source": "slide"
+    },
+    {
+      "claim": "Polars # pip install polars import polars as",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 2,
+      "slideTitle": "Polars # pip install polars import polars as",
+      "source": "slide"
+    },
+    {
+      "claim": "Dask # pip install \"dask[complete]\" import dask.dataframe as",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 3,
+      "slideTitle": "Dask # pip install \"dask[complete]\" import dask.dataframe as",
+      "source": "slide"
+    },
+    {
+      "claim": "# pip install modin import modin.pandas as pd",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 4,
+      "slideTitle": "# pip install modin import modin.pandas as pd",
+      "source": "slide"
+    },
+    {
+      "claim": "data.table – R-library data.table is an R package",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 5,
+      "slideTitle": "data.table – R-library data.table is an R package",
+      "source": "slide"
+    },
+    {
+      "claim": "How to make your Pandas operation 100x faster",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 6,
+      "slideTitle": "How to make your Pandas operation 100x faster",
+      "source": "slide"
+    },
+    {
+      "claim": "# Use only columns you need: df =",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 7,
+      "slideTitle": "# Use only columns you need: df =",
+      "source": "slide"
+    }
+  ]
+}

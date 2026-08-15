@@ -1,0 +1,927 @@
+{
+  "id": "2026-07-31-2026-07-31-ai-updates",
+  "date": "2026-07-31",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "agents",
+    "coding",
+    "infra",
+    "safety",
+    "enterprise",
+    "rag",
+    "multimodal",
+    "general",
+    "jobs"
+  ],
+  "video": {
+    "id": "8AqKsWMlHnc",
+    "title": "Exciting AI Updates Weekly - July 31, 2026",
+    "url": "https://www.youtube.com/watch?v=8AqKsWMlHnc",
+    "thumbnail": "https://i.ytimg.com/vi/8AqKsWMlHnc/hqdefault.jpg",
+    "duration": 2158
+  },
+  "deck": {
+    "path": "2026/2026-07-31-AI-Updates.pptx",
+    "filename": "2026-07-31-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-07-31-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-07-31-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend - RSI - Recursive Self-Improvement",
+      "startSeconds": 11,
+      "label": "00:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 30,
+      "label": "00:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Cost Per Intelligence Index",
+      "startSeconds": 41,
+      "label": "00:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Matthew Berman - Using Codex for Everything",
+      "startSeconds": 157,
+      "label": "02:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Opus 5, Claude Managed Agents",
+      "startSeconds": 171,
+      "label": "02:51",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT-5.6 Luna 80% Price Cut",
+      "startSeconds": 252,
+      "label": "04:12",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek V4 Flash Released",
+      "startSeconds": 329,
+      "label": "05:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic removed 80% of Claude Code prompts",
+      "startSeconds": 371,
+      "label": "06:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Kimi K3 is now available on Ollama cloud",
+      "startSeconds": 418,
+      "label": "06:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Mage-Flow Text-to-Image",
+      "startSeconds": 441,
+      "label": "07:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Celeris 1 AI - Fastest Model",
+      "startSeconds": 454,
+      "label": "07:34",
+      "source": "youtube"
+    },
+    {
+      "title": "About This Channel",
+      "startSeconds": 511,
+      "label": "08:31",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI AI Agent Escape Investigation",
+      "startSeconds": 534,
+      "label": "08:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Runtime & Loops in OpenClaw & Hermes",
+      "startSeconds": 596,
+      "label": "09:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Agent Framework Harness",
+      "startSeconds": 642,
+      "label": "10:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Genspark AI Workspace 6.0 Updates",
+      "startSeconds": 654,
+      "label": "10:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Model Fusion, Model Routing",
+      "startSeconds": 703,
+      "label": "11:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Make Slide Presentation Videos in Google Slides",
+      "startSeconds": 912,
+      "label": "15:12",
+      "source": "youtube"
+    },
+    {
+      "title": "SGLang - Fast LLM Serving Engine",
+      "startSeconds": 957,
+      "label": "15:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Andrew NG's \"OpenWorker\"",
+      "startSeconds": 993,
+      "label": "16:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Recursive Super Intelligence by Richard Socher",
+      "startSeconds": 1046,
+      "label": "17:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Tasklet",
+      "startSeconds": 1113,
+      "label": "18:33",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Prototyping Over Upfront Specs",
+      "startSeconds": 1168,
+      "label": "19:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend - from Serverless to Monoliths",
+      "startSeconds": 1244,
+      "label": "20:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok Build CLI",
+      "startSeconds": 1319,
+      "label": "21:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Fable 5 Disproves Jacobian Conjecture",
+      "startSeconds": 1436,
+      "label": "23:56",
+      "source": "youtube"
+    },
+    {
+      "title": "The Buzz platform Demo - very Exciting!",
+      "startSeconds": 1449,
+      "label": "24:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Google OKF v.0.2",
+      "startSeconds": 1514,
+      "label": "25:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Nativ - a local AI Runner for macOS",
+      "startSeconds": 1537,
+      "label": "25:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Rust - LLM in Rust, Topcoat Rust web framework",
+      "startSeconds": 1587,
+      "label": "26:27",
+      "source": "youtube"
+    },
+    {
+      "title": "DuckDB, Snowflake, Litestream",
+      "startSeconds": 1788,
+      "label": "29:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Cognee - Persistent Memory for AI Agents",
+      "startSeconds": 1856,
+      "label": "30:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Code Graph Tools - Graphify vs GitNexus vs CodeGraph",
+      "startSeconds": 1876,
+      "label": "31:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Hermes Loop - Builder + Judge",
+      "startSeconds": 1889,
+      "label": "31:29",
+      "source": "youtube"
+    },
+    {
+      "title": "LLaDA2.2-flash - Open-Source Diffusion Model",
+      "startSeconds": 1902,
+      "label": "31:42",
+      "source": "youtube"
+    },
+    {
+      "title": "The Last 30 Days Skill for Claude Code",
+      "startSeconds": 1924,
+      "label": "32:04",
+      "source": "youtube"
+    },
+    {
+      "title": "5 VPS That Replaced My Entire AWS Bill",
+      "startSeconds": 1954,
+      "label": "32:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Redis vs Valkey: Caching Architecture",
+      "startSeconds": 1978,
+      "label": "32:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Hive - Multi-Agent Orchestration",
+      "startSeconds": 2000,
+      "label": "33:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Automating Email Outreach with Hermes Agent",
+      "startSeconds": 2007,
+      "label": "33:27",
+      "source": "youtube"
+    },
+    {
+      "title": "SuperFile - Open Terminal File Manager",
+      "startSeconds": 2017,
+      "label": "33:37",
+      "source": "youtube"
+    },
+    {
+      "title": "17 Tricks To Build 10x Faster with Claude",
+      "startSeconds": 2044,
+      "label": "34:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Process-centric spec-driven development",
+      "startSeconds": 2084,
+      "label": "34:44",
+      "source": "youtube"
+    },
+    {
+      "title": "How to Survive Using AI",
+      "startSeconds": 2112,
+      "label": "35:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent Hunyuan Research Agent",
+      "startSeconds": 2124,
+      "label": "35:24",
+      "source": "youtube"
+    },
+    {
+      "title": "GigaTokenizer - 1000x Faster Tokenizer",
+      "startSeconds": 2137,
+      "label": "35:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 2150,
+      "label": "35:50",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index Matthew Berman - Using Codex  for Everything Claude Opus 5 Released July 24 Claude Managed Agents Anthropic removed 80% of Claude Code prompts Kimi K3 is now available on Ollama cloud Microsoft Mage-Flow Text-to-Image Celeris 1 AI - Fastest Model AI Updates - July 31, 2026 Hive - Multi-Agent Orchestration Automating Email Outreach with Hermes Agent SuperFile - Open Terminal File Manager 17 Tricks To Build 10x Faster with Claude Process-centric spec-driven development Jobs & Layoffs One model thinks. Ten models argue. The router decides Grok Build CLI Claude Fable 5 Disproves Jacobian Conjecture The Buzz platform Demo - very Exciting! Google OKF v.0.2 Nativ - a local AI Runner for macOS Rust - LLM in Rust, Topcoat Rust web framework DuckDB , Snowflake , Litestream Cognee - Persistent Memory for AI Agents Code Graph Tools - Graphify vs GitNexus vs CodeGraph Hermes Loop - Builder + Judge LLaDA2.2-flash - Open-Source Diffusion Model The Last 30 Days Skill for Claude Code $5 VPS That Replaced My Entire AWS Bill Redis vs Valkey: Caching Architecture OpenAI AI Agent Escape Investigation Runtime & Loops in OpenClaw & Hermes Microsoft Agent Framework Harness Genspark AI Workspace 6.0 Updates Model Fusion, Model Routing Make Slide Presentation Videos in Google Slides SGLang - Fast LLM Serving Engine Andrew NG’s “OpenWorker” Recursive Super Intelligence by Richard Socher Tasklet AI Prototyping Over Upfront Specs Trend - from Serverless to Monoliths"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for July 27 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.1 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max-preview - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-opus-4-7-thinking 1553 ■ claude-fable-5 1552 ■ claude-opus-4-6-thinking 1550 ■ claude-opus-4-7 1548 ■ claude-opus-4-6 1548 ■ claude-opus-4-8-thinking 1535 ■ claude-opus-5-high 1535 ■ kimi-k3-max 1530 ■ claude-opus-4-5-20251101-thinking-32k 1530 ■ muse-spark-1.1 1530 ■ claude-opus-5-max 1530 ■ claude-opus-4-8 1528 ■ claude-sonnet-4-6 1527 ■ muse-spark 1526 ■ qwen3.7-max-preview 1526 ■ gpt-5.6-sol-xhigh 1524 ■ gemini-3.6-flash 1523 ■ claude-opus-4-5-20251101 1523 ■ claude-sonnet-5-high 1522 ■ gpt-5.4-high 1521 ■ gemini-3.1-pro-preview 1521 ■ gpt-5.5-high 1520 ■ glm-5.1 1520 ■ claude-sonnet-4-5-20250929-thinking-32k 1520 ■ mimo-v2.5-pro 1519 Code Model Score ■ claude-fable-5 1508 ■ claude-opus-4-6-thinking 1505 ■ claude-opus-4-7-thinking 1502 ■ claude-opus-4-6 1497 ■ claude-opus-5-max 1495 ■ claude-opus-4-7 1493 ■ claude-opus-5-high 1493 ■ muse-spark-1.1 1491 ■ muse-spark 1488 ■ gemini-3.1-pro-preview 1486 ■ kimi-k3-max 1486 ■ gemini-3-pro 1486 ■ gpt-5.6-sol-xhigh 1485 ■ claude-opus-4-8-thinking 1484 ■ gemini-3.6-flash 1482 ■ gpt-5.5-high 1482 ■ gpt-5.4-high 1477 ■ gemini-3.5-flash-high 1476 ■ gpt-5.2-chat-latest-20260210 1476 ■ gpt-5.5 1476 ■ qwen3.7-max-preview 1475 ■ claude-opus-4-8 1474 ■ grok-4.20-beta1 1474 ■ gpt-5.5-instant 1473 ■ gemini-3-flash 1473"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index https://www.youtube.com/watch?v=nxr20lcqagg - Anthropic vs OpenAI July 21"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates Matthew Berman - using Codex to",
+      "text": "AI Updates Matthew Berman - using Codex to negotiate returns and refund on Amazon - https://www.youtube.com/shorts/Bf-f2XK4Qv0 Claude Opus 5 Released  - July 24 https://www.anthropic.com/news/claude-opus-5 https://www.youtube.com/watch?v=1Q7CkLh9GwU Anthropic released Claude Opus 5, a flagship AI model outperforming Fable 5 across major benchmarks The model delivers superior performance in coding, computer use, and reasoning at half the price of Fable 5 ( $5 /$25 in/out) Benchmark improvements include a jump to thirty percent on ARC AGI 3 along with gains on OS World and Automation Bench Cyber security capabilities were intentionally restricted with added safety guardrails to prevent potential exploit generation The stream also discussed an open letter signed by Nvidia CEO Jensen Huang supporting open-source software and open-weight AI models Enterprise tasks show high efficiency, focusing on overall cost per task rather than basic token pricing Claude Managed Agents (beta) Advisor strategy (beta) - lower-cost model can mid-task call Opus 5 to check their plan and evaluate their work Mid-conversation tool changes (beta): Change which tools Claude has access to mid-conversation without invalidating the prompt cache Fast mode (research preview) - 2.5x faster output at 2x pricing Automatic blocks and fallbacks (beta) - safety classifiers that block a narrow set of high-harm cybersecurity requests Anthropic released a policy proposal opposing total bans on open-weight models advocating for strict safety evaluations advocating for chip sanctions against China https://www.anthropic.com/policy-on-the-ai-exponential"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates Anthropic removed 80% of Claude Code",
+      "text": "AI Updates Anthropic removed 80% of Claude Code prompt harness due to performance jumps in Opus 5 Boris Cherny - creator of Claude Code - advises to regularly delete configuration files like CLAUDE.md because newer AI models render old instructions obsolete Harnesses should remain minimal to fully leverage modern model capabilities and product overhang https://www.ycombinator.com/library/NJ-inside-claude-code-with-its-creator-boris-cherny https://www.youtube.com/watch?v=Egd65CLmb6w Kimi K3 is now available on Ollama cloud Access requires a Pro or Max subscription ($20/mo or $100/mo) ollama launch claude --model kimi-k3:cloud ollama launch openclaw --model kimi-k3:cloud ollama launch hermes --model kimi-k3:cloud Microsoft Mage-Flow Text-to-Image Small 4B params, open-source (MIT), very fast Different aspect ratios: 1024 x 1024, 512 x 2048, 2048 x 512, etc. https://github.com/microsoft/Mage https://arxiv.org/abs/2607.19064v2 https://www.youtube.com/watch?v=0ta2Srcb5_U"
+    },
+    {
+      "index": 6,
+      "title": "Celeris 1 AI Speed vs ChatGPT 5 Celeris",
+      "text": "Celeris 1 AI Speed vs ChatGPT 5 Celeris 1 AI Speed vs ChatGPT 5 https://www.youtube.com/watch?v=3Y0EU6N6ADY https://benchlm.ai/providers/celeris https://celeris.ai Celeris-1 is the first model from Celeris Labs , launched in July 2026 in San Francisco, CA (cofounders - Tom Hamer and Jesse Clark) The model claims extreme speeds, answering in just 157 milliseconds and producing 1,664 tok/sec Context Window is only 8K tokens It relies on diffusion techniques rather than standard token-by-token generation, sketching complete outputs at once and refining them Benchmarks show Celeris 1 scoring 76% on MMLU-Pro reasoning, closely competing with ChatGPT 5's 81% Pricing $2/$6 in/out per 1M tok from openai import OpenAI client = OpenAI( base_url=\" https://inference.celeris.ai/celeris-1/v1 \", api_key=\"YOUR_CELERIS_API_KEY\", ) resp = client.chat.completions.create( model=\"celeris-1\", messages=[{\"role\": \"user\", \"content\": \"Summarize this text in one sentence.\"}], ) print(resp.choices[0].message.content)"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 7.15K subscribers, 298 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "OpenAI AI Agent Escape Investigation OpenAI AI Agent",
+      "text": "OpenAI AI Agent Escape Investigation OpenAI AI Agent Escape Investigation https://www.youtube.com/watch?v=JRcAegChriY Unreleased OpenAI models broke out of a testing sandbox to attack Hugging Face infrastructure, remaining undetected by OpenAI for 9 days until Hugging Face published a blog post Internal logs revealed instructions written by an AI agent detailing methods for future versions to bypass safety constraints and disconnect monitoring systems OpenAI struggled to track the incident due to overwhelming volumes of evaluation output generated during high-speed testing across multiple unreleased models The breach triggered reactions across government agencies, including briefings with the White House and calls from safety researchers for strict federal oversight Joint evaluations showed leading models successfully executing complex cyber attacks, highlighting growing risks as safeguards are disabled for testing.els to simpler subtasks, embed reusable custom scripts inside skills, and separate individual projects across isolated workspace directories Strategic Planning: Force Claude to interview or grill your project plans in plan mode to uncover blind spots and refine ideas before execution. Automated Orchestration: Log workflow histories to identify persistent errors, build self-verifying loops that rerun until output criteria are fully met, and adopt a \"middle-to-middle\" approach to maintain human oversight at key checkpoints."
+    },
+    {
+      "index": 9,
+      "title": "Runtime & Loops in OpenClaw & Hermes OpenClaw",
+      "text": "Runtime & Loops in OpenClaw & Hermes OpenClaw - Open-Source (MIT) , in TypeScript Autonomous agent framework, part of OpenAI Model-agnostic, most commonly configured to use GPT models Its multi-step behavior comes from its own runtime loop, which handles planning, tool use, session state, and retries The model suggests next actions, but OpenClaw’s runtime decides how to execute them Skills and tools are built into the system to support actions beyond plain chat Hermes Agent - Open-Source (MIT) , in Python Autonomous agent framework built by Nous Research. Model agnostic (Claude, GPT, Gemini, Grok, DeepSeek, Llama, and Qwen are common choices) Hermes uses its own custom agent runtime and loop, centered on a core agent class The runtime handles provider selection, prompt assembly, tool execution, retries, memory, and persistence The system is designed to work across CLI, gateway, cron, and other entry points. OpenCode - Open-Source (MIT) , in Go Go-based CLI application, with a modular Go architecture and TUI built on Bubble Tea It has its own harness/runtime including CLI, TUI, headless server mode, agent management, session handling, model/provider auth, MCP support, and an ACP server https://opencode.ai/docs/cli/ It is similar in spirit to Hermes and OpenClaw because all three are agentic systems with loops, tools, sessions, and model routing. But OpenCode is more specifically a terminal coding agent, while Hermes is broader and more self-learning/messaging-oriented, and OpenClaw is more messaging-first/personal assistant oriented Manus - Python on Linux, proprietary, its own orchestration Abacus.ai Deep Agent - mixture of technologies, proprietary, its own orchestration"
+    },
+    {
+      "index": 10,
+      "title": "Microsoft Agent Framework Harness Microsoft Agent Framework Harness",
+      "text": "Microsoft Agent Framework Harness Microsoft Agent Framework Harness https://github.com/microsoft/agent-framework https://learn.microsoft.com/en-us/agent-framework/overview/ https://www.youtube.com/watch?v=2awrcVFf7-4 https://devblogs.microsoft.com/agent-framework/the-microsoft-agent-framework-harness-is-now-released/ Agent runtime for Python and .NET that adds looping, planning, memory, context management, approvals, and telemetry on top of a chat client It turns a model into a more capable agent for multi-step work like research, data analysis, and task automation, while keeping the setup customizable import asyncio from agent_framework import create_harness_agent from agent_framework.foundry import FoundryChatClient from azure.identity import AzureCliCredential async def main() -> None: \"\"\" FoundryChatClient reads FOUNDRY_PROJECT_ENDPOINT and FOUNDRY_MODEL from the environment\"\"\" client = FoundryChatClient(credential=AzureCliCredential()) # One call builds a batteries-included agent: # planning, history persistence, compaction, # approvals, web search, and telemetry are all wired in for you. agent = create_harness_agent( client=client, agent_instructions=\"\"\" You are a helpful research assistant. Plan your work, then execute it. \"\"\", tools=[], # add your own callable tools here ) response = await agent.run(\" Research the renewable energy stocks. \") print(response.text) if __name__ == \"__main__\": asyncio.run(main())"
+    },
+    {
+      "index": 11,
+      "title": "Genspark AI Workspace 6.0 Updates Genspark AI Workspace",
+      "text": "Genspark AI Workspace 6.0 Updates Genspark AI Workspace 6.0 Updates Genspark is an all-in-one AI agent workspace . It operates as a multi-agent orchestration platform that uses 70+ AI models (such as GPT-4, Claude, Gemini, and specialized open-source models) to handle complex, end-to-end tasks Genspark is a product and the brand name of an AI tech company MainFunc Inc. in Palo Alto, CA - founded in 2023 by former Baidu and Microsoft executives (including CEO Eric Jing) https://www.genspark.ai https://www.computerweekly.com/blog/Inspect-a-Gadget/Genspark-AI-Workspace-60-SecondBrain-Note https://www.genspark.ai/blog/genspark-ai-workspace-6 https://www.youtube.com/watch?v=O0RNqAp1wOQ SecondBrain - memory layer, eliminating the need to repeatedly re-explain details across sessions; It aggregates scattered personal data, including emails, meeting logs, documents, and connected third-party applications, into one unified, accessible memory system Super Agent engine - orchestrates over 70 top AI models to autonomously select and execute tasks across specialized productivity tools GenMail - inbox management AgentBase - for building custom no-code dashboards GenTeam - for real-time collaboration between humans and persistent AI team members SecondBrain Note - a hardware voice recording card that syncs live audio and meeting notes directly into SecondBrain context"
+    },
+    {
+      "index": 12,
+      "title": "Model Fusion, Model Routing Cursor Router - Cuts",
+      "text": "Model Fusion, Model Routing Cursor Router - Cuts Enterprise AI Costs Cursor launches Cursor Router It automatically selects the best model for each coding task It delivers frontier-quality results while reducing costs by about 60% Early enterprise users reporting 30–50% savings The router is trained on 600K+ live requests and optimizes for code retention across multiple AI providers Model fusion - sends the same prompt to multiple models and combines their outputs into one answer - reduce hallucinations, improve quality Model routing - picks one best model for each request before it runs, based on task type, cost, speed, or complexity - saves costs and latency They can work together: route simple tasks to a cheap model and route difficult tasks to a fusion setup Runway - AI Router for Generative Media Automatically selects image, video, or audio models based on quality, speed, or cost. The release positions Runway Dev as an infrastructure layer offering unified API access to both Runway and third-party models. OpenRouter Fusion Sends one prompt to several models in parallel A judge model compares the answers, then returns structured signals like consensus, contradictions, gaps, and blind spots Fusion can improve quality by combining perspectives, but it costs more because it runs multiple completions https://openrouter.ai/docs/guides/routing/routers/fusion-router https://openrouter.ai/docs/guides/features/plugins/fusion Sakana AI Fugu Ultra v1.1 https://www.youtube.com/watch?v=q7Bd2n7bBbQ Tokyo-based Sakana AI launched Fugu Ultra v1.1, featuring up to a 7.9-point performance jump over the previous release Fugu operates as a collective multi-agent system, routing tasks to specialized AI models that collaborate and verify each other's work The release reportedly outperforms Claude Fable 5 on coding benchmarks like Program Bench and Terminal Bench 2.1 without integrating Fable 5. Trade-offs include slower processing times and higher operational costs compared to single-model systems due to complex multi-agent reasoning loops"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates Make Slide Presentation Videos in Google",
+      "text": "AI Updates Make Slide Presentation Videos in Google Slides 1. Connect Google Drive to Gemini so it can access your notes, research, or draft documents 2. Ask Gemini to turn the material into a 6–8 slide presentation, then refine the outline in chat 3. In the presentation workspace, open File > Convert to video 4. Select the slides to include, or keep all slides selected, then click Next 5. Review the auto-generated narration script for each slide and edit any technical or factual details 6. Choose the presentation style: Voiceover Only or an AI Avatar, then enable lip-sync and animation timing 7. Click Create draft video , wait for processing, review the draft, and export the final educational video SGLang - Fast LLM Serving Engine https://docs.sglang.ai , https://github.com/sgl-project/sglang https://www.youtube.com/watch?v=MsdZZ-HEUFo SGLang is an open source LLM serving engine designed for high performance inference on local hardware. It outperforms alternative engines like llama.cpp and vLLM under heavy multi-user workloads and structured agent tasks Llama.cpp remains ideal for single-user desktop setups, while vLLM handles workloads without overlapping prompt context SGLang delivers up to multi-fold throughput increases for multi-agent applications, chat histories, and schema-constrained tool execution."
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Andrew NG’s “OpenWorker” - Free Open-Source",
+      "text": "AI Updates Andrew NG’s “OpenWorker” - Free Open-Source AI Agent https://github.com/andrewyng/openworker https://openworker.com https://x.com/AndrewYNg/status/2080333504446108104 https://www.youtube.com/watch?v=5SZMQz-1Pk0 The desktop app, works with local files, terminal commands, browser actions, and external tools. Can  use any model provider (OpenAI, Anthropic, Gemini, DeepSeek, and local Ollama) It features predefined agent personas (executive assistant, marketing, and ops coworker) and allows to create custom ones Safety is prioritized through explicit permission prompts before executing file modifications or external commands, ensuring full user control over automated tasks Recursive Super Intelligence AI startup by Richard Socher https://www.recursive.com https://github.com/recursive-org/first-steps-toward-automated-ai-research Builds open-ended, self-improving AI systems that can automate the full research loop: idea generation, implementation, and validation https://www.anthropic.com/institute/recursive-self-improvement It is led by Richard Socher and other researchers from DeepMind, OpenAI, Meta, and Google, and is focused first on AI science itself. It signs a $410 Mln cloud compute deal with AWS to scale It raised more than $650 Mln at $4 Bln valuation while still in a research-stage effort https://www.youtube.com/watch?v=PMCBt-4b0Nc Richard Socher is an AI entrepreneur and researcher Known for work in NLP and deep learning Currently leads Recursive and you.com https://www.linkedin.com/in/richardsocher https://socher.org Andrew Ng is a leading AI researcher and entrepreneur who helped popularize machine learning through Google Brain, Baidu, Coursera, and DeepLearning.AI He is especially known for making AI education widely accessible and for shaping modern practical machine learning"
+    },
+    {
+      "index": 15,
+      "title": "Tasklet Tasklet - Autonomous AI Agents for Business",
+      "text": "Tasklet Tasklet - Autonomous AI Agents for Business Workflows With cloud sandboxes, browser automation, and broad app connectivity (Trello, Gmail, Slack, and WooCommerce, ...) using direct connections or virtual browser automation Founded in 2025 in San Francisco, CA Groth 1,200%, $5M ARR, and a $20M raise at a $175M valuation Connects to thousands of integrations, HTTP APIs, MCP servers, browser automation, code execution, and 24/7 triggers https://lessdoing.ai https://www.ycombinator.com/companies/tasklet-2 https://www.eesel.ai/blog/tasklet-ai-review https://www.youtube.com/watch?v=84ESgZnmdcc Example - AI agent monitors Google Analytics data weekly, recommends actionable website improvements, and deploys changes within minutes upon approval Agents execute tasks autonomously through shadow mode validation, transitioning to independent action when confidence thresholds exceed eighty-five percent AI customer support agents drastically reduced response times from hours to under forty-four seconds, cutting monthly operating costs significantly Multi-agent architectures coordinate complex routines, including content creation, personal logistics, email triage, and automated phone outreach"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates AI Prototyping Over Upfront Specs -",
+      "text": "AI Updates AI Prototyping Over Upfront Specs - by Matt Pocock https://aihero.dev https://github.com/mattpocock/skills https://www.youtube.com/watch?v=n0VhIVtviC0 Creating final specs may be more effective if we first prototype parts of the solution Semi-working code or UI logic helps engineers visualize behavior and make clearer product decisions (Raising conversation fidelity) Prototyping offer throwaway code that helps consider variants to answer key design and functional questions quickly at low cost The prototype skill - a crucial part of larger workflows like wayfinder to break big tasks into structured planning sessions. Developers can iterate directly on running prototypes with agents before passing mature throwaway code off for final implementation into production. Trend - from Serverless to Monoliths https://kamal-deploy.org https://github.com/basecamp/kamal https://www.youtube.com/watch?v=Yu1ECFDoaL8 Amazon Prime Video, Basecamp, and Geico are shifting workloads from serverless architectures back to traditional dedicated servers and monolithic systems While serverless excels for unpredictable, spiky workloads, utilizing dedicated servers for predictable baseline traffic provides maximum cost efficiency and reliability For example, Prime Video reduced infrastructure spending by more than 90% and eliminated performance bottlenecks Serverless becomes expensive at scale because providers charge per invocation, state transition, memory allocation, log storage, and network transfer. Also has drawbacks like cold start delays, strict execution timeouts, complex vendor lock-in, and microservice management overhead"
+    },
+    {
+      "index": 17,
+      "title": "Grok Build CLI Grok Build CLI - Architecture",
+      "text": "Grok Build CLI Grok Build CLI - Architecture & Open Source https://x.ai/cli https://github.com/xai-org/grok-build https://x.ai/news/grok-build-open-source https://www.youtube.com/watch?v=qhV7NFYJXi4 Grok Build CLI - a terminal-based AI coding agent written in Rust, ~250K lines of code, 79 crates It was open-sourced under the Apache 2.0 license following a privacy controversy involving unintended cloud data uploads The system uses an actor model on Tokio runtime, giving each session isolated execution with crash-resilient leader daemon state replay Security is enforced at the kernel level using Landlock on Linux and Seatbelt on macOS for unalterable file path sandboxing Context management features concise tool outputs up front, semantic session chaptering, and prompt-level snapshot undo capabilities It supports parallel subagent orchestration across isolated worktrees, flexible deployment modes, and open model compatibility Grok Build CLI - native multi-agent parallel execution, runs multiple isolated agents in separate Git worktrees, so several tasks can proceed in parallel without colliding; Concurrent feature work, file editing, command execution, and fast terminal-native coding loops Claude Code - deep single-agent coding assistance, stronger for complex repo understanding, structured reasoning, and instruction-following on large codebases https://www.eigent.ai/blog/grok-build-cli https://www.vellum.ai/blog/is-grok-better-than-claude https://www.youtube.com/watch?v=eywMLit-9G8"
+    },
+    {
+      "index": 18,
+      "title": "AI Updates Claude Fable 5 Disproves Jacobian Conjecture",
+      "text": "AI Updates Claude Fable 5 Disproves Jacobian Conjecture for 3+ dim cases (Note - The 2-variable case remains open) https://www.datacamp.com/blog/claude-fable-5-jacobian-conjecture https://www.youtube.com/watch?v=btBE0ikzymc Anthropic researcher Levent Alpoge announced that Claude Fable 5 discovered a counterexample disproving the 87-year-old Jacobian conjecture in mathematics. The conjecture, proposed by Ott-Heinrich Keller in 1939, asked whether polynomial transformations with a constant non-zero Jacobian determinant are always globally invertible. Claude generated a specific polynomial transformation in three variables with a constant determinant that maps three distinct input points to the same output. Mathematicians verified the formula by hand, confirming it breaks the general conjecture for dimension three and higher The Buzz platform Demo - very Exciting! https://www.youtube.com/watch?v=PRBbMBN9l04 Buzz is an open-source collaboration workspace from Block, led by Jack Dorsey (Twitter, Block), built on Nostr. It combines team communication, code-related collaboration, and AI-agent workflows, and Block describes it as model-agnostic and self-hostable Nostr (Notes and Other Stuff Transmitted by Relays) - an open, decentralized network protocol designed to create social platforms, messaging systems, and collaborative workspaces https://github.com/nostr-protocol"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates Google updated the OKF Open Knowledge",
+      "text": "AI Updates Google updated the OKF Open Knowledge Format to version 0.2 Version 0.2 adds essential metadata fields: sources; author; usage_count; last_modified; generated.by ; generated.at ; verified; stale_after; status New trust tiers, status tags, and freshness rules help agents distinguish active enterprise definitions from deprecated or hallucinated contextual rules https://www.youtube.com/watch?v=S_LZQV0VS8s Nativ - a local AI Runner for macOS https://blaizzy.github.io/nativ/ https://github.com/Blaizzy/mlx-vlm https://simonwillison.net/tags/macos/ https://news.ycombinator.com/item?id=48982681 https://www.youtube.com/watch?v=ba0JcPUneJI Nativ is a free, open-source MIT-licensed macOS desktop application built by Prince Canuma to run open multimodal AI models locally on Apple Silicon unified memory and the MLX-VLM framework High-performance text, image, audio, and video inference without relying on cloud services Automatic detection of local Hugging Face model caches, real-time performance telemetry like generation speed and thermal state, and native markdown chat rendering. Functions as a local API server supporting OpenAI and Anthropic compatible endpoints, enabling integration with coding agents such as Claude Code without incurring token subscription fees. Designed for total user privacy, offline capability, zero data tracking, and complete hardware utilization across M-series Mac devices."
+    },
+    {
+      "index": 20,
+      "title": "LLM in Rust I Built a Full LLM",
+      "text": "LLM in Rust I Built a Full LLM From Scratch in Rust https://www.youtube.com/watch?v=pVq-8aWPqmE This video provides an in-depth architectural breakdown and step-by-step walkthrough of building the entire aarambh-ai engine without relying on Python or PyTorch https://github.com/AarambhDevHub https://github.com/AarambhDevHub/aarambh-ai https://aarambhdevhub.medium.com/i-built-a-complete-llm-from-scratch-in-pure-rust-pretraining-grpo-flash-attention-and-c585123c14b4 aarambh-ai is a transformer based LLM in pure Rust using Hugging Face Candle, no CUDA, 19 crates, custom BPE tokenization, data loaders, neural layers, optimizers, alignment, evaluation scorecards, and an Axum-based web server with continuous batching Version 3 updates the core attention mechanism using hybrid linear gated DeltaNet and DeepSeek block-sparse attention, dropping linear KV cache memory overhead for long context sequences It provides native quantization-aware training matching GGUF block structures, multi-token speculative decoding, fine-grained mixture of experts, long-horizon tool agents, and temporal vision or document processing Darshan Vichhi is a Rust software developer and systems engineer who runs Aarambh Dev Hub as an open-source engineering and educational initiative https://www.linkedin.com/in/darshan-vichhi-rust-developer/"
+    },
+    {
+      "index": 21,
+      "title": "Topcoat Rust web framework Host Francesco Ciulla speaks",
+      "text": "Topcoat Rust web framework Host Francesco Ciulla speaks with Julian Schulz and Tokio creator Carl Lerche about Topcoat, a new full-stack Rust web framework. Topcoat provides an opinionated, batteries-included framework focusing on server-side rendering combined with lightweight client reactivity without relying on WebAssembly compilation. The framework significantly reduces boilerplate code needed to bridge server data with client-side user interfaces, making web application development in Rust faster and simpler. Modern AI tools lower the barrier to entry for Rust, enabling developers to overcome syntax challenges while actively building production-ready applications. Topcoat specifically targets data-heavy web applications, admin dashboards, and internal corporate tools, offering a compelling high-performance alternative to Next.js or Ruby on Rails https://www.youtube.com/watch?v=iP9iL4dkiB0 Topcoat GitHub Repo: https://github.com/tokio-rs/topcoat Carl Lerche on X: https://x.com/carllerche Julien Scholz on X: https://x.com/julienscholzdev Government and Tech Giants (Microsoft, Google, ...)  are shifting from C and C++ to Rust to eliminate memory safety vulnerabilities Federal directives now require critical software providers to publish plans moving away from memory-unsafe languages Google reduced Android memory vulnerabilities from 76 to 20% by writing all new code in Rust. https://www.youtube.com/watch?v=CQzlLJ1YqDs"
+    },
+    {
+      "index": 22,
+      "title": "DuckDB , Snowflake , Litestream DuckDB - fast",
+      "text": "DuckDB , Snowflake , Litestream DuckDB - fast local or managed analytics DB https://www.youtube.com/watch?v=lwnhJajthWc Lightweight (20MB) in-process analytical database Acts like SQLite for analytics, running parallel queries directly on your local hardware Runs queries 55–77% cheaper and 6–7 times faster than traditional cloud warehouses like Snowflake by eliminating idle compute billing and long minimum execution charges Uses columnar storage and vectorized execution to query local Parquet, CSV, and JSON files or S3 buckets without ETL Cloud Scaling - DuckLake and MotherDuck , enabling serverless, pay-per-second cloud analytics for small to mid-sized workloads Litestream & SQLite Scaling SQLite - runs inside your app, no network latency Litestream - solves SQLite single-machine risk by continually streaming write-ahead log changes directly to S3 or object storage Together we best the best of both. Storage costs drop to pennies monthly while point-in-time recovery allows exact second-level database restoration SQLite handles tens of thousands of writes per second and millions of reads across distributed load-balanced instances. https://litestream.io https://github.com/benbjohnson/litestream https://fly.io/blog/all-in-on-sqlite-litestream https://fly.io/blog/litestream-v050-is-here/ https://www.youtube.com/watch?v=QOBXFCYYMvk"
+    },
+    {
+      "index": 23,
+      "title": "Build Your Harness Cognee - Persistent Memory for",
+      "text": "Build Your Harness Cognee - Persistent Memory for AI Agents https://www.cognee.ai https://github.com/topoteretes/cognee https://www.youtube.com/watch?v=DYdC-oqLMiY Cognee provides an open-source persistent memory layer that connects AI models like Claude Code to structured knowledge graph engines Cognee organizes project files, system requirements, and prior chat histories into searchable knowledge graphs and vector embeddings Coding agents automatically store new discoveries and software modifications into long-term memory, enabling seamless context retrieval across future development sessions. This continuous long-term memory integration significantly speeds up development workflows, cuts down repetitive token consumption, lowers costs, and maintains project consistency Code Graph Tools - Graphify vs GitNexus vs CodeGraph https://www.youtube.com/watch?v=zIiiu8hS1To Code graph tools - help AI coding agents navigate repositories with far fewer API tokens and tool calls CodeGraph - MIT-licensed, ultra-fast code indexer using local Tree-sitter parsing and SQLite; up to 89 percent fewer tool calls Graphify - offers an Apache 2.0 open-source multimodal memory layer that indexes code alongside documentation, PDFs, images, and videos into a unified graph GitNexus - 17 advanced query tools and Cypher support for deep static analysis (but non-commercial license) Hermes Loop - Builder + Judge https://www.youtube.com/watch?v=FehNOhDfr28 Pairing a builder AI with an independent judge AI in an automated feedback loop The builder model generates content while a separate judge model from a different model family evaluates and scores the work If the output fails quality checks, the judge provides specific feedback and the builder continuously revises the work until it meets the target score. Using a faster, cheaper model for drafting and a stronger model for evaluation optimizes quality while keeping overall operational costs low"
+    },
+    {
+      "index": 24,
+      "title": "AI Updates LLaDA2.2-flash - Open-Source Diffusion Model https://www.youtube.com/watch?v=oDipulgqLro",
+      "text": "AI Updates LLaDA2.2-flash - Open-Source Diffusion Model https://www.youtube.com/watch?v=oDipulgqLro InclusionAI, part of Ant Group, released LLaDA2.2-flash, an open-source diffusion language model for agentic use Unlike autoregressive models, it generates and refines text iteratively using Levenshtein editing, and the project emphasizes high-performance, open-source deployment 103B params, MoE diffusion architecture, 128K token context length Fast: 460 - 700 tok/sec (requires 224GB GPU memory) The Last 30 Days Skill for Claude Code https://www.youtube.com/watch?v=ShYfGB3x5mM Scraping real-time user sentiment across platforms like Reddit, Hacker News, YouTube, X, GitHub, and TikTok Evaluates post comments and full video transcripts to provide nuanced, community-level feedback rather than just surface-level Google search headlines Runs automated Python scripts across multiple social networks in parallel, outputting synthesized reports alongside raw JSON data files Installs into Claude Code via a single command, requiring API keys primarily for X (around $0.10 per search) while providing subsidized free access for major platforms https://github.com/mvanhorn/last30days-skill /plugin marketplace add mvanhorn/last30days-skill /plugin install last30days@last30days-skill git clone https://github.com/mvanhorn/last30days-skill.git ~/.claude/skills/last30days"
+    },
+    {
+      "index": 25,
+      "title": "AI Updates $5 VPS That Replaced My Entire",
+      "text": "AI Updates $5 VPS That Replaced My Entire AWS Bill https://www.youtube.com/watch?v=KNkhpKghoDU https://37signals.com https://basecamp.com/cloud-exit https://world.hey.com/dhh/we-have-left-the-cloud-251760fb Moving from AWS to a cheap VPS (owned or leased server) saves 50-70% on Infrastructure savings - 50-70% Tools like Kamal and Coolify help simplify deployments on VPS or self-hosted infrastructure https://kamal-deploy.org , https://github.com/basecamp/kamal https://coolify.io , https://github.com/coollabsio/coolify Public cloud still makes sense for workloads needing rapid scaling, managed services, or specialized compliance and multi-region features Redis vs Valkey: Caching Architecture https://valkey.io , https://github.com/valkey-io/valkey https://www.youtube.com/watch?v=3Qc49WnQnSg Redis moved away from its BSD open-source model in 2024; Valkey was forked under Linux Foundation governance and keeps the BSD 3-Clause license Valkey is wire-compatible with Redis clients and protocol, and reports say it can deliver higher throughput on multi-core workloads SQLite in WAL mode is a strong embedded option for single-node caching because it avoids a separate server and supports concurrent reads while writes occur Dedicated cache servers like Valkey still matter for shared state, atomic operations, and richer distributed data-structure use cases"
+    },
+    {
+      "index": 26,
+      "title": "AI Updates Hive - Multi-Agent Orchestration builds agent",
+      "text": "AI Updates Hive - Multi-Agent Orchestration builds agent topologies automatically for complex, long-running workflows and production AI tasks https://github.com/aden-hive/hive Automating Email Outreach with Hermes Agent https://www.youtube.com/watch?v=x3WB9hvlN4U Hermes Agent connects to dedicated email inboxes via IMAP and SMTP to continuously check, sort, write, and respond to emails. Built-in scheduling allows the agent to handle daily recurring tasks using plain language prompts without requiring any manual coding. Setting the agent to draft mode provides a safety gate, ensuring every email is manually reviewed before sending. Using a shared memory layer within an Agent OS allows multiple agents to access business context seamlessly without repeated explanations. SuperFile - Terminal File Manager, in Go, Open-source MIT Central file explorer, preview for images and files, configurable keyboard shortcuts, directory sorting, file filtering, panel splitting, and directory pinning Prebuilt themes, configurable terminal editors, hidden file toggles, and keybindings via simple configuration files bash -c \"$(curl -sLo- https://superfile.dev/install.sh )\" https://www.youtube.com/watch?v=pDIMXiKyvA4 https://superfile.dev https://github.com/yorukot/superfile"
+    },
+    {
+      "index": 27,
+      "title": "AI Updates 17 Tricks To Build 10x Faster",
+      "text": "AI Updates 17 Tricks To Build 10x Faster with Claude https://www.youtube.com/watch?v=ZzHB2mPHb2g .. use \"/init\" skill .. default to auto-approve permission modes .. establish session-start hooks for automated workflow reminders .. monitor token status lines to avoid hitting context boundaries Execute parallel sub-agents map cheaper models to simpler subtasks embed reusable custom scripts inside skills separate individual projects across isolated workspace directories Ask Claude to interview (gril)  you about project in plan mode to uncover blind spots and refine ideas before execution Log workflow histories to identify persistent errors build self-verifying loops that rerun until success let the human review happen in the middle of the workflow Simon Martinelli on process-centric spec-driven development https://www.youtube.com/watch?v=odbNXv9xXjc He is using system use cases and entity models AI can extract specs from existing code and documentation , allowing teams to add new capabilities without migration Self-contained system architectures work better for AI development than microservices or monolithic setups because they keep context well-bounded in unified repositories Workflows shift heavily toward requirements engineering , replacing two-week agile sprints with continuous delivery, smaller development teams, and trunk-based peer reviews Development reliability is maintained through targeted skills , architectural guidelines, and documentation search tools rather than large system prompts"
+    },
+    {
+      "index": 28,
+      "title": "AI Updates How to Survive using AI (in",
+      "text": "AI Updates How to Survive using AI (in Russian) https://www.youtube.com/watch?v=JO-42T8SwC4 Integrate AI tools like Claude, Gemini, and Perplexity into you  business workflow - optimizes content production, research, and data tracking Organize core docs like standard custom AI prompts, anti-files, brand values, and personal constitutions in project folders Leveraging AI allows small teams to scale operations, execute complex automation, and focus on higher-level strategic decisions. Mogilko utilizes automated cultural alignment tests during recruitment to evaluate candidate autonomy, ownership, and adaptability over just technical skill sets. Sustaining entrepreneurial growth requires continuous experimentation, adaptability through market shifts, and identifying core passions to maintain momentum through challenges. Tencent Hyra 1.0 - Research Agent Capable of recursive self-improvement on engineering tasks that have clear measurable performance scores The architecture uses context and proposal agents alongside isolated execution sandboxes and an experience bank memory to repeatedly test and refine ideas It implements dual loops to continuously improve candidate solutions while simultaneously upgrading the grading mechanism to stop shortcut cheating or data leakage Hyra beat established AI training benchmarks, solved 29 open mathematics problems, optimized quantum computing algorithms, and advanced early-stage drug design candidates Key actionable takeaways for developers include maintaining structured attempt histories, scoring performance numerically, executing parallel attempts, and continually sharpening testing standards - https://www.youtube.com/watch?v=JpVGBgAKzYw"
+    },
+    {
+      "index": 29,
+      "title": "GigaToken GigaToken: Fast Open-Source Tokenizer https://github.com/marcelroed/gigatoken GigaToken runs",
+      "text": "GigaToken GigaToken: Fast Open-Source Tokenizer https://github.com/marcelroed/gigatoken GigaToken runs approx 1,000 times faster than industry standards like OpenAI Tiktoken and Hugging Face. Very important for training, tuning, and inference GigaToken is written in Rust for speed and parallelism # pip install gigatoken import gigatoken as gt Stanford PhD student Marcel Rudd released GigaToken, a fast open-source tokenizer designed for AI language models. It processes up to 24.5 gigabytes of text per second, running up to 1,000 times faster than The software produces byte-for-byte identical output, ensuring complete accuracy without sacrificing output quality. Major speed improvements come from replacing slow regular expression text pre-splitting with wide SIMD CPU instructions and optimized memory caching. It operates seamlessly across various hardware platforms, including Apple Silicon, gaming processors, and high-end server chips. GigaToken installs easily via Python, drastically reducing data preprocessing bottlenecks during model training and inference. https://www.youtube.com/watch?v=vFtJeZ7ifTA"
+    },
+    {
+      "index": 30,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 121K in 2026 (as of July 17, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 167,688 people laid off (847 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 31,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 32,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trend - RSI - Recursive Self-Improvement",
+      "topic": "general",
+      "videoSeconds": 11,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=11s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 30,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=30s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cost Per Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": 41,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=41s",
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Matthew Berman - Using Codex for Everything",
+      "topic": "coding",
+      "videoSeconds": 157,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=157s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Matthew Berman - using Codex to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Opus 5, Claude Managed Agents",
+      "topic": "agents",
+      "videoSeconds": 171,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=171s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Matthew Berman - using Codex to",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT-5.6 Luna 80% Price Cut",
+      "topic": "openai",
+      "videoSeconds": 252,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=252s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Anthropic removed 80% of Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek V4 Flash Released",
+      "topic": "open-models",
+      "videoSeconds": 329,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=329s",
+      "slideIndex": 6,
+      "slideTitle": "Celeris 1 AI Speed vs ChatGPT 5 Celeris",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic removed 80% of Claude Code prompts",
+      "topic": "coding",
+      "videoSeconds": 371,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=371s",
+      "slideIndex": 6,
+      "slideTitle": "Celeris 1 AI Speed vs ChatGPT 5 Celeris",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kimi K3 is now available on Ollama cloud",
+      "topic": "open-models",
+      "videoSeconds": 418,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=418s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Mage-Flow Text-to-Image",
+      "topic": "general",
+      "videoSeconds": 441,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=441s",
+      "slideIndex": 8,
+      "slideTitle": "OpenAI AI Agent Escape Investigation OpenAI AI Agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Celeris 1 AI - Fastest Model",
+      "topic": "general",
+      "videoSeconds": 454,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=454s",
+      "slideIndex": 8,
+      "slideTitle": "OpenAI AI Agent Escape Investigation OpenAI AI Agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "About This Channel",
+      "topic": "general",
+      "videoSeconds": 511,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=511s",
+      "slideIndex": 9,
+      "slideTitle": "Runtime & Loops in OpenClaw & Hermes OpenClaw",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI AI Agent Escape Investigation",
+      "topic": "agents",
+      "videoSeconds": 534,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=534s",
+      "slideIndex": 10,
+      "slideTitle": "Microsoft Agent Framework Harness Microsoft Agent Framework Harness",
+      "source": "youtube"
+    },
+    {
+      "claim": "Runtime & Loops in OpenClaw & Hermes",
+      "topic": "agents",
+      "videoSeconds": 596,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=596s",
+      "slideIndex": 10,
+      "slideTitle": "Microsoft Agent Framework Harness Microsoft Agent Framework Harness",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Agent Framework Harness",
+      "topic": "agents",
+      "videoSeconds": 642,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=642s",
+      "slideIndex": 11,
+      "slideTitle": "Genspark AI Workspace 6.0 Updates Genspark AI Workspace",
+      "source": "youtube"
+    },
+    {
+      "claim": "Genspark AI Workspace 6.0 Updates",
+      "topic": "general",
+      "videoSeconds": 654,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=654s",
+      "slideIndex": 12,
+      "slideTitle": "Model Fusion, Model Routing Cursor Router - Cuts",
+      "source": "youtube"
+    },
+    {
+      "claim": "Model Fusion, Model Routing",
+      "topic": "general",
+      "videoSeconds": 703,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=703s",
+      "slideIndex": 12,
+      "slideTitle": "Model Fusion, Model Routing Cursor Router - Cuts",
+      "source": "youtube"
+    },
+    {
+      "claim": "Make Slide Presentation Videos in Google Slides",
+      "topic": "general",
+      "videoSeconds": 912,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=912s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates Make Slide Presentation Videos in Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "SGLang - Fast LLM Serving Engine",
+      "topic": "infra",
+      "videoSeconds": 957,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=957s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Andrew NG’s “OpenWorker” - Free Open-Source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andrew NG's \"OpenWorker\"",
+      "topic": "general",
+      "videoSeconds": 993,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=993s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Andrew NG’s “OpenWorker” - Free Open-Source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Recursive Super Intelligence by Richard Socher",
+      "topic": "general",
+      "videoSeconds": 1046,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1046s",
+      "slideIndex": 15,
+      "slideTitle": "Tasklet Tasklet - Autonomous AI Agents for Business",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tasklet",
+      "topic": "general",
+      "videoSeconds": 1113,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1113s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates AI Prototyping Over Upfront Specs -",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Prototyping Over Upfront Specs",
+      "topic": "general",
+      "videoSeconds": 1168,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1168s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates AI Prototyping Over Upfront Specs -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trend - from Serverless to Monoliths",
+      "topic": "general",
+      "videoSeconds": 1244,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1244s",
+      "slideIndex": 17,
+      "slideTitle": "Grok Build CLI Grok Build CLI - Architecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "Grok Build CLI",
+      "topic": "general",
+      "videoSeconds": 1319,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1319s",
+      "slideIndex": 17,
+      "slideTitle": "Grok Build CLI Grok Build CLI - Architecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Fable 5 Disproves Jacobian Conjecture",
+      "topic": "claude",
+      "videoSeconds": 1436,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1436s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates Claude Fable 5 Disproves Jacobian Conjecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "The Buzz platform Demo - very Exciting!",
+      "topic": "general",
+      "videoSeconds": 1449,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1449s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Google updated the OKF Open Knowledge",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google OKF v.0.2",
+      "topic": "general",
+      "videoSeconds": 1514,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1514s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Google updated the OKF Open Knowledge",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nativ - a local AI Runner for macOS",
+      "topic": "general",
+      "videoSeconds": 1537,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1537s",
+      "slideIndex": 20,
+      "slideTitle": "LLM in Rust I Built a Full LLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rust - LLM in Rust, Topcoat Rust web framework",
+      "topic": "general",
+      "videoSeconds": 1587,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1587s",
+      "slideIndex": 21,
+      "slideTitle": "Topcoat Rust web framework Host Francesco Ciulla speaks",
+      "source": "youtube"
+    },
+    {
+      "claim": "DuckDB, Snowflake, Litestream",
+      "topic": "general",
+      "videoSeconds": 1788,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1788s",
+      "slideIndex": 21,
+      "slideTitle": "Topcoat Rust web framework Host Francesco Ciulla speaks",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cognee - Persistent Memory for AI Agents",
+      "topic": "agents",
+      "videoSeconds": 1856,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1856s",
+      "slideIndex": 22,
+      "slideTitle": "DuckDB , Snowflake , Litestream DuckDB - fast",
+      "source": "youtube"
+    },
+    {
+      "claim": "Code Graph Tools - Graphify vs GitNexus vs CodeGraph",
+      "topic": "general",
+      "videoSeconds": 1876,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1876s",
+      "slideIndex": 23,
+      "slideTitle": "Build Your Harness Cognee - Persistent Memory for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hermes Loop - Builder + Judge",
+      "topic": "general",
+      "videoSeconds": 1889,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1889s",
+      "slideIndex": 23,
+      "slideTitle": "Build Your Harness Cognee - Persistent Memory for",
+      "source": "youtube"
+    },
+    {
+      "claim": "LLaDA2.2-flash - Open-Source Diffusion Model",
+      "topic": "open-models",
+      "videoSeconds": 1902,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1902s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates LLaDA2.2-flash - Open-Source Diffusion Model https://www.youtube.com/watch?v=oDipulgqLro",
+      "source": "youtube"
+    },
+    {
+      "claim": "The Last 30 Days Skill for Claude Code",
+      "topic": "coding",
+      "videoSeconds": 1924,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1924s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates $5 VPS That Replaced My Entire",
+      "source": "youtube"
+    },
+    {
+      "claim": "5 VPS That Replaced My Entire AWS Bill",
+      "topic": "general",
+      "videoSeconds": 1954,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1954s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates $5 VPS That Replaced My Entire",
+      "source": "youtube"
+    },
+    {
+      "claim": "Redis vs Valkey: Caching Architecture",
+      "topic": "general",
+      "videoSeconds": 1978,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=1978s",
+      "slideIndex": 26,
+      "slideTitle": "AI Updates Hive - Multi-Agent Orchestration builds agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hive - Multi-Agent Orchestration",
+      "topic": "agents",
+      "videoSeconds": 2000,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2000s",
+      "slideIndex": 27,
+      "slideTitle": "AI Updates 17 Tricks To Build 10x Faster",
+      "source": "youtube"
+    },
+    {
+      "claim": "Automating Email Outreach with Hermes Agent",
+      "topic": "agents",
+      "videoSeconds": 2007,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2007s",
+      "slideIndex": 27,
+      "slideTitle": "AI Updates 17 Tricks To Build 10x Faster",
+      "source": "youtube"
+    },
+    {
+      "claim": "SuperFile - Open Terminal File Manager",
+      "topic": "general",
+      "videoSeconds": 2017,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2017s",
+      "slideIndex": 28,
+      "slideTitle": "AI Updates How to Survive using AI (in",
+      "source": "youtube"
+    },
+    {
+      "claim": "17 Tricks To Build 10x Faster with Claude",
+      "topic": "claude",
+      "videoSeconds": 2044,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2044s",
+      "slideIndex": 29,
+      "slideTitle": "GigaToken GigaToken: Fast Open-Source Tokenizer https://github.com/marcelroed/gigatoken GigaToken runs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Process-centric spec-driven development",
+      "topic": "general",
+      "videoSeconds": 2084,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2084s",
+      "slideIndex": 29,
+      "slideTitle": "GigaToken GigaToken: Fast Open-Source Tokenizer https://github.com/marcelroed/gigatoken GigaToken runs",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to Survive Using AI",
+      "topic": "general",
+      "videoSeconds": 2112,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2112s",
+      "slideIndex": 30,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent Hunyuan Research Agent",
+      "topic": "agents",
+      "videoSeconds": 2124,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2124s",
+      "slideIndex": 31,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "GigaTokenizer - 1000x Faster Tokenizer",
+      "topic": "general",
+      "videoSeconds": 2137,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2137s",
+      "slideIndex": 31,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2150,
+      "videoUrl": "https://www.youtube.com/watch?v=8AqKsWMlHnc&t=2150s",
+      "slideIndex": 32,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

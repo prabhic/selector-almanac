@@ -1,0 +1,210 @@
+{
+  "id": "unknown-da-07-starschemadatamodeling",
+  "date": null,
+  "title": "DA 07 StarSchemaDataModeling",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "data-engineering"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_07_StarSchemaDataModeling.pptx",
+    "filename": "DA_07_StarSchemaDataModeling.pptx",
+    "title": "DA 07 StarSchemaDataModeling",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_07_StarSchemaDataModeling.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_07_StarSchemaDataModeling.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Architecture and Data Engineering Star Schema Data",
+      "text": "Data Architecture and Data Engineering Star Schema Data Modeling Presented by Tyler Williams"
+    },
+    {
+      "index": 2,
+      "title": "Star Schema and Snowflake Schema",
+      "text": "Star Schema and Snowflake Schema"
+    },
+    {
+      "index": 3,
+      "title": "Star Schema Data design architecture popularized by Ralph",
+      "text": "Star Schema Data design architecture popularized by Ralph Kimball Flattens out 3 rd normal form (3NF), making for faster and simpler querying First Normal Form – each data field holds a single value; no composites Second Normal Form – reduce redundant data Third Normal Form – no attributes have transitive dependence on primary key Attributes can be modified without having to modify the key Quantitative metrics reside in a central fact table Qualitative dimensions radiate from the fact table, defining attributes by which to slice and aggregate the metrics Beneficial design for use in Analysis Services or Power BI Datasets"
+    },
+    {
+      "index": 4,
+      "title": "Star Schema vs Snowflake Schema Star Schema Hierarchies",
+      "text": "Star Schema vs Snowflake Schema Star Schema Hierarchies fully contained within dimension table Denormalized data (more redundancy) Simple design Faster queries due to fewer joins Snowflake Schema Hierarchies defined by dimension relationships Semi-normalized data Complex design More joins and more complex queries required to retrieve data https://www.guru99.com/star-snowflake-data-warehousing.html"
+    },
+    {
+      "index": 5,
+      "title": "What is the value of a star schema,",
+      "text": "What is the value of a star schema, in a DB? Ease of use for self-service BI Better performance when used as data source for dashboards/reports Well-defined, static schema (columns, data types, relationships) Simple data types String, number, Boolean No arrays or structs Clear, one-to-many relationships Ease of maintenance – Dimension updates don’t require changes to facts"
+    },
+    {
+      "index": 6,
+      "title": "Design Considerations Foreign Keys Avoid DB-managed constraints Processing",
+      "text": "Design Considerations Foreign Keys Avoid DB-managed constraints Processing overhead – engine must verify that constraints aren’t violated Valid relationships are managed via ETL process Surrogate Keys No business meaning – typically use incremental IDENTITY column Exception: DateKey – integer “smart key” – YYYYMMDD - 20210917 Separate from business key/natural key -1 “unknown” record – default value whenever a lookup doesn’t return matches – no NULLs in fact table Updating records Dimensions Which columns can change? Do we need to maintain history? Facts Incremental/full loads? Insert only?  Or need to update prior records?"
+    },
+    {
+      "index": 7,
+      "title": "Slowly Changing Dimensions (SCD) In most cases, one",
+      "text": "Slowly Changing Dimensions (SCD) In most cases, one or more attributes of an entity are expected to change over time Need mechanism to determine if/how historical values should be maintained People Name Height Profession Property Owner Value https://towardsdatascience.com/data-analysts-primer-to-slowly-changing-dimensions-d087c8327e08 Peter Venkman College Professor  Paranormal Investigator  TV Host"
+    },
+    {
+      "index": 8,
+      "title": "SCD Type 0, Type 1 Type 0, AKA",
+      "text": "SCD Type 0, Type 1 Type 0, AKA “Fixed” Existing attributes never change, only new records added Examples: Date Reference tables, single-attribute dimensions Type 1 – No history maintained Don’t care about previous attribute values, overwrite with current value"
+    },
+    {
+      "index": 9,
+      "title": "SCD Type 2 Maintain a full history of",
+      "text": "SCD Type 2 Maintain a full history of attribute values Row Versioning Row Effective Dates – Start Date/End Date Use far future date for end date – 12/31/9999 Natural key preserved, new surrogate key"
+    },
+    {
+      "index": 10,
+      "title": "SCD Type 3 Doesn’t preserve full history of",
+      "text": "SCD Type 3 Doesn’t preserve full history of values Only maintains current and prior values of an attribute Includes date that the most recent change occurred"
+    },
+    {
+      "index": 11,
+      "title": "SCD Type 4 Design pattern generally used for",
+      "text": "SCD Type 4 Design pattern generally used for a “Rapidly Changing Dimension” Some attributes of a dimension may be especially volatile, so these can be spun off into a separate “mini dimension” The remaining attributes of the original dimension can continue to be implemented as a type 1, 2, or 3 SCD http://www.disoln.org/2013/04/SCD-Type-4-a-solution-for-Rapidly-Changing-Dimension.html"
+    },
+    {
+      "index": 12,
+      "title": "SCD – Hybrid Types Higher SCD types (5,",
+      "text": "SCD – Hybrid Types Higher SCD types (5, 6, 7, …) are not really standardized; you can find different definitions depending on where you look The only consensus is that they are generally hybrids of the “standard” types, 1, 2, and 3  (and sometimes 4) Type 5 = Type 1 + Type 4 Copy of the “mini dimension” joined directly to the base dimension, with the current values for the record Type 6 uses versioned records, like type 2, but for some attributes maintains a “current value column” (Type 3).  This “current value” column gets updated in-place across all historical records 1 + 2 + 3 = 6 https://www.kimballgroup.com/2013/02/design-tip-152-slowly-changing-dimension-types-0-4-5-6-7/"
+    },
+    {
+      "index": 13,
+      "title": "Fact Tables Should be built at the lowest",
+      "text": "Fact Tables Should be built at the lowest level granularity that makes sense for the fact, or that will be used in reporting Each Record should be uniquely identified by the composite of its dimension keys Generally don’t have identity columns, or a single primary key column Referential integrity ensured by ETL process (dimension lookups)"
+    },
+    {
+      "index": 14,
+      "title": "Aggregated Fact Tables Sometimes, for performance reasons or",
+      "text": "Aggregated Fact Tables Sometimes, for performance reasons or specific reporting needs, you will want to create an aggregated fact table There may also be hardware or cost constraints that prohibit scaling up to get performant aggregations on large tables Often a copy of an existing fact table, pre-aggregated to a higher level granularity Example: FactPurchase  FactMonthlyProductSales"
+    },
+    {
+      "index": 15,
+      "title": "OLAP Cubes/Tabular Data Model “Cubes” technically relate to",
+      "text": "OLAP Cubes/Tabular Data Model “Cubes” technically relate to data processed into a multi-dimensional data model in an OLAP database such as Analysis Services (SSAS) Multi-dimensional was previously the only mode offered by SSAS SSAS cubes use file-based storage and pre-aggregate fact tables (measure groups) across commonly used dimensional slices Widespread adoption conditioned people to think of all SSAS data models as “cubes”, even after the introduction of Tabular mode Tabular data models process data in a memory cache and don’t distinguish between “facts” and “dimensions” SSAS Tabular uses the same engine as Power BI datasets SSAS Multi-dimensional no longer receives much, if any, development focus from Microsoft Even SSAS tabular is being de-emphasized over Power BI SSAS Tutorial: What is, Architecture, SSAS Cube & Types (guru99.com) Power BI Premium and Azure Analysis Services | Microsoft Power BI Blog | Microsoft Power BI"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Data Architecture and Data Engineering Star Schema Data",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Data Architecture and Data Engineering Star Schema Data",
+      "source": "slide"
+    },
+    {
+      "claim": "Star Schema and Snowflake Schema",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Star Schema and Snowflake Schema",
+      "source": "slide"
+    },
+    {
+      "claim": "Star Schema Data design architecture popularized by Ralph",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Star Schema Data design architecture popularized by Ralph",
+      "source": "slide"
+    },
+    {
+      "claim": "Star Schema vs Snowflake Schema Star Schema Hierarchies",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Star Schema vs Snowflake Schema Star Schema Hierarchies",
+      "source": "slide"
+    },
+    {
+      "claim": "What is the value of a star schema,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "What is the value of a star schema,",
+      "source": "slide"
+    },
+    {
+      "claim": "Design Considerations Foreign Keys Avoid DB-managed constraints Processing",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Design Considerations Foreign Keys Avoid DB-managed constraints Processing",
+      "source": "slide"
+    },
+    {
+      "claim": "Slowly Changing Dimensions (SCD) In most cases, one",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Slowly Changing Dimensions (SCD) In most cases, one",
+      "source": "slide"
+    },
+    {
+      "claim": "SCD Type 0, Type 1 Type 0, AKA",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "SCD Type 0, Type 1 Type 0, AKA",
+      "source": "slide"
+    },
+    {
+      "claim": "SCD Type 2 Maintain a full history of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "SCD Type 2 Maintain a full history of",
+      "source": "slide"
+    },
+    {
+      "claim": "SCD Type 3 Doesn’t preserve full history of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "SCD Type 3 Doesn’t preserve full history of",
+      "source": "slide"
+    },
+    {
+      "claim": "SCD Type 4 Design pattern generally used for",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "SCD Type 4 Design pattern generally used for",
+      "source": "slide"
+    },
+    {
+      "claim": "SCD – Hybrid Types Higher SCD types (5,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "SCD – Hybrid Types Higher SCD types (5,",
+      "source": "slide"
+    }
+  ]
+}

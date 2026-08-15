@@ -1,0 +1,313 @@
+{
+  "id": "2025-01-03-2025-01-03-web-app",
+  "date": "2025-01-03",
+  "title": "Web-App",
+  "series": "seminar",
+  "topics": [
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "ptzrlOS9xxI",
+    "title": "Have you heard these exciting AI news? - January 03, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+    "thumbnail": "https://i.ytimg.com/vi/ptzrlOS9xxI/hqdefault.jpg",
+    "duration": 778
+  },
+  "deck": {
+    "path": "2025/2025-01-03-Web-App.pptx",
+    "filename": "2025-01-03-Web-App.pptx",
+    "title": "Web-App",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-01-03-Web-App.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-01-03-Web-App.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Large Concept Models",
+      "startSeconds": 23,
+      "label": "00:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Chinese Research",
+      "startSeconds": 101,
+      "label": "01:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI",
+      "startSeconds": 189,
+      "label": "03:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Deep Research",
+      "startSeconds": 238,
+      "label": "03:58",
+      "source": "youtube"
+    },
+    {
+      "title": "RunAI",
+      "startSeconds": 360,
+      "label": "06:00",
+      "source": "youtube"
+    },
+    {
+      "title": "DPS",
+      "startSeconds": 498,
+      "label": "08:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Arena leaderboard",
+      "startSeconds": 652,
+      "label": "10:52",
+      "source": "youtube"
+    },
+    {
+      "title": "AI related jobs",
+      "startSeconds": 728,
+      "label": "12:08",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "FastAPI & FastHTML 1994 - HTML, Browser 1995",
+      "text": "FastAPI & FastHTML 1994 - HTML, Browser 1995 - Javascript 1996 - Cascading Style Sheets (CSS) Web Servers - Nginx, Apache, NodeJS Serving Passive and Active Content CGI , WSGI , ASGI protocols Web- and API- Apps Web Sites and Apps Using Python January 03 , 2024 Sticky Load Balancing Managing multiple servers FastAPI FastHTML Javascript Cloud Solutions Web Security"
+    },
+    {
+      "index": 2,
+      "title": "FastAPI - for Serving data (JSON) requests/responses from",
+      "text": "FastAPI - for Serving data (JSON) requests/responses from fastapi import FastAPI app = FastAPI() ... from fasthtml import FastHTML app = FastHTML() ... FastHTML - for serving interactive websites / web applications"
+    },
+    {
+      "index": 3,
+      "title": "Basic Web Technologies 1994 – web browser Netscape",
+      "text": "Basic Web Technologies 1994 – web browser Netscape HTML (HyperText Markup Language) <!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title>My test page</title> </head> <body> <p>Hello World!</p> <img src=\"images/firefox-icon.png\" alt=\"My test image\"> </body> </html> 1995 – JavaScript - was developed by Brendan Eich for Netscape 2 <script type=\"text/javascript\"> var rows = prompt(\"How many rows for your multiplication table?\"); var cols = prompt(\"How many columns for your multiplication table?\"); if(rows == \"\" || rows == null) rows = 10; if(cols== \"\" || cols== null) cols = 10; createTable(rows, cols); function createTable(rows, cols) { var j=1; var output = \"<table border='1' width='500' cellspacing='0'cellpadding='5'>\"; for(i=1;i<=rows;i++) { output = output + \"<tr>\"; while(j<=cols) { output = output + \"<td>\" + i*j + \"</td>\"; j = j+1; } output = output + \"</tr>\"; j = 1; } output = output + \"</table>\"; document.write(output); } </script> 1996 – Cascading Style Sheets (CSS) - Håkon Wium Lie <style> BODY, TD, TH, P, DIV, blockquote, li, ul {FONT-FAMILY: verdana, arial, geneva, helvetica; FONT-SIZE: 10pt;} A:hover { COLOR: #FF0000; background: #FFA; TEXT-DECORATION: underline } </style> Tim Berners-Lee has created HTML, URL, and WorldWideWeb (Nexus) browser/editor in 1990 (worked only on NeXT station). The first widely used web browser was Mosaic Netscape, developed by Marc Andreessen and Eric Bina at the National Center for Supercomputing Applications (NCSA) in 1993-1994."
+    },
+    {
+      "index": 4,
+      "title": "Web Servers In 2021 In 2021 Nginx has",
+      "text": "Web Servers In 2021 In 2021 Nginx has become the most popular web server. Apache moved to the 2 nd place, Microsoft IIS has very little popularity. Dec 2024 nginx 19.67% Apache 17.30% Cloudflare 11.89% OpenResty 9.79%"
+    },
+    {
+      "index": 5,
+      "title": "Serving Active Content For active content you will",
+      "text": "Serving Active Content For active content you will need an App. Server behind the Web Server . Typically python app. servers use either WSGI or ASGI protocols. CGI = Common Gateway Interface WSGI = Web Server Gateway Interface (most common) ASGI = Asynchronous Server Gateway Interface Look at the list of different WSGI compatible app servers here: - https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface Good for prototyping: uWSGI + Flask : - https://en.wikipedia.org/wiki/UWSGI - https://en.wikipedia.org/wiki/Flask_(web_framework) HTTP Web Server ( Nginx ) Static content HTML, CSS, JS, Images Active content Perl, PHP, .NET, Java, Python, etc. Client (Browser or mobile pps) #!/usr/bin/perl print \"Content-type:text/html\\n\\n\"; print \"<html>Hello</html>\\n\"; 1; CGI script (Perl) # myapp.py # python gunicorn -c myconfig.cfg myapp:app def app(environ, start_response): data = b\"Hello, World!\\n\" start_response(\"200 OK\", [ (\"Content-Type\", \"text/plain\"), (\"Content-Length\", str(len(data))) ]) return iter([data]) WSGI (Python, Gunicorn) Nginx – very light and fast proxy Python: Nginx + FastHTML Nginx + Gunicorn + Flask Nginx + Gunicorn + Uvicorn + FastAPI Nginx Unit + FastAPI Nginx + Django Javascript: Nginx – NodeJS ASGI - FastHTML # myconfig.cfg import multiprocessing bind = \"127.0.0.1:8010\" workers = 4 reload = True from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() @app.get(\"/\") def home(): return \"<h1>Hello, World</h1>\" serve()"
+    },
+    {
+      "index": 6,
+      "title": "WebApps Serving pages and APIs using Python Note:",
+      "text": "WebApps Serving pages and APIs using Python Note: Azure, AWS, and Google cloud offer Load Balancing solutions You can scale using multiple servers, or multiple docker containers managed by kubernetes For active content you will need an App-Server (usually behind a proxy (web) server, like Nginx). Typically python app. servers use either WSGI or ASGI protocols. CGI = Common Gateway Interface WSGI = Web Server Gateway Interface (most common) ASGI = Asynchronous Server Gateway Interface Look at the list of different WSGI compatible app servers here: - https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface Good for prototyping: uWSGI + Flask : - https://en.wikipedia.org/wiki/UWSGI - https://en.wikipedia.org/wiki/Flask_(web_framework) FastAPI with Uvicorn server: # Nginx - as Proxy # gunicorn - to start multiple uvicorn servers/workers (non-sticky) # uvicorn - async server, can keep multiple connections # FastAPI - framework for Web API (or FastHTML for Web App ) import uvicorn from fastapi import FastAPI app = FastAPI() # ... define routes ... uvicorn.run(\"myscript:app\", host='localhost', port=5001, reload=True) Using FastAPI with Nginx Unit"
+    },
+    {
+      "index": 7,
+      "title": "Sticky Load Balancing If you want sticky load",
+      "text": "Sticky Load Balancing If you want sticky load balancing, you can NOT specify multiple workers with gunicorn or uvicorn. If you do something like this: uvicorn --workers 4 gunicorn --workers 4 then you lose the \"stickiness\" To get sticky sessions, you need a dedicated load balancer (like HAProxy, NGINX, or a cloud load balancer) sitting directly in front of your Uvicorn instances. You start multiple uvicorn instances on different ports: uvicorn main:app --host 0.0.0.0 --port 8000 uvicorn main:app --host 0.0.0.0 --port 8001 etc. You do NOT need gunicorn. The above is for both FastAPI and FastHTML AWS Application Load Balancer https://aws.amazon.com/elasticloadbalancing/application-load-balancer/ uvicorn FastHTML uvicorn FastHTML uvicorn FastHTML uvicorn FastHTML uvicorn FastHTML uvicorn FastHTML"
+    },
+    {
+      "index": 8,
+      "title": "Managing multiple Uvicorn instances #!/bin/bash BASE_PORT=8000 APP_PATH=\"/path/to/your/app\" VENV_PATH=\"/path/to/venv\"",
+      "text": "Managing multiple Uvicorn instances #!/bin/bash BASE_PORT=8000 APP_PATH=\"/path/to/your/app\" VENV_PATH=\"/path/to/venv\" for i in {1..10}; do PORT=$((BASE_PORT + i - 1)) cat > /etc/systemd/system/uvicorn-${i}.service << EOF [Unit] Description=Uvicorn instance ${i} After=network.target [Service] User=your_user WorkingDirectory=${APP_PATH} Environment=\"PATH=${VENV_PATH}/bin\" ExecStart=${VENV_PATH}/bin/uvicorn main:app --host 0.0.0.0 --port ${PORT} Restart=always RestartSec=3 # Health check Type=notify NotifyAccess=all ExecStartPost=/bin/sh -c 'echo $MAINPID > /var/run/uvicorn-${i}.pid' PIDFile=/var/run/uvicorn-${i}.pid # Health monitoring ExecStartPost=/bin/sleep 5 ExecStartPost=/usr/bin/curl -f http://localhost:${PORT}/health TimeoutStartSec=30 # Periodic health check ExecStartPost=/bin/systemd-notify --ready ExecReload=/usr/bin/curl -f http://localhost:${PORT}/health \\ || /bin/systemctl restart uvicorn-${i} WatchdogSec=30 [Install] WantedBy=multi-user.target EOF systemctl enable uvicorn-${i} systemctl start uvicorn-${i} done create and manage 10 uvicorn instances using systemd # /usr/local/bin/create-uvicorn-services.sh # chmod +x /usr/local/bin/create-uvicorn-services.sh # Start/stop all instances for i in {1..10}; do systemctl start uvicorn-${i}; done for i in {1..10}; do systemctl stop uvicorn-${i}; done # Check status systemctl status 'uvicorn-*' Systemd provides basic service monitoring and automatic restarting. By default, it will restart a service if it crashes.  You can configure custom checks. For example, in your FastAPI app you an add this: from fastapi import FastAPI app = FastAPI() @app.get(\"/health\") async def health_check(): # check something ... return {\"status\": \"ok\"} Then in your systemd unit file you can add Health checks"
+    },
+    {
+      "index": 9,
+      "title": "FastAPI Modern (since 2018) v ery high performance,",
+      "text": "FastAPI Modern (since 2018) v ery high performance, on par with NodeJS and Go Uses Pydantic for type hints checks - https://pydantic-docs.helpmanual.io Uses Starlette (light ASGI - https://www.starlette.io ) Intuitive, Easy to use and learn, auto-completion, Fast to code & debug Fewer bugs, reduce developer errors Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs. Robust: Get production-ready code. With automatic interactive documentation. Standards-based: Based on OpenAPI (previously known as Swagger) and JSON Schema. Uses Uvicorn - The lightning-fast ASGI server. - https://www.uvicorn.org Implements ASGI (Asynchronous Server Gateway Interface) - https://asgi.readthedocs.io Uses uvloops - fast, drop-in replacement of the built-in asyncio event loop. uvloop is implemented in Cython and uses libuv under the hood. - https://github.com/MagicStack/uvloop Uses httptools - a Python binding for the nodejs HTTP parser. - https://github.com/MagicStack/httptools fast web framework for building APIs with Python Documentation : https://fastapi.tiangolo.com Source Code : https://github.com/tiangolo/fastapi Comparing with Flask https://towardsdatascience.com/understanding-flask-vs-fastapi-web-framework-fe12bb58ee75 Flask (since 2010) is a micro web framework written in python. minimal amount of coding required easy setup, flexible, fast to deploy built on WSGI (Python Web Server Gateway Interface) whereby the server will tie up a worker for each request. FastAPI (since 2018) – similar to Flask, but: faster than Flask because it is built on ASGI (Asynchronous Server Gateway Interface), supports concurrency / asynchronous code. generates documentation (Swagger UI and ReDoc) creates interactive GUI (Swagger UI) for testing"
+    },
+    {
+      "index": 10,
+      "title": "FastAPI Swagger The term \" Swagger \" actually",
+      "text": "FastAPI Swagger The term \" Swagger \" actually predates FastAPI. Swagger was originally created by Tony Tam in 2011 as a specification for describing REST APIs. The name \" Swagger \" was chosen somewhat playfully - just as swagger means to move confidently or boastfully, the tool allowed APIs to \"show off\" their capabilities in a structured way. Later, Swagger was donated to the Linux Foundation and was renamed to \" OpenAPI Specification \" (OAS) in 2016. However, the term \" Swagger \" had become so popular in the developer community that many people still use it to refer to API documentation interfaces, including FastAPI's. FastAPI uses Swagger UI (now part of OpenAPI) to generate its interactive API documentation. When you access your FastAPI app's /docs endpoint, you're actually seeing the Swagger UI interface, which reads the OpenAPI specification that FastAPI automatically generates from your code. So while technically the correct modern term would be \" OpenAPI documentation ,\" many developers still call it \" Swagger docs \" due to its historical name and widespread adoption in the industry. FastAPI's ReDoc (short for \" Reference Documentation \") is an alternative API documentation interface to Swagger UI. ReDoc has a three-panel layout that many find more polished and readable. It shows the API structure in a left sidebar, The main content is in the middle, Examples and schemas appear on the right ReDoc is more focused on reading/browsing documentation Unlike Swagger UI, ReDoc doesn't allow you to make test API calls directly from the interface ReDoc has better support for markdown in descriptions. It offers better search functionality. It provides a \"sticky\" navigation menu Both Swagger ( /docs ) and ReDoc ( /redoc ) come with FastAPI. from fastapi import FastAPI app = FastAPI() If you want to remove one of them you can do this: app = FastAPI(docs_url=None) # Disables Swagger UI # or app = FastAPI(redoc_url=None) # Disables ReDoc"
+    },
+    {
+      "index": 11,
+      "title": "FastAPI Example from fastapi import FastAPI from pydantic",
+      "text": "FastAPI Example from fastapi import FastAPI from pydantic import BaseModel app = FastAPI() # -------------------------------------- class Item(BaseModel): name: str price: float items = [] # -------------------------------------- @app.get(\"/\") def read_root(): return {\"message\": \"Hello World\"} # -------------------------------------- @app.get(\"/items\") def get_items(): return items # -------------------------------------- @app.post(\"/items\") def create_item(item: Item): items.append(item) return item # -------------------------------------- if __name__ == \"__main__\": import uvicorn uvicorn.run(app, host=\"0.0.0.0\", port=8000) http://0.0.0.0:8000/docs"
+    },
+    {
+      "index": 12,
+      "title": "FastHTML FastHTML - a python framework to create",
+      "text": "FastHTML FastHTML - a python framework to create web apps. It uses HTMX (Javascript library). pip install python-fasthtml https://fastht.ml https://about.fastht.ml https://docs.fastht.ml https://docs.fastht.ml/tutorials/by_example.html https://github.com/AnswerDotAI/fasthtml-tut https://github.com/AnswerDotAI/fasthtml/tree/main/examples https://www.youtube.com/watch?v=Auqrm7WFc0I https://h2x.answer.ai - to convert HTML to FastHTML syntax https://www.youtube.com/watch?v=evAb2x34Jqk - good short demo uvicorn test01:app --reload or serve() at the and of the .py file or uvicorn.run(\"test01:app\", host=\"localhost\", port=8000, reload=True) http://127.0.0.1:8000"
+    },
+    {
+      "index": 13,
+      "title": "FastHTML : simple examples from fasthtml import FastHTML",
+      "text": "FastHTML : simple examples from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() @app.get(\"/\") def home(): return \"<h1>Hello, World</h1>\" serve() \"\"\" uvicorn test02_common:app --reload \"\"\" from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() @app.get(\"/\") def home(): mypage = ( Title(\"Page Demo\"), Div( H1('Hello, Lev'), P('Some text'), P(A( 'LevSelector.com' , href= 'https://LevSelector.com' )), P(Img( src= \"https://eais.ai/img/Lev.jpg\" , width=100, height=100)), P( Strong('Some'), I( 'more text' , style= \"color: #f00;font-size: 30px;\" ) ), Table( Tr(Td( \"aa\" ),Td(11)), Tr(Td( \"bb\" ),Td(22)), Tr(Td( \"cc\" ),Td(33)) ) ) # div ) # mypage return mypage from fasthtml.common import * page = Html( Head(Title( 'Some page' )), Body( Div( 'Some text, ' , A('A link', href=' https://example.com '), Img(src=\" https://placehold.co/200 \"), cls= 'myclass' ) ) # div ) # Html print(to_xml(page)) # print HTML"
+    },
+    {
+      "index": 14,
+      "title": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com",
+      "text": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com - node.js - https://nodejs.org - AngularJS - https://en.wikipedia.org/wiki/AngularJS - https://angularjs.org React - https://en.wikipedia.org/wiki/React_(JavaScript_library) - https://reactjs.org npm - https://www.npmjs.com - https://en.wikipedia.org/wiki/Npm_(software) Vue.js - https://en.wikipedia.org/wiki/Vue.js - https://vuejs.org - https://cli.vuejs.org - Redux - https://en.wikipedia.org/wiki/Redux_(JavaScript_library) Typescript - https://en.wikipedia.org/wiki/TypeScript NativeScript - https://nativescript.org – mobile apps More links: Loopback.io - https://loopback.io/ - node.js + typescript form.io - https://www.form.io/ - create forms and APIs, very good, uses mongo.db, opensource heroku - https://www.heroku.com/ - container-based cloud platform Swagger.io - https://swagger.io – build API, open source expressJS - https://expressjs.com - Node Express Yeoman.io - https://yeoman.io – tools for JS development Mustache - https://github.com/mustache -  templates Joe Orr - https://kaleguy.github.io/ - Fiddler – web debugger tool - https://en.wikipedia.org/wiki/Fiddler_(software) - lodash JS library - https://en.wikipedia.org/wiki/Lodash RxJS - reactive library - https://rxjs-dev.firebaseapp.com/ - Svelte - https://en.wikipedia.org/wiki/Svelte – frontend Vercel - https://vercel.com - platform for frontend frameworks GitPod.io - https://www.gitpod.io - VS Code or  JetBrains in browser Javascript 1996 – AJAX (Asynchronous JavaScript And XML) 2006 – jQuery 2009 – Node.js (server-side) 2010 – AngularJS (Google) JavaScript MVC framework 2013 – React (Facebook) 2014 – npm registry repository for frontend packages 2014 – Vue.js 2014 – NativeScript (mobile apps) 2015 – Redux Library (manage state, used with React or Angular)"
+    },
+    {
+      "index": 15,
+      "title": "Load Balancers In front of your web application",
+      "text": "Load Balancers In front of your web application you may have a load balancer. All three major clouds provide load balancers: AWS - https://docs.aws.amazon.com/AmazonECS/latest/developerguide/load-balancer-types.html Azure - https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview GCP - https://cloud.google.com/load-balancing You may also use Nginx to route requests to application servers and to serve static html pages - https://en.wikipedia.org/wiki/Nginx Responsive HTML templates - top menu changes to hamburger for narrow screen) You can google for something like this: mobile compatible website template free download mobile html templates responsive website templates shopify templates Example of good template for Jekyll (static site generator): - https://mademistakes.com/work/minimal-mistakes-jekyll-theme/ Web Server Frameworks: - Python-based (Django, Flask, gunicorn, FastAPI, etc.) - node.js + TypeScript - Google Flutter widgets https://en.wikipedia.org/wiki/Flutter_(software) Web Technologies – continued ... Django/Python provides authentication, sessions, and caching  out-of-the-box: - https://en.wikipedia.org/wiki/Django_(web_framework) - - https://www.django-rest-framework.org - All major clouds provide tools for Authentication/Authorization AWS Single Sign-On - https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html - Azure Active Directory SSO - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso - Google: OpenID Connect - https://developers.google.com/identity/openid-connect/openid-connect - Google Firebase - https://firebase.google.com/ Supabase is an open-source alternative to Firebase - https://supabase.com"
+    },
+    {
+      "index": 16,
+      "title": "Data security, Access SSO = Single Sign-On SAML",
+      "text": "Data security, Access SSO = Single Sign-On SAML (Security Assertion Markup Language (XML)) OAuth2 (Open Authorization) - open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords 3-legged vs 2-legged OAuth . 3-legged OAuth flow involves three parties: - the end-user (or resource owner), - the client (the third-party application), - and the server (or authorization server). 2-legged is used to describe an OAuth-authenticated request without the end-user involved. Client credentials (identifier and secret) are used to calculate a request signature. 2-legged request don't include an access token or secret. These two values are basically empty strings. Web Security Resources: https://en.wikipedia.org/wiki/Single_sign-on https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language (SAML) https://oauth.net/2/ https://stackoverflow.com/questions/13369516/why-is-there-3-legged-oauth2-when-2-legged-works-so-well SAML"
+    },
+    {
+      "index": 17,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 18,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "FastAPI & FastHTML 1994 - HTML, Browser 1995",
+      "source": "youtube"
+    },
+    {
+      "claim": "Large Concept Models",
+      "topic": "general",
+      "videoSeconds": 23,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=23s",
+      "slideIndex": 3,
+      "slideTitle": "Basic Web Technologies 1994 – web browser Netscape",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chinese Research",
+      "topic": "general",
+      "videoSeconds": 101,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=101s",
+      "slideIndex": 5,
+      "slideTitle": "Serving Active Content For active content you will",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI",
+      "topic": "general",
+      "videoSeconds": 189,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=189s",
+      "slideIndex": 7,
+      "slideTitle": "Sticky Load Balancing If you want sticky load",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Deep Research",
+      "topic": "general",
+      "videoSeconds": 238,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=238s",
+      "slideIndex": 10,
+      "slideTitle": "FastAPI Swagger The term \" Swagger \" actually",
+      "source": "youtube"
+    },
+    {
+      "claim": "RunAI",
+      "topic": "general",
+      "videoSeconds": 360,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=360s",
+      "slideIndex": 12,
+      "slideTitle": "FastHTML FastHTML - a python framework to create",
+      "source": "youtube"
+    },
+    {
+      "claim": "DPS",
+      "topic": "general",
+      "videoSeconds": 498,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=498s",
+      "slideIndex": 14,
+      "slideTitle": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 652,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=652s",
+      "slideIndex": 16,
+      "slideTitle": "Data security, Access SSO = Single Sign-On SAML",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI related jobs",
+      "topic": "jobs",
+      "videoSeconds": 728,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=728s",
+      "slideIndex": 18,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "FastAPI - for Serving data (JSON) requests/responses from",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 2,
+      "slideTitle": "FastAPI - for Serving data (JSON) requests/responses from",
+      "source": "slide"
+    },
+    {
+      "claim": "Web Servers In 2021 In 2021 Nginx has",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 4,
+      "slideTitle": "Web Servers In 2021 In 2021 Nginx has",
+      "source": "slide"
+    },
+    {
+      "claim": "WebApps Serving pages and APIs using Python Note:",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 6,
+      "slideTitle": "WebApps Serving pages and APIs using Python Note:",
+      "source": "slide"
+    },
+    {
+      "claim": "Managing multiple Uvicorn instances #!/bin/bash BASE_PORT=8000 APP_PATH=\"/path/to/your/app\" VENV_PATH=\"/path/to/venv\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 8,
+      "slideTitle": "Managing multiple Uvicorn instances #!/bin/bash BASE_PORT=8000 APP_PATH=\"/path/to/your/app\" VENV_PATH=\"/path/to/venv\"",
+      "source": "slide"
+    },
+    {
+      "claim": "FastAPI Modern (since 2018) v ery high performance,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 9,
+      "slideTitle": "FastAPI Modern (since 2018) v ery high performance,",
+      "source": "slide"
+    },
+    {
+      "claim": "FastAPI Example from fastapi import FastAPI from pydantic",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 11,
+      "slideTitle": "FastAPI Example from fastapi import FastAPI from pydantic",
+      "source": "slide"
+    }
+  ]
+}

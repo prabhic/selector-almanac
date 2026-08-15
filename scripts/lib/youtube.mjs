@@ -6,6 +6,9 @@ import { resolveChapters } from "./chapters.mjs";
 const execFileAsync = promisify(execFile);
 const CHANNEL = "https://www.youtube.com/channel/UCA4GfsgbI09cLzonTKryC6g/videos";
 
+/** Lev Selector channel has ~300 videos; refuse refresh if fetch looks broken. */
+export const MIN_CHANNEL_VIDEOS = 50;
+
 export function isWeeklyVideoTitle(title) {
   return (
     /ai\s+updates?\s+weekly/i.test(title) ||
@@ -75,4 +78,51 @@ export async function fetchAllVideoMeta(videoIds, { concurrency = 6, onProgress 
 
   await Promise.all(runners);
   return results;
+}
+
+/**
+ * Fetch channel catalog with a sanity check so CI/network failures cannot wipe matches.
+ */
+export async function fetchYouTubeCatalog({
+  minVideos = MIN_CHANNEL_VIDEOS,
+  concurrency = 8,
+  log = () => {},
+  onProgress,
+} = {}) {
+  log("Fetching YouTube channel…");
+  const videoIds = await fetchVideoList();
+  if (videoIds.length < minVideos) {
+    throw new Error(
+      `YouTube channel list too small (${videoIds.length} ids, need ≥${minVideos}). ` +
+        "Refusing to update video matches — possible CI/network block.",
+    );
+  }
+
+  const metaMap = await fetchAllVideoMeta(videoIds, {
+    concurrency,
+    onProgress:
+      onProgress ??
+      ((done, total) => {
+        if (done % 50 === 0 || done === total) log(`  metadata ${done}/${total}`);
+      }),
+  });
+
+  const allVideos = [...metaMap.values()].filter((v) => !v.error);
+  const errors = videoIds.length - allVideos.length;
+  if (allVideos.length < minVideos) {
+    throw new Error(
+      `YouTube metadata fetch too weak (${allVideos.length} ok, ${errors} errors, need ≥${minVideos}). ` +
+        "Refusing to update video matches.",
+    );
+  }
+
+  const videosByDate = new Map();
+  for (const v of allVideos) {
+    if (!v.date) continue;
+    if (!videosByDate.has(v.date)) videosByDate.set(v.date, []);
+    videosByDate.get(v.date).push(v);
+  }
+
+  log(`  ${allVideos.length} videos loaded (${errors} metadata errors)`);
+  return { allVideos, videosByDate, videoIds };
 }

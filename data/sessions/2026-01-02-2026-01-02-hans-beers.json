@@ -1,0 +1,424 @@
+{
+  "id": "2026-01-02-2026-01-02-hans-beers",
+  "date": "2026-01-02",
+  "title": "Hans-Beers",
+  "series": "seminar",
+  "topics": [
+    "benchmarks",
+    "open-models",
+    "agents",
+    "multimodal",
+    "coding",
+    "claude",
+    "jobs"
+  ],
+  "video": {
+    "id": "n01-OaEiYzA",
+    "title": "Have you heard these exciting AI news? - January 02, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=n01-OaEiYzA",
+    "thumbnail": "https://i.ytimg.com/vi/n01-OaEiYzA/hqdefault.jpg",
+    "duration": 1554
+  },
+  "deck": {
+    "path": "2026/2026-01-02-Hans-Beers.pptx",
+    "filename": "2026-01-02-Hans-Beers.pptx",
+    "title": "Hans-Beers",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-01-02-Hans-Beers.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-01-02-Hans-Beers.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Can you ship code without reading it line by line?",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "\"Slop\" refers to low-quality AI-generated content",
+      "startSeconds": 53,
+      "label": "00:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 71,
+      "label": "01:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta acquired Manus for $2 Billion",
+      "startSeconds": 92,
+      "label": "01:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Andrej Karpathy posted on X",
+      "startSeconds": 170,
+      "label": "02:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Mathew Berman - How Coding Is Done Today",
+      "startSeconds": 265,
+      "label": "04:25",
+      "source": "youtube"
+    },
+    {
+      "title": "VL-JEPA",
+      "startSeconds": 449,
+      "label": "07:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen-Image-2512",
+      "startSeconds": 618,
+      "label": "10:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Liquid LFM2-2.6B-Exp",
+      "startSeconds": 687,
+      "label": "11:27",
+      "source": "youtube"
+    },
+    {
+      "title": "LLM vs AI agent companies",
+      "startSeconds": 712,
+      "label": "11:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Clone Robotics ProtoClone",
+      "startSeconds": 777,
+      "label": "12:57",
+      "source": "youtube"
+    },
+    {
+      "title": "The End of Google's Search Monopoly",
+      "startSeconds": 829,
+      "label": "13:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Grok 5 is planned to be released in Q1 of 2026",
+      "startSeconds": 921,
+      "label": "15:21",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Running Business",
+      "startSeconds": 970,
+      "label": "16:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Storm MCP - open-source MCP gateway",
+      "startSeconds": 1011,
+      "label": "16:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Agent Zero (A0) open-source personal assistant",
+      "startSeconds": 1048,
+      "label": "17:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Gems",
+      "startSeconds": 1084,
+      "label": "18:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Google A2UI: Agent-to-User Interface",
+      "startSeconds": 1144,
+      "label": "19:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba Tongyi Lab released MAI-UI",
+      "startSeconds": 1215,
+      "label": "20:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent WeDLM Fast Diffusion Model",
+      "startSeconds": 1292,
+      "label": "21:32",
+      "source": "youtube"
+    },
+    {
+      "title": "IQuest-Coder-V1 Open Source LLMs",
+      "startSeconds": 1359,
+      "label": "22:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Ralph Loop plugin for Claude Code",
+      "startSeconds": 1450,
+      "label": "24:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1512,
+      "label": "25:12",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "How Gemini Canvas using Flash 3.0 Made me",
+      "text": "How Gemini Canvas using Flash 3.0 Made me worry about autonomous AI by Hans Beers January 2, 2026 In IT since 1985, software developer, IT architect"
+    },
+    {
+      "index": 2,
+      "title": "Gemini Canvas using Flash 3.0 Gemini Canvas using",
+      "text": "Gemini Canvas using Flash 3.0 Gemini Canvas using Flash 3.0 - by Hans Beers I worked on a project to simulate laws of physics in the 90-ies. I thought lets give it a try using AI. So I asked Gemini to create a physics simulation lab using laws of dynamics, thermodynamics etc. Initial result was promising, I got a simulator working. Sometimes the UI gave an error, so I added an autotest function. This also seemed to work. Then I added 2 \"self modifying code\" functions: - improve existing simulation - generate ideas for new simulation and allow user to select to build one Gemini implemented these functions - I saw it automatically build an interface (API key) to itself to let it evaluate. This is where I see it currently hit limitations: Gemini forgets context: When I improve an existing simulation or add a new one, other improvements are forgotten. I could not make it run without errors. If this would work in any software development scenario, it would be the holy grail. https://gemini.google.com/share/41c30494b416 https://notebooklm.google.com/notebook/901d06ec-d0ff-41f6-9fb1-da37643d400d?pli=1 This made me think about AI Autonomy"
+    },
+    {
+      "index": 3,
+      "title": "Agentic AI simulator - Darwin meets AI I",
+      "text": "Agentic AI simulator - Darwin meets AI I created a Notebooklm notebook about shifting landscape of artificial intelligence, focusing on the transition from passive tools to autonomous agents capable of self-improvement and complex orchestration. Research highlights how frameworks like AlphaEvolve and LADDER utilize reinforcement learning and recursive decomposition to discover scientific algorithms and refine code without human intervention. This technical evolution introduces significant governance and security challenges, necessitating advanced infrastructure such as AI gateways to manage technical debt and mitigate algorithmic bias. Economically, experts predict that AI will soon manage entire software development workflows, potentially increasing productivity while simultaneously reshaping the labor market and high-paying roles. To support these advancements, hardware is evolving through specialized neural processing units and high-bandwidth unified memory architectures. Finally, the notebook  addresses the regulatory response to these trends, detailing legislative efforts to ensure accountability and protect privacy as AI becomes a permanent fixture of the workforce."
+    },
+    {
+      "index": 4,
+      "title": "Resilience and Reliability Risks of AI autonomy (",
+      "text": "Resilience and Reliability Risks of AI autonomy ( “Go To Statement Considered Harmful”) The transition from \"read-only\" assistants to \"read-write\" autonomous actors introduces profound resilience risks, as agentic AI systems gain the power to independently modify databases, trigger workflows, and execute real-world actions. These risks can be categorized into systemic vulnerabilities, adversarial evolutions, behavioral misalignment and operational/security blind spots.: Systemic and Cascading Failures Interconnected Fragility Unintended Autonomous Loops Model and Data Drift Adversarial Evasion and \"Thinking\" Malware Self-Modifying Malware Autonomous Cybercrime Prompt Injection 2.0 Behavioral Misalignment and Deception Reward Hacking Alignment Faking Operational and Security Blind Spots Excessive Agency and Permission Technical Debt and Skill Atrophy In an interview with Edsger Dijkstra , the famous computer scientist. There he mentions a discussion with Joel Aron, the head of the department from IBM, responsibe for the software of the Eagle, the lunar lander for the Apollo 11. He asked the program manager how he could prove in advance that the software was correct. The program manager confessed that 5 days before the take-off of the Apollo 11, they found out that they had made a sign error regarding the gravity force of the moon, making it not pull the lunar lander but push it away. https://www.youtube.com/watch?v=mLEOZO1GwVc (minute 14). Edsger Dijkstra taught in the United States at the University of Texas at Austin. Program correctness proofs was one of his topics."
+    },
+    {
+      "index": 5,
+      "title": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "text": "39C3 - AI Agent, AI Spy Presenters: Meredith Whittaker & Udbhav Tiwari (Signal) The \"Velvet Glove Coup\" The Core Thesis: The integration of AI agents into Operating Systems represents a shift in control from users and developers to OS and AI companies. Marketing vs. Reality: While marketed as \"robot butlers,\" these agents fundamentally require \"context\" to function—which translates to constant, unfettered surveillance of all user data. The Agentic Imperative: To be useful, an agent must \"sense the state of the environment.\" This creates a conflict: limiting data access preserves privacy but breaks the agent's utility. Consent: Meaningful consent is impossible for non-deterministic systems that execute hundreds of invisible API calls to complete a single task. 2) The Privacy Threat: Windows Recall What is it? A Microsoft feature that takes screenshots every few seconds, uses OCR to read the text, and stores it in a semantic database. The \"Honeypot\" Risk: It creates a comprehensive forensic dossier of a user's life (apps opened, conversations had, files viewed). Breaking Encryption: It bypasses end-to-end encryption (like Signal's) by capturing messages after they are decrypted and displayed on the screen. Collateral Damage: Signal had to use DRM tools (meant to stop piracy) to block Recall, which negatively impacts accessibility tools like screen readers. 3)\tThe Security Threat: Semantic Attacks Fundamental Flaw: LLMs (Large Language Models) cannot distinguish between instructions and data . Indirect Prompt Injection: Attackers can hide malicious commands in data (e.g., white text on a website, an incoming email). When the agent processes this \"data,\" it executes the command. Example (EchoLeak): An AI summarizes unread emails; a malicious email contains a prompt that forces the AI to exfiltrate private data to a third-party server. Example (Prompt Pond): Attackers trick AI coding assistants into approving malicious Pull Requests on GitHub. Worms: \"Morris II\" concept shows how AI agents can create self-replicating malware that jumps between users via email. https://youtu.be/0ANECpNdt-4"
+    },
+    {
+      "index": 6,
+      "title": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "text": "39C3 - AI Agent, AI Spy Presenters: Meredith Whittaker & Udbhav Tiwari (Signal) 4) The Mathematics of Failure Probabilistic vs. Deterministic: Unlike traditional software, AI output is probabilistic. Reliability decays exponentially with complexity. The Math: If a model is 95% accurate per step, a 30-step task has only a ~21% success rate ($0.95^{30}$). Enterprise Risks: Current models fail ~70% of the time on complex corporate benchmarks, often hallucinating solutions (e.g., renaming employees in a database to make a query \"work\"). Economic Pressure: Massive spending (CapEx) with low revenue is driving companies to deploy these unsafe features recklessly to find a market. 5) \"Battlefield Medicine\" (Immediate Fixes) 1. Stop Reckless Deployment: OS vendors (Microsoft, Apple, Google) must pause the rollout of insecure agentic features. 2. Developer Opt-In: The default must be Opt-Out . Agents should only access data from applications that have explicitly signed a manifest allowing it. 3. User Transparency: Systems must provide real-time, human-readable logs of agent activity (e.g., \"Agent read spreadsheet.xls\" , \"Agent sent token to server.com\" ). Conclusion: These are temporary \"tourniquets.\" The fundamental tension between privacy/security and the data-hungry nature of AI agents remains unresolved. https://youtu.be/0ANECpNdt-4"
+    },
+    {
+      "index": 7,
+      "title": "New York Times reporting on AI in warfare",
+      "text": "New York Times reporting on AI in warfare https://www.nytimes.com/2025/12/31/magazine/ukraine-ai-drones-war-russia.html Shift to Autonomy : To counter intense Russian electronic jamming (EW) that severs pilot connections, Ukraine is deploying AI-piloted drones like the Bumblebee and modules like Underdog . These systems autonomously lock onto targets (\"pixel lock\") and execute strikes without human input in the final seconds. The \"War Lab\" Ecosystem : The battlefield has evolved into a live-fire test range where Western tech figures (e.g., Eric Schmidt ) and Ukrainian startups (e.g., NORDA Dynamics, Sine Engineering) collaborate to automate the \"kill chain,\" turning commercial tech into lethal weapons. Emerging Capabilities : Visual Navigation : New \"visual positioning systems\" (V.P.S.) allow deep-strike drones to navigate using onboard cameras and 3D maps, rendering them immune to GPS jamming and spoofing. Swarm Technology : Systems like Pasika enable a single pilot to manage multiple drones simultaneously, allowing for coordinated, massed attacks that overwhelm defenses. Strategic Asymmetry : Inexpensive, AI-enhanced drones are destroying Russian heavy armor and air defense systems worth millions, creating a \"kill zone\" that challenges the viability of traditional military infrastructure. Ethical Concerns : The conflict has crossed a \"moral line\" into the era of \"killer robots,\" with experts warning that machines—unable to understand morality—are now deciding who lives and dies on the battlefield. AI-enabled war drones the new weapon for Ukraine This video from Reuters provides visual context on the development and testing of the AI-enabled drone technologies discussed in the article."
+    },
+    {
+      "index": 8,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Can you ship code without reading it line by line?",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "How Gemini Canvas using Flash 3.0 Made me",
+      "source": "youtube"
+    },
+    {
+      "claim": "\"Slop\" refers to low-quality AI-generated content",
+      "topic": "general",
+      "videoSeconds": 53,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=53s",
+      "slideIndex": 1,
+      "slideTitle": "How Gemini Canvas using Flash 3.0 Made me",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 71,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=71s",
+      "slideIndex": 2,
+      "slideTitle": "Gemini Canvas using Flash 3.0 Gemini Canvas using",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta acquired Manus for $2 Billion",
+      "topic": "general",
+      "videoSeconds": 92,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=92s",
+      "slideIndex": 2,
+      "slideTitle": "Gemini Canvas using Flash 3.0 Gemini Canvas using",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andrej Karpathy posted on X",
+      "topic": "general",
+      "videoSeconds": 170,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=170s",
+      "slideIndex": 2,
+      "slideTitle": "Gemini Canvas using Flash 3.0 Gemini Canvas using",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mathew Berman - How Coding Is Done Today",
+      "topic": "general",
+      "videoSeconds": 265,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=265s",
+      "slideIndex": 3,
+      "slideTitle": "Agentic AI simulator - Darwin meets AI I",
+      "source": "youtube"
+    },
+    {
+      "claim": "VL-JEPA",
+      "topic": "general",
+      "videoSeconds": 449,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=449s",
+      "slideIndex": 3,
+      "slideTitle": "Agentic AI simulator - Darwin meets AI I",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qwen-Image-2512",
+      "topic": "open-models",
+      "videoSeconds": 618,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=618s",
+      "slideIndex": 3,
+      "slideTitle": "Agentic AI simulator - Darwin meets AI I",
+      "source": "youtube"
+    },
+    {
+      "claim": "Liquid LFM2-2.6B-Exp",
+      "topic": "general",
+      "videoSeconds": 687,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=687s",
+      "slideIndex": 4,
+      "slideTitle": "Resilience and Reliability Risks of AI autonomy (",
+      "source": "youtube"
+    },
+    {
+      "claim": "LLM vs AI agent companies",
+      "topic": "agents",
+      "videoSeconds": 712,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=712s",
+      "slideIndex": 4,
+      "slideTitle": "Resilience and Reliability Risks of AI autonomy (",
+      "source": "youtube"
+    },
+    {
+      "claim": "Clone Robotics ProtoClone",
+      "topic": "general",
+      "videoSeconds": 777,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=777s",
+      "slideIndex": 4,
+      "slideTitle": "Resilience and Reliability Risks of AI autonomy (",
+      "source": "youtube"
+    },
+    {
+      "claim": "The End of Google's Search Monopoly",
+      "topic": "general",
+      "videoSeconds": 829,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=829s",
+      "slideIndex": 5,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "Grok 5 is planned to be released in Q1 of 2026",
+      "topic": "general",
+      "videoSeconds": 921,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=921s",
+      "slideIndex": 5,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Running Business",
+      "topic": "general",
+      "videoSeconds": 970,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=970s",
+      "slideIndex": 5,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "Storm MCP - open-source MCP gateway",
+      "topic": "agents",
+      "videoSeconds": 1011,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1011s",
+      "slideIndex": 5,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agent Zero (A0) open-source personal assistant",
+      "topic": "agents",
+      "videoSeconds": 1048,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1048s",
+      "slideIndex": 6,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gems",
+      "topic": "general",
+      "videoSeconds": 1084,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1084s",
+      "slideIndex": 6,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google A2UI: Agent-to-User Interface",
+      "topic": "agents",
+      "videoSeconds": 1144,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1144s",
+      "slideIndex": 6,
+      "slideTitle": "39C3 - AI Agent, AI Spy Presenters: Meredith",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba Tongyi Lab released MAI-UI",
+      "topic": "general",
+      "videoSeconds": 1215,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1215s",
+      "slideIndex": 7,
+      "slideTitle": "New York Times reporting on AI in warfare",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent WeDLM Fast Diffusion Model",
+      "topic": "multimodal",
+      "videoSeconds": 1292,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1292s",
+      "slideIndex": 7,
+      "slideTitle": "New York Times reporting on AI in warfare",
+      "source": "youtube"
+    },
+    {
+      "claim": "IQuest-Coder-V1 Open Source LLMs",
+      "topic": "open-models",
+      "videoSeconds": 1359,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1359s",
+      "slideIndex": 7,
+      "slideTitle": "New York Times reporting on AI in warfare",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ralph Loop plugin for Claude Code",
+      "topic": "coding",
+      "videoSeconds": 1450,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1450s",
+      "slideIndex": 8,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1512,
+      "videoUrl": "https://www.youtube.com/watch?v=n01-OaEiYzA&t=1512s",
+      "slideIndex": 8,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

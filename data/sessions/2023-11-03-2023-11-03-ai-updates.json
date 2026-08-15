@@ -1,0 +1,252 @@
+{
+  "id": "2023-11-03-2023-11-03-ai-updates",
+  "date": "2023-11-03",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "open-models",
+    "benchmarks",
+    "fine-tuning",
+    "rag",
+    "multimodal"
+  ],
+  "video": {
+    "id": "wIKt-34OrAU",
+    "title": "AI Updates - November 03, 2023 - LLM Long Context, Diffusion Models, Talmudic Reasoning, Self-RAG",
+    "url": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+    "thumbnail": "https://i.ytimg.com/vi/wIKt-34OrAU/hqdefault.jpg",
+    "duration": 1968
+  },
+  "deck": {
+    "path": "2023/2023-11-03-AI-Updates.pptx",
+    "filename": "2023-11-03-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-11-03-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-11-03-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates November 03, 2023 Long Context Models",
+      "text": "AI Updates November 03, 2023 Long Context Models Diffusion Models Diffusion Model for Code Generation Ollama Updates Talmudic Reasoning Self-RAG Typical Python modules used for model fine-tuning"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Rank Model Aver Precision Nparam 0 GPT-4 84.30 16bit 1800 1 ValiantLabs/ShiningValiant 74.17 16bit 70 2 ICBU-NPU/FashionGPT-70B-V1.2 74.11 16bit 70 41 GPT-3.5 71.90 16bit 175 57 garage-bAInd/Camel-Platypus2-70B 71.36 8bit 70 62 lloorree/jfdslijsijdgis 70.99 4bit 70 107 tiiuae/falcon-180B 68.74 16bit 180 141 Undi95/Mistral-11B-TestBench11 67.21 16bit 11 147 ehartford/dolphin-2.1-mistral-7b 67.06 16bit 7 155 meta-llama/Llama-2-70b-chat-hf 66.80 16bit 70 165 Weyaxi/SlimOpenOrca-Mistral-7B 66.54 16bit 7 177 Aspik101/trurl-2-13b-pl-instruct_unload 66.03 16bit 13 183 Open-Orca/Mistral-7B-OpenOrca 65.84 16bit 7 357 Open-Orca/OpenOrca-Platypus2-13B 63.19 4bit 13 422 mistralai/Mistral-7B-v0.1 62.40 16bit 7 988 joehuangx/spatial-vicuna-7b-v1.5-LoRA 55.72 4bit 7 1870 baseline 25.00 nan 0"
+    },
+    {
+      "index": 4,
+      "title": "Yarn-Mistral-7b-128k Nous-Yarn-Mistral-7b-128k is an extension of Mistral-7B-v0.1 and",
+      "text": "Yarn-Mistral-7b-128k Nous-Yarn-Mistral-7b-128k is an extension of Mistral-7B-v0.1 and supports a 128k token context window. It is achieved by pre-training it on long context data for 1500 steps using the YaRN extension method. https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k (base model) https://huggingface.co/NousResearch (28 team members) https://huggingface.co/TheBloke/Yarn-Mistral-7B-128k-GGUF (4bit) https://www.youtube.com/watch?v=MQD1n4FqZmU (video) YaRN: Efficient Context Window Extension of LLMs (Nov 2023) https://arxiv.org/abs/2309.00071 https://github.com/jquesnelle/yarn The graph shows that 64k and 128k models have indeed low perplexity for long texts. Perplexity is a common metric measuring how well a model predicts a sample of text. Lower perplexity indicates better generalization performance. Perplexity is related to the entropy or uncertainty of the language model. A model with lower perplexity is able to assign higher probabilities to the test set words. Lower perplexity indicates an LLM has learned better representations of language. But perplexity alone is not enough. The model needs to be evaluated on actual end applications for exposure bias, calibration, outlier tokens handling and varying test set size. Also coherence (if the output logical?) and repetition (is the output too generic and repetitive?) Almost no degradation in accuracy"
+    },
+    {
+      "index": 5,
+      "title": "Baichuan2-192K A Chinese company \" Baichuan Intelligent Technology\"",
+      "text": "Baichuan2-192K A Chinese company \" Baichuan Intelligent Technology\" has released the Baichuan2–192K large model with 192K context window, which is approx 300 pages of text - much longer than Claude2 (100K) or GPT-4 (8K - 32K). Baichuan2–192K not only surpasses Claude2 in context window length, but also leads in terms of long window text generation quality, long context understanding, long text Q&A, and summary. Available via API only (in Chinese & English) https://www.maginative.com/article/baichuan-intelligent-unveils-baichuan2-192k-claiming-new-breakthrough-with-longest-context-model/ https://medium.com/@piyushlamsoge20/baichuan-intelligent-launches-large-model-baichuan2-192k-which-can-input-350-000-words-at-a-time-eed70c51d9f9 https://huggingface.co/baichuan-inc - some small models Baichuan Intelligent has proposed an extrapolation scheme for RoPE and ALiBi dynamic position coding . This scheme can perform different degrees of Attention-mask dynamic interpolation on ALiBi position coding of different lengths , ensuring resolution while enhancing the model’s ability to model long sequence dependencies."
+    },
+    {
+      "index": 6,
+      "title": "amazon / MistralLite Amazon enters the open source",
+      "text": "amazon / MistralLite Amazon enters the open source LLM game with a RoPE fine-tuned Mistral 7B with 32k tokens context length and good accuracy! https://huggingface.co/amazon/MistralLite"
+    },
+    {
+      "index": 7,
+      "title": "Mistral 7B for 32k context and RAG https://huggingface.co/SciPhi/SciPhi-Self-RAG-Mistral-7B-32k",
+      "text": "Mistral 7B for 32k context and RAG https://huggingface.co/SciPhi/SciPhi-Self-RAG-Mistral-7B-32k https://huggingface.co/SciPhi/SciPhi-Mistral-7B-32k https://sciphi.readthedocs.io/en/latest/setup/quickstart.html https://huggingface.co/TheBloke/Mistral-7B-SciPhi-32k-GGUF Owen Colegrove https://www.linkedin.com/in/owencolegrove/ https://huggingface.co/emrgnt-cmplxty https://github.com/SciPhi-AI/sciphi https://sciphi.readthedocs.io/en/latest/ https://owencolegrove.substack.com/p/ai-can-write-near-human-level-college https://www.sciphi.ai https://twitter.com/owencolegrove SciPhi-Self-RAG-Mistral-7B-32k is a LLM fine-tuned from Mistral-7B-v0.1. This model underwent the fine-tuning process described in the SciPhi-Mistral-7B-32k model card It then underwent further fine-tuning on the recently released self-rag dataset - https://arxiv.org/abs//2310.11511 Other RAG-related instruct datasets were mixed in during this process in an effort to keep the tone of the current model This model benchmarks well, but it needs further tuning to be an excellent conversationalist. Owen Colegrove"
+    },
+    {
+      "index": 8,
+      "title": "Stable Diffusion How does Stable Diffusion work? –",
+      "text": "Stable Diffusion How does Stable Diffusion work? – Latent Diffusion Models EXPLAINED https://www.youtube.com/watch?v=J87hffSMB60 https://jalammar.github.io/illustrated-stable-diffusion/ How diffusion model works: It converts the text prompt into a embedding vector (using standard CLIP or BERT model) This text vector is combined with random noise to form the initial latent input The latent input then goes through the iterative diffusion process At each step, noise is added - and the vector is fed into the U-Net (encoder/decoder) The encoded text is injected into U-Net decoder step to guide the image generation The U-Net predicts the noise and removes it to reverse the diffusion The final output is a full spatial image, no separate decoding step is needed U-Net 75 steps (typical) youtube.com/@AICoffeeBreak"
+    },
+    {
+      "index": 9,
+      "title": "Stable Diffusion - continued Training: The model is",
+      "text": "Stable Diffusion - continued Training: The model is trained on pairs (text + image) The text is encoded into a text vector, this vector is combined with the image via concatenation or cross-attention. The fused ( text+image vector) is then used to train the diffusion model. By training on text and image together, the model learns associations between concepts in text and visual features Inference: The model starts with random latent vector and gradually modifies it through a diffusion process over multiple steps In each step it uses U-Net which works essentially as an auto-encoder (encoder - decoder) The noise is injected just before the U-Net of each step, The encoded text is injected into the decoder in each step to guide the reconstruction of the image Typical number of diffusion steps is 75 Typical size of the latent vector is 64x64x32, where 32 is the number of channels How text embedding vector may be incorporated with the image: Concatenate - channel-wise with the image feature maps Project - into the same dim. space as the image features Cross-Attention (between image and text vector) U-Net conditional input at each U-Net decoder layer https://stability.ai/blog/stable-diffusion-announcement (2022) https://arxiv.org/abs/2112.10752 - original paper (2022) https://huggingface.co/blog/annotated-diffusion - explanation https://github.com/CompVis/stable-diffusion - code https://en.wikipedia.org/wiki/Stable_Diffusion - Wikipedia"
+    },
+    {
+      "index": 10,
+      "title": "U-Net U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "text": "U-Net U-Net: Convolutional Networks for Biomedical Image Segmentation https://arxiv.org/abs/1505.04597 U-Net consists of a contracting (left) and expanding (right) paths The contracting path is a typical convolutional network that consists of repeated application of convolutions, activations, and max pooling operations to downsample the input image and extract features. The expanding path consists of upsampling the features and concatenating them with high-resolution features from the contracting path. This allows the network to propagate context information to higher resolution layers. There are skip connections between the left and right paths that concatenate feature maps of equal resolution allowing to retain fine-grained information from the left path. The network has a large number of feature channels in the upsampling part, the last layer is a 1x1 convolution that maps each component feature vector to the desired number of classes (segmentation). U-Net is trained end-to-end, pixel-to-pixel, by providing an input image and corresponding segmentation mask. The loss function (e.g. binary cross-entropy) is calculated by comparing the predicted and true segmentation masks."
+    },
+    {
+      "index": 11,
+      "title": "Stable Diffusion XL (SDXL-1.0 released July 2023) https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "text": "Stable Diffusion XL (SDXL-1.0 released July 2023) https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0 https://arxiv.org/abs/2211.01324 - ensemble of experts https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0 https://arxiv.org/abs/2108.01073 - SDEdit (guided image synthesis) SDXL consists of an ensemble of experts pipeline for latent diffusion: In a first step, the base model is used to generate (noisy) latents, which are then further processed with a refinement model for the final denoising steps Alternatively, we can use a specialized high-resolution model on the 2nd step and apply a technique called SDEdit (img2img) to the latents generated in the first step, using the same prompt"
+    },
+    {
+      "index": 12,
+      "title": "VQGAN Some Stable Diffusion models can accept image",
+      "text": "VQGAN Some Stable Diffusion models can accept image as an input. They can use both VQGAN and U-Net. VQGAN (Vector Quantized Variational Autoencoder GAN) is used to encode the input image into a discrete latent space. The encoded latent vector is then passed to the U-Net decoder which up-samples it and generates the output image. So in summary: VQGAN compresses the image into a small latent vector U-Net uses that vector to generate the output image Adding Gaussian noise to images in Stable Diffusion: create a tensor with the same dimension as the input image - and populate it by sampling from a Gaussian noise with mean=0 and standard deviation 1 scale the values by a noise magnitude hyperparameter add noise tensor to input image tensor At training time use noise scheduler to steadily reduce the noise magnitude over time - thus forcing the model to learn to generate clearer images in the presence of noise At inference time, the noise magnitude can be controlled to trade-off between image quality and diversity. More noise leads to more diverse outputs. Adding Noise Segmind Stable Diffusion (SSD-1B) https://www.youtube.com/watch?v=30Z86i65UWg SSD-1B is a distilled 50% smaller version of the Stable Diffusion XL (SDXL), offering a 60% speedup while maintaining high-quality text-to-image generation capabilities It has been trained on diverse datasets using knowledge distillation strategy , teaching several expert models in succession, including SDXL, ZavyChromaXL, and JuggernautXL, to combine their strengths and produce impressive visual outputs. Model - https://huggingface.co/segmind/SSD-1B Code - https://colab.research.google.com/drive/1MYz-hpaq7ywLa7Q7-tMy4hRcPB1-CQrN"
+    },
+    {
+      "index": 13,
+      "title": "Install & run Stable Diffusion https://stable-diffusion-art.com/sdxl-model/ - Windows,",
+      "text": "Install & run Stable Diffusion https://stable-diffusion-art.com/sdxl-model/ - Windows, (app, 3.5B params base model + 6.6B refiner model), requires 16GB RAM, 8GB VRAM https://stable-diffusion-art.com/install-windows/ - https://stable-diffusion-art.com/install-mac/ Draw Things - a Mac app https://apps.apple.com/us/app/draw-things-ai-generation/id6444050820 Diffusers - a Mac app by HuggingFace https://apps.apple.com/us/app/diffusers/id1666309574 DiffusionBee - a Mac app https://diffusionbee.com/download AUTOMATIC1111 - python, rust, browser: brew install cmake protobuf rust python@3.10 git wget git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui. follow install instructions use UI at http://127.0.0.1:7860/"
+    },
+    {
+      "index": 14,
+      "title": "CodeFusion: A Pre-trained Diffusion Model for Code Generation",
+      "text": "CodeFusion: A Pre-trained Diffusion Model for Code Generation https://arxiv.org/abs/2310.17680 Imagine a developer who can only change their last line of code? Auto-regressive LLM models have a similar limitation We introduce CodeFusion , a pre-trained diffusion code generation model that addresses this limitation by iteratively denoising a complete program conditioned on the encoded natural language CodeFusion was evaluating for Bash, Python, and Microsoft Excel conditional formatting (CF) rules Experiments show that CodeFusion (75M parameters) performs on par with state-of-the-art auto-regressive systems (350M-175B parameters) in top-1 accuracy; and outperforms them in top-3 and top-5 accuracy due to its better balance in diversity versus quality."
+    },
+    {
+      "index": 15,
+      "title": "Ollama Updates Dolphin 2.1 Mistral is an instruct-tuned",
+      "text": "Ollama Updates Dolphin 2.1 Mistral is an instruct-tuned model based on Mistral by Eric Hartford that is uncensored and licensed for both commercial and non-commercial use. OpenHermes 2 Mistral is a new fine-tuned model based on Mistral, trained on open datasets totalling over 900,000 instructions. This model has strong multi-turn chat skills, surpassing previous Hermes 13B models and even matching 70B models on some benchmarks. Zephyr is a fine-tuned 7B version of mistral that was trained on a mix of publicly available, synthetic datasets and performs as well as Llama 2 70B in many benchmarks. Mistral OpenOrca is a 7 billion parameter model fine-tuned on top of the Mistral 7B model using the OpenOrca dataset."
+    },
+    {
+      "index": 16,
+      "title": "Misc Transcribe 5 hours of audio in 10",
+      "text": "Misc Transcribe 5 hours of audio in 10 minutes with OpenAI’s Whisper Large v2 https://huggingface.co/openai/whisper-large-v2 https://github.com/Vaibhavs10/insanely-fast-whisper President Biden has issued a first US government regulation on AI, specifically on AI safety Developers of higher-risk AI must share the results of safety testing and risk assessments with the government before public release Federal agencies must create standards for responsible AI development, including labeling AI-generated content Specific anti-discrimination measures in areas like housing and benefits programs potentially using biased algorithms Criticism: no strong enforcement mechanisms, no tools to address immediate disinformation threats Optimists have a life span 11-15% longer than pessimists PocketLLM - local app for RAG semantic search https://www.thirdai.com/pocketllm/ How many LLM startups have you founded this week so far? Google agreed to invest up to $2 Bln in Anthropic ($500 Mln upfront). Anthropic, the creator of the Claude 2 chatbot, was valued earlier this year at $4.1 Bln Microsoft - Enterprise Co-pilot for Office 365 (300+ users at $30/ mo per user) - dedicated AI servers in Azure cloud https://www.cnet.com/tech/services-and-software/microsoft-365-copilot-ai-tool-will-cost-30-per-month-launching-nov-1/ Practical RAG Application Design https://pub.towardsai.net/practical-considerations-in-rag-application-design-b5d5f0b2d19b#04a3"
+    },
+    {
+      "index": 17,
+      "title": "Improving AI Accuracy - The Talmudic Reasoning Word",
+      "text": "Improving AI Accuracy - The Talmudic Reasoning Word \"Talmud\" = \"Study\", \"Instruction\", \"Learning\" The Talmud is a compendium of Jewish law, stories, ethics, and debates The Talmudic way of learning is asking questions The method of study reflects a deep emphasis on analytical thinking, critical questioning, and dialogue Layered Questions - diving deeper into nuances Challenging Assumptions (ask \"why ?\") Dialogical Approach (\"chevruta\" = partnership), students debate Using Hypothetical scenarios (ask \"what if ?\") to explore different angles of a topic Comparing Cases: \"How is this case different from that one?\" or \"If in this situation we rule this way, then what about in that situation?\" Seeking Sources (\"What is the source for this?\" or \"Where do we learn this from?\" ) Practical Implications (\"How does this apply in practice?\" or \"What should one do in such a situation?\") Clarifying Terminology (clarify definitions or the meaning of specific words) Analyzing Logic and Reasoning - ask about the logical progression or reasoning behind a particular statement or ruling, delving into the underpinnings of a given argument. Emphasizing Context - understanding the broader context, probe the broader setting or background Idea - use Talmud texts as training data for an LLM. For example, fine-tune Mistral model"
+    },
+    {
+      "index": 18,
+      "title": "weekly ML terms Active learning - the algorithm",
+      "text": "weekly ML terms Active learning - the algorithm asks for user labeling. First, the algorithm is trained on a small labeled dataset. Then algorithm tries to automatically label a bigger  dataset calculating a confidence score for each row. The human is then manually labels the rows with low scores. Then the algorithm is re-trained, re-calculates scores, etc. Active learning aims to minimize the number of labels needed to achieve high accuracy. Use cases: classification (text, image), information retrieval, stream-based selective sampling (selecting which example to label from an incoming unlabeled dataset) Bandit frameworks - named after casino slot machines called \"one-armed bandits\". Pulling an arm of the machine may give a reward. The learner repeatedly selects from a set of options (arms of a bandit) to learn the probabilities (distributions). The learner must balance exploiting options with higher observed rewards so far vs. exploring less tested options to get better estimates (exploration-exploitation tradeoff in sequential decision making). Multi-armed bandits - having unknown reward distributions Contextual bandits - receive extra context info). Bayesian bandits - treat unknown reward distributions as priors and update beliefs about them as rewards are observed Adversarial bandits - environment provides rewards in an adversarial manner rather than stochastic. Exploitation is risky so more exploration is needed. Algorithms: epsilon-greedy (epsilon is the probability of choosing exploration, it decreases with time) UCB1 (Upper Confidence Bound 1) - simple algorithm for balancing exploration and exploitation Thompson sampling - handles exploration/exploitation trade-off automatically through random sampling Causal inference - drawing conclusions about cause-effect relationships (not just association or correlation). It is done by developing and analyzing a causal model. The model is then tested via randomized controlled trials. Important to control for confounding factors that could influence the relationship between variables. Methods include matching, propensity score analysis, and instrumental variables. Use cases - medicine, social sciences, economics, public policy. Challenges involve unmeasured confounding factors and the complexity of causal mechanisms in the real world."
+    },
+    {
+      "index": 19,
+      "title": "Self-RAG Self-RAG: Learning to Retrieve, Generate, and Critique",
+      "text": "Self-RAG Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection https://arxiv.org/abs//2310.11511 https://arxiv.org/pdf/2310.11511.pdf (Univ. of Washington & IBM) Despite their remarkable capabilities, large language models (LLMs) often produce responses containing factual inaccuracies due to their sole reliance on the parametric knowledge they encapsulate. Retrieval-Augmented Generation (RAG), an ad hoc approach that augments LMs with retrieval of relevant knowledge, decreases such issues. However, indiscriminately retrieving and incorporating a fixed number of retrieved passages, regardless of whether retrieval is necessary, or passages are relevant, diminishes LM versatility or can lead to unhelpful response generation. We introduce a new framework called Self-Reflective Retrieval-Augmented Generation (Self-RAG) that enhances an LM's quality and factuality through retrieval and self-reflection. Our framework trains a single arbitrary LM that adaptively retrieves passages on-demand, and generates and reflects on retrieved passages and its own generations using special tokens, called reflection tokens . Generating reflection tokens makes the LM controllable during the inference phase, enabling it to tailor its behavior to diverse task requirements. Experiments show that Self-RAG (7B and 13B parameters) significantly outperforms state-of-the-art LLMs and retrieval-augmented models on a diverse set of tasks. Specifically, Self-RAG outperforms ChatGPT and retrieval-augmented Llama2-chat on Open-domain QA, reasoning and fact verification tasks, and it shows significant gains in improving factuality and citation accuracy for long-form generations relative to these models."
+    },
+    {
+      "index": 20,
+      "title": "Typical modules used for model fine-tuning # Typical",
+      "text": "Typical modules used for model fine-tuning # Typical requirements for fine-tuning !pip install -q -U bitsandbytes !pip install -q -U git+https://github.com/huggingface/transformers.git !pip install -q -U git+https://github.com/huggingface/peft.git !pip install -q -U git+https://github.com/huggingface/accelerate.git !pip install -q datasets bitsandbytes - a lightweight wrapper around CUDA custom functions, in particular 8-bit optimizers, matrix multiplication (LLM.int8()), and quantization functions https://github.com/facebookresearch/bitsandbytes - moved to: https://github.com/TimDettmers/bitsandbytes https://pypi.org/project/bitsandbytes/ HuggingFace modules: transformers - https://github.com/huggingface/transformers peft - https://github.com/huggingface/peft - Parameter-Efficient Fine-Tuning (PEFT) methods accelerate - https://github.com/huggingface/accelerate - run PyTorch training on different GPUs, TPU, fp16 datasets - https://github.com/huggingface/datasets - data loading and pre-processing (from HuggingFace and local)"
+    },
+    {
+      "index": 21,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates November 03, 2023 Long Context Models",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates November 03, 2023 Long Context Models",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 3,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "Yarn-Mistral-7b-128k Nous-Yarn-Mistral-7b-128k is an extension of Mistral-7B-v0.1 and",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 4,
+      "slideTitle": "Yarn-Mistral-7b-128k Nous-Yarn-Mistral-7b-128k is an extension of Mistral-7B-v0.1 and",
+      "source": "slide"
+    },
+    {
+      "claim": "Baichuan2-192K A Chinese company \" Baichuan Intelligent Technology\"",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 5,
+      "slideTitle": "Baichuan2-192K A Chinese company \" Baichuan Intelligent Technology\"",
+      "source": "slide"
+    },
+    {
+      "claim": "amazon / MistralLite Amazon enters the open source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 6,
+      "slideTitle": "amazon / MistralLite Amazon enters the open source",
+      "source": "slide"
+    },
+    {
+      "claim": "Mistral 7B for 32k context and RAG https://huggingface.co/SciPhi/SciPhi-Self-RAG-Mistral-7B-32k",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 7,
+      "slideTitle": "Mistral 7B for 32k context and RAG https://huggingface.co/SciPhi/SciPhi-Self-RAG-Mistral-7B-32k",
+      "source": "slide"
+    },
+    {
+      "claim": "Stable Diffusion How does Stable Diffusion work? –",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 8,
+      "slideTitle": "Stable Diffusion How does Stable Diffusion work? –",
+      "source": "slide"
+    },
+    {
+      "claim": "Stable Diffusion - continued Training: The model is",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 9,
+      "slideTitle": "Stable Diffusion - continued Training: The model is",
+      "source": "slide"
+    },
+    {
+      "claim": "U-Net U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 10,
+      "slideTitle": "U-Net U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "source": "slide"
+    },
+    {
+      "claim": "Stable Diffusion XL (SDXL-1.0 released July 2023) https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 11,
+      "slideTitle": "Stable Diffusion XL (SDXL-1.0 released July 2023) https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "source": "slide"
+    },
+    {
+      "claim": "VQGAN Some Stable Diffusion models can accept image",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wIKt-34OrAU",
+      "slideIndex": 12,
+      "slideTitle": "VQGAN Some Stable Diffusion models can accept image",
+      "source": "slide"
+    }
+  ]
+}

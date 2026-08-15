@@ -1,0 +1,223 @@
+{
+  "id": "2023-08-18-2023-08-18-ai-updates-lev",
+  "date": "2023-08-18",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "general",
+    "openai",
+    "open-models",
+    "benchmarks",
+    "ml-fundamentals",
+    "agents",
+    "infra"
+  ],
+  "video": {
+    "id": "3ZdpLwoPEuQ",
+    "title": "AI Updates - August 18, 2023",
+    "url": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+    "thumbnail": "https://i.ytimg.com/vi/3ZdpLwoPEuQ/hqdefault.jpg",
+    "duration": 855
+  },
+  "deck": {
+    "path": "2023/2023-08-18-AI-Updates-Lev.pptx",
+    "filename": "2023-08-18-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-18-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-18-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates August 18, 2023 Presented by Lev",
+      "text": "AI Updates August 18, 2023 Presented by Lev Selector August 18, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data crypto, accounting cloud architecture, fin-tech, application security Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "You Need to be Constantly Learning Things are",
+      "text": "You Need to be Constantly Learning Things are changing fast. How do you survive? You Need to be Constantly Learning - aggressively, proactively. Also you need to practice what you learn. Be clumsy and helpless - and get better and confident. It takes time and effort - but you need to do that. Join a group or create a group to learn and practice together. Your college education is almost completely irrelevant. You win by learning and practicing by yourself. New Things: Learn Practice Apply \"School never ends for the Pro\" \"School is always in session\""
+    },
+    {
+      "index": 4,
+      "title": "Professions being Outsourced to AI Graphic Designers Translators",
+      "text": "Professions being Outsourced to AI Graphic Designers Translators & Interpreters Manufacturing and Assembly-lines jobs Data Entry and Data Processing Accounting Customer Service, Telemarketers, Call Centers Proof-reading, copy-editing Market Research Analysts Marketing & Advertising Legal Assistance Financial Planners and Tax Preparers Junior Software Developers Warehouse work (example - Amazon shipping) Driving (trucks, taxi, train, subway) Retail (sales people, cashiers, MacDonalds order taking, Postal Service clerks, etc) \"Safe from AI\" Jos: AI doesn't have social or emotional intelligence. So it can't replace people in jobs that require empathy, and complex political and strategic roles Surgeons Nurses (patient care, emotional support) Therapists, Physical Therapists Social workers Elementary School Teachers (despite AI education) Research Scientists Chefs Hairdressers"
+    },
+    {
+      "index": 5,
+      "title": "Recycle GPT Recycle GPT - idea of caching",
+      "text": "Recycle GPT Recycle GPT - idea of caching and re-using (recycling) intermediate results in LLM https://www.youtube.com/watch?v=J7v2MIE_xls # 95 - Open-Orca/OpenOrca-Platypus2-13B https://www.youtube.com/watch?v=N-qaMCwqRHI small - only 13b parameters a merge between OpenOrca and Platypus2 the performance is comparable with 65b models Small - but powerful model - ORCAS = Open Resource for Click Analysis in Search ( paper 2020, https://arxiv.org/abs/2006.05324 ) - Orca : Progressive Learning from Complex Explanation Traces of GPT-4 ( paper June 2023, https://arxiv.org/abs/2306.02707 ) - Open Orca Dataset Released! ( June 2023, ttps://huggingface.co/datasets/Open-Orca/OpenOrca ) Number of models in HuggingFace LLM Leaderboard: 885 models https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Curated dataset Open-Platypus \"Platypus: Quick, Cheap, and Powerful Refinement of LLMs\" https://platypus-llm.github.io Orca Platypus (duck-billed) - semiaquatic, egg-laying mammal (Australia, Tasmania)"
+    },
+    {
+      "index": 6,
+      "title": "Google AdaTape, Google IDX Google Project IDX Create",
+      "text": "Google AdaTape, Google IDX Google Project IDX Create Code in a Browser New tool for building, managing and deploying web and multiplatform applications in the cloud https://www.techrepublic.com/article/google-cloud-new-project-idx/ Google AdaTape - a Transformer-based model architecture that uses a dynamic set of tokens to create elastic input sequences. .. https://ai.googleblog.com/2023/08/adatape-foundation-model-with-adaptive.html AdaTape uses an adaptive tape reading mechanism to determine a varying number of tape tokens that are added to each input based on input’s complexity. AdaTape is very simple to implement, provides an effective knob to increase the accuracy when needed, but is also much more efficient compared to other adaptive baselines because it directly injects adaptivity into the input sequence instead of the model depth. Adatape offers better performance on standard tasks, like image classification, as well as algorithmic tasks, while maintaining a favorable quality and cost tradeoff."
+    },
+    {
+      "index": 7,
+      "title": "Tool-LLM - much more powerful than Gorilla Tool-LLM",
+      "text": "Tool-LLM - much more powerful than Gorilla Tool-LLM : follow human instructions to use external tools (APIs) working with over 16,000 real-world APIs from https://rapidapi.com/hub Meta + Microsoft + Stanford + UC Berkeley can interact with various online services can adapt to new APIs available on GitHub much more powerful than Gorilla https://www.youtube.com/watch?v=N4R5BBb0o9g https://www.youtube.com/watch?v=DrFb_ogjVk0 https://huggingface.co/papers/2307.16789 https://github.com/OpenBMB/ToolBench - https://arxiv.org/abs/2307.16789 - paper https://gorilla.cs.berkeley.edu ToolBench - an instruction-tuning dataset for tool use. It is created automatically using ChatGPT from 16,464 real-world RESTful APIs spanning 49 categories from RapidAPI Hub. We prompt ChatGPT to generate diverse human instructions involving these APIs, then use ChatGPT to search for a valid solution path (chain of API calls) for each instruction. DFSDT (depth-first search-based decision tree ) - evaluate multiple reasoning traces and expand the search space. ToolLLaMA - LLaMA fine-tuned on ToolBench . ToolEval - automatic evaluator of tools, shows that ToolLLaMA demonstrates a remarkable ability to execute complex instructions and generalize to unseen APIs, and exhibits comparable performance to ChatGPT."
+    },
+    {
+      "index": 8,
+      "title": "Cerebras Company: Cerebras Condor Galaxy 1 Supercomputer -",
+      "text": "Cerebras Company: Cerebras Condor Galaxy 1 Supercomputer - 4 ExaFLOPs https://www.cerebras.net/blog/introducing-condor-galaxy-1-a-4-exaflop-supercomputer-for-generative-ai/ https://www.youtube.com/watch?v=7KJibx077bE Cerebras WSE-2 is ~100 times faster than NVIDIA H100 chip Financed by Group G42 (Abu Dhabi, UAE) Condor Galaxy Phase 1 Done Phase 2 Q4 2023 Phase 3 H1 2024 Phase 4 H2 2024 ExaFLOPS 2 4 12 36 # CS-2 32 64 192 576 # Centers 1 1 3 9 Milestone Largest CS-2 setup First 64-node Cerebras AI supercomputer First distrib. super-computer network Largest distrib. supercomputer network"
+    },
+    {
+      "index": 9,
+      "title": "Miscellaneous Saudi Arabia and the United Arab Emirates",
+      "text": "Miscellaneous Saudi Arabia and the United Arab Emirates have joined the AI arms race, buying up thousands of Nvidia chips. Cerebras is financed by Group G42 (Abu Dhabi, UAE). G42 is shelling out $100 million to Cerebras to have it build and manage a 32-node CS-2 cluster, known as Condor Galaxy-1 Saudi Arabia has also launched a program to educate 30,000 students in AI. Alpaca Fine-tuned small variations of LLaMa Alpaca - 7b model from Stanford https://crfm.stanford.edu/2023/03/13/alpaca.html https://github.com/tatsu-lab/stanford_alpaca Vicuna 13b chatbot (better than Alpaca): https://lmsys.org/blog/2023-03-30-vicuna/ WizardLM https://github.com/nlpxucan/WizardLM Vicuna"
+    },
+    {
+      "index": 10,
+      "title": "Hosted LLMs https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526 Self-hosted LLM: more privacy, full",
+      "text": "Hosted LLMs https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526 Self-hosted LLM: more privacy, full control, no external dependencies OpenAI: quick development, low cost, minimal infra setup, top quality Example self-hosting for for LLaMA-2–70B (on-par with GPT-3.5) on AWS or Google: 8x Nvidia A100 g5.48xlarge on AWS      ($17K/mo) a2-megagpu-16g on GCP   ($6K/mo) OpenAI is cheaper for less than 10K requests/day OpenAI’s Terms of Use mentions that they “may use Content from Services other than our API ... to help develop and improve our Services”. This means that anything you send to ChatGPT, will be included in their training data. Azure OpenAI Service - provide private hosting. On-Prem solution may be the cheapest"
+    },
+    {
+      "index": 11,
+      "title": "GPU-Accelerated LLM on a $100 Orange Pi https://blog.mlc.ai/2023/08/09/GPU-Accelerated-LLM-on-Orange-Pi",
+      "text": "GPU-Accelerated LLM on a $100 Orange Pi https://blog.mlc.ai/2023/08/09/GPU-Accelerated-LLM-on-Orange-Pi A $100 Orange Pi 5 with Mali GPU, achieve 2.5 tok/sec for Llama2-7b and 5 tok/sec for RedPajama-3b through Machine Learning Compilation (MLC) techniques. Additionally, Llama-2 13b model at 1.5 tok/sec on a 16GB version of the Orange Pi 5+ under $150."
+    },
+    {
+      "index": 12,
+      "title": "Run Large LLMs on Small Computers Andrej Karpathy",
+      "text": "Run Large LLMs on Small Computers Andrej Karpathy \"How is LLaMa.cpp possible?\" great post by @finbarrtimbers https://finbarr.ca/how-is-llama-cpp-possible/ \"llama.cpp surprised many people (myself included) with how quickly you can run large LLMs on small computers, e.g. 7B runs @ ~16 tok/s on a MacBook. https://github.com/ggerganov/llama.cpp https://twitter.com/karpathy/status/1691571869051445433 Let's take a look: A100: 1935 GB/s memory bandwidth, 1248 TOPS MacBook M2: 100 GB/s, 7 TFLOPS The compute is ~200x, but the memory bandwidth only ~20x. So the little M2 chip that could will only be about ~20X slower than a mighty A100. This is ~10X faster than you might naively expect just looking at ops."
+    },
+    {
+      "index": 13,
+      "title": "Amazon is planning to use Generative AI to",
+      "text": "Amazon is planning to use Generative AI to provide summaries of customer reviews ... will use the new technology to provide a short paragraph of text right on the product detail page that will highlight the product features and customer sentiment mentioned across the customer reviews. In addition to the summary text, Amazon will also highlight key product attributes as clickable buttons - allowing to see reviews talking about these attributes. https://techcrunch.com/2023/08/14/amazon-taps-generative-ai-to-enhance-product-reviews/"
+    },
+    {
+      "index": 14,
+      "title": "7 Frameworks for Serving LLMs Compare several Open-Source",
+      "text": "7 Frameworks for Serving LLMs Compare several Open-Source Framework for LLM deploying and serving https://betterprogramming.pub/frameworks-for-serving-llms-60b7f7b23407 vLLM https://github.com/vllm-project/vllm"
+    },
+    {
+      "index": 15,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates August 18, 2023 Presented by Lev",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates August 18, 2023 Presented by Lev",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "You Need to be Constantly Learning Things are",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 3,
+      "slideTitle": "You Need to be Constantly Learning Things are",
+      "source": "slide"
+    },
+    {
+      "claim": "Professions being Outsourced to AI Graphic Designers Translators",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 4,
+      "slideTitle": "Professions being Outsourced to AI Graphic Designers Translators",
+      "source": "slide"
+    },
+    {
+      "claim": "Recycle GPT Recycle GPT - idea of caching",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 5,
+      "slideTitle": "Recycle GPT Recycle GPT - idea of caching",
+      "source": "slide"
+    },
+    {
+      "claim": "Google AdaTape, Google IDX Google Project IDX Create",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 6,
+      "slideTitle": "Google AdaTape, Google IDX Google Project IDX Create",
+      "source": "slide"
+    },
+    {
+      "claim": "Tool-LLM - much more powerful than Gorilla Tool-LLM",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 7,
+      "slideTitle": "Tool-LLM - much more powerful than Gorilla Tool-LLM",
+      "source": "slide"
+    },
+    {
+      "claim": "Cerebras Company: Cerebras Condor Galaxy 1 Supercomputer -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 8,
+      "slideTitle": "Cerebras Company: Cerebras Condor Galaxy 1 Supercomputer -",
+      "source": "slide"
+    },
+    {
+      "claim": "Miscellaneous Saudi Arabia and the United Arab Emirates",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 9,
+      "slideTitle": "Miscellaneous Saudi Arabia and the United Arab Emirates",
+      "source": "slide"
+    },
+    {
+      "claim": "Hosted LLMs https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526 Self-hosted LLM: more privacy, full",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 10,
+      "slideTitle": "Hosted LLMs https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526 Self-hosted LLM: more privacy, full",
+      "source": "slide"
+    },
+    {
+      "claim": "GPU-Accelerated LLM on a $100 Orange Pi https://blog.mlc.ai/2023/08/09/GPU-Accelerated-LLM-on-Orange-Pi",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 11,
+      "slideTitle": "GPU-Accelerated LLM on a $100 Orange Pi https://blog.mlc.ai/2023/08/09/GPU-Accelerated-LLM-on-Orange-Pi",
+      "source": "slide"
+    },
+    {
+      "claim": "Run Large LLMs on Small Computers Andrej Karpathy",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 12,
+      "slideTitle": "Run Large LLMs on Small Computers Andrej Karpathy",
+      "source": "slide"
+    }
+  ]
+}

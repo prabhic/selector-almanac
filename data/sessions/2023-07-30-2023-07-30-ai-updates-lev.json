@@ -1,0 +1,266 @@
+{
+  "id": "2023-07-30-2023-07-30-ai-updates-lev",
+  "date": "2023-07-30",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "open-models",
+    "benchmarks",
+    "multimodal",
+    "agents"
+  ],
+  "video": {
+    "id": "xA9VuOMVbiI",
+    "title": "AI Updates July 30, 2023",
+    "url": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+    "thumbnail": "https://i.ytimg.com/vi/xA9VuOMVbiI/hqdefault.jpg",
+    "duration": 1402
+  },
+  "deck": {
+    "path": "2023/2023-07-30-AI-Updates-Lev.pptx",
+    "filename": "2023-07-30-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-07-30-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-07-30-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates July 30, 2023 Presented by Lev",
+      "text": "AI Updates July 30, 2023 Presented by Lev Selector July 30, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data crypto, accounting cloud architecture, fin-tech, application security Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "LLaMa V2 is very close to ChatGPT-3 This",
+      "text": "LLaMa V2 is very close to ChatGPT-3 This is huge: Llama-v2 is open source, with a license that authorizes commercial use! Llama-v2 is available on Microsoft Azure and will be available on AWS, Hugging Face, etc Three sizes: 7B, 13B, 70B parameters Llama2 is free for companies with fewer than 700 million monthly active users Larger companies need to seek a license from Meta Microsoft made a deal with Meta - Microsoft is now a preferred partner of LLaMa https://ai.meta.com/llama/ https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/"
+    },
+    {
+      "index": 4,
+      "title": "Open LLM Leaderboard July 18 - 355 models",
+      "text": "Open LLM Leaderboard July 18 - 355 models July 26 - 465 models July 28 - 473 models Top positions are occupied by LLaMa 2 based models https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard FreeWilly2, Emad Mostaque Stable Beluga https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models The 1st position - Stability.ai StableBeluga2 (formely known as FreeWilly2 ) It is a Llama2 70B model fine tuned on an Orca style Dataset Falcon-40b drops from 1st to 32-nd place The top quality grew from 63.4 to 71.4 in less than a month!"
+    },
+    {
+      "index": 5,
+      "title": "ChatGPT-4 was downgraded? Or made safer? There was",
+      "text": "ChatGPT-4 was downgraded? Or made safer? There was a lot of complaints recently that ChatGPT-4 was downgraded. Starting at approx. May 13 people were complaining that the model often mis-understand the questions, hallucinates the answers (gives wrong answers), forgets the context (history of previous messages), etc. Many people are unhappy because OpenAI has not informed paid users about downgrades. Some people have cancelled tier \"Plus\" subscriptions. These changes may be the result of multiple upgrades aiming to make the models more \"safe\". This paper has a detailed analysis: https://arxiv.org/abs/2307.09009 - \"How is ChatGPT's behavior changing over time?\" by Lingjiao Chen, Matei Zaharia, James Zou (Stanford & Berkeley) It looks like OpenAI is rolling out a new update on July 20 which fixes many problems and adds new features - like the Custom Instructions feature which allows users set their individual preferences or requirements: https://community.openai.com/t/has-there-been-a-recent-decrease-in-gpt-4-quality/207392/44 https://community.openai.com/t/gpt-4-has-been-severely-downgraded-topic-curation/304946/31 https://www.reddit.com/r/ChatGPT/comments/157j6ly/what_can_you_add_to_custom_instructions_so_that/"
+    },
+    {
+      "index": 6,
+      "title": "Stability AI SDXL 1.0 Jly 26, 2023 -",
+      "text": "Stability AI SDXL 1.0 Jly 26, 2023 - stability.ai released the latest text-to-image model SDXL 1.0 https://stability.ai/blog/stable-diffusion-sdxl-1-announcement SDXL 1.0 has a 3.5B parameter base model and a 6.6B parameter refiner"
+    },
+    {
+      "index": 7,
+      "title": "LangChain Examples LangChain for LLM Application Development -",
+      "text": "LangChain Examples LangChain for LLM Application Development - Coursera Course available as a YouTube playlist - ~ 1.5 hours total https://www.youtube.com/watch?v=qmOMYbwpcEA&list=PLAotbPmT6dL0WRA9ywPAsch26SU0X9AOg LangChain is Open Source library of tools to work with LLMs I asked Google Bard: I have APIs to ten different charts. For example, \"cash flow chart\", \"Revenues chart\", etc. Each API function can accept parameters, for example: period_start, period_end, granularity (by year, by month, by week, by day), etc. Give me example of python code using Langchain that will convert text from Natural Language prompt into execution of one of those API functions with parameter values provided in the prompt import langchain import requests # ----------------------------------------------------- def get_chart(agent, chart_name, period_start, period_end, granularity): url = \"https://api.example.com/charts/\" + chart_name params = { \"period_start\": period_start, \"period_end\": period_end, \"granularity\": granularity, } response = requests.get(url, params=params) if response.status_code == 200: return response.json() else: return None # ----------------------------------------------------- agent = langchain.LangChainAgent() agent.register_action(\"get_chart\", get_chart) while True: prompt = agent.listen() chart_name, period_start, period_end, granularity = \\ agent.parse_prompt(prompt) chart = get_chart(agent, chart_name, period_start, period_end, granularity) if chart: print(chart) else: print(\"Error getting chart\")"
+    },
+    {
+      "index": 8,
+      "title": "ChatGPT to create Excel Use ChatGPT to guide",
+      "text": "ChatGPT to create Excel Use ChatGPT to guide you step by step (go to this menu, click on this option, etc.) - example of creating an Excel dashboard with multiple charts: https://www.youtube.com/watch?v=mp18miYmmJY"
+    },
+    {
+      "index": 9,
+      "title": "NVIDIA Grace Hopper CPU+GPU Nvidia has created its",
+      "text": "NVIDIA Grace Hopper CPU+GPU Nvidia has created its new chip by titly combining CPU and GPU: Grace CPU & Hopper GPU (both named after Grace Hopper, a pioneer of computer programming The NVIDIA Grace CPU Superchip - 144 cores, 1 TB/s memory bandwidth Works with Hopper GPU H100 Grace Hopper (1906-1992) New York City Yale math (1934) Vassar College Navy Reserves  (1943) Helped to create UNIVAC (Universal Automatic Computer) (1952) Invented first linker (1952) Coined the word “bug” Mother of COBOL"
+    },
+    {
+      "index": 10,
+      "title": "Microsoft CoDi Composable Diffusion (CoDi) - a novel",
+      "text": "Microsoft CoDi Composable Diffusion (CoDi) - a novel generative model capable of generating any combination of output modalities, such as language, image, video, or audio, from any combination of input modalities https://github.com/microsoft/i-Code/tree/main/i-Code-V3 https://codi-gen.github.io"
+    },
+    {
+      "index": 11,
+      "title": "Meta CM3LEON - Open Source Text-to-Image CM3LEON (pronounced",
+      "text": "Meta CM3LEON - Open Source Text-to-Image CM3LEON (pronounced like \"chameleon\") is the first multimodal model trained with a recipe adapted from text-only language models https://ai.meta.com/blog/generative-ai-text-images-cm3leon/ CM3Leon is a transformer-based autoregressive model designed for multi-modal tasks, specifically text and image generation Two-stage training: pretraining and supervised fine-tuning Contrastive decoding for enhanced sample quality"
+    },
+    {
+      "index": 12,
+      "title": "Apple ChatGPT ? Bloomberg July 19, 2023: Apple",
+      "text": "Apple ChatGPT ? Bloomberg July 19, 2023: Apple tests \"Apple GPT\" - develops generative AI tools to catch OpenAI Company builds large language models and internal chatbot Executives haven’t decided how to release tools to consumers Apple is focused on trying to address potential privacy concerns https://www.bloomberg.com/news/articles/2023-07-19/apple-preps-ajax-generative-ai-apple-gpt-to-rival-openai-and-google#xj4y7vzkg"
+    },
+    {
+      "index": 13,
+      "title": "Text-to-Video ModelScope from Google AI, first presented at",
+      "text": "Text-to-Video ModelScope from Google AI, first presented at 2022 Conference on Neural Information Processing Systems (NIPS). Try it on Hugging Face: https://huggingface.co/spaces/damo-vilab/modelscope-text-to-video-synthesis Google Runway - Google AI for creative work Gen-2 allows anyone to create full videos from text It is based Deep Learning model trained on pairs (video, description) and works with objects, actions, emotions https://runwayml.com - RunwayML is a platform for publishing open source, pre-trained machine learning models, as well as for training your own models. https://runwayml.com/text-to-video/ https://research.runwayml.com/gen2 Text2Video-Zero - first presented at the 2023 International Conference on Computer Vision (ICCV) https://github.com/Picsart-AI-Research/Text2Video-Zero There's an AI for That: https://theresanaiforthat.com"
+    },
+    {
+      "index": 14,
+      "title": "Zappier https://zapier.com Zapier is an online no-code automation",
+      "text": "Zappier https://zapier.com Zapier is an online no-code automation tool to connect your web apps and services Zapier supports over 4,000 apps, so you can automate just about any task or workflow For example: .. automatically add new leads to your CRM when they sign up for your email list, send follow up emails .. Send a Slack message when a new ticket is created in your helpdesk .. Automatically post new blog posts to your social media accounts .. automatically send out email newsletters or social media posts .. automate customer service - create new tickets, send responses .. automate productivity tasks and reminders Zapier has a library of pre-built automations that you can use as templates To start: create an account, connect your apps, start building Zaps (Zap = automated workflow - trigger and actions)"
+    },
+    {
+      "index": 15,
+      "title": "Google Medical Chatbot Google Med-PaLM 2 - AI",
+      "text": "Google Medical Chatbot Google Med-PaLM 2 - AI Model for Medical Chatbot tests are being done at Mayo Clinic and other hospitals Med-PaLM 2 is capable of answering medical questions as well as summarizing documents and large volumes of health data and creating reminders The Chatbot could be of tremendous value in countries with limited access to medical doctors The Mayo Clinic is a non-profit American academic medical center. The original clinic was established in Rochester, MN in 19th century by William Worrall Mayo and his sons. Nowadays the Mayo Clinic Health System runs dozens of hospitals and clinics in different states"
+    },
+    {
+      "index": 16,
+      "title": "WormGPT, PoisonGPT https://thehackernews.com/2023/07/wormgpt-new-ai-tool-allows.html https://www.youtube.com/watch?v=sXqsPlnTkQU WormGPT is a 6",
+      "text": "WormGPT, PoisonGPT https://thehackernews.com/2023/07/wormgpt-new-ai-tool-allows.html https://www.youtube.com/watch?v=sXqsPlnTkQU WormGPT is a 6 Bln parameter model developed in 2021 It has no ethical limits, policies, restrictions It allows Cybercriminals to Launch Sophisticated Cyber Attacks (phishing and business email compromise (BEC) attacks) It is described to use open-source GPT-J language model developed by EleutherAI WormGPT has been advertised on underground forums PoisonGPT - designed to spread misinformation in sneaky ways. It is possible to \"surgically\" modify an existing open-source AI model to make it spread disinformation - and upload it to a public repository - from there it could be downloaded and used in multiple other applications, leading to what's called an LLM supply chain poisoning"
+    },
+    {
+      "index": 17,
+      "title": "Microsoft TypeChat Microsoft TypeChat is an open-source library",
+      "text": "Microsoft TypeChat Microsoft TypeChat is an open-source library for TypeScript (\" npm install typechat \") https://github.com/microsoft/Typechat Use it to build Natural Language Interfaces (NLIs) to LLMs You can generate responses in human language or in structured JSON TypeChat works by combining a human prompt with a \"response schema\" The prompt is a natural language question or instruction, and the response schema is description of the expected response from the LLM Note: You can use Python framework LangChain to do the same (and much more)"
+    },
+    {
+      "index": 18,
+      "title": "Google Gemini DeepMind’s Gemini - LLM, similar to",
+      "text": "Google Gemini DeepMind’s Gemini - LLM, similar to Gpt-4 - but also uses techniques used in DeepMind's models like AlphaGo. The goal is to give the system new capabilities such as planning or the ability to solve problems. Also Gemini is multi-modal (text, image, video, ...) Sergey Brin, Google co-founder,  comes back to the office to drive the Gemini AI project ... Demis Hassabis Google DeepMind’s CEO"
+    },
+    {
+      "index": 19,
+      "title": "https://github.com/karpathy/llama2.c https://github.com/karpathy/llama2.c Inference a baby Llama-2 model in",
+      "text": "https://github.com/karpathy/llama2.c https://github.com/karpathy/llama2.c Inference a baby Llama-2 model in pure C on your laptop. Train the Llama-2 LLM from scratch in PyTorch, save the weights to a raw binary file, use it from one ~simple 500-line C file (run.c) that inferences the model, simply in fp32 for now on cloud Linux devbox a dim 288 6-layer 6-head model (~15M params) inferences at ~100 tok/s in fp32, and about the same on a M1 MacBook Air I took nanoGPT and tuned it to implement the Llama-2 architecture instead of GPT-2 Hat tip to llama.cpp for inspiring this project https://github.com/ggerganov/llama.cpp Andrej Karpathy"
+    },
+    {
+      "index": 20,
+      "title": "Bard - working with Images 7-incredible-use-cases https://medium.com/swlh/google-bard-unveils-unbelievable-visual-revolution-7-incredible-use-cases-that-will-blow-your-mind-f3aa97c784f0 One",
+      "text": "Bard - working with Images 7-incredible-use-cases https://medium.com/swlh/google-bard-unveils-unbelievable-visual-revolution-7-incredible-use-cases-that-will-blow-your-mind-f3aa97c784f0 One of new Bard features - integration with Google Lens. You can search based on images from various internet sources. Example 1: Ask Bard to provide meal recipes based on images of ingredients in your fridge Example 2: OCR - Convert Screenshots into text, code, JSON, table format Example 3: Convert an image of a mockup web-page design into valid HTML Example 4: Ask Bard to generate code for a mobile app Example 5: OCR - convert image of an invoice into structured text Example 6: Ask Bard to decode image (what is the breed of my dog?) Example 7: Bard can suggest medical diagnose based on uploaded image"
+    },
+    {
+      "index": 21,
+      "title": "Miscellaneous Twitter is rebranded as X.com ChatGPT on",
+      "text": "Miscellaneous Twitter is rebranded as X.com ChatGPT on a phone - shortcut or App AI talent is in high demand even at non-tech companies. Salaries are $200-300K/year. Consulting rates $400-600/hour OpenAI considers creating an App Store for AI software OpenAI started \" superalignment \" program to learn how to handle a system which is much smarter than us. - https://openai.com/blog/introducing-superalignment This is inevitable now. Now we've broken through. ... It is not a probability. Disruption is already happening. ... Jobs will be transformed. Not ended. Transformed. Legal. Accounting. Customer Service. Media. Journalism. Coding. ... https://www.youtube.com/watch?v=h-oF5dWuXAs Emad Mostaque (CEO, Stability.ai) Replacing employees with technology is not something new"
+    },
+    {
+      "index": 22,
+      "title": "Why LLMs Answer Your Questions The models are",
+      "text": "Why LLMs Answer Your Questions The models are trained on pairs of (question, answer). Here is how LLM Claude Ver 2 explains it (about itself) - shortened to fit into the slide: Typically, the question and answer are encoded separately by the model during training ... The encoder reads the question and encodes it into a vector representation ... There is a separate encoder module that reads and encodes the answer ... The encoders are trained in a way to maximize similarity between the question vector and answer vector The model also optimizes the parameters to minimize similarity between questions and wrong answers This training causes the model to learn to encode questions and answers into a common semantic vector space, such that vectors for related Q&A pairs are close together, while unrelated pairs are far apart. At inference time, the model encodes a new question into a vector, and finds the closest encoded training answer vector to retrieve the predicted answer. So in summary, the question and answer text are encoded separately rather than as a pair, but trained to have high similarity for true Q&A pairs. This allows matching new questions to existing answer vectors. Note how the above process is similar to training of text-to-image models Text-to-Image diffusion models (like Stable Diffusion) are also trained on pairs: (text, image) They also have two separate encoders (one for text and one for image) They also train encoders so that text and corresponding image get encoded into similar vectors"
+    },
+    {
+      "index": 23,
+      "title": "Ray Kurzweil - Predictions Years 2023-2027: Glasses will",
+      "text": "Ray Kurzweil - Predictions Years 2023-2027: Glasses will beam images directly onto the retina 10 TB of computing power (~ human brain) will cost about $1,000 Most diseases will go away as nanobots become smarter Normal human eating can be replaced by nanosystems The Turing test begins to be passed Self-driving cars take over, people won't be allowed to drive on highways Years 2028-2033: Virtual reality will begin to feel 100% real We will be able to upload our mind/consciousness Artificial intelligence will surpass human intelligence Nanotechnology will be used to create new materials and devices Gene editing will be used to cure diseases and improve human health Years 2034-2039: We will be able to create artificial life Space travel will become routine We will have a global consciousness The singularity will occur Ray Kurzweil has so far made 147 predictions with 86% accuracy, and has the world looking forward to the new ones with much anticipation."
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates July 30, 2023 Presented by Lev",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates July 30, 2023 Presented by Lev",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "LLaMa V2 is very close to ChatGPT-3 This",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 3,
+      "slideTitle": "LLaMa V2 is very close to ChatGPT-3 This",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard July 18 - 355 models",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 4,
+      "slideTitle": "Open LLM Leaderboard July 18 - 355 models",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT-4 was downgraded? Or made safer? There was",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 5,
+      "slideTitle": "ChatGPT-4 was downgraded? Or made safer? There was",
+      "source": "slide"
+    },
+    {
+      "claim": "Stability AI SDXL 1.0 Jly 26, 2023 -",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 6,
+      "slideTitle": "Stability AI SDXL 1.0 Jly 26, 2023 -",
+      "source": "slide"
+    },
+    {
+      "claim": "LangChain Examples LangChain for LLM Application Development -",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 7,
+      "slideTitle": "LangChain Examples LangChain for LLM Application Development -",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT to create Excel Use ChatGPT to guide",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 8,
+      "slideTitle": "ChatGPT to create Excel Use ChatGPT to guide",
+      "source": "slide"
+    },
+    {
+      "claim": "NVIDIA Grace Hopper CPU+GPU Nvidia has created its",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 9,
+      "slideTitle": "NVIDIA Grace Hopper CPU+GPU Nvidia has created its",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft CoDi Composable Diffusion (CoDi) - a novel",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 10,
+      "slideTitle": "Microsoft CoDi Composable Diffusion (CoDi) - a novel",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta CM3LEON - Open Source Text-to-Image CM3LEON (pronounced",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 11,
+      "slideTitle": "Meta CM3LEON - Open Source Text-to-Image CM3LEON (pronounced",
+      "source": "slide"
+    },
+    {
+      "claim": "Apple ChatGPT ? Bloomberg July 19, 2023: Apple",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xA9VuOMVbiI",
+      "slideIndex": 12,
+      "slideTitle": "Apple ChatGPT ? Bloomberg July 19, 2023: Apple",
+      "source": "slide"
+    }
+  ]
+}

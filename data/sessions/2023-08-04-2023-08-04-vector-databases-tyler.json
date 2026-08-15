@@ -1,0 +1,491 @@
+{
+  "id": "2023-08-04-2023-08-04-vector-databases-tyler",
+  "date": "2023-08-04",
+  "title": "Vector-Databases-Tyler",
+  "series": "seminar",
+  "topics": [
+    "rag",
+    "open-models"
+  ],
+  "video": {
+    "id": "xBQHmOsFTO4",
+    "title": "Vector Databases - August 04, 2023",
+    "url": "https://www.youtube.com/watch?v=xBQHmOsFTO4",
+    "thumbnail": "https://i.ytimg.com/vi/xBQHmOsFTO4/hqdefault.jpg",
+    "duration": 2288
+  },
+  "deck": {
+    "path": "2023/2023-08-04-Vector-Databases-Tyler.pptx",
+    "filename": "2023-08-04-Vector-Databases-Tyler.pptx",
+    "title": "Vector-Databases-Tyler",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-04-Vector-Databases-Tyler.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-04-Vector-Databases-Tyler.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Vectors",
+      "startSeconds": 34,
+      "label": "00:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Representation",
+      "startSeconds": 105,
+      "label": "01:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Embedding",
+      "startSeconds": 242,
+      "label": "04:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Why use a vector database",
+      "startSeconds": 612,
+      "label": "10:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Similarity searches",
+      "startSeconds": 780,
+      "label": "13:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Data management",
+      "startSeconds": 862,
+      "label": "14:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Semantic searches",
+      "startSeconds": 961,
+      "label": "16:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Common Vector Databases",
+      "startSeconds": 1213,
+      "label": "20:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft SQL Server",
+      "startSeconds": 1315,
+      "label": "21:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Indexing",
+      "startSeconds": 1360,
+      "label": "22:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Azure Vector Databases",
+      "startSeconds": 1412,
+      "label": "23:32",
+      "source": "youtube"
+    },
+    {
+      "title": "SQL Server Vector Databases",
+      "startSeconds": 1642,
+      "label": "27:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Source Vector Databases",
+      "startSeconds": 1706,
+      "label": "28:26",
+      "source": "youtube"
+    },
+    {
+      "title": "LaneChain",
+      "startSeconds": 1849,
+      "label": "30:49",
+      "source": "youtube"
+    },
+    {
+      "title": "LaneChain Overview",
+      "startSeconds": 1896,
+      "label": "31:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Vector Databases",
+      "startSeconds": 1956,
+      "label": "32:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Postgres Integration",
+      "startSeconds": 2028,
+      "label": "33:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Dimitri Khan",
+      "startSeconds": 2120,
+      "label": "35:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Outro",
+      "startSeconds": 2213,
+      "label": "36:53",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Vector Databases Presented by Tyler Williams August 4,",
+      "text": "Vector Databases Presented by Tyler Williams August 4, 2023"
+    },
+    {
+      "index": 2,
+      "title": "Tyler Williams Data Slinger with Azure Expertise Redapt,",
+      "text": "Tyler Williams Data Slinger with Azure Expertise Redapt, Inc. Bothell, Washington, US https://www.linkedin.com/in/tyler-williams-658881/ About the Speaker"
+    },
+    {
+      "index": 3,
+      "title": "What is a vector? Simply an array of",
+      "text": "What is a vector? Simply an array of numbers Can be used to represent coordinates on a plane [2, 3] Or can represent more complex objects across many more dimensions [8, 1, 9, 3, 4, 7, 9, 12, -3, 1, -44, 6, 9]"
+    },
+    {
+      "index": 4,
+      "title": "How do we use data to represent complex",
+      "text": "How do we use data to represent complex objects? Discreet tags/attributes can be impractical for detailed representations!!"
+    },
+    {
+      "index": 5,
+      "title": "Use algorithms to represent object as a vector",
+      "text": "Use algorithms to represent object as a vector [5, 9, -4, 0.8, …, -3] [-8, 0.2, -4, 0.8, …, 6] More dimensions can allow for greater opportunities to reflect similarities and differences between different objects Typically, the number of dimensions is large. At least 512, often 768, 1024, 1536, and more"
+    },
+    {
+      "index": 6,
+      "title": "Vector Embedding Algorithm to convert data to a",
+      "text": "Vector Embedding Algorithm to convert data to a vector \"Automatic\" feature engineering Rather than manually defining all of the dimensions/attributes of an object, a pre-trained machine learning model is used to generate this vector representation of the object Raw data can be passed into an embedding model, which converts the data to a vector embedding, which indicates where the data should go in a vector space in relation to other data points https://www.pinecone.io/learn/vector-embeddings-for-developers/ Massive Text Embedding Benchmark (MTEB) Leaderboard - https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    {
+      "index": 7,
+      "title": "You have your vector embeddings, now what? Each",
+      "text": "You have your vector embeddings, now what? Each vector represents a point in a vector space, and similar data will be grouped together in the space"
+    },
+    {
+      "index": 8,
+      "title": "Embedding models - Hugging Face MTEB leaderboard Massive",
+      "text": "Embedding models - Hugging Face MTEB leaderboard Massive Text Embedding Benchmark (MTEB) Leaderboard https://huggingface.co/spaces/mteb/leaderboard Deploy the No 1 embedding model on Huggingface with python https://www.youtube.com/watch?v=ZB1nn3JWyec OpenAI"
+    },
+    {
+      "index": 9,
+      "title": "Embedding Models OpenAI’s Embedding Model With Vector Database",
+      "text": "Embedding Models OpenAI’s Embedding Model With Vector Database https://betterprogramming.pub/openais-embedding-model-with-vector-database-b69014f04433 OpenAI updated in December 2022 the Embedding model to text-embedding-ada-002. The new model offers: 90%-99.8% lower price ($0.01 per 100,000 tokens = 150 pages) 1/8th embeddings dimensions size reduces vector database costs Endpoint unification for ease of use State-of-the-Art performance for text search, code search, and sentence similarity Context window increased from 2048 to 8192 Choosing the Right Embedding Model - a Guide for LLM Applications https://medium.com/@ryanntk/choosing-the-right-embedding-model-a-guide-for-llm-applications-7a60180d28e3 1 token = 4 chars (in English) 1 word = 5 chars = 1.25 tokens 100 tokens = 75 words 1 page (single-spaced) = 500 words = 2,500 chars = 625 tokens 100,000 tokens = 75,000 words = 150 pages 8192 tokens = 6,150 words = 12 pages"
+    },
+    {
+      "index": 10,
+      "title": "Why use a vector database with a language",
+      "text": "Why use a vector database with a language model? Used to store and query vector embeddings Vector DBs allow for more conversational queries against a large language model (LLM) by providing the context of previous queries They also are used to organize and index vectors for much faster responses than using the LLM alone Model is static; a vector DB can augment the model without needing to retrain the model Here’s a good high-level video: https://www.youtube.com/watch?v=dN0lsF2cvm4 And a more irreverent video: https://www.youtube.com/watch?v=klTvEwg3oJ4"
+    },
+    {
+      "index": 11,
+      "title": "Vector DB Queries - Similarity Search A vector",
+      "text": "Vector DB Queries - Similarity Search A vector database uses pipelines of different algorithms (vector indexing, hashing, quantization, graph-based search, ...) to do an Approximate Nearest Neighbor (ANN) search . This is area of active research! Similarity measures Cosine similarity (-1..1) Euclidean distance (0..∞) Dot product (-∞ .. ∞) Since the vector database provides approximate results , the main trade-offs are between accuracy and speed Here is a good article explaining different algorithms: https://www.pinecone.io/learn/vector-database/ Data Embedding Vectors Similarity Search"
+    },
+    {
+      "index": 12,
+      "title": "Other Familiar Database Features Long-term storage and retrieval",
+      "text": "Other Familiar Database Features Long-term storage and retrieval of data/embeddings Data management (ie. Insert/Update/Delete) Metadata storage and filtering Real-time updates to data Backups, disaster recovery Integration with management and analysis tools (ETL, dashboards, plugins) Data security and access control"
+    },
+    {
+      "index": 13,
+      "title": "Some Vector Database Use Cases Long-term memory for",
+      "text": "Some Vector Database Use Cases Long-term memory for LLMs Semantic Searches Searches that infer intent and context Sam goes to the bank to withdraw some cash Jill pulls her kayak up onto the bank Similarity Searches Recommendation Engine Netflix:  “You may also like…” Sound Search"
+    },
+    {
+      "index": 14,
+      "title": "Popular Vector Databases Here is a list of",
+      "text": "Popular Vector Databases Here is a list of some vector databases (2023) https://sourceforge.net/software/vector-databases/ Popular Vector Databases: Pinecone Weaviate - open source Chroma - open source Redis Vector Database Qdrant - open source Milvus Project - open source Vespa.ai - open source More: Zilliz Cloud Nomic Atlas Vald pgvector Faiss Metal MyScale Deep Lake Supabase Embeddinghub"
+    },
+    {
+      "index": 15,
+      "title": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io",
+      "text": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io Redis Vector DB https://redis.io/docs/interact/search-and-query/search/vectors/ Chroma Open Source https://www.trychroma.com https://python.langchain.com/docs/modules/data_connection/vectorstores/integrations/chroma (shows how to use db.persist() to save on disk) https://github.com/chroma-core/chroma https://docs.trychroma.com/getting-started https://docs.trychroma.com/deployment - hosted Chroma (still in \"alpha\" stage) PGVector Open Source PostgresSQL extension https://github.com/pgvector/pgvector - vector similarity search, up to 16,000 dimensions https://www.youtube.com/watch?v=aBeVM5q0f5A https://www.youtube.com/watch?v=y10Wmr4fmlA pg_embedding Open Source, fast PostgresSQL extension https://github.com/neondatabase/pg_embedding https://neon.tech/blog/pg-embedding-extension-for-vector-search - 20x times faster Qdrant Open Source - Rust https://qdrant.tech https://qdrant.tech/documentation/guides/installation/ - docker Milvus Project Open Source - Go, C++, Python https://milvus.io https://milvus.io/blog/how-to-get-started-with-milvus.md - docker Weaviate (SeMI) Open Source - Go https://www.semi.technology/developers/weaviate/current/ https://weaviate.io/developers/weaviate/installation - docker Vespa.ai (Yahoo!) Open Source - Java, C++ https://vespa.ai https://docs.vespa.ai/en/getting-started.html - docker Faiss Open Source Lib - C++, Python FAISS = Facebook AI Similarity Search (library in C++ with Python wrapper) https://github.com/facebookresearch/faiss Vald (Yahoo!) Open Source - Go https://vald.vdaas.org https://github.com/vdaas/vald - distributed, Kubernetes https://thenewstack.io/top-5-vector-database-solutions-for-your-ai-project/ https://towardsdatascience.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696 https://www.reddit.com/r/SoftwareEngineering/comments/107vhoq/vector_databases_like_pinecone_or_weaviate_are/"
+    },
+    {
+      "index": 16,
+      "title": "Large modern models (GPT, Diffusion) use huge latent",
+      "text": "Large modern models (GPT, Diffusion) use huge latent vectors or tensors (GPT/Diffusion latent dimensions: 12K .. 60K numbers per vector/tensor). If you put these huge vectors in a vector database, how do you query them? Here are some common indexing techniques (to speed-up the similarity search): Locality-sensitive hashing ( LSH ) - similar vectors mostly get into same buckets Product quantization ( PQ ) - lossy compression to reduce the size of vectors while preserving similarity Hierarchical Navigable Small World ( HNSW ) - create a graph where each vector is connected to its nearest neighbor(s) Hierarchical Grid Index ( HGI ) - divides a multidimensional space into a hierarchy of grids Ball Tree Index ( BTI ) - a tree of nodes (balls) and leaves (actual points) Random Forest Index ( RFI ) - trees represent regions in space, and the leaves represent the actual points. Examples: Pinecone uses a hybrid approach : an HGI with a LSH index. Fast search on large and small datasets Weaviate uses a hybrid approach : an HGI with a BTI index. Fast performance for both range and point queries Chroma uses a single-level grid index , which is a simple but effective approach for vector indexing Redis Vector Database uses a Sorted Set data structure to store vectors, which allows for efficient range queries Qdrant uses a hybrid approach : an HGI with a RFI index. Good performance for both range and point queries Milvus Project uses an HGI Vespa.ai uses a hybrid approach : an HGI with a LSH index. Fast search on large and small datasets Indexing Vectors for Similarity Search"
+    },
+    {
+      "index": 17,
+      "title": "Vector Database on Azure Using SQL Server: Vector",
+      "text": "Vector Database on Azure Using SQL Server: Vector Similarity Search with Azure SQL database and OpenAI .. https://devblogs.microsoft.com/azure-sql/vector-similarity-search-with-azure-sql-database-and-openai/ Using Azure Cognitive Search (ACS): ACS is similar to a vector database. But until recently, you couldn't interact with the vectors directly. Now Microsoft allows it  :) Example: index company documents into Azure Cognitive Search (it uses RAG = Retrieval Augmented Generation ), and use Azure OpenAI LLM as user interface: .. https://medium.com/version-1/unleashing-the-power-of-azure-open-ai-and-azure-cognitive-search-f5a97d729f18 The idea of RAG is to retrieve data from outside the language model (non-parametric), usually from a vector database. And then augment the prompts by adding the relevant retrieved data into context Note: you can use PineconeDB (or other vector DB) instead of Azure Cognitive Search"
+    },
+    {
+      "index": 18,
+      "title": "Microsoft SQL Server Support for Vector/Similarity Data Queries",
+      "text": "Microsoft SQL Server Support for Vector/Similarity Data Queries Microsoft SQL Server supports storing and querying vector/similarity data in a few different ways: SQL Server includes the GEOMETRY and GEOGRAPHY data types that can store vectors and spatial data . These types support various spatial functions like STDistance() to calculate distances between vectors . So you can store vectors in a table and query for similar ones based on distance. https://learn.microsoft.com/en-us/sql/relational-databases/spatial/query-spatial-data-for-nearest-neighbor semanticsimilaritytable() function help to Find similar or related documents https://learn.microsoft.com/en-us/sql/relational-databases/search/find-similar-and-related-documents-with-semantic-search Starting in SQL Server 2019, it includes support for Python and R integration via Machine Learning Services. This allows you to write Python/R code that runs inside SQL Server to do similarity calculations on vector data stored in tables . https://learn.microsoft.com/en-us/sql/machine-learning/sql-server-machine-learning-services For more advanced vector similarity capabilities, SQL Server 2019 added a new TEXT type that supports storing vectors and doing similarity search via approximate nearest neighbor indexes like Cosine Similarity . So you can find vectors that are close/similar to a search vector efficiently There are also some third-party extensions that add things like approximate nearest neighbors functionality for fast similarity search across vectors"
+    },
+    {
+      "index": 19,
+      "title": "Narrowing Down Open Source VDBs pgvector & pg_embedding",
+      "text": "Narrowing Down Open Source VDBs pgvector & pg_embedding extensions for PostgreSQL https://github.com/pgvector/pgvector - vector similarity search, up to 16,000 dimensions https://www.youtube.com/watch?v=aBeVM5q0f5A https://www.youtube.com/watch?v=y10Wmr4fmlA https://github.com/neondatabase/pg_embedding https://neon.tech/blog/pg-embedding-extension-for-vector-search Milvus https://milvus.io https://milvus.io/blog/how-to-get-started-with-milvus.md Vespa https://vespa.ai https://docs.vespa.ai/en/getting-started.html 1973 - Ingres db (INteractive Graphics REtrieval System), Berkeley (also, Ingres is similar to ingress, which means \"access\") 1985 - Postgres (Post Ingres, Berkeley) 1994 - Open Sourced under MIT license 1996 - PostreSQL (signifying full support for SQL)"
+    },
+    {
+      "index": 20,
+      "title": "LangChain Framework: Create Apps Using LLMs Software framework,",
+      "text": "LangChain Framework: Create Apps Using LLMs Software framework, released in October 2022 by Harrison Chase Available as either a Python or TypeScript package https://en.wikipedia.org/wiki/LangChain https://github.com/langchain-ai/langchain https://langchain.com | https://python.langchain.com | https://docs.langchain.com/docs/ https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/ quickstart tutorial - https://www.youtube.com/watch?v=aywZrzNaKjs LangChain - https://www.youtube.com/watch?v=jFo_gDOOusk Prompt Engineering - https://www.youtube.com/playlist?list=PLZnV2TKiv3wC0F5AQJwL3RGCfInRpu-LA \"DeepLearning.ai\" - https://www.deeplearning.ai/short-courses/ Harrison Chase Co-Founder & CEO, Released LangChain in October 2022 Multiple YouTube tutorials Universal API for LLMs ( GPT-3, BLOOM, and Jurassic-1 Jumbo, ... ) Chains = sequences of commands for LLM End-to-end chains for popular apps (chatbots, question-answering, and summarization) Memory (keeping info about previous chat messages, ...) Tools for debugging, testing, evaluating, and monitoring LLM apps Prompt templates - strings containing variables in curly braces {myvar}. For example, templates for chatbots, ELI5 question-answering (\"Explain Like I'm Five\"), summarization, etc Agents - use LLMs to decide what actions should be taken (generate a plan or execute tasks)"
+    },
+    {
+      "index": 21,
+      "title": "How a LangChain application integrates a Vector DB",
+      "text": "How a LangChain application integrates a Vector DB and LLM"
+    },
+    {
+      "index": 22,
+      "title": "Examples of LangChain Scripts connecting with different databases",
+      "text": "Examples of LangChain Scripts connecting with different databases https://github.com/langchain-ai/langchain/tree/master/libs/langchain/langchain/vectorstores LangChain  - Some Scripts _pgvector_data_models.py alibabacloud_opensearch.py analyticdb.py annoy.py atlas.py awadb.py azuresearch.py base.py cassandra.py chroma.py clarifai.py clickhouse.py deeplake.py elastic_vector_search.py faiss.py hologres.py lancedb.py marqo.py matching_engine.py milvus.py mongodb_atlas.py myscale.py opensearch_vector_search.py pgembedding.py pgvector.py pinecone.py qdrant.py redis.py rocksetdb.py singlestoredb.py sklearn.py starrocks.py supabase.py tair.py tigris.py typesense.py utils.py vectara.py weaviate.py zilliz.py"
+    },
+    {
+      "index": 23,
+      "title": "https://milvus.io/docs/integrate_with_langchain.md https://milvus.io/blog/conversational-memory-in-langchain.md https://github.com/hwchase17/langchain/blob/master/langchain/vectorstores/milvus.py (800+ lines script) LangChain +",
+      "text": "https://milvus.io/docs/integrate_with_langchain.md https://milvus.io/blog/conversational-memory-in-langchain.md https://github.com/hwchase17/langchain/blob/master/langchain/vectorstores/milvus.py (800+ lines script) LangChain + Milvus # ! python -m pip install --upgrade pymilvus langchain openai tiktoken from os import environ MILVUS_HOST = \"localhost\" MILVUS_PORT = \"19530\" OPENAI_API_KEY = \"sk-******\" environ[\"OPENAI_API_KEY\"] = OPENAI_API_KEY ## Set env variable from langchain.embeddings.openai import OpenAIEmbeddings from langchain.vectorstores import Milvus from langchain.document_loaders import WebBaseLoader from langchain.text_splitter import CharacterTextSplitter loader = WebBaseLoader([\"https://milvus.io/docs/overview.md\",]) docs = loader.load() text_splitter = CharacterTextSplitter(chunk_size=1024, chunk_overlap=0) docs = text_splitter.split_documents(docs) embeddings = OpenAIEmbeddings(model=\"ada\") vector_store = Milvus.from_documents(docs, embedding=embeddings, connection_args={\"host\": MILVUS_HOST, \"port\": MILVUS_PORT}) query = \"What is milvus?\" docs = vector_store.similarity_search(query) print(docs) from langchain.chains.qa_with_sources import load_qa_with_sources_chain from langchain.llms import OpenAI chain = load_qa_with_sources_chain(OpenAI(temperature=0), chain_type=\"map_reduce\", return_intermediate_steps=True) query = \"What is Milvus?\" chain({\"input_documents\": docs, \"question\": query}, return_only_outputs=True)"
+    },
+    {
+      "index": 24,
+      "title": "LangChain + PGVector + LLM https://www.youtube.com/watch?v=Jl1S4ZcSY8k - Build",
+      "text": "LangChain + PGVector + LLM https://www.youtube.com/watch?v=Jl1S4ZcSY8k - Build AI-powered apps on Google Cloud with pgvector, LangChain & LLMs https://colab.research.google.com/github/GoogleCloudPlatform/python-docs-samples/blob/main/cloud-sql/postgres/pgvector/notebooks/pgvector_gen_ai_demo.ipynb https://www.youtube.com/watch?v=n2Fluyr3lbc - short video about PostgresSQL CREATE TABLE product_embeddings ( product_id VARCHAR(1024) NOT NULL REFERENCES products( product_id ), content TEXT, embedding vector(768) ) conn.execute (\" CREATE EXTENSION IF NOT EXISTS vector \") register_vector (conn) conn.execute ( \" INSERT INTO product_embeddings ( product_id , content, embedding) VALUES ($1, $2, $3) \", row[\" product_id \"], row[\" content \"], np.array (row[\" embedding \"]), ) -- Similarity Search Query:($1,$2,... - place holders) \"\"\"WITH vector_matches AS ( SELECT product_id , 1 - (embedding <=> $1) AS similarity FROM product_embeddings WHERE 1 - ( embedding <=> $1 ) > $2 ORDER BY similarity DESC LIMIT $3 ) SELECT product_name , list_price , description FROM products WHERE product_id IN (SELECT product_id FROM vector_matches ) AND list_price >= $4 AND list_price <= $5\"\"\""
+    },
+    {
+      "index": 25,
+      "title": "Comparisons of Vector Databases by Dmitry Kan Dmitry",
+      "text": "Comparisons of Vector Databases by Dmitry Kan Dmitry Kan - https://www.linkedin.com/in/dmitrykan/ Vector Podcast YouTube Channel - https://www.youtube.com/@VectorPodcast/videos Oct 2, 2021 - Dmitry Kan - \" Not All Vector Databases Are Made Equal\" A detailed comparison of Milvus, Pinecone, Vespa, Weaviate, Vald, GSI and Qdrant https://towardsdatascience.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696 Same review as a video in Summer 2022 - https://www.youtube.com/watch?v=Yo-AzVpWrRg GitHub - https://github.com/DmitryKey moves (Multilingual and multimodal vector search) - https://muves.io"
+    },
+    {
+      "index": 26,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Vector Databases Presented by Tyler Williams August 4,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vectors",
+      "topic": "general",
+      "videoSeconds": 34,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=34s",
+      "slideIndex": 2,
+      "slideTitle": "Tyler Williams Data Slinger with Azure Expertise Redapt,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Representation",
+      "topic": "general",
+      "videoSeconds": 105,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=105s",
+      "slideIndex": 4,
+      "slideTitle": "How do we use data to represent complex",
+      "source": "youtube"
+    },
+    {
+      "claim": "Embedding",
+      "topic": "rag",
+      "videoSeconds": 242,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=242s",
+      "slideIndex": 5,
+      "slideTitle": "Use algorithms to represent object as a vector",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why use a vector database",
+      "topic": "rag",
+      "videoSeconds": 612,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=612s",
+      "slideIndex": 6,
+      "slideTitle": "Vector Embedding Algorithm to convert data to a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Similarity searches",
+      "topic": "general",
+      "videoSeconds": 780,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=780s",
+      "slideIndex": 8,
+      "slideTitle": "Embedding models - Hugging Face MTEB leaderboard Massive",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data management",
+      "topic": "general",
+      "videoSeconds": 862,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=862s",
+      "slideIndex": 9,
+      "slideTitle": "Embedding Models OpenAI’s Embedding Model With Vector Database",
+      "source": "youtube"
+    },
+    {
+      "claim": "Semantic searches",
+      "topic": "general",
+      "videoSeconds": 961,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=961s",
+      "slideIndex": 10,
+      "slideTitle": "Why use a vector database with a language",
+      "source": "youtube"
+    },
+    {
+      "claim": "Common Vector Databases",
+      "topic": "rag",
+      "videoSeconds": 1213,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1213s",
+      "slideIndex": 12,
+      "slideTitle": "Other Familiar Database Features Long-term storage and retrieval",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft SQL Server",
+      "topic": "general",
+      "videoSeconds": 1315,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1315s",
+      "slideIndex": 13,
+      "slideTitle": "Some Vector Database Use Cases Long-term memory for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Indexing",
+      "topic": "general",
+      "videoSeconds": 1360,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1360s",
+      "slideIndex": 14,
+      "slideTitle": "Popular Vector Databases Here is a list of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Azure Vector Databases",
+      "topic": "rag",
+      "videoSeconds": 1412,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1412s",
+      "slideIndex": 15,
+      "slideTitle": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io",
+      "source": "youtube"
+    },
+    {
+      "claim": "SQL Server Vector Databases",
+      "topic": "rag",
+      "videoSeconds": 1642,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1642s",
+      "slideIndex": 17,
+      "slideTitle": "Vector Database on Azure Using SQL Server: Vector",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open Source Vector Databases",
+      "topic": "open-models",
+      "videoSeconds": 1706,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1706s",
+      "slideIndex": 18,
+      "slideTitle": "Microsoft SQL Server Support for Vector/Similarity Data Queries",
+      "source": "youtube"
+    },
+    {
+      "claim": "LaneChain",
+      "topic": "general",
+      "videoSeconds": 1849,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1849s",
+      "slideIndex": 19,
+      "slideTitle": "Narrowing Down Open Source VDBs pgvector & pg_embedding",
+      "source": "youtube"
+    },
+    {
+      "claim": "LaneChain Overview",
+      "topic": "general",
+      "videoSeconds": 1896,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1896s",
+      "slideIndex": 21,
+      "slideTitle": "How a LangChain application integrates a Vector DB",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vector Databases",
+      "topic": "rag",
+      "videoSeconds": 1956,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=1956s",
+      "slideIndex": 22,
+      "slideTitle": "Examples of LangChain Scripts connecting with different databases",
+      "source": "youtube"
+    },
+    {
+      "claim": "Postgres Integration",
+      "topic": "general",
+      "videoSeconds": 2028,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=2028s",
+      "slideIndex": 23,
+      "slideTitle": "https://milvus.io/docs/integrate_with_langchain.md https://milvus.io/blog/conversational-memory-in-langchain.md https://github.com/hwchase17/langchain/blob/master/langchain/vectorstores/milvus.py (800+ lines script) LangChain +",
+      "source": "youtube"
+    },
+    {
+      "claim": "Dimitri Khan",
+      "topic": "general",
+      "videoSeconds": 2120,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=2120s",
+      "slideIndex": 25,
+      "slideTitle": "Comparisons of Vector Databases by Dmitry Kan Dmitry",
+      "source": "youtube"
+    },
+    {
+      "claim": "Outro",
+      "topic": "general",
+      "videoSeconds": 2213,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4&t=2213s",
+      "slideIndex": 26,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "What is a vector? Simply an array of",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4",
+      "slideIndex": 3,
+      "slideTitle": "What is a vector? Simply an array of",
+      "source": "slide"
+    },
+    {
+      "claim": "You have your vector embeddings, now what? Each",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4",
+      "slideIndex": 7,
+      "slideTitle": "You have your vector embeddings, now what? Each",
+      "source": "slide"
+    },
+    {
+      "claim": "Vector DB Queries - Similarity Search A vector",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=xBQHmOsFTO4",
+      "slideIndex": 11,
+      "slideTitle": "Vector DB Queries - Similarity Search A vector",
+      "source": "slide"
+    }
+  ]
+}

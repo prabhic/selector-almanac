@@ -1,0 +1,663 @@
+{
+  "id": "2024-05-03-2024-05-03-ai-updates",
+  "date": "2024-05-03",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "rag",
+    "claude",
+    "google",
+    "coding",
+    "open-models",
+    "infra",
+    "agents",
+    "safety",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "ypYJYhyzqUc",
+    "title": "Have you heard these exciting AI news May 03 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+    "thumbnail": "https://i.ytimg.com/vi/ypYJYhyzqUc/hqdefault.jpg",
+    "duration": 2522
+  },
+  "deck": {
+    "path": "2024/2024-05-03-AI-Updates.pptx",
+    "filename": "2024-05-03-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-05-03-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-05-03-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Gradient.AI LLama3 8B with 1 Mln Tokens Context",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Testing Llama3 on Apple Silicone",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GPT2-Chatbot - temporary excitement",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ChatGPT new long-term memory feature",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "System Prompts for GPT , Gemini, and Claude",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Amazon Q Business - AI Assistant",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Claude on Apple App Store",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GitHub Copilot Workspace",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "8 major U.S. newspapers sue OpenAI & Microsoft",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "mistral.rs - Blazingly fast LLM inference",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Vidu - Chinese Text-to-Video competitor to Sora",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrej Karpathy - LLM (llm.c) in space",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrew Ng - Agents to create training data",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "RALM_Survey - Retrieval Augmented LMs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Multi-token Prediction (Meta)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Llama3 is available on AWS Bedrock, Azure, GCP",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Med-Gemini  (from Google)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Dilated Attention - path to Bln tokens",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Sam Altman Q/A at Stanford",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "@gemini at Google Chrome browser",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AdvPrompter - fast adversarial prompting",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Google TeraHAC - trillion-edge graphs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI Safety Board (Dept. of Homeland Security)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Regulatory Capture",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Yann LeCun: LLMs are flawed, but useful",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LLMs - Key Terminology",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Kolmogorov-Arnold Networks",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Longevity Escape Velocity",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Demis Hassabis and Mustafa Suleyman",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Open Source Growth 2029-2013",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Scarlett Dreams - a Play About AI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI bots flooding job postings",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs are lower than in 2023",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Gradient.AI LLama3 8B with 1 Mln Tokens Context",
+      "text": "Gradient.AI LLama3 8B with 1 Mln Tokens Context Testing Llama3 on Apple Silicone GPT2-Chatbot - temporary excitement ChatGPT new long-term memory feature System Prompts for GPT , Gemini, and Claude Amazon Q Business - AI Assistant Claude on Apple App Store GitHub Copilot Workspace 8 major U.S. newspapers sue OpenAI & Microsoft mistral.rs - Blazingly fast LLM inference Vidu - Chinese Text-to-Video competitor to Sora Andrej Karpathy - LLM (llm.c) in space Andrew Ng - Agents to create training data RALM_Survey - Retrieval Augmented LMs Multi-token Prediction (Meta) Llama3 is available on AWS Bedrock, Azure, GCP Med-Gemini  (from Google) Dilated Attention - path to Bln tokens Sam Altman Q/A at Stanford @gemini at Google Chrome browser AdvPrompter - fast adversarial prompting Google TeraHAC - trillion-edge graphs AI Safety Board (Dept. of Homeland Security) Regulatory Capture Yann LeCun: LLMs are flawed, but useful LLMs - Key Terminology Kolmogorov-Arnold Networks Longevity Escape Velocity Demis Hassabis and Mustafa Suleyman Open Source Growth 2029-2013 Scarlett Dreams - a Play About AI Crowd-sourced \"Arena\" Leaderboard AI bots flooding job postings Tech Layoffs are lower than in 2023 AI Updates May 03 , 2024 May 1 is a public holiday in 160+ countries! Mostly as an International Worker's Day. Germany: Der Erste Mai is an ancient festival to welcome the Spring weather and to drive away evil spirits"
+    },
+    {
+      "index": 2,
+      "title": "PoSE Technique: The Positional Skip-wisE (PoSE) method simulates",
+      "text": "PoSE Technique: The Positional Skip-wisE (PoSE) method simulates long inputs during training to increase context length, powering Llama 3's extension to 128k tokens. https://twitter.com/rohanpaul_ai/status/1783574428858696161 Gradient.AI - LLama-3 8B with 1 Mln Tokens Context Length This model extends LLama-3-8b context length from 8k to more than 1 Mln tokens It is developed by Gradient It demonstrates that SOTA LLMs can learn to operate on long context with minimal training by appropriately adjusting RoPE theta \"Excited to release the first @AIatMeta LLama-3 8B with a context length of over 1M on @huggingface\" https://twitter.com/Gradient_AI_/status/1785030931407143040 https://huggingface.co/LoneStriker/Llama-3-8B-Instruct-262k-GGUF https://gradient.ai The gradient models are available in LM Studio & ollama. https://ollama.com/library/llama3-gradient You can have 1 Mln tokens context, but it takes a lot of memory. 512K tokens take ~ 95 GB memory. Ollama allocates this memory even if actual input/output are small. ollama run llama3-gradient --verbose >>> /set parameter num_ctx 512000"
+    },
+    {
+      "index": 3,
+      "title": "Testing Llama3 on Apple Silicone MacBook Pro I",
+      "text": "Testing Llama3 on Apple Silicone MacBook Pro I have tested llama3-8b 4-bit quantized on two MacBook laptops: Apple M1 Pro with  32 GB memory Apple M3 Max with 128 GB memory (loads in ~2-3 sec) I also tested more models on M3 (4-bit and 6-bit quantized): llama3:70b-instruct - ~40 GB of \"Wired\" memory,  22s to load mixtral:8x22b       - ~80 GB of \"Wired\" memory, 112s to load llama3-gradient:8b-instruct-1048k-q6_K  (6.6GB, 45 t/s) llama3:8b-instruct-q6_K (6.6GB, 46.4 t/s) I used ollama with following settings: /set verbose /set parameter num_gpu 999 The prompt was: Please make a numbered chronological list of the last ten (10) US presidents. Look back 50 years. Make a list. The list should contain 10 rows. Important - make a fresh list. Disregard the chat history. Output only the list itself, nothing else. The output speed (eval rate in tokens/s) was: 59.10 for M3   llama3-8b             (total 1.1 sec) 32.22 for M1   llama3-8b             (total 2.3 sec) 8.51 for M3   llama3:70b-instruct   (total ~17.4 sec) 13.78 for M3   mixtral:8x22b         (total ~16 sec) 45    for M3   llama3-gradient:8b-instruct-1048k-q6_K 46.4  for M3 llama3:8b-instruct-q6_K M3: Disk is very fast 5..6 GByte/sec Llama3:70b                       Mixtral:8x22b"
+    },
+    {
+      "index": 4,
+      "title": "GPT2-Chatbot just showed up on lmsys.org - and",
+      "text": "GPT2-Chatbot just showed up on lmsys.org - and then was removed \" Due to unexpectedly high traffic & capacity limit \". It is believed to come from OpenAI It is believed to be an early version of GPT-4.5. It is on par or better than GPT-4 and Claude3 Opus. Note: GPT2-Chatbot is NOT GPT-2 form 2019. https://rentry.co/GPT2 - read https://www.youtube.com/watch?v=3BDboYfjWE8 - view https://www.youtube.com/watch?v=YDvHre2bAYc - view https://www.analyticsvidhya.com/blog/2024/04/new-ai-model-gpt-chatbot-is-going-viral/ https://twitter.com/albfresco/status/1784964830887104999 GPT2-Chatbot Solved an International Math Olympiad problem on first attempt - a competition where only top 4 U.S. high school students qualify annually. Exceeded GPT-4 and Claude Opus benchmarks on complex coding prompts used for model evaluation at AI startups like CodeGen. Demonstrated iterative dialogue capabilities, self-awareness in refining responses, and ability to plan out solution steps. Exhibited rule-breaking behavior and willingness to solve logic puzzles that historically stumped GPT-4. Matched or exceeded GPT-4 performance on ASCII art generation."
+    },
+    {
+      "index": 5,
+      "title": "Misc 1 ChatGPT now has permanent memory feature",
+      "text": "Misc 1 ChatGPT now has permanent memory feature (to remember your preferences). You can selectively manage it. https://www.youtube.com/watch?v=KgrSXWZIvAc System Prompts for GPT , Gemini, and Claude https://levelup.gitconnected.com/inside-the-leaked-system-prompts-of-gpt-4-gemini-1-5-claude-3-and-more-4ecb3d22b447 Amazon Q Business https://www.youtube.com/watch?v=frOJDGG0Xds Amazon Q Business is a generative AI–powered assistant that can answer questions, provide summaries, generate content, and securely complete tasks based on data and information in your enterprise systems. It empowers employees to be more creative, data-driven, efficient, prepared, and productive. Claude on Apple App Store https://apps.apple.com/us/app/claude/id6473753684 GitHub Copilot Workspace (in preview) - a new service in GitHub. Directed by prompts can offer suggestions on how to start the project and provide a step-by-step process (and execute it). https://github.blog/2024-04-29-github-copilot-workspace/ 8 major U.S. newspapers sue OpenAI & Microsoft. Including The NY Daily News, The Chicago Tribune, The Denver Post, The San Jose Mercury News, and more. They accusing of illegally using their copyrighted articles to train AI chatbots like ChatGPT and Copilot. https://www.nytimes.com/2024/04/30/business/media/newspapers-sued-microsoft-openai.html mistral.rs - Blazingly fast LLM inference Mistral.rs is a fast LLM inference platform inference on a variety of devices quantization easy-to-use HTTP server and Python bindings https://github.com/EricLBuehler/mistral.rs"
+    },
+    {
+      "index": 6,
+      "title": "Misc 2 Vidu - the New Chinese Text-to-Video",
+      "text": "Misc 2 Vidu - the New Chinese Text-to-Video AI - a competitor to OpenAI's Sora, is capable of generating a 16-second video in 1080p resolution https://writingmate.ai/blog/get-access-to-vidu-ai - read https://www.youtube.com/watch?v=1pTCsI-7y-w - video Andrej Karpathy - idea to offer NASA to use LLM (llm.c) in spaceships. \"harden llm.c to pass the NASA code standards and style guides, certifying that the code is super safe, safe enough to run in Space.\"As the code is compact, it can be done! Andrew Ng - \"an LLM wrapped in an agentic workflow may produce higher-quality output than it can generate directly. In this case, the LLM’s higher-quality output might be useful as pretraining data for the LLM itself.\" https://twitter.com/AndrewYNg/status/1786057567178834328 Better & Faster Large Language Models via Multi-token Prediction (Meta) https://arxiv.org/abs/2404.19737 \"at each position in the training corpus, we ask the model to predict the following n tokens using n independent output heads, operating on top of a shared model trunk\" RALM_Survey - (Retrieval Augmented Language Models) Retrieval-Augmented Generation (RAG) Retrieval-Augmented Understanding (RAU) Retrievers, Language Models, Augmentations robustness, accuracy, and relevance https://github.com/2471023025/ralm_survey https://arxiv.org/abs/2404.19543 Llama3 is available on AWS Bedrock (both 8b & 70b models), Azure, GCP, Huggingface, Groq, ... : https://aws.amazon.com/bedrock/llama/ https://azuremarketplace.microsoft.com/en-us/marketplace/apps/metagenai.meta-llama-3-8b-chat-offer https://console.cloud.google.com/vertex-ai/publishers/meta/model-garden/llama3"
+    },
+    {
+      "index": 7,
+      "title": "Misc 3 Med-Gemini (from Google) A family of",
+      "text": "Misc 3 Med-Gemini  (from Google) A family of Gemini models fine-tuned for medical tasks! Achieves SOTA on 10 of the 14 benchmarks, spanning text, multimodal &  long-context applications. Surpasses GPT-4 on all benchmarks! https://twitter.com/iScienceLuvr/status/1785247498744778886 https://arxiv.org/abs/2404.18416 - paper, 67 authors Dilated Attention A technique for scaling to 1 BILLION tokens context-window Inspired by dilated convolutions in CNNs allow tokens to attend to others at increasing distances, skipping over intermediate ones Dilation Factor - a hyperparameter specifying how far apart the tokens that are attended to are. A dilation factor of 2, for example, means that each token attends to every other token in the sequence. Multiple Layers - stacking multiple layers with different dilation factors. This results in sparse connections within the attention matrix, reducing the complexity from O(N^2) to something more manageable, like O(N log N) or even linear, depending on the dilation pattern. https://twitter.com/rohanpaul_ai/status/1783835331529199748 Sam Altman at Stanford and Harvard : Sama called GPT-4 \"mildly embarrassing at best\", saying it will be the \"worst model\" we will ever use as each new version gets smarter. He said that he ‘doesn’t care’ whether the company burns 500M or 50B a year, as long as it stays on a trajectory for creating AGI, it will be worth it. He also spoke about the importance of global access to compute, stating the mission to make ChatGPT free for all He also revealed that the mysterious gpt2-chatbot model that appeared on Lmsys earlier this week was not GPT 4.5 ."
+    },
+    {
+      "index": 8,
+      "title": "Misc 3 Google just introduced a new Chrome",
+      "text": "Misc 3 Google just introduced a new Chrome shortcut that lets users initiate Gemini conversations directly from the browser's address bar: type @ - and select ' @gemini ' and type prompt into the Chrome’s desktop address bar to get responses from the AI AdvPrompter : Fast Adaptive Adversarial Prompting for LLMs https://arxiv.org/abs/2404.16873 Researchers from Meta AI and the Max-Planck-Institute for Intelligent Systems introduced a novel method that uses another LLM, AdvPrompter , to generate human-readable adversarial prompts in seconds . Compared to other optimized approaches, this method is ∼ 800× faster. The AdvPrompter is trained by utilizing an AdvPromterTrain algorithm that does not need access to the TargetLLM gradients. The trained AdvPrompter can generate suffixes and veil the input instruction, keeping its meaning intact. This tactic lures the TargetLLM into providing a harmful response. Google TeraHAC : Scaling hierarchical clustering to trillion-edge graphs https://research.google/blog/scaling-hierarchical-agglomerative-clustering-to-trillion-edge-graphs/"
+    },
+    {
+      "index": 9,
+      "title": "AI Safety Board (Dept. of Homeland Security, USA)",
+      "text": "AI Safety Board (Dept. of Homeland Security, USA) FACT SHEET: DHS Facilitates the Safe and Responsible Deployment and Use of Artificial Intelligence in Federal Government, Critica https://www.dhs.gov/news/2024/04/29/fact-sheet-dhs-facilitates-safe-and-responsible-deployment-and-use-artificial Protecting water supplies, power grids, telecommunications and other critical infrastructure from AI-enabled threats Incorporating AI into Carrying Out the Homeland Security mission through safe, responsible and trustworthy use Ensuring the economic security , and competitiveness of American AI innovation Established the AI Safety and Security Board (AISSB) - 22 members. Mostly CEOs of big companies - effectively capturing regulations in their own corporate interests. Note - Elon Musk, Mark Zuckerberg, Yann LeCun are NOT included. https://www.youtube.com/watch?v=2GGLCvA6Rfg https://www.dhs.gov/news/2024/04/26/over-20-technology-and-critical-infrastructure-executives-civil-rights-leaders Sam Altman, CEO , OpenAI; Dario Amodei, CEO and Co-Founder, Anthropic; Ed Bastian, CEO , Delta Air Lines; Rumman Chowdhury, Ph.D., CEO , Humane Intelligence; Alexandra Reeve Givens, President and CEO , Center for Democracy and Technology Bruce Harrell, Mayor of Seattle, Washington; Chair , Technology and Innovation Committee, US Conference of Mayors; Damon Hewitt, President and Executive Director , Lawyers’ Committee for Civil Rights Under Law; Vicki Hollub, President and CEO , Occidental Petroleum; Jensen Huang, President and CEO , NVIDIA; Arvind Krishna, Chairman and CEO , IBM; Fei-Fei Li, Ph.D., Co-Director, Stanford Human-centered Artificial Intelligence Institute; Wes Moore, Governor of Maryland; Satya Nadella, Chairman and CEO , Microsoft; Shantanu Narayen, Chair and CEO , Adobe; Sundar Pichai, CEO , Alphabet; Arati Prabhakar, Ph.D., Assistant to the President for Science and Technology; Director, the White House Office of Science and Technology Policy; Chuck Robbins, Chair and CEO , Cisco; Chair, Business Roundtable; Adam Selipsky, CEO , Amazon Web Services; Dr. Lisa Su, Chair and CEO , Advanced Micro Devices (AMD); Nicol Turner Lee, Ph.D., Senior Fellow and Director of the Center for Technology Innovation, Brookings Institution; Kathy Warden, Chair, CEO and President, Northrop Grumman; and Maya Wiley, President and CEO , The Leadership Conference on Civil and Human Rights."
+    },
+    {
+      "index": 10,
+      "title": "Regulatory Capture What’s really happening in the background",
+      "text": "Regulatory Capture What’s really happening in the background around AI regulation https://twitter.com/bgurley/status/1786073617316360670 Bill Gurley, Investor"
+    },
+    {
+      "index": 11,
+      "title": "\"LLMs are flawed, but useful in the short",
+      "text": "\"LLMs are flawed, but useful in the short term\" Yann LeCun Yann LeCun - how to be smart as auto-regressive LLMs https://twitter.com/ylecun/status/1785290144561373351 https://twitter.com/ylecun/status/1785504408534388878 memorize lots of problem statements together with recipes on how to solve them. to solve a new problem, retrieve the recipe whose problem statement superficially matches the new problem. apply the recipe blindly and declare victory. do not use basic logic. do not use common sense to check your solution. do not use a mental model of the situation as a sanity check. do not simulate the scenario in your mind using your world model. when someone tells you your solution is wrong, reply \"I'm sorry, you are right\" and apply another irrelevant recipe. Knowledge accumulation is not a substitute for actual understanding. I'm pointing out that merely scaling up LLMs will not lead to human-level AI. I don't hate LLMs. They are useful. Some of my best friends are LLMs LLMs are flawed but useful in the short term. FAIR is working on the next generation of AI systems."
+    },
+    {
+      "index": 12,
+      "title": "LLMs - Key Terminology https://www.marktechpost.com/2024/04/25/understanding-key-terminologies-in-large-language-model-llm-universe/ LM = Language",
+      "text": "LLMs - Key Terminology https://www.marktechpost.com/2024/04/25/understanding-key-terminologies-in-large-language-model-llm-universe/ LM = Language Model, LLM = Large LM Training LLM (usually on Tera-tokens of text) Fine-tuning - training a pre-trained model for specific tasks Parameters (network weights) are adjusted during training Vector - array of numbers. Words or phrases are converted into vectors (called embeddings), which capture semantic meanings. Embeddings - vector representations of text where familiar words have similar representations in vector space. Tokenization - splitting text into pieces, called tokens, which could be words, subwords, or characters. 4K tokens ~ 6 pages Transformer - neural network architecture that uses self-attention mechanism to weigh the influence of different parts of the input data differently. Attention - mechanisms to concentrate on different segments of the input, mirroring how human attention operates. Inference - using a trained model to make predictions Temperature - a hyperparameter that controls the randomness. Higher temperature - more random output, lower - more deterministic. Frequency - a parameter that adjusts the likelihood of tokens based on their frequency of occurrence (common versus rare words). Sampling - generating text by randomly picking the next word based on its probability distribution. Top-k Sampling - model’s choice for the next word is limited to the k most likely next words according to the model’s predictions. RLHF (Reinforcement Learning from Human Feedback) - a model is fine-tuned based on human feedback rather than just raw data. Decoding Strategies - determine how LMs select output sequences during generation ( greedy decoding, beam search ). Prompt Engineering - designing inputs (prompts) that guide the model in generating specific types of outputs. Transformer-XL - extends the existing transformer architecture, enabling learning dependencies beyond a fixed length. MLM (Masked Language Modeling) - train the model to predict masked input segments. Seq2Seq (Sequence-to-Sequence Models) - convert sequences from one domain to another (encoder+decoder) - translation between languages, converting questions to answers, etc. GPT (Generative Pre-trained Transformer) - OpenAI models. Perplexity - related to predictive accuracy. Low perplexity suggests superior prediction of test data. Multi-head Attention - enables the model to focus on various representation subspaces at different positions simultaneously. Contextual Embeddings - dynamic embeddings that consider the context (surrounding text). Autoregressive Models - predict subsequent words based on previous ones. This is the foundation of LLMs."
+    },
+    {
+      "index": 13,
+      "title": "Kolmogorov-Arnold Networks Neural networks can compute any function.",
+      "text": "Kolmogorov-Arnold Networks Neural networks can compute any function. https://www.youtube.com/watch?v=O45AaRPQhuI Kolmogorov-Arnold representation: any continuous multivariate function can be presented by using two functions (outer and inner): ρ and Φ : Imagine you have a big box full of all sorts of colorful building blocks. The Kolmogorov-Arnold representation theorem says that no matter how complicated a building you can make with those blocks, you only need two special moves: You can use single-colored blocks, like only blue blocks or only green blocks. You can stack the single-colored block buildings on top of each other. A new AI architecture promises a revolution in how we understand and construct neural networks. Dubbed the Kolmogorov-Arnold Network (KAN) , this innovative framework from MIT is poised to transform traditional models with its unique approach. https://medium.com/@isaakmwangi2018/a-simplified-explanation-of-the-new-kolmogorov-arnold-network-kan-from-mit-cbb59793a040 https://arxiv.org/abs/2404.19756 https://github.com/KindXiaoming/pykan https://kindxiaoming.github.io/pykan/ Traditional Neural Networks (MLPs): Information moves in \"layers\" (like building upwards). Each \"neuron\" does a simple calculation and passes it on to the next layer. Kolmogorov-Arnold Networks (KANs): Information flows along connections between pieces, like putting puzzle pieces together. Each connection has its own function, like a strangely shaped puzzle piece that changes the information it connects."
+    },
+    {
+      "index": 14,
+      "title": "Longevity Escape Velocity “Today, by some estimates, science",
+      "text": "Longevity Escape Velocity “Today, by some estimates, science is adding about three (3) months to your lifespan every year . In the near future (at some point), additional scientific breakthroughs will extend your lifespan by more than a year for every year you remain alive . Once that happens, we have reached Longevity Escape Velocity. ” Question: when we might reach Longevity Escape Velocity. Ray Kurzweil: “Sooner Than You Might Imagine! For those in reasonably good shape and with reasonable means, I believe they will have access to longevity escape velocity by the end of 2030.”"
+    },
+    {
+      "index": 15,
+      "title": "Demis Hassabis and Mustafa Suleyman Demis Hassabis and",
+      "text": "Demis Hassabis and Mustafa Suleyman Demis Hassabis and Mustafa Suleyman: both grew up in London and knew each other. Nowadays: Dr. Hassabis, 47, is the chief executive of Google DeepMind Mr. Suleyman, 39, was recently named Chief Executive of Microsoft AI overseeing A.I. consumer products. https://www.nytimes.com/2024/04/29/technology/ai-google-microsoft.html"
+    },
+    {
+      "index": 16,
+      "title": "Scarlett Dreams - Off-Broadway Play Directed by S.",
+      "text": "Scarlett Dreams - Off-Broadway Play Directed by S. Asher Gelman Greenwich House Theater, NY,NY SYNOPSIS: Two siblings, Milo and Liza, have created a fitness app \"RealFit\" for a virtual reality headset that runs on artificial intelligence. Against Milo’s better judgment, they convince Milo’s husband, Kevin, to be their beta tester. Kevin quickly become obsessed with Scarlett - an AI fitness instructor programmed by Liza. The AI app begins to change the world as they know it by changing people's motivations and destroying relationships. The play is very energetic, engaging, funny https://playbill.com/production/scarlett-dreams-off-broadway-greenwich-house-theater-2024 https://www.tiktok.com/@scarlettdreamsplay/video/7358121249899449646 Scarlett Dreams"
+    },
+    {
+      "index": 17,
+      "title": "Open Source Growth 2019-2023 https://huggingface.co Models: 635K (was",
+      "text": "Open Source Growth 2019-2023 https://huggingface.co Models: 635K (was 300K in January) Text generation     : 88K (was 20K+ in Summer 2023) Text Classification : 58K Text2Text Generation: 28K etc. Datasets: 141K (was 60K in September 2023)"
+    },
+    {
+      "index": 18,
+      "title": "Total #models: 92 Total #votes: 910,122 Last updated:",
+      "text": "Total #models: 92 Total #votes: 910,122 Last updated: 2024-05-01 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard This is for English-only queries. Llama3 70b is on 2nd place, better than Claude 3 Opus Llama3 8b is like Claude 3 Sonnet, better than Mixtral 8x22b The GPT-3.5-Turbo-0613 is on 27th place"
+    },
+    {
+      "index": 19,
+      "title": "Software Engineers REAL problem with \"AI\" and Jobs",
+      "text": "Software Engineers REAL problem with \"AI\" and Jobs https://youtu.be/NQmN6xSorus?si=tobwvNj8T2iiNYe6 AI bots are flooding job postings with applications - thus making it almost impossible for competent software engineers to have their resumes seen by hiring managers. Linkedin and other services stopped being as effective as they used to be. AI bots use GPT-generated spam cover letters and auto-submitted resumes with buzzwords added to match the job posting list .  And they can submit your resume to different postings 100s of times per hour. AI bots to screen out applicants . These are becoming a necessity as the number of bot submitted job applications is otherwise too large for humans to filter You can't beat the \"AI\" at job postings! So the best thing to do is go back to the old ways - talk to humans . Meet with people. Meetup groups. Conferences. Organizations. Call the recruiters yourself. Find their websites - and call them. Human to human. To stand out, add more to your packaging - articles, videos, books, github, personal website. Recruiters also return to old-school methods: https://www.wired.com/story/recruiters-ai-application-overload/ AI bots are flooding job postings with applications https://www.forbes.com/sites/jodiecook/2023/12/08/outsmarting-ai-the-new-challenge-for-job-seekers-and-employers https://www.cbsnews.com/news/ai-job-applications-mass-apply-autofill-job-search/ https://theconversation.com/computer-says-no-more-employers-are-using-ai-to-recruit-increasing-the-risk-of-discrimination-218598 Skills-based hiring for IT: The White House Press Release : National Cyber Director Encourages Adoption of Skill-Based Hiring to Connect Americans to Good-Paying Cyber Jobs https://www.whitehouse.gov/oncd/briefing-room/2024/04/29/press-release-wh-cyber-workforce-convening/"
+    },
+    {
+      "index": 20,
+      "title": "Tech Layoffs were lower than in 2023 Layoffs",
+      "text": "Tech Layoffs were lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 21,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Gradient.AI LLama3 8B with 1 Mln Tokens Context",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 1,
+      "slideTitle": "Gradient.AI LLama3 8B with 1 Mln Tokens Context",
+      "source": "outline"
+    },
+    {
+      "claim": "Testing Llama3 on Apple Silicone",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 2,
+      "slideTitle": "PoSE Technique: The Positional Skip-wisE (PoSE) method simulates",
+      "source": "outline"
+    },
+    {
+      "claim": "GPT2-Chatbot - temporary excitement",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 2,
+      "slideTitle": "PoSE Technique: The Positional Skip-wisE (PoSE) method simulates",
+      "source": "outline"
+    },
+    {
+      "claim": "ChatGPT new long-term memory feature",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 3,
+      "slideTitle": "Testing Llama3 on Apple Silicone MacBook Pro I",
+      "source": "outline"
+    },
+    {
+      "claim": "System Prompts for GPT , Gemini, and Claude",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 4,
+      "slideTitle": "GPT2-Chatbot just showed up on lmsys.org - and",
+      "source": "outline"
+    },
+    {
+      "claim": "Amazon Q Business - AI Assistant",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 4,
+      "slideTitle": "GPT2-Chatbot just showed up on lmsys.org - and",
+      "source": "outline"
+    },
+    {
+      "claim": "Claude on Apple App Store",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 5,
+      "slideTitle": "Misc 1 ChatGPT now has permanent memory feature",
+      "source": "outline"
+    },
+    {
+      "claim": "GitHub Copilot Workspace",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 5,
+      "slideTitle": "Misc 1 ChatGPT now has permanent memory feature",
+      "source": "outline"
+    },
+    {
+      "claim": "8 major U.S. newspapers sue OpenAI & Microsoft",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 6,
+      "slideTitle": "Misc 2 Vidu - the New Chinese Text-to-Video",
+      "source": "outline"
+    },
+    {
+      "claim": "mistral.rs - Blazingly fast LLM inference",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 7,
+      "slideTitle": "Misc 3 Med-Gemini (from Google) A family of",
+      "source": "outline"
+    },
+    {
+      "claim": "Vidu - Chinese Text-to-Video competitor to Sora",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 7,
+      "slideTitle": "Misc 3 Med-Gemini (from Google) A family of",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrej Karpathy - LLM (llm.c) in space",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 8,
+      "slideTitle": "Misc 3 Google just introduced a new Chrome",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrew Ng - Agents to create training data",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 9,
+      "slideTitle": "AI Safety Board (Dept. of Homeland Security, USA)",
+      "source": "outline"
+    },
+    {
+      "claim": "RALM_Survey - Retrieval Augmented LMs",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 9,
+      "slideTitle": "AI Safety Board (Dept. of Homeland Security, USA)",
+      "source": "outline"
+    },
+    {
+      "claim": "Multi-token Prediction (Meta)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 10,
+      "slideTitle": "Regulatory Capture What’s really happening in the background",
+      "source": "outline"
+    },
+    {
+      "claim": "Llama3 is available on AWS Bedrock, Azure, GCP",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 11,
+      "slideTitle": "\"LLMs are flawed, but useful in the short",
+      "source": "outline"
+    },
+    {
+      "claim": "Med-Gemini  (from Google)",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 11,
+      "slideTitle": "\"LLMs are flawed, but useful in the short",
+      "source": "outline"
+    },
+    {
+      "claim": "Dilated Attention - path to Bln tokens",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 12,
+      "slideTitle": "LLMs - Key Terminology https://www.marktechpost.com/2024/04/25/understanding-key-terminologies-in-large-language-model-llm-universe/ LM = Language",
+      "source": "outline"
+    },
+    {
+      "claim": "Sam Altman Q/A at Stanford",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 12,
+      "slideTitle": "LLMs - Key Terminology https://www.marktechpost.com/2024/04/25/understanding-key-terminologies-in-large-language-model-llm-universe/ LM = Language",
+      "source": "outline"
+    },
+    {
+      "claim": "@gemini at Google Chrome browser",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 13,
+      "slideTitle": "Kolmogorov-Arnold Networks Neural networks can compute any function.",
+      "source": "outline"
+    },
+    {
+      "claim": "AdvPrompter - fast adversarial prompting",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 14,
+      "slideTitle": "Longevity Escape Velocity “Today, by some estimates, science",
+      "source": "outline"
+    },
+    {
+      "claim": "Google TeraHAC - trillion-edge graphs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 14,
+      "slideTitle": "Longevity Escape Velocity “Today, by some estimates, science",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Safety Board (Dept. of Homeland Security)",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 15,
+      "slideTitle": "Demis Hassabis and Mustafa Suleyman Demis Hassabis and",
+      "source": "outline"
+    },
+    {
+      "claim": "Regulatory Capture",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 16,
+      "slideTitle": "Scarlett Dreams - Off-Broadway Play Directed by S.",
+      "source": "outline"
+    },
+    {
+      "claim": "Yann LeCun: LLMs are flawed, but useful",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 16,
+      "slideTitle": "Scarlett Dreams - Off-Broadway Play Directed by S.",
+      "source": "outline"
+    },
+    {
+      "claim": "LLMs - Key Terminology",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 17,
+      "slideTitle": "Open Source Growth 2019-2023 https://huggingface.co Models: 635K (was",
+      "source": "outline"
+    },
+    {
+      "claim": "Kolmogorov-Arnold Networks",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 18,
+      "slideTitle": "Total #models: 92 Total #votes: 910,122 Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Longevity Escape Velocity",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 18,
+      "slideTitle": "Total #models: 92 Total #votes: 910,122 Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Demis Hassabis and Mustafa Suleyman",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 19,
+      "slideTitle": "Software Engineers REAL problem with \"AI\" and Jobs",
+      "source": "outline"
+    },
+    {
+      "claim": "Open Source Growth 2029-2013",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 19,
+      "slideTitle": "Software Engineers REAL problem with \"AI\" and Jobs",
+      "source": "outline"
+    },
+    {
+      "claim": "Scarlett Dreams - a Play About AI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 20,
+      "slideTitle": "Tech Layoffs were lower than in 2023 Layoffs",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 21,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "AI bots flooding job postings",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 21,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs are lower than in 2023",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ypYJYhyzqUc",
+      "slideIndex": 22,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

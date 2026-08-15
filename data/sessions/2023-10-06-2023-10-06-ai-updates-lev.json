@@ -1,0 +1,267 @@
+{
+  "id": "2023-10-06-2023-10-06-ai-updates-lev",
+  "date": "2023-10-06",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "open-models",
+    "rag",
+    "benchmarks",
+    "infra",
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "PjodFXezjyk",
+    "title": "Ken McCarthy Interviews Lev Selector about AI for Business, October 5, 2023",
+    "url": "https://www.youtube.com/watch?v=PjodFXezjyk",
+    "thumbnail": "https://i.ytimg.com/vi/PjodFXezjyk/hqdefault.jpg",
+    "duration": 3642
+  },
+  "deck": {
+    "path": "2023/2023-10-06-AI-Updates-Lev.pptx",
+    "filename": "2023-10-06-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-06-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-06-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates October 06, 2023",
+      "text": "AI Updates October 06, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Meta LLaMa 2 Long Meta LLaMa 2 Long",
+      "text": "Meta LLaMa 2 Long Meta LLaMa 2 Long - a new Meta model (Sep 27, 2023) Effective Long-Context Scaling of Foundation Models - https://arxiv.org/pdf/2309.16039.pdf Not open source (yet ?) 32K context window the 70B variant can already surpass gpt-3.5-turbo-16k’s overall performance on a suite of long-context tasks long context continual pretraining added a 400 B tokens of training data Rotary Positional Embedding ( RoPE ) reinforcement learning from human feedback (RLHF) https://www.digitalinformationworld.com/2023/09/meta-unveils-llama-2-long-ai.html"
+    },
+    {
+      "index": 4,
+      "title": "Mistral-7B-OpenOrca Original Mistral-7B: https://github.com/mistralai https://huggingface.co/mistralai/Mistral-7B-v0.1 Fine-tuned MistralOrca: https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca",
+      "text": "Mistral-7B-OpenOrca Original Mistral-7B: https://github.com/mistralai https://huggingface.co/mistralai/Mistral-7B-v0.1 Fine-tuned MistralOrca: https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca Demo: https://huggingface.co/spaces/Open-Orca/Mistral-7B-OpenOrca Colab notebook: https://colab.research.google.com/drive/1uTJvyjhH-mvi1AmuwAOL2384X8TugGf0?usp=sharing Mistral models are open source - but NOT LLaMa MistralOrca is a fine-tuned version of original Mistral-7B using Mistral's own OpenOrca dataset, OpenChat packing HF Leaderboard evals average 65.33 - placing as #2 for all models smaller 30B, outperforming all but one 13B model Quantized down versions - https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-AWQ https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GPTQ https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF Mistral-7B uses a Sliding Window Attention (SWA) mechanism, allowing handling long sequences and using stacked layers of a transformer to reach tokens in the past beyond the window size. It also uses a Grouped Query Attention (GQA) to handle multiple queries simultaneously. https://mistral.ai - Mistral - strong fast wind through southern France - https:// www.youtube.com / watch?v =riCU5GzUZVw - https://analyticsindiamag.com/mistral-ai-is-making-generative-ai-fun/"
+    },
+    {
+      "index": 5,
+      "title": "Model files GGUF = GGML Universal File -",
+      "text": "Model files GGUF = GGML Universal File - new format (August 21, 2023) r eplacing the GGML (Georgi Gerganov ML) format for llama.cpp project. GPTQ - GPT Quantized AWQ - efficient, accurate and blazing-fast low-bit weight quantization method, currently supporting 4-bit quantization. Compared to GPTQ, it offers faster Transformers-based inference AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration (June 2023) https://arxiv.org/abs/2306.00978 pt or bin - Pytorch models ONNX = Open Neural Network eXchange pb - protocol buffer files (for TensorFlow models) h5 - hierarchical files for Keras models pkl - pickle files (sklearn, ...) Georgi Gerganov https://github.com/ggerganov/llama.cpp Sofia, Bulgaria https://ggerganov.com"
+    },
+    {
+      "index": 6,
+      "title": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\"",
+      "text": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\" command) https://github.com/ggerganov/llama.cpp download the model https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF run it: ./main -ngl 32 -m ~/Downloads/mistral-7b-openorca.Q5_K_M.gguf --color -c 2048 --temp 0.7 --repeat_penalty 1.1 -n -1 -i -ins Change -c 2048 to the desired sequence length. For extended sequence models - eg 8K, 16K, 32K - the necessary RoPE scaling parameters are read from the GGUF file and set by llama.cpp automatically."
+    },
+    {
+      "index": 7,
+      "title": "vLLM vLLM - UC Berkeley’s Open Source Framework",
+      "text": "vLLM vLLM - UC Berkeley’s Open Source Framework for Super Fast and Cheap LLM Serving for everyone https://github.com/vllm-project/vllm https://pub.towardsai.net/meet-vllm-uc-berkeleys-open-source-framework-for-super-fast-and-chearp-llm-serving-23b2f540a756 from vllm import LLM prompts = [ \"Hello, my name is\", \"The capital of France is\" ] # Sample prompts llm = LLM(model= \"lmsys/vicuna-7b-v1.3\" ) # Create an LLM outputs = llm.generate(prompts) # Generate outputs vLLM showed over 20x gains in performance HF = Hugging Face TGI - Text Generation Inference (HF)"
+    },
+    {
+      "index": 8,
+      "title": "Mixed-precision quantization (average 3 bit) Very interesting work.",
+      "text": "Mixed-precision quantization (average 3 bit) Very interesting work. Run Llama 2 70B on Your GPU with ExLlamaV2 - Sept 29, 2023 https://towardsdatascience.com/run-llama-2-70b-on-your-gpu-with-exllamav2-588141a88598 ExLlamaV2 (MIT license) implements mixed-precision quantization - quantize important parts of the model to a higher precision and the less important parts to a lower precision - https://github.com/turboderp/exllamav2 Original 70b LLaMa2 needs 140GB of memory. You can quantize it down to 24GB using mixed-precision conversion to 2.5bit (conversion takes ~ 2 hrs in Colab): python convert.py \\ -i ./Llama-2-70b-hf/ \\ -o ./Llama-2-70b-hf/temp/ \\ -c test.parquet \\ -cf ./Llama-2-70b-hf/2.5bpw/ \\ -b 2.5 Then you can run converted 70b model locally (fits into one 24GB Nvidia RTX 3090) git clone https://github.com/turboderp/exllamav2 cd exllamav2 pip install -r requirements.txt python test_inference.py -m <path_to_model> -p \"Once upon a time,\""
+    },
+    {
+      "index": 9,
+      "title": "Adept.AI Adept.AI - raised $350 Mln (ser. B,",
+      "text": "Adept.AI Adept.AI - raised $350 Mln (ser. B, March 2023) San Francisco, CA, ~100 people ML research and product lab ACT-1 - take actions on computers in response to your natural language commands (in common software like Google Sheets, Salesforce, Craiglist, Redfin, etc, etc) Examples: Google Sheets, Create profit and loss columns for the last quarter Salesforce, Add Emma Jacobs from Acme Co as a new contact Craigslist, Find me a refrigerator for under $1,000 Redfin, Find me a property in Houston under $600,000 https://www.adept.ai https://www.linkedin.com/company/adeptai/ https://medium.com/@ignacio.de.gregorio.noblejas/ai-more-impressive-than-chatgpt-4cc9cf343185"
+    },
+    {
+      "index": 10,
+      "title": "How to Get HuggingFace LLM Leaderboard Data #",
+      "text": "How to Get HuggingFace LLM Leaderboard Data # full script is here: # https://github.com/lselector/ai/blob/master/llm_leaderboard.py import os, sys, json, time from gradio_client import Client import pandas as pd import numpy as np client = Client(\" https://felixz-open-llm-leaderboard.hf.space/ \") json_data = client.predict(\"\",\"\", api_name=' /predict ') with open(json_data, 'r') as file: file_data = file.read() data = json.loads(file_data) df = pd.DataFrame(data=data['data'], columns=data['headers'])"
+    },
+    {
+      "index": 11,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset and links https://huggingface.co/spaces/gsaivinay/open_llm_leaderboard - added GPT-4 and GPT-3.5 Oct 04, 2023 1496 entries (was ~346 entries on July 16th before LLaMa July 18) GPT-4 (best) and GPT-3.5 (33rd place) provided for comparison All top positions (except GPT) are LLaMa 70B 16bit and require ~160 GB VRAM to run. Reducing N-params from 70B down to 30,13,7B causes severe reduction of average test scores Reducing precision from 16bits down to 4bits surprisingly preserves the quality of the model rank    size  avg_quality  bits  VRAM  name 0   1,760B    84.3        16  4,000  GPT-4 1      70B    74.07       16    160  Riiid/sheep-duck-llama-2-70b-v1.1 2      70B    74.06       16    160  AIDC-ai-business/Marcoroni-70B-v1 ... 34     175B    71.9        16    400  GPT-3.5 49      70B    71.36        8    160  garage-bAInd/Camel-Platypus2-70B 52      70B    70.99        4     45  lloorree/jfdslijsijdgis 93     180B    68.74       16    400 tiiuae/falcon-180B 131      70B    66.8        16 160 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 150      13B    66.03       16     30  Aspik101/trurl-2-13b-pl-instruct_unload 162      13B    65.58       16     30  posicube/Llama2-chat-AYT-13B 165       7B    65.33       16     18  Mistral-Orca (not in leaderboard yet) 213      30B    64.21        4     20  gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps 245      40b    63.47       16         tiiuae/falcon-40b-instruct (was #1 before LLaMa2) 264      13B    63.19        4     10  Open-Orca/OpenOrca-Platypus2-13B 320       7b    62.4        16     18  mistralai/Mistral-7B-v0.1 480       7b    60.02       16     18  oh-yeontaek/llama-2-7B-LoRA-assemble 791       7b    55.72        4      6  joehuangx/spatial-vicuna-7b-v1.5-LoRA"
+    },
+    {
+      "index": 12,
+      "title": "Meta Open LLM Leaderboard - by Feliks Zaslavskiy",
+      "text": "Meta Open LLM Leaderboard - by Feliks Zaslavskiy https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard Oct 01, 2023"
+    },
+    {
+      "index": 13,
+      "title": "Misc Nvidia's RTX 5000 Ada Now Available: AD102",
+      "text": "Misc Nvidia's RTX 5000 Ada Now Available: AD102 GPU, 32GB of GDDR6, 250W, $4-5K, basic cut-down board SigNoz - get $6.5M https://signoz.io open source, alternative to Datadog or New Relic. An observability tool for your apps: APM, logs, metrics, exceptions, alerts, and dashboards GPT-4 Vision for converting food pics into recipes Access DALL-E 3 with Bing https://www.bing.com/images/create"
+    },
+    {
+      "index": 14,
+      "title": "Misc 2 MSFT Open Orca - https://huggingface.co/Open-Orca/OpenOrca-Preview1-13B MSFT",
+      "text": "Misc 2 MSFT Open Orca - https://huggingface.co/Open-Orca/OpenOrca-Preview1-13B MSFT phi - https://huggingface.co/microsoft/phi-1_5 MSFT AutoGen - framework for simplifying the orchestration, optimization, and automation of LLM workflows - https://www.microsoft.com/en-us/research/blog/autogen-enabling-next-generation-large-language-model-applications/ ChatDev - a virtual software company that operates through various intelligent agents holding different roles, including CEO, CPO, CTO, programmer , reviewer , tester , art designer - https://github.com/OpenBMB/ChatDev https://www.youtube.com/watch?v=yoAWsIfEzCw"
+    },
+    {
+      "index": 15,
+      "title": "RAG — Retrieval as a Multi-Step Process: Optimizing",
+      "text": "RAG — Retrieval as a Multi-Step Process: Optimizing Knowledge Graph and Vector Retrieval https://pub.aimind.so/rag-optimization-retrieval-as-a-multi-step-process-optimizing-knowledge-graph-and-vector-d249fc82b497 Building a Reward Model for Your LLM Using RLHF in Python https://python.plainenglish.io/building-a-reward-model-for-your-llm-using-rlhf-in-python-49abaf4906f How To Create A Custom Fine-Tuned Prediction Model Using Base GPT-3 models https://cobusgreyling.medium.com/how-to-create-a-custom-fine-tuned-prediction-model-using-base-gpt-3-models-3dfd1eb1de0e What is MetaGPT? LLM Agents Collaborating to Solve Complex Tasks https://pub.towardsai.net/what-is-metagpt-llm-agents-collaborating-to-solve-complex-tasks-63a453df6654 “Graph of Thoughts” (GoT) Revolution: Next Level to Chains and Trees of Thought (ToT) https://medium.com/mlearning-ai/graph-of-thoughts-got-revolution-next-level-to-chains-and-trees-of-thought-tot-bc9725661f3c AI Startup Trends: Insights from Y Combinator https://towardsdatascience.com/ai-startup-trends-insights-from-y-combinators-latest-batch-282efc9080ae Feature Engineering: How LLMs Can Enrich Your Data https://medium.com/@swansburg.justin/the-brave-new-world-of-feature-engineering-how-llms-can-enrich-your-data-b6896f1b2b80 Misc 3"
+    },
+    {
+      "index": 16,
+      "title": "RAG vs Fine-Tuning https://medium.com/@abhishekranjandev/rag-vs-fine-tuning-choosing-the-best-tool-for-your-llm-f185dcc142da Extracting text from PDF",
+      "text": "RAG vs Fine-Tuning https://medium.com/@abhishekranjandev/rag-vs-fine-tuning-choosing-the-best-tool-for-your-llm-f185dcc142da Extracting text from PDF files with Python: A comprehensive guide https://towardsdatascience.com/extracting-text-from-pdf-files-with-python-a-comprehensive-guide-9fc4003d517 A Pro’s Guide to Finetuning LLMs https://medium.com/@dave-shap/a-pros-guide-to-finetuning-llms-c6eb570001d3 https://github.com/daveshap/GPT3_Finetunes A New Document Summary Index for LLM-powered QA Systems https://blog.llamaindex.ai/a-new-document-summary-index-for-llm-powered-qa-systems-9a32ece2f9ec Create Your Own Data Analyst Assistant With Langchain Agents https://pub.towardsai.net/create-your-own-data-analyst-assistant-with-langchain-agents-722f1cdcdd7e Generating Summaries for Large Documents with Llama2 using Hugging Face and Langchain https://medium.com/@ankit941208/generating-summaries-for-large-documents-with-llama2-using-hugging-face-and-langchain-f7de567339d2 Improving RAG (Retrieval Augmented Generation) Answer Quality with Re-ranker https://medium.com/towards-generative-ai/improving-rag-retrieval-augmented-generation-answer-quality-with-re-ranker-55a19931325 Misc 4"
+    },
+    {
+      "index": 17,
+      "title": "RetNet: Transformer killer (developed at Meta AI) https://medium.com/aiguys/retnet-transformer-killer-is-here-1dc7f50d1205",
+      "text": "RetNet: Transformer killer (developed at Meta AI) https://medium.com/aiguys/retnet-transformer-killer-is-here-1dc7f50d1205 RetNet is a hybrid CNN-Transformer model It achieves state-of-the-art results on image recognition benchmarks like ImageNet while using far fewer parameters than models like EfficientNet and Vision Transformer (ViT) . RetNet incorporates ideas from Vision Transformers like split attention and residual connections while also using CNNs in parts of the model. The hybrid design (CNNs and Transformers). By using 30-50x fewer parameters than ViT models, RetNet is more efficient and requires less compute resources to train. The researchers plan to scale up RetNet substantially, which they believe could match or surpass the accuracy of models like ViT-Huge while using far fewer computational resources."
+    },
+    {
+      "index": 18,
+      "title": "Enhance Semantic Search of Text Embeddings through Collaborative",
+      "text": "Enhance Semantic Search of Text Embeddings through Collaborative Filtering over A Knowledge Graph https://medium.com/@yu-joshua/enhance-semantic-search-of-text-embeddings-through-collaborative-filtering-over-a-knowledge-graph-8321fce4607b RAG was introduced by Facebook AI at NeurIPS 2020 in a paper titled “Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks” . Challenges - retrieval accuracy, data quality and relevance, data overlapping (bias), size limitation of the LLM prompt, domain awareness of data Limitations of LLM generated embeddings - they are contextual (depend on context), they are high-dimension (capture too many details, noise), training data may be biased, different phrases may get similar embeddings # use vector similarity, then apply collaborative filtering # to calculate a weight and adjust similarity score # using a graph database from neo4j import GraphDatabase from openai.embeddings_utils import get_embedding import openai"
+    },
+    {
+      "index": 19,
+      "title": "Fine-Tuning Fine-Tune Your Own Llama 2 Model in",
+      "text": "Fine-Tuning Fine-Tune Your Own Llama 2 Model in a Colab Notebook https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32 Fine-Tuning LLaMA 2 Models using a single GPU, QLoRA and AI Notebooks (on HuggingFace ) https://blog.ovhcloud.com/fine-tuning-llama-2-models-using-a-single-gpu-qlora-and-ai-notebooks/ Fine-tune Llama-2 with few lines of code! (HuggingFace|Colab) https://www.linkedin.com/posts/younes-belkada-b1a903145_fine-tune-llama-2-with-few-lines-of-code-activity-7087412907029737472-_5-u/ Fine-tuning large language models in practice: LLaMA 2 (Paperspace's Nvidia Ampere GPUs) https://blog.paperspace.com/fine-tuning-llms-in-practice-llama-2/ Fine-Tuning Large Language Models (LLMs) https://towardsdatascience.com/fine-tuning-large-language-models-llms-23473d763b91 train a model locally https://www.reddit.com/r/LocalLLaMA/comments/16x4zr2/will_we_ever_be_able_to_train_a_model_locally/ Fine-tune your own Llama 2 to replace GPT-3.5/4 https://news.ycombinator.com/item?id=37484135 How to Run Llama 2 on Mac M1 and Train with Your Own Data https://itnext.io/how-to-run-llama-2-on-mac-m1-and-train-with-your-own-data-8aba7d5ef95e The Cheapskate’s Guide to Fine-Tuning LLaMA-2 and Running It on Your Laptop https://hackernoon.com/the-cheapskates-guide-to-fine-tuning-llama-2-and-running-it-on-your-laptop The EASIEST way to finetune LLAMA-v2 on local machine! https://www.youtube.com/watch?v=3fsn19OI_C8 https://github.com/huggingface/autotrain-advanced Fine-Tuning Llama-2: A Comprehensive Case Study for Tailoring Models to Unique Applications https://www.anyscale.com/blog/fine-tuning-llama-2-a-comprehensive-case-study-for-tailoring-models-to-unique-applications Fine-tune Llama 2 with DPO https://huggingface.co/blog/dpo-trl"
+    },
+    {
+      "index": 20,
+      "title": "AI and Future of Finance Attention CFOs, FP&A",
+      "text": "AI and Future of Finance Attention CFOs, FP&A professionals, and Accounting Finance teams are increasingly recognizing automation and AI technology as instrumental in streamlining manual tasks, thereby creating time for critical analyses and decision-making The issue of burnout in the finance orgs is a major concern. There will be a surge in demand for tools that alleviate this strain, as businesses strive to achieve more with fewer resources Back-office functions such as Accounting, Accounts Payable (AP), and Accounts Receivable (AR) are poised to experience a substantial reduction in labor requirements thanks to the implementation of RPA and AI-powered automation Managing risks associated with AI implementation is of paramount importance and demands careful attention https://www.linkedin.com/feed/update/urn:li:activity:7115385812996739072/ https://www.vareto.com"
+    },
+    {
+      "index": 21,
+      "title": "LLM as the kernel of a new Operating",
+      "text": "LLM as the kernel of a new Operating System ... LLMs not as a chatbot, but the kernel process of a new Operating System ... today it orchestrates: Input & Output across modalities (text, audio, vision) Code interpreter, ability to write & run programs Browser / internet access Embeddings database for files and internal memory storage & retrieval A lot of computing concepts carry over. Currently we have single-threaded execution running at ~10Hz (tok/s) and enjoy looking at the assembly-level execution traces stream by. Concepts from computer security carry over, with attacks, defenses and emerging vulnerabilities. I also like the nearest neighbor analogy of \"Operating System\" because the industry is starting to shape up similar: Windows, OS X, and Linux <-> GPT, PaLM, Claude, and Llama/Mistral(?:)). An OS comes with default apps but has an app store. Most apps can be adapted to multiple platforms. TLDR looking at LLMs as chatbots is the same as looking at early computers as calculators. We're seeing an emergence of a whole new computing paradigm, and it is very early. Andrej Karpathy"
+    },
+    {
+      "index": 22,
+      "title": "5 easy ways to run an LLM locally",
+      "text": "5 easy ways to run an LLM locally 5 easy ways to run an LLM locally https://www.infoworld.com/article/3705035/5-easy-ways-to-run-an-llm-locally.html GPT4All - Run a local chatbot with GPT4All llm on cmd line: pip install lm llm install mymodel llm -m mymodel \"some query\" Ollama - run models on Mac & Linux h2oGPT - chat with your own documents PrivateGPT - easy but slow chat with your data LocalGPT - a PrivateGPT spinoff LM Studio - LangChain framework GPT4All"
+    },
+    {
+      "index": 23,
+      "title": "Pair Programming with a LLM https://www.deeplearning.ai/short-courses/pair-programming-llm/ AI pair",
+      "text": "Pair Programming with a LLM https://www.deeplearning.ai/short-courses/pair-programming-llm/ AI pair programming = using AI to help in software dev. process Uses Google’s PaLM API Understands all coding languages Simplify and improve your code Write test cases Debug and refactor your code Explain and document your code"
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates October 06, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates October 06, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta LLaMa 2 Long Meta LLaMa 2 Long",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 3,
+      "slideTitle": "Meta LLaMa 2 Long Meta LLaMa 2 Long",
+      "source": "slide"
+    },
+    {
+      "claim": "Mistral-7B-OpenOrca Original Mistral-7B: https://github.com/mistralai https://huggingface.co/mistralai/Mistral-7B-v0.1 Fine-tuned MistralOrca: https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 4,
+      "slideTitle": "Mistral-7B-OpenOrca Original Mistral-7B: https://github.com/mistralai https://huggingface.co/mistralai/Mistral-7B-v0.1 Fine-tuned MistralOrca: https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca",
+      "source": "slide"
+    },
+    {
+      "claim": "Model files GGUF = GGML Universal File -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 5,
+      "slideTitle": "Model files GGUF = GGML Universal File -",
+      "source": "slide"
+    },
+    {
+      "claim": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\"",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 6,
+      "slideTitle": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\"",
+      "source": "slide"
+    },
+    {
+      "claim": "vLLM vLLM - UC Berkeley’s Open Source Framework",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 7,
+      "slideTitle": "vLLM vLLM - UC Berkeley’s Open Source Framework",
+      "source": "slide"
+    },
+    {
+      "claim": "Mixed-precision quantization (average 3 bit) Very interesting work.",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 8,
+      "slideTitle": "Mixed-precision quantization (average 3 bit) Very interesting work.",
+      "source": "slide"
+    },
+    {
+      "claim": "Adept.AI Adept.AI - raised $350 Mln (ser. B,",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 9,
+      "slideTitle": "Adept.AI Adept.AI - raised $350 Mln (ser. B,",
+      "source": "slide"
+    },
+    {
+      "claim": "How to Get HuggingFace LLM Leaderboard Data #",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 10,
+      "slideTitle": "How to Get HuggingFace LLM Leaderboard Data #",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 11,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta Open LLM Leaderboard - by Feliks Zaslavskiy",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 12,
+      "slideTitle": "Meta Open LLM Leaderboard - by Feliks Zaslavskiy",
+      "source": "slide"
+    }
+  ]
+}

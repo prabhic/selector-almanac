@@ -1,0 +1,805 @@
+{
+  "id": "2025-09-19-2025-09-19-ai-updates",
+  "date": "2025-09-19",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "benchmarks",
+    "agents",
+    "coding",
+    "infra",
+    "open-models",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "OnHqIjrl3ZU",
+    "title": "Have you heard these exciting AI news? - September 19, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=OnHqIjrl3ZU",
+    "thumbnail": "https://i.ytimg.com/vi/OnHqIjrl3ZU/hqdefault.jpg",
+    "duration": 2174
+  },
+  "deck": {
+    "path": "2025/2025-09-19-AI-Updates.pptx",
+    "filename": "2025-09-19-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-09-19-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-09-19-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Humanity has historically automated bodily functions (digging, running, seeing), but AI now automates thought and creativity, thus leaving only self-awareness as a uniquely human trait",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI's GPT-5 won at ICPC World Finals",
+      "startSeconds": 39,
+      "label": "00:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 98,
+      "label": "01:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Hallucinations",
+      "startSeconds": 131,
+      "label": "02:11",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenLovable - free alternative to Lovable",
+      "startSeconds": 230,
+      "label": "03:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Foundation Models Becoming a Commodity",
+      "startSeconds": 269,
+      "label": "04:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Agent Payments Protocol (AP2)",
+      "startSeconds": 386,
+      "label": "06:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Albania - AI minister of public procurement",
+      "startSeconds": 454,
+      "label": "07:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Perplexity AI raised $200M at $20B Valuation",
+      "startSeconds": 481,
+      "label": "08:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Inception Point AI - 3K podcasts per week",
+      "startSeconds": 519,
+      "label": "08:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Gauss AI system from Math Inc.",
+      "startSeconds": 548,
+      "label": "09:08",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI and Microsoft - Memorandum",
+      "startSeconds": 590,
+      "label": "09:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta MobileLLM-R1 - pocket reasoning",
+      "startSeconds": 617,
+      "label": "10:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Amazon Kiro IDE",
+      "startSeconds": 655,
+      "label": "10:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen3‑Next‑80B‑A3B",
+      "startSeconds": 736,
+      "label": "12:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Mixture of Experts (MoE)",
+      "startSeconds": 808,
+      "label": "13:28",
+      "source": "youtube"
+    },
+    {
+      "title": "YouTube multi-language audio feature",
+      "startSeconds": 902,
+      "label": "15:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Companies achieving more with less capital",
+      "startSeconds": 931,
+      "label": "15:31",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Investment - gaming & entertainment",
+      "startSeconds": 954,
+      "label": "15:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Is there an AI day?",
+      "startSeconds": 960,
+      "label": "16:00",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Rubin CPX",
+      "startSeconds": 995,
+      "label": "16:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba Qwen 3 Max",
+      "startSeconds": 1018,
+      "label": "16:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent Hunyuan Image 2.1",
+      "startSeconds": 1025,
+      "label": "17:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Salesforce SFR Deep Research",
+      "startSeconds": 1039,
+      "label": "17:19",
+      "source": "youtube"
+    },
+    {
+      "title": "ASML-Mistral Investment",
+      "startSeconds": 1050,
+      "label": "17:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Connect",
+      "startSeconds": 1079,
+      "label": "17:59",
+      "source": "youtube"
+    },
+    {
+      "title": "CodeRabbit CLI - Code Review",
+      "startSeconds": 1121,
+      "label": "18:41",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI GPT-5 Codex - AI coding assistant model",
+      "startSeconds": 1149,
+      "label": "19:09",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT connectors update",
+      "startSeconds": 1223,
+      "label": "20:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba's Tongyi DeepResearch - 30B AI Agent",
+      "startSeconds": 1239,
+      "label": "20:39",
+      "source": "youtube"
+    },
+    {
+      "title": "GLM-4.5 AI coding model from Z.ai",
+      "startSeconds": 1275,
+      "label": "21:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemma 3 270M on Pixel 9 Pro",
+      "startSeconds": 1320,
+      "label": "22:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Google VaultGemma: diff-private LLM",
+      "startSeconds": 1338,
+      "label": "22:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Agent TARS - browser/desktop automation",
+      "startSeconds": 1444,
+      "label": "24:04",
+      "source": "youtube"
+    },
+    {
+      "title": "GitHub Speckit",
+      "startSeconds": 1554,
+      "label": "25:54",
+      "source": "youtube"
+    },
+    {
+      "title": "LEANN Vector DB takes 30x less space",
+      "startSeconds": 1669,
+      "label": "27:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Customer Service AI Agent",
+      "startSeconds": 1737,
+      "label": "28:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Streamlit-Based RAG Debugging",
+      "startSeconds": 1853,
+      "label": "30:53",
+      "source": "youtube"
+    },
+    {
+      "title": "OOP Is Dead - Long Live ECS",
+      "startSeconds": 1917,
+      "label": "31:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Why Entrepreneurship is Safer Than Employment",
+      "startSeconds": 2022,
+      "label": "33:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 2117,
+      "label": "35:17",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI's GPT-5 won at ICPC World Finals Crowd-sourced",
+      "text": "OpenAI's GPT-5 won at ICPC World Finals Crowd-sourced \"LM Arena\" Leaderboard Hallucinations OpenLovable - free alternative to Lovable Foundation Models Becoming a Commodity AI Updates - September 19 , 2025 Why Entrepreneurship is Safer Than Employment Jobs, Layoffs, demand for AI Engineers Google Agent Payments Protocol (AP2) Albania - AI minister of public procurement Perplexity AI raised $200M at $20B Valuation Inception Point AI - 3K podcasts per week Gauss AI system from Math Inc. OpenAI and Microsoft - Memorandum Meta MobileLLM-R1 - pocket reasoning Amazon Kiro IDE Qwen3‑Next‑80B‑A3B Mixture of Experts (MoE) YouTube multi-language audio feature Companies achieving more with less capital AI Investment - gaming & entertainment Is there an AI day? Alter Ego \"Silent Sense\" wearable device NVIDIA Rubin CPX Alibaba Qwen 3 Max Tencent Hunyuan Image 2.1 Salesforce SFR Deep Research ASML-Mistral Investment Meta Connect CodeRabbit CLI - Code Review OpenAI GPT-5 Codex - AI coding assistant model ChatGPT connectors update Alibaba's Tongyi DeepResearch - 30B AI Agent GLM-4.5 AI coding model from Z.ai Gemma 3 270M on Pixel 9 Pro Google VaultGemma: diff-private LLM Agent TARS - browser/desktop automation GitHub Speckit LEANN Vector DB takes 30x less space Customer Service AI Agent Streamlit-Based RAG Debugging OOP Is Dead - Long Live ECS Humanity has historically automated bodily functions (digging, running, seeing), but AI now automates thought and creativity - thus leaving only self-awareness as a uniquely human trait"
+    },
+    {
+      "index": 2,
+      "title": "AI wins ICPC Coding Competition OpenAI's GPT-5 won",
+      "text": "AI wins ICPC Coding Competition OpenAI's GPT-5 won at ICPC World Finals - 12 out of 12 Best Human Team - 11 out of 12 Google's Gemini 2.5 Deep Think  - 10 out of 12 This marks the first time in ICPC history that AI models have achieved gold-medal status, overtaking human champions from Saint Petersburg State University, University of Tokyo, and Tsinghua University, whose highest human score was 11/12 https://eu.36kr.com/en/p/3472125425375625 The ICPC (International Collegiate Programming Contest) is the world's largest and most prestigious college-level algorithmic coding competition University teams solve complex programming and algorithmic problems under intense time pressure. Teams of three compete to solve typically 8 to 15 programming challenges in five hours"
+    },
+    {
+      "index": 3,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://lmarena.ai/?leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding China https://lmarena.ai/leaderboard/text https://web.lmarena.ai/leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub https://epoch.ai/data/ai-benchmarking-dashboard LM Arena secures $100M to expand AI benchmarking (at $600M valuation) China China x.ai Grok 4 Benchmarks https://artificialanalysis.ai/models/grok-4 Mistral China China China China China China China China x.ai Mistral China Model Score gemini-2.5-pro 1456 claude-opus-4-1-20250805-thinking-16k 1449 o3-2025-04-16 1442 chatgpt-4o-latest-20250326 1441 gpt-5-high 1441 gpt-4.5-preview-2025-02-27 1441 claude-opus-4-1-20250805 1438 qwen3-max-preview 1430 gpt-5-chat 1430 claude-opus-4-20250514-thinking-16k 1421 grok-4-0709 1420 qwen3-235b-a22b-instruct-2507 1420 kimi-k2-0711-preview 1419 kimi-k2-0905-preview 1416 deepseek-r1-0528 1418 deepseek-v3.1 1417 deepseek-v3.1-thinking 1415 claude-opus-4-20250514 1411 gpt-4.1-2025-04-14 1410 grok-3-preview-02-24 1410 glm-4.5 1408 mistral-medium-2508 1407 gemini-2.5-flash 1406 qwen3-next-80b-a3b-instruct 1401 Model Score claude-opus-4-1-20250805-thinking-16k 1504 claude-opus-4-1-20250805 1496 claude-opus-4-20250514-thinking-16k 1480 qwen3-max-preview 1474 qwen3-235b-a22b-instruct-2507 1472 gemini-2.5-pro 1470 chatgpt-4o-latest-20250326 1468 gpt-5-high 1467 gpt-5-chat 1465 qwen3-next-80b-a3b-instruct 1465 o3-2025-04-16 1465 claude-sonnet-4-20250514-thinking-32k 1461 gpt-4.5-preview-2025-02-27 1460 deepseek-v3.1-thinking 1459 deepseek-r1-0528 1458 deepseek-v3.1 1454 longcat-flash-chat 1453 claude-opus-4-20250514 1456 kimi-k2-0905-preview 1449 kimi-k2-0711-preview 1454 glm-4.5 (Z.ai) 1452 qwen3-235b-a22b-thinking-2507 1447 mistral-medium-2508 1447 gpt-4.1-2025-04-14 1447 China China China China China China China China"
+    },
+    {
+      "index": 4,
+      "title": "Hallucinations OpenAI has published a detailed article exploring",
+      "text": "Hallucinations OpenAI has published a detailed article exploring the origins of hallucinations in LLMs. These findings directly influenced the training and architecture of GPT-, reducing hallucination rates compared to previous versions GPT-5 incorporates new honesty-driven reward techniques and leverages architectural changes such as hybrid multi-model routing, dynamic reasoning, and RAG to reduce factual errors and confabulations Latest techniques include improved post-training optimization and incentivizing models to respond honestly when tasks are impossible, which led GPT-5 to claim a failed task only 17% of the time versus 47% for the previous o3 model Additional methods such as chain-of-thought prompting and RAG  help mitigate hallucinations by anchoring responses in real-world sources and explicit logic GPT-5's hallucination rates are substantially lower than GPT-4, o3/o4. On HealthBench Hard GPT-5 reasoning models score about 1.6% hallucination rate versus GPT-4o's 15.8% and o3's 12.7% Comparative hallucination leaderboards report OpenAI GPT-5 at 1.4% and Google's Gemini 2.0 at 1.3%, with Claude typically trailing both in this direct metric for factuality - https://github.com/vectara/hallucination-leaderboard Expert and user reviews note that Gemini slightly outperformed GPT-5 on some document summary tasks, but both have sub-1.5% error rates. GPT-5 is preferred for consistent global context, while Gemini leverages refusals more frequently for safety, sometimes at the expense of directness - GPT-5 has lower hallucination rates and improved productivity in multi-turn dialogues compared to the latest versions of Anthropic Claude, particularly in coding, architecture, and health queries Model Hallucination Rate % GPT-5 (reasoning) 1.5 GPT-4o 1.7 GPT-3.5 40 o3 33 o4-mini 48 Gemini 2.5 Pro 2.6 Claude Opus 3 7.4 Claude Opus 4.1 2+"
+    },
+    {
+      "index": 5,
+      "title": "OpenLovable - free alternative to Lovable OpenLovable -",
+      "text": "OpenLovable - free alternative to Lovable OpenLovable - free alternative to Lovable New free no-code local developer tool. It is open-source You can use it to build full apps, clone websites into modern React + Tailwind projects, and edit or customize them - all locally and with zero coding required It uses Firecrawl’s web scraping engine to extract site content, structure, and assets, then rebuilds projects using AI in React, TypeScript, and Tailwind CSS Integrates with multiple LLMs (Anthropic, OpenAI, Gemini, Grok, ..., Olama, LM Studio Allows exporting, downloading, and further changing source files as needed, ensuring full control of generated code Can build projects entirely based on text prompts, such as generating a SaaS landing page without a website source Requirements: Git, VSCode, pnpm, Firecrawl API key, AI API keys https://www.youtube.com/watch?v=woFXNLSQvc8 - video https://github.com/firecrawl/open-lovable (19K stars) https://www.firecrawl.dev https://vercel.com - CDN for deployment git clone https://github.com/firecrawl/open-lovable.git cd open-lovable pnpm install # or npm install / yarn install"
+    },
+    {
+      "index": 6,
+      "title": "Foundation Models Becoming a Commodity AI Research (universities",
+      "text": "Foundation Models Becoming a Commodity AI Research (universities and major AI companies) Foundation Models Training and constant improvement Foundation Models Delivery (commercial and open source) Dev Tools & Frameworks Apps as wrappers (can use different models) Competition, Price Drop, Foundation Models Becoming a commodity"
+    },
+    {
+      "index": 7,
+      "title": "Please pause the video - and answer the",
+      "text": "Please pause the video - and answer the pinned question in comments under the video Subscribe to this channel https://www.youtube.com/@lev-selector G et notified about new videos - every Friday, links to slides under the videos"
+    },
+    {
+      "index": 8,
+      "title": "Google Agent Payments Protocol (AP2) Open and payment-agnostic",
+      "text": "Google Agent Payments Protocol (AP2) Open and payment-agnostic standard for secure and compliant payments initiated by AI agents and automated systems In collaboration with more than 60 major payments and technology companies (Adyen, American Express, Mastercard, PayPal, Coinbase, Etsy, and many others) Google is the main entity behind the introduction of the AP (Agent Payments/Agent Payments Protocol or AP2) protocol https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 1 Perplexity AI raised $200M at",
+      "text": "AI Updates 1 Perplexity AI raised $200M at $20B Valuation Total raised over $1B Its meteoric rise signals a shift toward AI-native search Aravind Srinivas - CEO of Perplexity Albania appoints a virtual AI minister of public procurement Her name is \"Diella\" Albania has become the first country to have an AI minister Inception Point AI produces over 3,000 podcast episodes per week using AI hosts, costing just $1 per episode to create. The company operates 5,000 shows across its Quiet Please Podcast Network, generating content on everything from weather reports to niche hobbies. Each episode takes about an hour from concept to publication, with programmatic ads attached that turn profits after just 20 listeners per episode. Topics are chosen using search trends and SEO Team using 184 AI agents and models (OpenAI, Perplexity, Claude, Gemini, ...) https://www.inceptionpoint.ai"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates 2 Gauss AI system from Math",
+      "text": "AI Updates 2 Gauss AI system from Math Inc. https://www.math.inc/gauss Solved a complex math theorem in 3 weeks after top mathematicians struggled with it for 18 months The Strong Prime Number Theorem was set by renowned mathematicians Terence Tao and Alex Kontorovich in 2024 Gauss worked autonomously for hours at a time, producing 25,000 lines of verified math code containing over 1,000 interconnected proofs and definitions Math Inc. plans to expand mathematical code by 100-1000x within 12 months, creating training data for \"machine polymaths\" and “verified superintelligence”. OpenAI and Microsoft - Memorandum of Understanding Microsoft has given its \"blessing\" for OpenAI to restructure its for-profit arm into a public benefit corporation (PBC) while maintaining nonprofit oversight. This will allow OpenAI to attract investors, loosen Microsoft's exclusive cloud control, and share revenue with commercial partners at a reduced percentage over time Meta MobileLLM-R1 family of open sub‑1B parameter reasoning models ( 140M, 360M, 950M ) 5x higher MATH accuracy vs Olmo‑1.24B 2x vs SmolLM2‑1.7B matching or surpassing Qwen3 accuracy on reasoning benchmarks https://huggingface.co/facebook/MobileLLM-R1-950M"
+    },
+    {
+      "index": 11,
+      "title": "Amazon Kiro IDE Amazon Kiro - AI powered",
+      "text": "Amazon Kiro IDE Amazon Kiro - AI powered IDE - fork of VSCode From \"vibe coding\" to structured, spec-driven workflow Spec-Driven Development : converts user prompts or goals into clear requirements, generates design documents, and breaks down tasks into manageable chunks, which are tracked and executed with AI agent support. The IDE produces requirement specifications, technical design docs, and step-by-step task lists automatically AI Agentic Coding : advanced agents (currently powered by Claude Sonnet 4) to handle multi-step development tasks autonomously Context Management : It allows deep context awareness, supporting integration with documentation, APIs, databases, and codebases through the Model Context Protocol (MCP) Task Automation with Agent Hooks: Developers can assign tasks or workflows to agents (“hooks”) that run scripts, refactor modules, or automate processes with minimal manual oversight Downloadable for Windows, macOS, or Linux from the official site; supports AWS Builder ID login for deeper Amazon Q integration. All code runs locally unless cloud execution is explicitly enabled, ensuring privacy and data control Kiro is currently in public preview https://kiro.dev https://aws.amazon.com/blogs/machine-learning/enabling-customers-to-deliver-production-ready-ai-agents-at-scale/ https://kiro.dev/blog/introducing-kiro/ https://medium.com/coding-beauty/new-amazon-kiro-406c100fb5cf https://www.youtube.com/watch?v=gA6r7iVzP6M - fireship video In Japanese, \"Kiro\" (岐路, きろ) translates to \"crossroads\" or \"a path\" and also carries meanings like \"circuit\" or \"route,\" which aligns with the IDE's theme of guiding users through development https://www.youtube.com/watch?v=YK7Z0xYcsPo"
+    },
+    {
+      "index": 12,
+      "title": "Qwen3‑Next‑80B‑A3B Qwen3‑Next‑80B‑A3B 10x higher inference throughput - than",
+      "text": "Qwen3‑Next‑80B‑A3B Qwen3‑Next‑80B‑A3B 10x higher inference throughput - than a comparable dense model for long-context scenarios training cost reduced 10x Why is it faster? - Hybrid attention (Gated DeltaNet + Gated Attention) - Sparse MoE (only 3B out of 80B) are active at any forward pass The combined effect: Qwen3‑Next‑80B‑A3B can run with dramatically lower total FLOPs per token, enabling extreme context lengths and high throughput Overall compute now scales sub-linearly with model size and context length"
+    },
+    {
+      "index": 13,
+      "title": "Mixture of Experts (MoE) Today (almost) all frontier",
+      "text": "Mixture of Experts (MoE) Today (almost) all frontier model are MoE MoE models have steadily increased in importance through GPT4 and Mixtral(8 experts), DeepSeek (160 experts), Snowflake (128 experts), Qwen3-Next (512 experts) Google has built MoE architectures with up to 2048 experts in production systems and up to 131,072 experts in experiments Qwen3-Next uses 512 total experts, combining 10 routed experts + 1 shared expert The industry has switched from \"expert count\" to total param vs active param ratio - and 3.75% (3B / 80B = 3.75%) is appreciably lower than GPT-OSS' 4.3% and Qwen3's own prior 10%. The core idea behind Mixture of Experts (MoE) architecture was invented in 1991 by Robert Jacobs, Michael I. Jordan, Steven Nowlan, and Geoffrey Hinton \"Adaptive Mixtures of Local Experts\" https://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf Google later adapted and popularized the MoE layer for scaling neural networks in contemporary deep learning, most notably in the 2017 paper “Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer” https://arxiv.org/abs/1701.06538 Michael I. Jordan Robert Jacobs Steven Nowlan Geoffrey Hinton"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates 3 YouTube multi-language audio feature launched",
+      "text": "AI Updates 3 YouTube multi-language audio feature launched Sept 10th Millions of YouTubers can add AI-generated dubbing to their videos in different languages The rollout is expected to happen over the coming weeks. Companies achieving more with less capital , raising at higher valuations earlier September 13th is the 256th day of the year. Also known as a day of a programmer. Is there an AI day? August 31, 1955 - the term \"Artificial Intelligence\" was used in print http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf AI Investment opportunities: AI-native gaming AI-native entertainment"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates 4 NVIDIA Rubin CPX - New",
+      "text": "AI Updates 4 NVIDIA Rubin CPX - New GPU class for massive context inference, handling million-token applications with 8 exaflops performance Alibaba Qwen 3 Max Second most intelligent non-reasoning model over 1T params Tencent Hunyuan Image 2.1 Open-source text-to-image model supporting ultra-long prompts up to 1,000 tokens Salesforce SFR Deep Research Autonomous reasoning agents achieving strong performance ASML-Mistral Investment ASML investing €1.3B in Mistral AI as lead investor"
+    },
+    {
+      "index": 16,
+      "title": "Meta Connect Meta Connect 2025 Meta AI wearables,",
+      "text": "Meta Connect Meta Connect 2025 Meta AI wearables, smart glasses, and supporting platforms https://www.youtube.com/watch?v=1cpnK9AfIhg - video Ray-Ban Meta - 2nd Gen smart glasses: double the battery life, 3K video recording, and much improved AI including “conversation focus,” which amplifies friends’ voices in noisy environments Oakley Meta Vanguard - sports-oriented smart glasses with a centered camera, 3K video, 122-degree field of view, video stabilization, enhanced water resistance, integration with Garmin and Strava Neural Wristband - wearable using muscle signals from the wrist and hand for silent, invisible control of glasses - enables gesture navigation, private typing, and haptic feedback Ray-Ban Display Glasses with Neural Wristband - combines high-resolution monocular display with a neural input wristband (EMG-based, detects finger/wrist gestures for silent, subtle control and text input at ~30 words/minute). Has transition lenses, a private HUD for messages/media, video calling, and Meta AI smart agent integration Meta AI “Live AI” - runs 1-2 hrs, can process visual input from glasses and provide agentic help (Agentic AI) to interpret scenes, translate conversations in real time, and provide live subtitles directly on the in-lens display Meta Horizon Studio - creative platform integrating AI assistants to generate assets like meshes and textures. Powered by \"Horizon Engine\". Also \"Horizon TV\" entertainment hub"
+    },
+    {
+      "index": 17,
+      "title": "CodeRabbit CLI CodeRabbit CLI - AI Code Review",
+      "text": "CodeRabbit CLI CodeRabbit CLI - AI Code Review https://coderabbit.ai/cli https://www.youtube.com/watch?v=R3bdXdajwEE - video CLI (runs in terminal) to do code analysis and feedback for both staged and unstaged changes before commits or pull requests Reviews local changes—both uncommitted and staged—using advanced pattern recognition to detect race conditions, logic errors, null pointer exceptions, security vulnerabilities, and more Offers instant, actionable suggestions for simple fixes like import corrections, and can hand off complex architectural issues to AI agents with full context Integrates seamlessly with AI coding agents (Claude Code, Cursor CLI, Gemini, etc.), supporting workflows where issues are surfaced by CodeRabbit and then fixed automatically by your favorite AI coding tool Supports interactive mode, plain text mode, and prompt-only mode (for feeding structured results to coding agents), adapting to different workflows Detects and enforces team-specific or repo-specific coding standards by reading custom configuration files Free tier available with reasonable usage limits, especially suited for individual developers and small teams On Mac (Apple Silicon) and Linux (Windows supported via WSL): curl -fsSL https://cli.coderabbit.ai/install.sh | sh Basic usage: coderabbit   # enter interactive mode coderabbit review --plain   # plain text output coderabbit --prompt-only  # output optimized for AI agents"
+    },
+    {
+      "index": 18,
+      "title": "AI Updates 5 OpenAI GPT-5 Codex - AI",
+      "text": "AI Updates 5 OpenAI GPT-5 Codex - AI coding assistant model Accessible via web UI, CLI, or IDE extensions, for example from Cline VSCode extension or the official OpenAI Codex extension Can do code generation, debugging, refactoring, and reviewing Developers connect their GitHub accounts, and Codex performs tasks like writing features, fixing bugs, proposing pull requests, and reviewing code within an isolated workspace in the cloud Codex GPT-5 outperforms prior releases, especially in code refactoring (51.3% success rate vs 33.9% for standard GPT-5), and sustained autonomous coding tasks for over 7 hours. Usable in terminal, IDEs (VS Code extension), GitHub, web, and ChatGPT iOS app improved infrastructure with container caching for 90% lower latency in completions ChatGPT connectors update developer's mode can connect to 500+ apps Alibaba's Tongyi DeepResearch - 30B AI Agent for deep information retrieval and multi-step reasoning tasks All Qwen models were developed by Alibaba's Tongyi Lab"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates 6 GLM-4.5 AI coding model fro",
+      "text": "AI Updates 6 GLM-4.5 AI coding model fro m Z.ai (China) GLM-4.5 is a fast, open-source coding AI model from China, better than Claude models GLM-4.5 is available via a \"Coding Lite\" plan starting at $3/month, offering 120 prompts every 5 hours and direct integration with coding tools (like Claude Code - using API key) at a lower price than comparable Claude Sonnet subscriptions. Multi-agent and multi-session coding, fast response times, compatibility with over 75 LLM providers Try GLM-4.5, particularly via OpenCode for maximum flexibility and performance https://www.youtube.com/watch?v=DqBQuTuOqgY - video https://z.ai/blog/glm-4.5 Gemma 3 270M on Pixel 9 Pro Very small, easy to fine-tune Available on HuggingFace, Olama, Kaggle, LM Studio, or Docker"
+    },
+    {
+      "index": 20,
+      "title": "Google VaultGemma: diff-private LLM Google VaultGemma pretrained using",
+      "text": "Google VaultGemma: diff-private LLM Google VaultGemma pretrained using differential privacy (DP) 1B params, 26 layers, decoder-only (similar to Gemma 2) Randomness injection as a fundamental part of its privacy preserving training process. It prevents memorization of rare or unique facts from training data; individual details appearing only once are essentially \"blurred out\". Trained so that sensitive data—like phone numbers or emails—cannot be reproduced even under adversarial prompting VaultGemma achieves benchmark performance comparable to non-private models of similar size (e.g., rivals older models like GPT-2) while maintaining rigorous privacy Open-weight release, available for further instruction tuning and deployment at Hugging Face https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/ https://arxiv.org/abs/2501.18914 https://huggingface.co/google/vaultgemma-1b Differential privacy is a mathematically rigorous method for sharing information about a dataset by adding noise, so that no individual's data can be identified or inferred from the output"
+    },
+    {
+      "index": 21,
+      "title": "Agent TARS - browser/desktop automation Name \" TARS",
+      "text": "Agent TARS - browser/desktop automation Name \" TARS \" is inspired by the AI robot \"TARS\" from the film Interstellar, where it stands for \"Tactical Autonomous Robotic System,\" \"Tactical Assistant and Reconnaissance System,\" or simply acts as a memorable agent name with no officially declared meaning in most modern AI contexts Agent TARS - open-source AI browser/desktop automation https://ui-tarsai.com https://github.com/bytedance/UI-TARS-desktop https://agent-tars.com https://agent-tars.com/guide/basic/web-ui.html https://www.youtube.com/watch?v=vF8FWmzRd5M - video https://arxiv.org/abs/2501.12326 - paper Open-source (Apache 2.0) multimodal AI agent designed to automate browser and desktop tasks using natural language commands and advanced visual reasoning Browser operations, CLI, file system access Developed and maintained by ByteDance (China), the parent company of TikTok and other AI research initiatives Multimodal Task Automation: Executes complex browser actions, CLI tasks, and navigates applications with visual interpretation Desktop and Browser Control: Offers both a browser agent and a desktop agent—can automate web and desktop apps such as VS Code, Microsoft Office, etc. Supports multiple model sizes (2B, 7B, and 72B parameters) to suit different hardware and automation needs Natively integrates with MCP servers and other real-world tools for broad task execution Examples: Automating browser form submissions, purchasing, and research tasks; Desktop app automation for file handling, report generation, and software installation; Visual tasks such as interpreting on-screen data, scheduling travel, and generating charts using visual and textual data; Customizable workflows for developers or ops teams (DevOps, data science, etc. Available on GitHub for Mac (Windows/Linux will come later) Note - there is an alternative project with similar name - hellotars.com It is a conversational AI agent builder The company is called Tars, founded in 2016, headquartered in Newark, Delaware, privately held, and employs 51–200 staff The company focuses on no-code conversational AI chatbot platforms used by major global brands to automate customer service and internal business processes"
+    },
+    {
+      "index": 22,
+      "title": "GitHub Speckit GitHub Speckit - s pec-driven development",
+      "text": "GitHub Speckit GitHub Speckit - s pec-driven development https://www.youtube.com/watch?v=KKkS0e5O6eI https://github.com/github/spec-kit open-source (MIT) toolkit \"spec-driven\" - create a detailed specification first, outlining user needs and functionality, which then guides every step of the build process From \"vibe coding\" to clarity Works alongside popular assistants like GitHub Copilot, Claude Code, Gemini CLI Structured, reliable workflow  -4 phases: 1. Specify (define what/why) 2. Plan (set tech details) 3. Tasks (breakdown work into testable units) 4. Implement (write code task-by-task guided by the spec and plan). Speckit CLI commands has corresponding commands: /specify /plan /tasks Each phase is validated before proceeding to the next, ensuring the build matches your intent GitHub aims to make the process an industry standard beyond their own tool, with planned VS Code integration and more features coming"
+    },
+    {
+      "index": 23,
+      "title": "LEANN Vector DB takes 30x less space LEANN",
+      "text": "LEANN Vector DB takes 30x less space LEANN is a new vector database system that uses just 3% of the storage space compared to traditional vector databases, while maintaining identical search accuracy https://github.com/yichuan-w/LEANN - GitHub https://arxiv.org/abs/2506.08276 - paper https://jimmysong.io/en/ai/leann/ - intro https://medium.com/data-science-collective/the-worlds-smallest-vector-database-how-leann-uses-97-less-space-than-traditional-vector-db-b00de3ec97be This dramatic space reduction is achieved by recomputing embeddings selectively instead of storing every one Mainstream databases like ChromaDB, Pinecone, and Weaviate require 1.5 to 7 times more space than the original data LEANN stores only 3% of the data by selectively re-computing embeddings rather than pre-storing them all LEANN is particularly well-suited for edge computing and privacy-critical applications that require efficient, on-device vector search without cloud reliance"
+    },
+    {
+      "index": 24,
+      "title": "Customer Service AI Agent Minimal programming (no code)",
+      "text": "Customer Service AI Agent Minimal programming (no code) solutions - rapid deployment, customization, and integration into websites or channels such as live chat and messaging apps Make.com, Voiceflow, Zapier, N8N : Drag-and-drop platforms with prebuilt logic allow creating conversational AI agents by uploading FAQs, support docs, and configuring basic automation flows CustomGPT.ai : Enables training AI chatbots on proprietary business data through a user-friendly interface. Supports deployment on multiple channels and provides a white-label branding option SmythOS - has a visual builder and prebuilt agent templates for fast deployment and easy integration with APIs, with minimal to no code needed These tools have templates for FAQs, order tracking, or appointment booking; Allow to upload support documents or provide sample Q&A for the chatbot to learn responses; Configure integrations such as website widgets, email, WhatsApp, or Slack for multi-channel support; Use analytics and feedback features to monitor and refine AI performance Cloud Solutions : Amazon : Amazon Connect + Lex + Lambda + Bedrock AgentCore Google : Contact Center AI (CCAI) - embeds conversational AI agents (via Dialogflow CX) into support platforms Microsoft Azure - AI Agent Service - pre-built models for common support scenarios and robust tools for conversational agent deployment. Open-Source Customer Support AI Solutions : Chatwoot - live-chat and omnichannel support tool, featuring AI assistants for automated replies. Offers web, social media, and messaging integrations out of the box with no or light coding required Rasa and Botpress - conversational agent frameworks that support visual builders for basic chatbot configuration, though advanced customization may require programming DeepPavlov and ChatterBot - lower barrier to entry for simple FAQ-style bots, but some minimal Python scripting may be needed for setup Getting Started : Choose a Platform, prepare FAQ/Data, Use the drag-and-drop interface to upload your data, define chatbot responses, and set up any integrations; Test with Real Queries; Deploy to your website; Monitor and Improve - use built-in analytics to further refine and improve the AI's answers over time"
+    },
+    {
+      "index": 25,
+      "title": "Streamlit-Based RAG Debugging Streamlit (python-based) RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4",
+      "text": "Streamlit-Based RAG Debugging Streamlit (python-based) RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4 (in Russian) Streamlit-tracer for debugging RAG systems, improving reliability in production ML pipelines Streamlit was used to develop a lightweight, customizable UI for visualizing, tracing, and debugging each stage of the RAG pipeline , allowing both technical and non-technical experts to inspect data flow and outputs. The tool integrates directly with vector databases and prompt engineering components, supporting modular evaluation and rapid prototyping The reliability of the whole ML system is the product of the reliability of its components; each stage (data parsing, retrieval, LLM response, etc.) must be measured and improved individually for overall quality improvements Systematic modular testing, continuous logging, and human evaluation are critical throughout the RAG pipeline, especially when working with unstructured data and evolving business requirements Domain experts (e.g., lawyers) need to have a streamlined UI to annotate, comment, and iterate without technical hurdles; The expert's feedback loop should be as frictionless as possible, focusing their limited attention on high-leverage corrections and assessment, which is the scarcest and most valuable resource in the process The system enables rapid iteration for both developers and domain experts: questions and logs are surfaced, annotated, and used to refine prompts, retrievers, or data sources in real time The approach leverages open-source tools such as Langfuse and Langsmith for log and trace management, but custom tools are essential to fill UX gaps for non-technical stakeholders"
+    },
+    {
+      "index": 26,
+      "title": "OOP Is Dead - Long Live ECS Object-Oriented",
+      "text": "OOP Is Dead - Long Live ECS Object-Oriented Programming \"dead\" Encapsulation, inheritance, and polymorphism now hold developers back OOP is now mostly abandoned in favor of functional, reactive, and compositional styles Cloud platforms and startups prefer languages like Go and Rust that avoid inheritance and encourage simpler, more testable code structures The promised modularity and real-world modeling of OOP failed to scale with new tech demands; compositional and functional approaches have taken over Objects aren’t the problem. Hierarchies are. Data + behavior is fine. Inheritance chains are not. Composition wins. Favor small, composable pieces over giant classes. Functional + data-oriented styles scale better in concurrency-heavy systems. ECS (Entity Component Systems), traits, interfaces are the new OOP, but flatter, simpler, more honest. https://medium.com/@theopinionatedev/object-oriented-programming-is-dead-heres-what-killed-it-cd83d7867683 Entity Component System (ECS) is a modern software architecture pattern that organizes code by separating entities, components, and systems Entity : A unique identifier representing an object (like a game character or an item) - just an ID, no data or behavior Component : A minimalist data container attached to entities that stores specific properties (e.g., position, health). Components contain data only—no behavior or methods System : Processes logic by operating on entities with relevant components. Systems hold the actual behavior and run code based on component data (e.g., a physics system updates positions for all entities with a velocity component) ECS uses composition over inheritance, allowing flexible, modular code without deep class hierarchies ECS easily enables runtime changes—adding/removing components from entities instantly changes their behavior without altering hierarchy or base classes Components are stored contiguously in memory, making ECS highly efficient and multi-threadable."
+    },
+    {
+      "index": 27,
+      "title": "Why Entrepreneurship is Safer Than Employment The Great",
+      "text": "Why Entrepreneurship is Safer Than Employment The Great Career Inversion - by Peter Diamandis Here are five contrarian insights about career safety in 2025 that most people get backwards: 1/ College debt is now riskier than startup equity. The math is simple but brutal: $250k in student loans for a degree thatmight be obsolete in four years versus equity in a company you control (or co-found). We've reached the tipping point where taking on massive educational debt is the speculative bet, versus starting a company. The \"safe” (traditional) path requires you to believe that industries won't be disrupted (not true, they all will be), that your specific skills will remain valuable (they will fade rapidly), and that you'll earn enough to service debt that compounds faster than most startups burn cash (hmmm…). 2/ Employment security is an illusion in exponential times. Job security died when the half-life of skills dropped below the half-life of careers. Tech layoffs, AI automation, and economic volatility mean traditional employment now carries hidden risks: you’re betting your entire income stream on decisions made by people who probably don't know you exist, and are focused on quarterly profit reports. When a VP decides to \"right-size\" or a board chooses to \"pivot,\" employees become accounting entries. As an entrepreneur you may fail, but you'll fail forward with transferable skills and network effects. 3/ The career risk hierarchy has inverted for the first time in history. We're seeing something unprecedented: founding a company has become statistically safer than climbing a corporate ladder. While massive tech layoffs hit 150,000+ workers in 2023-2024, successful entrepreneurs built lasting value and optionality. The reason is simple: entrepreneurs own their failure modes, employees don't. When you control the variables, you can manage the risk. 4/ Yes, entrepreneurship isn't universally safe, it's just relatively safer (and getting more so over time). The tools to become a coder (Replit, Lovable, Cursor, etc.) are demonetized and democratized. A full entrepreneurial education is available for free on YouTube. Historically, it’s true that 1 in 10 “VC-backed startups succeed”, but increasingly, the ability to code, build, and raise money is growing rapidly. PLUS, realize that today in 2025, $1B per day is being invested into AI, growing to >$3B per day by 2030. This is the field that is exploding while traditional employment is shrinking. Where would you rather play? 5/ The optimal strategy is asymmetric: limited downside, unlimited upside. Smart career building in 2025 means building antifragile income streams. The new \"safe\" career path isn't employment or entrepreneurship exclusively, it's creating multiple income vectors where failure in one area strengthens your position in others. This might mean consulting while building products, or freelancing while scaling a service business. My thesis: act on this dynamic while it lasts. Build now, when the perceived risk is high but the actual risk is low. The best entrepreneurs are emerging from this period precisely because they're contrarian enough to start companies when everyone else  thinks it's \"risky.\" By the time entrepreneurship feels safe to the mainstream, the outsized opportunity will diminish. I truly believe the only career path of the future is entrepreneurship. Bottom line: Get building. The career safety you're looking for exists, but it's the safety of owning your own destiny and your ability to build with AGI (read: god-like tools). Until next time, Peter"
+    },
+    {
+      "index": 28,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 90K in 2025 (as of September 18) 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker So far in 2025, 144,499 people laid off (554 per day. In 2024, 238,461 people laid off (653 per day) https://trueup.io/layoffs Companies need AI Engineers While companies cut traditional roles, they’re pouring billions into AI: Microsoft → $80B in 2025 Meta → $40B Google → $29B Amazon → $8B into Anthropic That’s $350B+ a year, redirected straight into AI systems And they all need engineers who can build them"
+    },
+    {
+      "index": 29,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 30,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Humanity has historically automated bodily functions (digging, running, seeing), but AI now automates thought and creativity, thus leaving only self-awareness as a uniquely human trait",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI's GPT-5 won at ICPC World Finals Crowd-sourced",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI's GPT-5 won at ICPC World Finals",
+      "topic": "openai",
+      "videoSeconds": 39,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=39s",
+      "slideIndex": 2,
+      "slideTitle": "AI wins ICPC Coding Competition OpenAI's GPT-5 won",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 98,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=98s",
+      "slideIndex": 2,
+      "slideTitle": "AI wins ICPC Coding Competition OpenAI's GPT-5 won",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hallucinations",
+      "topic": "general",
+      "videoSeconds": 131,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=131s",
+      "slideIndex": 3,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenLovable - free alternative to Lovable",
+      "topic": "general",
+      "videoSeconds": 230,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=230s",
+      "slideIndex": 4,
+      "slideTitle": "Hallucinations OpenAI has published a detailed article exploring",
+      "source": "youtube"
+    },
+    {
+      "claim": "Foundation Models Becoming a Commodity",
+      "topic": "general",
+      "videoSeconds": 269,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=269s",
+      "slideIndex": 5,
+      "slideTitle": "OpenLovable - free alternative to Lovable OpenLovable -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Agent Payments Protocol (AP2)",
+      "topic": "agents",
+      "videoSeconds": 386,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=386s",
+      "slideIndex": 5,
+      "slideTitle": "OpenLovable - free alternative to Lovable OpenLovable -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Albania - AI minister of public procurement",
+      "topic": "enterprise",
+      "videoSeconds": 454,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=454s",
+      "slideIndex": 6,
+      "slideTitle": "Foundation Models Becoming a Commodity AI Research (universities",
+      "source": "youtube"
+    },
+    {
+      "claim": "Perplexity AI raised $200M at $20B Valuation",
+      "topic": "general",
+      "videoSeconds": 481,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=481s",
+      "slideIndex": 7,
+      "slideTitle": "Please pause the video - and answer the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Inception Point AI - 3K podcasts per week",
+      "topic": "general",
+      "videoSeconds": 519,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=519s",
+      "slideIndex": 8,
+      "slideTitle": "Google Agent Payments Protocol (AP2) Open and payment-agnostic",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gauss AI system from Math Inc.",
+      "topic": "general",
+      "videoSeconds": 548,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=548s",
+      "slideIndex": 8,
+      "slideTitle": "Google Agent Payments Protocol (AP2) Open and payment-agnostic",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI and Microsoft - Memorandum",
+      "topic": "openai",
+      "videoSeconds": 590,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=590s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 1 Perplexity AI raised $200M at",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta MobileLLM-R1 - pocket reasoning",
+      "topic": "general",
+      "videoSeconds": 617,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=617s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates 2 Gauss AI system from Math",
+      "source": "youtube"
+    },
+    {
+      "claim": "Amazon Kiro IDE",
+      "topic": "coding",
+      "videoSeconds": 655,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=655s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates 2 Gauss AI system from Math",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qwen3‑Next‑80B‑A3B",
+      "topic": "general",
+      "videoSeconds": 736,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=736s",
+      "slideIndex": 11,
+      "slideTitle": "Amazon Kiro IDE Amazon Kiro - AI powered",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mixture of Experts (MoE)",
+      "topic": "general",
+      "videoSeconds": 808,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=808s",
+      "slideIndex": 12,
+      "slideTitle": "Qwen3‑Next‑80B‑A3B Qwen3‑Next‑80B‑A3B 10x higher inference throughput - than",
+      "source": "youtube"
+    },
+    {
+      "claim": "YouTube multi-language audio feature",
+      "topic": "general",
+      "videoSeconds": 902,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=902s",
+      "slideIndex": 13,
+      "slideTitle": "Mixture of Experts (MoE) Today (almost) all frontier",
+      "source": "youtube"
+    },
+    {
+      "claim": "Companies achieving more with less capital",
+      "topic": "general",
+      "videoSeconds": 931,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=931s",
+      "slideIndex": 13,
+      "slideTitle": "Mixture of Experts (MoE) Today (almost) all frontier",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Investment - gaming & entertainment",
+      "topic": "general",
+      "videoSeconds": 954,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=954s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates 3 YouTube multi-language audio feature launched",
+      "source": "youtube"
+    },
+    {
+      "claim": "Is there an AI day?",
+      "topic": "general",
+      "videoSeconds": 960,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=960s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates 4 NVIDIA Rubin CPX - New",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Rubin CPX",
+      "topic": "infra",
+      "videoSeconds": 995,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=995s",
+      "slideIndex": 16,
+      "slideTitle": "Meta Connect Meta Connect 2025 Meta AI wearables,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba Qwen 3 Max",
+      "topic": "open-models",
+      "videoSeconds": 1018,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1018s",
+      "slideIndex": 16,
+      "slideTitle": "Meta Connect Meta Connect 2025 Meta AI wearables,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent Hunyuan Image 2.1",
+      "topic": "general",
+      "videoSeconds": 1025,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1025s",
+      "slideIndex": 17,
+      "slideTitle": "CodeRabbit CLI CodeRabbit CLI - AI Code Review",
+      "source": "youtube"
+    },
+    {
+      "claim": "Salesforce SFR Deep Research",
+      "topic": "general",
+      "videoSeconds": 1039,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1039s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates 5 OpenAI GPT-5 Codex - AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "ASML-Mistral Investment",
+      "topic": "open-models",
+      "videoSeconds": 1050,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1050s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates 5 OpenAI GPT-5 Codex - AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Connect",
+      "topic": "general",
+      "videoSeconds": 1079,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1079s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates 6 GLM-4.5 AI coding model fro",
+      "source": "youtube"
+    },
+    {
+      "claim": "CodeRabbit CLI - Code Review",
+      "topic": "general",
+      "videoSeconds": 1121,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1121s",
+      "slideIndex": 20,
+      "slideTitle": "Google VaultGemma: diff-private LLM Google VaultGemma pretrained using",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI GPT-5 Codex - AI coding assistant model",
+      "topic": "coding",
+      "videoSeconds": 1149,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1149s",
+      "slideIndex": 21,
+      "slideTitle": "Agent TARS - browser/desktop automation Name \" TARS",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT connectors update",
+      "topic": "openai",
+      "videoSeconds": 1223,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1223s",
+      "slideIndex": 21,
+      "slideTitle": "Agent TARS - browser/desktop automation Name \" TARS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba's Tongyi DeepResearch - 30B AI Agent",
+      "topic": "agents",
+      "videoSeconds": 1239,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1239s",
+      "slideIndex": 22,
+      "slideTitle": "GitHub Speckit GitHub Speckit - s pec-driven development",
+      "source": "youtube"
+    },
+    {
+      "claim": "GLM-4.5 AI coding model from Z.ai",
+      "topic": "open-models",
+      "videoSeconds": 1275,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1275s",
+      "slideIndex": 23,
+      "slideTitle": "LEANN Vector DB takes 30x less space LEANN",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemma 3 270M on Pixel 9 Pro",
+      "topic": "open-models",
+      "videoSeconds": 1320,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1320s",
+      "slideIndex": 23,
+      "slideTitle": "LEANN Vector DB takes 30x less space LEANN",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google VaultGemma: diff-private LLM",
+      "topic": "general",
+      "videoSeconds": 1338,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1338s",
+      "slideIndex": 24,
+      "slideTitle": "Customer Service AI Agent Minimal programming (no code)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agent TARS - browser/desktop automation",
+      "topic": "agents",
+      "videoSeconds": 1444,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1444s",
+      "slideIndex": 25,
+      "slideTitle": "Streamlit-Based RAG Debugging Streamlit (python-based) RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4",
+      "source": "youtube"
+    },
+    {
+      "claim": "GitHub Speckit",
+      "topic": "general",
+      "videoSeconds": 1554,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1554s",
+      "slideIndex": 26,
+      "slideTitle": "OOP Is Dead - Long Live ECS Object-Oriented",
+      "source": "youtube"
+    },
+    {
+      "claim": "LEANN Vector DB takes 30x less space",
+      "topic": "rag",
+      "videoSeconds": 1669,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1669s",
+      "slideIndex": 26,
+      "slideTitle": "OOP Is Dead - Long Live ECS Object-Oriented",
+      "source": "youtube"
+    },
+    {
+      "claim": "Customer Service AI Agent",
+      "topic": "agents",
+      "videoSeconds": 1737,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1737s",
+      "slideIndex": 27,
+      "slideTitle": "Why Entrepreneurship is Safer Than Employment The Great",
+      "source": "youtube"
+    },
+    {
+      "claim": "Streamlit-Based RAG Debugging",
+      "topic": "rag",
+      "videoSeconds": 1853,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1853s",
+      "slideIndex": 28,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "OOP Is Dead - Long Live ECS",
+      "topic": "general",
+      "videoSeconds": 1917,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=1917s",
+      "slideIndex": 29,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why Entrepreneurship is Safer Than Employment",
+      "topic": "general",
+      "videoSeconds": 2022,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=2022s",
+      "slideIndex": 29,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 2117,
+      "videoUrl": "https://www.youtube.com/watch?v=OnHqIjrl3ZU&t=2117s",
+      "slideIndex": 30,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

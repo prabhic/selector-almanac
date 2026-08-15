@@ -7,7 +7,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { attachDocLens, buildBm25Index } from "./lib/bm25.mjs";
-import { buildSearchChunks } from "./lib/corpus.mjs";
+import { buildSearchChunks, chunkStableKey } from "./lib/corpus.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -17,6 +17,7 @@ const SEARCH = join(DATA, "search");
 function compactChunk(c, i) {
   const row = {
     i,
+    k: chunkStableKey(c),
     sid: c.sid,
     ty: c.ty,
     pi: c.pi,

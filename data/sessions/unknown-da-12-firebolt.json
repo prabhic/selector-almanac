@@ -1,0 +1,54 @@
+{
+  "id": "unknown-da-12-firebolt",
+  "date": null,
+  "title": "DA 12 Firebolt",
+  "series": "data-architect-2021",
+  "topics": [
+    "rag"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_12_Firebolt.pptx",
+    "filename": "DA_12_Firebolt.pptx",
+    "title": "DA 12 Firebolt",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_12_Firebolt.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_12_Firebolt.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Firebolt Firebolt – Cloud Data Warehouse: beats performance",
+      "text": "Firebolt Firebolt – Cloud Data Warehouse: beats performance of all major DataWarehouse providers (Snowflake, RedShift, BigQuery, etc.) by x10-x100, while costing x10 times less uses AWS S3 for storage (AWS only so far) very fast - up to 182x faster performance than Athena across terabyte and petabyte scale runs a limitless amount of concurrent queries at sub-second performance at any scale elastic architecture - decoupled storage & compute. Adding or scaling resources up/down is instant. advanced data warehousing capabilities to manage ELT, storage and concurrency without compromising the ease of use Low Cost Good 17min demo and explanation: https://www.youtube.com/watch?v=wSwzsRFUOUs - https://www.firebolt.io/ - https://www.firebolt.io/performance-at-scale - https://www.datanami.com/2020/12/09/firebolt-touts-massive-speedup-in-cloud-data-warehouse/ https://www.youtube.com/watch?v=-hR7Qzf_8X4 demo 42 Billion rows query in less than 1 second ! How We Built The World's Fastest Cloud Data Warehouse\" https://www.youtube.com/watch?v=PGmmNqAOP94 Eldad Farkash Firebolt CEO and co-founder, also co-founder of Sisense , a $Billion+ analytics company Mosha Pasumansky CTO, former Google BigQuery Principal Engineer and Microsoft OLAP/MDX creator"
+    },
+    {
+      "index": 2,
+      "title": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison",
+      "text": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison - Firebolt resolves the storage layer bottleneck Data lakes (like AWS S3 = Simple Storage Service ) are built for infinite storage. But they are terribly slow when large amounts of data need to be scanned and moved to the compute layer for querying. Firebolt avoids reading whole files. This is done by indexing the data inside files into \" ranges \". This is called \" sparse indexing \". The indexes are small (they are sparse , not very granular). Thus indexes can be kept in memory and can help to  quickly identify the files and specific segments within those files which need to be loaded from disk into memory. Note: API for AWS S3 allows multi-part uploads, and also \"GetObject\" mathod has option \" range \" to read only specific range of bytes. Additional indexes can be easily created for common aggregations and joins , also for metadata (count,min,max,etc.) and strings (hash index to support EQUAL or GROUP BY). These indexes improve performance by using cached/precompute values (similar to idea of using OLAP cubes). Further speedup from caching and reuse of compute sub-trees and operators. JSON is stored and processed natively (usnig array functions and lambda expressions). Data ingestion – from all typical raw data formats (eg CSV, Parquet, Avro, JSON) and stream from Kafka. Ingested data is sorted, compressed, indexed and materialized into Firebolt’s proprietary file format - F3 = Firebolt File Format . F3 benefits: sparse indexes, easy merging data for quick updates Data is automatically rebalanced and re-indexed as needed (hands-off). Sparse Indexes - created automatically,  small, fully loaded in memory, help to dramatically reduce i/o by pulling only small portions from F3-s which are needed for a query. granular data pruning - allows to avoid fetching unnecessary data. cost-based query optimizer turns SQL into most performant – yet low-cost version. Just-In-Time (JIT) compilation of SQL into an optimized executable. LLVM (Low Level Virtual Machine): Firebolt is built in C/C++, and uses LLVM to dynamically and quickly optimize query plans prior to execution. CPU efficiency – using Vectorized Processing and SIMD (Single Instruction, Multiple Data) delivers blazing query execution speeds through applying query instructions on batches of column data instead of row-by-row, and through optimized usage of the CPU cache."
+    }
+  ],
+  "points": [
+    {
+      "claim": "Firebolt Firebolt – Cloud Data Warehouse: beats performance",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Firebolt Firebolt – Cloud Data Warehouse: beats performance",
+      "source": "slide"
+    },
+    {
+      "claim": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison",
+      "source": "slide"
+    }
+  ]
+}

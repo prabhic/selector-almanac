@@ -183,6 +183,14 @@ export function buildSearchChunks(seminars, concepts = []) {
   return chunks;
 }
 
+/** Stable id for incremental embed cache (survives chunk list reorder). */
+export function chunkStableKey(chunk) {
+  if (chunk.ty === "concept") return `concept:${chunk.ck}`;
+  if (chunk.ty === "chapter") return `${chunk.sid}:ch:${chunk.pi}`;
+  if (chunk.ty === "slide") return `${chunk.sid}:slide:${chunk.sl}`;
+  return `${chunk.sid}:${chunk.ty}:${chunk.pi}:${chunk.sl}`;
+}
+
 /** Fields tokenized for BM25 with boosts (title highest). */
 export function chunkTermWeights(chunk) {
   const weights = [];

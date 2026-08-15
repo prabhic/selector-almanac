@@ -1,0 +1,377 @@
+{
+  "id": "2024-04-05-2024-04-05-ai-updates",
+  "date": "2024-04-05",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "safety",
+    "rag",
+    "openai",
+    "multimodal",
+    "claude",
+    "agents",
+    "open-models",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "MyvlILQ5zp4",
+    "title": "Have you heard these exciting AI news? - April 05, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+    "thumbnail": "https://i.ytimg.com/vi/MyvlILQ5zp4/hqdefault.jpg",
+    "duration": 945
+  },
+  "deck": {
+    "path": "2024/2024-04-05-AI-Updates.pptx",
+    "filename": "2024-04-05-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-04-05-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-04-05-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "LambdaLabs - Nvidia GH200",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "April 1st - celebrated for 400+ years",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Why Emad Mostaque Left Stability.ai",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "the craziest talent war",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Red Teaming LLM applications",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Most Impactful AI Workflows",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Naive RAG has poor performance",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Apple's ReALM improves Siri's",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenUI - build UI from description",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI GPT without account for free",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "$100 Bln data center with \"Stargate\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI clone voice from just 15 sec",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Applicant Tracking System (ATS)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Claude-Author - write a novel from one prompt",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "SWE-agent - open source bug fixer",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Stability AI just released Stable Audio 2.0",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs are x3 times lower than in 2023",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LambdaLabs - Nvidia GH200 April 1st - celebrated",
+      "text": "LambdaLabs - Nvidia GH200 April 1st - celebrated for 400+ years Why Emad Mostaque Left Stability.ai the craziest talent war Red Teaming LLM applications Most Impactful AI Workflows Naive RAG has poor performance Apple's ReALM improves Siri's OpenUI - build UI from description OpenAI GPT without account for free $100 Bln data center with \"Stargate\" OpenAI clone voice from just 15 sec Applicant Tracking System (ATS) Claude-Author - write a novel from one prompt SWE-agent - open source bug fixer Stability AI just released Stable Audio 2.0 Crowd-sourced \"Arena\" Leaderboard Tech Layoffs are x3 times lower than in 2023 AI Updates April 05 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "LambdaLabs - Nvidia GH200 LambdaLabs expansion https://lambdalabs.com -",
+      "text": "LambdaLabs - Nvidia GH200 LambdaLabs expansion https://lambdalabs.com - another $500 Mln to expand GPU cloud, in addition to the $230 Mln Series C earlier this year. What is Coherent Memory? GH200 has 576 GB of \"Coherent memory\" Coherent memory creates a single, unified memory space accessible by both the CPU and GPU. Both CPU and GPU can see and operate on the same data without the need for explicit memory transfers. Apple Silicone Unified Memory Nvidia \"Coherent Memory\" is very similar to Apple Silicone Mac's Unified Memory . (128 GB laptops, or 192 GB Studio or Pro) (using Apple’s MLX framework) Grace CPU + Hopper GPU"
+    },
+    {
+      "index": 3,
+      "title": "April 1st - celebrated for 400+ years (at",
+      "text": "April 1st - celebrated for 400+ years (at least)"
+    },
+    {
+      "index": 4,
+      "title": "Why Emad Mostaque Left Stability.ai Emad: \"I'm particularly",
+      "text": "Why Emad Mostaque Left Stability.ai Emad: \"I'm particularly great at taking creatives, developers, researchers, others and achieving their full potential and designing systems. But I should not be dealing with HR and operations and business development and other elements. There are far better people than me to do that.\" Emad recounted Elon Musk’s quote about what it's like being CEO: \"Staring into the abyss and chewing glass.\" ... big feeling of relief: \"It was tying me down. There's a lot of legacy, technical, organizational, and other debt, especially when you grow so fast...I felt tired, relieved. I felt that now there's a million options.” ... advice to focus on the huge opportunity in AI-generated media ... he also stepped down because he felt an urgency and a responsibility to address broader issues around AI governance and consolidation that very few people are focused on. Emad believes there is a small window of only a year or two to establish proper governance and standards before highly capable AI systems become too consolidated and centralized. ... AI also has the potential to end democracy as we know it if the technology enables perfectly persuasive and emotionally manipulative speech targeted to each individual. Decentralized AI: Accessibility: Everyone should be able to access AI technology. Governance: There needs to be decentralized, democratic governance over the data that trains AI systems, not centralized control by a few companies. Modular infrastructure: AI systems should be built in a modular way that people can build on top of, rather than monolithic centralized systems. Emad envisions a future \"intelligent internet\" - roads, electric grid, schools, ... where \"each person, country, and company has their own AI models, and they're all interacting with each other in an optimal way for humanity.\" Peter H. Diamandis interviewed Emad Mostaque https://www.diamandis.com/blog/emad-wisdom-part-1"
+    },
+    {
+      "index": 5,
+      "title": "\"the craziest talent war\" Elon Musk says competition",
+      "text": "\"the craziest talent war\" Elon Musk says competition for AI engineers is ' the craziest talent war I've ever seen!' . Musk said he's raising the salaries of Tesla's AI engineering team. Musk claimed OpenAI has successfully poached several Tesla engineers, with Tesla increasing AI engineer pay to attempt to fend off threats. Several Tesla engineers have even been poached by Musk’s own xAI, including ML scientist Ethan Knight, who Musk said was originally set to join OpenAI. Also making AI talent poaching headlines is Mark Zuckerberg, who reportedly recently emailed several Google DeepMind employees to recruit for Meta. https://www.businessinsider.com/elon-musk-says-ai-talent-war-is-craziest-hes-seen-2024-4"
+    },
+    {
+      "index": 6,
+      "title": "Red Teaming LLM applications Red Teaming LLM applications",
+      "text": "Red Teaming LLM applications Red Teaming LLM applications https://learn.deeplearning.ai/courses/red-teaming-llm-applications/lesson/1/introduction"
+    },
+    {
+      "index": 7,
+      "title": "Most Impactful AI Workflows Customer Service: AI-Powered Chatbots",
+      "text": "Most Impactful AI Workflows Customer Service: AI-Powered Chatbots - 24/7 service, fast ( RAG systems ) Sentiment Analysis - social media, emails, and surveys - to track customer satisfaction, identify potential problems, and make proactive improvements. Personalized Recommendations - boost sales Human Resources: Candidate Sourcing and Screening - identify good potential candidates from huge resume pools Employee Training - AI can offer personalized training plans to support employee growth and skill development. Predictive Analytics for Attrition - identify patterns that could lead to employee turnover. Marketing and Sales: Predictive Lead Scoring - prioritize sales efforts, increase conversion rates Targeted Ad Campaigns - highly personalized ads Sales Forecasting - analyze trends, predict sales, improve planning and resource allocation Writing - posts, articles, newsletters Operations and Process Automation: Document Analysis - sorting, classifying, extracting crucial data from documents (like invoices, contracts, reports) Inventory Management - forecast demand and optimize stock levels, minimize waste and ensure adequate inventory Fraud Detection - AI analyzes patterns in transactions and flags suspicious activity to prevent fraud, protect from losses"
+    },
+    {
+      "index": 8,
+      "title": "Naive RAG - poor performance Amazon simple naive",
+      "text": "Naive RAG - poor performance Amazon simple naive RAG (Retrieval Augmented Generation) using Kendra indexing and Bedrock LLM works very poorly, mostly because of bad retrieval. Data preprocessing MUST be added for better results."
+    },
+    {
+      "index": 9,
+      "title": "Misc Apple has developed a new system called",
+      "text": "Misc Apple has developed a new system called ReALM ( Reference Resolution As Language Modeling ) that improves Siri's ability to understand context by considering on-screen, conversational, and background entities. It outperforms ChatGPT 4.0 in some benchmarks. https://9to5mac.com/2024/04/01/apple-ai-gpt-4/ https://arxiv.org/pdf/2403.20329.pdf - paper OpenUI - describe UI - and it gets automatically created using HTML, React, Svelte, Web Components, etc. https://github.com/wandb/openui Microsoft \"Generative AI for Beginners\" v.2 course https://github.com/microsoft/generative-ai-for-beginners OpenAI now provides ChatGPT for free without the need to sign-up. Microsoft and OpenAI are planning a new data center: in 2028 , $100 Bln , AI supercomputer called \" Stargate \". OpenAI can clone voice from just 15 sec of audio https://decrypt.co/224165/open-ai-voice-engine-clone-speech https://openai.com/blog/navigating-the-challenges-and-opportunities-of-synthetic-voices Applicant Tracking System (ATS) software scans and analyses your resume or application and rejects it if it is not a good match. - https://twitter.com/deadlyjackflash/status/1774739901784920551 Claude-Author - write a novel using one-prompt description open-source saves book as a real e-book complete w/ cover art a chain of many Claude 3 Haiku/Opus and Stable Diffusion API calls that work together https://github.com/mshumer/gpt-author/ https://twitter.com/mattshumer_/status/1775543642561597821 SWE-agent - open source, can fix bugs and issues in real GitHub repositories - https://github.com/princeton-nlp/SWE-agent Stability AI just released Stable Audio 2.0 - create high-quality songs up to 3 min from a single text prompt. https://stability.ai/news/stable-audio-2-0"
+    },
+    {
+      "index": 10,
+      "title": "models: 7 6 votes: 511252 March 2 9",
+      "text": "models: 7 6 votes: 511252 March 2 9 , 2024 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard open source open source open source"
+    },
+    {
+      "index": 11,
+      "title": "Tech Layoffs are x3 times lower than in",
+      "text": "Tech Layoffs are x3 times lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs https://qz.com/tech-layoffs-high-ai-struggling-find-talent-1851368861"
+    },
+    {
+      "index": 12,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 13,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LambdaLabs - Nvidia GH200",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 1,
+      "slideTitle": "LambdaLabs - Nvidia GH200 April 1st - celebrated",
+      "source": "outline"
+    },
+    {
+      "claim": "April 1st - celebrated for 400+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 2,
+      "slideTitle": "LambdaLabs - Nvidia GH200 LambdaLabs expansion https://lambdalabs.com -",
+      "source": "outline"
+    },
+    {
+      "claim": "Why Emad Mostaque Left Stability.ai",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 2,
+      "slideTitle": "LambdaLabs - Nvidia GH200 LambdaLabs expansion https://lambdalabs.com -",
+      "source": "outline"
+    },
+    {
+      "claim": "the craziest talent war",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 3,
+      "slideTitle": "April 1st - celebrated for 400+ years (at",
+      "source": "outline"
+    },
+    {
+      "claim": "Red Teaming LLM applications",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 4,
+      "slideTitle": "Why Emad Mostaque Left Stability.ai Emad: \"I'm particularly",
+      "source": "outline"
+    },
+    {
+      "claim": "Most Impactful AI Workflows",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 5,
+      "slideTitle": "\"the craziest talent war\" Elon Musk says competition",
+      "source": "outline"
+    },
+    {
+      "claim": "Naive RAG has poor performance",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 5,
+      "slideTitle": "\"the craziest talent war\" Elon Musk says competition",
+      "source": "outline"
+    },
+    {
+      "claim": "Apple's ReALM improves Siri's",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 6,
+      "slideTitle": "Red Teaming LLM applications Red Teaming LLM applications",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenUI - build UI from description",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 7,
+      "slideTitle": "Most Impactful AI Workflows Customer Service: AI-Powered Chatbots",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI GPT without account for free",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 7,
+      "slideTitle": "Most Impactful AI Workflows Customer Service: AI-Powered Chatbots",
+      "source": "outline"
+    },
+    {
+      "claim": "$100 Bln data center with \"Stargate\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 8,
+      "slideTitle": "Naive RAG - poor performance Amazon simple naive",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI clone voice from just 15 sec",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 9,
+      "slideTitle": "Misc Apple has developed a new system called",
+      "source": "outline"
+    },
+    {
+      "claim": "Applicant Tracking System (ATS)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 9,
+      "slideTitle": "Misc Apple has developed a new system called",
+      "source": "outline"
+    },
+    {
+      "claim": "Claude-Author - write a novel from one prompt",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 10,
+      "slideTitle": "models: 7 6 votes: 511252 March 2 9",
+      "source": "outline"
+    },
+    {
+      "claim": "SWE-agent - open source bug fixer",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 11,
+      "slideTitle": "Tech Layoffs are x3 times lower than in",
+      "source": "outline"
+    },
+    {
+      "claim": "Stability AI just released Stable Audio 2.0",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs are x3 times lower than in 2023",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MyvlILQ5zp4",
+      "slideIndex": 13,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

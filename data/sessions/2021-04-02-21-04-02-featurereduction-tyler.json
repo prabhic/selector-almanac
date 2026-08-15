@@ -1,0 +1,224 @@
+{
+  "id": "2021-04-02-21-04-02-featurereduction-tyler",
+  "date": "2021-04-02",
+  "title": "FeatureReduction Tyler",
+  "series": "data-science-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-04-02-FeatureReduction_Tyler.pptx",
+    "filename": "21-04-02-FeatureReduction_Tyler.pptx",
+    "title": "FeatureReduction Tyler",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-04-02-FeatureReduction_Tyler.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-04-02-FeatureReduction_Tyler.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Feature Engineering & Feature Reduction Presented by Tyler",
+      "text": "Feature Engineering & Feature Reduction Presented by Tyler Williams April 2, 2021"
+    },
+    {
+      "index": 2,
+      "title": "What is it? Data preparation! Reduce the number",
+      "text": "What is it? Data preparation! Reduce the number of features by which data is to be analyzed, by grouping, simplifying, or eliminating features Fewer features means there are fewer variables, which can make analysis of the dataset faster and easier"
+    },
+    {
+      "index": 3,
+      "title": "Sales leads at a car dealership Buyer Age",
+      "text": "Sales leads at a car dealership Buyer Age Income Buyer Height Car MSRP Inquiry Date Trade In Vehicle Dealership Walk-in Vehicle Type Day of Week Home Address Weekend Eye Color"
+    },
+    {
+      "index": 4,
+      "title": "Does More Features = Greater Value When analyzing",
+      "text": "Does More Features = Greater Value When analyzing sales leads?"
+    },
+    {
+      "index": 5,
+      "title": "Feature Importance Elimination of irrelevant features Eye Color",
+      "text": "Feature Importance Elimination of irrelevant features Eye Color Buyer Height Age Feature Selection Inquiry Date Day of week Weekend"
+    },
+    {
+      "index": 6,
+      "title": "Sparse Data Different from empty or NULL data",
+      "text": "Sparse Data Different from empty or NULL data Large number of zero values Be aware of sparse features in your data, and consider converting them before running packages in sklearn or pandas Trade-In? Luxury Brand Owner? Buyer 1 0 0 Buyer 2 0 0 Buyer 3 1 0 Buyer 4 0 1 Buyer 5 1 0 Buyer 6 0 0"
+    },
+    {
+      "index": 7,
+      "title": "Feature Grouping Analyze big stocks individually Group penny",
+      "text": "Feature Grouping Analyze big stocks individually Group penny stocks to analyze on the aggregate"
+    },
+    {
+      "index": 8,
+      "title": "Why reduce features? Reduce collinearity, where two or",
+      "text": "Why reduce features? Reduce collinearity, where two or more variables are highly correlated Improve speed – fewer variables means fewer resources needed Improve generalizability – Too many features 🡪 risk of overfitting Easier to visualize for humans – easy to graph 2 or 3 dimensions; more is harder to visualize High dimensionality can produce sparse data; reduction can make data less sparse"
+    },
+    {
+      "index": 9,
+      "title": "What about information loss? 3D Movies (or real",
+      "text": "What about information loss? 3D Movies (or real life in 3D) 2D “standard” movies You can still make sense of what’s happening, with minimal loss of information vs."
+    },
+    {
+      "index": 10,
+      "title": "Feature engineering Using domain knowledge to extract features",
+      "text": "Feature engineering Using domain knowledge to extract features from raw data ???? 🡺 Income/Price ratio!"
+    },
+    {
+      "index": 11,
+      "title": "H2O.ai – Automatic Feature Engineering",
+      "text": "H2O.ai – Automatic Feature Engineering"
+    },
+    {
+      "index": 12,
+      "title": "More feature importance Random Forest is essentially a",
+      "text": "More feature importance Random Forest is essentially a bunch of decision trees bundled together Train multiple decision trees with samples from your dataset Take majority vote if trees produce class labels Take average if trees produce numerical values When training a model, determine feature importance with Random Forest https://victorzhou.com/blog/intro-to-random-forests/"
+    },
+    {
+      "index": 13,
+      "title": "Running Random forest in python Running RandomForestRegressor or",
+      "text": "Running Random forest in python Running RandomForestRegressor or RandomForestClassifier from the scikit-learn package returns a feature_importances_ attribute. Backward Elimination - Select the most important features and rerun the random forest"
+    },
+    {
+      "index": 14,
+      "title": "Mathematical Feature Reduction Principal Component Analysis (PCA) Combining",
+      "text": "Mathematical Feature Reduction Principal Component Analysis (PCA) Combining multiple, correlated variables into a single component Factor Analysis Finding the underlying common factor that gives rise to multiple indicators"
+    },
+    {
+      "index": 15,
+      "title": "Principal Component Analysis (PCA) A method introduced by",
+      "text": "Principal Component Analysis (PCA) A method introduced by Karl Pearson Plot attributes in two dimensions Find the line that maximizes the spread of the points along its axis The perpendicular line should minimize the same spread"
+    },
+    {
+      "index": 16,
+      "title": "Steps For Calculating PCA Standardize the data Compute",
+      "text": "Steps For Calculating PCA Standardize the data Compute the covariance matrix for the data variables Computing the eigenvectors and eigenvalues and order them in descending order Then, calculate the Principal Components Perform ‘dimensionality reduction’ of the data set Principal Component Analysis (PCA)| What is PCA? (intellipaat.com)"
+    },
+    {
+      "index": 17,
+      "title": "2D Example of PCA With the vertical axis",
+      "text": "2D Example of PCA With the vertical axis minimized, you have effectively reduced the two dimensions to one Principal Component Analysis explained visually (setosa.io)"
+    },
+    {
+      "index": 18,
+      "title": "Note on PCA Only works for numeric features",
+      "text": "Note on PCA Only works for numeric features Categorical or text features must be converted to numeric NLP Tokenizer Assign weights/scores to discrete, fixed categories"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Feature Engineering & Feature Reduction Presented by Tyler",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Feature Engineering & Feature Reduction Presented by Tyler",
+      "source": "slide"
+    },
+    {
+      "claim": "What is it? Data preparation! Reduce the number",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "What is it? Data preparation! Reduce the number",
+      "source": "slide"
+    },
+    {
+      "claim": "Sales leads at a car dealership Buyer Age",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Sales leads at a car dealership Buyer Age",
+      "source": "slide"
+    },
+    {
+      "claim": "Does More Features = Greater Value When analyzing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Does More Features = Greater Value When analyzing",
+      "source": "slide"
+    },
+    {
+      "claim": "Feature Importance Elimination of irrelevant features Eye Color",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Feature Importance Elimination of irrelevant features Eye Color",
+      "source": "slide"
+    },
+    {
+      "claim": "Sparse Data Different from empty or NULL data",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Sparse Data Different from empty or NULL data",
+      "source": "slide"
+    },
+    {
+      "claim": "Feature Grouping Analyze big stocks individually Group penny",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Feature Grouping Analyze big stocks individually Group penny",
+      "source": "slide"
+    },
+    {
+      "claim": "Why reduce features? Reduce collinearity, where two or",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Why reduce features? Reduce collinearity, where two or",
+      "source": "slide"
+    },
+    {
+      "claim": "What about information loss? 3D Movies (or real",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "What about information loss? 3D Movies (or real",
+      "source": "slide"
+    },
+    {
+      "claim": "Feature engineering Using domain knowledge to extract features",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Feature engineering Using domain knowledge to extract features",
+      "source": "slide"
+    },
+    {
+      "claim": "H2O.ai – Automatic Feature Engineering",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "H2O.ai – Automatic Feature Engineering",
+      "source": "slide"
+    },
+    {
+      "claim": "More feature importance Random Forest is essentially a",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "More feature importance Random Forest is essentially a",
+      "source": "slide"
+    }
+  ]
+}

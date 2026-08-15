@@ -1,0 +1,388 @@
+{
+  "id": "2024-09-13-2024-09-13-ai-updates",
+  "date": "2024-09-13",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "infra",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "rsGSl62KpHo",
+    "title": "Have you heard these exciting AI news? - September 13, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=rsGSl62KpHo",
+    "thumbnail": "https://i.ytimg.com/vi/rsGSl62KpHo/hqdefault.jpg",
+    "duration": 1623
+  },
+  "deck": {
+    "path": "2024/2024-09-13-AI-Updates.pptx",
+    "filename": "2024-09-13-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-09-13-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-09-13-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI",
+      "startSeconds": 25,
+      "label": "00:25",
+      "source": "youtube"
+    },
+    {
+      "title": "GP01 video",
+      "startSeconds": 180,
+      "label": "03:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Reflection 70b",
+      "startSeconds": 328,
+      "label": "05:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Salesforce",
+      "startSeconds": 604,
+      "label": "10:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Ucom",
+      "startSeconds": 786,
+      "label": "13:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Chai Discovery",
+      "startSeconds": 848,
+      "label": "14:08",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI",
+      "startSeconds": 896,
+      "label": "14:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Artifacts",
+      "startSeconds": 1086,
+      "label": "18:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia ecosystem",
+      "startSeconds": 1333,
+      "label": "22:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Google data models",
+      "startSeconds": 1445,
+      "label": "24:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Assistant",
+      "startSeconds": 1521,
+      "label": "25:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource Arena",
+      "startSeconds": 1580,
+      "label": "26:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Glassdoor",
+      "startSeconds": 1589,
+      "label": "26:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech layoffs",
+      "startSeconds": 1612,
+      "label": "26:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI released Strawberry o1-preview Reflection-70B - Real or",
+      "text": "OpenAI released Strawberry o1-preview Reflection-70B - Real or Fraud Scrape websites using AI LinkedIn_AIHawk - Job Search AI Assistant AI and Robotics killing white- and blue-collar jobs Andrej Karpathy Interview Elon Musk \"Colossus cluster\" - 100K H100s META CRAG = Comprehensive RAG Benchmark Apple iPhone 16, 4M model Salesforce \"Industries AI\" & Einstein AI Agents Pixtral 12B - first multimodal model by Mistral Honeycomb AI for Software Development You.com raise 50 Mln Groq - faster speed, multimodal Chai Discovery Chai-1 outperforms AlphaFold3 OpenAI: $6.5 Bln funding ? Phind-405B - for programming and tech. tasks LLaMA-Omni - speech-text-speech SambaNova Cloud - x10 faster than GPU DeepSeek-V2.5 - open-source and very good Time Magazine excluded Elon Musk from 100/AI Anthropic Claude Artifacts Jim Fan - fooling LLM benchmarks Synthetic data and Model Collapse RefChecker for Hallucinations Alexis Conneau leaves OpenAI DocAI - extract structured info from documents iText2KG - python to extract entities from text Nvidia Ecosystem Intel AMX Google Data Gemma RAG & RIG Assistants Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Glassdoor - Salaries for AI and Data Science jobs Tech Layoffs in 2024 AI Updates September 13 , 2024 Ph.D."
+    },
+    {
+      "index": 2,
+      "title": "OpenAI Strawberry Model Preview September 12 - OpenAI",
+      "text": "OpenAI Strawberry Model Preview September 12 - OpenAI released two models for a limited preview (30 messages per week ?): o1 and o1-mini. https://openai.com/index/learning-to-reason-with-llms/ https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/ https://www.axios.com/2024/09/12/openai-strawberry-model-reasoning-o1 https://www.straitstimes.com/tech/tech-news/openai-launches-new-strawberry-series-of-ai-models-with-reasoning-abilities"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI Strawberry Model Preview This morning I have",
+      "text": "OpenAI Strawberry Model Preview This morning I have tested o1-preview and o1-mini. One of the tests was to analyze a 87KB JSON file containing 76 news items (title, text, tags, dates, etc.. ) - and return the list of titles in the order of importance. I was really impressed by o1-preview model. o1-mini was not as good and can not be trusted. How OpenAI made o1 \"think\" https://www.youtube.com/watch?v=MNE6QZaRavo Reinforcement learning, generating helper tokens, chain-of-thought processing, \"think\" before responding Matthew Berman: GPT-o1: The Best Model I've Ever Tested https://www.youtube.com/watch?v=SbrfjBV8EzM o1 model is designed for handling complex, multistep problems with improved reasoning skills. good for coding, math, science. outperforms expert humans on PhD-level science questions ranks in the 89th percentile for competitive programming. solved 83% of International Mathematics Olympiad qualifying exam problems, compared to GPT-4o's 13%. security test score: 84% vs 22% of previous generation. Cost $15 / $60  in/out per Million tokens"
+    },
+    {
+      "index": 4,
+      "title": "Reflection-70B Matt Shumer https://x.com/mattshumer_ https://www.hyperwriteai.com Sahil Chaudhary https://twitter.com/csahil28",
+      "text": "Reflection-70B Matt Shumer https://x.com/mattshumer_ https://www.hyperwriteai.com Sahil Chaudhary https://twitter.com/csahil28 https://glaive.ai Matt Berman videos: 35 min interview with Matt & Sahil https://www.youtube.com/watch?v=5_m-kN64Exc How This AI Model Achieves Insane Accuracy https://www.youtube.com/watch?v=-IBAg6lMfXA Matt Shumer & Sahil Chaudhary have fine-tuned Llama 3.1 70B  and claimed (September 5th) to achieve amazing accuracy beating top models in just 3 weeks. They used a technique similar to the one described in 2023 paper \" Reflection-Tuning: Recycling Data for Better Instruction-Tuning \"  - basically training the model to use \"step-by-step\" Chain of Thought approach. This is done by tuning on synthetic data showing examples of using <thinking> and <reflection> tags to remove hallucination and perform self-correction - and fine-tuned the model on these examples. https://openreview.net/forum?id=xaqoZZqkPU https://venturebeat.com/ai/meet-the-new-most-powerful-open-source-ai-model-in-the-world-hyperwrites-reflection-70b/ https://huggingface.co/mattshumer/Reflection-Llama-3.1-70B But third party evaluations have failed to reproduce Reflection 70B’s impressive results, so Shumer was accused of fraud. https://www.greenbot.com/hyperwrite-reflection-70B/ https://www.youtube.com/watch?v=Alzjn_0ne1Y https://venturebeat.com/ai/reflection-70b-model-maker-breaks-silence-amid-fraud-accusations/"
+    },
+    {
+      "index": 5,
+      "title": "Misc 1 Scrape ANY WEBSITE with Llama3.1! https://www.youtube.com/watch?v=xrt2GViRzQo",
+      "text": "Misc 1 Scrape ANY WEBSITE with Llama3.1! https://www.youtube.com/watch?v=xrt2GViRzQo LinkedIn_AIHawk - Job Search Assistant automation + AI dynamic resume generation to fit job descriptions AI-powered personalization streamline application submissions https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI AI already kills white-collar jobs Robotics + AI will kill blue-collar jobs Andrej Karpathy - interview Tesla is not a car company, it is a Robotics Company https://www.youtube.com/watch?v=hM_h0UA7upI Elon Musk \"Colossus cluster\" $6B financing, 122 days, 100K Nvidia H100 GPUs on a single network. xAI plans to double Colossus to 200K GPUs (including 50,000 H200s) in few months. Compare: Grok-2 was trained on just 15K GPUs Compare with Meta: building new cluster with 100K Nvidia H100s for Llama-4 used 16K H100s to train Llama 3.1 META CRAG = Comprehensive RAG Benchmark from Meta competition of RAG systems based on Llama 2 and Llama 3 models (8B & 70B). Results are not posted yet. https://www.aicrowd.com/challenges/meta-comprehensive-rag-benchmark-kdd-cup-2024 Apple iPhone 16 - Writing Tools - emails & notes, edit, add custom emojis Photos and Videos - AI search Priority and Focus - summarize emails and notifications Visual Intelligence - Apple 4M model (tex, image, audio,...) 4M = \"Massively Multimodal Masked Modeling\" https://github.com/apple/ml-4m Siri - works better with AI Apple Intelligence will enter beta with iOS 18.1 in October"
+    },
+    {
+      "index": 6,
+      "title": "Salesforce AI Salesforce Industries AI - will start",
+      "text": "Salesforce AI Salesforce Industries AI - will start releasing in October 100+    Out-of-the-Box AI Capabilities, ready to use 15 Industries Foundational, pre-built, and customizable AI capabilities Embedded in each of Salesforce’s 15 industry clouds https://www.salesforce.com/news/stories/industries-ai-announcement/ https://www.salesforce.com/service/ai/ https://www.salesforce.com/service/customer-service-chatbot/ https://www.salesforce.com/service/customer-service-automation/ Salesforce has unveiled two AI agents: Einstein SDR Agent - talks to inbound prospects (Sales Development Representative) Einstein Sales Coach Agent - provides real-time selling guidance to sales teams https://www.zdnet.com/article/salesforce-unveils-ai-agents-for-sales-teams-heres-how-they-help/ 90% of Fortune 500 companies use Salesforce"
+    },
+    {
+      "index": 7,
+      "title": "Misc 2 Pixtral 12B - first multimodal model",
+      "text": "Misc 2 Pixtral 12B - first multimodal model by Mistral built on top of mistral-nemo-12B open source Apache 2.0 license https://www.techopedia.com/news/mistral-unveils-its-first-multimodal-ai-model https://huggingface.co/mistral-community/pixtral-12b-240910 https://github.com/mistralai/mistral-common/releases/tag/v1.4.0 Honeycomb AI Beats Amazon in SWE-Agent Leaderboard Honeycomb is building agents to help automate tasks across the entire software development lifecycle. - https://honeycomb.sh - https://www.ycombinator.com/companies/honeycomb SWE-bench Leaderboard - https://www.swebench.com Ishank Agrawal & Andrew Liu Groq 2 is a new chip from Groq introduced in August 2024 It is available via Groq website https://groq.com It is faster x8 times faster (per chip) compared to v.1 It supports multimodal models Speed improvements were achieved via better chip architecture, increased compute density, better compiler"
+    },
+    {
+      "index": 8,
+      "title": "You.com Richard Socher Founder & CEO from Salesforce",
+      "text": "You.com Richard Socher Founder & CEO from Salesforce & Standord, famous for NLP work (Sentiment Analysis, word embeddings, GloVe, Recursive Neural Networks) https://www.socher.org Bryan McCann Founder & CTO from Salesforce & Standord NLP Research You.com raise 50 Mln You.com was founded by Richard Socher and Bryan McCann , both leading AI research scientists. AI-powered searchengine & productivity tool personalized & private offers private ads without third-party cookies, pixels, or user data sharing has a zero-trace private mode that doesn't store queries or record clicks search results are powered by your choice, not by the highest bidder is used for knowledge work in fields like finance, biotech, and legal, as well as for students and academic research. can add multimedia elements to help answer a question more precisely allows users to create their own custom agents."
+    },
+    {
+      "index": 9,
+      "title": "Chai Discovery Chai Discovery , an AI biology",
+      "text": "Chai Discovery Chai Discovery , an AI biology startup founded six months ago Raised nearly $30 million from Thrive Capital and OpenAI Released Chai-1 - a new multi-modal foundation model for molecular structure prediction Chai-1 enables unified prediction of proteins, small molecules, DNA, RNA, covalent modifications, and more. The model shows performance on the level with SOTA models like AlphaFold3 and ESM3-98B . The model is available for free via a web interface, including for commercial applications such as drug discovery. Also releasing the model weights and inference code as a software library for non-commercial use. https://www.bnnbloomberg.ca/business/technology/2024/09/09/openai-thrive-capital-back-six-month-old-ai-drug-discovery-startup/ https://www.chaidiscovery.com/blog/introducing-chai-1 https://x.com/joshim5/status/1833183091776721106"
+    },
+    {
+      "index": 10,
+      "title": "Misc 3 OpenAI: $2K/month subscriptions? $6.5 Bln funding",
+      "text": "Misc 3 OpenAI: $2K/month subscriptions?  $6.5 Bln funding Phind-405B Open-source, based on Meta Llama 3.1 405B https://huggingface.co/Phind/Phind-CodeLlama-34B-v2 SOTA for programming and technical tasks 128K tokens of context coming (32K context available now) https://www.phind.com - chat with the model https://www.phind.com/blog/introducing-phind-405b-and-better-faster-searches SambaNova Cloud - x10 faster than GPU SambaNova Systems - SN40L Reconfigurable Dataflow Unit (RDU) https://sambanova.ai/technology/sn40l-rdu-ai-chip World's Fastest AI Cloud: Llama 3.1 405B at 132 tokens/sec Llama 3.1 70B at 570 tokens/sec. https://sambanova.ai/press/worlds-fastest-ai-platform DeepSeek-V2.5 - very good and cheap, open source The European Court of Justice (ECJ) ordered Apple to Pay back $14.4 Billion in back taxes to Ireland deeplearning.ai - course on Multimodal RAG: Chat with Videos Time Magazine excluded Elon Musk from its list of the 100 most influential people in AI, while featuring actress Scarlett Johansson on the cover. LLaMA-Omni - speech-language model, based on Meta Llama-3.1 can process spoken instructions and generate both text and speech responses simultaneously with very low latency (~0.25 sec) https://huggingface.co/ICTNLP/Llama-3.1-8B-Omni https://github.com/ictnlp/LLaMA-Omni"
+    },
+    {
+      "index": 11,
+      "title": "Misc 4 Jim Fan - fooling LLM benchmarks",
+      "text": "Misc 4 Jim Fan - fooling LLM benchmarks https://x.com/DrJimFan/status/1833160432833716715 Train on paraphrased examples of the test set. LLM-decontaminator\" paper from LMSys found that you can beat GPT-4 with a 13B model (!!) It's easy to game the LLM-decontaminator as well. It only checks for paraphrasing, but you can use any frontier model to generate \"new questions\" with similar logic You can also prompt-engineer the heck out of your generator to fool the LLM-decontaminator Increasing inference-time almost always helps. Self-reflection (see Reflexion, Shinn et al. 2023), simple majority voting or Tree of Thought. These are essentially ensemble methods. Ensemble of N things > 1 thing if you don't control for inference-time tokens. Model Collapse - AI models, trained on their own generated synthetic data, gradually produce lower-quality outputs. This cycle worsens with each iteration of retraining, leading to what is called \"model collapse\" . Anthropic Claude Artifacts to build: Code snippets: Can be in any coding language. Webpages: Single page HTML, CSS, and Javascript. Mermaid diagrams: Flow charts and other diagrams. Documents: Markdown formatted docs. SVG images: Simple vector drawings. React components: Interactive apps. RefChecker - standardized assessment to identify hallucinations https://github.com/amazon-science/RefChecker https://www.youtube.com/watch?v=w-fl1xR9dj0 Alexis Conneau - one of OpenAI‘s research leads for its ChatGPT-4o audio product, is leaving to launch a startup DocAI - extract structured info from documents: https://github.com/madisonmay/docai iText2KG - Python package uses LLM to extract entities and relationships from text, incrementally building consistent knowledge graphs - https://github.com/AuvaLab/itext2kg"
+    },
+    {
+      "index": 12,
+      "title": "Nvidia Ecosystem NVIDIA NIM - AI Microservice to",
+      "text": "Nvidia Ecosystem NVIDIA NIM - AI Microservice to deploy/run a model https://www.nvidia.com/en-us/ai/ NVIDIA Metropolis - developer tools for visual AI https://developer.nvidia.com/metropolis NVIDIA NeMo - open-source platform for building custom generative AI models, part of NVIDIA AI Foundry , which is a platform and service for building custom generative AI models https://github.com/NVIDIA/NeMo NVIDIA Riva - speech and translation microservices https://www.nvidia.com/en-us/ai-data-science/products/riva/ NVIDIA Triton Inference Server - open-source https://developer.nvidia.com/triton-inference-server NVIDIA Visual Insight Agent (VIA) - workflows for building AI agents to process videos and images using Vision-Language Models (VLM) . https://www.nvidia.com/en-us/use-cases/visual-ai-agents/ Intel AMX (Advanced Matrix Extensions) are available on some new Intel Xeon CPUs. They do matrix operations and help with AI workloads. These CPUs are very expensive ($10K .. 30K+)  - https://en.wikipedia.org/wiki/Advanced_Matrix_Extensions Intel AMX"
+    },
+    {
+      "index": 13,
+      "title": "Google Data Gemma RAG & RIG 27B models",
+      "text": "Google Data Gemma RAG & RIG 27B models Improving accuracy of LLMs by integrating them with Data Commons - a vast, open-source repository of public statistics from trusted organizations like the United Nations (UN), Center for Disease Control and Prevention (CDC) and global census bureaus. RIG (Retrieval Interleaved Generation) - LLM is trained to produce natural language queries to retrieve data from Data Commons RAG (Retrieval Augmented Generation) - relevant data tables are fetched from Data Commons and used to augment the LLM's prompt https://www.threads.net/@qnixsynapse/post/C_0Z3I9yYRD https://huggingface.co/google/datagemma-rag-27b-it https://huggingface.co/google/datagemma-rig-27b-it https://docs.datacommons.org/papers/DataGemma-FullPaper.pdf https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/"
+    },
+    {
+      "index": 14,
+      "title": "Assistants Amazon Alexa (Echo) - now uses Anthropic",
+      "text": "Assistants Amazon Alexa (Echo) - now uses Anthropic Claude Apple Siri - uses Apple's proprietary model + OpenAI Google Assistant (since 2016) - an app working on phones and other devices. It is being replaced by Google Gemini . Microsoft Copilot - works on multiple devices Amazon Echo"
+    },
+    {
+      "index": 15,
+      "title": "Total #models: 139 Total #votes: 1,821,125 Last updated:",
+      "text": "Total #models: 139 Total #votes: 1,821,125 Last updated: 2024-09-04 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 16,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 139 Total #votes: 1,821,125 Last updated: 2024-09-04"
+    },
+    {
+      "index": 17,
+      "title": "Salaries",
+      "text": "Salaries"
+    },
+    {
+      "index": 18,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi"
+    },
+    {
+      "index": 19,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI released Strawberry o1-preview Reflection-70B - Real or",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI",
+      "topic": "general",
+      "videoSeconds": 25,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=25s",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI Strawberry Model Preview September 12 - OpenAI",
+      "source": "youtube"
+    },
+    {
+      "claim": "GP01 video",
+      "topic": "general",
+      "videoSeconds": 180,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=180s",
+      "slideIndex": 4,
+      "slideTitle": "Reflection-70B Matt Shumer https://x.com/mattshumer_ https://www.hyperwriteai.com Sahil Chaudhary https://twitter.com/csahil28",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reflection 70b",
+      "topic": "general",
+      "videoSeconds": 328,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=328s",
+      "slideIndex": 5,
+      "slideTitle": "Misc 1 Scrape ANY WEBSITE with Llama3.1! https://www.youtube.com/watch?v=xrt2GViRzQo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Salesforce",
+      "topic": "general",
+      "videoSeconds": 604,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=604s",
+      "slideIndex": 6,
+      "slideTitle": "Salesforce AI Salesforce Industries AI - will start",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ucom",
+      "topic": "general",
+      "videoSeconds": 786,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=786s",
+      "slideIndex": 8,
+      "slideTitle": "You.com Richard Socher Founder & CEO from Salesforce",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chai Discovery",
+      "topic": "general",
+      "videoSeconds": 848,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=848s",
+      "slideIndex": 9,
+      "slideTitle": "Chai Discovery Chai Discovery , an AI biology",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI",
+      "topic": "openai",
+      "videoSeconds": 896,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=896s",
+      "slideIndex": 11,
+      "slideTitle": "Misc 4 Jim Fan - fooling LLM benchmarks",
+      "source": "youtube"
+    },
+    {
+      "claim": "Artifacts",
+      "topic": "general",
+      "videoSeconds": 1086,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1086s",
+      "slideIndex": 12,
+      "slideTitle": "Nvidia Ecosystem NVIDIA NIM - AI Microservice to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia ecosystem",
+      "topic": "infra",
+      "videoSeconds": 1333,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1333s",
+      "slideIndex": 13,
+      "slideTitle": "Google Data Gemma RAG & RIG 27B models",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google data models",
+      "topic": "general",
+      "videoSeconds": 1445,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1445s",
+      "slideIndex": 15,
+      "slideTitle": "Total #models: 139 Total #votes: 1,821,125 Last updated:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Assistant",
+      "topic": "general",
+      "videoSeconds": 1521,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1521s",
+      "slideIndex": 16,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource Arena",
+      "topic": "benchmarks",
+      "videoSeconds": 1580,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1580s",
+      "slideIndex": 17,
+      "slideTitle": "Salaries",
+      "source": "youtube"
+    },
+    {
+      "claim": "Glassdoor",
+      "topic": "general",
+      "videoSeconds": 1589,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1589s",
+      "slideIndex": 19,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1612,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo&t=1612s",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Strawberry Model Preview This morning I have",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI Strawberry Model Preview This morning I have",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 2 Pixtral 12B - first multimodal model",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo",
+      "slideIndex": 7,
+      "slideTitle": "Misc 2 Pixtral 12B - first multimodal model",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 3 OpenAI: $2K/month subscriptions? $6.5 Bln funding",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=rsGSl62KpHo",
+      "slideIndex": 10,
+      "slideTitle": "Misc 3 OpenAI: $2K/month subscriptions? $6.5 Bln funding",
+      "source": "slide"
+    }
+  ]
+}

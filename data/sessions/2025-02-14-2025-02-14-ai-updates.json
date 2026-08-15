@@ -1,0 +1,302 @@
+{
+  "id": "2025-02-14-2025-02-14-ai-updates",
+  "date": "2025-02-14",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "openai",
+    "agents",
+    "infra"
+  ],
+  "video": {
+    "id": "1WAvVkkpS_A",
+    "title": "Have you heard these exciting AI news? - February 14, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+    "thumbnail": "https://i.ytimg.com/vi/1WAvVkkpS_A/hqdefault.jpg",
+    "duration": 1544
+  },
+  "deck": {
+    "path": "2025/2025-02-14-AI-Updates.pptx",
+    "filename": "2025-02-14-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-02-14-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-02-14-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "How to Rig Chatbot Arena Results",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepScaleR - 1.5B model beats OpenAI o1 in math",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Add Reasoning to a Model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ensembles of Models or Agents",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Chinese AI Chips",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "text": "How to Rig Chatbot Arena Results DeepScaleR - 1.5B model beats OpenAI o1 in math Add Reasoning to a Model Ensembles of Models or Agents Chinese AI Chips AI Updates February 14 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs ChatGPT Search for Everyone OpenAI o3-mini & mini-high o3-mini displays its chain of thought (CoT) Anthropic's \"Constitutional Classifiers\" OpenAI Deep Research - Good vs Original Anthropic Economic Index Goodbye RAG Latent Reasoning DeepSeek VL2 MoE - understand images and text Safe Superintelligence $20 Bln valuation Cerebras DeepSeek R1 70B at 1,600 tok/sec Groq (AI cips) - $1.5 Bln from Saudi Arabia February: Anthropic Claude 4 & x.ai Grok 3 DeepSeek R1 - Safety Nightmare\" Stanford (S1) and Berkeley (TinyZero) Diverse Preference Optimization (DivPO) Computing gets cheaper, market gets bigger Meta VideoJAM Perplexity \"Million Dollar\" Question Andrew Krapivin - Fast hash algorithm Meta - Convert EEG/MEG Brain Activity Into Text Ask LLM to run code to count characters Ask Yourself This Question: how AI can help? IBM Granite-Vision-3.1-2B, OpenThinker-32B, Bydance Goku & Goku+, Luma Ray2"
+    },
+    {
+      "index": 2,
+      "title": "How to Rig Chatbot Arena Results https://www.fastcompany.com/91273226/rigged-votes-ai-model-rankings-chatbot-arena https://arxiv.org/pdf/2501.17858",
+      "text": "How to Rig Chatbot Arena Results https://www.fastcompany.com/91273226/rigged-votes-ai-model-rankings-chatbot-arena https://arxiv.org/pdf/2501.17858 Pang and his colleagues trained a classifier to identify which model is being used based on its outputs, with a high accuracy level. Then we can utilize the rating system to more efficiently improve the model ranking with the least number of new votes"
+    },
+    {
+      "index": 3,
+      "title": "DeepScaleR - tiny 1.5B Model beats OpenAI o1",
+      "text": "DeepScaleR - tiny 1.5B Model beats OpenAI o1 DeepScaleR - a small 1.5B model which beats OpenAI's o1 at math Developed at Berkeley using Deep Seek method Achieves 43.1% score on AIM 2024 benchmark, beating GPT-4's 40% Only cost $4,500 to train using 3.8K GPU hours (18.42x reduction compared to Deep Seek R1) Open-sourced and publicly available Uses distributed RL (Reinforcement Learning) Employs an outcome reward model rather than a process reward model Available in different versions (full F32 precision at 7GB, quantized Q5 version at 1.12GB) Can run efficiently on consumer hardware like an M2 Mac This demonstrates how smaller models can achieve impressive results with high-quality training data distilled from larger models. https://www.youtube.com/watch?v=QxZ7oQRJqik https://ollama.com/library/deepscaler:1.5b https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2 https://github.com/agentica-project/deepscaler https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview"
+    },
+    {
+      "index": 4,
+      "title": "Add Reasoning to a Model DeepResearch - open-source",
+      "text": "Add Reasoning to a Model DeepResearch - open-source https://huggingface.co/blog/open-deep-research The bump in performance is due mostly to letting our agents write their actions in code instead of JSON . Add Reasoning to a model without training : Chain-of-Thought (CoT) Prompting Few-shot prompting (examples in prompt) Connect model to a RAG or Wiki system Use Rule-Based Systems, Agentic systems https://x.com/dzhng/status/1886603396578484630 https://github.com/assafelovic/gpt-researcher https://github.com/nickscamara/open-deep-research https://github.com/jina-ai/node-DeepResearch https://x.com/mattshumer_/status/1886558939434664404 Add Reasoning using RL DeepSeek started with a small dataset with step by step reasoning examples (Chain of Thought); trained the model with RL, then generated a large dataset (using rejection sampling) - and fine-tuned the model again. Use DeepSeek R1 to generate 800k reasoning traces (distillation), then use them to train/fine-tune your model"
+    },
+    {
+      "index": 5,
+      "title": "Ensembles of Models or Agents Princeton University Researchers",
+      "text": "Ensembles of Models or Agents Princeton University Researchers Introduce Self-MoA and Self-MoA-Seq: Optimizing LLM Performance with Single-Model Ensembles https://www.marktechpost.com/2025/02/07/princeton-university-researchers-introduce-self-moa-and-self-moa-seq-optimizing-llm-performance-with-single-model-ensembles/ Ensembling - multiple models are combined to generate a final output. The assumption is that diversity among models leads to better performance. Mixture-of-Agents (MoA)  - aggregate responses from different LLMs to synthesize a high-quality response - introduces fundamental trade-off between diversity and quality. Low quality responses decrease the performance Self-MoA - aggregating various outputs from a single high-performing model - repeatedly sampling from the same model. This approach ensures that only high-quality responses contribute to the final output, addressing the quality-diversity trade-off observed in Mixed-MoA configurations."
+    },
+    {
+      "index": 6,
+      "title": "Chinese AI Chips Huawei's AI chip Ascend 910C",
+      "text": "Chinese AI Chips Huawei's AI chip Ascend 910C with 80 GB memory achieves 60% of the inference performance of NVIDIA H100 as tested by DeepSeek Moore Threads chip in GPU MTT S4000 - 48GB and 200 TOPS Kunlun Core P800 chip from Baidu with  16GB memory. Baidu is using the P800 in a 30,000-unit AI cluster. https://x.com/GameGPU_com/status/1887878461819068821 https://wccftech.com/chinese-gpu-manufacturers-push-out-support-for-running-deepseek-ai-models-on-local-systems/ https://www.technetbooks.com/2025/02/chinese-made-gpus-power-up-ai-models.html US restricts exports of high-performance AI chips to China due to security concerns Chinese manufacturers have been developing domestic AI chip The performance of the Ascend 910 is barely sufficient for the cost-efficient training of large AI models. Still, when it comes to inference, it delivers 60% of Nvidia's H100 performance, according to researchers from DeepSeek. While the Ascend 910C is not a performance champion, it can succeed in reducing China's reliance on Nvidia GPUs."
+    },
+    {
+      "index": 7,
+      "title": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "text": "How to Rig Chatbot Arena Results DeepScaleR - 1.5B model beats OpenAI o1 in math Add Reasoning to a Model Ensembles of Models or Agents Chinese AI Chips AI Updates February 14 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs ChatGPT Search for Everyone OpenAI o3-mini & mini-high o3-mini displays its chain of thought (CoT) Anthropic's \"Constitutional Classifiers\" OpenAI Deep Research - Good vs Original Anthropic Economic Index Goodbye RAG Latent Reasoning DeepSeek VL2 MoE - understand images and text Safe Superintelligence $20 Bln valuation Cerebras DeepSeek R1 70B at 1,600 tok/sec Groq (AI cips) - $1.5 Bln from Saudi Arabia February: Anthropic Claude 4 & x.ai Grok 3 DeepSeek R1 - Safety Nightmare\" Stanford (S1) and Berkeley (TinyZero) Diverse Preference Optimization (DivPO) Computing gets cheaper, market gets bigger Meta VideoJAM Perplexity \"Million Dollar\" Question Andrew Krapivin - Fast hash algorithm Meta - Convert EEG/MEG Brain Activity Into Text Ask LLM to run code to count characters Ask Yourself This Question: how AI can help? IBM Granite-Vision-3.1-2B, OpenThinker-32B, Bydance Goku & Goku+, Luma Ray2"
+    },
+    {
+      "index": 8,
+      "title": "ChatGPT Search for Everyone In ChatGPT window click",
+      "text": "ChatGPT Search for Everyone In ChatGPT window click on \"Search\" button OpenAI o3-mini is better than o1 in STEM (science, coding, math) faster than o1 reasoning not very deep OpenAI o3-mini-high : additional chain-of-thought steps, deeper analysis Enhanced accuracy and detail for complex problems. Advanced coding tasks, complex math, logical puzzles OpenAI has changed the way that its new ChatGPT o3-mini model displays its chain of thought (CoT) to \"make it easier for people to understand how the model thinks,\" While the model’s raw CoT remains hidden, the model can organise those thoughts so that they are easy to read. The model reviews the raw chain of thought, removing any unsafe content and then simplifies any complex ideas. It has faced an almost immediate backlash from users and accusations that it is copying the way that DeepSeek's R1 model displays its reasoning  😀 OpenAI said: \"Users have told us that understanding how the model reasons through a response not only supports more informed decision-making but also helps build trust in its answers.\""
+    },
+    {
+      "index": 9,
+      "title": "Anthropic's \"Constitutional Classifiers\" Anthropic's \"Constitutional Classifiers\" are a",
+      "text": "Anthropic's \"Constitutional Classifiers\" Anthropic's \"Constitutional Classifiers\" are a sophisticated framework designed to safeguard large language models (LLMs), like Claude, against \"jailbreaking\" attempts This system builds on Anthropic's earlier \"Constitutional AI\" approach The system operates based on a \"constitution,\" which is a set of explicit principles defining permissible and restricted content Classifiers are trained on special synthetic prompts and completions Input Classifier - screens user prompts before reaching LLM Output Classifier - evaluates LLM output, halting generation if harmful content is detected The constitution can be updated to address emerging threats Extensive testing over 3,000 hours with 405 participants demonstrated that Constitutional Classifiers blocked 95% of jailbreak attempts, compared to only 14% for unguarded models The classifiers introduced minimal disruption to legitimate queries, with only a 0.38% increase in refusal rates for benign prompts Computational overhead increased by 23.7% https://www.hackster.io/news/anthropic-researchers-develop-constitutional-classifiers-to-protect-llms-from-universal-jailbreaks-178110139d64 OpenAI Deep Research Good vs Original https://www.linkedin.com/posts/igor-halperin-092175a_your-manuscript-is-good-and-original-but-activity-7293411967724081152-KjlB/"
+    },
+    {
+      "index": 10,
+      "title": "Anthropic Economic Index The Anthropic Economic Index -",
+      "text": "Anthropic Economic Index The Anthropic Economic Index - an initiative aimed at understanding AI's effects on labor markets and the economy over time. https://www.anthropic.com/news/the-anthropic-economic-index The initial report shows that questions in the \"computer and mathematical\" category made up 37.5% of all queries sent to Claude. \"in just over half of cases, AI was not being used to replace people doing tasks, but instead worked with them.\""
+    },
+    {
+      "index": 11,
+      "title": "Goodbye RAG Goodbye RAG? Google Finally Shipped Something",
+      "text": "Goodbye RAG Goodbye RAG? Google Finally Shipped Something useful! https://www.youtube.com/watch?v=iK9wefkOjkY two steps : (1) search - select documents; (2) - load whole documents"
+    },
+    {
+      "index": 12,
+      "title": "Latent Reasoning Scaling up Test-Time Compute with Latent",
+      "text": "Latent Reasoning Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach - https://arxiv.org/pdf/2502.05171 New AI model architecture allows AI to “think” without generating any tokens. This new model architecture allows AI to scale test time computation by “thinking” in latent space . Latent space is the space of compressed data representations within a model. This new model architecture is different from Chain of Thought (CoT) reasoning, which uses test time compute to generate a chain of thought to answer questions. The new model architecture is more efficient than Chain of Thought reasoning because it does not require specialized training data, massive context windows, or multiple GPUs. The new model architecture is also able to capture different types of reasoning that are not easily represented with words alone . https://huggingface.co/tomg-group-umd/huginn-0125 https://github.com/seal-rg/recurrent-pretraining https://www.youtube.com/watch?v=ZLtXXFcHNOU - video We study a novel language model architecture that is capable of scaling test-time computation by implicitly reasoning in latent space. Our model works by iterating a recurrent block , thereby unrolling to arbitrary depth at test-time. This stands in contrast to mainstream reasoning models that scale up compute by producing more tokens. Unlike approaches based on chain-of-thought, our approach does not require any specialized training data, can work with small context windows, and can capture types of reasoning that are not easily represented in words. We scale a proof-of-concept model to 3.5 billion parameters and 800 billion tokens. We show that the resulting model can improve its performance on reasoning benchmarks, sometimes dramatically, up to a computation load equivalent to 50 billion parameters."
+    },
+    {
+      "index": 13,
+      "title": "AI Updates - 1 DeepSeek VL2 MoE -",
+      "text": "AI Updates - 1 DeepSeek VL2 MoE - a family of open-source vision-language models understand and process both images and text Mixture-of-Experts (MoE) architecture Visual Question Answering, OCR (Optical Character Recognition), extracting information from Documents/Tables/Charts, identifying objects or regions within an image based on a text description https://huggingface.co/deepseek-ai/deepseek-vl2 Cerebras runs DeepSeek R1 70B at 1,600 tokens/second this is 57x faster than any R1 provider using GPUs The move comes after Groq and Microsoft confirmed they would also bring this model to their clouds. AWS and Google Cloud have yet to do so but anybody can run the open source model anywhere, even locally. Safe Superintelligence $20 Bln valuation a Startup founded by Ilya Sutskever In talks to raise capital at a $20 Bln valuation. They have already raised $1 Bln at a $5 Bln valuation just few months ago https://www.calcalistech.com/ctechnews/article/hk8utbhtke"
+    },
+    {
+      "index": 14,
+      "title": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "text": "How to Rig Chatbot Arena Results DeepScaleR - 1.5B model beats OpenAI o1 in math Add Reasoning to a Model Ensembles of Models or Agents Chinese AI Chips AI Updates February 14 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs ChatGPT Search for Everyone OpenAI o3-mini & mini-high o3-mini displays its chain of thought (CoT) Anthropic's \"Constitutional Classifiers\" OpenAI Deep Research - Good vs Original Anthropic Economic Index Goodbye RAG Latent Reasoning DeepSeek VL2 MoE - understand images and text Safe Superintelligence $20 Bln valuation Cerebras DeepSeek R1 70B at 1,600 tok/sec Groq (AI cips) - $1.5 Bln from Saudi Arabia February: Anthropic Claude 4 & x.ai Grok 3 DeepSeek R1 - Safety Nightmare\" Stanford (S1) and Berkeley (TinyZero) Diverse Preference Optimization (DivPO) Computing gets cheaper, market gets bigger Meta VideoJAM Perplexity \"Million Dollar\" Question Andrew Krapivin - Fast hash algorithm Meta - Convert EEG/MEG Brain Activity Into Text Ask LLM to run code to count characters Ask Yourself This Question: how AI can help? IBM Granite-Vision-3.1-2B, OpenThinker-32B, Bydance Goku & Goku+, Luma Ray2"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates - 2 Anthropic CEO Dario Amodei",
+      "text": "AI Updates - 2 Anthropic CEO Dario Amodei has reported severe safety flaws in DeepSeek R1 AI model \" Safety Nightmare \" \"worst\" performer after safety assessments, this AI was found generating sensitive bioweapon information Groq (AI cips) secures $1.5 Bln commitment from Saudi Arabia https://www.reuters.com/technology/artificial-intelligence/ai-chip-startup-groq-secures-15-billion-commitment-saudi-arabia-2025-02-10/ Feb 10 (Reuters) - A consortium led by Musk offered $97.4 billion to buy the nonprofit that controls OpenAI . This offer is twice higher than estimated value of the nonprofit. This effectively increases its valuation - thus making it more difficult for OpenAI to switch to for-profit model (the switching requires paying to noprofit its value). OpenAI CEO Sam Altman & the board are rejecting the offer https://www.reuters.com/markets/deals/openai-ceo-says-board-will-reject-musks-97-billion-offer-information-reports-2025-02-11/ Rumors: Anthropic Claude 4 in February ? (hybrid with reasoning) x.ai Grok 3 in February ? Llama 4 release date ? Gemini 2.0 - released, added memory recall feature OpenAI GPT-5 - rumored"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates - 2 Diverse Preference Optimization (DivPO)",
+      "text": "AI Updates - 2 Diverse Preference Optimization (DivPO) , an optimization method which learns to generate much more diverse responses than standard pipelines, while maintaining the quality of the generations https://arxiv.org/abs/2501.18101 - paper from Meta Stanford (S1) and Berkeley (TinyZero) - Alibaba’s Qwen AI models used to create low-cost DeepSeek alternatives from https://www.scmp.com/tech/big-tech/article/3298073/alibabas-qwen-ai-models-enable-low-cost-deepseek-alternatives-stanford-berkeley Perplexity \"Million Dollar\" question (sweepstakes) Perplexity AI CEO Aravind Srinivas posted on LinkedIn: \"There will be no Perplexity Super Bowl ad. Instead, there's a Super Bowl contest.\" \"You install the app (not needed if you have the app already), and ask at least five questions on the app during the game, and we will pick one winner to give $1mm. Ask like a millionaire,\" he added. https://x.com/Analyticsindiam/status/1888810544297296003 Reactions on LinkedIn were positive, with one user commenting: \"A specific time frame, a massive audience, and a life-changing incentive? Genius. Perplexity won't just get downloads - it'll embed itself as a new way for people to think and search for information in the moment. This is the cleverest case study in AI adoption I've seen so far. I can't wait to see the results [sic]!\" Cerebras CEO Andrew Feldman on DeepSeek: Every time computing gets cheaper, the market gets bigger. https://www.zdnet.com/article/cerebras-ceo-on-deepseek-every-time-computing-gets-cheaper-the-market-gets-bigger/ Fast hash algorithm https://arxiv.org/abs/2501.02305 - January 2025 paper https://arxiv.org/abs/2111.12800 - tiny pointers paper (2021) Andrew Krapivin Andrew Feldman Meta VideoJAM - framework improves motion coherence in video modeling https://hila-chefer.github.io/videojam-paper.github.io/ https://www.youtube.com/watch?v=m6aaQoPv5r8"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates - 3 Ask LLM to run",
+      "text": "AI Updates - 3 Ask LLM to run code to count characters If the model can write and run the code, you can ask it to use this tool to answer questions which require counting (strawberry question). - https://www.youtube.com/watch?v=DoM-kvOJCPw Sam Altman & Kevin Weil talking to students in Tokyo : \"You will not outrun the AI - same as you can't \"outrun the calculator\" at arithmetic. Ask yourself \" Is there a way that AI could help me do this faster? \" Develop new skills to leverage AI to your advantage. Integrate AI into your daily life, start using AI tools \"The skills that you need in that world are figuring out what people want, sort of creative vision, quick adaptability, resilience as everything is changing around you, and the sort of learning how to work with these tools to do way more than people could without it\" Meta - Convert EEG/MEG Brain Activity Into Text (non-invasive magnetoencephalography (MEG) and electroencephalography (EEG)) https://www.techspot.com/news/106721-meta-researchers-unveil-ai-models-convert-brain-activity.html IBM Granite-Vision-3.1-2B - a Small Vision Language Model (Fine-tuned from a Granite LLM) Document understanding, extracting content from diverse visual formats, including tables, charts, and diagrams Closing the US Department of Education https://www.newsweek.com/doge-announces-its-slashing-881m-education-department-contracts-live-updates-2029353 \"The cuts come as President Donald Trump is expected to issue an executive order closing down the department.\" https://www.youtube.com/watch?v=uyy1zx8j9MY - video Goku and Goku+ - Hyperrealistic AI Video by ByteDance and HKU https://arxiv.org/pdf/2502.04896 https://saiyan-world.github.io/goku/ Luma Ray2 - realistic videos from images https://x.com/LumaLabsAI/status/1889003847260979440 https://lumalabs.ai/ray OpenThinker-32B - open source model developed by the Open Thoughts consortium, beats DeepSeek in math https://www.open-thoughts.ai https://decrypt.co/305878/new-open-source-ai-model-rivals-deepseeks-performance-with-far-less-training-data"
+    },
+    {
+      "index": 18,
+      "title": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "text": "How to Rig Chatbot Arena Results DeepScaleR - 1.5B model beats OpenAI o1 in math Add Reasoning to a Model Ensembles of Models or Agents Chinese AI Chips AI Updates February 14 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs ChatGPT Search for Everyone OpenAI o3-mini & mini-high o3-mini displays its chain of thought (CoT) Anthropic's \"Constitutional Classifiers\" OpenAI Deep Research - Good vs Original Anthropic Economic Index Goodbye RAG Latent Reasoning DeepSeek VL2 MoE - understand images and text Safe Superintelligence $20 Bln valuation Cerebras DeepSeek R1 70B at 1,600 tok/sec Groq (AI cips) - $1.5 Bln from Saudi Arabia February: Anthropic Claude 4 & x.ai Grok 3 DeepSeek R1 - Safety Nightmare\" Stanford (S1) and Berkeley (TinyZero) Diverse Preference Optimization (DivPO) Computing gets cheaper, market gets bigger Meta VideoJAM Perplexity \"Million Dollar\" Question Andrew Krapivin - Fast hash algorithm Meta - Convert EEG/MEG Brain Activity Into Text Ask LLM to run code to count characters Ask Yourself This Question: how AI can help? IBM Granite-Vision-3.1-2B, OpenThinker-32B, Bydance Goku & Goku+, Luma Ray2"
+    },
+    {
+      "index": 19,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 203 Total #votes: 2,645,647 Last updated: 2025-02-11 Coding x.ai China China China China China China China China China China China China China China China"
+    },
+    {
+      "index": 20,
+      "title": "Google offers “voluntary exit” to all US platforms",
+      "text": "Google offers “voluntary exit” to all US platforms and devices employees Jobs Microsoft has initiated performance based job cuts, resulting in immediate termination of affected employees without severance pay. Layoffs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/"
+    },
+    {
+      "index": 21,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "How to Rig Chatbot Arena Results",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 1,
+      "slideTitle": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepScaleR - 1.5B model beats OpenAI o1 in math",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 6,
+      "slideTitle": "Chinese AI Chips Huawei's AI chip Ascend 910C",
+      "source": "outline"
+    },
+    {
+      "claim": "Add Reasoning to a Model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 12,
+      "slideTitle": "Latent Reasoning Scaling up Test-Time Compute with Latent",
+      "source": "outline"
+    },
+    {
+      "claim": "Ensembles of Models or Agents",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates - 3 Ask LLM to run",
+      "source": "outline"
+    },
+    {
+      "claim": "Chinese AI Chips",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 22,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "How to Rig Chatbot Arena Results https://www.fastcompany.com/91273226/rigged-votes-ai-model-rankings-chatbot-arena https://arxiv.org/pdf/2501.17858",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 2,
+      "slideTitle": "How to Rig Chatbot Arena Results https://www.fastcompany.com/91273226/rigged-votes-ai-model-rankings-chatbot-arena https://arxiv.org/pdf/2501.17858",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepScaleR - tiny 1.5B Model beats OpenAI o1",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 3,
+      "slideTitle": "DeepScaleR - tiny 1.5B Model beats OpenAI o1",
+      "source": "slide"
+    },
+    {
+      "claim": "Add Reasoning to a Model DeepResearch - open-source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 4,
+      "slideTitle": "Add Reasoning to a Model DeepResearch - open-source",
+      "source": "slide"
+    },
+    {
+      "claim": "Ensembles of Models or Agents Princeton University Researchers",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 5,
+      "slideTitle": "Ensembles of Models or Agents Princeton University Researchers",
+      "source": "slide"
+    },
+    {
+      "claim": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 7,
+      "slideTitle": "How to Rig Chatbot Arena Results DeepScaleR -",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT Search for Everyone In ChatGPT window click",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 8,
+      "slideTitle": "ChatGPT Search for Everyone In ChatGPT window click",
+      "source": "slide"
+    },
+    {
+      "claim": "Anthropic's \"Constitutional Classifiers\" Anthropic's \"Constitutional Classifiers\" are a",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 9,
+      "slideTitle": "Anthropic's \"Constitutional Classifiers\" Anthropic's \"Constitutional Classifiers\" are a",
+      "source": "slide"
+    },
+    {
+      "claim": "Anthropic Economic Index The Anthropic Economic Index -",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 10,
+      "slideTitle": "Anthropic Economic Index The Anthropic Economic Index -",
+      "source": "slide"
+    },
+    {
+      "claim": "Goodbye RAG Goodbye RAG? Google Finally Shipped Something",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=1WAvVkkpS_A",
+      "slideIndex": 11,
+      "slideTitle": "Goodbye RAG Goodbye RAG? Google Finally Shipped Something",
+      "source": "slide"
+    }
+  ]
+}

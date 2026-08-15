@@ -1,0 +1,363 @@
+{
+  "id": "2024-04-26-2024-04-26-ai-updates",
+  "date": "2024-04-26",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "open-models",
+    "infra",
+    "jobs"
+  ],
+  "video": {
+    "id": "SAK8i1tdpbM",
+    "title": "Have you heard these exciting AI news? - April 26, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+    "thumbnail": "https://i.ytimg.com/vi/SAK8i1tdpbM/hqdefault.jpg",
+    "duration": 1314
+  },
+  "deck": {
+    "path": "2024/2024-04-26-AI-Updates.pptx",
+    "filename": "2024-04-26-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-04-26-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-04-26-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta AI",
+      "startSeconds": 12,
+      "label": "00:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Lama 3 update",
+      "startSeconds": 156,
+      "label": "02:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing Arena leaderboard",
+      "startSeconds": 330,
+      "label": "05:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Huge progress in ML",
+      "startSeconds": 385,
+      "label": "06:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft ML",
+      "startSeconds": 511,
+      "label": "08:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple Open Source Models",
+      "startSeconds": 626,
+      "label": "10:26",
+      "source": "youtube"
+    },
+    {
+      "title": "SST Language Model",
+      "startSeconds": 667,
+      "label": "11:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Flowmind",
+      "startSeconds": 821,
+      "label": "13:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Perplexity",
+      "startSeconds": 878,
+      "label": "14:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia DGX H200",
+      "startSeconds": 986,
+      "label": "16:26",
+      "source": "youtube"
+    },
+    {
+      "title": "No more noncompete",
+      "startSeconds": 1027,
+      "label": "17:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Predictions",
+      "startSeconds": 1084,
+      "label": "18:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Layoffs",
+      "startSeconds": 1263,
+      "label": "21:03",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Llama3 in WhatsApp, Messenger, Instagram, and Facebook apps",
+      "text": "Llama3 in WhatsApp, Messenger, Instagram, and Facebook apps Llama3-70B on your phone via HuggingChat app: Llama3 impersonates humans in group chats Llama-3 on Ollama Dolphin-2.9-llama3-8b  & 70b Llama3 on  1st place in English Arena Leaderboard Huge progress in LLMs in last 6 months Microsoft Phi-3 Snowflake Arctic for Enterprise Apple OpenELM SenseChat V5 Beats GPT-4 Infinite-LLM Andrej Karpathy - llm.c  with CUDA mistral-common library Fineweb = 15 Trillion Tokens open dataset 8 Bln People   =>   8 Bln Agents ?? FlowMind from JPMorgan - Workflows Baidu AgentBuilder, AppBuilder & ModelBuilder The Instruction Hierarchy paper Meta to spend up to $40 Bln in 2024 on AI NVIDIA DGX H200 is live FTC - No more noncompete clauses 12 Predictions of Vinod Khosla Tech Layoffs are lower than in 2023 AI Updates April 26 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "MetaAI answering in groups Llama-3 Updates 2 Meta",
+      "text": "MetaAI answering in groups Llama-3  Updates 2 Meta added Llama3 prompts in its applications : Facebook, Messenger, Instagram, and WhatsApp"
+    },
+    {
+      "index": 3,
+      "title": "ollama run llama3 ollama run llama3:70b Note :",
+      "text": "ollama run llama3 ollama run llama3:70b Note : If you need to update ollama on a Mac, first stop it by running this command: sudo pkill -9 ollama Ollama Then copy the newly downloaded app into Applications, and then double-click on it in Finder to start the service Llama-3  Updates Eric Hartford is working on fine-tuning Llama3 to make it uncensored using Dolphin dataset: https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b Dolphin-2.9-llama3-8b https://ollama.com/library/dolphin-llama3 ollama run dolphin-llama3 Dolphin-2.9-llama3-70b https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-70b Llama3 is # 1 for English only https://twitter.com/soumithchintala/status/1782517116127654124 https://chat.lmsys.org/?leaderboard Run Llama3-70B on your phone using HuggingChat app : Download the HuggingChat app from the App Store or access it directly in the browser. Sign in using a Hugging Face account or Apple ID, select the model in settings, startusing. In one week since release, the Llama 3 was downloaded over 1.2M times, and we've seen 600+ derivative models on HuggingFace"
+    },
+    {
+      "index": 4,
+      "title": "Total #models: 91. Total #votes: 814,693. Last updated:",
+      "text": "Total #models: 91. Total #votes: 814,693. Last updated: April 26, 2024. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard This is for English-only queries. Llama3-70B and GPT-4-Turbo-2024-04-09 share 1st place Gemini-Pro and Claude3-Opus are also good. Llama3-8B does exceptionally well - even better than Mixtral-8x22B The GPT-3.5-Turbo-0613 is on 27th place"
+    },
+    {
+      "index": 5,
+      "title": "Which LLM to use for RAG ? In",
+      "text": "Which LLM to use for RAG ? In the Fall of 2023 a Bank started implementing a RAG Chatbot . They have selected Azure OpenAI GPT-3.5-Turbo which was good choice at the time - reasonably good, inexpensive, fast (~2 sec response time). But today just a half a year later (Spring 2024), there are much better choices. For example, open-source Llama3-8B or Mixtral 8x22B . And you can run them on https://groq.com with amazing speed. For example, I asked \"write python code for a snake game\". Total inference time is 1.11 sec: Input    Output    Total Speed (T/s)          1571      887      900 Tokens                 33      965      998 Inference Time (s)   0.02     1.09     1.11 So: better, faster, cheaper, open source, customizable Huge progress in LLMs in last 6 months"
+    },
+    {
+      "index": 6,
+      "title": "Phi-3 Microsoft Phi-3: An Open LLM That Fits",
+      "text": "Phi-3 Microsoft Phi-3: An Open LLM That Fits on Your Phone https://news.microsoft.com/source/features/ai/the-phi-3-small-language-models-with-big-potential/ https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3 Available on Azure, Hugging Face, Ollama, ... Phi-3-mini (3.8B) Phi-3-small (7B) Phi-3-medium (14B) mini: 69% on the MMLU, 8.38 on MT-bench, on par with larger models such as Mixtral 8x7B and GPT-3.5."
+    },
+    {
+      "index": 7,
+      "title": "Snowflake Arctic - for Enterprise Open-source 480B Dense-MoE",
+      "text": "Snowflake Arctic - for Enterprise Open-source 480B Dense-MoE - combines a 10B dense transformer with a 128 x 3.66B MoE MLP, 17B active parameters. Comparable with Llama3-70B, but uses x17 less compute 4K context length https://www.snowflake.com/blog/arctic-open-efficient-foundation-language-models-snowflake/ Enterprise intelligence = average of Coding (HumanEval+ and MBPP+), SQL Generation (Spider), and Instruction following (IFEval) vs. Active Parameters"
+    },
+    {
+      "index": 8,
+      "title": "Apple OpenELM (Open-source Efficient Language Models)-3 Apple today",
+      "text": "Apple OpenELM (Open-source Efficient Language Models)-3 Apple today released several open source large language models (LLMs) that are designed to run on-device rather than through cloud servers (~ 3B params). Called OpenELM (Open-source Efficient Language Models) , the LLMs are available on the Hugging Face Hub, a community for sharing AI code. OpenELM: An Efficient Language Model Family with Open-source Training and Inference Framework - https://arxiv.org/pdf/2404.14619 There are eight total OpenELM models, four of which were pre-trained using the CoreNet library, and four instruction tuned models. Apple uses a layer-wise scaling strategy that is aimed at improving accuracy and efficiency. Apple provided code, training logs, and multiple versions rather than just the final trained model, and the researchers behind the project hope that it will lead to faster progress and \"more trustworthy results\" in the natural language AI field. OpenELM consists of eight models with four different parameter sizes (270M, 450M, 1.1B, and 3B), all trained on public datasets, and slightly outperform comparable open-source models like OLMo. Also open-sourced is CoreNet, the library used to train OpenELM — along with models allowing for ‘efficient inference and fine-tuning on Apple devices.’"
+    },
+    {
+      "index": 9,
+      "title": "SenseChat V5 Beats GPT-4 SenseNova 5.0, an update",
+      "text": "SenseChat V5 Beats GPT-4 SenseNova 5.0, an update of SenseTime’s first LLM introduced a year ago, has “met or exceeded GPT-4 Turbo ... On All Benchmarks - proprietary, 600B params, 200K context length, trained on 10T tokens SenseTime Group Inc. - partially public AI company (Hong Kong, since 2014, ~3K employees ) specializing in facial recognition, image recognition, object detection, OCR, medical image analysis, video analysis, autonomous driving, and remote sensing. https://www.youtube.com/watch?v=NJXGIMa45sQ https://www.sensetime.com/en - https://en.wikipedia.org/wiki/SenseTime"
+    },
+    {
+      "index": 10,
+      "title": "\" Infinite-LLM : Efficient LLM Service for Long",
+      "text": "\" Infinite-LLM : Efficient LLM Service for Long Context with DistAttention and Distributed KVCache \" (Alibaba Group) https://arxiv.org/abs/2401.02669 https://twitter.com/rohanpaul_ai/status/1781701594825781391 DistAttention , a novel distributed attention algorithm that segments the KVCache into smaller, manageable units, enabling distributed processing and storage of the attention module. Misc 1 Elon Musk - training Grok 3 will require 100K Nvidia H100 GPUs Andrej Karpathy - llm.c update grew to 2,000 lines of C/CUDA trains GPT-2 (124M) on GPU as fast as PyTorch https://twitter.com/karpathy/status/1781387674978533427 mistral-common - python library (tokenizers) https://github.com/mistralai/mistral-common from mistral_common.protocol.instruct.messages import UserMessage from mistral_common.protocol.instruct.request import ChatCompletionRequest from mistral_common.protocol.instruct.tool_calls import Function, Tool from mistral_common.tokens.tokenizers.mistral import MistralTokenizer AWS to acquire 20K B200 GPUs for a 27T param. model. 8 Bln People   =>   8 Bln Agents ?? Fineweb = 15 Trillion Tokens dataset https://huggingface.co/datasets/HuggingFaceFW/fineweb https://twitter.com/Thom_Wolf/status/1781956600724345190"
+    },
+    {
+      "index": 11,
+      "title": "FlowMind : Automatic Workflow Generation with LLMs (JPMorgan",
+      "text": "FlowMind : Automatic Workflow Generation with LLMs (JPMorgan AI Research) - https://arxiv.org/abs/2404.13050 Avoid hallucinations by combining LLMs with APIs Misc 2 Baidu launches three innovative AI development toolkits at Create 2024, allowing anyone to become a developer through natural language programming, with tools like AgentBuilder, AppBuilder and ModelBuilder . https://twitter.com/insidetelecom_/status/1781336963355709803"
+    },
+    {
+      "index": 12,
+      "title": "Perplexity is raising $250M+ at a $2.5B-$3B valuation",
+      "text": "Perplexity is raising $250M+ at a $2.5B-$3B valuation for its AI search business Misc 3 The Instruction Hierarchy : Training LLMs to Prioritize Privileged Instructions - https://arxiv.org/abs/2404.13208 ... we propose an instruction hierarchy that explicitly defines how models should behave when instructions of different priorities conflict. We then propose a data generation method to demonstrate this hierarchical instruction following behavior, which teaches LLMs to selectively ignore lower-privileged instructions. We apply this method to GPT-3.5, showing that it drastically increases robustness -- even for attack types not seen during training -- while imposing minimal degradations on standard capabilities. OpenAI has introduced more enterprise-grade features for API customers, including enhanced security, administrative controls, new Assistants API capabilities, and tools to help better manage costs. https://twitter.com/OpenAI/status/1782826546199408940 Coca-Cola announced another five-year partnership with Microsoft - agreed to a $1.1 Bln commitment to Microsoft Cloud Meta CEO Mark Zuckerberg on April 24 said the company would continue to meaningfully grow its investments in artificial intelligence (AI) ... increasing its capital expenditure projections to $35-$40 Bln for 2024 , from a prior range of $30-37 Bln, https://www.moneycontrol.com/news/technology/meta-to-spend-billions-more-on-ai-ceo-mark-zuckerberg-vows-long-term-gains-12707597.html Rabbit R1 is out. It weighs 115 grams, which is about two-thirds as much as the iPhone 15. It has a 2.88-inch screen, has 128 GB of storage and four Gs of RAM. It has a speaker, two mics, a SIM card slot and a USB-C charging port. https://www.theverge.com/24138746/rabbit-r1-hands-on-ai-gadget-chatgpt"
+    },
+    {
+      "index": 13,
+      "title": "First DGX H200 in the world hand-delivered to",
+      "text": "First DGX H200 in the world hand-delivered to OpenAI. NVIDIA DGX H200 Unlike existing AI supercomputers that are designed to support workloads that fit within the memory of a single system, NVIDIA DGX GH200 is the only AI supercomputer that offers a shared memory space of 19.5TB across 32 Grace Hopper Superchips, providing developers with over 30X more fast-access memory to build massive models. DGX GH200 is the first supercomputer to pair Grace Hopper Superchips with the NVIDIA NVLink Switch System, which allows 32 GPUs to be united as one data-center-size GPU. Multiple DGX GH200 systems can be connected using NVIDIA InfiniBand to provide even more computing power. This architecture provides 10X more bandwidth than the previous generation, delivering the power of a massive AI supercomputer with the simplicity of programming a single GPU. https://resources.nvidia.com/en-us-dgx-systems/nvidia-dgx-gh200-datasheet-web-us"
+    },
+    {
+      "index": 14,
+      "title": "https://www.ftc.gov/legal-library/browse/rules/noncompete-rule The U.S. Federal Trade Commission (FTC) has",
+      "text": "https://www.ftc.gov/legal-library/browse/rules/noncompete-rule The U.S. Federal Trade Commission (FTC) has issued a significant ruling that bans the enforcement of noncompete clauses in employment contracts. It is now considered an unfair practice under Section 5 of the FTC Act to impose noncompete clauses , which could notably change the AI sector. This change allows developers greater mobility between companies , potentially accelerating innovation and distributing expertise more broadly throughout the industry. No more noncompete"
+    },
+    {
+      "index": 15,
+      "title": "12 Predictions of Vinod Khosla #1: Expertise will",
+      "text": "12 Predictions of Vinod Khosla #1: Expertise will be near free. We will be capable of having near free AI doctor for every person & AI tutors for every child, 24x7 #2: Labor will be near free. We will have a billion bipedal (and other) robots freeing humans from the servitude of undesirable jobs #3: Computer use will grow expansively. There will be a billion+ programmers all \"programming\" in human language, dramatically increasing the scope of computers. Computers will adapt to humans, not humans to computers. #4: AI will play a large role in entertainment and design. Music and entertainment will be plentiful & personalized for you and your mood! Diversity if content & creativity will increase. The celebrity-fan relationship won't change. #5: Internet access will be mostly by agents. Most consumer access of the internet will be agents acting for consumers doing tasks and fending off marketers and bots. Tens of billions of agents on the internet will be normal. #6: From the practice to the science of medicine. We will be capable of providing precision care based on patients' -omics, as well as AI models for each individual, enabling simulation of each body for therapeutics, dosages, etc. #7: We will have new food & fertilizers. We will have much better alternate protein production to replace traditional animal protein, & \"green\" fertilizer. And taste will far exceed that of traditional cows! #8: Cars could be displaced in cities. We could replace majority of cars in cities with personal autonomous transit as on-demand, affordable, public transit, increasing street throughput dramatically. #9: Flying will be faster. We will have Mach 5 planes that get us from NYC to London in 90 minutes - on sustainable aviation fuel, making the world closer. #10: There will be clean, dispatchable electric power . By 2050, fusion boilers will retrofit and replace coal and natural gas boilers reducing the need to build whole new fusion plants. Superhot geothermal > 400C is also a real alternative. #11: Resources will be plentiful . We will discover more natural resources than we consume & prove resource doomers wrong on lithium, cobalt, copper. #12: Carbon will have solutions ... if we have time. Carbon emissions could be a smaller issue because entrepreneurs will develop and scale better technologies for cement, steel, agriculture, transportation, power production, DAC, etc. Vinod Khosla (born 1955) is an billionaire businessman and venture capitalist. He is a co-founder of Sun Microsystems and the founder of Khosla Ventures. He is considered one of the most successful and influential venture capitalists. Estimated net worth at $6.8 Bln. https://www.khoslaventures.com/vinod-predictions-in-2023-of-what-the-next-10-to-25-years-might-look-like/ https://www.youtube.com/watch?v=_cfyERvND0w"
+    },
+    {
+      "index": 16,
+      "title": "Tech Layoffs were lower than in 2023 Layoffs",
+      "text": "Tech Layoffs were lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs https://qz.com/tech-layoffs-high-ai-struggling-find-talent-1851368861"
+    },
+    {
+      "index": 17,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 18,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Llama3 in WhatsApp, Messenger, Instagram, and Facebook apps",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta AI",
+      "topic": "general",
+      "videoSeconds": 12,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=12s",
+      "slideIndex": 2,
+      "slideTitle": "MetaAI answering in groups Llama-3 Updates 2 Meta",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lama 3 update",
+      "topic": "general",
+      "videoSeconds": 156,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=156s",
+      "slideIndex": 4,
+      "slideTitle": "Total #models: 91. Total #votes: 814,693. Last updated:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 330,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=330s",
+      "slideIndex": 5,
+      "slideTitle": "Which LLM to use for RAG ? In",
+      "source": "youtube"
+    },
+    {
+      "claim": "Huge progress in ML",
+      "topic": "general",
+      "videoSeconds": 385,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=385s",
+      "slideIndex": 6,
+      "slideTitle": "Phi-3 Microsoft Phi-3: An Open LLM That Fits",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft ML",
+      "topic": "general",
+      "videoSeconds": 511,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=511s",
+      "slideIndex": 8,
+      "slideTitle": "Apple OpenELM (Open-source Efficient Language Models)-3 Apple today",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple Open Source Models",
+      "topic": "open-models",
+      "videoSeconds": 626,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=626s",
+      "slideIndex": 9,
+      "slideTitle": "SenseChat V5 Beats GPT-4 SenseNova 5.0, an update",
+      "source": "youtube"
+    },
+    {
+      "claim": "SST Language Model",
+      "topic": "general",
+      "videoSeconds": 667,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=667s",
+      "slideIndex": 10,
+      "slideTitle": "\" Infinite-LLM : Efficient LLM Service for Long",
+      "source": "youtube"
+    },
+    {
+      "claim": "Flowmind",
+      "topic": "general",
+      "videoSeconds": 821,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=821s",
+      "slideIndex": 11,
+      "slideTitle": "FlowMind : Automatic Workflow Generation with LLMs (JPMorgan",
+      "source": "youtube"
+    },
+    {
+      "claim": "Perplexity",
+      "topic": "general",
+      "videoSeconds": 878,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=878s",
+      "slideIndex": 13,
+      "slideTitle": "First DGX H200 in the world hand-delivered to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia DGX H200",
+      "topic": "infra",
+      "videoSeconds": 986,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=986s",
+      "slideIndex": 14,
+      "slideTitle": "https://www.ftc.gov/legal-library/browse/rules/noncompete-rule The U.S. Federal Trade Commission (FTC) has",
+      "source": "youtube"
+    },
+    {
+      "claim": "No more noncompete",
+      "topic": "general",
+      "videoSeconds": 1027,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=1027s",
+      "slideIndex": 15,
+      "slideTitle": "12 Predictions of Vinod Khosla #1: Expertise will",
+      "source": "youtube"
+    },
+    {
+      "claim": "Predictions",
+      "topic": "general",
+      "videoSeconds": 1084,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=1084s",
+      "slideIndex": 17,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1263,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=1263s",
+      "slideIndex": 18,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "ollama run llama3 ollama run llama3:70b Note :",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 3,
+      "slideTitle": "ollama run llama3 ollama run llama3:70b Note :",
+      "source": "slide"
+    },
+    {
+      "claim": "Snowflake Arctic - for Enterprise Open-source 480B Dense-MoE",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 7,
+      "slideTitle": "Snowflake Arctic - for Enterprise Open-source 480B Dense-MoE",
+      "source": "slide"
+    },
+    {
+      "claim": "Perplexity is raising $250M+ at a $2.5B-$3B valuation",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 12,
+      "slideTitle": "Perplexity is raising $250M+ at a $2.5B-$3B valuation",
+      "source": "slide"
+    }
+  ]
+}

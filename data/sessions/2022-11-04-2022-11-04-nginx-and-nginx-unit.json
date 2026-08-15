@@ -1,0 +1,40 @@
+{
+  "id": "2022-11-04-2022-11-04-nginx-and-nginx-unit",
+  "date": "2022-11-04",
+  "title": "Nginx-and-Nginx-Unit",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2022/2022-11-04-Nginx-and-Nginx-Unit.pptx",
+    "filename": "2022-11-04-Nginx-and-Nginx-Unit.pptx",
+    "title": "Nginx-and-Nginx-Unit",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-11-04-Nginx-and-Nginx-Unit.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-11-04-Nginx-and-Nginx-Unit.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Nginx vs Nginx Unit Igor Sysoev, author of",
+      "text": "Nginx vs Nginx Unit Igor Sysoev, author of Nginx B orn in 1970, Alma-Ata in Kazakh SSR 1994 – graduated from Bauman Tech. University 2000 – started as Apache sys. admin at Rambler 2002 - started working on Nginx 2004 - released first version of Nginx 2011 – formed Nginx Inc 2011 – Nginx Plus (commercial version) 2017 – Nginx Unit 2019 – Nginx Inc was acquired by F5 for $670 Mln 2019 - Igor Sysoev was detained for several days because Rambler (his former employer) claimed rights for Nginx ( on the basis that Sysoev was an employee of Rambler in the 2000s when he wrote the early versions of Nginx) 2022 - Sysoev had left Nginx and F5 \"to spend more time with his friends and family and to pursue personal projects\" Nginx (pronounced \"engine x\") is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. The software was created by Igor Sysoev and publicly released in 2004. Nginx is free and open-source software A large fraction of web servers use Nginx, often as a load balancer. A company of the same name was founded in 2011 to provide support and Nginx Plus paid software. 2017 - Nginx Unit, an open-source web application server .. multi-language microservices-based applications .. Go, PHP, Python, Java, Node.js, Perl, Ruby, ... .. dynamic configuration, request routing, and load balancing In March 2019, the company was acquired by F5, Inc. for $670 million https://nginx.org https://unit.nginx.org https://unit.nginx.org/installation/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Nginx vs Nginx Unit Igor Sysoev, author of",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Nginx vs Nginx Unit Igor Sysoev, author of",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "id": "2024-06-07-2024-06-07-ai-updates",
+  "date": "2024-06-07",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "rag",
+    "agents"
+  ],
+  "video": {
+    "id": "niWsuIjA4cI",
+    "title": "Have you heard these exciting AI news? June 07 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=niWsuIjA4cI",
+    "thumbnail": "https://i.ytimg.com/vi/niWsuIjA4cI/hqdefault.jpg",
+    "duration": 1184
+  },
+  "deck": {
+    "path": "2024/2024-06-07-AI-Updates.pptx",
+    "filename": "2024-06-07-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-06-07-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-06-07-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "AI weekly update",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Computex highlights",
+      "startSeconds": 14,
+      "label": "00:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Understanding LLM context",
+      "startSeconds": 232,
+      "label": "03:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Small model capabilities",
+      "startSeconds": 385,
+      "label": "06:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia market dominance",
+      "startSeconds": 390,
+      "label": "06:30",
+      "source": "youtube"
+    },
+    {
+      "title": "AI application news",
+      "startSeconds": 397,
+      "label": "06:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Thought augmented reasoning",
+      "startSeconds": 641,
+      "label": "10:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Scalable modeling",
+      "startSeconds": 654,
+      "label": "10:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Vector database tools",
+      "startSeconds": 656,
+      "label": "10:56",
+      "source": "youtube"
+    },
+    {
+      "title": "New model releases",
+      "startSeconds": 750,
+      "label": "12:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Knowledge graphs & agents",
+      "startSeconds": 1006,
+      "label": "16:46",
+      "source": "youtube"
+    },
+    {
+      "title": "AI benchmarks",
+      "startSeconds": 1058,
+      "label": "17:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Industry trends",
+      "startSeconds": 1132,
+      "label": "18:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Closing remarks",
+      "startSeconds": 1171,
+      "label": "19:31",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Nvidia - Jensen Huang - COMPUTEX 2024 (Local)",
+      "text": "Nvidia - Jensen Huang - COMPUTEX 2024 (Local) Models with Long Context Gemma 2B with 10M context Amazon’s Project PI (Private Investigator) Asana AI Teammates Andrew Ng - fact checking agents Yann LeCun - Advanced Machine Intelligence Grok: Socrates  & DEI modes OpenAI - GPT-4o available via API Google AI Overviews Meta's NLLB (No Language Left Behind) Model AI Agents in LangGraph - Andrew Ng course Thought-Augmented Reasoning with LLMs Scalable MatMul-free Language Modeling Claude tools Milvus Lite DSPy instead of Prompt Engineering Right to Warn Qwen2 from Alibaba Automated Knowledge Graph Built with LLMs Architectures in Agentic Systems Crowd-sourced \"Arena\" Leaderboard Tech Layoffs were lower than in 2023 AI Updates June 07 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Nvidia - Jensen Huang COMPUTEX 2024, Taiwan, June",
+      "text": "Nvidia - Jensen Huang COMPUTEX 2024, Taiwan, June 4–7 GeForce RTX - A Gamer's GPU now used for AI. RTX stands for Ray Tracing Texel eXtreme  - real-time ray tracing for realistic lighting, reflections, and shadows. Project G-Assist AI Assistant - context-aware help for PC games and apps. NVIDIA ACE (Avatar Cloud Engine) - generative AI microservices in the cloud for \"digital humans\" - customer service, gaming, healthcare, ... NVIDIA NIM (Neural Inference Microservices) is a set of optimized inference microservices SFF (Small Form Factor) PCs Gaming - Star Wars™ Outlaws Adds DLSS 3.5, ComfyUI Acceleration https://www.youtube.com/watch?v=pKXDVsWZmUU Nvidia’s market cap surpassed Apple: Microsoft - $3.16 trillion Nvidia - $3.012 Apple - $3.003 Amazon - $1.93 Google - $2.18 Jensen Huang Net Worth ~ $106 Bln https://www.nvidia.com/en-us/events/computex/ Vera Rubin platform (2026) : Vera CPU + Rubin GPU Vera Florence Cooper Rubin (1928–2016) was an American astronomer"
+    },
+    {
+      "index": 3,
+      "title": "(Local) Models with Long Context Local models with",
+      "text": "(Local) Models with Long Context Local models with long context https://www.reddit.com/r/LocalLLaMA/comments/1bk8bga/best_open_source_llm_for_large_context_length/ https://www.reddit.com/r/LocalLLaMA/comments/1d21o5b/are_there_any_long_context_open_source_models/ Mistral-7B-v0. 1 has 32k context (ollama run mistral) Gemma 2B with 10M context (make model for ollama) Nous-Capybara-34b - 200K (up to 40K green) Yi-34b for 100K C4AI Command-R - 128K - https://huggingface.co/CohereForAI/c4ai-command-r-v01 Faro Yi 9B DPO - 200K (quantized at 8bpw). It's \"smart\" enough to understand even a full 200K context, and it all fits in around 16GB VRAM at 200K: https://huggingface.co/wenbopan/Faro-Yi-9B-DPO Beta-35B Llama3-instruct-gradient - (crushes) https://huggingface.co/gradientai/Llama-3-8B-Instruct-Gradient-1048k A lot of the inspiration for our ideas comes from the Transformer-XL paper. https://twitter.com/rohanpaul_ai/status/1796137219712754118 https://github.com/mustafaaljadery/gemma-2B-10M Model In (KT) Out (KT) gpt-4o 128k 4k gpt-4 8k 8k gpt-4-Turbo 128k 4k gpt-4-32k 32k 32k Claude3 (Opus, Sonnet, Haiku) 200k 4k Gemini 1.5 Pro 1,000K 8k gpt-3.5-turbo-16k 16k 16k gpt-3.5-turbo 16k 4k Llama3-8b & 70b 8k remaining Mistral-7B-v0.3 32k (was 8k) 8k Mixtral-8x7B 32 Mixtral-8x22B 64 Qwen2  (Alibaba) 130 gemma-2B-10M 10,000K Codestral-22B 32K x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x Input Output Context Length = input + output Comparison of Models: https://artificialanalysis.ai/models"
+    },
+    {
+      "index": 4,
+      "title": "Misc 1 Gemma 2B with 10M context runs",
+      "text": "Misc 1 Gemma 2B with 10M context runs in less than 32GB memory The largest bottleneck (in terms of memory) for LLMs is the KV cache. It grows quadratically in multi-head attention The \"InfiniAttention\" splits the attention in local attention blocks. Those local attention blocks are taken and apply recurrence to the local attention blocks for the final result of 10M context global attention. A lot of the inspiration for our ideas comes from the Transformer-XL paper. https://twitter.com/rohanpaul_ai/status/1796137219712754118 https://github.com/mustafaaljadery/gemma-2B-10M Andrew Ng A barrier to faster progress in generative AI is evaluations (evals). Would adding a fact-checking agent improve the results? https://twitter.com/AndrewYNg/status/1796206876805489105 https://www.deeplearning.ai/the-batch/issue-251/ Yann LeCun What I and many (most) people at FAIR have working is no mystery. We call it AMI (Advanced Machine Intelligence). Objective-Driven AI, JEPA, world models, planning/reasoning is part of that. - https://twitter.com/ylecun/status/1794249923329720415 Xai (owned by Elon Musk) is working on new modes for its chatbot Grok: Socrates  & DEI (Diversity Equity and Inclusion) . OpenAI - GPT-4o available via API Google AI Overviews = AI-generated answers -  are now appearing in around 11% of queries (down from around 27% when the feature was launched last month. Amazon’s Project PI (Private Investigator) - AI + computer vision. It is used to flag damaged products before shipping. Meta's NLLB (No Language Left Behind) Model published in Nature, high-quality translations between 200 languages AI is creating a golden age for scammers - with deepfakes and genAI, scams are more difficult to recognize. AI Agents in LangGraph - Andrew Ng course https://learn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson/1/introduction Asana AI Teammates - https://asana.com Asana is a project management software, similar to Jira. https://sousabrothers.medium.com/asana-unveils-ai-teammates-to-collaborate-with-employees-at-work-af702cbd32f2"
+    },
+    {
+      "index": 5,
+      "title": "Misc 2 Thought-Augmented Reasoning with LLMs Buffer of",
+      "text": "Misc 2 Thought-Augmented Reasoning with LLMs Buffer of Thoughts - containing high-level thoughts distilled from problem-solving processes. Using this buffer enhances  the accuracy, efficiency, and robustness of LLM-based reasoning. It demonstrates SOTA performance on 10 challenging tasks while requiring 12% of the cost of multi-query prompting methods like Tree-of-Thoughts. https://twitter.com/omarsar0/status/1799113545696567416 https://arxiv.org/abs/2406.04271 Scalable MatMul-free Language Modeling https://arxiv.org/abs/2406.02528 MatMul (Matrix Multiplication) operations can be completely eliminated from LLMs while maintaining strong performance MatMul-free models achieve performance on-par with state-of-the-art Transformers We provide a GPU-efficient implementation of this model which reduces memory usage A custom hardware solution on an FPGA used to process billion-parameter scale models at 13W beyond human readable throughput, moving LLMs closer to brain-like efficiency Claude can now use tools https://www.anthropic.com/news/tool-use-ga"
+    },
+    {
+      "index": 6,
+      "title": "Milvus Lite - Easy to Use Local Vector",
+      "text": "Milvus Lite - Easy to Use Local Vector DB Milvus Lite https://milvus.io/docs/milvus_lite.md # pip install \"pymilvus>=2.4.2\" from pymilvus import MilvusClient client = MilvusClient(\"mydb_file.db\") Till a few months ago, Prompt Engineering was all the hype . The entire job market was filled with the role of prompt engineers, but not so anymore . People even wrote books/blogs like the Top 50 prompts to get the best of GPT, so on and so forth. But large-scale experiments have clearly shown that there is no single prompt or strategy that works for all kinds of problems, it’s just some prompts appear to be better in isolation but are a hit-and-miss when analyzed comprehensively. DSPy (Declarative Self-Improving Pipelines) is a framework developed by Stanford University that aims to simplify and streamline the process of building language model (LLM) pipelines. https://medium.com/aiguys/prompt-engineering-is-dead-dspy-is-new-paradigm-for-prompting-c80ba3fc4896 DSPy - express LLM tasks in a high-level, declarative manner, similar to PyTorch. Self-Improving Pipelines - automatically optimize LLM calls over time Modularity - LLMs are treated as modules Easy to use, Pythonic syntax and intuitive APIs. DSPy: Prompt Engineering Is Dead import dspy turbo = dspy.OpenAI(model='gpt-3.5-turbo') colbertv2_wiki17_abstracts = dspy.ColBERTv2(url='http://somedomain/wiki17_abstracts') dspy.settings.configure(lm=turbo, rm=colbertv2_wiki17_abstracts) # ..."
+    },
+    {
+      "index": 7,
+      "title": "Right to Warn AI researchers demand \"Right to",
+      "text": "Right to Warn AI researchers demand \"Right to Warn\" Current and former employees from top AI labs, including OpenAI, Anthropic, and DeepMind just published an open letter This letter was also supported by Yoshua Bengio, Geoffrey Hinton, and Stuart Russell They push AI companies to provide whistleblower protection so that workers can warn about potential AI dangers without fear of retaliation. Eliminating non-disparagement clauses concerning AI risk Establishing and facilitating anonymous channels for raising concerns Expanding whistleblower protections and anti-retaliation measures Qwen2 from Alibaba Cloud 5 sizes (0.5B, 1.5B, 7B, 57B-14B MoE, 72B) Base & Instruct versions Open source (Apache 2.0) except 72B. Models are multilingual in 29 languages https://github.com/QwenLM/Qwen2 https://huggingface.co/spaces/Qwen/Qwen2-72B-Instruct https://qwenlm.github.io/blog/qwen2/ https://ollama.com/library/qwen2 Models achieve SOTA performance on academic and chat benchmarks Qwen2-72B: MMLU 82.3, IFEval 77.6, MT-Bench 9.12, HumanEval 86.0 Qwen2-7B: MMLU 70.5, MT-Bench 8.41, HumanEval 79.9. On MMLU-PRO, Qwen2 scored 64.4, outperforming Llama 3's 56.2. Qwen2"
+    },
+    {
+      "index": 8,
+      "title": "Automated Knowledge Graph Construction with LLMs Automating knowledge",
+      "text": "Automated Knowledge Graph Construction with LLMs Automating knowledge graph construction with LLMs Knowledge graphs are networks that represent data in a graphical format. Difficulties of constructing them include the time and cost, as well as the fact that different graphs are needed for different domains. LLMs can be used to extract knowledge from text. Researchers are exploring ways to combine LLMs and knowledge graphs. This could improve the accuracy of both knowledge graphs and LLMs. https://medium.com/@researchgraph/automated-knowledge-graph-construction-with-large-language-models-150512d1bc22 LlamaIndex - Property Graph Index : A Powerful New Way to Build Knowledge Graphs with LLMs https://www.llamaindex.ai/blog/introducing-the-property-graph-index-a-powerful-new-way-to-build-knowledge-graphs-with-llms from llama_index.indices.property_graph \\ import SchemaLLMPathExtractor entities = Literal[ \"PERSON\", \"PLACE\", \"THING\" ] relations = Literal[ \"PART_OF\", \"HAS\", \"IS_A\" ] schema = {\"PERSON\": [ \"PART_OF\", \"HAS\", \"IS_A\" ], \"PLACE\": [ \"PART_OF\", \"HAS\" ], \"THING\": [ \"IS_A\" ]} kg_extractor = SchemaLLMPathExtractor( llm=llm, possible_entities=entities, possible_relations=relations, kg_validation_schema=schema, strict=True)"
+    },
+    {
+      "index": 9,
+      "title": "Architectures in Agentic Systems Architectures in Agentic Systems",
+      "text": "Architectures in Agentic Systems Architectures in Agentic Systems https://x.com/alexalbert__/status/1796211969432887331 Delegation : Use cheaper, faster models for cost and speed gains. Example: Opus delegates to Haiku. Parallelization : Cut latency (but not cost) by running agents in parallel. Debate : Multiple agents with different roles engage in discussion to reach better decisions. Example - software engineer, security engineer, product manager, final agent Specialization : A generalist agent orchestrates, while specialists execute tasks. Tool Suite Experts : When using 100s or 1000s of tools, specialize agents in tool subsets."
+    },
+    {
+      "index": 10,
+      "title": "Total #models: 105 Total #votes: 1,205,934 Last updated:",
+      "text": "Total #models: 105 Total #votes: 1,205,934 Last updated: 2024-06-02 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 11,
+      "title": "Tech Layoffs were lower than in 2023 Layoffs",
+      "text": "Tech Layoffs were lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 12,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 13,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI weekly update",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Nvidia - Jensen Huang - COMPUTEX 2024 (Local)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Computex highlights",
+      "topic": "infra",
+      "videoSeconds": 14,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=14s",
+      "slideIndex": 2,
+      "slideTitle": "Nvidia - Jensen Huang COMPUTEX 2024, Taiwan, June",
+      "source": "youtube"
+    },
+    {
+      "claim": "Understanding LLM context",
+      "topic": "general",
+      "videoSeconds": 232,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=232s",
+      "slideIndex": 3,
+      "slideTitle": "(Local) Models with Long Context Local models with",
+      "source": "youtube"
+    },
+    {
+      "claim": "Small model capabilities",
+      "topic": "general",
+      "videoSeconds": 385,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=385s",
+      "slideIndex": 4,
+      "slideTitle": "Misc 1 Gemma 2B with 10M context runs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia market dominance",
+      "topic": "infra",
+      "videoSeconds": 390,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=390s",
+      "slideIndex": 5,
+      "slideTitle": "Misc 2 Thought-Augmented Reasoning with LLMs Buffer of",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI application news",
+      "topic": "general",
+      "videoSeconds": 397,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=397s",
+      "slideIndex": 6,
+      "slideTitle": "Milvus Lite - Easy to Use Local Vector",
+      "source": "youtube"
+    },
+    {
+      "claim": "Thought augmented reasoning",
+      "topic": "general",
+      "videoSeconds": 641,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=641s",
+      "slideIndex": 7,
+      "slideTitle": "Right to Warn AI researchers demand \"Right to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Scalable modeling",
+      "topic": "general",
+      "videoSeconds": 654,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=654s",
+      "slideIndex": 7,
+      "slideTitle": "Right to Warn AI researchers demand \"Right to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vector database tools",
+      "topic": "rag",
+      "videoSeconds": 656,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=656s",
+      "slideIndex": 8,
+      "slideTitle": "Automated Knowledge Graph Construction with LLMs Automating knowledge",
+      "source": "youtube"
+    },
+    {
+      "claim": "New model releases",
+      "topic": "general",
+      "videoSeconds": 750,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=750s",
+      "slideIndex": 9,
+      "slideTitle": "Architectures in Agentic Systems Architectures in Agentic Systems",
+      "source": "youtube"
+    },
+    {
+      "claim": "Knowledge graphs & agents",
+      "topic": "agents",
+      "videoSeconds": 1006,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=1006s",
+      "slideIndex": 10,
+      "slideTitle": "Total #models: 105 Total #votes: 1,205,934 Last updated:",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI benchmarks",
+      "topic": "general",
+      "videoSeconds": 1058,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=1058s",
+      "slideIndex": 11,
+      "slideTitle": "Tech Layoffs were lower than in 2023 Layoffs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Industry trends",
+      "topic": "general",
+      "videoSeconds": 1132,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=1132s",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Closing remarks",
+      "topic": "general",
+      "videoSeconds": 1171,
+      "videoUrl": "https://www.youtube.com/watch?v=niWsuIjA4cI&t=1171s",
+      "slideIndex": 13,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

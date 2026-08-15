@@ -1,0 +1,223 @@
+{
+  "id": "2021-12-17-2021-12-17-chris-bigquery-cloud-composer",
+  "date": "2021-12-17",
+  "title": "Chris BigQuery Cloud Composer",
+  "series": "data-architect-2021",
+  "topics": [
+    "safety"
+  ],
+  "video": {
+    "id": "CVPsvZA9zu8",
+    "title": "Data Architecture: Use Cases",
+    "url": "https://www.youtube.com/watch?v=CVPsvZA9zu8",
+    "thumbnail": "https://i.ytimg.com/vi/CVPsvZA9zu8/hqdefault.jpg",
+    "duration": 2672
+  },
+  "deck": {
+    "path": "2021_2_data_architect/DA_Use_Cases/2021-12-17-Chris_BigQuery_Cloud_Composer.pptx",
+    "filename": "2021-12-17-Chris_BigQuery_Cloud_Composer.pptx",
+    "title": "Chris BigQuery Cloud Composer",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_Use_Cases/2021-12-17-Chris_BigQuery_Cloud_Composer.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_Use_Cases/2021-12-17-Chris_BigQuery_Cloud_Composer.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Case Overview",
+      "startSeconds": 36,
+      "label": "00:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Rachel",
+      "startSeconds": 658,
+      "label": "10:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Lambda Architecture",
+      "startSeconds": 703,
+      "label": "11:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Methodology",
+      "startSeconds": 816,
+      "label": "13:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Kappa Architecture",
+      "startSeconds": 1103,
+      "label": "18:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Cases",
+      "startSeconds": 1404,
+      "label": "23:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Security",
+      "startSeconds": 1604,
+      "label": "26:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Security Roles",
+      "startSeconds": 1972,
+      "label": "32:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Access Persona",
+      "startSeconds": 2212,
+      "label": "36:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Security Questions",
+      "startSeconds": 2332,
+      "label": "38:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Media log ingestion to BigQuery using Cloud Composer",
+      "text": "Media log ingestion to BigQuery using Cloud Composer"
+    },
+    {
+      "index": 2,
+      "title": "Client: Podcast/Radio advertising merchant Key Components: Podcast advertising",
+      "text": "Client: Podcast/Radio advertising merchant Key Components: Podcast advertising servers and radio advertising servers transmit JSON log data to S3 JSON log format includes detailed metadata about the advertisement blocks including details about the ads run inside the block if they were actually filled Challenge: JSON logs were being ingested into BigQuery using a Dataflow process that parsed and aggregated the contents based on 20 key data fields. As a result of the aggregation, analytics could really only provide value at the aggregated level. There was significant data, particularly, demographic target data that could not be analyzed. In addition, this process ran once a day, and was a fairly complex and fragmented system."
+    },
+    {
+      "index": 3,
+      "title": "Legacy ingestion process",
+      "text": "Legacy ingestion process"
+    },
+    {
+      "index": 4,
+      "title": "Legacy BigQuery From SuperLog via Dataflow allocations facts",
+      "text": "Legacy BigQuery From SuperLog via Dataflow allocations facts facts_filled facts_unfilled forecasts forecasts_filled forecasts_unfilled Aggregated Facts Dimensions Key Enhancement Dimensions From Dataflow coredimensions External to Superlogs dimension_devices dimension_markets stations ads"
+    },
+    {
+      "index": 5,
+      "title": "Updated solution with Composer Google Composer (Apache Airflow)",
+      "text": "Updated solution with Composer Google Composer (Apache Airflow) direct ingestion of raw JSON logs into BigQuery Simplifying cleansing process Full access to all metadata for analysis"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Media log ingestion to BigQuery using Cloud Composer",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Case Overview",
+      "topic": "general",
+      "videoSeconds": 36,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=36s",
+      "slideIndex": 1,
+      "slideTitle": "Media log ingestion to BigQuery using Cloud Composer",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rachel",
+      "topic": "general",
+      "videoSeconds": 658,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=658s",
+      "slideIndex": 2,
+      "slideTitle": "Client: Podcast/Radio advertising merchant Key Components: Podcast advertising",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lambda Architecture",
+      "topic": "general",
+      "videoSeconds": 703,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=703s",
+      "slideIndex": 2,
+      "slideTitle": "Client: Podcast/Radio advertising merchant Key Components: Podcast advertising",
+      "source": "youtube"
+    },
+    {
+      "claim": "Methodology",
+      "topic": "general",
+      "videoSeconds": 816,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=816s",
+      "slideIndex": 3,
+      "slideTitle": "Legacy ingestion process",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kappa Architecture",
+      "topic": "general",
+      "videoSeconds": 1103,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1103s",
+      "slideIndex": 3,
+      "slideTitle": "Legacy ingestion process",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Cases",
+      "topic": "general",
+      "videoSeconds": 1404,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1404s",
+      "slideIndex": 3,
+      "slideTitle": "Legacy ingestion process",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Security",
+      "topic": "safety",
+      "videoSeconds": 1604,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1604s",
+      "slideIndex": 4,
+      "slideTitle": "Legacy BigQuery From SuperLog via Dataflow allocations facts",
+      "source": "youtube"
+    },
+    {
+      "claim": "Security Roles",
+      "topic": "safety",
+      "videoSeconds": 1972,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1972s",
+      "slideIndex": 4,
+      "slideTitle": "Legacy BigQuery From SuperLog via Dataflow allocations facts",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Access Persona",
+      "topic": "general",
+      "videoSeconds": 2212,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=2212s",
+      "slideIndex": 5,
+      "slideTitle": "Updated solution with Composer Google Composer (Apache Airflow)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Security Questions",
+      "topic": "safety",
+      "videoSeconds": 2332,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=2332s",
+      "slideIndex": 5,
+      "slideTitle": "Updated solution with Composer Google Composer (Apache Airflow)",
+      "source": "youtube"
+    }
+  ]
+}

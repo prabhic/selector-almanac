@@ -1,0 +1,313 @@
+{
+  "id": "2022-12-09-2022-12-09-git-lev",
+  "date": "2022-12-09",
+  "title": "Git",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "8EzDXC5VTPM",
+    "title": "Git - Distributed Version Control",
+    "url": "https://www.youtube.com/watch?v=8EzDXC5VTPM",
+    "thumbnail": "https://i.ytimg.com/vi/8EzDXC5VTPM/hqdefault.jpg",
+    "duration": 3744
+  },
+  "deck": {
+    "path": "2022/2022-12-09-Git-Chris/2022-12-09-Git_Lev.pptx",
+    "filename": "2022-12-09-Git_Lev.pptx",
+    "title": "Git",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-12-09-Git-Chris/2022-12-09-Git_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-12-09-Git-Chris/2022-12-09-Git_Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Who am I",
+      "startSeconds": 55,
+      "label": "00:55",
+      "source": "youtube"
+    },
+    {
+      "title": "What is Version Control",
+      "startSeconds": 124,
+      "label": "02:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Why use Version Control",
+      "startSeconds": 182,
+      "label": "03:02",
+      "source": "youtube"
+    },
+    {
+      "title": "History of Version Control",
+      "startSeconds": 315,
+      "label": "05:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Local Version Control",
+      "startSeconds": 514,
+      "label": "08:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Centralized Version Control",
+      "startSeconds": 567,
+      "label": "09:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Git",
+      "startSeconds": 614,
+      "label": "10:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Git vs GitHub",
+      "startSeconds": 799,
+      "label": "13:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Cases",
+      "startSeconds": 957,
+      "label": "15:57",
+      "source": "youtube"
+    },
+    {
+      "title": "General Concepts",
+      "startSeconds": 1094,
+      "label": "18:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Installing Git",
+      "startSeconds": 1458,
+      "label": "24:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Demo",
+      "startSeconds": 1606,
+      "label": "26:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Add",
+      "startSeconds": 1986,
+      "label": "33:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Log",
+      "startSeconds": 2294,
+      "label": "38:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Commit Regularly",
+      "startSeconds": 2329,
+      "label": "38:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Merge Feature 1",
+      "startSeconds": 2426,
+      "label": "40:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Desktop",
+      "startSeconds": 3464,
+      "label": "57:44",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "text": "Git Linus Torvalds Linux - https://www.linux.org Git - https://git-scm.com - https://github.com Linus Torvalds has developed Git in 2005 to use in Linux development community. (before Git they used BitKeeper ). Some of the goals of the new system were: Speed Simple design Strong support for non-linear development (thousands of parallel branches) Fully distributed Able to handle large projects like the Linux kernel efficiently (speed and data size) GutHub Git Linux GitHub - founded in 2008 Microsoft acquired GitHub for $7.5B in 2018 In 2020: - 40 Million users - 190 Million repositories - 2.5 Thousand employees GutHub Desktop"
+    },
+    {
+      "index": 2,
+      "title": "Git – continued … Git is a source",
+      "text": "Git – continued … Git is a source control system - http://git-scm.com - https://git-scm.com/doc git config --global user.name \"Last, First\" git config --global user.email FLast@example.com Some files to know: ~/.git- completion.bash ~/. gitconfig ~/. gitexcludes mkdir ~/ workdir cd ~/ workdir git clone git@github.com:myuser /repo1.git git clone git@github.com:myuser/repo2.git cd repo1 edit . gitignore git add . git commit - m'soem comment' git remote add origin git@github.com:myuser /repo1.git git push -u origin master git fetch git pull git log ... Check your remote: git remote -v                                                                                                    (base) origin git@github.com:lselector / ml_ai_doc.git (fetch) origin git@github.com:lselector / ml_ai_doc.git (push) (base) [filter \" lfs \"] process = git- lfs filter-process required = true clean = git- lfs clean -- %f smudge = git- lfs smudge -- %f [user] name = Lev Selector email = lev.selector@gmail.com [credential] username = lselector [color] ui = auto [alias] st = status ci = commit co = checkout staged = diff --cached unstage = reset HEAD -- amend = commit --amend unci = reset --soft HEAD^ oneline = log -- oneline unstaged = diff both = diff HEAD lg = log --graph --pretty= oneline --abbrev-commit --decorate wdiff = diff --word-diff [log] decorate = short [push] default = tracking [branch] autosetuprebase = always . gitconfig . (example)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Who am I",
+      "topic": "general",
+      "videoSeconds": 55,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=55s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "What is Version Control",
+      "topic": "general",
+      "videoSeconds": 124,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=124s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why use Version Control",
+      "topic": "general",
+      "videoSeconds": 182,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=182s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "History of Version Control",
+      "topic": "general",
+      "videoSeconds": 315,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=315s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Local Version Control",
+      "topic": "general",
+      "videoSeconds": 514,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=514s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Centralized Version Control",
+      "topic": "general",
+      "videoSeconds": 567,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=567s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git",
+      "topic": "general",
+      "videoSeconds": 614,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=614s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git vs GitHub",
+      "topic": "general",
+      "videoSeconds": 799,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=799s",
+      "slideIndex": 1,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Cases",
+      "topic": "general",
+      "videoSeconds": 957,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=957s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "General Concepts",
+      "topic": "general",
+      "videoSeconds": 1094,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1094s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Installing Git",
+      "topic": "general",
+      "videoSeconds": 1458,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1458s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Demo",
+      "topic": "general",
+      "videoSeconds": 1606,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1606s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Add",
+      "topic": "general",
+      "videoSeconds": 1986,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1986s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Log",
+      "topic": "general",
+      "videoSeconds": 2294,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=2294s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Commit Regularly",
+      "topic": "general",
+      "videoSeconds": 2329,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=2329s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Merge Feature 1",
+      "topic": "general",
+      "videoSeconds": 2426,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=2426s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Desktop",
+      "topic": "general",
+      "videoSeconds": 3464,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=3464s",
+      "slideIndex": 2,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "youtube"
+    }
+  ]
+}

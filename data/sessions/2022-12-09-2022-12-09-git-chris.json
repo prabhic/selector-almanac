@@ -1,0 +1,407 @@
+{
+  "id": "2022-12-09-2022-12-09-git-chris",
+  "date": "2022-12-09",
+  "title": "Git-Chris",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "8EzDXC5VTPM",
+    "title": "Git - Distributed Version Control",
+    "url": "https://www.youtube.com/watch?v=8EzDXC5VTPM",
+    "thumbnail": "https://i.ytimg.com/vi/8EzDXC5VTPM/hqdefault.jpg",
+    "duration": 3744
+  },
+  "deck": {
+    "path": "2022/2022-12-09-Git-Chris/2022-12-09-Git-Chris.pptx",
+    "filename": "2022-12-09-Git-Chris.pptx",
+    "title": "Git-Chris",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-12-09-Git-Chris/2022-12-09-Git-Chris.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-12-09-Git-Chris/2022-12-09-Git-Chris.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Who am I",
+      "startSeconds": 55,
+      "label": "00:55",
+      "source": "youtube"
+    },
+    {
+      "title": "What is Version Control",
+      "startSeconds": 124,
+      "label": "02:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Why use Version Control",
+      "startSeconds": 182,
+      "label": "03:02",
+      "source": "youtube"
+    },
+    {
+      "title": "History of Version Control",
+      "startSeconds": 315,
+      "label": "05:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Local Version Control",
+      "startSeconds": 514,
+      "label": "08:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Centralized Version Control",
+      "startSeconds": 567,
+      "label": "09:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Git",
+      "startSeconds": 614,
+      "label": "10:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Git vs GitHub",
+      "startSeconds": 799,
+      "label": "13:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Cases",
+      "startSeconds": 957,
+      "label": "15:57",
+      "source": "youtube"
+    },
+    {
+      "title": "General Concepts",
+      "startSeconds": 1094,
+      "label": "18:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Installing Git",
+      "startSeconds": 1458,
+      "label": "24:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Demo",
+      "startSeconds": 1606,
+      "label": "26:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Add",
+      "startSeconds": 1986,
+      "label": "33:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Log",
+      "startSeconds": 2294,
+      "label": "38:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Commit Regularly",
+      "startSeconds": 2329,
+      "label": "38:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Merge Feature 1",
+      "startSeconds": 2426,
+      "label": "40:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Git Desktop",
+      "startSeconds": 3464,
+      "label": "57:44",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "git - Distributed version contol",
+      "text": "git - Distributed version contol"
+    },
+    {
+      "index": 2,
+      "title": "Chris von Rabenau Cloud Architect, Redapt Email: cgapperi@me.com",
+      "text": "Chris von Rabenau Cloud Architect, Redapt Email: cgapperi@me.com LinkedIn: https://www.linkedin.com/in/cvr/ Github : https:// github.com / cgapperi"
+    },
+    {
+      "index": 3,
+      "title": "What is version control",
+      "text": "What is version control"
+    },
+    {
+      "index": 4,
+      "title": "Why version control",
+      "text": "Why version control"
+    },
+    {
+      "index": 5,
+      "title": "A short history of VCS",
+      "text": "A short history of VCS"
+    },
+    {
+      "index": 6,
+      "title": "Local Version Control",
+      "text": "Local Version Control"
+    },
+    {
+      "index": 7,
+      "title": "Centralized Version Control",
+      "text": "Centralized Version Control"
+    },
+    {
+      "index": 8,
+      "title": "Introducing git “git means never having to say",
+      "text": "Introducing git “git means never having to say you are sorry” - PAK"
+    },
+    {
+      "index": 9,
+      "title": "What is git?",
+      "text": "What is git?"
+    },
+    {
+      "index": 10,
+      "title": "Distributed Version Control",
+      "text": "Distributed Version Control"
+    },
+    {
+      "index": 11,
+      "title": "Use cases",
+      "text": "Use cases"
+    },
+    {
+      "index": 12,
+      "title": "General concepts",
+      "text": "General concepts"
+    },
+    {
+      "index": 13,
+      "title": "Preparing to use git",
+      "text": "Preparing to use git"
+    },
+    {
+      "index": 14,
+      "title": "Let’s get started - Demo",
+      "text": "Let’s get started - Demo"
+    },
+    {
+      "index": 15,
+      "title": "Working with remotes",
+      "text": "Working with remotes"
+    },
+    {
+      "index": 16,
+      "title": "Pulling branches in the main",
+      "text": "Pulling branches in the main"
+    },
+    {
+      "index": 17,
+      "title": "Advanced concepts `~` Resetting: Commit: `git reset` File:",
+      "text": "Advanced concepts `~` Resetting: Commit: `git reset` File: `git checkout` Find common ancestor: `git merge-base` Grab a specific commit: `git cherry-pick` Rewriting history: `git rebase –i` Ignoring files: `.gitignore` Removing files from index: `git rm –cached`"
+    },
+    {
+      "index": 18,
+      "title": "Question?",
+      "text": "Question?"
+    },
+    {
+      "index": 19,
+      "title": "References Super credit to my guru, Paul A",
+      "text": "References Super credit to my guru, Paul A Kennedy https:// www.linkedin.com /in/paul-a-kennedy-2560794/ Pro Git : https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control 10 years of Git: An Interview with Git Creator Linus Torvalds https://www.linuxfoundation.org/blog/blog/10-years-of-git-an-interview-with-git-creator-linus-torvalds git_demo repo from the presentation https://github.com/cgapperi/git_demo"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "git - Distributed version contol",
+      "source": "youtube"
+    },
+    {
+      "claim": "Who am I",
+      "topic": "general",
+      "videoSeconds": 55,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=55s",
+      "slideIndex": 2,
+      "slideTitle": "Chris von Rabenau Cloud Architect, Redapt Email: cgapperi@me.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "What is Version Control",
+      "topic": "general",
+      "videoSeconds": 124,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=124s",
+      "slideIndex": 3,
+      "slideTitle": "What is version control",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why use Version Control",
+      "topic": "general",
+      "videoSeconds": 182,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=182s",
+      "slideIndex": 4,
+      "slideTitle": "Why version control",
+      "source": "youtube"
+    },
+    {
+      "claim": "History of Version Control",
+      "topic": "general",
+      "videoSeconds": 315,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=315s",
+      "slideIndex": 5,
+      "slideTitle": "A short history of VCS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Local Version Control",
+      "topic": "general",
+      "videoSeconds": 514,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=514s",
+      "slideIndex": 6,
+      "slideTitle": "Local Version Control",
+      "source": "youtube"
+    },
+    {
+      "claim": "Centralized Version Control",
+      "topic": "general",
+      "videoSeconds": 567,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=567s",
+      "slideIndex": 7,
+      "slideTitle": "Centralized Version Control",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git",
+      "topic": "general",
+      "videoSeconds": 614,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=614s",
+      "slideIndex": 8,
+      "slideTitle": "Introducing git “git means never having to say",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git vs GitHub",
+      "topic": "general",
+      "videoSeconds": 799,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=799s",
+      "slideIndex": 9,
+      "slideTitle": "What is git?",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Cases",
+      "topic": "general",
+      "videoSeconds": 957,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=957s",
+      "slideIndex": 11,
+      "slideTitle": "Use cases",
+      "source": "youtube"
+    },
+    {
+      "claim": "General Concepts",
+      "topic": "general",
+      "videoSeconds": 1094,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1094s",
+      "slideIndex": 12,
+      "slideTitle": "General concepts",
+      "source": "youtube"
+    },
+    {
+      "claim": "Installing Git",
+      "topic": "general",
+      "videoSeconds": 1458,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1458s",
+      "slideIndex": 13,
+      "slideTitle": "Preparing to use git",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Demo",
+      "topic": "general",
+      "videoSeconds": 1606,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1606s",
+      "slideIndex": 14,
+      "slideTitle": "Let’s get started - Demo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Add",
+      "topic": "general",
+      "videoSeconds": 1986,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=1986s",
+      "slideIndex": 15,
+      "slideTitle": "Working with remotes",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Log",
+      "topic": "general",
+      "videoSeconds": 2294,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=2294s",
+      "slideIndex": 16,
+      "slideTitle": "Pulling branches in the main",
+      "source": "youtube"
+    },
+    {
+      "claim": "Commit Regularly",
+      "topic": "general",
+      "videoSeconds": 2329,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=2329s",
+      "slideIndex": 17,
+      "slideTitle": "Advanced concepts `~` Resetting: Commit: `git reset` File:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Merge Feature 1",
+      "topic": "general",
+      "videoSeconds": 2426,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=2426s",
+      "slideIndex": 18,
+      "slideTitle": "Question?",
+      "source": "youtube"
+    },
+    {
+      "claim": "Git Desktop",
+      "topic": "general",
+      "videoSeconds": 3464,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM&t=3464s",
+      "slideIndex": 19,
+      "slideTitle": "References Super credit to my guru, Paul A",
+      "source": "youtube"
+    },
+    {
+      "claim": "Distributed Version Control",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8EzDXC5VTPM",
+      "slideIndex": 10,
+      "slideTitle": "Distributed Version Control",
+      "source": "slide"
+    }
+  ]
+}

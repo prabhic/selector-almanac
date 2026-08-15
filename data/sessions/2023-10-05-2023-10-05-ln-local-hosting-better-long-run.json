@@ -1,0 +1,63 @@
+{
+  "id": "2023-10-05-2023-10-05-ln-local-hosting-better-long-run",
+  "date": "2023-10-05",
+  "title": "LN-local-hosting-better-long-run",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "open-models",
+    "benchmarks",
+    "rag"
+  ],
+  "video": {
+    "id": "PjodFXezjyk",
+    "title": "Ken McCarthy Interviews Lev Selector about AI for Business, October 5, 2023",
+    "url": "https://www.youtube.com/watch?v=PjodFXezjyk",
+    "thumbnail": "https://i.ytimg.com/vi/PjodFXezjyk/hqdefault.jpg",
+    "duration": 3642
+  },
+  "deck": {
+    "path": "2023/2023-10-05-LN-local-hosting-better-long-run.pptx",
+    "filename": "2023-10-05-LN-local-hosting-better-long-run.pptx",
+    "title": "LN-local-hosting-better-long-run",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-05-LN-local-hosting-better-long-run.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-05-LN-local-hosting-better-long-run.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Why Hosting Local LLMs vs Cloud ? https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526",
+      "text": "Why Hosting Local LLMs vs Cloud ? https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526 S elf-hosting for for LLaMA-2–70B on AWS or Google: 8x Nvidia A100 g5.48xlarge on AWS      ($17K/mo) a2-megagpu-16g on GCP   ($6K/mo) OpenAI’s Terms of Use doc mentions that they “may use Content from Services other than our API ... to help develop and improve our Services” . This means that anything you send to ChatGPT may and will be included in their training data. On-prem solutions provide more privacy, security, control, flexibility, no external dependencies. Also on-prem solutions are cheaper in the long run (own vs rent) Azure OpenAI Service provide private enterprise hosting. But recently they have exposed more than 30 TBytes of data - including passwords and secure keys."
+    },
+    {
+      "index": 2,
+      "title": "Hosting Your Own Embeddding Model Hosting A Text",
+      "text": "Hosting Your Own Embeddding Model Hosting A Text Embedding Model That is Better, Cheaper, and Faster Than OpenAI’s Solution (which is #13 below) https://medium.com/@kelvin.lu.au/hosting-a-text-embedding-model-that-is-better-cheaper-and-faster-than-openais-solution-7675d8e7cab2 Massive Text Embedding Benchmark (MTEB) Leaderboard https://huggingface.co/spaces/mteb/leaderboard"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Why Hosting Local LLMs vs Cloud ? https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 1,
+      "slideTitle": "Why Hosting Local LLMs vs Cloud ? https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526",
+      "source": "slide"
+    },
+    {
+      "claim": "Hosting Your Own Embeddding Model Hosting A Text",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 2,
+      "slideTitle": "Hosting Your Own Embeddding Model Hosting A Text",
+      "source": "slide"
+    }
+  ]
+}

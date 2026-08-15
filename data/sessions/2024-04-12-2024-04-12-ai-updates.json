@@ -1,0 +1,413 @@
+{
+  "id": "2024-04-12-2024-04-12-ai-updates",
+  "date": "2024-04-12",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "rag",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "CKUQF8WRj8k",
+    "title": "Have you heard these exciting AI news? - April 12, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=CKUQF8WRj8k",
+    "thumbnail": "https://i.ytimg.com/vi/CKUQF8WRj8k/hqdefault.jpg",
+    "duration": 1801
+  },
+  "deck": {
+    "path": "2024/2024-04-12-AI-Updates.pptx",
+    "filename": "2024-04-12-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-04-12-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-04-12-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia accelerators",
+      "startSeconds": 112,
+      "label": "01:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Intel Gadi",
+      "startSeconds": 271,
+      "label": "04:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Croc AI Accelerator",
+      "startSeconds": 355,
+      "label": "05:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Misc Announcements",
+      "startSeconds": 478,
+      "label": "07:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Federal Government",
+      "startSeconds": 820,
+      "label": "13:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Griffin Hulk",
+      "startSeconds": 992,
+      "label": "16:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Fake Girlfriend Boyfriend",
+      "startSeconds": 1041,
+      "label": "17:21",
+      "source": "youtube"
+    },
+    {
+      "title": "ML Doc",
+      "startSeconds": 1102,
+      "label": "18:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Rag",
+      "startSeconds": 1182,
+      "label": "19:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Question Vector Indexing",
+      "startSeconds": 1252,
+      "label": "20:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Alama Embedding Models",
+      "startSeconds": 1507,
+      "label": "25:07",
+      "source": "youtube"
+    },
+    {
+      "title": "AI OS",
+      "startSeconds": 1583,
+      "label": "26:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Three Blue One Brown",
+      "startSeconds": 1619,
+      "label": "26:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing Arena",
+      "startSeconds": 1678,
+      "label": "27:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech Layoffs",
+      "startSeconds": 1770,
+      "label": "29:30",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Google Cloud AI Agents - Google Cloud Next",
+      "text": "Google Cloud AI Agents - Google Cloud Next 2024 Nvidia AI Accelerators - GH200, GB200 Intel AI Accelerator - Gaudi 3 Chip Meta AI Accelerator Microsoft Azure AI Chips Groq AI Accelerator - fast Inference Mixtral 8x22B $1 Bln to design new AI phone OpenAI GPT-4 trained on  1+ Mln hrs of YouTube Text-to-Code usage grows 100+ toks/sec on a Mac Google CodeGemma Llama-3 to be release in a month Google Imagen-2 Animated Images Google Vertex AI Agent Builder EMO: Emote Portrait Alive UDIO new music generator OpenAI GPT-4 Turbo with Vision Google DeepMind - Griffin & Hawk Chief AI Officers in US Government AI fake girlfriend/boyfriend industry llm.c from Andrej Karpathy RAG Success Story Make RAG Better Ollama & Embedding Models AIOS: LLM Agent Operating System 3Blue1Brown YouTube Deep Learning Tutorials Crowd-sourced \"Arena\" Leaderboard Tech Layoffs are x3 times lower than in 2023 AI Updates April 12 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Google Cloud Next 2024 Event (Las Vegas April",
+      "text": "Google Cloud Next 2024 Event (Las Vegas April 9-11): New AI Hypercomputer architecture ( TPU v5p ) Gemini 1.5 Pro Imagen 2.0 Vertex AI Agent Builder Gemini Assistants for Google Cloud (developers, services, applications): Gemini Cloud Assist, Gemini in Security, Gemini Code Assist, Gemini in BigQuery , Gemini in Looker, Gemini in Databases Google Axion Processors Google Workspace, Google Vids Google Cloud Next 2024 - AI Agents Google Vertex AI Agent Builder https://cloud.google.com/products/agent-builder https://cloud.google.com/vertex-ai Build conversational AI agents Ground your apps in Google Search Use Vertex AI search for RAG Use search component APIs Vector search (embeddings) Use LangChain on Vertex AI"
+    },
+    {
+      "index": 3,
+      "title": "GH200 Grace CPU Hopper GPU 576 .. 624",
+      "text": "GH200 Grace CPU Hopper GPU 576 .. 624 GB of unified memory starts at $3.99/hr GB200 compute tray 2 Grace CPUs 4 Blackwell GPUs 1.7 TB Memory 80 petaflops GB200 Grace CPU 2 Blackwell GPU ~ 850 GB H100 Hopper GPU 80GB GPU memory available with AMD EPYC 9004 CPU starts at $1.99/hr H200 Hopper GPU 128 .. 141 GB GPU Memory (still expected ...) Motherboard + several GPUs Accelerated compute trays : GB200 NVL72 rack : 36 Grace CPUs and 72 Blackwell GPUs estimated price $3.5 Mln A100 Ampere GPU 80GB GPU memory 8 per server, starts at $1.29/hr Nvidia AI Accelerators"
+    },
+    {
+      "index": 4,
+      "title": "Antoni Gaudí i Cornet (1852-1926) was a Catalan",
+      "text": "Antoni Gaudí i Cornet (1852-1926) was a Catalan architect and designer from Spain. Most of his work are located in Barcelona, including his main work, the church of the Sagrada Família. Intel AI Accelerator - Gaudi 3 Chip Intel claims that their new Gaudi 3 AI Accelerator Chips are better than Nvidia H100s in speed and cost and comparable with Nvidia Blackwell ! https://wccftech.com/intel-gaudi-3-ai-accelerator-5nm-128-gb-hbm2e-900w-50-percent-faster-nvidia-h100/ Universal board with 8 Gaudi 3 chips Typical server contains dual Xeon CPU and 8 Gaudi GPUs"
+    },
+    {
+      "index": 5,
+      "title": "Meta AI Accelerator: Inference & Training Meta Training",
+      "text": "Meta AI Accelerator: Inference & Training Meta Training and Inference Accelerator https://ai.meta.com/blog/next-generation-meta-training-inference-accelerator-AI-MTIA/ TSMC 5nm, Freq 1.35GHz, 2.35B gates, Area 25.6mm x 16.4mm, Package: 50mm x 40mm Power: 0.85V, 90W On-chip memory: 256 MB Off-chip LPDDR5: 128 GB Memory Bandwidth Local memory: 1 TB/s per PE On-chip memory: 2.7 TB/s Off-chip LPDDR5: 204.8 GB/s Microsoft Azure AI Chips Microsoft Azure AI chips: GPU - Azure Maia 100 (a.k.a. Athena or M100) CPU - Cobalt 100 - 128-core Arm lower power Google New AI Chip Google new TPU v5 chip The new TPU v5p chip is built to run in pods of 8,960 chips, and can double the performance of the prior generation of TPUs. The Axion chip offers 30% better performance than \"general-purpose Arm chips, and 50% better performance than current generation x86 chips produced by Intel https://www.reuters.com/technology/google-unveils-arm-based-data-center-processor-new-ai-chip-2024-04-09/"
+    },
+    {
+      "index": 6,
+      "title": "Groq AI Accelerator - fast Inference GROQ -",
+      "text": "Groq AI Accelerator - fast Inference GROQ - Super fast LPU Inference Engine LPU = Language Processing Unit Up to 500 tokens/sec, x100 - x600 faster than GPUs https://www.youtube.com/watch?v=gmzd8dhlc0g https://www.youtube.com/watch?v=fv69M1M_fXw https://www.youtube.com/watch?v=WQDMKTEgQnY https://groq.com https://console.groq.com/docs/quickstart Jonathan Ross* is Groq’s founder and CEO. He has began Google’s TPU effort as a 20% project, and became a member of Google X’s Rapid Eval Team (Moonshots factory). Groq's LPU card cost $20K, which is much cheaper than $35K for Nvidia's H100"
+    },
+    {
+      "index": 7,
+      "title": "Mistral has released a bigger Mixtral model https://twitter.com/MistralAI/status/1777869263778291896",
+      "text": "Mistral has released a bigger Mixtral model https://twitter.com/MistralAI/status/1777869263778291896 https://huggingface.co/v2ray/Mixtral-8x22B-v0.1 https://huggingface.co/mlx-community/Mixtral-8x22B-4bit Play with it: https://labs.perplexity.ai Mixtral 8x22B Model ARC C (25-shot) Hellaswag (10-shot) MMLU (5-shot) TruthfulQA Mixtral 8x22B - Base 70.5 88.9 77.3 52.3 Cohere Command R+ 70.99 88.56 75.73 56.3 Mixtral 8x7B-Base 66.38 86.46 71.88 46.81 Owen1.5-728-Base 65.87 85.99 77.2 59.61 LLAMA-2-70B-Base 87.1 69.9 44.7 83.2 mistral-large 89.2 81.2 50.5 86.7 mistral-medium 88 75.3 47 88 mistral-small 86.9 72.2 51.7 84.7 GPT-3.5 85.5 70 81.6 - GPT-4 95.3 86.4 - 87.5 Claude 3 Opus 95.4 86.8 - 88.5 Claude 3 Sonet 89 79 75.1 - Claude 3 Haiku 85.9 75.2 74.2 - Gemini 1.0 Pro 84.7 71.8 - 86.5 (Maj1@32) Gemini 1.0 Ultra 87.8 83.7 - 94.4 (Maj1@32) Gemini 1.5 Pro 92.5 81.9 - 91.7 (11) ARC (Abstraction and Reasoning Corpus) - a dataset by Francois Chollet HellaSwag - a dataset to test for grounded common sense inference MMLU = Massive Multitask Language Understanding (math, science, medicine, finance, ...) from transformers import AutoModelForCausalLM, AutoTokenizer model_id = \"v2ray/Mixtral-8x22B-v0.1\" x3 times bigger than 8x7B 176B parameters torrent download 261 GB VRAM 260 GB in fp16 VRAM 73 GB in 4bits 65K tokens sequence length 32000 vocab size 8 experts, 2 experts/token tokeniser similar to 7b model 6K dim"
+    },
+    {
+      "index": 8,
+      "title": "Former Apple Chief Design Officer Jony Ive and",
+      "text": "Former Apple Chief Design Officer Jony Ive and OpenAI CEO Sam Altman have raised ~$1 Bln from Masayoshi Son’s Softbank to design the new kind of smartphone device https://finance.yahoo.com/news/report-jony-ive-openai-ceo-134000931.html OpenAI developed its Whisper audio transcription model and used it to transcribe over a million hours of YouTube videos to train GPT-4 . Company knew this was legally questionable but believed it to be fair use. https://www.theverge.com/2024/4/6/24122915/openai-youtube-transcripts-gpt-4-training-data-google Misc 1 Text-to-Code usage grows https://economictimes.indiatimes.com/tech/technology/prompt-in-progress-genai-text-to-code-tools-boost-productivity/articleshow/109093288.cms Mac is great: 103.5 toks-per-sec Apple Studio Ultra M2 192 GB memory MLX framework 4-bit Mistral 7B https://twitter.com/awnihannun/status/1777072588633882741 Google Gemma 1.1 Instruct 2B and “7B” are out! Elon Musk Announces Tesla's Robotaxi Unveiling in August https://twitter.com/elonmusk/status/1776351450542768368"
+    },
+    {
+      "index": 9,
+      "title": "Google’s Imagen 2 can now create 4 sec",
+      "text": "Google’s Imagen 2 can now create 4 sec animated images https://www.youtube.com/watch?v=XQU9Agg2MrU https://venturebeat.com/ai/google-imagen-2-creates-four-second-animated-images/?utm_source=substack&utm_medium=email Misc 2 Google open-sources CodeGemma models based on Gemma architecture and uploaded pre-quantized 4-bit models for 4x faster downloading https://huggingface.co/blog/codegemma https://ai.google.dev/gemma/docs/codegemma At an event in London on Tuesday, Meta confirmed that it plans an initial release of Llama 3 within the next month. EMO: Emote Portrait Alive Portrait + Audio => animated video https://humanaigc.github.io/emote-portrait-alive/ https://github.com/HumanAIGC UDIO - new music generator Udio AI Music Raises $10 Million https://www.udio.com OpenAI GPT-4 Turbo with Vision available to developers. It allows to combine text and images in one model. Still 128K-token window, and still knowledge cutoff Dec 2023. https://www.zdnet.com/article/openai-makes-gpt-4-turbo-with-vision-available-for-developers/"
+    },
+    {
+      "index": 10,
+      "title": "Federal Government Ramps Up Commitment to Fairness, Equity",
+      "text": "Federal Government Ramps Up Commitment to Fairness, Equity in Use of AI White House Issues Policy to Reduce Risk, Enhance Benefits of AI White House Orders All Federal Agencies to Name Chief AI Officers to oversee the federal government’s various approaches to AI and manage the risks that the rapidly evolving technologies might pose. https://www.shrm.org/topics-tools/news/inclusion-equity-diversity/federal-government-commits-to-ai-fairness Misc 3 Essay Grading at Texas Public Schools will be done by AI Preprocessing Unstructured Data for LLM Applications by DeepLearning.ai ( Andrew Ng ) https://learn.deeplearning.ai/courses/preprocessing-unstructured-data-for-llm-applications/lesson/1/introduction A New Massive Multilingual Dataset for High-Performance Language Technologies (HPLT): 75 languages with ~5.6 trillion word tokens and 18 English-centric parallel language pairs https://hplt-project.org Cohere Rerank 3 : semantic re-ranking to improve RAG. Receives output of search, reranks it - and sends the top items to LLM for generating output. Available via API on Cohere and AWS, low latency (less than 3 sec) https://txt.cohere.com/rerank-3/ Amazon Adds AI Expert Andrew Ng To Board (Stanford ML Course, Google, Baidu, Coursera, DeepLearning.ai)"
+    },
+    {
+      "index": 11,
+      "title": "Google DeepMind - Griffin & Hawk https://arxiv.org/abs/2402.19427 -",
+      "text": "Google DeepMind - Griffin & Hawk https://arxiv.org/abs/2402.19427 - paper Hawk and Griffin are new RNNs by DeepMind . Hawk  - high performance (faster than Mamba) using gated linear recurrences Griffin - matches Llama-2’s performance with significantly less training data . Griffin is a hybrid combining gated linear recurrences and local attention. Griffin - handles long sequences (longer than seen during training). Both models are as hardware efficient as Transformers, but offer lower latency and higher throughput during inference. Griffin is scaled to 14 billion parameters. https://artgor.medium.com/paper-review-griffin-mixing-gated-linear-recurrences-with-local-attention-for-efficient-language-75e5a86b1b24 https://medium.com/@bnjmn_marie/griffin-and-hawk-local-attention-for-efficient-language-models-7856fbb6bb32 Griffin & Hawk"
+    },
+    {
+      "index": 12,
+      "title": "Andrew Ng: https://twitter.com/AndrewYNg/status/1776737961243218134 The Financial Times has a",
+      "text": "Andrew Ng: https://twitter.com/AndrewYNg/status/1776737961243218134 The Financial Times has a great article on Renate Nyborg's work speaking about the dangers of the AI fake girlfriend/boyfriend industry and the risk of this leading to greater loneliness. Renate says  \"Men didn’t want to meet girls because they had virtual girlfriends who said exactly what they wanted to hear.\" To regulators wondering what are the risky applications of AI, I would urge taking a look at the fake gf/bf industry! In contrast, Meeno ( https://meeno.com ) gives advice for human relationships, and is working to bring people together. Working to reduce human loneliness is a wonderful goal! AI fake girlfriend/boyfriend industry"
+    },
+    {
+      "index": 13,
+      "title": "Pure C training of GPT-2 with 124 Mln",
+      "text": "Pure C training of GPT-2 with 124 Mln params in a single file with less than 1000 Lines of simple pure C. There is no need for 245MB of PyTorch or 107MB of cPython. It compiles and runs instantly, and exactly matches the PyTorch reference implementation. https://github.com/karpathy/llm.c Next steps: direct CUDA implementation speed up the CPU version with SIMD instructions, AVX2 on x86 / NEON on ARM (e.g. Apple Silicon). more modern architectures, e.g. Llama2, Gemma, etc. llm.c from Andrej Karpathy Andrej Karpathy"
+    },
+    {
+      "index": 14,
+      "title": "https://medium.com/@yisz https://medium.com/relari/a-practical-guide-to-rag-pipeline-evaluation-part-1-27a472b09893 https://medium.com/relari/a-practical-guide-to-rag-evaluation-part-2-generation-c79b1bde0f5d https://github.com/relari-ai/continuous-eval A Practical Guide to",
+      "text": "https://medium.com/@yisz https://medium.com/relari/a-practical-guide-to-rag-pipeline-evaluation-part-1-27a472b09893 https://medium.com/relari/a-practical-guide-to-rag-evaluation-part-2-generation-c79b1bde0f5d https://github.com/relari-ai/continuous-eval A Practical Guide to RAG Pipeline Evaluation (Part 1 & 2) Original RAG paper (2021, FAIR) https://arxiv.org/pdf/2005.11401.pdf"
+    },
+    {
+      "index": 15,
+      "title": "One problem with RAG is that the questions",
+      "text": "One problem with RAG is that the questions and answers don't have to be semantically similar. One way of solving it is to do the search in the space of questions. Text vector indexing: split text into text chunks, generate embedding vectors from those text chunks , index them as (vector_from_text, text) Question vector indexing: split text into big chunks - chapters. for each chapter generate multiple \"exam\" questions generate embedding vectors from questions index them as (vector_from_question, text) You can also use hybrid approach using both methods together Make RAG Better LLM Agent Classifier, may ask to refine question LLM Agent question rewriter, embedding LLM Agent semantic re-runking LLM Agent summarizer Response Request Semantic re-runking: You send question and the chunk of text to LLM - and ask it to rank the relevancy of the text to the question. If your search found 10 text chunks - you can make 10 separate queries to LLM, get 10 ranks - and sort them to select the best match. You can make those 10 queries in parallel (for speed). Any good LLM can be used (Mixtral, for example). You can program agents using LangChain or LlamaIndex Some good techniques to use: classification step query expansion re-ranking prompt engineering tool use"
+    },
+    {
+      "index": 16,
+      "title": "Ollama supports embedding models https://ollama.com/blog/embedding-models for example: mxbai-embed-large",
+      "text": "Ollama supports embedding models https://ollama.com/blog/embedding-models for example: mxbai-embed-large (334M parameters) nomic-embed-text (137M parameters) all-minilm (23M parameters) So you can use Ollama for RAG (both embedding and LLM) Ollama & Embedding Models # ollama pull mxbai-embed-large ## REST API curl http://localhost:11434/api/embeddings -d '{ \"model\": \"mxbai-embed-large\", \"prompt\": \"some text to convert\" }' ## Python Library ollama.embeddings( model='mxbai-embed-large', prompt='some text to convert', ) ## JavaScript Library ollama.embeddings({ model: 'mxbai-embed-large', prompt: 'some text to convert', })"
+    },
+    {
+      "index": 17,
+      "title": "AIOS = AI OS (AI Operating System) open",
+      "text": "AIOS = AI OS (AI Operating System) open source LLM Agent operating system embeds large language model into Operating Systems (OS) as the brain of the OS enables an operating system \"with soul\" It is an important step towards AGI. AIOS is designed to: optimize resource allocation, facilitate context switch across agents, enable concurrent execution of agents, provide tool service for agents, maintain access control for agents, provide a rich set of toolkits for developers https://github.com/agiresearch/AIOS AIOS: LLM Agent Operating System"
+    },
+    {
+      "index": 18,
+      "title": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi Excellent animated tutorials about deep learning. You",
+      "text": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi Excellent animated tutorials about deep learning. You may start with #5 and #6 explaining GPT and Transformers. 3Blue1Brown YouTube Deep Learning Tutorials Grant Sanderson's eyes are mostly blue with a distinct brown section Grant Sanderson https://www.3blue1brown.com https://www.youtube.com/@3blue1brown https://twitter.com/3blue1brown https://en.wikipedia.org/wiki/3Blue1Brown https://www.youtube.com/watch?v=U_lKUK2MCsg - interview with Lex Fridman"
+    },
+    {
+      "index": 19,
+      "title": "models: 82 votes: 652,743 April 11 , 2024",
+      "text": "models: 82 votes: 652,743 April 11 , 2024 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard o. s. o. s. o. s. o. s. o. s. o. s. o. s."
+    },
+    {
+      "index": 20,
+      "title": "Tech Layoffs are lower than in 2023 Layoffs",
+      "text": "Tech Layoffs are lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs https://qz.com/tech-layoffs-high-ai-struggling-find-talent-1851368861"
+    },
+    {
+      "index": 21,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Google Cloud AI Agents - Google Cloud Next",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia accelerators",
+      "topic": "infra",
+      "videoSeconds": 112,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=112s",
+      "slideIndex": 2,
+      "slideTitle": "Google Cloud Next 2024 Event (Las Vegas April",
+      "source": "youtube"
+    },
+    {
+      "claim": "Intel Gadi",
+      "topic": "general",
+      "videoSeconds": 271,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=271s",
+      "slideIndex": 4,
+      "slideTitle": "Antoni Gaudí i Cornet (1852-1926) was a Catalan",
+      "source": "youtube"
+    },
+    {
+      "claim": "Croc AI Accelerator",
+      "topic": "general",
+      "videoSeconds": 355,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=355s",
+      "slideIndex": 5,
+      "slideTitle": "Meta AI Accelerator: Inference & Training Meta Training",
+      "source": "youtube"
+    },
+    {
+      "claim": "Misc Announcements",
+      "topic": "general",
+      "videoSeconds": 478,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=478s",
+      "slideIndex": 7,
+      "slideTitle": "Mistral has released a bigger Mixtral model https://twitter.com/MistralAI/status/1777869263778291896",
+      "source": "youtube"
+    },
+    {
+      "claim": "Federal Government",
+      "topic": "general",
+      "videoSeconds": 820,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=820s",
+      "slideIndex": 8,
+      "slideTitle": "Former Apple Chief Design Officer Jony Ive and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Griffin Hulk",
+      "topic": "general",
+      "videoSeconds": 992,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=992s",
+      "slideIndex": 9,
+      "slideTitle": "Google’s Imagen 2 can now create 4 sec",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fake Girlfriend Boyfriend",
+      "topic": "general",
+      "videoSeconds": 1041,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1041s",
+      "slideIndex": 11,
+      "slideTitle": "Google DeepMind - Griffin & Hawk https://arxiv.org/abs/2402.19427 -",
+      "source": "youtube"
+    },
+    {
+      "claim": "ML Doc",
+      "topic": "general",
+      "videoSeconds": 1102,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1102s",
+      "slideIndex": 12,
+      "slideTitle": "Andrew Ng: https://twitter.com/AndrewYNg/status/1776737961243218134 The Financial Times has a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rag",
+      "topic": "rag",
+      "videoSeconds": 1182,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1182s",
+      "slideIndex": 14,
+      "slideTitle": "https://medium.com/@yisz https://medium.com/relari/a-practical-guide-to-rag-pipeline-evaluation-part-1-27a472b09893 https://medium.com/relari/a-practical-guide-to-rag-evaluation-part-2-generation-c79b1bde0f5d https://github.com/relari-ai/continuous-eval A Practical Guide to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Question Vector Indexing",
+      "topic": "rag",
+      "videoSeconds": 1252,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1252s",
+      "slideIndex": 15,
+      "slideTitle": "One problem with RAG is that the questions",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alama Embedding Models",
+      "topic": "rag",
+      "videoSeconds": 1507,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1507s",
+      "slideIndex": 16,
+      "slideTitle": "Ollama supports embedding models https://ollama.com/blog/embedding-models for example: mxbai-embed-large",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI OS",
+      "topic": "general",
+      "videoSeconds": 1583,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1583s",
+      "slideIndex": 18,
+      "slideTitle": "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi Excellent animated tutorials about deep learning. You",
+      "source": "youtube"
+    },
+    {
+      "claim": "Three Blue One Brown",
+      "topic": "general",
+      "videoSeconds": 1619,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1619s",
+      "slideIndex": 19,
+      "slideTitle": "models: 82 votes: 652,743 April 11 , 2024",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing Arena",
+      "topic": "benchmarks",
+      "videoSeconds": 1678,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1678s",
+      "slideIndex": 21,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1770,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k&t=1770s",
+      "slideIndex": 22,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "GH200 Grace CPU Hopper GPU 576 .. 624",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k",
+      "slideIndex": 3,
+      "slideTitle": "GH200 Grace CPU Hopper GPU 576 .. 624",
+      "source": "slide"
+    },
+    {
+      "claim": "Groq AI Accelerator - fast Inference GROQ -",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k",
+      "slideIndex": 6,
+      "slideTitle": "Groq AI Accelerator - fast Inference GROQ -",
+      "source": "slide"
+    },
+    {
+      "claim": "Federal Government Ramps Up Commitment to Fairness, Equity",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=CKUQF8WRj8k",
+      "slideIndex": 10,
+      "slideTitle": "Federal Government Ramps Up Commitment to Fairness, Equity",
+      "source": "slide"
+    }
+  ]
+}

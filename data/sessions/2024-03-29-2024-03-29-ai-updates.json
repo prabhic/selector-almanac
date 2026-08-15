@@ -1,0 +1,471 @@
+{
+  "id": "2024-03-29-2024-03-29-ai-updates",
+  "date": "2024-03-29",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "agents",
+    "infra",
+    "rag",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "ohzuAlUGy_U",
+    "title": "Have you heard these exciting AI news? - March 29, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=ohzuAlUGy_U",
+    "thumbnail": "https://i.ytimg.com/vi/ohzuAlUGy_U/hqdefault.jpg",
+    "duration": 1961
+  },
+  "deck": {
+    "path": "2024/2024-03-29-AI-Updates.pptx",
+    "filename": "2024-03-29-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-03-29-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-03-29-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Gro",
+      "startSeconds": 15,
+      "label": "00:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Accenta",
+      "startSeconds": 141,
+      "label": "02:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Stability AI",
+      "startSeconds": 221,
+      "label": "03:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Mistral 7B",
+      "startSeconds": 269,
+      "label": "04:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Agentic workflows",
+      "startSeconds": 317,
+      "label": "05:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Databricks model",
+      "startSeconds": 415,
+      "label": "06:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Mamba model",
+      "startSeconds": 606,
+      "label": "10:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Models",
+      "startSeconds": 631,
+      "label": "10:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Chip War",
+      "startSeconds": 873,
+      "label": "14:33",
+      "source": "youtube"
+    },
+    {
+      "title": "How Google let open AI",
+      "startSeconds": 914,
+      "label": "15:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Retrieval on AWS",
+      "startSeconds": 965,
+      "label": "16:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Multiagent R",
+      "startSeconds": 1062,
+      "label": "17:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Rug Evaluate and Improve",
+      "startSeconds": 1151,
+      "label": "19:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Advanced Methods",
+      "startSeconds": 1304,
+      "label": "21:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Deep Lake",
+      "startSeconds": 1481,
+      "label": "24:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Graph Rag",
+      "startSeconds": 1543,
+      "label": "25:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Quantize to 1 Bit",
+      "startSeconds": 1695,
+      "label": "28:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing Arena Leaderboard",
+      "startSeconds": 1771,
+      "label": "29:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs Layoffs",
+      "startSeconds": 1854,
+      "label": "30:54",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Groq - fast inference hardware & API AI",
+      "text": "Groq - fast inference hardware & API AI Consumption Growth, Consulting $ Emad Mostaque Has Left Stability.AI Mistral 7b v0.2 Agentic Workflows - Andrew Ng Databricks DBRX Jamba from AI21 Labs Simba from Microsoft Context Length / Output Length Open Interpreter 01 Light OpenAI Sora and Hollywood Elon Musk - AGI in 1-2-3 years h2o-wizardlm - turn docs into Q:A pairs Microchips are the new oil How Google let OpenAI take the lead? Simple RAG on AWS Multi-Agent RAG Systems RAG - Evaluate and Improve RAG - Advanced RAG - activeloop.ai, Deep Lake GraphRAG Quantize to 1-2 bit Crowd-sourced \"Arena\" Leaderboard Tech Layoffs is lower this year AI Updates March 29, 2024 Today we celebrate and enjoy the lemon variety of the chiffon cake"
+    },
+    {
+      "index": 2,
+      "title": "Groq - fast inference hardware and platform GROQ",
+      "text": "Groq - fast inference hardware and platform GROQ - Super fast LPU Inference Engine LPU = Language Processing Unit Up to 500 tokens/sec, x100 - x600 faster than GPUs https://www.youtube.com/watch?v=gmzd8dhlc0g https://www.youtube.com/watch?v=fv69M1M_fXw https://www.youtube.com/watch?v=WQDMKTEgQnY https://groq.com https://console.groq.com/docs/quickstart Jonathan Ross* is Groq’s founder and CEO. He has began Google’s TPU effort as a 20% project, and became a member of Google X’s Rapid Eval Team (Moonshots factory). Groq's LPU card cost $20K, which is much cheaper than $35K for Nvidia's H100"
+    },
+    {
+      "index": 3,
+      "title": "AI Consumption Growth Accenture is pushing AI .",
+      "text": "AI Consumption Growth Accenture is pushing AI . At their current billing rate, they are at $2.4 Billion annualized revenues from Gen AI. Yes, it is only ~3% of their overall bookings, but it grows 33% Quarter over Quarter.  Which means more than doubling in a year . And they are planning to double the number of data scientists and AI consultants (from 40K to 80K) in next 2 years. https://analyticsindiamag.com/accentures-generative-ai-revenue-surpasses-all-vc-backed-startups-combined/ https://www.ciodive.com/news/accenture-ai-investments-billions-data-modernization/711132/ https://en.wikipedia.org/wiki/Accenture Accenture plc is a US multinational professional services company based in Dublin, specializing in IT services and consulting. A Fortune Global 500 company, it reported revenues of $64.1 billion in 2023. 733,000 employees . Accenture partnered with AWS and Anthropic to build industry-specific AI solutions and ease enterprise adoption Average enterprise more than doubles budgets for AI in 2024 - https://a16z.com/generative-ai-enterprise-2024/ In one case an enterprise increased budget x8 after seeing ~90% cost savings. While 80-90% utilized closed source models in 2023, nowadays 46% of leaders prefer open source. Internal uses (coding assistants, text summarization) are moving faster than external apps (chatbots)."
+    },
+    {
+      "index": 4,
+      "title": "Emad Mostaque Has Left Stability.AI Emad Mostaque, the",
+      "text": "Emad Mostaque Has Left Stability.AI Emad Mostaque, the founder and SEO of Stabiltiy.AI has left the company \" to pursue decentralized AI \". https://www.theverge.com/2024/3/23/24109511/stability-ai-ceo-emad-mostaque-resignation-decentralized-ai https://twitter.com/EMostaque/status/1771400218170519741 This departure is following reports of million-dollar burn rates and high-profile research team exits (3 out of 5 of the researchers behind Stable Diffusion reportedly followed suit, including leader Robin Rombach). This move raises questions about the future of Stable Diffusion.  With Mostaque leaving and key developers gone, is the highly anticipated Stable Diffusion 3 release in jeopardy? ... push toward developing commercialized AI products is likely a big part of why Mostaque has stepped down. \"Not going to beat centralized AI with more centralized AI,\" said Mostaque in a post on X, following his resignation. \" It is now time to ensure AI remains open and decentralized ,\" says Mostaque in a separate statement. Robin Rombach Emad Mostaque Dominik Lorenz Andreas Blattmann"
+    },
+    {
+      "index": 5,
+      "title": "Mistral 7b v0.2 Mistral-7B-v0.2 has the following changes",
+      "text": "Mistral 7b v0.2 Mistral-7B-v0.2 has the following changes compared to Mistral-7B-v0.1 32k context window (vs 8k context in v0.1) Rope-theta = 1e6 No Sliding-Window Attention https://twitter.com/dchaplot/status/1771672289953866212 https://twitter.com/osanseviero/status/1771654833830821949 https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2 https://twitter.com/ofermend/status/1772070911937560748 https://ollama.com/library/mistral - updated to v0.2 https://arxiv.org/abs/2310.06825 (Oct 2023) https://docs.mistral.ai/models/ https://github.com/mistralai-sf24/hackathon/tree/main https://www.youtube.com/watch?v=62gpF6Uq6Rc"
+    },
+    {
+      "index": 6,
+      "title": "Agentic Workflows - Andrew Ng Reflection, self-reflection, self-improvement",
+      "text": "Agentic Workflows - Andrew Ng Reflection, self-reflection, self-improvement Tool Use (RAG or websearch, calculator, code execution, ...) Planning - devise and implement multi-step strategy (chain-of-thought, tree-of-thought, ...) Multi-Agent Collaboration, distribute tasks, exchanging ideas to forge superior solutions. https://www.deeplearning.ai/the-batch/issue-241/ https://www.youtube.com/watch?v=sal78ACtGTc"
+    },
+    {
+      "index": 7,
+      "title": "Databricks DBRX DBRX - new open-source LLM from",
+      "text": "Databricks DBRX DBRX - new open-source LLM from Databricks' Mosaic team. Better than Llama-2, Grok, and Mixtral Open-source, 32K context length LLM, transformer-based, decoder-only, 132B params M ixture-of-Experts (MoE) - 16 experts, chooses 4 (32B). Rotary Position Encodings (RoPE) Gated Linear Units (GLU) Grouped Query Attention (GQA) GPT-4 tokenizer x2 faster than comparable models needs 4 80GB GPUs to run inference with 16-bit precision https://www.databricks.com/blog/announcing-dbrx-new-standard-efficient-open-source-customizable-llms https://github.com/databricks/dbrx https://huggingface.co/collections/databricks/dbrx-6601c0852a0cdd3c59f71962 https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm"
+    },
+    {
+      "index": 8,
+      "title": "Jamba AI21 Labs just announced Jamba - an",
+      "text": "Jamba AI21 Labs just announced Jamba - an open-source and improved Mamba ! Hybrid SSM / Transformer model (SSM = State Space Model) MoE with 52B parameters (active 12B). SSM reduces quadratic complexity 256K context length - while x3 faster than Mixtral 8x7B on long contexts Fits up to 140K context on a single GPU Competitive performance to Mixtral! Open weights: Apache 2.0. https://twitter.com/Yampeleg/status/1773364830423937090 https://www.ai21.com/blog/announcing-jamba https://arxiv.org/pdf/2312.00752.pdf - Mamba, 2023 AI21 Labs founded in 2017 in Israel Yoav Shoham (Stanford) Ori Goshen (CrowdX) Amnon Shashua (Mobileye)"
+    },
+    {
+      "index": 9,
+      "title": "Simba SiMBA: Simplified Mamba-Based Architecture ... (Microsoft) https://arxiv.org/abs/2403.15360",
+      "text": "Simba SiMBA: Simplified Mamba-Based Architecture ... (Microsoft) https://arxiv.org/abs/2403.15360 https://github.com/badripatro/Simba https://www.marktechpost.com/2024/03/27/this-ai-paper-from-microsoft-present-simba-a-simplified-mamba-based-architecture-for-vision-and-multivariate-time-series/"
+    },
+    {
+      "index": 10,
+      "title": "Misc 1 Context Length / Output Length gpt-3.5-turbo-0125",
+      "text": "Misc 1 Context Length / Output Length gpt-3.5-turbo-0125 -  16K / 4K tokens in/out, data as of Sept 2021 gpt-4-0125-preview - 128K / 4K tokens in/out, data as of Dec 2023 Claude-3           - 200K / 4K tokens in/out, data as of Aug 2023 Gemini Pro 1.5     - 1Mln / 8K tokens in/out, data as of ... 2023 ? Mistral-7B v0.2     - 32K / ?? tokens in/out, data as of ... .... ? Stable Code Instruct 3B from Stability.ai The Open Interpreter 01 Light is an open-source hardware device: talk to it to control computer! This device is part of a broader open-source project aimed at creating a more accessible and flexible computing experience. https://github.com/OpenInterpreter/01 https://www.geeky-gadgets.com/pocket-ai-agent/ OpenAI is pitching Sora to Hollywood https://www.theverge.com/2024/3/22/24108858/openai-is-pitching-sora-to-hollywood 10% of US workers are in jobs most exposed to artificial intelligence, White House says https://www.cnn.com/2024/03/21/business/ai-jobs-white-house-work-force/ Amazon Invests Another $2.75 Bln In Anthropic, thus finalizing its $4 Bln investment in Anthropic. Amazon is planning to invest $150 Bln over the next 15 years on digital infrastructure. Elon Musk - AGI may be achieved in 1-2-3 years, definitely in less than 5 years. Grok-1.5 - will be available for early testers soon. This new version is has 128K context length and better reasoning and math. It is matching accuracy of Claude3 Sonnet and Gemini Pro 1.5. They didn’t say if it will be open-sourced. https://x.ai/blog/grok-1.5 h2o-wizardlm - turn documents into Q:A pairs https://github.com/h2oai/h2o-wizardlm NaLLM - Neo4j graph DB and LLMs https://github.com/neo4j/NaLLM"
+    },
+    {
+      "index": 11,
+      "title": "Chip War Microchips are the new oil Today,",
+      "text": "Chip War Microchips are the new oil Today, military, economic, and geopolitical power are built on a foundation of computer chips. Virtually everything— from missiles to microwaves, smartphones to the stock market — runs on chips. Until recently, America designed and built the fastest chips and maintained its lead as the #1 superpower. Now, America's edge is slipping, undermined by competitors in Taiwan, Korea, Europe, and, above all, China. Today, as Chip War reveals, China , which spends more money each year importing chips than it spends importing oil , is pouring billions into a chip-building initiative to catch up to the US. At stake is America's military superiority and economic prosperity."
+    },
+    {
+      "index": 12,
+      "title": "How Google let OpenAI take the lead? Google",
+      "text": "How Google let OpenAI take the lead? Google had a huge lead. Google created Google Translate, Attention mechanism, Transformer architecture (2017). Google understood the value of language models. Google created multiple models, some of them  better than ChatGPT. But Google was hesitant about releasing them because chatbots were wrong often (hallucination) - and Google had a reputation and goal to always provide correct answers. But releasing ChatGPT and other models made it clear that even with all shortcomings they are still useful and popular, and this has pushed Google to release their model eventually. https://www.linkedin.com/pulse/why-google-missed-chatgpt-alex-kantrowitz/"
+    },
+    {
+      "index": 13,
+      "title": "Simple RAG on AWS Build generative AI agents",
+      "text": "Simple RAG on AWS Build generative AI agents with Amazon Bedrock, Amazon DynamoDB, Amazon Kendra, Amazon Lex, and LangChain https://github.com/aws-samples/generative-ai-amazon-bedrock-langchain-agent-example https://python.langchain.com/docs/templates/rag-aws-kendra"
+    },
+    {
+      "index": 14,
+      "title": "Multi-Agent RAG Systems Use Microsoft AutoGen framework https://superlinked.com/vectorhub/enhancing-rag-with-a-multi-agent-system",
+      "text": "Multi-Agent RAG Systems Use Microsoft AutoGen framework https://superlinked.com/vectorhub/enhancing-rag-with-a-multi-agent-system https://www.youtube.com/watch?v=b3ofDE-XSP0 https://pub.aimind.so/a-quick-tutorial-on-multi-agent-workflows-with-autogen-354a394d3df1 Improving RAG using LangGraph and LangChain https://medium.com/data-science-in-your-pocket/improving-rag-using-langgraph-and-langchain-bb195bfe4b44 https://www.youtube.com/watch?v=TlZ5BFx_m3M Using LangChain ReAct Agents for Answering Multi-hop Questions in RAG Systems https://towardsdatascience.com/using-langchain-react-agents-for-answering-multi-hop-questions-in-rag-systems-893208c1847e ARAG = Augentic RAG https://www.linkedin.com/pulse/deep-dive-agentic-retrieval-augmented-generation-a-rag-sai-panyam-22dlc/ LLamaIndex Agentic RAG Demo https://cobusgreyling.medium.com/llamaindex-agentic-rag-demo-56e3f3cd973a Adding Agentic Layers to RAG https://www.youtube.com/watch?v=aQ4yQXeB1Ss Multi-Agent RAG using AWS & Kendra Multi-Agent RAG using CrewAI RAG on Azure Multi-Agent RAG on Azure Enhancing RAG with a Multi-Agent System using LangChain, Microsoft AutoGen, LLamaIndex, ... Multiple agents: query understanding, retriever, ranker, reader, and orchestrator agents. Multi-agent RAG can mitigate single-agent RAG's relevance, scalability, and latency limitations."
+    },
+    {
+      "index": 15,
+      "title": "RAG - Evaluate and Improve Naive RAG, how",
+      "text": "RAG - Evaluate and Improve Naive RAG, how to evaluate RAG Applications .. https://www.youtube.com/watch?v=CgQdg0SRuC0 Bad retrieval: low precision, not relevant data, hallucination, lost in the middle low recall, not all relevant data retrieved, so not enough data to synthesize and answer redundant or outdated data Bad Response Generation: Hallucination, Irrelevance, Toxicity/Bias How to improve? Store additional information, multi-model data store like Activeloop's Deep Lake Embeddings - make them better Retrieval - make better using Activeloop's Deep Memory Synthesis - use LLMs for more than generation Evaluate RAG: e2e (End-to-end) or evaluate separately retrieval and synthesis. retrieval - precision & recall synthesis - labeled (accuracy), non-labeled ( faithfulness, relevancy, adheres to guidelines, toxicity-free)"
+    },
+    {
+      "index": 16,
+      "title": "RAG - Advanced https://www.youtube.com/watch?v=TdjvzSpjBuI Better Parsers, Chunk Sizes,",
+      "text": "RAG - Advanced https://www.youtube.com/watch?v=TdjvzSpjBuI Better Parsers, Chunk Sizes, Hybrid Search, Metadata Filters Deep Memory, Reranking Recursive Retrieval, Embedded Tables, Small-to-Big Retrieval Agents, Multi-agents, routing, query planning, multi-document agents Embedding Fine-tuning & LLM Fine-tuning Pain Point Solutions Retrieval is bad Deep Memory Adjusting chunk sizes / parsers Reranking Small-to-big retrieval Fine-tuning Embeddings Handling structured/unstructured data Metadata Filters Augmenting SQL with semantic search Parsing embedded tables in PDFs Recursive Retrieval Handling Complex Questions Routing Query Planning Multi-Document Agents Deep Memory - a set of tools offered by Activeloop.ai https://docs.activeloop.ai/example-code/tutorials/vector-store/improving-search-accuracy-using-deep-memory Deep Memory a tiny neural network, it analyzes your data and computes a tailored transformation for your embeddings, placing embeddings in an optimized space, significantly improving the accuracy of vector search (up to 22% increase in accuracy). Small-to-big retrieval - embed sentence, return with text before and after (implemented in LlamaIndex)"
+    },
+    {
+      "index": 17,
+      "title": "RAG - activeloop.ai, Deep Lake activeloop.ai is a",
+      "text": "RAG - activeloop.ai, Deep Lake activeloop.ai is a startup in Mountain View, CA just received $11 Mln funding. Main product - a \"Deep Lake\" database specifically designed for AI data (text, embeddings, images, ...) Deep Lake can be used locally, in memory, on your cloud, or managed. pip3 install deeplake https://www.activeloop.ai https://www.activeloop.ai/about/ https://github.com/activeloopai/deeplake/ https://docs.activeloop.ai https://docs.activeloop.ai/quickstart Davit Buniatyan CEO, co-founder"
+    },
+    {
+      "index": 18,
+      "title": "GraphRAG, Other Graph RAG Systems Neo4j - graph",
+      "text": "GraphRAG, Other Graph RAG Systems Neo4j - graph database - https://neo4j.com .. https://www.youtube.com/watch?v=ftlZ0oeXYRE - Neo4j RAG .. https://www.youtube.com/watch?v=jMKRUo4wVKA - Neo4j RAG - Andrew Ng course .. https://www.youtube.com/watch?v=DuUtzRYbpNM - Neo4j in 10 min .. https://medium.com/singapore-gds/from-conventional-rag-to-graph-rag-a0202a1aaca7 - DIY example Amazon Neptune - fully managed graph database - https://aws.amazon.com/neptune/ Stardog - enterprise knowledge graph platform - https://www.stardog.com Ontotext GraphDB - an RDF database, great for semantic search. RDF = Resource Description Framework , stores information as graph of tripples (subject, predicate (property or relationship), object) https://www.ontotext.com/products/graphdb/ NebulaGraph - Graph RAG https://www.nebula-graph.io/posts/graph-RAG Graph Engine Service (GES) on Huawei Cloud - distributed high scale graph DB - https://www.huaweicloud.com/intl/en-us/product/ges.html Microsoft GraphRAG - uses LLM to create knowledge graph as a GNN  (Graph Neural Network) . GNN is used to both embedding the knowledge into the graph (as numeric embedding vectors ) and to identify key information (ranked retrieval). https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/"
+    },
+    {
+      "index": 19,
+      "title": "Quantize to 1-2 bit Quantize the Linear layers",
+      "text": "Quantize to 1-2 bit Quantize the Linear layers of a language model without sacrificing performance. This can result in a 70B model running on consumer GPUs. Towards 1-bit Machine Learning Models https://mobiusml.github.io/1bit_blog/ https://huggingface.co/mobiuslabsgmbh/Llama-2-7b-chat-hf_1bitgs8_hqq https://huggingface.co/mobiuslabsgmbh/Llama-2-7b-chat-hf_2bitgs8_hqq"
+    },
+    {
+      "index": 20,
+      "title": "models: 75 votes: 477,471 March 26, 2024 Starting",
+      "text": "models: 75 votes: 477,471 March 26, 2024 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard open source open source open source"
+    },
+    {
+      "index": 21,
+      "title": "Tech Layoffs are x3 times lower than in",
+      "text": "Tech Layoffs are x3 times lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs https://qz.com/tech-layoffs-high-ai-struggling-find-talent-1851368861"
+    },
+    {
+      "index": 22,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 23,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Groq - fast inference hardware & API AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gro",
+      "topic": "general",
+      "videoSeconds": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=15s",
+      "slideIndex": 2,
+      "slideTitle": "Groq - fast inference hardware and platform GROQ",
+      "source": "youtube"
+    },
+    {
+      "claim": "Accenta",
+      "topic": "general",
+      "videoSeconds": 141,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=141s",
+      "slideIndex": 3,
+      "slideTitle": "AI Consumption Growth Accenture is pushing AI .",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stability AI",
+      "topic": "general",
+      "videoSeconds": 221,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=221s",
+      "slideIndex": 4,
+      "slideTitle": "Emad Mostaque Has Left Stability.AI Emad Mostaque, the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mistral 7B",
+      "topic": "open-models",
+      "videoSeconds": 269,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=269s",
+      "slideIndex": 6,
+      "slideTitle": "Agentic Workflows - Andrew Ng Reflection, self-reflection, self-improvement",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agentic workflows",
+      "topic": "agents",
+      "videoSeconds": 317,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=317s",
+      "slideIndex": 7,
+      "slideTitle": "Databricks DBRX DBRX - new open-source LLM from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Databricks model",
+      "topic": "general",
+      "videoSeconds": 415,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=415s",
+      "slideIndex": 8,
+      "slideTitle": "Jamba AI21 Labs just announced Jamba - an",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mamba model",
+      "topic": "general",
+      "videoSeconds": 606,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=606s",
+      "slideIndex": 9,
+      "slideTitle": "Simba SiMBA: Simplified Mamba-Based Architecture ... (Microsoft) https://arxiv.org/abs/2403.15360",
+      "source": "youtube"
+    },
+    {
+      "claim": "Models",
+      "topic": "general",
+      "videoSeconds": 631,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=631s",
+      "slideIndex": 10,
+      "slideTitle": "Misc 1 Context Length / Output Length gpt-3.5-turbo-0125",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chip War",
+      "topic": "infra",
+      "videoSeconds": 873,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=873s",
+      "slideIndex": 11,
+      "slideTitle": "Chip War Microchips are the new oil Today,",
+      "source": "youtube"
+    },
+    {
+      "claim": "How Google let open AI",
+      "topic": "general",
+      "videoSeconds": 914,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=914s",
+      "slideIndex": 13,
+      "slideTitle": "Simple RAG on AWS Build generative AI agents",
+      "source": "youtube"
+    },
+    {
+      "claim": "Retrieval on AWS",
+      "topic": "rag",
+      "videoSeconds": 965,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=965s",
+      "slideIndex": 14,
+      "slideTitle": "Multi-Agent RAG Systems Use Microsoft AutoGen framework https://superlinked.com/vectorhub/enhancing-rag-with-a-multi-agent-system",
+      "source": "youtube"
+    },
+    {
+      "claim": "Multiagent R",
+      "topic": "agents",
+      "videoSeconds": 1062,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1062s",
+      "slideIndex": 15,
+      "slideTitle": "RAG - Evaluate and Improve Naive RAG, how",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rug Evaluate and Improve",
+      "topic": "general",
+      "videoSeconds": 1151,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1151s",
+      "slideIndex": 16,
+      "slideTitle": "RAG - Advanced https://www.youtube.com/watch?v=TdjvzSpjBuI Better Parsers, Chunk Sizes,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Advanced Methods",
+      "topic": "general",
+      "videoSeconds": 1304,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1304s",
+      "slideIndex": 17,
+      "slideTitle": "RAG - activeloop.ai, Deep Lake activeloop.ai is a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deep Lake",
+      "topic": "general",
+      "videoSeconds": 1481,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1481s",
+      "slideIndex": 18,
+      "slideTitle": "GraphRAG, Other Graph RAG Systems Neo4j - graph",
+      "source": "youtube"
+    },
+    {
+      "claim": "Graph Rag",
+      "topic": "rag",
+      "videoSeconds": 1543,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1543s",
+      "slideIndex": 20,
+      "slideTitle": "models: 75 votes: 477,471 March 26, 2024 Starting",
+      "source": "youtube"
+    },
+    {
+      "claim": "Quantize to 1 Bit",
+      "topic": "general",
+      "videoSeconds": 1695,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1695s",
+      "slideIndex": 21,
+      "slideTitle": "Tech Layoffs are x3 times lower than in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing Arena Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1771,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1771s",
+      "slideIndex": 22,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1854,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U&t=1854s",
+      "slideIndex": 23,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mistral 7b v0.2 Mistral-7B-v0.2 has the following changes",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U",
+      "slideIndex": 5,
+      "slideTitle": "Mistral 7b v0.2 Mistral-7B-v0.2 has the following changes",
+      "source": "slide"
+    },
+    {
+      "claim": "How Google let OpenAI take the lead? Google",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ohzuAlUGy_U",
+      "slideIndex": 12,
+      "slideTitle": "How Google let OpenAI take the lead? Google",
+      "source": "slide"
+    }
+  ]
+}

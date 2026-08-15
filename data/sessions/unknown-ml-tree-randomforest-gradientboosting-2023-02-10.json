@@ -1,0 +1,212 @@
+{
+  "id": "unknown-ml-tree-randomforest-gradientboosting-2023-02-10",
+  "date": null,
+  "title": "ML-Tree-RandomForest-GradientBoosting-2023-02-10",
+  "series": "seminar",
+  "topics": [
+    "open-models",
+    "infra",
+    "ml-fundamentals",
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2023/2023-02-10-Boosting/ML-Tree-RandomForest-GradientBoosting-2023-02-10.pptx",
+    "filename": "ML-Tree-RandomForest-GradientBoosting-2023-02-10.pptx",
+    "title": "ML-Tree-RandomForest-GradientBoosting-2023-02-10",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-02-10-Boosting/ML-Tree-RandomForest-GradientBoosting-2023-02-10.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-02-10-Boosting/ML-Tree-RandomForest-GradientBoosting-2023-02-10.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Bagging and Boosting Topics Bagging and Boosting concepts",
+      "text": "Bagging and Boosting Topics Bagging and Boosting concepts Decision Trees  Ensemble Learning (Regression) Implementations in Python Mitigations for model prediction “errors” Brett Efaw February 10, 2023"
+    },
+    {
+      "index": 2,
+      "title": "Idea: make a reliable system from unreliable blocks",
+      "text": "Idea: make a reliable system from unreliable blocks using single-shot democratic voting Computer 1 Computer 2 Computer 3 Data Majority voting system Idea: get to correct answer by making multiple corrective steps 1 st approximation correction correction correction ... Bagging Boosting Weighted voting system Power of the majority committee, senate, congress, council, board of directors, ... Power of validation science, open source community, ... Wrong bias is not removed, it is simply averaged Wrong bias is removed using correction and validation"
+    },
+    {
+      "index": 3,
+      "title": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "text": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) – uses smallest Entropy metrics C4.5 – successor of ID3 (since 1993), uses Entropy metrics CART (Classification And Regression Tree) – (since 1984),  uses Gini metrics CHAID ( CHi -squared Automatic Interaction Detector) . Performs multi-level splits when computing classification trees. MARS : extends decision trees to handle numerical data better. Conditional Inference Trees . Statistics-based approach that uses non-parametric tests as splitting criteria, corrected for multiple testing to avoid overfitting. This approach results in unbiased predictor selection and does not require pruning. DT goes from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). DT can do classification or regression. DTs are intuitive and easily interpretable. Algorithms for constructing DTs usually work top-down, by choosing and splitting on a variable at each step that most informative for the target label (produces the purest daughter nodes). Splits can result in more than two branches. Decision Tree Algorithms Trees: Greedy splitting (top->down) Greedy pruning (to prevent over-fitting) Fast and easy to build Surprisingly good Explainable"
+    },
+    {
+      "index": 4,
+      "title": "Idea - train several models to do predictions.",
+      "text": "Idea - train several models to do predictions. Then combine predictions of these models to get a better predictor. It is possible to combine any types of models into one predictor. But commonly people combine variations of similar models, like decision trees models. Two most famous approaches are: - \"Random Forest\" - \"Gradient Boosted Trees\" Under the hood these models combine 100 ... 200+ similar trees. The differences between algorithms: how you select the data to train those trees how you combine the predictions of these trees Ensemble Learning"
+    },
+    {
+      "index": 5,
+      "title": "A group of “ weak learners ” come",
+      "text": "A group of “ weak learners ” come together to form a “ strong learner ” Random Forest – parallel independent learners, democratic equal-weight voting. Note - Random Forest is a specific case of Bagging = Bootstrap Aggregating Bootstrap = data sampling with replacement Aggregating = voting Each learner gets a random subset of data (rows) and a random subset of features (columns). Each tree is trained independently. Each tree then can make its prediction. Then overall decision is made by averaging decisions of individual trees. Boosted Trees – trees trained sequentially. Train 1 st tree Train 2 nd tree concentrating on fixing errors left after 1 st tree, combine trees (weighted voting) Train 3 rd tree concentrating on fixing errors left after 1 st and 2 nd trees, etc. Continue boosting accuracy by adding trees. Stacking (Meta-learner) - train several different models, and then train model on top of their outputs - https://www.kdnuggets.com/2017/02/stacking-models-imropved-predictions.html Bagging reduces variance (averages) does NOT reduce bias error Stacking improves predictive force (combines \"skills\" of different models) Boosting reduces bias error by sequential corrective learning Ensemble Learning with Decision Trees"
+    },
+    {
+      "index": 6,
+      "title": "Model Explain-ability vs Performance",
+      "text": "Model Explain-ability vs Performance"
+    },
+    {
+      "index": 7,
+      "title": "# from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best,",
+      "text": "# from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best, inspired by LightGBM ) RandomForestRegressor # from xgboost !pip install xgboost XGBRegressor XGBRFRegressor All regressors have similar speed and accuracy. But the best is HistGradientBoostingRegressor - histogram-based gradient boosting. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.HistGradientBoostingRegressor.html https://machinelearningmastery.com/histogram-based-gradient-boosting-ensembles/ https://inria.github.io/scikit-learn-mooc/python_scripts/ensemble_hist_gradient_boosting.html Why the \"histogram-based\" approach is faster and better? The bottleneck in training any boosted trees algorithm is the time needed for finding the best split between values when building the trees. This time can be significantly reduced if we pre-process the data for a given tree – aggregate them into \"bins\". We convert the continuous float numbers into limited number of discrete integer values. This \"histogram binning\" reduces the number of splits we need to try to find the best split. This makes finding the split much faster, but reduces the accuracy. To increase the accuracy we can simply increase the number of trees. Bagging and Boosting Regressors in Python Rob Mulla Time Series Forecasting w/ XGBoost https://youtu.be/z3ZnOW-S550 https://youtu.be/vV12dGe_Fho"
+    },
+    {
+      "index": 8,
+      "title": "Random Forest can not extrapolate RF does interpolation",
+      "text": "Random Forest can not extrapolate RF does interpolation for values inside the range of values. But it can not go outside. - https://neptune.ai/blog/random-forest-regression-when-does-it-fail-and-why Random Forest Regressor works by finding closest matches in given range. We take random subset of data (columns, rows), and build a tree splitting by \"x\". Each leave has \"x\" and \"y\". We build hundred trees like this. For inference, given value \"x\" we traverse all 100 trees (by \"x\") and find 100 values of \"y\". Then we average them to get the desired prediction. The result is always within the range of \"y\" values. It can not extrapolate. Note: Boosting algorithms with default RMSE loss function can have 1-2 % of predictions going outside of the range. For example, we were getting negative duration (in days) although the training data has contained only positive number of days . We solved this problem by switching loss function to \" count poison \". The Gradient Boosting Regressor (assuming a squared error loss function) successively fits regression trees to the residuals of the previous stage. Now if the tree in stage \" i \" predicts a value larger than the target variable for a particular training example, the residual of stage \" i \" for that example is going to be negative, and so the regression tree at stage \"i+1\" will face negative target values (which are the residuals from stage \" i \"). The boosting algorithm adds up all these trees to make the final prediction – thus you may end up with some negative values (especially when you increase number of trees and use some categorical features) https:// datascience.stackexchange.com /questions/565/why-does-gradient-boosting-regression-predict-negative-values-when-there-are-no https:// github.com / dmlc / xgboost /issues/1581 https:// datascience.stackexchange.com /questions/77234/can-boosted-trees-predict-below-the-minimum-value-of-the-training-label/77272 Why does XGBoost regression predict completely unseen values Extrapolation"
+    },
+    {
+      "index": 9,
+      "title": "Example Regression Problem Continuous target variable constrained by",
+      "text": "Example Regression Problem Continuous target variable constrained by floor (min) and ceiling (max) values Edge cases (near floor and ceiling) are prevalent Non-linear relationship with (forecasted) wind speed Target variable is u-shaped with prevalence near min and max"
+    },
+    {
+      "index": 10,
+      "title": "Random Forest w/ 500 trees and squared error",
+      "text": "Random Forest w/ 500 trees and squared error objective max_depth = 32"
+    },
+    {
+      "index": 11,
+      "title": "XGBoost w/ hist method, 500 iterations, reg:squarederror max_depth",
+      "text": "XGBoost w/ hist method, 500 iterations, reg:squarederror max_depth = 32 and learning_rate = 1.0"
+    },
+    {
+      "index": 12,
+      "title": "XGBoost w/ hist method, 500 iterations, reg:logistic max_depth",
+      "text": "XGBoost w/ hist method, 500 iterations, reg:logistic max_depth = 32 and learning_rate = 1.0"
+    },
+    {
+      "index": 13,
+      "title": "Pipeline w/ Transformed Target Regressor Use . get_params",
+      "text": "Pipeline w/ Transformed Target Regressor Use . get_params () method to see what the parameters got renamed to"
+    },
+    {
+      "index": 14,
+      "title": "Mitigation Options for Boosting Model Prediction “Errors” A.",
+      "text": "Mitigation Options for Boosting Model Prediction “Errors” A. Try smaller learning rate (default = 0.1, try values closer to 0.01) B. Manually apply transformation Logarithm on positive data (w/ offset) Logit on bounded data (0 min, 1 max) C. Change objective in regressor Poisson is an option in HistGBR () and XGBRegressor () Logistic is an option in XGBRegressor () D. Sci-Kit Learn Transformed Target Regressor Part of a model pipeline E. Post-process (i.e. clip) the predictions"
+    },
+    {
+      "index": 15,
+      "title": "Conclusion Bagging and Boosting are ensemble methods Improve",
+      "text": "Conclusion Bagging and Boosting are ensemble methods Improve predictive ability of weak learners (i.e. DT) Random Forests = Bagging (bootstrap aggregating) Boosting = Light GBM, Ada Boost, Cat Boost, etc. Pros Relatively fast Flexible (non-linear) Accurate Feature importance Missing values support (XGB) Cons Not designed to extrapolate Boosting model prediction “errors”"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Bagging and Boosting Topics Bagging and Boosting concepts",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Bagging and Boosting Topics Bagging and Boosting concepts",
+      "source": "slide"
+    },
+    {
+      "claim": "Idea: make a reliable system from unreliable blocks",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Idea: make a reliable system from unreliable blocks",
+      "source": "slide"
+    },
+    {
+      "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "source": "slide"
+    },
+    {
+      "claim": "Idea - train several models to do predictions.",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Idea - train several models to do predictions.",
+      "source": "slide"
+    },
+    {
+      "claim": "A group of “ weak learners ” come",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "A group of “ weak learners ” come",
+      "source": "slide"
+    },
+    {
+      "claim": "Model Explain-ability vs Performance",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Model Explain-ability vs Performance",
+      "source": "slide"
+    },
+    {
+      "claim": "# from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "# from sklearn.ensemble : GradientBoostingRegressor HistGradientBoostingRegressor # (best,",
+      "source": "slide"
+    },
+    {
+      "claim": "Random Forest can not extrapolate RF does interpolation",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Random Forest can not extrapolate RF does interpolation",
+      "source": "slide"
+    },
+    {
+      "claim": "Example Regression Problem Continuous target variable constrained by",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Example Regression Problem Continuous target variable constrained by",
+      "source": "slide"
+    },
+    {
+      "claim": "Random Forest w/ 500 trees and squared error",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Random Forest w/ 500 trees and squared error",
+      "source": "slide"
+    },
+    {
+      "claim": "XGBoost w/ hist method, 500 iterations, reg:squarederror max_depth",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "XGBoost w/ hist method, 500 iterations, reg:squarederror max_depth",
+      "source": "slide"
+    },
+    {
+      "claim": "XGBoost w/ hist method, 500 iterations, reg:logistic max_depth",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "XGBoost w/ hist method, 500 iterations, reg:logistic max_depth",
+      "source": "slide"
+    }
+  ]
+}

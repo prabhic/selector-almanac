@@ -1,0 +1,127 @@
+{
+  "id": "2021-07-09-21-07-09-misc-lev",
+  "date": "2021-07-09",
+  "title": "Misc",
+  "series": "data-science-2021",
+  "topics": [
+    "open-models",
+    "general",
+    "data-engineering",
+    "jobs"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-07-09-Misc_Lev.pptx",
+    "filename": "21-07-09-Misc_Lev.pptx",
+    "title": "Misc",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-07-09-Misc_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-07-09-Misc_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Ten Mistakes to Avoid In the Machine Learning",
+      "text": "Ten Mistakes to Avoid In the Machine Learning Life Cycle By Fern Halper https://go.tdwi.org/rs/626-EMC-557/images/TDWI_10Mistakes_Machine_Learning_Life_Cycle_web.pdf Solutions to Failures Identify The Right Use Cases For ML , work with business Consider The Data Infrastructure And Architecture , make it flexible Consider The Need For Data Engineers And Tooling . Data Is The King Think About Data Preparation & Feature Engineering Consider The Need For MLOps Register and Manage/Monitor Models Consider Data Issues In Production Govern Data And Models Take Interpretability And Explainability Into Account Build Analytics Culture & Processes . Communicate the value before, during, and after."
+    },
+    {
+      "index": 2,
+      "title": "Top 18 Low-Code and No-Code ML Platforms https://serokell.io/blog/top-no-code-platforms",
+      "text": "Top 18 Low-Code and No-Code ML Platforms https://serokell.io/blog/top-no-code-platforms PyCaret - open-source ML library in Python, a wrapper that can replace hundreds of lines of code with just a few words. Uses scikit-learn, XGBoost, Microsoft LightGBM, spaCy, etc. Auto-ViML - automatically cleans, transforms, and normalizes data (numeric, text, visual), then renders your data through different machine learning models. H2O AutoML - open-source ML and AutoML platform. Google Cloud Auto ML Google ML Kit (for Android and iOS) Teachable Machine (Google) - use ML for apps and websites to recognize and classify photos and sounds. Runway AI - video and photo editing (green screen, filtering, etc.) Lobe - ML project templates. Obviously AI - forecasting and optimization for marketing and business. CreateML - user-friendly drag-and-drop platform by Apple for Mac and IOS. MakeML - for iOS, object segmentation and object detection, photos and videos. Fritz AI - for iOS and Android apps, snapchat, etc. SuperAnnotate - automates annotations to videos and texts. RapidMiner - obtaining and processing data from different sources. What-If Tool - assess the performance of the models without coding. DataRobot - platform for business predictive analytics. Nanonets AI - captures data from documents - unseen, semi-structured docs. MonkeyLearn Studio - automating tagging emails, tickets, and other texts."
+    },
+    {
+      "index": 3,
+      "title": "Link for Cosmos DB Very good short video",
+      "text": "Link for Cosmos DB Very good short video https://www.youtube.com/watch?v=UcYMgKpbdPk Looks like all the \"Link\" is is simply enabling \"Analytical Store\" inside Cosmos DB, thus enabling replication from transactional to analytical parts of Cosmos DB. Then you can simply query the Analytical part using SQL from Synapse. https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link https://docs.microsoft.com/en-us/azure/cosmos-db/configure-synapse-link"
+    },
+    {
+      "index": 4,
+      "title": "Transactional Store, massive inserts, key-value (JSON doc) Analytical",
+      "text": "Transactional Store, massive inserts, key-value (JSON doc) Analytical Columnar Store Operational Data Configuring Synapse Link for Cosmos DB means enabling Analytical Store in Cosmos DB and enabling automatic sync of data into it. So you can use SQL to query data from Analytical Store without slowing down the Transactional Store. Cosmos DB Link for Cosmos DB Link for Cosmos DB Cosmos DB SQL Query Auto-Sync Power BI ML Studio Azure Synapse Analytics Azure Data Lake Storage (Files)"
+    },
+    {
+      "index": 5,
+      "title": "Question: How Link manages to do real-time replication?",
+      "text": "Question: How Link manages to do real-time replication? It is interesting because inserts into analytical DBs are usually very slow. Answer: (from a Microsoft architect): In a nutshell this is achieved using the combination of micro-batch jobs and mass parallel ingestion. As you know, Synapse doesn't perform well under transactional load due to variety of factors, but using Polybase removes these limitations. Think about repointing Polybase to some other source (other than ADLS for example). Some ideas around the actual implementation you can figure out using the POLARIS public paper: - http://www.vldb.org/pvldb/vol13/p3204-saborit.pdf Here is the video walking through this POLARIS paper explaining how the Azure Synapse SQL engine works. Especially the Serverless SQL: - https://www.youtube.com/watch?v=IqjVZexHCcE Here is a video showing how to configure Link in Azure interface: - https://www.youtube.com/watch?v=UcYMgKpbdPk Configuring the \"Link\" is is simply enabling \"Analytical Store\" inside Cosmos DB, thus enabling replication from transactional to analytical parts of Cosmos DB. Then you can simply query the Analytical part using SQL from Synapse. Official docs: - https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction - https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link - https://docs.microsoft.com/en-us/azure/cosmos-db/configure-synapse-link Link for Cosmos DB – how it works Very interesting article about Cosmos DB and different architectures. - https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/ Good people to connect: Andrei Zaichikov (Luxembourg, Europe) - https://www.linkedin.com/in/zaychikov/ Aleksey Savateyev - https://www.linkedin.com/in/aleksey-s-7b0918/ - https://www.youtube.com/watch?v=8RiHSDf7xBs - https://azure.microsoft.com/en-us/blog/gain-insight-into-your-azure-cosmos-db-data-with-qlik-view-and-qlik-sense/ Kirill Gavrylyuk - director of Cosmos DB development: - https://www.linkedin.com/in/kirillgavrylyuk/ - https://www.youtube.com/watch?v=27SN1eyVn5k - https://www.youtube.com/watch?v=2gydxodDS_I - https://www.youtube.com/watch?v=rIjH24x19pQ"
+    },
+    {
+      "index": 6,
+      "title": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "text": "Synapse Integrate Data Pipelines Azure Data Lake Storage Gen2 Machine Learning Web End-Points Azure Synapse"
+    },
+    {
+      "index": 7,
+      "title": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "text": "Synapse Integrate Data Pipelines Azure Data Lake Storage Gen2 Machine Learning Web End-Points XYZ Electric Co Data Architecture Hourly Electric Meter Data (residential) Data Concentrator Stream Analytics Pre-aggregated Data Streaming Data"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Ten Mistakes to Avoid In the Machine Learning",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Ten Mistakes to Avoid In the Machine Learning",
+      "source": "slide"
+    },
+    {
+      "claim": "Top 18 Low-Code and No-Code ML Platforms https://serokell.io/blog/top-no-code-platforms",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Top 18 Low-Code and No-Code ML Platforms https://serokell.io/blog/top-no-code-platforms",
+      "source": "slide"
+    },
+    {
+      "claim": "Link for Cosmos DB Very good short video",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Link for Cosmos DB Very good short video",
+      "source": "slide"
+    },
+    {
+      "claim": "Transactional Store, massive inserts, key-value (JSON doc) Analytical",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Transactional Store, massive inserts, key-value (JSON doc) Analytical",
+      "source": "slide"
+    },
+    {
+      "claim": "Question: How Link manages to do real-time replication?",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Question: How Link manages to do real-time replication?",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "source": "slide"
+    }
+  ]
+}

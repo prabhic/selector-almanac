@@ -1,0 +1,524 @@
+{
+  "id": "2024-06-21-2024-06-21-ai-updates",
+  "date": "2024-06-21",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "open-models",
+    "rag",
+    "infra",
+    "multimodal",
+    "jobs",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "_wdzUjZAeoI",
+    "title": "Have you heard these exciting AI news June 21 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+    "thumbnail": "https://i.ytimg.com/vi/_wdzUjZAeoI/hqdefault.jpg",
+    "duration": 1155
+  },
+  "deck": {
+    "path": "2024/2024-06-21-AI-Updates.pptx",
+    "filename": "2024-06-21-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-06-21-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-06-21-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Anthropic Sonnet v.3.5",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ollama Concurrent Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Calling models without LangChain or LlamaIndex",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DELL AI Workstations - 96GB GPU memory",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Snapdragon X Elite Laptops",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ilya Sutskever starting a new company",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "NVIDIA Nemotron 4 340B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Google now offers ‘web’ search",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepSeek-Coder-V2",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "deeplearning.ai course \"Function-Calling ...\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia surpassing Microsoft",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI factory for xAI with 100K H100 GPUs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Runway’s Gen-3 Alpha Video Generation",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta Chameleon and other new models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Subobject-level Image Tokenization for Images",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Decagon - human-like AI customer support",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Claudette python library",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "The Last Screenwriter (movie)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Apple models and datasets on Huggingface",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "factory.ai - AI-powered Software Development",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Self-hosting LLMs on cloud - expensive",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI in Finance - jobs displacements",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta Llama3-400b - in July ?",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Simulations of Cyberattacks on AI systems",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrej Karpathy \"Micrograd\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs were lower than in 2023",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Anthropic Sonnet v.3.5 Ollama Concurrent Models Calling models",
+      "text": "Anthropic Sonnet v.3.5 Ollama Concurrent Models Calling models without LangChain or LlamaIndex DELL AI Workstations - 96GB GPU memory Snapdragon X Elite Laptops Ilya Sutskever starting a new company NVIDIA Nemotron 4 340B Google now offers ‘web’ search DeepSeek-Coder-V2 deeplearning.ai course \"Function-Calling ...\" Nvidia surpassing Microsoft AI factory for xAI with 100K H100 GPUs Runway’s Gen-3 Alpha Video Generation Meta Chameleon and other new models Subobject-level Image Tokenization for Images Decagon human-like AI customer support Claudette python library The Last Screenwriter (movie) Apple models and datasets on Huggingface factory.ai - AI-powered Software Development Self-hosting LLMs on cloud - expensive AI in Finance - jobs displacements Meta Llama3-400b - in July ? Simulations of Cyberattacks on AI systems Andrej Karpathy \"Micrograd\" Crowd-sourced \"Arena\" Leaderboard Tech Layoffs were lower than in 2023 AI Updates June 21 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Anthropic Sonnet v.3.5 Anthropic has just released new",
+      "text": "Anthropic Sonnet v.3.5 Anthropic has just released new version of their Sonnet - v.3.5 https://www.anthropic.com/news/claude-3-5-sonnet https://x.com/anthropicai/status/1803790676988920098 Surpasses gpt-4o, x2 faster than 3.0 Opus, x2 more intelligent, 80% cheaper - $3 in/ $15 out per 1M tokens Context Window - 200K The model excels in graduate-level reasoning (GPQA), undergraduate-level knowledge (MMLU), and coding proficiency (HumanEval) Opus and Haiku models coming later this year"
+    },
+    {
+      "index": 3,
+      "title": "Run Multiple Models In Parallel - Ollama example",
+      "text": "Run Multiple Models In Parallel - Ollama example Both LM Studio and Ollama allow to run multiple models at once in parallel. For Ollama: export OLLAMA_NUM_PARALLEL=4 # multiple requests simultaneously for a single model export OLLAMA_MAX_LOADED_MODELS=4 # load multiple models simultaneously ollama serve https://www.youtube.com/watch?v=Cd6f86zsAyg https://github.com/mneedham/LearnDataWithMark/blob/main/ollama-parallel/app.py https://www.markhneedham.com/blog/2024/05/11/side-by-side-local-llms-ollama-streamlit/ import ollama, asyncio from openai import AsyncOpenAI from token_count import TokenCount client = AsyncOpenAI(base_url=\" http://localhost:11434/v1 \", ap_key=\"ignore-me\") models = [ m['name'] for m in ollama.list()[\"models\"] if m[\"details\"][\"family\"] in [\"llama\", \"gemma\"] ] async def run_prompt(placeholder, meta, prompt, model): tc = TokenCount(model_name=\"gpt-3.5-turbo\") stream = await client.chat.completions.create( model=model, messages=[{\"role\":\"system\",\"content\":\"You are a helpful assistant.\"}, {\"role\":\"user\"  ,\"content\":prompt\"},], stream=True) async for chunk in stream: chunk_content = chunk.choices[0].delta.content if chunk_content is not None: ... async def main(): await asyncio.gather( run_prompt( body_1, meta_1, prompt=prompt, model=model_1), run_prompt( body_2, meta_2, prompt=prompt, model=model_2))"
+    },
+    {
+      "index": 4,
+      "title": "Calling models without LangChain or LlamaIndex from openai",
+      "text": "Calling models without LangChain or LlamaIndex from openai import OpenAI import ollama # bag is a custom dictionary class, used to pass parameters def call_model(bag, prompt_string): \"\"\" accepts/returns string \"\"\" if bag.arg_service == \"ollama\" : # ------------------------------------- if not test_avail(bag, \"client\" ): bag.client = ollama.Client() resp = bag.client.generate (model=bag.arg_model, prompt=prompt_string) ss = resp[ 'response' ] if type(ss) != str: ss = ss.content return ss elif bag.arg_service == \"openai\" : # ------------------------------------- if not test_avail(bag, \"client\" ): bag.client = OpenAI() resp = bag.client.chat.completions.create ( model=bag.arg_model, messages=[ { \"role\": \"system\", \"content\": \"You are a helpful assistant.\" }, { \"role\": \"user\", \"content\" : prompt_string} ]) ss = resp.choices[0].message.content if type(ss) != str: ss = ss.content return ss else: # ------------------------------------- print( \"ERROR in call_model() - wrong model, Exiting ... \" ) sys.exit(1)"
+    },
+    {
+      "index": 5,
+      "title": "https://www.dell.com/en-us/dt/ai-technologies/ Precision 5860 Tower Workstation - $24K+ Intel®",
+      "text": "https://www.dell.com/en-us/dt/ai-technologies/ Precision 5860 Tower Workstation   - $24K+ Intel® Xeon® W7-2475X (37.5 MB cache, 20 cores, 40 threads) Dual NVIDIA® RTX™ A6000 Ada, 2*48 = 96GB total 128GB RAM (8 x 16 GB) DDR5 2*4TB SSD DELL AI-Ready Workstations Matthew Berman testing DELL https://www.youtube.com/watch?v=8HC6aRMmg3I https://www.dell.com/en-us/shop/desktop-computers/precision-5860-tower/spd/precision-5860-workstation/xctopt5860us_vp?configurationid=1cda8e9b-b3af-40fb-a43d-72242abd5f55 Tested models running in parallel using LM Studio: llama-3-70b-instruct q8 Mistral-7b-instruct fp16 (42 t/s) llama-3-70b-instruct q6 Phi-3-mini-4k-Instruct fp16 (~60 ts) llama3-8b-Instruct q8 llama3-8b-Instruct q4  (~60 ts) (12t/s if run 10 in parallel) Phi-3-medium-128k-instruct f32"
+    },
+    {
+      "index": 6,
+      "title": "Dell - https://www.dell.com/en-us/shop/laptops/snapdragon/spd/xps-13-9345-laptop (a 64GB memory with 1TB",
+      "text": "Dell - https://www.dell.com/en-us/shop/laptops/snapdragon/spd/xps-13-9345-laptop (a 64GB memory with 1TB SSD - $2K,  3 days delivery) Lenovo ThinkPad T14s Gen 6 - up to 64GB memory, 2.7 lbs https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019 https://www.youtube.com/watch?v=gxc5kvzoddE Asus Vivobook S 15 - https://www.asus.com/us/news/mm4mlmblcvod5vin/ Samsung Galaxy Book4 Edge 16\" screen Microsoft Surface - https://www.youtube.com/watch?v=GZy5NOYwYiw Acer - https://www.acer.com/us-en/laptops/swift/swift-14-ai HP - https://www.hp.com/us-en/shop/vwa/business-solutions/proc=Snapdragon Snapdragon X Elite Laptops - 30+ hrs battery life, Sys-on-Chip Microsoft    vs    Samsung SnapDragon    vs    Mac Dave2D: Macbooks finally have competition Snapdragon has CPU, GPU, and NPU Hexagon 45 TOPS. GPU is Adreno, it uses OpenCL instead of CUDA. But you can run PyTorch using NPU : https://developer.qualcomm.com/sites/default/files/docs/snpe/setup_pytorch.html"
+    },
+    {
+      "index": 7,
+      "title": "Ilya Sutskever starting a new company Superintelligence is",
+      "text": "Ilya Sutskever starting a new company Superintelligence is within reach. Building safe superintelligence (SSI) is the most important technical problem of our​​ time. We've started the world’s first straight-shot SSI lab, with one goal and one product: a safe superintelligence. It’s called Safe Superintelligence Inc. SSI is our mission, our name, and our entire product roadmap, because it is our sole focus. Our team, investors, and business model are all aligned to achieve SSI. We approach safety and capabilities in tandem, as technical problems to be solved through revolutionary engineering and scientific breakthroughs. We plan to advance capabilities as fast as possible while making sure our safety always remains ahead. This way, we can scale in peace. Our singular focus means no distraction by management overhead or product cycles, and our business model means safety, security, and progress are all insulated from short-term commercial pressures. Ilya Sutskever starting a new company: Safe Superintelligence Inc.   (  ssi  ) https://twitter.com/ssi/status/1803472825476587910 https://ssi.inc We are an American company with offices in Palo Alto and Tel Aviv, where we have deep roots and the ability to recruit top technical talent. We are assembling a lean, cracked team of the world’s best engineers and researchers dedicated to focusing on SSI and nothing else. If that’s you, we offer an opportunity to do your life’s work and help solve the most important technical challenge of our age. Now is the time. Join us. Ilya Sutskever, Daniel Gross, Daniel Levy June 19, 2024 Ilya Sutskever            Daniel Gross             Daniel Levy ssi is co-founded by Suskever, former Y Combinator partner Daniel Gross, and Ex-OpenAI engineer Daniel Levy"
+    },
+    {
+      "index": 8,
+      "title": "Misc 1 NVIDIA Nemotron 4 340B is a",
+      "text": "Misc 1 NVIDIA Nemotron 4 340B is a family of open-source AI models released by NVIDIA. The models are designed to generate synthetic data for training LLMs. The Nemotron-4 340B Reward model can be used to enhance the quality of responses generated by AI models, to filter for high-quality responses generated by AI models, based on attributes like helpfulness, correctness, coherence, complexity, and verbosity . https://www.youtube.com/watch?v=_7QgNfpGUhM NeMo - Framework for Building GenAI Models https://docs.nvidia.com/nemo-framework/ Google now offers ‘web’ search — and an AI opt-out button. The optional setting filters out almost all the other blocks of content that Google crams into a search results page, leaving you with links and text DeepSeek-Coder-V2 - an open-source Mixture-of-Experts (MoE) code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks https://github.com/deepseek-ai/DeepSeek-Coder-V2 https://www.youtube.com/watch?v=0Xp7K2rHcZg"
+    },
+    {
+      "index": 9,
+      "title": "Misc 2 deeplearning.ai - new course \"Function-Calling and",
+      "text": "Misc 2 deeplearning.ai - new course \"Function-Calling and Data Extraction with LLMs\" Nvidia grew x9 since the end of 2022, surpassed Apple and on par with Microsoft Runway’s Gen-3 Alpha - another Sora AI Video Competitor https://nofilmschool.com/runway-gen-3-alpha . Dell, Nvidia, and Super Micro Computer are building an AI factory for xAI’s massive supercomputer to train Grok AI. Dell is assembling half of the server racks for xAI's planned supercomputer, with Super Micro handling the other half. The system aims to use up to 100,000 Nvidia H100 GPUs , potentially making it 4x larger than the biggest existing AI clusters. Musk wants the supercomputer to be fully operational by Fall 2025 to accelerate the development of advanced Grok models. Meta - new models: https://ai.meta.com/blog/meta-fair-research-new-releases/ https://twitter.com/ylecun/status/1803200026094739734 Meta Chameleon - a family of \"early fusion\" models that operate on images and text tokens simultaneously. Paper - https://arxiv.org/abs/2405.09818 Code and model - https://github.com/facebookresearch/chameleon Subobject-level Image Tokenization - https://arxiv.org/abs/2402.14327v1?utm_source=tldrai"
+    },
+    {
+      "index": 10,
+      "title": "Misc 3 Decagon raises $35m Series A to",
+      "text": "Misc 3 Decagon raises $35m Series A to build human-like AI agents for customer support . It raised a $30M Series A from Accel and $5M Seed from a16z. Decagon's product already handles global support for companies like Eventbrite, Rippling, Webflow, BILT, and Substack. - https://decagon.ai/blog/series-a Claudette - a convenient python library to work with Claude models - https://claudette.answer.ai . Some features: A Chat class that creates stateful dialogs Support for prefill , which tells Claude what to use as the first few words of its response Support for images Support for Tool Use API pip install claudette import claudette from claudette import * chat = Chat(model, sp= \"You are a helpful assistant.\" ) resp = chat( \"Why is the sky blue?\" ) print(resp) The Last Screenwriter - movie, ChatGPT-generated drama https://lastscreenwriter.com/ https://www.imdb.com/title/tt32236000/ Apple contribute core models and datasets to huggingface https://huggingface.co/apple"
+    },
+    {
+      "index": 11,
+      "title": "Misc 4 factory.ai raises $15M Series A AI-powered",
+      "text": "Misc 4 factory.ai raises $15M Series A AI-powered software development tools known as Droids https://www.factory.ai https://www.factory.ai/news/series-a-announcement Self-hosting LLMs on cloud is actually more expensive than using standard APIs - https://blog.lytix.co/posts/self-hosting-llama-3 AI in Finance (report by Citigroup) : https://www.citigroup.com/global/insights/citigps/ai-in-finance-bank-to-the-future They predict that in finance many jobs will be automated by AI: in banking - 54% in insurance - 48% in energy - 43% Also report predicts that banks will hire more AI managers and compliance officers. Meta Llama3-400b https://llama-2.ai/llama-3-400b/ Planned for release in July Microsoft, OpenAI & NVIDIA working with US federal agencies in case critical AI systems get attacked. Planning the first joint simulation of a cyberattack on major critical AI systems. https://www.firstpost.com/tech/microsoft-openai-nvidia-working-with-us-federal-agencies-in-case-critical-ai-systems-get-attacked-13783484.html"
+    },
+    {
+      "index": 12,
+      "title": "Micrograd Andrej Karpathy \"Micrograd\" \"These 94 lines of",
+      "text": "Micrograd Andrej Karpathy \"Micrograd\" \"These 94 lines of code are everything that is needed to train a neural network. Everything else is just efficiency.\" https://twitter.com/karpathy/status/1803963383018066272 https://github.com/karpathy/micrograd https://www.youtube.com/watch?v=VMj-3S1tku0"
+    },
+    {
+      "index": 13,
+      "title": "Total #models: 109. Total #votes: 1,314,230. Last updated:",
+      "text": "Total #models: 109. Total #votes: 1,314,230. Last updated: 2024-06-17. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 14,
+      "title": "Tech Layoffs in 2024 are lower than last",
+      "text": "Tech Layoffs in 2024 are lower than last year Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 15,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 16,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Anthropic Sonnet v.3.5",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 1,
+      "slideTitle": "Anthropic Sonnet v.3.5 Ollama Concurrent Models Calling models",
+      "source": "outline"
+    },
+    {
+      "claim": "Ollama Concurrent Models",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 2,
+      "slideTitle": "Anthropic Sonnet v.3.5 Anthropic has just released new",
+      "source": "outline"
+    },
+    {
+      "claim": "Calling models without LangChain or LlamaIndex",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 2,
+      "slideTitle": "Anthropic Sonnet v.3.5 Anthropic has just released new",
+      "source": "outline"
+    },
+    {
+      "claim": "DELL AI Workstations - 96GB GPU memory",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 3,
+      "slideTitle": "Run Multiple Models In Parallel - Ollama example",
+      "source": "outline"
+    },
+    {
+      "claim": "Snapdragon X Elite Laptops",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 3,
+      "slideTitle": "Run Multiple Models In Parallel - Ollama example",
+      "source": "outline"
+    },
+    {
+      "claim": "Ilya Sutskever starting a new company",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 4,
+      "slideTitle": "Calling models without LangChain or LlamaIndex from openai",
+      "source": "outline"
+    },
+    {
+      "claim": "NVIDIA Nemotron 4 340B",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 4,
+      "slideTitle": "Calling models without LangChain or LlamaIndex from openai",
+      "source": "outline"
+    },
+    {
+      "claim": "Google now offers ‘web’ search",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 5,
+      "slideTitle": "https://www.dell.com/en-us/dt/ai-technologies/ Precision 5860 Tower Workstation - $24K+ Intel®",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepSeek-Coder-V2",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 6,
+      "slideTitle": "Dell - https://www.dell.com/en-us/shop/laptops/snapdragon/spd/xps-13-9345-laptop (a 64GB memory with 1TB",
+      "source": "outline"
+    },
+    {
+      "claim": "deeplearning.ai course \"Function-Calling ...\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 6,
+      "slideTitle": "Dell - https://www.dell.com/en-us/shop/laptops/snapdragon/spd/xps-13-9345-laptop (a 64GB memory with 1TB",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia surpassing Microsoft",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 7,
+      "slideTitle": "Ilya Sutskever starting a new company Superintelligence is",
+      "source": "outline"
+    },
+    {
+      "claim": "AI factory for xAI with 100K H100 GPUs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 7,
+      "slideTitle": "Ilya Sutskever starting a new company Superintelligence is",
+      "source": "outline"
+    },
+    {
+      "claim": "Runway’s Gen-3 Alpha Video Generation",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 8,
+      "slideTitle": "Misc 1 NVIDIA Nemotron 4 340B is a",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta Chameleon and other new models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 9,
+      "slideTitle": "Misc 2 deeplearning.ai - new course \"Function-Calling and",
+      "source": "outline"
+    },
+    {
+      "claim": "Subobject-level Image Tokenization for Images",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 9,
+      "slideTitle": "Misc 2 deeplearning.ai - new course \"Function-Calling and",
+      "source": "outline"
+    },
+    {
+      "claim": "Decagon - human-like AI customer support",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 10,
+      "slideTitle": "Misc 3 Decagon raises $35m Series A to",
+      "source": "outline"
+    },
+    {
+      "claim": "Claudette python library",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 10,
+      "slideTitle": "Misc 3 Decagon raises $35m Series A to",
+      "source": "outline"
+    },
+    {
+      "claim": "The Last Screenwriter (movie)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 11,
+      "slideTitle": "Misc 4 factory.ai raises $15M Series A AI-powered",
+      "source": "outline"
+    },
+    {
+      "claim": "Apple models and datasets on Huggingface",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 11,
+      "slideTitle": "Misc 4 factory.ai raises $15M Series A AI-powered",
+      "source": "outline"
+    },
+    {
+      "claim": "factory.ai - AI-powered Software Development",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 12,
+      "slideTitle": "Micrograd Andrej Karpathy \"Micrograd\" \"These 94 lines of",
+      "source": "outline"
+    },
+    {
+      "claim": "Self-hosting LLMs on cloud - expensive",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 13,
+      "slideTitle": "Total #models: 109. Total #votes: 1,314,230. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "AI in Finance - jobs displacements",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 13,
+      "slideTitle": "Total #models: 109. Total #votes: 1,314,230. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta Llama3-400b - in July ?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 14,
+      "slideTitle": "Tech Layoffs in 2024 are lower than last",
+      "source": "outline"
+    },
+    {
+      "claim": "Simulations of Cyberattacks on AI systems",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 14,
+      "slideTitle": "Tech Layoffs in 2024 are lower than last",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrej Karpathy \"Micrograd\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 15,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 15,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs were lower than in 2023",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_wdzUjZAeoI",
+      "slideIndex": 16,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

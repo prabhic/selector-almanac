@@ -1,0 +1,291 @@
+{
+  "id": "2025-02-07-2025-02-07-ai-updates",
+  "date": "2025-02-07",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models"
+  ],
+  "video": {
+    "id": "Kz_IYmQqTpM",
+    "title": "Have you heard these exciting AI news? - February 07, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+    "thumbnail": "https://i.ytimg.com/vi/Kz_IYmQqTpM/hqdefault.jpg",
+    "duration": 997
+  },
+  "deck": {
+    "path": "2025/2025-02-07-AI-Updates.pptx",
+    "filename": "2025-02-07-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-02-07-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-02-07-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "DeepSeek Acceleration Effect",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Multiple R Models - Cheap & Open Source",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepSeek Self-Evolving",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Restrictions on using DeepSeek in the US",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepSeek Jailbreaking",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrej Karpathy - Take LLM to School",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Reflection-70B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "text": "DeepSeek Acceleration Effect Multiple R Models - Cheap & Open Source DeepSeek Self-Evolving Restrictions on using DeepSeek in the US DeepSeek Jailbreaking Andrej Karpathy - Take LLM to School Reflection-70B AI Updates February 07 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs Reasoning Models  +  Tools/Agents  =  AGI Microsoft Copilot with o1 Microsoft DeepSeek OpenAI o3-mini OpenAI Deep Research Google Gemini 2.0 Flash & Pro Deep Research - Open Source Alternatives Andrej Karpathy - Deep Dive into LLMs Anthropic classifiers reduce jailbreaks OpenAI ChatGPT Search - open without login Microsoft \"Think Deeper\" in Copilot - free Elicit.com - Automate research ChatGPT Edu - OpenAI in Education WARP: An Efficient Multi-Vector Retrieval Engine Figure AI drops OpenAI - to use in-house models Sam Altman says OpenAI is ‘on the wrong side of history"
+    },
+    {
+      "index": 2,
+      "title": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "text": "DeepSeek Acceleration Effect Multiple R Models - Cheap & Open Source DeepSeek Self-Evolving Restrictions on using DeepSeek in the US DeepSeek Jailbreaking Andrej Karpathy - Take LLM to School Reflection-70B Crowd-sourced \"Arena\" Leaderboard Jobs Microsoft Copilot with o1 Microsoft DeepSeek OpenAI o3-mini OpenAI Deep Research Google Gemini 2.0 Flash & Pro Deep Research - Open Source Alternatives Andrej Karpathy - Deep Dive into LLMs Anthropic classifiers reduce jailbreaks OpenAI ChatGPT Search - open without login Microsoft \"Think Deeper\" in Copilot - free Elicit.com - Automate research ChatGPT Edu - OpenAI in Education WARP: An Efficient Multi-Vector Retrieval Engine Figure AI drops OpenAI - to use in-house models Sam Altman says OpenAI is ‘on the wrong side of history Part 1 - DeepSeek"
+    },
+    {
+      "index": 3,
+      "title": "DeepSeek Acceleration Effect Multiple new Reasoning models and",
+      "text": "DeepSeek Acceleration Effect Multiple new Reasoning models and services: Qwen, OpenAI, Google, Perplexity, ... Microsoft Copilot with OpenAI o1 reasoning model https://www.theregister.com/2025/01/31/microsoft_open_ai_reasoning_copilot/ Microsoft offers DeepSeek on Copilot PCs https://www.pcworld.com/article/2593957/microsoft-ports-deepseeks-ai-to-copilot-pcs-and-their-npus.html https://www.linkedin.com/posts/jonkeskitalo_the-gpqa-diamond-benchmark-is-a-test-of-448-activity-7293251958620987393-rr-v/ Humanity last exam: from 8.3% to 26.6% in just 10 days - https://agi.safe.ai https://www.youtube.com/watch?v=P4hGKsLaKfk https://www.techradar.com/computing/artificial-intelligence/openais-deep-research-smashes-records-for-the-worlds-hardest-ai-exam-with-chatgpt-o3-mini-and-deepseek-left-in-its-wake"
+    },
+    {
+      "index": 4,
+      "title": "Test-time compute (\"giving an AI model extra time",
+      "text": "Test-time compute (\"giving an AI model extra time to think\") is the most important breakthrough since Transformers changed the world in 2017 https://www.youtube.com/watch?v=KPOt8ekEanM - video https://www.silamir.com/en/insight/test-time-compute-why-thinking-ai-models-are-shaping-the-future/ https://www.youtube.com/watch?v=kZWSiiMbua0 - Nvidia DeepSeek R1 Cloned for $30?! (Berkeley) https://www.youtube.com/watch?v=e659KrxxN5w - video https://x.com/jiayi_pirate/status/1882839370505621655?s=46 Reproduced DeepSeek R1-Zero in the CountDown game Using RL, 3B base LM develops self-verification and search abilities all on its own http://github.com/Jiayi-Pan/TinyZero https://github.com/volcengine/verl - Volcano Engine Reinforcement Learning for LLM https://arxiv.org/abs/2409.19256v2 HybridFlow: A Flexible and Efficient RLHF Framework Multiple R Models - Cheap & Open Source Fine-Tuning Your LLM to \"Think\" Like DeepSeek R1 https://kaitchup.substack.com/p/fine-tuning-your-llm-to-think-like-r1 Open source Reasoning implementation https://www.youtube.com/watch?v=QWoslkjR9W4 - Speculations on Test-Time Scaling (o1) - https://www.youtube.com/watch?v=6PEJ96k1kiw OpenAI o1's New Paradigm: Test-Time Compute Explained - https://www.youtube.com/watch?v=pi7LF-OpO6k Scaling LLM Test-Time Compute Optimally - https://arxiv.org/abs/2408.03314 https://www.youtube.com/watch?v=AfAmwIP2ntY s1: Simple test-time scaling  (for $6) https://arxiv.org/pdf/2501.19393 - We seek the simplest approach to achieve test-time scaling and strong reasoning performance. https://github.com/simplescaling/s1 https://simonwillison.net/2025/Feb/5/s1-the-6-r1-competitor/ - inference-scaling model fine-tuned on top of Qwen2.5-32B-Instruct for just $6 - the cost for 26 minutes on 16 NVIDIA H100 GPUs . They reduced dataset from 56K examples down to just the best 1K. They found that the core 1K is all that's needed to achieve o1-preview performance on a 32B model. The paper describes a technique called \"Budget forcing\": To enforce a minimum, we suppress the generation of the end-of-thinking token delimiter and optionally append the string “Wait” to the model’s current reasoning trace to encourage the model to reflect on its current generation R1-V - replicate reasoning of DeepSeek R1 model for just $3 - on a small 2 Bln params model and RL with verifiable rewards in STEM field. https://github.com/Deep-Agent/R1-V https://x.com/liangchen5518/status/1886171667522842856"
+    },
+    {
+      "index": 5,
+      "title": "More around DeepSeek DeepSeek R1 gave itself a",
+      "text": "More around DeepSeek DeepSeek R1 gave itself a x2 Speed Boost - Self-Evolving LLM https://www.youtube.com/watch?v=ApvcIYDgXzg - video https://simonwillison.net/2025/Jan/27/llamacpp-pr/ - This was accomplished through a collaborative effort between a human prompter and the AI, where the prompter provided instructions and the AI iteratively improved the code based on feedback. This demonstrates the potential for self-improving AI. DeepSeek founder Liang Wenfeng says China AI will stop following U.S. He calls for support ecosystem for nation's AI industry Restrictions on using DeepSeek in the US: Texas banned DeepSeek on government-issued devices US Congressional offices have been warned against using DeepSeek on official devices due to security concerns. US Navy has also banned DeepSeek for its members, citing \"potential security and ethical concerns\". DeepSeek is easy to Jailbreak https://fortune.com/2025/02/02/deepseek-ai-chatbot-security-jailbreak-attempts-openai-cisco/ Sam Altman says OpenAI is ‘on the wrong side of history’ and needs a new open-source strategy after DeepSeek shock (Ask Me Anything session on Reddit) https://venturebeat.com/ai/sam-altman-admits-openai-was-on-the-wrong-side-of-history-in-open-source-debate/"
+    },
+    {
+      "index": 6,
+      "title": "Andrej Karpathy - Take LLM to School Andrej",
+      "text": "Andrej Karpathy - Take LLM to School Andrej Karpathy tweeted: \"We have to take the LLMs to school\" https://x.com/karpathy/status/1885026028428681698 When you open any textbook, you'll see three major types of information: 1. Background information / exposition. The meat of the textbook that explains concepts. As you attend over it, your brain is training on that data. This is equivalent to pretraining, where the model is reading the internet and accumulating background knowledge. 2. Worked problems with solutions. These are concrete examples of how an expert solves problems. They are demonstrations to be imitated. This is equivalent to supervised finetuning, where the model is finetuning on \"ideal responses\" for an Assistant, written by humans. 3. Practice problems. These are prompts to the student, usually without the solution, but always with the final answer. There are usually many, many of these at the end of each chapter. They are prompting the student to learn by trial & error - they have to try a bunch of stuff to get to the right answer. This is equivalent to reinforcement learning. We've subjected LLMs to a ton of 1 and 2, but 3 is a nascent, emerging frontier. When we're creating datasets for LLMs, it's no different from writing textbooks for them, with these 3 types of data. They have to read, and they have to practice ."
+    },
+    {
+      "index": 7,
+      "title": "Reflection-70B Matt Shumer https://x.com/mattshumer_ https://www.hyperwriteai.com Sahil Chaudhary https://twitter.com/csahil28",
+      "text": "Reflection-70B Matt Shumer https://x.com/mattshumer_ https://www.hyperwriteai.com Sahil Chaudhary https://twitter.com/csahil28 https://glaive.ai Matt Berman videos: 35 min interview with Matt & Sahil https://www.youtube.com/watch?v=5_m-kN64Exc How This AI Model Achieves Insane Accuracy https://www.youtube.com/watch?v=-IBAg6lMfXA Matt Shumer & Sahil Chaudhary have fine-tuned Llama 3.1 70B  and claimed (September 5th) to achieve amazing accuracy beating top models in just 3 weeks. They used a technique similar to the one described in 2023 paper \" Reflection-Tuning: Recycling Data for Better Instruction-Tuning \"  - basically training the model to use \"step-by-step\" Chain of Thought approach. This is done by tuning on synthetic data showing examples of using <thinking> and <reflection> tags to remove hallucination and perform self-correction - and fine-tuned the model on these examples. https://openreview.net/forum?id=xaqoZZqkPU https://venturebeat.com/ai/meet-the-new-most-powerful-open-source-ai-model-in-the-world-hyperwrites-reflection-70b/ https://huggingface.co/mattshumer/Reflection-Llama-3.1-70B But third party evaluations have failed to reproduce Reflection 70B’s impressive results, so Shumer was accused of fraud. https://www.greenbot.com/hyperwrite-reflection-70B/ https://www.youtube.com/watch?v=Alzjn_0ne1Y https://venturebeat.com/ai/reflection-70b-model-maker-breaks-silence-amid-fraud-accusations/"
+    },
+    {
+      "index": 8,
+      "title": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "text": "DeepSeek Acceleration Effect Multiple R Models - Cheap & Open Source DeepSeek Self-Evolving Restrictions on using DeepSeek in the US DeepSeek Jailbreaking Andrej Karpathy - Take LLM to School Reflection-70B Crowd-sourced \"Arena\" Leaderboard Jobs Microsoft Copilot with o1 Microsoft DeepSeek OpenAI o3-mini OpenAI Deep Research Google Gemini 2.0 Flash & Pro Deep Research - Open Source Alternatives Andrej Karpathy - Deep Dive into LLMs Anthropic classifiers reduce jailbreaks OpenAI ChatGPT Search - open without login Microsoft \"Think Deeper\" in Copilot - free Elicit.com - Automate research ChatGPT Edu - OpenAI in Education WARP: An Efficient Multi-Vector Retrieval Engine Figure AI drops OpenAI - to use in-house models Sam Altman says OpenAI is ‘on the wrong side of history Part 2 - OpenAI, Gemini, Microsoft"
+    },
+    {
+      "index": 9,
+      "title": "OpenAI o3-mini & Deep Research o3-mini https://openai.com/index/openai-o3-mini/ https://www.youtube.com/watch?v=6HfGqW2dg2E",
+      "text": "OpenAI o3-mini & Deep Research o3-mini https://openai.com/index/openai-o3-mini/ https://www.youtube.com/watch?v=6HfGqW2dg2E OpenAI Deep Research - (Pro users, later Plus and Teams users) https://openai.com/index/introducing-deep-research/ - https://www.youtube.com/watch?v=-1ZQHC3jxBE - Microsoft Copilot with o1 DeepSeek R1 is now available on Azure AI Foundry and GitHub"
+    },
+    {
+      "index": 10,
+      "title": "Google Gemini 2.0 Flash & Pro Google Gemini",
+      "text": "Google Gemini 2.0 Flash & Pro Google Gemini 2.0 Flash & Pro Gemini 2.0 is the next generation of Gemini Improved performance across various tasks, such as writing different kinds of creative content, summarizing factual topics, and answering your questions in an informative way. Context length 1 Mln tokens Gemini 2.0 Flash Thinking Experimental with apps, which can use apps such as YouTube, Maps, and Search to solve complex multi-step problems for you. For example, it can help you do things like find and analyze multiple YouTube videos, research places and create routes using Maps, and find or compare detailed information online."
+    },
+    {
+      "index": 11,
+      "title": "Open Deep-research https://github.com/dzhng/deep-research OpenDeepResearcher https://github.com/mshumer/OpenDeepResearcher Open Deep Research",
+      "text": "Open Deep-research https://github.com/dzhng/deep-research OpenDeepResearcher https://github.com/mshumer/OpenDeepResearcher Open Deep Research by Firecrawl https://github.com/nickscamara/open-deep-research DeepResearch by Jina AI https://github.com/jina-ai/node-DeepResearch Summary: https://www.marktechpost.com/2025/02/05/4-open-source-alternatives-to-openais-200-month-deep-research-ai-agent/ Deep Research - Open Source Alternatives OpenAI Deep Research https://openai.com/index/introducing-deep-research/ Gemini Deep Research on Gemini 1.5 Pro (December 2024) - in \"Advanced\" subscription Gemini Deep Research on Gemini 2.0 Flash (February 2025) - in Google AI Studio and Vertex AI"
+    },
+    {
+      "index": 12,
+      "title": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "text": "DeepSeek Acceleration Effect Multiple R Models - Cheap & Open Source DeepSeek Self-Evolving Restrictions on using DeepSeek in the US DeepSeek Jailbreaking Andrej Karpathy - Take LLM to School Reflection-70B Crowd-sourced \"Arena\" Leaderboard Jobs Microsoft Copilot with o1 Microsoft DeepSeek OpenAI o3-mini OpenAI Deep Research Google Gemini 2.0 Flash & Pro Deep Research - Open Source Alternatives Andrej Karpathy - Deep Dive into LLMs Anthropic classifiers reduce jailbreaks OpenAI ChatGPT Search - open without login Microsoft \"Think Deeper\" in Copilot - free Elicit.com - Automate research ChatGPT Edu - OpenAI in Education WARP: An Efficient Multi-Vector Retrieval Engine Figure AI drops OpenAI - to use in-house models Sam Altman says OpenAI is ‘on the wrong side of history Part 3 - Misc. AI Updates"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates 1 WARP: An Efficient Multi-Vector Retrieval",
+      "text": "AI Updates 1 WARP: An Efficient Multi-Vector Retrieval Engine for Faster and Scalable Search - Stanford, UC Berkeley and ETH Zurich https://www.marktechpost.com/2025/02/01/researchers-from-stanford-uc-berkeley-and-eth-zurich-introduces-warp-an-efficient-multi-vector-retrieval-engine-for-faster-and-scalable-search/ ChatGPT Edu - OpenAI in Education OpenAI partnering with California State University https://fortune.com/education/articles/chatgpt-access-for-california-state-university-system/ Andrej Karpathy - Deep Dive into LLMs like ChatGPT - 3.5 h video https://www.youtube.com/watch?v=7xTGNNLPyMI Elicit.com - Automate research - summarizing papers, extracting data, and synthesizing your findings - https://elicit.com/#Pricing Anthropic classifiers reduce jailbreaks https://opentools.ai/news/anthropic-unleashes-revolutionary-constitutional-classifiers-to-slash-ai-jailbreaks OpenAI ChatGPT Search - open without login Microsoft \"Think Deeper\" in Copilot - free for all users https://www.seroundtable.com/chatgpt-search-open-38864.html Figure AI drops OpenAI - to use in-house models https://techcrunch.com/2025/02/04/figure-drops-openai-in-favor-of-in-house-models/"
+    },
+    {
+      "index": 14,
+      "title": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "text": "DeepSeek Acceleration Effect Multiple R Models - Cheap & Open Source DeepSeek Self-Evolving Restrictions on using DeepSeek in the US DeepSeek Jailbreaking Andrej Karpathy - Take LLM to School Reflection-70B Crowd-sourced \"Arena\" Leaderboard Jobs Microsoft Copilot with o1 Microsoft DeepSeek OpenAI o3-mini OpenAI Deep Research Google Gemini 2.0 Flash & Pro Deep Research - Open Source Alternatives Andrej Karpathy - Deep Dive into LLMs Anthropic classifiers reduce jailbreaks OpenAI ChatGPT Search - open without login Microsoft \"Think Deeper\" in Copilot - free Elicit.com - Automate research ChatGPT Edu - OpenAI in Education WARP: An Efficient Multi-Vector Retrieval Engine Figure AI drops OpenAI - to use in-house models Sam Altman says OpenAI is ‘on the wrong side of history Part 4 - Leaderboard, Jobs"
+    },
+    {
+      "index": 15,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 201 Total #votes: 2,621,136 Last updated: 2025-02-05 Coding x.ai China China China China China China China China China China China China China China"
+    },
+    {
+      "index": 16,
+      "title": "Google offers “voluntary exit” to all US platforms",
+      "text": "Google offers “voluntary exit” to all US platforms and devices employees Jobs Microsoft has initiated performance-based job cuts, resulting in immediate termination of affected employees without severance pay. Layoffs - https://layoffs.fyi"
+    },
+    {
+      "index": 17,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 18,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "DeepSeek Acceleration Effect",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 1,
+      "slideTitle": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "source": "outline"
+    },
+    {
+      "claim": "Multiple R Models - Cheap & Open Source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 4,
+      "slideTitle": "Test-time compute (\"giving an AI model extra time",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepSeek Self-Evolving",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 7,
+      "slideTitle": "Reflection-70B Matt Shumer https://x.com/mattshumer_ https://www.hyperwriteai.com Sahil Chaudhary https://twitter.com/csahil28",
+      "source": "outline"
+    },
+    {
+      "claim": "Restrictions on using DeepSeek in the US",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 10,
+      "slideTitle": "Google Gemini 2.0 Flash & Pro Google Gemini",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepSeek Jailbreaking",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 12,
+      "slideTitle": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrej Karpathy - Take LLM to School",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 15,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Reflection-70B",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 18,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 2,
+      "slideTitle": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepSeek Acceleration Effect Multiple new Reasoning models and",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 3,
+      "slideTitle": "DeepSeek Acceleration Effect Multiple new Reasoning models and",
+      "source": "slide"
+    },
+    {
+      "claim": "More around DeepSeek DeepSeek R1 gave itself a",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 5,
+      "slideTitle": "More around DeepSeek DeepSeek R1 gave itself a",
+      "source": "slide"
+    },
+    {
+      "claim": "Andrej Karpathy - Take LLM to School Andrej",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 6,
+      "slideTitle": "Andrej Karpathy - Take LLM to School Andrej",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 8,
+      "slideTitle": "DeepSeek Acceleration Effect Multiple R Models - Cheap",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI o3-mini & Deep Research o3-mini https://openai.com/index/openai-o3-mini/ https://www.youtube.com/watch?v=6HfGqW2dg2E",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 9,
+      "slideTitle": "OpenAI o3-mini & Deep Research o3-mini https://openai.com/index/openai-o3-mini/ https://www.youtube.com/watch?v=6HfGqW2dg2E",
+      "source": "slide"
+    },
+    {
+      "claim": "Open Deep-research https://github.com/dzhng/deep-research OpenDeepResearcher https://github.com/mshumer/OpenDeepResearcher Open Deep Research",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Kz_IYmQqTpM",
+      "slideIndex": 11,
+      "slideTitle": "Open Deep-research https://github.com/dzhng/deep-research OpenDeepResearcher https://github.com/mshumer/OpenDeepResearcher Open Deep Research",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "id": "2024-02-16-2024-02-16-ai-updates",
+  "date": "2024-02-16",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "google",
+    "agents",
+    "infra",
+    "rag",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "adKdMJ97egA",
+    "title": "Have you heard these exciting AI news? - February 16, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=adKdMJ97egA",
+    "thumbnail": "https://i.ytimg.com/vi/adKdMJ97egA/hqdefault.jpg",
+    "duration": 1357
+  },
+  "deck": {
+    "path": "2024/2024-02-16-AI-Updates.pptx",
+    "filename": "2024-02-16-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-02-16-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-02-16-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Google Gemini 15 Pro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Large World Model",
+      "startSeconds": 124,
+      "label": "02:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Year of Agents",
+      "startSeconds": 230,
+      "label": "03:50",
+      "source": "youtube"
+    },
+    {
+      "title": "AI at World Government Summit",
+      "startSeconds": 322,
+      "label": "05:22",
+      "source": "youtube"
+    },
+    {
+      "title": "AI for Valentines Day",
+      "startSeconds": 340,
+      "label": "05:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Stable Cascade by Stability AI",
+      "startSeconds": 372,
+      "label": "06:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia becomes bigger than Amazon",
+      "startSeconds": 469,
+      "label": "07:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Andre Carpath left Open AI again",
+      "startSeconds": 559,
+      "label": "09:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI Memory Feature",
+      "startSeconds": 627,
+      "label": "10:27",
+      "source": "youtube"
+    },
+    {
+      "title": "LLM in Military Decisions",
+      "startSeconds": 707,
+      "label": "11:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Advanced Rug",
+      "startSeconds": 778,
+      "label": "12:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Sam Altman and 7 trillion",
+      "startSeconds": 825,
+      "label": "13:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Sora text to video",
+      "startSeconds": 915,
+      "label": "15:15",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepMind graphcast model",
+      "startSeconds": 962,
+      "label": "16:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Retrieval Augmented Generation",
+      "startSeconds": 1036,
+      "label": "17:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Video Joint Embedding Predictive Architecture",
+      "startSeconds": 1191,
+      "label": "19:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource Arena Leaderboard",
+      "startSeconds": 1284,
+      "label": "21:24",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Google Gemini 1.5 Pro - 1 Mln Tokens",
+      "text": "Google Gemini 1.5 Pro - 1 Mln Tokens Large World Model (LWM) - UC Berkeley 2024 - Year of AI Agents AI at World Governments Summit Valentine's Day & AI AI Poem From a Student Stable Cascade by Stability.AI Nvidia > Amazon Nvidia Chat With RTX Andrej Karpathy Left Open AI ... again OpenAI Memory Feature LLM in Military Decisions Advanced RAG Sam Altman and $7 Trillion Dollars Sora  - New Text-to-Video from OpenAI DeepMind GraphCast - A Weather Model RAG for a Million Users Crowd-sourced \"Arena\" leaderboard Layoffs.fyi AI Updates February 16, 2024"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Google Gemini 1.5 Pro - up to 1",
+      "text": "Google Gemini 1.5 Pro - up to 1 Mln tokens Gemini 1.5 Pro - MoE (Mixture of Experts) Architecture, up to 1 Mln tokens input (note: in research was tested with 10 Mln tokens ! ) https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/ https://aistudio.google.com/app/prompts/new_chat https://cloud.google.com/vertex-ai https://www.youtube.com/@Google/videos Needle in a Haystack tests - 99.7% recall ! Multimodal prompting with a 44-minute movie - https://www.youtube.com/watch?v=wa0MT8OwHuk Problem solving across 100,633 lines of code - https://www.youtube.com/watch?v=SSnsmqIj1MI Reasoning across a 402-page text - https://www.youtube.com/watch?v=LHKL_210CcU"
+    },
+    {
+      "index": 4,
+      "title": "Large World Model (LWM) Large World Model (LWM)",
+      "text": "Large World Model (LWM) Large World Model (LWM) - new AI model, combining vast video and text analysis. Paper submitted Feb 13, 2024 by UC Berkeley World Model on Million-Length Video And Language With RingAttention - https://arxiv.org/abs/2402.08268 https://huggingface.co/LargeWorldModel https://github.com/LargeWorldModel/LWM https://largeworldmodel.github.io How Ring Attention Works : Tokens are distributed across multiple devices (GPUs or TPUs) arranged in a virtual ring . Each device handles a segment of the input sequence. Attention is calculated in blocks (by segment) . Key-value pairs are passed sequentially around the ring between devices . Overlapping : Crucially, this communication and blockwise attention computation happen simultaneously , preventing bottlenecks and making the process highly efficient. ... we curate a large dataset of diverse videos and books, utilize the RingAttention technique to scalably train on long sequences, and gradually increase context size from 4K to 1M tokens. Multimodal Training . Largest context size transformers on long video and language sequences; overcoming vision-language training challenges ; highly optimized implementation with RingAttention , masked sequence packing, and other key features for training on millions-length multimodal sequences Fully open-sourced a family of 7B parameter models capable of processing long text documents ( LWM-Text, LWM-Text-Chat ) and videos ( LWM, LWM-Chat ) of over 1M tokens"
+    },
+    {
+      "index": 5,
+      "title": "2024 - Year of AI Agents Year 2023",
+      "text": "2024 - Year of AI Agents Year 2023 was a year of AI POCs (Proofs of Concept); focus was on research and discovery Massive leaps in the capabilities of LLMs and other Gen-AI models. ChatGPT, DALL-E 2, and others models made a huge public splash, showing what is possible. Research Explosion, open-source development , huge AI community focusing on developing more powerful, safer, and specialized LLMs. Accessibility Increases - there are now multiple open-source or affordable models and tools. Year 2024 is a year of deploying AI Agents that can act responsibly in the world LLMs are used as building blocks of systems/agents to interact with the world and completing tasks: Virtual Assistants, Automation (emails, reports, workflows, ...), AI-driven Customer Service, Creative Tools, and more. Research still continues, but the available LLMs are already good enough for business use. Raw model improvements will still happen, but gains won't be as dramatic. Focusing on application for real-world impact becomes key. LLMs hallucinate - so they can not be used by themselves. Agents add layers on top of LLM for reliability, fact-checking, and integration with real-world data sources. Deploying agents responsibly means tackling AI ethics, safety issues, and potential harm. OpenAI, Meta, Microsoft, Google, Apple, and other key players are now moving into building practical solutions. Working systems tend to consist of multiple agents with different functions. 2023 2024"
+    },
+    {
+      "index": 6,
+      "title": "AI at World Governments Summit World Governments Summit",
+      "text": "AI at World Governments Summit World Governments Summit 12-14 February 2024, Dubai, United Arab Emirates ' Shaping Future Governments ' https://www.worldgovernmentsummit.org Sam Altman of OpenAI: https://www.youtube.com/watch?v=JVatgo0TJIw Jensen Huang of Nvidia: https://www.youtube.com/watch?v=8Pm2xEViNIo Yann LeCun of Meta: https://www.youtube.com/watch?v=iR9-oPU8rNs"
+    },
+    {
+      "index": 7,
+      "title": "Valentine's Day & AI https://www.forbes.com/sites/lanceeliot/2024/02/11/smartly-using-generative-ai-chatgpt-to-get-ready-for-valentines-day-and-hopefully-boost-your-romantic-splendor/ Seven Ways To",
+      "text": "Valentine's Day & AI https://www.forbes.com/sites/lanceeliot/2024/02/11/smartly-using-generative-ai-chatgpt-to-get-ready-for-valentines-day-and-hopefully-boost-your-romantic-splendor/ Seven Ways To Use Generative AI For Valentine’s Day \"Tell me about Valentine's Day and anything important that I need to know. Be brief.\" \"Suggest gifts I could buy or make for Valentine's day. Give me some practical suggestions. Be brief but don't shortcut your answer.\" \"How could we celebrate at night after 7pm? I've heard that all restaurants are already booked solid.\" \"I am going to have an indoor picnic and watch a movie. I am admittedly not much of a romantic person, but I want all of this to have a semblance of romance. What do you think I can do given the choices I've made about the evening to make it romantic in tone?\" \"I am going to use candles to set the ambiance. I will make sure to get some fresh-cut flowers beforehand. I have a music playlist that will work perfectly. But what should I talk about during the evening?\" \"what might ruin this plan? What should I be wary of or try to avoid?\" \"Let's pretend that I come to you on the day after Valentine's Day. I am sad and upset because the evening did not go as planned. I am feeling low. What could you do to walk me through my low feelings?\""
+    },
+    {
+      "index": 8,
+      "title": "AI Poem From a Student Hi Lev, I",
+      "text": "AI Poem From a Student Hi Lev, I wish you Happy Valentine`s Day! 🥰 I asked my local Mixtral to write a poem: ☺️ Roses are red, violets are blue, To you, my esteemed teacher, this verse rings true. Your guidance and expertise have illuminated my path, And I am grateful for every lesson you have imparted from your trove. From the depths of knowledge, you've shared your insights, Inspiring curiosity, creativity, and a passion that ignites. Your patience and kindness never waver or falter, Even when faced with questions that seem to come from an unknown quarter. So let's cherish this day with hearts full of cheer, And express gratitude for the educators we hold dear. Wishing you a Happy Valentine's Day, my respected senior teacher, May your wisdom and passion continue to inspire us forever!"
+    },
+    {
+      "index": 9,
+      "title": "Stable Cascade by Stability.AI Stable Cascade by Stability.AI",
+      "text": "Stable Cascade by Stability.AI Stable Cascade by Stability.AI A new open-source text-to-image model (Feb 12, 2024) https://stability.ai/news/introducing-stable-cascade https://huggingface.co/stabilityai/stable-cascade A more efficient version of Stable Diffusion Uses 42x compression (vs 8x in regular Stable Diffusion) This makes model much smaller and faster to train It can run on a  typical consumer-grade graphics cards It can generate image much faster. Image quality remains good despite the compression. Supports various customization methods like fine-tuning, LoRA, and ControlNet, New applications can be developed faster - and run efficiently and at low cost. Cascade at creating LOGOs - using Pinokio: https://pinokio.computer https://www.youtube.com/watch?v=UgM-z2q3Xe0 \"a logo for company ....\""
+    },
+    {
+      "index": 10,
+      "title": "Nvidia > Amazon Nvidia Chat With RTX -",
+      "text": "Nvidia > Amazon Nvidia Chat With RTX - a demo RAG app to run on your computer with Nvidia RTX GPU. Uses TensorRT-LLM library. https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/ Nvidia TensorRT-LLM - an open-source Toolbox for Optimized LLM Inference - https://github.com/NVIDIA/TensorRT-LLM Easy-to-use Python API to define LLMs and build TensorRT engines to make efficient inference. Nvidia Market Cap reached $1.83 Trillion, which is ahead of Amazon: Microsoft $3.11T Apple     $2.9T Alphabet  $1.85T Nvidia    $1.83T Amazon    $1.8T"
+    },
+    {
+      "index": 11,
+      "title": "Andrej Karpathy Left Open AI ... again Andrej",
+      "text": "Andrej Karpathy Left Open AI ... again Andrej Karpathy, a highly respected AI researcher, has just left OpenAI. He said that he wants to focus on his personal projects. An OpenAI spokesperson confirmed Karpathy's departure was amicable and wished him well in his future endeavors. Andrej Karpathy has not yet formally announced his next project (although it is likely AI related). December 2015: Co-founds OpenAI - Andrej Karpathy joins as a founding member and research scientist at OpenAI. July 2017: Leaves OpenAI to join Tesla - Karpathy departs OpenAI to become the Director of Artificial Intelligence at Tesla. February 2023: Returns to OpenAI - Karpathy announces his return to OpenAI in an enthusiastic tweet. February 2024: Leaves OpenAI (Again) - An OpenAI spokesperson confirms Karpathy has amicably left the company. Stanford 2015 2017 2023 2024 ?"
+    },
+    {
+      "index": 12,
+      "title": "OpenAI Memory Feature OpenAI introduces memory to ChatGPT",
+      "text": "OpenAI Memory Feature OpenAI introduces memory to ChatGPT for personalized conversations (to recall specific details about users’ preferences, habits, and previous conversations): https://readwrite.com/openai-introduces-memory-to-chatgpt-for-personalized-conversations/ Users can directly inform ChatGPT of certain details to remember, such as coding preferences, names of colleagues, or personal likes and dislikes. Alternatively, ChatGPT can autonomously learn and store information based on ongoing interactions with the user. This capability is designed to make the AI more intuitive and user-friendly, reducing the need for repetitive instructions. By default, the memory feature will be activated, and the data collected will contribute to training OpenAI’s models. However, data from ChatGPT Enterprise and Teams users will not be used in model training. Users can disable the memory feature entirely across their accounts. Users can inquire what information ChatGPT retains about them and have the option to delete specific memories or manage them through a dedicated settings section . OpenAI also offers a Temporary Chat feature, akin to an incognito mode , allowing users to interact with ChatGPT without influencing its memory. Specialized GPTs can benefit from memory too. Books GPT could remember a user’s reading history and genre preferences. Educational, travel, and fitness-related GPT applications could remember user-specific information to improve service relevance."
+    },
+    {
+      "index": 13,
+      "title": "LLM in Military Decisions Escalation Risks from Language",
+      "text": "LLM in Military Decisions Escalation Risks from Language Models in Military and Diplomatic Decision-Making - https://arxiv.org/abs/2401.03408 Governments are increasingly considering integrating autonomous AI agents in high-stakes military and foreign-policy decision-making, especially with the emergence of advanced generative AI models like GPT-4. Our work aims to scrutinize the behavior of multiple AI agents in simulated wargames , specifically focusing on their predilection to take escalatory actions that may exacerbate multilateral conflicts. Drawing on political science and international relations literature about escalation dynamics, we design a novel wargame simulation and scoring framework to assess the escalation risks of actions taken by these agents in different scenarios. Contrary to prior studies, our research provides both qualitative and quantitative insights and focuses on large language models (LLMs). We find that all five studied off-the-shelf LLMs show forms of escalation and difficult-to-predict escalation patterns. We observe that models tend to develop arms-race dynamics, leading to greater conflict, and in rare cases, even to the deployment of nuclear weapons. Qualitatively, we also collect the models' reported reasonings for chosen actions and observe worrying justifications based on deterrence and first-strike tactics. Given the high stakes of military and foreign-policy contexts, we recommend further examination and cautious consideration before deploying autonomous language model agents for strategic military or diplomatic decision-making."
+    },
+    {
+      "index": 14,
+      "title": "Advanced RAG Great article from LlamaIndex Blog about",
+      "text": "Advanced RAG Great article from LlamaIndex Blog about RAG: https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b Also look at this twitter post from Llama_index https://twitter.com/llama_index/status/1743321585128521849 Also see this survey about RAG techniques: https://arxiv.org/pdf/2312.10997.pdf 12 RAG Pain Points and Proposed Solutions https://towardsdatascience.com/12-rag-pain-points-and-proposed-solutions-43709939a28c#cea4 Seven Failure Points When Engineering a Retrieval Augmented Generation System https://arxiv.org/pdf/2401.05856.pdf"
+    },
+    {
+      "index": 15,
+      "title": "Sam Altman and $7 Trillion Dollars Sam Altman,",
+      "text": "Sam Altman and $7 Trillion Dollars Sam Altman, SEO of OpenAI is seeking to raise up to $7 trillion to overhaul global production of  AI chips. Currently there's a global shortage of these high-performance AI chips. Altman has been in talks with governments (such as the UAE), semiconductor manufacturers, and investors worldwide. It appears to be a massively multilateral project. A core concept likely involves building a network of new or improved semiconductor fabrication plants (or \"fabs\") to dramatically increase supply. Insane Price Tag: $7 trillion is an incredible sum. While a portion may come from governments, securing private investment at that scale presents an immense challenge. Scaling up chip production also requires significantly more engineers and specialists in the field. Building new chip plants takes years, plus requires navigating intricate global supply chains. This isn't an overnight solution. A success in this project will accelerate AI progress across virtually every field, enabling potentially world-changing breakthroughs;  create new industries and reshape economies; restructure and potentially shift geopolitical balances of power. https://www.wsj.com/tech/ai/sam-altman-seeks-trillions-of-dollars-to-reshape-business-of-chips-and-ai-89ab3db0"
+    },
+    {
+      "index": 16,
+      "title": "Sora - Text-to-Video from OpenAI Sora is a",
+      "text": "Sora  - Text-to-Video from OpenAI Sora is a new text-to-video model from OpenAI. Creates Realistic and Imaginative Videos Up to One Minute Duration Good at following textual instructions Building on Success of DALL-E and GPT Understanding the Physics of Motion Is not released to public yet"
+    },
+    {
+      "index": 17,
+      "title": "DeepMind GraphCast - A Weather Model GraphCast :",
+      "text": "DeepMind GraphCast - A Weather Model GraphCast : Learning skillful medium-range global weather forecasting (August 2023) https://arxiv.org/pdf/2212.12794.pdf DeepMind + Google Research Open-source https://github.com/google-deepmind/graphcast Beats Billion dollar systems - for Free Less than 40 Mln params Graph Neural Network 1 min to make 10-day prediction GraphCast significantly outperforms the most accurate operational deterministic systems on 90% of 1380 verification targets, and its forecasts support better severe event prediction, including tropical cyclones, atmospheric rivers, and extreme temperatures Video - https://www.youtube.com/watch?v=BufUW7h9TB8"
+    },
+    {
+      "index": 18,
+      "title": "How to make a RAG for a Million",
+      "text": "How to make a RAG for a Million Users RAG = Retrieval-Augmented Generation Retriever - retrieves relevant docs based on user query (cognitive search, vector database) Generator (LLM) - responds based on the found data Distributed database (sharding) Distributed indexing , splitting search requests Approximate Nearest Neighbor (ANN) Search : \"close enough\" instead of perfect results Distillation - train smaller, more efficient generator models that mimic the output of larger ones. Dynamic Selection - depending on the query, route it to different models Cache popular retrieval results Optimize costs of infrastructure Focus on specific domains first Bias Mitigation - careful dataset curation and monitoring for bias; Constant Evaluation, using user feedback and logs for continuous improvement Simple RAG System"
+    },
+    {
+      "index": 19,
+      "title": "Misc Yann LeCun V-JEPA - open-source Video Joint",
+      "text": "Misc Yann LeCun V-JEPA - open-source Video Joint Embedding Predictive Architecture (JEPA) is a non-generative architecture that predicts the representation of a signal from a corrupted or transformed version of that signal . The signal is a short video that is corrupted by masking a large portion of each frame. https://twitter.com/ylecun/status/1758195635444908409 https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/ https://github.com/facebookresearch/jepa https://ai.meta.com/research/publications/revisiting-feature-prediction-for-learning-visual-representations-from-video/ Nearly all wealth gained by world's rich this year comes from AI https://www.business-standard.com/world-news/nearly-all-wealth-gained-by-world-s-rich-this-year-comes-from-ai-124021600006_1.html Lambda Labs raised a $320M Series C (GPU CLoud)"
+    },
+    {
+      "index": 20,
+      "title": "Feb 15, 2024 64 Models, 300 K votes",
+      "text": "Feb 15, 2024 64 Models, 300 K votes Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard"
+    },
+    {
+      "index": 21,
+      "title": "Layoffs are not too big Layoffs - https://layoffs.fyi",
+      "text": "Layoffs are not too big Layoffs - https://layoffs.fyi 2022                2023                2024 So far in 2024 layoffs are 3-times less than in 2023"
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Google Gemini 15 Pro",
+      "topic": "google",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Google Gemini 1.5 Pro - 1 Mln Tokens",
+      "source": "youtube"
+    },
+    {
+      "claim": "Large World Model",
+      "topic": "general",
+      "videoSeconds": 124,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=124s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Year of Agents",
+      "topic": "agents",
+      "videoSeconds": 230,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=230s",
+      "slideIndex": 4,
+      "slideTitle": "Large World Model (LWM) Large World Model (LWM)",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI at World Government Summit",
+      "topic": "general",
+      "videoSeconds": 322,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=322s",
+      "slideIndex": 5,
+      "slideTitle": "2024 - Year of AI Agents Year 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI for Valentines Day",
+      "topic": "general",
+      "videoSeconds": 340,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=340s",
+      "slideIndex": 6,
+      "slideTitle": "AI at World Governments Summit World Governments Summit",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stable Cascade by Stability AI",
+      "topic": "general",
+      "videoSeconds": 372,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=372s",
+      "slideIndex": 8,
+      "slideTitle": "AI Poem From a Student Hi Lev, I",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia becomes bigger than Amazon",
+      "topic": "infra",
+      "videoSeconds": 469,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=469s",
+      "slideIndex": 9,
+      "slideTitle": "Stable Cascade by Stability.AI Stable Cascade by Stability.AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andre Carpath left Open AI again",
+      "topic": "general",
+      "videoSeconds": 559,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=559s",
+      "slideIndex": 10,
+      "slideTitle": "Nvidia > Amazon Nvidia Chat With RTX -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI Memory Feature",
+      "topic": "rag",
+      "videoSeconds": 627,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=627s",
+      "slideIndex": 12,
+      "slideTitle": "OpenAI Memory Feature OpenAI introduces memory to ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "LLM in Military Decisions",
+      "topic": "general",
+      "videoSeconds": 707,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=707s",
+      "slideIndex": 13,
+      "slideTitle": "LLM in Military Decisions Escalation Risks from Language",
+      "source": "youtube"
+    },
+    {
+      "claim": "Advanced Rug",
+      "topic": "general",
+      "videoSeconds": 778,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=778s",
+      "slideIndex": 14,
+      "slideTitle": "Advanced RAG Great article from LlamaIndex Blog about",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sam Altman and 7 trillion",
+      "topic": "general",
+      "videoSeconds": 825,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=825s",
+      "slideIndex": 15,
+      "slideTitle": "Sam Altman and $7 Trillion Dollars Sam Altman,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sora text to video",
+      "topic": "general",
+      "videoSeconds": 915,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=915s",
+      "slideIndex": 17,
+      "slideTitle": "DeepMind GraphCast - A Weather Model GraphCast :",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepMind graphcast model",
+      "topic": "general",
+      "videoSeconds": 962,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=962s",
+      "slideIndex": 18,
+      "slideTitle": "How to make a RAG for a Million",
+      "source": "youtube"
+    },
+    {
+      "claim": "Retrieval Augmented Generation",
+      "topic": "rag",
+      "videoSeconds": 1036,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=1036s",
+      "slideIndex": 19,
+      "slideTitle": "Misc Yann LeCun V-JEPA - open-source Video Joint",
+      "source": "youtube"
+    },
+    {
+      "claim": "Video Joint Embedding Predictive Architecture",
+      "topic": "rag",
+      "videoSeconds": 1191,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=1191s",
+      "slideIndex": 21,
+      "slideTitle": "Layoffs are not too big Layoffs - https://layoffs.fyi",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource Arena Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1284,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA&t=1284s",
+      "slideIndex": 22,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemini 1.5 Pro - up to 1",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA",
+      "slideIndex": 3,
+      "slideTitle": "Google Gemini 1.5 Pro - up to 1",
+      "source": "slide"
+    },
+    {
+      "claim": "Valentine's Day & AI https://www.forbes.com/sites/lanceeliot/2024/02/11/smartly-using-generative-ai-chatgpt-to-get-ready-for-valentines-day-and-hopefully-boost-your-romantic-splendor/ Seven Ways To",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA",
+      "slideIndex": 7,
+      "slideTitle": "Valentine's Day & AI https://www.forbes.com/sites/lanceeliot/2024/02/11/smartly-using-generative-ai-chatgpt-to-get-ready-for-valentines-day-and-hopefully-boost-your-romantic-splendor/ Seven Ways To",
+      "source": "slide"
+    },
+    {
+      "claim": "Andrej Karpathy Left Open AI ... again Andrej",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=adKdMJ97egA",
+      "slideIndex": 11,
+      "slideTitle": "Andrej Karpathy Left Open AI ... again Andrej",
+      "source": "slide"
+    }
+  ]
+}

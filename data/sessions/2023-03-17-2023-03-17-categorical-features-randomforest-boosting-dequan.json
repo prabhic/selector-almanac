@@ -1,0 +1,226 @@
+{
+  "id": "2023-03-17-2023-03-17-categorical-features-randomforest-boosting-dequan",
+  "date": "2023-03-17",
+  "title": "Categorical-features-RandomForest-Boosting-DeQuan",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "TiQyWPf_RPM",
+    "title": "Categorical Features in Random Forest and Boosting Models - March 17, 2023",
+    "url": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+    "thumbnail": "https://i.ytimg.com/vi/TiQyWPf_RPM/hqdefault.jpg",
+    "duration": 1327
+  },
+  "deck": {
+    "path": "2023/2023-03-17-Categorical-features-RandomForest-Boosting-DeQuan.pptx",
+    "filename": "2023-03-17-Categorical-features-RandomForest-Boosting-DeQuan.pptx",
+    "title": "Categorical-features-RandomForest-Boosting-DeQuan",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-03-17-Categorical-features-RandomForest-Boosting-DeQuan.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-03-17-Categorical-features-RandomForest-Boosting-DeQuan.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Categorical Features in Random Forest and Boosting Models",
+      "text": "Categorical Features in Random Forest and Boosting Models By Dequan Er, Ph.D. idx Toyota Ford Mercedes 1 1 0 0 2 0 1 0 3 0 1 0 4 0 0 1 5 0 1 0 6 0 0 1 7 1 0 0 8 0 1 0"
+    },
+    {
+      "index": 2,
+      "title": "About Speaker Dequan Er, Ph.D. Lead Data Scientist",
+      "text": "About Speaker Dequan Er, Ph.D. Lead Data Scientist @ NDR erdeq.upenn@gmail.com LinkedIn: https://www.linkedin.com/in/dequan-er-69518643/"
+    },
+    {
+      "index": 3,
+      "title": "What is Categorical Data Some of your features",
+      "text": "What is Categorical Data Some of your features may be discrete values that aren't in an ordered relationship. Examples include breeds of dogs, words, or postal codes. These features are known as categorical and each value is called a category. Ordinal Encoding idx Toyota Ford Mercedes 1 1 0 0 2 0 1 0 3 0 1 0 4 0 0 1 5 0 1 0 6 0 0 1 7 1 0 0 8 0 1 0 One-Hot Encoding"
+    },
+    {
+      "index": 4,
+      "title": "Encoding Categorical Data There are three common encoding",
+      "text": "Encoding Categorical Data There are three common encoding methods: Ordinal Encoding = substitute by integer (red:1, green:2, ...). Careful - this encoding imposes an ordinal relationship where it may not exist One-Hot Encoding (for N values use N columns) Dummy Variable Encoding (for N values use N-1 columns) # ordinal from sklearn.preprocessing import OrdinalEncoder encoder = OrdinalEncoder () result = encoder.fit_transform (data) # dummy: like one-hot, but without one value from sklearn.preprocessing import OneHotEncoder encoder = OneHotEncoder (drop='first', sparse=False) onehot = encoder.fit_transform (data) # when sparse=True, the output datatype is a sparse matrix #     of type scipy.sparse.csr_matrix # when sparse=False, the resulting datatype is a dense # numpy array of type numpy.ndarray # one-hot: separate column for each value from sklearn.preprocessing import OneHotEncoder encoder = OneHotEncoder(sparse=False) onehot = encoder.fit_transform(data) https://machinelearningmastery.com/one-hot-encoding-for-categorical-data/ If your data contains categorical (nominal or ordinal) data, you must convert (encode) it to numbers before using it with ML. Note: if the data has built-in ordering, it is called \"Ordinal\". idx Toyota Ford Mercedes 1 1 0 0 2 0 1 0 3 0 1 0 4 0 0 1 5 0 1 0 6 0 0 1 7 1 0 0 8 0 1 0 One-Hot Encoding"
+    },
+    {
+      "index": 5,
+      "title": "Example - Classification or Regression with Binary Features",
+      "text": "Example - Classification or Regression with Binary Features # Sklearn Using OneHotEncoder() https://inria.github.io/scikit-learn-mooc/python_scripts/ensemble_random_forest.html"
+    },
+    {
+      "index": 6,
+      "title": "Example - Regression with just two binary features",
+      "text": "Example - Regression with just two binary features http://localhost:8888/notebooks/nb_ChatGPT_XGBoost_Regressor.ipynb Compare with regression over  numeric features Y = b 0 + b 1 x 1 + b 2 x 2 In this example, we used synthetic data with two binary categorical features and one numeric target. We use dxgboost.XGBRegressor() model"
+    },
+    {
+      "index": 7,
+      "title": "An example from real life DataRobot: https://www.datarobot.com DataRobot",
+      "text": "An example from real life DataRobot: https://www.datarobot.com DataRobot assigns data types automatically. But you can control or overwrite the types. For example, you can convert numeric zip code to categorical by adding non-numeric prefix: \"zip_12741\" In DataRobot you can create a new feature as type \" Categorical Int \" which will treat this feature as categorical via the \" Var Type Transform \" tab. You can also change the data type using the method \" batch_features_type_transform \". Weather to use categorical type or not? You may need to try both ways to see which gives you a better model."
+    },
+    {
+      "index": 8,
+      "title": "Some Libraries Can't Handle Categorical Features \"( sklearn",
+      "text": "Some Libraries Can't Handle Categorical Features \"( sklearn ) one-hot encoding does not handle the categorical data the right way for random forest, ... You can easily see that by using R randomForest package which gives a totally different result , and it is not only by the random variance, you can repeat as much as you want the accuracy reached by scikit-learn using one-hot encoding is not even close to R's randomForest package\" https://stackoverflow.com/questions/24715230/can-sklearn-random-forest-directly-handle-categorical-features Some libraries (like CatBoost , for example) are designed to handle categorical features automatically (no preprocessing is needed)."
+    },
+    {
+      "index": 9,
+      "title": "Python vs R Different results even on a",
+      "text": "Python vs R Different results even on a simple example # Python import pandas as pd from sklearn.ensemble import RandomForestClassifier data = { 'Feature_A': ['red', 'red', 'green', 'blue', 'blue'], 'Feature_B': ['small', 'big', 'small', 'big', 'small'], 'Feature_C': ['low', 'high', 'high', 'low', 'high'], 'Label': [0, 1, 1, 0, 1] } df = pd.DataFrame(data) df_dummies = pd.get_dummies(df, drop_first=True) X = df_dummies.drop(columns=['Label']) y = df_dummies['Label'] rf = RandomForestClassifier(random_state=42) rf.fit(X, y) print(rf.feature_importances_) # A_green  A_red  B_small  C_low #    0.08     0.16     0.16     0.60] # R install.packages(\"randomForest\") library(randomForest) data <- data.frame( Feature_A = factor(c(\"red\", \"red\", \"green\", \"blue\", \"blue\")), Feature_B = factor(c(\"small\", \"big\", \"small\", \"big\", \"small\")), Feature_C = factor(c(\"low\", \"high\", \"high\", \"low\", \"high\")), Label = factor(c(0, 1, 1, 0, 1)) # Convert 'Label' to factor ) data_dummies <- model.matrix(~ . - 1, data) data_dummies <- data.frame(data_dummies[, -c(1, 7)], Label=data$Label) rf <- randomForest(Label ~ ., data=data_dummies, importance=TRUE, set.seed=42) print(importance(rf)) 0          1 # Feature_Agreen  0.000000  0.0000000 # Feature_Ared   -2.851330 -0.7750618 # Feature_Bsmall -3.506434 -2.3477028 # Feature_Clow    6.039924  6.1268974 # Label1          5.236999  5.3605627 Python R"
+    },
+    {
+      "index": 10,
+      "title": "R - factor() vs Python sklearn In R",
+      "text": "R - factor() vs Python sklearn In R we use factor() for categorical variables. Feature_A = factor(c(\"red\", \"red\", \"green\", \"blue\", \"blue\")) In Python (pandas, sklearn) things are handled differently. Pandas auto-detects the types. You can also explicitly convert types, for example: df['mycol'] = df['mycol'].astype('category') Scikit-learn doesn't work directly with categorical variables. You need to preprocess data using one-hot encoding or dummy variable encoding : encoder = OneHotEncoder() encoded_data = encoder.fit_transform(df[[mycol]]) df_dummies = pd.get_dummies(df, drop_first=True)"
+    },
+    {
+      "index": 11,
+      "title": "XGBoost handles categorical features nowadays (from ver. 1.5.x",
+      "text": "XGBoost handles categorical features nowadays (from ver. 1.5.x onwards). The functionality is currently experimental but as it stands XGBoost handles categorical features the same way that LightGBM does https://stats.stackexchange.com/questions/593242/xgboost-with-catigorical-nominal-features XGBoost"
+    },
+    {
+      "index": 12,
+      "title": "CatBoost How CatBoost Algorithm Works: https://dataaspirant.com/catboost-algorithm/ CatBoost is",
+      "text": "CatBoost How CatBoost Algorithm Works: https://dataaspirant.com/catboost-algorithm/ CatBoost is handling Categorical features automatically. We don't need to do any explicit pre-processing to convert categories into numbers. CatBoost converts categorical values into numbers using various statistics on combinations of categorical features and combinations of categorical and numerical features. CatBoost can handle data with many thousands of features! By default CatBoost builds 1000 trees In most cases, the optimal depth ranges from 4 to 10. Values in the range from 6 to 10 are recommended. CatBoost for big data: an interdisciplinary review (2020): https://journalofbigdata.springeropen.com/articles/10.1186/s40537-020-00369-8 StatQuest videos: One-Hot, Label, Target and K-Fold Target Encoding - https://www.youtube.com/watch?v=589nCGeWG1w CatBoost Part 1: Ordered Target Encoding - https://www.youtube.com/watch?v=KXOTSkPL2X4 CatBoost Part 2: Building and Using Trees - https://www.youtube.com/watch?v=3Bg2XRFOTzg"
+    },
+    {
+      "index": 13,
+      "title": "CatBoost",
+      "text": "CatBoost"
+    },
+    {
+      "index": 14,
+      "title": "LightGBM LightGBM has support for categoricals",
+      "text": "LightGBM LightGBM has support for categoricals"
+    },
+    {
+      "index": 15,
+      "title": "Sklearn doesn't support categoricals. We need to use",
+      "text": "Sklearn doesn't support categoricals. We need to use an encoder. Here we use OneHotEncoder() Scikit-Learn"
+    },
+    {
+      "index": 16,
+      "title": "ML Libraries in \"R\" https://www.geeksforgeeks.org/7-best-r-packages-for-machine-learning/ data.table - extension",
+      "text": "ML Libraries in \"R\" https://www.geeksforgeeks.org/7-best-r-packages-for-machine-learning/ data.table - extension of data.frame package, cleaner syntax, memory efficiency Optimized for large datasets, sorting, filtering, aggregating Supports binary format for file operations (much faster) Secondary indices make filtering faster Framework for joining, reshaping, and summarizing data dplyr - data manipulation and transformationd (Data Ply in R, data layers in R) filtering, selecting, sorting, summarizing, and mutating data works with the pipe operator (%>%) from the magrittr package Lazy evaluation for better performance A part of tidyverse, integrates with ggplot2 (graphs), tidyr (reshaping), ... ggplot2 - data visualizations (\"Grammar of Graphics Plotting, version 2.\") Layered approach: adding different elements (geoms) step by step Many customization options (colors, themes, scales, ... ) Map variables in your data to different visual attributes (aesthetics) like size, color, shape, and position Faceting  - creating multiple related plots in a grid A part of tidyverse, integrates with dplyr, tidyr, ... caret (Classification And Regression Training) Many ML algorithms Tools for creating and tuning predictive models Preprocessing, resampling, feature selection, visualization e1071 - a collection of ML algorithms named after the statistics course at Vienna University of Technology). Includes SVMs, naive Bayes classifiers, fuzzy clustering, and several others xgboost randomForest"
+    },
+    {
+      "index": 17,
+      "title": "W hen choosing a ML library or a",
+      "text": "W hen choosing a ML library or a platform, you may need to consider many factors like: Handling missing data Handling categorical values Tools for Feature Engineering Handling thousands of features Handling large amounts of data Handling correlated features Handling Classification or Regression Tools for pre-processing Tools for model tuning Tools for visualization Tools for automation"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Categorical Features in Random Forest and Boosting Models",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 1,
+      "slideTitle": "Categorical Features in Random Forest and Boosting Models",
+      "source": "slide"
+    },
+    {
+      "claim": "About Speaker Dequan Er, Ph.D. Lead Data Scientist",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 2,
+      "slideTitle": "About Speaker Dequan Er, Ph.D. Lead Data Scientist",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Categorical Data Some of your features",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 3,
+      "slideTitle": "What is Categorical Data Some of your features",
+      "source": "slide"
+    },
+    {
+      "claim": "Encoding Categorical Data There are three common encoding",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 4,
+      "slideTitle": "Encoding Categorical Data There are three common encoding",
+      "source": "slide"
+    },
+    {
+      "claim": "Example - Classification or Regression with Binary Features",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 5,
+      "slideTitle": "Example - Classification or Regression with Binary Features",
+      "source": "slide"
+    },
+    {
+      "claim": "Example - Regression with just two binary features",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 6,
+      "slideTitle": "Example - Regression with just two binary features",
+      "source": "slide"
+    },
+    {
+      "claim": "An example from real life DataRobot: https://www.datarobot.com DataRobot",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 7,
+      "slideTitle": "An example from real life DataRobot: https://www.datarobot.com DataRobot",
+      "source": "slide"
+    },
+    {
+      "claim": "Some Libraries Can't Handle Categorical Features \"( sklearn",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 8,
+      "slideTitle": "Some Libraries Can't Handle Categorical Features \"( sklearn",
+      "source": "slide"
+    },
+    {
+      "claim": "Python vs R Different results even on a",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 9,
+      "slideTitle": "Python vs R Different results even on a",
+      "source": "slide"
+    },
+    {
+      "claim": "R - factor() vs Python sklearn In R",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 10,
+      "slideTitle": "R - factor() vs Python sklearn In R",
+      "source": "slide"
+    },
+    {
+      "claim": "XGBoost handles categorical features nowadays (from ver. 1.5.x",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 11,
+      "slideTitle": "XGBoost handles categorical features nowadays (from ver. 1.5.x",
+      "source": "slide"
+    },
+    {
+      "claim": "CatBoost How CatBoost Algorithm Works: https://dataaspirant.com/catboost-algorithm/ CatBoost is",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TiQyWPf_RPM",
+      "slideIndex": 12,
+      "slideTitle": "CatBoost How CatBoost Algorithm Works: https://dataaspirant.com/catboost-algorithm/ CatBoost is",
+      "source": "slide"
+    }
+  ]
+}

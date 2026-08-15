@@ -1,0 +1,348 @@
+{
+  "id": "2021-12-10-2021-12-10-mike-dw-azure-google",
+  "date": "2021-12-10",
+  "title": "Mike DW Azure Google",
+  "series": "data-architect-2021",
+  "topics": [
+    "enterprise"
+  ],
+  "video": {
+    "id": "U0xaOZBT9Co",
+    "title": "Data Architect Interview questions - part 7",
+    "url": "https://www.youtube.com/watch?v=U0xaOZBT9Co",
+    "thumbnail": "https://i.ytimg.com/vi/U0xaOZBT9Co/hqdefault.jpg",
+    "duration": 2480
+  },
+  "deck": {
+    "path": "2021_2_data_architect/DA_Use_Cases/2021-12-10-Mike_DW_Azure_Google.pptx",
+    "filename": "2021-12-10-Mike_DW_Azure_Google.pptx",
+    "title": "Mike DW Azure Google",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_Use_Cases/2021-12-10-Mike_DW_Azure_Google.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_Use_Cases/2021-12-10-Mike_DW_Azure_Google.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "You Have Been Assigned the Task to Architect a Serverless Application on Azure What Would Your Approach Be in Defining the Solution",
+      "startSeconds": 104,
+      "label": "01:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Question Four You Need To Provide Temporary Access to Cosmos Db to Your Application Which Component of Cosmos Db Will You Use",
+      "startSeconds": 133,
+      "label": "02:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Help Me with the Use Cases about Choosing Vm Scale Sets over a Vm",
+      "startSeconds": 184,
+      "label": "03:04",
+      "source": "youtube"
+    },
+    {
+      "title": "How Is Sql Server Different from Sql Managed Instance",
+      "startSeconds": 204,
+      "label": "03:24",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is a Sql Pool and How Does It Affect Synapse Analytics",
+      "startSeconds": 255,
+      "label": "04:15",
+      "source": "youtube"
+    },
+    {
+      "title": "In Azure Devops What Will Be the Best Practice of Using Dynamic Variables for Building Pipelines by Linking Variable Group to the Build Pipelines",
+      "startSeconds": 442,
+      "label": "07:22",
+      "source": "youtube"
+    },
+    {
+      "title": "What Are some Different Types of Metadata Technical Metadata",
+      "startSeconds": 575,
+      "label": "09:35",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is Data Lineage",
+      "startSeconds": 611,
+      "label": "10:11",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is Azure Purview",
+      "startSeconds": 635,
+      "label": "10:35",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is Gdpr",
+      "startSeconds": 662,
+      "label": "11:02",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is Gdpr Compliance",
+      "startSeconds": 704,
+      "label": "11:44",
+      "source": "youtube"
+    },
+    {
+      "title": "How Do You Impose Column Level Permissions in Sql Server",
+      "startSeconds": 737,
+      "label": "12:17",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is Data Masking",
+      "startSeconds": 764,
+      "label": "12:44",
+      "source": "youtube"
+    },
+    {
+      "title": "What What's Your Experience with Batch and Real-Time Data Processing and How Would You Answer this",
+      "startSeconds": 807,
+      "label": "13:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Presentation on a Use Case",
+      "startSeconds": 868,
+      "label": "14:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Devops Pipelines",
+      "startSeconds": 1183,
+      "label": "19:43",
+      "source": "youtube"
+    },
+    {
+      "title": "The Data Migration Services Data Load",
+      "startSeconds": 1766,
+      "label": "29:26",
+      "source": "youtube"
+    },
+    {
+      "title": "What Is the Responsibility for every Component in this General Data Architecture Process",
+      "startSeconds": 2058,
+      "label": "34:18",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Use Case: Migration of on-prem Data Warehouse to",
+      "text": "Use Case: Migration of on-prem Data Warehouse to Azure Cloud Current State: On-Prem SQL DW ETL implemented using SSIS and some python scripts Analytics is done in Excel on data exported from the database Desired state: SQL DW in Azure ETL processes to load data from same sources as before – but directly into Azure DW Analytics is implemented using PowerBI Benefits of migration: scalability flexibility easy integration with multiple cloud services"
+    },
+    {
+      "index": 2,
+      "title": "Migration Diagram SQL DW On Premises DW Original",
+      "text": "Migration Diagram SQL DW On Premises DW Original ETL Data Sources Synapse data visualization Azure Synapse Studio Ingestion via Synapse Integrate Staging area DB tables and Data Lake files"
+    },
+    {
+      "index": 3,
+      "title": "Outline of Steps Taken to Facilitate Migration Process:",
+      "text": "Outline of Steps Taken to Facilitate Migration Process: Set up resource groups for DEV & PROD environments Create users, Service Principal accounts for both environments Create Key Vaults in both environments Create DevOps (users, tickets, ...) Create Synapse Data Lake & Synapse Dedicated Pool ( SQL DW) Set up permissions and privacy (row/column) as needed Set up jobs in DEV for one-time load of Synapse SQL DW from original on-prem DW using Synapse Integrate pipelines Schedule jobs for incremental loads using Synapse Integrate Set procedures for checking data quality (compare on-prem with Cloud DEV) Promote code from DEV to PROD, load data into PROD, schedule incremental updates Confirm data quality (compare on-prem with Cloud PROD) Power BI - Set up and connect to Synapse DW Power BI - create several dashboards with top KPI as per client needs Confirm that privacy and compliance requirements are met Design on-going monitoring and maintenance procedures Configure usage reporting Create documentation"
+    },
+    {
+      "index": 4,
+      "title": "Use Case: Migration of on-prem Data Warehouse to",
+      "text": "Use Case: Migration of on-prem Data Warehouse to Google Cloud Current State: On-Prem SQL DW ETL implemented using SSIS and some python scripts Analytics is done in Excel on data exported from the database Desired state: SQL DW ( BigQuery ) in Google Cloud ETL processes to load data from same sources as before – but directly into BigQuery Analytics is implemented using Google Cloud Data Studio Why Migrate? Scalability Flexibility Integration"
+    },
+    {
+      "index": 5,
+      "title": "Migration Diagram SQL DW Original ETL Data Sources",
+      "text": "Migration Diagram SQL DW Original ETL Data Sources ingest Data Visualization Google Cloud DW Note: In modern migrations, it is typical to Extract, Load, then Transform Staging Area"
+    },
+    {
+      "index": 6,
+      "title": "Outline of Steps Taken during Google Cloud Migration",
+      "text": "Outline of Steps Taken during Google Cloud Migration Process: Set up cloud resource groups for DEV & PROD environments Create users, Service Accounts for both environments Create Google Cloud KMS(Key Management Services) Vaults in both environments Create Google Cloud Platform DevOps Service (users, tickets, ...) Stand up components of BigQuery Data Warehouse Set up permissions and privacy (row/column) as needed Set up jobs in DEV for load of BigQuery from original on-prem DW using BigQuery Data Transfer Service Schedule jobs for incremental loads using Google Cloud Data Fusion pipelines Set procedures for checking data quality (compare on-prem with Cloud) Promote code from DEV to PROD, load data into PROD, schedule incremental updates Confirm data quality, schedule incremental updates Google Data Studio and/or Looker  -- Set up and connect it to BigQuery Google Data Studio and/or Looker  -- Create several dashboards with top KPIs as per client needs Confirm that privacy and compliance requirements are met Design on-going monitoring and maintenance procedures Enable Google Cloud logging for Resource Usage Reporting Create documentation"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Use Case: Migration of on-prem Data Warehouse to",
+      "source": "youtube"
+    },
+    {
+      "claim": "You Have Been Assigned the Task to Architect a Serverless Application on Azure What Would Your Approach Be in Defining the Solution",
+      "topic": "general",
+      "videoSeconds": 104,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=104s",
+      "slideIndex": 1,
+      "slideTitle": "Use Case: Migration of on-prem Data Warehouse to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Question Four You Need To Provide Temporary Access to Cosmos Db to Your Application Which Component of Cosmos Db Will You Use",
+      "topic": "general",
+      "videoSeconds": 133,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=133s",
+      "slideIndex": 2,
+      "slideTitle": "Migration Diagram SQL DW On Premises DW Original",
+      "source": "youtube"
+    },
+    {
+      "claim": "Help Me with the Use Cases about Choosing Vm Scale Sets over a Vm",
+      "topic": "general",
+      "videoSeconds": 184,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=184s",
+      "slideIndex": 2,
+      "slideTitle": "Migration Diagram SQL DW On Premises DW Original",
+      "source": "youtube"
+    },
+    {
+      "claim": "How Is Sql Server Different from Sql Managed Instance",
+      "topic": "general",
+      "videoSeconds": 204,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=204s",
+      "slideIndex": 2,
+      "slideTitle": "Migration Diagram SQL DW On Premises DW Original",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is a Sql Pool and How Does It Affect Synapse Analytics",
+      "topic": "general",
+      "videoSeconds": 255,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=255s",
+      "slideIndex": 2,
+      "slideTitle": "Migration Diagram SQL DW On Premises DW Original",
+      "source": "youtube"
+    },
+    {
+      "claim": "In Azure Devops What Will Be the Best Practice of Using Dynamic Variables for Building Pipelines by Linking Variable Group to the Build Pipelines",
+      "topic": "general",
+      "videoSeconds": 442,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=442s",
+      "slideIndex": 3,
+      "slideTitle": "Outline of Steps Taken to Facilitate Migration Process:",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Are some Different Types of Metadata Technical Metadata",
+      "topic": "general",
+      "videoSeconds": 575,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=575s",
+      "slideIndex": 3,
+      "slideTitle": "Outline of Steps Taken to Facilitate Migration Process:",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is Data Lineage",
+      "topic": "general",
+      "videoSeconds": 611,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=611s",
+      "slideIndex": 3,
+      "slideTitle": "Outline of Steps Taken to Facilitate Migration Process:",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is Azure Purview",
+      "topic": "general",
+      "videoSeconds": 635,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=635s",
+      "slideIndex": 4,
+      "slideTitle": "Use Case: Migration of on-prem Data Warehouse to",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is Gdpr",
+      "topic": "general",
+      "videoSeconds": 662,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=662s",
+      "slideIndex": 4,
+      "slideTitle": "Use Case: Migration of on-prem Data Warehouse to",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is Gdpr Compliance",
+      "topic": "enterprise",
+      "videoSeconds": 704,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=704s",
+      "slideIndex": 4,
+      "slideTitle": "Use Case: Migration of on-prem Data Warehouse to",
+      "source": "youtube"
+    },
+    {
+      "claim": "How Do You Impose Column Level Permissions in Sql Server",
+      "topic": "general",
+      "videoSeconds": 737,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=737s",
+      "slideIndex": 4,
+      "slideTitle": "Use Case: Migration of on-prem Data Warehouse to",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is Data Masking",
+      "topic": "general",
+      "videoSeconds": 764,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=764s",
+      "slideIndex": 5,
+      "slideTitle": "Migration Diagram SQL DW Original ETL Data Sources",
+      "source": "youtube"
+    },
+    {
+      "claim": "What What's Your Experience with Batch and Real-Time Data Processing and How Would You Answer this",
+      "topic": "general",
+      "videoSeconds": 807,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=807s",
+      "slideIndex": 5,
+      "slideTitle": "Migration Diagram SQL DW Original ETL Data Sources",
+      "source": "youtube"
+    },
+    {
+      "claim": "Presentation on a Use Case",
+      "topic": "general",
+      "videoSeconds": 868,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=868s",
+      "slideIndex": 5,
+      "slideTitle": "Migration Diagram SQL DW Original ETL Data Sources",
+      "source": "youtube"
+    },
+    {
+      "claim": "Devops Pipelines",
+      "topic": "general",
+      "videoSeconds": 1183,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=1183s",
+      "slideIndex": 5,
+      "slideTitle": "Migration Diagram SQL DW Original ETL Data Sources",
+      "source": "youtube"
+    },
+    {
+      "claim": "The Data Migration Services Data Load",
+      "topic": "general",
+      "videoSeconds": 1766,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=1766s",
+      "slideIndex": 6,
+      "slideTitle": "Outline of Steps Taken during Google Cloud Migration",
+      "source": "youtube"
+    },
+    {
+      "claim": "What Is the Responsibility for every Component in this General Data Architecture Process",
+      "topic": "general",
+      "videoSeconds": 2058,
+      "videoUrl": "https://www.youtube.com/watch?v=U0xaOZBT9Co&t=2058s",
+      "slideIndex": 6,
+      "slideTitle": "Outline of Steps Taken during Google Cloud Migration",
+      "source": "youtube"
+    }
+  ]
+}

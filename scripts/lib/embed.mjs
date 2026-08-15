@@ -1,7 +1,20 @@
 /** Embedding helpers — build (Node) and query (browser) share normalization. */
+import { createHash } from "node:crypto";
 
 export const EMBED_MODEL = "Xenova/all-MiniLM-L6-v2";
 export const EMBED_DIMS = 384;
+
+/** Short content hash — reuse vector when embed text unchanged. */
+export function embedTextHash(text) {
+  return createHash("sha256").update(text).digest("hex").slice(0, 16);
+}
+
+/** Copy one normalized vector row between row-major matrices. */
+export function copyVectorRow(src, srcRow, dst, dstRow, dims = EMBED_DIMS) {
+  const srcOff = srcRow * dims;
+  const dstOff = dstRow * dims;
+  for (let d = 0; d < dims; d++) dst[dstOff + d] = src[srcOff + d];
+}
 
 /** @param {Float32Array|number[]} vec */
 export function l2Normalize(vec) {

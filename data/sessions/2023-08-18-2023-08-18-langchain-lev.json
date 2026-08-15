@@ -1,0 +1,200 @@
+{
+  "id": "2023-08-18-2023-08-18-langchain-lev",
+  "date": "2023-08-18",
+  "title": "LangChain-Lev",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "safety",
+    "agents",
+    "openai",
+    "rag",
+    "open-models",
+    "multimodal",
+    "infra",
+    "ml-fundamentals",
+    "general"
+  ],
+  "video": {
+    "id": "3ZdpLwoPEuQ",
+    "title": "AI Updates - August 18, 2023",
+    "url": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+    "thumbnail": "https://i.ytimg.com/vi/3ZdpLwoPEuQ/hqdefault.jpg",
+    "duration": 855
+  },
+  "deck": {
+    "path": "2023/2023-08-18-LangChain-Lev.pptx",
+    "filename": "2023-08-18-LangChain-Lev.pptx",
+    "title": "LangChain-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-18-LangChain-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-18-LangChain-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LangChain Presented by Lev Selector August 18 ,",
+      "text": "LangChain Presented by Lev Selector August 18 , 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: crypto, accounting cloud architecture, fin-tech, application security Generative AI Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "LangChain Framework: Create Apps Using LLMs Software framework",
+      "text": "LangChain Framework: Create Apps Using LLMs Software framework created and open-sourced in 2022 by Harrison Chase Available as either a Python or TypeScript package https://en.wikipedia.org/wiki/LangChain https://github.com/langchain-ai/langchain https://langchain.com | https://python.langchain.com | https://docs.langchain.com/docs/ https://python.langchain.com/docs/modules/model_io/prompts/prompt_templates/ quickstart tutorial - https://www.youtube.com/watch?v=aywZrzNaKjs LangChain - https://www.youtube.com/watch?v=jFo_gDOOusk Prompt Engineering - https://www.youtube.com/playlist?list=PLZnV2TKiv3wC0F5AQJwL3RGCfInRpu-LA \"DeepLearning.ai\" - https://www.deeplearning.ai/short-courses/ - good short courses Harrison Chase Co-Founder & CEO, Released LangChain in October 2022 Multiple YouTube tutorials Universal API for LLMs ( GPT-3, BLOOM, and Jurassic-1 Jumbo, ... ) Chains = sequences of commands for LLM End-to-end chains for popular apps (chatbots, question-answering, and summarization) Memory (keeping info about previous chat messages, ...) Tools for debugging, testing, evaluating, and monitoring LLM apps Prompt templates - strings containing variables in curly braces {myvar}. For example, templates for chatbots, ELI5 question-answering (\"Explain Like I'm Five\"), summarization, etc Agents - use LLMs to decide what actions should be taken (generate a plan or execute tasks)"
+    },
+    {
+      "index": 4,
+      "title": "LangChain Is The Most Popular and Flexible Framework",
+      "text": "LangChain Is The Most Popular and Flexible Framework There are many Frameworks for orchestrating LLMs. Here are the most popular (on top): 1. LangChain ( https://www.langchain.com ) - most popular, flexible, used everywhere (Google, Microsoft, Facebook, etc. ). 2. LlamaIndex ( https://www.llamaindex.ai ) - similar, make it easier to do Q/A, NLI, etc. 3. Hugging Face Transformers ( https://github.com/huggingface/transformers ) -  variety of tasks, not for orchestration though. 4. Ada ( https://www.ada.cx ) - build conversational AI chatbots , supports a variety of LLMs, chaining, caching, logging. 5. DialoGPT ( https://github.com/microsoft/DialoGPT ) - build chatbots , similar to Ada - but specifically for LLMs from OpenAI. 6. Parrot ( https://parrotgpt.ai ) - build chatbots , similar to Ada and DialoGPT, but it is more open-source and flexible. 7. CogDL ( https://github.com/THUDM/CogDL ) - build graph neural networks ( GNNs ), orchestrate LLMs for Q/A and NLI. 8. Steamship ( https://www.steamship.com ) - build AI Agents , LLM apps, chaining, caching, logging. 9. FATE ( https://fate.fedai.org ) - build federated learning apps , orchestrate LLMs trained on distributed datasets. 10. PolyAI ( https://poly.ai ) - build voice assistants , conversational AI apps, uses its own proprietary framework. 11. Snips NLU ( https://www.sonos.com ) - build NLU apps - intent detection and entity extraction. 12. MindMeld ( https://www.mindmeld.com ) - build conversational AI apps - Q/A & NLI. 13. ReTune ( https://retune.so ) - managing & improving prompts for LLMs. 14. Dust ( https://dust.tt ) - build conversational AI apps , chaining, caching, and logging. Q/A = Question Answering NLI = Natural Language Inference NLU = Natural Language Understanding"
+    },
+    {
+      "index": 5,
+      "title": "https://www.deeplearning.ai/short-courses/ - good short courses \"DeepLearning.ai\" - Short",
+      "text": "https://www.deeplearning.ai/short-courses/ - good short courses \"DeepLearning.ai\" - Short Courses"
+    },
+    {
+      "index": 6,
+      "title": "Add Natural Language Interface (Create an Agent) Example",
+      "text": "Add Natural Language Interface (Create an Agent) Example - add a NLI (Natural Language Interface) for an application with ten commands Create a new LangChain project Create a new template file for each of the ten commands. Each template should have two parts: .. the prompt for triggering the command. .. the chain that will be executed when triggered Create a new agent file in which you define the logic that will be used to select the appropriate template file based on the user's input Run the LangChain application Example of a simple template for a command that adds two numbers: prompt: \"Add two numbers together.\" chain: - add: numbers: [\"1\", \"2\"] Here is an example of a simple agent file that selects the appropriate template file based on the user's input: def select_template(input): if \"add\" in input: return \"add_numbers\" else: return None Once you have created the template files and the agent file, you can run the LangChain application."
+    },
+    {
+      "index": 7,
+      "title": "LangChain + PGVector + LLM Build AI-powered apps",
+      "text": "LangChain + PGVector + LLM Build AI-powered apps on Google Cloud with pgvector, LangChain & LLMs https://www.youtube.com/watch?v=Jl1S4ZcSY8k https://colab.research.google.com/github/GoogleCloudPlatform/python-docs-samples/blob/main/cloud-sql/postgres/pgvector/notebooks/pgvector_gen_ai_demo.ipynb CREATE TABLE product_embeddings( product_id VARCHAR(1024) NOT NULL REFERENCES products(product_id), content TEXT, embedding vector(768) ) conn.execute( \"CREATE EXTENSION IF NOT EXISTS vector\" ) register_vector(conn) conn.execute( \"INSERT INTO product_embeddings (product_id, content, embedding) VALUES ($1, $2, $3)\" , row[\" product_id \"], row[\" content \"], np.array(row[\" embedding \"]), ) -- Similarity Search Query:($1,$2,... - place holders) \"\"\"WITH vector_matches AS ( SELECT product_id, 1 - (embedding <=> $1) AS similarity FROM product_embeddings WHERE 1 - ( embedding <=> $1 ) > $2 ORDER BY similarity DESC LIMIT $3 ) SELECT product_name, list_price, description FROM products WHERE product_id IN (SELECT product_id FROM vector_matches) AND list_price >= $4 AND list_price <= $5\"\"\""
+    },
+    {
+      "index": 8,
+      "title": "Embedding Models OpenAI’s Embedding Model With Vector Database",
+      "text": "Embedding Models OpenAI’s Embedding Model With Vector Database https://betterprogramming.pub/openais-embedding-model-with-vector-database-b69014f04433 OpenAI updated in December 2022 the Embedding model to text-embedding-ada-002 . The new model offers: low price ($0.01 per 100,000 tokens = 150 pages) 1/8th embeddings dimensions size reduces vector database costs Endpoint unification for ease of use State-of-the-Art performance for text search, code search, and sentence similarity Context window increased from 2048 to 8192 Choosing the Right Embedding Model - a Guide for LLM Applications https://medium.com/@ryanntk/choosing-the-right-embedding-model-a-guide-for-llm-applications-7a60180d28e3 1 token = 4 chars (in English) 1 word = 5 chars = 1.25 tokens 100 tokens = 75 words 1 page (single-spaced) = 500 words = 2,500 chars = 625 tokens 100,000 tokens = 75,000 words = 150 pages 8192 tokens = 6,150 words = 12 pages"
+    },
+    {
+      "index": 9,
+      "title": "What (Product) People Need To Know About LangChain",
+      "text": "What (Product) People Need To Know About LangChain Chain of Thought (CoT) - encourage the model to generate a series of intermediate reasoning steps. Tree of Thoughts (ToT) - LLMs evaluate themselves at each stage of thought and stop inefficient approaches early, switching to alternative methods - https://medium.com/@astropomeai/implementing-the-tree-of-thoughts-in-langchains-chain-f2ebc5864fac Action Plan Generation - ask LLM to make a plan sequence, then execute it, then re-do the plan, etc. ReAct (\"Reasoning and Action\") - thought and action, understanding the 'why' behind the action. It's about the model taking a moment to contemplate, to reason, and then to act. Self-ask - prompting encourages the model to be more proactive and inquisitive internally (ask itself questions). Prompt Chaining - combine multiple LLM calls, with the output of one step being the input of the next Memetic Proxy - simulate well-known figures or situations to shape its responses Self Consistency - create multiple solutions and choose the most consistent one Inception (First Person Instruction) - add the start of the model’s response into the prompt. For example, you might ask the model to “Tell me a joke. Make it start with “Knock, knock”. MemPrompt - keep memory (history). This allows user to give feedback to LLM, correct it, improve the model's understanding of the task, prevent it from making the same mistake again .. https://js.langchain.com/docs/modules/memory/ .. https://github.com/madaan/memprompt https://www.commandbar.com/blog/langchain-guide"
+    },
+    {
+      "index": 10,
+      "title": "Schema - The Blueprint of LangChain Components -",
+      "text": "Schema - The Blueprint of LangChain Components - Models, Prompts, Indexes, Memory, Chains, and Agents Models : Large Language Models (LLMs), Chat Models, Text Embedding Models Prompts - Prompt Templates, Example Selectors (to include examples in your prompts), Output Parsers Indexes - used for Document Loaders, Text Splitters, Vector Stores, Retrievers Memory - Short-Term and Long-Term Chains , for example: LLMChain - may include a PromptTemplate , a model, Guardrails (optional quality checks) Index-related Chains Stuffing (stuff into prompt) Map Reduce (run initial prompt on each chunk of data, then a different prompt to combine all the initial outputs Refine (multi-step refining using output from previous step) Map-Rerank - running initial prompt on each chunk of data, scoring the output, ranking, return response with highest score Agents - Action Agents & Plan-and-Execute Agents https://www.commandbar.com/blog/langchain-guide https://github.com/gkamradt/langchain-tutorials/tree/main https://www.youtube.com/watch?v=vGP4pQdCocw (Cookbook part 2) https://www.youtube.com/playlist?list=PLqZXAkvF1bPNQER9mLmDbntNfSpzdDIU5 - playlist of tutorials What (Product) People Need To Know About LangChain - p.2"
+    },
+    {
+      "index": 11,
+      "title": "https://levelup.gitconnected.com/you-can-now-build-a-chatbot-to-talk-to-your-internal-knowledge-base-b6066cacf2d5 Build A Chatbot To Talk To Your",
+      "text": "https://levelup.gitconnected.com/you-can-now-build-a-chatbot-to-talk-to-your-internal-knowledge-base-b6066cacf2d5 Build A Chatbot To Talk To Your Internal Knowledge Base"
+    },
+    {
+      "index": 12,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LangChain Presented by Lev Selector August 18 ,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 1,
+      "slideTitle": "LangChain Presented by Lev Selector August 18 ,",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "LangChain Framework: Create Apps Using LLMs Software framework",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 3,
+      "slideTitle": "LangChain Framework: Create Apps Using LLMs Software framework",
+      "source": "slide"
+    },
+    {
+      "claim": "LangChain Is The Most Popular and Flexible Framework",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 4,
+      "slideTitle": "LangChain Is The Most Popular and Flexible Framework",
+      "source": "slide"
+    },
+    {
+      "claim": "https://www.deeplearning.ai/short-courses/ - good short courses \"DeepLearning.ai\" - Short",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 5,
+      "slideTitle": "https://www.deeplearning.ai/short-courses/ - good short courses \"DeepLearning.ai\" - Short",
+      "source": "slide"
+    },
+    {
+      "claim": "Add Natural Language Interface (Create an Agent) Example",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 6,
+      "slideTitle": "Add Natural Language Interface (Create an Agent) Example",
+      "source": "slide"
+    },
+    {
+      "claim": "LangChain + PGVector + LLM Build AI-powered apps",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 7,
+      "slideTitle": "LangChain + PGVector + LLM Build AI-powered apps",
+      "source": "slide"
+    },
+    {
+      "claim": "Embedding Models OpenAI’s Embedding Model With Vector Database",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 8,
+      "slideTitle": "Embedding Models OpenAI’s Embedding Model With Vector Database",
+      "source": "slide"
+    },
+    {
+      "claim": "What (Product) People Need To Know About LangChain",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 9,
+      "slideTitle": "What (Product) People Need To Know About LangChain",
+      "source": "slide"
+    },
+    {
+      "claim": "Schema - The Blueprint of LangChain Components -",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 10,
+      "slideTitle": "Schema - The Blueprint of LangChain Components -",
+      "source": "slide"
+    },
+    {
+      "claim": "https://levelup.gitconnected.com/you-can-now-build-a-chatbot-to-talk-to-your-internal-knowledge-base-b6066cacf2d5 Build A Chatbot To Talk To Your",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=3ZdpLwoPEuQ",
+      "slideIndex": 11,
+      "slideTitle": "https://levelup.gitconnected.com/you-can-now-build-a-chatbot-to-talk-to-your-internal-knowledge-base-b6066cacf2d5 Build A Chatbot To Talk To Your",
+      "source": "slide"
+    }
+  ]
+}

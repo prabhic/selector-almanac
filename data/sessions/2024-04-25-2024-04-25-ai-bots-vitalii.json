@@ -1,0 +1,382 @@
+{
+  "id": "2024-04-25-2024-04-25-ai-bots-vitalii",
+  "date": "2024-04-25",
+  "title": "AI-bots-Vitalii",
+  "series": "seminar",
+  "topics": [
+    "benchmarks",
+    "open-models",
+    "infra",
+    "jobs"
+  ],
+  "video": {
+    "id": "SAK8i1tdpbM",
+    "title": "Have you heard these exciting AI news? - April 26, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+    "thumbnail": "https://i.ytimg.com/vi/SAK8i1tdpbM/hqdefault.jpg",
+    "duration": 1314
+  },
+  "deck": {
+    "path": "2024/2024-04-25-AI-bots-Vitalii.pptx",
+    "filename": "2024-04-25-AI-bots-Vitalii.pptx",
+    "title": "AI-bots-Vitalii",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-04-25-AI-bots-Vitalii.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-04-25-AI-bots-Vitalii.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta AI",
+      "startSeconds": 12,
+      "label": "00:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Lama 3 update",
+      "startSeconds": 156,
+      "label": "02:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing Arena leaderboard",
+      "startSeconds": 330,
+      "label": "05:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Huge progress in ML",
+      "startSeconds": 385,
+      "label": "06:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft ML",
+      "startSeconds": 511,
+      "label": "08:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple Open Source Models",
+      "startSeconds": 626,
+      "label": "10:26",
+      "source": "youtube"
+    },
+    {
+      "title": "SST Language Model",
+      "startSeconds": 667,
+      "label": "11:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Flowmind",
+      "startSeconds": 821,
+      "label": "13:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Perplexity",
+      "startSeconds": 878,
+      "label": "14:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia DGX H200",
+      "startSeconds": 986,
+      "label": "16:26",
+      "source": "youtube"
+    },
+    {
+      "title": "No more noncompete",
+      "startSeconds": 1027,
+      "label": "17:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Predictions",
+      "startSeconds": 1084,
+      "label": "18:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Layoffs",
+      "startSeconds": 1263,
+      "label": "21:03",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "RAG RAG under the hood Challenges with “Naive”",
+      "text": "RAG RAG under the hood Challenges with “Naive” RAG What can we do to reduce this failures and improve metrics? How to Measure performance Chatbot: Langchain + ChainLit + GPT4 Chatbot: Langchain + Groq + RAG Chatbot: Langchain + ChainLit + local Mixtral Chatbot: Langchain + ChainLit + local Mixtral + conversation history Chatbot: LMStudio Chatbot: GPT4ALL + RAG AI ChatBots and Multi-Agent Systems April 05 , 2024 Chatbot: using Ollama local console models Chatbot: Langchain + Open AI + RAG + conversation history console chatbot Multi-agent: Web Research using SerpAPI and Langchain Agents"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Vitalii Stinskii AI Expert, Data",
+      "text": "About the Speaker Vitalii Stinskii AI Expert, Data Scientist, Python Programmer Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security www.vitalii-stinskii.com https://www.linkedin.com/in/vitalii-stinskii/ https://github.com/vstinskii https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 3,
+      "title": "The most common AI Application nowadays is a",
+      "text": "The most common AI Application nowadays is a RAG ( Retrieval Augmented Generation ) Chatbot which can answer questions about a company's data. It may be a customer service chatbot, a sales chatbot, a copilot, etc. etc. User asks a question, this question is converted into an embedding vector - and matched against available data in a vector database. Best matches are retrieved - and used to synthesise the response. It is easy to create a chatbot. It consists of: browser widget where user types questions and reads responses. python script in the middle. vector database to search and retrieve data needed to answer questions. LLM (Large Language Model) to compose the response from retrieved data. Here are two short videos explaining RAG and how to evaluate its quality: https://www.youtube.com/watch?v=0j4aIX5SCXw https://www.youtube.com/watch?v=CgQdg0SRuC0 RAG For Example: We work at transport company and have a year report about our cars. We want to know the summary about top 5 most expensive cars. To to get it we need: Put the report into a chat bot Chatbot will generate embedding from the report and save it in Vector DB Write a prompt. Chatbot will convert it to embeddings and do the search. Chatbot generates the result using most relevant parts of our report"
+    },
+    {
+      "index": 4,
+      "title": "RAG under the hood Data Ingestion: Split up",
+      "text": "RAG under the hood Data Ingestion: Split up documents(s) into even chunks Each chunk is a piece of raw text Generate embedding for each chunk(e.g. OpenAI embeddings, sentence_transformer) Store each chunk into a vector database Data Querying (Retrieval + Synthesis): Find top-k most similar chunks from vector database collection Plug into LLM Response synthesis module RAG consists of two components:"
+    },
+    {
+      "index": 5,
+      "title": "Challenges with “Naive” RAG Bad Data Retrieval Low",
+      "text": "Challenges with “Naive” RAG Bad Data Retrieval Low Precision: Not all chunks in retrieved set are relevant. Hallucinations + Lost in the Middle Problems. Low Recall: Not all relevant chunks are retrieved. Lacks enough content for LLM to synthesize an answer. Outdated information: The data is redundant or out of date. Bad Response Generation Hallucinations: Model makes up an answer that isn’t in the context. Irrelevance: Model makes up an answer that doesn’t answer the question. Toxicity/Bias: Model makes up an answer that's harmful/offensive."
+    },
+    {
+      "index": 6,
+      "title": "What can we do to reduce this failures",
+      "text": "What can we do to reduce this failures and improve metrics? Rag applications and other LLM centered applications do not just consist of LLM, but actually attach a lot of components around the LLM. The main ones: Data, Embeddings, Retrieval, Synthesis. To improve our application we need to look more closely at how our main components work: Data : Can we store additional information beyond raw text chunks? (e.g. with multi-modal data store like Activeloop`s Deep Lake) Embeddings : Can we optimize our embeddings representations? Retrieval : Can we do better than top-k embedding lookup? (with systems like Activeloop`s Deep Memory) Synthesis : Can we use LLMs for more than generations? (can we use it for reasoning, planning and handle more diverse set of questions)"
+    },
+    {
+      "index": 7,
+      "title": "How to Measure performance The key part in",
+      "text": "How to Measure performance The key part in building a production grade RAG application is to know how to evaluate it To properly evaluate the RAG system we have two strategies: Isolation: take different stages of the pipeline and evaluate them independently. Evaluate the quality of retrieved chunks given user query: Create Deep Lake dataset (store question - context pair). This can be done manually or synthetically. In the 2nd way we need to use LLM to take in some sort of unstructured data and generate questions from it. Create the ground truth. Evaluate the quality of the retrieved data. End to end: evaluate the entire system In this case we have the entire RAG pipeline and a user query. We need to look at the final generator response and give a measurement about it. Metrics: Correctness Quality of the generated response Relevance"
+    },
+    {
+      "index": 8,
+      "title": "A chatbot may use an LLM via an",
+      "text": "A chatbot may use an LLM via an online API (OpenAI, Gemini, Groq, ...), or using a local LLM A chatbot may be created using different python and/or Javascript libraries. There are multiple examples on my GitHub. https://github.com/vstinskii/ai_chatbots In the next slides we will see several examples of chatbots."
+    },
+    {
+      "index": 9,
+      "title": "Multiple Ways to Create AI Chatbots GPT4All -",
+      "text": "Multiple Ways to Create AI Chatbots GPT4All - ecosystem to train and deploy LLMs that run locally on consumer grade CPUs. Written in C++, has python and Javascript bindings. https://gpt4all.i o https://github.com/nomic-ai/gpt4all PrivateGPT - python-based, llama.cpp, gradio UI https://github.com/imartinez/privateGPT https://docs.privategpt.dev https://www.gradio.app MLC LLM - open-source apps (cpp, python, rust) https://llm.mlc.ai https://github.com/mlc-ai/mlc-llm Streamlit GUI - primitive https://github.com/alejandro-ao/chat-with-websites https://github.com/shashankdeshpande/langchain-chatbot LangChain https://github.com/kyrolabs/awesome-langchain https://github.com/homanp/superagent https://www.analyticsvidhya.com/blog/2023/06/langflow-ui-for-langchain-to-develop-applications-with-llms/ - LangFlow https://www.langflow.org ; https://github.com/logspace-ai/langflow https://github.com/chatscope/chat-ui-kit-react LlamaIndex https://github.com/run-llama - LlamaIndex https://github.com/run-llama/LlamaIndexTS - Javascript apps LMStudio - https://lmstudio.ai - app to run chat locally Ollama - https://ollama.com - server, prompt, python API. Uses llama.cpp, automatically distributes between CPU & GPU llama.cpp - https://github.com/ggerganov/llama.cpp - runtime to efficiently run LLMs (cmd, server). Has option \"--n-gpu-layers\" to specify hoW many layers on GPU. Uses GGUF or HF files. Chainlit - build app in minutes (integrates with LangChain ) https://docs.chainlit.io/get-started/overview https://github.com/Chainlit/chainlit Open WebUI (Formerly Ollama WebUI) - supports Ollama and  OpenAI-compatible APIs. Python and Javascript. https://github.com/open-webui/open-webui https://docs.openwebui.com Text-Generation - open source, but problem installing (it installs its own miniconda). Python based. Uses transformers and datasets modules, as well as llama.cpp https://github.com/oobabooga/text-generation-webui https://github.com/oobabooga/text-generation-webui/wiki/12-%E2%80%90-OpenAI-API#examples Ollama GUI - open-source pure Javascript chat app to use local LLMs via Ollama. https://github.com/HelgeSverre/ollama-gui"
+    },
+    {
+      "index": 10,
+      "title": "Example of a Chatbot using Langchain + ChainLit",
+      "text": "Example of a Chatbot using Langchain + ChainLit + GPT4 Langchain & ChainLit & GPT4 It's GPT4 but in your custom interface GitHub link: https://github.com/vstinskii/ai_chatbots/blob/master/langChain_ChainLit/langchain-gpt-chainlit/langchain_gpt.py"
+    },
+    {
+      "index": 11,
+      "title": "Langchain & ChainLit & Mixtral Powerful local Mixtral",
+      "text": "Langchain & ChainLit & Mixtral Powerful local Mixtral will help to solve your tasks! Example of a Chatbot using Local Mixtral Model with ChainLit Frontend GitHub link: https://github.com/vstinskii/ai_chatbots/blob/master/langChain_ChainLit/langchain-mixtral-ollama-chainlit/langchain_mixtral_ollama.py"
+    },
+    {
+      "index": 12,
+      "title": "Langchain + ChainLit + GPT4 + R AG",
+      "text": "Langchain + ChainLit + GPT4 + R AG or Ollama Chat with documents Using GPT4 or Local Ollama model with memory and vectordb Example of a Chatbot RAG system using Langchain + ChainLit + GPT4 or Ollama GitHub link: https://github.com/vstinskii/ai_chatbots/blob/master/RAG/langchain-local_or_api_llm-chainlit-rag-memory/rag-local-or-api-llm.py"
+    },
+    {
+      "index": 13,
+      "title": "Groq + Langchain + Rag Chat with our",
+      "text": "Groq + Langchain + Rag Chat with our documents using Groq free API! Example of a Chatbot RAG system using Langchain + Groq GitHub link: https://github.com/vstinskii/ai_chatbots/blob/master/RAG/groq/langchain_groq_rag_local_files.py"
+    },
+    {
+      "index": 14,
+      "title": "Langchain & ChainLit & Mixtral & Memory Local",
+      "text": "Langchain & ChainLit & Mixtral & Memory Local Mixtral that remembers your chat history! Example of a Chatbot using Local Mixtral + ChainLit + Chat History GitHub link: https://github.com/vstinskii/ai_chatbots/blob/master/langChain_ChainLit/langchain-mixtral-ollama-chainlit/langchain_mixtral_memory_ollama.py"
+    },
+    {
+      "index": 15,
+      "title": "LM Studio has a lot of useful settings!",
+      "text": "LM Studio has a lot of useful settings! Example of a Chatbot using Local LLM with LM Studio"
+    },
+    {
+      "index": 16,
+      "title": "GPT4ALL & RAG Chat with your files easily!",
+      "text": "GPT4ALL & RAG Chat with your files easily! Example of a Chatbot using GPT4ALL + Local LLM + RAG"
+    },
+    {
+      "index": 17,
+      "title": "Example of local Mixtral Example of a Chatbot",
+      "text": "Example of local Mixtral Example of a Chatbot using Ollama local console models"
+    },
+    {
+      "index": 18,
+      "title": "Console version of Open AI langchain RAG Chatbot",
+      "text": "Console version of Open AI langchain RAG Chatbot Example of a Chatbot Open AI + langchain + RAG + conversation history console chatbot GitHub link: https://github.com/vstinskii/ai_chatbots/blob/master/console/openai_console_rag/OpenAI_Chatbot.py"
+    },
+    {
+      "index": 19,
+      "title": "Multi-agent chatbot based on GPT4 can do much",
+      "text": "Multi-agent chatbot based on GPT4 can do much more effective work than just the model For example it can write a very good article using google search It has attention module to get adjusted to any theme. Let's try \" 2023/2024 FIS alpine ski World Cup season winners” search Example of a Multi-agent Web Research using SerpAPI and Langchain Agents # The Pioneers of the Slopes: Unraveling the 2023-2024 Ski Season's Victories As the frost of the 2023-2024 ski season thaws, it leaves behind tales of triumph, resilience, and a new chapter in the annals of winter sports. The FIS Alpine Ski World Cup, a battleground for the world's elite skiers, not only tested their limits but also showcased their indomitable spirit. Let's dive deeper into the lives of these champions, their journey's impact, and how their victories are paving the way for the future of skiing. ## Champions of the Slopes: Heroes of the Season This season's podiums were graced by athletes who demonstrated unparalleled skill, dedication, and passion. Among them: - **Marco Odermatt (SUI)** - The Swiss maestro, Odermatt, continued to dominate the men's circuit, defending his overall champion title with grace and power. His performances have been a masterclass in consistency and excellence. - **Mikaela Shiffrin (USA)** - American skiing sensation, Shiffrin, despite facing fierce competition, dazzled the slopes with her remarkable prowess, adding to her legacy. - **Lara Gut-Behrami (SUI)** - In the women's super-G, Gut-Behrami rose above the rest, proving that perseverance and hard work are the cornerstones of success in this demanding sport. ### The Glittering Path of Victory Winning on this elite stage brings with it not just medals, but a treasure trove of opportunities and benefits: - **Spotlight and Sponsorship**: The visibility that comes with victory attracts lucrative sponsorships, providing financial support and opportunities to make a significant impact on the sport. …. Full article you can see on my Github: https://github.com/vstinskii/ai_chatbots/blob/master/multi-agents/gpt4-multi-agent/main.ipynb"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "RAG RAG under the hood Challenges with “Naive”",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta AI",
+      "topic": "general",
+      "videoSeconds": 12,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=12s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Vitalii Stinskii AI Expert, Data",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lama 3 update",
+      "topic": "general",
+      "videoSeconds": 156,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=156s",
+      "slideIndex": 4,
+      "slideTitle": "RAG under the hood Data Ingestion: Split up",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 330,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=330s",
+      "slideIndex": 5,
+      "slideTitle": "Challenges with “Naive” RAG Bad Data Retrieval Low",
+      "source": "youtube"
+    },
+    {
+      "claim": "Huge progress in ML",
+      "topic": "general",
+      "videoSeconds": 385,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=385s",
+      "slideIndex": 7,
+      "slideTitle": "How to Measure performance The key part in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft ML",
+      "topic": "general",
+      "videoSeconds": 511,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=511s",
+      "slideIndex": 8,
+      "slideTitle": "A chatbot may use an LLM via an",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple Open Source Models",
+      "topic": "open-models",
+      "videoSeconds": 626,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=626s",
+      "slideIndex": 10,
+      "slideTitle": "Example of a Chatbot using Langchain + ChainLit",
+      "source": "youtube"
+    },
+    {
+      "claim": "SST Language Model",
+      "topic": "general",
+      "videoSeconds": 667,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=667s",
+      "slideIndex": 11,
+      "slideTitle": "Langchain & ChainLit & Mixtral Powerful local Mixtral",
+      "source": "youtube"
+    },
+    {
+      "claim": "Flowmind",
+      "topic": "general",
+      "videoSeconds": 821,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=821s",
+      "slideIndex": 13,
+      "slideTitle": "Groq + Langchain + Rag Chat with our",
+      "source": "youtube"
+    },
+    {
+      "claim": "Perplexity",
+      "topic": "general",
+      "videoSeconds": 878,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=878s",
+      "slideIndex": 14,
+      "slideTitle": "Langchain & ChainLit & Mixtral & Memory Local",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia DGX H200",
+      "topic": "infra",
+      "videoSeconds": 986,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=986s",
+      "slideIndex": 16,
+      "slideTitle": "GPT4ALL & RAG Chat with your files easily!",
+      "source": "youtube"
+    },
+    {
+      "claim": "No more noncompete",
+      "topic": "general",
+      "videoSeconds": 1027,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=1027s",
+      "slideIndex": 17,
+      "slideTitle": "Example of local Mixtral Example of a Chatbot",
+      "source": "youtube"
+    },
+    {
+      "claim": "Predictions",
+      "topic": "general",
+      "videoSeconds": 1084,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=1084s",
+      "slideIndex": 19,
+      "slideTitle": "Multi-agent chatbot based on GPT4 can do much",
+      "source": "youtube"
+    },
+    {
+      "claim": "Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1263,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM&t=1263s",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "The most common AI Application nowadays is a",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 3,
+      "slideTitle": "The most common AI Application nowadays is a",
+      "source": "slide"
+    },
+    {
+      "claim": "What can we do to reduce this failures",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 6,
+      "slideTitle": "What can we do to reduce this failures",
+      "source": "slide"
+    },
+    {
+      "claim": "Multiple Ways to Create AI Chatbots GPT4All -",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 9,
+      "slideTitle": "Multiple Ways to Create AI Chatbots GPT4All -",
+      "source": "slide"
+    },
+    {
+      "claim": "Langchain + ChainLit + GPT4 + R AG",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SAK8i1tdpbM",
+      "slideIndex": 12,
+      "slideTitle": "Langchain + ChainLit + GPT4 + R AG",
+      "source": "slide"
+    }
+  ]
+}

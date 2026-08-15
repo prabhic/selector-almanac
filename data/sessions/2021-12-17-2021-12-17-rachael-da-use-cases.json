@@ -1,0 +1,228 @@
+{
+  "id": "2021-12-17-2021-12-17-rachael-da-use-cases",
+  "date": "2021-12-17",
+  "title": "Rachael DA Use Cases",
+  "series": "data-architect-2021",
+  "topics": [
+    "safety"
+  ],
+  "video": {
+    "id": "CVPsvZA9zu8",
+    "title": "Data Architecture: Use Cases",
+    "url": "https://www.youtube.com/watch?v=CVPsvZA9zu8",
+    "thumbnail": "https://i.ytimg.com/vi/CVPsvZA9zu8/hqdefault.jpg",
+    "duration": 2672
+  },
+  "deck": {
+    "path": "2021_2_data_architect/DA_Use_Cases/2021-12-17-Rachael_DA_Use_Cases.pptx",
+    "filename": "2021-12-17-Rachael_DA_Use_Cases.pptx",
+    "title": "Rachael DA Use Cases",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_Use_Cases/2021-12-17-Rachael_DA_Use_Cases.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_Use_Cases/2021-12-17-Rachael_DA_Use_Cases.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Case Overview",
+      "startSeconds": 36,
+      "label": "00:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Rachel",
+      "startSeconds": 658,
+      "label": "10:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Lambda Architecture",
+      "startSeconds": 703,
+      "label": "11:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Methodology",
+      "startSeconds": 816,
+      "label": "13:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Kappa Architecture",
+      "startSeconds": 1103,
+      "label": "18:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Cases",
+      "startSeconds": 1404,
+      "label": "23:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Security",
+      "startSeconds": 1604,
+      "label": "26:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Security Roles",
+      "startSeconds": 1972,
+      "label": "32:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Access Persona",
+      "startSeconds": 2212,
+      "label": "36:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Security Questions",
+      "startSeconds": 2332,
+      "label": "38:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Architecture Use Cases Using a LAMBDA ARCHITECTURE",
+      "text": "Data Architecture Use Cases Using a LAMBDA ARCHITECTURE Using a KAPPA Architecture Rachael phillips"
+    },
+    {
+      "index": 2,
+      "title": "What is a Lambda Architecture? Lambda Architecture is",
+      "text": "What is a Lambda Architecture? Lambda Architecture is a data-processing architecture designed to handle massive amounts of data by taking advantage of both batch and stream-processing methods. It attempts to balance latency, throughput, and fault-tolerance by using batch processing to provide comprehensive and accurate views of batch data, while simultaneously using real-time stream processing to provide views of online data. It was coined by Nathan Marz and was created in order to solve the issue of big data needed to be processed but having too much to process all in real-time. This process creates two paths for data flow, a batch layer and a speed layer."
+    },
+    {
+      "index": 3,
+      "title": "Methodology of a Lambda Architecture Batch layer: The",
+      "text": "Methodology of a Lambda Architecture Batch layer: The batch layer precomputes results using a distributed processing system that can handle very large quantities of data. The batch layer aims at perfect accuracy by being able to process all available data when generating views. This means it can fix any errors by recomputing based on the complete data set, then updating existing views. Speed layer: The speed layer processes data streams in real time and without the requirements of fix-ups or completeness. This layer sacrifices throughput as it aims to minimize latency by providing real-time views into the most recent data. Essentially, the speed layer is responsible for filling the \"gap\" caused by the batch layer's lag in providing views based on the most recent data. This layer's views may not be as accurate or complete as the ones eventually produced by the batch layer, but they are available almost immediately after data is received and can be replaced when the batch layer's views for the same data become available. Serving layer: Output from the batch and speed layers are stored in the serving layer, which responds to ad-hoc queries by returning precomputed views or building views from the processed data."
+    },
+    {
+      "index": 4,
+      "title": "What is a Kappa Architecture? A kappa architecture",
+      "text": "What is a Kappa Architecture? A kappa architecture a data-processing architecture used for processing streaming data. You can also perform batch and real-time processing with a single technology. It is based on a streaming architecture in which an incoming series of data is first stored in a messaging engine like Apache Kafka. From there, a stream processing engine will read the data and transform it into an analyzable format, and then store it into an analytics database for end users to query. The Kappa Architecture supports (near) real-time analytics when the data is read and transformed immediately after it is inserted into the messaging engine. This makes recent data quickly available for end user queries. It also supports historical analytics by reading the stored streaming data from the messaging engine later in a batch manner, to create additional analyzable outputs for more types of analysis. The main difference with the Kappa Architecture is that all data is treated as if it were a stream, so the stream processing engine acts as the sole data transformation engine."
+    },
+    {
+      "index": 5,
+      "title": "Methodology of a Kappa Architecture There are some",
+      "text": "Methodology of a Kappa Architecture There are some similarities to the lambda architecture's batch layer, in that the event data is immutable and all of it is collected, instead of a subset. The data is ingested as a stream of events into a distributed and fault tolerant unified log. These events are ordered, and the current state of an event is changed only by a new event being appended. Like a lambda architecture's speed layer, all event processing is performed on the input stream and persisted as a real-time view. If you need to recompute the entire data set (equivalent to what the batch layer does in lambda), you simply replay the stream, typically using parallelism to complete the computation in a timely fashion."
+    },
+    {
+      "index": 6,
+      "title": "Use Cases for both a Lambda Architecture and",
+      "text": "Use Cases for both a Lambda Architecture and a Kappa Architecture Metamarkets , which provides analytics for companies in the programmatic advertising space, employs a version of the lambda architecture that uses Druid for storing and serving both the streamed and batch-processed data. For running analytics on its advertising data warehouse, Yahoo has taken a similar approach, also using Apache Storm , Apache Hadoop , and Druid ."
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Data Architecture Use Cases Using a LAMBDA ARCHITECTURE",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Case Overview",
+      "topic": "general",
+      "videoSeconds": 36,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=36s",
+      "slideIndex": 2,
+      "slideTitle": "What is a Lambda Architecture? Lambda Architecture is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rachel",
+      "topic": "general",
+      "videoSeconds": 658,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=658s",
+      "slideIndex": 2,
+      "slideTitle": "What is a Lambda Architecture? Lambda Architecture is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lambda Architecture",
+      "topic": "general",
+      "videoSeconds": 703,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=703s",
+      "slideIndex": 3,
+      "slideTitle": "Methodology of a Lambda Architecture Batch layer: The",
+      "source": "youtube"
+    },
+    {
+      "claim": "Methodology",
+      "topic": "general",
+      "videoSeconds": 816,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=816s",
+      "slideIndex": 3,
+      "slideTitle": "Methodology of a Lambda Architecture Batch layer: The",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kappa Architecture",
+      "topic": "general",
+      "videoSeconds": 1103,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1103s",
+      "slideIndex": 4,
+      "slideTitle": "What is a Kappa Architecture? A kappa architecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Cases",
+      "topic": "general",
+      "videoSeconds": 1404,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1404s",
+      "slideIndex": 4,
+      "slideTitle": "What is a Kappa Architecture? A kappa architecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Security",
+      "topic": "safety",
+      "videoSeconds": 1604,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1604s",
+      "slideIndex": 5,
+      "slideTitle": "Methodology of a Kappa Architecture There are some",
+      "source": "youtube"
+    },
+    {
+      "claim": "Security Roles",
+      "topic": "safety",
+      "videoSeconds": 1972,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1972s",
+      "slideIndex": 5,
+      "slideTitle": "Methodology of a Kappa Architecture There are some",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Access Persona",
+      "topic": "general",
+      "videoSeconds": 2212,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=2212s",
+      "slideIndex": 6,
+      "slideTitle": "Use Cases for both a Lambda Architecture and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Security Questions",
+      "topic": "safety",
+      "videoSeconds": 2332,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=2332s",
+      "slideIndex": 6,
+      "slideTitle": "Use Cases for both a Lambda Architecture and",
+      "source": "youtube"
+    }
+  ]
+}

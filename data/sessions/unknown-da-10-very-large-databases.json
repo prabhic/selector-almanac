@@ -1,0 +1,218 @@
+{
+  "id": "unknown-da-10-very-large-databases",
+  "date": null,
+  "title": "DA 10 Very Large Databases",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "open-models",
+    "rag",
+    "infra",
+    "data-engineering"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_10_Very_Large_Databases.pptx",
+    "filename": "DA_10_Very_Large_Databases.pptx",
+    "title": "DA 10 Very Large Databases",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_10_Very_Large_Databases.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_10_Very_Large_Databases.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Very Large Databases",
+      "text": "Very Large Databases"
+    },
+    {
+      "index": 2,
+      "title": "Working with Very Large Databases ( more than",
+      "text": "Working with Very Large Databases ( more than 5 TBytes, may be 500 TB, 2 PB, more ?) Working with Very Large Tables Like a Pro in SQL Server 2019 https://www.youtube.com/watch?v=9_2ISO6IZDI - Querying 100 Billion Rows using SQL, 7 TB in a single table https://www.youtube.com/watch?v=Eo4cB7lvLhg - Azure 100TB database (Hyperscale service tier) https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale - Azure Premium – we've seen 500-700TB databses  (was 1TB in 2017) Advan Research – 2 PBytes in Google Big Query https:// www.advanresearch.com / Examples of big tables which may require special care: Web.PageViews File.Events Audit.Messages Monitor.Meaures Billing.Transactions Focus Areas: Performance Query Table Update Table Maintain Table Manage Table archiving spread partitions between storage tiers improve table maintanance (only rebuild the latest partition/index, etc.) performance? Some Cloud Data Platforms: Amazon Redshift Amazon Athena Firebolt (on AWS) Microsoft Azure Synapse Analytics Google BigQuery Snowflake Apache ClickHouse"
+    },
+    {
+      "index": 3,
+      "title": "https:// www.advanresearch.com / Use Case - Advan Research",
+      "text": "https:// www.advanresearch.com / Use Case - Advan Research Corporation 0.75 TB of compressed data daily 2PB+ of storage Google BigQuery Loading, Sharding , Clustering"
+    },
+    {
+      "index": 4,
+      "title": "Big databases are built using distributed architecture Google",
+      "text": "Big databases are built using distributed architecture Google BigQuery (BQ) database BQ – unbeatable scale and performance. Alternatives: open source solutions such as Apache Drill and Presto - require a massive infrastructure engineering and ongoing operational overhead to match the performance of BigQuery. Amazon Athena - a serverless interactive query service offered by Amazon Web Services (AWS) - is hosted version of Presto with ANSI SQL support. BQ is sstill better."
+    },
+    {
+      "index": 5,
+      "title": "Google BigQuery CREATE TABLE mydataset.newtable (transaction_id INT64, transaction_date",
+      "text": "Google BigQuery CREATE TABLE mydataset.newtable (transaction_id INT64, transaction_date DATE) PARTITION BY transaction_date AS SELECT transaction_id, transaction_date FROM mydataset.mytable Convert date-sharded tables into ingestion-time partitioned tables The example below creates an ingestion-time partitioned table named mytable_partitioned from a set of date-sharded tables prefixed with sourcetable_. The new table is partitioned daily, with a partition expiration of 259,200 seconds (3 days). bq partition \\ --time_partitioning_type=DAY \\ --time_partitioning_expiration 259200 \\ mydataset.sourcetable_ \\ mydataset.mytable_partitioned slot – a virtual CPU used by BQ to run SQL queries. Example – you have 20K slots. cluster = chunk of 20 MB of keys cluster by string, boolean, integer example: convert latitude and longitude to integer – and then cluster BQ allows partitioning by date or by integer columns"
+    },
+    {
+      "index": 6,
+      "title": "Azure Hyperscale-tier database Big databases are built using",
+      "text": "Azure Hyperscale-tier  database Big databases are built using distributed architecture https://docs.microsoft.com/en-us/azure/azure-sql/database/service-tier-hyperscale"
+    },
+    {
+      "index": 7,
+      "title": "How Analytical SQL Databases Have Evolved Row-based Column-based",
+      "text": "How Analytical SQL Databases Have Evolved Row-based Column-based In-Memory GPU Based like Kinetica MPP Parallel DW POLARIS (thousands data cells & compute nodes) Hadoop Spark Databricks Other Databases: noSQL Graph"
+    },
+    {
+      "index": 8,
+      "title": "IF OBJECT_ID('dbo.OrdersRR', 'U') IS NOT NULL DROP TABLE",
+      "text": "IF OBJECT_ID('dbo.OrdersRR', 'U') IS NOT NULL DROP TABLE dbo.OrdersRR; GO CREATE TABLE OrdersRR ( OrderID int IDENTITY(1, 1) NOT NULL, OrderDate datetime NOT NULL, OrderDescription char(15) DEFAULT ' NewOrdersRR' ) WITH ( CLUSTERED INDEX (OrderID) , DISTRIBUTION = ROUND_ROBIN ); CREATE TABLE OrdersH ( OrderID int IDENTITY(1, 1) NOT NULL, OrderDate datetime NOT NULL, OrderDescription char(15) DEFAULT 'NewOrdersH' ) WITH ( CLUSTERED INDEX (OrderID) , DISTRIBUTION = HASH(OrderDate) ); https://hershbhasin.com/azure-sql-data-warehouse/ https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-index Azure SQL Data Warehouse CREATE TABLE myTable ( id int NOT NULL, lastName varchar(20), zipCode varchar(6) ) WITH ( CLUSTERED INDEX (id) ); CREATE TABLE myTable ( id int NOT NULL, lastName varchar(20), zipCode varchar(6) ) WITH ( HEAP );"
+    },
+    {
+      "index": 9,
+      "title": "Table Index Data rows Indexes Clustered Index –",
+      "text": "Table Index Data rows Indexes Clustered Index – the data itself stored as a tree. Typically B+ Tree"
+    },
+    {
+      "index": 10,
+      "title": "How Do We Distribute a Star Schema ?",
+      "text": "How Do We Distribute a Star Schema ? Suppose the: central \"Facts\" table is big dimensions' tables are small Then we can: distribute central big \"Facts\" table between nodes replicate the dimensions tables to all nodes, so that each node has same dimension tables . . ."
+    },
+    {
+      "index": 11,
+      "title": "CREATE TABLE [dbo].[FactInternetSales_CustomerKey] WITH ( CLUSTERED COLUMNSTORE INDEX",
+      "text": "CREATE TABLE [dbo].[FactInternetSales_CustomerKey] WITH (  CLUSTERED COLUMNSTORE INDEX , DISTRIBUTION =  HASH([CustomerKey]) ,  PARTITION ( [OrderDateKey] RANGE RIGHT FOR VALUES ( 20000101, 20010101, 20020101, 20030101 , 20040101, 20050101, 20060101, 20070101 , 20080101, 20090101, 20100101, 20110101 , 20120101, 20130101, 20140101, 20150101 , 20160101, 20170101, 20180101, 20190101 , 20200101, 20210101, 20220101, 20230101 , 20240101, 20250101, 20260101, 20270101 , 20280101, 20290101 ) ) ) AS SELECT  * FROM    [dbo].[FactInternetSales] OPTION  (LABEL  = 'CTAS : FactInternetSales_CustomerKey') ; This example uses CREATE TABLE AS SELECT to re-create a table with a different hash distribution column Azure SQL Data Warehouse – continued ... Distribution: hash vs round_robin https://tsmatz.wordpress.com/2020/10/07/azure-synapse-analytics-sql-dedicated-pool-performance-distribution-hash/"
+    },
+    {
+      "index": 12,
+      "title": "Which databases does Facebook use? https:// www.gangboard.com /blog/what-database-does-",
+      "text": "Which databases does Facebook use? https:// www.gangboard.com /blog/what-database-does- facebook -use - - MYSQL - primary DB for all structured data - HBase - for messaging. Data organized into regional servers. HBase list, WAL (Write-Ahead Log) = HLog - stored in in-memory MemStore . - Cassandra - extensibility and availability, inbox search, etc. - Haystack - universal object store, used to store and serve photos 15 Bln photos * 4 formats = 60 B photos - Memcached - in-memory key-value store, multiple clusters - Presto is an open source (Apache Presto) high performance, distributed (serverless) SQL query engine for big data developed at Facebook for their data analysts to run interactive queries on its large data warehouse in Apache Hadoop .  Its architecture allows users to query a variety of data sources such as Hadoop, Cassandra, Kafka, AWS S3, Alluxio, MySQL, MongoDB and Teradata . MyRocks MySQL Storage Engine Written by Facebook allowed to reduce the space usage by 50% & helped improve the write-efficiency. Over time Facebook migrated it’s user-facing database from InnoDB to MyRocks engine. - https://www.scaleyourapp.com/what-database-does-facebook-use-a-1000-feet-deep-dive - FB Data Warehouse (2014 - scaling to 300 PB): https:// engineering.fb.com /core-data/scaling-the-facebook-data-warehouse-to-300-pb Hive, RCFile (Record-Columnar File Format) Originally FB ORCFile writer used sorted dictionaries in red-black trees. Later for performance change the format to not-sorted compressed memory-efficient hashing. Facebook generates 4 PetaBytes of data per day . All that data is stored in what is known as the Hive , which contains about 300 petabytes of data. https://kinsta.com/blog/facebook-statistics/"
+    },
+    {
+      "index": 13,
+      "title": "https://clickhouse.com - https://en.wikipedia.org/wiki/ClickHouse - https://github.com/ClickHouse/ClickHouse - https://www.youtube.com/watch?v=fGG9dApIhDU –",
+      "text": "https://clickhouse.com - https://en.wikipedia.org/wiki/ClickHouse - https://github.com/ClickHouse/ClickHouse - https://www.youtube.com/watch?v=fGG9dApIhDU – https://clickhouse.com/docs/en/introduction/performance/ - Can be deployed on AWS: https://www.amazonaws.cn/en/solutions/clickhouse-on-aws/ - ClickHouse is an open-source (Apache, 2016) high-performance column-oriented DBMS created by Russian company Yandex for real-time OLAP processing. ClickHouse"
+    },
+    {
+      "index": 14,
+      "title": "Firebolt Firebolt – Cloud Data Warehouse: beats performance",
+      "text": "Firebolt Firebolt – Cloud Data Warehouse: beats performance of all major DataWarehouse providers (Snowflake, RedShift, BigQuery, etc.) by x10-x100, while costing x10 times less uses AWS S3 for storage (AWS only so far) very fast - up to 182x faster performance than Athena across terabyte and petabyte scale runs a limitless amount of concurrent queries at sub-second performance at any scale elastic architecture - decoupled storage & compute. Adding or scaling resources up/down is instant. advanced data warehousing capabilities to manage ELT, storage and concurrency without compromising the ease of use Low Cost Good 17min demo and explanation - https://www.youtube.com/watch?v=wSwzsRFUOUs - https://www.firebolt.io/ - https://www.firebolt.io/performance-at-scale - https://www.datanami.com/2020/12/09/firebolt-touts-massive-speedup-in-cloud-data-warehouse/ https://www.youtube.com/watch?v=-hR7Qzf_8X4 demo 42 Billion rows query in less than 1 second ! How We Built The World's Fastest Cloud Data Warehouse\" https://www.youtube.com/watch?v=PGmmNqAOP94 Eldad Farkash Firebolt CEO and co-founder, also co-founder of Sisense , a $Billion+ analytics company Mosha Pasumansky CTO, former Google BigQuery Principal Engineer and Microsoft OLAP/MDX creator"
+    },
+    {
+      "index": 15,
+      "title": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison",
+      "text": "Firebolt Performance Explained https://www.firebolt.io/performance-at-scale - https://www.firebolt.io/resources/firebolt-cloud-data-warehouse-whitepaper – https://www.firebolt.io/resources/cloud-data-warehouse-comparison - Firebolt resolves the storage layer bottleneck Data lakes (like AWS S3 = Simple Storage Service ) are built for infinite storage. But they are terribly slow when large amounts of data need to be scanned and moved to the compute layer for querying. Firebolt avoids reading whole files. This is done by indexing the data inside files into \" ranges \". This is called \" sparse indexing \". The indexes are small (they are sparse , not very granular). Thus indexes can be kept in memory and can help to  quickly identify the files and specific segments within those files which need to be loaded from disk into memory. Note: API for AWS S3 allows multi-part uploads, and also \"GetObject\" mathod has option \" range \" to read only specific reange of bytes: https://docs.aws.amazon.com/AmazonS3/latest/API/API_GetObject.html - Additional sparse indexes can be easily created for common aggregations and joins – thus making queries even faster (this is similar to idea of precalculated OLAP cubes). Data ingestion – from all typical raw data formats (eg CSV, Parquet, Avro, JSON). Ingested data is sorted, compressed, indexed and materialized into Firebolt’s proprietary file format - F3 = Firebolt File Format . F3 benefits: sparse indexes, easy merging data for quick updates Sparse Indexes - created automatically,  small, fully loaded in memory, help to dramatically reduce i/o by pulling only small portions from F3-s which are needed for a query. granular data pruning - allows to avoid fetching unnecessary data. cost-based optimizer turns SQL into most performant – yet low-cost version. Just-In-Time (JIT) compilation of SQL into an optimized executable. CPU efficiency – using Vectorized Processing and SIMD (Single Instruction, Multiple Data) delivers blazing query execution speeds through applying query instructions on batches of column data instead of row-by-row, and through optimized usage of the CPU cache."
+    },
+    {
+      "index": 16,
+      "title": "Google BigQuery tricks BigQuery is designed for map-reduce",
+      "text": "Google BigQuery tricks BigQuery is designed for map-reduce over huge amount of data (Tera-bytes and Peta-bytes). It charges not for compute usage, but for amount of data your query is touching. Here is an interesting illustration how a huge set of queries was running for 30 hrs, but the total charge was only $2. A client is using geographical location data – matching footprints of people to locations of stores. \"Recently I was matching 150M of footprints to 4M blocks. Blocks were in 20 US cities. So I did per city. But for New York it was still too much (4M footprints vs 1.5M blocks). The size of the cross join was enormous. So I had to split it in 24 sub-blocks and to do some other optimizations to reduce it. We ended up running it for something like 30 hours (in a loop). The query is trivial. I had to reduce usage of geometrical polygons_cover(point) function by the distance between polygon center to point in order to make it run, to filter the coverage after the join (thus reducing the potential cover_ calls, which are expensive as you can imagine) only to candidates , which is linear vs quadratic. I cannot even imagine how much it would cost us with compute credits. But total BQ cost was ... take a guess ... only $2 !! Why? Because the data I have touched were approx. 100 GB, and BQ charges $5/TB. You do not pay for compute time. You pay only for the data you touch\""
+    }
+  ],
+  "points": [
+    {
+      "claim": "Very Large Databases",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Very Large Databases",
+      "source": "slide"
+    },
+    {
+      "claim": "Working with Very Large Databases ( more than",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Working with Very Large Databases ( more than",
+      "source": "slide"
+    },
+    {
+      "claim": "https:// www.advanresearch.com / Use Case - Advan Research",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "https:// www.advanresearch.com / Use Case - Advan Research",
+      "source": "slide"
+    },
+    {
+      "claim": "Big databases are built using distributed architecture Google",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Big databases are built using distributed architecture Google",
+      "source": "slide"
+    },
+    {
+      "claim": "Google BigQuery CREATE TABLE mydataset.newtable (transaction_id INT64, transaction_date",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Google BigQuery CREATE TABLE mydataset.newtable (transaction_id INT64, transaction_date",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure Hyperscale-tier database Big databases are built using",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Azure Hyperscale-tier database Big databases are built using",
+      "source": "slide"
+    },
+    {
+      "claim": "How Analytical SQL Databases Have Evolved Row-based Column-based",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "How Analytical SQL Databases Have Evolved Row-based Column-based",
+      "source": "slide"
+    },
+    {
+      "claim": "IF OBJECT_ID('dbo.OrdersRR', 'U') IS NOT NULL DROP TABLE",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "IF OBJECT_ID('dbo.OrdersRR', 'U') IS NOT NULL DROP TABLE",
+      "source": "slide"
+    },
+    {
+      "claim": "Table Index Data rows Indexes Clustered Index –",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Table Index Data rows Indexes Clustered Index –",
+      "source": "slide"
+    },
+    {
+      "claim": "How Do We Distribute a Star Schema ?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "How Do We Distribute a Star Schema ?",
+      "source": "slide"
+    },
+    {
+      "claim": "CREATE TABLE [dbo].[FactInternetSales_CustomerKey] WITH ( CLUSTERED COLUMNSTORE INDEX",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "CREATE TABLE [dbo].[FactInternetSales_CustomerKey] WITH ( CLUSTERED COLUMNSTORE INDEX",
+      "source": "slide"
+    },
+    {
+      "claim": "Which databases does Facebook use? https:// www.gangboard.com /blog/what-database-does-",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Which databases does Facebook use? https:// www.gangboard.com /blog/what-database-does-",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "id": "2025-10-03-2025-10-03-ai-updates",
+  "date": "2025-10-03",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "claude",
+    "open-models",
+    "coding",
+    "openai",
+    "agents",
+    "google",
+    "fine-tuning",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "Hy__puQKaGk",
+    "title": "Have you heard these exciting AI news? - October 3, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=Hy__puQKaGk",
+    "thumbnail": "https://i.ytimg.com/vi/Hy__puQKaGk/hqdefault.jpg",
+    "duration": 1835
+  },
+  "deck": {
+    "path": "2025/2025-10-03-AI-Updates.pptx",
+    "filename": "2025-10-03-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-10-03-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-10-03-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "AI updates arrive faster than your coffee cools",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 24,
+      "label": "00:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic's Claude Sonnet 4.5",
+      "startSeconds": 64,
+      "label": "01:04",
+      "source": "youtube"
+    },
+    {
+      "title": "GLM-4.6 Open Source King",
+      "startSeconds": 97,
+      "label": "01:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code 2.0",
+      "startSeconds": 173,
+      "label": "02:53",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Sora 2",
+      "startSeconds": 218,
+      "label": "03:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Perplexity Search API",
+      "startSeconds": 278,
+      "label": "04:38",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT Pulse for Pro Mobile Users",
+      "startSeconds": 371,
+      "label": "06:11",
+      "source": "youtube"
+    },
+    {
+      "title": "K2 Think 32B AI Reasoning Model by MBZUAI",
+      "startSeconds": 401,
+      "label": "06:41",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI GDPval - measures model performance",
+      "startSeconds": 440,
+      "label": "07:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta GAIA: a benchmark for General AI Assistants",
+      "startSeconds": 458,
+      "label": "07:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Moonshot AI OK Computer",
+      "startSeconds": 484,
+      "label": "08:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini Robotics 1.5 with AI agents",
+      "startSeconds": 504,
+      "label": "08:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Databricks commits to $100M in OpenAI spending",
+      "startSeconds": 522,
+      "label": "08:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Distyl AI raises $175M in funding at $1.8B valuation",
+      "startSeconds": 530,
+      "label": "08:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba Wan 2.2 Animate",
+      "startSeconds": 550,
+      "label": "09:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Kling AI 2.5 Turbo",
+      "startSeconds": 580,
+      "label": "09:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen-Image-Edit-2509 & Qwen3-Max",
+      "startSeconds": 612,
+      "label": "10:12",
+      "source": "youtube"
+    },
+    {
+      "title": "xAI gives Grok 4 to US federal agencies",
+      "startSeconds": 654,
+      "label": "10:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta FAIR - open-source Code World Model",
+      "startSeconds": 670,
+      "label": "11:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Facebook adds an AI Dating Assistant",
+      "startSeconds": 683,
+      "label": "11:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Emad Mostaque book \"The Last Economy\"",
+      "startSeconds": 696,
+      "label": "11:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Abacus AI DeepAgent Desktop & CLI",
+      "startSeconds": 747,
+      "label": "12:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Vibes - AI Videos for Instagram",
+      "startSeconds": 780,
+      "label": "13:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Anything - text-to-app startup",
+      "startSeconds": 814,
+      "label": "13:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Tinker API for fine-tuning",
+      "startSeconds": 862,
+      "label": "14:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Unified Agent Framework",
+      "startSeconds": 898,
+      "label": "14:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Cerebras Raises $1.1B at $8.1 valuation",
+      "startSeconds": 956,
+      "label": "15:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Detecting hallucinations in RAG with 85% accuracy",
+      "startSeconds": 973,
+      "label": "16:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Periodic Labs - AI Scientist",
+      "startSeconds": 1015,
+      "label": "16:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Genspark AI Workspace",
+      "startSeconds": 1055,
+      "label": "17:35",
+      "source": "youtube"
+    },
+    {
+      "title": "IBM & HSBC - Quantum Computers to improve trading",
+      "startSeconds": 1171,
+      "label": "19:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Netflix: monolithic architectures can scale",
+      "startSeconds": 1186,
+      "label": "19:46",
+      "source": "youtube"
+    },
+    {
+      "title": "StoneMQ - Open-source Messaging in Rust",
+      "startSeconds": 1226,
+      "label": "20:26",
+      "source": "youtube"
+    },
+    {
+      "title": "RAG python modules",
+      "startSeconds": 1272,
+      "label": "21:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Traycer - AI coding assistant",
+      "startSeconds": 1307,
+      "label": "21:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini 2.5 Flash Light model",
+      "startSeconds": 1333,
+      "label": "22:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Richard Sutton - Father of RL about LLMs",
+      "startSeconds": 1375,
+      "label": "22:55",
+      "source": "youtube"
+    },
+    {
+      "title": "21 Things You Should Be Using AI For ...",
+      "startSeconds": 1473,
+      "label": "24:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Evaluate AI for Production",
+      "startSeconds": 1529,
+      "label": "25:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Rust instead of Python",
+      "startSeconds": 1595,
+      "label": "26:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Time to self-driving cars",
+      "startSeconds": 1714,
+      "label": "28:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1816,
+      "label": "30:16",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Anthropic’s Claude Sonnet 4.5",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Anthropic’s Claude Sonnet 4.5 GLM-4.6 Open Source King Claude Code 2.0 OpenAI Sora 2 Perplexity Search API ChatGPT Pulse for Pro Mobile Users K2 Think 32B AI Reasoning Model by MBZUAI AI Updates - October 3, 2025 Jobs, Layoffs, demand for AI Engineers OpenAI GDPval - measures model performance Meta GAIA: a benchmark for General AI Assistants Moonshot AI OK Computer Gemini Robotics 1.5 with AI agents Databricks commits to $100M in OpenAI spending Distyl AI raises $175M in funding at $1.8B valuation Alibaba Wan 2.2 Animate Kling AI 2.5 Turbo Qwen-Image-Edit-2509 & Qwen3-Max xAI gives Grok 4 to US federal agencies Meta FAIR - open-source Code World Model Facebook adds an AI Dating Assistant Abacus AI DeepAgent Desktop & CLI Emad Mostaque book \"The Last Economy\" Meta Vibes - AI Videos for Instagram Anything - text-to-app startup Tinker API for fine-tuning Microsoft Unified Agent Framework Cerebras Raises $1.1B at $8.1 valuation Detecting hallucinations in RAG with 85% accuracy Periodic Labs - AI Scientist Genspark AI Workspace IBM & HSBC - Quantum Computers to improve trading Netflix: monolithic architectures can scale StoneMQ - Open-source Messaging in Rust RAG python modules Traycer - AI coding assistant Gemini 2.5 Flash Light model Richard Sutton - Father of RL about LLMs 21 Things You Should Be Using AI For ... Evaluate AI for Production Rust instead of Python Time to self-driving cars AI updates arrive faster than your coffee cools"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://lmarena.ai/?leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding China https://lmarena.ai/leaderboard/text https://web.lmarena.ai/leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub https://epoch.ai/data/ai-benchmarking-dashboard LM Arena secures $100M to expand AI benchmarking (at $600M valuation) China China x.ai Grok 4 Benchmarks https://artificialanalysis.ai/models/grok-4 China China China China China China China China China China China China China China x.ai x.ai Model Score gemini-2.5-pro 1452 claude-opus-4-1-20250805-thinking-16k 1449 claude-sonnet-4-5-20250929 1440 chatgpt-4o-latest-20250326 1441 gpt-4.5-preview-2025-02-27 1440 o3-2025-04-16 1440 gpt-5-high 1439 claude-opus-4-1-20250805 1439 qwen3-max-preview 1434 gpt-5-chat 1425 grok-4-fast 1423 qwen3-max-2025-09-23 1420 qwen3-vl-235b-a22b-instruct 1418 claude-opus-4-20250514-thinking-16k 1420 qwen3-235b-a22b-instruct-2507 1418 grok-4-0709 1418 deepseek-r1-0528 1417 kimi-k2-0905-preview 1416 deepseek-v3.1-thinking 1416 deepseek-v3.1-terminus 1416 kimi-k2-0711-preview 1415 deepseek-v3.1 1415 deepseek-v3.1-terminus-thinking 1414 gemini-2.5-flash-preview-09-2025 1409 Model Score claude-opus-4-1-20250805-thinking-16k 1508 claude-opus-4-1-20250805 1496 claude-sonnet-4-5-20250929 1494 qwen3-max-2025-09-23 1477 claude-opus-4-20250514-thinking-16k 1480 qwen3-max-preview 1478 gemini-2.5-pro 1470 qwen3-235b-a22b-instruct-2507 1468 chatgpt-4o-latest-20250326 1467 gpt-5-high 1466 qwen3-vl-235b-a22b-instruct 1466 deepseek-v3.1-terminus-thinking 1457 o3-2025-04-16 1465 gpt-5-chat 1462 longcat-flash-chat 1461 gpt-4.5-preview-2025-02-27 1461 deepseek-v3.1-thinking 1461 qwen3-next-80b-a3b-instruct 1460 grok-4-fast 1456 claude-sonnet-4-20250514-thinking-32k 1461 deepseek-r1-0528 1457 claude-opus-4-20250514 1455 kimi-k2-0905-preview 1452 qwen3-vl-235b-a22b-thinking 1443 China China China China China"
+    },
+    {
+      "index": 3,
+      "title": "Anthropic’s Claude Sonnet 4.5 Anthropic’s Claude Sonnet 4.5",
+      "text": "Anthropic’s Claude Sonnet 4.5 Anthropic’s Claude Sonnet 4.5 Long-duration, autonomous coding and agentic workflows Leads industry benchmarks, including SWE-bench Verified (coding) and OSWorld (computer tasks ) Advanced context and memory management, supporting extended, multi-hour (30+ hours) tasks by compressing, editing, and preserving essential context across sessions (AI task duration is doubling every 7 months - new \"Moore's Law\") Orchestrating tools and software, including parallel tool calls, in highly agentic workflows such as coding, research, and computer automation Includes developer tools like a native VS Code extension, Claude Agent SDK, and enhanced Chrome extension for web automation Demonstrates significant improvements in alignment and safety, tested by third-party institutes, reducing unsafe behaviors Powers advanced enterprise use cases in coding, finance, legal research, and complex automation for major companies Available through the Claude API, Amazon Bedrock, and Chrome Price same as previous Sonnet (in $3 / out $15) Claude is already writing the majority of code at Anthropic GLM-4.6 Open Weights from Zhipu AI 200K token context window, MIT-license SOTA coding, reasoning, and agentic performance; Price ($0.60 / $2) is ~5x times lower than Claude Sonnet ($3/$15) Performance close to Claude Sonnet 355B params MoE (32B active) - half the size of DeepSeek-V3 (671B) and one-third of Kimi K2 (1043B) Power-efficient, using 30% fewer tokens than its predecessor; integrates well with agent frameworks Available for local deployment or via major platforms and APIs https://huggingface.co/zai-org/GLM-4.6 https://docs.z.ai/guides/llm/glm-4.6 https://openrouter.ai/z-ai/glm-4.6 https://www.youtube.com/watch?v=k0M320a-TXs https://www.youtube.com/watch?v=i3kO_GOt2Bo https://docs.z.ai/devpack/overview GLM 4.6      from z.ai"
+    },
+    {
+      "index": 4,
+      "title": "Claude Code 2.0 Claude Code 2.0 - major",
+      "text": "Claude Code 2.0 Claude Code 2.0 - major update now powered by the Sonnet 4.5 model includes an official VS Code extension with a rich GUI, live sidebar, inline diffs, and persistent conversation histories Enhanced Terminal UI - improved status feedback, and a searchable prompt history (via Ctrl+r), streamlining iterative command use and debugging within the shell Operates as an autonomous agent. It can understand high-level instructions, decompose tasks, interact with your filesystem, run commands, and make multi-file edits—all without constant human supervision Automatic checkpoints save both your code and the AI’s conversational context before each change, enabling rapid rollback or context resets (\"/rewind\" command or double-Esc lets users revert code and conversation if the session takes a wrong path) Subagents, Hooks, and Background Tasks, parallel tasks Teams can build custom agent workflows, define authorization, manage subagents, and trigger hooks tailored to specific development, compliance, security, or operational tasks Overall Claude Code 2.0 brings much higher autonomy, multi-step planning and execution, and a deeper integration into common developer workflows https://anthropic.com/news/enabling-claude-code-to-work-more-autonomously https://www.youtube.com/watch?v=GfBPtZag0ag"
+    },
+    {
+      "index": 5,
+      "title": "OpenAI Sora 2 OpenAI Sora 2 Generates photorealistic",
+      "text": "OpenAI Sora 2 OpenAI Sora 2 Generates photorealistic minute-long videos with synchronized audio and realistic physical motion \"cameo\" feature: users can insert themselves or friends into AI-generated scenes, after verifying their identity Advanced editing and controllability for precise object replacement and multi-shot direction Available by invitation only for ChatGPT Pro users ($200/mo) via Sora.com ( https://sora.chatgpt.com/explore ), iOS app Social feed mimics TikTok, showing vertical AI-generated videos curated to user interests Implements strong watermarking, provenance, and moderation Access is by invitation; uploads with real people are restricted and carefully reviewed https://openai.com/index/sora-2/ https://apps.apple.com/us/app/sora-by-openai/id6744034028 https://www.youtube.com/watch?v=hkSj-QapfZo - fireship video"
+    },
+    {
+      "index": 6,
+      "title": "Perplexity Search API Perplexity Search API Real-time indexing",
+      "text": "Perplexity Search API Perplexity Search API Real-time indexing and access to 100s of Billions of web pages via AI-driven search 0.4 sec median latency, Combines keyword and semantic search, segmenting documents to deliver highly relevant, contextually grounded answers with detailed source citations suitable for LLM integration and conventional web services Structured Outputs for AI Agents and waw, ranked web results API does not use user data to train its models Pricing - $5 per 1,000 search requests. 200M queries per day, robust SDKs, compatible with popular libraries (OpenAI-Compatible) REST API Design, easily plugged into applications with simple authentication and querying workflows Supports advanced models (e.g., Sonar Pro) for in-depth research, long context windows, and nuanced reasoning tasks curl -L -X POST 'https://api.perplexity.ai/v1/search' \\ -H 'Content-Type: application/json' \\ -H 'Authorization: Bearer <YOUR_API_KEY>' \\ --data-raw '{ \"query\": \"latest AI trends\", \"num_results\": 3 }' Perplexity’s Search API is ideal for real-time information retrieval, LLM-powered assistants, and scalable web-grounded search infrastructure https://docs.perplexity.ai"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates - 1 ChatGPT Pulse for Pro",
+      "text": "AI Updates - 1 ChatGPT Pulse for Pro Mobile Users Personalized Updates ChatGPT Pulse is a new feature introduced as a preview for ChatGPT Pro users on mobile, designed to proactively deliver personalized updates, research, and suggestions based on chat history, user feedback, and optional integrations like Gmail and Google Calendar https://openai.com/index/introducing-chatgpt-pulse/ K2 Think 32B AI Reasoning Model by MBZUAI by Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Masdar City, Abu Dhabi, United Arab Emirates Comparable to SOTA models, advanced reasoning and mathematical problem-solving, 2Ktok/sec on Cerebras The world’s most parameter-efficient advanced reasoning model, showing that highly effective performance can be achieved with compact architectures - https://www.k2think.ai/k2think OpenAI GDPval - measures model performance measures model performance on economically valuable, real-world tasks across 44 occupations https://openai.com/index/gdpval/ Meta GAIA: a benchmark for General AI Assistants https://arxiv.org/abs/2311.12983"
+    },
+    {
+      "index": 8,
+      "title": "Please pause the video - and answer the",
+      "text": "Please pause the video - and answer the pinned question in comments under the video Subscribe to this channel https://www.youtube.com/@lev-selector G et notified about new videos - every Friday, links to slides under the videos"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates - 2 Moonshot AI OK Computer",
+      "text": "AI Updates - 2 Moonshot AI OK Computer Using Kimi K2,  an autonomous system https://x.com/kimi_moonshot/status/1971078467560276160 Gemini Robotics 1.5 brings AI agents into the physical world Vision-language-action (VLA) model, which turns visual information and instructions into motor commands https://deepmind.google/discover/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/ Databricks commits to $100M in OpenAI spending https://www.cnbc.com/2025/09/25/databricks-commits-to-100-million-in-openai-spending-for-ai.html Distyl AI raises $175M in funding at $1.8B valuation AI consulting platform https://www.theinformation.com/articles/startup-founded-ex-palantir-employees-raises-1-8-billion-valuation"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates - 3 Alibaba Wan 2.2 Animate",
+      "text": "AI Updates - 3 Alibaba Wan 2.2 Animate Open-source AI video generation and character animation Developed by Tongyi Lab (Alibaba) Users can animate any static character image or replace characters in an existing video using motion and facial expressions extracted from a reference video Kling AI 2.5 Turbo - text-to-video models (China, commercial) Enhancements in motion fluidity, prompt adherence, scene realism, and aesthetic precision Qwen-Image-Edit-2509 - open-weights multi-image editing and single-image consistency Qwen3-Max - coding and agentic model surpassing top Western models in “thinking” and Python use modes xAI gives Grok 4 to US federal agencies 42 cents per department for 18 months Meta FAIR - open-source Code World Model 32B params - learns coding by interacting with and executing code Facebook adds an AI Dating Assistant updated dating platform improve match recommendations"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates - 4 Abacus AI DeepAgent Desktop",
+      "text": "AI Updates - 4 Abacus AI DeepAgent Desktop & CLI All-in-one AI assistant for desktop use, supporting real-time desktop automation, agentic browsing, and workflows for coding, scripting, and business tasks; integration with top models & MCP Windows, Mac, and Linux systems npm install -g @abacus-ai/deepagent  (or download app) https://abacus.ai https://deepagent.abacus.ai https://deepagent-desktop.abacus.ai Emad Mostaque book \"The Last Economy\" Emad believes traditional economic structures will be obsolete within 3 years. He warns of a \"permanent underclass\" if AI benefits aren't distributed properly He proposes \"proof of benefit\" cryptocurrency where proceeds fund beneficial AI research He advocates for universal AI access and open-source models aligned to individual values; Emphasizes the importance of \"caring and giving a damn\" as uniquely human traits"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates - 5 Meta Vibes - Discover",
+      "text": "AI Updates - 5 Meta Vibes - Discover and Create AI Videos for Instagram Meta Vibes is a new feature introduced by Meta within the Meta AI app and the meta.ai website that enables users to browse, create, and remix short-form AI-generated videos. The Vibes feed is populated entirely by AI-generated clips, which users can modify using text prompts, upload their own visual elements, or remix existing content to match their desired style or mood, known as their “vibe”. https://about.fb.com/news/2025/09/introducing-vibes-ai-videos/ Anything - text-to-app startup (San-Francisco) an AI app is offering all the tools - from databases to storage and payment functionality - that users need to run businesses on the web or to send their vibe-coded creations to the App Store. The company’s initial traction was explosive, reaching $2 million annualized run rate in just two weeks. https://www.createanything.com Anything co-founders: Dhruv Amin - https://www.linkedin.com/in/dhruvamin/ Marcus Lowe - https://www.linkedin.com/in/the-marcus-lowe/ Tinker API for fine-tuning by Thinking Machines Lab Supports large MoE models like Qwen-235B, and comes with a low-level API and open-source Tinker Cookbook for implementing advanced post-training techniques. https://thinkingmachines.ai/blog/announcing-tinker/"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates - 6 Microsoft Unified Agent Framework",
+      "text": "AI Updates - 6 Microsoft Unified Agent Framework Open-source SDK and runtime  substitutes AutoGen and Semantic Kernel to unify agent development, deployment, and observability It offers safety features like task adherence and PII alerts (PII = \"Personally Identifiable Information\") Deep integration with Azure AI Foundry for enterprise-grade AI https://azure.microsoft.com/en-us/blog/introducing-microsoft-agent-framework/ Cerebras Raises $1.1B at $8.1 valuation The AI chipmaker raised more money Detecting hallucinations in RAG with 85% accuracy Using Anthropic’s Circuit Tracing and cross-layer transcoders (CLT) Achieved 85% detection accuracy on test data, though it is resource-intensive, highly dependent on transcoder quality, and prone to false positives in token-level alignment https://habr.com/ru/companies/redmadrobot/articles/951118/ (in Russian) Periodic Labs - AI Scientist Idea - build autonomous AI scientists equipped with physical laboratories to accelerate scientific discovery, focusing initially on the physical sciences The founding team includes leaders from major AI and scientific projects, and they are backed by prominent investors; they're also running an academic grant program to support pioneering research. https://periodic.com"
+    },
+    {
+      "index": 14,
+      "title": "Genspark AI Workspace Genspark AI Workspace uses OpenAI",
+      "text": "Genspark AI Workspace Genspark AI Workspace uses OpenAI AI Slides, AI Sheets, AI Docs, AI Pods, AI Chat, AI Image and Video, AI Download For Me, AI Call For Me, and more Examples: “Make a slide deck,” or “Call my dentist,” ...; Handles research, trip planning, product analysis, and more, and can create tailored, auto-updating documents and visualizations; Integrates with file formats like Word, Excel, and PDF, instantly turning them into polished presentations or data reports. No-code interface for a configurable collaborative workspace: customize slide layouts, color themes, and export to PDF, PowerPoint, Notion, or the web. Can now work with all popular models, even latest Claude 4.5 ! https://www.youtube.com/watch?v=n5KBfCgJYOo - video demo Available as a web app, and as apps for Android and iOS. Genspark reached $36M ARR in 45 days, and is considered a leading example of how agentic AI is moving from simple chat to real-world automation at scale. https://www.genspark.ai Pricing: Free or $20...$30/mo Genspark is a startup in Palo Alto, CA Raised $60M in 2024, $100M in 2025. 10+ people The founders of Genspark are Eric Jing and Kay Zhu, both former Baidu executives with extensive backgrounds in AI and technology"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates - Computing IBM and HSBC used",
+      "text": "AI Updates - Computing IBM and HSBC used Quantum Computers to improve trading IBM Heron quantum processor was used to enhance algorithmic bond trading - up to a 34% improvement in predicting the likelihood that bond trades would be completed at quoted prices This was done by combining quantum and classical computational methods on real-world, production-scale bond trading data This represents the world's first empirical evidence of quantum computing's practical value in financial services. This is \"ground breaking world first\" example https://www.ibm.com/quantum/blog/hsbc-algorithmic-bond-trading Netflix: monolithic architectures can scale Microservices impose a recurring \"network tax\" due to serialization, deserialization, additional network hops, and frequent retries and timeouts, all of which can impact latency and reliability; Debugging distributed traces becomes a nightmare, as diagnosing single requests can mean traversing hundreds of interconnected microservices, making root-cause analysis more difficult than in a monolithic setup Netflix’s practical experience with microservices exposes limitations and points out that, for some environments, monolithic systems can offer superior scalability and operational simplicity compared to highly distributed architectures https://medium.com/@yashbatra11111/how-netflix-accidentally-proved-monoliths-scale-better-than-microservices-f2d66f0a0bb5 StoneMQ - Open-source Messaging in Rust 6x times faster and 70% cheaper than Kafka Kafka Compatible, efficient scaling, loging/tracing Fully open source under the Apache 2.0 license https://github.com/jonefeewang/stonemq RAG python modules pip install RAGchain # pipelines, benchmarking, ... pip install raglight pip install rag light pip install flashrag-dev --pre pip install metagpt[rag] https://pypi.org/project/RAGchain/ https://python.langchain.com/docs/tutorials/rag/ https://github.com/RUC-NLPIR/FlashRAG https://docs.deepwisdom.ai/main/en/guide/in_depth_guides/rag_module.html https://www.youtube.com/watch?v=BfBLSnRKWMY https://www.youtube.com/watch?v=mEmUN4lgpaU https://microsoft.github.io/graphrag/get_started/ https://github.com/pymupdf/RAG"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates - Coding Traycer - AI coding",
+      "text": "AI Updates - Coding Traycer - AI coding assistant https://www.youtube.com/watch?v=eaoquGpEVmk Tracer creates detailed, actionable plans before any coding begins, acting as a \"planning layer\" that ensures crystal-clear input to AI agents. Uses Multiple background planners and Automatic context gathering when encountering unfamiliar libraries or frameworks Tracer offers a Pro plan at $25/mo Gemini 2.5 Flash Light model Significantly faster than previous models Reduces output tokens by half Lower latency and reduced costs Improved performance over the previous non-thinking version of Gemini 2.5 Flash Maintains accuracy while delivering results much faster Available on Google AI Studio Can be grounded with Google Search Supports URL context reading Runs on standard Google hardware (no specialized hardware like Groq or Cerebras needed)"
+    },
+    {
+      "index": 17,
+      "title": "Richard Sutton - Father of RL about LLMs",
+      "text": "Richard Sutton - Father of RL about LLMs Richard Sutton on Reinforcement Learning vs. LLMs LLMs mimic what people say, not what actually happens in the world RL is about learning from direct experience and consequences LLMs: lack true goals and ground truth for evaluating actions. Without goals, there's no \"right\" thing to do - just patterns to copy don't have a world model. They predict what people would say, not what will happen can not be surprised by outcomes or update based on unexpected events don't learn from life experiences as all mammals do The RL Alternative: Policy (what to do in each situation) Value function (how well things are going, learned via TD learning) State representation (perception/understanding of current situation) Transition model (predicting consequences of actions) Generalization: Current deep learning generalizes poorly and unpredictably Gradient descent solves problems but doesn't ensure good generalization to new situations Humans sculpt representations that transfer well; it's not automatic Catastrophic interference when learning new things is evidence of poor generalization Bitter Lesson: general methods which leverage computation consistently outperform methods based on human-crafted, domain-specific knowledge Sutton expects experience-based learning to eventually supersede LLM approaches, same pattern has repeated throughout AI history Infants learn through trial-and-error, not imitation or supervised learning; Supervised learning \"doesn't happen in nature\" - no examples of \"correct\" behavior exist; Understanding squirrels would get us most of the way to understanding human intelligence Transition to AI/augmented humans is inevitable (lack of unified governance, eventual understanding of intelligence, superintelligence development, and resource accumulation); Represents major universal transition from replication to design; Should view AIs as humanity's offspring rather than adversaries; Current world is \"pretty bad\" - openness to change is appropriate"
+    },
+    {
+      "index": 18,
+      "title": "21 Things You Should Be Using AI For",
+      "text": "21 Things You Should Be Using AI For ... Mathew Berman video - https://www.youtube.com/watch?v=8wonm55Jl3k Visualize interior design and furniture layouts from annotated photos Try virtual fashion changes (hair colors, outfits, accessories) in self portraits Reconstruct historic sites from modern images and generate photorealistic scenes of ancient places Create 3D product designs from simple sketches Generate looping 3D animations for DJ and concert backgrounds Use AI coding agent (Warp) in the terminal - editing, code review, ... Design modern business cards, banners, and t-shirt graphics; transform logos into branded assets. Convert images and documents between formats easily (e.g., convert JPEG to SVG). Detect phishing and scam attempts in emails, voicemails, and texts—review suspicious messages with AI. Estimate rooftop solar installation potential and financial returns using Google Maps images. Schedule daily news email digests and manage task automation directly with ChatGPT. Use AI to schedule team meetings by connecting calendar data and analyzing team availability. Transcribe and expand handwritten notes and whiteboards into detailed reference sheets. Instantly generate SQL queries and filter datasets by uploading sample data. Perform sentiment analysis and generate graphical summaries of customer call transcripts. Summarize and highlight key sections of research papers; return easy-to-understand summaries with highlighted PDFs. Get up-to-date property analysis for home buying—including price trends and risks by address or region. Receive salary negotiation support, including competitor benchmark analysis and custom counteroffer drafts. Refine, rewrite, and improve professional emails—make them more polite, concise, or clearer. Summarize insurance documents and get recommendations on the most suitable options and deadlines. Conduct deep financial analysis and comparison for specific companies or investment opportunities. Use LM Studio to create study guides, flashcards, podcasts, and quizzes from uploaded documents. Win at Geoguessr by leveraging AI vision and location detection to identify and guess locations."
+    },
+    {
+      "index": 19,
+      "title": "Evaluate AI for Production Peter Yang about AI",
+      "text": "Evaluate AI for Production Peter Yang about AI Evaluations Hamel Husain - https://www.youtube.com/watch?v=uiza7wp1KrE Aman Khan - https://www.youtube.com/watch?v=TL527yTpxlk Start with manual review of ~100 real product traces . Hand-annotate failures and pain points using open coding - this provides far more insight than jumping straight to metrics or automation. Export observations to a spreadsheet and use LLMs to cluster issues into categories like \"handoff failures\" or \"conversation flow problems.\" Core Evaluation Types: Code-based, automated (e.g., prohibited term detection) Human evals by PM/expert with clear rubrics LLM-as-a-judge - automated, mimics human judgment User evals - real production feedback and business metrics Building Effective Evaluations: Create explicit prompts with all context variables defined Generate initial examples using realistic queries Build golden datasets through manual PM testing Develop clear rubrics (product knowledge, policy compliance, tone) Binary Over Continuous Scoring! Use pass/fail metrics, not 1-5 scales. Binary judgments are actionable—average scores like 3.2 vs 3.7 create ambiguity. Always ask: \" Was this failure present? Yes or no.\" Validate LLM judges against human labels using confusion matrices, measure true positive/negative rates, not just agreement equire binary answers plus explanations from LLM evaluators Start with 5-10 examples for iteration, scale to 100+ for production confidence Operationalization Automate reliable judges - to run against production traces with dashboard monitoring. Maintain continuous human annotation, especially after significant changes. Keep tooling simple—use spreadsheets and built-in LLM tools for accessibility. Let categories emerge from real data, not hypotheses Regular lightweight manual checking maintains quality Small datasets enable fast iteration cycles Human judgment remains the gold standard for LLM-as-judge calibration Update rubrics and datasets as products and policies evolve This approach blends manual insight with scalable automation, ensuring evaluations remain both trustworthy and actionable for AI product development."
+    },
+    {
+      "index": 20,
+      "title": "Rust instead of Python Today production AI inference",
+      "text": "Rust instead of Python Today production AI inference is mostly done using Nvidia GPUS via  C++ CUDA libraries and Python for orchestration Python offers rapid iteration, broad library support, and ease of integration, while C++ / CUDA used for speed But Rust provides compelling alternative for production: https://medium.com/@theopinionatedev/rusts-ai-libraries-are-finally-beating-python-at-its-own-game-8f84dd26ccc4 Problems with Python: Global Interpreter Lock (GIL), large runtime footprints making edge deployment difficult, and the complexities of bundling Python with native C++ and CUDA libraries Rust's AI libraries are now surpassing Python’s for production, real-time inference, and edge AI due to Rust’s concurrency, efficiency, and simpler deployment However, Python continues to lead in research and academia https://medium.com/@theopinionatedev/rusts-ai-libraries-are-finally-beating-python-at-its-own-game-8f84dd26ccc4 Vendor Languages Used GPU Stack/Frameworks OpenAI Python, C++, CUDA CUDA, Triton, custom backend Anthropic Python, C/C++, CUDA Docker, Bazel, AWS Nitro Gemini Python, C++, Java, CUDA, TPU Custom Google stack (TPU), CUDA Perplexity Python, C++, CUDA NVIDIA Triton, TensorRT-LLM Mistral Python, C++, CUDA vLLM, open-source inference Qwen Python, C++, CUDA Alibaba custom backend, GQA Deepseek Python, C++, CUDA MoE optimization, CUDA Nvidia Python, C++, CUDA TensorRT, Triton Inference Server Rust Libraries: tch-rs - PyTorch C++ bindings in Rust tract - Pure Rust inference engine burn - Pure Rust deep learning framework linfa - Scikit-learn style ML for Rust onnxruntime-rs - Bindings to ONNXRuntime Apple is rewriting key parts of iOS in Rust-like languages for safety and performance - fewer crashes, better security, and maybe the start of a Rust-shaped future for iOS developers. https://medium.com/@devlinktips/apple-is-quietly-rewriting-ios-and-its-not-in-swift-or-objective-c-4af4dc578775"
+    },
+    {
+      "index": 21,
+      "title": "Time to self-driving cars Total number of passenger",
+      "text": "Time to self-driving cars Total number of passenger cars in US - 97M. Tesla - 4M. Tesla started manufacturing cars in 2008, and in 17 years has added ~4M Tesla cars in US. Tesla now adds 0.6  .. 1 Mln cars per year, so it will take many years to make a significant difference. Other brands add (combined) about the same amount as Tesla alone There are ~1.5K Robotaxi cars in several cities in the US: Phoenix, San Francisco, Los Angeles (limited coverage), Austin, Atlanta (new in 2025), Las Vegas (Zoox, pilot stage) This is less than 1% of all taxi cars in the US . For example, 120K New York City (NYC), 7K Chicago, 6.3K Washington, D.C., 2.3K Los Angeles 13M+ trucks in the US 3.6M truck drivers 400 self-driving trucks (less than 0.01% of all trucks)"
+    },
+    {
+      "index": 22,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 91.3K in 2025 (as of October 2) 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker So far in 2025, 157,613 people laid off (573 per day) In 2024, 238,461 people laid off (653 per day) https://trueup.io/layoffs Companies need AI Engineers While companies cut traditional roles, they’re pouring billions into AI: Microsoft → $80B in 2025 Meta → $40B Google → $29B Amazon → $8B into Anthropic That’s $350B+ a year, redirected straight into AI systems And they all need engineers who can build them"
+    },
+    {
+      "index": 23,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI updates arrive faster than your coffee cools",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Anthropic’s Claude Sonnet 4.5",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 24,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=24s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic's Claude Sonnet 4.5",
+      "topic": "claude",
+      "videoSeconds": 64,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=64s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "GLM-4.6 Open Source King",
+      "topic": "open-models",
+      "videoSeconds": 97,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=97s",
+      "slideIndex": 3,
+      "slideTitle": "Anthropic’s Claude Sonnet 4.5 Anthropic’s Claude Sonnet 4.5",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code 2.0",
+      "topic": "coding",
+      "videoSeconds": 173,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=173s",
+      "slideIndex": 3,
+      "slideTitle": "Anthropic’s Claude Sonnet 4.5 Anthropic’s Claude Sonnet 4.5",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Sora 2",
+      "topic": "openai",
+      "videoSeconds": 218,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=218s",
+      "slideIndex": 4,
+      "slideTitle": "Claude Code 2.0 Claude Code 2.0 - major",
+      "source": "youtube"
+    },
+    {
+      "claim": "Perplexity Search API",
+      "topic": "general",
+      "videoSeconds": 278,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=278s",
+      "slideIndex": 4,
+      "slideTitle": "Claude Code 2.0 Claude Code 2.0 - major",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT Pulse for Pro Mobile Users",
+      "topic": "openai",
+      "videoSeconds": 371,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=371s",
+      "slideIndex": 5,
+      "slideTitle": "OpenAI Sora 2 OpenAI Sora 2 Generates photorealistic",
+      "source": "youtube"
+    },
+    {
+      "claim": "K2 Think 32B AI Reasoning Model by MBZUAI",
+      "topic": "general",
+      "videoSeconds": 401,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=401s",
+      "slideIndex": 5,
+      "slideTitle": "OpenAI Sora 2 OpenAI Sora 2 Generates photorealistic",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI GDPval - measures model performance",
+      "topic": "openai",
+      "videoSeconds": 440,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=440s",
+      "slideIndex": 6,
+      "slideTitle": "Perplexity Search API Perplexity Search API Real-time indexing",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta GAIA: a benchmark for General AI Assistants",
+      "topic": "benchmarks",
+      "videoSeconds": 458,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=458s",
+      "slideIndex": 6,
+      "slideTitle": "Perplexity Search API Perplexity Search API Real-time indexing",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moonshot AI OK Computer",
+      "topic": "general",
+      "videoSeconds": 484,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=484s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates - 1 ChatGPT Pulse for Pro",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini Robotics 1.5 with AI agents",
+      "topic": "agents",
+      "videoSeconds": 504,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=504s",
+      "slideIndex": 8,
+      "slideTitle": "Please pause the video - and answer the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Databricks commits to $100M in OpenAI spending",
+      "topic": "openai",
+      "videoSeconds": 522,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=522s",
+      "slideIndex": 8,
+      "slideTitle": "Please pause the video - and answer the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Distyl AI raises $175M in funding at $1.8B valuation",
+      "topic": "general",
+      "videoSeconds": 530,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=530s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates - 2 Moonshot AI OK Computer",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba Wan 2.2 Animate",
+      "topic": "general",
+      "videoSeconds": 550,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=550s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates - 2 Moonshot AI OK Computer",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kling AI 2.5 Turbo",
+      "topic": "general",
+      "videoSeconds": 580,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=580s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates - 3 Alibaba Wan 2.2 Animate",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qwen-Image-Edit-2509 & Qwen3-Max",
+      "topic": "open-models",
+      "videoSeconds": 612,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=612s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates - 3 Alibaba Wan 2.2 Animate",
+      "source": "youtube"
+    },
+    {
+      "claim": "xAI gives Grok 4 to US federal agencies",
+      "topic": "general",
+      "videoSeconds": 654,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=654s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates - 4 Abacus AI DeepAgent Desktop",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta FAIR - open-source Code World Model",
+      "topic": "open-models",
+      "videoSeconds": 670,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=670s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates - 4 Abacus AI DeepAgent Desktop",
+      "source": "youtube"
+    },
+    {
+      "claim": "Facebook adds an AI Dating Assistant",
+      "topic": "general",
+      "videoSeconds": 683,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=683s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates - 5 Meta Vibes - Discover",
+      "source": "youtube"
+    },
+    {
+      "claim": "Emad Mostaque book \"The Last Economy\"",
+      "topic": "general",
+      "videoSeconds": 696,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=696s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates - 6 Microsoft Unified Agent Framework",
+      "source": "youtube"
+    },
+    {
+      "claim": "Abacus AI DeepAgent Desktop & CLI",
+      "topic": "general",
+      "videoSeconds": 747,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=747s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates - 6 Microsoft Unified Agent Framework",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Vibes - AI Videos for Instagram",
+      "topic": "general",
+      "videoSeconds": 780,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=780s",
+      "slideIndex": 14,
+      "slideTitle": "Genspark AI Workspace Genspark AI Workspace uses OpenAI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anything - text-to-app startup",
+      "topic": "general",
+      "videoSeconds": 814,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=814s",
+      "slideIndex": 14,
+      "slideTitle": "Genspark AI Workspace Genspark AI Workspace uses OpenAI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tinker API for fine-tuning",
+      "topic": "fine-tuning",
+      "videoSeconds": 862,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=862s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates - Computing IBM and HSBC used",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Unified Agent Framework",
+      "topic": "agents",
+      "videoSeconds": 898,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=898s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates - Computing IBM and HSBC used",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cerebras Raises $1.1B at $8.1 valuation",
+      "topic": "general",
+      "videoSeconds": 956,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=956s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates - Coding Traycer - AI coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "Detecting hallucinations in RAG with 85% accuracy",
+      "topic": "rag",
+      "videoSeconds": 973,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=973s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates - Coding Traycer - AI coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "Periodic Labs - AI Scientist",
+      "topic": "general",
+      "videoSeconds": 1015,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1015s",
+      "slideIndex": 17,
+      "slideTitle": "Richard Sutton - Father of RL about LLMs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Genspark AI Workspace",
+      "topic": "general",
+      "videoSeconds": 1055,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1055s",
+      "slideIndex": 17,
+      "slideTitle": "Richard Sutton - Father of RL about LLMs",
+      "source": "youtube"
+    },
+    {
+      "claim": "IBM & HSBC - Quantum Computers to improve trading",
+      "topic": "general",
+      "videoSeconds": 1171,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1171s",
+      "slideIndex": 18,
+      "slideTitle": "21 Things You Should Be Using AI For",
+      "source": "youtube"
+    },
+    {
+      "claim": "Netflix: monolithic architectures can scale",
+      "topic": "general",
+      "videoSeconds": 1186,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1186s",
+      "slideIndex": 19,
+      "slideTitle": "Evaluate AI for Production Peter Yang about AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "StoneMQ - Open-source Messaging in Rust",
+      "topic": "open-models",
+      "videoSeconds": 1226,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1226s",
+      "slideIndex": 19,
+      "slideTitle": "Evaluate AI for Production Peter Yang about AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "RAG python modules",
+      "topic": "rag",
+      "videoSeconds": 1272,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1272s",
+      "slideIndex": 20,
+      "slideTitle": "Rust instead of Python Today production AI inference",
+      "source": "youtube"
+    },
+    {
+      "claim": "Traycer - AI coding assistant",
+      "topic": "general",
+      "videoSeconds": 1307,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1307s",
+      "slideIndex": 20,
+      "slideTitle": "Rust instead of Python Today production AI inference",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini 2.5 Flash Light model",
+      "topic": "google",
+      "videoSeconds": 1333,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1333s",
+      "slideIndex": 21,
+      "slideTitle": "Time to self-driving cars Total number of passenger",
+      "source": "youtube"
+    },
+    {
+      "claim": "Richard Sutton - Father of RL about LLMs",
+      "topic": "general",
+      "videoSeconds": 1375,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1375s",
+      "slideIndex": 21,
+      "slideTitle": "Time to self-driving cars Total number of passenger",
+      "source": "youtube"
+    },
+    {
+      "claim": "21 Things You Should Be Using AI For ...",
+      "topic": "general",
+      "videoSeconds": 1473,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1473s",
+      "slideIndex": 22,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Evaluate AI for Production",
+      "topic": "general",
+      "videoSeconds": 1529,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1529s",
+      "slideIndex": 22,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rust instead of Python",
+      "topic": "general",
+      "videoSeconds": 1595,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1595s",
+      "slideIndex": 23,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time to self-driving cars",
+      "topic": "general",
+      "videoSeconds": 1714,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1714s",
+      "slideIndex": 23,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1816,
+      "videoUrl": "https://www.youtube.com/watch?v=Hy__puQKaGk&t=1816s",
+      "slideIndex": 24,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

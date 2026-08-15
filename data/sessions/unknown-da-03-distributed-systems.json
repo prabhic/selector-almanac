@@ -1,0 +1,235 @@
+{
+  "id": "unknown-da-03-distributed-systems",
+  "date": null,
+  "title": "DA 03 distributed systems",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "data-engineering"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_03_distributed_systems.pptx",
+    "filename": "DA_03_distributed_systems.pptx",
+    "title": "DA 03 distributed systems",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_03_distributed_systems.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_03_distributed_systems.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Become a Data Architect – session 3 Distributed",
+      "text": "Become a Data Architect – session 3 Distributed Systems Design Big systems to serve Billions of users must have distributed architecture Scale (increase number of servers, databases, etc.) Partitioning ( sharding , etc.) Load balancing Consistency (all servers should return same data to same request) Reliability , geographical redundancy (avoid SPoF = Single Point of Failure) MQ = Message Queues Consistent Hashing Distributed Caching Scaling Performance Security, authentication, tokens , ... etc. Some good sources of information: book: Designing Data-Intensive Applications - by Martin Kleppmann youtube : Gaurav Sen - https://www.youtube.com/c/GauravSensei/videos https://www.educative.io/ - course \"Grokking the System Design Interview\" http://highscalability.com https://www.hiredintech.com/courses/system-design"
+    },
+    {
+      "index": 2,
+      "title": "Scalability: horizontal (more computers) vs vertical (few huge",
+      "text": "Scalability: horizontal (more computers) vs vertical (few huge computers) Microservice vs monolithic architecture: scalability decoupled parts - easier design, just agree on APIs easier training different IT/bus groups, different deployment schedules, different technologies different tools, expertise, separate Git repositories, separate testing, etc. more stable (no single point of failure) But: needs more people more parts - more complexity, more inefficiencies can't perform as fast as monolith (network delays)"
+    },
+    {
+      "index": 3,
+      "title": "Four Distributed Systems Architectural Patterns by Tim Berglund",
+      "text": "Four Distributed Systems Architectural Patterns by Tim Berglund - https://www.youtube.com/watch?v=tpspO9K28PM 1. Modern MVC (Model, View, Controller) 3-tier architecture Broswers (View) Load Balancing Web/App Servers (Controller) DB Server (Data Model) 2. Sharded Architecture client   <---->   server   <---->   DB client   <---->   server   <---->   DB client   <---->   server   <---->   DB 3. Lambda Architecture Two parts: stream and batch Can use Apache Beam SDK to do both - Events, stream – unbounded data, low latency - Batch, Database – bounded data, high latency 4. Streaming Architecture All pieces exchange messages There is no central database, no batch loading There is just message bus ( Kafka ) There are just topics in central streaming Storage from single-master to cluster read replication write replication denormalize - remove joins and make reads fast denormalize - remove indexes to make writes faster use consistent hashing, Cassandra batch vs stream example: batch : erythrocytes transporting hemoglobin molecules stream : hemoglobin molecules swimming by themselves If you destroy erythrocytes' membranes, hemoglobin released directly into blood, and it becomes so viscous, that it can not flow ETL:  batch, micro-batch, continous flow Stream processing: Kafka Streams Apache Spark Streaming (micro-batches) NiFi Apache Flink ( continous flow) Google DataFlow (serverless) - https:// cloud.google.com /dataflow Apache Beam"
+    },
+    {
+      "index": 4,
+      "title": "Request/Response chaining: possible chaining of timeouts possible inconsistencies",
+      "text": "Request/Response chaining: possible chaining of timeouts possible inconsistencies Publish / Subscribe (Publisher / Subscriber) model: we add message broker between publish/subscribe nodes (Kafka, RabbitMQ, etc.) to decouple them Event-Driven  (on each step use log of events) Push vs Pull Distributed data sync and distributed transactions Main idea - have at least 3 servers to get consensus of at least 2. We need two thirds. If M servers fail, we need (2M+1) working servers to \"vote\". MQ = message queue"
+    },
+    {
+      "index": 5,
+      "title": "Avoid SPF (Single Point of Failure) Fault Tolerance",
+      "text": "Avoid SPF (Single Point of Failure) Fault Tolerance - achieved through redundancy and reliable multitasking protocols. Redundancy multiple servers, master/slave, replication geographical redundancy (systems in different countries, states, etc.) load balancer - DNS (redundant) - points to multiple IP addresses (multiple LoadBalancing servers) information redundancy (Hamming codes): add extra bits to do error checking/recovery time redundancy - retry several times physical redundancy - add duplicate hardware / software Quorum-based decisions (flat group of servers, majority voting). We need more than 2/3 majority. If there are M faulty processes, we need (2M+1) working ones to reach the agreement. Redundancy and Replication Primary Server - failover -> secondary server Active Data - Data Replication -> Mirrored Data Failures in big systems is a certainty Big distributed system consists of hundreds and thousands of servers, systems, processes. It will fail often unless we take measures. How often? Suppose our system consists of N pieces, each has on average 1 failure in 100 days. p=0.99 is probability of survival for 1 element for 1 day. P(survival for N elements for M days) = ( p N ) M = p MN Elements  Days Prob_Survival 30       7     0.99 210 = 0.12 300       7     0.99 2100 = 0.000000001 Just imagine if you have thousands of servers / processes. The system will definitely have failures."
+    },
+    {
+      "index": 6,
+      "title": "Two-Phase Commit (2PC) protocol (1978) - use coordinator:",
+      "text": "Two-Phase Commit (2PC) protocol (1978) - use coordinator: Coordinator --> query to commit   --> Participants <-- votes yes/no      <-- --> commit / rollback --> <-- acknowledgment    <-- commit*/abort* end Problem with 2PC: possible deadlock if for example both the coordinator and one of participants fail # --------------------------------------------------------- Three-phase commit (3PC) protocol (Skeen, 1982) - adds \"Prepared to commit\" state: If the coordinator fails before sending preCommit messages, the cohort will unanimously agree that the operation was aborted. The coordinator will not send out a doCommit message until all cohort members have ACKed that they are Prepared to commit. Problem with 3PC: if failures cascade, and the quorum in the system is lost, a quorum can later become connected and still remain blocked # --------------------------------------------------------- Enhanced Three Phase Commit (E3PC, 1998) - always allows a quorum to make progress: - http://people.csail.mit.edu/idish/ftp/JCSS.pdf A connected quorum never blocks. E3PC is based on the quorum-based 3PC, and it does not require more time or communication than 3PC. Distributed Transactions"
+    },
+    {
+      "index": 7,
+      "title": "Recovery strategies (in case of failure): backward recovery",
+      "text": "Recovery strategies (in case of failure): backward recovery to the last valid checkpoint (retry) forward recovery - bring the system to correct state (by using correction codes, quorum, etc.) MVCC (Multiple Value Concurrency Control): Concurrently have several values: previous values from which reading is happening new values being written Periodically clean out old values Saga Pattern Example \"trip saga\": reserve hotel, car, plane ticket Do it in this order. If something fail - retry If give-up - roll back reservations which were already made. Cache Invalidation How to avoid cache inconsistency? (when data in cache != data in DB) Write-through cache: transaction = (write into cache + write into DB) Write-around cache: write-DB, then fill cache from DB Write-back cache: write-cache, then later do backup to DB Cache eviction policies - FIFO (First in First Out) - LIFO (Last In First Out) - LRU  (Least Recently Used) - MRU  (Most Recently Used) - LFU  (Least Frequently Used) - RR   (Random Replacement)"
+    },
+    {
+      "index": 8,
+      "title": "Distributed Caching Multiple caching servers used in parallel",
+      "text": "Distributed Caching Multiple caching servers used in parallel as a cluster. A consistent hashing scheme is used to operate it. Consistent hashing  (ring hash) Imagine that you have a layer of web servers followed by layer of app servers How do you do load balancing between layers? How you determine to which server on the next layer to go? How you do it consistently to take advantage of caching on layers? How you re-hash the system when you scale numbers of server up or down? Consistent hashing solves these problems by providing a distribution scheme which does not directly depend on the number of servers. Idea: Make a circle with a big number of \"positions\" (2 32 .. 2 160 ) This circle is called \" hash ring \". Map each server to 1024 random positions on circle Map each request (IP/port/...) to the same circle, and go clockwise to find the server to process this request Continue going clockwise to find a 2 nd server (for backup) https://medium.com/system-design-blog/consistent-hashing-b9134c8a9062 https://en.wikipedia.org/wiki/Consistent_hashing https://www.youtube.com/watch?v=zaRkONvyGr8 Original MIT Thesis by Daniel Lewin (1998) : \"Consistent hashing and random trees : algorithms for caching in distributed networks\" https://dspace.mit.edu/handle/1721.1/9947 https://github.com/papers-we-love/papers-we-love/blob/master/distributed_systems/consistent-hashing-and-random-trees.pdf"
+    },
+    {
+      "index": 9,
+      "title": "Master/slave Sharding - horizontal partitioning Example: Sharding by",
+      "text": "Master/slave Sharding - horizontal partitioning Example: Sharding by location and gender Load balancer How to avoid SPoF (single point of failure) A load balancer is a device that acts as a reverse proxy and distributes network or application traffic across a number of servers. Load balancers are used to increase capacity and reliability of applications. Hardware or Software Load Balancing NGINX (and NGINX Plus) - software Load Balancer used by more than 400 million websites (including Netflix, Dropbox, etc.) DNS multiple A records - guarantees round-robin  (but doesn't check health of destinations) -> multiple load-balancing gateways  -> regions -> internal servers DoS (Denial of Service attack) DNS routing (round-robin) Stateful (same IP client directed to same server for session/cache persistence) Where security is unwrapped ? https goes through? or (https outer, http inner) ? reverse-proxy - unwraps https request, communicates with internal services CDN = Content Delivery/Distribution Network Geographically local cache (usually for images and videos) Apache ZooKeeper a centralized service for maintaining configuration information, naming, providing distributed synchronization, and providing group services. Proxy server an intermediate server between the client and the server. Proxies used to: filter requests log requests transform requests - adding/removing headers, encrypting/decrypting, or compressing a resource cache and serve Proxy types: Anonymous Transparent Reverse"
+    },
+    {
+      "index": 10,
+      "title": "CAP Theorem CAP = Consistency, Availability, Partition Tolerance",
+      "text": "CAP Theorem CAP = Consistency, Availability, Partition Tolerance The CAP Theorem for distributed computing was published by Eric Brewer in 1998. It states that in the event of a network failure on a distributed database, it is possible to provide either consistency or availability of the data, but not both. Consistency (all nodes see the same data) Availability (all nodes can communicate with data) Partition (loss of connectivity) Explanation: You have a database replicated between several locations (nodes). Normally when the network works well (no partition \"P\"), all nodes can sync with each other (consistency \"C\"), and can be accessible (availability \"A\"). So you have +C +A -P . Now suppose we lose network connection between nodes (we have partitioning \"P\"). What do we do now? We have two choices. First choice is to stop using the database until the network is restored. This way we lose availability \"A\", but keep consistency \"C\", so we have: +C -A +P Second choice is to allow users to continue working with nodes (keep availability \"A\"). But if they do, we can not guarantee consistency (\"C\") between nodes, because different nodes may be updated independently and they can not sync with each other because there is no network connectivity. So we have -C +A +P CAP Theorem Creator VP Infrastructure @Google CS Professor @UCBerkeley"
+    },
+    {
+      "index": 11,
+      "title": "Distributed Computation Map/Reduce (Google Search, Hadoop/HDFS, Spark RDDs,",
+      "text": "Distributed Computation Map/Reduce   (Google Search, Hadoop/HDFS, Spark RDDs, Databricks) examples: word count shuffle (similar words move closer to each other) RDD = Resilient Distributed Dataset More: Hive Kafka (messaging + computations) ... Databricks DeltaLake (distributed transactions) Azure POLARIS"
+    },
+    {
+      "index": 12,
+      "title": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers",
+      "text": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers - process messages (between producers and subscribers) short-term persistence Kafka: message - immutable array of bytes topic - a feed of messages producer - publishes messages to a topic consumer (single-threaded subscriber) broker - one of the servers that comprise Kafka cluster Kafka'a topic is basically a pipe, a messaging bus When topic gets big - we replicate it into several partitions. each partition topic has its own broker messages distributed between partitions using consisten hashing Within each partition we can maintain order of messages, but we lose order globally New ideas: add more calculation ability inside Kafka. For example, instead of moving data through Kafka to a database, and then doing query calculations in this database, why can't we do these calculations in Kafka (or nearby microservices) and get rid of the database ? Lambda architecture: database     - slow complete batch processing events queue - fast summaries from streams"
+    },
+    {
+      "index": 13,
+      "title": "80% of data is unstructured Apache Cassandra Facebook,",
+      "text": "80% of data is unstructured Apache Cassandra Facebook, open source since 2008 hybrid between key-value and a tabular DB multi-datacenter, multi-nodes, redundancy, replication, recovery Can't do joins or subqueries. MongoDB Documents, JSON, documents, no schema HBase Key-Value store modeled after Google's BigTable , runs on top of HDFS (Hadoop Distributed File System) partitioned into tables, tables into column families, Java, map-reduce Hive for of-line batch map/reduce jobs, Hadoop DFS key-value store (many ...) column-based store (Cassandra, HBase) document-based store (MongoDB, CouchDB) Graph-based DB (Neo4J) NoSQL Databases NoSQL DBs: Key-Value Stores: Redis, Voldemort, Dynamo, etc. Document Databases : data is stored in documents, and these documents are grouped together in collections. Examples: CouchDB and MongoDB Wide-Column Databases : column families (tables). Rows may have different number of fields (columns). Columnar databases are best suited for analyzing large datasets. Examples - Cassandra and HBase. Graph Databases : Data is saved in graph structures (nodes, properties, connections). Examples: Neo4J and InfiniteGraph . ACID Transactions ACID = Atomicity, Consistency, Isolation, Durability Most of the NoSQL DBs sacrifice ACID compliance for performance and scalability."
+    },
+    {
+      "index": 14,
+      "title": "Wide column stores (a.k.a. extensible record stores) store",
+      "text": "Wide column stores (a.k.a. extensible record stores) store data in records with an ability to hold very large numbers of dynamic columns (billions). Since the column names as well as the record keys are not fixed, wide column stores can be seen as two-dimensional key-value stores. Google's BigTable is considered to be the origin of this class of databases. Classical work: \"Bigtable: A Distributed Storage System for Structured Data\" (2006) by Fay Chang et al - http://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf Popular examples of WCS databases: - Cassandra (WCS based on ideas of BigTable and DynamoDB) - HBase (WCS on top of Hadoop, based on BigTable ) - Microsoft Azure Cosmos DB (Document store , Graph DBMS, Key-value store, WCS) Wide column stores"
+    },
+    {
+      "index": 15,
+      "title": "Sorted Strings Table is a file of key/value",
+      "text": "Sorted Strings Table is a file of key/value string pairs, sorted by keys (borrowed from google) LSM Trees Log Structured Merge Trees - in Cassandra Persistent Segment Tree updates handled similar to how it is done in version control systems. To avoid extra time and space we only create nodes that have been modified, and share rest of the tree from the previous version of the tree. - https:// iq.opengenus.org /persistent-segment-tree/ RocksDB - fast key-value store. It is a fork of LevelDB by Google optimized for speed: (use multiple CPUs, use SSDs) Note: In 2018 Facebook switched storage for messages from HBase to RocksDB as a MySQL storage engine. Note: RocksDB is based on a log-structured merge-tree (LSM tree) data structure. - https://en.wikipedia.org/wiki/RocksDB stackoverlow architecture is .NET based : SQL Server 2019 C# ASP.Net Core redundancy front end CDN, DNS and load balancing backend - Elastic Search and Redis caching"
+    },
+    {
+      "index": 16,
+      "title": "Which databases does Facebook use? https:// www.gangboard.com /blog/what-database-does-",
+      "text": "Which databases does Facebook use? https:// www.gangboard.com /blog/what-database-does- facebook -use - MYSQL - primary DB for all structured data - HBase - for messaging. Data organized into regional servers. HBase list, WAL (Write-Ahead Log) = HLog - stored in in-memory MemStore . - Cassandra - extensibility and availability, inbox search, etc. - Haystack - universal object store, used to store and serve photos 15 Bln photos * 4 formats = 60 B photos - Memcached - in-memory key-value store, multiple clusters, FB Data Warehouse (2014 - scaling to 300 PB): https:// engineering.fb.com /core-data/scaling-the-facebook-data-warehouse-to-300-pb/ Hive, RCFile (Record-Columnar File Format) Originally FB ORCFile writer used sorted dictionaries in red-black trees. Later for performance change the format to not-sorted compressed memory-efficient hashing. Facebook - number of servers: 2008 -  10K 2009 -  30K 2010 -  60K 2018 - 200K (estimated) 2021 - ?"
+    },
+    {
+      "index": 17,
+      "title": "Data Partitioning break up a big DB into",
+      "text": "Data Partitioning break up a big DB into many smaller parts a. Horizontal partitioning (range-based, sharding ) b. Vertical partitioning - by kind. DB1 - user data DB2 - friends lists DB2 - photos etc. c. Directory Based Partitioning - use a \"directory\" server to map data types to DBs. Partitioning criteria: a. Key or Hash-based partitioning b. List partitioning c. Round-robin partitioning d. Composite partitioning Common Problems of Data Partitioning: a. Joins and Denormalization b. Referential integrity (foreign keys) c. Rebalancing Database Indexes Databases can be optimized for OLTP (On-Line Transactional Processing) or OLAP (On-Line Analytical Processing) for analytics. Nowadays OLAP DBs use columnar indexes, massive parallelism, taking advantage of large memory and GPU. Columnar Indexes - standard/default nowadays. Here is a short video (4 min) made long time ago (in 2011) showing performance advantage of columnar store indexes in Microsoft SQL server. - https:// www.youtube.com / watch?v =vPN8_PCsJm4 The video demonstrates that columnar indexing is at least 40 times faster than traditional index. Here are more links about Inverted indexes: - https:// www.quora.com /In-database-design-what-exactly-is-the-difference-between-inverted-index-and-a-normal-index - https:// stackoverflow.com /questions/47537318/b-tree-index-vs-inverted-index - https:// en.wikipedia.org /wiki/ Inverted_index"
+    },
+    {
+      "index": 18,
+      "title": "Secure Hash Algorithms: https://en.wikipedia.org/wiki/Secure_Hash_Algorithms MD5 (Message Digest, 1992):",
+      "text": "Secure Hash Algorithms: https://en.wikipedia.org/wiki/Secure_Hash_Algorithms MD5 (Message Digest, 1992): 128-bit (16 bytes) hash from arbitrary-length text Typically presented as a sequence of 32 hexadecimal digits. MD5(\"\") = 0x d41d8cd98f00b204e9800998ecf8427e SHA1 (Secure Hash Algorithm, NSA, 1995): 160-bit hash, improved MD5 SHA2 = SHA256 (2004-2012): 256-bit hash from short (<= 264 bit) message used in digital certificate and in data integrity SHA256 (\"\") 0x e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 SHA512 (\"\") 0x cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce 47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e SHA3 (2015) - also 256 bit"
+    },
+    {
+      "index": 19,
+      "title": "Browser / Web Server communication protocols: standard HTTP",
+      "text": "Browser / Web Server communication protocols: standard HTTP web request AJAX poling (http request every ~0.5 sec) Long-Polling (hanging GET with a timeout) WebSockets (full-duplex bi-directional communication) Server-Sent Events - persistent long-term connection to receive data from server. Health service (monitoring, loging , alerts) etcd - ( https:// etcd.io ) open source distributed key-value store. It is used by Kubernetes to hold configuration, state, etc. Leader election, consensus algorithm Denial of Service Attack Cascading Failure prevention: add resources (in advance, or as needed (auto-scale) limit rate on input, use queues throttle big events/jobs/emails into a series of batches decrease number of queries for non-essential data, use approximations use cache when possible GraphQL.org open-source data query and manipulation language for APIs and a runtime for fulfilling queries with existing data. 2012 - Facebook development 2015 - public release 2018 - moved to GraphQL Foundation gRPC ( gRPC Remote Procedure Calls) open source, from Google (2015) Uses HTTP/2 for transport, Protocol Buffers, authentication, bidirectional streaming and flow control, blocking or nonblocking bindings, cancellation and timeouts. Federated Identity linking a person's electronic identity and attributes stored across multiple distinct identity management systems. SSO (Single Sign-On) a subset of FI management."
+    },
+    {
+      "index": 20,
+      "title": "BST - Binary Search Tree B Tree B-tree",
+      "text": "BST - Binary Search Tree B Tree B-tree is a self-balancing tree data structure that maintains sorted data and allows searches, sequential access, insertions, and deletions in logarithmic time. The B-tree generalizes the binary search tree, allowing for nodes with more than two children. def (Knuth) B-tree of order m: Every node has at most m children. Every non-leaf node (except root) has at least m/2 children. The root has at least two children if it is not a leaf node. A non-leaf node with k children contains k  1 keys. All leaves appear in the same level and carry no information. B+ Tree It is like B Tree, but large number of children per node, also additional level is added at the bottom with linked leaves, also the linked list allows rapid in-order traversal. base64 Binary-to-text encoding. 6 bits can represent 64 numbers 0..63. We map these numbers chars: A..Za..z0..9+/, and use \"=\" for padding 3 bytes of binary data = 24bits = 4*6 = 4 chars in base64 encoding URL encoding: \"Unreserved Characters(66)\" - don't need encoding: A..Za..z0..9-_.~ \"Reserved characters (18)\" - have special meaning if not encoded: !*'();:@&=+$,/?#[] percent-encoding of any byte:  \"%\" followed by hexadecimal code for example, %41 == \"A\""
+    }
+  ],
+  "points": [
+    {
+      "claim": "Become a Data Architect – session 3 Distributed",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Become a Data Architect – session 3 Distributed",
+      "source": "slide"
+    },
+    {
+      "claim": "Scalability: horizontal (more computers) vs vertical (few huge",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Scalability: horizontal (more computers) vs vertical (few huge",
+      "source": "slide"
+    },
+    {
+      "claim": "Four Distributed Systems Architectural Patterns by Tim Berglund",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Four Distributed Systems Architectural Patterns by Tim Berglund",
+      "source": "slide"
+    },
+    {
+      "claim": "Request/Response chaining: possible chaining of timeouts possible inconsistencies",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Request/Response chaining: possible chaining of timeouts possible inconsistencies",
+      "source": "slide"
+    },
+    {
+      "claim": "Avoid SPF (Single Point of Failure) Fault Tolerance",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Avoid SPF (Single Point of Failure) Fault Tolerance",
+      "source": "slide"
+    },
+    {
+      "claim": "Two-Phase Commit (2PC) protocol (1978) - use coordinator:",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Two-Phase Commit (2PC) protocol (1978) - use coordinator:",
+      "source": "slide"
+    },
+    {
+      "claim": "Recovery strategies (in case of failure): backward recovery",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Recovery strategies (in case of failure): backward recovery",
+      "source": "slide"
+    },
+    {
+      "claim": "Distributed Caching Multiple caching servers used in parallel",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Distributed Caching Multiple caching servers used in parallel",
+      "source": "slide"
+    },
+    {
+      "claim": "Master/slave Sharding - horizontal partitioning Example: Sharding by",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Master/slave Sharding - horizontal partitioning Example: Sharding by",
+      "source": "slide"
+    },
+    {
+      "claim": "CAP Theorem CAP = Consistency, Availability, Partition Tolerance",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "CAP Theorem CAP = Consistency, Availability, Partition Tolerance",
+      "source": "slide"
+    },
+    {
+      "claim": "Distributed Computation Map/Reduce (Google Search, Hadoop/HDFS, Spark RDDs,",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Distributed Computation Map/Reduce (Google Search, Hadoop/HDFS, Spark RDDs,",
+      "source": "slide"
+    },
+    {
+      "claim": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers",
+      "source": "slide"
+    }
+  ]
+}

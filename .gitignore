@@ -9,6 +9,7 @@ mock/
 node_modules/@xenova/transformers/.cache/
 # large scraped source assets
 data/raw/
+.backups/
 *.pptx
 *.pdf
 # keep package-lock for reproducible ingest

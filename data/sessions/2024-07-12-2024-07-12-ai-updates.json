@@ -1,0 +1,530 @@
+{
+  "id": "2024-07-12-2024-07-12-ai-updates",
+  "date": "2024-07-12",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "open-models",
+    "rag",
+    "infra",
+    "openai",
+    "fine-tuning",
+    "enterprise",
+    "jobs"
+  ],
+  "video": {
+    "id": "qcZWFKaB88s",
+    "title": "Have you heard these exciting AI news? - July 12, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+    "thumbnail": "https://i.ytimg.com/vi/qcZWFKaB88s/hqdefault.jpg",
+    "duration": 1884
+  },
+  "deck": {
+    "path": "2024/2024-07-12-AI-Updates.pptx",
+    "filename": "2024-07-12-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-07-12-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-07-12-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "LLM on Snapdragon",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard - Coding",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Llama-2 anniversary - July 18",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Calculating GPU memory for serving LLMs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "What is Function Calling in LLMs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "JEPA vs Transformers",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Write a Book in Seconds",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "CELLO - Causal Evaluation",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "RouteLLM on lmsys.org",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrej Karpathy - fully software 2.0 Computer",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI passed the Turing Test - May 9, 2024",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "MatMul-Free Language Modeling",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "TechLead (Patrick Shyu)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "NuminaMath-7B wins AI Math Olimpiad",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft & Apple Exit OpenAI Board",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "TensorWave Cloud offers 192GB GPUs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Prompt Compression and Query Optimization",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "HarmonicMath Achieved 90% on MiniF2F test",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andreessen Horowitz renting GPUs for Equity",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Fine-Tuning & Hallucinations",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Hebbia raises $130M",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Intuit AI reorganization (cuts 1,800 workers)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Shanghai declaration on global AI governance",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AMD is buying Silo.AI for $665 Mln",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ElevenLabs speech generation / cleaning",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs in 2024",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LLM on Snapdragon Crowd-sourced \"Arena\" Leaderboard Crowd-sourced \"Arena\"",
+      "text": "LLM on Snapdragon Crowd-sourced \"Arena\" Leaderboard Crowd-sourced \"Arena\" Leaderboard - Coding Calculating GPU memory for serving LLMs What is Function Calling in LLMs JEPA vs Transformers Write a Book in Seconds CELLO - Causal Evaluation RouteLLM on lmsys.org Andrej Karpathy - fully software 2.0 Computer AI passed the Turing Test - May 9, 2024 MatMul-Free Language Modeling TechLead (Patrick Shyu) NuminaMath-7B wins AI Math Olimpiad Microsoft & Apple Exit OpenAI Board TensorWave Cloud offers 192GB GPUs Prompt Compression and Query Optimization HarmonicMath Achieved 90% on MiniF2F test Andreessen Horowitz renting GPUs for Equity Fine-Tuning & Hallucinations Hebbia raises $130M Intuit AI reorganization (cuts 1,800 workers) Shanghai declaration on global AI governance AMD is buying Silo.AI for $665 Mln ElevenLabs speech generation / cleaning Tech Layoffs in 2024 AI Updates July 12 , 2024 \"How I use AI today is completely different from just three months ago.\""
+    },
+    {
+      "index": 2,
+      "title": "LLM on Snapdragon LM Studio for snapdragon -",
+      "text": "LLM on Snapdragon LM Studio for snapdragon - https://lmstudio.ai/snapdragon Windows Laptops with new Snapdragon X Elite chips will be able to run LLMs effectively using on-chip NPU and fast memory. They are affordable ($1K .. $2K). LM Studio - has already created a version for Snapdragon - and demonstrated 20 tokens/sec for Llama-7b-q4 on CPU. NPU support is pending - waiting for llama.cpp support. Both LM Studio and Ollama are using llama.cpp https://github.com/ggerganov/llama.cpp Ollama - waiting ( https://github.com/ollama/ollama ). Yagil Burowski LM Studio founder, Brooklyn, NY https://www.linkedin.com/in/yagil-burowski/ https://x.com/yagilb Order Windows laptop with Snapdraon X Elite with 64GB memory and small 13-14\" screen: https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019 https://www.dell.com/en-us/shop/laptops/13-new/spd/xps-13-9345-laptop/usexchcto9345qcm02 https://www.microsoft.com/en-us/d/surface-laptop-6-for-business/8pz3fvs57qcv Review: https://www.theverge.com/24191671/copilot-plus-pcs-laptops-qualcomm-intel-amd-apple"
+    },
+    {
+      "index": 3,
+      "title": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "text": "Total #models: 115. Total #votes: 1,450,208. Last updated: 2024-07-08. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 4,
+      "title": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "text": "Total #models: 115. Total #votes: 1,450,208. Last updated: 2024-07-08. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding"
+    },
+    {
+      "index": 5,
+      "title": "Calculating GPU memory for serving LLMs Full precision",
+      "text": "Calculating GPU memory for serving LLMs Full precision = 4Bytes = 4*8bits = 32 bits 7B params * 4 Bytes = 28 GBytes In reality we need approx 20% more: 28*1.2 = 34GB If we use 4bit precision instead of 32, then the memory requirement will be proportionally 8 times lower . So we will need less than 4.7GB https://www.substratus.ai/blog/calculating-gpu-memory-for-llm If we use 4bit precision for 70B model, we will need 35GB + 20% + extra. In reality 40..47GB ------- -------------- ---------------------------- -------------------------------------------------------- Full Precision q4  =  4 bits q8  =  8 bits q16 = 16 bits q32 = 32 bits 3.5 GB (4.5 GB) 7.0 GB (8 GB) 14 GB (17 GB) 28 GB (34 GB)"
+    },
+    {
+      "index": 6,
+      "title": "What is Function Calling in LLMs Function calling",
+      "text": "What is Function Calling in LLMs Function calling in LLMs: Understand user requests to determine if it's a request to perform a specific action (from the list). Identify the appropriate (predefined) function to execute Generate structured parameters (typicallin in JSON format) to pass to the identified function Return structured data (typically in JSON format). This structured data can then be used by external applications or systems to execute the intended action. Prompt LLM Functions"
+    },
+    {
+      "index": 7,
+      "title": "Misc 1 JEPA (Joint Embedding Predictive Architecture) vs",
+      "text": "Misc 1 JEPA (Joint Embedding Predictive Architecture) vs transformers https://www.turingpost.com/p/jepa CELLO: Causal Evaluation of Large Vision-Language Models https://arxiv.org/abs/2406.19131v1 CELLO, consist of 14,094 causal questions across all four levels of causality: discovery, association, intervention, and counterfactual. This dataset surpasses traditional commonsense causality by including explicit causal graphs that detail the interactions between humans and objects GitHub - write a book in seconds using Groq and Llama3 https://www.youtube.com/watch?v=h3wqIba7Xrc https://github.com/Bklieger/groqbook https://console.groq.com/keys https://groqbook.streamlit.app https://www.youtube.com/watch?v=fjtHOYU0m6o"
+    },
+    {
+      "index": 8,
+      "title": "Misc 2 lnsys.org RouteLLM - directs simpler questions",
+      "text": "Misc 2 lnsys.org  RouteLLM - directs simpler questions to cheaper LLMs cost reduction 85% while maintaining 95% GPT-4 performance open source ! https://lmsys.org/blog/2024-07-01-routellm/ Andrej Karpathy - 100% Fully Software 2.0 computer. J ust a single neural net and no classical software at all. https://twitter.com/karpathy/status/1807497426816946333 Software 2.0 is a term coined by Andrej Karpathy (2017) to describe a new paradigm in software development where neural networks replace traditional hand-written code. Instead of writing explicit instructions, developers curate and train datasets to teach the neural network the desired behavior. https://karpathy.medium.com/software-2-0-a64152b37c35 Example: using NN for translation: Much better results Simpler architecture substituted ~0.5 Mln lines of code Same \"code\" works for 200+ languages"
+    },
+    {
+      "index": 9,
+      "title": "AI passed the Turing Test - May 9,",
+      "text": "AI passed the Turing Test - May 9, 2024 AI passed the Turing Test -- And No One Noticed https://www.youtube.com/watch?v=GyNaH27lX90 Paper: \"People cannot distinguish GPT-4 from a human in a Turing test\" https://arxiv.org/abs/2405.08007 - May 9, 2024 We evaluated 3 systems (ELIZA, GPT-3.5 and GPT-4) in a randomized, controlled, and pre-registered Turing test. Human participants had a 5 minute conversation with either a human or an AI, and judged whether or not they thought their interlocutor was human. GPT-4 was judged to be a human 54% of the time, outperforming ELIZA (22%), but lagging behind actual humans (67%). The results provide the first robust empirical demonstration that any artificial system passes an interactive 2-player Turing test. The results have implications for debates around machine intelligence and, more urgently, suggest that deception by current AI systems may go undetected. What makes humans \"Human\"? Analysis of participants' strategies and reasoning suggests that stylistic and socio-emotional factors play a larger role in passing the Turing test than traditional notions of intelligence. Alan Turing Turing Test of AI (1950): A human should be unable to distinguish the machine from another human being by using the replies to questions put to both https://en.wikipedia.org/wiki/Turing_test So, AI is already intelligent enough. It needs to mimic human imperfections to pretend to be a human. Similarly, reCAPTURA tracks various interactions, such as mouse movements , scrolling patterns, and the time spent on the page . These interactions create a \"imperfect\" pattern that is difficult for bots to mimic accurately. https://davidmartindata.medium.com/human-like-mouse-movement-simulation-for-captcha-evasion-fcd52a382c29 Sophia (2016)"
+    },
+    {
+      "index": 10,
+      "title": "MatMul-Free Language Modeling SNN = Spiking Neural Networks",
+      "text": "MatMul-Free Language Modeling SNN = Spiking Neural Networks - mimic biological networks. SNNs transmit information as discrete events called spikes. These spikes occur when a neuron's \"membrane potential\" reaches a specific threshold (similar to biological neurons). SNNs can capture the temporal dynamics of info processing. SNNs are low energy. SNNs use binary values (0,1) There are variations (BNNs and TNNs) using Binary and Ternary quantized weights \"Scalable MatMul-free Language Modeling\" A j oined paper US + China - https://arxiv.org/abs/2406.02528 Using ternary numbers (-1,0,1) allows to completely eliminate the computational cost of Matrix multiplication (MatMul) while maintaining strong performance at billion-parameter scales. This model competes with state-of-the-art Transformers. GPU and FPGA implementations are provided Normal multiplying by a matrix: Simplifying when using ternary numbers (-1,0,1): BitNet - LLM using binary (1-bit) numbers BitLinear layer - NN layer that uses only 1-bit numbers Vanilla implementation of BitNet is not efficient. So the paper focuses on optimization of use of on-chip Static Random-Access Memory (SRAM)"
+    },
+    {
+      "index": 11,
+      "title": "TechLead (Patrick Shyu) TechLead has deleted all of",
+      "text": "TechLead (Patrick Shyu) TechLead has deleted all of his tech videos! https://www.youtube.com/watch?v=9kpCLOJDl04 Reason - no views. Interest to technical tutorials has dropped. Value of engineers is dropping. Layoffs. Tech is dead. https://www.youtube.com/watch?v=ycfPF1gkNpE \" Imagine you are on Titanic - and trying to learn Java ...\". \"Studying hard, going to college, getting Ph.D.  - doesn't work\". \"Advice to work hard - doesn't work any longer\". \"Attention Economy\" (instead of tech/science). No opportunity in 9-5 work. Stop doing this. Stagnant economy, zero productivity. Governments print money and making you poor. Web3 and other projects were effectively shut-down by regulations. Fees and taxes, all kinds of fees - scams. Local governments blocking external business - to charge more. Opportunities: Entrepreneur. Attention economy Bitcoin Fireship about TechLead Drama: https://www.youtube.com/watch?v=FhqNN1LykWU https://www.linkedin.com/in/shyup/"
+    },
+    {
+      "index": 12,
+      "title": "Misc 2 NuminaMath - solve math problems https://huggingface.co/AI-MO/NuminaMath-7B-TIR",
+      "text": "Misc 2 NuminaMath - solve math problems https://huggingface.co/AI-MO/NuminaMath-7B-TIR NuminaMath 7B TIR won the first progress prize of the AI Math Olympiad (AIMO) . Microsoft and Apple exit OpenAI board . Reason - regulatory scrutiny ( anti-monopoly / antitrust laws) TensorWave Cloud offers MI300X with 192GB of VRAM (compare to 80GB on H100) so you can store larger models on a single GPU. https://go.tensorwave.com/rundown HarmonicMath - https://harmonic.fun Mathematical reasoning engine Achieved 90% on OpenAI MiniF2F benchmark https://x.com/HarmonicMath/status/1810765353389281346 Prompt Compression and Query Optimization - a new course from DeepLearning.ai https://learn.deeplearning.ai/courses/prompt-compression-and-query-optimization/lesson/1/introduction Pre/Post filtering Projection - select a subset of the fields Reranking (move more desired results up) Prompt Compression (reduce the length of prompts) Venture Capital firm Andreessen Horowitz (A16Z) is planning to get up to 20,000 GPUs (including Nvidia H100) to rent them to its portfolio companies at below-market rates in exchange for equity."
+    },
+    {
+      "index": 13,
+      "title": "Fine-Tuning & Hallucinations Does Fine-Tuning LLMs on New",
+      "text": "Fine-Tuning & Hallucinations Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations? .. https://arxiv.org/pdf/2405.05904v2 .. https://www.youtube.com/watch?v=Fimzi1oKNnY Learning new information during fine-tuning can cause hallucinations. In this work authors vary the proportion of the fine-tuning examples that introduce new knowledge. LLMs struggle to acquire new factual knowledge through fine-tuning, as fine-tuning examples that introduce new knowledge are learned significantly slower than those consistent with the model’s knowledge. The examples with new knowledge are eventually learned, but they linearly increase the model’s tendency to hallucinate. Taken together, these results highlight the risk in introducing new factual knowledge through fine-tuning, and support the view that LLMs mostly acquire factual knowledge through pre-training, whereas fine-tuning teaches them to use it more efficiently"
+    },
+    {
+      "index": 14,
+      "title": "Misc 3 Hebbia , a startup that uses",
+      "text": "Misc 3 Hebbia , a startup that uses generative AI to search large documents and respond to large questions, has raised a $130 million Series B at a roughly $700 million valuation led by Andreessen Horowitz https://techcrunch.com/2024/07/09/ai-startup-hebbia-rased-130m-at-a-700m-valuation-on-13-million-of-profitable-revenue/ Microsoft MInference speeds up the pre-filling for long-context LLMs. It first determines offline which sparse pattern each head belongs to, then approximates the sparse index online and dynamically computes attention with the optimal custom kernels. This approach achieves up to a 10x speedup for pre-filling on an A100 while maintaining accuracy. https://github.com/microsoft/MInference Facebook Multi-token Prediction - better and faster https://huggingface.co/facebook/multi-token-prediction Better & Faster Large Language Models via Multi-token Prediction https://arxiv.org/abs/2404.19737 Intuit (QuickBooks and TurboTax), announced an AI-focused reorganization plan that includes laying off about 10% of its workforce, or 1,800 employees. The company plans to hire at least as many new employees in fiscal 2025 as it focuses on integrating AI into its products. Shanghai declaration on global AI governance China has published its views on global AI cooperation, emphasizing its ambitions for AI dominance, including mass production of AI-driven humanoid robots by 2025 and sector leadership by 2027. promoting AI development maintaining AI safety developing an AI governance system enhancing public participation and literacy improving quality of life through AI AMD is buying Silo AI for $665 Mln . https://www.silo.ai Silo AI specializes in the integration of AI into business solutions ElevenLabs - text-to-speech tool https://elevenlabs.io/app/sign-up?redirect=/app/speech-synthesis - speech cleaning tool (voice isolator) https://elevenlabs.io/voice-isolator"
+    },
+    {
+      "index": 15,
+      "title": "Tech Layoffs in 2024 are lower than last",
+      "text": "Tech Layoffs in 2024 are lower than last year Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year Salaries: Python: $110K - $150K , Rust: $150K - $200K, AI Engineer: $140K - $250K AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 16,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 17,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LLM on Snapdragon",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 1,
+      "slideTitle": "LLM on Snapdragon Crowd-sourced \"Arena\" Leaderboard Crowd-sourced \"Arena\"",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 2,
+      "slideTitle": "LLM on Snapdragon LM Studio for snapdragon -",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard - Coding",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 2,
+      "slideTitle": "LLM on Snapdragon LM Studio for snapdragon -",
+      "source": "outline"
+    },
+    {
+      "claim": "Llama-2 anniversary - July 18",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 3,
+      "slideTitle": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Calculating GPU memory for serving LLMs",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 3,
+      "slideTitle": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "What is Function Calling in LLMs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 4,
+      "slideTitle": "Total #models: 115. Total #votes: 1,450,208. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "JEPA vs Transformers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 5,
+      "slideTitle": "Calculating GPU memory for serving LLMs Full precision",
+      "source": "outline"
+    },
+    {
+      "claim": "Write a Book in Seconds",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 5,
+      "slideTitle": "Calculating GPU memory for serving LLMs Full precision",
+      "source": "outline"
+    },
+    {
+      "claim": "CELLO - Causal Evaluation",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 6,
+      "slideTitle": "What is Function Calling in LLMs Function calling",
+      "source": "outline"
+    },
+    {
+      "claim": "RouteLLM on lmsys.org",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 7,
+      "slideTitle": "Misc 1 JEPA (Joint Embedding Predictive Architecture) vs",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrej Karpathy - fully software 2.0 Computer",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 7,
+      "slideTitle": "Misc 1 JEPA (Joint Embedding Predictive Architecture) vs",
+      "source": "outline"
+    },
+    {
+      "claim": "AI passed the Turing Test - May 9, 2024",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 8,
+      "slideTitle": "Misc 2 lnsys.org RouteLLM - directs simpler questions",
+      "source": "outline"
+    },
+    {
+      "claim": "MatMul-Free Language Modeling",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 8,
+      "slideTitle": "Misc 2 lnsys.org RouteLLM - directs simpler questions",
+      "source": "outline"
+    },
+    {
+      "claim": "TechLead (Patrick Shyu)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 9,
+      "slideTitle": "AI passed the Turing Test - May 9,",
+      "source": "outline"
+    },
+    {
+      "claim": "NuminaMath-7B wins AI Math Olimpiad",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 10,
+      "slideTitle": "MatMul-Free Language Modeling SNN = Spiking Neural Networks",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft & Apple Exit OpenAI Board",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 10,
+      "slideTitle": "MatMul-Free Language Modeling SNN = Spiking Neural Networks",
+      "source": "outline"
+    },
+    {
+      "claim": "TensorWave Cloud offers 192GB GPUs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 11,
+      "slideTitle": "TechLead (Patrick Shyu) TechLead has deleted all of",
+      "source": "outline"
+    },
+    {
+      "claim": "Prompt Compression and Query Optimization",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 11,
+      "slideTitle": "TechLead (Patrick Shyu) TechLead has deleted all of",
+      "source": "outline"
+    },
+    {
+      "claim": "HarmonicMath Achieved 90% on MiniF2F test",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 12,
+      "slideTitle": "Misc 2 NuminaMath - solve math problems https://huggingface.co/AI-MO/NuminaMath-7B-TIR",
+      "source": "outline"
+    },
+    {
+      "claim": "Andreessen Horowitz renting GPUs for Equity",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 13,
+      "slideTitle": "Fine-Tuning & Hallucinations Does Fine-Tuning LLMs on New",
+      "source": "outline"
+    },
+    {
+      "claim": "Fine-Tuning & Hallucinations",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 13,
+      "slideTitle": "Fine-Tuning & Hallucinations Does Fine-Tuning LLMs on New",
+      "source": "outline"
+    },
+    {
+      "claim": "Hebbia raises $130M",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 14,
+      "slideTitle": "Misc 3 Hebbia , a startup that uses",
+      "source": "outline"
+    },
+    {
+      "claim": "Intuit AI reorganization (cuts 1,800 workers)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 15,
+      "slideTitle": "Tech Layoffs in 2024 are lower than last",
+      "source": "outline"
+    },
+    {
+      "claim": "Shanghai declaration on global AI governance",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 15,
+      "slideTitle": "Tech Layoffs in 2024 are lower than last",
+      "source": "outline"
+    },
+    {
+      "claim": "AMD is buying Silo.AI for $665 Mln",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 16,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "ElevenLabs speech generation / cleaning",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 16,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs in 2024",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qcZWFKaB88s",
+      "slideIndex": 17,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

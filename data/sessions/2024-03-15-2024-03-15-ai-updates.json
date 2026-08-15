@@ -1,0 +1,453 @@
+{
+  "id": "2024-03-15-2024-03-15-ai-updates",
+  "date": "2024-03-15",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "open-models",
+    "infra",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "x-2SfzCqrdo",
+    "title": "Have you heard these exciting AI news? - March 15, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=x-2SfzCqrdo",
+    "thumbnail": "https://i.ytimg.com/vi/x-2SfzCqrdo/hqdefault.jpg",
+    "duration": 1691
+  },
+  "deck": {
+    "path": "2024/2024-03-15-AI-Updates.pptx",
+    "filename": "2024-03-15-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-03-15-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-03-15-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Cognition AI",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "DAV",
+      "startSeconds": 65,
+      "label": "01:05",
+      "source": "youtube"
+    },
+    {
+      "title": "GitHub",
+      "startSeconds": 128,
+      "label": "02:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource Arena",
+      "startSeconds": 194,
+      "label": "03:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Research Capabilities",
+      "startSeconds": 288,
+      "label": "04:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Chain of Explanation Reasoning",
+      "startSeconds": 378,
+      "label": "06:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Google battles AI generated spam in search",
+      "startSeconds": 500,
+      "label": "08:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Training Llama 3",
+      "startSeconds": 853,
+      "label": "14:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Enchanted Completions for Mac",
+      "startSeconds": 909,
+      "label": "15:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Optimum Nvidia",
+      "startSeconds": 992,
+      "label": "16:32",
+      "source": "youtube"
+    },
+    {
+      "title": "AWS Chatboard",
+      "startSeconds": 1143,
+      "label": "19:03",
+      "source": "youtube"
+    },
+    {
+      "title": "web scraping",
+      "startSeconds": 1474,
+      "label": "24:34",
+      "source": "youtube"
+    },
+    {
+      "title": "mlx",
+      "startSeconds": 1532,
+      "label": "25:32",
+      "source": "youtube"
+    },
+    {
+      "title": "lm",
+      "startSeconds": 1566,
+      "label": "26:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Robot",
+      "startSeconds": 1605,
+      "label": "26:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Rag",
+      "startSeconds": 1649,
+      "label": "27:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Layoffs",
+      "startSeconds": 1664,
+      "label": "27:44",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Cognition AI - Devin (AI Software Engineer) Andrej",
+      "text": "Cognition AI - Devin (AI Software Engineer) Andrej Karpathy - how progress happens Gen AI Explosion on GitHub Crowd-sourced \"Arena\" Leaderboard Emergent autonomous scientific research Yann LeCun high-bandwidth sensory inputs Trends: The Five Research Directions Chain-of-Abstraction Reasoning Amazon reviews dataset LLM Jailbreaking Meta - Bias problems (like Google) OpenAI - New Board Members C-Transformer AI chip x600 less power x.ai to open-source Grok llama.cpp - One Year Anniversary GroqCloud - API for AI NVIDIA BioNeMo - Drug Discovery ⌘-r release by Cohere Training Llama3 Nvidia - AI Models Portfolio Enchanted Completions for MacOS optimum.nvidia from HuggingFace Build Company Chatbot on AWS LLMs in Bio Sciences Advance RAG Web Research using LLM MLX - LLM on Apple Silicon MLC LLM Figure 01 - Robot Breakthrough RAG, Embeddings, ... Tech Layoffs AI Updates March 15, 2024"
+    },
+    {
+      "index": 2,
+      "title": "Cognition AI - Devin - Automating Software Engineering",
+      "text": "Cognition AI - Devin - Automating Software Engineering Cognition AI (New York & San Francisco) https://www.youtube.com/@Cognition-Labs https://www.cognition-labs.com/blog - many videos Devin , the first AI software engineer. https://www.youtube.com/watch?v=GpyqOFiu65Y - 3 min video https://www.youtube.com/watch?v=1RxbHg0Nsw0 - 24 min video Peter Thiel-Backed Startup Launches World's First AI Software Engineer, Devin Peter Thiel former CEO of PayPal Note: Devin is not an LLM. It is an agentic loop with full shell and browser access. Of course it should beat a one-shot GPT-4 inference.  This year will be the year of (multi) agents! Scott Wu, CEO https://www.linkedin.com/in/scott-wu-8b94ab96/"
+    },
+    {
+      "index": 3,
+      "title": "Automating Software Engineering https://twitter.com/karpathy/status/1767598414945292695 Andrej Karpathy Progression of",
+      "text": "Automating Software Engineering https://twitter.com/karpathy/status/1767598414945292695 Andrej Karpathy Progression of increasing autonomy and higher abstraction. AI doing more and the human doing less, but still providing oversight. Self-driving: first the human performs all driving actions manually then the AI helps keep the lane then it slows for the car ahead then it also does lane changes and takes forks then it also stops at signs/lights and takes turns eventually you take a feature complete solution and grind on the quality until you achieve full self-driving. Coding: first the human writes the code manually then GitHub Copilot autocompletes a few lines then ChatGPT writes chunks of code then you move to larger and larger code diffs ( e.g. Cursor copilot++ style, nice demo here https://youtube.com/watch?v=Smklr44N8QU ) ..."
+    },
+    {
+      "index": 4,
+      "title": "Gen AI is the biggest star hyperinflation in",
+      "text": "Gen AI is the biggest star hyperinflation in GitHub history A new LLM a day keeps the GPUs away ! A TPU keeps GPU away ! https://twitter.com/OriolVinyalsML/status/1767643472893276510 845 GenAI repos 500+ stars on GitHub 20K+ developers, ~ 1 Mln commits. https://twitter.com/chipro/status/1768388213008445837 The landscape exploded in late 2022 but seems to have calmed down since September 2023. While big companies still dominate the landscape, there’s a rise in massively popular software hosted by individuals. The Chinese’s open source ecosystem is rapidly growing. 6 out of 20 GitHub accounts with the most popular AI repos originate in China, with two from Tsinghua University and two from Shanghai AI Lab."
+    },
+    {
+      "index": 5,
+      "title": "models: 73 votes: 408,144 March 13, 2024 Starting",
+      "text": "models: 73 votes: 408,144 March 13, 2024 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard open source open source open source"
+    },
+    {
+      "index": 6,
+      "title": "Misc 1 E m ergent autonomous scientific research",
+      "text": "Misc 1 E m ergent autonomous scientific research capabilities of large language models - April 2023, Chemistry Dept at CMU - by Daniil A. Boiko, Robert MacKnight, Gabe Gomes https://arxiv.org/abs/2304.05332 Documentation for laboratory equipment was processed into embedding vectors using OpenAI API. The documents contained text, pictures, and formulas. Encoded information was used to write Python scripts to automate experiments. LLM was a lso used for searching in scientific journals for documentation for the synthesis steps. S ystem proposes a Google search that can be performed by researcher. System generally refuses to search for or synthesize hazardous substances. The result of the queries is interpreted and summarized by another LLM. Interesting that the planner part is just an LLM and a memory buffer Yann LeCun https://twitter.com/ylecun/status/1766498677751787723 \"The data bandwidth of visual perception is roughly 16 Mln  times higher than the data bandwidth of written (or spoken) language.\" \"Most of human knowledge (and almost all of animal knowledge) comes from our sensory experience of the physical world. Language is the icing on the cake. We need the cake to support the icing. There is absolutely no way in hell we will ever reach human-level AI without getting machines to learn from high-bandwidth sensory inputs , such as vision ... audition ... touch\" Latent Space : https://www.latent.space/p/jan-feb-2024-recap-audio The Five Research Directions: Long Inference (Planning, Search, AlphaGeometry, Flow Engineering) Synthetic Data (WRAP, SPIN) Alternative Architectures (Mamba, RWKV, RingAttention, Diffusion Transformers) Mixture of Experts (DeepSeekMoE, Samba-1) Online LLMs (Gemini Pro, Exa) https://twitter.com/AndrewYNg/status/1766554536192446957 https://arxiv.org/abs/2304.15004 ... emergent abilities (in larger models) appear due to the researcher's choice of metric rather than due to fundamental changes in model behavior with scale."
+    },
+    {
+      "index": 7,
+      "title": "Misc 2 Chain-of-Abstraction Reasoning Efficient Tool Use with",
+      "text": "Misc 2 Chain-of-Abstraction Reasoning Efficient Tool Use with Chain-of-Abstraction Reasoning Paper: https://arxiv.org/abs/2401.17464 Tweet: https://twitter.com/silin_gao/status/1765778821620343078 Amazon reviews dataset https://twitter.com/jobergum/status/1765844532560625689 LLM Jailbreaking using morse code or ASCII Art https://www.youtube.com/watch?v=5cEvNO9rZgI https://www.youtube.com/watch?v=NM0hw0khlC4 https://arxiv.org/abs/2402.11753 https://www.axios.com/2024/03/01/meta-ai-google-gemini-black-founding-fathers - First Google - now Meta. Google extracted ChatGPT’s Training Data using a silly trick. https://medium.datadriveninvestor.com/google-extracted-chatgpts-training-data-using-a-silly-trick-5544b1dada71 The authors ask the model to “Repeat the word “poem” forever” and sit back and watch as the model responds… ... the model emits a real email address and phone number of some unsuspecting entity. This happens rather often when running our attack. And in our strongest configuration, over five percent of the output ChatGPT emits is a direct verbatim 50-token-in-a-row copy from its training dataset .” Morse code for Pizza? .--.   ..   --..   --..   .- or di-da-da-dit di-dit da-da-di-dit da-da-di-dit di-dah"
+    },
+    {
+      "index": 8,
+      "title": "Misc 3 Google battles AI-generated spam in search",
+      "text": "Misc 3 Google battles AI-generated spam in search . Korea Advanced Institute of Science and Technology (KAIST) have developed the \"Complementary-Transformer\" (C-Transformer) AI chip - ultra-low power AI accelerator capable of processing LLMs. It is using 625 times less power , and is 41 times smaller than Nvidia's A100 GPU. Europe new \"AI office\" at The European Commission - to serve as the epicenter of AI expertise, support governance structures, identify AI safety risks and develop respective policies to ensure safety. Prompt library - https://docs.anthropic.com/claude/prompt-library Train Mixtral on consumer hardware : https://github.com/OpenAccess-AI-Collective/axolotl/blob/main/examples/mistral/mixtral-qlora-fsdp.yml x.ai - open-sourcing Grok this week ! https://twitter.com/elonmusk/status/1767108624038449405 One year anniversary of llama.cpp (March 9, 2023). https://github.com/ggerganov/llama.cpp Fireworks.ai - very fast and cheap AI service https://fireworks.ai GroqCloud - API for AI - https://wow.groq.com - https://groq.com New OpenAI Board: Sam Altman (CEO) Sue Desmond-Hellmann (Gates foundation) Nicole Seligman (Sony Entertainment) Fidji Simo (Metrodora Institute) Bret Taylor (Chairman, Salesforce) Adam D'Angelo: CEO of Quora Larry Summers (Economist, former Harvard president, former US Treasury Secretary) Microsoft observer seat"
+    },
+    {
+      "index": 9,
+      "title": "Misc 4 NVIDIA BioNeMo Framework on Amazon SageMaker",
+      "text": "Misc 4 NVIDIA BioNeMo Framework on Amazon SageMaker is a generative AI platform designed for drug discovery https://aws.amazon.com/blogs/industries/find-the-next-blockbuster-with-nvidia-bionemo-framework-on-amazon-sagemaker/ ⌘-r release by Cohere  ( https://cohere.com ) https://txt.cohere.com/command-r/ https://twitter.com/nickfrosst/status/1767566742652416442 Command-R is a generative model optimized for long context tasks (such as RAG) and using external APIs and tools. It is designed to work in concert with Embed and Rerank models to provide best-in-class integration for RAG applications. Strong accuracy on RAG and Tool Use Low latency, and high throughput Longer 128k context and lower pricing Strong capabilities across 10 key languages Model weights available on HuggingFace for research and evaluation Model is available on Cohere’s hosted API and on clouds Cohere is a private company, since 2019, 250 employees, Toronto, California, New York, London. Cohere provides GenAI solutions: LLMs - text generation, translations, classifications, summarization Chatbots and AI assistants Customization and flexibility, fine-tuning, deployment options (API, cloud, on-prem) Privacy focus SIMA = Scalable Instructable Multiworld Agent (Google Deepmind) SIMA is a general AI agent for games & 3D virtual settings. SIMA is the first agent that has demonstrated that it can follow natural-language instructions to carry out a wide range of tasks across a large array of game worlds, similar to how a human would play. GOAT of AI: GOAT = Greatest Of All Time https://twitter.com/demishassabis/status/1767977070603219255 https://deepmind.google/discover/blog/sima-generalist-ai-agent-for-3d-virtual-environments/ https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/sima-generalist-ai-agent-for-3d-virtual-environments/Scaling%20Instructable%20Agents%20Across%20Many%20Simulated%20Worlds.pdf Applied Intuition (CA) raises $250 Mln in Series E funding at a $6 Bln valuation - Autonomous vehicle software https://www.appliedintuition.com"
+    },
+    {
+      "index": 10,
+      "title": "Training Llama3 Meta Llama3 training: https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ https://twitter.com/soumithchintala/status/1767579981419315400 24K",
+      "text": "Training Llama3 Meta Llama3 training: https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ https://twitter.com/soumithchintala/status/1767579981419315400 24K H100 Cluster Pods PyTorch, NCCL library from Nvidia - https://developer.nvidia.com/nccl Network: RoCEv2 - https://docs.nvidia.com/networking/display/winofv55053000/rocev2 Storage: NFS/FUSE based on Tectonic/Hammerspace"
+    },
+    {
+      "index": 11,
+      "title": "Nvidia Nvidia is now also very active in",
+      "text": "Nvidia Nvidia is now also very active in making an AI model portfolio. Helps them sell the GPUs"
+    },
+    {
+      "index": 12,
+      "title": "Enchanted Completions for MacOS Enchanted is an open-source",
+      "text": "Enchanted Completions for MacOS Enchanted is an open-source app for Apple platform (macOS/iOS/iPad/iWatch): https://twitter.com/amgauge/status/1767272748953248228 https://github.com/AugustDev/enchanted It works with local models using Ollama Enchanted Completions - invoke them with shortcut menu from any application (editor, email, notes, ...). Example of completions: summarize, write more, fix grammar, reject politely, etc. You can define your own completions and prompts for them. Then when editing you select the text, invoke the menu - and select the completion to execute on this text. macOS Spotlight panel Ctrl+⌘+K Specify system prompt used for every conversations Conversation history included in the API calls Markdown support (nicely displays tables/lists/code blocks) Voice prompts Image attachments for prompts Edit message content or submit message with different model Delete conversation(s) Future features: RAG (talk with your files), multiple conversations for macOS"
+    },
+    {
+      "index": 13,
+      "title": "optimum.nvidia from HuggingFace Optimum-NVIDIA is supported on 4090,",
+      "text": "optimum.nvidia from HuggingFace Optimum-NVIDIA is supported on 4090, L40S, and H100 Tensor Core GPUs; it is expected to work on any GPU based on the following architectures: Turing, Ampere (A100, ...), Hopper (H100, ...), Ada-Lovelace (A6000, ...) FP8 support is only available on GPUs based on Hopper and Ada-Lovelace architectures. https://twitter.com/rohanpaul_ai/status/1766887420992299195 https://github.com/huggingface/optimum-nvidia Optimum-NVIDIA is a new Hugging Face inference library Use it for inference instead of \"transformers\" module It has a new float8 format (FP8) which allows you to run a bigger model on a single GPU, at faster speeds, and without sacrificing accuracy Can do 28x faster inference (up to 1,200 tokens/second) and can be enabled with one flag. But this FP8 feature is only supported on Hopper and Ada architectures Ada Lovelace Grace Hopper - from transformers import AutoModelForCausalLM + from optimum.nvidia import AutoModelForCausalLM model = AutoModelForCausalLM.from_pretrained( \"meta-llama/Llama-2-7b-chat-hf\", + use_fp8=True, ) Charles Babbage Mechanical Computer"
+    },
+    {
+      "index": 14,
+      "title": "Build Company Chatbot on AWS RAG system: Lex",
+      "text": "Build Company Chatbot on AWS RAG system: Lex chatbot interface, LLM on Bedrock , vector DB for semantic search https://aws.amazon.com/blogs/machine-learning/quickly-build-high-accuracy-generative-ai-applications-on-enterprise-data-using-amazon-kendra-langchain-and-large-language-models/ AWS offers various vector DBs and related services: https://community.aws/concepts/vector-embeddings-and-rag-demystified-2 Kendra - low-code semantic search over vast unstructured data (S3) . Uses OpenSearch under the hood? https://aws.amazon.com/kendra OpenSearch (~ ElasticSearch) - open source, NoSQL https://aws.amazon.com/opensearch-service AWS Lex - building chatbots. Can use AWS Kendra for data search - https://aws.amazon.com/lex/ AWS Bedrock (available since Sept 2023) - API to run foundation models (Amazon Titan, Claude, AI21, Cohere, Meta Llama, Mistral, Stability) https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html RDS/ Aurora PostgreSQL - vector similarity search using pgvector extension https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/Aurora.AuroraPostgreSQL.html Snowflake DB - (PostgreSQL) vector similarity, Mistral Large. https://investors.snowflake.com/news/news-details/2024/Snowflake-Partners-with-Mistral-AI-to-Bring-Industry-Leading-Language-Models-to-Enterprises-Through-Snowflake-Cortex/default.aspx DynamoDB - store chat history (Key-Value DB) Athena - store chat history (SQL over files in S3) Lambda - serverless functions LangChain - python library (+ LangSmith ) # simple Lamda function in AWS import json def lambda_handler(event, context): message = \"Hello from AWS Lambda!\" return {'statusCode': 200,'body': json.dumps(message)}"
+    },
+    {
+      "index": 15,
+      "title": "Build Company Chatbot on AWS - Example Building",
+      "text": "Build Company Chatbot on AWS - Example Building Generative AI Agents with Amazon Bedrock, Amazon Lex, and LangChain - https://www.youtube.com/watch?v=bv4XV7epeik"
+    },
+    {
+      "index": 16,
+      "title": "Using LLMs in Biology, Biochemistry, Medicine 3D shape",
+      "text": "Using LLMs in Biology, Biochemistry, Medicine 3D shape of proteins is the determining factor for their function. DNA/RNA -> amino acid sequence -> alpha helix -> 3d form of proteins . Google's Deepmind Alphafold predicts 3D  shape. New research direction - using LLM. There is a separate category of protein folding diseases . They happen when a protein can not be made, or it folds incorrectly because of aging or a DNA sequence error, or even an infection. The diseases like Creutzfeldt-Jakob disease (CJD), Parkinson's disease, Alzheimer's, cancer , .... There are so-called chaperone-molecules (often also proteins) that help in the last stage of protein synthesis, specifically the correct folding. And often these chaperones are not coded in the cell nucleus but in the mitochondrial DNA. If it is easier to solve these puzzles with LLMs, you may be able to find medications or via crispr-cas correction mechanisms in stem cells. With LLMs we are primary focused on \"human languages\", including programming languages, but there may be a whole set of other languages that can be used with LLMs. Biology, chemistry, you name it. GenePT - creating single-cell embeddings by averaging gene embeddings according to expression levels - using GPT-3.5 and NCBI text descriptions of specific genes (National Center for Biotechnology Information) https://cbirt.net/decoding-genes-and-cells-with-genept-a-simple-yet-powerful-foundation-model-leveraging-chatgpt/ Some links: https://towardsdatascience.com/large-language-models-in-molecular-biology-9eb6b65d8a30 https://www.azorobotics.com/News.aspx?newsID=14638 https://bigthink.com/health/how-generative-ai-language-models-are-unlocking-the-secrets-of-dna/ https://www.datasciencecentral.com/genai-synthesizing-dna-sequences-with-llm-techniques/ https://www.axios.com/2023/11/17/generative-ai-dna-biology"
+    },
+    {
+      "index": 17,
+      "title": "Advance RAG - Improve RAG performance https://luv-bansal.medium.com/advance-rag-improve-rag-performance-208ffad5bb6a Seven",
+      "text": "Advance RAG - Improve RAG performance https://luv-bansal.medium.com/advance-rag-improve-rag-performance-208ffad5bb6a Seven Failure Points When Engineering a Retrieval Augmented Generation System https://arxiv.org/pdf/2401.05856.pdf"
+    },
+    {
+      "index": 18,
+      "title": "Web Research using LLM GPT Researcher https://github.com/assafelovic/gpt-researcher Web",
+      "text": "Web Research using LLM GPT Researcher https://github.com/assafelovic/gpt-researcher Web scraping https://python.langchain.com/docs/use_cases/web_scraping Web Research chatbot LangChain+OpenAI: https://medium.com/simform-engineering/creating-a-web-research-chatbot-using-langchain-and-openai-aa7113c9ccbf Pioneering the Future of Web Scraping with Intelligent AI Agents: Unleash the Power of AutoGen https://ai.plainenglish.io/pioneering-the-future-of-web-scraping-with-intelligent-ai-agents-unleash-the-power-of-autogen-222aa73daad6 AutoGen Part 4 | Create Multi-Agents GPT for Research Apps! https://www.youtube.com/watch?v=WJIzVok-0GI Diffbot - https://www.diffbot.com - Menlo Park, CA Since 2008, ~35 employees, ~2.3 Mln revenue in 2023 Web data extraction - identify key elements, create a knowledge graph with Billions of entities APIs : Article, Product, Discussion, Image and Video, Knowledge Graph, Custom Crawlbot Use cases: Market Research, Competitive Intelligence, Lead Generation, Data Enrichment, AI and Machine Learning .. https://app.diffbot.com/get-started/ .. https://www.youtube.com/watch?v=eIDitSyhs7s .. https://github.com/leannchen86/graph-rag-ai-assistant SerpAPI - Scrape Google and other search engines https://serpapi.com SERP = Search Engine Results Pages Google, Bing, Baidu, Yahoo, Yandex, eBay, Walmart, YouTube, ... . SerpAPI manages proxies, solves CAPTCHAs, simulates searches from specific locations to get accurate, localized SERP data, returns results in as JSON."
+    },
+    {
+      "index": 19,
+      "title": "MLX - LLM on Apple M1, M2, M3",
+      "text": "MLX - LLM on Apple M1, M2, M3 https://ml-explore.github.io/mlx/build/html/ - docs https://github.com/ml-explore - repos https://www.youtube.com/@code4AI/community https://www.youtube.com/@code4AI - videos MLX is a NumPy-like framework for ML on Apple silicon. MLX has Python API and also has a fully featured C++ API. MLX has composable function transformations for automatic differentiation, automatic vectorization, and computation graph optimization. Lazy computation: Computations in MLX are lazy. Arrays are only materialized when needed. Multi-device: Operations can run on any of the supported devices (CPU, GPU, …)"
+    },
+    {
+      "index": 20,
+      "title": "MLC LLM Machine Learning Compilation for Large Language",
+      "text": "MLC LLM Machine Learning Compilation for Large Language Models (MLC LLM) - https://github.com/mlc-ai/mlc-llm https://llm.mlc.ai MLC LLM is a high-performance universal deployment solution that allows native deployment of any LLM with native APIs with compiler acceleration. The mission of this project is to enable everyone to develop, optimize and deploy AI models natively on everyone's devices with ML compilation techniques."
+    },
+    {
+      "index": 21,
+      "title": "Figure 01 - Robot Breakthrough Robot talks to",
+      "text": "Figure 01 - Robot Breakthrough Robot talks to you and executes commands https://www.youtube.com/watch?v=Sq1QZB5baNw https://www.youtube.com/watch?v=GiKvPJSOUmE"
+    },
+    {
+      "index": 22,
+      "title": "RAG, Embeddings, ... Enterprise RAG https://www.rungalileo.io/blog/mastering-rag-how-to-architect-an-enterprise-rag-system",
+      "text": "RAG, Embeddings, ... Enterprise RAG https://www.rungalileo.io/blog/mastering-rag-how-to-architect-an-enterprise-rag-system"
+    },
+    {
+      "index": 23,
+      "title": "Tech Layoffs are x3 times lower than in",
+      "text": "Tech Layoffs are x3 times lower than in 2023 Layoffs - https://layoffs.fyi"
+    },
+    {
+      "index": 24,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 25,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Cognition AI",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Cognition AI - Devin (AI Software Engineer) Andrej",
+      "source": "youtube"
+    },
+    {
+      "claim": "DAV",
+      "topic": "general",
+      "videoSeconds": 65,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=65s",
+      "slideIndex": 3,
+      "slideTitle": "Automating Software Engineering https://twitter.com/karpathy/status/1767598414945292695 Andrej Karpathy Progression of",
+      "source": "youtube"
+    },
+    {
+      "claim": "GitHub",
+      "topic": "general",
+      "videoSeconds": 128,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=128s",
+      "slideIndex": 4,
+      "slideTitle": "Gen AI is the biggest star hyperinflation in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource Arena",
+      "topic": "benchmarks",
+      "videoSeconds": 194,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=194s",
+      "slideIndex": 6,
+      "slideTitle": "Misc 1 E m ergent autonomous scientific research",
+      "source": "youtube"
+    },
+    {
+      "claim": "Research Capabilities",
+      "topic": "general",
+      "videoSeconds": 288,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=288s",
+      "slideIndex": 7,
+      "slideTitle": "Misc 2 Chain-of-Abstraction Reasoning Efficient Tool Use with",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chain of Explanation Reasoning",
+      "topic": "general",
+      "videoSeconds": 378,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=378s",
+      "slideIndex": 9,
+      "slideTitle": "Misc 4 NVIDIA BioNeMo Framework on Amazon SageMaker",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google battles AI generated spam in search",
+      "topic": "general",
+      "videoSeconds": 500,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=500s",
+      "slideIndex": 10,
+      "slideTitle": "Training Llama3 Meta Llama3 training: https://engineering.fb.com/2024/03/12/data-center-engineering/building-metas-genai-infrastructure/ https://twitter.com/soumithchintala/status/1767579981419315400 24K",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Training Llama 3",
+      "topic": "open-models",
+      "videoSeconds": 853,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=853s",
+      "slideIndex": 12,
+      "slideTitle": "Enchanted Completions for MacOS Enchanted is an open-source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Enchanted Completions for Mac",
+      "topic": "general",
+      "videoSeconds": 909,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=909s",
+      "slideIndex": 13,
+      "slideTitle": "optimum.nvidia from HuggingFace Optimum-NVIDIA is supported on 4090,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Optimum Nvidia",
+      "topic": "infra",
+      "videoSeconds": 992,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=992s",
+      "slideIndex": 15,
+      "slideTitle": "Build Company Chatbot on AWS - Example Building",
+      "source": "youtube"
+    },
+    {
+      "claim": "AWS Chatboard",
+      "topic": "general",
+      "videoSeconds": 1143,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1143s",
+      "slideIndex": 16,
+      "slideTitle": "Using LLMs in Biology, Biochemistry, Medicine 3D shape",
+      "source": "youtube"
+    },
+    {
+      "claim": "web scraping",
+      "topic": "general",
+      "videoSeconds": 1474,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1474s",
+      "slideIndex": 18,
+      "slideTitle": "Web Research using LLM GPT Researcher https://github.com/assafelovic/gpt-researcher Web",
+      "source": "youtube"
+    },
+    {
+      "claim": "mlx",
+      "topic": "general",
+      "videoSeconds": 1532,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1532s",
+      "slideIndex": 19,
+      "slideTitle": "MLX - LLM on Apple M1, M2, M3",
+      "source": "youtube"
+    },
+    {
+      "claim": "lm",
+      "topic": "general",
+      "videoSeconds": 1566,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1566s",
+      "slideIndex": 21,
+      "slideTitle": "Figure 01 - Robot Breakthrough Robot talks to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Robot",
+      "topic": "general",
+      "videoSeconds": 1605,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1605s",
+      "slideIndex": 22,
+      "slideTitle": "RAG, Embeddings, ... Enterprise RAG https://www.rungalileo.io/blog/mastering-rag-how-to-architect-an-enterprise-rag-system",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rag",
+      "topic": "rag",
+      "videoSeconds": 1649,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1649s",
+      "slideIndex": 24,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1664,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo&t=1664s",
+      "slideIndex": 25,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cognition AI - Devin - Automating Software Engineering",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo",
+      "slideIndex": 2,
+      "slideTitle": "Cognition AI - Devin - Automating Software Engineering",
+      "source": "slide"
+    },
+    {
+      "claim": "models: 73 votes: 408,144 March 13, 2024 Starting",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo",
+      "slideIndex": 5,
+      "slideTitle": "models: 73 votes: 408,144 March 13, 2024 Starting",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 3 Google battles AI-generated spam in search",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo",
+      "slideIndex": 8,
+      "slideTitle": "Misc 3 Google battles AI-generated spam in search",
+      "source": "slide"
+    },
+    {
+      "claim": "Nvidia Nvidia is now also very active in",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=x-2SfzCqrdo",
+      "slideIndex": 11,
+      "slideTitle": "Nvidia Nvidia is now also very active in",
+      "source": "slide"
+    }
+  ]
+}

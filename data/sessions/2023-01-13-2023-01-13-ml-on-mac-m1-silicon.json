@@ -1,0 +1,46 @@
+{
+  "id": "2023-01-13-2023-01-13-ml-on-mac-m1-silicon",
+  "date": "2023-01-13",
+  "title": "ML-on-Mac-m1-silicon",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "DqW5Qy5pAgc",
+    "title": "Running Machine Learning (TensorFlow or PyTorch) on M1/M2 Macbook - January 13, 2023",
+    "url": "https://www.youtube.com/watch?v=DqW5Qy5pAgc",
+    "thumbnail": "https://i.ytimg.com/vi/DqW5Qy5pAgc/hqdefault.jpg",
+    "duration": 163
+  },
+  "deck": {
+    "path": "2023/2023-01-13-ML-on-Mac-m1-silicon.pptx",
+    "filename": "2023-01-13-ML-on-Mac-m1-silicon.pptx",
+    "title": "ML-on-Mac-m1-silicon",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-01-13-ML-on-Mac-m1-silicon.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-01-13-ML-on-Mac-m1-silicon.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "ML on Mac M1/M2 Silicone is MUCH faster",
+      "text": "ML on Mac M1/M2 Silicone is MUCH faster than NVIDIA CUDA When M1 destroys Nvidia https://www.youtube.com/watch?v=u9ECps9b664 CPU Test: Mac is x2-x5 times faster GPU Test: Mac is x2-x4 times faster How to Install Keras GPU for Mac M1/M2 with Conda .. https:// www.youtube.com / watch?v =o4-bI_iZKPA How to Install PyTorch GPU for Mac M1/M2 with Conda .. https:// www.youtube.com / watch?v =VEDy-c5Sk8Y DELL XPS 15 Intel Core i9 12 Gen 32 GB ram RTX 3050 ti 4 GB video memory ASUS ROG STRIX AMD Ryzen 5900HX RTX 3070 Mobile 6 GB video memory Macbook Pro M1 Max 64 GB RAM 64 GB shared memory"
+    }
+  ],
+  "points": [
+    {
+      "claim": "ML on Mac M1/M2 Silicone is MUCH faster",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=DqW5Qy5pAgc",
+      "slideIndex": 1,
+      "slideTitle": "ML on Mac M1/M2 Silicone is MUCH faster",
+      "source": "slide"
+    }
+  ]
+}

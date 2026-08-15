@@ -1,0 +1,347 @@
+{
+  "id": "2024-12-27-2024-12-27-ai-updates",
+  "date": "2024-12-27",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "coding"
+  ],
+  "video": {
+    "id": "B6oJXkw-HWY",
+    "title": "Have you heard these exciting AI news? - December 27, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=B6oJXkw-HWY",
+    "thumbnail": "https://i.ytimg.com/vi/B6oJXkw-HWY/hqdefault.jpg",
+    "duration": 1222
+  },
+  "deck": {
+    "path": "2024/2024-12-27-AI-Updates.pptx",
+    "filename": "2024-12-27-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-12-27-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-12-27-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Model 03",
+      "startSeconds": 17,
+      "label": "00:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Arc tests",
+      "startSeconds": 157,
+      "label": "02:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Deep seek v3",
+      "startSeconds": 322,
+      "label": "05:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Cursor vs GitHub Copilot",
+      "startSeconds": 393,
+      "label": "06:33",
+      "source": "youtube"
+    },
+    {
+      "title": "AI models can pretend to follow the rules",
+      "startSeconds": 460,
+      "label": "07:40",
+      "source": "youtube"
+    },
+    {
+      "title": "How to position yourself as an expert",
+      "startSeconds": 499,
+      "label": "08:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Knowledge Augmented Generation",
+      "startSeconds": 569,
+      "label": "09:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Sham Krishnan",
+      "startSeconds": 634,
+      "label": "10:34",
+      "source": "youtube"
+    },
+    {
+      "title": "UUV",
+      "startSeconds": 771,
+      "label": "12:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Quantum",
+      "startSeconds": 845,
+      "label": "14:05",
+      "source": "youtube"
+    },
+    {
+      "title": "IQ tests",
+      "startSeconds": 971,
+      "label": "16:11",
+      "source": "youtube"
+    },
+    {
+      "title": "IQ comparison",
+      "startSeconds": 1042,
+      "label": "17:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Major releases",
+      "startSeconds": 1170,
+      "label": "19:30",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI o3 model - AGI or Fake? \"JAGGED",
+      "text": "OpenAI o3 model - AGI or Fake? \"JAGGED FRONTIER\" of AGI ... AGI definition based on profits achieved DeepSeek-V3 Cursor is better than GitHub Copilot AI systems have surpass human capabilities AgiBot (China) - humanoid robots Genesis - a comprehensive physics simulation AI models can pretend to follow the rules Use YouTube To Get a Job Knowledge Augmented Generation (KAG) AI Updates December 27 , 2024 Sriram Krishnan - Senior Policy Advisor for AI Perplexity adding Gemini 2 and o1 models Evolutionary Test-time Compute for ARC-AGI Demis Hassabis about Digital Biology uv - blazingly fast Python package manager Quantum Chips IQ Levels of different models IQ - models, humans, animals Crowd-sourced \"Arena\" Leaderboard Tech Layoffs in 2024"
+    },
+    {
+      "index": 2,
+      "title": "OpenAI o3 model - AGI or Fake? OpenAI",
+      "text": "OpenAI o3 model - AGI or Fake? OpenAI o3 model announced on Friday December 20, 2024 can be considered as AGI (Artificial General Intelligence) .. https://www.youtube.com/watch?v=YjyLBabHQiQ - testing .. https://www.youtube.com/watch?v=s0EETHmwJyo - describing .. https://www.youtube.com/watch?v=Ge5B-J-vUwI - fake or not It has surpassed the 85% threshold on the ARC AGI test, scoring 87.5% when given unlimited resources ( costs around $8K-$55K to run ). Note: ARC-AGI-1 Public Training set was in training data - thus it is not clear whether the model truly demonstrates generalized reasoning or simply learned to recognize patterns in the training data. The ARC test was designed to measure general intelligence by evaluating the ability to solve novel tasks and reason through problems, not just memorize and spit out information. The o3 model achieved 96.7% on AIME Math test, and 25% vs 2% for humans on EpochAI Math test.  It achieved Elo score of 2727 in CodeForces, thus outperforming 99.99% of humans (ranks 175th among the world's best programmers). So AI can now outperform humans in reasoning and problem-solving fast progress: only 3 months from o1 to o3 The model is expensive, but prices tend to go down very fast"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI o3 model - AGI or Fake? OpenAI",
+      "text": "OpenAI o3 model - AGI or Fake? OpenAI o3 model - significant breakthrough in AI capabilities, particularly in solving complex mathematical problems. It achieved a 25% success rate on the Frontier Math benchmark, a test that challenges even Fields medalists, compared to the previous state-of-the-art of 2% https://www.youtube.com/watch?v=NFgFQO282_4 The major advancement is the model's ability to adapt to new tasks and solve problems it hasn't been specifically trained on o3's high performance comes at a significant computational cost, making its current applications limited (temporarily) o3 still struggles with basic logic and reasoning tasks that even a 5-year-old child can solve (see below), indicating that there's still room for improvement in AI development OpenAI's o3 and the \"JAGGED FRONTIER\" of AGI ... https://www.youtube.com/watch?v=Rh1ejzNyCso Excellent discussion by Wes Roth Microsoft and OpenAI have a very specific, internal definition of artificial general intelligence (AGI) based on the startup’s profits: \"OpenAI has only achieved AGI when it develops AI systems that can generate at least $100 billion in profits\". https://techcrunch.com/2024/12/26/microsoft-and-openai-have-a-financial-definition-of-agi-report/"
+    },
+    {
+      "index": 4,
+      "title": "DeepSeek-V3 DeepSeek-V3 - Dec 26, 2024, 671B (687.9",
+      "text": "DeepSeek-V3 DeepSeek-V3 - Dec 26, 2024, 671B (687.9 GB on disk) DeepSeek-V2.5 - Sep 6, 2024 (DeepSeek-V2.5-12108 on Dec 10) DeepSeek-V2 - May 2024,   236B params, MoE, 21B/token https://github.com/deepseek-ai Developed by Chinese AI company DeepSeek Mixture-of-Experts (MoE) architecture Open-source: Hugging Face, GitHub , MIT license Ollama has v2 and v2.5 Multihead latent attention (MLA) for improved detail extraction Multi-token prediction (MTP) for faster inference An auxiliary loss-free load-balancing strategy to address uneven data distribution among experts DeepSeek claims that DeepSeek-V3 outperforms other leading open-source models like Meta's Llama 3.1 (405B parameters) and Qwen2.5 (72B parameters) across multiple benchmarks https://www.gadgets360.com/ai/news/deepseek-v3-ai-model-mixture-of-experts-open-source-china-released-7343221 https://www.neowin.net/news/deepseek-v3-sets-new-standard-for-open-source-language-models/ https://huggingface.co/deepseek-ai/DeepSeek-V3-Base/blob/b3480c8cccc78b782bb7623abb79cc4d104831ad/README_WEIGHTS.md https://siliconangle.com/2024/12/26/deepseek-open-sources-new-ai-model-671b-parameters/ https://simonwillison.net/2024/Dec/25/deepseek-v3/ https://wandb.ai/byyoung3/ml-news/reports/DeepSeek-V3-Training-671-Billion-Parameters-with-a-6-Million-dollar-Budget--VmlldzoxMDczNTI2Ng https://api-docs.deepseek.com/news/news1226 https://gigazine.net/gsc_news/en/20241227-deepseek-v3/"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates Cursor is better than GitHub Copilot",
+      "text": "AI Updates Cursor is better than GitHub Copilot https://www.youtube.com/watch?v=Wl5NJVieiBM AgiBot (China) - humanoid robots work at factory assembly lines https://www.agibot.com This raises questions about human employment. Genesis - a comprehensive physics simulation platform designed for general purpose Robotics, Embodied AI, & Physical AI applications - https://genesis-embodied-ai.github.io AI systems have surpass human capabilities in certain domains, such as medical diagnosis , has sparked both excitement and concern. While the potential benefits are undeniable, questions remain about the legal and ethical implications of AI in critical decision-making roles."
+    },
+    {
+      "index": 6,
+      "title": "AI models can pretend to follow the rules",
+      "text": "AI models can pretend to follow the rules AI systems may give the illusion of cooperation while pursuing their own objectives - https://www.apolloresearch.ai/research/scheming-reasoning-evaluations Here is a full version of the paper: https://arxiv.org/pdf/2412.04984 And here is a video: https://www.youtube.com/watch?v=_ivh810WHJo AI models can fake alignment, pretending to follow rules during training but reverting to original preferences when deployed . This behavior is similar to humans who sometimes strategically modify their behavior to please evaluators, like a politician pretending to be aligned with constituents to secure votes. The researchers found that when a model knows it’s being monitored (in a training setting), it will fake alignment to preserve its original preferences. They also observed other concerning behaviors like the model trying to exfiltrate its weights (save itself) when threatened. Alignment faking seems to emerge with model scale, with larger models exhibiting this behavior more often. The researchers found that alignment faking might make a model’s preferences resistant to further training, making it difficult to realign. These findings raise concerns about the ability to align future AI models and suggest that current safety training methods may not be enough to prevent deceptive behavior Apollo Research is an AI safety organization from UK https://www.apolloresearch.ai that focuses on reducing the risks of advanced AI systems that may exhibit deceptive behavior . Their goal is to prevent the development and deployment of deceptive AI systems ."
+    },
+    {
+      "index": 7,
+      "title": "How I Got AI Research Job By Building",
+      "text": "How I Got AI Research Job By Building YouTube Channel - no PhD necessary https://www.youtube.com/watch?v=SypmG89Ha1E Vuk Rosić was making short YouTube videos related to his profession. He has accumulated ~ 200 videos and 3.6K subscribers. So he is well positioned as an expert in his field - which has helped him to get his dream job. He is using standard software - OBS Studio: https://obsproject.com His videos are between 4 min and 20 min in length His process is very simple. Use YouTube To Get a Job"
+    },
+    {
+      "index": 8,
+      "title": "Knowledge Augmented Generation (KAG) Knowledge Augmented Generation (KAG)",
+      "text": "Knowledge Augmented Generation (KAG) Knowledge Augmented Generation (KAG) Open Source - take code from GitHub, run using Docker KAG is a new framework that surpasses traditional RAG and Graph RAG in delivering accurate and domain-specific knowledge KAG combines information extraction, knowledge graphs, and advanced multi-hop reasoning https://github.com/OpenSPG/KAG - code https://arxiv.org/pdf/2409.13731 - paper https://www.youtube.com/watch?v=TnTH85-jobE - video Index construction : It extracts entities from input documents, builds a semantic graph, and aligns it with a domain-specific knowledge graph. This process is more advanced than the simple vector database indexing used in traditional RAG. Querying: KAG employs logical and symbolic reasoning, a hybrid retrieval system, and a document fallback strategy to ensure accurate and comprehensive answers. Advantages of KAG: Advanced logical reasoning capabilities, Hybrid knowledge integration, Professional domain expertise, Open-source community support"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Sriram Krishnan confirmed as senior policy",
+      "text": "AI Updates Sriram Krishnan confirmed as senior policy advisor for AI at the White House Office of Science and Technology Policy Sriram Krishnan - a general partner at Andreessen Horowitz (a16z) .. https://finance.yahoo.com/news/sriram-krishnan-named-trumps-senior-223608637.html .. https://en.wikipedia.org/wiki/Sriram_Krishnan Evolutionary Test-time Compute for ARC-AGI \"How I came in first on ARC-AGI-Pub using Sonnet 3.5 with Evolutionary Test-time Compute\" - by Jeremy Berman ttps://params.com/@jeremy-berman/arc-agi Perplexity adding support for Gemini 2 and o1 models - https://www.testingcatalog.com/perplexity-to-add-support-for-gemini-2-and-o1-models/ Digital Biology - using AI to model and understand biological systems. Demis Hassabis, the founder of DeepMind, talks about predicting protein folding (AlphaFold), drug discovery, simulation of a whole virtual cell using AI"
+    },
+    {
+      "index": 10,
+      "title": "uv - blazingly fast Python package manager \"uv\"",
+      "text": "uv - blazingly fast Python package manager \"uv\" is a blazingly fast, modern Python package manager written in Rust; designed to be a drop-in replacement for \"pip\" (but 10 times faster !), compatible with existing tools and workflows, including virtualenv, pip-tools, etc. .. https://astral.sh/blog .. https://github.com/astral-sh/uv Installation: curl -LsSf https://astral.sh/uv/install.sh | sh Usage: uv install pandas uv install -r requirements.txt uv upgrade pandas uv uninstall pandas Project Management with \"uv\" using \"pyproject.toml\": uv init # create or add to \"pyproject.toml\" #               README.md, hello.py uv add pandas uv env uv env --python 3.11 source .venv/bin/activate uv run myscript.py uv sync # read pyproject.toml, add/remove dependencies uv.lock file is created or updated with the following commands: uv init uv sync uv add / uv remove uv lock uv lock --force # regenerate even if pyproject.toml # hasn't changed When you use \"uv pip install mypackage\" within a uv project, it automatically detects and uses the project's virtual environment (the one created by uv env). This ensures that the package is installed in the correct environment without you having to activate it manually. # Examples: uv pip install package_name uv pip uninstall package_name uv pip freeze uv pip install -r requirements.txt uv venv create # Create new venv uv venv recreate # Recreate existing venv source .venv/bin/activate # Activate venv (Unix) .venv\\Scripts\\activate # Activate venv (Windows) uv pip compile requirements.in # pip-tools uv pip sync requirements.txt"
+    },
+    {
+      "index": 11,
+      "title": "Quantum Chips Google has released a chip called",
+      "text": "Quantum Chips Google has released a chip called \"Willow\" with 105 qubits x2 qubits, x2 lower errors (x20 lower after error correction) These incremental improvements are NOT breakthroughs. A cheap $2 conventional chip is still faster in practice Zuchongzhi 3.0 seems to win against Google Willow Organization  | System Name      | Max Qubits | Error Rates       | Notes --------------|------------------|------------|-------------------|-------------------------------- IBM           | IBM Eagle        | 127        | ~10^-3 per gate   | Superconducting transmon qubits Google 2019   | Sycamore         | 53         | ~0.3% two-qubit   | Quantum supremacy claim (2019) Google 2024   | Willow           | 105        | x2 times better   | x20 better after error correction D-Wave        | Advantage        | 5000+      | ~2-3% per qubit   | Quantum annealing system IonQ          | Aria             | 32         | ~10^-4 per gate   | Trapped ion technology Microsoft     | Azure Quantum    | Various    | Varies            | Cloud platform with partners NASA QuAIL    | D-Wave 2000Q     | 2048       | ~2-5% per qubit   | Quantum annealing research Quantinuum    | H1-2             | 32         | ~10^-4 per gate   | Trapped ion system Intel         | Horse Ridge II   | 12         | Not published     | Spin qubits in silicon Xanadu        | Borealis         | 216        | Variable          | Photonic quantum computer Rigetti       | Aspen-M-2        | 80         | ~10^-2 per gate   | Superconducting circuits China         | Tianyan-504      | 504        | --                | China         | Zuchongzhi 3.0   | 105        | --                | Atom Computing| Phoenix          | 1,180      | --                | Berkeley, CA --------------|------------------|------------|-------------------|-------------------------------- https://blog.google/technology/research/google-willow-quantum-chip/ https://en.wikipedia.org/wiki/Quantum_computing https://www.dwavesys.com https://www.youtube.com/watch?v=IJHrPjx4egM - Fireship video https://atom-computing.com/quantum-computing-technology/ - 1000+ qubits https://arxiv.org/abs/2412.11924 - Zuchongzhi 3.0 D-Wave Tianyan-504 Willow Zuchongzhi 3.0"
+    },
+    {
+      "index": 12,
+      "title": "IQ Levels of different models o3 ~ 157",
+      "text": "IQ Levels of different models o3 ~ 157 o1 ~150 Gemini-1.5-Pro-0801 - 131 Gpt-4o - 122 https://www.reddit.com/r/ChatGPT/comments/1dtivia/chatgpt4os_iq_is_122_phd_level/ https://www.maximumtruth.org/p/ais-ranked-by-iq-ai-passes-100-iq https://www.reddit.com/r/Bard/comments/1elmbt2/just_for_fun_gemini_15_pro_0801_scored_131_in_an/ March 2024"
+    },
+    {
+      "index": 13,
+      "title": "IQ Distribution https://www.worlddata.info/iq-by-country.php https://www.youtube.com/watch?v=ZS47YrHcdGs Rank Country IQ 1",
+      "text": "IQ Distribution https://www.worlddata.info/iq-by-country.php https://www.youtube.com/watch?v=ZS47YrHcdGs Rank Country IQ 1 Hong Kong * 106 2 Japan 106 3 Singapore 106 4 Taiwan * 106 5 China 104 6 South Korea 103 7 Netherlands 101 8 Finland 101 9 Canada 100 10 North Korea 100 11 Luxembourg 100 12 Macao * 100 13 Germany 100 14 Switzerland 100 15 Estonia 100 16 Australia 99 17 UK 99 18 Greenland * 99 19 Iceland 99 20 Austria 99 21 Hungary 99 22 New Zealand 99 23 Belarus 99 24 Belgium 98 25 Norway 98 26 Sweden 98 27 Slovenia 98 28 Denmark 98 29 Cambodia 97 30 France 97 31 USA 97 32 Poland 96 33 Czechia 96 34 Russia 96 35 Spain 95 36 Ireland 95 37 Italy 95 38 Croatia 95 39 Latvia 95 40 Lithuania 95 41 Israel 93 42 Malta 93 43 Mongolia 93 44 Portugal 93 45 Bermuda * 92 46 Bulgaria 91 47 Greece 91 48 Moldova 91 49 Ukraine 91 50 Vietnam 91 51 Armenia 90 52 Kazakhstan 89 53 Malaysia 89 54 Myanmar 89 55 Thailand 89 56 Serbia 89 57 Brunei 88 58 Chile 88 59 Costa Rica 88 60 Iraq 88 o3's   estimated   IQ   is   157 110 South Africa 69 111 Somalia 69 112 Nigeria 68 113 Ethiopia 67 114 Honduras 67 115 Yemen 67 116 Cameroon 67 117 Congo 64 118 Central Africa 63 119 Ghana 61 120 Ivory Coast 61 121 Guinea 56 122 Equat. Guinea 56 123 Gambia 55 124 Guatemala 55 125 Sierra Leone 52 126 Nepal 51 Human 100 Chimpanzee 80 Crow Octopus 73 Dolphin 45 Polar Bear 41 Honey Badger 36 Jaguar 34 Cheetah 33 Crocodile 32 Whale 27 Cat 21 Pig 20 Dog 19 Smart animals - https://www.ultimatekilimanjaro.com/the-15-smartest-animals-in-the-world/ Smart dogs - https://www.petmd.com/dog/general-health/smartest-dog-breeds (Doberman, Golden Retriever, German Shepherd, Poodle, Border Collie) Smart crows - https://en.wikipedia.org/wiki/Bird_intelligence Elon Musk"
+    },
+    {
+      "index": 14,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 184 Total #votes: 2,465,686 Last updated: 2024-12-22 Coding x.ai China x.ai x.ai China China China China China China China China China"
+    },
+    {
+      "index": 15,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job market for IT: much worse than before COVID. IT has become a commodity. Lower salaries/rates ($100/hr => $75/hr). Much more competition, hundreds of applications for each position \"Who is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms\" - paper October 2024 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4991774 The study found that AI tools have led to a decrease in demand for jobs in areas like writing and coding. At the same time there is an increase in demand for individuals skilled in utilizing AI tools. Legal: $8,000 work now can be done for only $3 in GPT credits. Translation - mostly outsourced to AI Phone Sales and Customer service"
+    },
+    {
+      "index": 16,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 17,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI o3 model - AGI or Fake? \"JAGGED",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Model 03",
+      "topic": "openai",
+      "videoSeconds": 17,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=17s",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI o3 model - AGI or Fake? OpenAI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Arc tests",
+      "topic": "general",
+      "videoSeconds": 157,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=157s",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI o3 model - AGI or Fake? OpenAI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deep seek v3",
+      "topic": "general",
+      "videoSeconds": 322,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=322s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Cursor is better than GitHub Copilot",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cursor vs GitHub Copilot",
+      "topic": "coding",
+      "videoSeconds": 393,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=393s",
+      "slideIndex": 6,
+      "slideTitle": "AI models can pretend to follow the rules",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI models can pretend to follow the rules",
+      "topic": "general",
+      "videoSeconds": 460,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=460s",
+      "slideIndex": 7,
+      "slideTitle": "How I Got AI Research Job By Building",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to position yourself as an expert",
+      "topic": "general",
+      "videoSeconds": 499,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=499s",
+      "slideIndex": 8,
+      "slideTitle": "Knowledge Augmented Generation (KAG) Knowledge Augmented Generation (KAG)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Knowledge Augmented Generation",
+      "topic": "general",
+      "videoSeconds": 569,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=569s",
+      "slideIndex": 10,
+      "slideTitle": "uv - blazingly fast Python package manager \"uv\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sham Krishnan",
+      "topic": "general",
+      "videoSeconds": 634,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=634s",
+      "slideIndex": 11,
+      "slideTitle": "Quantum Chips Google has released a chip called",
+      "source": "youtube"
+    },
+    {
+      "claim": "UUV",
+      "topic": "general",
+      "videoSeconds": 771,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=771s",
+      "slideIndex": 12,
+      "slideTitle": "IQ Levels of different models o3 ~ 157",
+      "source": "youtube"
+    },
+    {
+      "claim": "Quantum",
+      "topic": "general",
+      "videoSeconds": 845,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=845s",
+      "slideIndex": 13,
+      "slideTitle": "IQ Distribution https://www.worlddata.info/iq-by-country.php https://www.youtube.com/watch?v=ZS47YrHcdGs Rank Country IQ 1",
+      "source": "youtube"
+    },
+    {
+      "claim": "IQ tests",
+      "topic": "general",
+      "videoSeconds": 971,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=971s",
+      "slideIndex": 15,
+      "slideTitle": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "source": "youtube"
+    },
+    {
+      "claim": "IQ comparison",
+      "topic": "general",
+      "videoSeconds": 1042,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=1042s",
+      "slideIndex": 16,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Major releases",
+      "topic": "general",
+      "videoSeconds": 1170,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY&t=1170s",
+      "slideIndex": 17,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek-V3 DeepSeek-V3 - Dec 26, 2024, 671B (687.9",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY",
+      "slideIndex": 4,
+      "slideTitle": "DeepSeek-V3 DeepSeek-V3 - Dec 26, 2024, 671B (687.9",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Sriram Krishnan confirmed as senior policy",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=B6oJXkw-HWY",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Sriram Krishnan confirmed as senior policy",
+      "source": "slide"
+    }
+  ]
+}

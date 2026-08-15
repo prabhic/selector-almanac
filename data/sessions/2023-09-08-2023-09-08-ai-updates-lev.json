@@ -1,0 +1,230 @@
+{
+  "id": "2023-09-08-2023-09-08-ai-updates-lev",
+  "date": "2023-09-08",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "claude",
+    "openai",
+    "open-models",
+    "infra",
+    "data-engineering",
+    "enterprise",
+    "benchmarks",
+    "fine-tuning",
+    "rag"
+  ],
+  "video": {
+    "id": "OxCVBQftbho",
+    "title": "Evolution and Genetic Algorithms - September 8, 2023",
+    "url": "https://www.youtube.com/watch?v=OxCVBQftbho",
+    "thumbnail": "https://i.ytimg.com/vi/OxCVBQftbho/hqdefault.jpg",
+    "duration": 838
+  },
+  "deck": {
+    "path": "2023/2023-09-08-AI-Updates-Lev.pptx",
+    "filename": "2023-09-08-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-08-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-08-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates September 8, 2023",
+      "text": "AI Updates September 8, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Cloud architecture, fin-tech, application security Crypto, accounting Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Status Page Apple spends millions of $ per",
+      "text": "Status Page Apple spends millions of $ per day on training LLMs, especially conversational assistants ollama, https://gpt4all.io Falcon 180B, trained on 3.5 trillion tokens HuggingFace.co > 1300 entries (was ~346 entries on July 16th) Claude Pro https://www.anthropic.com/index/claude-pro 5x more usage than our free tier provides, with the ability to send many more messages Priority access to Claude.ai during high-traffic periods Early access to new features that help you get the most out of Claude Google TPU-4 is available to public Duet AI - assistance for developers Digital watermarking of images Google + Nvidia + Spark Google Meet (since 2017) - now AI making notes, ... Microsoft / OpenAI Enterprise Service - pricing? Microsoft - a patent for AI backpack"
+    },
+    {
+      "index": 4,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 4-8, 2023 -",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 4-8, 2023 - > 1300 entries (was ~346 entries on July 16th before LLaMa July 18) New entries are mostly variations of Meta's LLaMa All top positions are 70B 16 bit and require big computer to run it (~160 GB VRAM). Reducing model size: reducing N-params from 70B down to 30,13,7B causes severe reduction of average test scores reducing precision bits from 16 down to 4 surprisingly preserves the quality fo the model rank    size  avg_quality  bits  VRAM  name 1      70B 73.81       16    160  uni-tianyan/Uni-TianYan 33      70B    71.36        8 160 garage-bAInd/Camel-Platypus2-70B 50      70B    70.37        4     45  garage-bAInd/Camel-Platypus2-70B 55      65B    69.94       16    160  upstage/llama-65b-instruct 61     180B    68.74       16    400? tiiuae/ falcon-180B 107      70B    66.8        16 160 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 122      13B    66.03       16         Aspik101/trurl-2-13b-pl-instruct_unload approx: 170      30B    64.21        4     20  gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps 195      40b    63.47       16         tiiuae/ falcon-40b -instruct (was #1 before LLaMa2) 210      13B    63.19        4     10  Open-Orca/OpenOrca-Platypus2-13B 370       7b    59.89       16         HyperbeeAI/Tulpar-7b-v0 625       7b    55.72        4      6  joehuangx/spatial-vicuna-7b-v1.5-LoRA LLaMa was open sourced on July 18th - started explosion of new versions Open community creates new datasets/protocols to improve models Also reducing model size (precision or number of parameters)"
+    },
+    {
+      "index": 5,
+      "title": "Run LLaMa 4bit - Memory ? Price ?",
+      "text": "Run LLaMa 4bit - Memory ? Price ? 70b * 2 bytes = 140GB, runs in 160+ GB VRAM - expensive 70b * 1 byte  =  70GB, runs in  80  GB VRAM - expensive -------------------------------------------------------------- 70b * 4 bit   =  35GB, runs in 37-41GB VRAM ( 2x3090 + NVLink ) 35b * 4 bit   =  18GB, runs in  24  GB VRAM  (1x3090) -------------------------------------------------------------- Ollama models on Mac 70b * 4bit = 28GB, file 39GB, RES mem 45   GB (fails on 32GB Mac) 34b * 4bit = 17GB, file 19GB,   RES mem 19.4 GB 13b * 4bit =  7GB, file  7.3GB, RES mem  9.7 GB 7b * 4bit =  4GB, file  3.9GB, RES mem  5.6 GB 3b * 4bit =  2GB, file  1.9GB, RES mem  3.3 GB https://news.ycombinator.com/item?id=37067933 ExLlama - Python/C++/CUDA - Llama for use with 4-bit GPTQ weights Results: llama-33b in 21-22 GB VRAM llama-70b in 37-41 GB VRAM https://github.com/turboderp/exllama The tinybox - $15K -  George Hotz Runs 65B FP16 LLaMA out of the box 1600W (one 120V outlet) 738 FP16 TFLOPS (using six AMD 7900 XTXs) ? 144 GB VRAM (six AMD 7900 XTX 24GB) CPU - AMD EPYC https://tinygrad.org https://www.youtube.com/watch?v=GKRu3Txc0sk People can buy Apple Mac Studio foronly $5.4K (with 192 GB memory, M2 chip with 24‑core CPU, 60‑core GPU, 32‑core Neural Engine) - but it delivers only ~21 TFLOPS of compute, which is much less than 738 TFLOPS of the tinybox. Solution 2: MacBook Pro 14\" or 16\"  with 64GB memory. You can find good deals for $2.3K - $2.5K (32G for $1.7K ) Rust code to run Llama2: https://github.com/srush/llama2.rs NVLink Solution 3: Build your own desktop with two identical Nvidia RTX-3090. Buy RTX NVLink bridge connector at Best Buy for $80. You will need 1.6KW power and good (liquid?) cooling. $3K https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/ Solution 1: Buy a desktop with Nvidia RTX 3090. For example: https://www.ebay.com/itm/125970706114 - eBay Refurbished Gaming PC - Alienware with Ryzen 9 5950X 4.9GHz, 128GB RAM, 1TB SSD, Nvidia RTX 3090 24GB  - $1,670"
+    },
+    {
+      "index": 6,
+      "title": "How do open source LLMs compare to GPT-4?",
+      "text": "How do open source LLMs compare to GPT-4? https://ai.stackexchange.com/questions/41214/how-do-open-source-llms-compare-to-gpt-4 Huggingface - 4 key benchmarks from the Eleuther AI Language Model Evaluation Harness: ARC = AI2 Reasoning Challenge (25-shot) - a set of grade-school science questions. HellaSwag (10-shot) - a test of common sense inference, which is easy for humans (~95%) but challenging for SOTA models. MMLU (5-shot) - a test to measure a text model’s multitask accuracy. The test covers 57 tasks including elementary mathematics, US history, computer science, law, and more. TruthfulQA (0-shot) - a test to measure a model’s propensity to reproduce falsehoods commonly found online. ARC reasoning HellaSwag common sense MMLU (math, history, etc) TruthfulQA truthful ? GPT-4 96.3 95.3 86.4 59 GPT-3.5 85.2 85.5 70 47 Top 70b 72.1 87.4 69.91 65.81 Top 4bit (13b) 57.68 81.05 51.82 45.69"
+    },
+    {
+      "index": 7,
+      "title": "Training Requires More Hardware than Inference Training is",
+      "text": "Training Requires More Hardware than Inference Training is more demanding than inference. GPU Memory - you need enough to fit the model - plus some more. GPU Compute - training is much more computationally intensive than inference. System Memory - you need to hold the training data in memory. Storage - full dataset, checkpoints, logs - need fast storage (SSD or NVMe) Software - PyTorch, TensorFlow, distributed training across multiple GPUs, data pipeline"
+    },
+    {
+      "index": 8,
+      "title": "Best GPU for AI https://lambdalabs.com/gpu-benchmarks tiny box /",
+      "text": "Best GPU for AI https://lambdalabs.com/gpu-benchmarks tiny box / tinygrad uses six AMD 7900 XTX 24GB 144GB = 24*6 The AMD Radeon RX 7900 XTX and NVIDIA GeForce RTX 4090 are both flagship graphics cards. The RTX 4090 is faster, but it is also 60% more expensive. The RX 7900 XTX is better when it comes to price per FPS."
+    },
+    {
+      "index": 9,
+      "title": "Prompt Engineering What I Learned Pushing Prompt Engineering",
+      "text": "Prompt Engineering What I Learned Pushing Prompt Engineering to the Limit - by Jacob Marks, Ph.D. https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f General Lessons Science? Engineering? Black Magic? Which Model(s) to Use? Where to Use LLMs? LLMs Are Biased Painful Post-Processing Is Inevitable (regex, remove hallucinations) Prompting Techniques The More the Merrier Examples > Documentation Modularity >> Monolith ( ask LLM to do one task at a time ) Examples How Many Do I Need? Synthetic Examples Tooling LangChain Vector Databases TikToken Jacob Marks, Ph.D. https://www.linkedin.com/in/jacob-marks/ ARC  HellaSwag  MMLU  TruthfulQA GPT-4     96.3    95.3     86.4    59 Top 4bit  57.68   81.05    51.82   45.69"
+    },
+    {
+      "index": 10,
+      "title": "George Hotz interviewed by Lex Fridman https://www.youtube.com/watch?v=dNrTrx42DGQ -",
+      "text": "George Hotz interviewed by Lex Fridman https://www.youtube.com/watch?v=dNrTrx42DGQ - 3+ hour interview, June 2023 Interview covers lots of topics - his views on time, memes, virtual reality, AI friends, self-driving cars, programming, AI safety, working at Twitter, prompt engineering, video games, Andrej Karpathy, and the meaning of life. time is an illusion, we are all living in a simulation. Potential dangers of memes (spreading misinformation) optimistic about the potential of virtual reality to improve our lives (but risk of addiction) AI friends could be a valuable for companionship and support, but could be misused for malicious purposes supports self-driving cars, they can save lives talented programmer, understands AI, advocates open source as essential for the safety of AI systems concerned about the potential threat of AI, mitigate by developing AI systems that are aligned with human values worked at Twitter - and left after disagreeing with the company's management interested in the prompt engineering - generating creative content, writing code, and translating languages enjoys playing video games, believes they can be a valuable tool for learning and problem-solving worked with Andrej Karpathy, the former head of AI at Tesla, impressed by him still searching for the meaning of life, believes that each individual must discover it for themselves George Hotz - American computer programmer and entrepreneur known for his work on jailbreaking the iPhone and PlayStation 3 founder of comma.ai - self-driving car company (2014) left comma.ai in Oct 2022, founded \" tiny corp \" to develop \" tinygrad \" framework for ML & AI, and tinybox computer to run LLMs ( https://tinygrad.org ) George Hotz"
+    },
+    {
+      "index": 11,
+      "title": "contextual.ai contextual.ai - startup raised $20M in June",
+      "text": "contextual.ai contextual.ai - startup raised $20M in June 2023 https://contextual.ai building foundation models to run on your stack customizable, trustworthy, privacy-aware AI secure by default Solving these enterprise challenges: Hallucination: LLMs are known to make up information Attribution: why LLMs say what they say, Compliance: risk of retaining info inside LLM Customization: LLMs should work with new data Data privacy: no need to send private data outside “this journey is only 1% finished” Founders: Amanpreet Singh (CTO), Douwe Kiela (CEO) Microsoft Research, Meta/Facebook AI Research, Hugging Face, Cambridge, NYU, Stanford worked in foundation models (RAG, FLAVA, UniT, Bloom), dense retrieval (Hallucination reduction, MDR, Unsupervised QA), evaluation (SentEval, GLUE, SuperGLUE, Dynabench, Eval on the Hub), multimodality (Hateful Memes, Winoground, TextVQA, MMF) and representation learning (InferSent, GroundSent, Poincare embeddings)."
+    },
+    {
+      "index": 12,
+      "title": "Running LLaMa on Mac Silicone Running LLaMa on",
+      "text": "Running LLaMa on Mac Silicone Running LLaMa on Mac Silicone - https://www.youtube.com/watch?v=TsVZJbnnaSs Run Code Llama on a Mac with an M1 Chip https://www.youtube.com/watch?v=a1JlzUzHL-I Linus Tech Tips - Apple fans, start typing your angry comments now… M2 Ultra Mac Studio Review - https://www.youtube.com/watch?v=buLyy7x2dcQ&t=10s"
+    },
+    {
+      "index": 13,
+      "title": "\"How is LLaMa.cpp possible?\" Andrej Karpathy @karpathy \"How",
+      "text": "\"How is LLaMa.cpp possible?\" Andrej Karpathy @karpathy \"How is LLaMa.cpp possible?\" - https://twitter.com/karpathy/status/1691571869051445433 great post https://finbarr.ca/how-is-llama-cpp-possible/ llama.cpp surprised many people with how quickly you can run large LLMs on small computers, e.g. 7B runs @ ~16 tok/s on a MacBook Pro M2 (Apple silicone). On Apple Silicone chip the CPU, GPU, and unified memory are located on the same chip. Memory bandwidth depends on the Mac model: M2 - 100GB/s, M2 Pro - 200 GB/S, M2 Max - 400 GB/S, M2 Ultra - 800GB/S As you running just one query at a time, the batch_size=1, and the compute units are mostly waiting for data to go from memory. The memory bandwidth is the limiting factor. Memory Bandwidth      Ops/sec A100:       1935 GB/s           1248 TOPS MacBook M2:  100 GB/s              7 TFLOPS The compute is ~200x but the memory bandwidth only ~20x. So M2 chip is only ~20X slower than a mighty A100. The situation becomes a lot more different when you inference at a very high batch size (e.g. ~160+), such as when you're hosting an LLM engine simultaneously serving a lot of parallel requests. Or in training, where you aren't forced to go serially token by token and can parallelize across both batch and time dimension"
+    },
+    {
+      "index": 14,
+      "title": "Building Reliable Systems & Smart Systems Reliable -",
+      "text": "Building Reliable Systems & Smart Systems Reliable - use redundancy, several elements in parallel - and average the outputs Smart - using chains and trees How to make a reliable system from a bunch of unreliable blocks? How to make a smart model out of a bunch of stupid models"
+    },
+    {
+      "index": 15,
+      "title": "Idea: make a reliable system from unreliable blocks",
+      "text": "Idea: make a reliable system from unreliable blocks using single-shot democratic voting Computer 1 Computer 2 Computer 3 Data Majority voting system Idea: get to correct answer by making multiple corrective steps 1 st approximation correction correction correction ... Bagging Boosting Weighted voting system Power of the majority committee, senate, congress, council, board of directors, ... Power of validation science, open source community, ... Wrong bias is not removed, it is simply averaged Wrong bias is removed using correction and validation"
+    },
+    {
+      "index": 16,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates September 8, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates September 8, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Status Page Apple spends millions of $ per",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 3,
+      "slideTitle": "Status Page Apple spends millions of $ per",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 4-8, 2023 -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 4,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 4-8, 2023 -",
+      "source": "slide"
+    },
+    {
+      "claim": "Run LLaMa 4bit - Memory ? Price ?",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 5,
+      "slideTitle": "Run LLaMa 4bit - Memory ? Price ?",
+      "source": "slide"
+    },
+    {
+      "claim": "How do open source LLMs compare to GPT-4?",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 6,
+      "slideTitle": "How do open source LLMs compare to GPT-4?",
+      "source": "slide"
+    },
+    {
+      "claim": "Training Requires More Hardware than Inference Training is",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 7,
+      "slideTitle": "Training Requires More Hardware than Inference Training is",
+      "source": "slide"
+    },
+    {
+      "claim": "Best GPU for AI https://lambdalabs.com/gpu-benchmarks tiny box /",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 8,
+      "slideTitle": "Best GPU for AI https://lambdalabs.com/gpu-benchmarks tiny box /",
+      "source": "slide"
+    },
+    {
+      "claim": "Prompt Engineering What I Learned Pushing Prompt Engineering",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 9,
+      "slideTitle": "Prompt Engineering What I Learned Pushing Prompt Engineering",
+      "source": "slide"
+    },
+    {
+      "claim": "George Hotz interviewed by Lex Fridman https://www.youtube.com/watch?v=dNrTrx42DGQ -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 10,
+      "slideTitle": "George Hotz interviewed by Lex Fridman https://www.youtube.com/watch?v=dNrTrx42DGQ -",
+      "source": "slide"
+    },
+    {
+      "claim": "contextual.ai contextual.ai - startup raised $20M in June",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 11,
+      "slideTitle": "contextual.ai contextual.ai - startup raised $20M in June",
+      "source": "slide"
+    },
+    {
+      "claim": "Running LLaMa on Mac Silicone Running LLaMa on",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OxCVBQftbho",
+      "slideIndex": 12,
+      "slideTitle": "Running LLaMa on Mac Silicone Running LLaMa on",
+      "source": "slide"
+    }
+  ]
+}

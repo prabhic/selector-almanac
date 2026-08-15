@@ -1,0 +1,277 @@
+{
+  "id": "2025-01-17-2025-01-17-ai-updates",
+  "date": "2025-01-17",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "BHd3epu6Fts",
+    "title": "Have you heard these exciting AI news? - January 17, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=BHd3epu6Fts",
+    "thumbnail": "https://i.ytimg.com/vi/BHd3epu6Fts/hqdefault.jpg",
+    "duration": 1324
+  },
+  "deck": {
+    "path": "2025/2025-01-17-AI-Updates.pptx",
+    "filename": "2025-01-17-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-01-17-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-01-17-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Minimax",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "SkyT32B",
+      "startSeconds": 93,
+      "label": "01:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Llama V1",
+      "startSeconds": 291,
+      "label": "04:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Meagen AI",
+      "startSeconds": 472,
+      "label": "07:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Reader LM V2",
+      "startSeconds": 630,
+      "label": "10:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Learning to Memorize",
+      "startSeconds": 767,
+      "label": "12:47",
+      "source": "youtube"
+    },
+    {
+      "title": "AI for Education",
+      "startSeconds": 875,
+      "label": "14:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Super Computer",
+      "startSeconds": 1168,
+      "label": "19:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing AI Leaderboard",
+      "startSeconds": 1215,
+      "label": "20:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs in Demand",
+      "startSeconds": 1307,
+      "label": "21:47",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "MiniMax-01 - 4M tokens Context Length Sky-T1-32B-Preview 32b",
+      "text": "MiniMax-01 - 4M tokens Context Length Sky-T1-32B-Preview 32b - trained for $450 Fireship Code Report AI Agents with Memory (Mervin Praison) AI agents as primary application users Mistral Codestral 25.01 22b Coding Model LlamaV-o1 - Visual Reasoning LLMs - numbers of parameters ChatGPT Tasks - schedule tasks or reminders AGI ROBOTS Metagene.ai - Detect Bio Threats Microsoft \"Core AI Platform and Tools\" Sony Economical Text-to-Image Model OpenAI's Economic Blueprint OpenAI Re-enters Robotics Development AI Updates January 17 , 2024 ReaderLM-v2 - HTML to markdown or JSON Andrew Ng - PMs to write software Sakana.ai Transformer Squared MatterGen - Generate Inorganic Materials Google Titans - Memorize at Test Time NDEA (François Chollet & Mike Knoop) Luma AI Ray 2 Video Generation AI for Education - Great Results 2025 - Year of Agents Google Workspace now includes AI features Step-2 LLM from StepFun El Capitan supercomputer Crowd-sourced \"Arena\" Leaderboard Jobs 2025 - year of AI Agents"
+    },
+    {
+      "index": 2,
+      "title": "MiniMax-01 - 4M tokens Context Length MiniMax-01 -",
+      "text": "MiniMax-01 - 4M tokens Context Length MiniMax-01 - open source, 4M Context https://arxiv.org/abs/2501.08313 https://github.com/MiniMax-AI https://huggingface.co/MiniMaxAI/MiniMax-Text-01 https://www.minimaxi.com/en/news/minimax-01-series-2 https://www.hailuo.ai - try the chat 456B parameters, Mixture of Experts (MoE), 32 experts, 45.9B activated for each token Context length 4M tokens during inference Open Source, can download or use via API API Pricing (in/out per 1m) : $0.2 / $1.1 Matches the performance of GPT-4o and Claude-3.5-Sonnet while x32 longer context MiniMax-VL-01  - vision model MiniMax is located in Shanghai, China"
+    },
+    {
+      "index": 3,
+      "title": "AI Updates - 1 AI agents may soon",
+      "text": "AI Updates - 1 AI agents may soon surpass people as primary application users https://www.zdnet.com/article/ai-agents-may-soon-surpass-people-as-primary-application-users/ - by Joe McKendrick AI Agents with Memory (Mervin Praison) https://www.youtube.com/watch?v=1hVfVxvPnnQ https://github.com/MervinPraison/PraisonAI/ https://docs.praison.ai/concepts/memory https://mer.vin/2025/01/ai-agents-with-memory/ The amazing, but unsettling future of technology ... (Fireship - the code report) - https://www.youtube.com/watch?v=v4H2fTgHGuc The rise of AI, reasoning models like Open AI o3 AI agents - LLMs which can access and analyze data - and take action. Rise of robots (Tesla's Optimus and Nvidia's army of robots, ...). Tech job market Growing demand for programmers who can use AI Brain chips - first installed in real humans in 2024 Apple Vision Pro Quantum computing, Willow chip Use of Rust in the military Slowdown in the development of new JavaScript Frameworks Cryptocurrencies - Bitcoin is at $100,000 Growing anti-Cloud movement among many businesses Sky-T1-32B-Preview - an open source reasoning model from UC BERKELEY (team NovaSky) The model matches or exceeds an earlier version of OpenAI's o1 on several benchmarks, particularly excelling in math and coding challenges competes with earlier versions of OpenAI’s o1 Sky-T1 is a fine-tuned version of Alibaba’s Qwen2.5-32-Instruct, with training data generated using the open-source reasoning model QwQ-32B-Preview. Training took just 19 hours on 8 H100 GPUs, total cost was around $450 Mistral Codestral 25.01 .. https://docs.mistral.ai/capabilities/code_generation/ .. https://mistral.ai/news/codestral-2501/ - latest .. https://ollama.com/library/codestral SOTA coding model, 80+ languages, 256K context length, fast response, 22b params (also Codestral Mamba 7.3b)"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates - 2 LlamaV-o1 - Visual Reasoning",
+      "text": "AI Updates - 2 LlamaV-o1 - Visual Reasoning https://github.com/mbzuai-oryx/LlamaV-o1 https://arxiv.org/abs/2501.06186 Mohamed bin Zayed University of Artificial Intelligence, UAE LlamaV-o1 uses step-by-step reasoning for general visual question answering, mathematical and scientific reasoning, handling language hallucinations and visual illusions It is fine-tuned from  Llama-3.2-11B-Vision-Instruct LLMs - numbers of parameters (estimates): GPT-2 - 1.5b GPT-3 - 175b GPT-4 - 1,760b GPT-4o - 200b+ OpenAI o1-mini    - 100b OpenAI o1-preview - 300b Gemini 1.5 Pro - over 200b+ Claude 3.5 Sonnet - 180b Llama3 - 405b Qwen1.5-110B Qwen2-72B Minimax-01 - 456b DeepSeek V3 - 671B ChatGPT Tasks - schedule reminders and actions. Tell ChatGPT what you want and when. Simply type in your request, like \"Remind me to buy groceries tomorrow at 10 AM\" or \"Give me a daily weather report every morning at 7 AM.\" ChatGPT will interpret your request and create a task accordingly. You can view and manage your tasks in a dedicated section in the profile menu. ChatGPT will send you push notifications via its website or app when a task is due. Humanoid Robot EngineAI's SE01 Walked Outside https://www.youtube.com/watch?v=ZGtoXQw3Lo4 https://www.threads.net/@mr.sojib13/post/DEqq0XTtBTr NVIDIA CEO's Shocking Prediction: \"AGI ROBOTS\" https://www.youtube.com/watch?v=UeXOOYYAiis"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates - 3 Metagene.ai - Detect Bio",
+      "text": "AI Updates - 3 Metagene.ai - Detect Bio Threats https://metagene.ai https://www.youtube.com/watch?v=wAJ7WIszJrg AI can be used for Bioweapon Development. A company \"Prime Intellect\" has developed an AI system Metagene-1 designed to detect and monitor biological threats in wastewater samples (identify emerging pathogens and anomalies in genetic data). Microsoft formed a new “Core AI Platform and Tools” division , (developer and AI teams) Microsoft open-sourced its Phi-4  14b LLM on Hugging Face under the MIT license OpenAI released their economic blueprint (policy proposals) https://openai.com/global-affairs/openais-economic-blueprint/ The blueprint emphasizes the importance of the US winning the race against China in AI development. It highlights the need for the U.S. to attract global funds that are waiting to be invested in AI projects. The blueprint suggests that AI companies should work closely with the government, particularly on matters of national security, to streamline regulations and ensure that AI is developed safely and responsibly. It also stresses the importance of investing in AI infrastructure, including energy and chips, to support the growing industry. OpenAI Re-enters Robotics Development A former Meta employee is leading the project. The company is hiring engineers to build these robots, which will be designed to work in various real-world situations. OpenAI had a robotics team before, but it closed in 2020. This new effort suggests they believe controlling both the physical and digital sides of AI is key to achieving their goals. https://openai.com/index/learning-dexterity/ - hand https://openai.com/index/solving-rubiks-cube/ - solving rubik's cube https://x.com/kalinowski007/status/1877809579154948223 - jobs https://openai.com/careers/mechanical-product-engineer-robotics/ - jobs Sony Research economical text-to-image model 1.16b parameters, budget less than $2K (x100 cost reduction) https://arxiv.org/abs/2407.15811 https://github.com/SonyResearch/micro_diffusion/tree/main"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates - 4 ReaderLM-v2 - HTML to",
+      "text": "AI Updates - 4 ReaderLM-v2 - HTML to markdown or JSON a 1.5B parameter language model converts raw HTML into markdown or JSON HTML parsing, transformation, and text extraction. accurate, long content (512K tokens in+out) supports 29 languages https://huggingface.co/jinaai/ReaderLM-v2 Andrew Ng - writing software - what to build vs how to build Writing software, especially prototypes, is becoming cheaper. This will lead to increased demand for people who can decide what to build. AI Product Management has a bright future! The demand for good AI Product Managers will be huge. https://x.com/AndrewYNg/status/1879939058211971420 MatterGen - generate inorganic materials across the periodic table, stable, fine-tuned to fit property constraints. https://www.microsoft.com/en-us/research/publication/mattergen-a-generative-model-for-inorganic-materials-design/ https://www.youtube.com/watch?v=yWXPV3bsC2c Sakana.AI is a new AI research company based in Tokyo, Japan. They were founded in 2023. Their main focus is on developing new kinds of foundation models based on nature-inspired intelligence. They are known for project \" AI Scientist \" New paper: Transformer 2 :Self-adaptive LLMs https://sakana.ai/transformer-squared/ - https://arxiv.org/abs/2501.06252 - a novel self-adaptation framework that adapts LLMs for unseen tasks in real-time"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates 5 Titans: Learning to Memorize at",
+      "text": "AI Updates 5 Titans: Learning to Memorize at Test Time new research from Google https://arxiv.org/pdf/2501.00663v1 - paper https://www.youtube.com/watch?v=x8jFFhCLDJY - video idea - improve attention mechanism in Transformers by giving models a more human-like memory Current Transformer models have limited context windows due to quadratic cost, hindering their performance with longer sequences. Titans Solution: Inspired by the human brain, Titans introduces multiple memory modules (short-term, long-term, meta-memory) that work together, enabling the model to learn and memorize information at test time (inference time). Surprise Mechanism:  A core innovation is the \"surprise mechanism,\" where the model prioritizes memorizing events that violate its expectations, similar to how humans remember unusual or surprising occurrences. Forgetting Mechanism: To manage memory and avoid over-memorization, Titans incorporates an adaptive forgetting mechanism that discards less important information over time. Memory Incorporation: The paper explores three ways to incorporate memory into the model: as a context (Mac), as a gate (Mac Mag), and as a layer, each with its own trade-offs. Performance: Titans outperforms current Transformer models, especially with long context windows (\"needle in a haystack\" test) NDEA - new research lab founders - François Chollet & Mike Knoop https://ndea.com Ndea is building frontier AI systems that blend intuitive pattern recognition and formal reasoning into a unified architecture. Ndea's core strategy is to create AI that can learn and adapt with human-level efficiency. Ndea plans to build what they call a \"factory for rapid scientific advancement,\" focusing on both known frontiers like drug discovery and unexplored territories. Chollet also recently launched the ARC Prize Foundation, a nonprofit that is developing benchmarks to evaluate human-level AI capabilities."
+    },
+    {
+      "index": 8,
+      "title": "AI Updates 6 Luma AI Ray2 - video",
+      "text": "AI Updates 6 Luma AI Ray2 - video generative model Ray2 creates realistic videos with natural and coherent motion http://lumalabs.ai/ray https://x.com/LumaLabsAI/status/1879592852151558258 AI for Education - Great Results https://blogs.worldbank.org/en/education/From-chalkboards-to-chatbots-Transforming-learning-in-Nigeria A new study in Nigeria: students using AI as an after-school tutor made learning gains equivalent to two years of traditional education in just six weeks ! 2025 is shaping up to be a pivotal year for AI agents AI models have advanced significantly (better NLP, Enhanced Reasoning and Decision-Making, Greater Personalization, better Integration with Existing Systems) The tools and platforms for developing and deploying AI agents are becoming more user-friendly and accessible to businesses Businesses are increasingly looking for ways to automate processes, improve efficiency, and reduce costs. The focus is shifting from experimental AI agent projects to real-world deployments that solve specific business problems and deliver tangible value. Step-2 LLM from StepFun - https://www.stepfun.com StepFun is a Chinese AI startup based in Shanghai. Developing LLMs and other AI models Step-2 - A trillion-parameter Mixture of Experts (MoE) language model that ranked 5th on Livebench, a global AI model benchmarking platform. This is notable as the first trillion-parameter MoE model from a Chinese company and a top performer in China. Step-1.5V: A powerful multimodal large model. Step-1V: An innovative image generation model. https://platform.stepfun.com Google Workspace now includes AI features inside Gmail, Docs, Sheets, Meet, and the rest of the Workspace suite. The monthly price increased by ~ $2 (for example from $12 to $14 per user) https://www.theverge.com/2025/1/15/24343794/google-workspace-ai-features-free"
+    },
+    {
+      "index": 9,
+      "title": "El Capitan supercomputer Hewlett Packard Enterprise El Capitan",
+      "text": "El Capitan supercomputer Hewlett Packard Enterprise El Capitan Supercomputer Sponsored by \tU.S. Department of Energy https://en.wikipedia.org/wiki/El_Capitan_(supercomputer) an exascale supercomputer, hosted at the Lawrence Livermore National Laboratory in Livermore, United States and becoming operational in 2024. It is based on the Cray EX Shasta architecture . Uses a combined 11,039,616 CPU and GPU cores consisting of 43,808 AMD 4th Gen EPYC 24C \"Genoa\" 24 core 1.8 GHz CPUs (1,051,392 cores) and 43,808 AMD Instinct MI300A GPUs (9,988,224 cores). The MI300A consists of 24 Zen4 based CPU cores and a CDNA3 based GPU integrated onto a single organic package, along with 128GB of HBM3 memory. Blades are interconnected by an HPE Slingshot 64-port switch that provides 12.8 terabits/second of bandwidth. Groups of blades are linked in a dragonfly topology with at most three hops between any two nodes. Cabling is either optical or copper, customized to minimize cable length. Total cabling runs 145 km (90 mi). El Capitan uses an APU architecture, where the CPU and GPU share an internal on-chip coherent interconnect. El Capitan takes up 7,500 square feet of floor space, similar to two tennis courts. It is made up of at least 87 compute racks, including the \"Rabbit\" NVM-Express fast storage arrays and compute nodes. El Capitan has a total of 11,136 nodes in liquid-cooled Cray EX racks, with four MI300A compute engines per node and a total of 44,544 devices across the system. Each device has 128 GB of HBM3 main memory shared across the CPU and GPU chiplets, which runs at 5.2 GHz and delivers an aggregate 5.3 TB/sec of aggregate bandwidth into and out of the CPU and GPU chiplets."
+    },
+    {
+      "index": 10,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 192. Total #votes: 2,541,965. Last updated: 2025-01-15 Coding x.ai China China China China China China China China China China"
+    },
+    {
+      "index": 11,
+      "title": "AI Jobs - in demand and pay well",
+      "text": "AI Jobs - in demand and pay well https://trueup.io/job-trend https://www.coursera.org/articles/artificial-intelligence-salary"
+    },
+    {
+      "index": 12,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 13,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Minimax",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "MiniMax-01 - 4M tokens Context Length Sky-T1-32B-Preview 32b",
+      "source": "youtube"
+    },
+    {
+      "claim": "SkyT32B",
+      "topic": "general",
+      "videoSeconds": 93,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=93s",
+      "slideIndex": 2,
+      "slideTitle": "MiniMax-01 - 4M tokens Context Length MiniMax-01 -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Llama V1",
+      "topic": "open-models",
+      "videoSeconds": 291,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=291s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates - 2 LlamaV-o1 - Visual Reasoning",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meagen AI",
+      "topic": "general",
+      "videoSeconds": 472,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=472s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates - 3 Metagene.ai - Detect Bio",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reader LM V2",
+      "topic": "general",
+      "videoSeconds": 630,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=630s",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates - 4 ReaderLM-v2 - HTML to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Learning to Memorize",
+      "topic": "general",
+      "videoSeconds": 767,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=767s",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates 6 Luma AI Ray2 - video",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI for Education",
+      "topic": "general",
+      "videoSeconds": 875,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=875s",
+      "slideIndex": 9,
+      "slideTitle": "El Capitan supercomputer Hewlett Packard Enterprise El Capitan",
+      "source": "youtube"
+    },
+    {
+      "claim": "Super Computer",
+      "topic": "general",
+      "videoSeconds": 1168,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=1168s",
+      "slideIndex": 10,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing AI Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1215,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=1215s",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs in Demand",
+      "topic": "jobs",
+      "videoSeconds": 1307,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts&t=1307s",
+      "slideIndex": 13,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Updates - 1 AI agents may soon",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts",
+      "slideIndex": 3,
+      "slideTitle": "AI Updates - 1 AI agents may soon",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 5 Titans: Learning to Memorize at",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates 5 Titans: Learning to Memorize at",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Jobs - in demand and pay well",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=BHd3epu6Fts",
+      "slideIndex": 11,
+      "slideTitle": "AI Jobs - in demand and pay well",
+      "source": "slide"
+    }
+  ]
+}

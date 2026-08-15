@@ -1,0 +1,53 @@
+{
+  "id": "2024-05-13-2024-05-13-llama3-testing",
+  "date": "2024-05-13",
+  "title": "Llama3-testing",
+  "series": "seminar",
+  "topics": [
+    "infra"
+  ],
+  "video": {
+    "id": "sjrtj05NJMc",
+    "title": "Llama3 speed test on Dual Nvidia 3090",
+    "url": "https://www.youtube.com/watch?v=sjrtj05NJMc",
+    "thumbnail": "https://i.ytimg.com/vi/sjrtj05NJMc/hqdefault.jpg",
+    "duration": 236
+  },
+  "deck": {
+    "path": "2024/2024-05-13-Llama3-testing.pptx",
+    "filename": "2024-05-13-Llama3-testing.pptx",
+    "title": "Llama3-testing",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-05-13-Llama3-testing.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-05-13-Llama3-testing.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "We have tested llama3 (70b and 8b) on a desktop with two Nvidia RTX 3090 24GB video cards.",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Testing Llama3 on Dual Nvidia 3090 We have",
+      "text": "Testing Llama3 on Dual Nvidia 3090 We have tested llama3 (70b and 8b) on a desktop with two Nvidia RTX 3090 24GB video cards. CPU:  AMD Ryzen™ 9 3900X (12 cores, 24 threads) RAM: 32GB WSL2 (Windows Subsystem for Linux). We used ollama to run llama3  8b and 70b Actual models were: llama3:latest, llama3:70b, lama3:70b-instruct-q4_K_M We also compared with performance on Apple Macbook Pro Max M3 128GB The prompt was: Please make a numbered chronological list of the last ten (10) US presidents in reverse order.  The list should start like this: 1. Joe Biden (2021-present); 2. Donald Trump (2017-2021); 3. Barack Obama (2009-2017);  the list should contain 10 rows. Important - make a fresh list. Disregard the chat history. Ouput only the list itself, nothing else. Output each lsit element on a separate line. Results below show total duration of the response (in seconds) and output speed (in tokens/s) We compare the Linux (Windows WSL) with latest MacBook Pro Max M3 128GB Models           Linux         Mac 70b            9.7 s        16.5 s 14 t/s       8.6 t/s 8b            2.7 s        2.5 s 56 t/s       57 t/s"
+    }
+  ],
+  "points": [
+    {
+      "claim": "We have tested llama3 (70b and 8b) on a desktop with two Nvidia RTX 3090 24GB video cards.",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=sjrtj05NJMc",
+      "slideIndex": 1,
+      "slideTitle": "Testing Llama3 on Dual Nvidia 3090 We have",
+      "source": "outline"
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "2024-03-01-2024-03-01-ai-updates",
+  "date": "2024-03-01",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "agents",
+    "infra",
+    "rag",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "XYHR5XPFa_c",
+    "title": "Have you heard these exciting AI news? - March 01, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=XYHR5XPFa_c",
+    "thumbnail": "https://i.ytimg.com/vi/XYHR5XPFa_c/hqdefault.jpg",
+    "duration": 1284
+  },
+  "deck": {
+    "path": "2024/2024-03-01-AI-Updates.pptx",
+    "filename": "2024-03-01-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-03-01-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-03-01-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Mistral Large",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Foundation Agent",
+      "startSeconds": 80,
+      "label": "01:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Clara",
+      "startSeconds": 170,
+      "label": "02:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI",
+      "startSeconds": 340,
+      "label": "05:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Gorilla",
+      "startSeconds": 518,
+      "label": "08:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Vector Database",
+      "startSeconds": 557,
+      "label": "09:17",
+      "source": "youtube"
+    },
+    {
+      "title": "When AI Robots Will Do Everything",
+      "startSeconds": 648,
+      "label": "10:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Carl Marx",
+      "startSeconds": 712,
+      "label": "11:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Ray Cwell",
+      "startSeconds": 785,
+      "label": "13:05",
+      "source": "youtube"
+    },
+    {
+      "title": "How to make a simple chatbot",
+      "startSeconds": 852,
+      "label": "14:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Streamlit",
+      "startSeconds": 901,
+      "label": "15:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Chainlit",
+      "startSeconds": 941,
+      "label": "15:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Alama",
+      "startSeconds": 1031,
+      "label": "17:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource Arena",
+      "startSeconds": 1249,
+      "label": "20:49",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Mistral Large Robotics NVIDIA Foundation Agent Klarna AI",
+      "text": "Mistral Large Robotics NVIDIA Foundation Agent Klarna AI assistant replaced 700 jobs invideo.io - text-to-video Andrej Karpathy - Tokenizers Alibaba EMO - live portraits Microsoft: models 1.58 bits (-1,0,1) OpenAI sued and investigated again Sensei - synthetic data creation OpenCodeInterpreter MS AI Copilot for Finance Google DeepMind's Genie - games Google Content Rewriting Tool Glean - RAG work assistant Gorilla: LLM + APIs, Leaderboard qdrant - Vector DB for RAG When AI Robots Will Do Everything Post-Scarcity Economics Exponential Growth - Ray Kurzweil Multiple Ways to Create AI Chatbots (Flask, Streamlit , Chainlit , Ollama , ...) Crowd-sourced \"Arena\" Leaderboard Layoffs.fyi AI Updates March 01, 2024"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Mistral Large Mistral Large model - https://mistral.ai/news/mistral-large/ Really",
+      "text": "Mistral Large Mistral Large model - https://mistral.ai/news/mistral-large/ Really close to GPT-4, good at reasoning, multilingual. good at following instructions Mistral models also available from Microsoft open-mistral-7B open-mixtral-8x7b. mistral-small-2402 mistral-medium mistral-large-2402 MMLU"
+    },
+    {
+      "index": 4,
+      "title": "Robotics Figure.ai just raised $675 Mln at a",
+      "text": "Robotics Figure.ai just raised $675 Mln at a $2.6 Bln valuation: https://www.figure.ai - https://www.youtube.com/watch?v=sSKxxVtAANQ 1x: https://www.1x.tech Tesla: https://www.tesla.com/AI Fourier Intelligence: https://www.youtube.com/@FourierIntelligence-Robotics Eureka: Human-Level Reward Design via Coding LLMs (Nvidia, UPenn, Caltech, UT Austin) https://eureka-research.github.io https://arxiv.org/abs/2310.12931 https://eureka-research.github.io/assets/eureka_paper.pdf https://github.com/eureka-research/Eureka figure.ai 1x Tesla Fourier Intelligence"
+    },
+    {
+      "index": 5,
+      "title": "NVIDIA Foundation Agent NVIDIA’s Foundation Agent Dr. Jim",
+      "text": "NVIDIA Foundation Agent NVIDIA’s Foundation Agent Dr. Jim Fan ISAC Sim, a simulation platform that accelerates physical training a thousandfold https://medium.com/@gerardo.pdm/beyond-imagination-nvidias-foundation-agent-transforming-ai-and-reality-38c827b83096 The Voyager project in Minecraft demonstrated the agent’s capacity for continuous learning and self-improvement. Engaging in a game with over 140 million active players, text-to-action Dr. Jim Fan https://jimfan.me https://www.linkedin.com/in/drjimfan/ https://twitter.com/DrJimFan"
+    },
+    {
+      "index": 6,
+      "title": "Misc - 1 Andrej Karpathy - Tokenizers https://twitter.com/karpathy/status/1759996551378940395",
+      "text": "Misc - 1 Andrej Karpathy - Tokenizers https://twitter.com/karpathy/status/1759996551378940395 https://www.youtube.com/watch?v=zduSFxRajkE https://twitter.com/karpathy/status/1760350892317098371 Klarna AI assistant : https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/ Klarna is a Swedish financial services company. The AI assistant using OpenAI has had 2.3 million conversations in 1 month, two-thirds of Klarna’s customer service chats It is doing the equivalent work of 700 full-time agents It is on par with human agents in regard to customer satisfaction score It is more accurate in errand resolution, leading to a 25% drop in repeat inquiries Customers now resolve their errands in less than 2 mins compared to 11 mins previously It’s available in 23 markets, 24/7 and communicates in more than 35 languages It’s estimated to drive a $40 million USD in profit improvement to Klarna in 2024 Alibaba EMO brings portraits to life : EMO: Emote Portrait Alive - Generating Expressive Portrait Videos with Audio2Video Diffusion Model https://arxiv.org/pdf/2402.17485.pdf https://www.youtube.com/watch?v=f_d-8BGIzPI - video OpenAI is sued again - now by news outlets The Intercept, Raw Story, and AlterNet for scraping their news websites and using the content to train models. The Securities and Exchange Commission (SEC) is conducting an investigation into OpenAI https://invideo.io - Create videos with text prompts Realistic, using your voice; ($0/month; $20/month) Meta Llama-3 release is planned for July Microsoft: models 1.58 bits (-1,0,1) High performance, low cost https://arxiv.org/abs/2402.17764"
+    },
+    {
+      "index": 7,
+      "title": "Misc - 2 Sensei - a simple, powerful,",
+      "text": "Misc - 2 Sensei - a simple, powerful, minimal codebase to generate synthetic data using OpenAI or MistralAI https://github.com/migtissera/Sensei OpenCodeInterpreter - 33B - close to GPT-4 https://opencodeinterpreter.github.io Microsoft introduces Copilot AI chatbot for finance workers in Excel and Outlook - variance analysis, reconcile data, speed up the collections process in Outlook, draw data from SAP and Microsoft Dynamics 365. Microsoft themselves already using it. https://www.cnbc.com/2024/02/29/microsoft-introduces-copilot-ai-chatbot-for-finance-workers.html Apple has shut down their cars program , and moved resources (~2,000 people) to generative AI division. AI outperforms doctors in summarizing health records https://www.news-medical.net/news/20240228/AI-outperforms-doctors-in-summarizing-health-records-study-shows.aspx Google DeepMind's Genie is a foundation world model trained on Internet videos that can generate an endless variety of playable (action-controllable) worlds from synthetic images, photographs, and even sketches. https://sites.google.com/view/genie-2024/home Google Testing AI Tool That Finds & Rewrites Quality Content (plagiarism? diluting online content) https://www.searchenginejournal.com/google-testing-ai-tool-that-finds-rewrites-quality-content/509912/ Use Gemini mobile app to figure out home repairs Make a picture from mobile Gemini app. Describe the problem, ask how to fix it. Gemini may figure out the brands, the model, find documentation and even video instructions. Glean - a startup raised $200 Mln at 2.2 Bln valuation - provides AI-powered work assistant (using RAG) https://www.glean.com"
+    },
+    {
+      "index": 8,
+      "title": "Gorilla: LLM + APIs Berkeley Function-Calling Leaderboard (100",
+      "text": "Gorilla: LLM + APIs Berkeley Function-Calling Leaderboard (100 Java, 50 JavaScript, 70 REST API, 100 SQL and 1,680 Python on various simple, parallel, multiple, executable functions calling scenarios as well as function relevance detection) https://gorilla.cs.berkeley.edu/blogs/8_berkeley_function_calling_leaderboard.html"
+    },
+    {
+      "index": 9,
+      "title": "qdrant - Vector DB for RAG qdrant -",
+      "text": "qdrant - Vector DB for RAG qdrant - vector database for RAG https://qdrant.tech/ open source, github since May 2021 written in Rust - very fast, concurrency, memory safety designed to do similarity search high performance HNSW (Hierarchical Navigable Small World) indexing algorithm Scalability! Hybrid Filtering: combine vector similarity search with precise filtering rules (metadata constraints, ...) Easy to use API Active development community There is no query language. from qdrant_client import QdrantClient from qdrant_client.http import models client = QdrantClient(host=\"localhost\", port=6333) # Assuming recent dates are within 30 days import datetime now = datetime.datetime.now() thirty_days_ago = now - datetime.timedelta(days=30) # Replace with your encoding method here search_vector = some_encoder.encode(\"wireless headphones\") client.search( collection_name=\" products \", vector=search_vector, filter=models.Filter( must=[ models.FieldCondition( key=\" category \", match=models.MatchValue(value=\" electronics \") ), models.FieldCondition( key=\" creation_date \", range=models.Range(gte=thirty_days_ago.isoformat()) ) ] ), top=10, # Retrieve the top 10 most similar results )"
+    },
+    {
+      "index": 10,
+      "title": "When AI Robots Will Do Everything Key Points",
+      "text": "When AI Robots Will Do Everything Key Points Progress beyond computing: Similar exponential improvement curves are happening in areas like DNA sequencing, solar energy, battery storage, and AI development. Massive cost reductions: These advancements will drastically reduce costs in essential sectors, making them accessible to far more people than ever before. A shift in societal focus: As the cost of necessities decreases, society can refocus on goals beyond basic survival such as human connection and creativity. Proposal: A Universal Basic Income (UBI) funded by the wealth generated by new technologies could offer stability and alleviate poverty in the face of potential job displacement. Moore's Law for Everything by Sam Altman · March 16, 2021 https://moores.samaltman.com https://www.youtube.com/watch?v=JEFEJsTxPCc Sam Altman predicts technological advancement (AI, robotics) causing all costs decreasing exponentially over time (like Moore's Law in computing) This will expand in all areas beyond just computing. It will dramatically lower costs in key sectors like healthcare, education, energy, and more. He believes this will lead to unprecedented abundance."
+    },
+    {
+      "index": 11,
+      "title": "Post-Scarcity Economics Karl Marx theorized about the potential",
+      "text": "Post-Scarcity Economics Karl Marx theorized about the potential of automation to displace labor, leading to economic upheaval. John Maynard Keynes predicted \"technological unemployment\" due to machines replacing workers. Robert Heinlein \"Waldo & Magic, Inc.\" - remote manipulators (\"waldoes\") Isaac Asimov: His stories often explore how robots and AI impact jobs and society. Kurt Vonnegut (Player Piano): Novel about automation displacing skilled workers, leading to social unrest. Star Trek: replicator technology can produce most goods on demand. Iain M. Banks' Culture series: A galactic society where AI provides for all needs."
+    },
+    {
+      "index": 12,
+      "title": "Exponential Growth 1939 - 0.00001 = 1e-5 2021",
+      "text": "Exponential Growth 1939 - 0.00001 = 1e-5 2021 - 100 Bln = 1e11 82 years, 16 orders of 10,  53 orders of 2 82/16 =  5.125 years to x10 performance 82/53 =  1.55   years to   x2 performance Ray Kurzweil https://www.youtube.com/watch?v=hLFzBZz5IkY"
+    },
+    {
+      "index": 13,
+      "title": "How To Make a Simple Flask AI Chatbot",
+      "text": "How To Make a Simple Flask AI Chatbot <!DOCTYPE html> <html> <head> <title>Chatbot</title> </head> <body> <h1>Chatbot</h1> <form action=\"/chat\" method=\"POST\"> <input type=\"text\" name=\"user_input\" placeholder=\"Enter your message\"> <button type=\"submit\">Send</button> </form> {% if user_input %} <p>You: {{ user_input }}</p> <p>Chatbot: {{ ai_response }}</p> {% endif %} </body> </html> # pip install flask, openai import os from flask import Flask, render_template, request from openai import OpenAI client = OpenAI(api_key=os.environ.get(\"OPENAI_API_KEY\")) app = Flask(__name__) @app.route(\"/\") def index(): return render_template(\"index.html\") @app.route(\"/chat\", methods=[\"POST\"]) def chat(): user_input = request.form[\"user_input\"] response = client.chat.completions.create( messages=[ {\"role\":\"user\",\"content\":f\"{user_input}\",} ], model=\"gpt-3.5-turbo\", ) ai_response = response.choices[0].message.content.strip() return render_template(\"index.html\", user_input=user_input, ai_response=ai_response) if __name__ == \"__main__\": app.run(debug=True)   # http://127.0.0.1:5000 templates/index.html python app.py"
+    },
+    {
+      "index": 14,
+      "title": "How To Make a Simple AI Chatbot Using",
+      "text": "How To Make a Simple AI Chatbot Using Streamlit # pip install streamlit import os import streamlit as st from openai import OpenAI client = OpenAI( api_key=os.environ.get( \"OPENAI_API_KEY\" ) ) st.session_state.messages = []  # chat history # -------------------------------------------------------------- def generate_response(user_input): response = client.chat.completions.create( messages=[ { \"role\": \"user\", \"content\" : f\"{user_input}\", } ], model=\"gpt-3.5-turbo\", ) return response.choices[0].message.content.strip() # -------------------------------------------------------------- def main(): st.title(\" Chatbot \") user_input = st.text_input(\" Enter your message: \") if user_input: ai_response = generate_response(user_input) dict_user = { \"role\": \"user\", \"content\" : user_input} st.session_state.messages.append(dict_user) dict_assistant = { \"role\": \"assistant\", \"content\" : ai_response} st.session_state.messages.append(dict_assistant) for message in st.session_state.messages: with st.container(): st.markdown(f\"**{message[ 'role' ]}:** {message[ 'content' ]}\") # -------------------------------------------------------------- if __name__ == \"__main__\": main() streamlit run app.py"
+    },
+    {
+      "index": 15,
+      "title": "How To Make a Simple AI Chatbot Using",
+      "text": "How To Make a Simple AI Chatbot Using Chainlit # pip install chainlit import chainlit as cl import os from openai import OpenAI client = OpenAI(api_key=os.getenv( \"OPENAI_API_KEY\" )) openai_model = \"gpt-3.5-turbo\" @cl.on_message async def handle_message(message: cl.Message): response = client.chat.completions.create( messages = [{ \"role\": \"user\", \"content\" : message.content}], model=openai_model, max_tokens=1024,  # Control response length n=1, stop=None, temperature=0.7 ) await cl.Message(content=response.choices[0].message.content).send() chainlit run app.py"
+    },
+    {
+      "index": 16,
+      "title": "How To Make a Simple AI Chatbot Using",
+      "text": "How To Make a Simple AI Chatbot Using Chainlit & Ollama from langchain_community.llms import Ollama from langchain.prompts import ChatPromptTemplate from langchain.schema import StrOutputParser from langchain.schema.runnable import Runnable from langchain.schema.runnable.config import RunnableConfig import chainlit as cl # ---------------------------------------------------------- @cl.on_chat_start async def on_chat_start(): elements = [cl.Image(name=\" image1 \", display=\"inline\", path=\" images/mistral_logo.jpg \")] ss = \" Hello there, How can I help you ? \" await cl.Message(content=ss, elements=elements).send() model = Ollama(model=\" mistral:latest \") prompt = ChatPromptTemplate.from_messages([ ( \"system\", \"You're a very knowledgeable historian who provides accurate and eloquent answers to historical questions.\" ,), (\" human \", \"{question}\"),]) runnable = prompt | model | StrOutputParser() cl.user_session.set(\" runnable \", runnable) chainlit run app.py # ---------------------------------------------------------- @cl.on_message async def on_message(message: cl.Message): runnable = cl.user_session.get(\" runnable \") msg = cl.Message(content=\"\") async for chunk in runnable.astream( { \"question\" : message.content}, config=RunnableConfig( callbacks=[cl.LangchainCallbackHandler()] )): await msg.stream_token(chunk) await msg.send()"
+    },
+    {
+      "index": 17,
+      "title": "Multiple Ways to Create AI Chatbots GPT4All -",
+      "text": "Multiple Ways to Create AI Chatbots GPT4All - ecosystem to train and deploy LLMs that run locally on consumer grade CPUs. Written in C++, has python and Javascript bindings. https://gpt4all.io https://github.com/nomic-ai/gpt4all PrivateGPT - python-based, llama.cpp, gradio UI https://github.com/imartinez/privateGPT https://docs.privategpt.dev https://www.gradio.app MLC LLM - open-source apps (cpp, python, rust) https://llm.mlc.ai https://github.com/mlc-ai/mlc-llm Streamlit GUI - primitive https://github.com/alejandro-ao/chat-with-websites https://github.com/shashankdeshpande/langchain-chatbot LangChain https://github.com/kyrolabs/awesome-langchain https://github.com/homanp/superagent https://www.analyticsvidhya.com/blog/2023/06/langflow-ui-for-langchain-to-develop-applications-with-llms/ - LangFlow https://www.langflow.org ; https://github.com/logspace-ai/langflow https://github.com/chatscope/chat-ui-kit-react LlamaIndex https://github.com/run-llama - LlamaIndex https://github.com/run-llama/LlamaIndexTS - Javascript apps LMStudio - https://lmstudio.ai - app to run chat locally Ollama - https://ollama.com - server, prompt, python API. Uses llama.cpp, automatically distributes between CPU & GPU llama.cpp - https://github.com/ggerganov/llama.cpp - runtime to efficiently run LLMs (cmd, server). Has option \"--n-gpu-layers\" to specify hoW many layers on GPU. Uses GGUF or HF files. Chainlit - build app in minutes (integrates with LangChain ) https://docs.chainlit.io/get-started/overview https://github.com/Chainlit/chainlit Open WebUI (Formerly Ollama WebUI) - supports Ollama and  OpenAI-compatible APIs. Python and Javascript. https://github.com/open-webui/open-webui https://docs.openwebui.com Text-Generation - open source, but problem installing (it installs its own miniconda). Python based. Uses transformers and datasets modules, as well as llama.cpp https://github.com/oobabooga/text-generation-webui https://github.com/oobabooga/text-generation-webui/wiki/12-%E2%80%90-OpenAI-API#examples Ollama GUI - open-source pure Javascript chat app to use local LLMs via Ollama. https://github.com/HelgeSverre/ollama-gui"
+    },
+    {
+      "index": 18,
+      "title": "Feb 15, 2024 64 Models, 300 K votes",
+      "text": "Feb 15, 2024 64 Models, 300 K votes Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard"
+    },
+    {
+      "index": 19,
+      "title": "Layoffs are x3 times lower than in 2023",
+      "text": "Layoffs are x3 times lower than in 2023 Layoffs - https://layoffs.fyi So far in 2024 layoffs are 3-times less than in 2023"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Mistral Large",
+      "topic": "open-models",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Mistral Large Robotics NVIDIA Foundation Agent Klarna AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Foundation Agent",
+      "topic": "agents",
+      "videoSeconds": 80,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=80s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Clara",
+      "topic": "general",
+      "videoSeconds": 170,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=170s",
+      "slideIndex": 4,
+      "slideTitle": "Robotics Figure.ai just raised $675 Mln at a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI",
+      "topic": "general",
+      "videoSeconds": 340,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=340s",
+      "slideIndex": 5,
+      "slideTitle": "NVIDIA Foundation Agent NVIDIA’s Foundation Agent Dr. Jim",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gorilla",
+      "topic": "general",
+      "videoSeconds": 518,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=518s",
+      "slideIndex": 7,
+      "slideTitle": "Misc - 2 Sensei - a simple, powerful,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vector Database",
+      "topic": "rag",
+      "videoSeconds": 557,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=557s",
+      "slideIndex": 8,
+      "slideTitle": "Gorilla: LLM + APIs Berkeley Function-Calling Leaderboard (100",
+      "source": "youtube"
+    },
+    {
+      "claim": "When AI Robots Will Do Everything",
+      "topic": "general",
+      "videoSeconds": 648,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=648s",
+      "slideIndex": 10,
+      "slideTitle": "When AI Robots Will Do Everything Key Points",
+      "source": "youtube"
+    },
+    {
+      "claim": "Carl Marx",
+      "topic": "general",
+      "videoSeconds": 712,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=712s",
+      "slideIndex": 11,
+      "slideTitle": "Post-Scarcity Economics Karl Marx theorized about the potential",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ray Cwell",
+      "topic": "general",
+      "videoSeconds": 785,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=785s",
+      "slideIndex": 13,
+      "slideTitle": "How To Make a Simple Flask AI Chatbot",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to make a simple chatbot",
+      "topic": "general",
+      "videoSeconds": 852,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=852s",
+      "slideIndex": 14,
+      "slideTitle": "How To Make a Simple AI Chatbot Using",
+      "source": "youtube"
+    },
+    {
+      "claim": "Streamlit",
+      "topic": "general",
+      "videoSeconds": 901,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=901s",
+      "slideIndex": 16,
+      "slideTitle": "How To Make a Simple AI Chatbot Using",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chainlit",
+      "topic": "general",
+      "videoSeconds": 941,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=941s",
+      "slideIndex": 17,
+      "slideTitle": "Multiple Ways to Create AI Chatbots GPT4All -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alama",
+      "topic": "general",
+      "videoSeconds": 1031,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=1031s",
+      "slideIndex": 19,
+      "slideTitle": "Layoffs are x3 times lower than in 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource Arena",
+      "topic": "benchmarks",
+      "videoSeconds": 1249,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c&t=1249s",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mistral Large Mistral Large model - https://mistral.ai/news/mistral-large/ Really",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c",
+      "slideIndex": 3,
+      "slideTitle": "Mistral Large Mistral Large model - https://mistral.ai/news/mistral-large/ Really",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc - 1 Andrej Karpathy - Tokenizers https://twitter.com/karpathy/status/1759996551378940395",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c",
+      "slideIndex": 6,
+      "slideTitle": "Misc - 1 Andrej Karpathy - Tokenizers https://twitter.com/karpathy/status/1759996551378940395",
+      "source": "slide"
+    },
+    {
+      "claim": "qdrant - Vector DB for RAG qdrant -",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c",
+      "slideIndex": 9,
+      "slideTitle": "qdrant - Vector DB for RAG qdrant -",
+      "source": "slide"
+    },
+    {
+      "claim": "Exponential Growth 1939 - 0.00001 = 1e-5 2021",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XYHR5XPFa_c",
+      "slideIndex": 12,
+      "slideTitle": "Exponential Growth 1939 - 0.00001 = 1e-5 2021",
+      "source": "slide"
+    }
+  ]
+}

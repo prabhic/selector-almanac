@@ -1,0 +1,241 @@
+{
+  "id": "2021-01-29-21-01-29-regularization-lev",
+  "date": "2021-01-29",
+  "title": "Regularization",
+  "series": "data-science-2021",
+  "topics": [
+    "general",
+    "ml-fundamentals",
+    "rag"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-01-29-Regularization_Lev.pptx",
+    "filename": "21-01-29-Regularization_Lev.pptx",
+    "title": "Regularization",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-01-29-Regularization_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-01-29-Regularization_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Regularization in Machine Learning Lev Selector January 29,",
+      "text": "Regularization in Machine Learning Lev Selector January 29, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Machine Learning Systems = Prediction Machines Ajay Agrawal",
+      "text": "Machine Learning Systems = Prediction Machines Ajay Agrawal University of Toronto ML = \"Cheap Predictions\" AI = \"Cheap Predictions\""
+    },
+    {
+      "index": 3,
+      "title": "Regress vs Progress. Regress = simplify to the",
+      "text": "Regress vs Progress. Regress = simplify to the core, to the basics. Regression - develop a simple model (based on training data) so that this simple model can do predictions. Model - a function that returns prediction based on input arguments. ================= Example 1 - Linear Regression (draw straight line through points). Model function uses two parameters [a,b] under the hood: def linear_regression(x): return (a*x + b) Training data - array of data points (x,y) Training of the Linear Regression model means simply finding two numbers (a=slope, b=intercept) which do the best fit between the model and training data (minimize the error between model and data). OK, so what is Machine Learning Model? .. A computer program, a function .. used to describe data in a compressed way .. to make predictions and take actions .. most common ML tasks - regression or classification Linear Regression  y = f(x) = ax + b Model uses only two numbers: a = slope, b = intercept Model compresses hundreds of numbers into just two numbers to make \"cheap predictions\". X Y"
+    },
+    {
+      "index": 4,
+      "title": "Different Types of Machine Learning Models Linear Regression",
+      "text": "Different Types of Machine Learning Models Linear Regression  y = f(x) = ax + b Model uses only two numbers: a = slope, b = intercept Classification - learning to label examples based on their features. Model may have ~1-2 thousand of numbers Logistic Regression Linear Discriminant Analysis Support Vector Machines Decision trees (Random Forest, XGBoost) etc. Example: classification – dog or cat. Model is usually implemented as an Artificial Neural Network (Deep Learning). Large ANNs can have up to 170 Bln parameters. Examples: recognizing images, music, speech, NLP (Natural language Processing), Machine Translation, supervised, unsupervised, reinforcement learning, Generative Models (GANs) Simple Analytics Standard ML Neural Networks (Deep Learning)"
+    },
+    {
+      "index": 5,
+      "title": "Overfitting and Regularization Goal of training the model",
+      "text": "Overfitting and Regularization Goal of training the model is to fit/learn a \" regularity \" in the data, and to avoid fitting noise (avoid overfitting). How do we know that we are overfitting? Let's split data into two sets: - training - testing If we overfit on the training data (learn regularity and some noise specific to the training data), then accuracy measured on the test data may be bad (model doesn't generalize well). Solution – try to find a more \" regular \" solution (less noise, less overfitting). High Bias model (model too simple) High Variance model (model too complex, overfitting - fits noise) Bias/Variance Trade-off , Good Generalization How to find \"REGULARITY\""
+    },
+    {
+      "index": 6,
+      "title": "We fit best model (best line) to minimize",
+      "text": "We fit best model (best line) to minimize the error, the distance between the model and the data SSE = Sum of Squares Error"
+    },
+    {
+      "index": 7,
+      "title": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization.",
+      "text": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization. Suppose we have a OLS (Ordinary Linear Squared) regression where two parameters x1 & x2 are not orthogonal, but are equal, proportional to each other, or highly correlated. Then there may be an infinite number of coefficients which will fit the model. For example, (a*x1 - x2),    (100*a*x1 - 100*x2), etc. If we are trying to minimize the cost function in the multidimensional space of coefficients, we will get an infinite diagonal groove (ridge) for a*x1 = x2. Any place at the bottom of this ridge is equally good for us. So we will get a big variability in possible values of coefficients for x1 & x2. In other words, the solution will be unstable. We can reduce this variability by adding additional regularization factor to the loss function as a sum of squares of coeffitients. When we minimizing this expression, bigger  \"lambda\" value will cause smaller \"beta\" values, thus keeping the coefficients \"beta\" from becoming too large. This is called \" Ridge Regression \". It changes the infinitely long ridge into a local minimum. Why Ridge Regression is called Ridge ..."
+    },
+    {
+      "index": 8,
+      "title": "Minimum “cost” without regularization Compromize min(cost + penalty)",
+      "text": "Minimum “cost” without regularization Compromize min(cost + penalty) Cons: bias (shift), Pros: low variance Minimum of the “penalty” regularization term One way to do avoid overfitting can be to avoid big \"weights\" in the model."
+    },
+    {
+      "index": 9,
+      "title": "In Ridge Regression we add a \" regularization",
+      "text": "In Ridge Regression we add a \" regularization \" term as sum of squares ( L2 norm ). In LASSO Regression we add a \" regularization \" term as sum of abs values ( L1 norm ). LASSO = Least Absolute Shrinkage and Selection Operator . LASSO favors solutions on the tips of the bounding surface for coefficients, where some of coefficients are zero. Thus it favors \"sparse\" solutions. Elastic Net - A combination of Ridge Regression and LASSO. Why LASSO favors sparse solutions Regularization - LASSO, Elastic Net"
+    },
+    {
+      "index": 10,
+      "title": "7.1. Parameter Norm Penalties Note: θ – some",
+      "text": "7.1. Parameter Norm Penalties Note:  θ – some (sub)set of parameters. Note: loss function is a part of a cost function which is a type of an objective function Loss function – measures the penalty Cost function – more general (may include regularization) Objective function – any function you optimize during training Parameter norm penalty"
+    },
+    {
+      "index": 11,
+      "title": "L1 & L2 Regularization L1 norm - minimizing",
+      "text": "L1 & L2 Regularization L1 norm - minimizing the sum of the absolute differences L2 norm - minimizing the sum of the square of the differences"
+    },
+    {
+      "index": 12,
+      "title": "L 2 Parameter Regularization L 2 parameter norm",
+      "text": "L 2 Parameter Regularization L 2 parameter norm penalty commonly known as: “ weight decay regularization ” or “ ridge regression ” or “ Tikhonov regularization ”. This regularization strategy drives the weights closer to the origin by adding a quadratic regularization term to the objective function. … the addition of this weight decay term has modified the learning rule to multiplicatively shrink the weight vector by a constant factor on each step, just before performing the usual gradient update."
+    },
+    {
+      "index": 13,
+      "title": "L 1 Regularization Regularized objective function: In comparison",
+      "text": "L 1 Regularization Regularized objective function: In comparison to L 2 regularization, L 1 regularization results in a solution that is more sparse ( sparse = some parameters have an optimal value of zero). L 2 regularization does not cause the parameters to become sparse, while L 1 regularization may do so for large enough α . The sparsity property induced by L 1 regularization has been used extensively as a feature selection mechanism . Feature selection simplifies a machine learning problem by choosing which subset of the available features should be used. In particular, the well known LASSO (Tibshirani, 1995) ( Least Absolute Shrinkage and Selection Operator ) model integrates an L 1 penalty with a linear model and a least squares cost function. The L 1 penalty causes a subset of the weights to become zero, suggesting that the corresponding features may safely be discarded."
+    },
+    {
+      "index": 14,
+      "title": "Regularization : “any modification we make to a",
+      "text": "Regularization : “any modification we make to a learning algorithm that is intended to reduce its generalization error but not its training error.” Motivation: Imagine that we train network on different subsets of inputs. For each subset we will get different model parameters. We want to reduce the variance of these parameters between subsets. generalization vs overfitting “… most regularization strategies are based on regularizing estimators ... by trading increased bias for reduced variance. An effective regularizer is one that makes a profitable trade, reducing variance significantly while not overly increasing the bias.”"
+    },
+    {
+      "index": 15,
+      "title": "Regularization - Bagging and Other Ensemble Methods Bagging",
+      "text": "Regularization - Bagging and Other Ensemble Methods Bagging (short for bootstrap aggregating ) is a technique for reducing generalization error. This is done by separately training several different models and then combining them. Each model then votes on what it thinks the best output is. A general term for this is model averaging . Bagging is a type of ensemble method . The reason we use bagging is that different models often have varying degrees of generalization and test error. Machine Learning contests are often won using methods of model averaging over dozens of models."
+    },
+    {
+      "index": 16,
+      "title": "Regularization – Generating Data (Dataset Augmentation) Idea –",
+      "text": "Regularization – Generating Data (Dataset Augmentation) Idea – generate fake data and add it to the training data set. Example for images: shift images several pixels in all directions, slight rotation, or slight scaling. (but be careful – certain transformation can change the meaning:  ‘ b ’ and ‘ d ’ ,  ‘ 6 ’ and ‘ 9 ’). Example - training AlphaGo Zero – self-play - playing against itself. Example - training self-driving car algorithm using simulator (driving inside randomly generated virtual world)."
+    },
+    {
+      "index": 17,
+      "title": "Regularization by Injecting noise This is very common",
+      "text": "Regularization by Injecting noise This is very common technique. It is another form of data augmentation. Can be applied to the inputs, to the hidden units, to the weights, to output targets."
+    },
+    {
+      "index": 18,
+      "title": "Regularization – Random Dropout (adding noise into training",
+      "text": "Regularization – Random Dropout (adding noise into training process) Dropout  - a regularization technique for neural network models proposed by Srivastava, et al, 2014 . Dropout is a technique where randomly selected neurons are ignored during training. They are “dropped-out” randomly ( by specifying a random mask vector ). Dropout provides an inexpensive approximation to training and evaluating a bagged ensemble of exponentially many neural networks. Typically, Dropout can have good performance with only 10-20 of its exponentially many models that are averaged together using the geometric mean of the output . Weight Scaling Inference Rule: Make sure the expected total input to a unit at test time is roughly the same as the expected total input to that unit at train time. One example is randomly removing any given weight from the model 50% of the time and then dividing the values of each weight by 2 at end of training or multiply the weights by 2 during training. Dropout is computationally cheap and usually more eﬀective than other standard computationally inexpensive regularization methods such as weight decay, ﬁlter norm constraints and sparse activity regularization. Dropout may also be combined with other forms of regularization to yield a further improvement. Dropout works well with nearly any model that uses a distributed representation and can be trained with stochastic gradient descent."
+    },
+    {
+      "index": 19,
+      "title": "Regularization - Adversarial Training Problem: if a network",
+      "text": "Regularization - Adversarial Training Problem: if a network consists of primarily linear elements, small changes to the input data may cause large errors in the output. Solution: train your network using injected randomness."
+    },
+    {
+      "index": 20,
+      "title": "Regularization - Early Stopping. When training large models",
+      "text": "Regularization - Early Stopping. When training large models with sufficient representational capacity to overfit the task, we often observe that training error decreases steadily over time, but validation set error begins to rise again. Every time the error on the validation set improves, we store a copy of the model parameters, so that we can go back to them and stop training. This is called “ Early stopping ”. Early stopping requires a validation set , which means some training data is not fed to the model. To best exploit this extra data, one can perform extra training after the initial training with early stopping has completed. In the second, extra training step, all of the training data is included."
+    },
+    {
+      "index": 21,
+      "title": "Regularization – Evolutionary (Meta) Learning Meta Learning =",
+      "text": "Regularization – Evolutionary (Meta) Learning Meta Learning = learn to learn For example, automatically find the best model architecture and hyperparameters (Meta-parameters). Search for optimum in a multi-dimensional space of architectures and hyperparameters (Meta-Space). We can optimize for different things - accuracy, generalization, speed, power-effectiveness, etc. Random search is slow. Evolutionary approach is much faster. It is similar to Gradient Descent in the space of hyper-parameters. Idea – let models change and compete, select the best, repeat. Similar to Darwinian evolution in biology. Examples of random \"mutations\": remove a convolution, add skip connection, change learning rate, etc. Combinations - analogous to genetic recombination - combining genes (hyperparameters) of two parents. Many groups are working on the subject: - OpenAI (Reptile, MAML) - Uber Labs ( differentiable plasticity ) - Sentient Labs (evolutionary optimization of gated networks (LSTMs) for language modeling) - Google DeepMind - Google Brain AutoML, Amoebanet, AdaNet - H2O.ai - AutoML and Driverless AI Charles Darwin"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Regularization in Machine Learning Lev Selector January 29,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Regularization in Machine Learning Lev Selector January 29,",
+      "source": "slide"
+    },
+    {
+      "claim": "Machine Learning Systems = Prediction Machines Ajay Agrawal",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Machine Learning Systems = Prediction Machines Ajay Agrawal",
+      "source": "slide"
+    },
+    {
+      "claim": "Regress vs Progress. Regress = simplify to the",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Regress vs Progress. Regress = simplify to the",
+      "source": "slide"
+    },
+    {
+      "claim": "Different Types of Machine Learning Models Linear Regression",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Different Types of Machine Learning Models Linear Regression",
+      "source": "slide"
+    },
+    {
+      "claim": "Overfitting and Regularization Goal of training the model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Overfitting and Regularization Goal of training the model",
+      "source": "slide"
+    },
+    {
+      "claim": "We fit best model (best line) to minimize",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "We fit best model (best line) to minimize",
+      "source": "slide"
+    },
+    {
+      "claim": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization.",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Regularization: Ridge Regression Multivariate (multiple) Linear Regression Regularization.",
+      "source": "slide"
+    },
+    {
+      "claim": "Minimum “cost” without regularization Compromize min(cost + penalty)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Minimum “cost” without regularization Compromize min(cost + penalty)",
+      "source": "slide"
+    },
+    {
+      "claim": "In Ridge Regression we add a \" regularization",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "In Ridge Regression we add a \" regularization",
+      "source": "slide"
+    },
+    {
+      "claim": "7.1. Parameter Norm Penalties Note: θ – some",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "7.1. Parameter Norm Penalties Note: θ – some",
+      "source": "slide"
+    },
+    {
+      "claim": "L1 & L2 Regularization L1 norm - minimizing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "L1 & L2 Regularization L1 norm - minimizing",
+      "source": "slide"
+    },
+    {
+      "claim": "L 2 Parameter Regularization L 2 parameter norm",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "L 2 Parameter Regularization L 2 parameter norm",
+      "source": "slide"
+    }
+  ]
+}

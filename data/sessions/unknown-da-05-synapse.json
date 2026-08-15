@@ -1,0 +1,212 @@
+{
+  "id": "unknown-da-05-synapse",
+  "date": null,
+  "title": "DA 05 Synapse",
+  "series": "data-architect-2021",
+  "topics": [
+    "agents",
+    "coding",
+    "data-engineering",
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_05_Synapse.pptx",
+    "filename": "DA_05_Synapse.pptx",
+    "title": "DA 05 Synapse",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_05_Synapse.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_05_Synapse.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Architecture and Data Engineering With Azure Synapse",
+      "text": "Data Architecture and Data Engineering With Azure Synapse Analytics Presented by Tyler Williams"
+    },
+    {
+      "index": 2,
+      "title": "Azure Synapse Analytics - Components Synapse Studio –",
+      "text": "Azure Synapse Analytics - Components Synapse Studio – IDE Storage Data Lake (Azure Storage Gen 2) Dedicated SQL Pools Compute Serverless SQL Pools Spark Pools Dedicated SQL Pools Orchestration – Pipelines/Data Flows Git Integration"
+    },
+    {
+      "index": 3,
+      "title": "Synapse Origins – Azure SQL DW Looks similar",
+      "text": "Synapse Origins – Azure SQL DW Looks similar to Azure SQL DB, but different architecture behind the scenes Massively Parallel Processing (MPP) Database divided across 60 distributions Supports most standard T-SQL functionality Originally lacked support for IDENTITY columns, MERGE statement Cannot update a table by specifying an alias from the FROM clause More expensive than Azure SQL DB, but compute can be paused when not in use"
+    },
+    {
+      "index": 4,
+      "title": "Synapse Origins – Continued Nov 2019 – Azure",
+      "text": "Synapse Origins – Continued Nov 2019 – Azure SQL DW rebranded as Synapse Analytics May 2020 – Public Preview of Synapse Analytics Workspace Dec 2020 – General Availability of Synapse Analytics Workspace SQL DW becomes “Dedicated SQL Pool” Workspace introduced the full Synapse Studio experience"
+    },
+    {
+      "index": 5,
+      "title": "Synapse Dedicated SQL Pool Distributed nature is key",
+      "text": "Synapse Dedicated SQL Pool Distributed nature is key to optimization All tables must have distribution function defined ROUND_ROBIN HASH REPLICATE Always 60 distributions, but number of nodes increases as pool is scaled https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-tables-distribute"
+    },
+    {
+      "index": 6,
+      "title": "External Tables Use compute from SQL database to",
+      "text": "External Tables Use compute from SQL database to query data stored elsewhere Blob Storage Hadoop Azure Data Lake Store On-prem SQL and Azure SQL DB have additional options Oracle Teradata Define a virtual table, based on external data source and file format Allows you to analyze and interact with external data using T-SQL https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables?tabs=hadoop"
+    },
+    {
+      "index": 7,
+      "title": "External Table – Code Example",
+      "text": "External Table – Code Example"
+    },
+    {
+      "index": 8,
+      "title": "Serverless SQL Pool Created by default in any",
+      "text": "Serverless SQL Pool Created by default in any Synapse Analytics instance Contains only metadata/object definitions No Storage; compute only Can leverage External Tables, just as any other SQL DB does Can define views, which provide visibility to underlying filenames and paths"
+    },
+    {
+      "index": 9,
+      "title": "Spark Pools Run notebooks on an Apache Spark",
+      "text": "Spark Pools Run notebooks on an Apache Spark instance Support for Python, Scala, C#, and Spark SQL Support for Delta Lake"
+    },
+    {
+      "index": 10,
+      "title": "Data Lake Storage When creating a Synapse Analytics",
+      "text": "Data Lake Storage When creating a Synapse Analytics workspace, a default data lake must be specified Can either link to existing Azure Data Lake, or have Synapse create a new one Microsoft defines data lake storage as blob storage, with hierarchical namespaces enabled Hierarchical namespaces not enabled by default when creating standalone storage account Synapse creates linked service to data lake with name < SynapseWSName >- WorkspaceDefaultStorage Not user friendly Name cannot be edited Not conducive to CI/CD deployments to other environments"
+    },
+    {
+      "index": 11,
+      "title": "Synapse Origins – Azure Data Factory Gen 1",
+      "text": "Synapse Origins – Azure Data Factory Gen 1 JSON code only; no graphical interface Move Data:  Source  Sink Transform Data Stored Procedures HDInsight – Microsoft’s implementation of Hadoop ML Studio (classic) – Gen 1 Machine Learning https://docs.microsoft.com/en-us/azure/data-factory/v1/data-factory-data-movement-activities"
+    },
+    {
+      "index": 12,
+      "title": "Azure Data Factory Gen 2 Web-based GUI Still",
+      "text": "Azure Data Factory Gen 2 Web-based GUI Still generates JSON behind the scenes More robust toolbox for ETL Conditionals Iterations API Calls Lookups"
+    },
+    {
+      "index": 13,
+      "title": "Synapse Pipelines Pipeline functionality is largely comparable to",
+      "text": "Synapse Pipelines Pipeline functionality is largely comparable to that of ADF Gen 2 Some Synapse limitations No support for Integration Runtime sharing Cannot execute SSIS packages No support for Power Query https://docs.microsoft.com/en-us/azure/synapse-analytics/data-integration/concepts-data-factory-differences"
+    },
+    {
+      "index": 14,
+      "title": "Next Big Feature – SCOPE Pools? Internal Microsoft",
+      "text": "Next Big Feature – SCOPE Pools? Internal Microsoft big data engine for processing data lake files – COSMOS Not related to Cosmos DB; completely different Language used for manipulating/processing data – SCOPE Hybrid of SQL and C# SELECT, FROM, JOIN, WHERE, ORDER BY, HAVING, …. C# functions for field transformations Public facing variant in Azure COSMOS  Data Lake Analytics (Data Lake Storage Gen 1 only) SCOPE  U-SQL New SCOPE Pools in Synapse – Private Preview?"
+    },
+    {
+      "index": 15,
+      "title": "Questions/comments?",
+      "text": "Questions/comments?"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Data Architecture and Data Engineering With Azure Synapse",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Data Architecture and Data Engineering With Azure Synapse",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure Synapse Analytics - Components Synapse Studio –",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Azure Synapse Analytics - Components Synapse Studio –",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Origins – Azure SQL DW Looks similar",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Synapse Origins – Azure SQL DW Looks similar",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Origins – Continued Nov 2019 – Azure",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Synapse Origins – Continued Nov 2019 – Azure",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Dedicated SQL Pool Distributed nature is key",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Synapse Dedicated SQL Pool Distributed nature is key",
+      "source": "slide"
+    },
+    {
+      "claim": "External Tables Use compute from SQL database to",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "External Tables Use compute from SQL database to",
+      "source": "slide"
+    },
+    {
+      "claim": "External Table – Code Example",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "External Table – Code Example",
+      "source": "slide"
+    },
+    {
+      "claim": "Serverless SQL Pool Created by default in any",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Serverless SQL Pool Created by default in any",
+      "source": "slide"
+    },
+    {
+      "claim": "Spark Pools Run notebooks on an Apache Spark",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Spark Pools Run notebooks on an Apache Spark",
+      "source": "slide"
+    },
+    {
+      "claim": "Data Lake Storage When creating a Synapse Analytics",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Data Lake Storage When creating a Synapse Analytics",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Origins – Azure Data Factory Gen 1",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Synapse Origins – Azure Data Factory Gen 1",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure Data Factory Gen 2 Web-based GUI Still",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Azure Data Factory Gen 2 Web-based GUI Still",
+      "source": "slide"
+    }
+  ]
+}

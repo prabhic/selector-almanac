@@ -1,0 +1,213 @@
+{
+  "id": "2023-02-24-2023-02-24-leader-vs-follower-lev",
+  "date": "2023-02-24",
+  "title": "Leader-vs-Follower-Lev",
+  "series": "seminar",
+  "topics": [
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "Au882ry-Yuc",
+    "title": "Time Series With Machine Learning - February 24, 2023",
+    "url": "https://www.youtube.com/watch?v=Au882ry-Yuc",
+    "thumbnail": "https://i.ytimg.com/vi/Au882ry-Yuc/hqdefault.jpg",
+    "duration": 1798
+  },
+  "deck": {
+    "path": "2023/2023-02-24-Leader-vs-Follower-Lev.pptx",
+    "filename": "2023-02-24-Leader-vs-Follower-Lev.pptx",
+    "title": "Leader-vs-Follower-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-02-24-Leader-vs-Follower-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-02-24-Leader-vs-Follower-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Algorithms",
+      "startSeconds": 477,
+      "label": "07:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Machine Learning Methods",
+      "startSeconds": 807,
+      "label": "13:27",
+      "source": "youtube"
+    },
+    {
+      "title": "SKTime",
+      "startSeconds": 928,
+      "label": "15:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Classification",
+      "startSeconds": 990,
+      "label": "16:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Removing Time Series",
+      "startSeconds": 1084,
+      "label": "18:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Motion Classification",
+      "startSeconds": 1235,
+      "label": "20:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Resources",
+      "startSeconds": 1304,
+      "label": "21:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusions",
+      "startSeconds": 1431,
+      "label": "23:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Backup",
+      "startSeconds": 1459,
+      "label": "24:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Distances",
+      "startSeconds": 1486,
+      "label": "24:46",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Job Searching Leader vs Follower",
+      "text": "Job Searching Leader vs Follower"
+    },
+    {
+      "index": 2,
+      "title": "Technical Worker vs Leader/Visionary Senior accountant low salary",
+      "text": "Technical Worker vs Leader/Visionary Senior accountant low salary high competition VP of Tech (moving accounting into Cloud and AI) high salary in high demand Compare two accountants Leader Follower"
+    },
+    {
+      "index": 3,
+      "title": "Interview is the transfer of energy. You must",
+      "text": "Interview is the transfer of energy. You must have energy, excitement. Your top-paying skills are NOT your technical skills, but your enthusiasm. I have learned this lesson almost 20 years ago from Charly McAliley He was making $300/hour when I was making $115/hour. He has explained to me why he was paid much more . It was quite eye opening. Same idea is explained very well in this famous book: \" How I Raised Myself from Failure to Success in Selling \" by Frank Bettger .. https://www.amazon.com/Raised-Myself-Failure-Success-Selling/dp/067179437X Charly McAliley - https://www.legacy.com/us/obituaries/atlanta/name/charles-mcaliley-obituary?n=charles-mcaliley&pid=86229824 Interview is the transfer of energy During the face-to-face interview you can do the following: smile, be positive, feel good be attentive and supporting listener be a cheerleader for the other person be happy and relaxed radiate bubbling positive energy build trust, be authentic be excited and curious about the person, technology, project, company"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Job Searching Leader vs Follower",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Algorithms",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 477,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=477s",
+      "slideIndex": 1,
+      "slideTitle": "Job Searching Leader vs Follower",
+      "source": "youtube"
+    },
+    {
+      "claim": "Machine Learning Methods",
+      "topic": "general",
+      "videoSeconds": 807,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=807s",
+      "slideIndex": 1,
+      "slideTitle": "Job Searching Leader vs Follower",
+      "source": "youtube"
+    },
+    {
+      "claim": "SKTime",
+      "topic": "general",
+      "videoSeconds": 928,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=928s",
+      "slideIndex": 2,
+      "slideTitle": "Technical Worker vs Leader/Visionary Senior accountant low salary",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Classification",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 990,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=990s",
+      "slideIndex": 2,
+      "slideTitle": "Technical Worker vs Leader/Visionary Senior accountant low salary",
+      "source": "youtube"
+    },
+    {
+      "claim": "Removing Time Series",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1084,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1084s",
+      "slideIndex": 2,
+      "slideTitle": "Technical Worker vs Leader/Visionary Senior accountant low salary",
+      "source": "youtube"
+    },
+    {
+      "claim": "Motion Classification",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1235,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1235s",
+      "slideIndex": 2,
+      "slideTitle": "Technical Worker vs Leader/Visionary Senior accountant low salary",
+      "source": "youtube"
+    },
+    {
+      "claim": "Resources",
+      "topic": "general",
+      "videoSeconds": 1304,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1304s",
+      "slideIndex": 2,
+      "slideTitle": "Technical Worker vs Leader/Visionary Senior accountant low salary",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusions",
+      "topic": "general",
+      "videoSeconds": 1431,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1431s",
+      "slideIndex": 3,
+      "slideTitle": "Interview is the transfer of energy. You must",
+      "source": "youtube"
+    },
+    {
+      "claim": "Backup",
+      "topic": "general",
+      "videoSeconds": 1459,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1459s",
+      "slideIndex": 3,
+      "slideTitle": "Interview is the transfer of energy. You must",
+      "source": "youtube"
+    },
+    {
+      "claim": "Distances",
+      "topic": "general",
+      "videoSeconds": 1486,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1486s",
+      "slideIndex": 3,
+      "slideTitle": "Interview is the transfer of energy. You must",
+      "source": "youtube"
+    }
+  ]
+}

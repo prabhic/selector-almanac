@@ -1,0 +1,388 @@
+{
+  "id": "2021-04-16-21-04-16-ml-in-azure-lev",
+  "date": "2021-04-16",
+  "title": "ML in Azure",
+  "series": "data-science-2021",
+  "topics": [
+    "rag",
+    "general",
+    "ml-fundamentals",
+    "jobs",
+    "safety"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-04-16-ML_in_Azure_Lev.pptx",
+    "filename": "21-04-16-ML_in_Azure_Lev.pptx",
+    "title": "ML in Azure",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-04-16-ML_in_Azure_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-04-16-ML_in_Azure_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Machine Learning in Azure Cloud VM (Virtual Machine)",
+      "text": "Machine Learning in Azure Cloud VM (Virtual Machine) Machine Learning Studio Synapse Analytics Running models in SQL Power BI Cognitive Services Azure Kubernetes Service (AKS), Kubeflow Azure Cloud By Lev Selector April 16, 2021"
+    },
+    {
+      "index": 2,
+      "title": "predictions (predictive analytics, forecasting, trends, investments, elections, sport",
+      "text": "predictions (predictive analytics, forecasting, trends, investments, elections, sport & weather, news, etc.) optimization of business processes, reducing costs extracting information from text, fuzzy deduplication image and face recognition recommender systems detection (anomaly, fraud, crime, terrorism, climate change, etc.) self-driving cars (planes, boats, drones, construction/rescue machines, etc.) robots (at home & at work), manufacturing robots universal language translator, language understanding, concepts learning music &  literature composition, games and math. medical diagnostics (using genomic, phenotypic, social, etc. data), surgery intelligent secretary/helper, process management, t raffic management agriculture (pooling weeds, watering, etc.) toys, military combining AI with Virtual Reality and 3D printing effective interface with human brain, greatly expand their cognitive, memory and sensory capabilities, uploading mind into computer etc. etc. etc. Where and How ML & AI are used ? ML = Machine Learning AI = Artificial Intelligence"
+    },
+    {
+      "index": 3,
+      "title": "Andrew Ng - co-founded and led Google Brain",
+      "text": "Andrew Ng - co-founded and led Google Brain - was the chief scientist at Baidu Research (~1,300 people) for 3 years (2014-2017), resigned in March of 2017. - adjunct professor at Stanford University - co-founder and chairman of Coursera - https://en.wikipedia.org/wiki/Andrew_Ng - https://www.coursera.org/learn/machine-learning Artificial Intelligence is the New Electricity - https://www.facebook.com/andrew.ng.96/videos/1268821713173733/ - https://www.youtube.com/watch?v=21EiKfQYZXc “AI is the New Electricity” Electricity came into our life ~120 years ago: - lamps and motors - telegraph, telephone, radio, TV, Internet - computers, IT, Machine Learning, AI - finance, trading - science, education, medical diagnostics - automation, robotics, - etc. etc. AI like electricity will also change our lives in many ways which is difficult to predict."
+    },
+    {
+      "index": 4,
+      "title": "“AI is Life Extinction Event ?” “AI -",
+      "text": "“AI is Life Extinction Event ?” “AI - Tsunami ?”"
+    },
+    {
+      "index": 5,
+      "title": "OK, so what is Machine Learning? - A",
+      "text": "OK, so what is Machine Learning? - A computer program - used to describe data in a compressed way - to make predictions and take actions - most common ML tasks - regression or classification Linear Regression  y = f(x) = ax + b Model uses only two numbers: a = slope, b = intercept Classification - learning to label examples based on their features. Model may have ~1-2 thousand of numbers Logistic Regression Linear Discriminant Analysis Support Vector Machines Decision trees (Random Forest, XGBoost ) etc. Classification – dog or cat. Model is usually implemented as a Neural Network, and may use up to 1.5 Bln numbers. Recognizing images, music, speech NLP = Natural language Processing Machine Translation supervised, unsupervised, reinforcement learning Generative Models (GANs) Simple Analytics Standard ML Neural Networks (Deep Learning)"
+    },
+    {
+      "index": 6,
+      "title": "Deep Learning (DL) ML implemented as Neural Network",
+      "text": "Deep Learning (DL) ML implemented as Neural Network Data Science (DS) computer skills + statistics CSV files, SQL, PowerPoint Machine Learning (ML) DS where algorithm learns from data to make predictions Artificial General Intelligence (AGI) AI that could successfully perform any intellectual task that a human can (Turing test (1950), ...) Artificial Intelligence (AI) ML (DL) learning \"human\" abilities (speech and music recognition, conversation, visual recognition, video prediction, reasoning, self-driving cars, playing games, etc.)"
+    },
+    {
+      "index": 7,
+      "title": "Recent breakthroughs in DL made it practical (effective,",
+      "text": "Recent breakthroughs in DL made it practical (effective, affordable, and easy). Instead of software engineers manually coding if/else logic, DL algorithms can train networks equivalent to ~10s of million of if/else -s. Distributed ML on Cloud (Google, Microsoft, Amazon, Intel, IBM, etc.) allow to achieve ~100 Petaflops (x1000 performance increase in last 3 years). Prices dropping down precipitously: $6.50/hour per a Google TPU (180 TFlops ). You don't have to build your own infrastructure, You don't have to code from scratch. Nowadays you can use variety of pre-trained / pre-configured networks on the cloud. Compare this with just few years ago: custom HPC clusters (HPC = High-Performance Computing), low-level C/CUDA coding, etc."
+    },
+    {
+      "index": 8,
+      "title": "AI in Context Artificial Intelligence (AI) ML performing",
+      "text": "AI  in  Context Artificial Intelligence (AI) ML performing “human” functions Deep Learning (DL) ML implemented using multi-layered structure (Neural Network) Machine Learning (ML) DS algorithm learns from data Data Science (DS) data + computer/statistics Amount of data Compute Speed Reinforcement Learning alpha-Go Unsupervised Learning no labels, Google Translate Supervised Learning labeled data Reasoning, Inductive & Deductive Logic, Knowledge Representation, Ontology Vision, Robotics NLP, Extracting Data from Text Fraud Detection, Security, Risk Mgmnt Forecasting, investments, Resource Mgmnt Chatbots, Conversational interfaces 2010 2015 2000 2005 Recommender Systems Years"
+    },
+    {
+      "index": 9,
+      "title": "Ray Kurzweil, chief engineer for Google and famous",
+      "text": "Ray Kurzweil, chief engineer for Google and famous futurist stated that \"... ultimately, AI will benefit us in the same way that previous technologies have. ... My view is not that AI is going to displace us, ... (but) ...  It’s going to enhance us. It does already.” Millions of jobs will be \"outsourced\" to AI. Also you will see new jobs, like \"Chief AI Officer\", AI departments. We already see big shortage in AI specialists. Top AI talent is paid millions of $$. You need to get into AI asap to be able to surf the new wave, or this wave will drown you. Ray Kurzweil"
+    },
+    {
+      "index": 10,
+      "title": "Azure - VM or DSVM VM (Virtual Machine)",
+      "text": "Azure - VM or DSVM VM (Virtual Machine) or DSVM (Data Science VM) They are the same price, but DSVM comes with pre-installed software (python 3.6.9, sklearn , tensorflow , azureml , etc.) You get admin rights, can install any tools you need Can install conda python and any ML libraries you want Can connect via ssh , can use GitHub Can work remotely using Jupyter notebooks Can use local editors with built-in sftp transfer (BBEdit on Mac, UltraEdit on Windows, etc.) Can use Azure CLI (Command Line Interface) to manage azure resources and data. Can use azure python libraries (to move data around, etc.) Lowest prices are in regions East US 2 or West US 2 Examples of prices for Linux VMs without discounts, \"pay-as-you-go\": Linux VM Pricing https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/ Azure VM Pricing Comparison https://azureprice.net/?region=eastus2&cores=16,16&ram=0,11400 Azure ML Pricing https://azure.microsoft.com/en-us/pricing/details/machine-learning/ Azure Synapse Analytics Pricing https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/ Managed Disk Pricing https://azure.microsoft.com/en-us/pricing/details/managed-disks/ VM Type Cores RAM GB swap GB OS disk GB GPU $/month $ for extra 1TB fast SSD Ddv2 2 7 100 14 - 101 123 Ddv4 16 64 600 30 - 650 123 NC12 Promo 12 112 680 30 2x K80 600 123 NC12 12 112 680 30 2x K80 1,336 123"
+    },
+    {
+      "index": 11,
+      "title": "Azure AD Azure Subscriptions Users Groups Resource Groups",
+      "text": "Azure AD Azure Subscriptions Users Groups Resource Groups Resources S: Disk Blob P: Disk P: Disk To save money you can \"Stop-Deallocate\"  VM instances when you are not using them. You can restart at any time, takes ~3 minutes. All disks (except swap) will be preserved. You can use AD and resource groups to safely separate projects. Separate Projects"
+    },
+    {
+      "index": 12,
+      "title": "Azure Machine Learning Machine Learning Workspace – set",
+      "text": "Azure Machine Learning Machine Learning Workspace – set of tools for ML Azure Machine Learning Studio : Linux VMs (single or clusters) ML Studio notebooks Jupyter notebooks, or Jupyter Lab, or R studio python scripts (or R) – can run in terminal data storage access AutoML (regression, classification, forecasting) automating experiments and whole ML workflows (manually or from scripts): .. create datasets (data containers) .. models (model containers) .. pipelines (executable flow) .. endpoints (web or for batch) .. experiments - submitted pipeline Azure ML : https://ml.azure.com Login into https://portal.azure.com Move mouse to top-right and click on your icon (sign-in/sign-out) and select a directory (you may have several). Then select subscription Then go to Machine Learning workspace (can search for it, or it is in the list, you may have several ML workspaces) - https://ml.azure.com/selectWorkspace One in ML workspace, find and click the url to Azure Machine Learning Studio. Here you can work with python notebooks, etc. Note: \" Classic \" is the older version of Azure ML Studio where there is no Jupyter notebook. You can only drag & drop pieces. It is basically the \"Designer\" part of the new ML Studio."
+    },
+    {
+      "index": 13,
+      "title": "Machine Learning Studio Author: Notebooks AutoML Designer Assets:",
+      "text": "Machine Learning Studio Author: Notebooks AutoML Designer Assets: Datasets Experiments Pipelines Models Endpoints Manage: Compute Datastores Data Labeling Multiple tabs with notebooks and scripts"
+    },
+    {
+      "index": 14,
+      "title": "Machine Learning Studio - continued Running scripts from",
+      "text": "Machine Learning Studio - continued Running scripts from unix terminal Selecting AutoML Type AutoML can run ~200 models and select the best one for you. You create AutoML by going through a set of screens where you can select the type of the model (Classification, Regression, Time series forecasting), selecting the data (features and target), types of features (categorical, ...), narrow down types of models, etc."
+    },
+    {
+      "index": 15,
+      "title": "Machine Learning Studio - continued Complex pipeline Datasets",
+      "text": "Machine Learning Studio - continued Complex pipeline Datasets Sample datasets Data Input and Output Data Transformation Feature Selection Statistical Functions Machine Learning Algorithms Model Training Model Scoring & Evaluation Python Language R Language Text Analytics Computer Vision Recommendation Anomaly Detection Web Service Simple pipeline to run python script with custom modules"
+    },
+    {
+      "index": 16,
+      "title": "R-Studio Machine Learning Studio - continued Jupyter Notebook",
+      "text": "R-Studio Machine Learning Studio - continued Jupyter Notebook  or Jupyter Lab"
+    },
+    {
+      "index": 17,
+      "title": "Machine Learning Studio - continued Running Experiments",
+      "text": "Machine Learning Studio - continued Running Experiments"
+    },
+    {
+      "index": 18,
+      "title": "Machine Learning Studio - authentication To run ML",
+      "text": "Machine Learning Studio - authentication To run ML jobs you need to authenticate using one of three main methods: Interactive – per-user authentication during experimentation and iterative development. Can prompt user to authenticate. Service principal – non-human account to run your jobs automatically. Need name/password (called \" clientId \" and \" clientSecret \") - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-setup-authentication#configure-a-service-principal Managed identity – used when using ML SDK on Azure VM or cluster. Allows to connect to workspace without storing credentials in Python code or prompting the user to authenticate from azureml.core.authentication import InteractiveLoginAuthentication from azureml.core.workspace import Workspace from azureml.core.authentication import ServicePrincipalAuthentication # interactive_auth = InteractiveLoginAuthentication ( tenant_id = \" your-ad-tenant-id \") sp = ServicePrincipalAuthentication ( tenant_id =\" your-ad-tenant-id \", service_principal_id =\" clientId \", service_principal_password =\" clientSecret \" ) # load existing worksapce bag.ws = Workspace.get (name=' your-ml-workspace-name ', auth= sp , subscription_id =' your-subscription-name ', resource_group =' your-resource-group-name ' ) Example: Service principal authentication in python script:"
+    },
+    {
+      "index": 19,
+      "title": "Azure ML Pricing - https://azure.microsoft.com/en-us/pricing/details/machine-learning/ Here is a",
+      "text": "Azure ML Pricing - https://azure.microsoft.com/en-us/pricing/details/machine-learning/ Here is a very good post on training using sklearn – and then register the model in ML Studio: https://towardsdatascience.com/deploying-ml-models-on-azure-a948c106f7b5 or https://ai.plainenglish.io/deploying-ml-models-on-azure-8daa9c10db5a This above tutorial doesn't actually \"deploy\" the model. The more appropriate title should be \" Register your custom python model in ML Studio \" Note the use of library \" joblib \" to store the model into pickle (and to retrieve it). from sklearn.externals import joblib joblib.dump (value= mymodel , filename=\" mymodel.pkl \") and then: from azureml.core.model import Model model = Model.register ( workspace= ws , model_path =\" mymodel.pkl \", model_name =\" boston_housing_lr \") Then you can use the second tutorial on how to deploy the model: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-and-where For this deployment you will need to write the \" entry script \" with methods init () and run() Once you have this script, you can go to your models (in ML Studio), click on your model, then click on \"Deploy\" on top, fill-in parameters (name, ... , entry script, ...) - and click the button to deploy it. Another (simpler) way to deploy the model is to create a ML pipeline with the python script, and then execute it from ADF (Azure Data Factory): https://docs.microsoft.com/en-us/azure/data-factory/transform-data-machine-learning-service Very good youtube video \" Train and deploy ML models at scale using Azure Machine Learning | INT134C \"  - - https://www.youtube.com/watch?v=2OgBxYCnVGk And here is the link from this video to a good 10-hrs course: \" Build AI solutions with Azure Machine Learning \" - https://docs.microsoft.com/en-us/learn/paths/build-ai-solutions-with-azure-ml-service/ Yet another good tutorial: \" Creating End-to-End MLOps pipelines \" - https://benalexkeen.com/creating-end-to-end-mlops-pipelines-using-azure-ml-and-azure-pipelines-part-1/ Machine Learning Workshop: - https://github.com/microsoft/MCW-Machine-Learning ML Ops Workshop: - https://github.com/microsoft/MCW-ML-Ops Also: https://docs.microsoft.com/en-us/azure/machine-learning/ https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-pipeline-batch-scoring-classification https://azure.microsoft.com/en-us/blog/retraining-and-updating-azure-machine-learning-models-with-azure-data-factory/ https://azure.microsoft.com/en-us/blog/azure-data-factory-updates-integration-with-azure-machine-learning-2/ https://docs.microsoft.com/en-us/azure///data-factory/transform-data-machine-learning-service Pipelines - https://www.youtube.com/watch?v=lVP7ywRq8p4 Old (2016) video about calling ML from Azure Data Factory - https://www.youtube.com/watch?v=7k4XvM4wd0k Azure ML : Some Links"
+    },
+    {
+      "index": 20,
+      "title": "Azure ML : More Links Google- ing mount",
+      "text": "Azure ML : More Links Google- ing mount datastore azure ml notebook - - https://github.com/microsoft/MLOpsPython - - https://docs.microsoft.com/en-us/python/api/azureml-core/azureml.core.datastore?view=azure-ml-py - Develop for Azure Files with Python - - https://docs.microsoft.com/en-us/azure/storage/files/storage-python-how-to-use-file-storage - Azure for Python Developers - - https://docs.microsoft.com/en-us/azure/developer/python/ - Azure REST API Reference - - https://docs.microsoft.com/en-us/rest/api/azure/ - Azure SDK for Python - - https://github.com/Azure/azure-sdk-for-python/tree/master/sdk/storage - - https://docs.microsoft.com/en-us/python/api/overview/azure/ml/?view=azure-ml-py - Azure SDK – trigger published pipeline - - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-trigger-published-pipeline#trigger-pipelines-with-azure-machine-learning-sdk-for-python – Automate ML Experiments - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-automlstep-in-pipelines - - https://towardsdatascience.com/hidden-tricks-for-running-automl-experiment-from-azure-machine-learning-sdk-915d4e3f840e - Understand AutoML - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-understand-automated-ml#regressionforecasting-metrics - - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train#primary-metric - What is Automated ML - https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml - Many Models Solution Accelerator - https://github.com/microsoft/solution-accelerator-many-models - Configure automated ML experiments in Python: - https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-auto-train -"
+    },
+    {
+      "index": 21,
+      "title": "Azure Synapse Analytics Azure Synapse Workspace – newest",
+      "text": "Azure Synapse Analytics Azure Synapse Workspace – newest collection of Azure tools for Analytics - https://azure.microsoft.com/en-us/services/synapse-analytics/ Azure Storage Gen 2 substitutes for Storage Gen1 and Data Lake Gen 1. Gen 2 is more reliable, efficient, cheaper, supports Big Data Data pools (Serverless, Dedicated, Spark). Dedicated SQL Pool = SQL DataWarehouse You can query csv, jason , parquet files - serverless SQL pools Compute clusters – including Spark Data Factory – to automate data flows Azure Synapse Link for Azure Cosmos DB https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link Cosmos DB Analytical Store https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction Power BI Integration"
+    },
+    {
+      "index": 22,
+      "title": "Synapse - Always Clusters = Pools (for parallel",
+      "text": "Synapse - Always Clusters = Pools (for parallel processing) SQL Engine SQL Pools (Dedicated & Serveless ) Spark Engine Spark Pools PySpark SQL SQL SQL Spark Spark Spark Note: Databricks can also be used as part of Synapse Integrate pipelines, although it is not part of Synapse Studio"
+    },
+    {
+      "index": 23,
+      "title": "Slide 23",
+      "text": ""
+    },
+    {
+      "index": 24,
+      "title": "Analyze Load and Serve Store Prep and train",
+      "text": "Analyze Load and Serve Store Prep and train Ingest Common ML Architecture (migrating data from AWS) Prepare Data for ML Power BI Azure Data Lake Store Azure Data Factory Azure Auto ML Azure Synapse Analytics Integrate Synapse SQL Use Visual Studio SSAS project or SSIS to retrieve the Cube(s) AWS S3 Bucket Cube(s) in CSV Pull from S3 shaped data Predicted results"
+    },
+    {
+      "index": 25,
+      "title": "Slide 25",
+      "text": ""
+    },
+    {
+      "index": 26,
+      "title": "Create Synapse Analytics Workspace Then click on \"Open",
+      "text": "Create Synapse Analytics Workspace Then click on \"Open Synapse Studio"
+    },
+    {
+      "index": 27,
+      "title": "SQL script Notebook Data flow Apache Spark job",
+      "text": "SQL script Notebook Data flow Apache Spark job Synapse Analytics Studio pipeline copy data"
+    },
+    {
+      "index": 28,
+      "title": "Synapse Notebook You can run different languages –",
+      "text": "Synapse Notebook You can run different languages – Python, SQL, Scala, etc. Over a compute cluster – easy to resize as needed. (shuts down after some idle time you specify)."
+    },
+    {
+      "index": 29,
+      "title": "Each Notebook Gets Its Own Cluster Notebook \"Lev1\"",
+      "text": "Each Notebook Gets Its Own Cluster Notebook \"Lev1\" is running Second notebook can't re-use the same cluster"
+    },
+    {
+      "index": 30,
+      "title": "PySpark Notebook – like Jupyter Notebook similar to",
+      "text": "PySpark Notebook – like Jupyter Notebook similar to Jupyter notebook, provides inline help can use regular python (current version 3.6.9) can use azureml libraries, sklearn libraries, matplotlib, seaborn, etc. can use spark/ pyspark and MLlib libraries - https://spark.apache.org/docs/ latest/"
+    },
+    {
+      "index": 31,
+      "title": "Synapse Spark vs DataBricks Databricks Synapse Spark Spark",
+      "text": "Synapse Spark vs DataBricks Databricks Synapse Spark Spark very fast Runtime can use GPU-clusters standard/high-concurrency Open-source Apache Spark support for .NET Notebooks Databricks Notebooks Real-time co-authoring Automated versioning Nteract Notebooks Has co-authoring of Notebooks, but one person needs to save the Notebook before another person sees the change. Doesn’t have automated versioning Access Data Lake You need to mount a data lake before using it When creating Synapse, you can select your primary D.L. Delta Databricks Delta has extra optimizations - https://docs.microsoft.com/en-us/azure/databricks/delta/ Delta Lake is a storage layer that brings scalable, ACID transactions to Apache Spark and other big-data engines Delta Lake is open source - https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-what-is-delta-lake - https://github.com/delta-io/delta Not the same Is not a data warehouse tool but rather a Spark-based notebook tool Has a focus on Spark , Delta Engine , MLflow ( open source platform to manage the ML lifecycle) and MLR (Machine Learning in R) Has both a traditional SQL engine as well as a Spark engine Is a data warehouse (i.e. Synapse Analytics) + an interface tool (i.e. Synapse Studio) Developer Experience Databricks UI, Databricks Connect (i.e. remote connect from Visual Studio Code, Pycharm , etc.) and soon Jupyter & RStudio UI within Databricks Spark-development only through Synapse Studio (not through local IDEs) Doesn’t have Git yet integrated within the Synapse Studio Notebooks Accessing Databricks Delta-Lake from Synapse https://giangnt2.medium.com/directly-reading-delta-lake-data-from-azure-synapse-8b911dce2bcd https://mrpaulandrew.com/2021/01/21/how-interchangeable-are-delta-tables-between-azure-databricks-and-azure-synapse-analytics/"
+    },
+    {
+      "index": 32,
+      "title": "Synapse Pools Spark Pools SQL Pools: .. Dedicated",
+      "text": "Synapse Pools Spark Pools SQL Pools: .. Dedicated SQL Pool ( formerly SQL DW ) .. Serverless Pool (on-demand, use SQL to query files, databases, or Spark Tables"
+    },
+    {
+      "index": 33,
+      "title": "Synapse SQL Query from Data Source Synapse Notebooks:",
+      "text": "Synapse SQL Query from Data Source Synapse Notebooks: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks?tabs=classical Table or Chart Output Query from Notebook using pyspark or SQL"
+    },
+    {
+      "index": 34,
+      "title": "Synapse SQL Scripts Example of SQL Query from",
+      "text": "Synapse SQL Scripts Example of SQL Query from CSV files in Blob Storage"
+    },
+    {
+      "index": 35,
+      "title": "Synapse – getting link to a file in",
+      "text": "Synapse – getting link to a file in Blob Storage for SQL Locate the file in Blob storage Right-click on it and select \"Select top 100 rows\" You will get an SQL you can copy and use"
+    },
+    {
+      "index": 36,
+      "title": "Synapse Integrate Creating Data Pipelines Move and Process",
+      "text": "Synapse Integrate Creating Data Pipelines Move and Process data Examples: Synapse Notebook Synapse Spark job definition Synapse SQL pool stored procedure Databricks Notebook Databricks Jar Databricks Python Machine Learning Batch Execution Machine Learning Update Resource Machine Learning Execute Pipeline - https://docs.microsoft.com/en-us/azure/data-factory/ - https://docs.microsoft.com/en-us/azure/data-factory/transform-data-databricks-notebook - https://docs.microsoft.com/en-us/azure/data-factory/transform-data-databricks-jar - https://docs.microsoft.com/en-us/azure/data-factory/transform-data-databricks-python - https://docs.microsoft.com/en-us/azure/data-factory/transform-data-using-machine-learning - https://docs.microsoft.com/en-us/azure/data-factory/update-machine-learning-models - https://docs.microsoft.com/en-us/azure/data-factory/transform-data-machine-learning-service"
+    },
+    {
+      "index": 37,
+      "title": "Azure Synapse Pricing https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/ Azure Synapse Documentation: https://docs.microsoft.com/en-us/azure/synapse-analytics/",
+      "text": "Azure Synapse  Pricing https://azure.microsoft.com/en-us/pricing/details/synapse-analytics/ Azure Synapse Documentation: https://docs.microsoft.com/en-us/azure/synapse-analytics/ Good one-page tutorial on using pyspark notebook: https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks Sample notebooks: https://github.com/Azure-Samples/Synapse/tree/main/Notebooks Visualize data https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-data-visualization-tutorial Apache Spark: https://en.wikipedia.org/wiki/Apache_Spark Accessing files in Azure Gen2 storage: https://github.com/Azure-Samples/Synapse/blob/main/Notebooks/PySpark/01%20Read%20and%20write%20data%20from%20Azure%20Data%20Lake%20Storage%20Gen2.ipynb Azure Synapse Pricing and Docs"
+    },
+    {
+      "index": 38,
+      "title": "Tutorial and Lab (step-by-step) - https://github.com/microsoft/MCW-Azure-Synapse-Analytics-and-AI - https://github.com/microsoft/MCW-Azure-Synapse-Analytics-and-AI/blob/master/Hands-on%20lab/HOL%20step-by%20step%20-%20Azure%20Synapse%20Analytics%20and%20AI.md",
+      "text": "Tutorial and Lab (step-by-step) - https://github.com/microsoft/MCW-Azure-Synapse-Analytics-and-AI - https://github.com/microsoft/MCW-Azure-Synapse-Analytics-and-AI/blob/master/Hands-on%20lab/HOL%20step-by%20step%20-%20Azure%20Synapse%20Analytics%20and%20AI.md Note: MSFT provides this as Free training – you need to get credentials from them, log-in to the Azure portal https://portal.azure.com/ with provided credentials. Note - use incognito mode in Chrome, allow all cookies, stop all ad-blockers. Notes: Three similar serverless solutions: Azure Serverless, Google BigQuery AWS Athena Best practices for serverless SQL pool: - https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/best-practices-sql-on-demand Capacity limits for dedicated SQL pool in Azure Synapse Analytics: - https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-service-capacity-limits REST APIs for dedicated SQL pool (formerly SQL DW) in Azure Synapse Analytics: - https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-manage-compute-rest-api Azure Machine Learning Tutorials: - https://github.com/Azure/MachineLearningNotebooks/tree/master/tutorials - Azure Synapse Analytics and AI"
+    },
+    {
+      "index": 39,
+      "title": "Running Models from SQL or Power BI Trained",
+      "text": "Running Models from SQL or Power BI Trained Model can be registered in SQL as a function ! Recommended approach: pickle file of the model, convert to ONNX ( onnx.ai - Open Neural Network Exchange) use it from SQL server: - https://docs.microsoft.com/en-us/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-predict Alternatively: create a stored procedure to get the data, and then invoke model via cursor Also the model may be invoked via REST API endpoint . Invoke model from PowerBI : - https://github.com/alex-nogue/Machine_Learning_in_Power_BI#invoke-a-model-in-power-bi-using-azure-ml-service Three Ways to Run ML on SQL Server ML Service native PREDICT Remote Compute Context - https://tsmatz.wordpress.com/2018/03/02/patterns-sql-server-machine-learning-services-r-and-python/ ----------------------------------------------------------- -- Sample table schema for storing a model and related data CREATE TABLE [ dbo ].[Models] ( [Id] [int] IDENTITY(1,1) NOT NULL, [Model] [ varbinary ](max) NULL, [Description] [varchar](200) NULL ) WITH ( DISTRIBUTION = ROUND_ROBIN, HEAP ) GO ----------------------------------------------------------- -- Copy command to load hexadecimal string of the model -- from Azure Data Lake storage location COPY INTO [Models] (Model) FROM '<enter your storage location>' WITH ( FILE_TYPE = 'CSV', CREDENTIAL=(IDENTITY='access-id', SECRET='storage-key') ) ----------------------------------------------------------- -- Query for ML predictions SELECT d.*, p.Score FROM PREDICT( MODEL = (SELECT Model FROM Models WHERE Id = 1), DATA = dbo.mytable AS d, RUNTIME = ONNX) WITH (Score float) AS p;"
+    },
+    {
+      "index": 40,
+      "title": "Typical Data Organization for Analytics DB Files Queries",
+      "text": "Typical Data Organization for Analytics DB Files Queries Results OLAP database with columnar storage for fast and flexible querying (a.k.a. Analytical Store). Rise and Fall of the OLAP Cubes: https://www.holistics.io/blog/the-rise-and-fall-of-the-olap-cube/ Interactive Dashboards (Power BI)"
+    },
+    {
+      "index": 41,
+      "title": "Power BI in Azure Synapse SQL Pools Synapse",
+      "text": "Power BI in Azure Synapse SQL Pools Synapse – Simplified Architecture for Analytics (no intermediate analytical store) Microsoft Power BI on Azure - https://azure.microsoft.com/en-us/services/developer-tools/power-bi/ - https://powerbi.microsoft.com/en-us/"
+    },
+    {
+      "index": 42,
+      "title": "Power BI No-code ML in Power BI is",
+      "text": "Power BI No-code ML in Power BI is similar to AutoML in Azure ML Studio Tutorial: Build a Machine Learning model in Power BI - https://docs.microsoft.com/en-us/power-bi/connect-data/service-tutorial-build-machine-learning-model Create a dataflow with the input data Create and train a machine learning model Review the model validation report Apply the model to a dataflow entity Using the scored output from the model in a Power BI report"
+    },
+    {
+      "index": 43,
+      "title": "Linking to Power BI from within Azure Synapse",
+      "text": "Linking to Power BI from within Azure Synapse Tutorial: https://docs.microsoft.com/en-us/azure/synapse-analytics/get-started-visualize-power-bi"
+    },
+    {
+      "index": 44,
+      "title": "Cosmos DB – Synapse Integration - https://docs.microsoft.com/en-us/azure/cosmos-db/use-cases -",
+      "text": "Cosmos DB – Synapse Integration - https://docs.microsoft.com/en-us/azure/cosmos-db/use-cases - https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link Azure Cosmos DB: fast NoSQL multi-model database (key-value, documents, graphs and columnar) low order-of-millisecond response times global scaling"
+    },
+    {
+      "index": 45,
+      "title": "More Links: Visual Studio Code – good editor:",
+      "text": "More Links: Visual Studio Code – good editor: - https://code.visualstudio.com/ Download Integration Runtime: - https://www.microsoft.com/en-us/download/details.aspx?id=39717 - Download AZCopy : - https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10 - AZCopy Documentation: - https://docs.microsoft.com/en-us/azure/storage/common/storage-ref-azcopy-copy - Transfer S3 using AzCopy : - https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-s3 - Differences between Standard and Premium storage: - https://www.danielstocker.net/what-is-the-difference-between-azure-standard-storage-and-azure-premium-storage/ - -"
+    },
+    {
+      "index": 46,
+      "title": "Azure Cognitive Services - https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services - https://docs.microsoft.com/en-us/azure/cognitive-services/ Pros",
+      "text": "Azure Cognitive Services - https://docs.microsoft.com/en-us/azure/cognitive-services/what-are-cognitive-services - https://docs.microsoft.com/en-us/azure/cognitive-services/ Pros - easy to use, high quality services Cons – may be costly depending on data volume Ready-to-use AI Solutions No Machine-Learning expertise required Use API call to embed the ability to see, hear, speak, search, or understand into your process Accelerate decision-making in your apps 4-12% cheaper than comparable services in AWS 1. Vision Image analysis and anotation Handwriting recognition Celebrity and landmark recognition in pictures Read the text in images Analyze videos in real-time (text-based descriptions) 2. Speech Speech recognition and speech-to-text transcriptions Text-to-speech transcriptions Real-time translations Speaker verification (Id a person by analyzing speech) 3. Language Text Analytics API - key phrases, languages, sentiment, and interlinking Bing spell check (proofreading) Translator text Content moderator (images, text) 4. Knowledge Q&A maker (build FAQ) 5. Search Bing web search Bing custom search (filter, safety, etc.) Bing video search Bing image search Bing news search"
+    },
+    {
+      "index": 47,
+      "title": "Machine Learning Architectures Nice Review about MLOps Reference",
+      "text": "Machine Learning Architectures Nice Review about MLOps Reference Architectures https://medium.com/dataseries/machine-learning-reference-architectures-from-google-facebook-uber-databricks-and-others-58191cf82b98 The lifecycle of Machine Learning solutions is fundamentally different than other software disciplines, because the deployed model needs to be constantly re-trained and optimized ."
+    },
+    {
+      "index": 48,
+      "title": "Kubeflow - a simple a way to train",
+      "text": "Kubeflow - a simple a way to train and deploy Machine Learning models using TensorFlow on Kubernetes . Azure ML: https://docs.microsoft.com/en-us/azure/machine-learning/overview-what-is-azure-ml Kubeflow: Azure Kubernetes Service ( AKS ) - https://azure.microsoft.com/en-us/services/kubernetes-service/ Kubeflow - https://www.kubeflow.org/ Kubeflow on Azure - https://www.kubeflow.org/docs/distributions/azure/ End-to-end Kubeflow pipeline example - https://www.kubeflow.org/docs/distributions/azure/azureendtoend/ Azure Kubeflow Labs - https://github.com/Azure/kubeflow-labs Kubeflow"
+    },
+    {
+      "index": 49,
+      "title": "Kubeflow Kubeflow began as an internal Google project,",
+      "text": "Kubeflow Kubeflow began as an internal Google project, it is a simple a way to ran TensorFlow on Kubernetes . Kubeflow was open sourced at Kubecon conference (USA, December 2017). Later it was expanded to be a multi-architecture, multi-cloud framework for running entire ML (Machine Learning) pipelines. Purpose - to make training and deployments of ML on Kubernetes simple, portable and scalable. Kubeflow allows to: do python coding in Jupyter notebooks use popular training libraries and formats: TensorFlow, PyTorch , scikit-learn, XGBoost , ONNX - https://www.kubeflow.org/docs/components/serving/kfserving/ run code efficiently and securely in Kubernetes, isolated namespaces portability between your laptop, on-prem cluster, or any of major clouds portability between teams Kubeflow’s hyperparameter tuner ( Katib ) saves days of training Kubeflow Pipelines - build ML workflows for integration and deployment - https://github.com/kubeflow/kubeflow/blob/master/ROADMAP.md - https://www.kubeflow.org/docs/about/use-cases/ - https://en.wikipedia.org/wiki/Kubeflow - https://medium.com/kubeflow/kubeflow-1-0-cloud-native-ml-for-everyone-a3950202751 Jeremy Lewi Google David Aronchick Microsoft, Azure (originally - Google) Vishnu Kannan Google David Aronchick - Azure, Microsoft (former Google) - https://www.linkedin.com/in/aronchick/ Jeremy Lewi  - Google - https://www.linkedin.com/in/jeremy-lewi-600aaa8/ Vishnu Kannan - Google - https://www.linkedin.com/in/vishnukanan/ Kubeflow was co-founded by Google engineers"
+    },
+    {
+      "index": 50,
+      "title": "Machine Learning in Azure Cloud VM (Virtual Machine)",
+      "text": "Machine Learning in Azure Cloud VM (Virtual Machine) Machine Learning Studio Synapse Analytics Running models in SQL Power BI Cognitive Services Azure Kubernetes Service (AKS), Kubeflow Azure Cloud"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Machine Learning in Azure Cloud VM (Virtual Machine)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Machine Learning in Azure Cloud VM (Virtual Machine)",
+      "source": "slide"
+    },
+    {
+      "claim": "predictions (predictive analytics, forecasting, trends, investments, elections, sport",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "predictions (predictive analytics, forecasting, trends, investments, elections, sport",
+      "source": "slide"
+    },
+    {
+      "claim": "Andrew Ng - co-founded and led Google Brain",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Andrew Ng - co-founded and led Google Brain",
+      "source": "slide"
+    },
+    {
+      "claim": "“AI is Life Extinction Event ?” “AI -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "“AI is Life Extinction Event ?” “AI -",
+      "source": "slide"
+    },
+    {
+      "claim": "OK, so what is Machine Learning? - A",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "OK, so what is Machine Learning? - A",
+      "source": "slide"
+    },
+    {
+      "claim": "Deep Learning (DL) ML implemented as Neural Network",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Deep Learning (DL) ML implemented as Neural Network",
+      "source": "slide"
+    },
+    {
+      "claim": "Recent breakthroughs in DL made it practical (effective,",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Recent breakthroughs in DL made it practical (effective,",
+      "source": "slide"
+    },
+    {
+      "claim": "AI in Context Artificial Intelligence (AI) ML performing",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "AI in Context Artificial Intelligence (AI) ML performing",
+      "source": "slide"
+    },
+    {
+      "claim": "Ray Kurzweil, chief engineer for Google and famous",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Ray Kurzweil, chief engineer for Google and famous",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure - VM or DSVM VM (Virtual Machine)",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Azure - VM or DSVM VM (Virtual Machine)",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure AD Azure Subscriptions Users Groups Resource Groups",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Azure AD Azure Subscriptions Users Groups Resource Groups",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure Machine Learning Machine Learning Workspace – set",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Azure Machine Learning Machine Learning Workspace – set",
+      "source": "slide"
+    }
+  ]
+}

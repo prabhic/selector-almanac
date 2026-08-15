@@ -1,0 +1,184 @@
+{
+  "id": "unknown-da-08-three-clouds",
+  "date": null,
+  "title": "DA 08 Three Clouds",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "data-engineering"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_08_Three_Clouds.pptx",
+    "filename": "DA_08_Three_Clouds.pptx",
+    "title": "DA 08 Three Clouds",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_08_Three_Clouds.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_08_Three_Clouds.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Three Clouds Amazon AWS Amazon Web Services https://aws.amazon.com",
+      "text": "Three Clouds Amazon AWS Amazon Web Services https://aws.amazon.com https://aws.amazon.com/marketplace Microsoft Azure https://portal.azure.com Google GCP Google Cloud Platform https://cloud.google.com"
+    },
+    {
+      "index": 2,
+      "title": "Three Clouds",
+      "text": "Three Clouds"
+    },
+    {
+      "index": 3,
+      "title": "Three Clouds",
+      "text": "Three Clouds"
+    },
+    {
+      "index": 4,
+      "title": "Slide 4",
+      "text": ""
+    },
+    {
+      "index": 5,
+      "title": "Slide 5",
+      "text": ""
+    },
+    {
+      "index": 6,
+      "title": "Virtual Machines VM: EC2 = Elastic Cloud Compute",
+      "text": "Virtual Machines VM: EC2 = Elastic Cloud Compute Disk: EBS = Elastic Block Storage VM: Virtual Machine Disk: Managed Disk VM: Google Compute Disk: Persistent Disk"
+    },
+    {
+      "index": 7,
+      "title": "Storage S3 (Simple Storage Service) ADLS (Azure Data",
+      "text": "Storage S3 (Simple Storage Service) ADLS (Azure Data Lake Storage Gen2) Azure Blobs Azure Files Cloud Storage"
+    },
+    {
+      "index": 8,
+      "title": "Databases RDS (Relational Database Service) Amazon Aurora (MySQL,",
+      "text": "Databases RDS (Relational Database Service) Amazon Aurora (MySQL, PostreSQL) PostgreSQL MySQL, MariaDB Oracle Database SQL Server Redshift Snowflake.net Athena (serverless) = Managed Apache PrestoDB DynamoDB (key-value, distributed, global) Neptune Graph Database Microsoft SQL Server Synapse Dedicated Pools (SQL Data Warehouse) SQL Serverless Cosmos DB MySQL, PostreSQL Cloud SQL: managed MySQL, PostgreSQL, SQL Server Cloud BigQuery : Serverless DW, globally scalable, cost-effective Cloud Spanner: 99.999% availability, gaming, global fin. ledger, inventory Cloud Bigtable: NoSQL wide-column (similar to HBase & Apache Cassandra) Firestore : NoSQL for Mobile, IoT, ... Firebase Realtime DB: mobile, personalized ads, in-app chats, ... Memorystore : Redis or Memcached MongoDB Atlas Neo4j Auro (Graph DB) Datastax (NoSQL built on Apache Cassandra)"
+    },
+    {
+      "index": 9,
+      "title": "Integrate ADF (Azure Data Factory) Synapse Integrate Storage",
+      "text": "Integrate ADF (Azure Data Factory) Synapse Integrate Storage Transfer Service Datalab DataPrep DataFlow Amazon Glue: managed ETL service Amazon Data Pipeline AppFlow Kinesis Firehose AWS Datasync AWS Data Migration Service"
+    },
+    {
+      "index": 10,
+      "title": "Serverless Functions Lambda functions Azure Functions Cloud Functions",
+      "text": "Serverless Functions Lambda functions Azure Functions Cloud Functions C# Go Java PowerShell Node.Js Python Ruby Runtime API to use any other language To add pandas, etc. install locally, zip, add as zip file create your own docker image with it C# F# Java JavaScript Powershell Python TypeScript Note: no “Go” To add pandas, etc. use local requirements.txt and then deploy C# Go Java Node.js Python Ruby To add pandas, etc. use requirements.txt file (pip) package (zip) your modules"
+    },
+    {
+      "index": 11,
+      "title": "Hadoop, Spark, ... Amazon EMR (Elastic MapReduce) Databricks",
+      "text": "Hadoop, Spark, ... Amazon EMR (Elastic MapReduce) Databricks PySpark Databricks Dataproc (Spark, Presto, Flink , ...) Databricks"
+    },
+    {
+      "index": 12,
+      "title": "Dashboards Amazon QuickSight Power BI Google Data Studio",
+      "text": "Dashboards Amazon QuickSight Power BI Google Data Studio"
+    },
+    {
+      "index": 13,
+      "title": "Machine Learning SageMaker .. python .. jupyter notebooks",
+      "text": "Machine Learning SageMaker .. python .. jupyter notebooks .. deployment Machine Learning Studio ML in Power BI ML in PySpark Machine Learning: DataLab ML Engine AutoML Colaboratory ( Colab ) free jupyter notebooks with GPU Kaggle - ML competitions, code, notebooks (kernels), ... - https://www.kaggle.com/"
+    },
+    {
+      "index": 14,
+      "title": "ML & AI Solutions Amazon: Comprehend (extract from",
+      "text": "ML & AI Solutions Amazon: Comprehend (extract from text) CodeGuru (auto code review) Lex (Chatbots) Forecast Textract (extract text & data from millions of docs) Kendra (Natural Language Search) Fraud Detector Rekognition - image/video analysis, Personalize - recommendation engine, Translate - real time translation Polly - text-to-speech Transcribe - speech to text QuickSight - Analytics dashboards Azure Cognitive Services Google Cloud AI Services Cloud Vision API Video Intelligence API Cloud Speech API Cloud Natural Language Cloud Translation 1. Vision Image analysis and anotation Handwriting recognition Celebrity and landmark recognition in pictures Read the text in images Analyze videos in real-time (text-based descriptions) 2. Speech Speech recognition and speech-to-text transcriptions Text-to-speech transcriptions Real-time translations Speaker verification (Id a person by analyzing speech) 3. Language Text Analytics API - key phrases, languages, sentiment, and interlinking Bing spell check (proofreading) Translator text Content moderator (images, text) 4. Knowledge Q&A maker (build FAQ) 5. Search Bing web search Bing custom search (filter, safety, etc.) Bing video search Bing image search Bing news search"
+    },
+    {
+      "index": 15,
+      "title": "Data Governance & Lineage BigID Collibra PKWARE Reltio",
+      "text": "Data Governance & Lineage BigID Collibra PKWARE Reltio Zaloni Azure Purview Cloud Governance BigQuery Data Governance"
+    },
+    {
+      "index": 16,
+      "title": "Dev Ops, CD/CI AWS Developer Tools AWS CodePipeline",
+      "text": "Dev Ops, CD/CI AWS Developer Tools AWS CodePipeline AWS CodeBuild AWS CodeDeploy AWS CodeStar Microservices, containers , serverless computing ECS = Amazon Elastic Container Service AWS CloudFormation AWS OpsWorks (Chef) AWS Systems Manager AWS Config Amazon CloudWatch AWS X-Ray AWS CloudTrail AWS Elastic Beanstalk AWS CodeCommit https://aws.amazon.com/devops Azure DevOps Azure Web Apps Azure Pipelines CI/CD Cloud Build Artifact Registry Cloud Source Repositories Tekton Pipelines Jenkins"
+    },
+    {
+      "index": 17,
+      "title": "https:// www.advanresearch.com / Use Case - Advan Research",
+      "text": "https:// www.advanresearch.com / Use Case - Advan Research Corporation 0.75 TB of compressed data daily 2PB+ of storage Google BigQuery Loading, Sharding , Clustering"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Three Clouds Amazon AWS Amazon Web Services https://aws.amazon.com",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Three Clouds Amazon AWS Amazon Web Services https://aws.amazon.com",
+      "source": "slide"
+    },
+    {
+      "claim": "Virtual Machines VM: EC2 = Elastic Cloud Compute",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Virtual Machines VM: EC2 = Elastic Cloud Compute",
+      "source": "slide"
+    },
+    {
+      "claim": "Storage S3 (Simple Storage Service) ADLS (Azure Data",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Storage S3 (Simple Storage Service) ADLS (Azure Data",
+      "source": "slide"
+    },
+    {
+      "claim": "Databases RDS (Relational Database Service) Amazon Aurora (MySQL,",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Databases RDS (Relational Database Service) Amazon Aurora (MySQL,",
+      "source": "slide"
+    },
+    {
+      "claim": "Integrate ADF (Azure Data Factory) Synapse Integrate Storage",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Integrate ADF (Azure Data Factory) Synapse Integrate Storage",
+      "source": "slide"
+    },
+    {
+      "claim": "Serverless Functions Lambda functions Azure Functions Cloud Functions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Serverless Functions Lambda functions Azure Functions Cloud Functions",
+      "source": "slide"
+    },
+    {
+      "claim": "Hadoop, Spark, ... Amazon EMR (Elastic MapReduce) Databricks",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Hadoop, Spark, ... Amazon EMR (Elastic MapReduce) Databricks",
+      "source": "slide"
+    },
+    {
+      "claim": "Dashboards Amazon QuickSight Power BI Google Data Studio",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Dashboards Amazon QuickSight Power BI Google Data Studio",
+      "source": "slide"
+    }
+  ]
+}

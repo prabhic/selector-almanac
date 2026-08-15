@@ -1,0 +1,223 @@
+{
+  "id": "2022-10-14-2022-10-14-baseball-mark",
+  "date": "2022-10-14",
+  "title": "Baseball-Mark",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "safety"
+  ],
+  "video": {
+    "id": "ZnqiJtzMZWA",
+    "title": "Data Analytics in Baseball & Effectiveness of Shifting in Major League Baseball",
+    "url": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+    "thumbnail": "https://i.ytimg.com/vi/ZnqiJtzMZWA/hqdefault.jpg",
+    "duration": 1138
+  },
+  "deck": {
+    "path": "2022/2022-10-14-Baseball-Mark.pptx",
+    "filename": "2022-10-14-Baseball-Mark.pptx",
+    "title": "Baseball-Mark",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-10-14-Baseball-Mark.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-10-14-Baseball-Mark.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Modern Baseball Strategy",
+      "startSeconds": 107,
+      "label": "01:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Billy Bean",
+      "startSeconds": 220,
+      "label": "03:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Moneyball",
+      "startSeconds": 264,
+      "label": "04:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Infield Shift",
+      "startSeconds": 664,
+      "label": "11:04",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Analytics in Baseball & Effectiveness of Shifting",
+      "text": "Data Analytics in Baseball & Effectiveness of Shifting in Major League Baseball Mark Kaplan"
+    },
+    {
+      "index": 2,
+      "title": "Statistics in Baseball In 2021, the combined revenue",
+      "text": "Statistics in Baseball In 2021, the combined revenue of all Major League Baseball teams was 9.56 billion U.S. dollars, with each team looking for as many competitive advantages as possible Modern baseball strategy is largely data-driven, and tactics are employed based on statistical analysis, as opposed to relying on “tradition” or “feel.” The move from “tradition/feel” based tactics occurred in the late 1990’s in what is known as the Sabermetric or Moneyball revolution"
+    },
+    {
+      "index": 3,
+      "title": "Key Figures in Statistical Revolution Billy Beane Bill",
+      "text": "Key Figures in Statistical Revolution Billy Beane Bill James"
+    },
+    {
+      "index": 4,
+      "title": "Background on my research Throughout the past decades,",
+      "text": "Background on my research Throughout the past decades, baseball teams generally have positioned their defensive players in an alignment known as “straight-up,” as shown in this picture. With the advent of modern-tracking technology (radar & video), and the baseball data-driven revolution, teams are moving away from traditional defensive positioning and are starting to employ more granular positioning based on the offensive profile of each batter. These positionings are collectively known as “the shift.”"
+    },
+    {
+      "index": 5,
+      "title": "The following image is another example of a",
+      "text": "The following image is another example of a shift against a batter, with an overlay of the distribution of the batters’ balls in play. As one can see, this lefty batter clearly prefers one particular side, and the defense is accordingly positioned"
+    },
+    {
+      "index": 6,
+      "title": "Slide 6",
+      "text": ""
+    },
+    {
+      "index": 7,
+      "title": "Research Goal Effectiveness of Shift in preventing offensive",
+      "text": "Research Goal Effectiveness of Shift in preventing offensive production Effect on BABIP as shift increases over time period 2016 - 2019 Effect on other defensive statistics within a single season"
+    },
+    {
+      "index": 8,
+      "title": "The effect of Shift on BABIP",
+      "text": "The effect of Shift on BABIP"
+    },
+    {
+      "index": 9,
+      "title": "Does infield alignment affect hit probability? Linear Regression,",
+      "text": "Does infield alignment affect hit probability? Linear Regression, no shift data vs shift data Decision Tree"
+    },
+    {
+      "index": 10,
+      "title": "2017 Offensive Stats The second analysis we perform",
+      "text": "2017 Offensive Stats The second analysis we perform is the effect of shifting on offensive stats. We looked at strikeout and walk rate, BABIP, Batting Average, weighted On Base Average and Isolated Power"
+    },
+    {
+      "index": 11,
+      "title": "Conclusion We found that there is strong correlational",
+      "text": "Conclusion We found that there is strong correlational relationship between a defensive shift against left-handed batters and a decreased BABIP for the opposing batter, but came short of a statistically significant causation. We also found that there were statistical changes to offensive hitters when faced with a shift. We successfully answered our original research question of determining if a shift in defensive formation affects BABIP. We found that as shifted defenses increased, ground ball BABIP decreased, demonstrating that the strategy is effective at combating lefty hitters. We found that a switch to shift coverage against left handed hitters in the 2017 season negatively impacted a batter's strikeout rate, BABIP, batting average and isolated power, but also led to increases in walks, strike-outs-minus-walks and wOBA. We found much smaller changes in other indivigual offensive statistics such as hit direction (Pull, Cent, Oppo) and exit velocity (HARD), concluding that in our analysis we could not find significant changes in the ways that hitters approach at-bats."
+    },
+    {
+      "index": 12,
+      "title": "Additional Questions and Further Research The question of",
+      "text": "Additional Questions and Further Research The question of defensive infielding shifts against lefty batters is a constantly debated, scrutinized and researched question in professional baseball. In the future, work could be done on how pitch count affects the the shifted infields effectiveness. Perhaps it is more effective with a full count than on the first pitch. Another question could be how do infielding shifts affect right handed batters. Finally, work could be done on Ultimately, we demonstrated the effect of the defensive shift against left handed batters on BABIP and other offensive measures, and believe that there is a multitude of interesting research yet to be done on the subject."
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Data Analytics in Baseball & Effectiveness of Shifting",
+      "source": "youtube"
+    },
+    {
+      "claim": "Modern Baseball Strategy",
+      "topic": "general",
+      "videoSeconds": 107,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA&t=107s",
+      "slideIndex": 4,
+      "slideTitle": "Background on my research Throughout the past decades,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Billy Bean",
+      "topic": "general",
+      "videoSeconds": 220,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA&t=220s",
+      "slideIndex": 7,
+      "slideTitle": "Research Goal Effectiveness of Shift in preventing offensive",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moneyball",
+      "topic": "general",
+      "videoSeconds": 264,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA&t=264s",
+      "slideIndex": 9,
+      "slideTitle": "Does infield alignment affect hit probability? Linear Regression,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Infield Shift",
+      "topic": "general",
+      "videoSeconds": 664,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA&t=664s",
+      "slideIndex": 12,
+      "slideTitle": "Additional Questions and Further Research The question of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Statistics in Baseball In 2021, the combined revenue",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+      "slideIndex": 2,
+      "slideTitle": "Statistics in Baseball In 2021, the combined revenue",
+      "source": "slide"
+    },
+    {
+      "claim": "Key Figures in Statistical Revolution Billy Beane Bill",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+      "slideIndex": 3,
+      "slideTitle": "Key Figures in Statistical Revolution Billy Beane Bill",
+      "source": "slide"
+    },
+    {
+      "claim": "The following image is another example of a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+      "slideIndex": 5,
+      "slideTitle": "The following image is another example of a",
+      "source": "slide"
+    },
+    {
+      "claim": "The effect of Shift on BABIP",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+      "slideIndex": 8,
+      "slideTitle": "The effect of Shift on BABIP",
+      "source": "slide"
+    },
+    {
+      "claim": "2017 Offensive Stats The second analysis we perform",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+      "slideIndex": 10,
+      "slideTitle": "2017 Offensive Stats The second analysis we perform",
+      "source": "slide"
+    },
+    {
+      "claim": "Conclusion We found that there is strong correlational",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZnqiJtzMZWA",
+      "slideIndex": 11,
+      "slideTitle": "Conclusion We found that there is strong correlational",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "2021-01-22-21-01-22-precision-recall-roc-confusion-lev",
+  "date": "2021-01-22",
+  "title": "Precision Recall ROC Confusion",
+  "series": "data-science-2021",
+  "topics": [
+    "benchmarks",
+    "jobs",
+    "general",
+    "rag"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-01-22-Precision_Recall_ROC_Confusion_Lev.pptx",
+    "filename": "21-01-22-Precision_Recall_ROC_Confusion_Lev.pptx",
+    "title": "Precision Recall ROC Confusion",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-01-22-Precision_Recall_ROC_Confusion_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-01-22-Precision_Recall_ROC_Confusion_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Today's topic: How do we evaluate the quality",
+      "text": "Today's topic: How do we evaluate the quality of a binary classifier or a medical test ? Precision, Recall, ROC, AUC, F1, Sensitivity, Specificity, etc. Lev Selector January 22, 2021"
+    },
+    {
+      "index": 2,
+      "title": "ROC Curve & Precision-Recall Curve Receiver Operating Characteristic",
+      "text": "ROC Curve & Precision-Recall Curve Receiver Operating Characteristic ( ROC ) curves for a binary classifier: True Positive Rate (TPR) vs False Positive Rate (FPR) at various threshold settings . ROC curve was first developed by radar engineers during World War II for detecting enemy objects. TPR  = REC = Recall or Sensitivity =  TP/P  =  TP / (TP + FN) ( planes classified as planes / all planes' events) FPR = False Positive Rate = fall-out =  FP / N  =  FP / (FP + TN) ( noise classified as planes / all noise events ) PRE = Precision = TP/(TP+FP) ( planes classified as planes / all events classified as planes) TNR = SPC = Specificity = TN/N  =  TN/(FP+TN) (True Negative Rate) - ------------------------------------------------------------------------------- AUC = Area Under the Curve Simply the area under the ROC curve (1 = very good, 0.5 = bad) -------------------------------------------------------------------------------- F1 Score - a single number evaluation metric, harmonic average of the precision and recall : High Precision, Low Recall Low Precision, High Recall ROC Curve Precision-Recall Curve Low Threshold High Threshold Recall FPR Planes Noise Selecting Threshold Radar detects planes. It need to separate \"plane\" signals from noise."
+    },
+    {
+      "index": 3,
+      "title": "Noise Planes Noise Planes Noise Planes Noise Planes",
+      "text": "Noise Planes Noise Planes Noise Planes Noise Planes Precision – 100% Recall – 15% Ideal: Precision – 100% Recall – 100% Precision – 50% Recall – 100% Good: Precision – 90% Recall – 90% Noise Planes + Good Precision = Sniper Good Recall = Cover All Good"
+    },
+    {
+      "index": 4,
+      "title": "From: https://www.slideshare.net/KristenHunter/civitas-learning-understanding-roc-curves For measuring the performance of retrieval",
+      "text": "From: https://www.slideshare.net/KristenHunter/civitas-learning-understanding-roc-curves For measuring the performance of retrieval systems, several measures are used that depends on the following four major parameters: True Positive  (TP): True  is identified True  (correct identification) True Negative  (TN): False is identified False (correct identification) False Positive (FP): True  is identified False (wrong identification) False Negative (FN): False is identified True  (wrong identification) P = TP + FN (number of correct identification cases) N = FP + TN (number of wrong identification case) 25 Sensitivity = Recall = True Positive Rate (TPR) : TPR = (TP / P) = TP / (TP + FN) Specificity (SPC) or True Negative Rate (TNR)   : SPC = (TN / N) = TN / (FP + TN) Precision or Positive Predictive Value (PPV)    : PPV = TP / (TP + FP) Negative Predictive Value (NPV)                 : NPV = TN / (TN + FN) Fall-Out or False Positive Rate (FPR)           : FPR = (FP / N) = FP / (FP + TN) = 1 – SPC False Discovery Rate (FDR)                      : FDR = FP / (FP + TP) = 1 – PPV Miss Rate or False Negative Rate (FNR)          : FNR = FN / (FN + TP) Accuracy (ACC)                                  : ACC = (TP+TN) / (P+N) F1 Score                                        : F1  = 2*TP/(2*TP+FP+FN) Mathews Correlation Coefficient (MCC): MCC=(TP*TN-FP*FN)/sqrt((TP+FP)*(TP+FN)*(TN+FP) *(TN+FN)) Informedness = Sensitivity + Specificity -1 Markedness   = Precision + NPV -1 From : https://www.researchgate.net/post/How_do_I_calculate_the_false_alarm_rate_for_face_detection"
+    },
+    {
+      "index": 5,
+      "title": "Confusion Matrix from sklearn import metrics expected =",
+      "text": "Confusion Matrix from sklearn import metrics expected = target predicted = model.predict(data) metrics.precision_score(expected, predicted) metrics.recall_score(expected, predicted) metrics.roc_curve(expected, predicted) metrics.roc_auc_score(expected, predicted) metrics.confusion_matrix(expected, predicted) [[194156   4864] [    23    321]] For a simple binary classifier we are predicting one of two possibilities (Yes/No, Positive/Negative, Plane/No-Plane, Normal/Abnormal, etc.). So we construct a 2x2 matrix to visualize True & False Positives and Negatives. Accuracy  =  sum(Diagonal) / sum(ALL)  =  sum(Correct) / sum(ALL) Precision  =  TP / (TP+FP) Recall  =  TP / (TP+FN)  =  TP / All_Actual_Positives"
+    },
+    {
+      "index": 6,
+      "title": "Accuracy = sum(Diagonal) / sum(ALL) Recall = TP",
+      "text": "Accuracy = sum(Diagonal) / sum(ALL) Recall = TP / (TP+FN) = TP / Actual_Positives Precision = TP / (TP+FP) = TP / Predicted_Positives Nuclear Bomb - low precision (many FP) - high recall (get everything) Sniper - high precision (zero FP) - low recall (can't get everything)"
+    },
+    {
+      "index": 7,
+      "title": "Good ROC curve is above diagonal ROC curve",
+      "text": "Good ROC curve is above diagonal ROC curve axes: vertical      = True Positives  / All Actual Positives horizontal = False Positives / All Actual Negatives TP/P FP/N Low Threshold – detect all events and all noise Very high threshold. Cut off all noise – and most of \"planes\" Optimal threshold – cut off most of noise, but catches most of planes"
+    },
+    {
+      "index": 8,
+      "title": "Medical Test Paradox – Predictive Power of Positive",
+      "text": "Medical Test Paradox – Predictive Power of Positive or Negative Test Result from https://www.youtube.com/watch?v=lG4VkPoG3ko We have 1,000 people. 1% of them have a disease: N_sick    = 10 N_healthy = 990 We use a test with sensitivity SE = 90% and specificity SP = 91%. This means that test shows results as following: TP = True Positive   =   N_sick    * SE/100   =     9 out of  10 TN = True Negative   =   N_healthy * SP/100   =   901 out of 990 FN = False Negative  =   1 out of  10 FP = False Positive  =  89 out of 990 What is the predictive power of this test? Positive result :  TP/(TP+FP)  =    9/(9+89)   = 0.092  (1 in 11 chance) Negative result :  TN/(TN+FN)  =  901/(901+1)  = 0.999  (very good) Sensitivity = Recall = True Positive Rate (TPR) : TPR = (TP / P) = TP / (TP + FN) Specificity (SPC)    = True Negative Rate (TNR) : SPC = (TN / N) = TN / (FP + TN) Positive Negative Disease 9 1 Healthy 89 901 Sick Healthy Specificity Sensitivity Test Results: Red = Positive White = Negative"
+    },
+    {
+      "index": 9,
+      "title": "Medical Tests Merck Manuals: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results Typical ROC Curves",
+      "text": "Medical Tests Merck Manuals: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results Typical ROC Curves Healthy Sick"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Today's topic: How do we evaluate the quality",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Today's topic: How do we evaluate the quality",
+      "source": "slide"
+    },
+    {
+      "claim": "ROC Curve & Precision-Recall Curve Receiver Operating Characteristic",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "ROC Curve & Precision-Recall Curve Receiver Operating Characteristic",
+      "source": "slide"
+    },
+    {
+      "claim": "Noise Planes Noise Planes Noise Planes Noise Planes",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Noise Planes Noise Planes Noise Planes Noise Planes",
+      "source": "slide"
+    },
+    {
+      "claim": "From: https://www.slideshare.net/KristenHunter/civitas-learning-understanding-roc-curves For measuring the performance of retrieval",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "From: https://www.slideshare.net/KristenHunter/civitas-learning-understanding-roc-curves For measuring the performance of retrieval",
+      "source": "slide"
+    },
+    {
+      "claim": "Confusion Matrix from sklearn import metrics expected =",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Confusion Matrix from sklearn import metrics expected =",
+      "source": "slide"
+    },
+    {
+      "claim": "Accuracy = sum(Diagonal) / sum(ALL) Recall = TP",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Accuracy = sum(Diagonal) / sum(ALL) Recall = TP",
+      "source": "slide"
+    },
+    {
+      "claim": "Good ROC curve is above diagonal ROC curve",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Good ROC curve is above diagonal ROC curve",
+      "source": "slide"
+    },
+    {
+      "claim": "Medical Test Paradox – Predictive Power of Positive",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Medical Test Paradox – Predictive Power of Positive",
+      "source": "slide"
+    },
+    {
+      "claim": "Medical Tests Merck Manuals: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results Typical ROC Curves",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Medical Tests Merck Manuals: https://www.merckmanuals.com/professional/special-subjects/clinical-decision-making/understanding-medical-tests-and-test-results Typical ROC Curves",
+      "source": "slide"
+    }
+  ]
+}

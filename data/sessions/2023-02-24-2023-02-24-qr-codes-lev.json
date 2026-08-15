@@ -1,0 +1,223 @@
+{
+  "id": "2023-02-24-2023-02-24-qr-codes-lev",
+  "date": "2023-02-24",
+  "title": "QR-codes-Lev",
+  "series": "seminar",
+  "topics": [
+    "ml-fundamentals"
+  ],
+  "video": {
+    "id": "Au882ry-Yuc",
+    "title": "Time Series With Machine Learning - February 24, 2023",
+    "url": "https://www.youtube.com/watch?v=Au882ry-Yuc",
+    "thumbnail": "https://i.ytimg.com/vi/Au882ry-Yuc/hqdefault.jpg",
+    "duration": 1798
+  },
+  "deck": {
+    "path": "2023/2023-02-24-QR-codes-Lev.pptx",
+    "filename": "2023-02-24-QR-codes-Lev.pptx",
+    "title": "QR-codes-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-02-24-QR-codes-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-02-24-QR-codes-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Algorithms",
+      "startSeconds": 477,
+      "label": "07:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Machine Learning Methods",
+      "startSeconds": 807,
+      "label": "13:27",
+      "source": "youtube"
+    },
+    {
+      "title": "SKTime",
+      "startSeconds": 928,
+      "label": "15:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Classification",
+      "startSeconds": 990,
+      "label": "16:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Removing Time Series",
+      "startSeconds": 1084,
+      "label": "18:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Motion Classification",
+      "startSeconds": 1235,
+      "label": "20:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Resources",
+      "startSeconds": 1304,
+      "label": "21:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusions",
+      "startSeconds": 1431,
+      "label": "23:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Backup",
+      "startSeconds": 1459,
+      "label": "24:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Distances",
+      "startSeconds": 1486,
+      "label": "24:46",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Barcode QR Code A QR code (Quick Response",
+      "text": "Barcode QR Code A QR code (Quick Response Code) is a type of matrix barcode (or two-dimensional barcode) invented in 1994 by Japanese company Denso Wave. Can encode a string which may contain a number, web link, contact details, WiFi password, or any other text. .. https:// en.wikipedia.org /wiki/ QR_code A barcode is a machine-readable optical label"
+    },
+    {
+      "index": 2,
+      "title": "Creating QR Code is easy with Python https://pypi.org/project/qrcode/",
+      "text": "Creating QR Code is easy with Python https://pypi.org/project/qrcode/ https:// github.com / lincolnloop /python- qrcode pip install qrcode # installs command \" qr \" qr \"Some text\"   > test.png # pip install pyqrcode # pip install pypng import pyqrcode import png from pyqrcode import QRCode ss = \" https:// www.MyCompany.com / MyForm.html \" url = pyqrcode.create (ss) url.svg (\" myqr.svg \", scale = 8) url.png (' myqr.png ', scale = 6) https://www.geeksforgeeks.org/python-generate-qr-code-using-pyqrcode-module/ https://www.geeksforgeeks.org/generate-qr-code-using-qrcode-in-python/ scanova – custom QR code https://scanova.io/blog/how-to-make-a-custom-qr-code/ Decoding QR Code into string using Python requires additional libraries/modules: https://stackoverflow.com/questions/27233351/how-to-decode-a-qr-code-image-in-preferably-pure-python https:// github.com / mchehab / zbar I found that on Mac it is easier to simply use an App  \" QR Capture \"  from Apple App Store. It is also easy to generate QR codes in Javascript https:// github.com / davidshimjs / qrcodejs https:// github.com / bitjson / qr -code Javascript"
+    },
+    {
+      "index": 3,
+      "title": "vCard https:// en.wikipedia.org /wiki/ VCard https:// github.com /",
+      "text": "vCard https:// en.wikipedia.org /wiki/ VCard https:// github.com / zxing / zxing https:// github.com / zxing / zxing /wiki/Barcode-Contents vCard (a.k.a. VCF = Virtual Card Format) is a simple text file format standard for electronic business cards.  Usual file extension: . vcf or . vcard The file structure: BEGIN:VCARD VERSION: ... ... ... END:VCARD VERSION should be on the 2 nd line, other properties may go in any order. Here is a list of properties that can be used (VCF version dependent): ADR, AGENT, ANNIVERSARY, BDAY, BEGIN, CALADRURI, CALURI, CATEGORIES, CLASS, CLIENTPIDMAP, EMAIL, END, FBURL, FN, GENDER, GEO, IMPP, KEY, KIND, LABEL, LANG, LOGO, MAILER, MEMBER, N, NAME, NICKNAME, NOTE, ORG, PHOTO, PRODID, PROFILE, RELATED, REV, ROLE, SORT-STRING, SOUND, SOURCE, TEL, TITLE, TZ, UID, URL, VERSION, XML BEGIN:VCARD VERSION:4.0 FN:Simon Perreault N:Perreault;Simon ;;; ing . jr,M.Sc . BDAY:--0203 GENDER:M EMAIL;TYPE= work:simon.perreault@viagenie.ca END:VCARD Example of a simple vCard text: Example of MeCard text (for QR Code): MECARD:N:Doe,John;TEL:13035551212;EMAIL:john.doe@example.com;; https:// en.wikipedia.org /wiki/ MeCard _( QR_code ) MeCard is simpler and shorter, optimized for using in QR Codes. But you can also use a longer vCard in QR Code as well: pip install qrcode bash qr \" MECARD:N:Smith,John ; TEL: 1 (212) 123-4567 ; EMAIL: John.Smith@gmail.com ; URL:https :// www.linkedin.com /in/ johnsmith ;; \" > ~/Desktop/ john_smith.png You can create two contacts for yourself in your phone: One using your portrait, and another using QR Code instead of portrait. You can use the second contact as your business card. People can scan it to import your contact info into their phone."
+    },
+    {
+      "index": 4,
+      "title": "WiFi Example of WiFi QR Code string: WIFI:S:MySSID;T:WPA;P:MyPassW0rd;;",
+      "text": "WiFi Example of WiFi QR Code string: WIFI:S:MySSID;T:WPA;P:MyPassW0rd;; where: MySSID – name of the network WPA – encryption type MyPassW0rd – your WiFi password You can also use \"H\" to specify if the network is hidden or not Common format: WIFI:S:<SSID>;T:< WEP|WPA|blank >;P:<PASSWORD>;H:< true|false|blank >;; You can make a QR code for your WiFi So that visitors don't have to type in the password – they can scan the QR Code instead. Modern phones may give you this WiFi QR Code – so that you don't have to generate it. For example, on my Samsung Android phone: click on Settings > Connections > WiFi click on the gear icon next to my network, click on \"QR Code\" click on \"Save as image\""
+    },
+    {
+      "index": 5,
+      "title": "https://www.youtube.com/watch?v=KMsvtqQqz5g – very good 16 min video QR",
+      "text": "https://www.youtube.com/watch?v=KMsvtqQqz5g – very good 16 min video QR Code sizes / versions: Micro QR 11x11 V1    21x21  (17 + 4*1) = ( 17 + 4 * Version ) V2    25x25  (17 + 4*2) V6    41x41  (17 + 4*6) . . . V40 177x177 (17 + 4*40) - 31,329 squares, can encode up to 4296 alphanumeric chars https://blog.beaconstac.com/2021/11/how-to-perfectly-size-your-qr-codes/ More about QR Codes 4296 alphanumeric code Micro QR 11x11 squares"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Barcode QR Code A QR code (Quick Response",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Algorithms",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 477,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=477s",
+      "slideIndex": 1,
+      "slideTitle": "Barcode QR Code A QR code (Quick Response",
+      "source": "youtube"
+    },
+    {
+      "claim": "Machine Learning Methods",
+      "topic": "general",
+      "videoSeconds": 807,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=807s",
+      "slideIndex": 2,
+      "slideTitle": "Creating QR Code is easy with Python https://pypi.org/project/qrcode/",
+      "source": "youtube"
+    },
+    {
+      "claim": "SKTime",
+      "topic": "general",
+      "videoSeconds": 928,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=928s",
+      "slideIndex": 2,
+      "slideTitle": "Creating QR Code is easy with Python https://pypi.org/project/qrcode/",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Classification",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 990,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=990s",
+      "slideIndex": 3,
+      "slideTitle": "vCard https:// en.wikipedia.org /wiki/ VCard https:// github.com /",
+      "source": "youtube"
+    },
+    {
+      "claim": "Removing Time Series",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1084,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1084s",
+      "slideIndex": 3,
+      "slideTitle": "vCard https:// en.wikipedia.org /wiki/ VCard https:// github.com /",
+      "source": "youtube"
+    },
+    {
+      "claim": "Motion Classification",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1235,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1235s",
+      "slideIndex": 3,
+      "slideTitle": "vCard https:// en.wikipedia.org /wiki/ VCard https:// github.com /",
+      "source": "youtube"
+    },
+    {
+      "claim": "Resources",
+      "topic": "general",
+      "videoSeconds": 1304,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1304s",
+      "slideIndex": 4,
+      "slideTitle": "WiFi Example of WiFi QR Code string: WIFI:S:MySSID;T:WPA;P:MyPassW0rd;;",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusions",
+      "topic": "general",
+      "videoSeconds": 1431,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1431s",
+      "slideIndex": 4,
+      "slideTitle": "WiFi Example of WiFi QR Code string: WIFI:S:MySSID;T:WPA;P:MyPassW0rd;;",
+      "source": "youtube"
+    },
+    {
+      "claim": "Backup",
+      "topic": "general",
+      "videoSeconds": 1459,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1459s",
+      "slideIndex": 5,
+      "slideTitle": "https://www.youtube.com/watch?v=KMsvtqQqz5g – very good 16 min video QR",
+      "source": "youtube"
+    },
+    {
+      "claim": "Distances",
+      "topic": "general",
+      "videoSeconds": 1486,
+      "videoUrl": "https://www.youtube.com/watch?v=Au882ry-Yuc&t=1486s",
+      "slideIndex": 5,
+      "slideTitle": "https://www.youtube.com/watch?v=KMsvtqQqz5g – very good 16 min video QR",
+      "source": "youtube"
+    }
+  ]
+}

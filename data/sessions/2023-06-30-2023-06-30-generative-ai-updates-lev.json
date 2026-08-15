@@ -1,0 +1,296 @@
+{
+  "id": "2023-06-30-2023-06-30-generative-ai-updates-lev",
+  "date": "2023-06-30",
+  "title": "Generative-AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "google",
+    "multimodal",
+    "infra",
+    "open-models"
+  ],
+  "video": {
+    "id": "65upiZppSyk",
+    "title": "Updates about ChatGPT and other LLMs - June 30, 2023",
+    "url": "https://www.youtube.com/watch?v=65upiZppSyk",
+    "thumbnail": "https://i.ytimg.com/vi/65upiZppSyk/hqdefault.jpg",
+    "duration": 1592
+  },
+  "deck": {
+    "path": "2023/2023-06-30-Generative-AI-Updates-Lev.pptx",
+    "filename": "2023-06-30-Generative-AI-Updates-Lev.pptx",
+    "title": "Generative-AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-06-30-Generative-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-06-30-Generative-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Generative AI Updates Presented by Lev Selector June",
+      "text": "Generative AI Updates Presented by Lev Selector June 30 , 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: crypto, accounting cloud architecture, fin-tech, application security Generative AI Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI - What's Next After GPT-4 ? It",
+      "text": "OpenAI  - What's Next After GPT-4 ? It took ~ 6 months to train GPT-4. GPT-4 is the latest model from OpenAI (there is also GPT 3.5-turbo at 1/10th cost) https://platform.openai.com/docs/models There is no GPT-5 yet (not even in training). OpenAI is working on many improvements: .. improving safety .. adding access to current data .. adding image inputs .. adding audio .. better math, better coding .. faster/cheaper training .. plugins/extensions (June 30 - 592 plugins) .. APIs, function calling, etc. Sam Altman OpenAI CEO and Co-Founder"
+    },
+    {
+      "index": 4,
+      "title": "Google Gemini Google Gemini is the codename for",
+      "text": "Google Gemini Google Gemini is the codename for Google's next-generation foundation model, a major upgrade over PaLM 2 - the current AI model behind Google's Bard chatbot . Demis Hassabis, the CEO of DeepMind , says the company’s Gemini AI is a large language model (LLM) that utilizes text similar to ChatGPT’s processes, but will be equipped with new capabilities like planning or problem-solving. The system will be based on technology and techniques used in AlphaGo , an early AI system developed by DeepMind in 2016. Gemini is multimodal , meaning that it can understand and process information from multiple sources, such as text, images, and audio . Gemini can be used for generating text, translating languages, and writing different kinds of creative content, answering questions, learning and adapting to new information and tasks. Google says its Gemini will be more powerful than ChatGPT Google Gemini OpenAI ChatGPT PaLM (Pathways Language Model) is a 540 Bln parameter transformer LLM from Google AI released in March 2023 . It was trained over two TPU v4 Pods with 3,072 TPU v4 chips in each Pod attached to 768 hosts PaLM 2 is a 320 Bln model released in May 2023, current model behind Google Bard . Note - there are also smaller models with 8 & 62 Bln parameters"
+    },
+    {
+      "index": 5,
+      "title": "Baidu ERNIE 3.5 June 27, 2023 - Baidu",
+      "text": "Baidu ERNIE 3.5 June 27, 2023 - Baidu revealed their latest LLM ERNIE 3.5 Baidu claims that this ERNIE 3.5 model surpasses GPT-3.5 model in comprehensive ability scores and outperforms GPT-4 in several Chinese language capabilities ERNIE Bot now offers improved creative writing, Q&A, reasoning, and code generation Baidu is also following OpenAI by adding plugins to ERNIE bot"
+    },
+    {
+      "index": 6,
+      "title": "Tesla Dojo Supercomputer https://en.wikipedia.org/wiki/Tesla_Dojo Tesla Dojo architecture overview",
+      "text": "Tesla Dojo Supercomputer https://en.wikipedia.org/wiki/Tesla_Dojo Tesla Dojo architecture overview 354 computing cores per D1 chip 25 D1 chips per Training Tile (8,850 cores) 6 Training Tiles per System Tray (53,100 cores, along with host interface hardware) 2 System Trays per Cabinet (106,200 cores, 300 D1 chips) 10 Cabinets per ExaPOD (1,062,000 cores, 3,000 D1 chips)"
+    },
+    {
+      "index": 7,
+      "title": "AI Money Craze It’s rumored that ChatGPT costs",
+      "text": "AI Money Craze It’s rumored that ChatGPT costs OpenAI around $700,000 dollars to run… every day. It took 6 months to train GPT-4 - you can estimate the cost. Meta’s LLaMa’s 65-billion model burning $5 million in just 21 days of training France's Mistral AI blows in with a $113M seed round and no product ... ! Open Source, B2B model, https://mistral.ai Hype Cycle Structure"
+    },
+    {
+      "index": 8,
+      "title": "GPT-4 Solves MIT Exam Questions with 100% Accuracy?",
+      "text": "GPT-4 Solves MIT Exam Questions with 100% Accuracy? Not True, Researchers Say. But Still Very Good! https://mpost.io/gpt-4-solves-mit-exam-questions-with-100-accuracy-not-true-researchers-say/ MIT researchers conducted the experiment with the goal of evaluating GPT-4’s capabilities. They wanted to know if GPT-4 would be able to graduate from their prestigious school and pass the exams. The results were nothing short of astounding, as GPT-4 displayed exceptional competence in a variety of fields, including engineering, law, and even history. ... assertion of 100% accuracy was not entirely accurate due to self-assessment and repeated questions. GPT-4 achieved a high success rate, but this is misleading due to the lack of information regarding the timeline and breakdown of the questions."
+    },
+    {
+      "index": 9,
+      "title": "DeepMind’s New AI: History In The Making !",
+      "text": "DeepMind’s New AI: History In The Making ! https://www.youtube.com/watch?v=n2qCry_o2Fs AlphaCode from Google DeepMind"
+    },
+    {
+      "index": 10,
+      "title": "AI-based coding systems (78 examples) AI Dev Codes",
+      "text": "AI-based coding systems (78 examples) AI Dev Codes ChatGPT Plus ExplainDev Krater.ai SinCode AI AI Query Cmd J Fig Lightly Snappify AirOps AI Data Sidekick Codacy Figstack Marve Chat SourceAI AIWriter Code GPT Ghostwriter MutableAI Sourcegraph Cody aiXcoder Code Snippets AI GitFluence Noya SpellBox AlphaCode CodeAssist GitGab OpenAI Codex StarCoder Amazon CodeWhisperer Codefy.ai GitHub Copilot Phind Stenography AskCodi CodeGeeX GPT95 Programming Helper Tabnine Autocode CodeGen Hacker AI ProMindGPT Vivid Bard Codeium IntelliCode Q Warp AI Bito CodeSquire IntelliSense Raycast What The Diff Blackbox AI CodeWP Jedi Refact Wing Python IDE Bloop CometCore JetBrains Datalore Refraction AI YouChat BotCity Denigma K.Explorer Replit Zentask Buildt DevBox Kite Safurai ChatGPT DevKit Kodezi Second"
+    },
+    {
+      "index": 11,
+      "title": "Why AI Matters And How To Deal With",
+      "text": "Why AI Matters And How To Deal With The Coming Change w/ Emad Mostaque | EP #52 Peter H. Diamandis .. https://www.youtube.com/watch?v=ciX_iFGyS0M Emad Mostaque Peter H. Diamandis"
+    },
+    {
+      "index": 12,
+      "title": "Adobe Firefly : Image and text effect generation",
+      "text": "Adobe Firefly : Image and text effect generation Notion AI : More efficient notes and docs NVIDIA Broadcast : AI-enhanced voice and video: Noise removal, Virtual background, Room echo removal, Eye contact (a feature that introverts will love) Canva AI : Image Generator, Text Generator, Magic Design, and Photo Editor GPT-4 (Plugins) Eleven Labs : AI Text to Speech D-ID : AI Generated Video Creation Midjourney/Leonardo AI : Image generation AutoGPT / AgentGPT - you only need to provide 1 prompt and then the tool does all the reasoning and self-prompting to get the best result possible. GPT-Engineer - the perfect tool for those who want to build apps with just one prompt. Some Cool AI Tools"
+    },
+    {
+      "index": 13,
+      "title": "Auto-GPT is an open-source Python project .. https://github.com/Significant-Gravitas/Auto-GPT",
+      "text": "Auto-GPT is an open-source Python project .. https://github.com/Significant-Gravitas/Auto-GPT Auto-GPT uses GPT-4 Auto-GPT can automate tasks and self-prompt Auto-GPT can search the internet, interact with files, etc. Auto-GPT can be installed locally on your computer .. https://artificialcorner.com/auto-gpt-a-powerful-ai-tool-that-makes-gpt-4-autonomous-4157b54f94c7 .. https://levelup.gitconnected.com/autogpt-the-new-kid-on-the-ai-block-thats-changing-everything-6d6ee8cf169f Auto-GPT git clone https://github.com/Significant-Gravitas/Auto-GPT.git cd Auto-GPT pip install -r requirements.txt OPENAI_API_KEY=sk-qAcpYqAcpYqAcpYqAcpYqAcpYqAcpYqAcpYqAcpYqAcpY # run it python -m autogpt # answer prompt to start ..."
+    },
+    {
+      "index": 14,
+      "title": "LangChain LangChain is a software development framework designed",
+      "text": "LangChain LangChain is a software development framework designed to simplify the creation of applications using large language models .. https://en.wikipedia.org/wiki/LangChain .. https://github.com/hwchase17/langchain .. https://langchain.com .. https://python.langchain.com First released in October 2022 Created by Harrison Chase Written in Python and JavaScript Harrison Chase Co-Founder & CEO Multiple YouTube tutorials"
+    },
+    {
+      "index": 15,
+      "title": "Auto-GPT vs LangChain LangChain is not an autonomous",
+      "text": "Auto-GPT   vs   LangChain LangChain is not an autonomous agent. It is a toolkit/library of various Language Models and utility packages. It can be used to develop apps. It is good at reasoning and planning. AutoGPT is designed to provide targeted, goal-oriented solutions by segmenting larger objectives, like “establishing an online business”, into a sequence of manageable, smaller subtasks - and executing those tasks. You can make a fully autonomous chatbot which will automatically self-prompt itself to search internet to find answers to questions. But unfortunately it is also known for getting stuck in logic loops, repeated steps, and tend to go down these \"rabbit holes\"."
+    },
+    {
+      "index": 16,
+      "title": "Using ChatGPT with YOUR OWN Data (LangChain) ..",
+      "text": "Using ChatGPT with YOUR OWN Data (LangChain) .. https://www.youtube.com/watch?v=9AXP7tCI9PI .. https://github.com/techleadhd/chatgpt-retrieval import os, sys, openai, constants from langchain.chains import RetrievalQA from langchain.chat_models import ChatOpenAI from langchain.document_loaders import DirectoryLoader, TextLoader from langchain.embeddings import OpenAIEmbeddings from langchain.indexes import VectorstoreIndexCreator from langchain.indexes.vectorstore import VectorStoreIndexWrapper from langchain.llms import OpenAI from langchain.vectorstores import Chroma os.environ[\"OPENAI_API_KEY\"] = constants.APIKEY PERSIST = False # Enable to save to disk & reuse query = sys.argv[1] if PERSIST and os.path.exists(\"persist\"): print(\"Reusing index...\\n\") vectorstore = Chroma(persist_directory=\"persist\", embedding_function=OpenAIEmbeddings()) index = VectorStoreIndexWrapper(vectorstore=vectorstore) else: #loader = TextLoader(\"data/data.txt\") # Use this line if you only need data.txt loader = DirectoryLoader(\"data/\") if PERSIST: index = VectorstoreIndexCreator(vectorstore_kwargs={\"persist_directory\":\"persist\"}).from_loaders([loader]) else: index = VectorstoreIndexCreator().from_loaders([loader]) chain = RetrievalQA.from_chain_type( llm=ChatOpenAI(model=\"gpt-3.5-turbo\"), retriever=index.vectorstore.as_retriever(search_kwargs={\"k\": 1}), ) print(chain.run(query)) pip install langchain openai chromadb \\ tiktoken unstructured"
+    },
+    {
+      "index": 17,
+      "title": "Q & A on Your Private Data Retrieval",
+      "text": "Q & A on Your Private Data Retrieval Augmented Generation (RAG) retrieve data from outside the language model (non-parametric) augment the prompts by adding the relevant retrieved data in context \"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks Lewis et al., May 2020\" - https://arxiv.org/abs/2005.11401 Example: Index company documents into Azure Cognitive Search (it uses RAG), and use Azure OpenAI LLM as user interface: https://medium.com/version-1/unleashing-the-power-of-azure-open-ai-and-azure-cognitive-search-f5a97d729f18 You can do the same in AWS SageMaker: https://aws.amazon.com/blogs/machine-learning/question-answering-using-retrieval-augmented-generation-with-foundation-models-in-amazon-sagemaker-jumpstart/"
+    },
+    {
+      "index": 18,
+      "title": "Microsoft Orca https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/ https://indianexpress.com/article/technology/artificial-intelligence/microsoft-orca-ai-model-8672524/ Idea - imitation learning",
+      "text": "Microsoft Orca https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/ https://indianexpress.com/article/technology/artificial-intelligence/microsoft-orca-ai-model-8672524/ Idea - imitation learning , drawing on the outputs generated by large foundation models (LFMs) Orca has 13 Bln parameters , which is ~13 times smaller than GPT-3. Despite being small, Orca can very closely imitate GPT-4 on many benchmarks Orca can learn explanations, step-by-step thought processes, and other complex instructions Orca can learn progressively from Complex Explanation Traces of GPT-4 \"Orca\" is the common name for the largest species of dolphin, Orcinus orca (\"killer whale\"). 10+ times smaller than GPT-3 performance on-par with GPT-4"
+    },
+    {
+      "index": 19,
+      "title": "ChatGPT School Siraj Raval .. https://chatgptschool.io .. https://www.youtube.com/watch?v=EEwsOc9iCXY",
+      "text": "ChatGPT School Siraj Raval .. https://chatgptschool.io .. https://www.youtube.com/watch?v=EEwsOc9iCXY OpenAI ChatGPT API LangChain (LLM libraries) Prompt IDEs https://replit.com (collaborative IDE) https://wandb.ai (Weights and Biases platform) Whisper - https://openai.com/research/whisper - speech recognition https://www.pinecone.io - Pinecone vector database Siraj Raval AI Jesus Made Me a Believer .. https://www.youtube.com/watch?v=kyY9PSQRH1Q .. https://github.com/llSourcell/AI_Jesus"
+    },
+    {
+      "index": 20,
+      "title": "A ChatGPT jailbreak is any specially crafted ChatGPT",
+      "text": "A ChatGPT jailbreak is any specially crafted ChatGPT prompt to get the AI chatbot to bypass its rules and restrictions, to do things that it is not allowed to do. OpenAI works on improving jailbreaking resistance. ChatGPT, by default, will refuse to create NSFW (Not Safe For Work) content. This can be counter-productive in some creative processes. Jailbreaks smash these restrictions and let the chatbot go full throttle, improving accuracy and creativity. One of the core elements of a ChatGPT jailbreak is an instruction to the chatbot not to refuse to answer a question. While this ensures that ChatGPT answers even the most unethical of questions, it also means that the chatbot will make up responses that have no roots in facts or reality to obey the instruction of \"not refusing to answer.\" This can significantly increase inaccuracies and cases of AI hallucinations. ChatGPT Jailbreak"
+    },
+    {
+      "index": 21,
+      "title": ".. https://www.anthropic.com/index/introducing-claude .. https://sapling.ai/llm/claude .. https://www.anthropic.com Next-generation AI",
+      "text": ".. https://www.anthropic.com/index/introducing-claude .. https://sapling.ai/llm/claude .. https://www.anthropic.com Next-generation AI assistant based on Anthropic’s research into training helpful, honest, and harmless AI systems The term \" anthropic \" typically refers to the anthropic principle , a philosophical consideration that any data we observe about the universe is filtered by the requirement for the formation of sentient life, particularly human life. In other words, it proposes that human observers are necessary to bring the universe into being, and it attempts to explain why the laws of physics and the constants of nature seem remarkably fine-tuned for the emergence of life and consciousness. Claude - harmless AI"
+    },
+    {
+      "index": 22,
+      "title": "https://artificialcorner.com/jupyter-ai-the-ai-extension-for-jupyter-lab-c4c3be5444fe Jupyter AI (Jupyter Lab Extension) $ conda",
+      "text": "https://artificialcorner.com/jupyter-ai-the-ai-extension-for-jupyter-lab-c4c3be5444fe Jupyter AI (Jupyter Lab Extension) $ conda create -n jupyter-ai python=3.10 $ conda activate jupyter-ai $ pip install jupyter_ai $ pip uninstall grpcio; conda install grpcio jupyter lab %load_ext jupyter_ai %ai list !pip install openai import os os.environ[“OPENAI_API_KEY”]=your-api-key %%ai chatgpt"
+    },
+    {
+      "index": 23,
+      "title": "https://www.kdnuggets.com/2023/06/10-chatgpt-plugins-data-science-cheat-sheet.html 10 ChatGPT Plugins for Data Science webpilot",
+      "text": "https://www.kdnuggets.com/2023/06/10-chatgpt-plugins-data-science-cheat-sheet.html 10 ChatGPT Plugins for Data Science webpilot - open-source plugin to interact with websites Coder Interpreter - solving math, data analysis, visualizations Noteable - ask questions, explore data, ML ScholarAI - access to scientific papers (PubMed, Arxiv, Springer, ...) ChatWithGit - search GitHub Show Me - visualizations Bing - access Internet, Wikipedia, news articles, ... Wolfram - access to math Link Reader - reads web pages, PDFs, presentations, MS Word docs, ... Zapier - automate repetitive tasks, integrate 5,000+ apps into your workflow"
+    },
+    {
+      "index": 24,
+      "title": "Noteable Plugin Noteable is a product by open",
+      "text": "Noteable Plugin Noteable is a product by open source project Jupyter ( Jupyter notebook, ... ) - common data science IDE tool Noteable adds ChatGPT capabilities to Jupyter notebooks. You can describe what you need in English - and it builds the whole notebook with no coding required ! You work with Noteable notebook at the noteable website Noteable Plugin was announced in May of 2023 Example, you can ask ChatGPT to search the Internet for specific data, download it into CSV files, load those files into multiple pandas DataFrames, join these DataFrames together, process the data - and make visualizations. You can describe the queries and data transformations, ask it to describe patterns and trends, describe the  details of the graphs / visualizations you want to get Collaboration - you can have a shared workspace, enabling teams to work together .. https://noteable.io .. https://blog.enterprisedna.co/noteable-chatgpt-plugin-user-guide-with-examples/ .. https://www.youtube.com/watch?v=A1ualvzgJoo .. https://www.youtube.com/watch?v=b48NCYLkawk .. https://www.youtube.com/watch?v=otk2AA6hGgU"
+    },
+    {
+      "index": 25,
+      "title": "Function calling for turning GPT into a classifier:",
+      "text": "Function calling for turning GPT into a classifier:"
+    },
+    {
+      "index": 26,
+      "title": "ChatSonic AI - https://writesonic.com/chat - chat, uses ChatGPT",
+      "text": "ChatSonic AI - https://writesonic.com/chat - chat, uses ChatGPT and Google Durable AI - https://durable.co - build a website in 30 sec Eightify AI - https://eightify.app - Chrome extension - summarize videos, insights, updates, education Perplexity AI - https://www.perplexity.ai - chat bot, supports real time data, an answer engine Runway ML AI - https://runwayml.com - AI Magic Tools (text, image, video, custom, ...) Amazon Code Whisperer AI - https://aws.amazon.com/codewhisperer/ - Free AI coding companion Caktus AI - https://www.caktus.ai - AI study tool for students (need paid subscription) Some AI Tools https://www.youtube.com/watch?v=jb3Qxi9U4P4"
+    },
+    {
+      "index": 27,
+      "title": "https://artificialcorner.com/gpt-engineer-generate-an-entire-codebase-with-1-prompt-7e98ca368410 GPT-Engineer: Generate an Entire Codebase with 1",
+      "text": "https://artificialcorner.com/gpt-engineer-generate-an-entire-codebase-with-1-prompt-7e98ca368410 GPT-Engineer: Generate an Entire Codebase with 1 Prompt! git clone https://github.com/AntonOsika/gpt-engineer.git cd gpt-engineer make install source venv/bin/activate export OPENAI_API_KEY=[your api key] cp -r projects/example/ projects/my-new-project gpt-engineer projects/my-new-project # just type “Create a website about dogs” to see # what it can deliver without much prompting."
+    },
+    {
+      "index": 28,
+      "title": "Generating Images for Linkedin Posts You can use",
+      "text": "Generating Images for Linkedin Posts You can use Midjourney or DALL·E 2 to generate images. There are also many other free services. Search for them on Google: best free services to generate images from text For example: .. https://www.makeuseof.com/ai-text-to-art-generators/ Try: .. https://deepai.org/machine-learning-model/text2img If you want to make an animated image, simply generate a couple of images, and then combine them into one animated GIF file using GIF Maker on https://ezgif.com deepai.org"
+    },
+    {
+      "index": 29,
+      "title": "AMD Unveils Instinct MI300 APUs In MI300A &",
+      "text": "AMD Unveils Instinct MI300 APUs In MI300A & MI300X Flavors: CDNA 3 GPU, Up To 24 Zen 4 Cores, 192 GB HBM3 memory, 153 Billion Transistors https://www.forbes.com/sites/karlfreund/2023/06/13/is-the-new-amd-mi300x-better-than-the-nvidia-h100/?sh=45ebfc1f56f0 MI300 does not have a transformer engine like the Nvidia H100, which can triple performance for the popular LLM AI models. Is The New AMD MI300X Better Than The NVIDIA H100?"
+    },
+    {
+      "index": 30,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Generative AI Updates Presented by Lev Selector June",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 1,
+      "slideTitle": "Generative AI Updates Presented by Lev Selector June",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI - What's Next After GPT-4 ? It",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI - What's Next After GPT-4 ? It",
+      "source": "slide"
+    },
+    {
+      "claim": "Google Gemini Google Gemini is the codename for",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 4,
+      "slideTitle": "Google Gemini Google Gemini is the codename for",
+      "source": "slide"
+    },
+    {
+      "claim": "Baidu ERNIE 3.5 June 27, 2023 - Baidu",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 5,
+      "slideTitle": "Baidu ERNIE 3.5 June 27, 2023 - Baidu",
+      "source": "slide"
+    },
+    {
+      "claim": "Tesla Dojo Supercomputer https://en.wikipedia.org/wiki/Tesla_Dojo Tesla Dojo architecture overview",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 6,
+      "slideTitle": "Tesla Dojo Supercomputer https://en.wikipedia.org/wiki/Tesla_Dojo Tesla Dojo architecture overview",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Money Craze It’s rumored that ChatGPT costs",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 7,
+      "slideTitle": "AI Money Craze It’s rumored that ChatGPT costs",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT-4 Solves MIT Exam Questions with 100% Accuracy?",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 8,
+      "slideTitle": "GPT-4 Solves MIT Exam Questions with 100% Accuracy?",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepMind’s New AI: History In The Making !",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 9,
+      "slideTitle": "DeepMind’s New AI: History In The Making !",
+      "source": "slide"
+    },
+    {
+      "claim": "AI-based coding systems (78 examples) AI Dev Codes",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 10,
+      "slideTitle": "AI-based coding systems (78 examples) AI Dev Codes",
+      "source": "slide"
+    },
+    {
+      "claim": "Why AI Matters And How To Deal With",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 11,
+      "slideTitle": "Why AI Matters And How To Deal With",
+      "source": "slide"
+    },
+    {
+      "claim": "Adobe Firefly : Image and text effect generation",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=65upiZppSyk",
+      "slideIndex": 12,
+      "slideTitle": "Adobe Firefly : Image and text effect generation",
+      "source": "slide"
+    }
+  ]
+}

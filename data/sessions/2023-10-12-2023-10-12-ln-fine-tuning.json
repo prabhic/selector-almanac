@@ -1,0 +1,75 @@
+{
+  "id": "2023-10-12-2023-10-12-ln-fine-tuning",
+  "date": "2023-10-12",
+  "title": "LN-Fine-Tuning",
+  "series": "seminar",
+  "topics": [
+    "open-models",
+    "fine-tuning"
+  ],
+  "video": {
+    "id": "Og5tWdvItcw",
+    "title": "AI Updates - October 13, 2023 - LLM Mistral, OpenOrca, Inflection.AI, AutoGen, Fine-Tuning, QLoRa",
+    "url": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+    "thumbnail": "https://i.ytimg.com/vi/Og5tWdvItcw/hqdefault.jpg",
+    "duration": 1538
+  },
+  "deck": {
+    "path": "2023/2023-10-12-LN-Fine-Tuning.pptx",
+    "filename": "2023-10-12-LN-Fine-Tuning.pptx",
+    "title": "LN-Fine-Tuning",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-12-LN-Fine-Tuning.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-12-LN-Fine-Tuning.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Fine-Tuning LLMs How do you train an LLM",
+      "text": "Fine-Tuning LLMs How do you train an LLM to learn your local or private domain specific data? Train a new LLM from scratch is expensive ( $2-5Mln ) Train a new small LLM - much cheaper (but still $40-400K ) Fine-tune existing model (much-cheaper) Fine-tune existing small model (even cheaper) Fine-tune existing small model quantized down to 4 bits (on laptop) PEFT = Parameter Efficient Fine Tuning fine-tuning while minimizing the resources and cost Two common ways of achieving PEFT : LoRA = Low Rank Parameter Adaptation https://arxiv.org/abs/2106.09685 (June 2021, Montréal, QC, Canada) QLoRA = Quantized Low-Ranking Adaptation (fast, using 4bit) https://arxiv.org/abs/2305.14314 (May 2023, Seattle, WA)"
+    },
+    {
+      "index": 2,
+      "title": "Fine Tuning LLM LoRA - add trainable parameters",
+      "text": "Fine Tuning LLM LoRA - add trainable parameters (weights) in each layer of the model in parallel with frozen original parameters. The trainable layer uses dimension/rank decomposition to reduce number of parameters to train QLora - trains using 4-bit (does Normalization & Quantization) - thus making calculations much faster and require less resources Read these two articles explaining the basics: Fine Tuning LLM: Parameter Efficient Fine Tuning (PEFT) — LoRA & QLoRA — Part 1 & Part 2 - by A B Vijay Kumar ( using HuggingFace) https://abvijaykumar.medium.com/fine-tuning-llm-parameter-efficient-fine-tuning-peft-lora-qlora-part-1-571a472612c4 https://abvijaykumar.medium.com/fine-tuning-llm-parameter-efficient-fine-tuning-peft-lora-qlora-part-2-d8e23877ac6f"
+    },
+    {
+      "index": 3,
+      "title": "Fine Tuning LLM using QLoRA Instructions and examples",
+      "text": "Fine Tuning LLM using QLoRA Instructions and examples https://github.com/artidoro/qlora Video - How to Fine-Tune Open-Source LLMs Locally Using QLoRA! (link to python code under the video) https://www.youtube.com/watch?v=2bkrL2ZcOiM Two more articles with examples: https://www.analyticsvidhya.com/blog/2023/08/lora-and-qlora/ https://medium.com/@amodwrites/a-definitive-guide-to-qlora-fine-tuning-falcon-7b-with-peft-78f500a1f337"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Fine-Tuning LLMs How do you train an LLM",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 1,
+      "slideTitle": "Fine-Tuning LLMs How do you train an LLM",
+      "source": "slide"
+    },
+    {
+      "claim": "Fine Tuning LLM LoRA - add trainable parameters",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 2,
+      "slideTitle": "Fine Tuning LLM LoRA - add trainable parameters",
+      "source": "slide"
+    },
+    {
+      "claim": "Fine Tuning LLM using QLoRA Instructions and examples",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 3,
+      "slideTitle": "Fine Tuning LLM using QLoRA Instructions and examples",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "2023-09-01-2023-09-01-ai-updates-lev",
+  "date": "2023-09-01",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "general",
+    "openai",
+    "open-models",
+    "infra",
+    "enterprise",
+    "benchmarks",
+    "google",
+    "rag"
+  ],
+  "video": {
+    "id": "MXIRywDFjtc",
+    "title": "AI Updates - September 1, 2023",
+    "url": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+    "thumbnail": "https://i.ytimg.com/vi/MXIRywDFjtc/hqdefault.jpg",
+    "duration": 1236
+  },
+  "deck": {
+    "path": "2023/2023-09-01-AI-Updates-Lev.pptx",
+    "filename": "2023-09-01-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-01-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-01-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates September 1, 2023",
+      "text": "AI Updates September 1, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Cloud architecture, fin-tech, application security Crypto, accounting Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "YouTube GitHub",
+      "text": "YouTube GitHub"
+    },
+    {
+      "index": 4,
+      "title": "Status Page OpenAI pricing per 1K tokens: https://openai.com/pricing",
+      "text": "Status Page OpenAI pricing per 1K tokens: https://openai.com/pricing GPT-4 8K context: 0.03 in + 0.06 out = $0.09 GPT-4 32K context: 0.06 in + 0.12 out = $0.18 GPT-3.5 4K context: 0.0015 in + 0.002 = $0.0035 OpenAI Enterprise Service : .. https://openai.com/blog/introducing-chatgpt-enterprise GPT-4 32K, privacy, x2 faster pricing - not known yet, but probably in the same range of ~20 cents per question/answer Microsoft OpenAI service - same price as OpenAI directly https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/ Google added the SGE to Google search (Search Generative Experience) Hugging Face has written a new ML framework in Rust https://medium.com/@Aaron0928/hugging-face-has-written-a-new-ml-framework-in-rust-now-open-sourced-1afea2113410 HuggingFace.co 1245 entries (was ~346 entries on July 16th) Apple: - iPhone 15 on Sep 12 ? A16 chip with 3-nm tech ? - M3 chip Macs in October (using same 3 nm tech) ? Andrew Ng - Opportunities in AI https://www.youtube.com/watch?v=5p248yoa3oE"
+    },
+    {
+      "index": 5,
+      "title": "Most services use OpenAI or similar service under",
+      "text": "Most services use OpenAI or similar service under the hood. But OpenAI's legal \" small print \" states that they can do whatever they want with your data. Microsoft also offers Azure OpenAI Service that offers encryption and privacy (if requested). OpenAI runs on Microsoft platform. The prices on OpenAI website and on Azure OpenAI are the same. https://azure.microsoft.com/en-us/blog/explore-the-benefits-of-azure-openai-service-with-microsoft-learn/ August 28, 2023 - intro of OpenAI ChatGPT Enterprise : .. https://openai.com/blog/introducing-chatgpt-enterprise Unlimited access to GPT-4 (no usage caps) 2x faster code Interpreter (analytics) 32k token context (~50 pages at once) shareable chat templates free credits to use API ChatGPT Enterprise - privacy, for business"
+    },
+    {
+      "index": 6,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 1, 2023 -",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 1, 2023 - 1245 entries (was ~346 entries on July 16th) The top positions are occupied by improved versions of LLaMa 70B 16bit Original LLaMa 70B (July 18) is now on 95-th place The best 13B model is on 101-st place (also LLaMa) The best 7B model is on 338-th  place (also LLaMa trained on orca dataset) rank    size  avg_quality  name 1      70B 73.4       fangloveskari/ORCA_LLaMA_70B_QLoRA 47      65B    69.94      upstage/llama-65b-instruct 95      70B     66.8 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 109      13B    66.03      Aspik101/trurl-2-13b-pl-instruct_unload 183      40b    63.47      tiiuae/falcon-40b-instruct (was #1 before LLaMa2) 370       7b    59.89      HyperbeeAI/Tulpar-7b-v0 Open community develops multiple datasets and training protocols to improve models"
+    },
+    {
+      "index": 7,
+      "title": "What Hardware ChatGPT is Using ? OpenAI ChatGPT",
+      "text": "What Hardware ChatGPT is Using ? OpenAI ChatGPT is using 16 bit precision of model weights. 175 Bln parameters * 2 bytes = 350 GBytes - requires at least 5 of 80GB GPUs. OpenAI is using Nvidia A100 GPUs (available in 40GB and 80GB VRAM options). Nowadays it is also using H100 80GB, which is twice faster. Current prices for 80GB cards:  A100 - $18K each,  H100 - $33K each ChatGPT model runs on 8-GPU server (with 8 A100 80GB cards = 640GB total). Estimated server price ~ $200K+ https://shop.lambdalabs.com/deep-learning/servers/blade/customize Here is a breakdown of the main costs (for August 2023): NVIDIA A100 80GB GPU - the average price on eBay is $18K, so 8*18 = $144K Server Motherboard - around $10K CPU - two, each ~ $5K RAM - at least same as VRAM (or twice more for fast training): 640-1,280GB Storage - at least 4TB Power Supply (5KW+), Case, High-performance Cooling system video: https://www.youtube.com/watch?v=4q9-yf1eU8c article and links - https://www.servethehome.com/chatgpt-hardware-a-look-at-8x-nvidia-a100-systems-powering-the-tool-openai-microsoft-azure-supermicro-inspur-asus-dell-gigabyte/ In comparison, Google's PaLM-2 model has 340 Bln parameters, runs on TPUs (Tensor Processing Units). Each TPU V4 chip has 32GB of  memory. A \"pod\" of 4,096 TPU chips has thus 131,072 GB of memory, which is x200 times more than typical OpenAI server. Another proprietary technology is Cerebras - huge chips packing 2.6 Trillion transistors. They can use thousand times more memory than Nvidia"
+    },
+    {
+      "index": 8,
+      "title": "Deep-dive into the AI Hardware of ChatGPT video:",
+      "text": "Deep-dive into the AI Hardware of ChatGPT video: https://www.youtube.com/watch?v=4q9-yf1eU8c 2020 - Microsoft: GPT-3: 285,000 CPU cores  and 10,000 GPUs - old V100 GPU (2017 Volta Architecture, tensor cores). Probably 1250 computers, each having 4 Xeon 56-cores CPUs and 8  V100 GPUs 2021 - training on 560 computers, each having two AMD EPYC 7742 CPUs with 64 cores each, and 8 Nvidia A100 GPUs (total 4,480 Nvidia A100 GPUs and 71,680 CPU cores) 2022 - finished training of ChatGPT-3.5 ChatGPT inference - similar servers. Recently using H100 - twice faster than A100 Supermicro’s H13 GPU Systems ft. @LinusTechTips https://www.youtube.com/watch?v=IQn4GZbvKac https://www.youtube.com/watch?v=BRUWmryoztQ NVidia H100 Sets World Record in training GPT-3.0 (original model) on 448 8-GPU servers (3,584 GPUs total): V100  - 51 days A100 - 36 days H100 - 2 days (46 hours)"
+    },
+    {
+      "index": 9,
+      "title": "olamma run codellama:13b ~ ❯❯❯ ollama run codellama:13b",
+      "text": "olamma run codellama:13b ~ ❯❯❯ ollama run codellama:13b ============================================ >>> write python function to calculate a factorial def factorial(n): if n == 0: return 1 else: return n * factorial(n-1) ============================================ >>> rewrite it without using recursion def factorial(n): result = 1 for i in range(1, n+1): result *= i return result ============================================ ============================================ >>> a table in a database has a column called \"salary\" which contains numeric values. Write SQL to return the value of the largest salary SELECT MAX(salary) AS max_salary FROM employees; ============================================ >>> write SQL to return the 2nd largest salary value SELECT MAX(salary) AS max_salary FROM employees WHERE salary < ( SELECT MAX(salary) FROM employees ); ============================================"
+    },
+    {
+      "index": 10,
+      "title": "Code LLaMa is NOT as good as ChatGPT-4",
+      "text": "Code LLaMa is NOT as good as ChatGPT-4 I tried Code LLaMa 13b using ollama, and codelamma-34b on https://labs.perplexity.ai They both worked very well for simple basic tasks. But both failed on more complex tasks. Example 1: PROMPT> Please write python code in jupyter notebook to demonstrate how to make cashflow report and profit-and-loss report. Please make a function to generate daily financial data for 3 years. Then aggregate the data on a monthly basis. Then make a function for creating a cashflow report for 3 years with monthly granularity (table and chart) and a similar function for PnL report (also table and chart). Then call these functions in order. Please give me only code. No comments. ChatGPT solved this problem correctly. But codellama 13b and 34b failed. They couldn't handle dates properly. I tried to go back and forth with the models asking to fix problems one by one - and they were not able to resolve the errors - I gave up after 4-5 attempts. Example 2: PROMPT> Write SQL to return fifth largest salary value. Note that each value can be repeated more than once in the table. The 13b model failed on that (gave wrong answer), but 34b model and chatGPT gave correct answer: SELECT DISTINCT Salary FROM Employee ORDER BY Salary DESC LIMIT 4,1; or SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT 1 OFFSET 4;"
+    },
+    {
+      "index": 11,
+      "title": "AI Study Group curriculum on GitHub https://github.com/lselector/ai https://github.com/lselector/ai/blob/master/AI-Training-curriculum.txt",
+      "text": "AI Study Group curriculum on GitHub https://github.com/lselector/ai https://github.com/lselector/ai/blob/master/AI-Training-curriculum.txt Lesson 1 - popular models  - how they work Lesson 2 - recent updates, state of the world Lesson 3 - LangChain - Python framework to work with LLMs, cognitive search example Lesson 4 - Switch from Chroma to PostreSQL vector DB (LangChain + PostgreSQL + OpenAI API) Lesson 5 - Change embedding model from OpenAI to local Lesson 6 - Change LLM from OpenAI ChatGPT to local Lesson 7 - talk to API - notebook Lesson 8 - talk to API - financial dashboard Lesson 9 - fine-tuning a model, quantizing to 4 bits Lesson 10 - training our own custom model"
+    },
+    {
+      "index": 12,
+      "title": "AI Music like Mozart ? AI can imitate",
+      "text": "AI Music like Mozart ? AI can imitate good music very well https://www.aiva.ai - a deep learning system that has been trained on a massive dataset of classical music. You can ask it to write in the style of Mozart's Symphony No. 40, and it will produce original music similar to original. https://openai.com/research/musenet - MuseNet system from OpenAI. A deep learning system that has been trained on a massive dataset of music including classical, jazz, rock, and pop. MuseNet can generate new music in any of these genres. There are a lot of AI music generators, such as AIVA, Soundraw, Amper Music, Soundful, Ecrett Music, Boomy, Loudly, etc. These AI-powered tools can generate royalty-free music, modify songs, and download files in different formats. Just google for AI music generator  :)"
+    },
+    {
+      "index": 13,
+      "title": "AI Paintings and Poems ? An A.I.-Generated Picture",
+      "text": "AI Paintings and Poems ? An A.I.-Generated Picture Won an Art Prize. New York Times, September 2022 AI has won many literature competitions (novels, poems). So the rules of new competitions (for 2024) now state: \"Works must be original and Chat GPT or AI must NOT have been used for the creation of the works.\""
+    },
+    {
+      "index": 14,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates September 1, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates September 1, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Status Page OpenAI pricing per 1K tokens: https://openai.com/pricing",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 4,
+      "slideTitle": "Status Page OpenAI pricing per 1K tokens: https://openai.com/pricing",
+      "source": "slide"
+    },
+    {
+      "claim": "Most services use OpenAI or similar service under",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 5,
+      "slideTitle": "Most services use OpenAI or similar service under",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 1, 2023 -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 6,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Sep 1, 2023 -",
+      "source": "slide"
+    },
+    {
+      "claim": "What Hardware ChatGPT is Using ? OpenAI ChatGPT",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 7,
+      "slideTitle": "What Hardware ChatGPT is Using ? OpenAI ChatGPT",
+      "source": "slide"
+    },
+    {
+      "claim": "Deep-dive into the AI Hardware of ChatGPT video:",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 8,
+      "slideTitle": "Deep-dive into the AI Hardware of ChatGPT video:",
+      "source": "slide"
+    },
+    {
+      "claim": "olamma run codellama:13b ~ ❯❯❯ ollama run codellama:13b",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 9,
+      "slideTitle": "olamma run codellama:13b ~ ❯❯❯ ollama run codellama:13b",
+      "source": "slide"
+    },
+    {
+      "claim": "Code LLaMa is NOT as good as ChatGPT-4",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 10,
+      "slideTitle": "Code LLaMa is NOT as good as ChatGPT-4",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Study Group curriculum on GitHub https://github.com/lselector/ai https://github.com/lselector/ai/blob/master/AI-Training-curriculum.txt",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 11,
+      "slideTitle": "AI Study Group curriculum on GitHub https://github.com/lselector/ai https://github.com/lselector/ai/blob/master/AI-Training-curriculum.txt",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Music like Mozart ? AI can imitate",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 12,
+      "slideTitle": "AI Music like Mozart ? AI can imitate",
+      "source": "slide"
+    }
+  ]
+}

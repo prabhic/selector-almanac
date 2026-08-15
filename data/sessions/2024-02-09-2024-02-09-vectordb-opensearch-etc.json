@@ -1,0 +1,306 @@
+{
+  "id": "2024-02-09-2024-02-09-vectordb-opensearch-etc",
+  "date": "2024-02-09",
+  "title": "VectorDB-OpenSearch-etc",
+  "series": "seminar",
+  "topics": [
+    "agents",
+    "jobs",
+    "open-models",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "XxW-Fcl4acM",
+    "title": "Have you heard these exciting AI news? - February 09, 2024 - AI Google Gemini App",
+    "url": "https://www.youtube.com/watch?v=XxW-Fcl4acM",
+    "thumbnail": "https://i.ytimg.com/vi/XxW-Fcl4acM/hqdefault.jpg",
+    "duration": 1106
+  },
+  "deck": {
+    "path": "2024/2024-02-09-VectorDB-OpenSearch-etc.pptx",
+    "filename": "2024-02-09-VectorDB-OpenSearch-etc.pptx",
+    "title": "VectorDB-OpenSearch-etc",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-02-09-VectorDB-OpenSearch-etc.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-02-09-VectorDB-OpenSearch-etc.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Languages",
+      "startSeconds": 94,
+      "label": "01:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Humanoid robots",
+      "startSeconds": 146,
+      "label": "02:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Miscellaneous",
+      "startSeconds": 185,
+      "label": "03:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba",
+      "startSeconds": 332,
+      "label": "05:32",
+      "source": "youtube"
+    },
+    {
+      "title": "DSPY",
+      "startSeconds": 411,
+      "label": "06:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Char GPT",
+      "startSeconds": 478,
+      "label": "07:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Semantic Routing Router",
+      "startSeconds": 569,
+      "label": "09:29",
+      "source": "youtube"
+    },
+    {
+      "title": "More stuff",
+      "startSeconds": 761,
+      "label": "12:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Ensemble of agents",
+      "startSeconds": 852,
+      "label": "14:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Layoffs",
+      "startSeconds": 970,
+      "label": "16:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Hugging Face Leaderboard",
+      "startSeconds": 1003,
+      "label": "16:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource",
+      "startSeconds": 1046,
+      "label": "17:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Leaderboard",
+      "startSeconds": 1081,
+      "label": "18:01",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Popular Vector Databases Indexing Vectors for Similarity Search",
+      "text": "Popular Vector Databases Indexing Vectors for Similarity Search PostgreSQL, Milvus, Vespa, Neo4j Apache Lucene FAISS = Facebook AI Similarity Search Databricks Vector Search OpenSearch vs ElasticSearch Using Elasticsearch from Python Elasticsearch Clients GUI Vector DB, OpenSearch, Lucene, FAISS, etc. February 09, 2024"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Popular Vector Databases Popular Vector Databases: Pinecone Weaviate",
+      "text": "Popular Vector Databases Popular Vector Databases: Pinecone Weaviate - open source Chroma - open source Redis Vector Database Qdrant - open source Milvus Project - open source Vespa.ai - open source More Vector DBs: Zilliz Cloud Nomic Atlas Vald pgvector FAISS Metal MyScale Deep Lake Supabase Embeddinghub Vector Databases are becoming very popular. They are used in AI-enabled systems for storing and searching embedding vectors . Embedding Vectors are used for semantic representations of data - text, images, audio, and other complex data types Semantic search = search by \"meaning\" , not only by keywords. Vector Databases are becoming much better at scaling - handling massive datasets and providing fast query response times Typical applications: Question answering, Recommendation Engines, Image Search, Fraud Detection. Here is a list of some Vector Databases (2023) - https://sourceforge.net/software/vector-databases/"
+    },
+    {
+      "index": 4,
+      "title": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io",
+      "text": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io Redis Vector DB https://redis.io/docs/interact/search-and-query/search/vectors/ Chroma Open Source https://www.trychroma.com https://python.langchain.com/docs/modules/data_connection/vectorstores/integrations/chroma (shows how to use db.persist() to save on disk) https://github.com/chroma-core/chroma https://docs.trychroma.com/getting-started https://docs.trychroma.com/deployment - hosted Chroma (still in \"alpha\" stage) PGVector Open Source PostgresSQL extension https://github.com/pgvector/pgvector - vector similarity search, up to 16,000 dimensions https://www.youtube.com/watch?v=aBeVM5q0f5A https://www.youtube.com/watch?v=y10Wmr4fmlA pg_embedding Open Source, fast PostgresSQL extension https://github.com/neondatabase/pg_embedding https://neon.tech/blog/pg-embedding-extension-for-vector-search - 20x times faster Qdrant Open Source - Rust https://qdrant.tech https://qdrant.tech/documentation/guides/installation/ - docker Milvus Project Open Source - Go, C++, Python https://milvus.io https://milvus.io/blog/how-to-get-started-with-milvus.md - docker Weaviate (SeMI) Open Source - Go https://www.semi.technology/developers/weaviate/current/ https://weaviate.io/developers/weaviate/installation - docker Vespa.ai (Yahoo!) Open Source - Java, C++ https://vespa.ai https://docs.vespa.ai/en/getting-started.html - docker Faiss Open Source Lib - C++, Python FAISS = Facebook AI Similarity Search (library in C++ with Python wrapper) https://github.com/facebookresearch/faiss Vald (Yahoo!) Open Source - Go https://vald.vdaas.org https://github.com/vdaas/vald - distributed, Kubernetes https://thenewstack.io/top-5-vector-database-solutions-for-your-ai-project/ https://towardsdatascience.com/milvus-pinecone-vespa-weaviate-vald-gsi-what-unites-these-buzz-words-and-what-makes-each-9c65a3bd0696 https://www.reddit.com/r/SoftwareEngineering/comments/107vhoq/vector_databases_like_pinecone_or_weaviate_are/"
+    },
+    {
+      "index": 5,
+      "title": "Large modern models (GPT, Diffusion) use huge latent",
+      "text": "Large modern models (GPT, Diffusion) use huge latent vectors or tensors (GPT/Diffusion latent dimensions: 12K .. 60K numbers per vector/tensor). If you put these huge vectors in a vector database, how do you query them? Here are some common indexing techniques (to speed-up the similarity search): Locality-sensitive hashing ( LSH ) - similar vectors mostly get into same buckets Product quantization ( PQ ) - lossy compression to reduce the size of vectors while preserving similarity Hierarchical Navigable Small World ( HNSW ) - create a graph where each vector is connected to its nearest neighbor(s) Hierarchical Grid Index ( HGI ) - divides a multidimensional space into a hierarchy of grids Ball Tree Index ( BTI ) - a tree of nodes (balls) and leaves (actual points) Random Forest Index ( RFI ) - trees represent regions in space, and the leaves represent the actual points. Examples: Pinecone uses a hybrid approach : an HGI with a LSH index. Fast search on large and small datasets Weaviate uses a hybrid approach : an HGI with a BTI index. Fast performance for both range and point queries Chroma uses a single-level grid index , which is a simple but effective approach for vector indexing Redis Vector Database uses a Sorted Set data structure to store vectors, which allows for efficient range queries Qdrant uses a hybrid approach : an HGI with a RFI index. Good performance for both range and point queries Milvus Project uses an HGI Vespa.ai uses a hybrid approach : an HGI with a LSH index. Fast search on large and small datasets Indexing Vectors for Similarity Search"
+    },
+    {
+      "index": 6,
+      "title": "Narrowing Down Open Source VDBs PostgreSQL - pgvector",
+      "text": "Narrowing Down Open Source VDBs PostgreSQL - pgvector & pg_embedding extensions https://github.com/pgvector/pgvector - vector similarity search, up to 16,000 dimensions https://www.youtube.com/watch?v=aBeVM5q0f5A https://www.youtube.com/watch?v=y10Wmr4fmlA https://github.com/neondatabase/pg_embedding https://neon.tech/blog/pg-embedding-extension-for-vector-search support only 4-Bytes precision Milvus https://milvus.io https://milvus.io/blog/how-to-get-started-with-milvus.md Uses FAISS Vespa https://vespa.ai https://docs.vespa.ai/en/getting-started.html support int8 and more 1973 - Ingres db (INteractive Graphics REtrieval System), Berkeley (also, Ingres is similar to ingress, which means \"access\") 1985 - Postgres (Post Ingres, Berkeley) 1994 - Open Sourced under MIT license 1996 - PostreSQL (signifying full support for SQL) Neo4j Graph Database - community edition is open source. Now has support for Vector Similarity Search via Lucene. 1-byte precision will hopefully be available soon"
+    },
+    {
+      "index": 7,
+      "title": "Apache Lucene Neo4j vector similarity search is based",
+      "text": "Apache Lucene Neo4j vector similarity search is based on Apache Lucene. https://lucene.apache.org Apache Lucene is an open-source Java library Designed for text search Uses an inverted full-text index Doug Cutting originally wrote Lucene in 1999. Key elements: Indexes, Documents, Inverted indexes, Scoring, Tokenization. Inverted full-text index: Splits documents into words and builds an index for each word. Inverted indexing: Maps keywords to pages, similar to a glossary, instead of mapping pages to keywords. Fast search responses: Searches through an index instead of searching through text directly. Lucene is adding support for int8 precision in vectors (Nov 2023) https://www.elastic.co/search-labs/blog/articles/scalar-quantization-in-lucene So hopefully it will soon propagate to systems that use it - Elasticsearch, AWS Opensearch, Solr, Neo4j, ... Doug Cutting https://www.linkedin.com/in/cutting/"
+    },
+    {
+      "index": 8,
+      "title": "FAISS = Facebook AI Similarity Search FAISS specializes",
+      "text": "FAISS = Facebook AI Similarity Search FAISS specializes in efficient similarity search and clustering operations on dense numerical vectors (images, recommendation systems, and information retrieval in non-text data ). FAISS employs specialized indexes (like Inverted File with Product Quantization) optimized for searching dense vectors. FAISS written in C++ with Python bindings . FAISS doesn't have native support for 1-byte precision vectors, but it supports Product Quantization (PQ) where the original 4-Byte precision floating-point vector is decomposed into multiple sub-vectors, which are quantized to 1-Byte representation FAISS does not use Apache Lucene Apache Lucene is a text search engine library.  It uses primarily inverted indexes for text search, and it is written in Java . While both libraries ( FAISS and Lucene ) deal with search, they operate on fundamentally different data types and different use cases. FAISS is used by Milvus and Weaviate vector databases. It is also used for similarity search by itself. Note about Vespa Vector DB. Vespa does NOT use FAISS of Lucene . Vespa has its own in-built  system for approximate nearest neighbor (ANN) searches. It is built around the Hierarchical Navigable Small World (HNSW) algorithm. Vespa has its own native support for tensors, not vectors. Vespa is a full-fledged search engine and big data serving platform. Its vector similarity search capabilities are tightly integrated with other features like text search, data ranking, and distributed serving."
+    },
+    {
+      "index": 9,
+      "title": "Databricks Vector Search (DVS) Databricks Vector Search (DVS)",
+      "text": "Databricks Vector Search (DVS) Databricks Vector Search (DVS) is a vector DB https://docs.databricks.com/en/generative-ai/vector-search.html DVS uses vector search index from a Delta table - the index includes embedded data with metadata Index can automatically sync when the underlying Delta table is updated. DVS uses Hierarchical Navigable Small World (HNSW) algorithm for its approximate nearest neighbor searches and the cosine similarity distance metric to measure embedding vector similarity. Create DVS Index https://docs.databricks.com/en/generative-ai/create-query-vector-search.html RAG on Databricks https://docs.databricks.com/en/generative-ai/retrieval-augmented-generation.html"
+    },
+    {
+      "index": 10,
+      "title": "OpenSearch vs ElasticSearch https://www.chaossearch.io/blog/opensearch-vs-elasticsearch-comparison 2010 - Elasticsearch open",
+      "text": "OpenSearch vs ElasticSearch https://www.chaossearch.io/blog/opensearch-vs-elasticsearch-comparison 2010 - Elasticsearch open source Apache 2.0 license 2015 - Amazon Elasticsearch Service (Amazon ES) - cloud managed calable Elasticsearch clusters 2019 - Elastic N.V. filed suit against Amazon 2021 - Elastic N.V. announced new SSPL licensing https://github.com/elastic/elasticsearch/ https://github.com/elastic/kibana 2021 - Amazon made fork from last open-source version of Elasticsearch (7.10.2) to launch a new open-source search engine project OpenSearch - and a cloud service under the name “ Amazon OpenSearch Service ”. https://github.com/opensearch-project https://aws.amazon.com/opensearch-service/ Both ES and OS share all the basic functionality of search (full-text search and distributed search), analytics, and dashboards. Elasticsearch engine is 40-140% faster while using less compute. Both can be downloaded and installed. Both available as managed cloud solutions ChaosSearch - cheaper and better alternative to use with telemetry and log data https://www.chaossearch.io/use-cases/elasticsearch-replacement"
+    },
+    {
+      "index": 11,
+      "title": "Using Elasticsearch from Python # https://elasticsearch-py.readthedocs.io/en/v7.16.0/ # pip",
+      "text": "Using Elasticsearch from Python # https://elasticsearch-py.readthedocs.io/en/v7.16.0/ # pip install elasticsearch from elasticsearch import Elasticsearch es = Elasticsearch([{'host':'localhost', 'port':9200}]) doc = {'title':'Example Doc', 'content':'Example Content'} res = es.index(index='my-index', id=1, body=doc) search_query = {'query':{'match':{'content':'example'}}} response = es.search(index='my-index', body=search_query) print('Search result:', response['hits']['hits'])"
+    },
+    {
+      "index": 12,
+      "title": "Elasticsearch Clients GUI Kibana - official Elasticsearch visualization",
+      "text": "Elasticsearch Clients GUI Kibana - official Elasticsearch visualization tool (custom dashboards, advanced searches); Kibana is part of the Elastic Stack (Elasticsearch, Kibana, Logstash, Beats) Sense - plugin for Chrome and Firefox to run queries, manage indices, explore data ElasticHQ - web-based GUI (queries, indexes, data visualization) Inquisitor - Chrome extension (queries, indexes, data visualization) ElasticSearch Head - web-based GUI ES Admin - web-based GUI"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "rag",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Popular Vector Databases Indexing Vectors for Similarity Search",
+      "source": "youtube"
+    },
+    {
+      "claim": "Languages",
+      "topic": "rag",
+      "videoSeconds": 94,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=94s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Humanoid robots",
+      "topic": "rag",
+      "videoSeconds": 146,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=146s",
+      "slideIndex": 3,
+      "slideTitle": "Popular Vector Databases Popular Vector Databases: Pinecone Weaviate",
+      "source": "youtube"
+    },
+    {
+      "claim": "Miscellaneous",
+      "topic": "rag",
+      "videoSeconds": 185,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=185s",
+      "slideIndex": 4,
+      "slideTitle": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba",
+      "topic": "rag",
+      "videoSeconds": 332,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=332s",
+      "slideIndex": 4,
+      "slideTitle": "Vector Databases Vector DB (VDB) Type Pinecone https://www.pinecone.io",
+      "source": "youtube"
+    },
+    {
+      "claim": "DSPY",
+      "topic": "rag",
+      "videoSeconds": 411,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=411s",
+      "slideIndex": 5,
+      "slideTitle": "Large modern models (GPT, Diffusion) use huge latent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Char GPT",
+      "topic": "rag",
+      "videoSeconds": 478,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=478s",
+      "slideIndex": 6,
+      "slideTitle": "Narrowing Down Open Source VDBs PostgreSQL - pgvector",
+      "source": "youtube"
+    },
+    {
+      "claim": "Semantic Routing Router",
+      "topic": "rag",
+      "videoSeconds": 569,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=569s",
+      "slideIndex": 7,
+      "slideTitle": "Apache Lucene Neo4j vector similarity search is based",
+      "source": "youtube"
+    },
+    {
+      "claim": "More stuff",
+      "topic": "rag",
+      "videoSeconds": 761,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=761s",
+      "slideIndex": 8,
+      "slideTitle": "FAISS = Facebook AI Similarity Search FAISS specializes",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ensemble of agents",
+      "topic": "agents",
+      "videoSeconds": 852,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=852s",
+      "slideIndex": 9,
+      "slideTitle": "Databricks Vector Search (DVS) Databricks Vector Search (DVS)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 970,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=970s",
+      "slideIndex": 9,
+      "slideTitle": "Databricks Vector Search (DVS) Databricks Vector Search (DVS)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hugging Face Leaderboard",
+      "topic": "open-models",
+      "videoSeconds": 1003,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=1003s",
+      "slideIndex": 10,
+      "slideTitle": "OpenSearch vs ElasticSearch https://www.chaossearch.io/blog/opensearch-vs-elasticsearch-comparison 2010 - Elasticsearch open",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource",
+      "topic": "rag",
+      "videoSeconds": 1046,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=1046s",
+      "slideIndex": 11,
+      "slideTitle": "Using Elasticsearch from Python # https://elasticsearch-py.readthedocs.io/en/v7.16.0/ # pip",
+      "source": "youtube"
+    },
+    {
+      "claim": "Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1081,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=1081s",
+      "slideIndex": 12,
+      "slideTitle": "Elasticsearch Clients GUI Kibana - official Elasticsearch visualization",
+      "source": "youtube"
+    }
+  ]
+}

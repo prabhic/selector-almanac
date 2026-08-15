@@ -1,0 +1,205 @@
+{
+  "id": "unknown-da-09-etl-git-ci-cd-devops",
+  "date": null,
+  "title": "DA 09 ETL Git CI CD DevOps",
+  "series": "data-architect-2021",
+  "topics": [
+    "rag",
+    "data-engineering",
+    "open-models",
+    "benchmarks",
+    "general",
+    "safety",
+    "enterprise"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_09_ETL_Git_CI_CD_DevOps.pptx",
+    "filename": "DA_09_ETL_Git_CI_CD_DevOps.pptx",
+    "title": "DA 09 ETL Git CI CD DevOps",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_09_ETL_Git_CI_CD_DevOps.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_09_ETL_Git_CI_CD_DevOps.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "ETL = Extract Transform Load Git CI/CD =",
+      "text": "ETL = Extract Transform Load Git CI/CD = Continuous Integration / Continuous Delivery DevOps YAML Fuzzing Protocol Buffers High-Availability Clusters, Consistent Hashing Data Architecture -  ETL, Git, CI/CD, DevOps,  . . ."
+    },
+    {
+      "index": 2,
+      "title": "ETL – Extract Transform Load Extract data from",
+      "text": "ETL – Extract Transform Load Extract data from one system (database?) Transform to different formats (filter, clean, join, etc.) Load into another system (database) Good Practices - Try to separate process into 3 distinct steps: Extract, Transform, Load. - Avoid chaining. Embrace parallel processing. Use FedEx architecture – use central \"Airport\" to get all data into one processing center at the same time, process fully in one place, and only then deliver to targets at the same time. - All individual steps should be re-runnable . - Think about moving data as a big set of distributed transactions . Expect that individual steps will often fail. All steps should be logged . Logs allow to design system to do self-recovery. - All rows of data should be tagged with individual unique row_id , individual unique load_id , timestamp, user, and other metadata to allow cleaning and rerunning. - Use bulk loaders/unloaders whenever possible. Bulk operations are much faster than querying or inserting one row at a time. - Split huge chunks of data into reasonably sized pieces. In case of failure, smaller pieces allow to rerun only failed pieces – not the whole thing. - Do all processing externally in ETL layer . This includes validation, joining, key-generation, etc. Try to avoid post-processing in the target. - When loading into databases – disable triggers, drop indices, etc. - Monitor memory usage to avoid crashes. A B C D A B C B C D files E Good ETL Architecture with one central Layer Bad Architectures – chaining or multiple mutual inter-connections ETL Layer files E T L"
+    },
+    {
+      "index": 3,
+      "title": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration",
+      "text": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration Server Airbyte (open source) Alooma Apache Airflow (open Source, python) Astronomer (based on Apache Airflow) Apache Camel (open source) Apache Kafka (open source) Apache NiFi Apatar (Deprecated) ApatarForge (open source) Atom (from ironSource) BODS (Business Objects Data Services) from SAP BiG EVAL Blendo Bubbles (open source) CDAP CData Sync Centerprise Data Integrator CloverDX Data Integration Software CloverETL (open source) Cognos Data Manager DBConvert Studio By SLOTIX s.r.o. DBSoftlab Dataddo Dell Boomi Elixir Repertoire for Data ETL Etleap Some ETL Tools & Vendors Fivetran FlyData Heka (Deprecated) Hevo Data IBI Data Migrator IBM Cognos Data Manager (Formerly known as Cognos Decision Stream) IBM Infosphere Information Server IBM Websphere DataStage (Formerly known as Ascential DataStage) IBM Datastage = IBM Information Server IBM Infosphere Information Server IBM Infosphere Warehouse Edition IRI Voracity Informatica Power Center Jaspersoft ETL Logstash (open source) Matillion Microsoft Azure Data Factory (same as Azure Synapse Integration) Microsoft SQL Server Integration Services (SSIS) N8n Nexla OWB and ODI from Oracle Open Text Integration Center Open source Clover ETL Oracle − Data Integrator ODI (Formerly known as Sunopsis Data Conductor) Oracle − Warehouse Builder Oracle Data Integrator (ODI) Oracle Warehouse Builder (OWB) PDI (Pentaho Data Integration) from Pentaho (now Hitachi Data Systems) Panoply Pentaho Data Integration (Kettle) (open source) Pentaho Data Integration (PDI) Petl (open source) Pygrametl (open source) QlikView Expressor QuerySurge Relational Junction SAP − Business Objects Data Services BODS SAP – BusinessObjects Data Integrator SAP Data Services SAS − Data Integration Studio SAS Data Integration Studio from SaS SAS Data Management Sagent Data Flow Scriptella (open source, Deprecated) Segment Singer (open source) Skyvia Stitch StreamSets Striim Sybase ETL Syncsort DMX Talend Open Studio & Integration Suite Talend Open Studio (open source) Vendia Web Data Extraction & Aggregation Services Xplenty Xtract.io"
+    },
+    {
+      "index": 4,
+      "title": "Microsoft SQL Server on Azure cloud - very",
+      "text": "Microsoft SQL Server on Azure cloud - very standard SQL database (1 st release 30+ years ago, in 1989) - https://azure.microsoft.com/en-us/services/sql-data-warehouse Power BI - Standard Microsoft Business Intelligence tool - https:// powerbi.microsoft.com Demo of how fast Power BI works with MS SQL Server - 500+ Mln rows of data - https:// www.youtube.com / watch?v =mQyFp2MSl-s Demo of Kinetica DB using Tableau & Power BI: - https:// www.youtube.com / watch?v =7XliLU7ZC_s Notice: - sub-second response on billions of rows of data - no need to create indexes, no wait time, fast load (even live streaming) of data Benefits: - you can select from many different BI tools - they all support SQL - you can select from many SQL databases - they are fast - you can simplify your development time using standard SQL features - you can select dedicated hardware to tune your speed - you can achieve very fast response time - you can enjoy lower prices ETL – continued …"
+    },
+    {
+      "index": 5,
+      "title": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "text": "Git Linus Torvalds Linux - https://www.linux.org Git - https://git-scm.com - https://github.com Linus Torvalds has developed Git in 2005 to use in Linux development community. (before Git they used BitKeeper ). Some of the goals of the new system were: Speed Simple design Strong support for non-linear development (thousands of parallel branches) Fully distributed Able to handle large projects like the Linux kernel efficiently (speed and data size) GutHub Git Linux GitHub - founded in 2008 Microsoft acquired GitHub for $7.5B in 2018 In 2020: - 40 Million users - 190 Million repositories - 2.5 Thousand employees GutHub Desktop"
+    },
+    {
+      "index": 6,
+      "title": "Git – continued … Git is a source",
+      "text": "Git – continued … Git is a source control system - http://git-scm.com - https://git-scm.com/doc git config --global user.name \"Last, First\" git config --global user.email FLast@example.com Some files to know: ~/.git- completion.bash ~/. gitconfig ~/. gitexcludes mkdir ~/ workdir cd ~/ workdir git clone git@github.com:myuser /repo1.git git clone git@github.com:myuser/repo2.git cd repo1 edit . gitignore git add . git commit - m'soem comment' git remote add origin git@github.com:myuser /repo1.git git push -u origin master git fetch git pull git log ... Check your remote: git remote -v                                                                                                    (base) origin git@github.com:lselector / ml_ai_doc.git (fetch) origin git@github.com:lselector / ml_ai_doc.git (push) (base) [filter \" lfs \"] process = git- lfs filter-process required = true clean = git- lfs clean -- %f smudge = git- lfs smudge -- %f [user] name = Lev Selector email = lev.selector@gmail.com [credential] username = lselector [color] ui = auto [alias] st = status ci = commit co = checkout staged = diff --cached unstage = reset HEAD -- amend = commit --amend unci = reset --soft HEAD^ oneline = log -- oneline unstaged = diff both = diff HEAD lg = log --graph --pretty= oneline --abbrev-commit --decorate wdiff = diff --word-diff [log] decorate = short [push] default = tracking [branch] autosetuprebase = always . gitconfig . (example)"
+    },
+    {
+      "index": 7,
+      "title": "DevOps What is DevOps DevOps = Development (Dev)",
+      "text": "DevOps What is DevOps DevOps  = Development (Dev)  +  Operations (Ops) DevOps is the union of people, process, and technology. DevOps enables formerly siloed roles development IT operations quality engineering security to coordinate and collaborate to produce better, more reliable products. By adopting a DevOps culture, practices and tools, teams gain the ability to better respond to customer needs, increase confidence in the applications they build, and achieve business goals faster Azure DevOps Server - a Microsoft product that provides version control, reporting, requirements management, project management, automated builds, testing and release management capabilities . It covers the entire application lifecycle, and enables DevOps capabilities AWS Google"
+    },
+    {
+      "index": 8,
+      "title": "CI Software for DevOps Review - https://www.guru99.com/top-20-continuous-integration-tools.html Leaders:",
+      "text": "CI Software for DevOps Review - https://www.guru99.com/top-20-continuous-integration-tools.html Leaders: CircleCI - free and commercial, good for small projects - https://circleci.com/ Jenkins - open source, java, need dedicated server, good for big projects - https://www.jenkins.io/ Travis CI - similar to CircleCI (more options, but also more expensive, no free options) - https://travis-ci.org/ Others: CodeShip - https://codeship.com/ TeamCity – from JetBrains, $300+, has many features - https://www.jetbrains.com/teamcity/ Bamboo CI – commercial - https://www.atlassian.com/software/bamboo Chef - https://www.chef.io/ Ansible - RedHat - https://www.ansible.com/ GitLab CI - https://about.gitlab.com/ AirFlow - https://airflow.apache.org/ Azure devops - https://azure.microsoft.com/en-us/services/devops/ Jenkins X - https://jenkins-x.io/ OpenShift - Red Hat - Enterprise Kubernetes container platform to automate hybrid cloud and multi-cloud deployments - https://www.openshift.com/ Continuous Integration / Continuous Delivery         CI/CD"
+    },
+    {
+      "index": 9,
+      "title": "YAML YAML = YAML Ain't Markup Language (original",
+      "text": "YAML YAML = YAML Ain't Markup Language (original name was Yet Another Markup Language ) serialization language, mostly used for config files, DevOps human-friendly since 2001 (20+ years) by Clark Evans, Ingy döt Net, Oren Ben-Kiki rhymes with “camel” unicode based uses indentation (like python) to indicate nesting uses [...] for lists and {...} for maps JSON files are valid YAML uses \"#\" for comments (benefit in comparison with JSON) https://yaml.org - https://en.wikipedia.org/wiki/YAML - http://ben-kiki.org/oren - https://github.com/orenbenkiki - https://github.com/ingydotnet - https://github.com/clarkevans - --- The reason why we like working with YAML is because it is optimized for data serialization, formatted dumping, configuration files, log files, Internet messaging and filtering . There are many advantages of localizing files in YML file format: Files are easy to work in a text editor . # Employee records - martin: name: Martin D'vloper job: Developer skills: - python - perl - pascal - tabitha: name: Tabitha Bitumen job: Developer skills: - lisp - fortran - erlang # https://pyyaml.org/wiki/PyYAMLDocumentation # pip install pyyaml import yaml with open(myfile) as fh: data = yaml.load(fh, Loader=yaml.FullLoader) print(data) data = [ ... ] with open('myfile.yaml', 'w') as fh: out = yaml.dump(data, fh) YAML in Python: YAML Example: Ingy döt Net Clark Evans Oren Ben-Kiki"
+    },
+    {
+      "index": 10,
+      "title": "Fuzzing for Test Automation. Fuzzing or fuzz testing",
+      "text": "Fuzzing for Test Automation. Fuzzing or fuzz testing - test software by feeding it with random data – was done since 1950s. The term \"fuzzing\" originates from a 1988 class project (fuzz testing unix utilities) taught by Barton Miller at the University of Wisconsin. Prof. Barton P. Miller Univ. of Wisconsin https://en.wikipedia.org/wiki/Fuzzing https://www.guru99.com/fuzz-testing.html 2012 – ClusterFuzz (Google cloud-based fuzzing infrastructure) 2014 – fuzzer AFL success in disclosing Sellchock bugs in Unix Bash shell 2014-15 – fuzzer AFL disclosed the Heartbleed vulnerability in OpenSSL 2016 – DARPA (Defense Advanced Research Projects Agency) competition for developing automatic defense systems that can discover, exploit, and correct software flaws in real-time – used fuzzing as offense strategy to discover flaws in the software of the opponents. 2016 - Project Springfield - Microsoft cloud-based fuzz testing service for finding security critical bugs in software. 2016 - OSS-Fuzz (Google) - continuous fuzzing of security-critical open-source projects. 2018 - At Black Hat 2018 , Christopher Domas demonstrated the use of fuzzing to expose the existence of a hidden RISC core in a processor . This core was able to bypass existing security checks to execute Ring 0 commands from Ring 3. Fuzzer generate data SUT System Under Test Report Feedback Fuzzy testing known to find the most serious security faults or defects. Fuzzing is one of the most common method hackers used to find vulnerability of the system."
+    },
+    {
+      "index": 11,
+      "title": "Protocol Buffers A protocol buffer is simply a",
+      "text": "Protocol Buffers A protocol buffer is simply a binary message . The structure of the messages is defined in a .proto file. Google provides open-source libraries for different languages for encoding/decoding these messages. - https://en.wikipedia.org/wiki/Protocol_Buffers - https://developers.google.com/protocol-buffers/docs/pythontutorial Protobuf -s are much smaller than XML, CSV, etc. Protobuf -s specs don't specify compression, but they have binary optimizations, which make them even smaller. You can further decrease messages using compression: - https://github.com/protocolbuffers/protobuf/blob/master/src/google/protobuf/io/gzip_stream.h syntax = \"proto2\"; package tutorial; message Person { optional string name = 1; optional int32 id = 2; optional string email = 3; enum PhoneType { MOBILE = 0; HOME = 1; WORK = 2; } message PhoneNumber { optional string number = 1; optional PhoneType type = 2 [default = HOME]; } repeated PhoneNumber phones = 4; } message AddressBook { repeated Person people = 1; } Example of a proto file: addressbook.proto"
+    },
+    {
+      "index": 12,
+      "title": "High Availability Clusters Question: If a load balancer",
+      "text": "High Availability Clusters Question: If a load balancer is used - isn't that the single point of failure? Answer: Yes, it will become a single point of failure if it is a single device. So to avoid this, we need to use more than one balancer , and we need to run them as a HA (High Availability) cluster . - https://en.wikipedia.org/wiki/High-availability_cluster There are multiple ways to achieve High Availability. For example, consider simple fail-over mechanism with just two servers ( master/slave ). They receive the same input, do the same calculations, constantly in sync, but only the master provides the output. The slave server monitors the heartbeat of the master. If the master server dies (heartbeat stops), the slave  server becomes the new master. In the above simple master/slave architecture, the slave is mostly doing nothing. In real life you may have many servers receiving same inputs and separating their responsibilities to achieve higher performance. Then if one of the servers dies, others can take over its responsibilities. Common method of separating responsibilities (and doing fail-over) is called \" consistent hashing \". - https://en.wikipedia.org/wiki/Consistent_hashing Good explanation: - https://dzone.com/articles/simple-magic-consistent - https://www.toptal.com/big-data/consistent-hashing Original paper (Karger et al, 1997): - Consistent Hashing and Random Trees: Distributed Caching Protocols for Relieving Hot Spots on the World Wide Web – by David Karger, Eric Lehman, Tom Leighton, Matthew Levine, Daniel Lewin, Rina Panigrahy . Consistent Hashing"
+    },
+    {
+      "index": 13,
+      "title": "Consistent Hashing Explained How do we distribute requests",
+      "text": "Consistent Hashing Explained How do we distribute requests from clients between several servers. Suppose each client has a key. Or we generate a key based on its IP address and port. Now we can hash the key to an integer and do a modulo based on the size of the server set. server_id = int_hash (key)    % N_servers So for a given key we get the same server every time. Great!? But what if one of the servers dies ? Here is a better algorithm. Instead of using modulo, we can use random numbers. Suppose N_servers =20, and for each server we want 200 random numbers. Total: 200*20=4,000 values – we will call them \"virtual servers\". Let's take a big range of numbers [0 .. 2^160] and put them on a circle. Let's randomly choose 200 numbers for each server (no sharing). So now on the circle we have 4,000 positions of \"virtual servers\". So now how we map a key to a real server? We use hash function to map a key to some value in range up to 2^160. We find corresponding position on the circle. We move (clockwise?) until we hit the first position corresponding to some \"virtual server\". We map from this \"virtual server\" to actual server. DONE. Building a Consistent Hashing Ring (2011) – very good, with code in Python: - https://docs.openstack.org/swift/latest/ring_background.html A Fast, Minimal Memory, Consistent Hash Algorithm (2014, Google) - by John Lamping, Eric Veach - https://arxiv.org/abs/1406.2294 Notes: Randomness helps to avoid hotspots Consistent Hashing Enables Partitioning Partitioning Makes Scaling Up and Down More Predictable Consistent Hashing and Partitioning Enable Replication There doesn't need to be a master for any piece of data Every node is simply a replica of a number of partitions Replication Reduces Hotspots (Even More by using load-balancing) Consistent Hashing Enables Scalability and Availability Adapted from: - https://www.mikeperham.com/2009/01/14/consistent-hashing-in-memcache-client/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "ETL = Extract Transform Load Git CI/CD =",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "ETL = Extract Transform Load Git CI/CD =",
+      "source": "slide"
+    },
+    {
+      "claim": "ETL – Extract Transform Load Extract data from",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "ETL – Extract Transform Load Extract data from",
+      "source": "slide"
+    },
+    {
+      "claim": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft SQL Server on Azure cloud - very",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Microsoft SQL Server on Azure cloud - very",
+      "source": "slide"
+    },
+    {
+      "claim": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Git Linus Torvalds Linux - https://www.linux.org Git -",
+      "source": "slide"
+    },
+    {
+      "claim": "Git – continued … Git is a source",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Git – continued … Git is a source",
+      "source": "slide"
+    },
+    {
+      "claim": "DevOps What is DevOps DevOps = Development (Dev)",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "DevOps What is DevOps DevOps = Development (Dev)",
+      "source": "slide"
+    },
+    {
+      "claim": "CI Software for DevOps Review - https://www.guru99.com/top-20-continuous-integration-tools.html Leaders:",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "CI Software for DevOps Review - https://www.guru99.com/top-20-continuous-integration-tools.html Leaders:",
+      "source": "slide"
+    },
+    {
+      "claim": "YAML YAML = YAML Ain't Markup Language (original",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "YAML YAML = YAML Ain't Markup Language (original",
+      "source": "slide"
+    },
+    {
+      "claim": "Fuzzing for Test Automation. Fuzzing or fuzz testing",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Fuzzing for Test Automation. Fuzzing or fuzz testing",
+      "source": "slide"
+    },
+    {
+      "claim": "Protocol Buffers A protocol buffer is simply a",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Protocol Buffers A protocol buffer is simply a",
+      "source": "slide"
+    },
+    {
+      "claim": "High Availability Clusters Question: If a load balancer",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "High Availability Clusters Question: If a load balancer",
+      "source": "slide"
+    }
+  ]
+}

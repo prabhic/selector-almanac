@@ -1,0 +1,540 @@
+{
+  "id": "2023-12-01-2023-12-01-ai-updates",
+  "date": "2023-12-01",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "benchmarks",
+    "openai",
+    "safety",
+    "jobs",
+    "rag",
+    "agents",
+    "infra"
+  ],
+  "video": {
+    "id": "yPRLh8P2oRE",
+    "title": "Have you heard these exciting AI news? -  Dec 01, 2023 - Inflection.ai, together.ai, Starling-7B",
+    "url": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+    "thumbnail": "https://i.ytimg.com/vi/yPRLh8P2oRE/hqdefault.jpg",
+    "duration": 1863
+  },
+  "deck": {
+    "path": "2023/2023-12-01-AI-Updates.pptx",
+    "filename": "2023-12-01-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-12-01-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-12-01-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Hugging Face LLM Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Elo Ranking Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Inflection",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Progress",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "together.ai, GNoME, OpenAI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Deep Learning History",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ChatGPT Birthday",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Security Vulnerability",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Pika.art",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "SDXL Turbo",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI Talent Hiring Wars",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Yann LeCun - why AGI should be Open Source",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Running Models Locally",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepLearning.AI RAG Course",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "CICERO from META",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Efficient Dataset Distillation",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft Gorilla",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Casetext",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Intuit adds AI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Training via Self-playing",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Starling-7B from Berkeley",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Spanish AI Influencer",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LEDITS++",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Graph RAG",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "The Research Agents",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Candle - Rust ML Framework",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Test Model for Bias, Safety, ...",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GPU Water Cooling",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates December 01, 2023 HuggingFace LLM Leaderboard",
+      "text": "AI Updates December 01, 2023 HuggingFace LLM Leaderboard Elo Ranking Leaderboard Inflection Progress together.ai, GNoME, OpenAI Deep Learning History ChatGPT Birthday Security Vulnerability Pika.art SDXL Turbo AI Telent Hiring Wars Yann LeCun - why AGI should be Open Source Running Models Locally DeepLearning.AI RAG Course CICERO from META Efficient Dataset Distillation Microsoft Gorilla Casetext Intuit adds AI Training via Self-playing Starling-7B from Berkeley Spanish AI Influencer Q* LEDITS++ Graph RAG The Research Agents Candle - Rust ML Framework Test Model for Bias, Safety, ... GPU Water Cooling"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Three More Tests (4 -> 7): ARC (AI2 Reasoning Challenge) grade-school science HellaSwag - common sense inference MMLU - math, history, comp-science, law, ... TruthfulQA - model's propensity to reproduce common falsehoods Winogrande - large version of Winograd test ( https://arxiv.org/abs/1907.10641 ), an adversarial and difficult test for commonsense reasoning GSM8k - diverse grade school math word problems DROP - English reading comprehension (Discrete Reasoning Over Paragraphs) Rank Model Aver Precision Nparam 0 TigerResearch/tigerbot-70b-chat-v2 (llama) 69.76 16bit 70 1 bhenrym14/platypus-yi-34b (llama) 68.96 16bit 30 2 01-ai/Yi-34B 68.68 16bit 30 32 OpenBuddy/openbuddy-falcon-180b-v13-preview0 64.3 8bit 178.64 62 fblgit/juanako-7b-UNA (mistral) 59.91 16bit 7 70 lvkaokao/mistral-7b-finetuned-orca-dpo-v2 (mistral) 59.06 16bit 7 72 Intel/neural-chat-7b-v3-1 (mistral) 59.01 8bit 7 96 microsoft/Orca-2-13b 58.05 16bit 13 110 Intel/neural-chat-7b-v3-1 (mistral) 57.5 4bit 7 174 meta-llama/Llama-2-70b-chat-hf (llama) 54.98 16bit 70 193 NeverSleep/Mistral-11B-SynthIAirOmniMix (mistral) 54.56 16bit 11 195 Open-Orca/Mistral-7B-OpenOrca (mistral) 54.51 16bit 7 290 microsoft/Orca-2-7b 53.02 16bit 7 380 Enno-Ai/vigogne2-enno-13b-sft-lora-4bit (llama) 51.79 4bit 13 405 ValiantLabs/ShiningValiantXS (llama) 51.47 16bit 13 528 mistralai/Mistral-7B-v0.1 (mistral) 50.32 16bit 7 1260 Phind/Phind-CodeLlama-34B-v2 (llama) 37.15 16bit 30 1836 wtang06/mpt-125m-c4 17.2 16bit 0.12"
+    },
+    {
+      "index": 4,
+      "title": "A Better LLM Leaderboard - lmsys https://www.youtube.com/watch?v=_RBAsItC6CU A",
+      "text": "A Better LLM Leaderboard - lmsys https://www.youtube.com/watch?v=_RBAsItC6CU A much better LLM Leaderboard!!! - by 1littlecoder Problem with standard Open LLM Leaderboard - leaking tests into training data. A better solution - crowd-sourced \"Arena\" leaderboard: https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard This leaderboard is based on the following three benchmarks. Chatbot Arena - a crowdsourced, randomized battle platform. We use 100K+ user votes to compute Elo ratings. MT-Bench - a set of challenging multi-turn questions. We use GPT-4 to grade the model responses. MMLU (5-shot) - a test to measure a model's multitask accuracy on 57 tasks. GPT-4-Turbo 1210 GPT-4 1159 Claude-1 1146 Claude-2 1125 Claude-instant-1 1106 GPT-3.5-turbo 1103 WizardLM-70b-v1.0 1093 Vicuna-33B 1090 OpenChat-3.5 1070 Llama-2-70b-chat 1065 WizardLM-13b-v1.2 1047 zephyr-7b-beta 1042 Vicuna-13B 1031 MPT-30B-chat 1031 QWen-Chat-14B 1030 falcon-180b-chat 1024 zephyr-7b-alpha 1024 CodeLlama-34B-instruct 1022 Llama-2-13b-chat 1021 Guanaco-33B 1021 Mistral-7B-Instruct-v0.1 1008 Llama-2-7b-chat 1001 Arpad Emmerich Elo (1903 - 1992) was an American physics professor and a chess master from Milwaukee (Wisconsin, USA). Originally from Hungary. He has invented the \"Elo rating system\" for two-player games such as chess."
+    },
+    {
+      "index": 5,
+      "title": "Inflection AI - creators of Pi. Why the",
+      "text": "Inflection AI - creators of Pi. Why the name \"inflection\" ? https://inflection.ai The term \"inflection\" symbolizes the moment of significant transformation. Inflection is not a non-profit, but it is a \"public benefit\" corporation committed to prioritizing the well-being and happiness of its users and wider stakeholders Misc"
+    },
+    {
+      "index": 6,
+      "title": "fire - 800,000 years ago wheel - 6,000",
+      "text": "fire - 800,000 years ago wheel - 6,000 years ago electricity - 150 years ago computers - 70 years ago Deep Learning - 30 years ago GenAI (ChatGPT, ...) - 1 year ago AGI - in 3 years from now ? Progress AGI GPT, ... AGI -3  ...  +3 years Computers -70 years Deep Learning -30 years Electricity -150 years Wheel -6K years Fire -1 Mln years"
+    },
+    {
+      "index": 7,
+      "title": "https://www.together.ai - San Francisco, CA - raised $102.5",
+      "text": "https://www.together.ai - San Francisco, CA - raised $102.5 Mln in Series A - Fastest cloud platform for building and running generative AI. Together AI’s research team is behind breakthroughs like FlashAttention, FlexGen, and CocktailSGD that are core to modern optimization, making Together Compute the most cost effective way to build new models with supercharged speed. Misc Amazon launches Q generative AI–powered assistant to answer questions about your AWS systems. GNoME (Graph Networks for Materials Exploration) - a new tool by Google DeepMind - just generated recipes for 2.2 million potentially stable new inorganic compounds. New materials include battery and solar cell components missed by prior algorithms. OpenAI - Sam Altman is back as CEO, Mira Murati as CTO and Greg Brockman as President. Still negotiating with Ilya Sutskever about his role OpenAI's custom GPTs have a security vulnerability . Researchers have demonstrated a 100% success rate in extracting files and system prompts from these chatbots https://arxiv.org/pdf/2311.11538.pdf Pika - generate videos, recent $55 Mln funding https://pika.art https://www.youtube.com/watch?v=6b10jGNNbXQ https://www.reddit.com/r/aivideo/ SDXL Turbo from Stability AI  - real-time text-to-image model using Adversarial Diffusion Distillation (ADD). How fast you can type ? https://stability.ai/news/stability-ai-sdxl-turbo AI talent hiring wars. Banks are intensely competing to attract the best AI talent. Goldman Sachs has lost ~ 60 AI specialists to competitors, Bank of America lost 55; Wells Fargo gained a significant number of AI staff. AI professionals' median compensation in the U.S. reaching record highs. ChatGPT birthday - 1 year (Nov 30, 2022) Yann LeCun - why AGI should be open source - https://twitter.com/i/status/1728510229133119644 Deep Learning History - by Jürgen Schmidhuber: https://people.idsia.ch/~juergen/deep-learning-history.html"
+    },
+    {
+      "index": 8,
+      "title": "Misc 2 Running Models Locally: GPT4All - open-source",
+      "text": "Misc 2 Running Models Locally: GPT4All - open-source local app - https://gpt4all.io MLC LLM - Machine-Learning Compilation - https://llm.mlc.ai - Open Source app to run LLM on all platforms LMStudio - https://lmstudio.ai - closed source app DeepLearning.AI - RAG course https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/ CICERO from Meta - an AI agent to play at a human level in Diplomacy, a strategy game that requires building trust, negotiating and cooperating with multiple players. https://ai.meta.com/research/cicero/ Efficient Dataset Distillation via Minimax Diffusion - create surrogate datasets that are more diverse and representative while requiring significantly less computational resources https://arxiv.org/abs/2311.15529v1 Casetext started out in 2013 as a crowdsourced law library . It was recently acquired for $650 Mln. Technologies - LLM, Python LangChain, etc. https://www.ycombinator.com/blog/the-10-year-overnight-success-story-of-casetext/ https://www.youtube.com/watch?v=qFBUd0b8TjY Intuit adds AI to its tax services: virtual tax expert, (GenAI)-powered TurboTax Online, Spanish language translations across all products, payments services 25 => 250 tokens/sec - using pytorch compile, int4, speculative decoding - https://pytorch.org/blog/accelerating-generative-ai-2/ AlphaGo has become better than human players via playing not against humans, but against the second AlphaGo. Similarly, better AI models will be probably created by training against each other (or using synthetic data) Starling-7B (Berkeley) - https://starling.cs.berkeley.edu - open LLM trained by RLAIF = Reinforcement Learning from AI Feedback. Performs better than Claude1,2 or GPT-3.5 Microsoft Gorilla - trained using RL, smarter than ChatGPT, self-instruct fine-tuning https://gorilla.cs.berkeley.edu https://arxiv.org/abs/2305.15334 https://www.youtube.com/watch?v=2ct81x-P2Ck Spanish AI model earning $11K/month https://www.euronews.com/next/2023/11/22/meet-the-first-spanish-ai-model-earning-up-to-10000-per-month https://www.businessinsider.com/ai-influencer-aitana-clueless-agency-tech-spain-2023-11"
+    },
+    {
+      "index": 9,
+      "title": "https://www.youtube.com/watch?v=Z6E41eXStsU https://www.youtube.com/watch?v=mdFOprWy2S0 https://www.theverge.com/2023/11/29/23982046/sam-altman-interview-openai-ceo-rehired https://qtransformer.github.io - Q-Transformer from Google",
+      "text": "https://www.youtube.com/watch?v=Z6E41eXStsU https://www.youtube.com/watch?v=mdFOprWy2S0 https://www.theverge.com/2023/11/29/23982046/sam-altman-interview-openai-ceo-rehired https://qtransformer.github.io - Q-Transformer from Google Deepmind - Scalable Offline Reinforcement Learning via Autoregressive Q-Functions https://github.com/lucidrains/q-transformer - Q-Transformer , Scalable Offline Reinforcement Learning via Autoregressive Q-Functions ( Google Deepmind ) https://arxiv.org/abs/2305.20050 - Let's verify Step by Step - Process supervision significantly outperform outcome supervision A* Search paper (2023) introducing Q* - https://arxiv.org/pdf/2102.04518.pdf John Schulman ( OpenAI, 2016 ) explains Q* - h ttps://www.youtube.com/watch?v=PtAIh9KSnjo&t=3780s Q* RL = Reinforcement Learning . Policy ( \"π\" ) is a function that takes a state \"S\" from the state space as input and returns an action \"A\" from the action space. It can be deterministic or stochastic. On-Policy Learning - agent uses same policy for acting and for learning. Off-Policy Learning - agent learns from the experience of a different policy (or policies). The most notable example of off-policy learning is the Q-learning algorithm where the agent learns the optimal policy regardless of the actions taken during exploration. Q* algorithm is the name of a rumored breakthrough in artificial intelligence research by OpenAI. The exact nature of the algorithm is unknown. It may be a combination of using Q-learning and A*-like search together for finding and returning correct answers A* search algorithm (1968) - was created when building a mobile robot that could plan its own actions. A* was originally designed for finding least-cost paths when the cost of a path is the sum of its costs."
+    },
+    {
+      "index": 10,
+      "title": "LEDITS++: Limitless Image Editing using Text-to-Image Models https://leditsplusplus-project.static.hf.space",
+      "text": "LEDITS++: Limitless Image Editing using Text-to-Image Models https://leditsplusplus-project.static.hf.space - from Machine Learning Group, Comp-Sci Dept, TU Darmstadt, Germany LEDITS++"
+    },
+    {
+      "index": 11,
+      "title": "RAG = Retrieval Augmented Generation - popular method",
+      "text": "RAG = Retrieval Augmented Generation - popular method of implementing semantic search using an LLM with external data storage typically implemented as a database capable of doing a similarity search over texts encoded into vectors (combination of a vector database and a relational database) Graph RAG - uses a graph databases instead of a relational database https://medium.com/@shobhan0304/how-can-graph-databases-help-in-enhancing-the-retrieval-augmented-generation-rag-capabilities-of-fa6b7b695dde https://blog.langchain.dev/using-a-knowledge-graph-to-implement-a-devops-rag-application/ https://www.youtube.com/watch?app=desktop&v=9DxwgIKVSHY https://github.com/facebookresearch/faiss/wiki - Facebook AI Similarity Search (Faiss) Graph RAG Benefits of using a Graph Database for RAG: Improved accuracy and relevance via using the knowledge graph Better understanding of relationships - graph helps LLM to better understand the overall context of a query Increased flexibility- graph databases can be easily extended to accommodate new information, which makes them well-suited for use with LLMs that are constantly learning and evolving"
+    },
+    {
+      "index": 12,
+      "title": "The Research Agent: Addressing the Challenge of Answering",
+      "text": "The Research Agent: Addressing the Challenge of Answering Questions Based on a Large Text Corpus https://towardsdatascience.com/the-research-agent-4ef8e6f1b741 https://github.com/rahulnyk/research_agent Results: \"\"\"The Research Agent is a big improvement over all the previous approaches I have tried. It yields more detailed and accurate answers than any other approach. I have been playing with this for a few weeks now, and I am surprised by the richness of the answers I get. The Agent avoids the problem of hallucinations to a greater extent than any previous approach. It autocorrects the hallucinations and the factual errors it generates in the first few iterations, during later ones. The deeper it gets into a problem, the more accurately it yields the result. \"\"\" The Research Agent"
+    },
+    {
+      "index": 13,
+      "title": "Candle - new open-source framework written in Rust",
+      "text": "Candle - new open-source framework written in Rust https://github.com/huggingface/candle https://blog.gopenai.com/python-is-out-of-favor-hugging-face-open-sources-a-new-ml-framework-which-written-in-rust-ee667831a0d0 current Candle already supports Llama2, Mistal, etc. https://github.com/huggingface/candle/blob/main/candle-examples/examples/llama/main.rs https://github.com/huggingface/candle/tree/main/candle-examples/examples/mistral Candle - Rust ML Framework cargo run --example mistral --release --features cuda -- \\ --prompt 'Write helloworld code in Rust' --sample-len 150 Generated text: Write helloworld code in Rust ============================= This is a simple example of how to write \"Hello, world!\" program in Rust. ## Compile and run ..."
+    },
+    {
+      "index": 14,
+      "title": "Responsible AI tests Tools to Identify and Mitigate",
+      "text": "Responsible AI tests Tools to Identify and Mitigate Bias & Toxicity in LLMs https://medium.com/@rajneeshjha9s/tools-to-identify-and-mitigate-bias-toxicity-in-llms-b34e95732241 A Practical Guide to Recognizing Bias in LLM Outputs https://www.appypie.com/blog/recognizing-bias-in-llm-outputs Ways to Monitor LLM Behavior https://medium.com/@bijit211987/ways-to-monitor-llm-behavior-c068fba53932 How To Test Model for Bias, Safety, etc."
+    },
+    {
+      "index": 15,
+      "title": "How To Build A Monster PC (Two 3090",
+      "text": "How To Build A Monster PC (Two 3090 GPUs | Liquid Cooling) - https://www.youtube.com/watch?v=MZSXwhkHNBE Optimus - https://optimuspc.com/collections/waterblocks Bykski - https://www.bykski.us/collections/gtx-rtx-3080-3090/ Discussion - https://www.reddit.com/r/watercooling/comments/yanxbx/waterblock_compatible_with_the_zotac_gaming/ Linux Tech Tips - https://www.youtube.com/watch?v=Pzh98abhAio&t=223s GPU Water Cooling"
+    },
+    {
+      "index": 16,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Hugging Face LLM Leaderboard",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates December 01, 2023 HuggingFace LLM Leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "Elo Ranking Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Inflection",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Progress",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 3,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "outline"
+    },
+    {
+      "claim": "together.ai, GNoME, OpenAI",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 3,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "outline"
+    },
+    {
+      "claim": "Deep Learning History",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 4,
+      "slideTitle": "A Better LLM Leaderboard - lmsys https://www.youtube.com/watch?v=_RBAsItC6CU A",
+      "source": "outline"
+    },
+    {
+      "claim": "ChatGPT Birthday",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 4,
+      "slideTitle": "A Better LLM Leaderboard - lmsys https://www.youtube.com/watch?v=_RBAsItC6CU A",
+      "source": "outline"
+    },
+    {
+      "claim": "Security Vulnerability",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 5,
+      "slideTitle": "Inflection AI - creators of Pi. Why the",
+      "source": "outline"
+    },
+    {
+      "claim": "Pika.art",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 5,
+      "slideTitle": "Inflection AI - creators of Pi. Why the",
+      "source": "outline"
+    },
+    {
+      "claim": "SDXL Turbo",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 6,
+      "slideTitle": "fire - 800,000 years ago wheel - 6,000",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Talent Hiring Wars",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 7,
+      "slideTitle": "https://www.together.ai - San Francisco, CA - raised $102.5",
+      "source": "outline"
+    },
+    {
+      "claim": "Yann LeCun - why AGI should be Open Source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 7,
+      "slideTitle": "https://www.together.ai - San Francisco, CA - raised $102.5",
+      "source": "outline"
+    },
+    {
+      "claim": "Running Models Locally",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 8,
+      "slideTitle": "Misc 2 Running Models Locally: GPT4All - open-source",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepLearning.AI RAG Course",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 8,
+      "slideTitle": "Misc 2 Running Models Locally: GPT4All - open-source",
+      "source": "outline"
+    },
+    {
+      "claim": "CICERO from META",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 9,
+      "slideTitle": "https://www.youtube.com/watch?v=Z6E41eXStsU https://www.youtube.com/watch?v=mdFOprWy2S0 https://www.theverge.com/2023/11/29/23982046/sam-altman-interview-openai-ceo-rehired https://qtransformer.github.io - Q-Transformer from Google",
+      "source": "outline"
+    },
+    {
+      "claim": "Efficient Dataset Distillation",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 9,
+      "slideTitle": "https://www.youtube.com/watch?v=Z6E41eXStsU https://www.youtube.com/watch?v=mdFOprWy2S0 https://www.theverge.com/2023/11/29/23982046/sam-altman-interview-openai-ceo-rehired https://qtransformer.github.io - Q-Transformer from Google",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft Gorilla",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 10,
+      "slideTitle": "LEDITS++: Limitless Image Editing using Text-to-Image Models https://leditsplusplus-project.static.hf.space",
+      "source": "outline"
+    },
+    {
+      "claim": "Casetext",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 10,
+      "slideTitle": "LEDITS++: Limitless Image Editing using Text-to-Image Models https://leditsplusplus-project.static.hf.space",
+      "source": "outline"
+    },
+    {
+      "claim": "Intuit adds AI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 11,
+      "slideTitle": "RAG = Retrieval Augmented Generation - popular method",
+      "source": "outline"
+    },
+    {
+      "claim": "Training via Self-playing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 12,
+      "slideTitle": "The Research Agent: Addressing the Challenge of Answering",
+      "source": "outline"
+    },
+    {
+      "claim": "Starling-7B from Berkeley",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 12,
+      "slideTitle": "The Research Agent: Addressing the Challenge of Answering",
+      "source": "outline"
+    },
+    {
+      "claim": "Spanish AI Influencer",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 13,
+      "slideTitle": "Candle - new open-source framework written in Rust",
+      "source": "outline"
+    },
+    {
+      "claim": "LEDITS++",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 13,
+      "slideTitle": "Candle - new open-source framework written in Rust",
+      "source": "outline"
+    },
+    {
+      "claim": "Graph RAG",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 14,
+      "slideTitle": "Responsible AI tests Tools to Identify and Mitigate",
+      "source": "outline"
+    },
+    {
+      "claim": "The Research Agents",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 14,
+      "slideTitle": "Responsible AI tests Tools to Identify and Mitigate",
+      "source": "outline"
+    },
+    {
+      "claim": "Candle - Rust ML Framework",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 15,
+      "slideTitle": "How To Build A Monster PC (Two 3090",
+      "source": "outline"
+    },
+    {
+      "claim": "Test Model for Bias, Safety, ...",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 15,
+      "slideTitle": "How To Build A Monster PC (Two 3090",
+      "source": "outline"
+    },
+    {
+      "claim": "GPU Water Cooling",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=yPRLh8P2oRE",
+      "slideIndex": 16,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

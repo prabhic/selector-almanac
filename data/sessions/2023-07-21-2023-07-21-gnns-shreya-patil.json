@@ -1,0 +1,291 @@
+{
+  "id": "2023-07-21-2023-07-21-gnns-shreya-patil",
+  "date": "2023-07-21",
+  "title": "GNNs-Shreya-Patil",
+  "series": "seminar",
+  "topics": [
+    "ml-fundamentals",
+    "open-models"
+  ],
+  "video": {
+    "id": "01JvntVl0kU",
+    "title": "Graph Neural Networks (GNNs) - July 21, 2023",
+    "url": "https://www.youtube.com/watch?v=01JvntVl0kU",
+    "thumbnail": "https://i.ytimg.com/vi/01JvntVl0kU/hqdefault.jpg",
+    "duration": 2027
+  },
+  "deck": {
+    "path": "2023/2023-07-21-GNNs-Shreya-Patil.pptx",
+    "filename": "2023-07-21-GNNs-Shreya-Patil.pptx",
+    "title": "GNNs-Shreya-Patil",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-07-21-GNNs-Shreya-Patil.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-07-21-GNNs-Shreya-Patil.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Introduction",
+      "startSeconds": 65,
+      "label": "01:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Why is it hard to analyze a graph?",
+      "startSeconds": 231,
+      "label": "03:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Why do Convolutional Neural Networks (CNNs) fail on graphs?",
+      "startSeconds": 460,
+      "label": "07:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Hugging Face",
+      "startSeconds": 859,
+      "label": "14:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Using GNNs to analyze Adverse Drug Reaction data",
+      "startSeconds": 1072,
+      "label": "17:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "GNNs Graph Neural Networks Presented by Shreya Patil",
+      "text": "GNNs Graph Neural Networks Presented by Shreya Patil July 21, 2023"
+    },
+    {
+      "index": 2,
+      "title": "Shreya Patil Research Fellow at U.S. Food and",
+      "text": "Shreya Patil Research Fellow at U.S. Food and Drug Administration Contact : shreya.patil.u@gmail.com LinkedIn : https://www.linkedin.com/in/shreya-patil-data-scientist/ About the Speaker"
+    },
+    {
+      "index": 3,
+      "title": "Introduction Graph Neural Networks (GNN) learn the graph",
+      "text": "Introduction Graph Neural Networks (GNN) learn the graph using neural networks and graph theory. GNN builds an internal representations (embedding, vector) for each node A graph is a data structure consisting of two components: nodes (vertices) and edges. A graph G can be defined as G = f(V, E), where V is the set of nodes, and E are the edges between them."
+    },
+    {
+      "index": 4,
+      "title": "Types of Attribute in GNN",
+      "text": "Types of Attribute in GNN"
+    },
+    {
+      "index": 5,
+      "title": "Graph Data Social Media Network Chem Informatics Image",
+      "text": "Graph Data Social Media Network Chem Informatics Image Data Text Data"
+    },
+    {
+      "index": 6,
+      "title": "Why is it hard to analyze a graph?",
+      "text": "Why is it hard to analyze a graph? Complexity of the data is a challenge for current ML algorithms. Hard to give fixed size of input to algorithm. Nodes are very dependant on each other, contrary to ML algorithms assumptions."
+    },
+    {
+      "index": 7,
+      "title": "Graph neural networks (GNNs) are a type of",
+      "text": "Graph neural networks (GNNs) are a type of neural network that are designed to operate on graph-structured data. GNN can be trained on just one graph. To train it, we need to provide graph structure and node features. Once trained, it can see patterns in nodes, can do predictions, find anomalies, etc. GNNs can also be trained on multiple graphs. Also a pretrained GNN can be used for training on a different graph 2005 - \" Neural Network Models for Graphs \" by Gori et al. 2014 - \" Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering \" by Bruna et al. - proposed a graph convolutional neural network (GCN) architecture What are GNNs"
+    },
+    {
+      "index": 8,
+      "title": "Why do Convolutional Neural Networks (CNNs) fail on",
+      "text": "Why do Convolutional Neural Networks (CNNs) fail on graphs? Arbitrary size of the graph. Complex topology. Unfixed node ordering of graphs."
+    },
+    {
+      "index": 9,
+      "title": "Graph convolution neural network (GCNN)",
+      "text": "Graph convolution neural network (GCNN)"
+    },
+    {
+      "index": 10,
+      "title": "Graph convolution neural network (GCNN)",
+      "text": "Graph convolution neural network (GCNN)"
+    },
+    {
+      "index": 11,
+      "title": "2016 - Graph Convolutional Networks (GCN) - \"",
+      "text": "2016 - Graph Convolutional Networks (GCN) - \" Semi-Supervised Classification with Graph Convolutional Networks \" by Kipf and Welling. Using convolution-like operations on nodes by aggregating and combining information from the node's neighbors. GCNs use graph Laplacian and adjacency matrices to define filters that capture the graph structure. By iteratively propagating and updating node representations, GCNs learn meaningful embeddings that encode both node features and graph topology. 2017 - GraphSAGE (Graph Sample and Aggregated) - \"Inductive Representation Learning on Large Graphs\" by Hamilton et al. Learn node embeddings by sampling and aggregating info from neighbors 2017 - Graph Attention Networks (GAT) - \"Graph Attention Networks\" by Velickovic et al. - using an attention mechanism to capture the importance of different nodes' neighbors during information propagation 2019 - Graph Transformer Networks (GTN) - \"Graph Transformer Networks\" by You et al. - remove the limitations of fixed graph neighborhood size by attending to all nodes in the graph. GTNs use multiple attention heads to capture different aspects of node relationships and incorporate positional encoding for handling node order - thus achieving state-of-the-art performance in various graph-related tasks such as node classification, link prediction, and graph-level predictions. What are GNNs CNN Attention Transformer"
+    },
+    {
+      "index": 12,
+      "title": "Evolution of GNNs from Convolution to Transformer is",
+      "text": "Evolution of GNNs from Convolution to Transformer is Typical for Other Networks as Well CNN Transformer Attention Mechanism RNN or LSTM Transformer Attention Mechanism CNN = Convolutional Neural Network RNN = Recurrent Neural Network LSTM = Long Short Term Memory Attention = important mechanism in Google Translate Transformer = deep learning model architecture paper \" Attention Is All You Need \" by Vaswani et al. in 2017 Context vector should have access to all parts of the input sequence instead of just the last one."
+    },
+    {
+      "index": 13,
+      "title": "Graph Transformer Networks (GTNs) work by first representing",
+      "text": "Graph Transformer Networks (GTNs) work by first representing the graph as a sequence of nodes and edges. The nodes are then embedded into a vector space, and the edges are represented as a matrix of weights. The Transformer architecture is then used to learn a representation of the graph by attending to the nodes and edges in the graph. GTNs proved effective for node classification, link prediction, and graph classification GTNs may prove to be useful for NLP and computer vision Graph Transformer Networks (GTNs)"
+    },
+    {
+      "index": 14,
+      "title": "Hugging Face is a company that provides/hosts open-source",
+      "text": "Hugging Face is a company that provides/hosts open-source software (AI models) Hugging Face have developed a number of GTNs - they are open-source and can be used for free. Graphormer : A Graph Transformer Network that can be used for node classification, link prediction, and graph classification GraphTransformer : A Graph Transformer Network that can be used for natural language processing tasks, such as text classification and question answering GraphViT : A Graph Transformer Network that can be used for computer vision tasks, such as image classification and object detection Hugging Face https://huggingface.co"
+    },
+    {
+      "index": 15,
+      "title": "GNNs can process and model structured data (graphs):",
+      "text": "GNNs can process and model structured data (graphs): Social Network Analysis (relationships between individuals, communities, and social interactions) - predict user behavior, identify influential nodes, detect communities, and recommend connections Recommendation Systems - especially in scenarios where user-item interactions are complex (graphs) - better recommendations Knowledge Graph Completion - infer missing facts/relationships in knowledge graphs. Drug Discovery - model molecular structure as graphs and predict properties: drug efficacy, toxicity, and interactions with biological targets, molecular property prediction, drug similarity, and virtual screening Computer Vision - create scene graph, object tracking, image segmentation, visual understanding Fraud/Anomaly Detection - in financial transactions, social networks, and e-commerce - model complex relationships and patterns in the graph Natural Language Processing (NLP) - document classification, sentiment analysis, named entity recognition, and semantic parsing Traffic Prediction - model transportation networks and predict traffic patterns Typical Applications of GNNs"
+    },
+    {
+      "index": 16,
+      "title": "GNN + LLM GNNs and LLMs can be",
+      "text": "GNN + LLM GNNs and LLMs can be used together to great effect. GNNs  - understand/process relationships between entities, LLMs - understand/processing natural language. By combining the strengths of these two types of models, we can create systems that are capable of performing complex tasks that would be difficult or impossible to do with either model alone. Examples: Natural language understanding : GNNs can be used to represent the relationships between words in a sentence, while LLMs can be used to understand the meaning of the words themselves. This combination can be used to create systems that can understand complex natural language queries, such as \"What is the relationship between the words 'dog' and 'cat'?\" Question answering : GNNs can be used to represent the relationships between entities in a knowledge graph, while LLMs can be used to understand the meaning of natural language questions. This combination can be used to create systems that can answer complex natural language questions, such as \"What is the capital of France?\" Drug discovery : GNNs can be used to represent the relationships between molecules in a chemical compound, while LLMs can be used to understand the properties of the molecules themselves. This combination can be used to create systems that can predict the properties of new chemical compounds, which could be used to discover new drugs. Google AI's Pathways project \" Graph Reasoning\" is using GNNs and LLMs to understand and reason about graphs."
+    },
+    {
+      "index": 17,
+      "title": "GNN + LLM - continued Google AI's Pathways",
+      "text": "GNN + LLM - continued Google AI's Pathways project \"Graph Reasoning \" is using GNNs and LLMs to understand and reason about graphs. OpenAI's GPT-3 models are used in a variety of applications for Drug Discovery, which use GNNs and LLMs to predict the properties of new chemical compounds DeepMind's AlphaFold (protein folding model) uses GNNs to predict the structure of proteins. This model has been used to make significant advances in the field of protein folding, and it has the potential to revolutionize the way we understand and treat diseases. Generative AI"
+    },
+    {
+      "index": 18,
+      "title": "Using GNNs to analyze Adverse Drug Reaction data",
+      "text": "Using GNNs to analyze Adverse Drug Reaction data According to the CDC more than 1 million individuals visit emergency departments for adverse drug events each year in the United States. The U.S. Food and Drug Administration (FDA) has a database called FDA Adverse Event Reporting System (FAERS) . FAERS is a database that contains adverse event reports, medication error reports and product quality complaints resulting in adverse events that were submitted to FDA. Network analysis (NA) allows for simultaneous representation of complex connections among the key elements of a system that are represented as edges or links in the network. The Vaccine Adverse Event Reporting System (VAERS ) can be represented as a network of 6,428 nodes (74 vaccines and 6,354 AEs) with more than 1.4 million interlinkages. This NA method analyzes graphs and finds the hub node which has more links which are above threshold count."
+    },
+    {
+      "index": 19,
+      "title": "https://en.wikipedia.org/wiki/Graph_neural_network https://huggingface.co/ https://en.wikipedia.org/wiki/Hugging_Face https://distill.pub/2021/gnn-intro/ https://neptune.ai/blog/graph-neural-network-and-some-of-gnn-applications https://www.freecodecamp.org/news/graph-neural-networks-explained-with-examples/ Deep Generative",
+      "text": "https://en.wikipedia.org/wiki/Graph_neural_network https://huggingface.co/ https://en.wikipedia.org/wiki/Hugging_Face https://distill.pub/2021/gnn-intro/ https://neptune.ai/blog/graph-neural-network-and-some-of-gnn-applications https://www.freecodecamp.org/news/graph-neural-networks-explained-with-examples/ Deep Generative Models for Graphs (Weights & Biases) https://wandb.ai/syllogismos/machine-learning-with-graphs/reports/10-Deep-Generative-Models-for-Graphs--VmlldzozNzcwMTI GNNs on AWS https://www.xenonstack.com/blog/graph-neural-network-on-aws Latest Research based on Graph Neural Networks part3(Machine Learning) https://medium.com/@monocosmo77/latest-research-based-on-graph-neural-networks-part3-machine-learning-a57089c04e67 Useful Links"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "GNNs Graph Neural Networks Presented by Shreya Patil",
+      "source": "youtube"
+    },
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 65,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU&t=65s",
+      "slideIndex": 5,
+      "slideTitle": "Graph Data Social Media Network Chem Informatics Image",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why is it hard to analyze a graph?",
+      "topic": "general",
+      "videoSeconds": 231,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU&t=231s",
+      "slideIndex": 8,
+      "slideTitle": "Why do Convolutional Neural Networks (CNNs) fail on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why do Convolutional Neural Networks (CNNs) fail on graphs?",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 460,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU&t=460s",
+      "slideIndex": 12,
+      "slideTitle": "Evolution of GNNs from Convolution to Transformer is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hugging Face",
+      "topic": "open-models",
+      "videoSeconds": 859,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU&t=859s",
+      "slideIndex": 15,
+      "slideTitle": "GNNs can process and model structured data (graphs):",
+      "source": "youtube"
+    },
+    {
+      "claim": "Using GNNs to analyze Adverse Drug Reaction data",
+      "topic": "general",
+      "videoSeconds": 1072,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU&t=1072s",
+      "slideIndex": 19,
+      "slideTitle": "https://en.wikipedia.org/wiki/Graph_neural_network https://huggingface.co/ https://en.wikipedia.org/wiki/Hugging_Face https://distill.pub/2021/gnn-intro/ https://neptune.ai/blog/graph-neural-network-and-some-of-gnn-applications https://www.freecodecamp.org/news/graph-neural-networks-explained-with-examples/ Deep Generative",
+      "source": "youtube"
+    },
+    {
+      "claim": "Shreya Patil Research Fellow at U.S. Food and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 2,
+      "slideTitle": "Shreya Patil Research Fellow at U.S. Food and",
+      "source": "slide"
+    },
+    {
+      "claim": "Introduction Graph Neural Networks (GNN) learn the graph",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 3,
+      "slideTitle": "Introduction Graph Neural Networks (GNN) learn the graph",
+      "source": "slide"
+    },
+    {
+      "claim": "Types of Attribute in GNN",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 4,
+      "slideTitle": "Types of Attribute in GNN",
+      "source": "slide"
+    },
+    {
+      "claim": "Why is it hard to analyze a graph?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 6,
+      "slideTitle": "Why is it hard to analyze a graph?",
+      "source": "slide"
+    },
+    {
+      "claim": "Graph neural networks (GNNs) are a type of",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 7,
+      "slideTitle": "Graph neural networks (GNNs) are a type of",
+      "source": "slide"
+    },
+    {
+      "claim": "Graph convolution neural network (GCNN)",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 9,
+      "slideTitle": "Graph convolution neural network (GCNN)",
+      "source": "slide"
+    },
+    {
+      "claim": "Graph convolution neural network (GCNN)",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 10,
+      "slideTitle": "Graph convolution neural network (GCNN)",
+      "source": "slide"
+    },
+    {
+      "claim": "2016 - Graph Convolutional Networks (GCN) - \"",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=01JvntVl0kU",
+      "slideIndex": 11,
+      "slideTitle": "2016 - Graph Convolutional Networks (GCN) - \"",
+      "source": "slide"
+    }
+  ]
+}

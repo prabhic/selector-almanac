@@ -1,0 +1,165 @@
+{
+  "id": "2023-04-14-2023-04-14-polars-lev",
+  "date": "2023-04-14",
+  "title": "Polars-Lev",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "rag",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "wHBUZjsLbBU",
+    "title": "Polars is better than Pandas - April 14, 2023",
+    "url": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+    "thumbnail": "https://i.ytimg.com/vi/wHBUZjsLbBU/hqdefault.jpg",
+    "duration": 2952
+  },
+  "deck": {
+    "path": "2023/2023-04-14-Polars-Lev.pptx",
+    "filename": "2023-04-14-Polars-Lev.pptx",
+    "title": "Polars-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-04-14-Polars-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-04-14-Polars-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Pandas => Polars",
+      "text": "Pandas => Polars"
+    },
+    {
+      "index": 2,
+      "title": "The Polars framework was developed by the Rust",
+      "text": "The Polars framework was developed by the Rust community It was initially released in September 2020 Original developer was Ritchie Vink - https://mlconference.ai/speaker/ritchie-vink/ | https://www.youtube.com/watch?v=iwGIuGk5nCE | https://www.ritchievink.com/blog/2021/02/28/i-wrote-one-of-the-fastest-dataframe-libraries/ | https://github.com/ritchie46 Also important are Matt Brubeck - https://github.com/mbrubeck , Ralf Jung - https://github.com/RalfJung , https://www.ralfj.de https://www.pola.rs/ https://pypi.org/project/polars/ https://github.com/pola-rs/polars - 200+ contributors, 16.4K stars https://pola-rs.github.io/polars-book https://towardsdatascience.com/pandas-vs-polars-a-syntax-and-speed-comparison-5aa54e27497e Matt Brubeck Ralf Jung Ritchie Vink"
+    },
+    {
+      "index": 3,
+      "title": "https://levelup.gitconnected.com/pandas-vs-polars-vs-pandas-2-0-round-2-e1b9acc0f52f New Pandas 2.0 uses Apache Arrow: faster",
+      "text": "https://levelup.gitconnected.com/pandas-vs-polars-vs-pandas-2-0-round-2-e1b9acc0f52f New Pandas 2.0 uses Apache Arrow: faster file operations uses less memory Copy-on-Write Optimization Index can now hold NumPy numeric types (for speed) But Polars is still the winner. Average seconds (smaller = faster) Polars is Faster than Pandas"
+    },
+    {
+      "index": 4,
+      "title": "Stop Using CSV Files https://towardsdatascience.com/why-i-stopped-dumping-dataframes-to-a-csv-and-why-you-should-too-c0954c410f8f CSV Pickle Parquet",
+      "text": "Stop Using CSV Files https://towardsdatascience.com/why-i-stopped-dumping-dataframes-to-a-csv-and-why-you-should-too-c0954c410f8f CSV Pickle Parquet Feather JSON (slow) HDF5 (big) df = pd.read_csv(\"myname.csv\") df.to_csv(\"myname.csv\") df = pd.read_pickle(\"myname.pkl\") df.to_pickle(\"myname.pkl\") df = pd.read_parquet(\"myname.parquet\") df.to_parquet(\"myname.parquet\")"
+    },
+    {
+      "index": 5,
+      "title": "Key Points Switching from Pandas to Polars https://pola-rs.github.io/polars-book/user-guide/coming_from_pandas.html",
+      "text": "Key Points Switching from Pandas to Polars https://pola-rs.github.io/polars-book/user-guide/coming_from_pandas.html Polars rows are indexed by integer row numbers. There is no \"label\" or \"multi-index\". Polars uses Apache Arrow arrays to represent data in memory while Pandas uses Numpy arrays Polars can convert data to Numpy format with the to_numpy() method Polars is written in Rust, runs many operations in parallel (multi-threading) Polars supports both eager and lazy evaluation and can optimize queries Polars has it own syntax that run faster than \"pandas-like\" syntax select a column: df.select(['a']) select rows: df.filter( (pl.col('a') < 10) & (pl.col(\"price\") < 300000) ) df = pl.scan_csv(csv_file) # scan is a lazy function - will only read 'id1' and 'v1' columns grouped_df = df.groupby('id1').agg(pl.col('v1').sum()).collect() # collect is used for eager evaluation Adding two new columns: df.with_columns([ (pl.col(\"value\") * 10).alias(\"tenXValue\"), (pl.col(\"value\") * 100).alias(\"hundredXValue\"), ]) assigning value using a mask: df.with_columns( pl.when(pl.col(\"c\") == 2)   # fow rows with value \"2\" in column \"c\" .then(pl.col(\"b\"))          # we take value from column \"b\" .otherwise(pl.col(\"a\"))     # for other rows - from column \"a\" .alias(\"a\")         )       # and put this value in column \"a\" Polars has \"window\" functions: df.select([ pl.all(), pl.col(\"c\").count().over(\"c\").alias(\"size\"), pl.col(\"c\").sum().over(\"type\").alias(\"sum\"), pl.col(\"c\").reverse().over(\"c\").flatten().alias(\"reverse_type\") ]) In Polars null is a Python None value and can be in all columns including integer type np.NaN is NOT a null . There are functions is_nan(), is_null(), fill_nan(), fill_null()"
+    },
+    {
+      "index": 6,
+      "title": "# Missing Data # https://pola-rs.github.io/polars-book/user-guide/howcani/missing_data.html # Pandas: NaN",
+      "text": "# Missing Data # https://pola-rs.github.io/polars-book/user-guide/howcani/missing_data.html #   Pandas:  NaN  ,         .fillna()     df['col2'].fillna(-999) #   Polars:  None = null ,  .fill_null() #            NaN            .fill_nan() # NaN values are NOT considered to be missing data #            and NOT counted with the null_count method # NaN values are filled with fill_nan(), but not fill_null() # Polars has is_nan() and fill_nan() methods #            which work similar to is_null() and fill_null() methods. Missing Data - null, None, np.NaN"
+    },
+    {
+      "index": 7,
+      "title": "Pandas vs Polars https://www.rhosignal.com/posts/polars-pandas-cheatsheet/",
+      "text": "Pandas vs Polars https://www.rhosignal.com/posts/polars-pandas-cheatsheet/"
+    },
+    {
+      "index": 8,
+      "title": "Pandas vs Polars - continued https://www.rhosignal.com/posts/polars-pandas-cheatsheet/",
+      "text": "Pandas vs Polars - continued https://www.rhosignal.com/posts/polars-pandas-cheatsheet/"
+    },
+    {
+      "index": 9,
+      "title": "Codon: A Python Compiler https://github.com/exaloop/codon https://exaloop.io https://medium.com/intuition/codon-a-python-compiler-3d5322e1c0a5 https://dl.acm.org/doi/abs/10.1145/3578360.3580275",
+      "text": "Codon: A Python Compiler https://github.com/exaloop/codon https://exaloop.io https://medium.com/intuition/codon-a-python-compiler-3d5322e1c0a5 https://dl.acm.org/doi/abs/10.1145/3578360.3580275 https://news.mit.edu/2023/codon-python-based-compiler-achieve-orders-magnitude-speedups-0314 https://docs.exaloop.io/codon/interoperability/decorator Codon by Exaloop is a new python compiler that can compile directly to machine code Factorial test is 10,000 times faster than plain python Can use GPU to run in parallel on thousands coresProject started as PhD work at MIT , initially with a focus on genomics and bioinformatics, published in 2023 Codon uses the LLVM framework to compile to LLVM bytecode and then to specific machine code Works with plain vanilla Python, doesn't support Numpy, Pandas, sklearn, etc. yet You can use JIT decorator \" codon-jit \" to speed up only selected functions of your code"
+    },
+    {
+      "index": 10,
+      "title": "GitHub repository: https://github.com/lselector/python_tutorials Jupyter notebook: https://github.com/lselector/python_tutorials/blob/master/p01_Polars.ipynb Demo in",
+      "text": "GitHub repository: https://github.com/lselector/python_tutorials Jupyter notebook: https://github.com/lselector/python_tutorials/blob/master/p01_Polars.ipynb Demo in Jupyter"
+    }
+  ],
+  "points": [
+    {
+      "claim": "The Polars framework was developed by the Rust",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 2,
+      "slideTitle": "The Polars framework was developed by the Rust",
+      "source": "slide"
+    },
+    {
+      "claim": "https://levelup.gitconnected.com/pandas-vs-polars-vs-pandas-2-0-round-2-e1b9acc0f52f New Pandas 2.0 uses Apache Arrow: faster",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 3,
+      "slideTitle": "https://levelup.gitconnected.com/pandas-vs-polars-vs-pandas-2-0-round-2-e1b9acc0f52f New Pandas 2.0 uses Apache Arrow: faster",
+      "source": "slide"
+    },
+    {
+      "claim": "Stop Using CSV Files https://towardsdatascience.com/why-i-stopped-dumping-dataframes-to-a-csv-and-why-you-should-too-c0954c410f8f CSV Pickle Parquet",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 4,
+      "slideTitle": "Stop Using CSV Files https://towardsdatascience.com/why-i-stopped-dumping-dataframes-to-a-csv-and-why-you-should-too-c0954c410f8f CSV Pickle Parquet",
+      "source": "slide"
+    },
+    {
+      "claim": "Key Points Switching from Pandas to Polars https://pola-rs.github.io/polars-book/user-guide/coming_from_pandas.html",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 5,
+      "slideTitle": "Key Points Switching from Pandas to Polars https://pola-rs.github.io/polars-book/user-guide/coming_from_pandas.html",
+      "source": "slide"
+    },
+    {
+      "claim": "# Missing Data # https://pola-rs.github.io/polars-book/user-guide/howcani/missing_data.html # Pandas: NaN",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 6,
+      "slideTitle": "# Missing Data # https://pola-rs.github.io/polars-book/user-guide/howcani/missing_data.html # Pandas: NaN",
+      "source": "slide"
+    },
+    {
+      "claim": "Pandas vs Polars https://www.rhosignal.com/posts/polars-pandas-cheatsheet/",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 7,
+      "slideTitle": "Pandas vs Polars https://www.rhosignal.com/posts/polars-pandas-cheatsheet/",
+      "source": "slide"
+    },
+    {
+      "claim": "Pandas vs Polars - continued https://www.rhosignal.com/posts/polars-pandas-cheatsheet/",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 8,
+      "slideTitle": "Pandas vs Polars - continued https://www.rhosignal.com/posts/polars-pandas-cheatsheet/",
+      "source": "slide"
+    },
+    {
+      "claim": "Codon: A Python Compiler https://github.com/exaloop/codon https://exaloop.io https://medium.com/intuition/codon-a-python-compiler-3d5322e1c0a5 https://dl.acm.org/doi/abs/10.1145/3578360.3580275",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 9,
+      "slideTitle": "Codon: A Python Compiler https://github.com/exaloop/codon https://exaloop.io https://medium.com/intuition/codon-a-python-compiler-3d5322e1c0a5 https://dl.acm.org/doi/abs/10.1145/3578360.3580275",
+      "source": "slide"
+    },
+    {
+      "claim": "GitHub repository: https://github.com/lselector/python_tutorials Jupyter notebook: https://github.com/lselector/python_tutorials/blob/master/p01_Polars.ipynb Demo in",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=wHBUZjsLbBU",
+      "slideIndex": 10,
+      "slideTitle": "GitHub repository: https://github.com/lselector/python_tutorials Jupyter notebook: https://github.com/lselector/python_tutorials/blob/master/p01_Polars.ipynb Demo in",
+      "source": "slide"
+    }
+  ]
+}

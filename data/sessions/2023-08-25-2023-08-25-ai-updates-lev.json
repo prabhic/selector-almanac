@@ -1,0 +1,295 @@
+{
+  "id": "2023-08-25-2023-08-25-ai-updates-lev",
+  "date": "2023-08-25",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks"
+  ],
+  "video": {
+    "id": "vdP7Ikwg4-A",
+    "title": "AI Updates - August 25, 2023",
+    "url": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+    "thumbnail": "https://i.ytimg.com/vi/vdP7Ikwg4-A/hqdefault.jpg",
+    "duration": 1213
+  },
+  "deck": {
+    "path": "2023/2023-08-25-AI-Updates-Lev.pptx",
+    "filename": "2023-08-25-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-25-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-25-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "ML Leaderboard",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Sets",
+      "startSeconds": 152,
+      "label": "02:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Chair GPT",
+      "startSeconds": 304,
+      "label": "05:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Private GPT",
+      "startSeconds": 332,
+      "label": "05:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Auto GPT",
+      "startSeconds": 389,
+      "label": "06:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Recent AI investments",
+      "startSeconds": 470,
+      "label": "07:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta",
+      "startSeconds": 576,
+      "label": "09:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Small Ideas",
+      "startSeconds": 658,
+      "label": "10:58",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT Models",
+      "startSeconds": 936,
+      "label": "15:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Can I recognize and generate humor",
+      "startSeconds": 1096,
+      "label": "18:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Can AI create emotions",
+      "startSeconds": 1132,
+      "label": "18:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates August 25, 2023",
+      "text": "AI Updates August 25, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data crypto, accounting cloud architecture, fin-tech, application security Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Aug 25, 2023 -",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Aug 25, 2023 - 1078 entries Original LLaMa 70B (July 18) is now on 84th place. The top positions are occupied by improved (retrained/refined) versions of LLaMa First 38 positions are 70B models. The best 13B model is on 95th place (also LLaMa) The best 7B model is on 310th place (also LLaMa trained on orca dataset) Falcon moved from 1st place to 157th place in less than 2 months. rank    size  avg_quality  link 1      70B 73.13 https://huggingface.co/garage-bAInd/Platypus2-70B-instruct 38      65B    69.94 https://huggingface.co/upstage/llama-65b-instruct 84      70B     66.8 https://huggingface.co/meta-llama/Llama-2-70b-chat-hf - Meta 95      13B    66.03 https://huggingface.co/Aspik101/trurl-2-13b-pl-instruct_unload 157      40b    63.47 https://huggingface.co/tiiuae/falcon-40b-instruct 310       7b    59.86 https://huggingface.co/psmathur/orca_mini_v3_7b Open community develops multiple datasets and training protocols to improve models"
+    },
+    {
+      "index": 4,
+      "title": "Datasets to improve models Example - Open-Orca/OpenOrca-Platypus2-13B https://www.youtube.com/watch?v=N-qaMCwqRHI",
+      "text": "Datasets to improve models Example - Open-Orca/OpenOrca-Platypus2-13B https://www.youtube.com/watch?v=N-qaMCwqRHI small - only 13b parameters a merge between OpenOrca and Platypus2 the performance is comparable with 65b models - ORCAS = Open Resource for Click Analysis in Search ( paper 2020, https://arxiv.org/abs/2006.05324 ) - Orca : Progressive Learning from Complex Explanation Traces of GPT-4 ( paper June 2023, https://arxiv.org/abs/2306.02707 ) - Open Orca Dataset Released! ( June 2023, ttps://huggingface.co/datasets/Open-Orca/OpenOrca ) Curated dataset Open-Platypus \"Platypus: Quick, Cheap, and Powerful Refinement of LLMs\" https://platypus-llm.github.io Orca Platypus (duck-billed) - semiaquatic, egg-laying mammal (Australia, Tasmania) Some datasets actually consists from many. For example, garage-bAInd/Open-Platypus is comprised of 11 datasets: PRM800K, ScienceQA, SciBench, ReClor, TheoremQA, nuprl/leetcode-solutions-python-testgen-gpt4,  jondurbin/airoboros-gpt4-1.4.1, TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k  , openbookQA, ARB, timdettmers/openassistant-guanaco Some models in the Huggingface LLM leaderboard have the term \" instruct \" in their names, for example: upstage/Llama-2-70b-instruct-v2, garage-bAInd/Platypus2-70B-instruct, deepnight-research/llama-2-70B-inst This means that these models were \" instruction-tuned \" for certain common tasks to improve performance. https://huggingface.co/datasets - 57,434 datasets"
+    },
+    {
+      "index": 5,
+      "title": "AI2 Dolma Dataset AI2 Dolma: 3 Trillion Token",
+      "text": "AI2 Dolma Dataset AI2 Dolma: 3 Trillion Token Open Corpus for Language Model Pretraining Allen Institute for AI (Seattle, Washington) has been creating OLMo (Open Language Model) to promote the study of large-scale NLP systems. It just released the first data artifact in this project - Dolma Dolma is a dataset of 3 trillion tokens from a diverse mix of web content, academic publications, code, books, and encyclopedic materials. For comparison, GPT-3 was trained on roughly 0.5 trillion tokens Dolma is openly available for download on the HuggingFace Dolma is the largest open dataset to date. Download size more than 5TB (gzip) https://huggingface.co/datasets/allenai/dolma https://github.com/allenai/dolma https://blog.allenai.org/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64"
+    },
+    {
+      "index": 6,
+      "title": "Private GPT - Fine-Tune LLM Fine-Tuning 7B parameter",
+      "text": "Private GPT - Fine-Tune LLM Fine-Tuning 7B parameter model allows to achieve performance close to a much bigger model - and run on personal computer https://towardsdatascience.com/private-gpt-fine-tune-llm-on-enterprise-data-7e663d808e6a QLoRA = \" Quantized Low-Rank Adaptation \" - two techniques: Lora — Low-Rank Adapters - small sets of trainable parameters, injected into each layer of the Transformer architecture while fine-tuning Quantization (decreasing FP accuracy to 4 bits) QLoRA can fine-tune a 7B parameter model on a single 48GB GPU in about 24 hours . You can also do it on a 16GB GPU (will take longer)."
+    },
+    {
+      "index": 7,
+      "title": "Auto-GPT Chat Agents (AI Agents) - next frontier",
+      "text": "Auto-GPT Chat Agents (AI Agents) - next frontier Move from manually searching, clicking on menus, filling out the forms to using agents to automate all this. AI Agents integrate multiple commands/ prompts to autonomously achieve a desired objective AI Agents engage the external environment AI Agents store information, call APIs or tools, recursively learn AI Agents make decisions (reasoning) along the way Agents can learn your preferences and act as your co-pilot AutoGPT is the fastest growing GitHub repo in history https://github.com/Significant-Gravitas/Auto-GPT (147K stars as of Aug 23, 2023) https://en.wikipedia.org/wiki/Auto-GPT Auto-GPT is an \"AI agent\" that, given a goal in natural language, will attempt to achieve it by breaking it into sub-tasks and using the internet and other tools in an automatic loop. It uses OpenAI's GPT-4 or GPT-3.5 APIs, and is among the first examples of an application using GPT-4 to perform autonomous tasks. Toran Bruce Richards from UK, started Auto-GPT in March 2023, it has 147K stars on GitHub as of August 23, 2023 (LangChain has ~60K stars)"
+    },
+    {
+      "index": 8,
+      "title": "Examples of Recent Investments into AI Startups Anthropic",
+      "text": "Examples of Recent Investments into AI Startups Anthropic (Generative AI company) raised $100M - https://www.anthropic.com Genesis Therapeutics (AI drug discovery company) raised $200M - https://www.genesistherapeutics.ai Humane Inc. (since 2018, pivoted to AI) - raised $100M - https://hu.ma.ne Inworld (Create Better Video Game Characters using AI) raises $50M - https://inworld.ai Mistral AI (generate AI models, people from DeepMind & Meta) raises $113M (France) - https://mistral.ai Modular (tools to optimize and create AI models) secures $100M - https://www.modular.com Moveworks (Conversational interface to every business system) raised $200M - https://www.moveworks.com Synthesia ( platform to use AI to generate video content) raised $50M in Series A funding - https://www.synthesia.io Viome (microbiome tests + AI => treatment ) raises $86.5M - https://www.viome.com xAI (Elon Musk)"
+    },
+    {
+      "index": 9,
+      "title": "Meta - Speech and Text Translations ChatGPT, Bard,",
+      "text": "Meta - Speech and Text Translations ChatGPT, Bard, Claude - all of them can translate between languages. Meta's LLaMa was mostly English only. But now Meta introduces Meta SeamlessM4T - Multimodal AI Model for Speech and Text Translations https://ai.meta.com/blog/seamless-m4t/ https://about.fb.com/news/2023/08/seamlessm4t-ai-translation-model/ Meta - Code Llama - LLM for Coding free for research and commercial use. built on top of Llama 2 and is available in three models: .. the foundational code model; .. Python specialized for Python; .. Instruct - fine-tuned for understanding natural language instructions. outperformed other LLMs on code tasks https://about.fb.com/news/2023/08/code-llama-ai-for-coding/ https://ai.meta.com/blog/code-llama-large-language-model-coding/ https://www.youtube.com/watch?v=U24mPUHXuv8 https://ai.meta.com/resources/models-and-libraries/llama-downloads/ https://github.com/facebookresearch/codellama https://ai.meta.com/research/publications/code-llama-open-foundation-models-for-code/ https://labs.perplexity.ai (play with codellama-34b-instruct)"
+    },
+    {
+      "index": 10,
+      "title": "Misc facts/ideas Salaries: OpenAI Ilya Sutskever - $1.9Mln",
+      "text": "Misc facts/ideas Salaries: OpenAI Ilya Sutskever - $1.9Mln OpenAI Senior Engineer - $900K VP of AI           - $230-250K Senior AI Engineer - $180-230K AI Prompt Engineer -  $75-165K Apple M1/M2 GPU Support in PyTorch: faster than CPU, but slower than Nvidia https://medium.com/mlearning-ai/mac-m1-m2-gpu-support-in-pytorch-a-step-forward-but-slower-than-conventional-nvidia-gpu-40be9293b898 Use LLM for brainstorming. Examples of prompts: https://seanvosler.medium.com/gpt-has-changed-brainstorming-forever-6-incredible-prompts-for-ideation-to-use-with-your-team-87b2ef75c25b C and C++ losing ground to Rust . Elon Musk has noted that Rust could be the language of the AGI . Another technology - Wasm (WebAssembly) - portable compilation for web clients, etc. DataLang.io - $19/mo - use ChatGPT to query you SQL database using natural language \"skate to where the puck is going to be\" - Wayne Gretzky Legal: US Federal Judge rules that AI-generated art cannot be copyrighted OpenAI Launches GPTBot - a web crawler for AI training https://medium.com/@smraiyyan/openai-secretly-launches-gptbot-a-new-web-crawler-for-ai-training-356787796d6b \"Artificial intelligence (AI) won’t replace employees anytime soon. But people who use AI will replace people who don’t.\" - recent IBM report MidJourney Image Inpainting (modify part of the image) Legal: Big LLM providers are being sued for using copyrighted materials. They stopped citing sources or responding on direct quotes Entertainment & media are disrupted by AI ChatGPT jobs increased x20 times Python in Excel runs in a secure container on the Microsoft Cloud"
+    },
+    {
+      "index": 11,
+      "title": "GPT-3.5-turbo Fine-Tuning and API Updates You can now",
+      "text": "GPT-3.5-turbo Fine-Tuning and API Updates You can now fine-tune and serve your GPT-3 (GPT-4 coming later this year) https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates Step 1 - Prepare your data Step 2 - Upload files Step 3 - Create a fine-tuning job Step 4 - Use a fine-tuned model Pricing (per 1K tokens): Training: $0.008, Usage input: $0.012, output: $0.016 GPT-3 base models ( ada, curie, babbage, and davinci ) will be turned off on January 4th, 2024 and will be substituted by babbage-002 and davinci-002 ada 125m (40m): Augusta Ada Lovelace (1815-1852), a mathematician who is sometimes regarded as the world's first programmer curie 6.7b (0.09, 2.7): Marie Curie (1867-1934), Polish/French physicist and chemist who conducted pioneering research on radioactivity, Nobel Prize winner babbage 1.2b (125m): Charles Babbage (1791-1871), an English mathematician, philosopher, inventor and mechanical engineer, originated the concept of a digital programmable computer davinci 175b (2.7, 6, 13): Leonardo da Vinci (1452-1519), Italian painter, draughtsman, engineer, scientist, theorist, sculptor, and architect There is also a model \" Code-cushman-001 \" (2.5b) named after Scott Cushman, a computer scientist https://blamouche.medium.com/a-quick-openais-language-models-comparison-9987ddb2a723"
+    },
+    {
+      "index": 12,
+      "title": "Can AI Recognize and Generate Humor ? The",
+      "text": "Can AI Recognize and Generate Humor ? The funny formula: Why machine-generated humor is the holy grail of A.I. (2021) https://www.digitaltrends.com/computing/ai-humor-jokes-holy-grail-machine-intelligence/ Can AI Be Programmed to Have a Sense of Humor https://www.quora.com/Can-AI-be-programmed-to-have-a-sense-of-humor Sure it can. It has available to it all the humor of the internet, which is substantial. It can “understand” that material by seeing patterns in the language and replicating that. At a minimum, it can memorize humorous phrases and sprinkle those in as needed. The short answer is yes. The long answer is you could put together a dataset of jokes that you think are funny and train a language model on that data, probably starting from a pretrained language model to avoid having to create as large of a dataset. You could then start the joke (like “two people walk into a bar”) and ask the trained model to finish the joke by predicting what it thinks the most likely next tokens (words, morphemes, characters, etc depending on the model) are. This would be a way to emulate humor. Yes, AI can be programmed to have a sense of humor, but it's not an easy task. Humor is a complex and subjective concept that involves language, cultural context, social norms, and emotional intelligence, among other factors. Creating a sense of humor that resonates with people and is not offensive or inappropriate is still a challenge."
+    },
+    {
+      "index": 13,
+      "title": "AI writing recently has surprised even skeptics. AI",
+      "text": "AI writing recently has surprised even skeptics. AI can generate plots and subplots, can crank-out the content - and even win prizes against human writers. But can machines imitate the emotional depth of a human writer? The AI is lacking the human insights. But machines may immitate very well. For example, Hollywood is known for developing techniques to glue people to screens. There are tested templates and triggers for stirring emotions, squeezing tears, making people go \"Aww :)\" or \"Oh My God!\", etc. AI can be easily trained to use these or similar techniques. One can argue though that t his approach lacks the depth, and that the machine doesn't understand the emotion. It simply mechanically applies the templates. But so is a good AI-based chef who cooks a perfect meal following the recipe without having a personal ability to feel the taste and texture. Can AI Create a Phrase or Poem which touches the soul ? Can AI Write an Emotional Poem or Song?"
+    },
+    {
+      "index": 14,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "ML Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates August 25, 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Sets",
+      "topic": "general",
+      "videoSeconds": 152,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=152s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chair GPT",
+      "topic": "general",
+      "videoSeconds": 304,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=304s",
+      "slideIndex": 4,
+      "slideTitle": "Datasets to improve models Example - Open-Orca/OpenOrca-Platypus2-13B https://www.youtube.com/watch?v=N-qaMCwqRHI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Private GPT",
+      "topic": "general",
+      "videoSeconds": 332,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=332s",
+      "slideIndex": 5,
+      "slideTitle": "AI2 Dolma Dataset AI2 Dolma: 3 Trillion Token",
+      "source": "youtube"
+    },
+    {
+      "claim": "Auto GPT",
+      "topic": "general",
+      "videoSeconds": 389,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=389s",
+      "slideIndex": 6,
+      "slideTitle": "Private GPT - Fine-Tune LLM Fine-Tuning 7B parameter",
+      "source": "youtube"
+    },
+    {
+      "claim": "Recent AI investments",
+      "topic": "general",
+      "videoSeconds": 470,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=470s",
+      "slideIndex": 8,
+      "slideTitle": "Examples of Recent Investments into AI Startups Anthropic",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta",
+      "topic": "general",
+      "videoSeconds": 576,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=576s",
+      "slideIndex": 9,
+      "slideTitle": "Meta - Speech and Text Translations ChatGPT, Bard,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Small Ideas",
+      "topic": "general",
+      "videoSeconds": 658,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=658s",
+      "slideIndex": 10,
+      "slideTitle": "Misc facts/ideas Salaries: OpenAI Ilya Sutskever - $1.9Mln",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT Models",
+      "topic": "general",
+      "videoSeconds": 936,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=936s",
+      "slideIndex": 11,
+      "slideTitle": "GPT-3.5-turbo Fine-Tuning and API Updates You can now",
+      "source": "youtube"
+    },
+    {
+      "claim": "Can I recognize and generate humor",
+      "topic": "general",
+      "videoSeconds": 1096,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=1096s",
+      "slideIndex": 13,
+      "slideTitle": "AI writing recently has surprised even skeptics. AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Can AI create emotions",
+      "topic": "general",
+      "videoSeconds": 1132,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=1132s",
+      "slideIndex": 14,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Aug 25, 2023 -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 3,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Aug 25, 2023 -",
+      "source": "slide"
+    },
+    {
+      "claim": "Auto-GPT Chat Agents (AI Agents) - next frontier",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 7,
+      "slideTitle": "Auto-GPT Chat Agents (AI Agents) - next frontier",
+      "source": "slide"
+    },
+    {
+      "claim": "Can AI Recognize and Generate Humor ? The",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 12,
+      "slideTitle": "Can AI Recognize and Generate Humor ? The",
+      "source": "slide"
+    }
+  ]
+}

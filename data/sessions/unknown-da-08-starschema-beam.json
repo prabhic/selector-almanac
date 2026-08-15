@@ -1,0 +1,149 @@
+{
+  "id": "unknown-da-08-starschema-beam",
+  "date": null,
+  "title": "DA 08 StarSchema BEAM",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "data-engineering"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_08_StarSchema_BEAM.pptx",
+    "filename": "DA_08_StarSchema_BEAM.pptx",
+    "title": "DA 08 StarSchema BEAM",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_08_StarSchema_BEAM.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_08_StarSchema_BEAM.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "BEAM - Business Event Analysis & Modeling -",
+      "text": "BEAM - Business Event Analysis & Modeling - Interview business stakeholders - Document the data and process: - Create Event Matrix (Excel) - facts and dimensions . - Use \"starter\" templates for the interview and documentation."
+    },
+    {
+      "index": 2,
+      "title": "Business Event Analytics Models",
+      "text": "Business Event Analytics Models"
+    },
+    {
+      "index": 3,
+      "title": "BEAM = Business Event Analysis & Modeling What",
+      "text": "BEAM = Business Event Analysis & Modeling What is Agile Data Warehousing? While a data warehouse is a thing, Agile Data Warehousing is all in how it’s accomplished. Agile methodologies focus on delivering an end-to-end Minimum Viable Product (MVP) in iterative cycles as opposed to a fully built solution in one shot. By using this method, delivery speed is increased, the business can see incremental results, and a more robust data-driven solution is built over time. Three things to discuss with client: Star Schema ETL processes that populates it BI tool or app to access it"
+    },
+    {
+      "index": 4,
+      "title": "Star Schema \"What Dimensions do you use?\"",
+      "text": "Star Schema \"What Dimensions do you use?\""
+    },
+    {
+      "index": 5,
+      "title": "Questions to Ask:",
+      "text": "Questions to Ask:"
+    },
+    {
+      "index": 6,
+      "title": "User Story in Depth:",
+      "text": "User Story in Depth:"
+    },
+    {
+      "index": 7,
+      "title": "Example Dimension:",
+      "text": "Example Dimension:"
+    },
+    {
+      "index": 8,
+      "title": "BEAM Reference Card 1",
+      "text": "BEAM Reference Card 1"
+    },
+    {
+      "index": 9,
+      "title": "BEAM Reference Card 2",
+      "text": "BEAM Reference Card 2"
+    },
+    {
+      "index": 10,
+      "title": "Resources: Book: \"Agile Data Warehouse Design\" by Lawrence",
+      "text": "Resources: Book: \"Agile Data Warehouse Design\" by Lawrence Corr ( https://www.linkedin.com/in/lawrencecorr/ ) (with Jim Stagnitto ) Templates at AgileBI.Guru https://agilebi.guru/project/business-event-analysis-and-modeling-beam-templates/ How to Use the BEAM Approach in Data Analytic Projects https://towardsdatascience.com/how-to-use-the-beam-approach-in-data-analytic-projects-8a1604015cfd Agile Data Warehouse Modeling through Modelstorming https://medium.com/traveloka-engineering/agile-data-warehouse-modeling-through-modelstorming-2d0d5141725b Agile Data Modeling https://medium.com/hitachisolutions-braintrust/agile-data-modeling-e09c703205c1 video: \"Agile Data Warehouse Design for Big Data Presentation\" (~70 min): https://www.youtube.com/watch?v=KE4yFYkfFZk Training Workshop Outline: http://www.decisionone.co.uk/training/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "BEAM - Business Event Analysis & Modeling -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "BEAM - Business Event Analysis & Modeling -",
+      "source": "slide"
+    },
+    {
+      "claim": "Business Event Analytics Models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Business Event Analytics Models",
+      "source": "slide"
+    },
+    {
+      "claim": "BEAM = Business Event Analysis & Modeling What",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "BEAM = Business Event Analysis & Modeling What",
+      "source": "slide"
+    },
+    {
+      "claim": "Star Schema \"What Dimensions do you use?\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Star Schema \"What Dimensions do you use?\"",
+      "source": "slide"
+    },
+    {
+      "claim": "User Story in Depth:",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "User Story in Depth:",
+      "source": "slide"
+    },
+    {
+      "claim": "BEAM Reference Card 1",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "BEAM Reference Card 1",
+      "source": "slide"
+    },
+    {
+      "claim": "BEAM Reference Card 2",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "BEAM Reference Card 2",
+      "source": "slide"
+    },
+    {
+      "claim": "Resources: Book: \"Agile Data Warehouse Design\" by Lawrence",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Resources: Book: \"Agile Data Warehouse Design\" by Lawrence",
+      "source": "slide"
+    }
+  ]
+}

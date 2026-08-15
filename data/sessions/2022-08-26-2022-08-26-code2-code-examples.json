@@ -1,0 +1,200 @@
+{
+  "id": "2022-08-26-2022-08-26-code2-code-examples",
+  "date": "2022-08-26",
+  "title": "code2 code examples",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "nVDeg-ojS94",
+    "title": "Coding Interview Examples part 2",
+    "url": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+    "thumbnail": "https://i.ytimg.com/vi/nVDeg-ojS94/hqdefault.jpg",
+    "duration": 1443
+  },
+  "deck": {
+    "path": "2022/2022-08-26-code2_code_examples.pptx",
+    "filename": "2022-08-26-code2_code_examples.pptx",
+    "title": "code2 code examples",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-08-26-code2_code_examples.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-08-26-code2_code_examples.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Coding Interview Code Examples - Session 2 2sum",
+      "text": "Coding Interview Code Examples - Session 2 2sum & 3sum Towers of Hanoi Histogram Rectangle Reverse Linked List Binary Heap Contiguous Array Longest Consecutive Sequence Max Subarray Concatenate Words Jumping Kangaroos Tax Brakets"
+    },
+    {
+      "index": 2,
+      "title": "2sum problem Given an array of integers, find",
+      "text": "2sum problem Given an array of integers, find two numbers such that they add up to a specific target number. Function twoSum() should return indices i1 & i2 of two such numbers (i1 < i2, indexes NOT zero based). Assume that each input have exactly one solution. Example: Input  : numbers={2, 7, 11, 15}, target=9 Output : index1=1, index2=2 Time/Space complexity O(N) def twosum(nums, target): seen = {} # num : pos for ii, num in enumerate(nums): pos = ii+1 # use 1-based indexing if target - num in seen: return seen[target-num], pos seen[num] = pos return -1,-1 3sum problem - return triplets summing to zero An easy solution has complexity O(N*N) .. https://en.wikipedia.org/wiki/3SUM 3sum problem import itertools stuff = [-1, 0, 1, 2, -1, -4] # [-1, 0, 1] and [0, 1, -1] are the same # sort the list to avoid double-counting: stuff.sort() ls = [] for subset in itertools.combinations (stuff, 3): if sum(list(subset))==0: if list(subset) not in ls: ls.append(list(subset)) print(ls) # Out: [[-1, -1, 2], [-1, 0, 1]] 1"
+    },
+    {
+      "index": 3,
+      "title": "Towers of Hanoi The game \"Towers of Hanoi\"",
+      "text": "Towers of Hanoi The game \"Towers of Hanoi\" uses three rods and a set of disks stacked on the first rod from largest disk on bottom to smallest on top – thus forming a conical tower. The aim of the game is to move the tower of disks from one rod to another. Only one disk can be moved at a time We can only take the top-most disk (can not take disk from the middle) The disk can NOT be placed on top of a smaller disk https://en.wikipedia.org/wiki/Tower_of_Hanoi counter = 0 # -------------------------------------------------------------- def hanoi(n, source, helper, target) : global counter if n <= 0: return counter += 1 print(counter) # move tower of size n - 1 from source to helper: hanoi (n - 1, source, target, helper) # move disk from source peg to target peg if source: target.append(source.pop()) # move tower of size n-1 from helper to target hanoi (n - 1, helper, source, target) # -------------------------------------------------------------- def print_state(label, source, helper, target): print(label, \": \" , source, helper, target) # -------------------------------------------------------------- print() source = [4,3,2,1] target = [] helper = [] print_state( \"Initial state\" ,source, helper, target) hanoi(len(source),source,helper,target) print_state( \"Final state\" ,source, helper, target) print() 2"
+    },
+    {
+      "index": 4,
+      "title": "Histogram Rectangle Largest area of a rectangle in",
+      "text": "Histogram Rectangle Largest area of a rectangle in histogram https://www.geeksforgeeks.org/largest-rectangle-under-histogram/ Create an empty stack. Then for every bar hist[i] ( 'i' changes from 0 to n-1) do the following: (a) Zero, same, or going up: If stack is empty or hist[i] is same or higher than the bar at top of stack, then push index 'i' to stack. b) Going down: If this bar hist[i] is smaller than the top of stack hist[ts], then keep removing the top of stack while top of the stack is greater. While doing this we will try rectangels as following: Let the removed bar be hist[ts] . Calculate area of rectangle with hist[ts] as smallest bar. For hist[tp] , the 'left index' is previous to ts item in stack, and 'right index' is 'i' (current index). In the end if the stack is not empty, then one by one remove all bars from stack and do step 'b' above for every removed bar. This actually can be acheved by a simple trick - appending value [-1] to the histogram at the very beginning. def calc_max_area(hist): print(hist) if len(hist) == 0: return 0 if len(hist) == 1: return hist[0] hist.append(0) # trick to handle the end of histogram stack = list() max_area = 0 ii = 0 while ii < len(hist): if (not stack) or (hist[stack[-1]] <= hist[ii]): stack.append(ii) print(f\"appended: {stack}\") ii += 1 else: ts = stack.pop() # top of stack print(f\"  popped {ts}\") di = ii if stack: di = (ii - stack[-1] - 1) area = hist[ts] * di print(f\"  area = {area}\") if area > max_area: max_area = area print(f\"    max_area = {max_area}\") return max_area 3"
+    },
+    {
+      "index": 5,
+      "title": "Reverse Linked List # Definition for singly-linked list.",
+      "text": "Reverse Linked List # Definition for singly-linked list. class ListNode: def __init__(self, x): self.val = x self.next = None def reverseList(self, head: ListNode) -> ListNode: \"\"\" # this function reverses the list \"in place\" \"\"\" prev = None while head: curr = head head = head.next curr.next = prev prev = curr return prev def reverseList(head: ListNode) -> ListNode: \"\"\" # this function creates separate inverted list # (it doesn't change the original list) \"\"\" if (head == None) or (head.next == None): return head l1p = head l2n = ListNode() l2n.val = head.val # l1p --> l1p.next # l2n <-- l2p while l1p.next != None: l2p = ListNode() l2p.val  = l1p.next.val l2p.next = l2n l1p  = l1p.next l2n  = l2p return l2p 4"
+    },
+    {
+      "index": 6,
+      "title": "Binary Heap def heapify(arr, n, i): \"\"\" #",
+      "text": "Binary Heap def heapify(arr, n, i): \"\"\" # heapify subtree from index \"i\" down (recursively) # by swapping elements as needed # arr - list to change in place, n – length of arr \"\"\" largest = i; # Initialize largest as root idxl    = 2*i + 1; idxr    = 2*i + 2; # find if one of children is larger than root if (idxl < n) and (arr[idxl] > arr[largest]): largest = idxl; if (idxr < n) and (arr[idxr] > arr[largest]): largest = idxr; # swap large child with root and fix subtree if largest != i: arr[i], arr[largest] = arr[largest], arr[i] heapify(arr, n, largest) # recursively fix sub-tree # --------------------------------------------------------- def build_max_heap(arr): \"\"\" build a Max-Heap from list \"arr\" in-place \"\"\" n = len(arr) if n <= 1: return start_idx = n // 2 - 1; # index of last non-leaf node # heapify each \"parent\" node (from last to first) for i in range(start_idx, -1, -1): heapify(arr, n, i); # --------------------------------------------------------- arr = [ 1, 3, 5,  4,  6, 13, 10, 9, 8, 15, 17 ]; build_max_heap(arr); print(arr) Binary heap ( max-heap or min-heap ) is a data structure which looks like binary tree, where each parent is larger than values of children for max-heap , or smaller for min-heap . Binary heaps are a common way of implementing priority queues. Heap is usually stored in an array idx = 0 - root (top element) idx - 1,2 - next layer idx = 3,4,5,6 - text layer etc. last parent's idx = floor(N/2) - 1 Given an array we can \"heapify\" it in place by simply swapping its elements. Time complexity: building heap - O(N) push (add at bottom and adjust) - O(lg(N)) pop (take from top and adjust)  - O(lg(N)) heap sort - O(N*log(N)) 5 min-heap"
+    },
+    {
+      "index": 7,
+      "title": "Contiguous Array Given an array having only ones",
+      "text": "Contiguous Array Given an array having only ones and zeros (up to 50,000 elements), find max length of a contiguous subarray with equal number of 0s and 1s. Example: Input: [0,1,0] Output: 2 ( [0, 1] or [1, 0] ) Idea: Change all Os to -1s. Then we go through the array and calculate the running sum() – and store it in hash: key   = sum, value = first index when we got this sum value If we hit the same value again (if it is already in the hash), this means that we had equal number of 1 and -1 between these points. So we can calculate the length - and update the max_length as needed. Complexity O(N) for time and space def findMaxLength(nums: List[int]) -> int: mysum = 0 myhash = {0: -1} # key   - mysum value # value - leftmost index for this mysum value max_length = 0 for idx, num in enumerate(nums): mysum = (mysum + 1) if num else (mysum - 1) # go up or down if mysum in myhash: # good subarray max_length = max(max_length, (idx - myhash[mysum])) else: # 1st time on this height/depth - update myhash myhash[ mysum ] = idx return max_length 6"
+    },
+    {
+      "index": 8,
+      "title": "Longest Consecutive Sequence Given an unsorted array of",
+      "text": "Longest Consecutive Sequence Given an unsorted array of integers, find the length of the longest consecutive elements sequence. Your algorithm should run in O(n) complexity. Example: Input: [100, 4, 200, 1, 3, 2] Output: 4     (for sequence [ 1, 2, 3, 4 ]) Idea:  Make a set of all values If value x is in the set, but value (x-1) is not, then x is a beginning of of a sequence. Then follow it (check if x+1 is in set, etc.) def longestConsecutive(nums: List[int]) -> int: myset = set(nums) mymax = 0 for x in myset: if x - 1 not in myset: # beginning y = x + 1 while y in myset: # follow the sequence forward y += 1 mymax = max(mymax, y - x) return mymax 7"
+    },
+    {
+      "index": 9,
+      "title": "Max Subarray Given array of numbers, find the",
+      "text": "Max Subarray Given array of numbers, find the contiguous subarray with the largest sum – and return the value of this sum. .. https://en.wikipedia.org/wiki/Maximum_subarray_problem # complexity O(N) arr = [2,3,-10,4,5,6,-2] N = len(arr) ss = arr[0] # maximum left subarray so far output = ss for ii in range(1,N): sn = max(ss+arr[ii], arr[ii]) output = max(ss,sn) ss = sn output = max(output, 0) print(output) Explanation of this algorithm: For a list of numbers [a0, a1, a2, a3, ... aN], for each index \"i\" we can look at all possible series (starting with 0,1,... i-1  and ending with \"i\"), and select the biggest sum() among them. Let's call it \"si\" (sum-ending-at-i). We will calculate those numbers for all \"i\"-s,  and select the maximum among them. This will be the answer. So how can we calculate those largest sums? It turned out to be a simple process. i=0: There is only one series - [a 0 ] , so s 0 = a 0 i=1: There are two series: [a 0 ,a 1 ],[a 1 ] .    So s 1 = max(a 0 +a 1 , a 1 )=max(s 0 +a 1 , a 1 ) i=2: There are 3 series (sums). But we can simplify two 2. We need to find s 2 = max (a 0 +a 1 +a 2 , a 1 +a 2 , a 2 ) Look at max of first two elements: max(a 0 +a 1 +a 2 , a 1 +a 2 ) = max(a 0 +a 1 , a 1 ) + a 2 =  s 1 +a 2 so we simplify to max of 2 elements: s 2 = max(s 1 +a 2 , a 2 ) We can use same logic going forward – and remember max value among the results. s 0 = a 0 s 1 = max(s 0 + a 1 , a 1 ) s 2 = max(s 1 + a 2 , a 2 ) s 3 = max(s 2 + a 3 , a 3 ) ... s N = max(s N-1 + a N , a N ) 8"
+    },
+    {
+      "index": 10,
+      "title": "Concatenate Words # -------------------------------------------- def mytest(word, words_set, mydict):",
+      "text": "Concatenate Words # -------------------------------------------- def mytest(word, words_set, mydict): if word in mydict: return mydict[word] for i in range(1, len(word)): p = word[:i] # prefix, should be a word if p not in words_set: continue s = word[i:] # suffix, may be composite if (s in words_set) or (s in mydict and mydict[s]==True): return True elif mytest(s, words_set, mydict): mydict[s]=True return True else: mydict[s]=False continue return False # -------------------------------------------- def find_concatenated(words): words_set = set(words)  # words mydict = dict()         # cache res = []                # output list for word in words: if mytest(word, words_set, mydict): res.append(word) return res # -------------------------------------------- input = ['catmancatsdog', 'cat', 'cats', 'dog', 'man', 'woman', 'catsdog'] print(find_concatenated(input)) # ['catcatsdog', 'catsdog'] Given a list of words (without duplicates), return all words which are concatenations of shorter words in the same list Tme complexity O(N * L 2 ), where N - number of words, L - length of words 9"
+    },
+    {
+      "index": 11,
+      "title": "Jumping Kangaroos Two kangaroos start jumping from positions",
+      "text": "Jumping Kangaroos Two kangaroos start jumping from positions x1 & x2. They jump syncronously and in the same direction, but the lengths of jumps may differ: v1 & v2 Question - will they meet at the same location? def check_jumps(x1,v1,x2,v2): dx = x2-x1 dv = v2-v1 if ((dv == 0) and (dx != 0)) or ((dv != 0) and (dx == 0)): return False elif (dv == 0) and (dx == 0): return True elif (dv*dx > 0): return False # if we are here, we move in the same direction and can divide. steps = float(dx)/float(dv) r_steps = int(steps + 0.5) # rounding if abs(steps-r_steps) < 1e-6 : return True else: return False 10"
+    },
+    {
+      "index": 12,
+      "title": "Tax Brakets We have incremental income tax-brackets. Calculate",
+      "text": "Tax Brakets We have incremental income tax-brackets. Calculate total tax for a given income tax_brakets = [ [10,   0.1], #   0 .. 10K [20,   0.2], #  10 .. 30K [10,   0.3], #  30 .. 40K [None, 0.4]] #  40 .. def calc_tax(income, tax_brakets): tax = 0.0 mylist = [] level1 = 0 for incr, tax_rate in tax_brakets: if incr == None: level2 = math.inf else: level2 = level1 + incr tax_add = 0.0 if (income >level2): tax_add = tax_rate*(level2-level1) elif income >=level1: tax_add = tax_rate*(income-level1) mylist += [tax_add] tax += tax_add level1 = level2 return tax, mylist 11"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Coding Interview Code Examples - Session 2 2sum",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 1,
+      "slideTitle": "Coding Interview Code Examples - Session 2 2sum",
+      "source": "slide"
+    },
+    {
+      "claim": "2sum problem Given an array of integers, find",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 2,
+      "slideTitle": "2sum problem Given an array of integers, find",
+      "source": "slide"
+    },
+    {
+      "claim": "Towers of Hanoi The game \"Towers of Hanoi\"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 3,
+      "slideTitle": "Towers of Hanoi The game \"Towers of Hanoi\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Histogram Rectangle Largest area of a rectangle in",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 4,
+      "slideTitle": "Histogram Rectangle Largest area of a rectangle in",
+      "source": "slide"
+    },
+    {
+      "claim": "Reverse Linked List # Definition for singly-linked list.",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 5,
+      "slideTitle": "Reverse Linked List # Definition for singly-linked list.",
+      "source": "slide"
+    },
+    {
+      "claim": "Binary Heap def heapify(arr, n, i): \"\"\" #",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 6,
+      "slideTitle": "Binary Heap def heapify(arr, n, i): \"\"\" #",
+      "source": "slide"
+    },
+    {
+      "claim": "Contiguous Array Given an array having only ones",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 7,
+      "slideTitle": "Contiguous Array Given an array having only ones",
+      "source": "slide"
+    },
+    {
+      "claim": "Longest Consecutive Sequence Given an unsorted array of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 8,
+      "slideTitle": "Longest Consecutive Sequence Given an unsorted array of",
+      "source": "slide"
+    },
+    {
+      "claim": "Max Subarray Given array of numbers, find the",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 9,
+      "slideTitle": "Max Subarray Given array of numbers, find the",
+      "source": "slide"
+    },
+    {
+      "claim": "Concatenate Words # -------------------------------------------- def mytest(word, words_set, mydict):",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 10,
+      "slideTitle": "Concatenate Words # -------------------------------------------- def mytest(word, words_set, mydict):",
+      "source": "slide"
+    },
+    {
+      "claim": "Jumping Kangaroos Two kangaroos start jumping from positions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 11,
+      "slideTitle": "Jumping Kangaroos Two kangaroos start jumping from positions",
+      "source": "slide"
+    },
+    {
+      "claim": "Tax Brakets We have incremental income tax-brackets. Calculate",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVDeg-ojS94",
+      "slideIndex": 12,
+      "slideTitle": "Tax Brakets We have incremental income tax-brackets. Calculate",
+      "source": "slide"
+    }
+  ]
+}

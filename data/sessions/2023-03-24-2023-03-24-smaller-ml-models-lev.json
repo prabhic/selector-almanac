@@ -1,0 +1,257 @@
+{
+  "id": "2023-03-24-2023-03-24-smaller-ml-models-lev",
+  "date": "2023-03-24",
+  "title": "Smaller-ML-Models-Lev",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "ml-fundamentals",
+    "rag"
+  ],
+  "video": {
+    "id": "N0QNZFCWxEQ",
+    "title": "Make Machine Learning Models Smaller - March 24, 2023",
+    "url": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+    "thumbnail": "https://i.ytimg.com/vi/N0QNZFCWxEQ/hqdefault.jpg",
+    "duration": 1689
+  },
+  "deck": {
+    "path": "2023/2023-03-24-Smaller-ML-Models-Lev.pptx",
+    "filename": "2023-03-24-Smaller-ML-Models-Lev.pptx",
+    "title": "Smaller-ML-Models-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-03-24-Smaller-ML-Models-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-03-24-Smaller-ML-Models-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Make Machine Learning Models Smaller by Lev Selector",
+      "text": "Make Machine Learning Models Smaller by Lev Selector"
+    },
+    {
+      "index": 2,
+      "title": "Lev Selector, Ph.D. CTO BixBeta Inc.",
+      "text": "Lev Selector, Ph.D. CTO BixBeta Inc."
+    },
+    {
+      "index": 3,
+      "title": "Linear Regression y = f(x) = ax +",
+      "text": "Linear Regression y = f(x) = ax + b Model uses only two parameters: a = slope, b = intercept Model as a Compressed Representation of Data Using the model we can drastically simplify  the process. The final model is very small - it is just a pair of parameters: (a,b) And because it is so small, the predictive calculation in very fast. We start with hundreds of (x,y) points. Our goal is predict y for a given x . Without the model, we can do prediction by using simple logic: find points that have x-values close to the given x. Use these points to predict value of y (for example, calculate the mean y-value of these points). To be able to do this, we need to keep all points, and to do lots of calculations."
+    },
+    {
+      "index": 4,
+      "title": "Occam Learning is a model of algorithmic learning",
+      "text": "Occam Learning is a model of algorithmic learning where the objective of the learner is to output a succinct representation of received training data . Occam Learning is closely related to probably approximately correct (PAC) learning Occam Learning is named after Occam's razor , which is a principle stating that, given all other things being equal, a shorter explanation for observed data should be favored over a lengthier explanation Parsimony = extreme unwillingness to spend money or use resources. Parsimony implies predictive power What Is Occam Learning https://en.wikipedia.org/wiki/Occam_learning"
+    },
+    {
+      "index": 5,
+      "title": "High Bias model (underfitting, model too simple) Bias/Variance",
+      "text": "High Bias model (underfitting, model too simple) Bias/Variance Trade-off Good Generalization High Variance model (model too complex, overfitting - fits noise) Using Regression: Avoid Overfitting Better Generalization Simpler Model"
+    },
+    {
+      "index": 6,
+      "title": "Contours of the error (elipses) and for constraint",
+      "text": "Contours of the error (elipses) and for constraint functions for beta (to keep beta coefficients small) for the lasso (left) | β 1 | + | β 2 | ≤ s and for ridge regression (right) β 1 2 + β 2 2 ≤ s LASSO favors sparse solutions In Ridge Regression we add a \" regularization \" term as sum of squares ( L2 norm ) In LASSO Regression we add a \" regularization \" term as sum of abs values ( L1 norm ) LASSO favors solutions on the tips of the bounding surface for coefficients, where some of coefficients are zero. Thus it favors \" sparse \" solutions. LASSO = Least Absolute Shrinkage and Selection Operator Using Regression - L1 vs L2"
+    },
+    {
+      "index": 7,
+      "title": "L1 & L2 Regularization .. L1 norm -",
+      "text": "L1 & L2 Regularization .. L1 norm - min(sum(absolute differences)) .. L2 norm - min(sum(square of the differences)) The sparsity property induced by L1 regularization has been used extensively as a feature selection mechanism. Reducing number of features simplifies a machine learning problem. In particular, the well known LASSO (Tibshirani, 1995) ( Least Absolute Shrinkage and Selection Operator ) model integrates an L1 penalty with a linear model and a least squares cost function. The L1 penalty causes a subset of the weights to become zero, suggesting that the corresponding features may safely be discarded."
+    },
+    {
+      "index": 8,
+      "title": "How to reduce memory used by Random Forest",
+      "text": "How to reduce memory used by Random Forest https://mljar.com/blog/random-forest-memory/ # Scikit-Learn RF Regressor default parameters: #   max_depth=None #   min_samples_split=2 #   min_samples_leaf=1 #   n_estimators=100 # number of trees depths = [tree.tree_.max_depth for tree in rf.estimators_] print(f\"Mean tree depth in the Random Forest: {np.round(np.mean(depths))}\") joblib.dump(rf.estimators_[0], \"first_tree_from_RF.joblib\") print(f\"Single tree size: {np.round(os.path.getsize('first_tree_from_RF.joblib') / 1024 / 1024, 2) } MB\") joblib.dump(rf, \"RandomForest_100_trees.joblib\") print(f\"Random Forest size: {np.round(os.path.getsize('RandomForest_100_trees.joblib') / 1024 / 1024, 2) } MB\") # output: Mean depth: 42, Single tree size: 0.52 MB, Total RF model size: 49.67 MB # lets reduce max_depth to 6: shallow_rf = RandomForestClassifier(max_depth=6) # output: Mean depth: 6, Single tree size: 0.01 MB, Total RF model size: 0.75 MB # Interesting:the shallow model also has less error !! Reducing max_depth from 42 to 6 reduces model size 66 times while making the model better"
+    },
+    {
+      "index": 9,
+      "title": "How to Make an XGBoost Model Smaller Reduce",
+      "text": "How to Make an XGBoost Model Smaller Reduce the number of trees Prune the trees using max_depth parameter Increase the learning_rate parameter Use feature selection methods - analyze feature importance, eliminate less important features, use mutual information technique, recursive feature elimination, and LASSO regularization Use smaller data types (for example, float32 instead of float64) Compress the model  file (gzip, bzip2, LZ77) Test the performance (accuracy) of the smaller model and ensure that it meets your specific requirements before deploying it"
+    },
+    {
+      "index": 10,
+      "title": "Reducing XGBoost model size import os, pickle, gzip",
+      "text": "Reducing XGBoost model size import os, pickle, gzip import numpy as np import pandas as pd import xgboost as xgb from sklearn.model_selection import train_test_split from sklearn.metrics import mean_squared_error, r2_score # ---------------- generate data ------------------ np.random.seed(42) X = np.random.rand(100000, 10) y = np.sum(X, axis=1) + 0.1 * np.random.randn(100000) X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) # --------------- train model -------------------- model = xgb.XGBRegressor(random_state=42) model.fit(X_train, y_train) y_pred = model.predict(X_test) mse = mean_squared_error(y_test, y_pred) r2 = r2_score(y_test, y_pred) # ---------------save model ---------------------- with open('model.pkl', 'wb') as f: pickle.dump(model, f) fsize = os.path.getsize('model.pkl') / 1024 # ---------------reduce model -------------------- params = { 'n_estimators': 50,  'max_depth': 3, 'learning_rate': 0.1, 'random_state': 42 } model_reduced = xgb.XGBRegressor(**params, dtype=np.float32) model_reduced.fit(X_train, y_train) y_pred_reduced = model_reduced.predict(X_test) mse_reduced = mean_squared_error(y_test, y_pred_reduced) r2_reduced = r2_score(y_test, y_pred_reduced) # ---------------save model ---------------------- with open('model_reduced.pkl', 'wb') as f: pickle.dump(model_reduced, f) fsize_reduced = os.path.getsize('model_reduced.pkl') / 1024 # ---------------compress model ---------------------- with open('model_reduced.pkl', 'rb') as f_in: with gzip.open('model_reduced.pkl.gz', 'wb') as f_out: f_out.writelines(f_in) fsize_compressed = os.path.getsize('model_reduced.pkl.gz') / 1024 # ---------------print summary ---------------------- summary = pd.DataFrame({ 'Model': ['Original', 'Reduced', 'Compressed'], 'File Size (KB)': [fsize, fsize_reduced, fsize_compressed], 'Mean Squared Error': [mse, mse_reduced, mse_reduced], 'R2 Score': [r2, r2_reduced, r2_reduced] }) print(summary) Model  File Size (KB)  MSE    R2 0    Original 470.76 0.036  0.957 1     Reduced       61.82     0.136  0.837 2  Compressed 12.40 0.136  0.837"
+    },
+    {
+      "index": 11,
+      "title": "XGBoost Hyperparameter Tuning import xgboost as xgb from",
+      "text": "XGBoost Hyperparameter Tuning import xgboost as xgb from sklearn.model_selection import GridSearchCV param_grid = { 'max_depth' : [ 3 , 5 , 7 ], 'learning_rate' : [ 0.1 , 0.01 , 0.001 ], 'subsample' : [ 0.5 , 0.7 , 1 ] } # Create the XGBoost model object xgb_model = xgb.XGBClassifier() # Create the GridSearchCV object grid_search = GridSearchCV(xgb_model, param_grid, cv= 5 , scoring= 'accuracy' ) grid_search.fit(X_train, y_train) print ( \"Best set of hyperparameters: \" , grid_search.best_params_) print ( \"Best score: \" , grid_search.best_score_) import xgboost as xgb from sklearn.model_selection import RandomizedSearchCV import scipy.stats as stats param_dist = { 'max_depth' : stats.randint( 3 , 10 ), 'learning_rate' : stats.uniform( 0.01 , 0.1 ), 'subsample' : stats.uniform( 0.5 , 0.5 ), 'n_estimators' :stats.randint( 50 , 200 ) } # Create the XGBoost model object xgb_model = xgb.XGBClassifier() # Create the RandomizedSearchCV object random_search = RandomizedSearchCV(xgb_model, param_distributions=param_dist, n_iter= 10 , cv= 5 , scoring= 'accuracy' ) random_search.fit(X_train, y_train) print ( \"Best set of hyperparameters: \" , random_search.best_params_) print ( \"Best score: \" , random_search.best_score_)"
+    },
+    {
+      "index": 12,
+      "title": "# pip install hyperopt import xgboost as xgb",
+      "text": "# pip install hyperopt import xgboost as xgb from hyperopt import fmin, tpe, hp # Define the hyperparameter space space = { 'max_depth'     : hp.quniform   ('max_depth', 2, 8, 1), 'learning_rate' : hp.loguniform ('learning_rate', -5, -2), 'subsample'     : hp.uniform    ('subsample', 0.5, 1) } # Define the objective function to minimize def objective(params): xgb_model = xgb.XGBClassifier(**params) xgb_model.fit(X_train, y_train) y_pred = xgb_model.predict(X_test) score = accuracy_score(y_test, y_pred) return {'loss': -score, 'status': STATUS_OK} # Perform the optimization best_params = fmin(objective, space, algo=tpe.suggest, max_evals=100) print(\"Best set of hyperparameters: \", best_params) Bayesian Optimization https://medium.com/@rithpansanga/optimizing-xgboost-a-guide-to-hyperparameter-tuning-77b6e48e289d Bayesian optimization algorithm navigates the h.p. search space by making smart guesses based on the previous results Bayesian optimization is more efficient than grid or random search because it attempts to balance exploration and exploitation of the search space Bayesian optimization is preferred when we have a large number of hyperparameters to tune ( very large search space )"
+    },
+    {
+      "index": 13,
+      "title": "XGBoost Regressor Hyperparameter Tuning import numpy as np",
+      "text": "XGBoost Regressor Hyperparameter Tuning import numpy as np import xgboost as xgb from sklearn.model_selection import train_test_split, GridSearchCV from sklearn.metrics import mean_squared_error, r2_score from sklearn.datasets import make_regression X, y = make_regression(n_samples=1000, n_features=10, random_state=42) X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42) xgb_model = xgb.XGBRegressor(random_state=42) # 3. Set up the hyperparameter grid for tuning param_grid = { 'n_estimators': [50, 100, 200], 'max_depth': [3, 5, 7], 'learning_rate': [0.01, 0.1, 0.3], 'min_child_weight': [1, 3, 5], 'subsample': [0.5, 0.7, 1.0], 'colsample_bytree': [0.5, 0.7, 1.0] } # 4. Create GridSearchCV object grid_search = GridSearchCV(estimator=xgb_model, param_grid=param_grid, cv=5, scoring= 'neg_mean_squared_error' , n_jobs=-1, verbose=2) # 5. Fit the GridSearchCV object to the training data grid_search.fit(X_train, y_train) print(\"Best hyperparameters found: \", grid_search.best_params_) # Best hyperparameters found:  {'colsample_bytree': 0.5, # 'learning_rate': 0.1, 'max_depth': 3, 'min_child_weight': 5, # 'n_estimators': 200, 'subsample': 0.5} # 7. Evaluate the best model on the test set best_model = grid_search.best_estimator_ best_model.fit(X_train, y_train) y_pred = best_model.predict(X_test) mse = mean_squared_error(y_test, y_pred) r2 = r2_score(y_test, y_pred) print(\"Mean squared error for the best model: \", round(mse,3)) print(\"R2 score for the best model: \", round(r2,3)) # Mean squared error for the best model:  563.315 # R2 score for the best model:  0.964"
+    },
+    {
+      "index": 14,
+      "title": "XGBoost Regressor tuning by more than one criteria",
+      "text": "XGBoost Regressor tuning by more than one criteria import numpy as np from sklearn.metrics  import make_scorer from sklearn.model_selection import GridSearchCV def myestimator(model, X, y): y_pred = model.predict(X) y_true = y difference = y_pred-y_true # ... calculate more stuff return score_overall custom_scorer = make_scorer(myestimator, greater_is_better=True) GridSearchCV(model, param_grid=param_grid, scoring=custom_scorer) In previous example we were tuning the hyper-parameters to minimize the error (maximizing negative error): scoring= 'neg_mean_squared_error' . We can also optimize for several targets, for example - accuracy and model size. Good way of doing this is by creating a custom estimator() function and a custom scorer using a make_scorer ( estimator , X, y)"
+    },
+    {
+      "index": 15,
+      "title": "Size Reduction: XGBoost, CatBoost, LightGBM sklearn.ensemble.HistGradientBoostingRegressor CatBoost -",
+      "text": "Size Reduction: XGBoost, CatBoost, LightGBM sklearn.ensemble.HistGradientBoostingRegressor CatBoost - https://catboost.ai/en/docs/references/model-size-reg LightGBM model size - https://github.com/microsoft/LightGBM/issues/3511 Model        Type    File (KB)  Compressed (KB)      MSE       R2 XGBoost    Original 470.762 162.501           0.036     0.957 XGBoost     Reduced    61.777 12.514 0.035     0.958 CatBoost    Original 1068.744 434.369           0.011     0.987 CatBoost     Reduced   220.871 62.790 0.011     0.987 LightGBM    Original 297.872 110.797           0.021     0.974 LightGBM     Reduced    46.987 17.346 0.036     0.957 Jupyter notebook demonstrating model size reduction for three models: https://github.com/lselector/chatgpt/blob/master/np_ChatGPT_reduce_model_size.ipynb"
+    },
+    {
+      "index": 16,
+      "title": "Modern big models run on thousands computer cores",
+      "text": "Modern big models run on thousands computer cores and consume Kilowatts of energy Human brain consumes only 12-25 W How can we make our models smaller, faster, more efficient?"
+    },
+    {
+      "index": 17,
+      "title": "Sizes of Typical Models CNN RNN LSTM Reinforcement",
+      "text": "Sizes of Typical Models CNN RNN LSTM Reinforcement Learning DeepMind models - AlphaGo, AlphaFold, etc. Google Translate LLMs (Large Language Models) etc. Comparison of popular CNN architectures https://huggingface.co/blog/large-language-models"
+    },
+    {
+      "index": 18,
+      "title": "How Much Memory GPT-3 Uses? GPT-3 the largest",
+      "text": "How Much Memory GPT-3 Uses? GPT-3 the largest non-sparse language model to date It has 175 billion parameters - and needs 700 GB of memory (4 Bytes per parameter) How many GPUs does it take to run GPT-3? You would need at least five 80Gb Nvidia A100 GPUs just to load the model and text ChatGPT cranks out about 15-20 words per second. How much data was used to train GPT models? GPT-2 (released in 2019) was trained on 40GB of text data and had 1.5 BN parameters GPT-3 (released in 2020) was trained on 45 TB of data and has a whopping 175 BN parameters (700 GB) ChatGPT-4 - ???"
+    },
+    {
+      "index": 19,
+      "title": "TinyBERT – A 100x smaller version of BERT",
+      "text": "TinyBERT – A 100x smaller version of BERT (Bidirectional Encoder Representations from Transformers) demonstrated 92% of the original model's performance while having significantly faster inference times making it suitable for real-time NLP applications. - https://github.com/yinmingjun/TinyBERT MicroNLP by DEF Research Labs - a 1000x smaller Model for Efficient Language Understanding achieved a 1000x size reduction, maintaining 75% of the performance and having fast inference times. NanoBERT by GHI Research Labs - A 10,000x smaller Model for Language Understanding on Ultra-Low-Power Devices. Maintained 60% of the performance of the \"state of the art\". https://huggingface.co/abmap/nanoBERT/tree/main Success stories of making ML models smaller Methods used: Knowledge distillation Layer reduction Pruning connections Weight sharing techniques Quantization of weights and activations Reducing precision of parameters Using Neural Architecture Search (NAS) to find smaller architectures Huffman coding to encode weights Sparse training techniques"
+    },
+    {
+      "index": 20,
+      "title": "TinyML https://towardsdatascience.com/an-introduction-to-tinyml-4617f314aa79 TinyML - ML for Embedded Systems",
+      "text": "TinyML https://towardsdatascience.com/an-introduction-to-tinyml-4617f314aa79 TinyML  - ML for Embedded Systems - to run models on small, cheap, low-powered edge devices Deep learning networks are getting smaller. Much smaller. The Google Assistant team can detect words with a model just 14 kilobytes in size - small enough to run on a microcontroller"
+    },
+    {
+      "index": 21,
+      "title": "Tesla Custom designed AI chip called \"Full Self-Driving",
+      "text": "Tesla Custom designed AI chip called \"Full Self-Driving (FSD) Computer\" Custom neural network architecture optimized for Tesla's hardware Data compression Feature reduction (identifying the most important features of the driving environment and focusing the model's attention on them) Getting a lot of training data Massive Training in virtual reality"
+    },
+    {
+      "index": 22,
+      "title": "Modern Neural Networks has become big – up",
+      "text": "Modern Neural Networks has become big – up to 175 Billion parameters (GPT-3, in 2020). Common practice today is to split big NNs to train separately (in parallel on multiple computers). Inference can also be parallelized. Running on a cluster vs Running Models on one Machine with multiple GPUs Using specialized hardware (Google TPUs, etc.) There are many more vendors: QUALCOMM, AMD, APPLE, Xilinx, IBM, HiSilicon, Amazon ( FPGAs ), Microsoft ( FPGAs ), and many more NVIDIA Google TPU Tesla Facebook Intel Nervana HPC = High-Performance Computing InfiniBand = fast communication FPGA = Field-Programmable Gate Array"
+    },
+    {
+      "index": 23,
+      "title": "Summary Models can be thought of as a",
+      "text": "Summary Models can be thought of as a way of compressing knowledge Typically the size of the model file is ~1000 times smaller than the training data Example of GPT-3:  45TB training data, 0.7TB model (175 Billion parameters) Making models smaller, simpler, and faster becomes very important The Theme of this presentation is from https://slidesgo.com"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Make Machine Learning Models Smaller by Lev Selector",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 1,
+      "slideTitle": "Make Machine Learning Models Smaller by Lev Selector",
+      "source": "slide"
+    },
+    {
+      "claim": "Lev Selector, Ph.D. CTO BixBeta Inc.",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 2,
+      "slideTitle": "Lev Selector, Ph.D. CTO BixBeta Inc.",
+      "source": "slide"
+    },
+    {
+      "claim": "Linear Regression y = f(x) = ax +",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 3,
+      "slideTitle": "Linear Regression y = f(x) = ax +",
+      "source": "slide"
+    },
+    {
+      "claim": "Occam Learning is a model of algorithmic learning",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 4,
+      "slideTitle": "Occam Learning is a model of algorithmic learning",
+      "source": "slide"
+    },
+    {
+      "claim": "High Bias model (underfitting, model too simple) Bias/Variance",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 5,
+      "slideTitle": "High Bias model (underfitting, model too simple) Bias/Variance",
+      "source": "slide"
+    },
+    {
+      "claim": "Contours of the error (elipses) and for constraint",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 6,
+      "slideTitle": "Contours of the error (elipses) and for constraint",
+      "source": "slide"
+    },
+    {
+      "claim": "L1 & L2 Regularization .. L1 norm -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 7,
+      "slideTitle": "L1 & L2 Regularization .. L1 norm -",
+      "source": "slide"
+    },
+    {
+      "claim": "How to reduce memory used by Random Forest",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 8,
+      "slideTitle": "How to reduce memory used by Random Forest",
+      "source": "slide"
+    },
+    {
+      "claim": "How to Make an XGBoost Model Smaller Reduce",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 9,
+      "slideTitle": "How to Make an XGBoost Model Smaller Reduce",
+      "source": "slide"
+    },
+    {
+      "claim": "Reducing XGBoost model size import os, pickle, gzip",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 10,
+      "slideTitle": "Reducing XGBoost model size import os, pickle, gzip",
+      "source": "slide"
+    },
+    {
+      "claim": "XGBoost Hyperparameter Tuning import xgboost as xgb from",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 11,
+      "slideTitle": "XGBoost Hyperparameter Tuning import xgboost as xgb from",
+      "source": "slide"
+    },
+    {
+      "claim": "# pip install hyperopt import xgboost as xgb",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=N0QNZFCWxEQ",
+      "slideIndex": 12,
+      "slideTitle": "# pip install hyperopt import xgboost as xgb",
+      "source": "slide"
+    }
+  ]
+}

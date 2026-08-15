@@ -1,0 +1,292 @@
+{
+  "id": "2024-10-18-2024-10-18-ai-updates",
+  "date": "2024-10-18",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "infra",
+    "agents",
+    "openai",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "OuBDybzE8PA",
+    "title": "Have you heard these exciting AI news? - October 18, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+    "thumbnail": "https://i.ytimg.com/vi/OuBDybzE8PA/hqdefault.jpg",
+    "duration": 646
+  },
+  "deck": {
+    "path": "2024/2024-10-18-AI-Updates.pptx",
+    "filename": "2024-10-18-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-10-18-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-10-18-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "LLMS CANNOT Reason (paper from Apple)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Stochastic parrot",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Zamba2-7B hybrid model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ministral-8B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI Swarm multi-agent orchestration",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "MatMamba",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "O1 Replication Journey (model & report)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tesla new autonomous tesla bot",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard - English",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard - Coding",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs in 2024",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LLMS CANNOT Reason (paper from Apple) Stochastic parrot",
+      "text": "LLMS CANNOT Reason (paper from Apple) Stochastic parrot Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF Zamba2-7B hybrid model Ministral-8B OpenAI Swarm multi-agent orchestration MatMamba O1 Replication Journey (model & report) Tesla new autonomous tesla bot Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Tech Layoffs in 2024 AI Updates October 18 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Stochastic parrot LLM answers questions by statistical parroting",
+      "text": "Stochastic parrot LLM answers questions by statistical parroting . It simply predicts the most probable answer from its training data. Token by token. A model is a compressed version of the training data: All internet => training data => model Chain of Thought: Once LLM gives answer, you can ask it if this is a good answer. And it will answer this question using (again) statistical parroting, but this time the answer may come from training data based on online discussions. But it is still statistical parroting. LLM doesn't do reasoning - it mimics reasoning by mimicking reasoning texts in its training data An LLM always gives you not a correct answer, but generates a most common answer. It converges to the mean. It will happily give you the most common misconception. It does not understand. Stochastic parrot https://en.wikipedia.org/wiki/Stochastic_parrot The term stochastic parrot is a metaphor to describe the theory that LLMs, though able to generate plausible language, do not understand the meaning of the language they process. The term was coined by Emily M. Bender (2021) in the AI  paper \"On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?\" https://s10251.pcdn.co/pdf/2021-bender-parrots.pdf"
+    },
+    {
+      "index": 3,
+      "title": "LLMS CANNOT Reason GSM-Symbolic: Understanding the Limitations of",
+      "text": "LLMS CANNOT Reason GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Language Models new paper from Apple https://arxiv.org/abs/2410.05229 https://arxiv.org/pdf/2410.05229 https://www.youtube.com/watch?v=tTG_a0KPJAc - video Idea: take standard test (GSM8K), change (or add) irrelevant information (GSM-Symbolic), use it to test models. The performance of all models declines significantly. Multiple models were tested, including recent GPT-o1. This decline is due to the fact that current LLMs are not capable of genuine logical reasoning; instead, they attempt to replicate the reasoning steps observed in their training data. When we add a single clause that appears relevant to the question, we observe significant performance drops (up to 65%) across all state-of-the-art models, even though the added clause does not contribute to the reasoning chain needed to reach the final answer. \"We found no evidence of reasoning in LLMs\""
+    },
+    {
+      "index": 4,
+      "title": "Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF This model is NOT open source Llama-3.1-Nemotron-70B-Instruct-HF",
+      "text": "Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF This model is NOT open source Llama-3.1-Nemotron-70B-Instruct-HF has been converted from Llama-3.1-Nemotron-70B-Instruct to support it in the HuggingFace Transformers codebase. Llama-3.1-Nemotron-70B-Instruct is customized by NVIDIA. As of 1 Oct 2024, this model is #1 on all three automatic alignment benchmarks (verified tab for AlpacaEval 2 LC), edging out models such as GPT-4o and Claude 3.5 Sonnet. This model was trained using RLHF (specifically, REINFORCE), Llama-3.1-Nemotron-70B-Reward and HelpSteer2-Preference prompts on a Llama-3.1-70B-Instruct model as the initial policy. https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct/modelcard https://huggingface.co/nvidia/Llama-3.1-Nemotron-70B-Instruct-HF https://build.nvidia.com/nvidia/llama-3_1-nemotron-70b-instruct"
+    },
+    {
+      "index": 5,
+      "title": "Zamba2-7B Zamba2-7B Open source (Apache 2.0) It is",
+      "text": "Zamba2-7B Zamba2-7B Open source (Apache 2.0) It is a hybrid model: transformer + Mamba2 blocks Outperforms Mistral, Google’s Gemma and Meta’s Llama3 series in both quality and performance. We believe Zamba2-7B is the leading model for running on-device and on consumer GPUs https://www.zyphra.com/post/zamba2-7b https://huggingface.co/Zyphra/Zamba2-7B https://huggingface.co/Zyphra/Zamba2-7B-Instruct Not on ollama yet from transformers import AutoModelForCausalLM, AutoTokenizer model_name = \" Zyphra/Zamba2-7B \" tokenizer = AutoTokenizer.from_pretrained(model_name) model = AutoModelForCausalLM.from_pretrained(model_name)"
+    },
+    {
+      "index": 6,
+      "title": "Ministral-8B Ministral-8B - LLM by Mistral AI. 3B",
+      "text": "Ministral-8B Ministral-8B - LLM by Mistral AI. 3B & 8B models \"research\" license, not on ollama Designed for for edge computing 128K context length Multilingual"
+    },
+    {
+      "index": 7,
+      "title": "Misc 1 OpenAI Swarm - an educational framework",
+      "text": "Misc 1 OpenAI Swarm - an educational framework exploring ergonomic, lightweight multi-agent orchestration currently is in experimental (not production ready) state. The goal of Swarm is to showcase the handoff & routines patterns explored in the Orchestrating Agents: Handoffs & Routines cookbook. https://github.com/openai/swarm MatMamba - open source a sequence processing based on Mamba2.  It has a nested Matryoshka structure in a Mamba2 block. \"We jointly train a few chosen granularities to get a single model from which we can flexibly extract a large number of nested submodels for adaptive inference based on the available deployment compute.\" https://github.com/scaledfoundations/matmamba O1 Replication Journey: A Strategic Progress Report new training paradigm called \"journey learning\" and propose the first model that successfully integrates search and learning in mathematical reasoning (trial-and-error, correction, backtracking, and reflection). https://github.com/GAIR-NLP/O1-Journey/blob/main/resource/report.pdf https://github.com/GAIR-NLP/O1-Journey"
+    },
+    {
+      "index": 8,
+      "title": "Tesla new autonomous tesla bot Tesla's Optimus =",
+      "text": "Tesla new autonomous tesla bot Tesla's Optimus = Tesla Bot = humanoid robot walk & navigate complex environments, including stairs and uneven terrain, and locate its charging station autonomously. grasp and manipulate objects with its hands (picking items, carrying boxes, and even watering plants). interact safely with humans (voice commands and gestures) learning from experience custom-designed actuators and sensors Tesla's Full Self-Driving computer Battery packs for power Tesla's AI software: vision, Neural networks, motion planning and control algorithms Optimus is under development. Goal is to mass-produce it. It can be used for: hazardous or tedious tasks - working in factories, construction sites, or disaster zones) Home tasks - cooking, cleaning, and laundry companionship and assistance to elderly individuals."
+    },
+    {
+      "index": 9,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 156. Total #votes: 2,082,385. Last updated: 2024-10-14. China x.ai x.ai China China China China China"
+    },
+    {
+      "index": 10,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 156. Total #votes: 2,082,385. Last updated: 2024-10-14. China China China China China x.ai x.ai"
+    },
+    {
+      "index": 11,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job market for IT: much worse than before COVID. IT has become a commodity. Lower salaries/rates ($100/hr => $75/hr). Much more competition, hundreds of applications for each position"
+    },
+    {
+      "index": 12,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 13,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LLMS CANNOT Reason (paper from Apple)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 1,
+      "slideTitle": "LLMS CANNOT Reason (paper from Apple) Stochastic parrot",
+      "source": "outline"
+    },
+    {
+      "claim": "Stochastic parrot",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 2,
+      "slideTitle": "Stochastic parrot LLM answers questions by statistical parroting",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 3,
+      "slideTitle": "LLMS CANNOT Reason GSM-Symbolic: Understanding the Limitations of",
+      "source": "outline"
+    },
+    {
+      "claim": "Zamba2-7B hybrid model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 4,
+      "slideTitle": "Nvidia/Llama-3.1-Nemotron-70B-Instruct-HF This model is NOT open source Llama-3.1-Nemotron-70B-Instruct-HF",
+      "source": "outline"
+    },
+    {
+      "claim": "Ministral-8B",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 5,
+      "slideTitle": "Zamba2-7B Zamba2-7B Open source (Apache 2.0) It is",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI Swarm multi-agent orchestration",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 6,
+      "slideTitle": "Ministral-8B Ministral-8B - LLM by Mistral AI. 3B",
+      "source": "outline"
+    },
+    {
+      "claim": "MatMamba",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 8,
+      "slideTitle": "Tesla new autonomous tesla bot Tesla's Optimus =",
+      "source": "outline"
+    },
+    {
+      "claim": "O1 Replication Journey (model & report)",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 9,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Tesla new autonomous tesla bot",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 10,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard - English",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 11,
+      "slideTitle": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard - Coding",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs in 2024",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 13,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Misc 1 OpenAI Swarm - an educational framework",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=OuBDybzE8PA",
+      "slideIndex": 7,
+      "slideTitle": "Misc 1 OpenAI Swarm - an educational framework",
+      "source": "slide"
+    }
+  ]
+}

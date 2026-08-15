@@ -1,0 +1,317 @@
+{
+  "id": "2023-10-20-2023-10-20-ai-updates-lev",
+  "date": "2023-10-20",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "open-models",
+    "infra",
+    "fine-tuning",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "P0gleu9WCGI",
+    "title": "AI Updates - October 20, 2023 - Open source AI, Fine-tuning LLMs, Ollama, LMStudio, Nvidia DGX",
+    "url": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+    "thumbnail": "https://i.ytimg.com/vi/P0gleu9WCGI/hqdefault.jpg",
+    "duration": 2126
+  },
+  "deck": {
+    "path": "2023/2023-10-20-AI-Updates-Lev.pptx",
+    "filename": "2023-10-20-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-20-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-20-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates October 20, 2023 Open source AI",
+      "text": "AI Updates October 20, 2023 Open source AI will soon become unbeatable Fine-tuning of LLMs Ollama, LMStudio Longer Context: 6 pages, 150 pages, thousands of pages, ... Smarter LLMs - Multiple Questions, Multiple Agents Better RAG (Hybrid, Multi, Auto) Nvidia DGX Miscellaneous"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "\"Open source AI models will soon become unbeatable.",
+      "text": "\"Open source AI models will soon become unbeatable. Period.\" Yann LeCun : \"Open source AI models will soon become unbeatable. Period.\" Bindu Reddy : \"\"\"The pace of open-source LLM innovation and research is breath-taking. I suspect that open-source will soon become unbeatable for anyone except maybe OpenAI. Here's why Open-source community is way bigger than any specific company Safety lobotomy and fear of bad press will continue will impact proprietary model performance Smaller models that are instruct / fine-tuned are performing as well as 50x bigger models Smaller models are more efficient and cheaper than large models Companies will leverage open-source and offer value-added services and APIs \"\"\" Yann LeCun : \"\"\"The future will consist of - a small number of open source inference code - free pre-trained base models, and - crowd-sourced fine-tuned models, on top of which customized (possibly closed source) products will be built. \"\"\""
+    },
+    {
+      "index": 4,
+      "title": "Fine-tuning of LLMs",
+      "text": "Fine-tuning of LLMs"
+    },
+    {
+      "index": 5,
+      "title": "Costs of fine-tuning is Going Down The costs",
+      "text": "Costs of fine-tuning is Going Down The costs of fine-tuning the models going down. This is similar to how the cost of H uman Genome sequencing was dropping. Initial cost was $13 Bln over 13 years. Then: 2000: $100 Mln 2007: $1 Mln 2010: $20K 2017: $1K 2023: $400 Training of original big models is still in millions of $. But fine-tuning is in 10s of thousands. And fine-tuning of small 4bit models is in hundreds of $. And for small tuning it is already in single $. Huggingface provides all tools. There are already thousands of open-source fine-tuned models on Huggingface website. You soon will be able to custom-train multiple models for your personal or business use on a daily basis without even noticing the costs. Actually, it will be probably a constant never ending adaptive fine-tuning. Millions $$ cents"
+    },
+    {
+      "index": 6,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Look at Mistral 7b and 11b - better than original LLaMa2 Rank Model Aver Precision Nparam 0 GPT-4 84.30 16bit 1800 1 ValiantLabs/ShiningValiant 74.17 16bit 70 2 ICBU-NPU/FashionGPT-70B-V1.2 74.11 16bit 70 41 GPT-3.5 71.90 16bit 175 57 garage-bAInd/Camel-Platypus2-70B 71.36 8bit 70 62 lloorree/jfdslijsijdgis 70.99 4bit 70 107 tiiuae/falcon-180B 68.74 16bit 180 141 Undi95/Mistral-11B-TestBench11 67.21 16bit 11 147 ehartford/dolphin-2.1-mistral-7b 67.06 16bit 7 155 meta-llama/Llama-2-70b-chat-hf 66.80 16bit 70 165 Weyaxi/SlimOpenOrca-Mistral-7B 66.54 16bit 7 177 Aspik101/trurl-2-13b-pl-instruct_unload 66.03 16bit 13 183 Open-Orca/Mistral-7B-OpenOrca 65.84 16bit 7 357 Open-Orca/OpenOrca-Platypus2-13B 63.19 4bit 13 422 mistralai/Mistral-7B-v0.1 62.40 16bit 7 988 joehuangx/spatial-vicuna-7b-v1.5-LoRA 55.72 4bit 7 1870 baseline 25.00 nan 0 Note - there are close to 2,000 in the leaderboard. But there are much more models which are available on HuggingFace - but not included in the leaderboard. Example, use LMStudio app to search for thblock mistral . I found 31 entries, each with ~ 12 models, total more than 300 models - none of them in the leaderboard."
+    },
+    {
+      "index": 7,
+      "title": "ehartford/dolphin-2.1-mistral-7b To train dolphin-2.1-mistral-7b, Eric used his Dolphin",
+      "text": "ehartford/dolphin-2.1-mistral-7b To train dolphin-2.1-mistral-7b, Eric used his Dolphin dataset (4.5 Mln rows), and also used Jon Durbin 's excellent Airoboros dataset (60K rows) to increase creativity. https://github.com/jondurbin/airoboros https://huggingface.co/jondurbin Training took 48 hours (4 epochs on 4x A100s). Price estimate: 48 * 4 * $1.5 = $288 Eric Hartford ehartford@gmail.com +1-206-427-2963 https://twitter.com/erhartford https://erichartford.com https://huggingface.com/ehartford https://github.com/ehartford https://www.linkedin.com/in/ehartford/ Montgomery, Alabama Eric Hartford has made an excellent open-source uncensored and \"creative\" version of mistral-7b model https://huggingface.co/ehartford/dolphin-2.1-mistral-7b https://erichartford.com/dolphin - Dolphin dataset https://huggingface.co/datasets/ehartford/dolphin https://erichartford.com/uncensored-models Dolphin project was sponsored by https://a16z.com/supporting-the-open-source-ai-community/ July 2023 - Dolphin, an open-source and uncensored, and commercially licensed dataset and series of instruct-tuned language models based on Microsoft's Orca paper (June 2023). https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/ Dolphin dataset consists of: ~1 million of FLANv2 augmented with GPT-4 completions ~3.5 million of FLANv2 augmented with GPT-3.5 completions Good video demo (Colab): https://www.youtube.com/watch?v=YPOpzJ4N25w Average score on Open LLM Leaderboard - 67.06"
+    },
+    {
+      "index": 8,
+      "title": "Zephyr 7b Alpha - A new Recipe for",
+      "text": "Zephyr 7b Alpha - A new Recipe for Fine Tuning Zephyr - helpful assistant https://www.youtube.com/watch?v=6YDeiknPWkg demo: https://huggingface.co/spaces/HuggingFaceH4/zephyr-chat model page: https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha chat UI code (open-source): https://github.com/huggingface/chat-ui Zephyr is a series of language models that are trained to act as helpful assistants. Zephyr-7B-α is the first model in the series, and is a fine-tuned version of mistralai/Mistral-7B-v0.1 that was trained on on a mix of publicly available, synthetic datasets using Direct Preference Optimization (DPO) . We found that removing the in-built alignment of these datasets boosted performance on MT Bench and made the model more helpful. However, this means that model is likely to generate problematic text when prompted to do so and should only be used for educational and research purposes. Average score on Open LLM Leaderboard - 66.08"
+    },
+    {
+      "index": 9,
+      "title": "VeRA: Vector-based Random Matrix Adaptation VeRA: Vector-based Random",
+      "text": "VeRA: Vector-based Random Matrix Adaptation VeRA: Vector-based Random Matrix Adaptation https://huggingface.co/papers/2310.11454 https://arxiv.org/abs/2310.11454 University of Amsterdam Low-rank adaptation (LoRA) is a popular method that reduces the number of trainable parameters when fine-tuning large language models, but still faces acute storage challenges when scaling to even larger models or deploying numerous per-user or per-task adapted models. In this work, we present Vector-based Random Matrix Adaptation (VeRA) , which reduces the number of trainable parameters by 10x compared to LoRA , yet maintains the same performance. It achieves this by using a single pair of low-rank matrices shared across all layers and learning small scaling vectors instead . We demonstrate its effectiveness on the GLUE and E2E benchmarks , and show its application in instruction-following with just 1.4M parameters using the Llama2 7B model."
+    },
+    {
+      "index": 10,
+      "title": "LLM safety compromised with just 10 training examples,",
+      "text": "LLM safety compromised with just 10 training examples, a cost less than $0.20 https://llm-tuning-safety.github.io https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/"
+    },
+    {
+      "index": 11,
+      "title": "How I Easily Evaluate Fine-tuned Mistral 7B Instruct",
+      "text": "How I Easily Evaluate Fine-tuned Mistral 7B Instruct Model https://blog.gopenai.com/how-i-easily-evaluate-finetuned-mistral-7b-instruct-model-f9b106df1226 Rouge Score (\"Recall-Oriented Understudy for Gisting Evaluation\") - a simple metric to compare words provided by humans with those generated by LLM using unigrams, bigrams, and n-grams. # pip3 install transformers evaluate rouge-score datasets vllm from dataset import load_from_disk from google.colab import drive from vllm import LLM, SamplingParams from huggingface_hub import notebook_login import evaluate ..."
+    },
+    {
+      "index": 12,
+      "title": "Fine-Tuning LLMs With RAG Data https://cobusgreyling.medium.com/fine-tuning-llms-with-retrieval-augmented-generation-rag-c66e56aec858 https://arxiv.org/pdf/2310.01352.pdf RA-DIT",
+      "text": "Fine-Tuning LLMs With RAG Data https://cobusgreyling.medium.com/fine-tuning-llms-with-retrieval-augmented-generation-rag-c66e56aec858 https://arxiv.org/pdf/2310.01352.pdf RA-DIT (Retrieval Augmented Dual Instruction Tuning) - Fine-tuning with RAG, uses the RAG output as training data for LLM fine-tuning RA-DIT approach separately fine-tunes the LLM and the retriever. For a given example, the LM-ft component updates the LLM to maximise the likelihood of the correct answer given. The R-ft component updates the retriever to minimise the KL-Divergence between the retriever score distribution and the LLM preference."
+    },
+    {
+      "index": 13,
+      "title": "Ollama, LMStudio Simple Apps to Run LLMs on",
+      "text": "Ollama, LMStudio Simple Apps to Run LLMs on your Windows or Mac"
+    },
+    {
+      "index": 14,
+      "title": "Ollama - Loading Custom Models https://www.youtube.com/watch?v=3BnnsQCmgLo Let's isntall",
+      "text": "Ollama - Loading Custom Models https://www.youtube.com/watch?v=3BnnsQCmgLo Let's isntall this model (GGUF - quantized model): https://huggingface.co/TheBloke/jackalope-7B-GGUF/tree/main https://huggingface.co/TheBloke/jackalope-7B-GGUF/blob/main/jackalope-7b.Q6_K.gguf Follow ollama instructions from GitHub: https://github.com/jmorganca/ollama Create a directory called \"models\" Download the gguf file. Create a small text modelfile called \" jackalope \"        ==>> Run command: ollama create jackalope -f ./jackalope FROM ./jackalope-7b.06_K.gguf TEMPLATE \"\"\"{{- if .System }} <|im_start|>system {{ .System }}<\\im_end|> {{-end }} <|im_start|>user {{ .Prompt }}<|im_end|> <|im_start|>assistant \"\"\" SYSTEM \"\"\"\"\"\" PARAMETER stop <|im_start|> PARAMETER stop <|im_end|> file \"jackalope\""
+    },
+    {
+      "index": 15,
+      "title": "https://LMStudio.ai GUI to run LLM locally on Mac",
+      "text": "https://LMStudio.ai GUI to run LLM locally on Mac or Windows. Easily download models from HuggingFace Use in-app Chat UI or OpenAI compatible local server to run LLM Discover new & noteworthy LLMs in the app's home page LM Studio supports any ggml Llama, MPT, and StarCoder model on Hugging Face (Llama 2, Orca, Vicuna, Nous Hermes, WizardCoder, MPT, etc.) Minimum requirements: M1/M2 Mac, or a Windows PC with a processor that supports AVX2 (basically any Intel processor since 2013 or AMD 3rd Generation EPYC) Linux is under development Made possible thanks to the llama.cpp project. Good video demo: https://www.youtube.com/watch?v=10FCv-gCKug"
+    },
+    {
+      "index": 16,
+      "title": "LLMs Can Process and Output Longer Texts (Longer",
+      "text": "LLMs Can Process and Output Longer Texts (Longer Contexts) 6 pages, 150 pages, thousands of pages, ..."
+    },
+    {
+      "index": 17,
+      "title": "Context Lengths of Popular Models Model tokens in",
+      "text": "Context Lengths of Popular Models Model tokens in tokens out pages GPT-3.5 4K 4K 6 GPT-4 8K 8K 12 GPT-4 32K 32K 32K 50 Bard 4K 4K 6 LLaMa 2 4K 4K 6 LLaMa 2 Long 32K 32K 50 Claude 2 100K 100K 150 MPT-7B-StoryWriter-65k+ 2K 65K 100 BLOOM 2K infinite infinite"
+    },
+    {
+      "index": 18,
+      "title": "Efficient Streaming Language Models with Attention Sinks Paper:",
+      "text": "Efficient Streaming Language Models with Attention Sinks Paper: https://arxiv.org/abs/2309.17453 Video: https://www.youtube.com/watch?v=409tNlaByds Use-case: multi-round dialogue, requiring lots of memory. But LLM can not process text longer than the training sequence length Authors describe the \" attention sink \" - keeping the Key-Values of initial tokens Authors introduce StreamingLLM , an efficient framework that enables LLMs trained with a finite length attention window to generalize to infinite sequence lengths without any fine-tuning Authors show that StreamingLLM can enable Llama-2, MPT (Mosaic Pretrained Transformer), Falcon, and Pythia to perform stable and efficient language modeling with up to 4 million tokens and more, while outperforms the sliding window recomputation baseline by up to x22 speedup"
+    },
+    {
+      "index": 19,
+      "title": "Ring Attention with Blockwise Transformers for Near-Infinite Context",
+      "text": "Ring Attention with Blockwise Transformers for Near-Infinite Context https://paperswithcode.com/paper/ring-attention-with-blockwise-transformers https://arxiv.org/pdf/2310.01889v3.pdf 3 Oct 2023 - Hao liu, Matei Zaharia, Pieter Abbeel Ring Attention - blockwise computation of self-attention to distribute long sequences across multiple devices while overlapping the communication of key-value blocks with the computation of blockwise attention. Ring Attention enables training and inference of sequences that are up to device-count times longer, effectively eliminating the memory constraints imposed by individual devices. Extensive experiments on language modeling tasks demonstrate the effectiveness of Ring Attention in allowing large sequence input size and improving performance. Figure 1: Maximum context length under end-to-end large-scale training on TPUv4-1024. Baselines are vanilla transformers, memory efficient transformers, and memory efficient attention and feedforward (blockwise parallel transformers). Our proposed approach Ring Attention allows training up to device count times longer sequence than baselines and enables the training of sequences that exceed millions in length without making approximations to attention. Millions of Tokens"
+    },
+    {
+      "index": 20,
+      "title": "Extending Context Length in Large Language Models https://towardsdatascience.com/extending-context-length-in-large-language-models-74e59201b51f",
+      "text": "Extending Context Length in Large Language Models https://towardsdatascience.com/extending-context-length-in-large-language-models-74e59201b51f Computing attention matrix complexity O(n²) . How can we reduce this quadratic cost? Approximating attention. Sparse attention = limit the number of non-zero attention weights per attention head (local, strided, or block attention); Local attention = restrict interactions to a sliding window Flash attention - tiling and recomputation. Tiling = splitting the input into blocks for faster GPU block-by-block processing to avoid materializing the entire matrix. Recomputation - storing just enough information to reconstruct the attention matrix on-chip during backpropagation, avoiding storing the large intermediate. FlashAttention-2 - enhanced parallelism across sequence blocks and optimizing work partitioning between thread blocks and warps on GPUs. Context length extension : fine-tuned extrapolation - use different weights for longer contexts; zero-shot extrapolation - LLM uses the same weights Positional encoding - used to make the model understand the order in the sentence. Positional embeddings - added to the input token embeddings - usually a sinusoidal pattern . In LLaMa , Rotary Position Embeddings ( RoPE ) are used. Sinusoidal position embedding have limited extrapolation ability. Linear scaling - rescaled positional embeddings ALiBi = Attention with Linear Biases - doesn't use positional embeddings. Instead, it negatively biases attention scores between queries and keys with a penalty proportional to their distance. This inductive bias towards recent contexts allows extrapolation at low computational cost. MosaicML’s MPT-7B uses ALiBi architecture to extrapolate from 2K to 65K tokens RWKV (Receptance Weighted Key Value) model - combines Transformers and RNNs."
+    },
+    {
+      "index": 21,
+      "title": "MemGPT (UC Berkeley) LLM makes management decisions. GPT-3.5",
+      "text": "MemGPT (UC Berkeley) LLM makes management decisions. GPT-3.5 or LLaMa-2 make frequent mistakes (calling wrong functions, hallucinating). MemGPT currently only works well with GPT-4. https://arxiv.org/abs/2310.08560 - UC Berkeley, October 2023 https://memgpt.ai https://github.com/cpacker/MemGPT https://huggingface.co/MemGPT https://www.youtube.com/watch?v=QQ2QOPWZKVc MemGPT - a system managing hierarchical memory tiers to provide extended context for 1) large document analysis; 2) chat with long long-term memory. MemGPT mimics memory management in a regular computer OS. It uses functions to move data between main context (analogous to RAM) and external context (analogous to swapping to disk). Authors"
+    },
+    {
+      "index": 22,
+      "title": "Multiple Questions Multiple Agents Improve Accuracy Solve Complex",
+      "text": "Multiple Questions Multiple Agents Improve Accuracy Solve Complex Problems"
+    },
+    {
+      "index": 23,
+      "title": "Socrates Questions to Reduce Hallucinations Techniques For LLMs",
+      "text": "Socrates Questions to Reduce Hallucinations Techniques For LLMs to Verify Themselves And Reduce Mistakes https://twitter.com/bindureddy/status/1712989785500025002 Socrates (470–399 BC) ancient Greek philosopher from Athens who is credited as the founder of Western philosophy and among the first moral philosophers Plato ( 428-348 BC) ancient Greek philosopher born in Athens during the Classical period Aristotle (384–322 BC) ancient Greek philosopher and polymath Socrates questions What do you mean by that? How do you know? Can you give me an example? What are the consequences of that? What is the counterargument?"
+    },
+    {
+      "index": 24,
+      "title": "Techniques For LLMs to Verify Themselves And Reduce",
+      "text": "Techniques For LLMs to Verify Themselves And Reduce Mistakes https://abacus.ai Techniques For LLMs to Verify Themselves And Reduce Mistakes - by Bindu Reddy https://twitter.com/bindureddy/status/1712989785500025002 Chain-Of-Verification ( CoVe ) Reduces Hallucination In Large Language Models https://arxiv.org/pdf/2309.11495.pdf Large Language Models are Better Reasoners with Self-Verification https://export.arxiv.org/abs/2212.09561 LLMs either hallucinate or make mistakes. Measure error rate using val and test sets (Holdout Validation). Self Verification (paper \"Large Language Models are reasoners with Self-Verification\") - use the conclusion of the CoT (Chain-of-Thought) as a condition to build a new sample and asks the LLM to re-predict the original conditions which be masked. A verification score is then calculated based on the accuracy. The \"Chain-of-Verification\" (CoVe) method proposed by Weston et. al - four steps: draft response, create verification questions, get answers to these questions, generate verified response. Abacus AI - prompt an LLM to check it's own work."
+    },
+    {
+      "index": 25,
+      "title": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution very good",
+      "text": "Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution very good 46min video explaining the paper video: https://www.youtube.com/watch?v=tkX0EfNl4Fc Paper: https://arxiv.org/abs/2309.16797 Popular prompt strategies like Chain-of-Thought Prompting can dramatically improve the reasoning abilities of Large Language Models (LLMs) in various domains. However, such hand-crafted prompt-strategies are often sub-optimal. In this paper, we present Promptbreeder , a general-purpose self-referential self-improvement mechanism that evolves and adapts prompts for a given domain. Driven by an LLM, Promptbreeder mutates a population of task-prompts, and subsequently evaluates them for fitness on a training set . Crucially, the mutation of these task-prompts is governed by mutation-prompts that the LLM generates and improves throughout evolution in a self-referential way. That is, Promptbreeder is not just improving task-prompts, but it is also improving the mutation-prompts that improve these task-prompts. Promptbreeder outperforms state-of-the-art prompt strategies such as Chain-of-Thought and Plan-and-Solve Prompting on commonly used arithmetic and commonsense reasoning benchmarks. Furthermore, Promptbreeder is able to evolve intricate task-prompts for the challenging problem of hate speech classification."
+    },
+    {
+      "index": 26,
+      "title": "Step-Back Prompting https://cobusgreyling.medium.com/a-new-prompt-engineering-technique-has-been-introduced-called-step-back-prompting-b00e8954cacb SBP enables LLMs to perform",
+      "text": "Step-Back Prompting https://cobusgreyling.medium.com/a-new-prompt-engineering-technique-has-been-introduced-called-step-back-prompting-b00e8954cacb SBP enables LLMs to perform abstractions, derive high-level concepts & first principles from which accurate answers can be derived You are an expert at world knowledge. Your task is to step back and paraphrase a question to a more generic step-back question, which is easier to answer. Here are a few examples: Original Question: Which position did Knox Cunningham hold from May 1955 to Apr 1956? Stepback Question: Which positions have Knox Cunningham held in his career? Original Question: Who was the spouse of Anna Karina from 1968 to 1974? Stepback Question: Who were the spouses of Anna Karina? Original Question: Which team did Thierry Audel play for from 2007 to 2008? Stepback Question: Which teams did Thierry Audel play for in his career?"
+    },
+    {
+      "index": 27,
+      "title": "Better RAG hybrid (keyword search and a vector",
+      "text": "Better RAG hybrid (keyword search and a vector search), multi - (multi-question, multi-agent), auto (auto evaluation and improvement RAG = REtrieval Augmented Generation"
+    },
+    {
+      "index": 28,
+      "title": "Advanced RAG on Custom Data Using Hybrid Search",
+      "text": "Advanced RAG on Custom Data Using Hybrid Search Advanced RAG Implementation on Custom Data Using Hybrid Search, Embed Caching And Mistral-AI https://medium.aiplanet.com/advanced-rag-implementation-on-custom-data-using-hybrid-search-embed-caching-and-mistral-ai-ce78fdae4ef6 Hybrid Vector Search = combination of keyword search and a vector search . Using LangChain EnsembleRetriever - takes a list of retrievers as input and ensemble the results of their get_relevant_documents() methods and rerank the results based on the Reciprocal Rank Fusion algorithm. https://python.langchain.com/docs/modules/data_connection/retrievers/ensemble from langchain.retrievers import BM25Retriever, EnsembleRetriever from langchain.vectorstores import FAISS BM25 (Best Match 25) - an extension of the TF-IDF (Term Frequency-Inverse Document Frequency) - it calculates the relevance score of a document for a given query. FAISS = Facebook AI Similarity Search"
+    },
+    {
+      "index": 29,
+      "title": "How To Evaluate Your RAG https://betterprogramming.pub/llamaindex-how-to-evaluate-your-rag-retrieval-augmented-generation-applications-2c83490f489 https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/one_click_observability.html Using",
+      "text": "How To Evaluate Your RAG https://betterprogramming.pub/llamaindex-how-to-evaluate-your-rag-retrieval-augmented-generation-applications-2c83490f489 https://gpt-index.readthedocs.io/en/latest/end_to_end_tutorials/one_click_observability.html Using llama_index library to evaluate the quality of responses https://gpt-index.readthedocs.io/en/latest/examples/evaluation/retrieval/retriever_eval.html Recursive Retriever + Document Agents: https://gpt-index.readthedocs.io/en/stable/examples/query_engine/recursive_retriever_agents.html Instruct LLM to generate questions from documents. \"\"\"You are a search pipeline evaluator. Using the papers provided, you must create a list of summary questions and question/answer questions. Limit the queries to the information supplied in the context. Question: \"\"\" Evaluate the RAG response using different evaluators ( import llama_index ): evaluator = ResponseEvaluator(...) faithfulness_evaluator = FaithfulnessEvaluator(...) relevancy_evaluator = RelevancyEvaluator(...)"
+    },
+    {
+      "index": 30,
+      "title": "Nvidia DGX",
+      "text": "Nvidia DGX"
+    },
+    {
+      "index": 31,
+      "title": "NVIDIA Grace Hopper Superchip NVIDIA GH200 Grace Hopper™",
+      "text": "NVIDIA Grace Hopper Superchip NVIDIA GH200 Grace Hopper™ Superchip combines Grace CPU  &  Hopper GPU via NVLink-C2C . Up to 480 GB RAM and 96 GB VRAM DGX GH200 system may contain 256 Grace Hopper Superchips that share memory ( 24TB VRAM and 122 TB RAM). Price ~$50 Mln (or more?) B oth CPU and GPU are named after Grace Hopper , a pioneer of computer programming Grace Hopper (1906-1992) New York City Yale math (1934) Vassar College Navy Reserves  (1943) Helped to create UNIVAC (Universal Automatic Computer) (1952) Invented first linker (1952) Coined the word \" bug \" Mother of COBOL"
+    },
+    {
+      "index": 32,
+      "title": "NVIDIA Progress Nvidia DGX H100 Price $500K Nvidia",
+      "text": "NVIDIA Progress Nvidia DGX H100 Price $500K Nvidia V100 Nvidia DGX GH200 Tesla = line of Nvidia AI accelerators (GPUs) - starting 2008 DGX = Deep Learning GPU Accelerator System (box, rack, ...) Nvidia DGX platform: gpu price in 2023 Nvidia DGX-1 (2016) using 8 Pascal P100 GPUs (16GB each)                      $400 Nvidia DGX-2 (2018) using 16 Volta V100 GPUs (32GB each)                     $4.5K Nvidia DGX A100 (2020) using 8 Ampere A100 GPUs (80GB each)           $17K Nvidia DGX Station A100 (2021) using 4 A100 GPUs Nvidia DGX H100 (2022) using 8 of Hopper H100 GPUs (80GB each)       $32K Nvidia DGX H100 SuperPOD (2022) using 31-127 DGX H100 systems, for a total of 248 to 1,016 GPUs. Nvidia DGX GH200 (2023) using up to 256 GH200 chips ( 96GB each) for a total of 24TB shared GPU memory Nvidia DGX Station A100 Unboxing,  MSRP $128K"
+    },
+    {
+      "index": 33,
+      "title": "Miscellaneous",
+      "text": "Miscellaneous"
+    },
+    {
+      "index": 34,
+      "title": "Misc BloombergGPT : The first LLM for Finance",
+      "text": "Misc BloombergGPT : The first LLM for Finance https://medium.com/codex/bloomberggpt-the-first-large-language-model-for-finance-61cc92075075 Mistral-7B    Fine-Tuning : Step-by-Step https://gathnex.medium.com/mistral-7b-fine-tuning-a-step-by-step-guide-52122cdbeca8 ElevenLabs      AI Dubbing - https://elevenlabs.io/dubbing Automated Dubbing (Voice Translation) = translating and replacing the original audio of a video with a new language ( 29 languages) , while preserving the unique characteristics of the original speakers’ voices. RoG = Reasoning on Graphs with LLMs https://ai.plainenglish.io/reasoning-on-graphs-with-llms-a-new-era-of-knowledge-integration-60b1facd1257 Chinese tech giant Baidu unveiled ERNIE 4.0 bot which is directly compared to OpenAI’s ChatGPT. Character-LLM - a trainable agent for role-playing (pretend to be Beethoven, Queen Cleopatra, Julius Caesar, etc) https://github.com/choosewhatulike/trainable-agents Google LaMDA (Language Model for Dialogue Applications) - announced in 2021. In February 2023, Google announced Bard . Bard originally used LaMDA , but upgraded to Google's next-generation language model Palm 2 (Pathways Language Model) . 5 Generative AI Use Cases Companies Can Implement Today https://towardsdatascience.com/5-generative-ai-use-cases-companies-can-implement-today-f458707bfbbe build more efficient workflows for knowledge workers automate engineering and data processes democratize data with the rest of your company scale customer support support translation and language services"
+    },
+    {
+      "index": 35,
+      "title": "Misc2 AutoGen - clear example: https://levelup.gitconnected.com/setting-up-a-fully-ai-powered-studio-with-autogen-5b9f3a1493a8 Fine-tuning using",
+      "text": "Misc2 AutoGen - clear example: https://levelup.gitconnected.com/setting-up-a-fully-ai-powered-studio-with-autogen-5b9f3a1493a8 Fine-tuning using SFT (Supervised Fine-tuning) and DPO (Direct Preference Optimization) https://medium.com/@anchen.li/fine-tune-llama-2-with-sft-and-dpo-8b57cf3ec69 https://github.com/huggingface/trl Fuyu-8B : A Multimodal Architecture for AI Agents https://www.adept.ai/blog/fuyu-8b Objective (Kailua Labs) - $13 Mln seed for multimodal search https://techcrunch.com/2023/10/18/objective-emerges-from-stealth-to-deliver-multimodal-search-to-developers-as-an-api-platform/"
+    },
+    {
+      "index": 36,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates October 20, 2023 Open source AI",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates October 20, 2023 Open source AI",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "\"Open source AI models will soon become unbeatable.",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 3,
+      "slideTitle": "\"Open source AI models will soon become unbeatable.",
+      "source": "slide"
+    },
+    {
+      "claim": "Costs of fine-tuning is Going Down The costs",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 5,
+      "slideTitle": "Costs of fine-tuning is Going Down The costs",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 6,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "ehartford/dolphin-2.1-mistral-7b To train dolphin-2.1-mistral-7b, Eric used his Dolphin",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 7,
+      "slideTitle": "ehartford/dolphin-2.1-mistral-7b To train dolphin-2.1-mistral-7b, Eric used his Dolphin",
+      "source": "slide"
+    },
+    {
+      "claim": "Zephyr 7b Alpha - A new Recipe for",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 8,
+      "slideTitle": "Zephyr 7b Alpha - A new Recipe for",
+      "source": "slide"
+    },
+    {
+      "claim": "VeRA: Vector-based Random Matrix Adaptation VeRA: Vector-based Random",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 9,
+      "slideTitle": "VeRA: Vector-based Random Matrix Adaptation VeRA: Vector-based Random",
+      "source": "slide"
+    },
+    {
+      "claim": "LLM safety compromised with just 10 training examples,",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 10,
+      "slideTitle": "LLM safety compromised with just 10 training examples,",
+      "source": "slide"
+    },
+    {
+      "claim": "How I Easily Evaluate Fine-tuned Mistral 7B Instruct",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 11,
+      "slideTitle": "How I Easily Evaluate Fine-tuned Mistral 7B Instruct",
+      "source": "slide"
+    },
+    {
+      "claim": "Fine-Tuning LLMs With RAG Data https://cobusgreyling.medium.com/fine-tuning-llms-with-retrieval-augmented-generation-rag-c66e56aec858 https://arxiv.org/pdf/2310.01352.pdf RA-DIT",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 12,
+      "slideTitle": "Fine-Tuning LLMs With RAG Data https://cobusgreyling.medium.com/fine-tuning-llms-with-retrieval-augmented-generation-rag-c66e56aec858 https://arxiv.org/pdf/2310.01352.pdf RA-DIT",
+      "source": "slide"
+    }
+  ]
+}

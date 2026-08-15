@@ -1,0 +1,215 @@
+{
+  "id": "2023-03-31-2023-03-31-firebase-inna",
+  "date": "2023-03-31",
+  "title": "Firebase-Inna",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "general"
+  ],
+  "video": {
+    "id": "jQ8j7ev7E3g",
+    "title": "Why Use Google Firebase - March 31, 2023",
+    "url": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+    "thumbnail": "https://i.ytimg.com/vi/jQ8j7ev7E3g/hqdefault.jpg",
+    "duration": 1421
+  },
+  "deck": {
+    "path": "2023/2023-03-31-Firebase-Inna.pptx",
+    "filename": "2023-03-31-Firebase-Inna.pptx",
+    "title": "Firebase-Inna",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-03-31-Firebase-Inna.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-03-31-Firebase-Inna.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Google Firebase by Inna Botchkina",
+      "text": "Google Firebase by Inna Botchkina"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Inna Botchkina Software Engineer UX",
+      "text": "About the Speaker Inna Botchkina Software Engineer UX Developer Project Manager Former Research Scientist (UCSF) New York / San Francisco"
+    },
+    {
+      "index": 3,
+      "title": "What is Firebase https://en.wikipedia.org/wiki/Firebase Firebase is a backend",
+      "text": "What is Firebase https://en.wikipedia.org/wiki/Firebase Firebase is a backend as a service (BaaS) It is a set of building blocks which can be used in web and mobile applications James Tamplin and Andrew Lee have f ounded \"Envolve\" 2011 as a chat API They founded Firebase in 2012 as a separate company providing Fi rebase Realtime Database , an API that synchronizes application data across iOS, Android, and Web devices, and stores it on Firebase cloud In 2014 , Firebase launched Firebase Hosting and Firebase Authentication thus positioning the company as a mobile backend as a service (BaaS) In October 2014 , Firebase was acquired by Google . In October 2015, Google acquired Divshot, an HTML5 web-hosting platform In May 2016 Firebase introduced Firebase Analytics Firebase now integrates with various other Google services, including Google Cloud Platform, AdMob, and Google Ads, Google Cloud Messaging - now Firebase Cloud Messaging In July 2016, Google acquired the mobile developer platform LaunchKit - and folded it into the Firebase Growth Tools team In January 2017, Google acquired Fabric and Crashlytics from Twitter In October 2017 , Firebase launched Cloud Firestore , a real-time document database as the successor product to the original Firebase Realtime Database James Tamplin Andrew Lee"
+    },
+    {
+      "index": 4,
+      "title": "Firebase: a BaaS (Backend-as-a-Service) also a PaaS (Platform-as-a-Service)",
+      "text": "Firebase: a BaaS (Backend-as-a-Service) also a PaaS (Platform-as-a-Service) BaaS (Backend-as-a-Service) cloud -based services that provide server-side development and backend tools ready-to-use backend functionalities like databases, user authentication , and storage Firebase provides real-time databases, authentication, storage, hosting, and cloud functions, and many other tools simplifying backend services for mobile and web app development PaaS (Platform-as-a-Service) a comprehensive platform for developers to build, test, deploy, host, and scale their applications includes infrastructure, middleware, development tools, database management systems, and other tools necessary for building applications can think of BaaS as of a more targeted subset of PaaS Firebase is owned by Google. So it is using many GCP Services (GCP = Google Cloud Platform). Google Cloud is an IaaS (Infrastructure-as-a-Service)"
+    },
+    {
+      "index": 5,
+      "title": "Slide 5",
+      "text": ""
+    },
+    {
+      "index": 6,
+      "title": "Build Tools Build web and mobile apps quickly",
+      "text": "Build Tools Build web and mobile apps quickly without managing backend and server-side development (build serverless apps) Easily solve common app development problems Effortlessly scale to millions of users Cloud Firestore - a NoSQL database that lets you easily store, sync, and query data for your app - at global scale. Firebase Authentication - a simple, multi-platform sign-in, identity management, secure authentication supporting email and password accounts, phone auth, and Google, Twitter, Facebook, and GitHub login, and more. Remote Config, Extensions, Cloud Messaging, ML"
+    },
+    {
+      "index": 7,
+      "title": "Slide 7",
+      "text": ""
+    },
+    {
+      "index": 8,
+      "title": "Firebase Realtime Database - original DB (since 2012),",
+      "text": "Firebase Realtime Database - original DB (since 2012), a giant JSON tree, NoSQL serverless DB Cloud Firestore - more recent (2017) NoSQL document database (better querying, scalability, multi-region support, easier manual fetching of data) Remote config Firebase extensions - bundles of code (BigQuery library, Algolia search, Strip Payments, etc) App check (blocking traffic without credentials) Cloud Functions (serverless) Authentication (identity management, sign-in) Cloud messaging (between servers and devices, In-app messaging) Hosting (websites, global CDN) Cloud Storage (buckets) Firebase ML - APIs for model deployment Analytics A/B testing Crashlytics Performance Monitoring Test Lab Dynamic Links Firebase Products Firebase is owned by Google. So it is using many GCP Services (GCP = Google Cloud Platform)"
+    },
+    {
+      "index": 9,
+      "title": "Slide 9",
+      "text": ""
+    },
+    {
+      "index": 10,
+      "title": "Firebase Console Login into https://firebase.google.com",
+      "text": "Firebase Console Login into https://firebase.google.com"
+    },
+    {
+      "index": 11,
+      "title": "Slide 11",
+      "text": ""
+    },
+    {
+      "index": 12,
+      "title": "Firebase Authentication",
+      "text": "Firebase Authentication"
+    },
+    {
+      "index": 13,
+      "title": "Slide 13",
+      "text": ""
+    },
+    {
+      "index": 14,
+      "title": "Firebase - Storing Data Firebase Realtime Database -",
+      "text": "Firebase - Storing Data Firebase Realtime Database - original DB (since 2012), a giant JSON tree, NoSQL serverless DB Cloud Firestore - more recent (2017) NoSQL document database (better querying, scalability, multi-region support, easier manual fetching of data) Cloud Storage (buckets) Cloud Firestore vs AWS DynamoDB https://ezfire.io/blog/cloud-firestore-vs-dynamodb/"
+    },
+    {
+      "index": 15,
+      "title": "Firebase App Check https://firebase.google.com/products/app-check https://firebase.google.com/docs/app-check App Check can",
+      "text": "Firebase App Check https://firebase.google.com/products/app-check https://firebase.google.com/docs/app-check App Check can protect your APIs by blocking traffic that doesn't have valid credentials App Check helps protect your backend from abuse, such as billing fraud, phishing, app impersonation, and data poisoning"
+    },
+    {
+      "index": 16,
+      "title": "Firebase Security Rules https://firebase.google.com/docs/rules You can define security",
+      "text": "Firebase Security Rules https://firebase.google.com/docs/rules You can define security rules for accessing your data ( Cloud Firestore , Cloud Storage ) Firebase Security Rules can also leverage Authentication to grant user-based permissions The conditions you set can be very basic or incredibly complex service <<name>> { match <<resource path>> { allow <<methods>> : if <<condition>> } } Example:"
+    },
+    {
+      "index": 17,
+      "title": "Firebase vs AWS Amplify vs Azure App Service",
+      "text": "Firebase vs AWS Amplify vs Azure App Service (Web Apps, Mobile Apps) vs others (Back4App, Heroku, Kinvey, Oracle Mobile Hub, Backendless, Netlify, 8Base) https://aws.amazon.com/amplify/ Firebase vs AWS Amplify: https://www.youtube.com/watch?v=ucmbO2lWC2A What is AWS Amplify: https://www.youtube.com/watch?v=HkbjHtG_d7w AWS Amplify released in 2018 AWS Amplify supports (as Firebase) Auth, Analytics, Push Notifications, storage, hosting, etc. AWS Amplify supports GraphQL DB Azure cloud - since 2010 Azure Web Apps - since 2013 Azure Mobile Apps - since 2018 Has all features (similar to Firebase or AWS Amplify) - coming from Azure Cloud Build your first Web App with Microsoft Azure https://www.youtube.com/watch?v=0QO2jdinCoQ Azure vs Firebase: https://blog.back4app.com/azure-vs-firebase-which-is-the-best/ Top 10 AWS Amplify Alternatives: https://blog.back4app.com/aws-amplify-alternatives/ Azure Apps AWS Amplify"
+    },
+    {
+      "index": 18,
+      "title": "Firebase alternatives and competitors AWS Amplify: A set",
+      "text": "Firebase alternatives and competitors AWS Amplify: A set of tools and services provided by Amazon Web Services (AWS) to help frontend web and mobile developers build full-stack applications. It includes features such as authentication, APIs, storage, and serverless functions. Microsoft Azure Mobile Apps: A set of backend services provided by Microsoft Azure for building mobile and web applications. It offers features such as data storage, offline data sync, authentication, and custom APIs. Backendless: A mobile Backend-as-a-Service (mBaaS) platform that offers a visual app builder, real-time database, user management, and cloud code functions. It aims to simplify backend development and reduce the time needed to build applications. Parse: An open-source backend framework that can be self-hosted or used through managed hosting providers. Parse offers a wide range of features, including data storage, user authentication, push notifications, and cloud functions. Kinvey: A Backend-as-a-Service (BaaS) platform by Progress, offering features such as data storage, user authentication, serverless functions, and integrations with various services. Kinvey focuses on providing a high level of security and compliance for enterprise applications."
+    },
+    {
+      "index": 19,
+      "title": "Firebase vs AWS Amplify vs Microsoft Azure AWS",
+      "text": "Firebase vs AWS Amplify vs Microsoft Azure AWS Amplify (offered by Amazon Web Services): provides frontend and backend services for building full-stack serverless applications offers similar features to Firebase, including authentication, storage, and serverless functions has more customization options and better integration with other AWS services learning curve can be steeper than Firebase Microsoft Azure App Service: a fully managed platform for building, deploying, and scaling web applications integrates well with other Microsoft products and offers a broader range of services and features Firebase might be more beginner-friendly and focused on mobile app development"
+    },
+    {
+      "index": 20,
+      "title": "Heroku vs Netlify two popular platforms for deploying",
+      "text": "Heroku vs Netlify two popular platforms for deploying , managing, and scaling web applications Heroku (owned by Salesforce): Platform as a Service (PaaS): Heroku is a PaaS that provides a fully managed platform for building, deploying, running, and scaling web applications. It supports several programming languages, including Ruby, Python, Java, Node.js, and PHP. Add-ons: Heroku offers a variety of add-ons for databases, caching, email services, monitoring, and more. These add-ons can be integrated into your application to extend its functionality. Dynos: Heroku uses \"dynos\" as the unit of computation, which are isolated containers that run your application. You can scale your application by adding or removing dynos. Git-based deployments: Heroku integrates with Git for deploying applications. You push your code to a Heroku remote repository, and the platform takes care of building and deploying your application. Suitable for backend-heavy applications: Heroku is a good choice for applications with complex backend logic, such as API services, and for applications that require custom server configurations. (Firebase, on the other hand, is more focused on providing specific backend services for mobile and web applications.)"
+    },
+    {
+      "index": 21,
+      "title": "Netlify: Static Site Hosting - hosting static sites",
+      "text": "Netlify: Static Site Hosting - hosting static sites (HTML, CSS, JavaScript) Serverless Backend Services - cloud servers Well-suited for frontend-heavy applications, such as Single Page Applications (SPAs) built with React or Vue.js Continuous Deployment by integrating with Git repositories (whenever you push changes to your Git repository, Netlify automatically builds and deploys your site) Functions-as-a-Service: serverless functions to add dynamic functionality to your static sites. You can write functions in JavaScript or TypeScript, and Netlify automatically handles the deployment, scaling, and execution. CDN and Performance: Netlify provides a global content delivery network (CDN) to serve your static assets, which improves the performance and loading time of your website. Free tier: generous free tier that includes continuous deployment, HTTPS, and custom domains. In summary, Heroku - for web apps  with complex backends Netlify - for frontend-heavy apps, static site hosting and serverless backend services"
+    },
+    {
+      "index": 22,
+      "title": "Firebase Pricing Free SPARK plan with very generous",
+      "text": "Firebase Pricing Free SPARK plan with very generous limits Pay as you go BLAZE plan Always free: A/B Testing, Analytics, App Distribution, App Indexing, Cloud Messaging, Crashlytics, Dynamic Links, Performance Monitoring, In-App Messaging, Remote Config Authentication:  free up to 10,000/month, then $0.01/verification Monthly active users: free up to 50,000/month Cloud Storage: 5GB free, then only $0.026/GB Hosting Storage: 10GB free, then only $0.026/GB Cloud Functions:  require Blaze plan"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Google Firebase by Inna Botchkina",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 1,
+      "slideTitle": "Google Firebase by Inna Botchkina",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Inna Botchkina Software Engineer UX",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Inna Botchkina Software Engineer UX",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Firebase https://en.wikipedia.org/wiki/Firebase Firebase is a backend",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 3,
+      "slideTitle": "What is Firebase https://en.wikipedia.org/wiki/Firebase Firebase is a backend",
+      "source": "slide"
+    },
+    {
+      "claim": "Firebase: a BaaS (Backend-as-a-Service) also a PaaS (Platform-as-a-Service)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 4,
+      "slideTitle": "Firebase: a BaaS (Backend-as-a-Service) also a PaaS (Platform-as-a-Service)",
+      "source": "slide"
+    },
+    {
+      "claim": "Build Tools Build web and mobile apps quickly",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 6,
+      "slideTitle": "Build Tools Build web and mobile apps quickly",
+      "source": "slide"
+    },
+    {
+      "claim": "Firebase Realtime Database - original DB (since 2012),",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 8,
+      "slideTitle": "Firebase Realtime Database - original DB (since 2012),",
+      "source": "slide"
+    },
+    {
+      "claim": "Firebase Console Login into https://firebase.google.com",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 10,
+      "slideTitle": "Firebase Console Login into https://firebase.google.com",
+      "source": "slide"
+    },
+    {
+      "claim": "Firebase Authentication",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jQ8j7ev7E3g",
+      "slideIndex": 12,
+      "slideTitle": "Firebase Authentication",
+      "source": "slide"
+    }
+  ]
+}

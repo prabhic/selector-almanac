@@ -1,0 +1,209 @@
+{
+  "id": "2021-02-19-21-02-19-tree-randomforest-gradientboosting-lev",
+  "date": "2021-02-19",
+  "title": "Tree RandomForest GradientBoosting",
+  "series": "data-science-2021",
+  "topics": [
+    "open-models",
+    "ml-fundamentals",
+    "infra",
+    "general",
+    "rag"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-02-19-Tree_RandomForest_GradientBoosting_Lev.pptx",
+    "filename": "21-02-19-Tree_RandomForest_GradientBoosting_Lev.pptx",
+    "title": "Tree RandomForest GradientBoosting",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-02-19-Tree_RandomForest_GradientBoosting_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-02-19-Tree_RandomForest_GradientBoosting_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Today's Topic – Ensemble Models Classifiers Random Forest",
+      "text": "Today's Topic – Ensemble Models Classifiers Random Forest and Boosting Data Science Machine Learning In this file: Bagging (averaging, voting) vs Boosting (incremental correction) Ensemble Learning, Trees, Random Forest vs Boosing Binary Classification - Islands - when linear separation doesn't work Decision Tree - and how to build it Building Tree - Gini Impurity Building Tree - Smallest Entropy Building Tree – CHAID Random Forest – authors Bagging – Boosting – Stacking Random Forest diagram Bootstrap Sampling Boosting Authors Gradient Descent, Gradient Boosting, Validation Ada Boost diagram Misc. links Lev Selector February 19, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Idea: make a reliable system from unreliable blocks",
+      "text": "Idea: make a reliable system from unreliable blocks using single-shot democratic voting Computer 1 Computer 2 Computer 3 Data Majority voting system Idea: get to correct answer by making multiple corrective steps 1 st approximation correction correction correction ... Bagging Boosting Weighted voting system Power of the majority committee, senate, congress, council, board of directors, ... Power of validation science, open source community, ... Wrong bias is not removed, it is simply averaged Wrong bias is removed using correction and validation"
+    },
+    {
+      "index": 3,
+      "title": "Ensemble Learning Idea - train several models to",
+      "text": "Ensemble Learning Idea - train several models to do predictions. Then combine predictions of these models to get a better predictor. It is possible to combine any types of models into one predictor. But commonly people combine variations of similar models, like decision trees models. Two most famous approaches are: - \"Random Forest\" - \"Gradient Boosted Trees\" Under the hood these models combine 100 ... 200+ similar trees. The differences between algorithms: how you select the data to train those trees how you combine the predictions of these trees"
+    },
+    {
+      "index": 4,
+      "title": "Ensemble tree classifiers ( Random Forest , XGBoost",
+      "text": "Ensemble tree classifiers ( Random Forest , XGBoost ) can solve complicated problems Binary Classification Problem Example – two classes: red and grey. Ensemble Tree Classifiers succeed where Linear Classifiers fail"
+    },
+    {
+      "index": 5,
+      "title": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "text": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) – uses smallest entropy metrics C4.5 – successor of ID3 CART (Classification And Regression Tree) – uses Gini metrics CHAID (CHi-squared Automatic Interaction Detector) . Performs multi-level splits when computing classification trees. MARS : extends decision trees to handle numerical data better. Conditional Inference Trees . Statistics-based approach that uses non-parametric tests as splitting criteria, corrected for multiple testing to avoid overfitting. This approach results in unbiased predictor selection and does not require pruning. DT goes from observations about an item (represented in the branches) to conclusions about the item's target value (represented in the leaves). DT can do classification or regression. DTs are intuitive and easily interpretable. Algorithms for constructing DTs usually work top-down, by choosing a variable at each step that best splits the set of items. We test all possible splits (or some subset) to decide how to split. Simplicity is best, so we want to keep our tree small. To do so, at each step we should choose the split that results in the purest daughter nodes. Decision Tree Building Algorithms"
+    },
+    {
+      "index": 6,
+      "title": "Gini Impurity Gini Impurity (I G ) -",
+      "text": "Gini Impurity Gini Impurity  (I G ) - metrics used by CART method for making splitting decisions on categorical features. Gini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset. Gini max value is 0.5, and min value is 0 (when all cases in the node fall into a single target category). If we have a set of items with J classes {1,2,..,J}, and p i is the fraction of items of i-th class, then it can be shown that : I G = 1 – sum(p i 2 ) fraction of incorrectly labeled If you look at the documentation for the DecisionTreeClassifier class in scikit-learn, you’ll see something like this for the criterion parameter: When training a decision tree, the best split is chosen by maximizing the Gini Gain , which is calculated by subtracting the weighted impurities of the branches from the original impurity - https://victorzhou.com/blog/gini-impurity/ Name \"Gini\" comes from economics. Corrado Gini - Italian statistician and sociologist. He has published his paper Variability and Mutability in 1912. He has introduced a Gini coefficient , sometimes called the Gini index or Gini ratio. It is a measure of statistical dispersion intended to represent the income inequality or wealth inequality within a nation or any other group of people. The coefficient ranges from 0 (or 0%) to 1 (or 100%), with 0 representing perfect equality and 1 representing perfect inequality. Corrado Gini 1884-1965"
+    },
+    {
+      "index": 7,
+      "title": "Smallest Entropy (Largest Information Gain) ID3 (ID.3 =",
+      "text": "Smallest Entropy (Largest Information Gain) ID3 (ID.3 = Iterative Dichotomiser 3) an algorithm invented by Ross Quinlan (1986) used to generate a decision tree from a dataset splits data by an attribute that has smallest average entropy of the split (or largest information gain) C4.5 is an extension of ID3, used for classification, has following advantages: handles both continuous and discrete attributes (creates a threshold and then splits the list) handles missing attributes data (simply not using them in entropy calculations). handles attributes with differing costs pruning trees after creation (attempts to remove inefective branches or replace them with leaf nodes). C5.0 algorithm - improved C4.5: - https://www.rulequest.com/see5-info.html - https://www.rulequest.com/download.html much-much faster less memory usage builds smaller decision trees support for boosting support for weighting automating winnowing (removing not effective attributes) John Ross Quinlan Inventor of canonical C4.5 and ID3 algorithms.  Currently running his  company RuleQuest Research . - https://www.rulequest.com/Personal/ - https://www.rulequest.com/ Pure node :    entropy = 0 Information Gain = 1 - Entropy"
+    },
+    {
+      "index": 8,
+      "title": "CHAID – Chi-Squared Automatic Interaction Detection CHAID -",
+      "text": "CHAID – Chi-Squared Automatic Interaction Detection CHAID - Chi-Squared Automatic Interaction Detection. It was originally proposed by Gordon V. Kass in 1980 - https://en.wikipedia.org/wiki/Chi-square_automatic_interaction_detection This algorithm used only for categorical variables. In practice, CHAID is often used in the context of direct marketing to select groups of consumers and predict how their responses to some variables affect other variables. Good explanation of CHAID vs CART: https://towardsdatascience.com/clearly-explained-top-2-types-of-decision-trees-chaid-cart-8695e441e73e Decision Tree Building Algorithm"
+    },
+    {
+      "index": 9,
+      "title": "Classification and Regression Trees (1984) by BFOS (BFOS",
+      "text": "Classification and Regression Trees (1984) by BFOS (BFOS = Breiman, Friedman, Olshen, Stone) Leo Breiman UC Berkeley Statistics 1928-2005 Jerome H. Friedman Statistics UC Berkeley, Stanford 1939- Charles J. Stone Math, Probability UCLA, UC Berkeley 1936-2019 Richard A. Olshen Biostatistics UC Berkeley, Stanford 1942- Random Decision Forests (1995) by Tin Kam Ho Tin Kam Ho at Bell Labs in NJ. then AI at IBM (since 2014) Adele Cutler UC Berkeley, then Utah State University. Wrote original Random Forest in Fortran with Leo Breiman in 2002-2003 https://www.stat.berkeley.edu/~breiman/RandomForests/cc_software.htm FORTRAN Random Forest 2002-2003"
+    },
+    {
+      "index": 10,
+      "title": "Ensemble Learning Methods with Decision Trees A group",
+      "text": "Ensemble Learning Methods with Decision Trees A group of “ weak learners ” come together to form a “ strong learner ” Random Forest – parallel independent learners, democratic equal-weight voting. Note - Random Forest is a specific case of Bagging = Bootstrap Aggregating Bootstrap = data sampling with replacement Aggregating = voting Each learner gets a random subset of data (rows) and a random subset of features (columns). Each tree is trained independently. Each tree then can make its prediction. Then overall decision is made by averaging decisions of individual trees. Boosted Trees – trees trained sequentially. Train 1 st tree Train 2 nd tree concentrating on fixing errors left after 1 st tree, combine trees (weighted voting) Train 3 rd tree concentrating on fixing errors left after 1 st and 2 nd trees, etc. Continue boosting accuracy by adding trees. Stacking (Meta-learner) - train several different models, and then train model on top of their outputs - https://www.kdnuggets.com/2017/02/stacking-models-imropved-predictions.html Bagging reduces variance (averages) does NOT reduce bias error Stacking improves predictive force (combines \"skills\" of different models) Boosting reduces bias error by sequential corrective learning"
+    },
+    {
+      "index": 11,
+      "title": "Slide 11",
+      "text": ""
+    },
+    {
+      "index": 12,
+      "title": "Bootstrap Sampling method of preparing a set of",
+      "text": "Bootstrap Sampling method of preparing a set of data samples by sampling them (with replacement) from original data set Another meaning of the word bootstrap: \"pull oneself over a fence by one's bootstraps\""
+    },
+    {
+      "index": 13,
+      "title": "Boosting Algorithms From Wikipedia, etc: The idea of",
+      "text": "Boosting Algorithms From Wikipedia, etc: The idea of gradient boosting originated in the observation by Leo Breiman that boosting can be interpreted as an optimization algorithm on a suitable cost function ( 1997 , Berkeley). Explicit regression gradient boosting algorithms were subsequently developed by Jerome H. Friedman ( 1999 , Berkeley). ... simultaneously with the more general functional gradient boosting perspective of Llew Mason, Jonathan Baxter, Peter Bartlett and Marcus Frean ( 1999 ). Stochastic gradient boosting - by Jerome H.Friedman, 2002 – adding random sampling to gradient boosting algorithm improves speed and accuracy. AdaBoost ( 1995 ) Yoav Freund & Robert Schapire (2003 Gödel Prize). XGBoost ( 2014 ) more flexible and optimized Tianqi Chen (was a Ph.D. student) Light GBM ( 2016 , Microsoft) fast-performing, distributed (GBM = Gradient Boosting Machine) CatBoost ( 2017 , Yandex) big data, categorical data, multiple GPUs. Leo Breiman UC Berkeley Jerome H. Friedman UC Berkeley, Stanford Strength of Weak Learners"
+    },
+    {
+      "index": 14,
+      "title": "Gradient Boosting is named so because on each",
+      "text": "Gradient Boosting is named so because on each steep it is improving (boosting) the decision by decreasing the error (Gradient Descent) Gradient vector is perpendicular to level curves Understand gradient vector \"validation data set\" – used in boosting to figure out when to stop iterations to avoid overfitting Gradient Descent"
+    },
+    {
+      "index": 15,
+      "title": "AdaBoost First Boosting Algorithm (1995) by Freund and",
+      "text": "AdaBoost First Boosting Algorithm (1995) by Freund and Schapire"
+    },
+    {
+      "index": 16,
+      "title": "Gradient boosting trees model is originally proposed by",
+      "text": "Gradient boosting trees model is originally proposed by Friedman et al. He has coined the term GBM = Gradient Boosting Machine “Gradient Boosting” - Greedy Function Approximation: A Gradient Boosting Machine , by Friedman (1999) - https://statweb.stanford.edu/~jhf/ftp/trebst.pdf XGBoost was created by Tianqi Chen. It is a library implementing GBM – and optimized for trees. \"XG\" in XGBoost = “Extreme Gradient Boosting”. Tianqi Chen - Introduction to Boosted Trees (2016) - http://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf - https://xgboost.readthedocs.io/en/latest/model.html XGBoost - uses \"Regularized Gradient Boosting\" model which prevents overfitting and gives better performance - uses sparse matrices with sparsity aware algorithms to reduce memory and increase performance - better support for multicore parallel processing - reduces training time 2015 - DART: Dropouts meet Multiple Additive Regression Trees - https://arxiv.org/abs/1505.01866 - http://zhanpengfang.github.io/418home.html - https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/ - https://www.quora.com/What-is-the-difference-between-the-R-gbm-gradient-boosting-machine-and-xgboost-extreme-gradient-boosting - https://en.wikipedia.org/wiki/Gradient_boosting - https://en.wikipedia.org/wiki/Xgboost ============================================= Leo Breiman, Jerome Friedman, CART, BFOS on youtube: - https://www.youtube.com/watch?v=t8ooi_tJHSE – 2 min, Working with Leo Breiman on Random Forests, Adele Cutler - https://www.youtube.com/watch?v=JIXeMj1zwVU – 5min, CART - https://www.youtube.com/watch?v=-Ju0Czc9GmA – 4min, The Birth of BFOS: Breiman, Freidman, Olshen and Stone - https://www.youtube.com/watch?v=XaeQo1KSmjA – 4min, CART and Cross-Validation, Data Mining - https://www.youtube.com/watch?v=8hupHmBVvb0 – 4min, Jerome Friedman, Data Mining Software Founding Father"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Today's Topic – Ensemble Models Classifiers Random Forest",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Today's Topic – Ensemble Models Classifiers Random Forest",
+      "source": "slide"
+    },
+    {
+      "claim": "Idea: make a reliable system from unreliable blocks",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Idea: make a reliable system from unreliable blocks",
+      "source": "slide"
+    },
+    {
+      "claim": "Ensemble Learning Idea - train several models to",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Ensemble Learning Idea - train several models to",
+      "source": "slide"
+    },
+    {
+      "claim": "Ensemble tree classifiers ( Random Forest , XGBoost",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Ensemble tree classifiers ( Random Forest , XGBoost",
+      "source": "slide"
+    },
+    {
+      "claim": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Decision Tree (DT) ID3 (Iterative Dichotomiser 3) –",
+      "source": "slide"
+    },
+    {
+      "claim": "Gini Impurity Gini Impurity (I G ) -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Gini Impurity Gini Impurity (I G ) -",
+      "source": "slide"
+    },
+    {
+      "claim": "Smallest Entropy (Largest Information Gain) ID3 (ID.3 =",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Smallest Entropy (Largest Information Gain) ID3 (ID.3 =",
+      "source": "slide"
+    },
+    {
+      "claim": "CHAID – Chi-Squared Automatic Interaction Detection CHAID -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "CHAID – Chi-Squared Automatic Interaction Detection CHAID -",
+      "source": "slide"
+    },
+    {
+      "claim": "Classification and Regression Trees (1984) by BFOS (BFOS",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Classification and Regression Trees (1984) by BFOS (BFOS",
+      "source": "slide"
+    },
+    {
+      "claim": "Ensemble Learning Methods with Decision Trees A group",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Ensemble Learning Methods with Decision Trees A group",
+      "source": "slide"
+    },
+    {
+      "claim": "Bootstrap Sampling method of preparing a set of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Bootstrap Sampling method of preparing a set of",
+      "source": "slide"
+    }
+  ]
+}

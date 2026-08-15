@@ -1,0 +1,472 @@
+{
+  "id": "2022-03-25-2022-03-25-mlops-azure-ml-rachael",
+  "date": "2022-03-25",
+  "title": "MLOps-Azure-ML-Rachael",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "ml-fundamentals",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "foFD-0vAj8k",
+    "title": "MLOps with Azure Machine Learning - Presented by Rachael Phillips",
+    "url": "https://www.youtube.com/watch?v=foFD-0vAj8k",
+    "thumbnail": "https://i.ytimg.com/vi/foFD-0vAj8k/hqdefault.jpg",
+    "duration": 2825
+  },
+  "deck": {
+    "path": "2022/2022-03-25-MLOps-Azure-ML-Rachael.pptx",
+    "filename": "2022-03-25-MLOps-Azure-ML-Rachael.pptx",
+    "title": "MLOps-Azure-ML-Rachael",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-03-25-MLOps-Azure-ML-Rachael.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-03-25-MLOps-Azure-ML-Rachael.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Table of Contents",
+      "startSeconds": 95,
+      "label": "01:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Building the Business Understanding",
+      "startSeconds": 380,
+      "label": "06:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Prep Modeling",
+      "startSeconds": 490,
+      "label": "08:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Deploy and Model Monitoring",
+      "startSeconds": 540,
+      "label": "09:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Real Testing",
+      "startSeconds": 647,
+      "label": "10:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Accessable Ingredients",
+      "startSeconds": 799,
+      "label": "13:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Science Team",
+      "startSeconds": 825,
+      "label": "13:45",
+      "source": "youtube"
+    },
+    {
+      "title": "ML Model Challenges",
+      "startSeconds": 974,
+      "label": "16:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Azure DevOps",
+      "startSeconds": 1022,
+      "label": "17:02",
+      "source": "youtube"
+    },
+    {
+      "title": "DevOps",
+      "startSeconds": 1078,
+      "label": "17:58",
+      "source": "youtube"
+    },
+    {
+      "title": "DevOps Practices",
+      "startSeconds": 1138,
+      "label": "18:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Infrastructure as Code",
+      "startSeconds": 1279,
+      "label": "21:19",
+      "source": "youtube"
+    },
+    {
+      "title": "MLOps",
+      "startSeconds": 1331,
+      "label": "22:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Continuous Integration",
+      "startSeconds": 1611,
+      "label": "26:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Continuous Deployment Pipeline",
+      "startSeconds": 1725,
+      "label": "28:45",
+      "source": "youtube"
+    },
+    {
+      "title": "MLOps Reference Architecture",
+      "startSeconds": 1830,
+      "label": "30:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Branching Strategies",
+      "startSeconds": 2302,
+      "label": "38:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Questions and Comments",
+      "startSeconds": 2407,
+      "label": "40:07",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "MLOps with Azure Machine Learning Rachael Phillips",
+      "text": "MLOps with Azure Machine Learning Rachael Phillips"
+    },
+    {
+      "index": 2,
+      "title": "Table of Contents Machine Learning Development Flow Challenges",
+      "text": "Table of Contents Machine Learning Development Flow Challenges of ML Model Management DevOps and What it Provides Bringing Machine Learning and DevOps Together ( MLOps ) Resources"
+    },
+    {
+      "index": 3,
+      "title": "Machine Learning Development Flow",
+      "text": "Machine Learning Development Flow"
+    },
+    {
+      "index": 4,
+      "title": "Microsoft Team Data Science Process",
+      "text": "Microsoft Team Data Science Process"
+    },
+    {
+      "index": 5,
+      "title": "Build Business Understanding Arrive at an analytical question",
+      "text": "Build Business Understanding Arrive at an analytical question that addresses the problem “We spend a lot of money to acquire and retain customers. Turning over a customer, or reacquiring them is also expensive.” Begin with the exploration of a problem “It would be great if we could predict whether a customer is likely to leave us next month and target them for retention.” Understand the data required to address the problem “We have historical data representing customer acquisition and turnover for the past n years, including all customer interactions.” Define business goals with “sharp” questions that can be answered by Data Science: How much or how many? (regression) Which category? (classification) Which group? (clustering) Is this weird? (anomaly detection) Which option should be taken? (recommendation) Define the consumption experience How will people or systems use these conclusions, on which devices.  How will they want to consume the analytic output and what will they do with it?"
+    },
+    {
+      "index": 6,
+      "title": "Data Prep and Modeling Explore and transform the",
+      "text": "Data Prep and Modeling Explore and transform the data Plan and locate potential sets of data.  Gather data from internal and external sources Acquire data sets Using data transformation tools and engineering techniques, mine, extract, clean, mark up, label, transform, enrich and stage data Begin the modelling experimentation Feature engineering, model fitting, model evaluation on “unseen” data Experimentation may cause re-visitation of data understanding or even the business problem Data prep tasks can be repeated multiple times Rigorous model evaluation"
+    },
+    {
+      "index": 7,
+      "title": "Deploy and Monitor Performance Model deployment/ operationalization Systematic",
+      "text": "Deploy and Monitor Performance Model deployment/ operationalization Systematic integration into dashboards, systems, applications including continued data ingestion and training Monitor performance Continuous monitoring of model performance, refine model based on field feedback, retrain model on new data Move beyond “experimentation” into production Integrate into dashboards, apps and acquire new data sets Monitor performance accuracy Revisit the modelling stage to refine the model as needed"
+    },
+    {
+      "index": 8,
+      "title": "Model Monitoring Real testing of a model happens",
+      "text": "Model Monitoring Real testing of a model happens in a live environment . There are 3 reasons for which a model may shows unexpected behavior once deployed to production. This challenge can only be solved with data feedback loop to the ML team. Model Bias Data Drift Concept Drift The model was wrongly trained because the model’s prediction differs from the target value, compared to the training data. The features created to train the model on have statistically changed over time. Example: The company has gained a new and younger customer base with different characteristics (less experience, lower budget, …) that model did not see before. The features are the same, but the value of the target variable has changed. Examples: company launching a new product to the same customer base. Change in interest rates, salaries, etc which cause attraction/churn of clients"
+    },
+    {
+      "index": 9,
+      "title": "Success Ingredients for a Data Science Project Is",
+      "text": "Success Ingredients for a Data Science Project Is there a clear business need? Is the outcome measurable? Know your problem Know your data Is there data to support the business scenario? What are the caveats? Data exploration and validation are essential. Build relevant models Which types of models can answer the business question? Is it a regression, classification, anomaly detection, clustering, recommendation, or other problem? Integrate with business Trust building through testing and validation, then deploy"
+    },
+    {
+      "index": 10,
+      "title": "General Roles in a Data Science Project 3.",
+      "text": "General Roles in a Data Science Project 3. Data Engineer 4. Machine Learning Engineer Acquire, transform and stage/store data sources Orchestrate data acquisition and flow through to organizational data stores Create ,schedule and provision foundational orchestration services Implement the MLOps pipeline Deploy machine learning solution into production Optimize solutions for performance and scalability Understand and help refine/shape the analytical question to answer Craft approaches for new analytic technical foundations (i.e., Statistical Testing, Machine Learning, Data Lakes, etc.) Conduct analytical modeling, testing, evaluation and interpretation Assist in monitoring and adjusting for model performance over time 1. Data Architect Architect the whole data platform Design the  data governance strategy Ensure data security and privacy 2. Data Scientist"
+    },
+    {
+      "index": 11,
+      "title": "Challenges of ML Model Management",
+      "text": "Challenges of ML Model Management"
+    },
+    {
+      "index": 12,
+      "title": "Traditional DS Delivery I have a model for",
+      "text": "Traditional DS Delivery I have a model for you… How do I deploy, manage, monitor… Wall Of Confusion Data Science Ops Data Drift Model Decay Stale Models Concept Drift"
+    },
+    {
+      "index": 13,
+      "title": "Key Challenges Reproducibility / Auditability: What data the",
+      "text": "Key Challenges Reproducibility / Auditability: What data the model was trained on? Which version of source code was run? What kind of hyper-parameters the model used? What was the performance metric? Validation / Packaging How to validate the quality of code? How to make sure the best model is selected? Automation / Observability How to make sure the right model is being deployed? How to monitor the live performance of the model? When to retrain the model?"
+    },
+    {
+      "index": 14,
+      "title": "DevOps and What it Provides",
+      "text": "DevOps and What it Provides"
+    },
+    {
+      "index": 15,
+      "title": "MLOps Business Value Continuous Delivery Build in automation",
+      "text": "MLOps Business Value Continuous Delivery Build in automation to enable a continuous delivery and continuous integration pipeline Reduced Downtime Ensure ML models have required governance and operational discipline related to data quality, security and compliance, and access. Predictable Performance Enable monitoring & performance data collection across the build and inference pipeline, enabling a predictable ML operating environment."
+    },
+    {
+      "index": 16,
+      "title": "What is DevOps? DevOps is the union of",
+      "text": "What is DevOps? DevOps is the union of people , process , and products to enable continuous delivery of value. “ ” Build& Test Continuous Delivery Deploy Operate Monitor & Learn Plan & Track Develop People Collaborate early and often Cross-disciplinary teams Share common goals and metrics Shared responsibility Process Agile Principles Streamline feedback Delivering value faster Products Enhance productivity Improve collaboration Facilitate experimentation and measurement Automate processes"
+    },
+    {
+      "index": 17,
+      "title": "DevOps practices Version Control Monitoring and logging Continuous",
+      "text": "DevOps practices Version Control Monitoring and logging Continuous Integration Continuous Delivery Infrastructure as Code Microservices"
+    },
+    {
+      "index": 18,
+      "title": "Bringing Machine Learning and DevOps Together ( MLOps",
+      "text": "Bringing Machine Learning and DevOps Together ( MLOps )"
+    },
+    {
+      "index": 19,
+      "title": "MLOps = ML + DEV + OPS Experiment",
+      "text": "MLOps = ML + DEV + OPS Experiment Business Understanding Data Acquisition Exploratory data analysis Modeling Operate Model Deployment CI/CD pipeline Monitoring & Triggering Develop Code Refactoring Versioning Testing & Validation OPS DEV ML CREATE PLAN PACKAGE VERIFY RELEASE MONITOR CONFIGURE"
+    },
+    {
+      "index": 20,
+      "title": "MLOps Workflow Prepare Data Register and Manage Model",
+      "text": "MLOps Workflow Prepare Data Register and Manage Model Train & Test Model Build Image Build Model Deploy Service Monitor Model Prepare Experiment (build) Deploy Orchestrate Boards (Azure DevOps) Repos (Azure DevOps) Application Insights Pipelines & Test Plans (Azure DevOps) Artifacts & Pipelines (Azure DevOps) Model monitoring (Azure Machine Learning Service)"
+    },
+    {
+      "index": 21,
+      "title": "Continuous Integration in MLOps Training Pipeline Evaluate models",
+      "text": "Continuous Integration in MLOps Training Pipeline Evaluate models Experiment Launch training Register model Packaged model Create Scoring Docker Image Or Deploy model Tests Data Scientist Team ML/DevOps Team Model packaging documentation"
+    },
+    {
+      "index": 22,
+      "title": "Continuous Deployment in MLOps CD Pipeline Tests Deploy",
+      "text": "Continuous Deployment in MLOps CD Pipeline Tests Deploy model in DEV . . . Approval (manual or automatic) Deploy model in PROD Webservice (development environment) Webservice (production environment) Based on Azure Architecture Recommendation: Organize and set up Azure Machine Learning environments - Cloud Adoption Framework | Microsoft Docs ML/DevOps Team Prod Team"
+    },
+    {
+      "index": 23,
+      "title": "MLOps Reference Architecture",
+      "text": "MLOps Reference Architecture"
+    },
+    {
+      "index": 24,
+      "title": "Branching Strategy for MLOps",
+      "text": "Branching Strategy for MLOps"
+    },
+    {
+      "index": 25,
+      "title": "Resources Azure Machine Learning Training: Build and operate",
+      "text": "Resources Azure Machine Learning Training: Build and operate machine learning solutions with Azure Machine Learning - Learn | Microsoft Docs Cloud Framework Best Practices: Organize and set up Azure Machine Learning environments - Cloud Adoption Framework | Microsoft Docs ​ Industry Data Strategy: Microsoft Industry Solutions - Data Strategy - Home (sharepoint.com) MLOps Maturity Assessment: Machine Learning Operations maturity model - Azure Architecture Center | Microsoft Docs MLOps principles: https://ml-ops.org/content/mlops-principles#iterative-incremental-process-in-mlops"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "MLOps with Azure Machine Learning Rachael Phillips",
+      "source": "youtube"
+    },
+    {
+      "claim": "Table of Contents",
+      "topic": "general",
+      "videoSeconds": 95,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=95s",
+      "slideIndex": 2,
+      "slideTitle": "Table of Contents Machine Learning Development Flow Challenges",
+      "source": "youtube"
+    },
+    {
+      "claim": "Building the Business Understanding",
+      "topic": "general",
+      "videoSeconds": 380,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=380s",
+      "slideIndex": 4,
+      "slideTitle": "Microsoft Team Data Science Process",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Prep Modeling",
+      "topic": "general",
+      "videoSeconds": 490,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=490s",
+      "slideIndex": 5,
+      "slideTitle": "Build Business Understanding Arrive at an analytical question",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deploy and Model Monitoring",
+      "topic": "general",
+      "videoSeconds": 540,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=540s",
+      "slideIndex": 6,
+      "slideTitle": "Data Prep and Modeling Explore and transform the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Real Testing",
+      "topic": "general",
+      "videoSeconds": 647,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=647s",
+      "slideIndex": 8,
+      "slideTitle": "Model Monitoring Real testing of a model happens",
+      "source": "youtube"
+    },
+    {
+      "claim": "Accessable Ingredients",
+      "topic": "general",
+      "videoSeconds": 799,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=799s",
+      "slideIndex": 9,
+      "slideTitle": "Success Ingredients for a Data Science Project Is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Science Team",
+      "topic": "general",
+      "videoSeconds": 825,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=825s",
+      "slideIndex": 10,
+      "slideTitle": "General Roles in a Data Science Project 3.",
+      "source": "youtube"
+    },
+    {
+      "claim": "ML Model Challenges",
+      "topic": "general",
+      "videoSeconds": 974,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=974s",
+      "slideIndex": 12,
+      "slideTitle": "Traditional DS Delivery I have a model for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Azure DevOps",
+      "topic": "general",
+      "videoSeconds": 1022,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1022s",
+      "slideIndex": 13,
+      "slideTitle": "Key Challenges Reproducibility / Auditability: What data the",
+      "source": "youtube"
+    },
+    {
+      "claim": "DevOps",
+      "topic": "general",
+      "videoSeconds": 1078,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1078s",
+      "slideIndex": 14,
+      "slideTitle": "DevOps and What it Provides",
+      "source": "youtube"
+    },
+    {
+      "claim": "DevOps Practices",
+      "topic": "general",
+      "videoSeconds": 1138,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1138s",
+      "slideIndex": 16,
+      "slideTitle": "What is DevOps? DevOps is the union of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Infrastructure as Code",
+      "topic": "general",
+      "videoSeconds": 1279,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1279s",
+      "slideIndex": 17,
+      "slideTitle": "DevOps practices Version Control Monitoring and logging Continuous",
+      "source": "youtube"
+    },
+    {
+      "claim": "MLOps",
+      "topic": "general",
+      "videoSeconds": 1331,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1331s",
+      "slideIndex": 18,
+      "slideTitle": "Bringing Machine Learning and DevOps Together ( MLOps",
+      "source": "youtube"
+    },
+    {
+      "claim": "Continuous Integration",
+      "topic": "general",
+      "videoSeconds": 1611,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1611s",
+      "slideIndex": 20,
+      "slideTitle": "MLOps Workflow Prepare Data Register and Manage Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "Continuous Deployment Pipeline",
+      "topic": "general",
+      "videoSeconds": 1725,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1725s",
+      "slideIndex": 21,
+      "slideTitle": "Continuous Integration in MLOps Training Pipeline Evaluate models",
+      "source": "youtube"
+    },
+    {
+      "claim": "MLOps Reference Architecture",
+      "topic": "general",
+      "videoSeconds": 1830,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=1830s",
+      "slideIndex": 22,
+      "slideTitle": "Continuous Deployment in MLOps CD Pipeline Tests Deploy",
+      "source": "youtube"
+    },
+    {
+      "claim": "Branching Strategies",
+      "topic": "general",
+      "videoSeconds": 2302,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=2302s",
+      "slideIndex": 24,
+      "slideTitle": "Branching Strategy for MLOps",
+      "source": "youtube"
+    },
+    {
+      "claim": "Questions and Comments",
+      "topic": "general",
+      "videoSeconds": 2407,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k&t=2407s",
+      "slideIndex": 25,
+      "slideTitle": "Resources Azure Machine Learning Training: Build and operate",
+      "source": "youtube"
+    },
+    {
+      "claim": "Machine Learning Development Flow",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k",
+      "slideIndex": 3,
+      "slideTitle": "Machine Learning Development Flow",
+      "source": "slide"
+    },
+    {
+      "claim": "Deploy and Monitor Performance Model deployment/ operationalization Systematic",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k",
+      "slideIndex": 7,
+      "slideTitle": "Deploy and Monitor Performance Model deployment/ operationalization Systematic",
+      "source": "slide"
+    },
+    {
+      "claim": "Challenges of ML Model Management",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=foFD-0vAj8k",
+      "slideIndex": 11,
+      "slideTitle": "Challenges of ML Model Management",
+      "source": "slide"
+    }
+  ]
+}

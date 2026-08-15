@@ -1,0 +1,293 @@
+{
+  "id": "2024-08-30-2024-08-30-ai-updates",
+  "date": "2024-08-30",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks"
+  ],
+  "video": {
+    "id": "ZHRrWkI_GUg",
+    "title": "Have you heard these exciting AI news? - August 30, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=ZHRrWkI_GUg",
+    "thumbnail": "https://i.ytimg.com/vi/ZHRrWkI_GUg/hqdefault.jpg",
+    "duration": 1470
+  },
+  "deck": {
+    "path": "2024/2024-08-30-AI-Updates.pptx",
+    "filename": "2024-08-30-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-08-30-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-08-30-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Cerebras",
+      "startSeconds": 31,
+      "label": "00:31",
+      "source": "youtube"
+    },
+    {
+      "title": "UJumber",
+      "startSeconds": 246,
+      "label": "04:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Automating Thought of Search",
+      "startSeconds": 424,
+      "label": "07:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Speculative Decoding",
+      "startSeconds": 540,
+      "label": "09:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Model Game",
+      "startSeconds": 714,
+      "label": "11:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Valve",
+      "startSeconds": 923,
+      "label": "15:23",
+      "source": "youtube"
+    },
+    {
+      "title": "AI frameworks",
+      "startSeconds": 1244,
+      "label": "20:44",
+      "source": "youtube"
+    },
+    {
+      "title": "AI leaderboard",
+      "startSeconds": 1349,
+      "label": "22:29",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Cerebras Waffle-Scale Engine inference.cerebras.ai - 1,800 tok/sec Jamba",
+      "text": "Cerebras Waffle-Scale Engine inference.cerebras.ai - 1,800 tok/sec Jamba 1.5 is not good Salesforce Einstein AI Agents Microsoft Phi-3.5 - 3 new models Google Gemini 1.5 - 3 new models PostgreSQL pgvectorscale extension Anthropic added support for LaTeX Automating Thought of Search (ToS) Advanced RAG Techniques - Community Hub Anthropic System Prompts Anthropic Artifacts Google Speculative RAG: draft + selection ChatGPT transforms equations to python OpenAI to raise money at $100 Bln valuation OpenAI - Orion & Strawberry OpenAI ChatGPT hits 200 million weekly users Google GameNGen simulates DOOM California AI safety bill, SB 1047 Magic coding startup secures $320M Magic has 100 Mln tokens context length ! Nvidia \"Eagle\" works with high resolution images Big investments into AI in US and Europe Alibaba releases Qwen2-VL Meta Llama 350 Mln downloads on HF Valve - Steam, Gaming - and AI Valve - no managers Rapids cuDF - Pandas & Polars Dataframes How to create AI web-apps Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Tech Layoffs in 2024 AI Updates August 30 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 3,
+      "title": "Cerebras Waffle-Scale Engine Cerebras WSE (Waffle-Scale Engine) -",
+      "text": "Cerebras Waffle-Scale Engine Cerebras WSE (Waffle-Scale Engine) - huge 8.5\"x8.5\" chip Company: Cerebras - https://cerebras.ai CS-3 has 900K vs 15K cores in Nvidia H100 CS-3 has 21,000TB/sec vs  3TB/s memory bandwidth https://cerebras.ai/blog/introducing-cerebras-inference-ai-at-instant-speed https://www.servethehome.com/cerebras-enters-ai-inference-blows-away-tiny-nvidia-h100-gpus-by-besting-hbm/"
+    },
+    {
+      "index": 4,
+      "title": "inference.cerebras.ai Try Cerebras inference: https://inference.cerebras.ai Use Llama3.1-70b or",
+      "text": "inference.cerebras.ai Try Cerebras inference: https://inference.cerebras.ai Use Llama3.1-70b or 8b (435 or 1828 tokens/sec)"
+    },
+    {
+      "index": 5,
+      "title": "Misc 1 Jamba 1.5 is not good https://www.youtube.com/watch?v=3f3d1Ej5PVc",
+      "text": "Misc 1 Jamba 1.5 is not good https://www.youtube.com/watch?v=3f3d1Ej5PVc tests Jamba 1.5 large Salesforce has unveiled two AI agents: Einstein SDR Agent - talks to inbound prospects (Sales Development Representative) Einstein Sales Coach Agent - provides real-time selling guidance to sales teams https://www.zdnet.com/article/salesforce-unveils-ai-agents-for-sales-teams-heres-how-they-help/ Microsoft Phi-3.5 - open-source (MIT license) models: Phi-3.5-mini-instruct Phi-3.5-MoE-instruct Phi-3.5-vision-instruct, available for developers on Hugging Face, small - but good pgvectorscale - an extension for PostreSQL database written in Rust high performance embedding search cost-efficient storage for AI applications. https://github.com/timescale/pgvectorscale achieves 28x lower p95 latency and 16x higher query throughput compared to Pinecone's storage optimized (s1) index for approximate nearest neighbor queries at 99% recall, all at 75% less cost when self-hosted on AWS EC2. Anthropic added support for LaTeX rendering in Claude Web interface. - https://x.com/AnthropicAI/status/1826667671364272301 Google - 3 new experimental models at AI Studio Gemini 1.5 Flash-8B - new smaller model Gemini 1.5 Pro - better at coding & complex prompts Gemini 1.5 Flash - significantly improved https://aistudio.google.com"
+    },
+    {
+      "index": 6,
+      "title": "Misc 2 Automating Thought of Search (ToS) -",
+      "text": "Misc 2 Automating Thought of Search (ToS) - from Cornell University & IBM Research - https://arxiv.org/pdf/2408.11326 \"we automate ToS (AutoToS), completely taking the human out of the loop of solving planning problems. AutoToS guides the language model step by step towards the generation of sound and complete search components, through feedback from both generic and domain specific unit tests. We achieve 100% accuracy, with minimal feedback iterations, using LLMs of various sizes on all evaluated domains. Step 1: Initial prompt Step 2: Goal function check Step 3: Successor function soundness check Step 4: Successor function completeness check Advanced RAG Techniques: A Community-Driven Knowledge Hub https://github.com/NirDiamant/RAG_Techniques https://github.com/NirDiamant/RAG_Techniques/tree/main/all_rag_techniques Anthropic Artifacts are now generally available. Artifacts are content made with Claude which appear in a sub-window alongside with a Claude chat. They may be: code snippets, text documents, graphics, diagrams, website designs, dashboards, interactive prototypes, etc. Example: https://claude.site/artifacts/61e95bd8-906b-48f7-b905-60161630aae2 I can re-mix it into my Claude account: https://claude.ai/chat/5ccd3c69-d2df-4b69-bdee-78c92190354e Anthropic System Prompts : https://docs.anthropic.com/en/release-notes/system-prompts"
+    },
+    {
+      "index": 7,
+      "title": "Misc 3 OpenAI ChatGPT transforms equations to python",
+      "text": "Misc 3 OpenAI ChatGPT transforms equations to python functions https://twitter.com/AlphaSignalAI/status/1713243769762349448 Google: Speculative RAG : uses Speculative Decoding: a smaller LM generates draft texts, then a larger LM used to verify and select the best draft. Result - better accuracy and faster speed. https://research.google/blog/speculative-rag-enhancing-retrieval-augmented-generation-through-drafting/ OpenAI is in talks to raise a massive amount of money , potentially valuing the company at over $100 Bln . Thrive Capital is rumored to be leading the charge with a cool $1 Bln investment, and Microsoft, already an OpenAI backer, is likely to join in. https://www.investing.com/news/economy-news/openai-in-talks-to-secure-new-funding-at-100b-valuation-3591817 OpenAI - Orion & Strawberry. Orion will use high-quality synthetic data generated by Strawberry. Using Star (Self-Taught Reasoner) technique from Stanford University : generate explanations, then select and tune. Result - proactively self-improving model, better reasoning, less \"hallucinations\", better interaction and problem solving. https://medium.com/@cognidownunder/openais-strawberry-and-orion-the-next-leap-in-ai-evolution-eba8d661e0a9 OpenAI ChatGPT hits 200 million weekly users https://www.theverge.com/2024/8/29/24231685/openai-chatgpt-200-million-weekly-users"
+    },
+    {
+      "index": 8,
+      "title": "Misc 4 Google GameNGen simulates DOOM AI system",
+      "text": "Misc 4 Google GameNGen simulates DOOM AI system simulates the classic game DOOM in real-time running at over 20 frames on a single TPU chip each frame predicted by a diffusion model https://gamengen.github.io https://www.youtube.com/watch?v=SBdDt4BUIW0 Nvidia \"Eagle\" - AI models that can process ultra-high-resolution images up to 1024x1024 pixels, tasks like visual question answering and document comprehension. - https://arxiv.org/pdf/2408.15998 California 's State Assembly has passed a groundbreaking AI safety bill, SB 1047 . The legislation requires AI companies to implement safety measures before training advanced models, including shutdown capabilities and risk assessments. https://www.theverge.com/2024/8/28/24229068/california-sb-1047-ai-safety-bill-passed-state-assembly-governor-newsom-signature AI coding startup Magic secures $320M and partners with Google Cloud, total funding is $465M. https://magic.dev Note: Magic LTM-2-Mini has 100 Mln tokens context length !! (not a typo). LTM = Long-Term Memory . https://magic.dev/blog/100m-token-context-windows AI Investments US: AI startups have achieved nearly 30 deals over $100M in 2024 Europe: WAYVE ($1B), Mistral AI (~$1B), Helsing ($484M), Poolside ($400M), DeepL ($320M), H ($220M), and Flo Health ($200M) . Llama models ~ 350 Mln downloads on Hugging Face , marking an over x10-fold increase from a year ago . Llama usage doubled May through July 2024 . Adoption increases, including large enterprises like Zoom, Spotify, Infosys, AT&T and Goldman Sachs. https://venturebeat.com/ai/meta-leads-open-source-ai-boom-llama-downloads-surge-10x-year-over-year/ Alibaba releases Qwen2-VL , SOTA vision model that can understand video up to 20 minutes and maintain flow of conversation in real-time. See on Huggingface https://huggingface.co/collections/Qwen/qwen2-vl-66cee7455501d7126940800d https://x.com/minchoi/status/1829543584489668927"
+    },
+    {
+      "index": 9,
+      "title": "Valve - Steam, Gaming - and AI Valve",
+      "text": "Valve - Steam, Gaming - and AI Valve Corporation (a.k.a. Valve Software) - known for software distribution platform Steam and game franchises Half-Life, Counter-Strike, Portal, Day of Defeat, Team Fortress, Left 4 Dead and Dota founded in 1996, private, near Seattle, WA number of employees - 336 worth ~ 7 Bln (as of March 2024, Bloomberg) (~ 21 Mln per person :        TL;DR: Quality>Quantity) 132+ active monthly users (as of May 2024) https://www.valvesoftware.com/en/ https://en.wikipedia.org/wiki/Valve_Corporation Valve Corporation's main source of profit is its Steam platform , which is a major income generator for the company. Steam is a digital store that allows users to buy games and has an estimated 50–70% market share of PC game downloads . Valve originally created Steam to sell its own games, but it has since become a top digital store for many games. As Valve became its own publisher via Steam, it found the hierarchical structure was hindering progress . After completing Half-Life 2, Valve transitioned to a flat organization ; outside of executive management, Valve does not have bosses, and uses an open allocation system . Gabe Logan Newell a.k.a Gaben president & co-founder https://en.wikipedia.org/wiki/Gabe_Newell Mike Harrington co-founder, director of development, left in 2000 https://en.wikipedia.org/wiki/Mike_Harrington Valve recently decided to (temporarily) block AI games from Steam as it is working on how to integrate AI into the existing policies: copyright (AI-generated content, images) quality control consumer protection ethical considerations (biases, discrimination, harmful negative stereotypes or ideologies)."
+    },
+    {
+      "index": 10,
+      "title": "Valve - no managers How Valve hires, how",
+      "text": "Valve - no managers How Valve hires, how it fires, and how much it pays https://www.gamedeveloper.com/business/how-valve-hires-how-it-fires-and-how-much-it-pays Valve - created Steam, Half-Life, ... no managers - see new employee handbook: https://cdn.cloudflare.steamstatic.com/apps/valve/Valve_NewEmployeeHandbook.pdf hiring process - forming a search committee, interviewing, achieving consensus payment - base + bonus. Bonus may be x10 of the base. Mutual assessment. firing - rare, complicated people work spontaneously, without bosses easy to move inside company Every year, Valve's staff judge each other through a series of meetings that result in an overall ranking of every employee, and that ranking determines who receives higher salaries in the next year. With no managers to communicate exactly how the judgements should be made, or how the resulting pay changes will be decided—presumably by the board of directors, which Valve still has—the effects on employee behavior seem quite noticeable. People tend to do riskier projects near the beginning of the year, and then they'd go back to the more well-known ones as it gets closer to review time In 2012 .. 2021 the total number of employees was steady between 325 and 375 employees. But total spending on gross pay for all employees was growing from $300 Mln to $450 Mln (inflation adjusted). Thus the mean gross pay per employee grew from $0.48 Mln to $1.32 Mln. The top 35 members of the Admin department were averaging $4.5 Mln per year in 2021"
+    },
+    {
+      "index": 11,
+      "title": "Rapids cuDF - Pandas & Polars DataFrames RAPIDs",
+      "text": "Rapids cuDF - Pandas & Polars DataFrames RAPIDs cuDF - fast Python DataFrame library from Nvidia . It basically ports Numpy, Pandas, and Polars to run on Nvidia GPUs. It also supports Apache Arrow columnar memory format. Result - calculations on DataFrames are much faster. https://github.com/rapidsai/cudf https://pola.rs/posts/polars-on-gpu/ https://pola.rs https://rapids.ai Polars cuDF can achieve up to x150 times faster processing times for a 5 GB dataset. Polars is generally faster than Pandas (with or without Nvidia Cuda). Alternative way to speedup calculations is to use CPUs with large number of cores. For example AMD Epyc: AMD EPYC 7763 - 128 cores AMD EPYC 7642 - 96 cores - $941 at Walmart AMD EPYC 7F72 - 48 cores Polars is written in Rust and can do multithreading to take advantage of multiple CPU cores. Apache Arrow Data Format"
+    },
+    {
+      "index": 12,
+      "title": "How to create AI web-apps FastHTML - python",
+      "text": "How to create AI web-apps FastHTML - python https://fastht.ml https://about.fastht.ml https://docs.fastht.ml https://docs.fastht.ml/tutorials/by_example.html https://github.com/AnswerDotAI/fasthtml-tut https://github.com/AnswerDotAI/fasthtml/tree/main/examples https://www.youtube.com/watch?v=Auqrm7WFc0I https://h2x.answer.ai - to convert HTML to FastHTML syntax https://www.youtube.com/watch?v=evAb2x34Jqk - good short demo LangGraph - python https://www.langchain.com/langgraph https://langchain-ai.github.io/langgraph v0 by Vercel - Next.js React framework https://v0.dev https://vercel.com"
+    },
+    {
+      "index": 13,
+      "title": "Total #models: 136. Total #votes: 1,765,444. Last updated:",
+      "text": "Total #models: 136. Total #votes: 1,765,444. Last updated: 2024-08-27 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 14,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 136. Total #votes: 1,765,444. Last updated: 2024-08-27"
+    },
+    {
+      "index": 15,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Intel",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Intel is firing 15% of its personnel (about 15,000 jobs) - Aug 1, 2024 https://x.com/burkov/status/1819214183881187828 Dell Technologies is firing 10%  (12,500 employees). This follows a previous round of 13,000 layoffs. The cuts mainly impact sales and marketing divisions. https://www.pcmag.com/news/dell-makes-cuts-to-boost-ai-pivot-reportedly-laying-off-12500-employees"
+    },
+    {
+      "index": 16,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Cerebras Waffle-Scale Engine inference.cerebras.ai - 1,800 tok/sec Jamba",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cerebras",
+      "topic": "general",
+      "videoSeconds": 31,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=31s",
+      "slideIndex": 3,
+      "slideTitle": "Cerebras Waffle-Scale Engine Cerebras WSE (Waffle-Scale Engine) -",
+      "source": "youtube"
+    },
+    {
+      "claim": "UJumber",
+      "topic": "general",
+      "videoSeconds": 246,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=246s",
+      "slideIndex": 5,
+      "slideTitle": "Misc 1 Jamba 1.5 is not good https://www.youtube.com/watch?v=3f3d1Ej5PVc",
+      "source": "youtube"
+    },
+    {
+      "claim": "Automating Thought of Search",
+      "topic": "general",
+      "videoSeconds": 424,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=424s",
+      "slideIndex": 7,
+      "slideTitle": "Misc 3 OpenAI ChatGPT transforms equations to python",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Speculative Decoding",
+      "topic": "general",
+      "videoSeconds": 540,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=540s",
+      "slideIndex": 9,
+      "slideTitle": "Valve - Steam, Gaming - and AI Valve",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Model Game",
+      "topic": "general",
+      "videoSeconds": 714,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=714s",
+      "slideIndex": 10,
+      "slideTitle": "Valve - no managers How Valve hires, how",
+      "source": "youtube"
+    },
+    {
+      "claim": "Valve",
+      "topic": "general",
+      "videoSeconds": 923,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=923s",
+      "slideIndex": 12,
+      "slideTitle": "How to create AI web-apps FastHTML - python",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI frameworks",
+      "topic": "general",
+      "videoSeconds": 1244,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=1244s",
+      "slideIndex": 14,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1349,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg&t=1349s",
+      "slideIndex": 16,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "inference.cerebras.ai Try Cerebras inference: https://inference.cerebras.ai Use Llama3.1-70b or",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg",
+      "slideIndex": 4,
+      "slideTitle": "inference.cerebras.ai Try Cerebras inference: https://inference.cerebras.ai Use Llama3.1-70b or",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 2 Automating Thought of Search (ToS) -",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg",
+      "slideIndex": 6,
+      "slideTitle": "Misc 2 Automating Thought of Search (ToS) -",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 4 Google GameNGen simulates DOOM AI system",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg",
+      "slideIndex": 8,
+      "slideTitle": "Misc 4 Google GameNGen simulates DOOM AI system",
+      "source": "slide"
+    },
+    {
+      "claim": "Rapids cuDF - Pandas & Polars DataFrames RAPIDs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ZHRrWkI_GUg",
+      "slideIndex": 11,
+      "slideTitle": "Rapids cuDF - Pandas & Polars DataFrames RAPIDs",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+{
+  "id": "2026-01-23-2026-01-23-game-theory-agentic-systems",
+  "date": "2026-01-23",
+  "title": "Game-Theory-Agentic-Systems",
+  "series": "seminar",
+  "topics": [
+    "agents",
+    "benchmarks",
+    "coding",
+    "claude",
+    "open-models",
+    "google",
+    "multimodal",
+    "openai",
+    "infra",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "cZYFF1zvI8k",
+    "title": "Have you heard these exciting AI news? - January 23, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=cZYFF1zvI8k",
+    "thumbnail": "https://i.ytimg.com/vi/cZYFF1zvI8k/hqdefault.jpg",
+    "duration": 1951
+  },
+  "deck": {
+    "path": "2026/2026-01-23-Game-Theory-Agentic-Systems.pptx",
+    "filename": "2026-01-23-Game-Theory-Agentic-Systems.pptx",
+    "title": "Game-Theory-Agentic-Systems",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-01-23-Game-Theory-Agentic-Systems.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-01-23-Game-Theory-Agentic-Systems.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "From manual coder to orchestrator of AI agent fleets",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 24,
+      "label": "00:24",
+      "source": "youtube"
+    },
+    {
+      "title": "skills.sh - directory of skills",
+      "startSeconds": 75,
+      "label": "01:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Cline vs Claude Code AI coding assistants",
+      "startSeconds": 224,
+      "label": "03:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Block's open-source Goose vs Claude Code",
+      "startSeconds": 293,
+      "label": "04:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Stack Overflow - Rapid Decline",
+      "startSeconds": 349,
+      "label": "05:49",
+      "source": "youtube"
+    },
+    {
+      "title": "GLM-4.7 Flash - Lightweight and Free",
+      "startSeconds": 375,
+      "label": "06:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Baidu ERNIE 5.0 - 2.4T params",
+      "startSeconds": 431,
+      "label": "07:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Anti-gravity Update - Skill Builder capability",
+      "startSeconds": 482,
+      "label": "08:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini CLI Update: Session Persistence",
+      "startSeconds": 557,
+      "label": "09:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Aion UI - open-source \"Co-work\" alternative",
+      "startSeconds": 595,
+      "label": "09:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Manus AI (Meta) - develop mobile apps",
+      "startSeconds": 714,
+      "label": "11:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code extension for VS Code",
+      "startSeconds": 764,
+      "label": "12:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Moonshots podcast with Ray Kurzweil",
+      "startSeconds": 820,
+      "label": "13:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Google AI Studio upgrades",
+      "startSeconds": 894,
+      "label": "14:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Robotics muscles (actuators)",
+      "startSeconds": 913,
+      "label": "15:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Google TranslateGemma",
+      "startSeconds": 997,
+      "label": "16:37",
+      "source": "youtube"
+    },
+    {
+      "title": "PixVerse AI Video Generation in Real Time",
+      "startSeconds": 1026,
+      "label": "17:06",
+      "source": "youtube"
+    },
+    {
+      "title": "FLUX.2 Klein - generate AI Images in 0.5 sec",
+      "startSeconds": 1069,
+      "label": "17:49",
+      "source": "youtube"
+    },
+    {
+      "title": "How to Rank #1 with NotebookLM AI SEO",
+      "startSeconds": 1081,
+      "label": "18:01",
+      "source": "youtube"
+    },
+    {
+      "title": "AI research workflow: Perplexity + NotebookLM",
+      "startSeconds": 1119,
+      "label": "18:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Wikipedia deal: Microsoft, Meta, Amazon",
+      "startSeconds": 1132,
+      "label": "18:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft OptiMind-SFT (a.k.a. OptiMind)",
+      "startSeconds": 1138,
+      "label": "18:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Google AI Edge",
+      "startSeconds": 1179,
+      "label": "19:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Taiwan invests $250 Bln into US",
+      "startSeconds": 1208,
+      "label": "20:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Thinking Machines Lab loses two co-founders",
+      "startSeconds": 1229,
+      "label": "20:29",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Open Responses Standard",
+      "startSeconds": 1255,
+      "label": "20:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Cursor ran 100s of AI coding agents for weeks",
+      "startSeconds": 1295,
+      "label": "21:35",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Updates",
+      "startSeconds": 1347,
+      "label": "22:27",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Nemotron-Speech ASR",
+      "startSeconds": 1396,
+      "label": "23:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Deepseek Engram Conditional Memory",
+      "startSeconds": 1434,
+      "label": "23:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia personaplex-7b-v1",
+      "startSeconds": 1507,
+      "label": "25:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Emotion Computing",
+      "startSeconds": 1599,
+      "label": "26:39",
+      "source": "youtube"
+    },
+    {
+      "title": "NousCoder-14B Trained with RL",
+      "startSeconds": 1621,
+      "label": "27:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft VibeVoice-ASR",
+      "startSeconds": 1660,
+      "label": "27:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Myrothinker 1.5 - 30B & 235B",
+      "startSeconds": 1666,
+      "label": "27:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Haystack, LangChain, LlamaIndex",
+      "startSeconds": 1706,
+      "label": "28:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Research Job Market Predictions",
+      "startSeconds": 1760,
+      "label": "29:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Boris Cherny about career trajectory",
+      "startSeconds": 1851,
+      "label": "30:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1918,
+      "label": "31:58",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Game Theory and the Dynamics of Complex Agentic",
+      "text": "Game Theory and the Dynamics of Complex Agentic Systems By Maxim Yakimenko Assisted by Gemini 2.5 pro"
+    },
+    {
+      "index": 2,
+      "title": "Summary Multi-agent systems (MAS) fail with standard reinforcement",
+      "text": "Summary Multi-agent systems (MAS) fail with standard reinforcement learning because agent outcomes depend on each other's actions in constantly changing environments. Solution : Use the game theory to model inter-dependencies. Evolutionary Game Theory (EGT) - shows how successful strategies spread through populations via replicator dynamics - what works gets replicated Key Insight : \"Survival of the flattest\" means robust strategies often out-compete optimal but fragile ones in realistic, high-mutation environments."
+    },
+    {
+      "index": 3,
+      "title": "Agenda Key Terminology Game Theory in Agentic Systems:",
+      "text": "Agenda Key Terminology Game Theory in Agentic Systems: The Premise Evolutionary Game Theory: Broader Concepts Limits, Issues, and Flaws of the Approach Conclusion and Further Reading"
+    },
+    {
+      "index": 4,
+      "title": "Key Terminology",
+      "text": "Key Terminology"
+    },
+    {
+      "index": 5,
+      "title": "Foundational Concepts Agentic System / Multi-Agent System (MAS):",
+      "text": "Foundational Concepts Agentic System / Multi-Agent System (MAS): A system composed of multiple autonomous, interacting agents. Each agent makes decisions based on a set of rules and its perception of the environment. Reinforcement Learning ( RL): A type of machine learning where an agent learns to achieve a goal in a complex environment by receiving rewards or penalties for its actions. Social-Ecological System (SES): A complex, adaptive system that includes human (social) and biophysical (ecological) subsystems in a feedback loop. Example: A farming community's interaction with its local watershed. Agent-Based Model (ABM): A \"bottom-up\" computational technique that models a system by simulating the simultaneous operations and interactions of multiple individual agents."
+    },
+    {
+      "index": 6,
+      "title": "Game Theory Concepts Evolutionary Game Theory (EGT): An",
+      "text": "Game Theory Concepts Evolutionary Game Theory (EGT): An application of game theory to populations of evolving agents where the \"payoff\" is biological fitness, and strategies are passed on and replicated based on their success. It moves beyond the assumption of perfect rationality. Evolutionarily Stable Strategy (ESS): A strategy which, if adopted by a population of players, cannot be \"invaded\" by any alternative (mutant) strategy. It represents a stable equilibrium point in evolution. Autopoiesis: A system capable of reproducing and maintaining itself by creating its own components and boundaries. This represents the theoretical ideal of a truly autonomous, self-sufficient system."
+    },
+    {
+      "index": 7,
+      "title": "Game Theory in Agentic Systems",
+      "text": "Game Theory in Agentic Systems"
+    },
+    {
+      "index": 8,
+      "title": "The Main Premise Problem : In a multi-agent",
+      "text": "The Main Premise Problem : In a multi-agent system, the outcome for any single agent depends on the actions of all other agents. The environment is not static; it is constantly changing. Limitation of Simple RL : Standard Reinforcement Learning guarantees convergence to an optimal strategy only in a static (Markovian) environment. This property breaks down in a multi-agent context. Solution : Game theory provides the mathematical framework to analyze these strategic interdependencies, modeling the system as a game where each agent's \"move\" affects the payoffs of others."
+    },
+    {
+      "index": 9,
+      "title": "Modeling for Quality By framing interactions as a",
+      "text": "Modeling for Quality By framing interactions as a \"game,\" we can analyze the rules and payoffs that lead to desirable collective outcomes, such as cooperation, coordination, and stability. Example from Prisoner's Dilemma: Understanding why rational agents defect allows us to design systems (e.g., with reputation or punishment) that change the payoffs to encourage cooperation. This allows for the design of higher-quality systems that avoid predictable failures and inefficiencies."
+    },
+    {
+      "index": 10,
+      "title": "Improving Efficiency EGT helps us understand the dynamics",
+      "text": "Improving Efficiency EGT helps us understand the dynamics of learning in a multi-agent system, not just the final equilibrium state. By understanding these dynamics (e.g., through Replicator Equations), we can construct more efficient learning algorithms for the agents. In SES modeling, this translates to more efficient policy testing. By simulating how human agents might react to new regulations, policymakers can design more effective and targeted interventions"
+    },
+    {
+      "index": 11,
+      "title": "Broader Concepts",
+      "text": "Broader Concepts"
+    },
+    {
+      "index": 12,
+      "title": "Beyond Perfect Rationality Classical game theory assumes \"hyper-rational\"",
+      "text": "Beyond Perfect Rationality Classical game theory assumes \"hyper-rational\" players with perfect knowledge. EGT relaxes this. Strategies in EGT are not chosen; they are inherited or imitated. Successful strategies spread, while unsuccessful ones die out. This is a much better fit for agentic systems, which learn and adapt through trial-and-error (like RL) rather than through pure logical deduction. This shifts the focus from a static analysis of equilibrium to a dynamic analysis of population change."
+    },
+    {
+      "index": 13,
+      "title": "Replicator Dynamics Replicator Dynamics are the core mathematical",
+      "text": "Replicator Dynamics Replicator Dynamics are the core mathematical model of EGT. The Principle: The growth rate of a strategy within a population is proportional to how much its payoff exceeds the average payoff of the entire population. Essentially, \"what works\" gets replicated. This simple rule can produce highly complex evolutionary trajectories, showing how strategies are naturally selected and removed in an ecosystem."
+    },
+    {
+      "index": 14,
+      "title": "Mutation and Finite Populations Pure mathematical EGT often",
+      "text": "Mutation and Finite Populations Pure mathematical EGT often assumes infinite populations and zero mutation, which are unrealistic. Agent-Based Models (ABMs) allow us to introduce these crucial factors: Finite Populations: Introduces random chance (stochasticity). A superior strategy can go extinct simply due to bad luck. Mutations: Constantly introduces new strategies into the game, allowing the system to escape suboptimal states and continuously explore the \"strategy space.\" These factors can lead to evolutionary outcomes that are impossible to predict with standard mathematical equations alone."
+    },
+    {
+      "index": 15,
+      "title": "Survival of the Flattest In realistic settings with",
+      "text": "Survival of the Flattest In realistic settings with high mutation rates, the \"winner\" is often not a single, perfect strategy (the \"fittest\"). Instead, a robust cluster of similar, \"good-enough\" strategies that can withstand mutation, a quasistrategy, can out-compete a fragile but higher-performing strategy. This is \"survival of the flattest,\" where robustness and adaptability are more important than peak performance. This has major implications for how we design resilient agentic systems."
+    },
+    {
+      "index": 16,
+      "title": "Common agent behaviors Learning and Adapting: Agents adjust",
+      "text": "Common agent behaviors Learning and Adapting: Agents adjust their actions or policies over time to maximize rewards or achieve desired outcomes, often in response to environmental feedback and the actions of others. (RL - Reinforcement Learning, MARL - Multi-Agent Reinforcement Learning) Exploration-Exploitation: Agents balance trying new actions (exploration) to discover better strategies with using known good actions (exploitation) to maximize immediate rewards. Decision-Making: Agents choose actions based on various factors, which can range from deterministic rules to probabilistic choices, or even internal evaluations (Q-values). Punishment: Agents may incur a cost to punish defecting behaviors in others, aiming to enforce cooperation within a group. Self-Optimization: Independent agents aim to optimize their own behavior using only local feedback, often without direct communication with other agents. (IL - Independent Learner) Genetic Evolution : In evolutionary game theory, agent strategies can be \"genetically encoded\" and evolve through selection and mutation processes, where successful strategies reproduce more. (EGT - Evolutionary Game Theory)"
+    },
+    {
+      "index": 17,
+      "title": "Common agent behaviors Strategic Interaction : Agents make",
+      "text": "Common agent behaviors Strategic Interaction : Agents make decisions while considering the potential choices and payoffs of other agents in the system. This includes: Cooperation : Choosing actions that benefit the group, even if it entails a personal cost. Defection : Choosing actions that maximize personal gain, potentially at the expense of others. Conditional Play : Modifying actions based on past interactions, such as an opponent's previous move or the number of cooperators in a group. (e.g., ZD - Zero-Determinant strategies, TfT - Tit-for-Tat) Manipulation/Extortion: Employing strategies that can force fixed or higher payoffs from opponents. (e.g., eZD - Equalizer Zero-Determinant strategies) Communication : In some multi-agent settings, agents exchange information (explicitly or implicitly) to coordinate actions or reveal intentions."
+    },
+    {
+      "index": 18,
+      "title": "Case Study: Evolutionary Game Theory using Agent-based Methods",
+      "text": "Case Study: Evolutionary Game Theory using Agent-based Methods Aspect ZD Strategies (The Fall) GC Quasistrategies (The Rise) Strategy Concept Individual, fixed strategies Stable groups of mutating strategies; a \"quasispecies\" Theoretical Stability Theoretically robust Concept not fully captured, emergent Observed Stability Unstable Highly stable Reason for Outcome Lack of mutational robustness Mutational robustness Key Behavior/Mechanism Fixed rules, limited adaptability to dynamic changes genetic diversity and mutual support Example Behavior Manipulative (eZD) or theoretically generous but fragile (ZDR, ZDGTFT-2) Robustly cooperative (General Cooperator - GC)"
+    },
+    {
+      "index": 19,
+      "title": "Limits, Issues, and Flaws",
+      "text": "Limits, Issues, and Flaws"
+    },
+    {
+      "index": 20,
+      "title": "The Idealized World of Pure Mathematics The elegant",
+      "text": "The Idealized World of Pure Mathematics The elegant mathematical solutions of EGT (like ESS) only hold true under highly idealized conditions: infinite populations, zero mutation, and perfect mixing (any agent can interact with any other). These conditions are almost never met in real human organizations or natural ecosystems, which are finite, constantly changing, and spatially structured. Conclusion: Mathematics provides a vital theoretical baseline, but it cannot capture the full complexity of real-world agentic dynamics."
+    },
+    {
+      "index": 21,
+      "title": "The Practical Limits of Agent-Based Models ABMs are",
+      "text": "The Practical Limits of Agent-Based Models ABMs are powerful but have significant practical limitations: High Computational Demands: The complexity can grow exponentially with the number of agents, making real-time analysis difficult. Heavy Data Requirements: ABMs need extensive real-world data for calibration and validation. Complexity: The intricate nature of these models makes it hard to involve non-expert stakeholders, a key factor for successful policy integration."
+    },
+    {
+      "index": 22,
+      "title": "The Challenge of True Autonomy: Autopoiesis The concept",
+      "text": "The Challenge of True Autonomy: Autopoiesis The concept of autopoiesis, a truly self-creating and self-maintaining system, highlights a deep-seated challenge. The original computational model of autopoiesis was found to have a critical, undocumented flaw, and its re-creation was a major research effort. The Issue: This demonstrates how difficult it is to even design a minimal, truly autonomous system. Our agentic systems are currently complex simulations, not \"realisations\" of self-sufficient entities. We are modeling behavior, not creating life."
+    },
+    {
+      "index": 23,
+      "title": "Computational Intractability The work of Alan Turing on",
+      "text": "Computational Intractability The work of Alan Turing on computability theory established a fundamental limit. The \"Halting Problem\" proves that it is impossible to create a universal algorithm that can predict whether any arbitrary program (including a complex ABM) will run forever or eventually stop. Implication: We can never have absolute certainty about the long-term, emergent behavior of a complex multi-agent system. We can simulate and analyze probabilities, but complete prediction is fundamentally impossible."
+    },
+    {
+      "index": 24,
+      "title": "Conclusion",
+      "text": "Conclusion"
+    },
+    {
+      "index": 25,
+      "title": "Sources S. Nugroho and T. Uehara, \"Systematic Review",
+      "text": "Sources S. Nugroho and T. Uehara, \"Systematic Review of Agent-Based and System Dynamics Models for Social-Ecological System Case Studies,\" Systems, vol. 11, no. 11, p. 530, Oct. 2023. K. Tuyls and A. Nowé, \"Evolutionary Game Theory and Multi-Agent Reinforcement Learning,\" The Knowledge Engineering Review, vol. 20, no. 1, pp. 63-90, Mar. 2005. C. Adami, J. Schossau, and A. Hintze, \"Evolutionary Game Theory using Agent-based Methods,\" Physics of Life Reviews, vol. 19, pp. 1-26, Dec. 2016. B. McMullin, \"30 Years of Computational Autopoiesis: A Review,\" Artificial Life, vol. 10, no. 3, pp. 277-295, Summer 2004."
+    },
+    {
+      "index": 26,
+      "title": "Further Reading J. M. Smith, Evolution and the",
+      "text": "Further Reading J. M. Smith, Evolution and the Theory of Games. Cambridge, U.K.: Cambridge University Press, 1982. H. Gintis, Game Theory Evolving: A Problem-Centered Introduction to Modeling Strategic Interaction, 2nd ed. Princeton, NJ: Princeton University Press, 2009. J. H. Holland, Signals and Boundaries: Building Blocks for Complex Adaptive Systems. Cambridge, MA: The MIT Press, 2012. M. Mitchell, Complexity: A Guided Tour. New York, NY: Oxford University Press, 2009. H. Maturana and F. Varela, Autopoiesis and Cognition: The Realization of the Living. Dordrecht, Holland: D. Reidel Publishing Company, 1980."
+    }
+  ],
+  "points": [
+    {
+      "claim": "From manual coder to orchestrator of AI agent fleets",
+      "topic": "agents",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Game Theory and the Dynamics of Complex Agentic",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 24,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=24s",
+      "slideIndex": 2,
+      "slideTitle": "Summary Multi-agent systems (MAS) fail with standard reinforcement",
+      "source": "youtube"
+    },
+    {
+      "claim": "skills.sh - directory of skills",
+      "topic": "general",
+      "videoSeconds": 75,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=75s",
+      "slideIndex": 2,
+      "slideTitle": "Summary Multi-agent systems (MAS) fail with standard reinforcement",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cline vs Claude Code AI coding assistants",
+      "topic": "coding",
+      "videoSeconds": 224,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=224s",
+      "slideIndex": 3,
+      "slideTitle": "Agenda Key Terminology Game Theory in Agentic Systems:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Block's open-source Goose vs Claude Code",
+      "topic": "coding",
+      "videoSeconds": 293,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=293s",
+      "slideIndex": 4,
+      "slideTitle": "Key Terminology",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stack Overflow - Rapid Decline",
+      "topic": "general",
+      "videoSeconds": 349,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=349s",
+      "slideIndex": 4,
+      "slideTitle": "Key Terminology",
+      "source": "youtube"
+    },
+    {
+      "claim": "GLM-4.7 Flash - Lightweight and Free",
+      "topic": "open-models",
+      "videoSeconds": 375,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=375s",
+      "slideIndex": 5,
+      "slideTitle": "Foundational Concepts Agentic System / Multi-Agent System (MAS):",
+      "source": "youtube"
+    },
+    {
+      "claim": "Baidu ERNIE 5.0 - 2.4T params",
+      "topic": "general",
+      "videoSeconds": 431,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=431s",
+      "slideIndex": 5,
+      "slideTitle": "Foundational Concepts Agentic System / Multi-Agent System (MAS):",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anti-gravity Update - Skill Builder capability",
+      "topic": "general",
+      "videoSeconds": 482,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=482s",
+      "slideIndex": 6,
+      "slideTitle": "Game Theory Concepts Evolutionary Game Theory (EGT): An",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini CLI Update: Session Persistence",
+      "topic": "google",
+      "videoSeconds": 557,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=557s",
+      "slideIndex": 7,
+      "slideTitle": "Game Theory in Agentic Systems",
+      "source": "youtube"
+    },
+    {
+      "claim": "Aion UI - open-source \"Co-work\" alternative",
+      "topic": "open-models",
+      "videoSeconds": 595,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=595s",
+      "slideIndex": 7,
+      "slideTitle": "Game Theory in Agentic Systems",
+      "source": "youtube"
+    },
+    {
+      "claim": "Manus AI (Meta) - develop mobile apps",
+      "topic": "general",
+      "videoSeconds": 714,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=714s",
+      "slideIndex": 8,
+      "slideTitle": "The Main Premise Problem : In a multi-agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code extension for VS Code",
+      "topic": "coding",
+      "videoSeconds": 764,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=764s",
+      "slideIndex": 9,
+      "slideTitle": "Modeling for Quality By framing interactions as a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moonshots podcast with Ray Kurzweil",
+      "topic": "general",
+      "videoSeconds": 820,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=820s",
+      "slideIndex": 9,
+      "slideTitle": "Modeling for Quality By framing interactions as a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google AI Studio upgrades",
+      "topic": "google",
+      "videoSeconds": 894,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=894s",
+      "slideIndex": 10,
+      "slideTitle": "Improving Efficiency EGT helps us understand the dynamics",
+      "source": "youtube"
+    },
+    {
+      "claim": "Robotics muscles (actuators)",
+      "topic": "general",
+      "videoSeconds": 913,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=913s",
+      "slideIndex": 11,
+      "slideTitle": "Broader Concepts",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google TranslateGemma",
+      "topic": "general",
+      "videoSeconds": 997,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=997s",
+      "slideIndex": 11,
+      "slideTitle": "Broader Concepts",
+      "source": "youtube"
+    },
+    {
+      "claim": "PixVerse AI Video Generation in Real Time",
+      "topic": "multimodal",
+      "videoSeconds": 1026,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1026s",
+      "slideIndex": 12,
+      "slideTitle": "Beyond Perfect Rationality Classical game theory assumes \"hyper-rational\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "FLUX.2 Klein - generate AI Images in 0.5 sec",
+      "topic": "multimodal",
+      "videoSeconds": 1069,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1069s",
+      "slideIndex": 13,
+      "slideTitle": "Replicator Dynamics Replicator Dynamics are the core mathematical",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to Rank #1 with NotebookLM AI SEO",
+      "topic": "google",
+      "videoSeconds": 1081,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1081s",
+      "slideIndex": 13,
+      "slideTitle": "Replicator Dynamics Replicator Dynamics are the core mathematical",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI research workflow: Perplexity + NotebookLM",
+      "topic": "google",
+      "videoSeconds": 1119,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1119s",
+      "slideIndex": 14,
+      "slideTitle": "Mutation and Finite Populations Pure mathematical EGT often",
+      "source": "youtube"
+    },
+    {
+      "claim": "Wikipedia deal: Microsoft, Meta, Amazon",
+      "topic": "general",
+      "videoSeconds": 1132,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1132s",
+      "slideIndex": 14,
+      "slideTitle": "Mutation and Finite Populations Pure mathematical EGT often",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft OptiMind-SFT (a.k.a. OptiMind)",
+      "topic": "general",
+      "videoSeconds": 1138,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1138s",
+      "slideIndex": 15,
+      "slideTitle": "Survival of the Flattest In realistic settings with",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google AI Edge",
+      "topic": "google",
+      "videoSeconds": 1179,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1179s",
+      "slideIndex": 16,
+      "slideTitle": "Common agent behaviors Learning and Adapting: Agents adjust",
+      "source": "youtube"
+    },
+    {
+      "claim": "Taiwan invests $250 Bln into US",
+      "topic": "general",
+      "videoSeconds": 1208,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1208s",
+      "slideIndex": 16,
+      "slideTitle": "Common agent behaviors Learning and Adapting: Agents adjust",
+      "source": "youtube"
+    },
+    {
+      "claim": "Thinking Machines Lab loses two co-founders",
+      "topic": "general",
+      "videoSeconds": 1229,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1229s",
+      "slideIndex": 17,
+      "slideTitle": "Common agent behaviors Strategic Interaction : Agents make",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Open Responses Standard",
+      "topic": "openai",
+      "videoSeconds": 1255,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1255s",
+      "slideIndex": 18,
+      "slideTitle": "Case Study: Evolutionary Game Theory using Agent-based Methods",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cursor ran 100s of AI coding agents for weeks",
+      "topic": "agents",
+      "videoSeconds": 1295,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1295s",
+      "slideIndex": 18,
+      "slideTitle": "Case Study: Evolutionary Game Theory using Agent-based Methods",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Updates",
+      "topic": "openai",
+      "videoSeconds": 1347,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1347s",
+      "slideIndex": 19,
+      "slideTitle": "Limits, Issues, and Flaws",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Nemotron-Speech ASR",
+      "topic": "infra",
+      "videoSeconds": 1396,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1396s",
+      "slideIndex": 20,
+      "slideTitle": "The Idealized World of Pure Mathematics The elegant",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deepseek Engram Conditional Memory",
+      "topic": "open-models",
+      "videoSeconds": 1434,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1434s",
+      "slideIndex": 20,
+      "slideTitle": "The Idealized World of Pure Mathematics The elegant",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia personaplex-7b-v1",
+      "topic": "infra",
+      "videoSeconds": 1507,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1507s",
+      "slideIndex": 21,
+      "slideTitle": "The Practical Limits of Agent-Based Models ABMs are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Emotion Computing",
+      "topic": "general",
+      "videoSeconds": 1599,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1599s",
+      "slideIndex": 22,
+      "slideTitle": "The Challenge of True Autonomy: Autopoiesis The concept",
+      "source": "youtube"
+    },
+    {
+      "claim": "NousCoder-14B Trained with RL",
+      "topic": "general",
+      "videoSeconds": 1621,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1621s",
+      "slideIndex": 22,
+      "slideTitle": "The Challenge of True Autonomy: Autopoiesis The concept",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft VibeVoice-ASR",
+      "topic": "general",
+      "videoSeconds": 1660,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1660s",
+      "slideIndex": 23,
+      "slideTitle": "Computational Intractability The work of Alan Turing on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Myrothinker 1.5 - 30B & 235B",
+      "topic": "general",
+      "videoSeconds": 1666,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1666s",
+      "slideIndex": 23,
+      "slideTitle": "Computational Intractability The work of Alan Turing on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Haystack, LangChain, LlamaIndex",
+      "topic": "general",
+      "videoSeconds": 1706,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1706s",
+      "slideIndex": 24,
+      "slideTitle": "Conclusion",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Research Job Market Predictions",
+      "topic": "jobs",
+      "videoSeconds": 1760,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1760s",
+      "slideIndex": 25,
+      "slideTitle": "Sources S. Nugroho and T. Uehara, \"Systematic Review",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boris Cherny about career trajectory",
+      "topic": "general",
+      "videoSeconds": 1851,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1851s",
+      "slideIndex": 25,
+      "slideTitle": "Sources S. Nugroho and T. Uehara, \"Systematic Review",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1918,
+      "videoUrl": "https://www.youtube.com/watch?v=cZYFF1zvI8k&t=1918s",
+      "slideIndex": 26,
+      "slideTitle": "Further Reading J. M. Smith, Evolution and the",
+      "source": "youtube"
+    }
+  ]
+}

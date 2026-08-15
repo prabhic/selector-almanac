@@ -1,0 +1,211 @@
+{
+  "id": "unknown-bitcoin-price-analysis-by-tweets",
+  "date": null,
+  "title": "Bitcoin-price-analysis-by-tweets",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "rag",
+    "ml-fundamentals"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2022/2022-05-27-Bitcoin-Trends-by-Tweets/Bitcoin-price-analysis-by-tweets.pptx",
+    "filename": "Bitcoin-price-analysis-by-tweets.pptx",
+    "title": "Bitcoin-price-analysis-by-tweets",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-05-27-Bitcoin-Trends-by-Tweets/Bitcoin-price-analysis-by-tweets.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-05-27-Bitcoin-Trends-by-Tweets/Bitcoin-price-analysis-by-tweets.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Bitcoin price analysis by Tweets Dequan Er, Ph.D.",
+      "text": "Bitcoin price analysis by Tweets Dequan Er, Ph.D. https://www.linkedin.com/in/dequan-er-69518643/"
+    },
+    {
+      "index": 2,
+      "title": "Contents Intro What’s NN and RNN Why LSTM",
+      "text": "Contents Intro What’s NN and RNN Why LSTM Results Summary 2"
+    },
+    {
+      "index": 3,
+      "title": "Intro Bitcoin is an innovative payment network and",
+      "text": "Intro Bitcoin is an innovative payment network and a new kind of crypto currency. Bitcoin was the first crypto currency published in 2008 by Satoshi Nakmoto . Bitcoin is highly volatile Machine learning can capture the past fluctuations in prices. Information from the market is an important factor in determining the Bitcoin price. Tweets is part of the information. 3"
+    },
+    {
+      "index": 4,
+      "title": "Goal Sentiment analysis of Tweets Build model that",
+      "text": "Goal Sentiment analysis of Tweets Build model that predict positive/neutral/negative signals of bitcoin price Label future tweets data Approach NLP and sentiment analysis of Tweets Bi-directional LSTM model"
+    },
+    {
+      "index": 5,
+      "title": "How to present time series data a sequence",
+      "text": "How to present time series data a sequence of data points collected over time intervals, giving us the ability to track changes over time . Event Trend Seasonality Autocorrelation 5"
+    },
+    {
+      "index": 6,
+      "title": "Data Flow Bitcoin Price 6",
+      "text": "Data Flow Bitcoin Price 6"
+    },
+    {
+      "index": 7,
+      "title": "Neural Net https://en.wikipedia.org/wiki/Artificial_neural_network NN is an unidirectional, only",
+      "text": "Neural Net https://en.wikipedia.org/wiki/Artificial_neural_network NN is an unidirectional, only moves through hidden layers. No memory. Simply they cannot remember the past inputs. Not enough to capture NLP 7"
+    },
+    {
+      "index": 8,
+      "title": "RNN Recurrent Neural Network (RNN) is advanced artificial",
+      "text": "RNN Recurrent Neural Network (RNN) is advanced artificial NN in which direct cycles in memory are involved. RNN can build networks with fixed sized input and output layers. RNN considers the current input and also the previously received inputs RNN many formats 8"
+    },
+    {
+      "index": 9,
+      "title": "LSTM Drawbacks of RNN Long Term dependencies LSTM",
+      "text": "LSTM Drawbacks of RNN Long Term dependencies LSTM Long Short Term Memory input gate, output gate, forget gate Remembers arbitrary time intervals and the three gates regulate the flow of information in and out of the cell. Example: Mandy and Monica walk into the room together, later Richard walks into the room. Mandy said “Hi” to ___ ?? 9"
+    },
+    {
+      "index": 10,
+      "title": "Model Summary Predict the bitcoin price movement by",
+      "text": "Model Summary Predict the bitcoin price movement by tweets sentiment analysis Data: BTC price, Tweets Sample the data randomly and normalize data, find the derivative of BTC price. Define a classification problem that predict the movement as positive, neutral, negative. 10"
+    },
+    {
+      "index": 11,
+      "title": "Demo https://www.kaggle.com/code/erdeq1024/bitcoin-price-analysis-by-tweets Libraries imported: VADER (Valence Aware Dictionary",
+      "text": "Demo https://www.kaggle.com/code/erdeq1024/bitcoin-price-analysis-by-tweets Libraries imported: VADER (Valence Aware Dictionary and sEntiment Reasoner ) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media . Sklearn Textblob 11"
+    },
+    {
+      "index": 12,
+      "title": "Demo Model 1 Model: \"sequential\" _________________________________________________________________ Layer (type)",
+      "text": "Demo Model 1 Model: \"sequential\" _________________________________________________________________ Layer (type)                 Output Shape Param # ================================================================= embedding (Embedding)        (None, 30, 100)           2000000 _________________________________________________________________ conv1d (Conv1D)              (None, 30, 32)            9632 _________________________________________________________________ max_pooling1d (MaxPooling1D) (None, 15, 32)            0 _________________________________________________________________ conv1d_1 (Conv1D)            (None, 15, 32)            3104 _________________________________________________________________ max_pooling1d_1 (MaxPooling1 (None, 7, 32)             0 _________________________________________________________________ lstm (LSTM)                  (None, 100)               53200 _________________________________________________________________ dense (Dense)                (None, 3)                 303 ================================================================= Total params : 2,066,239 Trainable params : 2,066,239 Non-trainable params : 0 _________________________________________________________________ 12"
+    },
+    {
+      "index": 13,
+      "title": "Demo Model 2 13",
+      "text": "Demo Model 2 13"
+    },
+    {
+      "index": 14,
+      "title": "Results Model converge at a descent level. Acc",
+      "text": "Results Model converge at a descent level. Acc : 0.936, val_acc : 0.868 Confusion matrix shows model can understand most positive and neutral sentiments of BTC price signals. This model enables use to label tweets based on the BTC price trend. 14"
+    },
+    {
+      "index": 15,
+      "title": "Summary Key Takeaways: Tweets data can be analyzed",
+      "text": "Summary Key Takeaways: Tweets data can be analyzed using NLP method with sentiment analysis The trend can be marked as positive, neutral, and negative. The model of LSTM can reach a fair accuracy on both training and testing dataset. 15"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Bitcoin price analysis by Tweets Dequan Er, Ph.D.",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Bitcoin price analysis by Tweets Dequan Er, Ph.D.",
+      "source": "slide"
+    },
+    {
+      "claim": "Contents Intro What’s NN and RNN Why LSTM",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Contents Intro What’s NN and RNN Why LSTM",
+      "source": "slide"
+    },
+    {
+      "claim": "Intro Bitcoin is an innovative payment network and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Intro Bitcoin is an innovative payment network and",
+      "source": "slide"
+    },
+    {
+      "claim": "Goal Sentiment analysis of Tweets Build model that",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Goal Sentiment analysis of Tweets Build model that",
+      "source": "slide"
+    },
+    {
+      "claim": "How to present time series data a sequence",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "How to present time series data a sequence",
+      "source": "slide"
+    },
+    {
+      "claim": "Data Flow Bitcoin Price 6",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Data Flow Bitcoin Price 6",
+      "source": "slide"
+    },
+    {
+      "claim": "Neural Net https://en.wikipedia.org/wiki/Artificial_neural_network NN is an unidirectional, only",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Neural Net https://en.wikipedia.org/wiki/Artificial_neural_network NN is an unidirectional, only",
+      "source": "slide"
+    },
+    {
+      "claim": "RNN Recurrent Neural Network (RNN) is advanced artificial",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "RNN Recurrent Neural Network (RNN) is advanced artificial",
+      "source": "slide"
+    },
+    {
+      "claim": "LSTM Drawbacks of RNN Long Term dependencies LSTM",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "LSTM Drawbacks of RNN Long Term dependencies LSTM",
+      "source": "slide"
+    },
+    {
+      "claim": "Model Summary Predict the bitcoin price movement by",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Model Summary Predict the bitcoin price movement by",
+      "source": "slide"
+    },
+    {
+      "claim": "Demo https://www.kaggle.com/code/erdeq1024/bitcoin-price-analysis-by-tweets Libraries imported: VADER (Valence Aware Dictionary",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Demo https://www.kaggle.com/code/erdeq1024/bitcoin-price-analysis-by-tweets Libraries imported: VADER (Valence Aware Dictionary",
+      "source": "slide"
+    },
+    {
+      "claim": "Demo Model 1 Model: \"sequential\" _________________________________________________________________ Layer (type)",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Demo Model 1 Model: \"sequential\" _________________________________________________________________ Layer (type)",
+      "source": "slide"
+    }
+  ]
+}

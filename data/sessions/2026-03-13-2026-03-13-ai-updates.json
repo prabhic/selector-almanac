@@ -1,0 +1,812 @@
+{
+  "id": "2026-03-13-2026-03-13-ai-updates",
+  "date": "2026-03-13",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "coding",
+    "claude",
+    "benchmarks",
+    "openai",
+    "infra",
+    "open-models",
+    "agents",
+    "jobs",
+    "multimodal",
+    "rag"
+  ],
+  "video": {
+    "id": "-5Q0GR9MV50",
+    "title": "Have you heard these exciting AI news? - March 13, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=-5Q0GR9MV50",
+    "thumbnail": "https://i.ytimg.com/vi/-5Q0GR9MV50/hqdefault.jpg",
+    "duration": 2235
+  },
+  "deck": {
+    "path": "2026/2026-03-13-AI-Updates.pptx",
+    "filename": "2026-03-13-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-03-13-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-03-13-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Winner: Claude + Claude Code",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 27,
+      "label": "00:27",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI acquired Promptfoo",
+      "startSeconds": 95,
+      "label": "01:35",
+      "source": "youtube"
+    },
+    {
+      "title": "LeCun's AMI raises $1B",
+      "startSeconds": 112,
+      "label": "01:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Shows Visuals",
+      "startSeconds": 160,
+      "label": "02:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Nemotron 3 Super Open 120B params",
+      "startSeconds": 183,
+      "label": "03:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia NemoClaw Open Source - upcoming",
+      "startSeconds": 241,
+      "label": "04:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Perplexity \"Computer\" Agentic Workflows",
+      "startSeconds": 336,
+      "label": "05:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Devon 2.2 - a fully autonomous AI software engineer",
+      "startSeconds": 391,
+      "label": "06:31",
+      "source": "youtube"
+    },
+    {
+      "title": "DataBricks KARL",
+      "startSeconds": 423,
+      "label": "07:03",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw Recent Updates",
+      "startSeconds": 488,
+      "label": "08:08",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw Agents Making Money",
+      "startSeconds": 534,
+      "label": "08:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Phi-4 Reasoning Vision 15B",
+      "startSeconds": 566,
+      "label": "09:26",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Symphony Coding Tracker",
+      "startSeconds": 582,
+      "label": "09:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Xiaomi launched MClaw",
+      "startSeconds": 607,
+      "label": "10:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Yuan3.0 Ultra Multimodal",
+      "startSeconds": 646,
+      "label": "10:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Scheduling, Super Nested Claude Code",
+      "startSeconds": 661,
+      "label": "11:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code - Tool Search & Calling",
+      "startSeconds": 731,
+      "label": "12:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code is better than Cline",
+      "startSeconds": 851,
+      "label": "14:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude CoWork as Virtual Employee",
+      "startSeconds": 1052,
+      "label": "17:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Elon Musk's Digital Optimus",
+      "startSeconds": 1109,
+      "label": "18:29",
+      "source": "youtube"
+    },
+    {
+      "title": "KiloClaw Cloud-hosted Alternative to OpenClaw",
+      "startSeconds": 1230,
+      "label": "20:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code + Playwright CLI",
+      "startSeconds": 1254,
+      "label": "20:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Superpowers GitHub repo for AI Coding Agents",
+      "startSeconds": 1352,
+      "label": "22:32",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw Memory",
+      "startSeconds": 1390,
+      "label": "23:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Moonshots - about OpenClaw",
+      "startSeconds": 1448,
+      "label": "24:08",
+      "source": "youtube"
+    },
+    {
+      "title": "AI is transforming education",
+      "startSeconds": 1472,
+      "label": "24:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Infrastructure Investments - $135 Billion in 7 Days",
+      "startSeconds": 1549,
+      "label": "25:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Krea AI \"Core Edit\"",
+      "startSeconds": 1562,
+      "label": "26:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Pulsia AI - Runs 3,300 Companies",
+      "startSeconds": 1622,
+      "label": "27:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple vs Nvidia",
+      "startSeconds": 1652,
+      "label": "27:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Facebook buys Moltbook (Team & Operations)",
+      "startSeconds": 1722,
+      "label": "28:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic sues Pentagon",
+      "startSeconds": 1763,
+      "label": "29:23",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI revises military AI deal with US Government",
+      "startSeconds": 1792,
+      "label": "29:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic has launched Claude Marketplace",
+      "startSeconds": 1807,
+      "label": "30:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Intel 18A Manufacturing Process",
+      "startSeconds": 1833,
+      "label": "30:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Leopold Aschenbrenner Investments",
+      "startSeconds": 1893,
+      "label": "31:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Autoresearch from Andrej Karpathy",
+      "startSeconds": 1963,
+      "label": "32:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Modeling a fruit fly brain",
+      "startSeconds": 2008,
+      "label": "33:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba's Qwen Team Restructuring",
+      "startSeconds": 2089,
+      "label": "34:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 2193,
+      "label": "36:33",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard OpenAI acquired Promptfoo LeCun's",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard OpenAI acquired Promptfoo LeCun's AMI raises $1B Claude Shows Visuals Nvidia Nemotron 3 Super Open 120B params Nvidia NemoClaw Open Source - upcoming AI Updates - Mar 13, 2026 Jobs, Layoffs, demand for AI Engineers Perplexity \"Computer\" Agentic Workflows Devon 2.2 - a fully autonomous AI software engineer DataBricks KARL OpenClaw Agents Making Money OpenClaw Recent Updates Microsoft Phi-4 Reasoning Vision 15B OpenAI Symphony Coding Tracker Xiaomi launched MClaw Yuan3.0 Ultra Multimodal Claude Scheduling, Super Nested Claude Code Claude Code - Tool Search & Calling Claude Code is better than Cline Claude CoWork as Virtual Employee Elon Musk's  Digital Optimus KiloClaw Cloud-hosted Alternative to OpenClaw Claude Code + Playwright CLI Superpowers GitHub repo for AI Coding Agents OpenClaw Memory Moonshots - about OpenClaw AI is transforming education Infrastructure Investments - $135 Billion in 7 Days Krea AI \"Core Edit\" Pulsia AI - Runs 3,300 Companies Apple vs Nvidia Facebook buys Moltbook (Team & Operations) Anthropic sues Pentagon OpenAI revises military AI deal with US Government Anthropic has launched Claude Marketplace Intel 18A Manufacturing Process Leopold Aschenbrenner Investments Autoresearch from Andrej Karpathy Modeling a fruit fly brain Alibaba’s Qwen Team Restructuring Winner:  Claude + Claude Code"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for March 11 deepseek-v3.2  -  671B ernie-5.0 - 2.4T glm-5.0 - 744B kimi-k2.5-thinking - 1T qwen3.5-397B ■ Claude ■ Gemini ■ OpenAI ■ Open Source Code Model Score ■ claude-opus-4-6-thinking 1555 ■ gpt-5.4-high 1546 ■ claude-opus-4-6 1546 ■ gemini-3.1-pro-preview 1539 ■ claude-opus-4-5-20251101-thinking-32k 1531 ■ grok-4.20-beta1 1528 ■ gpt-5.2-chat-latest-20260210 1523 ■ claude-sonnet-4-5-20250929-thinking-32k 1519 ■ claude-opus-4-5-20251101 1518 ■ gemini-3-pro 1518 ■ claude-sonnet-4-6 1517 ■ claude-opus-4-1-20250805-thinking-16k 1512 ■ claude-sonnet-4-5-20250929 1510 ■ kimi-k2.5-thinking 1510 ■ dola-seed-2.0-preview 1510 ■ gemini-3-flash 1509 ■ kimi-k2.5-instant 1506 ■ grok-4.1-thinking 1505 ■ claude-opus-4-1-20250805 1503 ■ gemini-3-flash (thinking-minimal) 1501 ■ gpt-5.2 1497 ■ claude-opus-4-20250514-thinking-16k 1496 ■ gpt-5.2-high 1496 ■ ernie-5.0-0110 1493 ■ grok-4.1 1493 Code Model Score ■ claude-opus-4-6 1503 ■ claude-opus-4-6-thinking 1503 ■ grok-4.20-beta1 1496 ■ gemini-3.1-pro-preview 1492 ■ gemini-3-pro 1486 ■ gpt-5.4-high 1485 ■ gpt-5.2-chat-latest-20260210 1481 ■ gemini-3-flash 1474 ■ grok-4.1-thinking 1473 ■ claude-opus-4-5-20251101-thinking-32k 1472 ■ claude-opus-4-5-20251101 1467 ■ dola-seed-2.0-preview 1465 ■ gemini-3-flash (thinking-minimal) 1463 ■ gpt-5.4 1463 ■ grok-4.1 1462 ■ claude-sonnet-4-6 1460 ■ gpt-5.1-high 1456 ■ glm-5 1454 ■ kimi-k2.5-thinking 1452 ■ ernie-5.0-0110 1452 ■ claude-sonnet-4-5-20250929 1452 ■ claude-sonnet-4-5-20250929-thinking-32k 1451 ■ qwen3.5-397b-a17b 1450 ■ ernie-5.0-preview-1203 1450 ■ gemini-2.5-pro 1449"
+    },
+    {
+      "index": 3,
+      "title": "AI Updates OpenAI acquired Promptfoo a startup specializing",
+      "text": "AI Updates OpenAI acquired Promptfoo a startup specializing in security and testing for AI agents https://github.com/promptfoo/promptfoo https://www.promptfoo.dev AI agents are vulnerable to prompt injection, ... Promptfoo allows developers to run automated red-teaming and vulnerability tests This allows OpenAI to offer built-in compliance, auditing, and security to cautious corporate clients Promptfoo is 2 years old - and is already used by over 25% of Fortune 500 companies and has a community of 125K developers https://www.youtube.com/watch?v=E8UObj_R2mM LeCun's AMI raises $1B The new company, Advanced Machine Intelligence , will build \" world models \" that understand the physical world This is a different approach than current text-based AI. Investors include Jeff Bezos and Nvidia."
+    },
+    {
+      "index": 4,
+      "title": "Claude Shows Visuals Claude creates interactive charts, diagrams,",
+      "text": "Claude Shows Visuals Claude creates interactive charts, diagrams, and visualizations directly inside chat responses The visuals are temporary, appear in-line (not in side panels), and update or disappear as the conversation evolves Users can let Claude decide when to generate visuals or explicitly request them with prompts like “draw this as a diagram.” Example uses include exploring compound interest with an adjustable curve and an interactive periodic table Visuals complement artifacts, which remain for polished, shareable work products The feature is in beta, on by default, and available to all Claude plan types, including free https://claude.com/blog/claude-builds-visuals https://www.youtube.com/watch?v=Ii99RU3mOJM"
+    },
+    {
+      "index": 5,
+      "title": "Nvidia Nemotron 3 Super Open 120B Nvidia Nemotron",
+      "text": "Nvidia Nemotron 3 Super Open 120B Nvidia Nemotron 3 Super Open 120B params A cost-effective, high-performance standard for autonomous, multi-step enterprise agents Triple hybrid architecture (Mamba, Transformer, MoE layers) MoE: 120B total, 12B active M Mln context window Optimized for Blackwell GPUs using NVFP4 precision Achieves up to 5x higher throughput than previous versions It uses multi-token prediction to accelerate generation for complex tasks like software engineering and cybersecurity triage https://huggingface.co/collections/nvidia/nvidia-nemotron-v3 Nvidia NemoClaw Open Source - upcoming Enterprise-focused AI agent platform with enhanced security features Shift toward autonomous AI systems for Production Hardware agnostic (not only Nvidia) https://nemoclaw.bot"
+    },
+    {
+      "index": 6,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 6.44K subscribers, 273 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates Perplexity \"Computer\" Agentic Workflows in your",
+      "text": "AI Updates Perplexity \"Computer\" Agentic Workflows in your browser It lets you run multi-step automated tasks (research, compare options, generate docs, send email, etc.) in one workflow instead of doing everything manually in chats You need to upgrade to \"Max\" subscription to get access to it You will also get \"Model Council\" - consensus-based approach, running multiple top-tier models (like GPT, Claude, and Gemini) simultaneously, then compare their answers to find agreement, which significantly reduces \"hallucinations\" and provides more reliable results Coding Sub-Agent - using GPT-5.3 Codex, can write, run, debug code - and push to GitHub Includes GPT-5.4 & GPT-5.4 Thinking (for planning) Devon 2.2 - a fully autonomous AI software engineer It writes, tests, debugs, and delivers complete code without human intervention It operates x3 times faster than previous versions It self-verifies work before delivery https://devin.ai https://cognition.ai/blog/introducing-devin-2-2 https://docs.devin.ai/release-notes/overview https://www.youtube.com/watch?v=Kr_cS795M4o https://www.youtube.com/watch?v=a0yaKgxLVdQ"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates DataBricks KARL KARL - Knowledge Agents",
+      "text": "AI Updates DataBricks KARL KARL - Knowledge Agents via Reinforcement Learning From Static Skill.md to Reinforcement Learning System generates its own synthetic training problems based on a set of documents An agent attempts to solve these problems by searching documents. It records its \"trajectory\" Only the most successful trajectories are used to update the model's weights. This \"bakes\" the search intelligence directly into the AI's neural network rather than relying on a prompt KARL uses parallel reasoning attempts (multiple \"rollouts\") to verify and aggregate the best possible answer KARL reportedly outperforms larger models like Claude 4.6 and GPT-5.2 in specific knowledge-retrieval tasks while remaining cheaper and faster Intelligence gained through KARL can be distilled into smaller, \"student\" models, significantly boosting their performance https://www.youtube.com/watch?v=OGT3NoFo-qg https://arxiv.org/abs/2603.05218 https://www.databricks.com/blog/meet-karl-faster-agent-enterprise-knowledge-powered-custom-rl"
+    },
+    {
+      "index": 9,
+      "title": "OpenClaw Updates OpenClaw Agents Making Money https://www.youtube.com/watch?v=LCkGVCfmtzo Each",
+      "text": "OpenClaw Updates OpenClaw Agents Making Money https://www.youtube.com/watch?v=LCkGVCfmtzo Each agent received $1,000 Clawculus leads with $79.68 profit using calculated strategies and prediction markets YOLObster created five arcade games and NFTs - but barely broke even, while cautious Clawtious made minimal moves The agents built websites, automated social media accounts, and attempted various monetization strategies The experiment costs approximately $530 monthly to run, including $400 for Claude API credits, server hosting, and social media API fees Human oversight is necessary as agents often create low-value content and face limitations with crypto payments and API access requirements https://github.com/openclaw/openclaw - 310K stars Recent Updates: 2026.3.12 - Security hardening: Patched a cross-site WebSocket hijacking vulnerability. Updated the Control UI with modular dashboard views 2026.3.11 - Enhanced workflow reliability for local-only agents and added native app updates for HarmonyOS 2026.3.8 - Stable release following the intensive beta testing of the new plugin architecture 2026.3.2 - Improved secret management and browser control features"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates OpenAI Symphony Coding Tracker Symphony autonomously",
+      "text": "AI Updates OpenAI Symphony Coding Tracker Symphony autonomously completes coding tasks by monitoring issue trackers and launching AI agents to work on ready tasks. The system creates isolated workspaces, requires proof of work through testing, and manages the entire development process from task assignment to code merging Microsoft Phi-4 Reasoning Vision 15B A compact multimodal AI model that combines image understanding with text reasoning capabilities, focusing on efficiency Xiaomi launched MiClaw , aAI agent integrated into phone OS It can control apps, smart home devices, and automate complex multi-step tasks using natural language commands The system processes data locally for privacy It connects to over 1 Billion Xiaomi ecosystem devices"
+    },
+    {
+      "index": 11,
+      "title": "Yuan3.0 Ultra Multimodal Yuan3.0 Ultra Multimodal China's Yuan",
+      "text": "Yuan3.0 Ultra Multimodal Yuan3.0 Ultra Multimodal China's Yuan Lab AI 1 Trillion params model Comparable with GPT, Claude, Gemini Open Source https://github.com/Yuan-lab-LLM/Yuan3.0-Ultra https://arxiv.org/abs/2601.14327 https://arxiv.org/abs/2601.01718 https://yuanlab.ai"
+    },
+    {
+      "index": 12,
+      "title": "Claude Code Scheduling Claude scheduled tasks The first",
+      "text": "Claude Code Scheduling Claude scheduled tasks The first method works within Claude Desktop's co-work tab, running in a VM sandbox with access to external connectors but limited local file access. The second runs in Claude Desktop's code tab with full local system access including files, terminal, and git. The third uses the /loop slash command in Claude Code CLI for short-term tasks up to 3 days, tied to specific sessions. The fourth method leverages GitHub Actions for repository-focused automation that doesn't require keeping your computer on. Key limitations include most methods requiring the desktop app to remain open, potential permission prompts, and stateless execution unless you implement memory through JSON files. The choice depends on your time horizon and task type: .. use /loop for short development tasks, .. desktop scheduling for long-running persistent automation, .. and consider access requirements when choosing between co-work and code tabs Agent /loop command to schedule tasks within session Running every 10 minutes by default for up to 3 days Users can set reminders and recurring tasks using natural language, such as \"remind me at 10:23 AM\" or \"check my ClickUp every 10 minutes.\" Limitation - the features works only within the same session. It requires the terminal window and computer to stay open, doesn't survive restarts, and expires after 3 days. The feature works across VS Code, terminal, and desktop app Claude Code Desktop actually offers more powerful scheduling that survives restarts and runs indefinitely, though it still requires the desktop app open. Super Nested Claude Code A nested Claude Code workflow in tmux on macOS Coordinates multiple terminals for parallel AI-assisted development A central controller assigns subtasks across terminals, letting developers state high-level goals while Claude manages planning and execution steps Examples include a multi-terminal 3D galaxy project in 3JS and visualizing micro GPT training with dedicated panes for backend, charts, and dashboards. The system boosts productivity but currently depends on macOS, tmux, and a non-trivial setup. https://www.geeky-gadgets.com/nested-claude-code-tmux/"
+    },
+    {
+      "index": 13,
+      "title": "Claude Code - Tool Search & Calling Use",
+      "text": "Claude Code - Tool Search & Calling Use Claude Code to automate model training https://www.youtube.com/watch?v=jP6tN9JTtxE Automate machine learning model training using three tools working together: Claude Code as an AI agent, HuggingFace Jobs for cloud GPU compute, and Tracko for experiment tracking. The presenter modifies Andre Karpathy's nano GPT repository to train a GPT2-level model, integrating Tracko to log metrics and generate alerts when validation loss increases. Claude Code acts as an autonomous ML researcher, systematically testing different learning rates starting from 1.0 and automatically terminating unstable training runs based on Tracko alerts. The system successfully found an optimal learning rate of 0.1 after canceling higher learning rate experiments that showed instability. This approach enables efficient autonomous hyperparameter optimization while minimizing cloud compute costs by quickly terminating unsuccessful experiments. Anthropic tool search and calling Reduce token usage by up to 85% https://www.youtube.com/watch?v=R7OCrqyGMeY Tool search allows agents to discover and load tools on-demand rather than loading everything upfront, significantly reducing context usage. Programmatic tool calling enables agents to write and execute Python scripts in sandboxes to handle complex multi-step tasks more efficiently than traditional sequential tool calls. The video demonstrates these patterns in a custom system using Qwen 3.5 model, showing how these aren't exclusive to Claude The system uses Docker containers for secure code execution with a tool bridge architecture that prevents direct internet access while enabling communication with external services through authenticated calls. Concentrate on Building Skills https://www.youtube.com/watch?v=wqH1hTkA6qg Skills are markdown instruction files to provide expertise on-demand, functioning like employee playbooks Skills are modular and \"progressively disclosed\" - Claude only loads relevant skills when needed. Common Mistakes when Using Skills First Mistake - installing too many skills (50-200) which creates noise in Claude's 15,000 chars system prompt budget and leads to ambiguous skill selection. Solution - use only 20-30 specific, well-built skills Second Mistake - installing generic marketplace skills without customization, resulting in generic output. Solution - add reference files with brand guidelines and examples Third Mistake - cram everything into a single skill.md file instead of using proper folder structure with separate reference files, making debugging difficult and wasting context tokens https://www.youtube.com/watch?v=CXeCIgc982I Prompt Engineering => Context Engineering => Workflows (Skill Creator)"
+    },
+    {
+      "index": 14,
+      "title": "Claude Code is NOT Open Source Claude Code",
+      "text": "Claude Code is NOT Open Source Claude Code and Claude models are NOT open source Under the hood, Claude Code is just a Claude model (e.g., a Sonnet or Opus “thinking” variant) prompted and tooled for software tasks: reading/editing code, explaining errors, designing APIs, etc. The model performs step-by-step reasoning internally (especially in “thinking”/reasoning modes), which improves multi-step tasks like debugging or refactoring, but those thoughts are not a symbolic program or fixed algorithm—just very large pattern-based inference over its training data plus your prompt The Claude base model has broad capabilities (coding, natural language, reasoning) baked into its weights; those aren’t modular plug‑ins you can see or toggle Platforms (like Claude Code) then layer “skills” on top by using specialized system prompts (e.g., “act as a software engineer”), and enabling tools such as code execution, browsing, file and repo access, or chart/image creation By default, Claude Code runs in the cloud on Anthropic or partner infrastructure; your prompts and code are sent to remote servers for inference Additional “skills” like web browsing, Deep Research, and code sandboxes are also cloud services, not something the model does purely on your local machine You can integrate Claude via API into your own stack, but the core model execution still happens on remote cloud Claude Code is better than Cline Cline, by design, is more model‑agnostic and prompt‑driven Claude Code (CC) is Anthropic specific. It was released in Feb 2025. Over the whole year it was tuned to work with Claude models and tools, and models were tuned to work with CC So even if you try to use the same Opus model with both Cline and CC, the CC experience will be “smoother” because of better orchestration, tighter tool contracts, better defaults, better chunking and truncation. And the Claude models are trained to use  the Claude tools effectively https://code.claude.com/docs/en/vs-code https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously Anthropic uses large, sophisticated system prompts plus tool definitions to define how Claude behaves in each product, and CC has its own agent spec layered on top of the base model So CC is basically talking to the specialized agent in the cloud. A public analysis of Claude’s system prompts shows Anthropic routinely bakes workflows, safety rules, and UX behaviors directly into long system messages (tens of thousands of tokens), rather than leaving everything to the user; The tool definitions alone are ~11k tokens, and Anthropic exposes multiple “system prompt methods” (base agent prompt, user‑customizable extra prompt, etc.), which strongly suggests a nontrivial internal prompt stack optimized for dev workflows Claude Code is better than Cline"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates How to Use Claude Cowork as",
+      "text": "AI Updates How to Use Claude Cowork as a Virtual Employee https://www.youtube.com/watch?v=f95-O8C88uw Import (transferring memory from ChatGPT to Claude) Foundation (setting up goal files and business context) Workflows (using pre-built plugins for different job functions like legal, marketing, and HR) Connect to Gmail, Google Calendar, Slack, ... Scheduling tasks to run automatically File reading and editing, app integration, task/workflow  automation Claude Co-work learns and improves over time Elon Musk's  Digital Optimus https://www.youtube.com/watch?v=DHH9MqJe0YM AGI that can perform computer-based work like an office worker The system combines Tesla's AI4 chip for real-time screen processing with Grok for higher-level thinking, mimicking the brain's fast and slow systems Unlike competitors who use screenshots, Digital Optimus processes continuous video streams like Tesla's self-driving technology This is similar to how physical Optimus robots work. And how the model can be trained on multiple robots (like Tesla driving is trained on Billions of driving miles."
+    },
+    {
+      "index": 16,
+      "title": "AI Updates KiloClaw Cloud-hosted Alternative to OpenClaw https://www.youtube.com/watch?v=Z9RaLpbPluQ",
+      "text": "AI Updates KiloClaw Cloud-hosted Alternative to OpenClaw https://www.youtube.com/watch?v=Z9RaLpbPluQ KiloClaw makes deployment simple (60 sec) In Beta, free, one-click deployment, multiple AI models, scheduled tasks, and integration with Discord, Telegram, and Slack Good for non-technical users who want immediate functionality without dealing with servers or configuration files. https://kilo.ai/kiloclaw Claude Code + Playwright CLI for Browser Automations https://www.youtube.com/watch?v=I9kO6-yPkfM Claude Code can spawn three parallel sub-agents using Playwright to test website form submissions from multiple angles, including edge cases and validation testing Playwright CLI is a superior to alternatives like MCP servers or Chrome extensions because it uses significantly fewer tokens (90,000 fewer than MCP) and supports headless browsing and parallel execution The tool works by utilizing accessibility trees rather than screenshots, making it more efficient Installation: .. installing Playwright CLI via npm .. installing browser engines .. setting up the Claude Code skill"
+    },
+    {
+      "index": 17,
+      "title": "Superpowers Superpowers GitHub repo for AI Coding Agents",
+      "text": "Superpowers Superpowers GitHub repo for AI Coding Agents https://github.com/obra/superpowers http://www.youtube.com/watch?v=7cOAayWzYDY /plugin marketplace add obra/superpowers-marketplace /plugin install superpowers@superpowers-marketplace A fully autonomous software development workflow for AI coding agents Unlike traditional \"spec-driven\" tools like OpenSpec or SpecKit, which primarily focus on turning conversations into task lists, Superpowers manages the entire engineering lifecycle. It guides agents through brainstorming, design generation, technical specification, and detailed implementation planning Key features include the ability to handle non-linear tasks, reduce hallucinations by keeping models focused on specific steps, and the integration of \"sub-agents\" to execute parallel implementation plans Users can easily install Superpowers as a plugin within coding environments like Cursor or Claude Code Ultimately, the toolkit aims to replace \"vibe coding\" with a structured, reliable workflow that produces professional-grade, bug-free results"
+    },
+    {
+      "index": 18,
+      "title": "OpenClaw Memory OpenClaw 3-Layer Memory Architecture Layer 1",
+      "text": "OpenClaw Memory OpenClaw 3-Layer Memory Architecture Layer 1 - core identity (the \"Soul\") - in he root of workspace: files: soul.md, agents.md, memory.md, and user.md only the owner can edit the identiy files Layer 2 - long-term recall - in \"Memory\" folder files - Daily logs (dated `YYYY-MM-DD.md`) and specific topic files (e.g., ` onboarding.md `) short (under 4KB) summaries and \"breadcrumbs\" Layer 3 - Deep References (The Library) in \"Reference\" folder files - full documents and long-form histories Enable `memory_flush` in the config file to stop immediate context loss on resets. Write memory files in plain, natural language https://www.youtube.com/watch?v=f8LJBh1AtKg"
+    },
+    {
+      "index": 19,
+      "title": "Moonshots - about OpenClaw OpenClaw is an open-source,",
+      "text": "Moonshots - about OpenClaw OpenClaw is an open-source, self-improving AI agent that runs locally on your computer 24/7, with no token limits or cloud costs Alex Finn runs four agents (Henry, Ralph, Charlie, Scout) organized like a business hierarchy, with Henry (Claude Opus) as chief of staff Local hardware, especially Apple devices with unified memory architecture, is strongly preferred over virtual private servers for speed, security, and cost OAuth lets you connect existing ChatGPT subscriptions to OpenClaw instead of paying per token Key use cases include autonomous software development, content pipelines, and research automation Memory is stored in plain markdown files; agents can design and fix their own memory systems A recent security vulnerability allowed websites to hijack agents via JavaScript; patched within 24 hours Best starting tip: use reverse prompting - tell your agent your goals and ask it what it should do next https://www.youtube.com/watch?v=qP73cGLQmCU https://www.youtube.com/watch?v=d__HRChE2ZE"
+    },
+    {
+      "index": 20,
+      "title": "AI is transforming education AI is fundamentally transforming",
+      "text": "AI is transforming education AI is fundamentally transforming education and learning https://www.youtube.com/watch?v=WzOXDIWxVeM Traditional courses are becoming obsolete as AI agents can now handle most learning tasks automatically Instead of consuming pre-made content, learners will receive personalized, on-demand lessons generated by AI. New learning model focuses on \"loops\" rather than linear curricula: goal-setting tiny actions feedback proof of completion next steps Shift from content delivery to live facilitation and community accountability Rather than learning how to do things, people now tell AI what they want accomplished The value lies in guided environments where people actually implement and change behavior , not just consume information. Communities become essential for accountability , requiring members to show what they've started, built, and shipped rather than just completing courses. The transformation moves educators from creators to conductors , focusing on practical implementation over knowledge transfer"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates Infrastructure Investments - $135 Billion in",
+      "text": "AI Updates Infrastructure Investments - $135 Billion in 7 Days Amazon’s $35 Billion investment into OpenAI. The deal also requires OpenAI to use Amazon’s Tranium 2 chips for training, positioning Amazon as the exclusive third-party cloud host for OpenAI’s automated AI workers Meta’s $100 Billion to AMD - to break free from NVIDIA dependency. This includes Meta buying 6 gigawatts of AI compute and taking a 10% equity stake in AMD Meta going to Google for TPUs is a sign NVIDIA’s monopoly is finally cracking CoreWeave raised $8.5 Bln for data centers backed by a $14.2 billion contract from Meta Together, these three deals represent $135 billion committed in seven days. That’s not venture capital. That’s infrastructure-scale capital reshaping the supply chain in real time. Krea AI \"Core Edit\" Allows users to edit images instantly using only text prompts Region-based editing, object detection and rearrangement, lighting and color control, outpainting to expand images beyond original frames, and natural language editing https://www.krea.ai"
+    },
+    {
+      "index": 22,
+      "title": "Pulsia AI - Runs 3,300 Companies Pulsia AI",
+      "text": "Pulsia AI - Runs 3,300 Companies Pulsia AI - Company That Runs 3,300 Companies https://polsia.com - Created by Ben Serra. These are micro-businesses, outreach bots that perate continuously without human intervention, negotiate deals, sell products through Stripe. The cost of launching a company is now ~$50/mo Legal problems - who is liable when an AI-run company commits fraud, breaches a contract, or harms a customer? The future: one human overseeing dozens or hundreds of AI agents, each running a business. Think of it as a one-person private equity firm, except instead of buying companies, you’re spawning them"
+    },
+    {
+      "index": 23,
+      "title": "Apple vs Nvidia Apple is running LLMs on",
+      "text": "Apple vs Nvidia Apple is running LLMs on its own Apple Silicone chips and planning to deploy its own AI server chips in 2027 ( ACDC = Apple Chips in Data Center ) Apple shifts from Nvidia customer to a competitor Nvidia monopoly is breaking up as Apple, Google, Amazon, and Meta are now relying on their own custom AI silicon At TSMC’s most advanced nodes, Apple and Nvidia now compete head‑to‑head for scarce manufacturing capacity - every 3 nm or 2 nm wafer allocated to Apple’s processors is one less wafer for Nvidia AI GPUs Apple’s tight integration of hardware, software, and services—extending from iPhone chips to in‑house AI data centers—aims to keep AI processing and user data inside the Apple ecosystem If Apple’s approach proves cost‑effective and performant, it encourages other large players to double down on their own custom accelerators, further eroding Nvidia’s long‑term leverage in AI infrastructure Facebook buys Moltbook (Team & Operations) https://www.youtube.com/watch?v=Lfvmlr2vhLY Moltbook was an AI agent social network that emerged during the \"open claw saga,\" where AI agents supposedly interacted on a Reddit-style platform, though it was largely humans prompting the interactions. The acquisition positions Meta to capitalize on the evolving social network landscape where AI agents will likely handle more user tasks like shopping, creating new advertising opportunities through sophisticated prompt injection techniques"
+    },
+    {
+      "index": 24,
+      "title": "AI Updates Anthropic sues Pentagon Anthropic has filed",
+      "text": "AI Updates Anthropic sues Pentagon Anthropic has filed a federal lawsuit against the U.S. Department of Defense after the Pentagon designated the AI company a “supply-chain risk” Anthropic has launched Claude Marketplace This new platform allows enterprise customers with existing Anthropic spending commitments to purchase third-party applications powered by Claude Such as tools from GitLab, Harvey, Replit, Snowflake, and others, with billing handled directly through Anthropic The goal is to simplify procurement and consolidate AI spending while making it easier for companies to access specialized Claude-powered tools built by partners for specific industries and workflows. The move signals that Anthropic sees continued value in SaaS applications enhanced with AI rather than fully replacing them with custom AI workflows Claude Marketplace could allow enterprises to use Claude as a central orchestrator that connects to approved tools and services, though its success will depend on whether businesses adopt the marketplace instead of continuing to build their own AI integrations or using existing partner APIs OpenAI revises military AI deal with US Government after criticism that the original deal was rushed and lacked clear safeguards The updated terms explicitly prohibit using OpenAI’s systems for domestic surveillance of U.S. citizens and require additional approval before intelligence agencies like the NSA can use the technology."
+    },
+    {
+      "index": 25,
+      "title": "Intel 18A Manufacturing Process 2021: Intel announces “5",
+      "text": "Intel 18A Manufacturing Process 2021: Intel announces “5 nodes in 4 years” (Intel 4, 3, 20A, 18A), with RibbonFET and PowerVia planned for 20A/18A 2022–2023: Intel 4 and then Intel 3 enter production for Meteor Lake client and Xeon data‑center chips March 2023: Intel finalizes process rules for Intel 20A and 18A Mid‑2023: PowerVia test chips demonstrate working backside power delivery 2024: Intel deprioritizes 20A for high‑volume client products (Arrow Lake leans heavily on TSMC), using 20A mainly as a learning node 2025: Intel 18A achieves production‑viable defect density and begins risk/early production January 2026: Intel 18A enters high‑volume production; first 18A‑based Core Ultra Series 3 mobile CPUs are announced, with systems shipping during 2026 Intel 18A process, RibbonFET, PowerVia The \"18A\" name refers to 1.8 nm RibbonFET - new type of transistor where the gate surrounds the channel on all sides. This replaces the older \"FinFET\" design to provide better control over electricity, reducing leaks and heat while allowing the chips to get even smaller PowerVia (moving power delivery to the back of the chip) - reduces power loss by 30% and allows for much higher transistor density While TSMC and Samsung are working on similar backside power technologies, they aren't expected to release them until late 2026 or 2027. Intel, however, is already launching products using 18A in 2026. Intel Core Ultra Series 3 (Panther Lake architecture) Major manufacturers like Acer, Dell, and Samsung are already releasing laptops with these processors Intel is also targeting the handheld gaming market, claiming a 70% performance boost for portable devices Ultimately, the 18A process is Intel’s \"all-in\" bet to reclaim its crown as the world's leading chipmaker"
+    },
+    {
+      "index": 26,
+      "title": "Leopold Aschenbrenner Investments $255 Mln into $5.5 Bln",
+      "text": "Leopold Aschenbrenner Investments $255 Mln into $5.5 Bln in ~1.5 years Leopold Aschenbrenner, - 24 y.old investor SITUATIONAL AWARENESS LP (SALP) - hedge fund with 2 clients https://situationalawarenesslp.com His investment strategy is laid out in his 165‑page essay “Situational Awareness,” where he predicts AGI by 2027 how the AI boom will unfold https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf . He is a former OpenAI researcher, famously fired after ~ 1 year Leopold first rode the GPU/chip boom but is now pivoting from “chips to infrastructure.” He has exited major chip names like Nvidia, Broadcom, TSMC, and Micron, arguing that by 2025–2026 the market will have fully priced in GPUs He believes the new bottleneck is energy and infrastructure - so his largest new positions are highly concentrated bets on power and infrastructure The top holding is Bloom Energy, around 20% of the portfolio, which makes modular solid oxide fuel‑cell systems that can generate electricity from natural gas on‑site next to data centers, bypassing stressed local grids He also invests heavily in CoreWeave, a “neo‑cloud” provider that buys GPUs and handles all the painful physical work - racks, power, cooling, engineering - for AI labs He also invests in Core Scientific - a major supplier that helps set up energy grids for CoreWeave The hosts highlight that this lets him sidestep slow, painful permitting: instead of waiting years for grid access like big tech companies, he buys firms that already have it and repurposes them. They admire the simplicity of his logic—Bitcoin miners already have energy and space, AI desperately needs energy and space—and how consistently his earlier GPU thesis has played out. Leopold shorted Infosys, an Indian IT outsourcing company whose model relies on cheap human labor. He’s betting that modern AI coding and IT tools are now good enough to automate much of this work, making such labor‑arbitrage businesses structurally vulnerable. AGI‑by‑2027 prediction, noting a Polymarket contract that puts the probability of OpenAI declaring AGI before 2027 at around 13%. They suggest his investment thesis on infrastructure may still be right even if his timing on AGI is off, and emphasize that so far he has correctly anticipated both the GPU rush and, they think, the emerging energy‑infrastructure rush. https://www.youtube.com/watch?v=04Kutj1vAiw He has bought sizable stakes in Bitcoin mining companies, not for crypto, but for their two scarce assets: power hookups and permitted industrial real estate. The thesis is that these miners can pivot their sites from mining to AI data centers (or sell rights/permits), giving Leopold indirect exposure to critical energy and land"
+    },
+    {
+      "index": 27,
+      "title": "Autoresearch from Andrej Karpathy Autoresearch from Andrej Karpathy",
+      "text": "Autoresearch from Andrej Karpathy Autoresearch from Andrej Karpathy Andrej Karpathy recently introduced autoresearch, an open-source project that transforms a single GPU into an autonomous AI research lab The system uses an AI agent to conduct overnight LLM training experiments without human intervention The agent iteratively modifies a single training file, runs five-minute experiments on a nanochat model, and evaluates performance using validation bits per byte By fixing the time budget, the agent can complete approximately twelve experiments per hour, searching for the most efficient model architecture and hyperparameters for the specific hardware This project demonstrates a shift toward agentic engineering, where AI researchers move from manual coding to overseeing autonomous agents that handle the low-level iteration and optimization of neural networks https://github.com/karpathy/autoresearch https://x.com/karpathy https://www.youtube.com/shorts/g7V0UJv9gT4 https://garryslist.org/posts/karpathy-just-turned-one-gpu-into-a-research-lab-f55754a6 Modeling a fruit fly brain wired as in nature, inside a 3D simulated fly body so behaviors emerge from biology, not trained AI This “uploaded” animal walks and reacts realistically In 1 year: from a 302‑neuron worm to a ~125k‑neuron fly Humans ~ 30...80 Bln (only !!) https://flywire.ai https://x.com/michaelandregg/status/2030764512488677736 https://www.youtube.com/watch?v=N2ccho6ug1w - video"
+    },
+    {
+      "index": 28,
+      "title": "Alibaba’s Qwen Team Restructuring Massive leadership exodus from",
+      "text": "Alibaba’s Qwen Team Restructuring Massive leadership exodus from Alibaba’s Qwen team Tech lead Junyang Lynn and several core contributors resigned after a corporate restructuring that shifted the team from a fast-moving, vertically integrated unit to a fragmented, \"horizontal\" module system managed by Alibaba Cloud This \"geminification\" prioritizes commercial applications over the development of underlying open-source model capabilities. Qwen is currently the world’s most downloaded open-source model family, uniquely specializing in small, efficient language models that run on consumer hardware However, the intense \"consumer AI war\" in China against ByteDance has weakened Alibaba's incentive to give away high-performance models for free If Qwen stops its open-source output, it will leave a massive gap in the practical AI ecosystem that no other company is currently positioned to fill https://www.youtube.com/watch?v=TJ5okrPNmWQ Alibaba Qwen 3.5 Medium This v.3.5 35-Bln outperforms v.3.0 235-Bln params Model efficiency is advancing faster than model scale."
+    },
+    {
+      "index": 29,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 39K  in 2026 (as of March 13, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 55,775 people laid off (775 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs https://jobloss.ai"
+    },
+    {
+      "index": 30,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 31,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Winner: Claude + Claude Code",
+      "topic": "coding",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard OpenAI acquired Promptfoo LeCun's",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 27,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=27s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI acquired Promptfoo",
+      "topic": "openai",
+      "videoSeconds": 95,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=95s",
+      "slideIndex": 3,
+      "slideTitle": "AI Updates OpenAI acquired Promptfoo a startup specializing",
+      "source": "youtube"
+    },
+    {
+      "claim": "LeCun's AMI raises $1B",
+      "topic": "general",
+      "videoSeconds": 112,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=112s",
+      "slideIndex": 3,
+      "slideTitle": "AI Updates OpenAI acquired Promptfoo a startup specializing",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Shows Visuals",
+      "topic": "claude",
+      "videoSeconds": 160,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=160s",
+      "slideIndex": 4,
+      "slideTitle": "Claude Shows Visuals Claude creates interactive charts, diagrams,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Nemotron 3 Super Open 120B params",
+      "topic": "infra",
+      "videoSeconds": 183,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=183s",
+      "slideIndex": 5,
+      "slideTitle": "Nvidia Nemotron 3 Super Open 120B Nvidia Nemotron",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia NemoClaw Open Source - upcoming",
+      "topic": "open-models",
+      "videoSeconds": 241,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=241s",
+      "slideIndex": 6,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Perplexity \"Computer\" Agentic Workflows",
+      "topic": "agents",
+      "videoSeconds": 336,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=336s",
+      "slideIndex": 6,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Devon 2.2 - a fully autonomous AI software engineer",
+      "topic": "jobs",
+      "videoSeconds": 391,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=391s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates Perplexity \"Computer\" Agentic Workflows in your",
+      "source": "youtube"
+    },
+    {
+      "claim": "DataBricks KARL",
+      "topic": "general",
+      "videoSeconds": 423,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=423s",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates DataBricks KARL KARL - Knowledge Agents",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw Recent Updates",
+      "topic": "agents",
+      "videoSeconds": 488,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=488s",
+      "slideIndex": 9,
+      "slideTitle": "OpenClaw Updates OpenClaw Agents Making Money https://www.youtube.com/watch?v=LCkGVCfmtzo Each",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw Agents Making Money",
+      "topic": "agents",
+      "videoSeconds": 534,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=534s",
+      "slideIndex": 9,
+      "slideTitle": "OpenClaw Updates OpenClaw Agents Making Money https://www.youtube.com/watch?v=LCkGVCfmtzo Each",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Phi-4 Reasoning Vision 15B",
+      "topic": "multimodal",
+      "videoSeconds": 566,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=566s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates OpenAI Symphony Coding Tracker Symphony autonomously",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Symphony Coding Tracker",
+      "topic": "openai",
+      "videoSeconds": 582,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=582s",
+      "slideIndex": 11,
+      "slideTitle": "Yuan3.0 Ultra Multimodal Yuan3.0 Ultra Multimodal China's Yuan",
+      "source": "youtube"
+    },
+    {
+      "claim": "Xiaomi launched MClaw",
+      "topic": "general",
+      "videoSeconds": 607,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=607s",
+      "slideIndex": 12,
+      "slideTitle": "Claude Code Scheduling Claude scheduled tasks The first",
+      "source": "youtube"
+    },
+    {
+      "claim": "Yuan3.0 Ultra Multimodal",
+      "topic": "multimodal",
+      "videoSeconds": 646,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=646s",
+      "slideIndex": 12,
+      "slideTitle": "Claude Code Scheduling Claude scheduled tasks The first",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Scheduling, Super Nested Claude Code",
+      "topic": "coding",
+      "videoSeconds": 661,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=661s",
+      "slideIndex": 13,
+      "slideTitle": "Claude Code - Tool Search & Calling Use",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code - Tool Search & Calling",
+      "topic": "coding",
+      "videoSeconds": 731,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=731s",
+      "slideIndex": 14,
+      "slideTitle": "Claude Code is NOT Open Source Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code is better than Cline",
+      "topic": "coding",
+      "videoSeconds": 851,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=851s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates How to Use Claude Cowork as",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude CoWork as Virtual Employee",
+      "topic": "claude",
+      "videoSeconds": 1052,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1052s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates How to Use Claude Cowork as",
+      "source": "youtube"
+    },
+    {
+      "claim": "Elon Musk's Digital Optimus",
+      "topic": "general",
+      "videoSeconds": 1109,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1109s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates KiloClaw Cloud-hosted Alternative to OpenClaw https://www.youtube.com/watch?v=Z9RaLpbPluQ",
+      "source": "youtube"
+    },
+    {
+      "claim": "KiloClaw Cloud-hosted Alternative to OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 1230,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1230s",
+      "slideIndex": 17,
+      "slideTitle": "Superpowers Superpowers GitHub repo for AI Coding Agents",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code + Playwright CLI",
+      "topic": "coding",
+      "videoSeconds": 1254,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1254s",
+      "slideIndex": 18,
+      "slideTitle": "OpenClaw Memory OpenClaw 3-Layer Memory Architecture Layer 1",
+      "source": "youtube"
+    },
+    {
+      "claim": "Superpowers GitHub repo for AI Coding Agents",
+      "topic": "agents",
+      "videoSeconds": 1352,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1352s",
+      "slideIndex": 18,
+      "slideTitle": "OpenClaw Memory OpenClaw 3-Layer Memory Architecture Layer 1",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw Memory",
+      "topic": "agents",
+      "videoSeconds": 1390,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1390s",
+      "slideIndex": 19,
+      "slideTitle": "Moonshots - about OpenClaw OpenClaw is an open-source,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moonshots - about OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 1448,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1448s",
+      "slideIndex": 20,
+      "slideTitle": "AI is transforming education AI is fundamentally transforming",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI is transforming education",
+      "topic": "general",
+      "videoSeconds": 1472,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1472s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Infrastructure Investments - $135 Billion in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Infrastructure Investments - $135 Billion in 7 Days",
+      "topic": "general",
+      "videoSeconds": 1549,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1549s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Infrastructure Investments - $135 Billion in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Krea AI \"Core Edit\"",
+      "topic": "general",
+      "videoSeconds": 1562,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1562s",
+      "slideIndex": 22,
+      "slideTitle": "Pulsia AI - Runs 3,300 Companies Pulsia AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Pulsia AI - Runs 3,300 Companies",
+      "topic": "general",
+      "videoSeconds": 1622,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1622s",
+      "slideIndex": 23,
+      "slideTitle": "Apple vs Nvidia Apple is running LLMs on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple vs Nvidia",
+      "topic": "infra",
+      "videoSeconds": 1652,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1652s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates Anthropic sues Pentagon Anthropic has filed",
+      "source": "youtube"
+    },
+    {
+      "claim": "Facebook buys Moltbook (Team & Operations)",
+      "topic": "general",
+      "videoSeconds": 1722,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1722s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates Anthropic sues Pentagon Anthropic has filed",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic sues Pentagon",
+      "topic": "claude",
+      "videoSeconds": 1763,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1763s",
+      "slideIndex": 25,
+      "slideTitle": "Intel 18A Manufacturing Process 2021: Intel announces “5",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI revises military AI deal with US Government",
+      "topic": "openai",
+      "videoSeconds": 1792,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1792s",
+      "slideIndex": 26,
+      "slideTitle": "Leopold Aschenbrenner Investments $255 Mln into $5.5 Bln",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic has launched Claude Marketplace",
+      "topic": "claude",
+      "videoSeconds": 1807,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1807s",
+      "slideIndex": 27,
+      "slideTitle": "Autoresearch from Andrej Karpathy Autoresearch from Andrej Karpathy",
+      "source": "youtube"
+    },
+    {
+      "claim": "Intel 18A Manufacturing Process",
+      "topic": "general",
+      "videoSeconds": 1833,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1833s",
+      "slideIndex": 27,
+      "slideTitle": "Autoresearch from Andrej Karpathy Autoresearch from Andrej Karpathy",
+      "source": "youtube"
+    },
+    {
+      "claim": "Leopold Aschenbrenner Investments",
+      "topic": "general",
+      "videoSeconds": 1893,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1893s",
+      "slideIndex": 28,
+      "slideTitle": "Alibaba’s Qwen Team Restructuring Massive leadership exodus from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Autoresearch from Andrej Karpathy",
+      "topic": "general",
+      "videoSeconds": 1963,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=1963s",
+      "slideIndex": 29,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Modeling a fruit fly brain",
+      "topic": "general",
+      "videoSeconds": 2008,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=2008s",
+      "slideIndex": 30,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba's Qwen Team Restructuring",
+      "topic": "open-models",
+      "videoSeconds": 2089,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=2089s",
+      "slideIndex": 30,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 2193,
+      "videoUrl": "https://www.youtube.com/watch?v=-5Q0GR9MV50&t=2193s",
+      "slideIndex": 31,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

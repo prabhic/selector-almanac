@@ -1,0 +1,641 @@
+{
+  "id": "2024-01-12-2024-01-12-ai-updates",
+  "date": "2024-01-12",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "benchmarks",
+    "jobs",
+    "rag"
+  ],
+  "video": {
+    "id": "gmcC1FAgFyY",
+    "title": "Have you heard these exciting AI news? - January 12, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+    "thumbnail": "https://i.ytimg.com/vi/gmcC1FAgFyY/hqdefault.jpg",
+    "duration": 2536
+  },
+  "deck": {
+    "path": "2024/2024-01-12-AI-Updates.pptx",
+    "filename": "2024-01-12-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-01-12-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-01-12-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Mamba Outperforms Transformers",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mixtral-8x7B on a laptop",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "deepinfra.com - Mixtral at 54 c/Mtokens",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Latent.Space - Four Wars of the AI Stack",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Open Interpreter - use Local LLM",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GPTStore.AI - 12K GPTs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mixtral paper",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI at Deloitte",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI response to New York Times",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AutoGen Studio",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "TechGPT-2.0",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Pennsylvania State to use OpenAI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Jensen Tung - making money with AI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Google open-sourced 1.6T MoE model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "\"guidde\" - generate video docs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "1x.tech raises 100M",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Local PDF question answering",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Rabbit R1 Large Action Model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI at  CES Consumer Electronics Show",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Arena Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "YALL - Yet Another LLM Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nous Research",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "The AI World",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Are Mass Layoffs Coming?",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "New Jobs from AI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ArXiv.org - submit papers",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tiny LLMs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Monarch Mixer (M2) Retrieval Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Distilling Language Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "CloudFlare for your website",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates January 12, 2024 Mamba Outperforms Transformers",
+      "text": "AI Updates January 12, 2024 Mamba Outperforms Transformers Mixtral-8x7B on a laptop deepinfra.com - Mixtral at 54 c/Mtokens Latent.Space - Four Wars of the AI Stack Open Interpreter - use Local LLM GPTStore.AI - 12K GPTs Mixtral paper AI at Deloitte OpenAI response to New York Times AutoGen Studio TechGPT-2.0 Pennsylvania State to use OpenAI Jensen Tung - making money with AI Google open-sourced 1.6T MoE model \"guidde\" - generate video docs 1x.tech raises 100M Local PDF question answering Rabbit R1 Large Action Model AI at  CES Consumer Electronics Show AI Leaderboard Arena Leaderboard YALL - Yet Another LLM Leaderboard Nous Research The AI World Are Mass Layoffs Coming? New Jobs from AI ArXiv.org - submit papers Tiny LLMs Monarch Mixer (M2) Retrieval Models Distilling Language Models CloudFlare for your website"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Mamba Mamba: Linear-Time Sequence Modeling with Selective State",
+      "text": "Mamba Mamba: Linear-Time Sequence Modeling with Selective State Spaces - by Albert Gu (CMU), Tri Dao (Stanford/Princeton) https://arxiv.org/abs/2312.00752 https://blog.oxen.ai/mamba-linear-time-sequence-modeling-with-selective-state-spaces-arxiv-dives/ Mamba inference is 5x faster than Transformers. It scales linearly instead of O(N 2 ) with the length of the sequence - thus it can scale to million-length sequences. MoE-Mamba: Efficient Selective State Space Models with Mixture of Experts - https://arxiv.org/abs/2401.04081 - https://www.youtube.com/watch?v=tZD3-uO0RJ0 - video MoE-Mamba, outperforms both Mamba and Transformer-MoE. It reaches performance of Mamba in 2.2x less training steps while preserving the inference performance gains of Mamba against the Transformer. Gated Linear Attention Transformers with Hardware-Efficient Training - 5 authors, MIT-IBM - https://arxiv.org/abs/2312.06635 U-Mamba: Enhancing Long-range Dependency for Biomedical Image Segmentation - https://arxiv.org/abs/2401.04722 U-Mamba outperforms state-of-the-art CNN-based and Transformer-based segmentation networks SSMs (State Space Sequence Models) challenge the dominance of Transformers. S4 = Structured State Space for Sequence Modeling: https://srush.github.io/annotated-s4/ https://www.youtube.com/watch?v=GqwhkbrWDOI SSM = any recurrent process with a latent space. SSM is just a version of a RRN (Recurrent Neural Net). GRUs and LSTMs - gated networks (gates used to select what to remember as you go along the sequence) Sequence modeling is the art of compressing context into a smaller state (for example, by selecting ), and then using it to predict the output sequence. Attention does not compress the context at all. Mamba : provides a selection mechanism to filter out irrelevant information, and a hardware aware algorithm that computes the model recurrently but does not materialize in the expanded state, optimizing for GPU memory layouts."
+    },
+    {
+      "index": 4,
+      "title": "Efficient inference of Mixtral-8x7B on a laptop run",
+      "text": "Efficient inference of Mixtral-8x7B on a laptop run Mixtral on Nvidia 3060 with 12GB ! https://arxiv.org/abs/2312.17238 - paper https://github.com/dvmazur/mixtral-offloading https://twitter.com/rohanpaul_ai/status/1741103866047869222 - Stream model during Inference! - Just-In-Time Loading of model layers! Since most deep learning models use layers in a fixed order, offloading can pre-dispatch the next layer parameters in the background, ahead of time. Mixed quantization with HQQ - separate quantization schemes for attention layers and experts to fit the model into the combined GPU and CPU memory. MoE offloading strategy - each expert per layer is offloaded separately and only brought pack to GPU when needed. LRU cache (Least Recently Used) is used to reduce GPU-RAM communication when computing activations for adjacent tokens. Demo notebook: https://github.com/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb Artyom Eliseev Yandex School of Data Analysis https://github.com/lavawolfiee Moscow Institute of Physics and Technology Yandex Denis Mazur Yandex Researchcore https://github.com/dvmazur"
+    },
+    {
+      "index": 5,
+      "title": "deepinfra.com DeepInfra is a startup offering open-source models",
+      "text": "deepinfra.com DeepInfra is a startup offering open-source models at very low rates via simple API - pay only for usage https://deepinfra.com https://twitter.com/DeepInfra https://venturebeat.com/data-infrastructure/deepinfra-emerges-from-stealth-with-8m-to-make-running-ai-inferences-more-affordable/ Mixtral rates -  (in/out) in $ per Million tokens: ($0.6  / $1.8 ) from Mistral ($0.4  / $1.6 ) from Fireworks.AI ($0.6  / $0.6 ) from Together AI ($0.14 / $0.56) from Perplexity ($0.5  / $0.5 ) from Anyscale ($0.2  / $0.5 ) from OctoAI (formerly OctoML) ($0.3  / $0.3 ) from Abacus AI down from original ($2/$2)! ($0.27 / $0.27) from Deepinfra “free”          on OpenRouter, but rate limited Model in $/Mt out $/Mt total Google Gemini Pro 1 2 3 Antropic Claude-2 8 24 32 AnyScale Mistral-7b 0.15 0.15 0.3 AnyScale Mixtral-8x7b 0.5 0.5 1 AnyScale Llama-2-70b 1 1 2 Mistral tiny 7b 0.14 0.42 0.56 Mistral small 8X7b 0.6 1.8 2.4 Mistral medium 2.5 7.5 10 Together AI Llama-2-70b 0.9 0.9 1.8 Together AI 8X7b 0.6 0.6 1.2 OpenAI gpt-4-turbo 10 30 40 OpenAI gpt-3.5-turbo 1 2 3"
+    },
+    {
+      "index": 6,
+      "title": "Latent.Space Latent.Space is: a technical newsletter a podcast",
+      "text": "Latent.Space Latent.Space is: a technical newsletter a podcast - top 10 in US Tech! audio and video a community (online and in person) by and for the rising class of AI Engineers, focusing on the business and technology of this new AI summer. https://www.latent.space/about https://www.youtube.com/@LatentSpaceTV https://www.latent.space/p/dec-2023 The Four Wars of the AI Stack The Data Wars (rights, deals, law suits, synthetic data) The War of the GPU power & pricing The Multimodality War - Midjourney, Assembly AI, Replicate, Suno AI, Stability.AI, OpenAI, Google The RAG/Ops War - Vector DB, https://turbopuffer.com - serverless vector DB - LangChain vs LlamaIndex - LLMOps - https://humanloop.com , https://www.openlayer.com LangSmith - https://docs.smith.langchain.com Martian - https://withmartian.com - dynamic LLM router for higher performance"
+    },
+    {
+      "index": 7,
+      "title": "Open Interpreter Open Interpreter allows you to run",
+      "text": "Open Interpreter Open Interpreter allows you to run code using LLM. Now you can do it using local LLM ! https://github.com/KillianLucas/open-interpreter https://www.youtube.com/watch?v=xPd8FFzIeOw - video demo https://openinterpreter.com Note: use \"bash\" pip install open-interpreter interpreter # start running it interpreter --local # use local LLM from LMStudio interpreter  --vision # in \"vision\" mode interpreter --help usage: interpreter [-h] [-ci CUSTOM_INSTRUCTIONS] [-s SYSTEM_MESSAGE] [-y] [-v] [-m MODEL] [-t TEMPERATURE] [-lsv] [-lsf] [-c CONTEXT_WINDOW] [-x MAX_TOKENS] [-b MAX_BUDGET] [-ab API_BASE] [-ak API_KEY] [-av API_VERSION] [-xo MAX_OUTPUT] [-fc] [-dt] [-o] [-sm] [-safe {off,ask,auto}] [-cf CONFIG_FILE] [-f] [-l] [-vi] [-os] [--config] [--reset_config]  [--conversations] [--version]"
+    },
+    {
+      "index": 8,
+      "title": "GPTStore.AI https://gptstore.ai https://chat.openai.com/gpts https://www.youtube.com/watch?v=ZbVjyQyVaWw https://www.youtube.com/watch?v=NOpmy7Kqgok Protect your prompt",
+      "text": "GPTStore.AI https://gptstore.ai https://chat.openai.com/gpts https://www.youtube.com/watch?v=ZbVjyQyVaWw https://www.youtube.com/watch?v=NOpmy7Kqgok Protect your prompt and data: https://www.youtube.com/watch?v=Ey2Wt1heba4 \"Save for All\", create builder profile, start earning (in Q1, based on user engagement) AI Tool Explorer https://chat.openai.com/g/g-YFQNFNgSM-ai-tool-explorer https://gptsdex.com"
+    },
+    {
+      "index": 9,
+      "title": "Misc - 1 OpenAI strikes back against New",
+      "text": "Misc - 1 OpenAI strikes back against New York Times https://www.youtube.com/watch?v=m1kK8EDqqB0 Seems that NYT basically faked evidence by manipulating prompts and chat history to trick ChatGPT to provide the answers So NYT is lying to push their own agenda - and even demands the destruction of OpenAI's LLMs LLMs are not storing the original texts - they store statistical data, which is NOT copywritable Deloitte is the largest professional services network ~$65 Bln Revenue ~457K employees Deloitte AI Institute CortexAI Platform for AI, analytics, and data solutions. Quartz Frontline AI (conversational AI) https://www2.deloitte.com https://www2.deloitte.com/us/en/misc/search.html?qr=AI https://www2.deloitte.com/us/en/pages/consulting/articles/ai-dossier.html Hiring AI talent (\"Dialog Engineer\", \"Prompt Engineer\", ...) Internal AI research and development Partnerships and collaborations (Google, OpenAI, ...) Publications and events Mixtral paper \"Mixtral of Experts\" 26 authors Paper: https://arxiv.org/pdf/2401.04088.pdf Video: https://www.youtube.com/watch?v=8XTHLhwX0UQ Code: https://github.com/mistralai/mistral-src Webpage: https://mistral.ai/news/mixtral-of-experts/ Huggingface: https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1"
+    },
+    {
+      "index": 10,
+      "title": "Misc - 2 AutoGen Studio https://microsoft.github.io/autogen/blog/2023/12/01/AutoGenStudio/ TechGPT-2.0: A",
+      "text": "Misc - 2 AutoGen Studio https://microsoft.github.io/autogen/blog/2023/12/01/AutoGenStudio/ TechGPT-2.0: A LLM for knowledge graph construction https://arxiv.org/abs/2401.04507v1 https://github.com/neukg/TechGPT-2.0 Not a single commercial LLM can sort the list of ~100 references according to the last name of the first author https://twitter.com/kchonyc/status/1745151497258872989 Importance of proper prompting: Depending on the format used in few-shot prompting, you may get accuracies: 4%-88% with LLaMA-2-70B 5-shot 47%-85% w/GPT3.5 https://twitter.com/melaniesclar/status/1745557109419458695 https://arxiv.org/abs/2310.11324 Pennsylvania State started a collaboration with OpenAI . State employees will use ChatGPT Enterprise to assist in various tasks such as creating and editing copy, updating policy language, drafting job descriptions, and generating code. https://www.governor.pa.gov/newsroom/shapiro-administration-and-openai-launch-first-in-the-nation-generative-ai-pilot-for-commonwealth-employees/"
+    },
+    {
+      "index": 11,
+      "title": "Misc - 3 Jensen Tung - multiple ideas",
+      "text": "Misc - 3 Jensen Tung - multiple ideas on making money with AI https://www.youtube.com/@jensentung AI agents working together to analyze, discuss, and reach consensus on medical topics . https://github.com/gersteinlab/medagents Google open sources 1.6T MoE model: Switch Transformers C - 2048 experts (1.6T parameters for 3.1 TB) - 2022 https://huggingface.co/google/switch-c-2048 https://arxiv.org/pdf/2101.03961.pdf OpenAI says it’s “impossible” to create useful AI models without copyrighted material https://arstechnica.com/information-technology/2024/01/openai-says-its-impossible-to-create-useful-ai-models-without-copyrighted-material/ guidde - generative AI to create video docs 11x faster https://www.guidde.com 1x raises $100M in ser.B humanoid robots https://www.1x.tech"
+    },
+    {
+      "index": 12,
+      "title": "Local PDF question answering PDF Expert - local",
+      "text": "Local PDF question answering PDF Expert - local PDF viewer/editor now has AI Chat: Generate Summary List Main Points Generate Keywords Generate Hashtags Ask Anything about the doc https://pdfexpert.com/blog/introducing-ai-chat chatd - your own private local AI that can read files on your computer. Chat with your documents! https://www.chatd.ai https://github.com/BruceMacD/chatd powered by Ollama, uses Mistral-7B model Available on Mac, Windows, Linux h2oGPT - private local GPT (Mac, Windows, Linux) Can use local LLM and local database, or online APIs Can work on local PDFs and other docs .. https://github.com/h2oai/h2ogpt .. https://gpt.h2o.ai - online GUI Other options: PrivateGPT LocalGPT GPT4All"
+    },
+    {
+      "index": 13,
+      "title": "Rabbit R1 AI Pocket Companion Rabbit R1 -",
+      "text": "Rabbit R1     AI Pocket Companion Rabbit R1 - NEW Personal AI AGENT - $199 Received 20K+ orders in first 48 hrs! Rabbit Inc. - a startup founded in 2020, from Y Combinator program, Los Angeles, $30 Mln in funding https://voicebot.ai/2024/01/08/generative-ai-hardware-startup-rabbit-reaches-30m-in-funding-round/ r1 device - collaboration with Swedish firm Teenage Engineering - can interpret natural language requests and navigate various apps accordingly LAM = Large Action Model - Learning human actions on different computer applications. AI learns how to work with apps itself without need for an API. r1 can learn directly from human interaction with apps , bypassing the need for standard APIs. The R1's cool feature is its training mode, where you can teach it new tasks. It learns quickly - in just 30 seconds, it's ready to go. video - https://www.youtube.com/watch?v=22wlLy7hKP4 video - https://www.youtube.com/watch?v=DlnJlG1SOZo web - https://www.rabbit.tech .. https://www.rabbit.tech/updates/introducing-r1 .. https://www.rabbit.tech/rabbit-os .. https://twitter.com/rabbit_hmi Jesse Lyu CEO & Founder https://www.linkedin.com/in/jesselyu/ Peiyuan Liao CTO & Co-Founder Kaggle Grandmaster researcher at Carnegie Mellon https://www.linkedin.com/in/peiyuan-liao/"
+    },
+    {
+      "index": 14,
+      "title": "AI dominates Consumer Electronics Show AI dominates CES",
+      "text": "AI dominates Consumer Electronics Show AI dominates CES 2024 (Consumer Electronics Show) in Las Vegas, Jan 9-12. https://www.ces.tech more than 130,000 attendees over 4,000 exhibitors from more than 150 countries over 1,200 startups 12 official venues, 2+ Mln square feet of exhibit space Robots, Gadgets, Home, Automotive, ... https://www.youtube.com/watch?v=44mh6JiHQ8I https://www.youtube.com/watch?v=qu6i2lgc-uY - video review by Patrick Shyu, a.k.a. TechLead . Lots of talk, not so much implementation yet. Partnerships (for example, auto + electronics, ...), drone delivery, kitchen AI, wearables, ..."
+    },
+    {
+      "index": 15,
+      "title": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "text": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py January 12, 2024 01.ai Mixtral Llama Mixtral 01.ai 01.ai Alibaba 01.ai Llama Llama Llama Llama"
+    },
+    {
+      "index": 16,
+      "title": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard Jan 9, 2024 54",
+      "text": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard Jan 9, 2024 54 Models 214K+ votes Starting Elo rating = 1000 for each model 95% CI = Confidence Interval 7B 7B 7B 47B What is the architecture of Mistral Medium? It is probably MoE ? 8x30b ?  32x7b ? https://www.reddit.com/r/LocalLLaMA/comments/18m2t0z/deducing_mistral_medium_size_from_pricing_is_it_a/"
+    },
+    {
+      "index": 17,
+      "title": "YALL - Yet Another LLM Leaderboard https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard Leaderboard",
+      "text": "YALL - Yet Another LLM Leaderboard https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard Leaderboard made with LLM AutoEval using Nous benchmark suite."
+    },
+    {
+      "index": 18,
+      "title": "Nous Research Nous Research received $5.2 Mln financing",
+      "text": "Nous Research Nous Research received $5.2 Mln financing https://twitter.com/NousResearch/status/1744865872563618128 Nous Research focuses mainly on two key areas of machine learning: data synthesis and fine-tuned large language models (LLMs). https://huggingface.co/NousResearch Hermes - uncensored LLM YaRN - LLaMa-2 based LLM with 128K context window Capybara model Puffin Model Obsidian - worlds smallest multi-modal LLM (3B) .. https://nousresearch.com .. https://github.com/NousResearch"
+    },
+    {
+      "index": 19,
+      "title": "The AI World Nov 30, 2022 - ChatGPT",
+      "text": "The AI World Nov 30, 2022 - ChatGPT release has pushed many companies to completely change their agenda and to re-organize around AI 2023 - year of discoveries, POCs 2024 - year of deployments AI Research: .. Berkeley, Carnegie Mellon, MIT, ... .. OpenAI .. Microsoft .. Meta .. Mistral.ai .. Stability.ai .. Anthropic .. Google DeepMind .. 01.ai .. X.ai .. Inflection.ai .. IBM Cloud Platforms: .. Microsoft, Azure .. Hugging Face .. Amazon Bedrock .. AWS EC2 .. Google Vertex AI .. Google CoLab .. IBM Watson .. Nvidia .. cloud.vast.ai .. paperspace.com .. LambdaLabs .. brev.dev Tools: .. RAG tools: Vector DBs, Graph DBs, PostgreSQL .. AutoGen .. TaskWeaver .. CrewAI .. MemGPT .. vLLM + AutoAWQ AI Chips: .. Nvidia .. Google TPUs .. Microsoft .. OpenAI .. Meta .. Apple .. Rain NPU ..  Cerebras Software: .. Python, PyTorch, JAX .. Rust Candle .. Nvidia CUDA, cuDNN, TensorRT SDK, DeepStream SDK, ... .. HuggingFace python modules (datasets, transformers) models, datasets, ... .. LangChain, LlamaIndex .. Apple MLX Model Training, Fine-tuning: .. HuggingFace .. Axolotl .. LoRA, QLoRA, S-LoRA .. wandb.ai (weights & biases) .. fast.ai Model Safety: .. Meta Purple Llama Front-End Dev: .. LangChain Studio .. Windows AI Studio .. AutiGen Studio .. Streamlit, Flask, Gradio .. voiceflow.com .. Text Generation WebUI Cloud App Dev: .. Hugging Face .. platform.openai.com .. Cohere.com .. RunPod.io .. replit.com + voiceflow.com .. chatbase.co Local Apps: .. Ollama .. LMStudio .. GPT4All .. MLC LLM .. PrivateGPT .. h2oGPT Datasets: .. HuggingFace .. Orca2, Open Orca .. Dolphin .. scale.com Chats: .. ChatGPT .. Bard .. Claude .. labs.perplexity.ai .. llama2.ai .. pi.ai AI Coding Tools: .. GPT Pilot in VS Code .. GitHub Copilot .. Google’s Duet AI .. JetBrains AI IDEs"
+    },
+    {
+      "index": 20,
+      "title": "Are Mass Layoffs Coming Soon? Are Mass Layoffs",
+      "text": "Are Mass Layoffs Coming Soon? Are Mass Layoffs Coming Soon? https://www.youtube.com/watch?v=5w-9wpAR1NQ Mass Layoffs are likely because of: .. recession .. cutting cost via optimization (using AI) https://www.warntracker.com \"I Lost My Job Thanks to This AI Tool\" https://www.youtube.com/watch?v=0Q4UOdIQJZQ Examples of (massive) firings already happening: translation , data entry, call center representatives, bank tellers, fraud detection specialists, meteorologists, manufacturing - assembly jobs, defect detection, travel agents / assistants Amazon, Walmart - lots of human-free solutions (for example, picking, packing, shipping orders) At risk: truck drivers, librarians, entry-level programmers, legal assistants, writers, editors, proof-reading Google cuts over 1,000 jobs in its voice assistance, hardware teams as Fitbit founders leave https://techcrunch.com/2024/01/10/google-cuts-hundreds-of-jobs-in-its-voice-assistance-hardware-teams-as-fitbit-founders-leave/"
+    },
+    {
+      "index": 21,
+      "title": "New Jobs The rise of the novice coder:",
+      "text": "New Jobs The rise of the novice coder: Can AI turn every employee into a developer? - by Reed Albergotti - technology editor at Semafor https://www.semafor.com/article/10/04/2023/ai-is-spurring-the-rise-of-the-novice-coder AI Operations and AI Engineer https://www.youtube.com/watch?v=biIpkIvl5mE AI Architect AI Engineer (not an ML Engineer) AI Operations https://twitter.com/karpathy/status/1674873002314563584 https://www.latent.space/p/ai-engineer https://news.theaiexchange.com/p/premium-defining-ai-operations-new-cohorts-announced How do you build an AI-powered business ? https://twitter.com/rachel_l_woods/status/1684203209475121155 In some companies the managers explicitly warn their people that they may be pushed out of the company (lose their jobs) if they will not learn and start using AI to become more productive How to integrate AI tools into real workflows? - What should people learn - Who should businesses hire - Where should businesses start - Why do certain things - Why not do other things - What ethical guardrails should exist - etc."
+    },
+    {
+      "index": 22,
+      "title": "ArXiv.org arXiv is a free distribution service and",
+      "text": "ArXiv.org arXiv is a free distribution service and an open-access archive for ~ 2.4 Mln scholarly articles (physics, math, CS, biology, finance, statistics, electrical engineering and systems science, and economics). Materials are NOT peer-reviewed by arXiv. Paul Ginsparg Cornell Physics Professor Started arXiv in 1991 In 1989, Joanne Cohn , a physicist then at the Institute for Advanced Study, began distributing TeX files of string theory papers via email. https://en.wikipedia.org/wiki/Joanne_Cohn By August of 1991, the email list had grown to 180 physicists—an unwieldy number for Cohn to individually respond to requests for papers. As Cohn recounts, a young physicist then at Los Alamos National Laboratory offered to automate the list, and arXiv was born. “Day one, something happened, day two, something happened. Day three, Ed Witten posted a paper,” said Cornell University physicist Paul Ginsparg , founder of arXiv.org . “That was when the entire community joined.” Cornell University"
+    },
+    {
+      "index": 23,
+      "title": "Submission Guidelines: https://info.arxiv.org/help/submit/index.html If first time - register",
+      "text": "Submission Guidelines: https://info.arxiv.org/help/submit/index.html If first time - register (create account) on arXiv.org (email, username, password, ...) You may need an endorsement: https://info.arxiv.org/help/endorsement.html Follow arXiv's guidelines for formatting your paper (TeX/LaTeX or PDF) For example, use Google Docs to create your article, then download it as PDF: https://info.arxiv.org/help/submit_pdf.html Log in to your arXiv account, select Submit; fill out the necessary metadata (title, authors, abstract, and subject classification), then upload your PDF file and any supplemental material, select the appropriate subject area for your paper - and click Submit; then select Arxiv.org, download the zip file with submission files, then upload the zip file to arXiv All members must comply with arXiv's Code of Conduct. https://info.arxiv.org/help/policies/code_of_conduct.html Common Subjects for LLM articles: Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Computation and Language (cs.CL) ArXiv.org - submit papers"
+    },
+    {
+      "index": 24,
+      "title": "Tiny LLMs - 1B, 3B, 7B Small models",
+      "text": "Tiny LLMs - 1B, 3B, 7B Small models are great because they can be easily trained/fine-tuned as needed for specific narrow tasks - and can run \"on Edge\" devices The Best Tiny LLMs (less than 3B parameters) .. https://www.geeky-gadgets.com/the-best-tiny-small-and-compact-llms-currently-available/ .. https://www.youtube.com/watch?v=yxWUHDfix_c Here are some tiny models to consider: Phi 2 - 2.7B params - Microsoft https://huggingface.co/microsoft/phi-2 DeepSeek Coder 1.3B params, trained on 2T tokens, multiple programming languages https://huggingface.co/deepseek-ai/deepseek-coder-1.3b-instruct TinyLlama 1.1B params, pre-trained on 3T tokens https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0 Trelis Tiny - 1.3B params, function calling, fast https://huggingface.co/Trelis/Tiny StableLM Zephyr 3B - 3B params https://huggingface.co/stabilityai/stablelm-zephyr-3b Phixtral - Mixture of Experts based on Phi-2 https://huggingface.co/mlabonne/phixtral-2x2_8 Offline AI on iOS & Android (training and fine-tuning) - by Siraj Raval https://www.youtube.com/watch?v=c8YM15v9w8M Doctor Dignity - a LLM that can pass the US Medical Licensing Exam, based on LLaMa-7B https://github.com/llSourcell/Doctor-Dignity Mistral 7B - tuned versions Starling-LM-7B-alpha https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha OpenHermes-2.5-Mistral-7B https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B openchat_3.5 https://huggingface.co/openchat/openchat_3.5 Mistral 7B locally on iPhone or iPad https://www.youtube.com/watch?v=5QEDNZlDf-c using TestFlight to install LLMFarm , an open-source client supporting Apple Silicon https://testflight.apple.com https://llmfarm.site"
+    },
+    {
+      "index": 25,
+      "title": "Monarch Mixer (M2) Long-Context Retrieval Models with Monarch",
+      "text": "Monarch Mixer (M2) Long-Context Retrieval Models with Monarch Mixer (M2) https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval Monarch Mixer (M2) is a recent model family developing attention-free and MLP-free BERT models, which are enabling long-context BERT models. January 11, 2024 - new models: .. long-context versions of M2-BERT up to 32K context length, .. embedding versions fine-tuned for long-context retrieval also: a long-context retrieval benchmark called LoCo"
+    },
+    {
+      "index": 26,
+      "title": "Distilling Language Models https://github.com/genezc/minima Language model (LM) distillation",
+      "text": "Distilling Language Models https://github.com/genezc/minima Language model (LM) distillation - distil the knowledge resided in a large teacher LM to a small student LM . Difficult to do when there is a large capacity gap between the teacher and the student. Curse of capacity gap : a larger teacher LM cannot always lead to a better student LM if there is a big gap between them. Good news - the optimal capacity gap is (almost) consistent across different student scales and architectures. Distil a 3B student LM (termed MiniMA) from a 7B teacher LM (adapted LLaMA2-7B) - great results. MiniMA can even compete with 7B models."
+    },
+    {
+      "index": 27,
+      "title": "Use Cloudflare to make a simple static website",
+      "text": "Use Cloudflare to make a simple static website https://www.cloudflare.com https://en.wikipedia.org/wiki/Cloudflare Cloudflare is an American company ( in San Francisco, CA) that provides CDN (Content Delivery Network) services, cloud cybersecurity, DDoS mitigation , ICANN-accredited domain registration services . Think of it as a giant intelligent network spread across hundreds of cities around the world. Cloudflare acts as a security guard, filtering malicious traffic and protecting websites from DDoS attacks, data breaches, and other online threats. It encrypts connections (HTTPS), offers two-factor authentication, and provide many other services. Suppose you want to create a simple static website. You can use CloudFlare to: Brainstorm the domain name - and register it Set up DNS and redirects Integrate with Google workspace (for gmail) Host a simple static website (up to 25 MB) You can upload files to \"pages\" either from your computer, or from GitHub. Easy. So CloudFlare is perfect for a short \"business card\"-like website to keep your BIO, resume, and other related files"
+    },
+    {
+      "index": 28,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Mamba Outperforms Transformers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates January 12, 2024 Mamba Outperforms Transformers",
+      "source": "outline"
+    },
+    {
+      "claim": "Mixtral-8x7B on a laptop",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "deepinfra.com - Mixtral at 54 c/Mtokens",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 3,
+      "slideTitle": "Mamba Mamba: Linear-Time Sequence Modeling with Selective State",
+      "source": "outline"
+    },
+    {
+      "claim": "Latent.Space - Four Wars of the AI Stack",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 4,
+      "slideTitle": "Efficient inference of Mixtral-8x7B on a laptop run",
+      "source": "outline"
+    },
+    {
+      "claim": "Open Interpreter - use Local LLM",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 5,
+      "slideTitle": "deepinfra.com DeepInfra is a startup offering open-source models",
+      "source": "outline"
+    },
+    {
+      "claim": "GPTStore.AI - 12K GPTs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 6,
+      "slideTitle": "Latent.Space Latent.Space is: a technical newsletter a podcast",
+      "source": "outline"
+    },
+    {
+      "claim": "Mixtral paper",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 6,
+      "slideTitle": "Latent.Space Latent.Space is: a technical newsletter a podcast",
+      "source": "outline"
+    },
+    {
+      "claim": "AI at Deloitte",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 7,
+      "slideTitle": "Open Interpreter Open Interpreter allows you to run",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI response to New York Times",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 8,
+      "slideTitle": "GPTStore.AI https://gptstore.ai https://chat.openai.com/gpts https://www.youtube.com/watch?v=ZbVjyQyVaWw https://www.youtube.com/watch?v=NOpmy7Kqgok Protect your prompt",
+      "source": "outline"
+    },
+    {
+      "claim": "AutoGen Studio",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 9,
+      "slideTitle": "Misc - 1 OpenAI strikes back against New",
+      "source": "outline"
+    },
+    {
+      "claim": "TechGPT-2.0",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 10,
+      "slideTitle": "Misc - 2 AutoGen Studio https://microsoft.github.io/autogen/blog/2023/12/01/AutoGenStudio/ TechGPT-2.0: A",
+      "source": "outline"
+    },
+    {
+      "claim": "Pennsylvania State to use OpenAI",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 11,
+      "slideTitle": "Misc - 3 Jensen Tung - multiple ideas",
+      "source": "outline"
+    },
+    {
+      "claim": "Jensen Tung - making money with AI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 12,
+      "slideTitle": "Local PDF question answering PDF Expert - local",
+      "source": "outline"
+    },
+    {
+      "claim": "Google open-sourced 1.6T MoE model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 13,
+      "slideTitle": "Rabbit R1 AI Pocket Companion Rabbit R1 -",
+      "source": "outline"
+    },
+    {
+      "claim": "\"guidde\" - generate video docs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 14,
+      "slideTitle": "AI dominates Consumer Electronics Show AI dominates CES",
+      "source": "outline"
+    },
+    {
+      "claim": "1x.tech raises 100M",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 15,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "Local PDF question answering",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 15,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "Rabbit R1 Large Action Model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 16,
+      "slideTitle": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard Jan 9, 2024 54",
+      "source": "outline"
+    },
+    {
+      "claim": "AI at  CES Consumer Electronics Show",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 17,
+      "slideTitle": "YALL - Yet Another LLM Leaderboard https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard Leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 18,
+      "slideTitle": "Nous Research Nous Research received $5.2 Mln financing",
+      "source": "outline"
+    },
+    {
+      "claim": "Arena Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 19,
+      "slideTitle": "The AI World Nov 30, 2022 - ChatGPT",
+      "source": "outline"
+    },
+    {
+      "claim": "YALL - Yet Another LLM Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 20,
+      "slideTitle": "Are Mass Layoffs Coming Soon? Are Mass Layoffs",
+      "source": "outline"
+    },
+    {
+      "claim": "Nous Research",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 21,
+      "slideTitle": "New Jobs The rise of the novice coder:",
+      "source": "outline"
+    },
+    {
+      "claim": "The AI World",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 22,
+      "slideTitle": "ArXiv.org arXiv is a free distribution service and",
+      "source": "outline"
+    },
+    {
+      "claim": "Are Mass Layoffs Coming?",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 23,
+      "slideTitle": "Submission Guidelines: https://info.arxiv.org/help/submit/index.html If first time - register",
+      "source": "outline"
+    },
+    {
+      "claim": "New Jobs from AI",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 24,
+      "slideTitle": "Tiny LLMs - 1B, 3B, 7B Small models",
+      "source": "outline"
+    },
+    {
+      "claim": "ArXiv.org - submit papers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 24,
+      "slideTitle": "Tiny LLMs - 1B, 3B, 7B Small models",
+      "source": "outline"
+    },
+    {
+      "claim": "Tiny LLMs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 25,
+      "slideTitle": "Monarch Mixer (M2) Long-Context Retrieval Models with Monarch",
+      "source": "outline"
+    },
+    {
+      "claim": "Monarch Mixer (M2) Retrieval Models",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 26,
+      "slideTitle": "Distilling Language Models https://github.com/genezc/minima Language model (LM) distillation",
+      "source": "outline"
+    },
+    {
+      "claim": "Distilling Language Models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 27,
+      "slideTitle": "Use Cloudflare to make a simple static website",
+      "source": "outline"
+    },
+    {
+      "claim": "CloudFlare for your website",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gmcC1FAgFyY",
+      "slideIndex": 28,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

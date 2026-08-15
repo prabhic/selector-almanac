@@ -1,0 +1,817 @@
+{
+  "id": "2025-09-12-2025-09-12-ai-updates",
+  "date": "2025-09-12",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "benchmarks",
+    "claude",
+    "open-models",
+    "agents",
+    "infra",
+    "multimodal",
+    "coding",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "d7cLd9QPKeQ",
+    "title": "Have you heard these exciting AI news? - September 12, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=d7cLd9QPKeQ",
+    "thumbnail": "https://i.ytimg.com/vi/d7cLd9QPKeQ/hqdefault.jpg",
+    "duration": 2348
+  },
+  "deck": {
+    "path": "2025/2025-09-12-AI-Updates.pptx",
+    "filename": "2025-09-12-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-09-12-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-09-12-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "OpenAI: \"avoid hallucinations by abstaining when unsure\"",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI on Hallucinations",
+      "startSeconds": 26,
+      "label": "00:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 155,
+      "label": "02:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Geoffrey Hinton warns about LLMs' Manipulations",
+      "startSeconds": 190,
+      "label": "03:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Thinking Machines Lab Blog",
+      "startSeconds": 208,
+      "label": "03:28",
+      "source": "youtube"
+    },
+    {
+      "title": "K2-Think 32B & Baidu ERNIE-4.5-21B-A3B",
+      "startSeconds": 248,
+      "label": "04:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude works with MS Office and PDFs",
+      "startSeconds": 379,
+      "label": "06:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Shifts Office 365 AI to Anthropic Claude",
+      "startSeconds": 458,
+      "label": "07:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Peter Diamandis about AI",
+      "startSeconds": 464,
+      "label": "07:44",
+      "source": "youtube"
+    },
+    {
+      "title": "ByteDance Seedream 4.0 Image Model",
+      "startSeconds": 591,
+      "label": "09:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Databricks secured $1B at $100B valuation",
+      "startSeconds": 619,
+      "label": "10:19",
+      "source": "youtube"
+    },
+    {
+      "title": "The Rundown AI - life-changing prompts",
+      "startSeconds": 675,
+      "label": "11:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Veo 3 and Veo 3 Fast",
+      "startSeconds": 751,
+      "label": "12:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Mistral Valuation $14B",
+      "startSeconds": 763,
+      "label": "12:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Oracle's stock surged by 40% Wednesday",
+      "startSeconds": 804,
+      "label": "13:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Cognition Raises $400M at $10.2B Valuation",
+      "startSeconds": 853,
+      "label": "14:13",
+      "source": "youtube"
+    },
+    {
+      "title": "MCP Registry",
+      "startSeconds": 884,
+      "label": "14:44",
+      "source": "youtube"
+    },
+    {
+      "title": "The Training Imperative",
+      "startSeconds": 900,
+      "label": "15:00",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Gross Margins in 2025",
+      "startSeconds": 928,
+      "label": "15:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Multi-word prediction",
+      "startSeconds": 948,
+      "label": "15:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Moonshot AI Kimi-K2-Instruct-0905",
+      "startSeconds": 976,
+      "label": "16:16",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT supports integration with MCP Servers",
+      "startSeconds": 997,
+      "label": "16:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Replit Raises $250M at $3B Valuation",
+      "startSeconds": 1019,
+      "label": "16:59",
+      "source": "youtube"
+    },
+    {
+      "title": "ByteDance mini-03",
+      "startSeconds": 1075,
+      "label": "17:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude AI Outperforms Human Virologists",
+      "startSeconds": 1102,
+      "label": "18:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Rubin CPX GPU handles 1 Mln context",
+      "startSeconds": 1121,
+      "label": "18:41",
+      "source": "youtube"
+    },
+    {
+      "title": "CODE BUFF AI Agentic Coding System",
+      "startSeconds": 1155,
+      "label": "19:15",
+      "source": "youtube"
+    },
+    {
+      "title": "InternVL3.5 open-source multimodal LLM",
+      "startSeconds": 1218,
+      "label": "20:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba",
+      "startSeconds": 1315,
+      "label": "21:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta REFRAG",
+      "startSeconds": 1489,
+      "label": "24:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Agentic AI Patterns Book",
+      "startSeconds": 1604,
+      "label": "26:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code - YouTube Research Agent",
+      "startSeconds": 1634,
+      "label": "27:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Customer Service AI Agent",
+      "startSeconds": 1718,
+      "label": "28:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Streamlit-Based RAG Debugging",
+      "startSeconds": 1748,
+      "label": "29:08",
+      "source": "youtube"
+    },
+    {
+      "title": "HyperGraphRAG",
+      "startSeconds": 1753,
+      "label": "29:13",
+      "source": "youtube"
+    },
+    {
+      "title": "GenAI Assessment Framework (GAF)",
+      "startSeconds": 1811,
+      "label": "30:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Stop Writing Tests",
+      "startSeconds": 1930,
+      "label": "32:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Tauri + Rust + Svelte for Native Apps",
+      "startSeconds": 1971,
+      "label": "32:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Synechron AI Consulting - $1B Revenue",
+      "startSeconds": 2037,
+      "label": "33:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Andrew Ng - Demand for AI Developers",
+      "startSeconds": 2105,
+      "label": "35:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Wes Roth: \"AI just took all our jobs\"",
+      "startSeconds": 2229,
+      "label": "37:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs",
+      "startSeconds": 2328,
+      "label": "38:48",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI on Hallucinations Crowd-sourced \"LM Arena\" Leaderboard Geoffrey",
+      "text": "OpenAI on Hallucinations Crowd-sourced \"LM Arena\" Leaderboard Geoffrey Hinton warns about LLMs' Manipulations Thinking Machines Lab Blog K2-Think 32B  & Baidu ERNIE-4.5-21B-A3B Claude works with MS Office and PDFs Microsoft Shifts Office 365 AI to Anthropic Claude AI Updates - September 12 , 2025 Synechron AI Consulting - $1B Revenue Wes Roth: \"AI just took all our jobs\" Andrew Ng - Demand for AI Developers Jobs, Layoffs Peter Diamandis about AI ByteDance Seedream 4.0 Image Model Databricks secured $1B at $100B valuatio The Rundown AI - life-changing prompts Google Veo 3 and Veo 3 Fast Mistral Valuation $14B Oracle's stock surged by 40% Wednesday Cognition Raises $400M at $10.2B Valuation MCP Registry The Training Imperative AI Gross Margins in 2025 Multi-word prediction Moonshot AI Kimi-K2-Instruct-0905 ChatGPT supports integration with MCP Servers Replit Raises $250M at $3B Valuation ByteDance mini-03 Claude AI Outperforms Human Virologists Nvidia Rubin CPX GPU handles 1 Mln context CODE BUFF AI Agentic Coding System InternVL3.5 open-source multimodal LLM Alibaba Meta REFRAG Agentic AI Patterns Book Claude Code - YouTube Research Agent Customer Service AI Agent Streamlit-Based RAG Debugging HyperGraphRAG GenAI Assessment Framework (GAF) Stop Writing Tests Tauri + Rust + Svelte for Native Apps avoid hallucinations by abstaining when unsure -- OpenAI"
+    },
+    {
+      "index": 2,
+      "title": "OpenAI on Hallucinations OpenAI recently published a paper",
+      "text": "OpenAI on Hallucinations OpenAI recently published a paper explaining hallucinations in LLMs by the way the models are trained and evaluated https://openai.com/index/why-language-models-hallucinate/ https://arxiv.org/abs/2509.04664 Reward structure drives errors: Benchmarks give 1 point for a right answer and 0 for everything else, making a risky guess (bluff, hallucination) statistically better than abstaining Abstention reduces errors: Allowing models to say “I don’t know” (52% abstention) leads to far fewer wrong answers compared to 1% abstention, even if accuracy looks lower It's much easier for models to check if an answer is valid than to generate a valid answer. The number of wrong answers greatly exceeds the number of right answers How to fix this? Stop bluffing. Models should only answer questions when their confidence exceeds a certain threshold (e.g., 75%); otherwise, they should respond \"I don't know\". Evaluation benchmarks should reward abstaining (\"I don't know\") responses and penalize wrong answers Anthropic explored hallucination as a symptom of generative momentum in models—the tendency to continue responding fluently even when wrong—but did not identify the root cause as directly as OpenAI did https://www.youtube.com/watch?v=xGO5Q94XXf0 Current leaderboards encourage blind guessing because abstentions always score 0; Confident wrong answers look better on scoreboards than cautious uncertainty; Post-training alignment cannot fully solve this because models still optimize for binary accuracy Proposed Fixes: Redesign benchmarks: Penalize confident errors more heavily than abstentions Partial credit for uncertainty: Reward models for withholding answers when unsure Confidence thresholds: Require answers only above a stated confidence level, enabling auditing and calibration Broad adoption: Apply these metrics across all evaluations, not just niche uncertainty-aware tests"
+    },
+    {
+      "index": 3,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://lmarena.ai/?leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding China https://lmarena.ai/leaderboard/text https://web.lmarena.ai/leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub https://epoch.ai/data/ai-benchmarking-dashboard LM Arena secures $100M to expand AI benchmarking (at $600M valuation) China x.ai Grok 4 Benchmarks https://artificialanalysis.ai/models/grok-4 Mistral China China China China China China China China China x.ai Mistral China China Model Score gemini-2.5-pro 1455 claude-opus-4-1-20250805-thinking-16k 1451 o3-2025-04-16 1444 gpt-5-high 1442 chatgpt-4o-latest-20250326 1441 gpt-4.5-preview-2025-02-27 1439 claude-opus-4-1-20250805 1438 gpt-5-chat 1430 qwen3-max-preview 1428 grok-4-0709 1422 claude-opus-4-20250514-thinking-16k 1420 kimi-k2-0711-preview 1420 qwen3-235b-a22b-instruct-2507 1420 deepseek-v3.1-thinking 1419 deepseek-v3.1 1418 deepseek-r1-0528 1418 kimi-k2-0905-preview 1418 glm-4.5 1411 claude-opus-4-20250514 1411 grok-3-preview-02-24 1409 gpt-4.1-2025-04-14 1409 mistral-medium-2508 1407 Model Score claude-opus-4-1-20250805-thinking-16k 1501 claude-opus-4-1-20250805 1495 qwen3-max-preview 1475 claude-opus-4-20250514-thinking-16k 1477 qwen3-235b-a22b-instruct-2507 1472 gemini-2.5-pro 1470 o3-2025-04-16 1467 chatgpt-4o-latest-20250326 1467 gpt-5-high 1466 gpt-5-chat 1461 deepseek-v3.1-thinking 1458 kimi-k2-0905-preview 1454 claude-sonnet-4-20250514-thinking-32k 1461 gpt-4.5-preview-2025-02-27 1459 deepseek-r1-0528 1456 glm-4.5 1455 deepseek-v3.1 1454 claude-opus-4-20250514 1455 kimi-k2-0711-preview 1454 mistral-medium-2508 1451 qwen3-235b-a22b-thinking-2507 1446 gpt-4.1-2025-04-14 1446 China China China China"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates 1 Geoffrey Hinton warns about LLMs'",
+      "text": "AI Updates 1 Geoffrey Hinton warns about LLMs' Manipulations Machines are better at emotional manipulation than humans are at saying no https://www.techradar.com/ai-platforms-assistants/ai-pioneer-warns-that-machines-are-better-at-emotional-manipulation-than-you-are-at-saying-no Thinking Machines Lab launched its research blog “Connectionism” with a deep, practical guide to deterministic inference pipelines (floating-point numerics, kernels, caching, sampling alignment) and a minimal patch to make vLLM deterministic for Qwen Founded by Mira Murati in Feb 2025, received $2B at $12B valuation https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/ K2-Think 32B (China) open-source reasoning model UAE - MBZUAI’s Institute of Foundation Models and G42 built atop the Qwen2.5-32B base model Long chain-of-thought supervised fine-tuning (SFT) for multi-step reasoning. Reinforcement Learning with Verifiable Rewards (RLVR) to ensure answer quality. Agentic planning, with explicit problem decomposition before reasoning. Test-time scaling (Best-of-N sampling and verifiers) for higher accuracy at inference. Speculative decoding strategies that accelerate output generation. Hardware-based inference optimization using the Cerebras Wafer-Scale Engine, delivering up to 2,000 tok/sec SOTA on math benchmarks, excellent coding, reducing token usage Hosted on k2think.ai and HuggingFace for research https://arxiv.org/pdf/2509.07604v1 - paper Baidu ERNIE-4.5-21B-A3B (China) 21B params, MoE architecture (3B active), multimodal ERNIE-4.5-21B-A3B-Thinking 128K context length; tool and function calling Outperforms Qwen3-30B 4-bit/2-bit lossless quantization capabilities Apache 2.0 open-source https://huggingface.co/baidu/ERNIE-4.5-21B-A3B-Thinking"
+    },
+    {
+      "index": 5,
+      "title": "Claude works with MS Office and PDFs Claude",
+      "text": "Claude works with MS Office and PDFs Claude can now create/edit/convert Excel, Word, PowerPoint, PDFs Preview for Max, Team, and Enterprise plans, Requires enabling “Upgraded file creation and analysis” in settings Claude runs inside a private Ubuntu 24.04 container with ~9GB RAM, ~5GB disk, Python 3.12, and Node.js v18.19 Microsoft Shifts Office 365 AI to Anthropic Claude Reducing dependence on OpenAI. OpenAI's competitive actions, like a LinkedIn rival and custom chips, strained its Microsoft partnership."
+    },
+    {
+      "index": 6,
+      "title": "Please pause the video - and answer the",
+      "text": "Please pause the video - and answer the pinned question in comments under the video Subscribe to this channel https://www.youtube.com/@lev-selector G et notified about new videos - every Friday, links to slides under the videos"
+    },
+    {
+      "index": 7,
+      "title": "Peter Diamandis about AI Peter Diamandis about AI",
+      "text": "Peter Diamandis about AI Peter Diamandis about AI Google's Nano Banana can generate images for $0.039 per API call with character consistency that fools the human eye VEO-3 is generating hyper-realistic 8-second video clips that pass the smell test for 99.9% of viewers 90%+ of everything we see will be AI-generated by the end of 2026 We're moving from \"someone with technical skills can create a fake video\" to \"anyone with $20 can generate thousands of fake videos in an afternoon.\" Companies buying existing AI solutions succeed 67% of the time. Yet those trying to build internal systems only have a 33% success rate Smart startups attack backend automation, cutting operational costs by 30% and eliminating entire categories of manual work Peter Diamandis"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates 2 ByteDance Seedream 4.0 Image Model",
+      "text": "AI Updates 2 ByteDance Seedream 4.0 Image Model multimodal 4K image generation and editing model rivaling Nano Banana (Google’s Gemini 2.5 Flash Image) in prompt accuracy, alignment, and aesthetics https://seed.bytedance.com/en/seedream4_0 Databricks secured $1B at $100B valuation $4B ARR This funding will support their AI database development The Rundown AI - life-changing prompts The Rundown AI asked community on X to share the AI prompts that actually transformed their work or life @ralphbrooks created a board of advisors prompt asking personas for advice, with an AI Elon Musk providing first-principles analysis for unexpected insights - https://x.com/ralphbrooks/status/1965124333271146693 @Xyster fed entire company histories, financials, and competitor research into one mega-prompt, then asks for concrete 1, 3, and 6-month action plans - https://x.com/xyster/status/1965101124752736391 @MrXSeek - asked the model to write its own optimal prompt first, then used that refined version to complete the actual task - https://x.com/mrxseek/status/1965100832455839857 @Itslipsadas’ prompt pushes deeper into goals by having AI pose questions to break through circular thinking patterns - https://x.com/Itslipsadas/status/1965107052851925019"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 3 Google Veo 3 and Veo",
+      "text": "AI Updates 3 Google Veo 3 and Veo 3 Fast new pricing, new configurations and better resolution https://developers.googleblog.com/en/veo-3-and-veo-3-fast-new-pricing-new-configurations-and-better-resolution/ Anthropic $1.5 Billion AI Copyright Settlement A federal judge ruled in June that it was legal for Anthropic to train on copyrighted materials but that it was illegal to acquire the materials from pirate sites like LibGen Anthropic has offered to settle the class action suit from authors by offering $3,000 per work. This is not accepted yet. Mistral Valuation $14B https://www.wsj.com/tech/ai/asml-to-invest-1-5-billion-in-french-startup-mistral-ai-0d5eb547 Oracle's stock surged by 40% Wednesday after revealing $455B in future AI infrastructure contracts (including a massive $300B deal with OpenAI) This briefly made Larry Ellison (Oracle founder and major shareholder) the richest person on the planet past Elon Musk Oracle projects cloud infrastructure revenue will grow from $18B this year to $144B within five years, with most already locked in with signed contracts. Cognition Raises $400M at $10.2B Valuation Creator of AI coding agent Devin https://cognition.ai/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates 4 MCP Registry an open catalog",
+      "text": "AI Updates 4 MCP Registry an open catalog and API for publicly available MCP servers to improve discoverability and implementation https://blog.modelcontextprotocol.io/posts/2025-09-08-mcp-registry-preview/ https://github.com/modelcontextprotocol/registry/tree/main/docs The Training Imperative Eventually, all serious AI firms will train their own models It is getting easier and cheaper to train Model ownership will soon be crucial for industry relevance https://sdan.io/blog/training-imperative AI Gross Margins in 2025 70% - chipmakers; 50-55% - cloud services; software - up to 60% https://www.tanayj.com/p/the-gross-margin-debate-in-ai Multi-word prediction Predicts multiple words at once 5x speed without losing accuracy. https://arxiv.org/abs/2509.04185 Moonshot AI Kimi-K2-Instruct-0905 1T params, 32B active params LLM https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905 ChatGPT now supports full integration with MCP Servers For Plus and Pro users; Enable Developer Mode in Settings https://www.youtube.com/watch?v=qf8kGgsHgyc https://platform.openai.com/docs/guides/developer-mode"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates 5 Replit Raises $250M at $3B",
+      "text": "AI Updates 5 Replit Raises $250M at $3B Valuation AI coding startup has tripled its valuation Agentic AI development tools like Agent 3 ( 200 min autonomous work: build > run in browser > validate > repair loop ) 40M users and $150M ARR ByteDance mini-03 Open multimodal reasoning model from University of Hong Kong based on the Qwen2.5-VL-7B-Instruct (7B params) https://mini-o3.github.io https://arxiv.org/pdf/2509.07969 https://github.com/Mini-o3/Mini-o3 Nvidia Rubin CPX GPU handles 1 Mln context This powerful chip excels at tasks needing extremely long text sequences, like video creation and coding. It's part of a larger system for efficient processing and will launch in late 2026 . https://www.networkworld.com/article/4053902/nvidia-rolls-out-new-gpus-for-ai-inferencing-large-workloads.html Claude AI Outperforms Human Virologists Tests show it's significantly better at finding bioweapon information than using the internet alone Anthropic added safety measures to prevent Claude from aiding bioweapons development https://red.anthropic.com/2025/biorisk/ https://www.anthropic.com/news/anthropic-is-endorsing-sb-53"
+    },
+    {
+      "index": 12,
+      "title": "CODE BUFF AI Agentic Coding System CODE BUFF",
+      "text": "CODE BUFF AI Agentic Coding System CODE BUFF AI Agentic Coding System Fully open-source, uses a team of specialized agents to deliver context-aware, multi-step code generation, refactoring, and workflow automation across software projects Multi-Agent Collaboration (File Explorer, Planner, Implementation, and Review agents) Project-Wide Awareness - rapidly indexes and maps entire codebases, building long-term memory in readable files like `knowledge.md`, enabling smarter, repeatable context-sensitive edits Works with many major LLMs, including Claude, GPT, Qwen, and DeepSeek; Developers mostly use CLI interface, but can also integrate CODE BUFF into apps using the SDK; Allows building advanced, programmatic TypeScript workflows for automation, batch refactors, and testing Outperforms Claude Code in benchmarks, achieving a 61% success rate versus 53% across 175+ coding tasks, thanks to error reduction and intelligent agent specialization Supports Git integration and a command-line “undo” for safe experimentation https://www.codebuff.com https://github.com/CodebuffAI/codebuff https://ossels.ai/codebuff-ai-coding-agent-open-source/"
+    },
+    {
+      "index": 13,
+      "title": "InternVL3.5 open-source multimodal LLM InternVL3.5 open-source multimodal LLM",
+      "text": "InternVL3.5 open-source multimodal LLM InternVL3.5 open-source multimodal LLM series SOTA reasoning, vision-language, 1B ... 241B params https://huggingface.co/OpenGVLab/InternVL3_5-8B https://arxiv.org/abs/2508.18265 https://huggingface.co/collections/OpenGVLab/internvl35-68ac87bd52ebe953485927fb https://github.com/OpenGVLab/InternVL Cascade Reinforcement Learning - offline RL for stable model convergence and online RL for refined alignment Visual Resolution Router (ViR) - Dynamically adjusts visual token resolutions, reducing compute costs with minimal performance loss Decoupled Vision-Language Deployment (DvD) - Splits the vision encoder and LLM execution across multiple GPUs Follows a “ViT–MLP–LLM” design, utilizing state-of-the-art vision transformers (e.g., InternViT-300M, InternViT-6B) and powerful language model backbones (e.g., Qwen3, GPT-OSS) 16% improvement in reasoning ability 4x inference speedup over its predecessor, InternVL3 The largest variant, InternVL3.5-241B-A28B, closely rivals flagship commercial MLLMs (like GPT-5) in multimodal, agentic, and text tasks, with only a small performance gap Enhanced Agentic Abilities - supports novel real-world tasks such as GUI control, embodied agency, SVG-based understanding / generation, and other agentic applications"
+    },
+    {
+      "index": 14,
+      "title": "Alibaba Alibaba has developed a new AI chip",
+      "text": "Alibaba Alibaba has developed a new AI chip for inference tasks 7nm technology, alternative to Nvidia Alibaba's cloud division reported a 26% revenue jump, driven by accelerated AI integration and infrastructure growth The company announced a historic $53B investment over 3  years. This is China’s largest AI and cloud infrastructure commitment Initiatives include cloud credits and capital for AI startups and the continued expansion of the ModelScope open-source platform supporting over 54,000 models Alibaba DAMO Academy has partnered with the United Nations ITU for AI-for-Good projects (healthcare, climate forecasting, and scientific discovery) Alibaba’s AI powers both product development and major international collaborations, such as research with Singapore’s largest hospitals to enhance early disease diagnosis At the 2025 World Artificial Intelligence Conference, Alibaba showcased intelligent cockpit systems, enterprise AI partnerships, and novel AI glasses for industrial and consumer applications. Qwen3-Max-Preview model 1T+ params Outperforms DeepSeek and leading Western models Available via Qwen Chat: https://chat.qwen.ai (chatting, coding, and document processing; also via Alibaba Cloud API (Alibaba Model Studio); also through OpenRouter for OpenAI-compatible API access Qwen3-Next-80B-A3B A new model architecture, Sparse Mixture-of-Experts design with hybrid attention and multi-token prediction 80B-params base model activates only 3B parameters at inference, enabling 10x faster throughput for long-context tasks 512 total experts, combining 10 routed experts + 1 shared expert Active param ratio 3.75% (3B / 80B = 3.75%) is appreciably lower than GPT-OSS' 4.3% and Qwen3's own prior 10%. Benefits: best-in-class efficiency, rapid inference, superior long-context handling (262K tok expandable to 1M), advanced reasoning, with 10x reduction in training costs and dramatic reduction in deployment costs Qwen-Image - multimodal and visual reasoning -  image interpretation, cross-modal content generation, and enterprise search involving visual inputs Alibaba released an updated video-generating AI model that can transform basic photos into “ film-quality avatars ” with speech, singing, and performance capabilities."
+    },
+    {
+      "index": 15,
+      "title": "Meta REFRAG REFRAG: Rethinking RAG based Decoding https://arxiv.org/pdf/2509.01092",
+      "text": "Meta REFRAG REFRAG: Rethinking RAG based Decoding https://arxiv.org/pdf/2509.01092 30x speedup in time-to-first-token (TTFT) and 16x context window expansion compared to baseline methods with no accuracy loss. Substantially reduces memory usage and computational load in RAG, enabling higher throughput and support for much longer contexts REFRAG doesn't naively concatenate multiple retrieved text chunks. Instead, it compresses the retrieved context passages into compact chunk embeddings using a lightweight encoder Then only essential chunks are expanded to full tokens as needed, guided by a reinforcement learning policy Will be released on GitHub (not yet): https://github.com/facebookresearch/refrag"
+    },
+    {
+      "index": 16,
+      "title": "Agentic AI Patterns Book A senior AI engineer",
+      "text": "Agentic AI Patterns Book A senior AI engineer at Google has written a 400-page book: Agentic Design Patterns. It covers multiple topics and provide code: Prompting, MCP, Tools, RAG, Memory, Humans in the loop, Multi-agent, Guardrails, ... https://substack.com/@huryn/note/c-152192144 Pre-order the book: https://amazon.com/dp/3032014018 Whole Book Online: https://docs.google.com/document/d/1rsaK53T3Lg5KoGwvf8ukOUvbELRtH-V0LnOIFDxBryE Code from the Book https://drive.google.com/drive/u/0/folders/1Y3U3IrYCiJ3E45Z8okR5eCg7OPnWQtPV"
+    },
+    {
+      "index": 17,
+      "title": "Claude Code - YouTube Research Agent Build a",
+      "text": "Claude Code - YouTube Research Agent Build a YouTube Research Agent in 15 Minutes Peter Yang - Claude Code Tutorial https://www.youtube.com/watch?v=iW0lMW-Ff5I Use Claude Code as an \"everything agent\" to build a YouTube research agent that analyzes multiple channels and identifies their winning content formulas. The project is completed in six structured steps: Plan mode - Use Claude to brainstorm different approaches (YouTube Data API, web scraping, or yt-dlp tool) Set auto-approve permissions ON Write a detailed spec - Create specifications for a custom slash command that fetches recent videos and analyzes performance patterns Convert spec to a detailed to-do list (tasks list) Code writing - Let Claude implement the code based on the planning Add batch processing (analyze multiple channels simultaneously from a file) Result: the `/youtube` command analyzes YouTube channels and generates a markdown report containing Key insights about what content performs best for each channel Suggested video titles based on successful patterns Top 10 performing videos with view counts and links So: steps 1,2,3,4 - planning. steps 5,6 - coding Sequence: explore, spec, plan, then code The same pattern can be applied to other automation tasks like daily news briefs, newsletter digests, or market research. Peter Yang"
+    },
+    {
+      "index": 18,
+      "title": "Customer Service AI Agent It is easy to",
+      "text": "Customer Service AI Agent It is easy to implement a customer service AI agent with minimal programming by using modern no-code platforms or open-source solutions designed for non-technical users. These tools allow rapid deployment, customization, and integration into websites or channels such as live chat and messaging apps.[1][2][3] ## No-Code and Prebuilt AI Chatbot Platforms - **Make.com, Voiceflow, Zapier, N8N:** Drag-and-drop platforms with prebuilt logic allow creating conversational AI agents by uploading FAQs, support docs, and configuring basic automation flows. No programming is required beyond connecting data and setting rules.[2][3][1] - **CustomGPT.ai:** Enables training AI chatbots on proprietary business data through a user-friendly interface. Supports deployment on multiple channels and provides a white-label branding option.[4] - **SmythOS:** Has a visual builder and prebuilt agent templates for fast deployment and easy integration with APIs, with minimal to no code needed.[5] ### How These Tools Work - Use templates for FAQs, order tracking, or appointment booking.[3][1] - Upload support documents or provide sample Q&A for the chatbot to learn responses. - Configure integrations such as website widgets, email, WhatsApp, or Slack for multi-channel support. - Use analytics and feedback features to monitor and refine AI performance.[4] ## Open-Source Customer Support AI Solutions For users comfortable with simple self-hosting or minimal technical steps: - **Chatwoot:** Modern open-source live-chat and omnichannel support tool, featuring AI assistants for automated replies. Offers web, social media, and messaging integrations out of the box with no or light coding required.[6][7] - **Rasa and Botpress:** Open-source conversational agent frameworks that support visual builders for basic chatbot configuration, though advanced customization may require programming.[8][4] - **DeepPavlov and ChatterBot:** Lower barrier to entry for simple FAQ-style bots, but some minimal Python scripting may be needed for setup.[8] ## Getting Started: Basic Steps 1. **Choose a Platform:** For true no-code, start with tools like Voiceflow, Make.com, or CustomGPT.ai.[1][3][4] 2. **Prepare FAQ/Data:** Gather high-quality data or common support questions. 3. **Configure and Train:** Use the drag-and-drop interface to upload your data, define chatbot responses, and set up any integrations. 4. **Test with Real Queries:** Simulate customer questions to ensure the agent replies accurately. 5. **Deploy:** Add the AI agent to your website, messaging apps, or other customer touchpoints.[3][1] 6. **Monitor and Improve:** Use built-in analytics to further refine and improve the AI's answers over time.[4] ## Recommended Solutions Table | Platform        | Coding Required | Channels Supported          | Core Features                               | Open Source | Notes                        | |-----------------|----------------|-----------------------------|---------------------------------------------|-------------|------------------------------| | Make.com        | No             | Web, messaging apps         | Drag & drop workflows, templates            | No          | Fastest for non-tech users [1] | | Voiceflow       | No             | Web, chat, voice            | Visual design, LLM integration              | No          | Enterprise-ready, voice chat [3] | | CustomGPT.ai    | No             | Multi-channel               | No-code, proprietary data, analytics        | No          | White-label, business focus [4] | | Chatwoot        | Minimal/No     | Web, messaging, social      | Omnichannel, AI suggestions, live chat      | Yes         | Self-hosted, full control [7] | | Botpress/Rasa   | Optional       | Web, CRM, messaging         | Advanced NLU, visual flows (Botpress)       | Yes         | Powerful, scalable           | In summary, no-code platforms like Make.com, Voiceflow, and CustomGPT.ai are ideal for those seeking the easiest setup with little to no programming, while open-source projects like Chatwoot offer more control with modest effort.[7][1][3][4] [1](https://www.sarmedrizvi.com/blog/how-to-build-an-ai-agent-for-customer-support-with-no-code) [2](https://blog.getodin.ai/how-to-build-no-code-ai-agents/) [3](https://www.ampcome.com/post/top-10-ai-agents-for-customer-service) [4](https://customgpt.ai/white-label-ai-chatbot/) [5](https://zencoder.ai/blog/best-ai-agents-for-coding) [6](https://www.chatwoot.com) [7](https://github.com/chatwoot/chatwoot) [8](https://imeetify.blog/top-8-open-source-tools-to-build-dynamic-ai-support-agents/) [9](https://www.youtube.com/watch?v=wwhFP30uGmE) [10](https://www.youtube.com/watch?v=5BnLNqNrrvo) [11](https://www.reddit.com/r/AI_Agents/comments/1g6spuc/building_an_ai_agent_for_customer_support/) [12](https://workhub.ai/build-a-no-code-ai-voice-agent-for-customer-support/) [13](https://www.dhiwise.com/post/top-open-source-customer-support-tools) [14](https://www.reddit.com/r/nocode/comments/1mo62po/easiest_way_to_create_and_deploy_ai_agents_nocode/) [15](https://www.modular.com/max/solutions/chatbots) [16](https://www.voiceflow.com) [17](https://www.qodo.ai/blog/best-ai-coding-assistant-tools/) [18](https://www.youtube.com/watch?v=DV0Ln7HRyJQ) [19](https://www.reddit.com/r/LangChain/comments/1gfx4cz/which_opensource_stack_to_use_for_whatsapp_ai/) [20](https://zapier.com/blog/best-chatbot-builders/)"
+    },
+    {
+      "index": 19,
+      "title": "Streamlit-Based RAG Debugging Streamlit-Based RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4 The",
+      "text": "Streamlit-Based RAG Debugging Streamlit-Based RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4 The main takeaways from the video \"Влад Дроботухин | От хаоса к контролю: Опыт создания Streamlit-трейсера для отладки RAG-систем\" focus on the practical experience of building a Streamlit-based tracer tool for debugging RAG (Retrieval-Augmented Generation) systems, with insights into collaboration with domain experts and improving reliability in production ML pipelines[1]. ## Streamlit-Based RAG Debugging Approach - **Streamlit** was used to develop a lightweight, customizable UI for visualizing, tracing, and debugging each stage of the RAG pipeline, allowing both technical and non-technical experts to inspect data flow and outputs.[1] - The tool integrates directly with vector databases and prompt engineering components, supporting modular evaluation and rapid prototyping.[1] ## Emphasis on Reliability and Modular Testing - The reliability of the whole ML system is the product of the reliability of its components; each stage (data parsing, retrieval, LLM response, etc.) must be measured and improved individually for overall quality improvements.[1] - Systematic modular testing, continuous logging, and human evaluation are critical throughout the RAG pipeline, especially when working with unstructured data and evolving business requirements.[1] ## Effective Expert Collaboration - A streamlined UI is essential for domain experts (e.g., lawyers) who are not machine learning or Python experts, enabling them to annotate, comment, and iterate without technical hurdles.[1] - The expert's feedback loop should be as frictionless as possible, focusing their limited attention on high-leverage corrections and assessment, which is the scarcest and most valuable resource in the process.[1] ## Iterative, Automated Improvement Cycle - The system enables rapid iteration for both developers and domain experts: questions and logs are surfaced, annotated, and used to refine prompts, retrievers, or data sources in real time.[1] - The approach leverages open-source tools such as Langfuse and Langsmith for log and trace management, but custom tools are essential to fill UX gaps for non-technical stakeholders.[1] ## Concrete Competition and Use Case Results - The speaker successfully used this approach in a competition setting, substantially improving the efficiency and quality of the RAG pipeline, demonstrating its applicability beyond POCs to real datasets and team workflows.[1] - Building and customizing such dashboards typically takes only a few hours if the core components are ready, enabling agile experimentation and feedback integration.[1] ## Key Principles for RAG System Debugging - **Reliability should be measured and optimized at every pipeline stage**.[1] - **Domain experts need practical UIs to participate in evaluation and debugging**.[1] - **Automation and traceability accelerate both development and expert-guided refinement**.[1] - **Continuous logging and stepwise quality assessment are vital as systems and teams scale**.[1] [1](https://www.youtube.com/watch?v=NCPdj3ABpR4)"
+    },
+    {
+      "index": 20,
+      "title": "HyperGraphRAG HyperGraphRAG organizes knowledge using hypergraphs, which connect",
+      "text": "HyperGraphRAG HyperGraphRAG organizes knowledge using hypergraphs, which connect 3+ related pieces of information together (not just pairs), enabling the system to answer complicated, multi-factor questions Standard RAGpulls text chunks from a dataset, often missing interconnected details; GraphRAG considers pairwise connections; HyperGraphRAG links multiple related facts all at once, making it better at capturing the full context for complex queries https://www.youtube.com/watch?v=vjpxGd8p6rM - video demo https://arxiv.org/abs/2503.21322 - paper HyperGraphRAG builds a vector store that models relationships between multiple entities, then answers detailed, context-rich queries by traversing these hyperedges instead of just searching for keywords This method is especially valuable for complex domains like healthcare, finance, or law, where answers depend on the interplay of multiple facts or entities"
+    },
+    {
+      "index": 21,
+      "title": "GenAI Assessment Framework (GAF) GenAI Assessment Framework (GAF)",
+      "text": "GenAI Assessment Framework (GAF) GenAI Assessment Framework (GAF) 3×3 Matrix to Map Enterprise AI Needs https://promptql.io/blog/durable-framework-evaluating-enterprise-ai Axis 1 (horizontal) - what the AI does: search, act, solve Axis 2 (vertical) - how the AI is implemented & improved: off-the-shelf, framework, specialized The recent MIT (The GenAI Divide) and McKinsey (State of AI in Business 2025) reports illustrate clear enterprise AI failure modes: \"learning gap\" - AI tools are static and do not improve with user feedback Misaligned Assistant. Getting a \"Search\" tool instead of a \"Solve\" tool Multiple isolated POCs, no end-to-end integration Trying to build custom solutions without having AI expertise"
+    },
+    {
+      "index": 22,
+      "title": "Stop Writing Tests Stop Writing Tests (This Approach",
+      "text": "Stop Writing Tests Stop Writing Tests (This Approach is 10x More Effective) https://medium.com/@harishsingh8529/stop-writing-tests-this-approach-is-10x-more-effective-f4a57fc0ea74 Problems with Traditional Test Suites - slow, brittle, and expensive to maintain. Minor changes in the codebase can break numerous tests; Teams frequently respond to bugs by adding more tests without considering the value, causing bloated and fragile test suites The 10x Approach: Contract-Driven Development contracts (explicit agreements) are established between consuming and providing components (services/APIs), specifying expected behaviors and data formats; Automated contract tests validate both sides (consumer and provider) in isolation, finding integration issues early and making tests resilient to internal implementation changes faster feedback cycles, less maintenance overhead, and improved confidence; encourages shared ownership of quality among all stakeholders, unlike traditional testing silos Stop emphasizing traditional test pyramid methodologies that favor quantity or superficial code coverage. Invest in contract tests that capture real service boundaries, automate expectations, and empower teams to refactor and ship quickly with minimal test drag"
+    },
+    {
+      "index": 23,
+      "title": "Tauri + Rust + Svelte for Native Apps",
+      "text": "Tauri + Rust + Svelte for Native Apps Tauri + Rust + Svelte for Native Apps A powerful, modern alternative to Electron for building native desktop apps Significantly smaller binaries, better performance, and a more enjoyable frontend development experience Fast and small desktop app binaries (usually under 10MB compared to 300MB with Electron) Secure, cross-platform backend (Rust) + any modern JavaScript framework (for example, Svelte) https://medium.com/@hadiyolworld007/why-tauri-rust-svelte-is-my-favorite-stack-for-native-apps-d66633b886e4"
+    },
+    {
+      "index": 24,
+      "title": "Synechron AI Consulting - $1B Revenue Synechron is",
+      "text": "Synechron AI Consulting - $1B Revenue Synechron is a leading global digital transformation consulting firm specializing in AI, digital, cloud and DevOps, cybersecurity, and software engineering solutions Primary focus on the financial services and big tech industries Privately held, $1B+ revenue, 16K employees across 21 countries Founded: 2001 in New York, NY https://www.synechron.com Synechron AI Services (Largest Revenue Segments First) 1. AI Consulting & Transformation for Financial Services - AI strategy, ML solutions for banking/insurance, risk assessment automation, regulatory compliance, customer analytics 2. Cybersecurity & RiskTech AI (CyberAI Program) - AI-powered risk management (RiskControl.AI), vulnerability detection (AppSec.AI), GenAI safeguards (Validate.AI), automated incident response 3. Generative AI and Data Engineering - GenAI (generative AI) for text, imagery, analytics (Earnings Analyzer, etc.), advanced NLP, predictive analytics, data lake/MLops platform buildouts 4. Business Automation & Cognitive AI - Cognitive automation, intelligent RPA, operations and workflow re-engineering via AI 5. Industry-Specific AI Accelerators (FinLabs/Nexus Plus) - Packaged industry AI accelerators, compliance, asset allocation, sentiment analytics"
+    },
+    {
+      "index": 25,
+      "title": "Andrew Ng - Demand for AI Developers Andrew",
+      "text": "Andrew Ng - Demand for AI Developers Andrew Ng - Demand for AI Developers https://x.com/AndrewYNg/status/1963631698987684272 There is significant unmet demand for developers who understand AI. At the same time, because most universities have not yet adapted their curricula to the new reality of programming jobs being much more productive with AI tools, there is also an uptick in unemployment of recent CS graduates. Andrew looks for people who can: - Use AI assistance to rapidly engineer software systems - Use AI building blocks like prompting, RAG, evals, agentic workflows, and machine learning to build applications - Prototype and iterate rapidly I talk to large businesses every week that would love to hire hundreds or more people with these skills, as well as startups that have great ideas but not enough engineers to build them As more businesses adopt AI, I expect this talent shortage only to grow! The best developers I know aren’t recent graduates - they are experienced developers who have been on top of changes in AI Even if, say, 30% of CS knowledge is obsolete, the remaining 70% — complemented with modern AI knowledge — is what makes really productive developers. Without understanding how computers work, you can’t just “vibe code” your way to greatness. Fundamentals are still important, and for those who additionally understand AI, job opportunities are numerous! Some Facts: Salesforce just cut 1,000 jobs… while posting dozens of AI roles. Meta laid off 5% of its workforce… while spending $40B+ on AI. Microsoft poured $80B into AI in 2025 alone. Companies aren’t “saving money.” They’re reallocating it away from traditional engineers, and toward anyone who can actually build AI systems. That’s why demand for software engineers keeps falling… while demand for AI engineers is exploding $7K–$20K+ projects on Fiverr and Upwork Hackers pulling $3K…$42K/mo with small AI apps Engineers landing $400K+ salaries at companies desperate to fill AI roles Andrew Ng globally recognized computer scientist, entrepreneur, and educator, pioneering work in AI, ML, and online education. Andrew has co-founded Google Brain, led Baidu's AI Group as Chief Scientist. He is the founder of DeepLearning.AI, co-founder and chairman of Coursera, CEO of Landing AI, and an adjunct professor at Stanford University"
+    },
+    {
+      "index": 26,
+      "title": "Wes Roth: \"AI just took all our jobs\"",
+      "text": "Wes Roth: \"AI just took all our jobs\" Here's a summary of Wes Roth's video \"AI just took all our jobs\": https://www.youtube.com/watch?v=xZCbQM-hGa4 The core theme is that recent advances in AI (LLMs) are causing rapid automation and displacement of entry-level and routine white-collar jobs Sceptical on the idea that AI will quickly create equivalent new jobs to replace those lost CEO of Anthropic and ex-Google execs predict that AI could wipe out up to half of entry-level jobs by 2030, especially in white-collar fields such as law, customer service, and administration Stanford studies cited in the video found a significant (about 13% relative) decline in employment for workers aged 22-25 in AI-exposed occupations, while older cohorts remain more stable Businesses are rapidly adopting AI for tasks like coding, tax prep, marketing copy, and data cleanup. Teams change from hundreds of developers to 3 people and AI Growing jobs are nearly all AI/data-focused (AI/machine learning specialists, big data experts, fintech engineers), whereas the fastest-declining roles include bank tellers, data entry, administrative clerks, and telemarketers Demand for generative AI skills and learning platforms is surging rapidly, and employers’ expectations for AI proficiency in almost all knowledge work are increasing The video expresses skepticism whether the tech labor boom can absorb most displaced workers, highlighting concern that new jobs require significant reskilling and may not match the number - or accessibility - of lost jobs Roth concludes that while some high-skill jobs and entirely new careers are appearing, AI is on track to substantially reduce entry-level employment by 2030 - especially in administrative, clerical, and some creative industries The future of jobs depends on how society manages upskilling and whether growth in AI-related roles can offset large-scale displacement in more traditional occupations"
+    },
+    {
+      "index": 27,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 89K in 2025 (as of September 11) 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker So far in 2025, 143,042 people laid off (563 per day). In 2024, 238,461 people laid off (653 per day). https://trueup.io/layoffs"
+    },
+    {
+      "index": 28,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 29,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "OpenAI: \"avoid hallucinations by abstaining when unsure\"",
+      "topic": "openai",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI on Hallucinations Crowd-sourced \"LM Arena\" Leaderboard Geoffrey",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI on Hallucinations",
+      "topic": "openai",
+      "videoSeconds": 26,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=26s",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI on Hallucinations OpenAI recently published a paper",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 155,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=155s",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI on Hallucinations OpenAI recently published a paper",
+      "source": "youtube"
+    },
+    {
+      "claim": "Geoffrey Hinton warns about LLMs' Manipulations",
+      "topic": "general",
+      "videoSeconds": 190,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=190s",
+      "slideIndex": 3,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Thinking Machines Lab Blog",
+      "topic": "general",
+      "videoSeconds": 208,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=208s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates 1 Geoffrey Hinton warns about LLMs'",
+      "source": "youtube"
+    },
+    {
+      "claim": "K2-Think 32B & Baidu ERNIE-4.5-21B-A3B",
+      "topic": "general",
+      "videoSeconds": 248,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=248s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates 1 Geoffrey Hinton warns about LLMs'",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude works with MS Office and PDFs",
+      "topic": "claude",
+      "videoSeconds": 379,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=379s",
+      "slideIndex": 5,
+      "slideTitle": "Claude works with MS Office and PDFs Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Shifts Office 365 AI to Anthropic Claude",
+      "topic": "claude",
+      "videoSeconds": 458,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=458s",
+      "slideIndex": 6,
+      "slideTitle": "Please pause the video - and answer the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Peter Diamandis about AI",
+      "topic": "general",
+      "videoSeconds": 464,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=464s",
+      "slideIndex": 6,
+      "slideTitle": "Please pause the video - and answer the",
+      "source": "youtube"
+    },
+    {
+      "claim": "ByteDance Seedream 4.0 Image Model",
+      "topic": "general",
+      "videoSeconds": 591,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=591s",
+      "slideIndex": 7,
+      "slideTitle": "Peter Diamandis about AI Peter Diamandis about AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Databricks secured $1B at $100B valuation",
+      "topic": "general",
+      "videoSeconds": 619,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=619s",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates 2 ByteDance Seedream 4.0 Image Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "The Rundown AI - life-changing prompts",
+      "topic": "general",
+      "videoSeconds": 675,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=675s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 3 Google Veo 3 and Veo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Veo 3 and Veo 3 Fast",
+      "topic": "general",
+      "videoSeconds": 751,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=751s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 3 Google Veo 3 and Veo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mistral Valuation $14B",
+      "topic": "open-models",
+      "videoSeconds": 763,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=763s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates 4 MCP Registry an open catalog",
+      "source": "youtube"
+    },
+    {
+      "claim": "Oracle's stock surged by 40% Wednesday",
+      "topic": "general",
+      "videoSeconds": 804,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=804s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 5 Replit Raises $250M at $3B",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cognition Raises $400M at $10.2B Valuation",
+      "topic": "general",
+      "videoSeconds": 853,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=853s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 5 Replit Raises $250M at $3B",
+      "source": "youtube"
+    },
+    {
+      "claim": "MCP Registry",
+      "topic": "agents",
+      "videoSeconds": 884,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=884s",
+      "slideIndex": 12,
+      "slideTitle": "CODE BUFF AI Agentic Coding System CODE BUFF",
+      "source": "youtube"
+    },
+    {
+      "claim": "The Training Imperative",
+      "topic": "general",
+      "videoSeconds": 900,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=900s",
+      "slideIndex": 13,
+      "slideTitle": "InternVL3.5 open-source multimodal LLM InternVL3.5 open-source multimodal LLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Gross Margins in 2025",
+      "topic": "general",
+      "videoSeconds": 928,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=928s",
+      "slideIndex": 13,
+      "slideTitle": "InternVL3.5 open-source multimodal LLM InternVL3.5 open-source multimodal LLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Multi-word prediction",
+      "topic": "general",
+      "videoSeconds": 948,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=948s",
+      "slideIndex": 14,
+      "slideTitle": "Alibaba Alibaba has developed a new AI chip",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moonshot AI Kimi-K2-Instruct-0905",
+      "topic": "open-models",
+      "videoSeconds": 976,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=976s",
+      "slideIndex": 15,
+      "slideTitle": "Meta REFRAG REFRAG: Rethinking RAG based Decoding https://arxiv.org/pdf/2509.01092",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT supports integration with MCP Servers",
+      "topic": "agents",
+      "videoSeconds": 997,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=997s",
+      "slideIndex": 15,
+      "slideTitle": "Meta REFRAG REFRAG: Rethinking RAG based Decoding https://arxiv.org/pdf/2509.01092",
+      "source": "youtube"
+    },
+    {
+      "claim": "Replit Raises $250M at $3B Valuation",
+      "topic": "general",
+      "videoSeconds": 1019,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1019s",
+      "slideIndex": 16,
+      "slideTitle": "Agentic AI Patterns Book A senior AI engineer",
+      "source": "youtube"
+    },
+    {
+      "claim": "ByteDance mini-03",
+      "topic": "general",
+      "videoSeconds": 1075,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1075s",
+      "slideIndex": 17,
+      "slideTitle": "Claude Code - YouTube Research Agent Build a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude AI Outperforms Human Virologists",
+      "topic": "claude",
+      "videoSeconds": 1102,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1102s",
+      "slideIndex": 17,
+      "slideTitle": "Claude Code - YouTube Research Agent Build a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Rubin CPX GPU handles 1 Mln context",
+      "topic": "infra",
+      "videoSeconds": 1121,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1121s",
+      "slideIndex": 18,
+      "slideTitle": "Customer Service AI Agent It is easy to",
+      "source": "youtube"
+    },
+    {
+      "claim": "CODE BUFF AI Agentic Coding System",
+      "topic": "agents",
+      "videoSeconds": 1155,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1155s",
+      "slideIndex": 19,
+      "slideTitle": "Streamlit-Based RAG Debugging Streamlit-Based RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4 The",
+      "source": "youtube"
+    },
+    {
+      "claim": "InternVL3.5 open-source multimodal LLM",
+      "topic": "open-models",
+      "videoSeconds": 1218,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1218s",
+      "slideIndex": 19,
+      "slideTitle": "Streamlit-Based RAG Debugging Streamlit-Based RAG Debugging https://www.youtube.com/watch?v=NCPdj3ABpR4 The",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba",
+      "topic": "general",
+      "videoSeconds": 1315,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1315s",
+      "slideIndex": 20,
+      "slideTitle": "HyperGraphRAG HyperGraphRAG organizes knowledge using hypergraphs, which connect",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta REFRAG",
+      "topic": "general",
+      "videoSeconds": 1489,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1489s",
+      "slideIndex": 21,
+      "slideTitle": "GenAI Assessment Framework (GAF) GenAI Assessment Framework (GAF)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agentic AI Patterns Book",
+      "topic": "agents",
+      "videoSeconds": 1604,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1604s",
+      "slideIndex": 21,
+      "slideTitle": "GenAI Assessment Framework (GAF) GenAI Assessment Framework (GAF)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code - YouTube Research Agent",
+      "topic": "agents",
+      "videoSeconds": 1634,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1634s",
+      "slideIndex": 22,
+      "slideTitle": "Stop Writing Tests Stop Writing Tests (This Approach",
+      "source": "youtube"
+    },
+    {
+      "claim": "Customer Service AI Agent",
+      "topic": "agents",
+      "videoSeconds": 1718,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1718s",
+      "slideIndex": 23,
+      "slideTitle": "Tauri + Rust + Svelte for Native Apps",
+      "source": "youtube"
+    },
+    {
+      "claim": "Streamlit-Based RAG Debugging",
+      "topic": "rag",
+      "videoSeconds": 1748,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1748s",
+      "slideIndex": 24,
+      "slideTitle": "Synechron AI Consulting - $1B Revenue Synechron is",
+      "source": "youtube"
+    },
+    {
+      "claim": "HyperGraphRAG",
+      "topic": "general",
+      "videoSeconds": 1753,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1753s",
+      "slideIndex": 24,
+      "slideTitle": "Synechron AI Consulting - $1B Revenue Synechron is",
+      "source": "youtube"
+    },
+    {
+      "claim": "GenAI Assessment Framework (GAF)",
+      "topic": "general",
+      "videoSeconds": 1811,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1811s",
+      "slideIndex": 25,
+      "slideTitle": "Andrew Ng - Demand for AI Developers Andrew",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stop Writing Tests",
+      "topic": "general",
+      "videoSeconds": 1930,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1930s",
+      "slideIndex": 26,
+      "slideTitle": "Wes Roth: \"AI just took all our jobs\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tauri + Rust + Svelte for Native Apps",
+      "topic": "general",
+      "videoSeconds": 1971,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=1971s",
+      "slideIndex": 26,
+      "slideTitle": "Wes Roth: \"AI just took all our jobs\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Synechron AI Consulting - $1B Revenue",
+      "topic": "general",
+      "videoSeconds": 2037,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=2037s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andrew Ng - Demand for AI Developers",
+      "topic": "general",
+      "videoSeconds": 2105,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=2105s",
+      "slideIndex": 28,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Wes Roth: \"AI just took all our jobs\"",
+      "topic": "jobs",
+      "videoSeconds": 2229,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=2229s",
+      "slideIndex": 28,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2328,
+      "videoUrl": "https://www.youtube.com/watch?v=d7cLd9QPKeQ&t=2328s",
+      "slideIndex": 29,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

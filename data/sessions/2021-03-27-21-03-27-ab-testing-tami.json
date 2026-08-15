@@ -1,0 +1,222 @@
+{
+  "id": "2021-03-27-21-03-27-ab-testing-tami",
+  "date": "2021-03-27",
+  "title": "AB Testing Tami",
+  "series": "data-science-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-03-27-AB_Testing_Tami.pptx",
+    "filename": "21-03-27-AB_Testing_Tami.pptx",
+    "title": "AB Testing Tami",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-03-27-AB_Testing_Tami.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-03-27-AB_Testing_Tami.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "A/B Testing Tami Tang March 27, 2021",
+      "text": "A/B Testing Tami Tang March 27, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Agenda • Online Testing: What is A/B testing?",
+      "text": "Agenda • Online Testing: What is A/B testing? W hat to test? • Testing step-by-step Process – Define Success – Identify Bottlenecks – Construct a Hypothesis – Design, Run and Analyze"
+    },
+    {
+      "index": 3,
+      "title": "What is AB Testing",
+      "text": "What is AB Testing"
+    },
+    {
+      "index": 4,
+      "title": "Online Testing: Business Cases",
+      "text": "Online Testing: Business Cases"
+    },
+    {
+      "index": 5,
+      "title": "Obama Campaign: Getting Sign-ups",
+      "text": "Obama Campaign: Getting Sign-ups"
+    },
+    {
+      "index": 6,
+      "title": "Obama Campaign: Getting Sign-ups",
+      "text": "Obama Campaign: Getting Sign-ups"
+    },
+    {
+      "index": 7,
+      "title": "Obama Campaign: Getting Sign-ups",
+      "text": "Obama Campaign: Getting Sign-ups"
+    },
+    {
+      "index": 8,
+      "title": "Testing “Add to Cart”",
+      "text": "Testing “Add to Cart”"
+    },
+    {
+      "index": 9,
+      "title": "Define Success",
+      "text": "Define Success"
+    },
+    {
+      "index": 10,
+      "title": "Identify Bottlenecks",
+      "text": "Identify Bottlenecks"
+    },
+    {
+      "index": 11,
+      "title": "Construct A Hypothesis “If the “Checkout” is changed",
+      "text": "Construct A Hypothesis “If the “Checkout” is changed to “Complete My Order,” the conversion rates in the checkout will increase, because the copy is more specific and personalized.”"
+    },
+    {
+      "index": 12,
+      "title": "Design>Run>Test",
+      "text": "Design>Run>Test"
+    },
+    {
+      "index": 13,
+      "title": "Terminology • Response (or Dependent Variable, Outcome, Performance",
+      "text": "Terminology • Response (or Dependent Variable, Outcome, Performance metric) - a quantitative measure of the experiment’s objective • Factor (or Variable) - controllable variable that is thought to influence response. – Factors are assigned Values (or Levels, Versions). • Treatment (or Variant, Version) - a user experience being tested by assigning levels to the factors."
+    },
+    {
+      "index": 14,
+      "title": "Terminology Response -- What would you measure? What",
+      "text": "Terminology Response -- What would you measure? What are the Treatments? What are the Factors? Levels?"
+    },
+    {
+      "index": 15,
+      "title": "Common Testing Types A/B (split) Testing Multivariate testing",
+      "text": "Common Testing Types A/B (split) Testing Multivariate testing (MVT)—Full and Functional Factorial Design"
+    },
+    {
+      "index": 16,
+      "title": "A/B testing A/B testing is a way to",
+      "text": "A/B testing A/B testing is a way to compare two versions of a single variable typically by testing a subject’s response to variable A against variable B, and determining which of the two variables is more effective."
+    },
+    {
+      "index": 17,
+      "title": "A/B Testing • Pros: – Easy to set",
+      "text": "A/B Testing • Pros: – Easy to set up and interpret results – Plenty of free tools - cheap way to start testing – Lower traffic demands • Cons: – All-or-nothing approach (individual effects hard to assess if changing several things at a time)"
+    },
+    {
+      "index": 18,
+      "title": "Multivariate Testing (MVT) • Multivariate testing is a",
+      "text": "Multivariate Testing (MVT) • Multivariate testing is a technique for testing a hypothesis in which multiple variables are modified. • The goal of multivariate testing is to determine which combination of variations performs the best out of all of the possible Combinations"
+    },
+    {
+      "index": 19,
+      "title": "Multivariate Testing (MVT) • Pros: – Generates insights",
+      "text": "Multivariate Testing (MVT) • Pros: – Generates insights on interaction between multiple elements – Can substitute for A/B testing • Cons: – More involved to set up compared to A/B testing – Amount of visitor traffic required"
+    },
+    {
+      "index": 20,
+      "title": "Designing A/B Test How long to run an",
+      "text": "Designing A/B Test How long to run an A/B test? Determine the sample size ( δ: difference between treatment and control) --Power of the test (e.g., 80%) --Significance Level (e.g. 95% ) --Minimum detectable effect (e.g. 2%)"
+    },
+    {
+      "index": 21,
+      "title": "Hypotheses Testing Population proportion: Null Hypothesis(H0): Alternative Hypotheses:",
+      "text": "Hypotheses Testing Population proportion: Null Hypothesis(H0): Alternative Hypotheses: Test Statistic: (Use Z-test when sample is large (n>50); Otherwise, T-test)"
+    },
+    {
+      "index": 22,
+      "title": "Hypotheses Testing Test Statistic:",
+      "text": "Hypotheses Testing Test Statistic:"
+    },
+    {
+      "index": 23,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "A/B Testing Tami Tang March 27, 2021",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "A/B Testing Tami Tang March 27, 2021",
+      "source": "slide"
+    },
+    {
+      "claim": "Agenda • Online Testing: What is A/B testing?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Agenda • Online Testing: What is A/B testing?",
+      "source": "slide"
+    },
+    {
+      "claim": "Online Testing: Business Cases",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Online Testing: Business Cases",
+      "source": "slide"
+    },
+    {
+      "claim": "Obama Campaign: Getting Sign-ups",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Obama Campaign: Getting Sign-ups",
+      "source": "slide"
+    },
+    {
+      "claim": "Obama Campaign: Getting Sign-ups",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Obama Campaign: Getting Sign-ups",
+      "source": "slide"
+    },
+    {
+      "claim": "Obama Campaign: Getting Sign-ups",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Obama Campaign: Getting Sign-ups",
+      "source": "slide"
+    },
+    {
+      "claim": "Testing “Add to Cart”",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Testing “Add to Cart”",
+      "source": "slide"
+    },
+    {
+      "claim": "Identify Bottlenecks",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Identify Bottlenecks",
+      "source": "slide"
+    },
+    {
+      "claim": "Construct A Hypothesis “If the “Checkout” is changed",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Construct A Hypothesis “If the “Checkout” is changed",
+      "source": "slide"
+    }
+  ]
+}

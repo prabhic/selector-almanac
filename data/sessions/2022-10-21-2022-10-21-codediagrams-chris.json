@@ -1,0 +1,378 @@
+{
+  "id": "2022-10-21-2022-10-21-codediagrams-chris",
+  "date": "2022-10-21",
+  "title": "CodeDiagrams-Chris",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "nVEe11Z5HSA",
+    "title": "Graphviz and dot: Generating Diagrams with Code",
+    "url": "https://www.youtube.com/watch?v=nVEe11Z5HSA",
+    "thumbnail": "https://i.ytimg.com/vi/nVEe11Z5HSA/hqdefault.jpg",
+    "duration": 2515
+  },
+  "deck": {
+    "path": "2022/2022-10-21-CodeDiagrams-Chris.pptx",
+    "filename": "2022-10-21-CodeDiagrams-Chris.pptx",
+    "title": "CodeDiagrams-Chris",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-10-21-CodeDiagrams-Chris.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-10-21-CodeDiagrams-Chris.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Why create diagrams?",
+      "startSeconds": 67,
+      "label": "01:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Types of tech diagrams",
+      "startSeconds": 146,
+      "label": "02:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Diagramming Solutions",
+      "startSeconds": 210,
+      "label": "03:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Why diagram with code?",
+      "startSeconds": 315,
+      "label": "05:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Simple code generates diagrams",
+      "startSeconds": 420,
+      "label": "07:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Core concepts",
+      "startSeconds": 485,
+      "label": "08:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Graphs/Subgraphs",
+      "startSeconds": 542,
+      "label": "09:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Nodes",
+      "startSeconds": 811,
+      "label": "13:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Edges",
+      "startSeconds": 1002,
+      "label": "16:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Attributes",
+      "startSeconds": 1076,
+      "label": "17:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Resources",
+      "startSeconds": 2161,
+      "label": "36:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Chris von Rabenau",
+      "startSeconds": 2346,
+      "label": "39:06",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Graphviz and dot Generating Diagrams with Code",
+      "text": "Graphviz and dot Generating Diagrams with Code"
+    },
+    {
+      "index": 2,
+      "title": "Why create diagrams? Collaboration Defining a clear vision",
+      "text": "Why create diagrams? Collaboration Defining a clear vision Identify short comings Communicating Documentation Chris von Rabenau - 2022"
+    },
+    {
+      "index": 3,
+      "title": "Types of tech diagrams Chris von Rabenau -",
+      "text": "Types of tech diagrams Chris von Rabenau - 2022"
+    },
+    {
+      "index": 4,
+      "title": "Diagramming Solutions Microsoft Visio LucidChart Draw.io Miro Others",
+      "text": "Diagramming Solutions Microsoft Visio LucidChart Draw.io Miro Others Chris von Rabenau - 2022"
+    },
+    {
+      "index": 5,
+      "title": "Pain in the neck Drag, click, type Chris",
+      "text": "Pain in the neck Drag, click, type Chris von Rabenau - 2022"
+    },
+    {
+      "index": 6,
+      "title": "Is there another way? Diagrams as code Chris",
+      "text": "Is there another way? Diagrams as code Chris von Rabenau - 2022"
+    },
+    {
+      "index": 7,
+      "title": "Introducing dot and Graphviz - Another Bell Labs",
+      "text": "Introducing dot and Graphviz - Another Bell Labs project Chris von Rabenau - 2022"
+    },
+    {
+      "index": 8,
+      "title": "Why diagram with code? Simple Version Control Efficiency",
+      "text": "Why diagram with code? Simple Version Control Efficiency Chris von Rabenau - 2022"
+    },
+    {
+      "index": 9,
+      "title": "Simple code generates diagrams digraph G { main",
+      "text": "Simple code generates diagrams digraph G { main -> parse -> execute; main -> init ; main -> cleanup; execute -> make_string ; execute -> printf ; init -> make_string ; main -> printf ; execute -> compare; } Chris von Rabenau - 2022"
+    },
+    {
+      "index": 10,
+      "title": "Core concepts Chris von Rabenau - 2022",
+      "text": "Core concepts Chris von Rabenau - 2022"
+    },
+    {
+      "index": 11,
+      "title": "Graphs/Subgraphs digraph Edges have direction Coded “->” graph",
+      "text": "Graphs/Subgraphs digraph Edges have direction Coded “->” graph Edges may be be ‘directionless’ subgraph Rank all contained nodes together cluster Subgraph bounded by line Chris von Rabenau - 2022"
+    },
+    {
+      "index": 12,
+      "title": "Graphs/Subgraphs digraph test_graph { label=Example } Chris von",
+      "text": "Graphs/Subgraphs digraph test_graph { label=Example } Chris von Rabenau - 2022"
+    },
+    {
+      "index": 13,
+      "title": "Nodes Basic objects Three main types: Shapes Record-based",
+      "text": "Nodes Basic objects Three main types: Shapes Record-based User defined Ports Compass directions Chris von Rabenau - 2022"
+    },
+    {
+      "index": 14,
+      "title": "Nodes digraph test_graph { label=example test [ label=\"test1”",
+      "text": "Nodes digraph test_graph { label=example test [ label=\"test1” ] main [shape=box]; } Chris von Rabenau - 2022"
+    },
+    {
+      "index": 15,
+      "title": "Edges Connect objects Parts: Head Tail Label Shape",
+      "text": "Edges Connect objects Parts: Head Tail Label Shape Chris von Rabenau - 2022"
+    },
+    {
+      "index": 16,
+      "title": "Edges digraph test_graph { label=Example test [ label=\"test1\"",
+      "text": "Edges digraph test_graph { label=Example test [ label=\"test1\" ] main [shape=box]; test -> main [ headlabel =\"exit” labeldistance =2.7 labelangle =-40] } Chris von Rabenau - 2022"
+    },
+    {
+      "index": 17,
+      "title": "Attributes For object enhancement Apply to graphs, nodes,",
+      "text": "Attributes For object enhancement Apply to graphs, nodes, edges Examples: Shape Style Color Label More Chris von Rabenau - 2022"
+    },
+    {
+      "index": 18,
+      "title": "Attributes digraph test_graph { label=Example node [ shape=\"rectangle\"",
+      "text": "Attributes digraph test_graph { label=Example node [ shape=\"rectangle\" color=\" lightblue \" style=\"filled\"] test [ label=\"test1\"; ] main [ shape=box; color= lightgreen ]; test -> main [ headlabel =\"exit” labeldistance =2.7 labelangle =-40] } Chris von Rabenau - 2022"
+    },
+    {
+      "index": 19,
+      "title": "Demonstration Chris von Rabenau - 2022",
+      "text": "Demonstration Chris von Rabenau - 2022"
+    },
+    {
+      "index": 20,
+      "title": "Resources Graphviz.org Drawing graphs with Dot Gallery Chris",
+      "text": "Resources Graphviz.org Drawing graphs with Dot Gallery Chris von Rabenau - 2022"
+    },
+    {
+      "index": 21,
+      "title": "Chris von Rabenau LinkedIn: https:// www.linkedin.com /in/ cvr",
+      "text": "Chris von Rabenau LinkedIn: https:// www.linkedin.com /in/ cvr / Email: cgappperi@me.com Chris von Rabenau - 2022"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Graphviz and dot Generating Diagrams with Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why create diagrams?",
+      "topic": "general",
+      "videoSeconds": 67,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=67s",
+      "slideIndex": 3,
+      "slideTitle": "Types of tech diagrams Chris von Rabenau -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Types of tech diagrams",
+      "topic": "general",
+      "videoSeconds": 146,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=146s",
+      "slideIndex": 4,
+      "slideTitle": "Diagramming Solutions Microsoft Visio LucidChart Draw.io Miro Others",
+      "source": "youtube"
+    },
+    {
+      "claim": "Diagramming Solutions",
+      "topic": "general",
+      "videoSeconds": 210,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=210s",
+      "slideIndex": 6,
+      "slideTitle": "Is there another way? Diagrams as code Chris",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why diagram with code?",
+      "topic": "general",
+      "videoSeconds": 315,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=315s",
+      "slideIndex": 8,
+      "slideTitle": "Why diagram with code? Simple Version Control Efficiency",
+      "source": "youtube"
+    },
+    {
+      "claim": "Simple code generates diagrams",
+      "topic": "general",
+      "videoSeconds": 420,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=420s",
+      "slideIndex": 9,
+      "slideTitle": "Simple code generates diagrams digraph G { main",
+      "source": "youtube"
+    },
+    {
+      "claim": "Core concepts",
+      "topic": "general",
+      "videoSeconds": 485,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=485s",
+      "slideIndex": 11,
+      "slideTitle": "Graphs/Subgraphs digraph Edges have direction Coded “->” graph",
+      "source": "youtube"
+    },
+    {
+      "claim": "Graphs/Subgraphs",
+      "topic": "general",
+      "videoSeconds": 542,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=542s",
+      "slideIndex": 13,
+      "slideTitle": "Nodes Basic objects Three main types: Shapes Record-based",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nodes",
+      "topic": "general",
+      "videoSeconds": 811,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=811s",
+      "slideIndex": 14,
+      "slideTitle": "Nodes digraph test_graph { label=example test [ label=\"test1”",
+      "source": "youtube"
+    },
+    {
+      "claim": "Edges",
+      "topic": "general",
+      "videoSeconds": 1002,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=1002s",
+      "slideIndex": 16,
+      "slideTitle": "Edges digraph test_graph { label=Example test [ label=\"test1\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Attributes",
+      "topic": "general",
+      "videoSeconds": 1076,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=1076s",
+      "slideIndex": 18,
+      "slideTitle": "Attributes digraph test_graph { label=Example node [ shape=\"rectangle\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Resources",
+      "topic": "general",
+      "videoSeconds": 2161,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=2161s",
+      "slideIndex": 19,
+      "slideTitle": "Demonstration Chris von Rabenau - 2022",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chris von Rabenau",
+      "topic": "general",
+      "videoSeconds": 2346,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA&t=2346s",
+      "slideIndex": 21,
+      "slideTitle": "Chris von Rabenau LinkedIn: https:// www.linkedin.com /in/ cvr",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why create diagrams? Collaboration Defining a clear vision",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA",
+      "slideIndex": 2,
+      "slideTitle": "Why create diagrams? Collaboration Defining a clear vision",
+      "source": "slide"
+    },
+    {
+      "claim": "Pain in the neck Drag, click, type Chris",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA",
+      "slideIndex": 5,
+      "slideTitle": "Pain in the neck Drag, click, type Chris",
+      "source": "slide"
+    },
+    {
+      "claim": "Introducing dot and Graphviz - Another Bell Labs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA",
+      "slideIndex": 7,
+      "slideTitle": "Introducing dot and Graphviz - Another Bell Labs",
+      "source": "slide"
+    },
+    {
+      "claim": "Core concepts Chris von Rabenau - 2022",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA",
+      "slideIndex": 10,
+      "slideTitle": "Core concepts Chris von Rabenau - 2022",
+      "source": "slide"
+    },
+    {
+      "claim": "Graphs/Subgraphs digraph test_graph { label=Example } Chris von",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nVEe11Z5HSA",
+      "slideIndex": 12,
+      "slideTitle": "Graphs/Subgraphs digraph test_graph { label=Example } Chris von",
+      "source": "slide"
+    }
+  ]
+}

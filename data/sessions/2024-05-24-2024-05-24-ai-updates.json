@@ -1,0 +1,528 @@
+{
+  "id": "2024-05-24-2024-05-24-ai-updates",
+  "date": "2024-05-24",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "infra",
+    "openai",
+    "fine-tuning",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "00p_yBOLzmg",
+    "title": "Have you heard these exciting AI news - May 24 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+    "thumbnail": "https://i.ytimg.com/vi/00p_yBOLzmg/hqdefault.jpg",
+    "duration": 1841
+  },
+  "deck": {
+    "path": "2024/2024-05-24-AI-Updates.pptx",
+    "filename": "2024-05-24-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-05-24-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-05-24-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "AI at Microsoft Build 2024",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LM Studio, Server, lms CLI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LM Studio from Python",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Streaming chat: LM Studio Server from Python",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Create Ollama models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Smaug-Llama-3-70B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "NVIDIA Growth",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "TinyBox / TinyGrad - AMD or NVIDIA",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Try ChatGPT-4o",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Benchmarks running Llama3",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Qualcomm Snapdragon X Elite",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Hanna Berji - selection of AI apps",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Google Firebase Genkit - AI apps",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Grant Sanderson (3Blue1Brown) Great Speech",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI and News Corp",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Axolotl fine-tuning",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Bland.AI - calling apps at scale",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft Phi-3-Medium-128K-Instruct",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Scarlett Johansson vs. OpenAI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Apple partnering with OpenAI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta's Chameleon \"Early-fusion\" model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Fine-Tuning LLMs Encourage Hallucinations?",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Cognition Devin on Azure",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Eric Schmidt - powerful AI on military bases",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs were lower than in 2023",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI at Microsoft Build 2024 LM Studio, Server,",
+      "text": "AI at Microsoft Build 2024 LM Studio, Server, lms CLI LM Studio from Python Streaming chat: LM Studio Server from Python Create Ollama models Smaug-Llama-3-70B NVIDIA Growth TinyBox / TinyGrad - AMD or NVIDIA Try ChatGPT-4o Benchmarks running Llama3 Qualcomm Snapdragon X Elite Hanna Berji - selection of AI apps Google Firebase Genkit - AI apps Grant Sanderson (3Blue1Brown) Great Speech OpenAI and News Corp Axolotl fine-tuning Bland.AI - calling apps at scale Microsoft Phi-3-Medium-128K-Instruct Scarlett Johansson vs. OpenAI Apple partnering with OpenAI Meta's Chameleon \"Early-fusion\" model Fine-Tuning LLMs Encourage Hallucinations? Cognition Devin on Azure Eric Schmidt - powerful AI on military bases Crowd-sourced \"Arena\" Leaderboard Tech Layoffs were lower than in 2023 AI Updates May 24 , 2024 Memorial Day TinyBox Microsoft Build"
+    },
+    {
+      "index": 2,
+      "title": "AI at Microsoft Build 2024 Microsoft Build is",
+      "text": "AI at Microsoft Build 2024 Microsoft Build is an annual developer conference. May 21-23, 2024, Seattle This event is all about AI integration and AI enabling. Copilot - personal assistant for Microsoft 365 and Teams users.  Chatbot, agenda management, note-taking, chat moderation, contextual question-answering. You can assign tasks to Copilot. Custom copilots and agents - later in 2024. AI laptops (Copilot+ PCs) - after june 18th. On-device AI. Surface Pro (tablet+keyboard), Surface Laptop, ASUS, Dell, Samsung, Acer, Lenovo, HP, ... Chips from Intel, Qualcomm (Snapdragon), AMD. Comparable with MacBook Air M3. Phi-3-Silica model - optimized for Neural Processing Units in Copilot+ PCs. Recall - remembers what you were doing (AI-powered photographic memory). Privacy? Windows Semantic Index tool - used for Recall. Cocreator tool - works with Adobe Photoshop, DaVinci Resolve, CapCut, etc. Phi-3-vision 4.2b model in preview. Visual reasoning. 28K context. Can transcribe text from images, describe tables and graphs. Snapdragon Dev Kit from Qualcomm (small computer like Mac Mini) Microsoft File Explorer integration with Git Microsoft’s partnerships with OpenAI, Meta, Hugging Face, Khan Academy, ... Snapdragon Dev Kit from Qualicomm SoC – Snapdragon X Elite (X1E-00-1DE) (CPU + GPU + NPU) 32GB System Memory, 512GB SSD HDMI port, 3 x USB4-C ports, 2x USB 3.2 Gen 2 Type-A ports, 3.5mm audio jack, Ethernet RJ45 port, Power button, WiFi & Bluetooth, size (mm): 199 x 175 x 35 mm, Weight – 970 grams, price $900"
+    },
+    {
+      "index": 3,
+      "title": "LM Studio, server, lms CLI - run models",
+      "text": "LM Studio, server, lms CLI - run models locally Example asking question from CMD: curl http://localhost:1234/v1/chat/completions \\ -H \"Content-Type: application/json\" \\ -d '{ \"messages\": [ { \"role\": \"system\", \"content\": \" You are a helpful coding assistant. \" }, { \"role\": \"user\", \"content\": \" Whys is the sky blue? \" } ], \"temperature\": 0.7, \"max_tokens\": -1, \"stream\": true }' The response is a series of JSON messages containing individual words / tokens: data: {\"id\":\"chatcmpl-us3308g6gahcu0wo1j0xm\", \"object\":\"chat.completion.chunk\", \"created\":1716417847, \"model\":\"PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed/Llama-3-Smaug-8B.Q8_0.gguf:2\", \"choices\":[{\"index\":0,\"delta\":{\"role\":\"assistant\", \"content\":\" To \"}, \"finish_reason\":null}]} data: {\"id\":\"chatcmpl-us3308g6gahcu0wo1j0xm\", \"object\":\"chat.completion.chunk\", \"created\":1716417847, \"model\":\"PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed/Llama-3-Smaug-8B.Q8_0.gguf:2\", \"choices\":[{\"index\":0, \"delta\":{\"role\":\"assistant\", \"content\":\" work \"},\"finish_reason\":null}]} You can now start and use LM Studio server from terminal or python.  \"lms\" CLI is added for admin tasks. Start by downloading and installing LM Studio app on your computer - https://lmstudio.ai Then follow these instructions to bootstrap and run the lms application in Terminal - https://lmstudio.ai/blog/lms or https://github.com/lmstudio-ai/lms Here are docs on how to start and use the server: https://lmstudio.ai/docs/local-server # Mac / Linux: ~/.cache/lm-studio/bin/lms bootstrap # lms uses lmstudio.js to interact with LM Studio. # In new terminal: lms --help lms status lms server start # stop, status lms ls # List all downloaded models lms ps # List all loaded models lms load mymodel # Load a model lms unload mymodel lms unload --all lms create # new project lms log stream lms version lms bootstrap"
+    },
+    {
+      "index": 4,
+      "title": "Use LM Studio Server from Python # res",
+      "text": "Use LM Studio Server from Python # res = subprocess.run( #             [\"lms\",\"server\", \"start\"], #             capture_output=True, text=True) from openai import OpenAI client = OpenAI(base_url=\" http://localhost:1234/v1 \", api_key=\"not-needed\") response = client.chat.completions.create( model = \"local_model\", messages = [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"why is the sky blue?\"}, ], temperature=0.5, ) print(response.choices[0].message.content) You can use LLMs via LM Studio Server from Python: https://www.youtube.com/watch?v=Z-EofFFnOus The code examples are actually provided right inside LM Studio The response: The sky appears blue because of a phenomenon called Rayleigh scattering, named after Lord Rayleigh who first described it in the late 19th century. Essentially, when sunlight enters Earth's atmosphere, it encounters tiny molecules of gases such as nitrogen and oxygen. These small molecules scatter shorter (blue) wavelengths much more than longer (red) wavelengths due to their size compared to the wavelength of light. This scattering effect gives the sky its blue color during the daytime. The color can vary depending on atmospheric conditions like pollution or dust, but generally, it's that beautiful shade of blue we see!"
+    },
+    {
+      "index": 5,
+      "title": "Streaming chat using LM Studio Server from Python",
+      "text": "Streaming chat using LM Studio Server from Python from openai import OpenAI client = OpenAI(base_url=\" http://localhost:1234/v1 \", api_key=\"not-needed\") response = client.chat.completions.create( model = \"local_model\", messages = [ {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"}, {\"role\": \"user\", \"content\": \"why is the sky blue?\"}, ], temperature=0.5, stream=True , ) for chunk in response: content = chunk.choices[0].delta.content or \"\" print(content, end=\"\", flush=True) lms server start lms ls lms load PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed"
+    },
+    {
+      "index": 6,
+      "title": "Create ollama models from models on HuggingFace Ollama:",
+      "text": "Create ollama models from models on HuggingFace Ollama: How To Create Custom Models From HuggingFace ( GGUF ) https://www.youtube.com/watch?v=TFwYvHZV6j0 https://www.youtube.com/watch?v=7BH4C6-HP14 https://www.youtube.com/watch?v=0ou51l-MLCo download model from HuggingFace, for example: https://huggingface.co/PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed/blob/main/Llama-3-Smaug-8B.Q8_0.gguf Manually create file \"Modelfile\" using model description templates from HuggingFace model page or running \"ollama show\" command for a similar model To see examples of Modelfiles, you can run the ollama show command, for example: ollama  show  llama3-gradient  --modelfile To create the model, run this command: ollama  create  dragon8b  -f Modelfile That's it! Run it: ollama  run  dragon8b FROM ./Llama-3-Smaug-8B.Q8_0.gguf TEMPLATE \"{{ if .System }}<|start_header_id|>system<|end_header_id|> {{ .System }}<|eot_id|>{{ end }}{{ if .Prompt }}<|start_header_id|>user<|end_header_id|> {{ .Prompt }}<|eot_id|>{{ end }}<|start_header_id|>assistant<|end_header_id|> {{ .Response }}<|eot_id|>\" PARAMETER stop <|start_header_id|> PARAMETER stop <|end_header_id|> PARAMETER stop <|eot_id|> Modelfile"
+    },
+    {
+      "index": 7,
+      "title": "Mistral 7B Instruct V3 The Mistral-7B-Instruct-v0.3 is an",
+      "text": "Mistral 7B Instruct V3 The Mistral-7B-Instruct-v0.3 is an instruct fine-tuned version of the Mistral-7B-v0.3. It has extended context length (32K) and improved performance. Supports v3 Tokenizer. Supports function calling. https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3 pip install mistral_inference mistral-chat $HOME/mistral_models/7B-Instruct-v0.3 --instruct --max_tokens 256 ollama run mistral:7b-instruct-v0.3-q5_K_M"
+    },
+    {
+      "index": 8,
+      "title": "Smaug-Llama-3-70B-Instruct Smaug is a dragon and the main",
+      "text": "Smaug-Llama-3-70B-Instruct Smaug is a dragon and the main antagonist in J. R. R. Tolkien's 1937 novel The Hobbit, his treasure and the mountain he lives in being the goal of the quest. Abacus.ai Smaug-Llama-3-70B-Instruct and PrunaAI Abacus Llama3 Smaug 8b Model is on par with GPT-4 The small 8b model Q8 is amazing https://www.youtube.com/watch?v=0OvT7kWXWvQ https://huggingface.co/abacusai/Llama-3-Smaug-8B https://huggingface.co/abacusai/Smaug-Llama-3-70B-Instruct https://huggingface.co/PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed https://huggingface.co/PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed/tree/main - download https://huggingface.co/PrunaAI/abacusai-Llama-3-Smaug-8B-GGUF-smashed/blob/main/Llama-3-Smaug-8B.Q8_0.gguf"
+    },
+    {
+      "index": 9,
+      "title": "NVIDIA Growth NVIDIA fiscal year: Feb - Jan",
+      "text": "NVIDIA Growth NVIDIA fiscal year: Feb - Jan In the fiscal year ending January 28, 2024, NVIDIA had annual revenue of ~ $61B with 125.85% growth. ~ 30,000 employees Market Cap $2,374 Bln"
+    },
+    {
+      "index": 10,
+      "title": "TinyBox / TinyGrad George Hotz Recently (Spring 2024)",
+      "text": "TinyBox / TinyGrad George Hotz Recently (Spring 2024) he is considering switching from AMD to Nvidia 4090. https://www.reddit.com/r/AMD_Stock/comments/1bjkob4/the_tiny_corp_nvda_deserves_to_be_king/ https://en.wikipedia.org/wiki/George_Hotz In 2023 George Hotz was working on creating a tinybox computer. Estimated Price - $15K 1600W x 2  (two 120V outlets) Six (6) GPUs (6 x 24GB = 144 GB VRAM total) AMD 7900 XTXs or Nvidia 4090 CPU - AMD EPYC  32 cores 128 GB RAM 738 .. 991 FP16 TFLOPS https://tinygrad.org https://www.youtube.com/watch?v=GKRu3Txc0sk - July 2023 AMD 7900 XTX 24GB Price options: $15K or $25K AMD 7900 XTX 24GB"
+    },
+    {
+      "index": 11,
+      "title": "How to Access ChatGPT-4 and ChatGPT-4o OpenAI Playground",
+      "text": "How to Access ChatGPT-4 and ChatGPT-4o OpenAI Playground - https://platform.openai.com/playground Overview - https://platform.openai.com/overview Merlin (browser extension) - https://www.getmerlin.in/feature/access-gpt-4-for-free The \"o\" in GPT-4o stands for \" omni \" - ability to be \" omni-processing \" (text, voice, images, video). https://chatgpt.com = https://chat.openai.com https://www.youtube.com/watch?v=TFhIVfR1XjM \"4o\" is available for free - but limited (approx 8 answers per 3 hours). Tends to time out. Microsoft Copilot Microsoft Bing"
+    },
+    {
+      "index": 12,
+      "title": "Benchmarks running Llama3 Model tok/sec $/1M tokens (in/out)",
+      "text": "Benchmarks running Llama3 Model tok/sec $/1M tokens (in/out) Llama 3 70B (8K) ~300 $0.59/$0.79 Mixtral 8x7B SMoE (32K) ~480 $0.24/$0.24 Llama 3 8B (8K) ~870 $0.05/$0.10 Gemma 7B (8K) ~820 $0.10/$0.10 Whisper Large V3 ~140x speed-up $0.0654 / hour transcribed Groq Model H100 A100 RTX-3090 dual RTX-3090 RTX-4090 2 x RTX-4090 Mac M3 128GB ollama Llama 3 70B -- -- ollama Llama 3 8B -- -- Nvidia vs Mac"
+    },
+    {
+      "index": 13,
+      "title": "Qualcomm Snapdragon X Elite Qualcomm Inc. - an",
+      "text": "Qualcomm Snapdragon X Elite Qualcomm Inc. - an American multinational corporation headquartered in San Diego, CA since 1985. It creates semiconductors, software, and services related to wireless technology. - https://en.wikipedia.org/wiki/Qualcomm Qualcomm Snapdragon - system-on-a-chip (SoC) chips for mobile devices (and for Laptops). Competing with Apple Silicone! Qualcomm Snapdragon X Elite has: CPU 12-core GPU Adreno NPU (Neural Processing Unit) Hexagon up to 64 GB of Unified Memory The X Elite comes in three variants: X1E-84-100 X1E-80-100 X1E-78-100 New Laptops with Qualcomm Snapdragon X Elite: Microsoft Surface, Lenovo, Dell, Asus, ..."
+    },
+    {
+      "index": 14,
+      "title": "Selection of AI Apps 10 Best Neuro-Network Apps",
+      "text": "Selection of AI Apps 10 Best Neuro-Network Apps https://www.youtube.com/watch?v=zmv8k5LXIuQ - in English https://www.youtube.com/watch?v=AxgDdBN-UJA - in Russian https://noisee.ai - melodies into music videos https://www.coze.com - create and publish ChatBots https://piktochart.com - AI maker for infographic, poster, banner https://mindtrip.ai - plan your travel https://autoshorts.ai - create videos with avatars https://goodsnooze.gumroad.com/l/macwhisper - transcribe audio and video to text on Mac at x30 speed https://huggingface.co/spaces/sanchit-gandhi/whisper-jax - transcribe your voice online https://ai-icon.top - AI icon generator https://toolbaz.com - online AI writing tools https://product.supertone.ai/shift - Real-time Voice Changer Hanna Berji San Mateo, CA She is quite amazing. She has graduated from Draper University in San Mateo. And in 2022 she started her company “Zeroweb”. https://www.youtube.com/@Web3nity https://twitter.com/web3nity https://www.linkedin.com/in/hanna-berji-6a8434224/ https://t.me/+dPw_AwlCXA05Mzcy"
+    },
+    {
+      "index": 15,
+      "title": "Misc 1 OpenAI and News Corp (which includes",
+      "text": "Misc 1 OpenAI and News Corp (which includes WSJ, NYP, The Times, and other publishers) agreed to bring its news content to OpenAI's platform! https://openai.com/index/news-corp-and-openai-sign-landmark-multi-year-global-partnership/ Google Firebase Genkit - a new open-source framework to build, deploy and monitor production-ready AI-powered apps. https://firebase.google.com/docs/genkit/plugins/ollama https://firebase.google.com Google Firebase is a cloud-based platform for developers to build, deploy, and scale web and mobile apps and games. Mostly Javascript based. npm i -g genkit ollama pull gemma Grant Sanderson . Great Speech. 3Blue1Brown https://www.youtube.com/watch?v=W3I3kAg2J7w Axolotl - a go-to tool for fine-tuning AI models like Llama and Mistral, with Docker setups making it easy to use. Supports full finetune, lora, qlora, relora, gptq. https://github.com/OpenAccess-AI-Collective/axolotl Bland.AI - building AI phone calling apps at scale. Can handle Million phone calls simultaneously - https://www.bland.ai Microsoft Phi-3-Medium-128K-Instruct - context length 128K, performs on par with Command R 104B https://huggingface.co/microsoft/Phi-3-medium-128k-instruct Scarlett Johansson vs. OpenAI OpenAI showcased a new voice for ChatGPT called \"Sky\" . Many people, including Scarlett Johansson, found this voice similar to voice of Johansson's AI character in the movie \"Her.\" Johansson, who had previously declined to voice ChatGPT, hired legal counsel and demanded an explanation from OpenAI. In response, OpenAI paused Sky's use and clarified that Sky's voice belonged to a different actress."
+    },
+    {
+      "index": 16,
+      "title": "Misc 2 https://arxiv.org/abs/2405.05904 Does Fine-Tuning LLMs on New",
+      "text": "Misc 2 https://arxiv.org/abs/2405.05904 Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations? (Technion - Israel Institute of Technology Google Research) https://x.com/omarsar0/status/1793292346978623812 LLMs struggle to acquire factual knowledge through fine-tuning. When examples with new knowledge are eventually learned they linearly increase the LLM's tendency to hallucinate. Apple is shifting from its device-based processing to integrating cloud-based AI services , using high-end Mac chips in its data centers . Apple partnering with OpenAI to integrate it into iOS 18. Cognition Devin (software agent) will be powered by Azure - new Microsoft and Cognition partnership. Ex-Google CEO Eric Schmidt predicts that the most powerful AI systems will be housed on military bases in the US and China, protected by armed guards, due to their potential to absorb knowledge at an unprecedented rate and collaborate autonomously. https://nypost.com/2024/05/23/business/ex-google-ceo-eric-schmidt-predicts-ai-data-centers-will-be-on-military-bases/ Meta's Chameleon - an \"Early-fusion\" model. The model from the start learns from an interwoven combination of images, code, text and other inputs. Similar to Gemini. https://arxiv.org/abs/2405.09818v1"
+    },
+    {
+      "index": 17,
+      "title": "Total #models: 99. Total #votes: 1,170,955. Last updated:",
+      "text": "Total #models: 99. Total #votes: 1,170,955. Last updated: 2024-05-20. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 18,
+      "title": "Tech Layoffs were lower than in 2023 Layoffs",
+      "text": "Tech Layoffs were lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 19,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI at Microsoft Build 2024",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 1,
+      "slideTitle": "AI at Microsoft Build 2024 LM Studio, Server,",
+      "source": "outline"
+    },
+    {
+      "claim": "LM Studio, Server, lms CLI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 2,
+      "slideTitle": "AI at Microsoft Build 2024 Microsoft Build is",
+      "source": "outline"
+    },
+    {
+      "claim": "LM Studio from Python",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 3,
+      "slideTitle": "LM Studio, server, lms CLI - run models",
+      "source": "outline"
+    },
+    {
+      "claim": "Streaming chat: LM Studio Server from Python",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 3,
+      "slideTitle": "LM Studio, server, lms CLI - run models",
+      "source": "outline"
+    },
+    {
+      "claim": "Create Ollama models",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 4,
+      "slideTitle": "Use LM Studio Server from Python # res",
+      "source": "outline"
+    },
+    {
+      "claim": "Smaug-Llama-3-70B",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 5,
+      "slideTitle": "Streaming chat using LM Studio Server from Python",
+      "source": "outline"
+    },
+    {
+      "claim": "NVIDIA Growth",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 6,
+      "slideTitle": "Create ollama models from models on HuggingFace Ollama:",
+      "source": "outline"
+    },
+    {
+      "claim": "TinyBox / TinyGrad - AMD or NVIDIA",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 6,
+      "slideTitle": "Create ollama models from models on HuggingFace Ollama:",
+      "source": "outline"
+    },
+    {
+      "claim": "Try ChatGPT-4o",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 7,
+      "slideTitle": "Mistral 7B Instruct V3 The Mistral-7B-Instruct-v0.3 is an",
+      "source": "outline"
+    },
+    {
+      "claim": "Benchmarks running Llama3",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 8,
+      "slideTitle": "Smaug-Llama-3-70B-Instruct Smaug is a dragon and the main",
+      "source": "outline"
+    },
+    {
+      "claim": "Qualcomm Snapdragon X Elite",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 9,
+      "slideTitle": "NVIDIA Growth NVIDIA fiscal year: Feb - Jan",
+      "source": "outline"
+    },
+    {
+      "claim": "Hanna Berji - selection of AI apps",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 9,
+      "slideTitle": "NVIDIA Growth NVIDIA fiscal year: Feb - Jan",
+      "source": "outline"
+    },
+    {
+      "claim": "Google Firebase Genkit - AI apps",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 10,
+      "slideTitle": "TinyBox / TinyGrad George Hotz Recently (Spring 2024)",
+      "source": "outline"
+    },
+    {
+      "claim": "Grant Sanderson (3Blue1Brown) Great Speech",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 11,
+      "slideTitle": "How to Access ChatGPT-4 and ChatGPT-4o OpenAI Playground",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI and News Corp",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 12,
+      "slideTitle": "Benchmarks running Llama3 Model tok/sec $/1M tokens (in/out)",
+      "source": "outline"
+    },
+    {
+      "claim": "Axolotl fine-tuning",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 12,
+      "slideTitle": "Benchmarks running Llama3 Model tok/sec $/1M tokens (in/out)",
+      "source": "outline"
+    },
+    {
+      "claim": "Bland.AI - calling apps at scale",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 13,
+      "slideTitle": "Qualcomm Snapdragon X Elite Qualcomm Inc. - an",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft Phi-3-Medium-128K-Instruct",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 14,
+      "slideTitle": "Selection of AI Apps 10 Best Neuro-Network Apps",
+      "source": "outline"
+    },
+    {
+      "claim": "Scarlett Johansson vs. OpenAI",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 15,
+      "slideTitle": "Misc 1 OpenAI and News Corp (which includes",
+      "source": "outline"
+    },
+    {
+      "claim": "Apple partnering with OpenAI",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 15,
+      "slideTitle": "Misc 1 OpenAI and News Corp (which includes",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta's Chameleon \"Early-fusion\" model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 16,
+      "slideTitle": "Misc 2 https://arxiv.org/abs/2405.05904 Does Fine-Tuning LLMs on New",
+      "source": "outline"
+    },
+    {
+      "claim": "Fine-Tuning LLMs Encourage Hallucinations?",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 17,
+      "slideTitle": "Total #models: 99. Total #votes: 1,170,955. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Cognition Devin on Azure",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 18,
+      "slideTitle": "Tech Layoffs were lower than in 2023 Layoffs",
+      "source": "outline"
+    },
+    {
+      "claim": "Eric Schmidt - powerful AI on military bases",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 18,
+      "slideTitle": "Tech Layoffs were lower than in 2023 Layoffs",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 19,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs were lower than in 2023",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=00p_yBOLzmg",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

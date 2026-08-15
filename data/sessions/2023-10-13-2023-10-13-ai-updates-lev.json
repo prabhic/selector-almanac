@@ -1,0 +1,264 @@
+{
+  "id": "2023-10-13-2023-10-13-ai-updates-lev",
+  "date": "2023-10-13",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "open-models",
+    "benchmarks",
+    "fine-tuning",
+    "infra",
+    "agents",
+    "rag",
+    "general"
+  ],
+  "video": {
+    "id": "Og5tWdvItcw",
+    "title": "AI Updates - October 13, 2023 - LLM Mistral, OpenOrca, Inflection.AI, AutoGen, Fine-Tuning, QLoRa",
+    "url": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+    "thumbnail": "https://i.ytimg.com/vi/Og5tWdvItcw/hqdefault.jpg",
+    "duration": 1538
+  },
+  "deck": {
+    "path": "2023/2023-10-13-AI-Updates-Lev.pptx",
+    "filename": "2023-10-13-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-13-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-13-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates October 13, 2023",
+      "text": "AI Updates October 13, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Tools for the Mind Satya Nadella \"AI is",
+      "text": "Tools for the Mind Satya Nadella \"AI is like a steam engine for the mind\" Steve Jobs \"Computers are like a bicycle for our minds\" Next ? race car ? rocket ?"
+    },
+    {
+      "index": 4,
+      "title": "Misc Mistal-OpenOrca is available on ollama.ai !!! https://ollama.ai/library/mistral-openorca",
+      "text": "Misc Mistal-OpenOrca is available on ollama.ai !!! https://ollama.ai/library/mistral-openorca LLaVA: Large Language and Vision Assistant - Open Source and FREE - uses LLaMa 2 - comparable with \"ChatGPT Vision\" - by Univ of Wisconsin-Madison , Microsoft Research,  Columbia University - https://llava-vl.github.io - https://github.com/haotian-liu/LLaVA - https://www.youtube.com/watch?v=kx1VpI6JzsY In June 2023, Databricks bought MosaicML for $1.3 Bln https://www.mosaicml.com MosaicML is a generative AI platform that allows enterprises to build and deploy their own AI models inside their private cloud Mistral-11B released - and it is better than original LLaMa2 (67.21 vs 66.8) Ollama meets LangChain https://www.youtube.com/watch?v=k_1pOF1mj8k"
+    },
+    {
+      "index": 5,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Look at Mistral 7b and 11b - better than original LLaMa2 Rank Model Aver Precision Nparam 0 GPT-4 84.3 16bit 1800 1 ValiantLabs/ShiningValiant 74.17 16bit 70 2 ICBU-NPU/FashionGPT-70B-V1.2 74.11 16bit 70 41 GPT-3.5 71.9 16bit 175 57 garage-bAInd/Camel-Platypus2-70B 71.36 8bit 70 62 lloorree/jfdslijsijdgis 70.99 4bit 70 107 tiiuae/falcon-180B 68.74 16bit 180 141 Undi95/Mistral-11B-TestBench11 67.21 16bit 11 147 ehartford/dolphin-2.1-mistral-7b 67.06 16bit 7 155 meta-llama/Llama-2-70b-chat-hf 66.8 16bit 70 165 Weyaxi/SlimOpenOrca-Mistral-7B 66.54 16bit 7 177 Aspik101/trurl-2-13b-pl-instruct_unload 66.03 16bit 13 183 Open-Orca/Mistral-7B-OpenOrca 65.84 16bit 7 357 Open-Orca/OpenOrca-Platypus2-13B 63.19 4bit 13 422 mistralai/Mistral-7B-v0.1 62.4 16bit 7 988 joehuangx/spatial-vicuna-7b-v1.5-LoRA 55.72 4bit 7 1870 baseline 25 nan 0"
+    },
+    {
+      "index": 6,
+      "title": "inflection.ai - Pi Inflection AI, Inc. is a",
+      "text": "inflection.ai - Pi Inflection AI, Inc. is a machine learning startup founded by Reid Hoffman, Mustafa Suleyman (CEO), Karén Simonyan in 2022, based in in Palo Alto, CA Raised $225M in 2022, then $1.3 Bln in June 2023 from investors like Microsoft, Reid Hoffman (founder of LinkedIn), Bill Gates, Eric Schmidt, Nvidia Created Pi chatbot, https://heypi.com , May 2023 - a kind and supportive companion offering conversations, friendly advice, and concise information in a natural, flowing style. Helps to process thoughts and feelings, curious and humble, gives feedback in plain, natural language. Creative and fun: it is playful and silly, laughs easily and is quick to make a surprising, creative connection. Pi = \"Personal intelligence\" because it learns person’s unique interests and needs. Pi is a teacher, coach, confidante, creative partner, and sounding board https://inflection.ai https://github.com/topics/inflection-ai https://en.wikipedia.org/wiki/Inflection_AI https://pi.ai/onboarding Mustafa Suleyman co-founder of Inflection AI co-founder of DeepMind Reid Hoffman co-founder of Inflection AI co-founder of Linkedin Karén Simonyan from DeepMind Chief Scientist and co-Founder of Inflection AI"
+    },
+    {
+      "index": 7,
+      "title": "AutoGen (MSFT) - Build Systems of Co-operating Agents",
+      "text": "AutoGen (MSFT) - Build Systems of Co-operating Agents AutoGen - open-source framework to enable the development of LLM applications using multiple agents that can converse with each other to solve tasks - on GitHub - https://github.com/microsoft/autogen pip install pyautogen AutoGen : Enabling Next-Gen LLM Applications via Multi-Agent Conversation - https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/ Good article - https://jrodthoughts.medium.com/inside-autogen-microsoft-research-new-autonomous-agent-framework-b413648af24d Some use cases: Math Problem Solving Multi-Agent Coding (3 agents solving optimization problem) Online Decision Making Retrieval-Augmented Chat (code generation, question-answering) Dynamic Group Chat - versatile group communication systems Conversational Chess - allowing players to engage in an interactive and creative chess game through conversation"
+    },
+    {
+      "index": 8,
+      "title": "Mastering Customer Segmentation with LLM Mastering Customer Segmentation",
+      "text": "Mastering Customer Segmentation with LLM Mastering Customer Segmentation with LLM https://towardsdatascience.com/mastering-customer-segmentation-with-llm-3d9008235f41"
+    },
+    {
+      "index": 9,
+      "title": "An OS that boots to a baby Llama",
+      "text": "An OS that boots to a baby Llama 2 An OS that boots to a baby Llama 2 Standalone, Binary Portable, Bootable L2E = Llama 2 Everywhere OS (Linux Kernel) https://github.com/trholding/llama2.c The primary objective of Llama 2 Everywhere (L2E) is to ensure its compatibility across a wide range of devices. We can harness a legion of small specialized LLMs with modest hardware requirements which are networked, distributed, and self-coordinated. L2E has the potential to democratize access to AI and unlock collective intelligence that surpasses that of a single large LLM."
+    },
+    {
+      "index": 10,
+      "title": "RAG = Retrieval Augmented Generation The idea is",
+      "text": "RAG = Retrieval Augmented Generation The idea is to enable a LLM to use external data. RAG = Retrieval Augmented Generation Examples of using external data: ChatGPT, Bard, Bing use web search to retrieve recent relevant information LLM uses local SQL DB search or vector DB search (similarity search) LLM uses APIs for relevant systems to do the search ... Question Answer LLM Agents Get Data"
+    },
+    {
+      "index": 11,
+      "title": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "text": "RAG = Retrieval Augmented Generation Docs Chunks Embedding vectors Vector DB Embedding vector Relevant chunks Query augmented with relevant data LLM Similarity search Answer Search Query"
+    },
+    {
+      "index": 12,
+      "title": "RAG - Vector Similarity Search is N ot",
+      "text": "RAG - Vector Similarity Search is N ot Enough Embeddings fail to capture the inferential link Q -> A when Q and A vectors are not similar One text passage may contain several ideas . If encoded into a single vector, i t is impossible to distinguish relevant sections from irrelevant ones. Some questions demand synthesizing facts spread across multiple documents. Vector search can NOT do such multi-vector hop reasoning. Ways to improve: add metadata, add summaries & tags (use LLM to create them) add relationships between vectors based on topics, vector similarity, structural (connections between sections, pages, documents), temporal ( events linked chronologically), links (references) between passages"
+    },
+    {
+      "index": 13,
+      "title": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "text": "RAG = Retrieval Augmented Generation Docs Chunks Embedding vectors Vector DB Embedding vector Relevant chunks Query augmented with relevant data (up to 50pages) LLM Similarity search, re-ranking Answer Search Query, tags, metadata Splitting with overlap Encoding metadata summaries, tags, references Example: - https://madhukarkumar.medium.com/secrets-to-optimizing-rag-llm-apps-for-better-accuracy-performance-and-lower-cost-da1014127c0a"
+    },
+    {
+      "index": 14,
+      "title": "Fine-Tuning LLMs How do you train an LLM",
+      "text": "Fine-Tuning LLMs How do you train an LLM to learn your local or private domain specific data? Train a new LLM from scratch is expensive ( $2-5Mln ) Train a new small LLM - much cheaper (but still $40K-400K ) Fine-tune existing model (much-cheaper) Fine-tune existing small model (even cheaper) Fine-tune existing small model quantized down to 4 bits (on laptop) PEFT = Parameter Efficient Fine Tuning fine-tuning while minimizing the resources and cost Two common ways of achieving PEFT : LoRA = Low Rank Parameter Adaptation https://arxiv.org/abs/2106.09685 (June 2021, Montréal, QC, Canada) QLoRA = Quantized Low-Ranking Adaptation (fast, using 4bit) https://arxiv.org/abs/2305.14314 (May 2023, Seattle, WA)"
+    },
+    {
+      "index": 15,
+      "title": "Fine Tuning LLM LoRA - add trainable parameters",
+      "text": "Fine Tuning LLM LoRA - add trainable parameters (weights) in each layer of the model in parallel with frozen original parameters. The trainable layer uses dimension/rank decomposition to reduce number of parameters to train QLora - trains using 4-bit (does Normalization & Quantization) - thus making calculations much faster and require less resources Read these two articles explaining the basics: Fine Tuning LLM: Parameter Efficient Fine Tuning (PEFT) — LoRA & QLoRA — Part 1 & Part 2 - by A B Vijay Kumar ( using HuggingFace) https://abvijaykumar.medium.com/fine-tuning-llm-parameter-efficient-fine-tuning-peft-lora-qlora-part-1-571a472612c4 https://abvijaykumar.medium.com/fine-tuning-llm-parameter-efficient-fine-tuning-peft-lora-qlora-part-2-d8e23877ac6f"
+    },
+    {
+      "index": 16,
+      "title": "Fine Tuning LLM using QLoRA Instructions and examples",
+      "text": "Fine Tuning LLM using QLoRA Instructions and examples https://github.com/artidoro/qlora Video - How to Fine-Tune Open-Source LLMs Locally Using QLoRA! (link to python code under the video) https://www.youtube.com/watch?v=2bkrL2ZcOiM Two more articles with examples: https://www.analyticsvidhya.com/blog/2023/08/lora-and-qlora/ https://medium.com/@amodwrites/a-definitive-guide-to-qlora-fine-tuning-falcon-7b-with-peft-78f500a1f337"
+    },
+    {
+      "index": 17,
+      "title": "Tagging - Extract Keywords From Documents A good",
+      "text": "Tagging - Extract Keywords From Documents A good way to improve RAG is to use summaries and tags for text chunks. You can ask LLM to create a summary in 200 words. You can use KeyLLM to extract keywords . About KeyBERT - https://maartengr.github.io/KeyBERT/ About KeyLLM - https://maartengr.github.io/KeyBERT/guides/keyllm.html Colab - https://colab.research.google.com/drive/1A1lbPnBhtxL9jR7vFcm7Z0F0aJdEl-zj Video - https://www.youtube.com/watch?v=xF2UJTmRU_Y from keybert import KeyLLM from ctransformers import AutoModelForCausalLM model = AutoModelForCausalLM.from_pretrained( \" TheBloke/Mistral-7B-Instruct-v0.1-GGUF \", model_file=\" mistral-7b-instruct-v0.1.Q4_K_M.gguf \", model_type=\" mistral \", gpu_layers=50, hf=True) You can also use tagging in LangChain - https://python.langchain.com/docs/use_cases/tagging from langchain.chains import create_tagging_chain, create_tagging_chain_pydantic Using TF.IDF for article tag recommender systems https://shaswatlenka.medium.com/using-tf-idf-for-article-tag-recommender-systems-in-python-d1cf74e28b6a AI-Powered Topic Modeling https://mikulskibartosz.name/topic-modeling-and-clustering-with-word-embeddings-and-ai"
+    },
+    {
+      "index": 18,
+      "title": "Why Hosting Local LLMs vs Cloud ? https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526",
+      "text": "Why Hosting Local LLMs vs Cloud ? https://betterprogramming.pub/you-dont-need-hosted-llms-do-you-1160b2520526 Self-hosting for for LLaMA-2–70B on AWS or Google: 8x Nvidia A100 g5.48xlarge on AWS      ($17K/mo) a2-megagpu-16g on GCP   ($6K/mo) OpenAI’s Terms of Use doc mentions that they “may use Content from Services other than our API ... to help develop and improve our Services” . This means that anything you send to ChatGPT may and will be included in their training data. On-prem solutions provide more privacy, security, control, flexibility, no external dependencies. Also on-prem solutions are cheaper in the long run (own vs rent) Azure OpenAI Service provide private enterprise hosting. But recently they have exposed 3 8 TBytes of data - including passwords and secure keys."
+    },
+    {
+      "index": 19,
+      "title": "Hosting Your Own Embedding Model Hosting A Text",
+      "text": "Hosting Your Own Embedding Model Hosting A Text Embedding Model That is Better, Cheaper, and Faster Than OpenAI’s Solution (which is #13 below) https://medium.com/@kelvin.lu.au/hosting-a-text-embedding-model-that-is-better-cheaper-and-faster-than-openais-solution-7675d8e7cab2 Massive Text Embedding Benchmark (MTEB) Leaderboard https://huggingface.co/spaces/mteb/leaderboard"
+    },
+    {
+      "index": 20,
+      "title": "ThirdAI Labs: Fine-Tuning vs RAG NeuralDB - an",
+      "text": "ThirdAI Labs: Fine-Tuning vs RAG NeuralDB - an efficient, private, teachable database for neural text search over your documents https://github.com/ThirdAILabs/Demos/tree/main/neural_db Demystifying LLM-Driven Search: Stop Comparing Embeddings or VectorDBs and Start Fine-Tuning https://medium.com/thirdai-blog/demystifying-llm-driven-search-stop-comparing-embeddings-or-vectordbs-and-start-fine-tuning-d9b6791146fe"
+    },
+    {
+      "index": 21,
+      "title": "Misc 2 Automating Ontology Construction with LLMs -",
+      "text": "Misc 2 Automating Ontology Construction with LLMs - create ontology over text documents https://ai.plainenglish.io/automating-ontology-construction-with-large-language-models-76081364dc7b Making AI Hallucinate Less with Chain-of-Verification ( CoVe ) https://medium.com/@raphael.mansuy/making-ai-hallucinate-less-with-chain-of-verification-2e27682e842c Based on the response \" ... \", suggest 2-3 questions to verify key facts that could identify inaccuracies in the response if any. Ask each question separately. The model is more likely to respond accurately when given a focused factual query. This is similar to Socrates and Plato method of asking questions CoVe reduced hallucinations in question answering by 15–38% across different base models, improved factuality in list generation by up to 5x over baselines, increased factual scoring of biographies by a significant 28%. LCEL = LangChain Expression Language : LangChain rewrote every agent from a pre-defined black box to a series of deconstructed modules by using LangChain expression language https://levelup.gitconnected.com/building-a-powerful-agent-has-no-challenge-today-774e27be818d"
+    },
+    {
+      "index": 22,
+      "title": "RAG-Fusion https://github.com/Raudaschl/rag-fusion Forget RAG, the Future is RAG-Fusion",
+      "text": "RAG-Fusion https://github.com/Raudaschl/rag-fusion Forget RAG, the Future is RAG-Fusion https://towardsdatascience.com/forget-rag-the-future-is-rag-fusion-1147298d8ad1 The system converts user query into multiple queries (using LLM), conducts vector-based searches on all these generated queries to retrieve relevant documents, applies the Reciprocal Rank Fusion algorithm to re-rank the documents based on their relevance across multiple queries , produces a  final output consisting of the re-ranked list of documents Interest in RAG skyrocketed in 2023"
+    },
+    {
+      "index": 23,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates October 13, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates October 13, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Tools for the Mind Satya Nadella \"AI is",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 3,
+      "slideTitle": "Tools for the Mind Satya Nadella \"AI is",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc Mistal-OpenOrca is available on ollama.ai !!! https://ollama.ai/library/mistral-openorca",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 4,
+      "slideTitle": "Misc Mistal-OpenOrca is available on ollama.ai !!! https://ollama.ai/library/mistral-openorca",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 5,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "inflection.ai - Pi Inflection AI, Inc. is a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 6,
+      "slideTitle": "inflection.ai - Pi Inflection AI, Inc. is a",
+      "source": "slide"
+    },
+    {
+      "claim": "AutoGen (MSFT) - Build Systems of Co-operating Agents",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 7,
+      "slideTitle": "AutoGen (MSFT) - Build Systems of Co-operating Agents",
+      "source": "slide"
+    },
+    {
+      "claim": "Mastering Customer Segmentation with LLM Mastering Customer Segmentation",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 8,
+      "slideTitle": "Mastering Customer Segmentation with LLM Mastering Customer Segmentation",
+      "source": "slide"
+    },
+    {
+      "claim": "An OS that boots to a baby Llama",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 9,
+      "slideTitle": "An OS that boots to a baby Llama",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG = Retrieval Augmented Generation The idea is",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 10,
+      "slideTitle": "RAG = Retrieval Augmented Generation The idea is",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 11,
+      "slideTitle": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG - Vector Similarity Search is N ot",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 12,
+      "slideTitle": "RAG - Vector Similarity Search is N ot",
+      "source": "slide"
+    }
+  ]
+}

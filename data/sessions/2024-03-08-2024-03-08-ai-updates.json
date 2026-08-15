@@ -1,0 +1,432 @@
+{
+  "id": "2024-03-08-2024-03-08-ai-updates",
+  "date": "2024-03-08",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "_845vtsDVjQ",
+    "title": "Have you heard these exciting AI news? - March 08, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=_845vtsDVjQ",
+    "thumbnail": "https://i.ytimg.com/vi/_845vtsDVjQ/hqdefault.jpg",
+    "duration": 2046
+  },
+  "deck": {
+    "path": "2024/2024-03-08-AI-Updates.pptx",
+    "filename": "2024-03-08-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-03-08-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-03-08-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "CLA3",
+      "startSeconds": 20,
+      "label": "00:20",
+      "source": "youtube"
+    },
+    {
+      "title": "CL3 IQ",
+      "startSeconds": 225,
+      "label": "03:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Elon Musk sues OpenAI",
+      "startSeconds": 265,
+      "label": "04:25",
+      "source": "youtube"
+    },
+    {
+      "title": "AI market predictions",
+      "startSeconds": 525,
+      "label": "08:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Google content swiping AI",
+      "startSeconds": 573,
+      "label": "09:33",
+      "source": "youtube"
+    },
+    {
+      "title": "AI worm",
+      "startSeconds": 660,
+      "label": "11:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Fake IDs",
+      "startSeconds": 720,
+      "label": "12:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Miscellaneous Facts",
+      "startSeconds": 754,
+      "label": "12:34",
+      "source": "youtube"
+    },
+    {
+      "title": "ACT Summary",
+      "startSeconds": 912,
+      "label": "15:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Content Detection",
+      "startSeconds": 991,
+      "label": "16:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft vs New York Times",
+      "startSeconds": 1133,
+      "label": "18:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Amazon Chat Assistant",
+      "startSeconds": 1505,
+      "label": "25:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Amaras Law",
+      "startSeconds": 1536,
+      "label": "25:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Function Calling with LLM",
+      "startSeconds": 1568,
+      "label": "26:08",
+      "source": "youtube"
+    },
+    {
+      "title": "CLA3 Tutorial",
+      "startSeconds": 1758,
+      "label": "29:18",
+      "source": "youtube"
+    },
+    {
+      "title": "SML",
+      "startSeconds": 1888,
+      "label": "31:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Arena leaderboard",
+      "startSeconds": 1972,
+      "label": "32:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Claude 3 Released by Anthropic, Beats Average Human",
+      "text": "Claude 3 Released by Anthropic, Beats Average Human on IQ Test Elon Musk suing OpenAI & Sam Altman Generative AI market to skyrocket Google’s Content-Swiping AI AI worm Morris II AI-generated fake IDs Microsoft GLAN (Instruction Tuning) India - Gov. approval for AI deployments US - \"Federal AI Governance ... Act\" EU - AI Act Decline of Conventional Media AI content detectors, Text Humanizers HyperAttention Single Image => 3D VTG-GPT (search inside videos) Ema - an Universal AI employee Copyright: LLMs similar to VCRs Snowflake Cortex + Mistral Large Inflection-2.5 on Pi platform Amazon Rufus Chatbot Amara's Law Function Calling with LLM Andrej Karpathy - using Claude 3 for Video Summarization ASML Crowd-sourced \"Arena\" Leaderboard AI Updates March 08, 2024 International Women's Day"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 3,
+      "title": "Claude 3 - released March 4 Anthropic has",
+      "text": "Claude 3 - released March 4 Anthropic has released three new models: Haiku, Sonnet, Opus. Named after poem sizes (3-liner, 12-liner, big literary work). They are all much better than GPT-3.5, and Opus is close to GPT-4-Turbo https://www.anthropic.com/news/claude-3-family https://twitter.com/AnthropicAI/status/1764653830468428150 https://encord.com/blog/claude-3-explained/ https://lifearchitect.substack.com/p/the-memo-special-edition-claude-3 Model Input Price ($/Mln tks) Output Price ($/Mln tks) Total Price ( $/Mln tks ) Claude 3 Haiku 0.25 1.25 1.5 GPT-3.5 Turbo 0.5 1.5 2 Claude 3 Sonnet 3 15 18 Mistral Large 8 24 32 GPT-4 Turbo (128K) 10 30 40 Claude 3 Opus 15 75 90 GPT-4 8K 30 60 90 GPT-4 32K 60 120 180 Context window is 200K (1 Mln+ possible) Opus - 99% recall on processing long context prompts API is available Free chat uses Sonnet - https://claude.ai/chats V ision capabilities on par with leading models like GPT-4V GPT-4 Turbo 90.1% - 95.27 68.42 - 87.8 83.7 89 - 95.3"
+    },
+    {
+      "index": 4,
+      "title": "Claude 3: Beats Average Human on IQ Test",
+      "text": "Claude 3: Beats Average Human on IQ Test https://twitter.com/waitbutwhy/status/1765554130804724057 https://twitter.com/tsarnick/status/1765292098117681233"
+    },
+    {
+      "index": 5,
+      "title": "Elon Musk sues OpenAI and Sam Altman Elon",
+      "text": "Elon Musk sues OpenAI and Sam Altman Elon Musk sues OpenAI and Sam Altman over 'betrayal' of nonprofit AI mission, for abandoning (violating) original guiding principles in favor of profit. Below is the original email (2015) from Sam Altman. Musk, a co-founder and early backer of OpenAI, claims Altman and Brockman convinced him to help found and bankroll the startup in 2015 with promises it would be a nonprofit focused on countering the competitive threat from Google . The founding agreement required OpenAI to make its technology \"freely available\" to the public, the lawsuit alleges. https://twitter.com/elonmusk/status/1765415187161464972 Elon Musk - Fixed It"
+    },
+    {
+      "index": 6,
+      "title": "Elon Musk is suing OpenAI and Sam Altman",
+      "text": "Elon Musk is suing OpenAI and Sam Altman https://www.courthousenews.com/wp-content/uploads/2024/02/musk-v-altman-openai-complaint-sf.pdf - February 29, 2024 Elon Musk is suing Sam Altman & Greg Brockman of OpenAI. In 2015 Sam Altman approached Musk with promise to build an open-source organization to oppose closed-source giants like Google Musk has invested ~ $44 Mln total, left in 2018 due to potential conflict of interests between OpenAI and AI used in Tesla self-driving car 2019: Microsoft invested $1 Billion in OpenAI - both funding research and utilizing Azure cloud compute. 2020 - OpenAI officially announced GPT-3 in a research paper titled \"Language Models are Few-Shot Learners\" - but never open-sourced this or following models. 2023: Microsoft announced a new $10 Bln investment into OpenAI OpenAI has become completely opposite to its original intended open-source nature. It is closed source. Musk's example with amazon forest: https://twitter.com/elonmusk/status/1764051414727201099 Musk is accusing for : Breach of Contract, Promissory Estoppel, Breach of Fiduciary Duty, Unfair Business Practices, Accounting Musk is asking for : forcing OpenAI to become open again; determining that GPT-4, Q*, etc.  are AGI and are outside the scope of OpenAI’s license to Microsoft; intellectual property and derivative work which defendants used for personal benefit; returning the money and compensatory and punitive damages OpenAI team denies Musk's claims and states that: GPT-4 isn't AGI; OpenAI still aims to benefit humanity, striving to develop AGI; OpenAI, not a Microsoft subsidiary, independently researches and competes in providing value through ChatGPT, different from Microsoft's Copilot offerings. OpenAI \"corporate shell game\" - 8 companies: OPENAI, INC., a corporation, OPENAI, L.P., a limited partnership, OPENAI, L.L.C., a limited liability company, OPENAI GP, L.L.C., a limited liability company, OPENAI OPCO, LLC, a limited liability company, OPENAI GLOBAL, LLC, a limited liability company, OAI CORPORATION, LLC, a limited liability company, OPENAI HOLDINGS, LLC Ron Conway (famous angel investor) - Open Letter - \"Build AI for a Better Future\" - https://openletter.svangel.com OpenAI response with historical evidence talking about Elon Musk saying that Billion $ is needed, trying to attach OpenAI to Tesla and taking control - https://www.youtube.com/watch?v=FYJVTPzj0cE"
+    },
+    {
+      "index": 7,
+      "title": "Generative AI market to skyrocket Generative AI market",
+      "text": "Generative AI market to skyrocket Generative AI market to skyrocket (2023-2030) from USD 11.3 billion to: 77 Bln - MarketsandMarkets research https://www.marketsandmarkets.com/Market-Reports/generative-ai-market-142870584.html $207 Bln - Statista https://www.statista.com/outlook/tmo/artificial-intelligence/generative-ai/worldwide#market-size $1,850 Bln - ExplodingTopics https://explodingtopics.com/blog/ai-market-size-stats And maybe even this is too conservative. AI compute grows more than x4/year. 7 years ~ 16,000 growth ? Reaching 10s of Trillions by 2030?"
+    },
+    {
+      "index": 8,
+      "title": "Google’s Content-Swiping AI a.k.a. Search Generative Experience (SGE)",
+      "text": "Google’s Content-Swiping AI a.k.a.  Search Generative Experience (SGE) Search Generative Experience (SGE) is an experimental feature of Google Search. SGE uses AI to compile facts and snippets of text from various websites into one short summary. https://www.conductor.com/academy/search-generative-experience/ Criticism - Google doesn't always give attributions to original sources, which leads to a perception of these answers as Google's own creation, even when they aren't. Also the users get their answers from an AI summary instead of clicking through to the original sources. This harms the websites that rely on traffic from Google Search. June 11, 2023 https://www.tomshardware.com/news/google-sge-break-internet"
+    },
+    {
+      "index": 9,
+      "title": "AI worm Morris II spreads and steals data",
+      "text": "AI worm Morris II spreads and steals data from emails AI worm infects users via AI-enabled email clients — Morris II generative AI worm steals confidential data as it spreads https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-worm-infects-users-via-ai-enabled-email-clients-morris-ii-generative-ai-worm-steals-confidential-data-as-it-spreads Morris II demo was created by researches at Israel Institute of Technology & Intuit They named it ' Morris II ' after the original Morris - first computer worm ( 1988 ). This worm targets AI apps and AI-enabled email assistants that generate text and images using models like Gemini Pro, ChatGPT 4.0, and LLaVA. The worm uses adversarial self-replicating prompts . Here's how the authors describe the attack mechanism: \"The study demonstrates that attackers can insert such prompts into inputs that, when processed by GenAI models , prompt the model to replicate the input as output (replication) and engage in malicious activities (payload). Additionally, these inputs compel the agent to deliver them ( propagate ) to new agents by exploiting the connectivity within the GenAI ecosystem. We demonstrate the application of Morris II against GenAI-powered email assistants in two use cases (spamming and exfiltrating personal data), under two settings (black-box and white-box accesses), using two types of input data (text and images).\""
+    },
+    {
+      "index": 10,
+      "title": "AI-generated fake IDs AI to detect fraudulent passports.",
+      "text": "AI-generated fake IDs AI to detect fraudulent passports. Many government agencies and border security organizations are using AI-powered systems to detect fraudulent passports. Private companies are also developing AI-based solutions for identity verification, including passport checks. AI-generated fake IDs claimed to pass crypto exchange KYC (Know Your Customer) are selling for $15 https://www.medianama.com/2024/02/223-onlyfake-generative-ai-fake-id/ https://www.404media.co/inside-the-underground-site-where-ai-neural-networks-churns-out-fake-ids-onlyfake/"
+    },
+    {
+      "index": 11,
+      "title": "Misc 1 Microsoft GLAN (Generalized Instruction Tuning) Synthetic",
+      "text": "Misc 1 Microsoft GLAN (Generalized Instruction Tuning) Synthetic Data (Almost) from Scratch: Generalized Instruction Tuning for Language Models - https://arxiv.org/abs/2402.13064 - GLAN uses pre-curated taxonomy of human knowledge (in various fields, sub-fields and ultimately, distinct disciplines semi-automatically, facilitated by LLMs). GLAN generates a comprehensive list of subjects for every discipline and proceed to design a syllabus tailored to each subject, again utilizing LLMs. GLAN generates diverse instructions with a broad coverage across the entire spectrum of human knowledge and skills. Tuning Mistral using GLAN - excels in multiple dimensions from mathematical reasoning, coding, academic exams, logical reasoning to general instruction following without using task-specific training data of these tasks. GLAN allows for easy customization and new fields or skills can be added by simply incorporating a new node into our taxonomy. India now requires approval for certain AI deployments by the Ministry of Electronics and Information Technology (MeitY). https://twitter.com/AravSrinivas/status/1764429686787252402 US gov : considering Federal AI Governance and Transparency Act https://oversight.house.gov/release/comer-raskin-introduce-the-federal-ai-governance-and-transparency-act Europe : The EU AI Act was officially enacted on Dec 9, 2023 and is expected to go into effect in 2025. .. https://artificialintelligenceact.eu Europe is leading in creating regulations. First was GDPR (2016 .. 2018), now the AI Act (2023-2025) Decline of Conventional Media"
+    },
+    {
+      "index": 12,
+      "title": "EU Artificial Intelligence Act EU Artificial Intelligence Act",
+      "text": "EU Artificial Intelligence Act EU Artificial Intelligence Act - Dec 2023 Regulates dev & use of AI within European Union. Goals: Safe, protect EU citizens Promote trust in AI Ensure ethics, respect fundamental rights Global standard (potentially influencing other countries) Foster innovation in AI in safe way Risk-Based Approach - four categories of A! systems Unacceptable Risk - threat to safety, livelihoods, and rights.  Prohibited outright. High-Risk - significant potential for harm. Undergo strict assessments, must meet requirements for transparency, human oversight, accuracy, and robustness. Examples: AI in critical infrastructure, education, employment, and law enforcement. Limited Risk - specific transparency obligations: chatbots. Minimal Risk - the majority of AI systems fall here with no special restrictions (e.g., AI-based video games). Prohibited AI Practices: Social scoring systems used by governments. Use of AI for real-time remote biometric identification in public spaces for law enforcement purposes (with specific exceptions). AI that exploit vulnerabilities of individuals or groups. Obligations for High-Risk Systems Must undergo assessments before being put into use. Requirements for high-quality datasets to minimize risks of bias/discrimination. Robustness, accuracy, and cybersecurity safeguards. Traceability and record-keeping for results generated. Appropriate human oversight mechanisms. Clear user instructions and information."
+    },
+    {
+      "index": 13,
+      "title": "Misc 2 Text Humanizers : https://humbot.ai - humanize",
+      "text": "Misc 2 Text Humanizers : https://humbot.ai - humanize AI text into authentic and original content undetectable by most AI content detectors https://undetectableai.ai - ... AI content detectors : https://originality.ai https://www.zerogpt.com https://contentatscale.ai https://gowinston.ai https://copyleaks.com https://www.turnitin.com https://gptzero.me HyperAttention : Long-context Attention in Near-Linear Time - https://arxiv.org/abs/2310.05869 Single Image => 3D in less than a second without GPU open source Tripo3d.AI + Stability.AI https://www.tripo3d.ai - generate 3d images from photos in under a second. https://arxiv.org/abs/2311.04400 https://stability.ai/news/triposr-3d-generation Google Cloud Next'24 : global exhibition Apr. 9-11, 2024 in Las Vegas Stable Diffusion 3 : Research Paper https://stability.ai/news/stable-diffusion-3-research-paper VTG-GPT - find specific segments in videos using natural language queries - https://github.com/YoucanBaby/VTG-GPT https://www.ema.co - startup received $25 Mln. Ema is an Universal AI employee ; using multiple LLMs to do common office tasks; simple to use, trusted and accurate. https://techcrunch.com/2024/03/05/ema-a-universal-ai-employee-emerges-from-stealth-with-25m/"
+    },
+    {
+      "index": 14,
+      "title": "Misc 3 Lawsuit: Microsoft vs The New York",
+      "text": "Misc 3 Lawsuit: Microsoft vs The New York Times: drawing parallels between using LLMs and VCRs (Video Cassette Recorder). The precedent: \"technologies capable of copyright infringement have been deemed legal if they also have substantial lawful uses\" Snowflake Cortex now uses Mistral Large LLM to analyze text data and build AI applications (including RAG, vector search - using Python, serverless functions, Streamlit, data pipelines). https://www.snowflake.com/en/data-cloud/cortex/ Inflection 2.5 - available to all Pi users. Trained using 22,000 NVIDIA H100 GPUs. Approaches GPT-4; the \"Pi\" app now has world-class real-time web search capabilities https://inflection.ai/inflection-2-5 Fine-tune a 70B LLM at home using two Nvidia 3090 https://www.answer.ai/posts/2024-03-06-fsdp-qlora.html by Jeremy Howard, open source, based on FSDP (Fully Sharded Data Parallel) https://engineering.fb.com/2021/07/15/open-source/fsdp/ and on QLoRA - https://arxiv.org/abs/2305.14314 Also see how to (pre)train a 7B LLM on just one Nvidia 3090 GaLore: Memory-Efficient LLM Training by Gradient Low-Rank Projection - https://arxiv.org/abs/2403.03507 (CalTech, Meta, CMU) GPT = Generative Pre-trained Transformer The term \" GPT \" was introduced in June 2018 in OpenAI paper \"Improving Language Understanding by Generative Pre-Training\" by Alec Radford, Karthik Narasimhan, Tim Salimans, Ilya Sutskever . This paper has introduced the first version of the GPT model (now known as GPT-1). \"LLMs are just stochastic parrots\""
+    },
+    {
+      "index": 15,
+      "title": "Amazon Rufus Chatbot Amazon Rufus Chatbot - AI",
+      "text": "Amazon Rufus Chatbot Amazon Rufus Chatbot - AI powered, inside Amazon Shopping app for Android and iOS, started rolling out in February https://techcrunch.com/2024/03/05/amazons-new-rufus-chatbot-isnt-bad-but-it-isnt-great-either/ Open Rufus by swiping up from the bottom of the screen in amazon catalog, or by tapping on the search bar >> \"Ask a question\" section.  You can type or speak your questions."
+    },
+    {
+      "index": 16,
+      "title": "Amara's Law Amara's Law: The Concept: We are",
+      "text": "Amara's Law Amara's Law: The Concept: We are prone to overestimating the impact of new technologies in the short term but underestimating their profound effects in the long run. Origin: Named after Roy Amara, a computer scientist, futurist, and former president of the Institute for the Future. Examples: Artificial Intelligence: In its early stages, AI hype can lead to unrealistic expectations. However, its gradual integration into various fields is fundamentally changing how we do things. The Internet: In the early days of the internet, predictions were overly optimistic. Over time, though, the internet has revolutionized communication, commerce, and access to information. Why it Matters: Amara's Law reminds us to be patient with emerging technologies.  The real transformative power may take years or even decades to fully manifest."
+    },
+    {
+      "index": 17,
+      "title": "Function Calling with LLM For this to work",
+      "text": "Function Calling with LLM For this to work we need to set things up: create a set of functions (Python functions, API calls, etc) create clear descriptions of those functions in a structured way (usually in JSON) Include these descriptions into the prompt along with instructions of how LLM should be using these descriptions to identify the function. Instruct LLM to provide responses in a (JSON) format to indicate whether a function call is needed, function name and parameters. Popular frameworks (LangChain, LammaIndex, ...) make function calling simple. https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/ But the system may easily break when the model is changed. See for example \"Claude Opus vs. GPT4\": https://www.youtube.com/watch?v=6nfdL76d6OI It is more reliable to have your own prompts and wrappers, which you can update without waiting for LangChain to fix the problems. We send text request to LLM LLM tries to determine if a function call needs to be made, and if so - then which function and with which parameters. It returns JSON with function name and parameters' values. We call the function on our side, get its output, and feed it back to LLM along with the original request - asking LLM to provide final output. from langchain.llms import OpenAI from langchain.chains.function_to_llm \\ import MapFunctionChain def weather_lookup(location): \"\"\" implements fetching weather data \"\"\" return weather_description llm = OpenAI(temperature=0) # Lower temp for # deterministic output weather_chain = MapFunctionChain( llm=llm, func=weather_lookup) question = \"What's the weather like in Paris?\" response = weather_chain.run(question) print(response)"
+    },
+    {
+      "index": 18,
+      "title": "Andrej Karpathy - Claude 3 to Sumarize Video",
+      "text": "Andrej Karpathy - Claude 3 to Sumarize Video into Text Andrej Karpathy recorded a video \"Let's build the GPT Tokenizer\": https://www.youtube.com/watch?v=zduSFxRajkE and then used LLM (Claude 3 Opus) to make a blog post from it: https://twitter.com/karpathy/status/1760740503614836917 Here is  GitHub: https://github.com/hundredblocks/transcription_demo?utm_source=tldrai Result: course \"LLM Tokenization\" https://hundredblocks.github.io/transcription_demo/"
+    },
+    {
+      "index": 19,
+      "title": "ASML = \"Advanced Semiconductor Materials Lithography\" Nvidia's AI",
+      "text": "ASML = \"Advanced Semiconductor Materials Lithography\" Nvidia's AI chips are made using ASML's EUV (Extreme Ultraviolet) machines Nvidia outsource chip manufacturing to foundries like TSMC (Taiwan Semiconductor Manufacturing Company) which heavily relies on ASML's equipment for its chip fabrication. Intel & AMD chips are also manufactured using ASML machines. ASML is a Dutch company ( Veldhoven, Netherlands). It is the world's leading manufacturer of photolithography systems. It was founded in 1984, has ~12,000 employees, ~$32 Bln annual revenues ASML machines are heavy (~200 tons), several meters high, fill big room EUV machines costs $200..$400 Mln each. ASML can produce around 40-60 EUV machines per year."
+    },
+    {
+      "index": 20,
+      "title": "March 5, 2024 69 Models, 358 K votes",
+      "text": "March 5, 2024 69 Models, 358 K votes Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard Claude 3 is not included yet"
+    },
+    {
+      "index": 21,
+      "title": "Layoffs are x3 times lower than in 2023",
+      "text": "Layoffs are x3 times lower than in 2023 Tech Jobs Layoffs - https://layoffs.fyi So far in 2024 tech layoffs are 3-times less than in 2023 A new report published March 7 by U.S. outplacement firm Challenger, Gray & Christmas found that companies planned ~85K job cuts in February (worst since 2009). https://www.challengergray.com/blog/job-cuts-jump-in-february-2024-ytd-cuts-down-8-over-last-year/ https://www.livenowfox.com/news/us-layoffs-jump-highest-february-since-2009-report Note that layoffs.fyi shows only tech layoffs."
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Claude 3 Released by Anthropic, Beats Average Human",
+      "source": "youtube"
+    },
+    {
+      "claim": "CLA3",
+      "topic": "general",
+      "videoSeconds": 20,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=20s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "CL3 IQ",
+      "topic": "general",
+      "videoSeconds": 225,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=225s",
+      "slideIndex": 3,
+      "slideTitle": "Claude 3 - released March 4 Anthropic has",
+      "source": "youtube"
+    },
+    {
+      "claim": "Elon Musk sues OpenAI",
+      "topic": "openai",
+      "videoSeconds": 265,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=265s",
+      "slideIndex": 5,
+      "slideTitle": "Elon Musk sues OpenAI and Sam Altman Elon",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI market predictions",
+      "topic": "general",
+      "videoSeconds": 525,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=525s",
+      "slideIndex": 6,
+      "slideTitle": "Elon Musk is suing OpenAI and Sam Altman",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google content swiping AI",
+      "topic": "general",
+      "videoSeconds": 573,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=573s",
+      "slideIndex": 7,
+      "slideTitle": "Generative AI market to skyrocket Generative AI market",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI worm",
+      "topic": "general",
+      "videoSeconds": 660,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=660s",
+      "slideIndex": 8,
+      "slideTitle": "Google’s Content-Swiping AI a.k.a. Search Generative Experience (SGE)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fake IDs",
+      "topic": "general",
+      "videoSeconds": 720,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=720s",
+      "slideIndex": 10,
+      "slideTitle": "AI-generated fake IDs AI to detect fraudulent passports.",
+      "source": "youtube"
+    },
+    {
+      "claim": "Miscellaneous Facts",
+      "topic": "general",
+      "videoSeconds": 754,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=754s",
+      "slideIndex": 11,
+      "slideTitle": "Misc 1 Microsoft GLAN (Generalized Instruction Tuning) Synthetic",
+      "source": "youtube"
+    },
+    {
+      "claim": "ACT Summary",
+      "topic": "general",
+      "videoSeconds": 912,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=912s",
+      "slideIndex": 12,
+      "slideTitle": "EU Artificial Intelligence Act EU Artificial Intelligence Act",
+      "source": "youtube"
+    },
+    {
+      "claim": "Content Detection",
+      "topic": "general",
+      "videoSeconds": 991,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=991s",
+      "slideIndex": 13,
+      "slideTitle": "Misc 2 Text Humanizers : https://humbot.ai - humanize",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft vs New York Times",
+      "topic": "general",
+      "videoSeconds": 1133,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1133s",
+      "slideIndex": 15,
+      "slideTitle": "Amazon Rufus Chatbot Amazon Rufus Chatbot - AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Amazon Chat Assistant",
+      "topic": "general",
+      "videoSeconds": 1505,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1505s",
+      "slideIndex": 16,
+      "slideTitle": "Amara's Law Amara's Law: The Concept: We are",
+      "source": "youtube"
+    },
+    {
+      "claim": "Amaras Law",
+      "topic": "general",
+      "videoSeconds": 1536,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1536s",
+      "slideIndex": 17,
+      "slideTitle": "Function Calling with LLM For this to work",
+      "source": "youtube"
+    },
+    {
+      "claim": "Function Calling with LLM",
+      "topic": "general",
+      "videoSeconds": 1568,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1568s",
+      "slideIndex": 18,
+      "slideTitle": "Andrej Karpathy - Claude 3 to Sumarize Video",
+      "source": "youtube"
+    },
+    {
+      "claim": "CLA3 Tutorial",
+      "topic": "general",
+      "videoSeconds": 1758,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1758s",
+      "slideIndex": 20,
+      "slideTitle": "March 5, 2024 69 Models, 358 K votes",
+      "source": "youtube"
+    },
+    {
+      "claim": "SML",
+      "topic": "general",
+      "videoSeconds": 1888,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1888s",
+      "slideIndex": 21,
+      "slideTitle": "Layoffs are x3 times lower than in 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1972,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ&t=1972s",
+      "slideIndex": 22,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude 3: Beats Average Human on IQ Test",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ",
+      "slideIndex": 4,
+      "slideTitle": "Claude 3: Beats Average Human on IQ Test",
+      "source": "slide"
+    },
+    {
+      "claim": "AI worm Morris II spreads and steals data",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_845vtsDVjQ",
+      "slideIndex": 9,
+      "slideTitle": "AI worm Morris II spreads and steals data",
+      "source": "slide"
+    }
+  ]
+}

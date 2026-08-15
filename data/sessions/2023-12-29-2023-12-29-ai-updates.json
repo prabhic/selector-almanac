@@ -1,0 +1,301 @@
+{
+  "id": "2023-12-29-2023-12-29-ai-updates",
+  "date": "2023-12-29",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "5x3-BK76EO4",
+    "title": "Have you heard these exciting AI news? - December 29, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=5x3-BK76EO4",
+    "thumbnail": "https://i.ytimg.com/vi/5x3-BK76EO4/hqdefault.jpg",
+    "duration": 1239
+  },
+  "deck": {
+    "path": "2023/2023-12-29-AI-Updates.pptx",
+    "filename": "2023-12-29-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-12-29-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-12-29-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "New York Times Sues OpenAI",
+      "startSeconds": 17,
+      "label": "00:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Turing Test Passed in 2023",
+      "startSeconds": 257,
+      "label": "04:17",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT and Chat",
+      "startSeconds": 366,
+      "label": "06:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Interest over time",
+      "startSeconds": 473,
+      "label": "07:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Low rank adaptation",
+      "startSeconds": 604,
+      "label": "10:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Hakan Face leaderboard",
+      "startSeconds": 903,
+      "label": "15:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing Arena leaderboard",
+      "startSeconds": 957,
+      "label": "15:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Mistal Medium",
+      "startSeconds": 1004,
+      "label": "16:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Unified Library",
+      "startSeconds": 1051,
+      "label": "17:31",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Outlook",
+      "startSeconds": 1158,
+      "label": "19:18",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates December 29, 2023 New York Times",
+      "text": "AI Updates December 29, 2023 New York Times Sues OpenAI & MSFT Turing Test Passed in 2023 ? Bigger Network is NOT the Answer AI Dominates Investors Interest 2023 at a Glance LoRA and QLoRA The AI Race - Companies and Tools Hugging Face LLM Leaderboard Crowd-sourced \"Arena\" leaderboard Mistral Medium in Early Access PromptBench - Evaluate LLMs Bill Gates - Notes, Predictions World Gets Better"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "The New York Times (NYT) has sued OpenAI",
+      "text": "The New York Times (NYT) has sued OpenAI and Microsoft The New York Times (NYT) has sued OpenAI and Microsoft for illegal use of their copyrighted material to train ChatGPT . They claim that this is hurting the NYT's business. https://nytco-assets.nytimes.com/2023/12/NYT_Complaint_Dec2023.pdf - 69 pages legal doc https://www.youtube.com/watch?v=iyGQLRzsUrQ - good video review Elon Musk has stated that OpenAI was lying about not using copyrighted data. NYT is the single biggest proprietary data set in Common Crawl used to train GPT. NYT describes how difficult and expensive it is to create high quality materials, and that OpenAI and Microsoft are just using them without paying anything back. NYT claims that OpenAI has trained their models on NYT materials, and even gave them more attention because of their good quality. GPT can even recite whole NYT articles verbatim, thus people don't have to go to the original articles, and NYT is losing visitors, subscribers, and money. OpenAI was removing the copyright info from articles before using them for training OpenAI and Microsoft has included their models in all their apps and systems, building trillions of dollars in value based on NYT materials, and profiting from it. AI hallucinate articles - and attribute them to NYT. This includes misinformation related to health recommendations, buying recommendations, etc. \"Fair Use\" Doctrine - allows the use of copyrighted material in some cases Midjourney will most probably be sued by Disney. Midjourney can generated copies of Disney characters, frame by frame."
+    },
+    {
+      "index": 4,
+      "title": "Turing Test Passed in 2023 ? https://isturingtestpassed.github.io NO",
+      "text": "Turing Test Passed in 2023 ? https://isturingtestpassed.github.io NO The Turing Test was proposed by Alan Turing in 1950 A human evaluator interacts via messages with an unseen counterpart The counterpart may be either a machine or a human The machine passes the test if the human evaluator cannot reliably tell the machine from the human Some people think that this level is already reached (the machine can imitate a stupid human or a child) Alan Turing"
+    },
+    {
+      "index": 5,
+      "title": "Bigger Network is NOT the Answer https://twitter.com/Sentdex/status/1738238419300429948 \"\"Make",
+      "text": "Bigger Network is NOT the Answer https://twitter.com/Sentdex/status/1738238419300429948 \"\"Make the network bigger\" and \"throw more data at it\" can only go so far with the current architectures and we're already seeing significant diminishing returns for this behavior.\"  - Harrison Kinsley \"Google wanted to blow GPT-4 out of the water with Gemini. If they could've done it by throwing more data and compute at it, they would've.\" - Ben Rosmine Data curation can help. But solution is probably in new models and methods of optimization. Sama Claus https://twitter.com/mezaoptimizer/status/1739340176776699945 AI Dominates Investors Interest in 2023 : Bitcoin and Crypto Surpassed in Searches and Funding https://www.ccn.com/news/ai-dominates-investors-interest-2023-bitcoin-crypto/"
+    },
+    {
+      "index": 6,
+      "title": "2023 at a Glance https://twitter.com/Thom_Wolf/status/1739208822575530023 The progressive rise",
+      "text": "2023 at a Glance https://twitter.com/Thom_Wolf/status/1739208822575530023 The progressive rise of open (source/access) AI models back from the ashes in 2023 By next year, the GPU in your pocket (phone) will have a local GPT3.5 I wonder why Apple vision pro is in there Why is SD-XL not on the list? Data from GitHub reveals that \"41% of all code right now is AI generated,\" - Emad Mostaque, Stability AI CEO, July 2023"
+    },
+    {
+      "index": 7,
+      "title": "LoRA and QLoRA Low-rank Adaptation: LoRA Fine-tuning &",
+      "text": "LoRA and QLoRA Low-rank Adaptation: LoRA Fine-tuning & QLoRA Explained In-Depth https://www.entrypointai.com/blog/lora-fine-tuning/ https://youtu.be/t1caDsMzWBk?si=IY0ox-PyPvBvFM8D Mark Hennings https://www.entrypointai.com https://www.linkedin.com/in/markhennings/ https://www.youtube.com/@EntryPointAI/videos Rank 7B 13B 70B 180B 1 0.00% 0.00% 0.00% 0.00% 2 0.01% 0.00% 0.00% 0.00% 4 0.01% 0.01% 0.00% 0.00% 8 0.02% 0.01% 0.01% 0.00% 16 0.04% 0.03% 0.01% 0.01% 64 0.16% 0.11% 0.05% 0.03% 512 1.22% 0.90% 0.39% 0.24% 1,024 2.45% 1.80% 0.77% 0.48% 8,192 19.58% 14.37% 6.19% 3.86% 16,384 39.17% 28.74% 12.39% 7.72% matrix decomposition LoRA (2021, cmu.edu, Microsoft) https://arxiv.org/abs/2106.09685 https://github.com/microsoft/LoRA QLoRA (May 2023, washington.edu) https://arxiv.org/pdf/2305.14314.pdf https://github.com/artidoro/qlora QLoRA team created a special datatype called a NormalFloat that allows a normal distribution of weights to be compressed from 16-bit floats into 4-bits and then restored back at the end with minimal loss in accuracy. In QLoRA paper: .. train all layers .. there is very little statistical difference between ranks of 8 and 256 ."
+    },
+    {
+      "index": 8,
+      "title": "The AI Race Nov 30, 2022 - ChatGPT",
+      "text": "The AI Race Nov 30, 2022 - ChatGPT release has pushed many companies to completely change their agenda and to re-organize around AI 2023 - year of discoveries, POCs 2024 - year of deployments AI Research: .. Berkeley, Carnegie Mellon, MIT, ... .. OpenAI .. Microsoft .. Meta .. Mistral.ai .. Stability.ai .. Anthropic .. Google DeepMind .. 01.ai .. X.ai .. Inflection.ai .. IBM Cloud Platforms: .. Microsoft, Azure .. Hugging Face .. Amazon Bedrock .. AWS EC2 .. Google Vertex AI .. Google CoLab .. IBM Watson .. Nvidia .. cloud.vast.ai .. paperspace.com .. LambdaLabs .. brev.dev Tools: .. RAG tools: Vector DBs, Graph DBs, PostgreSQL .. AutoGen .. TaskWeaver .. MemGPT .. vLLM + AutoAWQ AI Chips: .. Nvidia .. Google TPUs .. Microsoft .. OpenAI .. Meta .. Apple .. Rain NPU ..  Cerebras Software: .. Python, PyTorch, JAX .. Rust Candle .. Nvidia CUDA, cuDNN, TensorRT SDK, DeepStream SDK, ... .. HuggingFace python modules (datasets, transformers) models, datasets, ... .. LangChain, LlamaIndex .. Apple MLX Model Training, Fine-tuning: .. HuggingFace .. Axolotl .. LoRA, QLoRA, S-LoRA .. wandb.ai (weights & biases) .. fast.ai Model Safety: .. Meta Purple Llama Front-End Dev: .. LangChain Studio .. Windows AI Studio .. Streamlit, Flask, Gradio .. voiceflow.com Cloud App Dev: .. Hugging Face .. platform.openai.com .. Cohere.com .. RunPod.io .. replit.com + voiceflow.com .. chatbase.co Local Apps: .. Ollama .. LMStudio .. GPT4All .. MLC LLM .. PrivateGPT .. h2oGPT Datasets: .. HuggingFace .. Orca2, Open Orca .. Dolphin .. scale.com Chats: .. ChatGPT .. Bard .. Claude .. labs.perplexity.ai .. llama2.ai .. pi.ai AI Coding Tools: .. GPT Pilot in VS Code .. GitHub Copilot .. Google’s Duet AI .. JetBrains AI IDEs"
+    },
+    {
+      "index": 9,
+      "title": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "text": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py December 29, 2023 First 14 models are all fine-tuned LlaMa 10.7B"
+    },
+    {
+      "index": 10,
+      "title": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting",
+      "text": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting Elo rating for each model is set at 1000 Currently 65 models, 130K+ votes"
+    },
+    {
+      "index": 11,
+      "title": "Mistral Medium in Early Access Mistral Medium VS",
+      "text": "Mistral Medium in Early Access Mistral Medium VS OpenAI GPT-4 Showdown  + Flowise Deployment (Part 2) https://www.youtube.com/watch?v=pYqEMz5zkhU Both Mixtral 8x7 and Mistral medium is better than GPT-3.5 Mistral Medium is better, closer to GPT-4"
+    },
+    {
+      "index": 12,
+      "title": "PromptBench - Unified Library for Evaluating LLMs PromptBench:",
+      "text": "PromptBench - Unified Library for Evaluating LLMs PromptBench: A Unified Library for Evaluation of Large Language Models - https://arxiv.org/abs/2312.07910v1 GitHub - https://github.com/microsoft/promptbench"
+    },
+    {
+      "index": 13,
+      "title": "Bill Gates - Notes, Predictions AI is about",
+      "text": "Bill Gates - Notes, Predictions AI is about to completely change how you use computers - By Bill Gates| November 09, 2023 https://www.gatesnotes.com/AI-agents https://www.youtube.com/watch?v=k63-eElwz2k https://www.gatesnotes.com/The-Year-Ahead-2024 A personal assistant for everyone Health care, drug discovery, combat antibiotic resistance, treat high-risk pregnancies Developing new foods to save millions of lives from malnutrition Education - personalized Productivity Entertainment and shopping \"To create a new app or service, you'll just tell your agent what you want.\" “If your agent needs to check in with you, it will speak to you or show up on your phone.” Privacy and other big questions (data ownership)"
+    },
+    {
+      "index": 14,
+      "title": "World Gets Better https://www.gapminder.org/facts/improvements/",
+      "text": "World Gets Better https://www.gapminder.org/facts/improvements/"
+    },
+    {
+      "index": 15,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates December 29, 2023 New York Times",
+      "source": "youtube"
+    },
+    {
+      "claim": "New York Times Sues OpenAI",
+      "topic": "openai",
+      "videoSeconds": 17,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=17s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Turing Test Passed in 2023",
+      "topic": "general",
+      "videoSeconds": 257,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=257s",
+      "slideIndex": 4,
+      "slideTitle": "Turing Test Passed in 2023 ? https://isturingtestpassed.github.io NO",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT and Chat",
+      "topic": "general",
+      "videoSeconds": 366,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=366s",
+      "slideIndex": 5,
+      "slideTitle": "Bigger Network is NOT the Answer https://twitter.com/Sentdex/status/1738238419300429948 \"\"Make",
+      "source": "youtube"
+    },
+    {
+      "claim": "Interest over time",
+      "topic": "general",
+      "videoSeconds": 473,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=473s",
+      "slideIndex": 7,
+      "slideTitle": "LoRA and QLoRA Low-rank Adaptation: LoRA Fine-tuning &",
+      "source": "youtube"
+    },
+    {
+      "claim": "Low rank adaptation",
+      "topic": "general",
+      "videoSeconds": 604,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=604s",
+      "slideIndex": 8,
+      "slideTitle": "The AI Race Nov 30, 2022 - ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hakan Face leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 903,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=903s",
+      "slideIndex": 9,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 957,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=957s",
+      "slideIndex": 11,
+      "slideTitle": "Mistral Medium in Early Access Mistral Medium VS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mistal Medium",
+      "topic": "general",
+      "videoSeconds": 1004,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=1004s",
+      "slideIndex": 12,
+      "slideTitle": "PromptBench - Unified Library for Evaluating LLMs PromptBench:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Unified Library",
+      "topic": "general",
+      "videoSeconds": 1051,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=1051s",
+      "slideIndex": 14,
+      "slideTitle": "World Gets Better https://www.gapminder.org/facts/improvements/",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Outlook",
+      "topic": "general",
+      "videoSeconds": 1158,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4&t=1158s",
+      "slideIndex": 15,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "The New York Times (NYT) has sued OpenAI",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4",
+      "slideIndex": 3,
+      "slideTitle": "The New York Times (NYT) has sued OpenAI",
+      "source": "slide"
+    },
+    {
+      "claim": "2023 at a Glance https://twitter.com/Thom_Wolf/status/1739208822575530023 The progressive rise",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4",
+      "slideIndex": 6,
+      "slideTitle": "2023 at a Glance https://twitter.com/Thom_Wolf/status/1739208822575530023 The progressive rise",
+      "source": "slide"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=5x3-BK76EO4",
+      "slideIndex": 10,
+      "slideTitle": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard December 20, 2023 Starting",
+      "source": "slide"
+    }
+  ]
+}

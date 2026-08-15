@@ -1,0 +1,198 @@
+{
+  "id": "unknown-da-01-intro",
+  "date": null,
+  "title": "DA 01 Intro",
+  "series": "data-architect-2021",
+  "topics": [
+    "jobs",
+    "safety",
+    "data-engineering",
+    "enterprise",
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_01_Intro.pptx",
+    "filename": "DA_01_Intro.pptx",
+    "title": "DA 01 Intro",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_01_Intro.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_01_Intro.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Become a Data Architect – session 1 Data",
+      "text": "Become a Data Architect – session 1 Data Architect Base Salary: 135K+ for 4+ years of experience 150K  (range 110K-180K) There is a huge demand for data specialists: Data Engineer Data Analyst Data Architect Data Scientist Machine Learning Engineer Researcher (Data Science or Machine Learning) Managers and PMs The biggest demand is for data architects. Adding the word \"Architect\" to any technical profession increases salary by ~20%. Especially if you also add words \"Senior\" or \"Enterprise\": Senior Data Architect Enterprise Data Architect With job market being so \"hungry\", the education and experience becomes optional: Optional: several years of relevant experience Optional: BS Degree Data Architect Salary at Microsoft: 200K Microsoft (143K-232K) Total compensation up to $318K"
+    },
+    {
+      "index": 2,
+      "title": "Two Ways to Grow Learn new skills at",
+      "text": "Two Ways to Grow Learn new skills at work while doing something else. Reach 80% of readiness. Become \"entitled\". Get promoted. Slow progress Learn 5-10% of new skills. Convince a manger to give you the new project/job based solely on your enthusiasm and desire (I can do this job, trust me ... ) Learn the skill while doing the job. Fast progress We do this"
+    },
+    {
+      "index": 3,
+      "title": "What Does a Data Architect Do ? Data",
+      "text": "What Does a Data Architect Do ? Data Architect (DA): Interviews business stakeholders to understand requirements and constraints Proposes a solution diagram (usually constructs from templates) How data is loaded, stored, maintained, queried, and consumed How to do analytics (self-service), Machine Learning Modeling, reporting Select tools/technology, considering costs, compliance, privacy, security Automation, data lineage, data governance DA designs all stages and plans for execution: Design, Create, Deploy, Manage DA establishes datamodels, policies, rules, standards that govern data collection, processing, storage, and usage DA advises and educates managers, engineers, analysts Most Essential Technical Skills: Strong data modeling skills Database architecture and DW ( Data Warehousing ) ETL Tools Template Data Architectures in all three major Clouds Data governance know-how SQL, Python or R Analytics dashboarding (Power BI, Tableau, ...) Business skills: Excellent communication skills. Listen to managers carefully to understand requirements Convert data challenges into automated processes Max results for min resources Excellent presentation skills Explain complex concepts to non-technical audience Advise data modelers, data engineers, database administrators, and junior architects Industry Knowledge, how data is collected, analyzed and utilized Maintaining flexibility in the face of big data developments."
+    },
+    {
+      "index": 4,
+      "title": "Generic Data Diagram",
+      "text": "Generic Data Diagram"
+    },
+    {
+      "index": 5,
+      "title": "Components of a big data architecture from https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/",
+      "text": "Components of a big data architecture from https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/"
+    },
+    {
+      "index": 6,
+      "title": "Design data-flow and data-storage strategy/architecture Build an inventory",
+      "text": "Design data-flow and data-storage strategy/architecture Build an inventory of data (available, needed, where to get) Work with IT, Data Scientists, and Management Identify and evaluate current data management technologies Create a fluid, end-to-end vision for how data will flow through an organization Develop data models for database structures Design, document, construct and deploy database architectures and apps Provide for scale, security, performance, data recovery, reliability, etc. Ensure data accuracy and accessibility Create frameworks / templates for solutions Constantly monitor, refine and report on the performance of data management systems Meld new systems with existing DW Produce and enforce database development standards Maintain a corporate repository of all data architecture artifacts and procedures Make presentations to upper management Data Architect Responsibilities"
+    },
+    {
+      "index": 7,
+      "title": "Good foundation in Computer Science, Software Architectures, Engineering",
+      "text": "Good foundation in Computer Science, Software Architectures, Engineering Data structures, algorithms, System Design, Distributed System Design 3-tier architecture = MVC (Model, View, Controller) 3-tier using clusters (a.k.a. Shared Architecture), consistent hashing Lambda Architecture - events Streaming Architecture (Kafka): no central DB, just a message bus Databases types (SQL, noSQ (Key-value), Graph, etc.), OLTP vs OLAP, columnar storage (VertiPaq), denormalise for speed MPP (Massive Parallel Processing) DW, Clusters, Polaris Engine SQL mastery (DML , DDL, DCL, TCL) DBs: Mainframe DB2, Sybase, MS SQL Server, MySQL, Oracle, PostgreSQL, MongoDB, DynamoDB, CosmosDB, BigQuery, Apache Cassandra, SnowFlake.net, Pig, etc. Data Warehouse (Kimball Star Schema, Facts, Dimensions, Snowflake schema) ETL tools (bcp, Oracle Data Loader, Informatica, Ab Initio, StreamSets, ADF (Azure Data Factory), Azure Synapse Integrate, etc.) Data Analytics (Power BI, Tableau, visualizations, Reporting, self-service) Data modeling tools (ERWin, Enterprise Architect, Visio, etc.), UML Data schema, entities, relations, data flows, hierarchies CAP Theorem (Consistency, Availability, Partition Tolerance) Geographical redundancy, ACID transactions, dirty reads Replication, transaction log Distributed transactions, two-phase commit Backup/archival software DA Technical Skills receiving/sending data in different formats (XML, SOAP, JSON, REST, protocol buffers) Working with APIs File formats: CSV, parquet, JSON, Apache Arrow Handling nulls, missing data, data quality and integrity Hadoop/Spark data processing, loading, map-reduce, Google Big Table, HDFS, GDFS Streaming, Kafka, Event Hub, IoT ingesting Design patterns Big data handling Data mining Data security, access, data privacy, GDPR, differential privacy Risk assessment Data governance (measure and manage data quality, ownership, compliance, security, cleaning, standards, categories, encryption, etc.) Data lineage Agile methodologies and ERP implementation, GitHub, GitLab App Servers Machine Learning, predictive modeling, NLP and text analytics Python, C/C++, Java, Perl Unix/Linux and MS Windows Some Math and Statistics IaaS, PaaS, SaaS (infrastructure, Platform, Software as a Service) Reference architectures and specific tools for all 3 major Clouds for ETL, SQL DW, Analytics, Machine Learning, Visualization, Reporting, etc."
+    },
+    {
+      "index": 8,
+      "title": "S3 (Simple Storage Service) EC2 (Elastic Compute Cloud)",
+      "text": "S3 (Simple Storage Service) EC2 (Elastic Compute Cloud) Lambda functions (serverless) Databases: Redshift , Snowflake , Athena (serverless), Aurora (MySQL & PostreSQL compatible DB), MariaDB, MySQL, PostreSQL , Microsoft SQL Server, DynamoDB , Apache PrestoDB , Neptune Graph Database Amazon Glue : managed ETL service Amazon Data Pipeline AppFlow , Kinesis Firehose , AWS Datasync , AWS Data Migration Service Amazon EMR (Elastic MapReduce) - Hadoop, Spark Amazon Machine Learning: SageMaker (python, jupyter notebooks, deployment, ...) Amazon AI Services: Amazon Comprehend (extract from text) Amazon CodeGuru (auto code review) Amazon Lex (Chatbots) Amazon Forecast Amazon Textract (extract tet and data from millions of docs) Amazon Kendra (Natural Language Search) Amazon Fraud Detector Amazon Rekognition - image/video analysis, Amazon Personalize - recommendation engine, Amazon Translate - real time translation Amazon Polly - text-to-speech Amazon Transcribe - speech to text Amazon QuickSight - Analytics dashboards, ... Amazon – AWS (Amazon Web Services)"
+    },
+    {
+      "index": 9,
+      "title": "ADLS (Azure Data Lake Storage Gen2) blobs and",
+      "text": "ADLS (Azure Data Lake Storage Gen2) blobs and files ADF (Azure Data Factory) Microsoft SQL Server, SQL Data Warehouse Azure Functions Synapse Integrate SQL pools (serverless & dedicated), PySpark ADLS Databricks Machine Learning Studio CosmosDB, Link for Cosmos DB Power BI Cognitive Services Azure Purview (data lineage, governance) Azure DevOps (agile planning, CI/CD tools, code repos, etc.) Azure Synapse Integrate Data Pipelines Azure Data Lake Storage Gen2 Machine Learning Web End-Points"
+    },
+    {
+      "index": 10,
+      "title": "Cloud Storage Storage Transfer Service Cloud Functions Databases:",
+      "text": "Cloud Storage Storage Transfer Service Cloud Functions Databases: Cloud SQL: managed MySQL, PostgreSQL, and SQL Server Cloud BigQuery : Serverless DW, globally scalable, cost-effective Cloud Spanner : 99.999% availability, gaming, global fin. ledger, inventory Cloud Bigtable : NoSQL wide-column (similar to HBase & Apache Cassandra) Firestore: NoSQL for Mobile, IoT, ... Firebase Realtime DB: mobile, personalized ads, in-app chats, ... Memorystore: Redis or Memcached MongoDB Atlas Neo4j Auro (Graph DB) Datastax (NoSQL built on Apache Cassandra) Datalab, DataPrep, DataFlow Machine Learning: DataLab, ML Engine, AutoML BI Dashboards: Google Data Studio Colaboratory ( Colab ) - free jupyter notebooks with GPU - https://colab.research.google.com/ Kaggle - ML competitions, code, notebooks (kernels), ... - https://www.kaggle.com/ Google Cloud Platform Oracle Cloud Oracle Infrastructure, DB, Java, ERP apps, NetSuite, HR, CRM, ..."
+    },
+    {
+      "index": 11,
+      "title": "BEAM - Business Event Analysis & Modeling Interview",
+      "text": "BEAM - Business Event Analysis & Modeling Interview business stakeholders, and document the data and process: Create Event Matrix (Excel) documenting facts and dimensions . Use \"starter\" templates for the interview and documentation. https://agilebi.guru/project/business-event-analysis-and-modeling-beam-templates/ https://medium.com/hitachisolutions-braintrust/agile-data-modeling-e09c703205c1 http://www.decisionone.co.uk/training/ https://www.linkedin.com/in/lawrencecorr/"
+    },
+    {
+      "index": 12,
+      "title": "AWS to Azure services comparison - https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services Browse",
+      "text": "AWS to Azure services comparison - https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services Browse Azure Architecture - https://docs.microsoft.com/en-us/azure/architecture/browse/ Big data architectures - https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/ BEAM https://agilebi.guru/project/business-event-analysis-and-modeling-beam-templates/ https://medium.com/hitachisolutions-braintrust/agile-data-modeling-e09c703205c1 http://www.decisionone.co.uk/training/ https://www.linkedin.com/in/lawrencecorr/ DA Resources"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Become a Data Architect – session 1 Data",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Become a Data Architect – session 1 Data",
+      "source": "slide"
+    },
+    {
+      "claim": "Two Ways to Grow Learn new skills at",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Two Ways to Grow Learn new skills at",
+      "source": "slide"
+    },
+    {
+      "claim": "What Does a Data Architect Do ? Data",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "What Does a Data Architect Do ? Data",
+      "source": "slide"
+    },
+    {
+      "claim": "Generic Data Diagram",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Generic Data Diagram",
+      "source": "slide"
+    },
+    {
+      "claim": "Components of a big data architecture from https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Components of a big data architecture from https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/",
+      "source": "slide"
+    },
+    {
+      "claim": "Design data-flow and data-storage strategy/architecture Build an inventory",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Design data-flow and data-storage strategy/architecture Build an inventory",
+      "source": "slide"
+    },
+    {
+      "claim": "Good foundation in Computer Science, Software Architectures, Engineering",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Good foundation in Computer Science, Software Architectures, Engineering",
+      "source": "slide"
+    },
+    {
+      "claim": "S3 (Simple Storage Service) EC2 (Elastic Compute Cloud)",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "S3 (Simple Storage Service) EC2 (Elastic Compute Cloud)",
+      "source": "slide"
+    },
+    {
+      "claim": "ADLS (Azure Data Lake Storage Gen2) blobs and",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "ADLS (Azure Data Lake Storage Gen2) blobs and",
+      "source": "slide"
+    },
+    {
+      "claim": "Cloud Storage Storage Transfer Service Cloud Functions Databases:",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Cloud Storage Storage Transfer Service Cloud Functions Databases:",
+      "source": "slide"
+    },
+    {
+      "claim": "BEAM - Business Event Analysis & Modeling Interview",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "BEAM - Business Event Analysis & Modeling Interview",
+      "source": "slide"
+    },
+    {
+      "claim": "AWS to Azure services comparison - https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services Browse",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "AWS to Azure services comparison - https://docs.microsoft.com/en-us/azure/architecture/aws-professional/services Browse",
+      "source": "slide"
+    }
+  ]
+}

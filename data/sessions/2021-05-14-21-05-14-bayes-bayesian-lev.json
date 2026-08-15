@@ -1,0 +1,245 @@
+{
+  "id": "2021-05-14-21-05-14-bayes-bayesian-lev",
+  "date": "2021-05-14",
+  "title": "Bayes Bayesian",
+  "series": "data-science-2021",
+  "topics": [
+    "general",
+    "ml-fundamentals"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-05-14-Bayes_Bayesian_Lev.pptx",
+    "filename": "21-05-14-Bayes_Bayesian_Lev.pptx",
+    "title": "Bayes Bayesian",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-05-14-Bayes_Bayesian_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-05-14-Bayes_Bayesian_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Bayes’ Theorem (conditional probability) or where A and",
+      "text": "Bayes’ Theorem (conditional probability) or where A and B are events, and P(B) not equal 0. A = Happy, B = Rich P(A) = 40% = probability of being happy (Yellow) P(B) = 5% = probability of being rich (Blue) P(B|A) = 10% = probability of being rich given that Happy P(A|B) = 80% = probability of being happy given that rich Intersection: P(A & B) = 4% = probability of rich & happy (Green) P(A|B)*P(B) = 80%*5% = 4% P(B|A)*P(A) = 10%*40% = 4% Bayesian inference - calculate probability following chains of dependencies or correlations Thomas Bayes (1701–1761) A Happy B Rich All People +-----+--------+------+ |     | Happy  |      | +-----+--------+------+ |Rich |   4    |   1  | |     |  36    |  59  | +-----+--------+------+ \"An Essay towards solving a Problem in the Doctrine of Chances\", presented by Richard Price in 1763, two years after Bayes' death. P(B|A) P(A) P(B) P(A|B)"
+    },
+    {
+      "index": 2,
+      "title": "Bayesian vs Frequentist Survivorship Bias in World War",
+      "text": "Bayesian vs Frequentist Survivorship Bias in World War 2 During World War II the US military's concluded that the most-hit areas of the plane needed additional armor. But statistician Abraham Wald (Statistical Research Group (SRG) - Military Panel at Columbia University) has recommended adding armor to the areas that showed the least damage. His reasoning was that the sample didn't include the planes which were shot down. This is a very good example demonstrating that it is dangerous to use data \"as is\" to create a model, because the data may be biased to start with, and it can easily lead to creating a biased model. Problem occur when we have: - under-represented features (missing data) - over-represented features, - \"target leakage\" effect. Survivorship bias: - https://www.youtube.com/watch?v=B3YQJ5DwTzM Gender Bias: - https://www.youtube.com/watch?v=p60-Jdq754A Bias in criminal justice: - https://www.youtube.com/watch?v=Gi4YeRqfb24 Target Leakage: - https://www.youtube.com/watch?v=y8qaI5mpJeA Data on killed (downed) aircrafts was unobservable . Without such data, Wald set to work on the problem of estimating the probability that an aircraft that has sustained a fixed number of hits will survive an additional hit. He also attempted to estimate the survival probability of an aircraft sustaining a hit to one of various portions of the body, with different failure rates (e.g.. a hit to the nose is more lethal than a hit to the middle of the fuselage). The work was written as a set of 8 memoranda. Very good description is here: - https://people.ucsc.edu/~msmangel/Wald.pdf Also here is a 30-min podcast https://youarenotsosmart.com/2016/01/02/yanss-065-survivorship-bias-rebroadcast/"
+    },
+    {
+      "index": 3,
+      "title": "Bayesian Data Analysis Unknown Parameters (priors) Model to",
+      "text": "Bayesian Data Analysis Unknown Parameters (priors) Model to generate data Observed Data We know the observed data. We are trying to figure out the unknown parameters. This is the reverse probability problem. Bayesian Data Analysis – a method of figuring our \" unknowns \". It requires three things: Data Generative model Priors – what information the model has before seeing the data. Note about Priors (Prior Distributions). Bayesian approach (philosophy) is to treat beliefs as probability . This is actually a very common human way of thinking. We employ it constantly as we interact with the world. We gather evidence to form beliefs."
+    },
+    {
+      "index": 4,
+      "title": "Confidence vs Credibility Bayesianism : Parameter Estimation probabilistic",
+      "text": "Confidence vs Credibility Bayesianism : Parameter Estimation probabilistic statement about model parameters given a fixed credible region Frequentism: Hypothesis Testing probabilistic statement about a recipe for generating confidence intervals given a fixed model parameter from Jake VanderPlas https://www.youtube.com/watch?v=KhAUfqhLakw In general, a frequentist's 95% Confidence Interval is not 95% likely to contain the true value! A frequentist only states that: if we repeat experiment multiple times then 95% of such confidence intervals will contain the true value. Our Particular Interval Jake VanderPlas"
+    },
+    {
+      "index": 5,
+      "title": "Frequentist interpretation of Bayes’ theorem. Probability measures a",
+      "text": "Frequentist interpretation of Bayes’ theorem. Probability measures a proportion of outcomes. P(A) - proportions of outcomes A P(B) - proportions of outcomes B P(B|A) is the proportion of outcomes B out of outcomes A Frequentist vs Bayesian Bayesian interpretation of Bayes’ theorem. Probability measures a degree of belief. P(A), the prior , is the initial degree of belief in A. P(A|B), the posterior , is the degree of belief having accounted for B. P(B|A)/P(B) – represents the support B provides for A."
+    },
+    {
+      "index": 6,
+      "title": "Probability - Bayesian vs Frequentist Frequentist (classical): Calculate",
+      "text": "Probability - Bayesian vs Frequentist Frequentist (classical): Calculate means (estimates) and confidence intervals Problems treating missing data ( survivorship bias ) Problems with hypothesis testing ( p-hacking ) Bayesian: Enumerate all possible hypotheses – and compute their probabilities. We make a (subjective) choice of “ prior ” (model, distribution) and produce posterior distribution. Allows for complex decision analysis under uncertainty. Example1: Polling, two candidates: Alice & Bob. 52% of polled voters intend to vote for Alice. Confidence interval [42%,62%], p-value = 0.34 What is the probability that Alice will win ? Classical frequentist approach can not answer this question. Bayesian method – result is a posterior distribution of possible outcomes based on data. Thus you can get your answer. Example2: comparing two drugs A & B. A is better than B with p value < 0.001 A is more expensive. Which drug should we prescribe? Cost-benefit. Suppose we get predicted probability of survival with A and B. We could then compute dollars per life saved. Example3: Guessing game You see the prize – and guess the price Opponent sees a different prize – and guesses the price. Whoever is closer (without going over) wins. Example4: MCMC (Markov-Chain Monte-Carlo) Allen Downey - https://www.youtube.com/watch?v=R6d-AbkhBQ8 The Frequentist see probability as finding intervals of possible frequencies based on an observed proportion. The Bayesian is subjective and uses a priori beliefs to define a prior probability distribution on the possible values of the unknown parameters and computing their probabilities (solving \"inverse probability problem\" .) Frequentists accuse Bayesians for being subjective in selecting a prior model / distribution. Bayesians snap back that at least they have a model, whereas Frequentists just calculate averages of observed data"
+    },
+    {
+      "index": 7,
+      "title": "Naive Bayes Classifiers Simple probabilistic classifiers based on",
+      "text": "Naive Bayes Classifiers Simple probabilistic classifiers based on Bayes theorem. The main \" Naive \" assumption is that each feature makes an independent and equal contribution to the outcome ( although features may have inter-dependencies and may have different importance ) On the picture below we have two features (A1 & A2) influencing outcome (B). We will be computing conditional probability of a person being fit P(B|(A1,A2)). We \"naively\" assume that A1 & A2 contribute equally to the outcome. In reality, doing exercises daily probably contributes more – but our model disregards this. b B - Fit A1 - Exercise daily All People A2 - Dog Owner Features: A1 – Exercise Daily A2 – Dog owner Outcome: B – Person is Fit Bayes’ Theorem"
+    },
+    {
+      "index": 8,
+      "title": "Suppose that an outcome \"O\" can have values",
+      "text": "Suppose that an outcome \"O\" can have values True or False (Binary Classification) depending on events e1, e2, e3. Suppose that influences of these events on the outcome are mutually independent. Then we can write Bayes' Theorem formula like this: and similarly: Note how we write conditional probability P(e1,e2,e3|O) on top as a product of individual probabilities. We can do that because their influences are presumed independent and equal (this is the main assumption of \"Naive\" approach). Also note that the probability in the denominator is NOT split into multiplication . We can not split it because generally we don't assume that events e1,e2,e3 are independent. We only assume that their influences on the outcome \"O\" are independent (and equal in their potential influence). But the good news is that we don't have to calculate the denominator, because it is the same for both probabilities, and for classification purposes we only need to determine which value is larger – P true or P false . Also note that if you want to use this formula for only few events (for example e1 & e2), you can simply remove all other events from the formula as if you have never known that they existed. Ultimately for just one event e1 you will get classical Bayes formula: Naive Bayes Classification in more details:"
+    },
+    {
+      "index": 9,
+      "title": "Naive Bayes classifiers - continued Here is a",
+      "text": "Naive Bayes classifiers - continued Here is a very good short video explaining the Naive Bayes Classification on a specific simple example - https://www.youtube.com/watch?v=CPqOCI0ahss Note – there is a (common) mistake in this video! Author calculates denominators via multiplication of individual probabilities. You can see that it is wrong because it makes the sum of two probabilities greater than one.  Also here is a good article - https://www.geeksforgeeks.org/naive-bayes-classifiers/ A 1 A 2 A 3 A 4 B b In the table to the right we have 4 columns A i with features and one outcome column B - \"Play Golf\". For each value of the outcome (Yes or No) we can calculate the conditional probability/frequency of seeing each feature value A ij for a given outcome B: P( A ij | B) where i = 1,2,3,4, j=1,2,3 for Outlook ( Rayny , Overcast, Sunny), etc. Let's calculate P( Rainy|Yes ) and  P( Rainy|No ): P(Rainy | Yes) = 2/9    ( N(Yes) = 9, N(Yes, Rainy) =  2 ) P(Rainy |  No) = 3/5    ( N( No) = 5, N( No, Rainy) =  3 ) Similarly we can calculate all other conditional probabilities. Then we can use Bayes formula to calculate the probability of playing golf given any specific set of features. Note that we don't have to calculate the denominator of the Bayes formula, because it is the same for both probabilities (Yes and No), and for classification purposes we only need to determine which value is larger. Also we can normalize: P Yes / ( P Yes +P No ) Features                    Target"
+    },
+    {
+      "index": 10,
+      "title": "Bayesian network ( a.k.a. Bayes network, belief network,",
+      "text": "Bayesian network ( a.k.a. Bayes network, belief network, Bayes( ian ) model or probabilistic directed acyclic graphical model ) Bayesian network is a probabilistic graphical model (a type of statistical model) that represents a set of random variables and their conditional dependencies via a directed acyclic graph (DAG). Example: Deep Belief Networks - made of layers of RBMs, each next layer (“B”) is trained on top of the previous layer (“A”). Here RBM (Restricted Boltzmann Machine) is a two-layered artificial neural network. Geoffrey Hinton & Ruslan Salakhutdinov (2006). Reducing the dimensionality of data with neural networks. Science, 313, 504 – 507. - https://www.cs.toronto.edu/~hinton/science.pdf A Deep Belief Network"
+    },
+    {
+      "index": 11,
+      "title": "Bayesian Optimization Bayesian Optimization is a sequential optimization",
+      "text": "Bayesian Optimization Bayesian Optimization is a sequential optimization strategy. Optimizing a black-box system without calculatin g derivatives . Bayesian Optimization is typically used to find optimal hyperparameters for Machine Learning models (it is better than grid search or random search ). Bayesian Optimization works by constructing a posterior distribution of functions ( Gaussian Process ) that best describes the function you want to optimize. As the number of observations grows, the posterior distribution improves, and the algorithm becomes more certain of which regions in parameter space are worth exploring and which are not. As you iterate over and over, the algorithm balances its needs of exploration and exploitation taking into account what it knows about the target function. At each step a Gaussian Process is fitted to the known samples (points previously explored), and the posterior distribution, combined with a exploration strategy are used to determine the next point that should be explored . This process is designed to minimize the number of steps required to find a combination of parameters that are close to the optimal combination. Example: https://towardsdatascience.com/hyperparameter-optimization-in-gradient-boosting-packages-with-bayesian-optimization-aaf1b27e7b90 https://github.com/fmfn/BayesianOptimization Note: Gaussian Process is a stochastic process (a collection of random variables indexed by time or space), such that every finite collection of those random variables has a multivariate normal distribution. A machine-learning algorithm that involves a Gaussian Process uses lazy learning and a measure of the similarity between points (the kernel function) to predict the value for an unseen point from training data. The prediction is not just an estimate for that point, but also has uncertainty information (it is a Gaussian distribution). In practice GP models are often evaluated on a grid using maximum likelihood and calculating multivariate Gaussian density using  approximation methods to speed up calculations. Good 2-min explanation of Gaussian Process: - https://www.youtube.com/watch?v=mqOdIYxxNCs"
+    },
+    {
+      "index": 12,
+      "title": "Bayesian Inference Bayesian Estimation https://en.wikipedia.org/wiki/Bayesian_inference https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348 https://www.probabilitycourse.com/chapter9/9_1_0_bayesian_inference.php http://christianherta.de/lehre/dataScience/bayesian/introduction_into_bayesian_inference_with_pymc.slides.php",
+      "text": "Bayesian Inference Bayesian Estimation https://en.wikipedia.org/wiki/Bayesian_inference https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348 https://www.probabilitycourse.com/chapter9/9_1_0_bayesian_inference.php http://christianherta.de/lehre/dataScience/bayesian/introduction_into_bayesian_inference_with_pymc.slides.php -- Page Under Construction Bayesian inference is a method of statistical inference in which Bayes' theorem is used to update the probability for a hypothesis as more evidence or information becomes available. Examples of typical problems: We have sample of 10 children, 3 of them are literate (can read). We need to evaluate number of children who can read in the population. We presume that children are independent, that population is uniform, etc. We can use binomial distribution. - https://www.youtube.com/watch?v=yvWlpwnT1nw We have 50 data samples x 1 .. x 50 which presumably follow exponential probability distribution λ e - λ x . Estimate λ . - https://www.youtube.com/watch?v=I4dkEALQv34 Estimate the bias of a coin. We need to estimate P( θ ), where θ is the proportion of heads. - https://www.youtube.com/watch?v=Pahyv9i_X2k We have 100 damaged flash drives which is a sample of much bigger set. 80% of these damaged drives have coffee stains on them. Estimate probability (and credible interval) that coffee is causing the damage? Prior Likelihood Posterior P(B|A) P(A) P(B) P(A|B)"
+    },
+    {
+      "index": 13,
+      "title": "Exercise 1 – How Many Children Can Read",
+      "text": "Exercise 1 – How Many Children Can Read ? We have sample of 10 children , 3 of them are literate (can read). Increased Sample Size Prior  (many Hypotheses) Likelihood (from Data) Posterior (combination) We start with flat Prior (we treat beliefs as probability). We try different Prior functions P( θ ). Then we can estimate the Likelihood function from observed data as Binomial distribution : binom.pmf (x, n, p) , where n=sample size, x=number of literate kids, p= θ =Literacy rate Finally we can calculate Posterior distribution using Bayes formula. Note – we don't use denominator P(x), because it is constant, depends only on data \"x\" ) P( θ | x) = P(x| θ ) * P( θ ) Change Prior Change Data / Likelihood Binomial Distribution We need to evaluate the literacy rate θ (percentage of children who can read) in the population. We presume that children are independent, that population is uniform, etc. We can use binomial distribution for likelihood function. - https://www.youtube.com/watch?v=yvWlpwnT1nw"
+    },
+    {
+      "index": 14,
+      "title": "Exercise 2 - exponential Step 2 – generated",
+      "text": "Exercise 2 - exponential Step 2 – generated 1000 values of λ (prior distribution) Step 4 – posterior distribution, confidence interval We have a sample of 50 data data points  x 1 .. x 50 . The distribution of the values presumably follows exponential probability distribution λ e - λ x . Please estimate the value of λ . - https://www.youtube.com/watch?v=I4dkEALQv34 Method 1: \"Point Estimation\" = \"Maximum Likelihood Estimation\". λ = 1/m, where m = mean(x i ) = (x 1 + ...+ x 50 )/50 Method 2: Interval Estimation = \"Bayesian Inference\". Estimate a distribution of possible values of λ . Step 1 – assume a prior distribution of λ without accounting for observed data. For example, make it flat uniform in range (1,6). Step2 – generate random λ values following the prior distribution . generate thousand random values λ in range (1,6) Step 3 – compute the likelihood of each generated λ . L( λ n ) = The probability of observing data x 1 ...x 50 and λ = λ n = Pr (data | λ = λ n ) * Pr ( λ = λ n ) where Pr ( λ = λ n ) = 1/(6-1) = 0.2 Pr (data | λ = λ n ) =  ∏ λ n e - λ n x i dx Step 4 – draw the posterior distribution of λ . Pr ( λ | observed data) Posterior probability Pr ( λ = λ n | data)  is proportional to L( λ n )"
+    },
+    {
+      "index": 15,
+      "title": "Exercise 2 - Gaussian We have a sample",
+      "text": "Exercise 2 - Gaussian We have a sample of 50 data data points:  x 1 .. x 50 . The distribution of the values presumably follows normal Gaussian distribution with some unknown mean and sigma. Please estimate the values of mean and sigma. Analytical derivation – see, for example, here: - http://gregorygundersen.com/blog/2019/04/04/bayesian-gaussian/ Here is a 5-min video explaining derivation - https://www.youtube.com/watch?v=MUhsT0U_nxY"
+    },
+    {
+      "index": 16,
+      "title": "Exercise 4 – Coin Bias Estimation Estimate the",
+      "text": "Exercise 4 – Coin Bias Estimation Estimate the bias of a coin. - From https://www.youtube.com/watch?v=Pahyv9i_X2k We need to estimate P( θ ), where θ is the proportion of heads. We don't know it, so we start with some subjective belief that most often the coin is not biased, but it may be biased, although it is not as common. We represent our belief as a \"Prior Distribution\": We flip a coin one time – and get Heads. From this we create a likelihood distribution showing probability of getting Heads from single test – given the value θ . Likelihood P(data| θ ) for n=1, heads = 1 Prior P( θ ) Posterior P( θ |data) = P(data| θ ) P( θ )"
+    },
+    {
+      "index": 17,
+      "title": "Credible Interval In Bayesian statistics, a credible interval",
+      "text": "Credible Interval In Bayesian statistics, a credible interval in the posterior probability distribution is an interval within which an unobserved parameter value falls with a given probability (usually 95%). Conjugate Distributions Conjugate Prior In Bayesian probability theory, if the posterior distributions p( θ | x) are in the same probability distribution family as the prior probability distribution p( θ) , then: the prior and posterior are then called conjugate distributions , and the prior is called a conjugate prior for the likelihood function p(x | θ). Example 1: The Gaussian family is conjugate to itself (or self-conjugate ) with respect to a Gaussian likelihood function. If the likelihood function is Gaussian , choosing a Gaussian prior over the mean will ensure that the posterior distribution is also Gaussian . This means that the Gaussian distribution is a conjugate prior for the likelihood that is also Gaussian. Example 2: The beta distribution is the conjugate prior for many distributions: Bernoulli, binomial, negative binomial, geometric distributions . Bayesian Inference - continued Nuisance Parameters Nuisance parameters occur when reality and data are complex enough to require models with multiple parameters, but inferential interest is confined to a reduced set of parameters. Nuisance parameters are often variances, or some unknown parameters (think about black box with some invisible parameters inside)."
+    },
+    {
+      "index": 18,
+      "title": "Example – Coffee and Damaged Flash Drives We",
+      "text": "Example – Coffee and Damaged Flash Drives We have 100 damaged flash drives, 80 of them have coffee stains on them. Estimate probability (and credible interval) that coffee is causing the damage? A = Coffee, B = Damaged, P = Probability P(A) = 40% = P( Coffee )    # Yellow P(B) = 5% = P( Damaged  )  # Blue P(B|A) = 10% = P( Damaged given that Coffee ) P(A|B) = 80% = P( Coffee given that Damaged ) Intersection: P(A & B) = 4% = P(Coffee & Damaged)  # Green P(A|B)*P(B) = 80%*5% = 4% P(B|A)*P(A) = 10%*40% = 4% A Coffee B Damaged All Drives A B All Drives +-------+----------+------+ |       | Damaged  |      | +-------+----------+------+ |Coffee |  80      |  -   | |       |  20      |  -   | +-------+----------+------+ A = Coffee, B = Damaged, P = Probability P(A) = 5% = P( Coffee )    # Yellow P(B) = 5% = P( Damaged  )  # Blue P(B|A) = 80% = P( Damaged given that Coffee ) P(A|B) = 80% = P( Coffee given that Damaged ) Intersection: P(A & B) = 4% = P(Coffee & Damaged)  # Green P(A|B)*P(B) = 80%*5% = 4% P(B|A)*P(A) = 80%*5% = 4% Possible approach to calculating P(B|A): We fix P(A|B)=0.8 and P(B) = 0.05. Then we use Bayes formula to express P(B|A) as function of P(A). Then presuming that all values of P(A) are equally possible (flat prior), we calculate average P(B|A). Alternatively we use some reasonable guess of the prior (not flat) – to get better posterior."
+    },
+    {
+      "index": 19,
+      "title": "Bayesian vs Frequentist Jake VanderPlas (26 min lecture",
+      "text": "Bayesian vs Frequentist Jake VanderPlas (26 min lecture – and his blog) - https://www.youtube.com/watch?v=KhAUfqhLakw - http://jakevdp.github.io/blog/2014/06/12/frequentism-and-bayesianism-3-confidence-credibility/ Observations Example - truncated exponential. You observe times of failures of something. For time \" θ \" there were no failures because the \"device\" is protected. SUppose you have three times of failure – {10,12,15} You need to estimate value of \" θ \". Naturally it should be less than smallest data point, that it < 10. Frequentist approach just \"averages\" the observed values, and gives range 10.2 - 12.2, which is wrong. Bayesian approach with subjective flat prior gives interval 9.0 - 10.0 min, which is correct. Frequentist Bayessian"
+    },
+    {
+      "index": 20,
+      "title": "Tools and Libraries Scikit-learn - https://scikit-learn.org/stable/modules/naive_bayes.html - -",
+      "text": "Tools and Libraries Scikit-learn - https://scikit-learn.org/stable/modules/naive_bayes.html - - https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html - - https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.MultinomialNB.html - - https://scikit-learn.org/stable/modules/linear_model.html#bayesian-regression - , etc. PyStan - PyStan is a Python interface to Stan, a package for Bayesian inference. - https://mc-stan.org/users/interfaces/pystan - https://pystan.readthedocs.io/en/latest/ - PyMC3 - Python package for Bayesian statistical modeling and probabilistic machine learning. Focus on advanced Markov Chain Monte Carlo and variational fitting algorithms. Rewrite from PyMC . - https://docs.pymc.io/ - https://en.wikipedia.org/wiki/PyMC3 Pyro - a universal probabilistic programming language (PPL) written in Python and supported by PyTorch on the backend. Pyro enables flexible and expressive deep probabilistic modeling, unifying the best of modern deep learning and Bayesian modeling. - https://pyro.ai/ - TensorFlow Probability is a library for probabilistic reasoning and statistical analysis. - https://www.tensorflow.org/probability - Edward - a python library on top of TensorFlow for probabilistic modeling, inference, and criticism. - http://edwardlib.org/ - BayesPy – Bayesian Python – tools for Bayesian inference with Python - https://www.bayespy.org/ - libpqm - Bayesian probability graphs - https://pythonhosted.org/libpgm/ - bnlearn – Bayesian Network learning (in R) - https://www.bnlearn.com/ - CRAN Task View: Bayesian Inference - https://cran.r-project.org/web/views/Bayesian.html - many links"
+    },
+    {
+      "index": 21,
+      "title": "book \"Probabilistic Programming & Bayesian Methods for Hackers\"",
+      "text": "book \"Probabilistic Programming & Bayesian Methods for Hackers\" - https://camdavidsonpilon.github.io/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/ - book \"Bayesian Statistics the Fun Way\" by Will Kurt book \"Bayesian Data Analysis\", 3 rd Ed - http://www.stat.columbia.edu/~gelman/book/BDA3.pdf - book \"A Student’s Guide to Bayesian Statistics\" by Ben Lambert (multiple youtube videos) book \"Think Bayes O'Reilly 2nd Edition\" by Allen Downey - https://www.greenteapress.com/thinkbayes/thinkbayes.pdf - PDF of 1st edition Naive Bayes Classification: - https://www.youtube.com/watch?v=CPqOCI0ahss – - https://www.geeksforgeeks.org/naive-bayes-classifiers/ - video - Jake VanderPlas , SciPy 2014: Frequentism and Bayesianism : What's the Big Deal? - https://www.youtube.com/watch?v=KhAUfqhLakw - Deep Belief Networks: - https://www.cs.toronto.edu/~hinton/science.pdf - Bayesian Optimization: - https://towardsdatascience.com/hyperparameter-optimization-in-gradient-boosting-packages-with-bayesian-optimization-aaf1b27e7b90 - - https://github.com/fmfn/BayesianOptimization - Bayesian Inference: - https://en.wikipedia.org/wiki/Bayesian_inference - - https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348 - - https://www.probabilitycourse.com/chapter9/9_1_0_bayesian_inference.php - - http://christianherta.de/lehre/dataScience/bayesian/introduction_into_bayesian_inference_with_pymc.slides.php - video - intuition behind Bayesian inference - https://www.youtube.com/watch?v=yvWlpwnT1nw - video – exponential function - https://www.youtube.com/watch?v=I4dkEALQv34 - video – coin bias estimation - https://www.youtube.com/watch?v=Pahyv9i_X2k - video - Introduction to Bayesian Data Analysis (in 3 parts): - https://www.youtube.com/watch?v=3OJEae7Qb_o – - https://www.youtube.com/watch?v=mAUwjSo5TJE – - https://www.youtube.com/watch?v=Ie-6H_r7I5A - Books, Tutorials, Videos"
+    },
+    {
+      "index": 22,
+      "title": "Bayesian Exercise Questions & Conditional Probability Questions A",
+      "text": "Bayesian Exercise Questions & Conditional Probability Questions A jar has 1000 coins, of which 999 are fair and 1 is double-headed. Pick a coin at random, and toss it 10 times. Given that you see 10 heads, what is the probability that the next toss of that coin is also a head? 50% of all people who receive a first interview receive a second interview. 95% of those who got a second interview felt they had a good first interview. 75% of those who didn't get a second interview felt they had a good first interview. If you feel that you had a good first interview, what is the probability you will receive a second interview? You're about to get on a plane to Seattle. You want to know if you should bring an umbrella. You call 3 random friends of yours who live there and ask each independently if it's raining. Each of your friends has a 2/3 chance of telling you the truth and a 1/3 chance of messing with you by lying. All 3 friends tell you that \"Yes\" it is raining. What is the probability that it's actually raining in Seattle? Drawing a pair of (x, y) from a joint Gaussian distribution with 0 covariance. Knowing the stndard deviations of x and y and knowing z = x + y, what is your best guess for x? 5 babies in a room, 2 boys and 3 girls. one baby with unknown sex is added. Randomly choose one baby and the result is a boy. What's the prob that the added baby is a boy? - https://www.glassdoor.com/Interview/bayesian-interview-questions-SRCH_KT0,8.htm – - -"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Bayes’ Theorem (conditional probability) or where A and",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Bayes’ Theorem (conditional probability) or where A and",
+      "source": "slide"
+    },
+    {
+      "claim": "Bayesian vs Frequentist Survivorship Bias in World War",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Bayesian vs Frequentist Survivorship Bias in World War",
+      "source": "slide"
+    },
+    {
+      "claim": "Bayesian Data Analysis Unknown Parameters (priors) Model to",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Bayesian Data Analysis Unknown Parameters (priors) Model to",
+      "source": "slide"
+    },
+    {
+      "claim": "Confidence vs Credibility Bayesianism : Parameter Estimation probabilistic",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Confidence vs Credibility Bayesianism : Parameter Estimation probabilistic",
+      "source": "slide"
+    },
+    {
+      "claim": "Frequentist interpretation of Bayes’ theorem. Probability measures a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Frequentist interpretation of Bayes’ theorem. Probability measures a",
+      "source": "slide"
+    },
+    {
+      "claim": "Probability - Bayesian vs Frequentist Frequentist (classical): Calculate",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Probability - Bayesian vs Frequentist Frequentist (classical): Calculate",
+      "source": "slide"
+    },
+    {
+      "claim": "Naive Bayes Classifiers Simple probabilistic classifiers based on",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Naive Bayes Classifiers Simple probabilistic classifiers based on",
+      "source": "slide"
+    },
+    {
+      "claim": "Suppose that an outcome \"O\" can have values",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Suppose that an outcome \"O\" can have values",
+      "source": "slide"
+    },
+    {
+      "claim": "Naive Bayes classifiers - continued Here is a",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Naive Bayes classifiers - continued Here is a",
+      "source": "slide"
+    },
+    {
+      "claim": "Bayesian network ( a.k.a. Bayes network, belief network,",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Bayesian network ( a.k.a. Bayes network, belief network,",
+      "source": "slide"
+    },
+    {
+      "claim": "Bayesian Optimization Bayesian Optimization is a sequential optimization",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Bayesian Optimization Bayesian Optimization is a sequential optimization",
+      "source": "slide"
+    },
+    {
+      "claim": "Bayesian Inference Bayesian Estimation https://en.wikipedia.org/wiki/Bayesian_inference https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348 https://www.probabilitycourse.com/chapter9/9_1_0_bayesian_inference.php http://christianherta.de/lehre/dataScience/bayesian/introduction_into_bayesian_inference_with_pymc.slides.php",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Bayesian Inference Bayesian Estimation https://en.wikipedia.org/wiki/Bayesian_inference https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348 https://www.probabilitycourse.com/chapter9/9_1_0_bayesian_inference.php http://christianherta.de/lehre/dataScience/bayesian/introduction_into_bayesian_inference_with_pymc.slides.php",
+      "source": "slide"
+    }
+  ]
+}

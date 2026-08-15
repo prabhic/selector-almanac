@@ -1,0 +1,63 @@
+{
+  "id": "2023-10-04-2023-10-04-ln-llm-training-cost",
+  "date": "2023-10-04",
+  "title": "LN-LLM-training-cost",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "open-models",
+    "infra",
+    "fine-tuning"
+  ],
+  "video": {
+    "id": "PjodFXezjyk",
+    "title": "Ken McCarthy Interviews Lev Selector about AI for Business, October 5, 2023",
+    "url": "https://www.youtube.com/watch?v=PjodFXezjyk",
+    "thumbnail": "https://i.ytimg.com/vi/PjodFXezjyk/hqdefault.jpg",
+    "duration": 3642
+  },
+  "deck": {
+    "path": "2023/2023-10-04-LN-LLM-training-cost.pptx",
+    "filename": "2023-10-04-LN-LLM-training-cost.pptx",
+    "title": "LN-LLM-training-cost",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-04-LN-LLM-training-cost.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-04-LN-LLM-training-cost.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-2d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "How much does it cost to train an",
+      "text": "How much does it cost to train an LLM on Cloud? GPT-4 training $100M (as per Sam Altman) GPT-3 training $5M LLaMa2 70b was trained on 2048 GPUs A100 for 23 days * $1.5/ hr per GPU = $1.7M Cost to buy hardware ~ $30M Smaller models are cheaper to train $85K to train LLaMA-2-7b model: https://news.ycombinator.com/item?id=35391469 $30K to train 7B model https://www.linkedin.com/pulse/quick-cost-analysis-openais-new-fine-tuning-gpt-35-model-khanh-le/ https://news.ycombinator.com/item?id=35008694 Step 1: Prepare Training Data GPT-3 - 500 Bln tokens Llama2 - 2T tokens Step 2: Architecture (transformer) Step 3: Training - self-supervised learning. Mixed precision training, 3D parallelism (pipeline, model, data), Zero Redundancy Optimizer ( ZeRO ) to reduce redundancy during parallelism. Checkpointing, wight decay (penalize for large parameter values), gradient clipping (avoid large gradients), Batch size, Learning rate, Optimizer, Dropout Step 4: Evaluation - ARC, Hellaswag , Massive Multitask Language Understanding (MMLU), TruthfulQA"
+    },
+    {
+      "index": 2,
+      "title": "Fine-tuning is much more economical, can be done",
+      "text": "Fine-tuning is much more economical, can be done locally for small models Fine-tuning may cost from several hundred to several thousand $ depending on the amount of data and the size of the model. Preparing the data may be the most expensive part. Alpaca Model fine-tuned for $600 https://medium.com/@martin-thissen/llama-alpaca-chatgpt-on-your-local-computer-tutorial-17adda704c23 Fine-tuning a LLaMA-2-7b model https://www.reddit.com/r/LocalLLaMA/comments/16cvwlh/detailed_log_of_my_findings_and_failures_training/ DeepLearning.ai - Efficient Fine-Tuning for Llama-v2-7b on a Single GPU https://www.youtube.com/watch?v=g68qlo9Izf0 How to Build a Multi-GPU System for Deep Learning in 2023 https ://towardsdatascience.com/how-to-build-a-multi-gpu-system-for-deep-learning-in-2023-e5bbb905d935"
+    }
+  ],
+  "points": [
+    {
+      "claim": "How much does it cost to train an",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 1,
+      "slideTitle": "How much does it cost to train an",
+      "source": "slide"
+    },
+    {
+      "claim": "Fine-tuning is much more economical, can be done",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PjodFXezjyk",
+      "slideIndex": 2,
+      "slideTitle": "Fine-tuning is much more economical, can be done",
+      "source": "slide"
+    }
+  ]
+}

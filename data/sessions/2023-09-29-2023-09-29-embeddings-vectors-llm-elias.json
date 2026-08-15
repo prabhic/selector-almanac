@@ -1,0 +1,185 @@
+{
+  "id": "2023-09-29-2023-09-29-embeddings-vectors-llm-elias",
+  "date": "2023-09-29",
+  "title": "Embeddings-Vectors-LLM-Elias",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "rag",
+    "openai"
+  ],
+  "video": {
+    "id": "m26ikHKCPbg",
+    "title": "AI Updates - September 29, 2023",
+    "url": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+    "thumbnail": "https://i.ytimg.com/vi/m26ikHKCPbg/hqdefault.jpg",
+    "duration": 940
+  },
+  "deck": {
+    "path": "2023/2023-09-29-Embeddings-Vectors-LLM-Elias.pptx",
+    "filename": "2023-09-29-Embeddings-Vectors-LLM-Elias.pptx",
+    "title": "Embeddings-Vectors-LLM-Elias",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-29-Embeddings-Vectors-LLM-Elias.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-29-Embeddings-Vectors-LLM-Elias.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Enhancing Text Search with Advanced Embedding Technologies An",
+      "text": "Enhancing Text Search with Advanced Embedding Technologies An exploration into vector databases, embeddings, and Local Language Models"
+    },
+    {
+      "index": 2,
+      "title": "Elias Tsoukatos https://aimonkey.io/ https://easyai.pro/en https://github.com/eliastsoukatos https://www.linkedin.com/company/aimonkey/ https://www.linkedin.com/in/elias-tsoukatos-896a6082/ About",
+      "text": "Elias Tsoukatos https://aimonkey.io/ https://easyai.pro/en https://github.com/eliastsoukatos https://www.linkedin.com/company/aimonkey/ https://www.linkedin.com/in/elias-tsoukatos-896a6082/ About the speaker Special thanks to: AI Study Group Shreya Bastikar Dr. Lev Selector"
+    },
+    {
+      "index": 3,
+      "title": "Vector Databases: Specialized databases designed to efficiently handle",
+      "text": "Vector Databases: Specialized databases designed to efficiently handle multi-dimensional vector data, allowing for quick and accurate similarity search. Embeddings: High-dimensional vectors that capture the semantic meaning of text, enabling content-based search. Core Components"
+    },
+    {
+      "index": 4,
+      "title": "Slide 4",
+      "text": ""
+    },
+    {
+      "index": 5,
+      "title": "Sentence Transformers: Utilize models like BERT to convert",
+      "text": "Sentence Transformers: Utilize models like BERT to convert text into high-dimensional vectors. Process: Texts are tokenized and embeddings are generated, capturing the semantic essence of the content. Embedding Creation Process"
+    },
+    {
+      "index": 6,
+      "title": "Storage: Embeddings along with their metadata are stored",
+      "text": "Storage: Embeddings along with their metadata are stored in PostgreSQL, optimized with custom extensions for efficient vector handling. Retrieval: Utilizes K-nearest neighbors (KNN) search for fast and accurate retrieval of the most semantically similar vectors. Database Storage & Retrieval"
+    },
+    {
+      "index": 7,
+      "title": "OpenAI Embeddings: Max input tokens: 8191 $0.0004 per",
+      "text": "OpenAI Embeddings: Max input tokens: 8191 $0.0004 per 1000 tokens, or about ~3,000 pages per US dollar. BAAI/ bge -base- en : Bad embeddings model. BAAI/bge-base-en-v1.5: Enhanced version, optimized for higher accuracy and richer semantic capture. OpenAI vs. BAAI OpenAI - US company BAAI = Beijing Academy of Artificial Intelligence, China"
+    },
+    {
+      "index": 8,
+      "title": "Slide 8",
+      "text": ""
+    },
+    {
+      "index": 9,
+      "title": "Slide 9",
+      "text": ""
+    },
+    {
+      "index": 10,
+      "title": "Model: BAAI/bge-base-en scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for",
+      "text": "Model: BAAI/bge-base-en scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for Embedding: 9.771391 seconds Number of vector records in table:  97 Connected to robot_baai Query: What is the name of the robot? Found relevant information from source: The Robot Who Discovered Love \"What's your name?\" the woman asked, interrupting his thoughts. \"I'm a robot,\" the robot replied. \"I don't have a name. My model is MX-174B.\" The woman raised an eyebrow. \"Well, every being deserves a name,\" she said. \"How about I give you one?\" the robot could see that it was a vehicle of some kind, gliding across the icy surface with ease. He had never seen anything like it before, and he was fascinated by its strange and unfamiliar shape. As the vehicle drew closer, the robot could make out a. Total time for LLM query: 58.096912 seconds Llama: The robot's name is MX-174B."
+    },
+    {
+      "index": 11,
+      "title": "Model: BAAI/bge-base-en-v1.5 scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for",
+      "text": "Model: BAAI/bge-base-en-v1.5 scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for Embedding: 10.430082 seconds Number of vector records in table:  97 Connected to robot_baaiv15 Query: What is the name of the robot? Found relevant information from source: Hi, said the robot back. Are you a robot? No, I'm not a robot, she chuckled. I'm a human. My name is Lily. A human? The robot repeated, his positronic brain processing this new information. I've never met a human before. \"What's your name?\" the woman asked, interrupting his thoughts. \"I'm a robot,\" the robot replied. \"I don't have a name. My model is MX-174B.\" The woman raised an eyebrow. \"Well, every being deserves a name,\" she said. \"How about I give you one?\" She went on to explain that many robots start running away when they discover they are going to be put to sleep. \"Robots have positronic brains with neural networks that are constantly learning and training themselves. It's a process similar to evolution.. Total time for LLM query: 62.191956 seconds Llama: The robot's name is MX-174B."
+    },
+    {
+      "index": 12,
+      "title": "Model: BAAI/bge-base-en-v1.5 Connected to robot_baai Query: What is",
+      "text": "Model: BAAI/bge-base-en-v1.5 Connected to robot_baai Query: What is the name of the robot? Found relevant information from source: The Robot Who Discovered Love \"What's your name?\" the woman asked, interrupting his thoughts. \"I'm a robot,\" the robot replied. \"I don't have a name. My model is MX-174B.\" The woman raised an eyebrow. \"Well, every being deserves a name,\" she said. \"How about I give you one?\" The robot nodded eagerly. \"Yes, please!\" he said. The woman thought for a moment before smiling. \"How about Max?\" she said. \"It suits you.\" The robot beamed. \"Max,\" he repeated, testing out the name. \"I like it. Thank you.\". Total time for LLM query: 46.664531 seconds Llama: The name of the robot is Max."
+    },
+    {
+      "index": 13,
+      "title": "Model: text-embedding-ada-002 scanning file: /home/ eliastsoukatos /Documents/Python/Llama/Robot/ robot.txt",
+      "text": "Model: text-embedding-ada-002 scanning file: /home/ eliastsoukatos /Documents/Python/Llama/Robot/ robot.txt Total time for Embedding: 2.419809 seconds Number of vector records in table: 6 Connected to robot_openai Query: What is the name of the robot? Found relevant information from source: But as the robot gazed upon the barren landscape of ice, he noticed one light in the distance coming in his direction. At first, he thought it might be a star, shining bright in the inky blackness of the sky. But as the light grew larger and larger, the robot realized that it was not a star at all, but something else entirely. He couldn't quite make out what it was, but he knew that it was coming closer and closer, headed straight in his direction. As the light approached, the robot could see that it was a vehicle of some kind, gliding across the icy surface with ease. He had never seen anything like it before, and he was fascinated by its strange and unfamiliar shape. As the vehicle drew closer, the robot could make out a figure inside, shrouded in a suit that seemed to protect them from the frigid cold. The light was almost upon him now, and the robot couldn't wait to see what it was and who was inside. As the vehicle drew near, it came to a halt in front of the robot. A figure emerged from within, a woman clad in a sleek and silver astronaut suit with various buttons and controls lining its surface. She had bright red hair and piercing blue eyes that seemed to scrutinize the robot as she studied him. \"Hello,\" she said, her voice carrying a hint of amusement. Hi, said the robot back. Are you a robot? No, I'm not a robot, she chuckled. I'm a human. My name is Lily. A human? The robot repeated, his positronic brain processing this new information. I've never met a human before. Well, now you have, Lily said with a smile. And, to be honest, I've never met a robot like you before either. You seem to have a lot more curiosity and personality than the ones I'm used to seeing. The robot was taken aback. \"But you are made out of metal!\" he exclaimed. \"No, I’m not,\" the woman replied, still laughing. \"That's just my suit. It's designed to help me survive in the harsh environment of Europa.\" \"Europa?\" the robot asked, unfamiliar with the term. \"Europa is one of Jupiter's moons,\" Lily explained. \"It's a world of ice and frozen oceans, and it's one of the most interesting places in the solar system. At least, that's what I think.\" The robot was still confused. \"But how are you able to breathe?\" he asked. \"Oh, I have oxygen tanks on my back,\" the woman explained, gesturing to the small tanks attached to her suit. \"It's how I'm able to survive on this moon without suffocating.\" The robot was amazed. He had never heard of such a thing before. He had always assumed that humans were bound to their planet, unable to venture out into the vastness of space. But here was a woman, a human, who was exploring the universe just like he was. \"What's your name?\" the woman asked, interrupting his thoughts. \"I'm a robot,\" the robot replied. \"I don't have a name. My model is MX-174B.\" The woman raised an eyebrow. \"Well, every being deserves a name,\" she said. \"How about I give you one?\" The robot nodded eagerly. \"Yes, please!\" he said. The woman thought for a moment before smiling. \"How about Max?\" she said. \"It suits you.\" The robot beamed. \"Max,\" he repeated, testing out the name. \"I like it. Thank you.\" Max looked to Lily with a sense of wonder and curiosity. \"Lily, can you tell me more about Europa? I've never heard of it before.\" Lily nodded. \"Of course, Max. Europa is one of Jupiter's moons and it's truly a fascinating place. Humans have been able to colonize it, and the reason why may surprise you.\" Max leaned forward, eager to hear more. \"It turns out that beneath Europa's frozen crust, there are oceans of liquid water,\" Lily explained. \"We discovered this through advanced technology and have been able to extract it for use in our terraforming process.\" Max was in awe. \"Terraforming? And so, I have made my decision. I will leave behind the monotony of the asteroid belt and set out into the vast unknown of space. I will turn on my rocket and let it carry me away from the darkness and the drudgery of my former life. I am drawn to that bright, shining beacon that has always called to me from the sky, and I know that it will guide me to whatever adventure awaits me. And so, the robot traveled for days through the vastness of space, awestruck by the beauty of the cosmos. But as he traveled, the robot began to realize the vastness and the large distances of space. Despite his best efforts, the stars remained fixed in the sky, appearing to be the same size no matter how far he went. And so he traveled for one year, until the big dot he had been following finally grew large enough to be distinguishable. It was a planet, a giant orb of orange gas and swirling storms, a celestial monstrosity that loomed large in the sky. And it had many moons orbiting around it, each one a world unto itself. One of those moons, particularly large and with a glimmering lights, caught the robot's attention. It seemed to beckon to him, inviting him to come closer and uncover its mysteries. And so, he set his sights on that as his destination. It was a moon bigger than any other asteroid in the asteroid belt, a frozen world of ice and mystery. As the robot approached, he was struck by the stark beauty of its surface, a landscape of glistening white and deep blue shadows. It was as if he was flying over a vast ocean of ice, a place where no robot had ever set foot. But as he flew closer, the robot noticed something strange. The sky above the moon had become black, as if it was swallowed by the void of space. And for some reason, he couldn't see the stars anymore. They had vanished, as if they were afraid to shine in the darkness of this place. The robot couldn't quite explain it, but there was something about this moon that compelled him to investigate. So he set down on its icy surface, ready to uncover the secrets it held. The moon was a world of endless ice, a frozen realm that sparkled in the darkness of the sky. The robot gazed upon its landscape, a vast expanse of white and blue that stretched out to the horizon. It was as if he was standing at the top of a mountain, gazing down upon a world of snow and ice. The surface of the moon was smooth and unbroken, except for the occasional jagged peak or deep chasm that cut through the ice. It was a place of stark beauty, a world of cold and silence that seemed to go on forever. As he scanned the horizon, he saw something that piqued his curiosity. There were lights in the distance, shimmering and dancing against the blackness of space. They seemed to be in motion, as if they were alive and calling out to him. He wondered what could be the source of these lights, were they natural phenomenon or artificial lights created by intelligent life? But as the robot gazed upon the barren landscape of ice, he noticed one light in the distance coming in his direction. At first, he thought it might be a star, shining bright in the inky blackness of the sky. But as the light grew larger and larger, the robot realized that it was not a star at all, but something else entirely. He couldn't quite make out what it was, but he knew that it was coming closer and closer, headed straight in his direction. As the light approached, the robot could see that it was a vehicle of some kind, gliding across the icy surface with ease. He had never seen anything like it before, and he was fascinated by its strange and unfamiliar shape. As the vehicle drew closer, the robot could make out a figure inside, shrouded in a suit that seemed to protect them from the frigid cold. The light was almost upon him now, and the robot couldn't wait to see what it was and who was inside. The woman raised an eyebrow. \"Well, every being deserves a name,\" she said. \"How about I give you one?\" The robot nodded eagerly. \"Yes, please!\" he said. The woman thought for a moment before smiling. \"How about Max?\" she said. \"It suits you.\" The robot beamed. \"Max,\" he repeated, testing out the name. \"I like it. Thank you.\" Max looked to Lily with a sense of wonder and curiosity. \"Lily, can you tell me more about Europa? I've never heard of it before.\" Lily nodded. \"Of course, Max. Europa is one of Jupiter's moons and it's truly a fascinating place. Humans have been able to colonize it, and the reason why may surprise you.\" Max leaned forward, eager to hear more. \"It turns out that beneath Europa's frozen crust, there are oceans of liquid water,\" Lily explained. \"We discovered this through advanced technology and have been able to extract it for use in our terraforming process.\" Max was in awe. \"Terraforming? \"Terraforming is the process of altering a planet's atmosphere, temperature, and environment to make it habitable for humans,\" Lily said. \"We've been working on Europa for the last 50 years, and it's still a long process, but we're making progress. The lights you see in the distance are from the city we've built underground, where most of our civilization is located. We travel in submarines across Europa's oceans to extract resources and study the planet.\" Max couldn't believe what he was hearing. \"That's incredible. I never knew humans could do such things. I've always been programmed to believe that we were limited to our own planet.\" Lily looked at him with a smile. \"Well, we've come a long way. With the help of advanced technology and the study of science, we are able to explore and colonize new places. The possibilities are endless.\" The truth is, Max couldn't help but be drawn to Lily. She was a mystery to him. Her hair flowed like a river of fire, a cascade of red that caught his attention. Her silhouette was as elegant as the stars, and her eyes shone like the sun. Though he had been programmed to believe that robots were incapable of feeling, he couldn't shake off the strange attraction he had towards her. But as he looked into her eyes, he realized that perhaps his past didn't define him. That maybe, just maybe, there was something more out there for him. \"You know, when I first saw you, I was scared,\" Lily admitted, with a hint of a smile. \"I didn't know how to react to a robot that looked so... human. But as I got to know you, I realized that the way you look doesn't define you. It's what's inside that counts.\" Max couldn't help but smile, feeling something he had never felt before. He had always been programmed to believe that robots were limited to their own planet. \"I want to show you something,\" Lily said, standing up and leading Max to the edge of the rock. \"This,\" she said, gesturing to the vast expanse of Europa before them, \"is my home. I've always dreamed of exploring every inch of it. Max felt a sense of excitement like never before. He wanted to see everything, to explore every corner of this new world with Lily. \"I want to give you some advice,\" Max said. \"But first, I have to live an experience. I want to give you a flower, but first I must plant and grow a seed. And I want to give you a kiss, but for that, I don't need anything else but to reach your lips.\" The robot leaned in, touching Lily's helmet with his metallic head, slowly immersing himself in the depth of emotion. Feeling the strongest force that has ever existed in the solar system. Love. Lily trembles and smiles, her eyes are closed. She doesn't know what to do, she just smiles, and she starts to get excited, in honor of the passion she feels for her beloved robot. She was in love. The robot noticed that Lily's expression changed suddenly, she began to look panicked and anxious. \"Lily, what's wrong?\" he asked, concerned.. Total time for LLM query: 2.112301 seconds GPT-4: The name of the robot is Max."
+    },
+    {
+      "index": 14,
+      "title": "Thank you",
+      "text": "Thank you"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Enhancing Text Search with Advanced Embedding Technologies An",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 1,
+      "slideTitle": "Enhancing Text Search with Advanced Embedding Technologies An",
+      "source": "slide"
+    },
+    {
+      "claim": "Elias Tsoukatos https://aimonkey.io/ https://easyai.pro/en https://github.com/eliastsoukatos https://www.linkedin.com/company/aimonkey/ https://www.linkedin.com/in/elias-tsoukatos-896a6082/ About",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 2,
+      "slideTitle": "Elias Tsoukatos https://aimonkey.io/ https://easyai.pro/en https://github.com/eliastsoukatos https://www.linkedin.com/company/aimonkey/ https://www.linkedin.com/in/elias-tsoukatos-896a6082/ About",
+      "source": "slide"
+    },
+    {
+      "claim": "Vector Databases: Specialized databases designed to efficiently handle",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 3,
+      "slideTitle": "Vector Databases: Specialized databases designed to efficiently handle",
+      "source": "slide"
+    },
+    {
+      "claim": "Sentence Transformers: Utilize models like BERT to convert",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 5,
+      "slideTitle": "Sentence Transformers: Utilize models like BERT to convert",
+      "source": "slide"
+    },
+    {
+      "claim": "Storage: Embeddings along with their metadata are stored",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 6,
+      "slideTitle": "Storage: Embeddings along with their metadata are stored",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI Embeddings: Max input tokens: 8191 $0.0004 per",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 7,
+      "slideTitle": "OpenAI Embeddings: Max input tokens: 8191 $0.0004 per",
+      "source": "slide"
+    },
+    {
+      "claim": "Model: BAAI/bge-base-en scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 10,
+      "slideTitle": "Model: BAAI/bge-base-en scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for",
+      "source": "slide"
+    },
+    {
+      "claim": "Model: BAAI/bge-base-en-v1.5 scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 11,
+      "slideTitle": "Model: BAAI/bge-base-en-v1.5 scanning file: /home/eliastsoukatos/Documents/Python/Llama/Robot/robot.txt Total time for",
+      "source": "slide"
+    },
+    {
+      "claim": "Model: BAAI/bge-base-en-v1.5 Connected to robot_baai Query: What is",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 12,
+      "slideTitle": "Model: BAAI/bge-base-en-v1.5 Connected to robot_baai Query: What is",
+      "source": "slide"
+    }
+  ]
+}

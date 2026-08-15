@@ -1,0 +1,61 @@
+{
+  "id": "2023-10-19-2023-10-19-ln-grace-hopper",
+  "date": "2023-10-19",
+  "title": "LN-Grace-Hopper",
+  "series": "seminar",
+  "topics": [
+    "rag",
+    "infra"
+  ],
+  "video": {
+    "id": "P0gleu9WCGI",
+    "title": "AI Updates - October 20, 2023 - Open source AI, Fine-tuning LLMs, Ollama, LMStudio, Nvidia DGX",
+    "url": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+    "thumbnail": "https://i.ytimg.com/vi/P0gleu9WCGI/hqdefault.jpg",
+    "duration": 2126
+  },
+  "deck": {
+    "path": "2023/2023-10-19-LN-Grace-Hopper.pptx",
+    "filename": "2023-10-19-LN-Grace-Hopper.pptx",
+    "title": "LN-Grace-Hopper",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-19-LN-Grace-Hopper.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-19-LN-Grace-Hopper.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "NVIDIA Grace Hopper Superchip NVIDIA GH200 Grace Hopper™",
+      "text": "NVIDIA Grace Hopper Superchip NVIDIA GH200 Grace Hopper™ Superchip combines Grace CPU  &  Hopper GPU via NVLink-C2C . Up to 480 GB RAM and 96 GB VRAM DGX GH200 system may contain up to 256 GH200 Superchips that share memory ( 24TB VRAM and 122 TB RAM). B oth CPU and GPU are named after Grace Hopper , a pioneer of computer programming Grace Hopper (1906-1992) New York City Yale math (1934) Vassar College Navy Reserves  (1943) Helped to create UNIVAC (Universal Automatic Computer) (1952) Invented first linker (1952) Coined the word \" bug \" Mother of COBOL"
+    },
+    {
+      "index": 2,
+      "title": "NVIDIA Progress 2016 - Present Nvidia DGX H100",
+      "text": "NVIDIA Progress 2016 - Present Nvidia DGX H100 Nvidia Tesla V100 Nvidia DGX GH200 DGX = Deep Learning GPU Accelerator Nvidia DGX platform: Nvidia DGX-1 (2016) using 8 Pascal P100 GPUs (16GB each) Nvidia DGX-2 (2018) using 16 Tesla V100 GPUs (32GB each) Nvidia DGX A100 (2020) using 8 Ampere A100 GPUs (80GB each) Nvidia DGX Station A100 (2021) using 4 A100 GPUs Nvidia DGX H100 (2022) using 8 of Hopper H100 GPUs (80GB each) Nvidia DGX H100 SuperPOD (2022) using 31-127 DGX H100 systems, for a total of 248 to 1,016 GPUs. Nvidia DGX GH200 (2023) using up to 256 Grace Hopper GH200 chips ( 96GB each) for a total of 24TB shared GPU memory"
+    }
+  ],
+  "points": [
+    {
+      "claim": "NVIDIA Grace Hopper Superchip NVIDIA GH200 Grace Hopper™",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 1,
+      "slideTitle": "NVIDIA Grace Hopper Superchip NVIDIA GH200 Grace Hopper™",
+      "source": "slide"
+    },
+    {
+      "claim": "NVIDIA Progress 2016 - Present Nvidia DGX H100",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 2,
+      "slideTitle": "NVIDIA Progress 2016 - Present Nvidia DGX H100",
+      "source": "slide"
+    }
+  ]
+}

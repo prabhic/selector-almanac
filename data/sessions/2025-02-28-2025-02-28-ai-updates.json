@@ -1,0 +1,262 @@
+{
+  "id": "2025-02-28-2025-02-28-ai-updates",
+  "date": "2025-02-28",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "multimodal"
+  ],
+  "video": {
+    "id": "l3l9pzFLHwg",
+    "title": "Have you heard these exciting AI news? - February 28, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+    "thumbnail": "https://i.ytimg.com/vi/l3l9pzFLHwg/hqdefault.jpg",
+    "duration": 1055
+  },
+  "deck": {
+    "path": "2025/2025-02-28-AI-Updates.pptx",
+    "filename": "2025-02-28-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-02-28-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-02-28-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Claude 3.7",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ChatGPT-4.5",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Alibaba QwQ-Max-Preview reasoning model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta Llama3-SWE-RL-70B reasoning model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft Phi-4-multimodal",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Claude 3.7 ChatGPT-4.5 Alibaba QwQ-Max-Preview reasoning model Meta",
+      "text": "Claude 3.7 ChatGPT-4.5 Alibaba QwQ-Max-Preview reasoning model Meta Llama3-SWE-RL-70B reasoning model Microsoft Phi-4-multimodal AI Updates February 28 , 202 5 Crowd-sourced \"Arena\" Leaderboard WebDev Arena Leaderboard Jobs Google AI Co-scientist LLMs ready to replace OCR solutions olmOCR from Allen Institute for AI Vibe Coding, prompt as code behind the code Sakana AI - AI CUDA Engineer - optimized kernels Helix - Home Robot from Figure AI Google wins contract with Salesforce Crunchbase’s AI predicts startup success with 95% accuracy Zhaoxin CPU server runs DeepSeek's 671B Voice-based AI applications are improving rapidly AI Infrastructure Spending Surge for 2025 DeepEP from DeepSeek DeepGEMM library from DeepSeek Coconut by Meta - Vector-Based AI Reasoning ElevenLabs’ Scribe speech-to-text model Stanford OctoTools Amazon's new Alexa+ - $20/mo Tencent Hunyuan Turbo S AI model outruns DeepSeek"
+    },
+    {
+      "index": 2,
+      "title": "Claude 3.7 Claude 3.7 Sonnet and Claude Code",
+      "text": "Claude 3.7 Claude 3.7 Sonnet and Claude Code Claude 3.7 Sonnet - new version, available on all plans and API Has a hybrid reasoning model Claude 3.7 Sonnet can produce near-instant responses or extended, step-by-step thinking that is made visible to the user Claude 3.7 Sonnet shows particularly strong improvements in coding and front-end web development Claude 3.5 Haiku is used as a model selector to switch from near-instant responses and extended, step-by-step thinking New - GitHub integration allows to connect code repositories directly to Claude Claude Code - command line tool for agentic coding, limited preview https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    {
+      "index": 3,
+      "title": "ChatGPT-4.5 Feb 27 OpenAI GPT-4.5 \"Orion\" released research",
+      "text": "ChatGPT-4.5 Feb 27 OpenAI GPT-4.5 \"Orion\" released research preview of GPT-4.5 https://openai.com/index/introducing-gpt-4-5/ https://www.youtube.com/watch?v=FW2XOIxaNqg - FireShip Summary now released to Pro and API, next week - to Plus and Team non-reasoning (upgrade over gpt-4o) largest and best model for chat yet feels more natural, improved \"vibes\" (warmth and intuitiveness) reduced hallucinations broader knowledge base improved ability to follow user intent greater at Emotional Intelligence better at writing, coding, solving problems. scaled up pre-training and post-training scaled unsupervised learning - better pattern recognition, better ability to draw connections and generate creative insights without reasoning has access to the latest up-to-date information with search supports file & image uploads can use canvas to work on writing and coding not multimodal yet (no voice mode, video, and screen sharing) GPT-4.5 is very large, compute-intensive, and very expensive - typical query costs on average $68 / 1M tokens"
+    },
+    {
+      "index": 4,
+      "title": "More New Models Alibaba QwQ-Max-Preview reasoning model to",
+      "text": "More New Models Alibaba QwQ-Max-Preview reasoning model to challenge DeepSeek R1, OpenAI o1 - https://qwenlm.github.io/blog/qwq-max-preview/ Alibaba pledges to invest $53 billion on cloud and AI infrastructure in the next 3 years https://www.scmp.com/tech/big-tech/article/3300018/alibaba-previews-new-ai-reasoning-model-challenge-deepseek-r1-openai-o1 Meta Llama3-SWE-RL-70B - new Reasoning model. Advancing LLM Reasoning via Reinforcement Learning on Open Software Evolution Trained on top of Llama 3 Achieves 41.0% solve rate on SWE-bench (SWE = SoftWare Engineering) https://arxiv.org/abs/2502.18449 https://x.com/_akhaliq/status/1894584315352076608 Microsoft Phi-4-multimodal - small LM Phi-4 first introduced in December 2024, open-source (MIT) Phi-4, Phi-4-mini, Phi-4-multimodal Strong reasoning capabilities, math, logic Multimodal model supports text, images, speech Function Calling, multilingual, enhanced safety Available at Hugging Face, Azure AI Foundry Model Catalog, and GitHub Models. https://ollama.com/library/phi4 (December - January)"
+    },
+    {
+      "index": 5,
+      "title": "Google AI Co-scientist AI Co-scientist - a multi-agent",
+      "text": "Google AI Co-scientist AI Co-scientist - a multi-agent AI system built with Gemini 2.0 as a virtual scientific collaborator helps scientists generate novel hypotheses and research proposals https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/"
+    },
+    {
+      "index": 6,
+      "title": "LLMs ready to replace OCR solutions LLMs ready",
+      "text": "LLMs ready to replace OCR solutions LLMs ready to replace OCR solutions Yes, the OmniAI OCR Benchmark compared OCR providers against LLMs across accuracy, cost, and latency metrics showing Multimodal LLMs are not only better, they are also cheaper with Gemini 2.0 Flash offering the best price-performance! https://x.com/_philschmid/status/1893926592977477751 olmOCR from Allen Institute for AI Convert docs into plain text https://huggingface.co/collections/allenai/olmocr-67af8630b0062a25bf1b54a1"
+    },
+    {
+      "index": 7,
+      "title": "Vibe Coding Vibe coding - coding without even",
+      "text": "Vibe Coding Vibe coding - coding without even looking at the code - by Andrej Karpathy https://x.com/karpathy/status/1886192184808149383 Video demo: https://www.youtube.com/watch?v=5k2-NOh2tk0 There's a new kind of coding I call \"vibe coding\", where you fully give in to the vibes, embrace exponentials, and forget that the code even exists. It's possible because the LLMs (e.g. Cursor Composer w Sonnet) are getting too good. Also I just talk to Composer with SuperWhisper so I barely even touch the keyboard. I ask for the dumbest things like \"decrease the padding on the sidebar by half\" because I'm too lazy to find it. I \"Accept All\" always, I don't read the diffs anymore. When I get error messages I just copy paste them in with no comment, usually that fixes it. The code grows beyond my usual comprehension, I'd have to really read through it for a while. Sometimes the LLMs can't fix a bug so I just work around it or ask for random changes until it goes away. It's not too bad for throwaway weekend projects, but still quite amusing. I'm building a project or webapp, but it's not really coding - I just see stuff, say stuff, run stuff, and copy paste stuff, and it mostly works. my_prompt.txt ---------------------- ---------------------- \"code behind the code\" in natural language ---------------------- ---------------------- my_code.py ---------------------- ---------------------- ---------------------- ---------------------- ---------------------- ---------------------- Claude Feedback https:// www.youtube.com /@ AndrejKarpathy"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates Crunchbase’s AI predicts startup success with",
+      "text": "AI Updates Crunchbase’s AI predicts startup success with 95% accuracy Abandoning historical data in favor of predictive intelligence Forecasts acquisitions and company growth https://venturebeat.com/ai/crunchbases-ai-can-predict-startup-success-with-95-accuracy-will-it-change-investing/ Helix - Home Robot from Figure AI Understands spoken instructions and can handle unfamiliar objects Uses a large model for understanding Uses a smaller, faster model for precise movements Figure showed robots putting away unseen groceries using voice commands Helix needs little training data https://x.com/adcock_brett/status/1886860098980733197 https://www.figure.ai/news/helix https://opentools.ai/news/meet-helix-figure-ais-new-humanoid-robot-taking-ordersand-controlat-home Google wins $2.5 Bln contract with Salesforce against Microsoft Salesforce Agentforce will be able to use Google’s Gemini models https://www.salesforce.com/news/press-releases/2025/02/24/google-partnership-expansion-gemini-agentforce/ Sakana AI - AI CUDA Engineer - agentic framework from Sakana AI Automates converting PyTorch into optimized CUDA kernels It uses AI to generate and refine CUDA code Achieved 10–100x speedups over standard PyTorch operations Up to 5x faster than existing production-grade CUDA kernels Uncovered optimizations that even expert engineers might miss, demonstrating AI’s ability to “invent” better hardware-level solutions Released with 17,000 verified CUDA kernels and benchmark results showing 50x gains over unoptimized code."
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Zhaoxin CPU server runs DeepSeek's 671B",
+      "text": "AI Updates Zhaoxin CPU server runs DeepSeek's 671B Zhaoxin is a Chinese CPU maker Claims its 64-core server CPUs can run DeepSeek's 671B model without GPUs https://www.tomshardware.com/pc-components/cpus/chinese-cpu-maker-zhaoxin-rolls-out-deepseek-support-to-all-processors-entire-product-lineup-now-runs-deepseek-llms-natively Voice-based AI applications are improving rapidly Two approaches: direct voice-in / voice-out models and pipeline/agentic workflow use \"Pre-response\" technique to reduce latency RealAvatar reduced latency from 5-9 seconds to 0.5-1 seconds DeepEP from DeepSeek - a communication library for  Mixture-of-Experts (MoE) and expert parallelism (EP) https://github.com/deepseek-ai/DeepEP DeepGEMM library from DeepSeek GEMMs = General Matrix Multiplications clean and efficient FP8 GEMMs with fine-grained scaling supports both normal and Mix-of-Experts (MoE) grouped GEMMs written in CUDA, the library has no compilation need during installation https://github.com/deepseek-ai/DeepGEMM ElevenLabs’ Scribe speech-to-text model supports over 99 languages https://techcrunch.com/2025/02/26/elevenlabs-is-launching-its-own-speech-to-text-model/ AI Infrastructure Spending Surge for 2025: - Amazon: $105B (35% increase) - Alphabet: $75B (up from $52.5B) - Meta: $65B (up from $39.2B) - Microsoft: ~$94B (following 83% rise in 2024) Coconut by Meta - Vector-Based AI Reasoning process chains of thought as vectors instead of text. Outperformed traditional text-based reasoning on certain datasets, Allows for more efficient processing with fewer tokens"
+    },
+    {
+      "index": 10,
+      "title": "Stanford OctoTools Stanford OctoTools - Open Source Complex",
+      "text": "Stanford OctoTools Stanford OctoTools - Open Source Complex Reasoning Agentic Framework with Extensible Tools OctoTools introduces standardized tool cards, a planner for both high-level and low-level planning, and an executor https://octotools.github.io - code https://arxiv.org/pdf/2502.11271 - paper https://huggingface.co/spaces/OctoTools/octotools - demo https://octotools.github.io/#visualization - visualization examples"
+    },
+    {
+      "index": 11,
+      "title": "More AI Updates Amazon's new Alexa+ - $20/mo",
+      "text": "More AI Updates Amazon's new Alexa+ - $20/mo (or free with Amazon Prime) AI-powered digital assistant Can handle complex tasks like making reservations or buying tickets It uses different AI models to choose the best one for each job Alexa+ remembers your preferences and keeps track of conversations. It works with many services Tencent Hunyuan Turbo S AI model Can Outrun DeepSeek Chinese tech giant Tencent said its new artificial intelligence model is faster than that of DeepSeek The company’s Hunyuan Turbo S AI model was built to respond as instantly as possible - thus distinguishing itself from the deep reasoning offered by DeepSeek, a China-based AI startup. https://www.pymnts.com/news/artificial-intelligence/2025/tencent-says-new-ai-model-can-outrun-deepseek/?utm_source=substack&utm_medium=email"
+    },
+    {
+      "index": 12,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard English-only queries Total #models: 209 Total #votes: 2,725,075 Last updated: 2025-02-27 Coding China China China China China China China China China China China China China x.ai China x.ai China China"
+    },
+    {
+      "index": 13,
+      "title": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard",
+      "text": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard"
+    },
+    {
+      "index": 14,
+      "title": "Jobs Layoffs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/",
+      "text": "Jobs Layoffs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/"
+    },
+    {
+      "index": 15,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 16,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Claude 3.7",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 1,
+      "slideTitle": "Claude 3.7 ChatGPT-4.5 Alibaba QwQ-Max-Preview reasoning model Meta",
+      "source": "outline"
+    },
+    {
+      "claim": "ChatGPT-4.5",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 5,
+      "slideTitle": "Google AI Co-scientist AI Co-scientist - a multi-agent",
+      "source": "outline"
+    },
+    {
+      "claim": "Alibaba QwQ-Max-Preview reasoning model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Zhaoxin CPU server runs DeepSeek's 671B",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta Llama3-SWE-RL-70B reasoning model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 12,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft Phi-4-multimodal",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 16,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Claude 3.7 Claude 3.7 Sonnet and Claude Code",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 2,
+      "slideTitle": "Claude 3.7 Claude 3.7 Sonnet and Claude Code",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT-4.5 Feb 27 OpenAI GPT-4.5 \"Orion\" released research",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 3,
+      "slideTitle": "ChatGPT-4.5 Feb 27 OpenAI GPT-4.5 \"Orion\" released research",
+      "source": "slide"
+    },
+    {
+      "claim": "More New Models Alibaba QwQ-Max-Preview reasoning model to",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 4,
+      "slideTitle": "More New Models Alibaba QwQ-Max-Preview reasoning model to",
+      "source": "slide"
+    },
+    {
+      "claim": "LLMs ready to replace OCR solutions LLMs ready",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 6,
+      "slideTitle": "LLMs ready to replace OCR solutions LLMs ready",
+      "source": "slide"
+    },
+    {
+      "claim": "Vibe Coding Vibe coding - coding without even",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 7,
+      "slideTitle": "Vibe Coding Vibe coding - coding without even",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Crunchbase’s AI predicts startup success with",
+      "topic": "gemini-google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates Crunchbase’s AI predicts startup success with",
+      "source": "slide"
+    },
+    {
+      "claim": "Stanford OctoTools Stanford OctoTools - Open Source Complex",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 10,
+      "slideTitle": "Stanford OctoTools Stanford OctoTools - Open Source Complex",
+      "source": "slide"
+    },
+    {
+      "claim": "More AI Updates Amazon's new Alexa+ - $20/mo",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=l3l9pzFLHwg",
+      "slideIndex": 11,
+      "slideTitle": "More AI Updates Amazon's new Alexa+ - $20/mo",
+      "source": "slide"
+    }
+  ]
+}

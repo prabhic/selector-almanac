@@ -1,0 +1,353 @@
+{
+  "id": "2022-09-09-2022-09-09-code4-code-examples",
+  "date": "2022-09-09",
+  "title": "code4 code examples",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "TQS6cUUGw0U",
+    "title": "Coding Interview Examples part 4",
+    "url": "https://www.youtube.com/watch?v=TQS6cUUGw0U",
+    "thumbnail": "https://i.ytimg.com/vi/TQS6cUUGw0U/hqdefault.jpg",
+    "duration": 1526
+  },
+  "deck": {
+    "path": "2022/2022-09-09-code4_code_examples.pptx",
+    "filename": "2022-09-09-code4_code_examples.pptx",
+    "title": "code4 code examples",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-09-09-code4_code_examples.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-09-09-code4_code_examples.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Quick Sort",
+      "startSeconds": 154,
+      "label": "02:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Substrict Substring Search Algorithms",
+      "startSeconds": 315,
+      "label": "05:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Brute Force Search",
+      "startSeconds": 355,
+      "label": "05:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Regular Expressions in Plural",
+      "startSeconds": 522,
+      "label": "08:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Longest Palindromic Substring",
+      "startSeconds": 624,
+      "label": "10:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Longest Plain Drumming Substring Using Hash of Duplicates",
+      "startSeconds": 736,
+      "label": "12:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Shortest Palindrome",
+      "startSeconds": 824,
+      "label": "13:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Find Depth of a Binary Tree",
+      "startSeconds": 907,
+      "label": "15:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Invert Binary Tree",
+      "startSeconds": 950,
+      "label": "15:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Binary Search Three Checker",
+      "startSeconds": 997,
+      "label": "16:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Suggest Word Completion Using Try Structure",
+      "startSeconds": 1066,
+      "label": "17:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Wardle",
+      "startSeconds": 1168,
+      "label": "19:28",
+      "source": "youtube"
+    },
+    {
+      "title": "How You Optimize the Guessing",
+      "startSeconds": 1282,
+      "label": "21:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Find a Rotation Point in an Array",
+      "startSeconds": 1415,
+      "label": "23:35",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Coding Interview Code Examples - Session 4 Find",
+      "text": "Coding Interview Code Examples - Session 4 Find K-th largest number in the array Substring Search Algorithms: Brute Force, KMP, Z Substring Search Algorithms: Rabin Karp, Boyer-Moore, Aho-Corasick Thompson NFA (Non-Deterministic Finite Automata) Longest Palindromic Substring Longest Palindromic String from Characters Shortest Palindrome Find depth of a binary tree Invert Binary Tree Binary Search Tree Checker Suggest Word Completion Using Trie Structure Wordle Game Cycle in Linked List? Find The Rotation Point In An Array Single Riffle Shuffle"
+    },
+    {
+      "index": 2,
+      "title": "Find K-th largest number in the array Different",
+      "text": "Find K-th largest number in the array Different solutions:                       Time complexity 1. Go through array K times.               O(K*N) 2. Sort array – and return arr[N-K]        O(N*lg(N)) 3. build a max-heap - and do K pop-s       O(N) + O(K*lg(N)) 4. use partitioning method (see below)    O(2N) similar to quicksort / binary search def _partition(arr, low, high): pivot = arr[high] index = low for j in range(low, high): if arr[j] <= pivot: arr[index], arr[j] = arr[j], arr[index] index += 1 arr[index], arr[high] = arr[high], arr[index] return index def findKthLargest(arr, k): left = 0 right = len(arr) - 1 while left <= right: pivotIndex = _partition(arr, left, right) if pivotIndex == (len(arr) - k) : return arr[pivotIndex] elif pivotIndex > (len(arr) - k) : right = pivotIndex - 1 else: left = pivotIndex + 1 return -1 1 Quick sort is a recursive sorting algorithm. We randomly select a pivot point (8), and then keep swapping left and right elements so that: .. all elements to the left of pivot are smaller than it .. all elements to the right are larger than the pivot point. Once we done, the pivot point is at its right place in the array. Then we can select pivot points in left and right portions, do the same swapping, and continue recursively until the whole array is sorted. To find K-th largest element we follow the quick-sort partitionning-pivoting, but only concentrate on the right potion(s) – because we only need to sort the top K elements. Complexity: N + N/2 + N/4 + ... = O(2N) - https://www.youtube.com/watch?v=QGVCnjXmrNg - https://github.com/techleadhd/three-coding-problems/blob/master/largest.py - https://www.youtube.com/watch?v=XE4VP_8Y0BU"
+    },
+    {
+      "index": 3,
+      "title": "Substring Search Algorithms – Brute Force, KMP, Z",
+      "text": "Substring Search Algorithms – Brute Force, KMP, Z 2 1) Brute Force Search Time complexity O(m*n) where: m = length of text n = length of pattern 2) KMP Substring Search algorithm (Knuth-Morris-Pratt) Time complexity O(m+n) Example: in string: abcxabcdabxabcdabcdabcy pattern: abcdabcy algorithm: 1. we try to match. 2. if fail, we see if the end of the partial match can be a beginning of another match - and shift to that point. (look for suffix that can be a prefix) In actual implementation we first go through the pattern and populate a temporary array of the same length showing where there are potential starting of match points. For example, for \"abcdabcy\": \"00001230\" .. https://www.youtube.com/watch?v=GTJr8OvyEVQ .. https://github.com/mission-peace/interview/blob/master/src/com/interview/string/SubstringSearch.java 3) Z algorithm Time complexity O(m+n) Z-array for a string is an array of integers showing the maximum length of a prefix starting at this position. The first entry of Z array is meaningless because the complete string is always its own prefix. Examples: str: aabcaabxaaaz Z  : x10031002210 str: aaaaaa Z  : x54321 str: aabaacd Z  : x102100 str: abababab Z  : x0604020 https://www.youtube.com/watch?v=CpZh4eF8QBw https://github.com/mission-peace/interview/blob/master/src/com/interview/string/ZAlgorithm.java http://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/ http://www.utdallas.edu/~besp/demo/John2010/z-algorithm.htm"
+    },
+    {
+      "index": 4,
+      "title": "Substring Search Algorithm – Rabin Karp, Boyer-Moore, Aho-Corasick,",
+      "text": "Substring Search Algorithm – Rabin Karp, Boyer-Moore, Aho-Corasick, ... 3 4) Rabin Karp (compare rolling hash to pattern hash) Time complexity O(m+n)..O(m*n) Good use: detecting plagiarism. Given source material, the algorithm can rapidly search through a text for instances of sentences from the source material. 5) Boyer-Moore 1977 (compare ends of strings) Time complexity O(m+n) or better This algorithm is used in GNU grep. It is also provided in C++ Boost, search.go, etc. It is a standard modern benchmark .. https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm Construct \" Bad Match Table \" Compare pattern to the text starting from the rightmost character in pattern. When the mismatch occurs - shift the pattern to the right corresponding to the value in \" Bad Match Table \" str: welcometoteammast    # string we searching in pat: teammast             # pattern we searching for 01234567             # 8 - length of pattern bad: teams*               # bad-match table 862318               # .. https://www.youtube.com/watch?v=G-h1Dph9IOE Length-Index-1, fill from left to right, overwriting duplicates 6) Aho-Corasick algorithm (1975) Time complexity O(TextLength + Words_Length + N_matches) A dictionary-matching algorithm. Was used in original unix fgrep. Algorithm constructs a finite-state machine that resembles a trie with additional links between the various internal nodes (to jump fast between failed string matches). 7) Finate state automation Thompson NFA, awk, grep, Google re2 see on next sldies"
+    },
+    {
+      "index": 5,
+      "title": "Regular Expressions: Two classes of RegEx engines: not",
+      "text": "Regular Expressions: Two classes of RegEx engines: not using backtracking (Thompson NFA, awk, grep, Google re2) NFA (NFDA) = Non-Deterministic Finite Automata those using backtracking PCRE = Perl Compatible Regular Expressions seconds micro-seconds \"Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...)\" by Russ Cox (2007) - https://swtch.com/~rsc/regexp/regexp1.html also - https://swtch.com/~rsc/regexp/regexp2.html - https://swtch.com/~rsc/regexp/regexp3.html - https://swtch.com/~rsc/regexp/regexp4.html Graphs of the time to match a? n a n against a n Notice (on the graphs) that Perl requires over 60 seconds to match a 29-character string. Thompson NFA algorithm requires only 20 microseconds to match the same string. That's not a typo. It is million times faster. And the trend continues! For a 100-character string: Thompson NFA - under 200 microseconds Perl would require over 10 15 years Python, PHP, Ruby algorithms are similar to Perl. 4"
+    },
+    {
+      "index": 6,
+      "title": "Thompson NFA Ken Thompson (the creator of Unix",
+      "text": "Thompson NFA Ken Thompson (the creator of Unix OS) has created his regular expression algorithm in 1968: \"Regular expression search algorithm\" http://doi.acm.org/10.1145/363347.363387 The machine uses multi-state approach moving forward over all possible paths in parallel. This results in (at worst) a constant amount of work growing in linear time with the length. This is a dramatic improvement over the exponential time required by the backtracking approach. In an NFA with n nodes, there can only be n reachable states at any step, but there might be 2 n paths! \"... each character in the text to be searched is examined in sequence against a list of all possible current characters. During this examination a new list of all possible next characters is built. When the end of the current list is reached, the new list becomes the current list, the next character is obtained, and the process continues.\" 4"
+    },
+    {
+      "index": 7,
+      "title": "Longest Palindromic Substring 5 Palindrome = symmetric string",
+      "text": "Longest Palindromic Substring 5 Palindrome = symmetric string which reads the same backward as forward, for example: civic, radar, level, rotor , etc. If you go through a given string and test each character as possible center of a Palindrome, we can easily derive a solution with complexity O(N 2 ) . But Manacher has invented a linear time algoriithm in 1975. Time complexity O(N) Below is a pseudocode. https://en.wikipedia.org/wiki/Longest_palindromic_substring https://pipiwiki.com/wiki/Longest_palindromic_substring -- while R < P.length: If i is within the palindrome at C (Cases 1 and 2): Set P[i] = P[i'] (else P[i] is set to 0) Expand the palindrome at i (primarily Cases 2 and 3; can be skipped in Case 1, though we have already shown that S'[R]  S'[L] because otherwise the palindrome at i' would have extended at least to the left edge of the palindrome at C) : while S'[R] == S'[L]: increment P[i] increment R If the palindrome at i extends past the palindrome at C: Update C = i increment i return max(P) -- given string S -- generate S' by inserting a bogus character ('|') between each character in S (including outer boundaries) -- Create array P to store the lengths of the palindrome for each center point in S (initially all 0s) (S'.length = P.length = 2 × S.length + 1) -- track the following pointers (referencing indices in P and S'): R -> the next element to be examined (initially 0) C -> the largest/left-most palindrome whose right boundary is R-1 (initially 0) i -> the next palindrome to be calculated (initially 1) L -> character candidate for comparing with R. Computed implicitly as:  L = i - (R - i) i' -> the palindrome mirroring i from C. Computed implicitly as:  i' = C - (i - C) Example 1: Input: \"babad\" Output: \"bab\" Note: \"aba\" is also a valid answer. Example 2: Input: \"cbbd\" Output: \"bb\""
+    },
+    {
+      "index": 8,
+      "title": "Longest Palindromic String from Characters 6 Given a",
+      "text": "Longest Palindromic String from Characters 6 Given a string s which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters. Letters are case sensitive, for example, \"Aa\" is not considered a palindrome here. def longestPalindrome(s): hash = set() for c in s: if c not in hash: hash.add(c) else: hash.remove(c) # len(hash) is the number of the odd letters if len(hash) > 0: return len(s) - len(hash) + 1 else: return len(s)"
+    },
+    {
+      "index": 9,
+      "title": "Shortest Palindrome 7 Given a string s, you",
+      "text": "Shortest Palindrome 7 Given a string s, you are allowed to convert it to a palindrome by adding characters in front of it. Find and return the shortest palindrome you can find by performing this transformation. Example 1: Input:   \"aacecaaa\" Output: \"aaacecaaa\" Example 2: Input:     \"abcd\" Output: \"dcbabcd\" On the right there are several solutions. It may be useful to explore other solutions using algorithms like KMP, Z, Rabin Karp, Boyer-Moore, Manachers, etc. # ---------------------------------------------------- # Runtime: 60 ms, brute force using builtin \"s.startswith()\" def shortestPalindrome(s): r = s[::-1] for i in range(len(s) + 1): if s.startswith(r[i:]): return r[:i] + s # ---------------------------------------------------- # Runtime: 412 ms def shortestPalindrome(s): for i in range(len(s), -1, -1): if s[:i] == s[:i][::-1]: return s[i:][::-1] + s # ---------------------------------------------------- # Runtime: 396 ms def isPalin(s): return s==s[::-1] def shortestPalindrome(s): if isPalin(s): return s add = '' while not isPalin(s): add += s[-1] s = s[:-1] return add + s + add[::-1]"
+    },
+    {
+      "index": 10,
+      "title": "Find depth of a binary tree 8 #",
+      "text": "Find depth of a binary tree 8 # --------------------------- # class TreeNode: #     def __init__(self, x): #         self.val = x #         self.left = None #         self.right = None # ------------------------------------------------------- # Iterative solution: def maxDepth (root): if root == None: return 0 nodeStack = [root]; depthStack = [1]; maxDepth = 0; while len(nodeStack)>0: node = nodeStack.pop(); depth = depthStack.pop(); maxDepth = max(maxDepth, depth) if node.left != None: nodeStack.append(node.left) depthStack.append(depth+1) if node.right != None: nodeStack.append(node.right) depthStack.append(depth+1) return maxDepth # ------------------------------------------------------- # Recursive solution: def maxDepth (root): if root == None: return 0 return max( maxDepth (root.left), maxDepth (root.right)) + 1"
+    },
+    {
+      "index": 11,
+      "title": "Invert Binary Tree 9 4 4 / \\",
+      "text": "Invert Binary Tree 9 4                           4 /   \\                       /   \\ 2     7       ==>           7     2 / \\   / \\                   / \\   / \\ 1   3 6   9                 9   6 3   1 class TreeNode(): def __init__(self, x): self.key   = x self.left  = None self.right = None def inv_tree_recurs (tmp): if tmp: tmp.left, tmp.right = ( inv_tree_recurs (tmp.right), inv_tree_recurs (tmp.left) ) return tmp"
+    },
+    {
+      "index": 12,
+      "title": "Binary Search Tree Checker 10 Write a function",
+      "text": "Binary Search Tree Checker 10 Write a function to check that a binary tree of integer numbers is a valid binary search tree. Careful: checking a node against its parent isn't sufficient to prove... INT_MAX =  int(4e9) INT_MIN = -int(4e9) # ----------------------------------------------------- class Node: def __init__(self, data): self.data = data self.left = None self.right = None # ----------------------------------------------------- def check_bst_valid (node, mini, maxi): if node is None:  # empty is True return True if node.data < mini or node.data > maxi: return False return ( check_bst_valid (node.left, mini, node.data -1) and check_bst_valid (node.right, node.data+1, maxi) ) # ----------------------------------------------------- root = Node(4) root.left = Node(2) root.right = Node(5) root.left.left = Node(1) root.left.right = Node(3) if (check_bst_valid(root, INT_MIN, INT_MAX)): print(\"Is BST\") else: print(\"Not a BST\")"
+    },
+    {
+      "index": 13,
+      "title": "Suggest Word Completion Using Trie Structure 11 from",
+      "text": "Suggest Word Completion Using Trie Structure 11 from techlead - interview problems .. https://www.youtube.com/watch?v=QGVCnjXmrNg .. https://github.com/techleadhd/three-coding-problems/blob/master/autocomplete.py class Node: def __init__(self, children, isWord): self.children = children self.isWord = isWord class Solution : def __init__(self): self.trie = None def build(self, words): self.trie = Node({}, False) for word in words: current = self.trie for char in word: if not char in current.children: current.children[char] = Node({}, False) current = current.children[char] current.isWord = True def autocomplete (self, prefix): current = self.trie for char in prefix: if not char in current.children: return [] current = current.children[char] return self._findWordsFromNode(current, prefix) def _findWordsFromNode(self, node, prefix): words = [] if node.isWord: words += [prefix] for char in node.children: words += self._findWordsFromNode( node.children[char], prefix + char) return words s = Solution () s.build(['dog','dark', 'cat', 'door', 'dodge']) print(s. autocomplete ('do')) # ['dog', 'door', 'dodge']"
+    },
+    {
+      "index": 14,
+      "title": "Wordle 12 Wordle is a web-based word game",
+      "text": "Wordle 12 Wordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022 You’re asked to guess the word of the day, which is a five-letter word in English. If you guess wrong, you’re given a few hints: a letter in the word is green if your guess for that letter in that position is right; a yellow letter if that letter is present in the word, but not that position; and gray, if the letter is not in the word at all. 3Blue1Brown on YouTube Solving Wordle using information theory https://www.youtube.com/watch?v=v68zYyaEmEA Oh, wait, actually the best Wordle opener is not “crane” https://www.youtube.com/watch?v=fRed0Xmc2Wg Solver tries to rank possible guesses, and propose the best guess on every step. We have dictionary of words. We also know frequency distribution of words and characters. When we select a word, we want to get two things: maximum information gain minimum remaining uncertanity We want to calculate several (at least two) steps ahead. Some top initial guesses: slane slate salet – winner after multiple simulations trace crate reast carle roast torse carse carte toile ..."
+    },
+    {
+      "index": 15,
+      "title": "Cycle in Linked List ? 13 Idea: Rabbit",
+      "text": "Cycle in Linked List ? 13 Idea: Rabbit & Turtle. Let's make two variables, slow_runner and fast_runner. The slow_runner advances one node, while fast_runner advances two nodes. If there is no cycle, rabit will finish ahead of turtle. If there is a cycle, both will go in circles, rabit gaining 1 step at a time - and eventually catch up with turtle. Complexity : O(n) time and O(1) space class Node: def __init__(self, data, next): self.data = data self.next = next class LinkedList: def __init__(self): self.head = Node(None, None) # sentinel node! self.head.next = self.head   # link it to itself def add(self, data): self.head.next = Node(data, self.head.next) def check_cycle(head): slowPointer = aa.head fastPointer = aa.head.next while fastPointer != None and fastPointer.next != None: fastPointer = fastPointer.next.next slowPointer = slowPointer.next print(id(fastPointer),id(slowPointer)) if fastPointer == slowPointer: return True return False aa = LinkedList() for ii in range(10): aa.add(ii) bb = aa.head.next while bb.data: print(bb.data) bb = bb.next check_cycle(aa.head)"
+    },
+    {
+      "index": 16,
+      "title": "Find The Rotation Point In An Array 14",
+      "text": "Find The Rotation Point In An Array 14 Given rotated array of words, find rotation point (in this case it is index of \"aa\"): arr = [mm nn oo pp qq aa bb cc dd ] Solution - use binary search comparing with arr[0]. Complexity - O(lg(n)) def find_rotation_point(words): first_word = words[0] floor_index = 0 ceiling_index = len(words) - 1 while floor_index < ceiling_index: # Guess a point halfway between floor and ceiling guess_index = floor_index + ((ceiling_index - floor_index) / 2) # If guess comes after first word or is the first word if words[guess_index] >= first_word: # Go right floor_index = guess_index else: # Go left ceiling_index = guess_index # If floor and ceiling have converged if floor_index + 1 == ceiling_index: # Between floor and ceiling is where we flipped to the beginning # so ceiling is alphabetically first return ceiling_index"
+    },
+    {
+      "index": 17,
+      "title": "Single Riffle Shuffle 15 Write a function to",
+      "text": "Single Riffle Shuffle 15 Write a function to tell us if a deck of cards is a single riffle of two other halves half1 and half2. def is_single_riffle(half1, half2, shuffled_deck): half1_index = 0 half2_index = 0 half1_max_index = len(half1) - 1 half2_max_index = len(half2) - 1 for card in shuffled_deck: # if we still have cards in half1 # and the \"top\" card in half1 is the same # as the top card in shuffled_deck if half1_index <= half1_max_index and \\ card == half1[half1_index]: half1_index += 1 # if we still have cards in half2 # and the \"top\" card in half2 is the same # as the top card in shuffled_deck elif half2_index <= half2_max_index and \\ card == half2[half2_index]: half2_index += 1 # if the top card in shuffled_deck doesn't match the top # card in half1 or half2, this isn't a single riffle. else: return False # all cards in shuffled_deck have been \"accounted for\" # so this is a single riffle! return True"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Coding Interview Code Examples - Session 4 Find",
+      "source": "youtube"
+    },
+    {
+      "claim": "Quick Sort",
+      "topic": "general",
+      "videoSeconds": 154,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=154s",
+      "slideIndex": 2,
+      "slideTitle": "Find K-th largest number in the array Different",
+      "source": "youtube"
+    },
+    {
+      "claim": "Substrict Substring Search Algorithms",
+      "topic": "general",
+      "videoSeconds": 315,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=315s",
+      "slideIndex": 3,
+      "slideTitle": "Substring Search Algorithms – Brute Force, KMP, Z",
+      "source": "youtube"
+    },
+    {
+      "claim": "Brute Force Search",
+      "topic": "general",
+      "videoSeconds": 355,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=355s",
+      "slideIndex": 4,
+      "slideTitle": "Substring Search Algorithm – Rabin Karp, Boyer-Moore, Aho-Corasick,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Regular Expressions in Plural",
+      "topic": "general",
+      "videoSeconds": 522,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=522s",
+      "slideIndex": 6,
+      "slideTitle": "Thompson NFA Ken Thompson (the creator of Unix",
+      "source": "youtube"
+    },
+    {
+      "claim": "Longest Palindromic Substring",
+      "topic": "general",
+      "videoSeconds": 624,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=624s",
+      "slideIndex": 7,
+      "slideTitle": "Longest Palindromic Substring 5 Palindrome = symmetric string",
+      "source": "youtube"
+    },
+    {
+      "claim": "Longest Plain Drumming Substring Using Hash of Duplicates",
+      "topic": "general",
+      "videoSeconds": 736,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=736s",
+      "slideIndex": 8,
+      "slideTitle": "Longest Palindromic String from Characters 6 Given a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Shortest Palindrome",
+      "topic": "general",
+      "videoSeconds": 824,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=824s",
+      "slideIndex": 9,
+      "slideTitle": "Shortest Palindrome 7 Given a string s, you",
+      "source": "youtube"
+    },
+    {
+      "claim": "Find Depth of a Binary Tree",
+      "topic": "general",
+      "videoSeconds": 907,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=907s",
+      "slideIndex": 10,
+      "slideTitle": "Find depth of a binary tree 8 #",
+      "source": "youtube"
+    },
+    {
+      "claim": "Invert Binary Tree",
+      "topic": "general",
+      "videoSeconds": 950,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=950s",
+      "slideIndex": 11,
+      "slideTitle": "Invert Binary Tree 9 4 4 / \\",
+      "source": "youtube"
+    },
+    {
+      "claim": "Binary Search Three Checker",
+      "topic": "general",
+      "videoSeconds": 997,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=997s",
+      "slideIndex": 12,
+      "slideTitle": "Binary Search Tree Checker 10 Write a function",
+      "source": "youtube"
+    },
+    {
+      "claim": "Suggest Word Completion Using Try Structure",
+      "topic": "general",
+      "videoSeconds": 1066,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=1066s",
+      "slideIndex": 14,
+      "slideTitle": "Wordle 12 Wordle is a web-based word game",
+      "source": "youtube"
+    },
+    {
+      "claim": "Wardle",
+      "topic": "general",
+      "videoSeconds": 1168,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=1168s",
+      "slideIndex": 15,
+      "slideTitle": "Cycle in Linked List ? 13 Idea: Rabbit",
+      "source": "youtube"
+    },
+    {
+      "claim": "How You Optimize the Guessing",
+      "topic": "general",
+      "videoSeconds": 1282,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=1282s",
+      "slideIndex": 16,
+      "slideTitle": "Find The Rotation Point In An Array 14",
+      "source": "youtube"
+    },
+    {
+      "claim": "Find a Rotation Point in an Array",
+      "topic": "general",
+      "videoSeconds": 1415,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U&t=1415s",
+      "slideIndex": 17,
+      "slideTitle": "Single Riffle Shuffle 15 Write a function to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Regular Expressions: Two classes of RegEx engines: not",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TQS6cUUGw0U",
+      "slideIndex": 5,
+      "slideTitle": "Regular Expressions: Two classes of RegEx engines: not",
+      "source": "slide"
+    }
+  ]
+}

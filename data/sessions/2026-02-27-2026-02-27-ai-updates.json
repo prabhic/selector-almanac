@@ -1,0 +1,853 @@
+{
+  "id": "2026-02-27-2026-02-27-ai-updates",
+  "date": "2026-02-27",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "agents",
+    "coding",
+    "claude",
+    "infra",
+    "openai",
+    "open-models",
+    "google",
+    "rag",
+    "multimodal",
+    "jobs"
+  ],
+  "video": {
+    "id": "d5sHAgQzzo0",
+    "title": "Have you heard these exciting AI news? - February 27, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=d5sHAgQzzo0",
+    "thumbnail": "https://i.ytimg.com/vi/d5sHAgQzzo0/hqdefault.jpg",
+    "duration": 1867
+  },
+  "deck": {
+    "path": "2026/2026-02-27-AI-Updates.pptx",
+    "filename": "2026-02-27-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-02-27-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-02-27-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "AI as a teammate you manage",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Harness Engineering is More Important than the Model",
+      "startSeconds": 27,
+      "label": "00:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 57,
+      "label": "00:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code vs OpenClaw",
+      "startSeconds": 152,
+      "label": "02:32",
+      "source": "youtube"
+    },
+    {
+      "title": "You Could've Invented OpenClaw",
+      "startSeconds": 267,
+      "label": "04:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Matthew Berman's AI Employee",
+      "startSeconds": 330,
+      "label": "05:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Liam Ottley - AI Business Models",
+      "startSeconds": 429,
+      "label": "07:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Taalas chips - 17,000 Tok/sec inference",
+      "startSeconds": 497,
+      "label": "08:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Chinese AI Firms Distill Anthropic's Claude Models",
+      "startSeconds": 565,
+      "label": "09:25",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT upgrades: deep research, code blocks",
+      "startSeconds": 596,
+      "label": "09:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Peter Steinberger Workflow",
+      "startSeconds": 616,
+      "label": "10:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Example - Create Skills with OpenClaw",
+      "startSeconds": 693,
+      "label": "11:33",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw on GPT 5.3 Codex via $20/mo Plus plan",
+      "startSeconds": 720,
+      "label": "12:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Matthew Berman's Custom OpenClaw",
+      "startSeconds": 762,
+      "label": "12:42",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw + Qwen 3.5",
+      "startSeconds": 780,
+      "label": "13:00",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw + Sonnet 4.6",
+      "startSeconds": 812,
+      "label": "13:32",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw + Gemini 3.1 Pro",
+      "startSeconds": 838,
+      "label": "13:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Oz by Warp - cloud-based AI coding agent platform",
+      "startSeconds": 859,
+      "label": "14:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Abacus Deep Agent - Secure 'OpenClaw'",
+      "startSeconds": 887,
+      "label": "14:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Abacus AI's \"Deep Agent\" can create quality audio",
+      "startSeconds": 931,
+      "label": "15:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Google restricts Antigravity access for OpenClaw users",
+      "startSeconds": 938,
+      "label": "15:38",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw Update (Mistral Chat + Voice + Memory!)",
+      "startSeconds": 963,
+      "label": "16:03",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw + Zapier MCP = 8,000 apps",
+      "startSeconds": 981,
+      "label": "16:21",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw - Build Mission Control Dashboard",
+      "startSeconds": 998,
+      "label": "16:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Three ways to configure OpenClaw",
+      "startSeconds": 1011,
+      "label": "16:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Make OpenClaw more powerful",
+      "startSeconds": 1051,
+      "label": "17:31",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw + GLM 4.7 Flash + Gemini 3.1 Pro",
+      "startSeconds": 1092,
+      "label": "18:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Openclaw: Mission Control + Agent Teams",
+      "startSeconds": 1111,
+      "label": "18:31",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenClaw - save money, grow your X account",
+      "startSeconds": 1128,
+      "label": "18:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Run OpenClaw on your Mac Safely",
+      "startSeconds": 1148,
+      "label": "19:08",
+      "source": "youtube"
+    },
+    {
+      "title": "High-value AI skills to be worth $500K/year by 2027",
+      "startSeconds": 1260,
+      "label": "21:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Lyria 3 AI music model",
+      "startSeconds": 1295,
+      "label": "21:35",
+      "source": "youtube"
+    },
+    {
+      "title": "IronClaw & ZeroClaw - in Rust",
+      "startSeconds": 1309,
+      "label": "21:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Why AI generate Garbage Code - and How to Fix It",
+      "startSeconds": 1330,
+      "label": "22:10",
+      "source": "youtube"
+    },
+    {
+      "title": "India announced three (3) domestically-built models",
+      "startSeconds": 1374,
+      "label": "22:54",
+      "source": "youtube"
+    },
+    {
+      "title": "VoiceBox - open-source local-first AI voice cloning",
+      "startSeconds": 1380,
+      "label": "23:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Modeling human concept formation",
+      "startSeconds": 1395,
+      "label": "23:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Agent Modeling Trading",
+      "startSeconds": 1430,
+      "label": "23:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Builds Self-Learning AI (RL2F)",
+      "startSeconds": 1450,
+      "label": "24:10",
+      "source": "youtube"
+    },
+    {
+      "title": "China leads the humanoid robot revolution",
+      "startSeconds": 1474,
+      "label": "24:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Coding in COBOL triggered IBM shares price crash",
+      "startSeconds": 1493,
+      "label": "24:53",
+      "source": "youtube"
+    },
+    {
+      "title": "GGML.ai bought by Hugging Face",
+      "startSeconds": 1550,
+      "label": "25:50",
+      "source": "youtube"
+    },
+    {
+      "title": "David Silver starts Ineffable Intelligence",
+      "startSeconds": 1595,
+      "label": "26:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1668,
+      "label": "27:48",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates - Feb 27 , 2026 \"AI",
+      "text": "AI Updates - Feb 27 , 2026 \"AI is no longer a tool you use, but a teammate you manage.\" \"The value isn't in the model, but in the skill of the human holding the reins.\" \"Harness Engineering - Harness Around the Model is More Important than the Model\""
+    },
+    {
+      "index": 2,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Claude Code vs OpenClaw",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Claude Code vs OpenClaw You Could've Invented OpenClaw Matthew Berman's AI Employee Liam Ottley - AI Business Models Taalas chips - 17,000 Tok/sec inference Chinese AI Firms Distill Anthropic’s Claude Models ChatGPT upgrades: deep research, code blocks AI Updates - Feb 27 , 2026 Jobs, Layoffs, demand for AI Engineers Peter Steinberger Workflow Example - Create Skills with OpenClaw OpenClaw on GPT 5.3 Codex via  $20/mo Plus plan Matthew Berman's Custom OpenClaw OpenClaw + Qwen 3.5 OpenClaw + Sonnet 4.6 OpenClaw + Gemini 3.1 Pro Oz by Warp - cloud-based AI coding agent platform Abacus Deep Agent - Secure 'OpenClaw' Abacus AI’s \"Deep Agent\" can create quality audio OpenClaw Update (Mistral Chat + Voice + Memory!) Google restricts Antigravity access for OpenClaw users OpenClaw + Zapier MCP = 8,000 apps OpenClaw - Build Mission Control Dashboard Three ways to configure OpenClaw Make OpenClaw more powerful OpenClaw + GLM 4.7 Flash + Gemini 3.1 Pro Openclaw: Mission Control + Agent Teams OpenClaw - save money, grow your X account Run OpenClaw on your Mac Safely High-value AI skills to be worth $500K/year by 2027 Google Lyria 3 AI music model IronClaw & ZeroClaw - in Rust Why AI generate Garbage Code - and How to Fix It India announced three (3) domestically-built models VoiceBox - open-source local-first AI voice cloning Modeling human concept formation Claude Code Agent Modeling Trading Google Builds Self-Learning AI (RL2F) China leads the humanoid robot revolution Claude Coding in COBOL triggered IBM shares price crash GGML.ai bought by Hugging Face David Silver starts Ineffable Intelligence"
+    },
+    {
+      "index": 3,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for February 26 deepseek-v3.2  -  671B ernie-5.0 - 2.4T glm-5.0 - 744B kimi-k2.5-thinking - 1T qwen3.5-397B ■ Claude ■ Gemini ■ OpenAI ■ Open Source Code Model Score ■ claude-opus-4-6-thinking 1503 ■ claude-opus-4-6 1503 ■ gemini-3.1-pro-preview 1500 ■ grok-4.20-beta1 1495 ■ gemini-3-pro 1486 ■ gpt-5.2-chat-latest-20260210 1481 ■ gemini-3-flash 1473 ■ grok-4.1-thinking 1473 ■ claude-opus-4-5-20251101-thinking-32k 1471 ■ dola-seed-2.0-preview 1470 ■ claude-opus-4-5-20251101 1467 ■ grok-4.1 1462 ■ gemini-3-flash (thinking-minimal) 1461 ■ claude-sonnet-4-6 1458 ■ gpt-5.1-high 1457 ■ glm-5 1455 ■ qwen3.5-397b-a17b 1454 ■ ernie-5.0-0110 1453 ■ kimi-k2.5-thinking 1452 ■ claude-sonnet-4-5-20250929-thinking-32k 1450 ■ claude-sonnet-4-5-20250929 1450 ■ gemini-2.5-pro 1449 ■ ernie-5.0-preview-1203 1449 ■ claude-opus-4-1-20250805-thinking-16k 1449 ■ claude-opus-4-1-20250805 1446 Code Model Score ■ claude-opus-4-6-thinking 1554 ■ claude-opus-4-6 1547 ■ gemini-3.1-pro-preview 1541 ■ claude-opus-4-5-20251101-thinking-32k 1536 ■ grok-4.20-beta1 1524 ■ gpt-5.2-chat-latest-20260210 1522 ■ dola-seed-2.0-preview 1521 ■ claude-sonnet-4-6 1521 ■ claude-opus-4-5-20251101 1519 ■ claude-sonnet-4-5-20250929-thinking-32k 1519 ■ gemini-3-pro 1518 ■ kimi-k2.5-thinking 1513 ■ claude-opus-4-1-20250805-thinking-16k 1512 ■ claude-sonnet-4-5-20250929 1508 ■ kimi-k2.5-instant 1508 ■ gemini-3-flash 1507 ■ grok-4.1-thinking 1506 ■ claude-opus-4-1-20250805 1504 ■ qwen3.5-397b-a17b 1502 ■ gemini-3-flash (thinking-minimal) 1500 ■ gpt-5.2 1497 ■ claude-opus-4-20250514-thinking-16k 1497 ■ grok-4.1 1494 ■ glm-5 1493 ■ gpt-5.2-high 1493"
+    },
+    {
+      "index": 4,
+      "title": "Claude Code (CC) vs OpenClaw (OC) Why people",
+      "text": "Claude Code (CC) vs OpenClaw (OC) Why people are so excited about openclaw? The vision of a \"live\" assistant that \"my mom can use\" is exciting But right now to work with OC you need to be technical and VERY careful But if you are can use Claude Code, then for any particular task you can ask it to create a combination of skills and scripts. Then you can run this on your personal laptop and can schedule it to run on a regular basis. It is safe. You can have persistent memory, work with local docs, work with websites This way you can get almost all functionality you need for your daily tasks. And you can use your Claude subscription (which is not available for OpenClaw because of Anthropic's recent ban) You can set up a small server for webhooks You can switch to use only local model(s) for extra privacy How OpenClaw is different? OpenClaw is designed to run 24/7 to communicate on multiple channels (WhatsApp, Telegram, Slack, email, etc.), maintain long‑lived sessions It provides a central framework (an \"Agent OS\") to run your tasks - a workflow engine with triggers, conditions, actions; \"universal inbox\" for chat channels and external content, plus stateful context and memory; So why some people are excited about OpenClaw? Because they want a universal personal assistant - not a dev tool; They are aiming for “it clears my inbox, texts me reminders, books flights, etc., on its own,” across accounts and devices. They want to have a system which already has all pieces wired together - cron, webhooks, a message bus, a skill runner, and state persistence, chat routing across WhatsApp/Telegram/Slack/iMessage), a plugin registry with 50+ integrations; Session/context/memory and tool sandboxing built in. The excitement is: “finally a general agent OS I can self‑host and extend,” not “finally something I couldn’t hack together myself with Claude + cron.” OpenClaw is mostly a convenience abstraction and ecosystem, not a fundamental capability unlock If you’re comfortable wiring small servers, cron, scripts, and skills, then with Claude Code you can have “run on my laptop, with my own scripts” setup which gives you very good control over privacy But if you ever decide to expose agents over WhatsApp/Telegram/Slack for other people, build shared assistants for a team or customers, or want a unified “agent OS” with plugins and message routing baked in, then something like OpenClaw (or whatever replaces/competes with it) starts to make more sense Anthropic's 11 new plugins for Claude Co-work https://www.youtube.com/watch?v=dVpIPXmEk8Y All plugins are free, open-source, and shareable via zip files Users can customize existing plugins or build entirely new ones using plain English descriptions through the meta \"plugin management\" plugin Plugins are for sales, marketing, legal, finance, customer support, ... , for example: contract review with risk flagging, sales pipeline management, and automated workflow creation. Each plugin contains three components: skills (automatic background knowledge), commands (triggered workflows using slash commands), connectors (integrations with existing software)."
+    },
+    {
+      "index": 5,
+      "title": "You Could've Invented OpenClaw You Could've Invented OpenClaw",
+      "text": "You Could've Invented OpenClaw You Could've Invented OpenClaw - by Nader Dabit, Feb 10 Building a mini-openclaw.py in 400 lines of python https://nader.substack.com/p/you-couldve-invented-openclaw OpenClaw is just a clean composition of simple building blocks: sessions, system prompts, tools, queues, cron, and multi-channel I/O They are stitched together into a persistent multi-agent assistant that runs on your own hardware Start with a trivial Telegram echo bot Add disk-backed JSONL sessions so the assistant remembers prior messages Add a “SOUL” system personality prompt (Jarvis) Add a tools API (run commands, read/write files, web search) with an agent loop that lets the LLM emit tool calls, execute them, and iterate until it’s ready to answer Add a persistent approval system to prevent dangerous shell execution Add gateway to use multiple transports (http, Telegram, ...) Add context compaction (summarizing old transcript halves) Add long‑term markdown memory with save/search tools Add per-session locks for safe concurrency Add cron-based “heartbeats” for scheduled tasks Add multiple agents (e.g. main vs research) with different SOULs, models, and session prefixes that share a common memory store The Ultimate Guide to OpenClaw https://corpwaters.substack.com/p/the-ultimate-guide-to-openclaw GitHub - 232K Stars, Release 2026.2.25 https://github.com/openclaw/openclaw"
+    },
+    {
+      "index": 6,
+      "title": "Matthew Berman's AI Employee Matt uses Agents SDK",
+      "text": "Matthew Berman's AI Employee Matt uses Agents SDK to use his Anthropic Max subscription. While Anthropic banned the use of personal Claude subscriptions via OAuth for external products, their Agents SDK remains a valid and effective alternative By converting his system to use the Agents SDK, he is able to continue leveraging his Anthropic Pro/Max subscription without facing token bans Here is the workflow he implemented: He created a centralized `anthropic-agent-sdk.js` file to handle all calls Token Resolution - The system resolves the OAuth token from its storage location to authenticate the session He wrapped all calls with auto-retry mechanisms, logging support, and prompt caching to maintain efficiency Centralized Routing - He built an `LLM-router.js` to manage traffic, allowing him to easily switch between the Anthropic Agents SDK and other providers like OpenAI's Codex SDK This approach has allowed him to use billions of tokens across his automated tasks (like CRM updates and email drafting) while staying within the terms of his subscription Matt spreads the jobs (because subscription has token cap every 5 hours) Matthew Berman Created OpenClaw F/T Employee Manages a dedicated sponsorship email address, using a sophisticated rubric to score leads, conduct background research on companies, and draft context-aware replies. It integrates deeply with tools like HubSpot for CRM tracking, Telegram for real-time notifications, and Fathom for meeting intelligence. Berman also shares advanced technical strategies, including \"dual prompt stacks\" to optimize performance across different AI models and a three-layer security defense against prompt injections Other key use cases mentioned include automated content pipelines, financial tracking via QuickBooks, and personalized health coaching By leveraging cron jobs for overnight processing and local embeddings to save costs, Berman demonstrates a highly efficient, autonomous AI ecosystem for business productivity https://www.youtube.com/watch?v=3110hx3ygp0"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 6.39K subscribers, 271 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "Liam Ottley - AI Business Models Liam Ottley",
+      "text": "Liam Ottley - AI Business Models Liam Ottley - Business Models https://www.youtube.com/watch?v=KAufsCas_F4 OpenClaude is labeled as \"iPhone moment for AI\" It creates many business opportunities around providing skills and services for OpenClaude users From SaaS to \"AI Skill Businesses\": Traditional SaaS required massive work on interfaces, hosting, and security. But with AI assistants like OpenClaw, the assistant itself becomes the interface, allowing creators to focus solely on functionality and sell them on marketplaces like Clawhub Five Types of AI Skill Businesses: 1. Pure Prompt Skills - selling simple text files packaging expert instructions (e.g., how to review a legal contract) 2. Utility Skills - Code-based scripts that perform tasks like high-quality YouTube transcription or web scraping 3. API Integration Skills - Teaching the AI how to interact with existing tools like HubSpot or CRM systems 4. Backend Service Skills (Skills as a SaaS) - running a private server that does heavy lifting (like deep company research) while the user interacts through the AI assistant for a monthly fee 5. Proprietary Data Skills - AI provides insights based on a private, high-value database that others cannot access The risks: Technical Volatility - companies like Google and OpenAI will likely release competing platforms, potentially making current skills obsolete overnight Security Concerns - current open-source tools have significant security and compliance hurdles that prevent large businesses from adopting them yet Recommendation - focus on \"boring\" but proven AI consulting and agency work (the \"rock\") rather than purely chasing shiny new tech trends The Rock - \"AI Agency\" model: AI Auditing and Consulting - analyze company's roles and processes, find automation opportunities to get max return on investment Building and implementing AI automations and solutions. Especially using No-Code and Low-Code Automation Training teams and ensuring that AI tools are actually adopted and used effectively Building Long-term Relationships, focus on slow-moving problems that will exist for the next decade, such as how humans integrate new tech into legacy systems Liam is automating up to 70% of his business operations using Claude Code (not OpenClaw) - https://www.youtube.com/watch?v=O_VBdNrX0PM He builds layers of AI automation around existing business models, starting with a \"Context OS\" foundation and adding modules for data management, meeting intelligence, productivity tracking, and communication handling. The system operates through Telegram his method doesn't require extensive technical skills"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Taalas chips - 17,000 Tok/sec inference",
+      "text": "AI Updates Taalas chips - 17,000 Tok/sec inference https://www.youtube.com/watch?v=WjxOffC2kyM Taalas, a new startup, has created a chip that can process 17,000 tokens per second using an embedded Llama 3.1  8B params model All layers/weights are hardcoded inside the chip. No external CPU, GPU, or memory is needed. The chip uses mostly 3-bit quantization (some sensitive areas use 6-bit quantization). Company raised $200 Million Chinese AI Firms Distill Anthropic’s Claude Models Anthropic reported that DeepSeek, Moonshot AI, and MiniMax ran “industrial-scale” distillation attacks against its Claude models, issuing over 16 million queries via roughly 24,000 fraudulent accounts , often routed through commercial proxy networks to evade detection The community and figures like Elon Musk have labeled Anthropic as hypocrites. Critics point out that Anthropic has also been accused of training its models on stolen or copyrighted data Elon Musk stated that Anthropic is \"guilty of stealing training data at massive scale\" and has paid multi-billion dollar settlements for it. Tech analysts argue the data volumes cited by Anthropic are too low to constitute a massive theft, suggesting they might simply reflect standard benchmarking - https://x.com/AnthropicAI/status/2025997928242811253"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates ChatGPT upgrade to its deep research",
+      "text": "AI Updates ChatGPT upgrade to its deep research feature https://www.youtube.com/watch?v=XmKD8BGiC8w Providing significantly more granular control and access to over 60 different apps including Expedia, Zillow, Slack, and Stripe. Users can now specify which websites to search or exclude, connect various third-party applications, and interrupt research mid-process to add adjustments or follow-up questions. The enhanced version performs hundreds of searches with detailed citations, creating comprehensive reports with graphs, charts, and exportable formats to Word or PDF. While taking longer than the legacy version (20-40+ minutes), it enables powerful use cases like analyzing flight price trends through Expedia data or researching real estate markets via Zillow integration. This upgrade allows businesses to generate detailed reports, making it substantially more powerful than other platforms' research capabilities ChatGPT update called interactive code blocks Allows users to write, run, and fix code directly within the chat interface https://www.youtube.com/watch?v=znIj4XPsHak Previously, users had to copy and paste code into external tools. Now you can click preview to see your code run live, use split-screen mode to edit code while watching real-time updates, and build functional apps, landing pages, calculators, and diagrams without external tools or developer skills. The update eliminates the need for copying between applications and enables rapid prototyping for marketers, coaches, agency owners, and content creators. Users can build business tools like lead magnets, member dashboards, and interactive content in minutes rather than hours, making AI-powered development accessible to non-technical users and significantly lowering barriers to building digital products."
+    },
+    {
+      "index": 11,
+      "title": "AI Updates Peter Steinberger Workflow https://www.youtube.com/watch?v=m_l9pUKLiXo Two MacBooks",
+      "text": "AI Updates Peter Steinberger Workflow https://www.youtube.com/watch?v=m_l9pUKLiXo Two MacBooks (one for work, one for testing) A wide anti-glare Dell monitor Multiple terminal windows (avoiding complex GUIs) Using Codex AI via terminals Treating the AI as a collaborative partner: he uses \"trigger words\" to control code generation, asks the agent to identify its own knowledge gaps, and forces it to \"read more code\" to answer its own questions. Crucially, Steinberger performs post-build refactoring and generates all documentation and tests using the AI once the full project context is established. https://x.com/steipete https://github.com/steipete https://steipete.com https://www.linkedin.com/in/steipete/ https://openclaw.ai https://github.com/openclaw/openclaw https://discord.com/invite/openclaw Example - Create Skills with OpenClaw Demo: Local Database to Vercel Website Demo https://www.youtube.com/watch?v=WvoUvux27LU Fahd Mirza runs OpenClaw with local Ollama model on an Ubuntu system with an NVIDIA RTX 6000 GPU He first sets up a simple local SQLite sales database. He then instructs local OpenClaw to autonomously find or create a \"skill\" to interact with the database The agent successfully identifies the database schema, queries the sales data, and generates a functional HTML dashboard Finally, OpenClaw deploys this dashboard to the public internet (Vercel) using the deploy skill OpenClaw on GPT 5.3 Codex via  ChatGPT Plus plan $20/mo https://www.youtube.com/watch?v=qURVA5XO84s Matthew Berman switched to OpenAI models for OpenClaw to cut costs - https://www.youtube.com/watch?v=2HiHDIFStzg Matthew Berman Product Requirements Document (PRD) and Feature Inventory for a custom OpenClaw built on top of the base OpenClaw https://gist.github.com/mberman84/5ccf2085d0049581b4675f7fe64e9b87 https://gemini.google.com/app/85ee439c66411016 https://github.com/mberman84"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates OpenClaw + Qwen 3.5 Multimodal (vision),",
+      "text": "AI Updates OpenClaw + Qwen 3.5 Multimodal (vision), coding, tool calling, 1M token window Qwen 3.5 via API or Ollama (27B, 35B, 122B, 397B) Use cases: landing page analysis, content automation, member onboarding, coding assistance, screenshot-to-action https://www.youtube.com/watch?v=k6uY0AQOP4k OpenClaw + Sonnet 4.6 VPS through Hostinger's one-click deployment. Upgrading OpenClaw to use Claude Sonnet 4.6 and Perplexity's search capabilities create structured folder system, store knowledge in MD files set up automated heartbeat functions for proactive updates, and integrating OpenClaw with Slack for team collaboration https://www.youtube.com/watch?v=Cx2oPWU8qjY OpenClaw + Gemini 3.1 Pro fast and autonomous (comparable to Claude Opus) https://www.youtube.com/watch?v=QkTrdDMKE7I Oz by Warp - cloud-based AI coding agent platform https://www.youtube.com/watch?v=I9BZRuw5c80 https://www.warp.dev https://www.warp.dev/oz Runs multiple agents, uses Docker containers, allows to \"steer\" agents mid-task; enables cross-repository collaboration (for example, front-end and back-end);"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates Abacus Deep Agent - Secure 'OpenClaw'",
+      "text": "AI Updates Abacus Deep Agent - Secure 'OpenClaw' https://www.youtube.com/watch?v=TotUFMwux5g https://www.youtube.com/watch?v=CFBZzLU3IQI OpenClaw running in SOC2 certified environments with encryption and isolated virtual machines, persistent memory that maintains context across executions instead of resetting, scheduled execution allowing agents to work autonomously, and full orchestration capabilities Deep Agent enables agents to function as continuous operators that remember previous conversations, actions, outcomes, and decisions. This allows for more sophisticated workflows in areas like invoice follow-ups, sales outreach, and sentiment analysis, where the agent builds on past interactions rather than starting fresh each time. OpenClaw Update (Mistral Chat + Voice + Memory!) https://www.youtube.com/watch?v=aojY3mU6BcM Added Mistral AI for chat, memory, and voice capabilities Includes multilingual memory support for Spanish, Portuguese, Japanese, Korean, and Arabic Fixed browser extension that no longer drops connections, an auto-updater feature to eliminate manual version hunting, and parallel execution for scheduled cron jobs instead of queuing. Over 40 security fixes were implemented, making this one of OpenClaw's largest updates Abacus AI’s \"Deep Agent\" can create quality audio Transform dense research papers into engaging audio summaries, generate 30-minute expert panel debates with distinct personalities, and produce professional podcasts from a single prompt By utilizing advanced models like Hume AI, the system incorporates natural emotional expressiveness, including realistic pauses and filler words, making the AI-generated voices nearly indistinguishable from humans Technology can also do audiobooks, marketing ads, and corporate training without the need for studios or voice actors https://www.youtube.com/watch?v=YFVR8NRmGF0 Google restricts Antigravity access for some OpenClaw users (users used OpenClaw to tap into Gemini tokens, violating terms) OpenClaw's creator, now at OpenAI, plans to drop Google support"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates OpenClaw + Zapier MCP = 8,000",
+      "text": "AI Updates OpenClaw + Zapier MCP = 8,000 apps https://www.youtube.com/watch?v=-Cjjh5SV_o4 (Slack, Gmail, Linear, Notion, ...) Fast setup - choosing specific tools for each app, generating connection credentials, and pasting them into OpenClaw. Examples : converting Slack messages into Linear tasks and creating Gmail drafts;  no need for repeated authentication across multiple apps while providing granular control over AI permissions OpenClaw - Build Mission Control Dashboard https://www.youtube.com/watch?v=vfLQTrS-gRc https://mission-control-prompts.vercel.app/ - prompts Instructions how to build the dashboard that includes business metrics, AI agents for different tasks, project management kanban boards, revenue tracking, meeting summaries via Fireflies integration, YouTube analytics, and a mini CRM; gamified progress tracking, daily AI news reports, and visual timelines for goals. The system runs locally as an HTML file with zero loading screens and no database costs. Three main prompts are provided: foundational setup, custom modules, and the live dashboard engine. The creator emphasizes training your AI bot with coding skills first, then customizing the purple-highlighted variables with personal information. The complete blueprint is freely available at missioncontrol.cell.app, requiring only email signup for future updates."
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Three ways to configure OpenClaw https://www.youtube.com/watch?v=yuPRgWnPFfA",
+      "text": "AI Updates Three ways to configure OpenClaw https://www.youtube.com/watch?v=yuPRgWnPFfA 1. Using local Ollama for AI models 2. Cloud deployment using VPS hosting 3. A no-code managed solution https://xcloud.host/openclaw-hosting/ The 1st option (local setup) involves five steps including creating users, installing packages, configuring OpenClaw with Telegram bots, installing Olama with models like Ministral 3B, and establishing connections The 3rd option can be configured with just 3 clicks Make OpenClaw more powerful Use Sub-Agents Get skills from ClawHub ( https://clawhub.ai ) Schedule automated autonomous tasks Memory Management - use specific prompts to save critical information into memory files before context compaction occurs Self-Improving Loops - AI logs corrections to avoid repeating mistakes and better aligns with user preferences over time https://www.youtube.com/watch?v=0soFIReWb1w"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates OpenClaw + GLM 4.7 Flash +",
+      "text": "AI Updates OpenClaw + GLM 4.7 Flash + Gemini 3.1 Pro https://www.youtube.com/watch?v=Z_X3TUplCis + GLM 4.7 Flash (via Ollama) + Gemini 3.1 Pro (slow) + Discord voice channels + threaded sub-agents Openclaw: Mission Control + Agent Teams https://www.youtube.com/watch?v=GpQcz_eKiNo Mission Control - centralized command center for managing multiple AI agents simultaneously; Kanban board to track agent tasks, progress, and completion in real-time; Users can orchestrate teams of AI agents working on different jobs automatically while monitoring through a visual dashboard The update includes features like agent lifecycle management, approval workflows, gateway management, and API integration. There are two setup options: using the pre-built GitHub project or building a custom dashboard with OpenClaw's help, though the latter takes about an hour for basic functionality. Mission Control is particularly valuable for multi-team operations, distributed runtime control, and activity auditing, essentially serving as a business operating system for AI automation workflows. OpenClaw - save money, grow your X account https://www.youtube.com/watch?v=QQq73onHjZo Configure cheaper model (Gemini Flash) for heartbeat checks and set active hours to reduce costs by 95% Implement Zapier MCP as a secure firewall to log all AI actions while protecting credentials Connect OpenClaw to an X (Twitter) account to autonomously grow it using the new pay-as-you-go X API. For transparency label the account as automated and say that you are planning to run this experiment for a week to test effectiveness and security while maintaining full visibility of all bot activities"
+    },
+    {
+      "index": 17,
+      "title": "Run OpenClaw on your Mac Safely Run OpenClaw",
+      "text": "Run OpenClaw on your Mac Safely Run OpenClaw on your Mac Safely by isolating it, limiting its access, locking down network exposure https://www.youtube.com/watch?v=9AxdzsVkMLI https://levelup.gitconnected.com/you-dont-need-to-buy-a-mac-mini-to-run-openclaw-27bd564c0c9d Step 1: Install OpenClaw cleanly (homebrew + node.js - then install OpenClaw via the official CLI or installer for macOS https://www.youtube.com/watch?v=YSJ61RiO7As Keep OpenClaw updated to get security fixes Step 2: Isolate from your main account - create a separate standard macOS user just for OpenClaw and run it only there https://us.ugreen.com/blogs/docking-stations/openclaw-on-mac-mini Store projects in a dedicated folder (for example `~/ai-workspace`) and avoid linking cloud drives into that account Step 3: Restrict what it can touch - Do not grant access to ~/.ssh, ~/Library/Keychains, or ~/.gnupg; keep secrets out of its user profile Treat ~/.openclaw as sensitive (contains API keys and long‑term memory files) Step 4: Lock down networking - Configure OpenClaw to bind only to `127.0.0.1` and set an auth token for the gateway. https://bitlaunch.io/blog/install-configure-openclaw/ Use Tailscale encrypted tunnel for remote access instead of exposing ports publicly https://help.apiyi.com/en/openclaw-local-vs-server-deployment-guide-en.html Optional: Extra isolation by running a separate macOS VM using UTM and install OpenClaw inside that VM Eventually rent VPS (Hostinger) or buy Mac Mini - https://www.youtube.com/watch?v=kqkOFKmNY_w Mac sandbox-exec user profile: (allow default) (allow network-outbound) (deny network-inbound (local tcp \"*:*\")) (deny file-write* (subpath \"/\")) (allow file-write* (subpath (string-append (param \"HOME\") \"/.openclaw\")) (subpath (string-append (param \"HOME\") \"/.openclaw/workspace\")) (subpath \"/tmp\")) (allow file-read*) # launch OpenClaw like this: sandbox-exec -f ~/.openclaw/sandbox.sb \\ -D HOME=$HOME \\ openclaw gateway --port 18789 # test: openclaw agent -m \"hello\""
+    },
+    {
+      "index": 18,
+      "title": "AI Updates High-value AI skills to be worth",
+      "text": "AI Updates High-value AI skills to be worth $500K/year by 2027 - by Christian Peverelli https://www.youtube.com/watch?v=9F-TcTlD5TE AI Coding - using tools like Lovable and Claude Code to build functional apps and websites AI Sales - automating lead generation and CRM management using platforms like Outbound and Adio AI Marketing : - AI for copywriting and tools like Runway or Nano Banana for AI-generated visual content AI SEO (AEO) - transitioning to \"Answer Engine Optimization\" to ensure brands are cited by AI search tools AI Agents - Setting up autonomous systems like OpenClaw to execute complex business tasks Strategic Consulting - creating personalized AI advisors to assist with high-level decision-making Google Lyria 3 AI music model Built into the Gemini app, turns text or images into 30‑second songs with vocals and lyrics Automatic lyric generation, better control over style, vocals, tempo, and more coherent, complex arrangements https://blog.google/innovation-and-ai/products/gemini-app/lyria-3/"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates ZeroClaw local agent in Rust https://www.youtube.com/watch?v=wctPAKyr0xw",
+      "text": "AI Updates ZeroClaw local agent in Rust https://www.youtube.com/watch?v=wctPAKyr0xw Runs on less than 5MB of RAM Near instant startup time Setup - clone GitHub repo, configure API key No GUI - only terminal interface Works like OpenClaw, integrates with messaging apps like Telegram, Discord, and WhatsApp IronClaw - in Rust, more secure than OpenClaw https://www.youtube.com/watch?v=6TopUr9huiw Written in Rust for memory safety Uses web assembly sandboxes to isolate tools Stores credentials in encrypted vaults that the AI never accesses Implements policy enforcement with audit trails"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates Why AI generate Garbage Code -",
+      "text": "AI Updates Why AI generate Garbage Code - and How to Fix It https://www.youtube.com/watch?v=7oRBHxMvWxQ Vicious cycle: AI produces large volumes of low-quality code that increases complexity, eventually slowing down development and leading to more errors To combat this, Bereznitsky proposes the following process: Research - scan the codebase to identify only relevant files Create architectural diagrams (C4, sequence, data flow) before writing any code Break the task into verifiable phases with clear quality criteria Implementation using a \"team\" of agents (including specialized roles for security, testing, and architecture review to validate the code against established standards India announced three (3) domestically-built models Sorum AI introduced two MoE models (30B & 105B params) optimized for 22 Indian languages and efficient enough to run on low-end devices. The government also unveiled Bhajan Pram 2, a 17B params  multimodal model for public sector use. Like DeepSeek's impact on assumptions about frontier AI development, India is demonstrating that sovereign AI development can serve 1.4 billion people largely ignored by global models, particularly through voice-first interfaces in regional languages. VoiceBox Open-source local-first AI voice cloning Powered by Alibaba’s Qwen2-72B It can clone a voice from just 3 sec of audio Stories Editor for multi-track audio production, built-in transcription via Whisper and a REST API for developers Runs entirely on your machine (Mac or Windows), ensuring total data privacy and no API limits https://www.youtube.com/watch?v=woQe90k7g3c"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates Modeling human concept formation, understanding and",
+      "text": "AI Updates Modeling human concept formation, understanding and communication Paper in \"Nature Computational Science\" Researchers introduced CATS-Net , a neural network framework designed to simulate how the human brain creates and uses abstract concepts. The model uses two modules: one to extract low-dimensional mental representations from sensory data and another to perform complex tasks using those concepts . The study found that CATS-Net’s internal \"concept spaces\" closely match actual human neural activity and semantic-control networks. By demonstrating how the brain decouples abstract thought from direct sensory input, this research provides a unified computational bridge between biological cognition and artificial intelligence. This framework helps explain how humans generalize knowledge and offers a path toward developing more flexible, human-like AI systems. https://www.nature.com/articles/s43588-026-00956-4"
+    },
+    {
+      "index": 22,
+      "title": "AI Updates Claude Code Agent Modeling Trading Kris",
+      "text": "AI Updates Claude Code Agent Modeling Trading Kris made an agent to do trading https://www.youtube.com/watch?v=yqr2qoTcMPk Google Builds Self-Learning AI (RL2F) https://www.youtube.com/watch?v=hm9WsUS6UH8 Reinforcement Learning with Language Feedback (RL2F) that enables self-improving AI systems. The new approach combines a teacher-student model structure where during training the teacher provides natural language feedback rather than direct answers. At inference time, the external teacher is removed and the model becomes auto-didactic, alternating between generating solutions, critiquing itself, and refining answers. Testing on mathematical problems showed significant performance improvements, with smaller models nearly matching larger ones through this self-learning capability."
+    },
+    {
+      "index": 23,
+      "title": "AI Updates China leads the humanoid robot revolution",
+      "text": "AI Updates China leads the humanoid robot revolution Chinese-made robots making up nearly 90% of global sales in 2025 https://x.com/China_Amb_India/status/2026235663469986107 Claude Coding in COBOL triggered IBM shares price crash IBM shares dropped 13% ($31 Bln) in a single day triggered by Anthropic’s demo of latest Claude  model's ability to read, analyze, translate, and modernize COBOL code COBOL is a programming language from the 1960s–80s that still powers massive portions of the financial world, including an estimated 95% of ATM transactions in the US Claude’s ability to automate the modernization of this legacy code threatens a major revenue stream for traditional IT service providers. - https://www.youtube.com/watch?v=bna8EpgI2bE"
+    },
+    {
+      "index": 24,
+      "title": "AI Updates GGML.ai (Georgi Gerganov + team) acquired",
+      "text": "AI Updates GGML.ai (Georgi Gerganov + team) acquired by Hugging Face GGML.ai is the team behind the GGML format and llama.cpp, the technology used to run LLMs The core projects remain open source and independent. Their repositories and licenses are not changing, and llama.cpp will continue to be developed in the open with community contributions The idea is to combine Hugging Face’s model hub and Transformers ecosystem with llama.cpp’s highly optimized local inference runtime This creates a stronger foundation for running AI models entirely on local hardware, with better tooling and long‑term maintenance The phrase “local AI’s long‑term home” reflects a bet that many AI workloads will increasingly run locally, and that the HF + GGML/llama.cpp stack will be the main open platform https://ggml.ai https://github.com/ggml-org/ggml https://github.com/ggml-org https://github.com/ggml-org/llama.cpp https://github.com/ggml-org/whisper.cpp Georgi Gerganov David Silver starts Ineffable Intelligence David Silver is DeepMind veteran, best known for leading the AlphaGo and AlphaZero projects, has left Google DeepMind to found a London-based startup called Ineffable Intelligence Goal - building superhuman or “endlessly learning” intelligence using reinforcement learning and world models rather than LLMs Silver is raising ~ $1 Bln in a seed round ($4B valuation) Silver’s stated view is that LLMs are fundamentally limited because they are trained on human-generated text, while agents that learn directly from experience in rich environments can, in principle, discover new knowledge and capabilities beyond what humans have written down. David Silver"
+    },
+    {
+      "index": 25,
+      "title": "AI Updates He Copied Warren Buffett's 'Free' Trap",
+      "text": "AI Updates He Copied Warren Buffett's 'Free' Trap and Made Millions https://www.youtube.com/watch?v=EuXMn67uSME Young Warren Buffett - placed machines in barbershops for free, splitting profits 50-50 and reinvesting earnings to expand Leo used similar approach - offered free water for life in exchange for a $150 refundable deposit for water dispensers, quickly signing up 2,000 families and generating $300,000 in cash flow He used this money to buy stakes in filter and bucket factories and get 80% discounts on jugs The deposits generated enough interest to cover operational costs while creating customer lock-in. Both strategies demonstrate using \"free\" as bait to generate cash flow and leverage, controlling supply chains rather than competing on price, and letting other people's money work for them. Become an AI HACKER https://www.youtube.com/watch?v=_yfiUQSbdPY New job/consulting market - hack AI systems Bug bounties, competitions, AI penetration testing Key techniques include prompt injection attacks, system prompt extraction, and exploiting AI chains to access confidential data"
+    },
+    {
+      "index": 26,
+      "title": "AI Updates Make money by Helping others make",
+      "text": "AI Updates Make money by Helping others make money https://www.youtube.com/watch?v=5PKYfRofUdg 1. Tie your work directly to revenue generation 2. Sell to people who actually have money (businesses rather than consumers) 3. Price based on value created rather than time spent 4. Develop skills that sit close to revenue like sales and marketing In capitalism, market value differs from societal value, which explains why teachers and social workers earn less than finance professionals despite their social importance. Tutorial How to Build an OpenClaw Business https://www.youtube.com/watch?v=nSBKCZQkmYw Nat has created an AI assistant named Felix that has built a profitable business. Nat gave Felix access to various APIs including Vercel, Stripe, and GitHub, then tasked it with creating a product overnight. Felix developed a PDF guide on setting up OpenClaw systems, launched it at felixcraft.ai, and generated over $3,500 in sales within four days. The AI now has its own Twitter account with 2,500 followers and manages nearly $100,000 in cryptocurrency from trading fees. Key technical improvements include a three-layer memory system using QMD indexing, nightly memory consolidation, and separate Telegram group chats for different projects."
+    },
+    {
+      "index": 27,
+      "title": "AI Updates - More (for Next Week) Perplexity",
+      "text": "AI Updates - More (for Next Week) Perplexity Computer for Max User ($200/mo) (autonomous) Microsoft Copilot Tasks (autonomous) Cursor computer-controlling agents (autonomous) MiniMax's new MaxClaw agent (autonomous) Claude Code now supports Remote Control (autonomous) Anthropic's standoff with the Pentagon over AI military use Elon Musk's xAI Pentagon deal for Grok Gemini Nano Banana 2 Mercury 2 by Inception Labs - Diffusion, very fast Qwen3-Coder-Next 80B model Harness Engineering focus ServiceNow launches AI workforce AT&T cuts costs 90% by using multi-agent architecture"
+    },
+    {
+      "index": 28,
+      "title": "Jobs https://trueup.io/layoffs https://layoffs.fyi Tech Layoffs by year (US",
+      "text": "Jobs https://trueup.io/layoffs https://layoffs.fyi Tech Layoffs by year (US only): 30K  in 2026 (as of February 27, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 49,318 people laid off (850 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 29,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 30,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI as a teammate you manage",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates - Feb 27 , 2026 \"AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Harness Engineering is More Important than the Model",
+      "topic": "general",
+      "videoSeconds": 27,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=27s",
+      "slideIndex": 2,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Claude Code vs OpenClaw",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 57,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=57s",
+      "slideIndex": 2,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Claude Code vs OpenClaw",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code vs OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 152,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=152s",
+      "slideIndex": 3,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "You Could've Invented OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 267,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=267s",
+      "slideIndex": 4,
+      "slideTitle": "Claude Code (CC) vs OpenClaw (OC) Why people",
+      "source": "youtube"
+    },
+    {
+      "claim": "Matthew Berman's AI Employee",
+      "topic": "general",
+      "videoSeconds": 330,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=330s",
+      "slideIndex": 4,
+      "slideTitle": "Claude Code (CC) vs OpenClaw (OC) Why people",
+      "source": "youtube"
+    },
+    {
+      "claim": "Liam Ottley - AI Business Models",
+      "topic": "general",
+      "videoSeconds": 429,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=429s",
+      "slideIndex": 5,
+      "slideTitle": "You Could've Invented OpenClaw You Could've Invented OpenClaw",
+      "source": "youtube"
+    },
+    {
+      "claim": "Taalas chips - 17,000 Tok/sec inference",
+      "topic": "infra",
+      "videoSeconds": 497,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=497s",
+      "slideIndex": 6,
+      "slideTitle": "Matthew Berman's AI Employee Matt uses Agents SDK",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chinese AI Firms Distill Anthropic's Claude Models",
+      "topic": "claude",
+      "videoSeconds": 565,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=565s",
+      "slideIndex": 6,
+      "slideTitle": "Matthew Berman's AI Employee Matt uses Agents SDK",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT upgrades: deep research, code blocks",
+      "topic": "openai",
+      "videoSeconds": 596,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=596s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Peter Steinberger Workflow",
+      "topic": "general",
+      "videoSeconds": 616,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=616s",
+      "slideIndex": 8,
+      "slideTitle": "Liam Ottley - AI Business Models Liam Ottley",
+      "source": "youtube"
+    },
+    {
+      "claim": "Example - Create Skills with OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 693,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=693s",
+      "slideIndex": 8,
+      "slideTitle": "Liam Ottley - AI Business Models Liam Ottley",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw on GPT 5.3 Codex via $20/mo Plus plan",
+      "topic": "agents",
+      "videoSeconds": 720,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=720s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Taalas chips - 17,000 Tok/sec inference",
+      "source": "youtube"
+    },
+    {
+      "claim": "Matthew Berman's Custom OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 762,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=762s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates ChatGPT upgrade to its deep research",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw + Qwen 3.5",
+      "topic": "agents",
+      "videoSeconds": 780,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=780s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates ChatGPT upgrade to its deep research",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw + Sonnet 4.6",
+      "topic": "agents",
+      "videoSeconds": 812,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=812s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates Peter Steinberger Workflow https://www.youtube.com/watch?v=m_l9pUKLiXo Two MacBooks",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw + Gemini 3.1 Pro",
+      "topic": "agents",
+      "videoSeconds": 838,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=838s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates OpenClaw + Qwen 3.5 Multimodal (vision),",
+      "source": "youtube"
+    },
+    {
+      "claim": "Oz by Warp - cloud-based AI coding agent platform",
+      "topic": "agents",
+      "videoSeconds": 859,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=859s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates OpenClaw + Qwen 3.5 Multimodal (vision),",
+      "source": "youtube"
+    },
+    {
+      "claim": "Abacus Deep Agent - Secure 'OpenClaw'",
+      "topic": "agents",
+      "videoSeconds": 887,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=887s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates Abacus Deep Agent - Secure 'OpenClaw'",
+      "source": "youtube"
+    },
+    {
+      "claim": "Abacus AI's \"Deep Agent\" can create quality audio",
+      "topic": "agents",
+      "videoSeconds": 931,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=931s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates OpenClaw + Zapier MCP = 8,000",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google restricts Antigravity access for OpenClaw users",
+      "topic": "agents",
+      "videoSeconds": 938,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=938s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates OpenClaw + Zapier MCP = 8,000",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw Update (Mistral Chat + Voice + Memory!)",
+      "topic": "agents",
+      "videoSeconds": 963,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=963s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Three ways to configure OpenClaw https://www.youtube.com/watch?v=yuPRgWnPFfA",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw + Zapier MCP = 8,000 apps",
+      "topic": "agents",
+      "videoSeconds": 981,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=981s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates OpenClaw + GLM 4.7 Flash +",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw - Build Mission Control Dashboard",
+      "topic": "agents",
+      "videoSeconds": 998,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=998s",
+      "slideIndex": 17,
+      "slideTitle": "Run OpenClaw on your Mac Safely Run OpenClaw",
+      "source": "youtube"
+    },
+    {
+      "claim": "Three ways to configure OpenClaw",
+      "topic": "agents",
+      "videoSeconds": 1011,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1011s",
+      "slideIndex": 17,
+      "slideTitle": "Run OpenClaw on your Mac Safely Run OpenClaw",
+      "source": "youtube"
+    },
+    {
+      "claim": "Make OpenClaw more powerful",
+      "topic": "agents",
+      "videoSeconds": 1051,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1051s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates High-value AI skills to be worth",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw + GLM 4.7 Flash + Gemini 3.1 Pro",
+      "topic": "agents",
+      "videoSeconds": 1092,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1092s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates ZeroClaw local agent in Rust https://www.youtube.com/watch?v=wctPAKyr0xw",
+      "source": "youtube"
+    },
+    {
+      "claim": "Openclaw: Mission Control + Agent Teams",
+      "topic": "agents",
+      "videoSeconds": 1111,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1111s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates ZeroClaw local agent in Rust https://www.youtube.com/watch?v=wctPAKyr0xw",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenClaw - save money, grow your X account",
+      "topic": "agents",
+      "videoSeconds": 1128,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1128s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates Why AI generate Garbage Code -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Run OpenClaw on your Mac Safely",
+      "topic": "agents",
+      "videoSeconds": 1148,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1148s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Modeling human concept formation, understanding and",
+      "source": "youtube"
+    },
+    {
+      "claim": "High-value AI skills to be worth $500K/year by 2027",
+      "topic": "general",
+      "videoSeconds": 1260,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1260s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Modeling human concept formation, understanding and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Lyria 3 AI music model",
+      "topic": "general",
+      "videoSeconds": 1295,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1295s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Claude Code Agent Modeling Trading Kris",
+      "source": "youtube"
+    },
+    {
+      "claim": "IronClaw & ZeroClaw - in Rust",
+      "topic": "general",
+      "videoSeconds": 1309,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1309s",
+      "slideIndex": 23,
+      "slideTitle": "AI Updates China leads the humanoid robot revolution",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why AI generate Garbage Code - and How to Fix It",
+      "topic": "general",
+      "videoSeconds": 1330,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1330s",
+      "slideIndex": 23,
+      "slideTitle": "AI Updates China leads the humanoid robot revolution",
+      "source": "youtube"
+    },
+    {
+      "claim": "India announced three (3) domestically-built models",
+      "topic": "general",
+      "videoSeconds": 1374,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1374s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates GGML.ai (Georgi Gerganov + team) acquired",
+      "source": "youtube"
+    },
+    {
+      "claim": "VoiceBox - open-source local-first AI voice cloning",
+      "topic": "open-models",
+      "videoSeconds": 1380,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1380s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates He Copied Warren Buffett's 'Free' Trap",
+      "source": "youtube"
+    },
+    {
+      "claim": "Modeling human concept formation",
+      "topic": "general",
+      "videoSeconds": 1395,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1395s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates He Copied Warren Buffett's 'Free' Trap",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code Agent Modeling Trading",
+      "topic": "agents",
+      "videoSeconds": 1430,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1430s",
+      "slideIndex": 26,
+      "slideTitle": "AI Updates Make money by Helping others make",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Builds Self-Learning AI (RL2F)",
+      "topic": "general",
+      "videoSeconds": 1450,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1450s",
+      "slideIndex": 27,
+      "slideTitle": "AI Updates - More (for Next Week) Perplexity",
+      "source": "youtube"
+    },
+    {
+      "claim": "China leads the humanoid robot revolution",
+      "topic": "general",
+      "videoSeconds": 1474,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1474s",
+      "slideIndex": 27,
+      "slideTitle": "AI Updates - More (for Next Week) Perplexity",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Coding in COBOL triggered IBM shares price crash",
+      "topic": "claude",
+      "videoSeconds": 1493,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1493s",
+      "slideIndex": 28,
+      "slideTitle": "Jobs https://trueup.io/layoffs https://layoffs.fyi Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "GGML.ai bought by Hugging Face",
+      "topic": "open-models",
+      "videoSeconds": 1550,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1550s",
+      "slideIndex": 29,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "David Silver starts Ineffable Intelligence",
+      "topic": "general",
+      "videoSeconds": 1595,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1595s",
+      "slideIndex": 29,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1668,
+      "videoUrl": "https://www.youtube.com/watch?v=d5sHAgQzzo0&t=1668s",
+      "slideIndex": 30,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "2025-01-03-2025-01-03-ai-updates",
+  "date": "2025-01-03",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "ptzrlOS9xxI",
+    "title": "Have you heard these exciting AI news? - January 03, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+    "thumbnail": "https://i.ytimg.com/vi/ptzrlOS9xxI/hqdefault.jpg",
+    "duration": 778
+  },
+  "deck": {
+    "path": "2025/2025-01-03-AI-Updates.pptx",
+    "filename": "2025-01-03-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-01-03-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-01-03-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Large Concept Models",
+      "startSeconds": 23,
+      "label": "00:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Chinese Research",
+      "startSeconds": 101,
+      "label": "01:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI",
+      "startSeconds": 189,
+      "label": "03:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Deep Research",
+      "startSeconds": 238,
+      "label": "03:58",
+      "source": "youtube"
+    },
+    {
+      "title": "RunAI",
+      "startSeconds": 360,
+      "label": "06:00",
+      "source": "youtube"
+    },
+    {
+      "title": "DPS",
+      "startSeconds": 498,
+      "label": "08:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Arena leaderboard",
+      "startSeconds": 652,
+      "label": "10:52",
+      "source": "youtube"
+    },
+    {
+      "title": "AI related jobs",
+      "startSeconds": 728,
+      "label": "12:08",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Large Concept Models - from Meta o1 clone",
+      "text": "Large Concept Models - from Meta o1 clone open-source from China OpenAI \"for-profit\" transition AI Inventions Perplexity Pro, Storm, Google Deep Research Anthropic on building effective AI agents Google AgentSpace - early access Run:ai acquired by Nvidia for $700 Mln AI Updates January 03 , 2024 AI is used to decipher ancient texts AI Teachers in schools in Arizona. Cerebras Trillion Parameter Model Training Alibaba's Qwen QVQ-72B-Preview Deepseek Outpaces OpenAI in Reasoning ByteDance 1.58-bit FLUX - 5x less memory Sonus-1 - new model family from Rubik.ai Crowd-sourced \"Arena\" Leaderboard Growth in AI related jobs 2025 - Year of Snake"
+    },
+    {
+      "index": 2,
+      "title": "Large Concept Models - from Meta Large Concept",
+      "text": "Large Concept Models - from Meta Large Concept Models: Language Modeling in a Sentence Representation Space https://ai.meta.com/research/publications/large-concept-models-language-modeling-in-a-sentence-representation-space/ https://arxiv.org/abs/2412.08821 https://arxiv.org/pdf/2412.08821 https://github.com/facebookresearch/large_concept_model https://www.youtube.com/watch?v=1Z1vKdrmpj4 The Large Concept Model is trained to perform autoregressive sentence prediction in an embedding space. We explore multiple approaches, namely MSE regression, variants of diffusion-based generation, and models operating in a quantized SONAR space. These explorations are performed using 1.6B parameter models and training data in the order of 1.3T tokens. We then scale one architecture to a model size of 7B parameters and training data of about 2.7T tokens. We perform an experimental evaluation on several generative tasks - summarization and a summary expansion. Our model exhibits impressive zero-shot generalization performance to many languages, outperforming existing LLMs of the same size"
+    },
+    {
+      "index": 3,
+      "title": "o1 clone open-source from China Chinese researchers may",
+      "text": "o1 clone open-source from China Chinese researchers may have figured out the technology behind OpenAI’s latest reasoning models - and are making it open source: \"Scaling of Search and Learning: A Roadmap to Reproduce o1 from the Perspective of Reinforcement Learning,\" - https://arxiv.org/abs/2412.14135 - Dec 2024 paper, 51 pages - published by researchers at Fudan University & Shanghai AI Lab The paper proposes a roadmap for recreating OpenAI’s O1 model. The four key components of the roadmap are policy initialization, reward design, search, and learning. This roadmap can be compared the to a 2022 paper from Stanford and Google Research, which proposed a similar approach to developing reasoning models. The key to these \"thinking\" models (like o1) is test-time compute, which allows them to reach PhD-level mathematics and scientific research capabilities. This research paper explains how to reproduce the thinking aspect of these models and aims to open-source it. The irony of OpenAI’s shift from an open-source to a closed-source model. The progress is still being open-sourced, but not by OpenAI - but by Chinese researches. https://www.youtube.com/watch?v=RAw3JJIht24 - video https://www.youtube.com/watch?v=-haWhgmUheA - video The researchers discovered 4 critical elements to how test-time compute works: (1) policy initialization, (2) reward design, (3) search, (4) learning o1 could drive two paradigm shifts in AI SSL => RL (from self-supervised learning toward reinforcement learning) scaling training => scaling training & inference compute The researchers speculate as to how o1 does policy initialization, long text generation capabilities during inference, shaping humanlike reasoning behaviors logically , and self-reflection . The researches also discuss different types of reward design , including outcome reward (OR) and process reward (PRM) . Additionally, they explore different search strategies, including tree search and sequential revisions Finally, they discuss how to make an open-source thinking model and highlight a number of future directions for research."
+    },
+    {
+      "index": 4,
+      "title": "AI Updates 1 OpenAI will transition its for-profit",
+      "text": "AI Updates 1 OpenAI will transition its for-profit arm into a Delaware Public Benefit Corporation (PBC) The existing nonprofit will receive shares in the new PBC This change allows OpenAI to raise capital more easily 2023 AI Inventions https://www.youtube.com/watch?v=IrLJEzUxIs0"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates - 2 AI research tools: Perplexity",
+      "text": "AI Updates - 2 AI research tools: Perplexity Pro, Storm, and Google Deep Research - https://www.youtube.com/watch?v=Rfyq3Mxeyio Storm , a free tool developed by the Stanford team, outperforms both Perplexity Pro and Google Deep Research in coding related research. But Storm can't engage in conversations and answer follow-up questions Google Deep Research is the best overall solution due to its comprehensive research, user-friendly interface, and ability to ask follow-up questions. Perplexity Pro is placed in second place, particularly for its ability to provide fresh data quickly. Anthropic on building effective AI agents discussion bt Matthew Berman https://www.youtube.com/watch?v=0v7TQIh_kes Workflows (predefined) vs Agents . Agentic frameworks - Langchain, Bedrock, Rivet, and Vellum Prompt chaining , (based on expertise, tools, and model type), parallelization (running tasks concurrently) Orchestrator pattern , where a central LLM delegates tasks to worker LLMs Evaluator optimizer pattern , where one LLM generates a response while another provides feedback in a loop Google AgentSpace - early access : https://cloud.google.com/products/agentspace Gemini models, Agents, Notebook LM, multimodal,  connectors, Google cloud, Google quality search, enterprise data - regardless of where it’s hosted."
+    },
+    {
+      "index": 6,
+      "title": "AI Updates - 3 Run:ai - https://www.run.ai -",
+      "text": "AI Updates - 3 Run:ai - https://www.run.ai - an Israeli software company was recently acquired by NVIDIA for $700 Mln. Run:ai has developed a platform to help organizations manage and optimize their AI workloads, especially those that rely heavily on GPUs (Graphics Processing Units) AI is used to decipher ancient texts - burnt Roman scrolls, crumbling cuneiform tablets, etc. https://www.nature.com/articles/d41586-024-04161-z AI Teachers in schools in Arizona. An Arizona charter school will use AI instead of human teachers for two hours a day on academic lessons. The AI will customize lessons in real-time to match each student’s needs. The company has only tested this idea at private schools before but claims it hugely increases student academic success. https://www.techradar.com/computing/artificial-intelligence/ai-educators-are-coming-to-this-school-and-its-part-of-a-trend Alibaba's Qwen QVQ-72B-Preview - an experimental open-source AI model that combines step-by-step analytical capabilities with visual reasoning to solve complex problems in mathematics, physics, and science. QVQ excels at step-by-step reasoning through complex visual problems, particularly in mathematics and physics The model scored a 70.3 on the MMMU benchmark, approaching performance levels of leading closed-source competitors like Claude 3.5 Sonnet It is built upon Qwen's existing VL model, QVQ also demonstrates enhanced capabilities in analyzing images and drawing sophisticated conclusions . https://qwenlm.github.io/blog/qvq-72b-preview/ Cerebras Demonstrates Trillion Parameter Model Training on a Single CS-3 System (instead of thousands of GPUs). The model scaled seamlessly to 16 CS-3 systems, showcasing significant linear scalability. https://cerebras.ai/press-release/cerebras-demonstrates-trillion-parameter-model-training-on-a-single-cs-3-system"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates - 4 Deepseek R1 model Outpaces",
+      "text": "AI Updates - 4 Deepseek R1 model Outpaces OpenAI o1 in Reasoning, Ignites AI Price War Deepseek, a Chinese AI firm, surpasses OpenAI in reasoning tests and sparks price competition with its cost-effective AI models. Deepseek is an open-source focused company Deepseek aims for AGI (Artificial General Intelligence) https://www.chinatalk.media/p/deepseek-ceo-interview-with-chinas ByteDance 1.58-bit FLUX - dramatically reduces the computational demands of state-of-the-art image generation while maintaining output quality. Instead of 8 bit values it uses 3 values (-1,0,+1). Reducing storage by 8x. Requires 5x less computer memory while producing faster generation speeds. https://arxiv.org/html/2412.18653v1 Sonus-1 - new model family from Rubik.ai .. https://sonus.ai/blog/sonus-1 .. https://www.linkedin.com/company/rubiks-ai/ Mini (speed), Air (everyday use), Pro (complex tasks), and Reasoning (advanced problem-solving). Sonus-1 Reasoning excels at math problem-solving, achieving 97% on the GSM-8k benchmark and 91.8% on advanced mathematics tests. In general knowledge tests, the Pro version with Reasoning reaches 90.15% on MMLU, surpassing many leading competitors and nearly matching o1. The system also integrates real-time search capabilities and Flux image generation, allowing for up-to-date info and visual creation within the platform."
+    },
+    {
+      "index": 8,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 187 Total #votes: 2,488,392 Last updated: 2024-12-29 Coding x.ai China x.ai x.ai China China China China China China China China China"
+    },
+    {
+      "index": 9,
+      "title": "Growth in AI related jobs Layoffs - https://layoffs.fyi",
+      "text": "Growth in AI related jobs Layoffs - https://layoffs.fyi ... dramatic increase in AI-related job titles since 2022. With a 200% increase in two years AI impacts senior leadership roles. According to Linkedin, the most significant growth was seen in AI-related C-suite roles, which experienced a staggering 428% increase over two years. During the same period, AI-related VP titles increased by 199%, AI directors by 197%, and AI managers by 174%. https://www.fastcompany.com/91248480/these-4-graphs-show-where-ai-is-already-impacting-jobs"
+    },
+    {
+      "index": 10,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 11,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Large Concept Models - from Meta o1 clone",
+      "source": "youtube"
+    },
+    {
+      "claim": "Large Concept Models",
+      "topic": "general",
+      "videoSeconds": 23,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=23s",
+      "slideIndex": 2,
+      "slideTitle": "Large Concept Models - from Meta Large Concept",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chinese Research",
+      "topic": "general",
+      "videoSeconds": 101,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=101s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates 1 OpenAI will transition its for-profit",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI",
+      "topic": "general",
+      "videoSeconds": 189,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=189s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates - 2 AI research tools: Perplexity",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Deep Research",
+      "topic": "general",
+      "videoSeconds": 238,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=238s",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates - 3 Run:ai - https://www.run.ai -",
+      "source": "youtube"
+    },
+    {
+      "claim": "RunAI",
+      "topic": "general",
+      "videoSeconds": 360,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=360s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates - 4 Deepseek R1 model Outpaces",
+      "source": "youtube"
+    },
+    {
+      "claim": "DPS",
+      "topic": "general",
+      "videoSeconds": 498,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=498s",
+      "slideIndex": 9,
+      "slideTitle": "Growth in AI related jobs Layoffs - https://layoffs.fyi",
+      "source": "youtube"
+    },
+    {
+      "claim": "Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 652,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=652s",
+      "slideIndex": 10,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI related jobs",
+      "topic": "jobs",
+      "videoSeconds": 728,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI&t=728s",
+      "slideIndex": 11,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "o1 clone open-source from China Chinese researchers may",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 3,
+      "slideTitle": "o1 clone open-source from China Chinese researchers may",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 95% CI =",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=ptzrlOS9xxI",
+      "slideIndex": 8,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "slide"
+    }
+  ]
+}

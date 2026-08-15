@@ -1,0 +1,187 @@
+{
+  "id": "2022-10-07-2022-10-07-py2docs",
+  "date": "2022-10-07",
+  "title": "py2docs",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "RaOKGINQxLk",
+    "title": "Generating MS Word, Excel, PPT, and PDF from Python Script",
+    "url": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+    "thumbnail": "https://i.ytimg.com/vi/RaOKGINQxLk/hqdefault.jpg",
+    "duration": 896
+  },
+  "deck": {
+    "path": "2022/py2docs/2022-10-07-py2docs.pptx",
+    "filename": "2022-10-07-py2docs.pptx",
+    "title": "py2docs",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/py2docs/2022-10-07-py2docs.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/py2docs/2022-10-07-py2docs.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Document",
+      "startSeconds": 143,
+      "label": "02:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Insert Paragraph before Method",
+      "startSeconds": 214,
+      "label": "03:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Add a Page Break",
+      "startSeconds": 242,
+      "label": "04:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Create a Table",
+      "startSeconds": 381,
+      "label": "06:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Sentences",
+      "startSeconds": 562,
+      "label": "09:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Add an Image",
+      "startSeconds": 674,
+      "label": "11:14",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Generating Documents from Python MS Word Doc MS",
+      "text": "Generating Documents from Python MS Word Doc MS Excel MS PowerPoint PDF Automate generating documents, reports, invoices Use consistent templates Avoid duplicative work"
+    },
+    {
+      "index": 2,
+      "title": "MS Word Doc 1 # pip install python-docx",
+      "text": "MS Word Doc 1 # pip install python-docx from docx import Document from docx.shared import Inches doc = Document() doc.add_heading(\"My Title\", 0) doc_para = doc.add_paragraph(\"Test1 test1\") doc_para.add_run('\\nSome text').bold = True doc_para.add_run('\\n') doc_para.add_run('\\nmore text').italic = True first_para = doc_para.insert_paragraph_before('more text2') _ = doc.add_picture('path/to/pict.jpg', width=Inches(4.75)) doc.add_page_break() doc.add_heading(\"Heading 2\", 2) doc_para2 = doc.add_paragraph(\"Test2 test2\") doc_para2.add_run('\\nContact us ') doc_para2.add_run('for ') doc_para2.add_run('discounts').bold = True # add a table table = doc.add_table(rows=1, cols=4) hdr_cells = table.rows[0].cells hdr_cells[0].text = 'Qty' hdr_cells[1].text = 'Id' hdr_cells[2].text = 'Desc' hdr_cells[3].text = 'Price' # records is a list of tuples for qty, id, desc, price in records: row_cells = table.add_row().cells row_cells[0].text = str(qty) row_cells[1].text = id row_cells[2].text = desc row_cells[3].text = str(price) doc.save('test.docx')"
+    },
+    {
+      "index": 3,
+      "title": "MS Excel 2 \"\"\" # test_excel_1_simple.py # writes",
+      "text": "MS Excel 2 \"\"\" # test_excel_1_simple.py # writes into files/simple.xlsx # using pandas.ExcelWriter() # puts data and a chart \"\"\" import os, sys import pandas as pd import xlsxwriter df = pd.DataFrame([10, 20, 30, 20, 15, 30, 45]) fname = \"files/simple.xlsx\" writer = pd.ExcelWriter(fname, engine='xlsxwriter') mysheet = 'test1' df.to_excel(writer, sheet_name=mysheet) workbook  = writer.book worksheet = writer.sheets[mysheet] chart = workbook.add_chart({'type': 'column'}) chart.add_series({'values': '='+mysheet+'!$B$2:$B$8'}) worksheet.insert_chart('D2', chart) writer.save()"
+    },
+    {
+      "index": 4,
+      "title": "MS PowerPoint 3 # pip install python-pptx from",
+      "text": "MS PowerPoint 3 # pip install python-pptx from pptx import Presentation root = Presentation() first_slide_layout = root.slide_layouts[0] slide = root.slides.add_slide(first_slide_layout) slide.shapes.title.text = \"Your Presentation\" slide.placeholders[1].text = \"Creating pptx file\" root.save(\"output.pptx\")"
+    },
+    {
+      "index": 5,
+      "title": "PDF 4 https://pyfpdf.readthedocs.io/en/latest/index.html # pip install fpdf from",
+      "text": "PDF 4 https://pyfpdf.readthedocs.io/en/latest/index.html # pip install fpdf from fpdf import FPDF pdf = FPDF() pdf.add_page() pdf.set_font('Arial', 'B', 16) pdf.cell(40, 10, 'Hello World!') pdf.output('files/junk1.pdf', 'F')"
+    },
+    {
+      "index": 6,
+      "title": "PDF - Header, footer, page break and image",
+      "text": "PDF - Header, footer, page break and image 4 https://pyfpdf.readthedocs.io/en/latest/index.html from fpdf import FPDF # -------------------------------------------------------------- class PDF(FPDF): def header(self): self.image('files/mylogo.png', 10, 8, 33)   # Logo self.set_font('Arial', 'B', 15)             # Arial bold 15 self.cell(80)                               # Move to the right self.cell(30, 10, 'Title', 1, 0, 'C')       # Title self.ln(20)                                 # Line break def footer(self): self.set_y(-15)                 # Position at 1.5 cm from bottom self.set_font('Arial', 'I', 8)  # Arial italic 8 # Page number self.cell(0, 10, 'Page ' + str(self.page_no()) + '/{nb}', 0, 0, 'C') # -------------------------------------------------------------- pdf = PDF() pdf.alias_nb_pages() pdf.add_page() pdf.set_font('Times', '', 12) for i in range(1, 41): pdf.cell(0, 10, 'Printing line number ' + str(i), 0, 1) pdf.output('files/junk2.pdf', 'F')"
+    },
+    {
+      "index": 7,
+      "title": "PDF - Line breaks and colors 4 from",
+      "text": "PDF - Line breaks and colors 4 from fpdf import FPDF title = '20000 Leagues Under the Seas' class PDF(FPDF): def header(self): self.set_font('Arial', 'B', 15) w = self.get_string_width(title) + 6 self.set_x((210 - w) / 2) self.set_draw_color(0, 80, 180) self.set_fill_color(230, 230, 0) self.set_text_color(220, 50, 50) self.set_line_width(1) self.cell(w, 9, title, 1, 1, 'C', 1) self.ln(10)   # line break def footer(self): self.set_y(-15)         # Position at 1.5 cm from bottom self.set_font('Arial', 'I', 8) self.set_text_color(128) self.cell(0, 10, 'Page ' + str(self.page_no()), 0, 0, 'C') def chapter_title(self, num, label): self.set_font('Arial', '', 12) self.set_fill_color(200, 220, 255) self.cell(0, 6, 'Chapter %d : %s' % (num, label), 0, 1, 'L', 1) self.ln(4)   # Line break def chapter_body(self): txt = \"\" for ii in range(40): txt += f\"text line {ii}\\n\" self.set_font('Times', '', 12) self.multi_cell(0, 5, txt)         # Read text file self.ln()         # Line break self.set_font('', 'I') self.cell(0, 5, '(end of excerpt)') def print_chapter(self, num, title): self.add_page() self.chapter_title(num, title) self.chapter_body() pdf = PDF() pdf.set_title(title) pdf.set_author('Jules Verne') pdf.print_chapter(1, 'A RUNAWAY REEF') pdf.print_chapter(2, 'THE PROS AND CONS') pdf.output('files/junk3.pdf', 'F') https://pyfpdf.readthedocs.io/en/latest/index.html"
+    },
+    {
+      "index": 8,
+      "title": "PDF - Templates 4 from fpdf import Template",
+      "text": "PDF - Templates 4 from fpdf import Template # define the elements that will compose the template elements = [ {'name': 'company_logo', 'type': 'I', 'x1': 20.0, 'y1': 17.0, 'x2': 78.0, 'y2': 30.0, 'font': None, 'size': 0.0, 'bold': 0, 'italic': 0, 'underline': 0, 'foreground': 0, 'background': 0, 'align': 'I', 'text': 'logo', 'priority': 2, }, {'name': 'company_name', 'type': 'T', 'x1': 17.0, 'y1': 32.5, 'x2': 115.0, 'y2': 37.5, 'font': 'Arial', 'size': 12.0, 'bold': 1, 'italic': 0, 'underline': 0, 'foreground': 0, 'background': 0, 'align': 'I', 'text': '', 'priority': 2, }, {'name': 'box', 'type': 'B', 'x1': 15.0, 'y1': 15.0, 'x2': 185.0, 'y2': 260.0, 'font': 'Arial', 'size': 0.0, 'bold': 0, 'italic': 0, 'underline': 0, 'foreground': 0, 'background': 0, 'align': 'I', 'text': None, 'priority': 0, }, {'name': 'box_x', 'type': 'B', 'x1': 95.0, 'y1': 15.0, 'x2': 105.0, 'y2': 25.0, 'font': 'Arial', 'size': 0.0, 'bold': 1, 'italic': 0, 'underline': 0, 'foreground': 0, 'background': 0, 'align': 'I', 'text': None, 'priority': 2, }, {'name': 'line1', 'type': 'L', 'x1': 100.0, 'y1': 25.0, 'x2': 100.0, 'y2': 57.0, 'font': 'Arial', 'size': 0, 'bold': 0, 'italic': 0, 'underline': 0, 'foreground': 0, 'background': 0, 'align': 'I', 'text': None, 'priority': 3, }, {'name': 'barcode', 'type': 'BC', 'x1': 20.0, 'y1': 246.5, 'x2': 140.0, 'y2': 254.0, 'font': 'Interleaved 2of5 NT', 'size': 0.75, 'bold': 0, 'italic': 0, 'underline': 0, 'foreground': 0, 'background': 0, 'align': 'I', 'text': '200000000001000159053338016581200810081', 'priority': 3, }, ] # instantiate the template and define the HEADER f = Template(format=\"A4\", elements=elements, title=\"Sample Invoice\") f.add_page() # fill some of the fields of the template with the information we want # note: we access the elements treating the template instance as a \"dict\" f[\"company_name\"] = \"Sample Company\" f[\"company_logo\"] = \"files/mylogo.png\" # and now we render the page f.render(\"files/junbk4.pdf\") https://pyfpdf.readthedocs.io/en/latest/Templates/index.html"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Generating Documents from Python MS Word Doc MS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Document",
+      "topic": "general",
+      "videoSeconds": 143,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=143s",
+      "slideIndex": 2,
+      "slideTitle": "MS Word Doc 1 # pip install python-docx",
+      "source": "youtube"
+    },
+    {
+      "claim": "Insert Paragraph before Method",
+      "topic": "general",
+      "videoSeconds": 214,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=214s",
+      "slideIndex": 3,
+      "slideTitle": "MS Excel 2 \"\"\" # test_excel_1_simple.py # writes",
+      "source": "youtube"
+    },
+    {
+      "claim": "Add a Page Break",
+      "topic": "general",
+      "videoSeconds": 242,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=242s",
+      "slideIndex": 5,
+      "slideTitle": "PDF 4 https://pyfpdf.readthedocs.io/en/latest/index.html # pip install fpdf from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Create a Table",
+      "topic": "general",
+      "videoSeconds": 381,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=381s",
+      "slideIndex": 6,
+      "slideTitle": "PDF - Header, footer, page break and image",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sentences",
+      "topic": "general",
+      "videoSeconds": 562,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=562s",
+      "slideIndex": 7,
+      "slideTitle": "PDF - Line breaks and colors 4 from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Add an Image",
+      "topic": "general",
+      "videoSeconds": 674,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk&t=674s",
+      "slideIndex": 8,
+      "slideTitle": "PDF - Templates 4 from fpdf import Template",
+      "source": "youtube"
+    },
+    {
+      "claim": "MS PowerPoint 3 # pip install python-pptx from",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RaOKGINQxLk",
+      "slideIndex": 4,
+      "slideTitle": "MS PowerPoint 3 # pip install python-pptx from",
+      "source": "slide"
+    }
+  ]
+}

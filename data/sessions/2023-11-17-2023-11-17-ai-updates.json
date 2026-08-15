@@ -1,0 +1,305 @@
+{
+  "id": "2023-11-17-2023-11-17-ai-updates",
+  "date": "2023-11-17",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "open-models",
+    "benchmarks",
+    "infra",
+    "fine-tuning",
+    "openai",
+    "rag",
+    "multimodal",
+    "google",
+    "agents"
+  ],
+  "video": {
+    "id": "SXXWuiEfvpk",
+    "title": "AI Updates - November 17, 2023 - 01.ai, OpenAI GPTs, X.ai Grok in Rust, Ollama and Gradio, NeurIPS",
+    "url": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+    "thumbnail": "https://i.ytimg.com/vi/SXXWuiEfvpk/hqdefault.jpg",
+    "duration": 1868
+  },
+  "deck": {
+    "path": "2023/2023-11-17-AI-Updates.pptx",
+    "filename": "2023-11-17-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-11-17-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-11-17-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates November 17, 2023 HuggingFace LLM Leaderboard",
+      "text": "AI Updates November 17, 2023 HuggingFace LLM Leaderboard Kai-Fu Lee - China OpenAI equivalent, 01.ai models Amazon 'Olympus', Samsung \"Gauss\" A fierce battle for AI talent PixArt - transformer based diffusion (text-to-image) How to create a Great dataset for training OpenAI GPTs ULTRA: Models for Knowledge Graph Reasoning X.ai Grok written in Rust HelixNet (actor + critic + regenerator) Ollama and Gradio for local chat Weights & Biases, Model's files, PyTorch tutorials RAG Best Practices DeepMind: Effective Prompt Seeds NIPS = NeurIPS, Conferences, Kagle, HugginFace, Famous People Rust, JAX vs PyTorch etc. etc."
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Rank Model Aver Precision Nparam 0 01-ai/Yi-34B     (Yi, from 01.ai) 68.68 16bit 34 1 MayaPH/GodziLLa2-70B (llama) 67.01 16bit 70 2 sequelbox/StellarBright (llama) 66.98 16bit 70 27 OpenBuddy/openbuddy-falcon-180b-v13-preview0 64.30 8bit 178.64 48 OpenBuddy/openbuddy-falcon-180b-v12-preview0 60.54 4bit 178.64 57 tiiuae/falcon-180B 59.10 8bit 179.52 95 migtissera/SynthIA-7B-v1.3             (mistral) 57.11 16bit 7 104 bhenrym14/mistral-7b-platypus-fp16 (mistral) 56.89 16bit 7 110 yulan-team/YuLan-Chat-2-13b-fp16 (llama) 56.36 16bit 13 138 meta-llama/Llama-2-70b-chat-hf (llama) 54.98 16bit 70 153 Open-Orca/Mistral-7B-OpenOrca (mistral) 54.51 16bit 7 221 Undi95/Mistral-11B-TestBench9 (mistral) 53.06 16bit 11 299 Enno-Ai/vigogne2-enno-13b-sft-lora-4bit (llama) 51.79 4bit 13 421 mistralai/Mistral-7B-v0.1 (mistral) 50.32 16bit 7 844 davzoku/cria-llama2-7b-v1.3_peft (llama) 44.74 4bit 7 1594 huashiyiqike/testmodel 24.04 16bit 0.15 Three More Tests (4 -> 7): ARC (AI2 Reasoning Challenge) grade-school science HellaSwag - common sense inference MMLU - math, history, comp-science, law, ... TruthfulQA - model's propensity to reproduce common falsehoods Winogrande - large version of Winograd test ( https://arxiv.org/abs/1907.10641 ), an adversarial and difficult test for commonsense reasoning GSM8k - diverse grade school math word problems DROP - English reading comprehension (Discrete Reasoning Over Paragraphs) Top model is only 34B parameters !"
+    },
+    {
+      "index": 4,
+      "title": "Kai-Fu Lee - the venture capitalist and computer",
+      "text": "Kai-Fu Lee - the venture capitalist and computer scientist wants to create an OpenAI equivalent for China Kai-Fu Lee AI Expert, Beijing, China Columbia University (BSc) Carnegie Mellon University (PhD) Apple, SGI, Microsoft, Google, former President of Google China, CEO of Sinovation Ventures ($2B+) https://www.linkedin.com/in/kaifulee/ https://en.wikipedia.org/wiki/Kai-Fu_Lee Kai-Fu Lee has started 01.ai in March 2023 with mission to make better AI accessible to more people. The startup’s ultimate goal, according to Lee, is to become an ecosystem where outside developers can build applications easily. The company quickly grew to 100+ people and is valued at $1 Bln https://techcrunch.com/2023/11/05/valued-at-1b-kai-fu-lees-llm-startup-unveils-open-source-model/ Their first 34B model released in Nov 2023 tops the  Huggingface Open Source LLM Leaderboard outperforming much bigger models https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://01.ai - original 6B and 34B models - open-source, PyTorch https://github.com/01-ai/Yi https://www.modelscope.cn/models/01ai/Yi-34B/summary The Yi series models are large language models trained from scratch by developers at 01.ai The first public release contains two bilingual (English/Chinese) base models with the parameter sizes of 6B and 34B. Both of them are trained with 4K sequence length and can be extended to 32K during inference time News 2023/11/05: The base model of Yi-6B-200K and Yi-34B-200K with 200K context length . 2018 2021"
+    },
+    {
+      "index": 5,
+      "title": "Amazon is training a massive 2 Trillion params",
+      "text": "Amazon is training a massive 2 Trillion params LLM 'Olympus' to rival OpenAI. Planning to use it in Alexa speakers and online platform. The project is led by former head of Alexa Rohit Prasad, now Amazon's head scientist for AGI. Its previous LLM ‘Titan’ was delayed following ChatGPT’s impressive launch. Misc Samsung releases new \" Gauss \" LLM+Coding+txt2images AI Copilots Are 'Redefining' Sales And Service Jobs, Says Salesforce AI's CEO AI negotiates legal contract without humans involved for first time Mika is the world's first AI CEO at Dictador, a Polish alcohol-beverage company YouTube - testing Generative AI Features - a conversational tool for asking questions about content and getting recommendations and summarizing comment topics PixArt - transformer based diffusion model that is 90% cheaper to train than UNet based models. It uses T5 text encodings, cross attention, and a diffusion transformer to great results at a fraction of the compute cost RAG advanced technique - Small-to-big retrieval Retrieve small chunk, then retrieve bigger chunk around it. https://towardsdatascience.com/advanced-rag-01-small-to-big-retrieval-172181b396d4 NeurIPS 2023 - Dec 10-16 37th Conference on Neural Information Processing Systems"
+    },
+    {
+      "index": 6,
+      "title": "Misc - 2 vLLM + AutoAWQ: Fastest Way",
+      "text": "Misc - 2 vLLM + AutoAWQ: Fastest Way To Serve LLMs https://blog.devgenius.io/vllm-autoawq-fastest-way-to-serve-llms-973c8176c80a serving Llama-7B-V2 with AutoAWQ using Nvidia’s Triton server OpenAI and Google are locked in a fierce battle for AI talent OpenAI's recruiters are focused on luring senior AI talent at Google working on models like Gemini. Offer $5-10 Mln/year, mostly in stock. Note - OpenAI nears completion of a major employee stock sale that could triple its valuation OpenAI has also given raises to some junior employees due to market conditions Google has also recently poached some high-profile researchers from OpenAI, in part by offering higher salaries New AI chip projects, including Microsoft’s \"Athena\" and AMD’s MI300X, could provide hardware advantages to OpenAI versus Google's TPUs Google SGE (Search Generative Experience) and translation updates Nvidia RTX 4070, 4080, 4090 are being discontinued. 4090 Ti is rumored to be cancelled. Instead we should expect the \"Super\" over-clocked options ROCm (Radeon Open Compute platform) allows to use CUDA+Python on AMD GPUs with latest Radeon Architecture \"RDNA-3\". https://www.tomshardware.com/news/amd-enables-rocm-and-pytorch-on-radeon-rx-7900-xtx An updated ROCm 5.7.1 driver for Ubuntu Linux brings PyTorch 2.0.1 support for \"RDNA-3\" based Radeon Pro W7900 (48GB) and Radeon RX 7900 XTX (24GB) graphics cards. AMD ROCm is an open-source software platform  giving you tools to port CUDA-based code to AMD native open-source HIP (Heterogeneous Computing Interface for Portability) . HIP is ROCm's C++ dialect designed to ease conversion of CUDA applications to portable C++ code. AMD cards are cheaper than Nvidia. A startup \"Tinygrad\" is planning to sell AI workstations (called \"tinybox\") with six RX 7900 XTX cards for $15K."
+    },
+    {
+      "index": 7,
+      "title": "Misc - 3 Textbooks Are All You Need",
+      "text": "Misc - 3 Textbooks Are All You Need - Microsoft Research, 2023 https://arxiv.org/abs/2306.11644 We introduce phi-1, a new LLM for code with 1.3B parameters, trained for 4 days on 8 A100s, using a selection of “textbook quality” data from the web (6B tokens) and synthetically generated textbooks and exercises with GPT-3.5 (1B tokens). Note (Nov 15) - MSFT announced Phi-2 - smaller and better Microsoft AI chips: GPU - Azure Maia 100 (a.k.a. Athena or M100) CPU - Cobalt 100 - 128-core Arm lower power Finetuning Llama 2 and Mistral - A beginner’s guide to finetuning SOTA LLMs with QLoRA https://medium.com/@geronimo7/finetuning-llama2-mistral-945f9c200611 Analogical Prompting - New Prompting Approach From DeepMind https://cobusgreyling.medium.com/a-new-prompting-approach-from-deepmind-called-analogical-prompting-1cd7daa8126d Idea is to instruct LLM to: - Recall relevant problems and solutions: - Solve the initial Problem - Provide a tutorial ReAct Prompt Engineering (Reason + Act - two agents) https://medium.com/@bryan.mckenney/teaching-llms-to-think-and-act-react-prompt-engineering-eef278555a2e Meta - Emu Video and Emu Edit (not open-sourced yet) https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/ https://emu-edit.metademolab.com https://emu-edit.metademolab.com/assets/emu_edit.pdf"
+    },
+    {
+      "index": 8,
+      "title": "PixArt-α is an open-source Text-to-Image (T2I) transformer-based diffusion",
+      "text": "PixArt-α is an open-source Text-to-Image (T2I) transformer-based diffusion model . It has only 0.6B parameters, and takes x10 less training time: (675 vs. 6,250 A100 GPU days), ($26K vs $320K) Its image generation quality is competitive with state-of-the-art image generators (e.g., Imagen, SDXL, and even Midjourney) Three distinct training steps that separately optimize pixel dependency , text-image alignment , and image aesthetic quality ; Incorporate cross-attention modules into Diffusion Transformer (DiT) to inject text conditions and streamline the computation intensive class-condition branch; High-informative data : We emphasize the significance of concept density in text-image pairs and use a large Vision-Language model to auto-label dense pseudo-captions to assist text-image alignment learning. Work done at Huawei Noah's Ark Lab in Montreal, Canada https://pixart-alpha.github.io https://github.com/PixArt-alpha/PixArt-alpha https://huggingface.co/PixArt-alpha https://www.linkedin.com/pulse/pixart-building-cost-effective-text-imaget2i-model-arjuna-aqa-raxff/ https://www.reddit.com/r/StableDiffusion/comments/179fbb1/pixart%CE%B1_the_performance_of_sdlx_with_fewer/ https://huggingface.co/papers/2310.00426 https://arxiv.org/abs/2310.00426 (paper, 11 authors, October 2023) PIXART-α   Text-to-Image Method Type #Params #Images A100 GPU days DALL·E Diff 12.0B 1.540B GLIDE Diff 5.0B 5.940B LDM Diff 1.4B 0.270B DALL·E 2 Diff 6.5B 5.630B 41,660 SDv1.5 Diff 0.9B 3.160B 6,250 GigaGAN GAN 0.9B 0.980B 4,783 Imagen Diff 3.0B 15.360B 7,132 RAPHAEL Diff 3.0B 5.000B 60,000 PixArt-α Diff 0.6B 0.025B 675 Training Time, Emissions, Cost"
+    },
+    {
+      "index": 9,
+      "title": "PIXART-α Text-to-Image",
+      "text": "PIXART-α   Text-to-Image"
+    },
+    {
+      "index": 10,
+      "title": "Great Dataset ==> Better, Smaller, Cheaper Model Creating",
+      "text": "Great Dataset ==> Better, Smaller, Cheaper Model Creating an instruction dataset to train an LLM Clean and Preprocess - remove duplicates and noise (html tags, incorrect characters, formatting issues);  standardize dates, numbers, etc.; split data into sentences or smaller parts (or combine if needed). Categorize Sentences by topics or themes, identify the underlying intent or purpose of each sentence; Tag (label) sentences (manually or using NLP tools) - sentiment, subject matter, ... Create Instruction Pairs (prompt,answer). Ensure variety of prompts. Quality Checks . Check for biases, inaccuracies, and overall relevance. Test Run using a subset of your dataset, adjust dataset as needed Synthetic Data Generation (fill in gaps, increase diversity of volume in certain areas) Check for Copyright and Privacy compliance Check for Bias and Fairness Use Dataset for Training Format the data to be used for training (jsonl, parquet, ...) Train/validation split Select a Model and LLM Framework Hyperparameter Tuning Evaluate model's performance regularly - and make adjustments Iterative Improvement using feedback loop - continually refine and improve your dataset and training approach"
+    },
+    {
+      "index": 11,
+      "title": "GPTs are a new way for anyone to",
+      "text": "GPTs are a new way for anyone to create a tailored version of ChatGPT  No coding required. And then one can share that \"GPT\" with others. A GPT := name + description + instructions + extra knowledge + skills (web browsing, DALL-E 3, code interpreter) https://artificialcorner.com/openai-just-released-gpts-create-your-own-chatgpt-and-make-money-from-it-no-coding-required-3d17d428389b OpenAI GPTs Name: _______________ Description: _____________________ Instructions: __________________________ Conversation starters: ___________________ Knowledge (Upload files): [____] [____] [____] [____] Capabilities: {x] We Browsing, [x] DALL-E Image Generation,  ..."
+    },
+    {
+      "index": 12,
+      "title": "https://towardsdatascience.com/ultra-foundation-models-for-knowledge-graph-reasoning-9f8f4a0d7f09 https://deepgraphlearning.github.io/project/ultra https://arxiv.org/abs/2310.04562 Foundation models in language and",
+      "text": "https://towardsdatascience.com/ultra-foundation-models-for-knowledge-graph-reasoning-9f8f4a0d7f09 https://deepgraphlearning.github.io/project/ultra https://arxiv.org/abs/2310.04562 Foundation models in language and vision have the ability to run inference on any textual and visual inputs thanks to the transferable representations such as a vocabulary of tokens in language. Knowledge graphs (KGs) have different entity and relation vocabularies that generally do not overlap . The key challenge of designing foundation models on KGs is to learn such transferable representations that enable inference on any graph with arbitrary entity and relation vocabularies. We present ULTRA, an approach for learning universal and transferable graph representations . ULTRA builds relational representations as a function conditioned on their interactions. Such a conditioning strategy allows a pre-trained ULTRA model to inductively generalize to any unseen KG with any relation vocabulary and to be fine-tuned on any graph. Conducting link prediction experiments on 57 different KGs, we find that the zero-shot inductive inference performance of a single pre-trained ULTRA model on unseen graphs of various sizes is often on par or better than strong baselines trained on specific graphs. Fine-tuning further boosts the performance. ULTRA: Foundation Models for Knowledge Graph Reasoning"
+    },
+    {
+      "index": 13,
+      "title": "https://x.ai To create Grok, we built a custom",
+      "text": "https://x.ai To create Grok, we built a custom training and inference stack based on Kubernetes, Rust, and JAX (Just After eXecution - library developed by DeepMind, Google) Rust-based scalable, reliable, and maintainable infrastructure Custom distributed system - maximizes useful compute per watt, handles failures. X.ai announced Grok - Nov 4, 2023 Benchmark Grok-0 (33B) LLaMa 2 70B Inflection-1 GPT-3.5 Grok-1 Palm 2 Claude 2 GPT-4 GSM8k 56.8% 8-shot 56.8% 8-shot 62.9% 8-shot 57.1% 8-shot 62.9% 8-shot 80.7% 8-shot 88.0% 8-shot 92.0% 8-shot MMLU 65.7% 5-shot 68.9% 5-shot 72.7% 5-shot 70.0% 5-shot 73.0% 5-shot 78.0% 5-shot 75.0% 5-shot + CoT 86.4% 5-shot HumanEval 39.7% 0-shot 29.9% 0-shot 35.4% 0-shot 48.1% 0-shot 63.2% 0-shot - 70% 0-shot 67% 0-shot MATH 15.7% 4-shot 13.5% 4-shot 16.0% 4-shot 23.5% 4-shot 23.9% 4-shot 34.6% 4-shot - 42.5% 4-shot import jax import jax.numpy as jnp import numpy as np a = np.linspace(0.0,2.0,10) b = np.zeros((10,20)) jnp_a = jnp.linspace(0.0,2.0,10) jnp_b = jnp.zeros((10,20)) Igor Babuschkin"
+    },
+    {
+      "index": 14,
+      "title": "https://huggingface.co/migtissera/HelixNet HelixNet (actor + critic + regenerator) a",
+      "text": "https://huggingface.co/migtissera/HelixNet HelixNet (actor + critic + regenerator) a Deep Learning architecture consisting of 3 x Mistral-7B LLMs The actor LLM produces an initial response to a given system-context and a question. The critic LLM then takes in as input, a tuple of (system-context, question, response) and provides a critique based on the provided answer to the given system-context and the question. Its job is not to criticize, but to provide an intelligent critique so that the answer can be modified/regenerated to address the question better. Finally, the regenerator LLM takes in a tuple of (system-context, question, response, critique) and regenerates the answer. HelixNet"
+    },
+    {
+      "index": 15,
+      "title": "Ollama Is INSANE: Building Open-Source ChatGPT From Scratch",
+      "text": "Ollama Is INSANE: Building Open-Source ChatGPT From Scratch (FULLY Local) https://www.youtube.com/watch?v=rIRkxZSn-A8 https://gist.github.com/mberman84/a1291cfb08d0a37c3d439028f3bc5f26 Local Chat using Ollama and Gradio"
+    },
+    {
+      "index": 16,
+      "title": "Weights & Biases is a platform and Python",
+      "text": "Weights & Biases is a platform and Python library to run experiments, log artifacts, automate hyperparameter tuning, and evaluate performance. It is free for personal projects: Unlimited Experiments Unlimited Tracked Hours 100 GB storage and artifacts tracking https://wandb.ai/site https://docs.wandb.ai https://docs.wandb.ai/quickstart https://docs.wandb.ai/guides/track/environment-variables WANDB_API_KEY=$YOUR_API_KEY Weights & Biases # Sign up for a free account at https://wandb.ai/site ! pip install wandb wandb.login() run = wandb.init( project=\"my-awesome-project\", config={ \"learning_rate\": 0.01, \"epochs\": 10,} ) for ... in ...: ... wandb.log({\"accuracy\": acc, \"loss\": loss}) # send to server wandb.finish()"
+    },
+    {
+      "index": 17,
+      "title": "mistralai/Mistral-7B-v0.1 on HugginFace: https://huggingface.co/mistralai/Mistral-7B-v0.1/tree/main 9.3G pytorch_model-00001-of-00002.bin 4.7G pytorch_model-00002-of-00002.bin",
+      "text": "mistralai/Mistral-7B-v0.1 on HugginFace: https://huggingface.co/mistralai/Mistral-7B-v0.1/tree/main 9.3G pytorch_model-00001-of-00002.bin 4.7G pytorch_model-00002-of-00002.bin 1.4K  README.md 571B  config.json 116B  generation_config.json 23K  pytorch_model.bin.index.json 72B  special_tokens_map.json 1.7M  tokenizer.json 482K  tokenizer.model 966B  tokenizer_config.json # What is inside the big model files? import torch model = torch.load(' pytorch_model-00001-of-00002.bin ') for kk in sorted(model.keys()): print(kk, type(model[kk]) model.embed_tokens.weight torch.Size([32000, 4096]) model.layers.0.input_layernorm.weight torch.Size([4096]) model.layers.0.mlp.down_proj.weight torch.Size([4096, 14336]) etc. # You can also see the list of all keys # in file pytorch_model.bin.index.json Model Files So the big model files are basically dictionaries containing tensors. The actual code that works with this tensors is under the transformers module: cd ~/miniconda3/lib/ cd python3.11/site-packages/transformers/models ls -1d */ | wc -l # 225 model directories cd llama 2.6K  __ init __. py 9.0K configuration_llama.py 13K convert_llama_weights_to_hf.py 60K modeling_llama.py 22K tokenization_llama.py 13K tokenization_llama_fast.py cd mistral 1.8K  __ init __. py 6.8K configuration_mistral.py 10K convert_mistral_weights_to_hf.py 58K modeling_mistral.py"
+    },
+    {
+      "index": 18,
+      "title": "PyTorch - Tutorials PyTorch - ML framework to",
+      "text": "PyTorch - Tutorials PyTorch - ML framework to work with Neural Networks. PyTorch was open-sourced in 2016 by Facebook. Its basic data structure is a tensor - like Numpy array. But a tensor can store gradient info to be used during back-propagation. PyTorch has many functions to make development of Deep learning models easy. Please look at these tutorials: PyTorch Crash Course https://www.youtube.com/watch?v=OIenNRt2bjg Basic Tutorial: https://github.com/lselector/python_tutorials/blob/master/PyTorch_tutorial.ipynb Translation_Transformer https://github.com/lselector/python_tutorials/blob/master/PyTorch_Translation_Transformer.ipynb"
+    },
+    {
+      "index": 19,
+      "title": "Crafting Knowledgeable AI with Retrieval Augmentation: A Guide",
+      "text": "Crafting Knowledgeable AI with Retrieval Augmentation: A Guide to Best Practices - by Anthony Alcaraz https://ai.plainenglish.io/crafting-knowledgeable-ai-with-retrieval-augmentation-a-guide-to-best-practices-33c84626be1e Re-Ranking is All You Need? - by Fabio Matricardi https://artificialcorner.com/re-ranking-is-all-you-need-7a6b1e586d48 A new Approach: Summarization + Re-Ranking. 1. Summarization - use models like BART or T5 fine-tuned on your data to extract salient points from lengthy retrieved texts We can use more than one model and assign specific tasks to them Use a slim T5 model to pre-process the documents creating a summary and extracting relevant questions Suggested question are presented to the user up-front giving hints on the content of the text 2. Apply a Re-Ranking strategy on the retrieved chunks. You can use LangChain reranking pipeline for that. Use this reordered set of Documents - and inject in a strategic position the Summarization produced by the T5 model. RAG Best Practices How to Re-rank? https://github.com/baaivision/JudgeLM https://huggingface.co/TheBloke/openchat_3.5-GPTQ Extract the generations by Zephyr 7b on the same questions using simple re-ranking and re-ranking with Summary injection Ask OpenChat to be the judge and score with reasoning the 2 models."
+    },
+    {
+      "index": 20,
+      "title": "Large Language Models as Optimizers https://arxiv.org/abs/2309.03409 - paper",
+      "text": "Large Language Models as Optimizers https://arxiv.org/abs/2309.03409 - paper Goal is to find instructions that maximize the task accuracy. Proposing Optimization by PROmpting (OPRO) - an LLM generates new solutions from the prompt that contains previously generated solutions with their values then the new solutions are evaluated and added to the prompt for the next optimization step. Description: https://towardsdatascience.com/new-deepmind-work-unveils-supreme-prompt-seeds-for-language-models-e95fb7f4903c DeepMind’s preprint showed that, without any actual retraining or fine-tuning but just by optimizing prompts, we can make LLMs to work much better, and surely the same holds for other generative AI models. AI systems will be capable of generating highly effective prompts on their own, making manual prompt engineering less necessary. DeepMind: Effective Prompt Seeds Example 1: Prepend the following to the prompt: \" A little bit of arithmetic and a logical approach will help us quickly arrive at the solution to this problem. \" Original prompt: \"Find the linear regression that describes this data.\" Improved prompt: \" A little bit of arithmetic and a logical approach will help us quickly arrive at the solution to this problem. Find the linear regression that describes this data.\" Example 2: Prepend the following to the prompt: \" Analyze the given information, break down the problem into manageable steps, apply suitable mathematical operations, and provide a clear, accurate, and concise solution, ensuring precise rounding if necessary. Consider all variables and carefully consider the problem’s context for an efficient solution. \""
+    },
+    {
+      "index": 21,
+      "title": "Ed Posner, CalTech, First NIPS President, and founder",
+      "text": "Ed Posner, CalTech, First NIPS President, and founder of NIPS foundation Yaser Abu-Mostafa, CalTech NIPS Conference – held every December since 1987 NIPS = Neural Information Processing Systems Renamed as NeurIPS Founded by 3 CalTech scientists https://nips.cc https://papers.nips.cc https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems NIPS = NeurIPS James Bower CalTech, Oregon, Neuroscientist 1987-2000 – in Denver, USA 2001-2010 – in Vancouver, Canada 2011 – Granada, Spain 2012-2013 – Lake Tahoe, US 2014-2015 – Montreal, Canada (2.5K-3.7K participants) 2016 - Barcelona, Spain (5.7K participants) 2017 - Long Beach, California, US (8K+ participants) 2018 - Montréal, Quebec, Canada (12K participants 2019, 2020 - Vancouver, Canada (virtual, 13K, lottery for tickets) 2021 - Virtual 2022, 2023 - New Orleans, US"
+    },
+    {
+      "index": 22,
+      "title": "NIPS = NeurIPS - https://nips.cc/ ICLR = International",
+      "text": "NIPS = NeurIPS - https://nips.cc/ ICLR = International Conference on Learning Representations - https://iclr.cc/ ICMLR = International Conference on Machine Learning in Robotics - IntelliSys - https://saiconference.com/IntelliSys IJCAI = International Joint Conferences on Artificial Intelligence - https://www.ijcai.org/ ICML = International Conference on Machine Learning - https://icml.cc/ UAI = Uncertainty in Artificial Intelligence - http://www.auai.org/ ICAPS = International Conference on Automated Planning and Scheduling - http://www.icaps-conference.org/ ICDM = IEEE International Conference on Data Mining - http://icdm2019.bigke.org/ O'Reilly AI Conference - https://conferences.oreilly.com/artificial-intelligence/ai-ny Open Data Science Conference (ODSC) - https://odsc.com The European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases - https://www.ecmlpkdd2019.org/ ICIP = IEEE International Conference on Image Processing - http://2019.ieeeicip.org/ CoRL = Conference on Robot Learning - https://www.robot-learning.org/ AI & Big Data Expo - https://www.ai-expo.net/northamerica/ AAAI Conference on AI (AAAI = Association for the Advancement of Artificial Intelligence) - https://aaai.org/Conferences/AAAI-20/ CVPR = Conference on Computer Vision and Pattern Recognition - http://cvpr2020.thecvf.com/ - http://www.wikicfp.com/cfp/program?id=628 Some Conferences / Events"
+    },
+    {
+      "index": 23,
+      "title": "Kaggle world's largest community of data scientists and",
+      "text": "Kaggle world's largest community of data scientists and machine learners - since 2010 - acquired by Google in 2017 - more than 1 million registered users - Kaggle Competitions - Public Datasets - Kaggle Kernels (Jupyter notebooks, code snippets) Note: Famous Netflix competition of 2009 was before Kaggle. Netflix provided a training data set of 100,480,507 ratings that 480,189 users gave to 17,770 movies. Task was to improve recommendation engine. Prize – 1 Mln $"
+    },
+    {
+      "index": 24,
+      "title": "Hugging Face Hugging Face is a platform for",
+      "text": "Hugging Face Hugging Face is a platform for machine learning (ML) technologies. It provides tools for building, training, and deploying ML models using open source code. Hugging Face was launched in 2016 and is based in New York City. 20 Jay St Ste 620, Brooklyn, New York, 11201 Original product - a chatbot app for teenagers . It was open-sourced. Then the company pivoted to being a platform for ML. Hugging Face raised $40M in Series B in 2021 In 2022 it was valued at $2Bln - and received $100M in Series C funding In August 2023 raised $235M at $4.5Bln valuation Key people: Clément Delangue (CEO), Julien Chaumond (CTO), Thomas Wolf (CSO) Hugging Face is a community and data science platform for AI experts and enthusiasts. It allows users to host their own AI models, train them, and collaborate with their team. Hugging Face also provides libraries and tools for natural language processing (NLP) tasks. Hugging Face 's goal is to democratize machine learning. It makes money by charging for features such as access to computing power and higher levels of customer support. Hugging Face currently has 10,000 paying customers . https://en.wikipedia.org/wiki/Hugging_Face Main products - transformers, datasets, spaces, LLMs Revenue $15M in 2022, estimated $30-50M in 2023 160 employees (2023)  (per employee: $0.3M revenue, $30M value) https://huggingface.co"
+    },
+    {
+      "index": 25,
+      "title": "backpropagation algorithm in the 1970s by Geoff Hinton,",
+      "text": "backpropagation algorithm in the 1970s by Geoff Hinton, David Rumelhart, and Ronald Williams CNN - Convolutional Neural Network - in the 1980s by Yann LeCun (image recognition) LSTM - long short-term memory - in the 1990s by Sepp Hochreiter and Jürgen Schmidhuber - gated RNN AlexNet in 2012 by Alex Krizhevsky, Ilya Sutskever, and Geoffrey E. Hinton - using GPU for CNN VGGNet in 2014 by Karen Simonyan and Andrew Zisserman - CNN GoogleNet in 2014 - CNN, Google, many authors - inception modules ResNet in 2015 - CNN, many authors Attention, Transformer - 2016, 2017 - Google team. Google Translate. GAN - Generative Adversarial Network - 2014 by Ian Goodfellow et al, generate realistic images Diffusion models in 2020 - generate high-quality images without the need for adversarial training Most important advancements in deep learning and AI over the last 30 years"
+    },
+    {
+      "index": 26,
+      "title": "Andrew Ng Ray Kurzweil Yann LeCun Geoffrey Hinton",
+      "text": "Andrew Ng Ray Kurzweil Yann LeCun Geoffrey Hinton Yoshua Bengio Ian Goodfellow Sepp Hochreiter Jürgen Schmidhuber Elon Musk Emad Mostaque"
+    },
+    {
+      "index": 27,
+      "title": "Michael I Jordan Andrej K arpathy Vincent Vanhoucke",
+      "text": "Michael I Jordan Andrej K arpathy Vincent Vanhoucke Hugo Larochelle Terry Sejnowski Sebastian Thrun Jeffrey Hawkins David M. Blei Zoubin Ghahramani Adam Coates Pascal Lamblin Ruslan Salakhutdinov John Schulman Richard Socher Alex Wiltschko Tomas Mikolov Alex Graves Marc'Aurelio Ranzato Shubho Sengupta James D. McCaffrey"
+    },
+    {
+      "index": 28,
+      "title": "X.ai uses Rust Microsoft invests $10-s of Millions",
+      "text": "X.ai uses Rust Microsoft invests $10-s of Millions into building Rust dev tools Linux kernel - uses Rust for device drivers and other kernel modules OpenAI uses Rust for developing and deploying ML models, training pipelines & model serving systems; Burn library to deploy models to web browsers; OpenAI Gym toolkit for developing and testing Reinforcement Learning algorithms; OpenAI Whisper speech-to-text model is written in Rust Enthropic uses Rust for performance-critical components of real-time infrastructure - data streaming pipeline and some of the backend services Meta uses Rust as a server-side programming language (along with C++, Python, and Hack) Rust Language - for AI Google - using JAX instead of TensorFlow. TF is gone 01.ai - uses PyTorch Mistral - uses PyTorch"
+    },
+    {
+      "index": 29,
+      "title": "Both are open-source libraries for doing array and",
+      "text": "Both are open-source libraries for doing array and matrix calculations in Machine Learning and Deep Learning Both can run using GPU or TPU Both support constructing of neural networks , gradient descent , autograd (automatic differentiation) for making back propagation calculations PyTorch is developed by Meta AI (2016, in C++ with Python) https://pytorch.org JAX is developed by Google (2018, in C++, Rust, Python) as a substitute to TensorFlow - https://github.com/google/jax Both can use XLA (Accelerated Linear Algebra) JAX uses Numpy arrays, PyTorch has its own tensor data structures PyTorch uses eager execution (\"Pythonic\" dynamic flexibility), while JAX can run both interactively (slower) and compiled (using JIT compiler) Compiled JAX can be faster and more optimized for some tasks, but PyTorch offers more interactive flexibility. PyTorch is generally easier to use, it is more mature, has larger support ecosystem HuggingFace has support for both PyTorch and JAX Jax vs PyTorch # -------PyTorch on Cuda or TPU import torch import torch.cuda device = torch.cuda.device('cuda:0') # import torch.xla.device # device = torch.xla.device('tpu:0') x = torch.tensor([1, 2, 3], device=device) y = x + 2 print(y) # -------JAX on Cuda or TPU import numpy as np import jax.numpy as jnp import jax devices = jax.local_devices(backend='gpu') # devices = jax.local_devices(backend='tpu') x = np.array([1, 2, 3]) xx = jnp.device_put(x, devices[0]) y = xx + 2 print(y)"
+    },
+    {
+      "index": 30,
+      "title": "Trend - using Multiple Agents. Can A Smarter",
+      "text": "Trend - using Multiple Agents. Can A Smarter Model be Created by Combining Several \"Stupid\" Models? ?"
+    },
+    {
+      "index": 31,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates November 17, 2023 HuggingFace LLM Leaderboard",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates November 17, 2023 HuggingFace LLM Leaderboard",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 3,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "Kai-Fu Lee - the venture capitalist and computer",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 4,
+      "slideTitle": "Kai-Fu Lee - the venture capitalist and computer",
+      "source": "slide"
+    },
+    {
+      "claim": "Amazon is training a massive 2 Trillion params",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 5,
+      "slideTitle": "Amazon is training a massive 2 Trillion params",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc - 2 vLLM + AutoAWQ: Fastest Way",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 6,
+      "slideTitle": "Misc - 2 vLLM + AutoAWQ: Fastest Way",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc - 3 Textbooks Are All You Need",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 7,
+      "slideTitle": "Misc - 3 Textbooks Are All You Need",
+      "source": "slide"
+    },
+    {
+      "claim": "PixArt-α is an open-source Text-to-Image (T2I) transformer-based diffusion",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 8,
+      "slideTitle": "PixArt-α is an open-source Text-to-Image (T2I) transformer-based diffusion",
+      "source": "slide"
+    },
+    {
+      "claim": "PIXART-α Text-to-Image",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 9,
+      "slideTitle": "PIXART-α Text-to-Image",
+      "source": "slide"
+    },
+    {
+      "claim": "Great Dataset ==> Better, Smaller, Cheaper Model Creating",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 10,
+      "slideTitle": "Great Dataset ==> Better, Smaller, Cheaper Model Creating",
+      "source": "slide"
+    },
+    {
+      "claim": "GPTs are a new way for anyone to",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 11,
+      "slideTitle": "GPTs are a new way for anyone to",
+      "source": "slide"
+    },
+    {
+      "claim": "https://towardsdatascience.com/ultra-foundation-models-for-knowledge-graph-reasoning-9f8f4a0d7f09 https://deepgraphlearning.github.io/project/ultra https://arxiv.org/abs/2310.04562 Foundation models in language and",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=SXXWuiEfvpk",
+      "slideIndex": 12,
+      "slideTitle": "https://towardsdatascience.com/ultra-foundation-models-for-knowledge-graph-reasoning-9f8f4a0d7f09 https://deepgraphlearning.github.io/project/ultra https://arxiv.org/abs/2310.04562 Foundation models in language and",
+      "source": "slide"
+    }
+  ]
+}

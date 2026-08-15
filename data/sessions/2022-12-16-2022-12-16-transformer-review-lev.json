@@ -1,0 +1,259 @@
+{
+  "id": "2022-12-16-2022-12-16-transformer-review-lev",
+  "date": "2022-12-16",
+  "title": "Transformer-Review-Lev",
+  "series": "seminar",
+  "topics": [
+    "infra",
+    "rag",
+    "ml-fundamentals",
+    "coding",
+    "openai",
+    "open-models",
+    "general"
+  ],
+  "video": {
+    "id": "RHsyJjKSm4c",
+    "title": "Transformers Overview, BERT, GPT, ChatGPT",
+    "url": "https://www.youtube.com/watch?v=RHsyJjKSm4c",
+    "thumbnail": "https://i.ytimg.com/vi/RHsyJjKSm4c/hqdefault.jpg",
+    "duration": 1931
+  },
+  "deck": {
+    "path": "2022/2022-12-16-Transformer-Review-Lev.pptx",
+    "filename": "2022-12-16-Transformer-Review-Lev.pptx",
+    "title": "Transformer-Review-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-12-16-Transformer-Review-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-12-16-Transformer-Review-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Overview",
+      "startSeconds": 25,
+      "label": "00:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Introduction",
+      "startSeconds": 70,
+      "label": "01:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Review",
+      "startSeconds": 225,
+      "label": "03:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Encoder Decoder",
+      "startSeconds": 263,
+      "label": "04:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Attention Layer",
+      "startSeconds": 480,
+      "label": "08:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Attention Formula",
+      "startSeconds": 595,
+      "label": "09:55",
+      "source": "youtube"
+    },
+    {
+      "title": "FFM",
+      "startSeconds": 880,
+      "label": "14:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Results",
+      "startSeconds": 1092,
+      "label": "18:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Vision Version",
+      "startSeconds": 1270,
+      "label": "21:10",
+      "source": "youtube"
+    },
+    {
+      "title": "How Transformers work",
+      "startSeconds": 1370,
+      "label": "22:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Multilayer Encoding",
+      "startSeconds": 1495,
+      "label": "24:55",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Attention Transformers BERT",
+      "text": "Attention Transformers BERT"
+    },
+    {
+      "index": 2,
+      "title": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s",
+      "text": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation\" (2016) https://arxiv.org/pdf/1609.08144v2.pdf - 31 authors Main ideas: deep LSTM network, 8 encoder and 8 decoder layers parallelism - decreasing training time using Attention and residual connections attention mechanism - connects the bottom layer of the decoder to the top layer of the encoder low-precision arithmetic for inference computations Quoc Le qvl@google.com Past: PhD Student – under Andrew Ng, Stanford http://cs.stanford.edu/~quocle/ Google Translate"
+    },
+    {
+      "index": 3,
+      "title": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words",
+      "text": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words are represented by vectors based not only on the word, but also on its position and neighbours in specific phrase/text. Not just nearest neighbours – but from the whole text! Positionall encoding is done using sin()/cos() functions. We encode words into a list of those vector representations. Then we process this memory of vectors while putting attention on the content of one or few memory element(s), and finaly decode to generate the translated sentence. \"Attention Is All You Need\" (2017) – Google, eight authors .. https://arxiv.org/pdf/1706.03762.pdf .. https://medium.com/data-science-in-your-pocket/attention-is-all-you-need-understanding-with-example-c8d074c37767 Word2Vec (2013) Tomas Mikolov published word2vec in 2013. Typically word2vec maps each word to a vector of ~100 numbers. This mapping is found iteratively (starting with random vectors). The process approximates a word from the words before and after it in text. Similar words would have similar \"neighbours\". Once vectors are found, they represent the meaning of words. SO you can do vector operations with them, for example: V(King) – V(Man) + V(Woman)  ~  V(Queen)"
+    },
+    {
+      "index": 4,
+      "title": "Transformers, BERT BERT (Google 2018): \"Bidirectional Encoder Representations",
+      "text": "Transformers, BERT BERT (Google 2018): \"Bidirectional Encoder Representations from Transformers\" a language representation model designed to pre-train deep bidirectional representations from unlabeled text Bert (Sesame Street) Transformer (Google, 2017): Deep Neural Network for language models replaces sequential models (like RNN,LSTM), allows parallel processing multi-head Attention. encoder: self-attention + Feed-Forward Network decoder: self-attention, attention over encodings, and a feed-forward Network"
+    },
+    {
+      "index": 5,
+      "title": "What is a Transformer Model Very Good NVIDIA",
+      "text": "What is a Transformer Model Very Good NVIDIA article: https://blogs.nvidia.com/blog/2022/03/25/what-is-a-transformer-model/ \"A transformer model is a neural network that learns context and thus meaning by tracking relationships in sequential data like the words in this sentence.\" \"Transformer models apply an evolving set of mathematical techniques, called attention or self-attention , to detect subtle ways even distant data elements in a series influence and depend on each other .\" Short videos (AI Coffee Break with Letiția Pârcălăbescu ): .. https://www.cl.uni-heidelberg.de/nlpgroup/person/parcalabescu .. history - https://www.youtube.com/watch?v=iH-wmtxHunk .. transformers explained: - https://www.youtube.com/watch?v=FWFA4DGuzSc Some videos explaining transformers: .. https://www.youtube.com/watch?v=4Bdc55j80l8 .. https://www.youtube.com/watch?v=TQQlZhbC5ps"
+    },
+    {
+      "index": 6,
+      "title": "RNNs > Transformers > BERT > GPT RNNs",
+      "text": "RNNs > Transformers > BERT > GPT RNNs - vanishing gradient problem Gated RNN (LSTM) + Attention Transformer (Google, 2017) – multi-head attention, encoder/decoder with self-attention and feed-forward network BERT - pre-train deep bidirectional representations from unlabeled text GPT (Generative Pre-trained Transformer) – Open AI, 2018 2019 - GPT-2, 1.5 Billion parameters 2020 - GPT-3, 175 Billion parameters 2022 – GPT-3.5, ChatGPT - Hugging Face - open source NLP models: https://huggingface.co/transformers/ (note: .co, not .com) GPT-3 Language Model 175 Billion Parameters GPT = Generative Pre-trained Transformer Many classes of Deep Learning systems: CNN (Convolutional Neural Network), RNN (Recurrent Neural Network), LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit), GAN (Generative Adversarial Network), Transformers BERT (Bidirectional Encoder Representations from Transformers), GPT-3 ( Generative Pre-trained Transformer ) RL (Reinforcement Learning), and many others. Foundation models (e.g., BERT, GPT-3, CLIP, Codex) are models trained on broad data at scale such that they can be adapted to a wide range of downstream tasks BERT (2018) - NLP GPT-3  (2018-2020) NLP, 175 Bln parameters, Open AI CLIP (Contrastive LanguageImage Pre-training) – Open AI – describe images using text Codex = translates from natural language to software code, Open AI Benefits of Transformers over RNNs/LSTMs: process the entire input all at once (unlike RNNs) this allows for more parallelization (faster training) Benefits of BERT (\"Bidirectional Encoder Representations from Transformers\") faster ( parallel ) training ability to process larger amounts of text ability to use pre-trained models (transfer learning)"
+    },
+    {
+      "index": 7,
+      "title": "Neural Machine Translation Natural Language Processing - short",
+      "text": "Neural Machine Translation Natural Language Processing - short video from Siraj (March 2019) - https://www.youtube.com/watch?v=bDxFvr1gpSU Siraj talks about different language models (terms like Seq2Seq, Attention, Transformer, BERT). Here is a good textual explanation by Maxime Allard: - https://medium.com/inside-machine-learning/what-is-a-transformer-d07dd1fbec04 And here are two \"classical\" papers to know: (2017) Attention Is All You Need - https://arxiv.org/pdf/1706.03762.pdf (2018) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding - https://arxiv.org/pdf/1810.04805.pdf"
+    },
+    {
+      "index": 8,
+      "title": "For tabular data transformers and other Deep Learning",
+      "text": "For tabular data transformers and other Deep Learning Models don't give any advantages in comparison with regular models like XGBoost . Regular XGBoost is better. Here is an interesting recent work doing such a comparisons. .. https://www.youtube.com/watch?v=vHufWWgDYTI The most common models for tabular data are (linear) regression and classification. From trivial OLS (Ordinary Least Squares) linear regression, to more interesting models using Random Forest and XGBoost . Random Forest is easier to start with, stable, gives feature importance. Boosting is usually better in production  (can handle nulls, more accurate, etc.) I personally prefer HistGradientBoosting models – they are essentially the same as XGBoost , but much faster for large number of rows: HistGradientBoostingClassifier HistGradientBoostingRegressor If you need to find a trend to extrapolate into the future, then you can use linear or polynomial regression (quadratic or cubic), or sometimes approximate with one or two exponential functions. Transformers with Tabular Data Transformers-with-Tabular-Data - https://towardsdatascience.com/transformers-for-tabular-data-b3e196fab6f4 - https://medium.com/@tunguz/about-those-transformers-for-tabular-data-116c13c36a5c - https://blog.ml6.eu/transformers-for-tabular-data-hot-or-not-e3000df3ed46 -------------------------------------------------------- .. Multivariate Time Series Forecasting with Transformers - https://towardsdatascience.com/multivariate-time-series-forecasting-with-transformers-384dc6ce989b"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Attention Transformers BERT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Overview",
+      "topic": "general",
+      "videoSeconds": 25,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=25s",
+      "slideIndex": 2,
+      "slideTitle": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 70,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=70s",
+      "slideIndex": 2,
+      "slideTitle": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "Review",
+      "topic": "general",
+      "videoSeconds": 225,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=225s",
+      "slideIndex": 3,
+      "slideTitle": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words",
+      "source": "youtube"
+    },
+    {
+      "claim": "Encoder Decoder",
+      "topic": "general",
+      "videoSeconds": 263,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=263s",
+      "slideIndex": 4,
+      "slideTitle": "Transformers, BERT BERT (Google 2018): \"Bidirectional Encoder Representations",
+      "source": "youtube"
+    },
+    {
+      "claim": "Attention Layer",
+      "topic": "general",
+      "videoSeconds": 480,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=480s",
+      "slideIndex": 4,
+      "slideTitle": "Transformers, BERT BERT (Google 2018): \"Bidirectional Encoder Representations",
+      "source": "youtube"
+    },
+    {
+      "claim": "Attention Formula",
+      "topic": "general",
+      "videoSeconds": 595,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=595s",
+      "slideIndex": 5,
+      "slideTitle": "What is a Transformer Model Very Good NVIDIA",
+      "source": "youtube"
+    },
+    {
+      "claim": "FFM",
+      "topic": "general",
+      "videoSeconds": 880,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=880s",
+      "slideIndex": 5,
+      "slideTitle": "What is a Transformer Model Very Good NVIDIA",
+      "source": "youtube"
+    },
+    {
+      "claim": "Results",
+      "topic": "general",
+      "videoSeconds": 1092,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1092s",
+      "slideIndex": 6,
+      "slideTitle": "RNNs > Transformers > BERT > GPT RNNs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vision Version",
+      "topic": "multimodal",
+      "videoSeconds": 1270,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1270s",
+      "slideIndex": 7,
+      "slideTitle": "Neural Machine Translation Natural Language Processing - short",
+      "source": "youtube"
+    },
+    {
+      "claim": "How Transformers work",
+      "topic": "general",
+      "videoSeconds": 1370,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1370s",
+      "slideIndex": 7,
+      "slideTitle": "Neural Machine Translation Natural Language Processing - short",
+      "source": "youtube"
+    },
+    {
+      "claim": "Multilayer Encoding",
+      "topic": "general",
+      "videoSeconds": 1495,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1495s",
+      "slideIndex": 8,
+      "slideTitle": "For tabular data transformers and other Deep Learning",
+      "source": "youtube"
+    }
+  ]
+}

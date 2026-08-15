@@ -1,0 +1,311 @@
+{
+  "id": "2024-09-06-2024-09-06-ai-updates",
+  "date": "2024-09-06",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "agents",
+    "google",
+    "enterprise",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "6S9cFPF028s",
+    "title": "Have you heard these exciting AI news? - September 06, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=6S9cFPF028s",
+    "thumbnail": "https://i.ytimg.com/vi/6S9cFPF028s/hqdefault.jpg",
+    "duration": 1142
+  },
+  "deck": {
+    "path": "2024/2024-09-06-AI-Updates.pptx",
+    "filename": "2024-09-06-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-09-06-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-09-06-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "SSI funding and leadership",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Reflection Llama 3.1 70B",
+      "startSeconds": 87,
+      "label": "01:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Automated scientific agents",
+      "startSeconds": 185,
+      "label": "03:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Voting systems and logic",
+      "startSeconds": 216,
+      "label": "03:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini restrictions and AI",
+      "startSeconds": 393,
+      "label": "06:33",
+      "source": "youtube"
+    },
+    {
+      "title": "AI in wildfires and costs",
+      "startSeconds": 484,
+      "label": "08:04",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepMind and pipeline workflows",
+      "startSeconds": 550,
+      "label": "09:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Enterprise AI advancements",
+      "startSeconds": 755,
+      "label": "12:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Consulting and hardware updates",
+      "startSeconds": 868,
+      "label": "14:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Top 100 AI industry leaders",
+      "startSeconds": 969,
+      "label": "16:09",
+      "source": "youtube"
+    },
+    {
+      "title": "LLM leaderboard comparison",
+      "startSeconds": 1023,
+      "label": "17:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech layoffs and conclusion",
+      "startSeconds": 1129,
+      "label": "18:49",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Ilya Sutskever has raised $1 Billion for SSI",
+      "text": "Ilya Sutskever has raised $1 Billion for SSI Reflection Llama-3.1 70B ADAS = Automated Design of Agentic Systems Agent as Chief AI Scientist ? Why Democracy Is Mathematically Impossible Google Gemini avoid answering voting questions LLM = Stochastic Parrot AI drones against wildfires Model pricing goes down Google \"Ask Photos\" Build pipelines instead of Agentic workflows Google DeepMind AlphaProteo OpenAI aims to raise \"several billion dollars\" Why not LangChain, LangGraph, LangSmith Claude for Enterprise with 500K context length Anthropic Prompt Generator RAG Best Practices - part 1 Want to become an AI Consultant? Ollama supports multiple AMD GPUs TIME's list of 100 people in AI for 2024 Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Tech Layoffs in 2024 AI Updates September 06 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Ilya Sutskever raised $1 Billion Ilya Sutskever has",
+      "text": "Ilya Sutskever raised $1 Billion Ilya Sutskever has raised $1 Billion for his startup SSI Ilya was one of the original co-founders of OpenAI He has left OpenAI in May 2024 He has founded his new startup SSI on June 19, 2024 SSI = Safe Superintelligence - https://ssi.inc after only three months, SSI has raised $1 Billion in funding, and reached ~ $5 Billion valuation. The funding was led by investment firms Sequoia and Andreessen Horowitz SSI currently has no product. And only 10 people. The money will be used to buy computer resources to develop AI products, and to hire new staff. https://www.inc.com/kit-eaton/openai-co-founder-raises-1-billion-for-new-safe-ai-startup.html Ilya Sutskever            Daniel Gross             Daniel Levy ssi is co-founded by Suskever, former Y Combinator partner Daniel Gross, and Ex-OpenAI engineer Daniel Levy About Ilya: \"imagine being so notoriously hypercompetent at something in a hype cycle that you can create a unicorn just by saying \"guys I have an idea\" with no product or anything.\" https://www.reddit.com/r/singularity/comments/1f8tnxr/exclusive_openai_cofounder_sutskevers_new/"
+    },
+    {
+      "index": 3,
+      "title": "Reflection Llama-3.1 70B Reflection Llama-3.1 70B is the",
+      "text": "Reflection Llama-3.1 70B Reflection Llama-3.1 70B is the world's top open-source LLM. It is trained with a new technique called Reflection-Tuning that teaches a LLM to detect mistakes in its reasoning and correct course. It basically trained to think in steps and do self-reflection. Created by Matt Schumer https://huggingface.co/mattshumer/Reflection-Llama-3.1-70B https://www.youtube.com/watch?v=FPJ8ED1YhxY https://www.youtube.com/watch?v=5_m-kN64Exc https://twitter.com/mattshumer_ https://openreview.net/forum?id=xaqoZZqkPU - paper (2023) reflection tuning https://braintitan.medium.com/smarter-ai-reflection-70b-detects-and-fixes-errors-ee0c355750dd"
+    },
+    {
+      "index": 4,
+      "title": "AI Scientist sakana.ai - The AI Scientist: Towards",
+      "text": "AI Scientist sakana.ai - The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery - writes scientific papers - https://sakana.ai/ai-scientist/ ADAS = Automated Design of Agentic Systems Can The Meta Agent Become The Chief AI Scientist? https://github.com/ShengranHu/ADAS https://arxiv.org/abs/2408.08435 https://www.linkedin.com/feed/update/urn:li:activity:7234161587924733953/ Agent as Chief AI Scientist ?"
+    },
+    {
+      "index": 5,
+      "title": "Why Democracy Is Mathematically Impossible Why Democracy Is",
+      "text": "Why Democracy Is Mathematically Impossible Why Democracy Is Mathematically Impossible https://www.youtube.com/watch?v=qf7ws2DF-zk https://en.wikipedia.org/wiki/First-past-the-post_voting https://en.wikipedia.org/wiki/Preferential_voting https://en.wikipedia.org/wiki/Kenneth_Arrow - Arrow’s impossibility theorem https://en.wikipedia.org/wiki/Social_choice_theory Kenneth Arrow 1921-2017 New York City - Palo Alto, California, U.S. author of the \" impossibility theorem \" and Nobel Prize winner Derek Muller creator of Veritasium , a YouTube channel about science with over 16 Mln subscribers How the strongest candidate can lose: A > B > C,     but A < B+C Locking in Preferential Voting: A < B + C B < C + A C < A + B \"If we exclude the possibility of interpersonal comparisons of utility, then the only methods of passing from individual tastes to social preferences which will be satisfactory and which will be defined for a wide range of sets of individual orderings are either imposed or dictatorial \" - Social Choice and Individual Values, 1951"
+    },
+    {
+      "index": 6,
+      "title": "Google Gemini avoid answering voting questions Google fights",
+      "text": "Google Gemini avoid answering voting questions Google fights election-related misinformation. Restrictions on election-related queries across various AI products, including Gemini, Search AI Overviews, YouTube AI summaries, and image generation. Introducing new features on Search and YouTube to help users find credible voting information. The company is also adding a badge to official government agency apps on Google Play . ... Used Gemini Advanced to help find an old cartoon. It didn't find it on first attempt, and when asked to try again - it returned complete gibberish, thus revealing it's true nature as a stochastic parrot . https://www.linkedin.com/posts/david-makovoz-ph-d_genai-gemini-google-activity-7231142390827229184--cBz/ Google Gemini currently (September 2024) doesn't answer any questions related to voting."
+    },
+    {
+      "index": 7,
+      "title": "Misc 1 AI drones against wildfires - detect,",
+      "text": "Misc 1 AI drones against wildfires - detect, investigate, coordinate https://techxplore.com/news/2024-08-ai-technology-drones-wildfires.html Model pricing goes down : March-August 2024 https://www.deeplearning.ai/the-batch/issue-264/ Below: $/Mln tokens - blended price (4/1 In/Out) Hardware innovations (Groq, Samba Nova, Cerebras, NVIDIA, AMD, Intel, and Qualcomm) will drive further price cuts."
+    },
+    {
+      "index": 8,
+      "title": "Misc 2 Google \"Ask Photos\" - AI-powered search",
+      "text": "Misc 2 Google \"Ask Photos\" - AI-powered search in Google Photos using Gemini AI https://techcrunch.com/2024/09/05/googles-ai-powered-ask-photos-feature-begins-u-s-rollout/ Build pipeline workflows instead of Agentic workflows https://youtu.be/KY8n96Erp5Q?si=S--yoALMdXnFu5kA Google DeepMind AlphaProteo - AI designs custom proteins to bind with specific molecular targets. Potential at blocking viruses,  fighting cancer, treat other diseases (Covid). Some tests has already shown that some AlphaProteo designs could stop SARS-CoV-2 (Covid) from infecting cells. https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/ Why not LangChain, LangGraph, LangSmith : To do changes via diagram - LangSmith ($40/mo per person) Need accounts, pay per trace (trace = 1 run) complex (containers + kubernetes), gets expensive local UI (LangGraph Studio) - only on MacOS OpenAI aims to raise \"several billion dollars\" in a funding round that would value it at above $100 billion (was $86B in 2023). OpenAI planning to release GPT Next, Strawberry, Orion - and charge $2,000 per month subscription fees https://www.pymnts.com/artificial-intelligence-2/2024/report-openai-considers-2000-monthly-subscription-prices-for-new-llms/ Claude for Enterprise with 500K tokens context length https://www.anthropic.com/news/claude-for-enterprise more usage capacity, native GitHub integration, enterprise-grade security features (SSO, role-based permissions, and admin tooling)."
+    },
+    {
+      "index": 9,
+      "title": "Misc 3 Anthropic Prompt Generator to create good",
+      "text": "Misc 3 Anthropic Prompt Generator to create good prompts: https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator https://www.youtube.com/watch?v=luGZBf057fU RAG Best Practices - part 1 - chunking https://www.youtube.com/watch?v=ZNcxMLBEydA $250K/year as AI consultant https://innovatingwithai.com/consultancy/ Ollama supports multiple AMD GPUs https://ollama.com/blog/amd-preview"
+    },
+    {
+      "index": 10,
+      "title": "TIME's list of 100 people in AI for",
+      "text": "TIME's list of 100 people in AI for 2024 Leaders Sundar Pichai, CEO, Google and Alphabet Satya Nadella, CEO, Microsoft Sasha Luccioni, AI & Climate Lead, Hugging Face Sam Altman, CEO, OpenAI Jensen Huang, CEO, Nvidia Rohit Prasad, SVP, Chief Scientist - Artificial General Intelligence, Amazon Cari Tuna, President, Open Philanthropy Zhuang Rongwen, Director, Cyberspace Administration of China Mark Zuckerberg, CEO, Meta Demis Hassabis, CEO and co-founder, Google DeepMind ... Thinkers Ray Kurzweil, Author. Principal Researcher and AI Visionary, Google Ilya Sutskever, Co-founder, Safe Superintelligence Albert Gu, Assistant professor, machine learning, Carnegie Mellon University / co-founder, Cartesia Andrej Karpathy, Founder, Eureka Labs Andrew Yao, Dean, Institute for Interdisciplinary Information Sciences, Tsinghua University Iason Gabriel, Research scientist, Google DeepMind Helen Toner, Former OpenAI board member Amanda Askell, Member of technical staff, Anthropic Jan Leike, Alignment Science Co-Lead, Anthropic Chris Olah, Co-founder, Anthropic ... Innovators Lisa Su, CEO, AMD Jonathan Ross, CEO, Groq Victor Riparbelli, CEO, Synthesia Aravind Srinivas, CEO, Perplexity Daphne Koller, Founder and CEO, Insitro Sarah Gurev, Co-lead author on the EveScape project Mustafa Suleyman, CEO, Microsoft AI Shiv Rao, Co-founder and CEO, Abridge Zack Dvey-Aharon, Co-founder and CEO, AEYE Health Mira Murati, Chief Technology Officer, OpenAI ... https://time.com/collection/time100-ai-2024/ Shapers Amandeep Singh Gill, UN Secretary-General's Envoy on Technology Francesca Mani, Anti-deepfake activist Thierry Breton, European Commissioner for Internal Market Yasir Al-Rumayyan, Governor of Saudi Arabia’s Public Investment Fund Gina Raimondo, Secretary of Commerce, United States of America Arati Prabhakar, Director, U.S. Office of Science and Technology Policy Meredith Stiehm, President, Writers Guild of America West Matt Topic, Partner, Loevy & Loevy Mophat Okinyi, Chairperson, Content Moderators Union Elizabeth Kelly, Director, US Artificial Intelligence Safety Institute ..."
+    },
+    {
+      "index": 11,
+      "title": "Total #models: 139 Total #votes: 1,821,125 Last updated:",
+      "text": "Total #models: 139 Total #votes: 1,821,125 Last updated: 2024-09-04 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 12,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 139 Total #votes: 1,821,125 Last updated: 2024-09-04"
+    },
+    {
+      "index": 13,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi"
+    },
+    {
+      "index": 14,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 15,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "SSI funding and leadership",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Ilya Sutskever has raised $1 Billion for SSI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reflection Llama 3.1 70B",
+      "topic": "open-models",
+      "videoSeconds": 87,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=87s",
+      "slideIndex": 2,
+      "slideTitle": "Ilya Sutskever raised $1 Billion Ilya Sutskever has",
+      "source": "youtube"
+    },
+    {
+      "claim": "Automated scientific agents",
+      "topic": "agents",
+      "videoSeconds": 185,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=185s",
+      "slideIndex": 4,
+      "slideTitle": "AI Scientist sakana.ai - The AI Scientist: Towards",
+      "source": "youtube"
+    },
+    {
+      "claim": "Voting systems and logic",
+      "topic": "general",
+      "videoSeconds": 216,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=216s",
+      "slideIndex": 5,
+      "slideTitle": "Why Democracy Is Mathematically Impossible Why Democracy Is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini restrictions and AI",
+      "topic": "google",
+      "videoSeconds": 393,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=393s",
+      "slideIndex": 6,
+      "slideTitle": "Google Gemini avoid answering voting questions Google fights",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI in wildfires and costs",
+      "topic": "general",
+      "videoSeconds": 484,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=484s",
+      "slideIndex": 7,
+      "slideTitle": "Misc 1 AI drones against wildfires - detect,",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepMind and pipeline workflows",
+      "topic": "general",
+      "videoSeconds": 550,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=550s",
+      "slideIndex": 9,
+      "slideTitle": "Misc 3 Anthropic Prompt Generator to create good",
+      "source": "youtube"
+    },
+    {
+      "claim": "Enterprise AI advancements",
+      "topic": "enterprise",
+      "videoSeconds": 755,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=755s",
+      "slideIndex": 10,
+      "slideTitle": "TIME's list of 100 people in AI for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Consulting and hardware updates",
+      "topic": "general",
+      "videoSeconds": 868,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=868s",
+      "slideIndex": 11,
+      "slideTitle": "Total #models: 139 Total #votes: 1,821,125 Last updated:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Top 100 AI industry leaders",
+      "topic": "general",
+      "videoSeconds": 969,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=969s",
+      "slideIndex": 12,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "LLM leaderboard comparison",
+      "topic": "benchmarks",
+      "videoSeconds": 1023,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=1023s",
+      "slideIndex": 14,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech layoffs and conclusion",
+      "topic": "jobs",
+      "videoSeconds": 1129,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s&t=1129s",
+      "slideIndex": 15,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reflection Llama-3.1 70B Reflection Llama-3.1 70B is the",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s",
+      "slideIndex": 3,
+      "slideTitle": "Reflection Llama-3.1 70B Reflection Llama-3.1 70B is the",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 2 Google \"Ask Photos\" - AI-powered search",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6S9cFPF028s",
+      "slideIndex": 8,
+      "slideTitle": "Misc 2 Google \"Ask Photos\" - AI-powered search",
+      "source": "slide"
+    }
+  ]
+}

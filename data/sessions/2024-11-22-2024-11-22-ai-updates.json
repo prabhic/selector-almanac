@@ -1,0 +1,388 @@
+{
+  "id": "2024-11-22-2024-11-22-ai-updates",
+  "date": "2024-11-22",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "MM_eOh6zqnc",
+    "title": "Have you heard these exciting AI news? - November 22, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=MM_eOh6zqnc",
+    "thumbnail": "https://i.ytimg.com/vi/MM_eOh6zqnc/hqdefault.jpg",
+    "duration": 1369
+  },
+  "deck": {
+    "path": "2024/2024-11-22-AI-Updates.pptx",
+    "filename": "2024-11-22-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-11-22-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-11-22-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Dsek",
+      "startSeconds": 38,
+      "label": "00:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Mistral",
+      "startSeconds": 96,
+      "label": "01:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Ignite",
+      "startSeconds": 371,
+      "label": "06:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Extropical Computing",
+      "startSeconds": 435,
+      "label": "07:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Fujitsu Digital Aner",
+      "startSeconds": 534,
+      "label": "08:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Test Time Training",
+      "startSeconds": 608,
+      "label": "10:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Global AI Market",
+      "startSeconds": 675,
+      "label": "11:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Automated Machine Learning",
+      "startSeconds": 769,
+      "label": "12:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Scientist Trend Toward Lower Precision",
+      "startSeconds": 825,
+      "label": "13:45",
+      "source": "youtube"
+    },
+    {
+      "title": "More Updates",
+      "startSeconds": 922,
+      "label": "15:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Shan Wang",
+      "startSeconds": 1014,
+      "label": "16:54",
+      "source": "youtube"
+    },
+    {
+      "title": "TS",
+      "startSeconds": 1226,
+      "label": "20:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Benedict Evans",
+      "startSeconds": 1271,
+      "label": "21:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource Arena leaderboard",
+      "startSeconds": 1299,
+      "label": "21:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech layoffs",
+      "startSeconds": 1354,
+      "label": "22:34",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Gemini Exp 1114 - new LLM Champion DeepSeek",
+      "text": "Gemini Exp 1114 - new LLM Champion DeepSeek R1-Lite Mistral Le Chat Pixtral Large, Mistral Large Autogen evolves into AG2 Figure Robotics - x4 times faster Qwen2.5-Turbo - 1 Mln context length Perplexity introduces AI shopping Stanford University Agents with Personality Microsoft Ignite 2024 Event Microsoft Autonomous Agents, AI Foundry Extropic - Probabilistic Computing Fujitsu Digital Annealer AI Updates November 22 , 2024 test time training - surpassing humans on ARC AI Solutions - Fastest Growing Market HeyNeo - Automate Machine Learning Trend Towards Lower Precision François Chollet has left Google Gemma Scope OpenAI ChatGPT Mac OS desktop app Shawn Wang - aka @swyx GPT Wrappers are doing really good financially TMUX - Terminal Multiplexor Benedict Evans - trends Crowd-sourced \"Arena\" Leaderboard Tech Layoffs in 2024"
+    },
+    {
+      "index": 2,
+      "title": "Gemini Exp 1114 - New LLM Champion Google",
+      "text": "Gemini Exp 1114 - New LLM Champion Google Gemini Exp 1114 - new experimental model that is Ranked #1 overall on the Chatbot Arena, thus officially surpassing  o1-Preview and Claude 3.5 Sonnet This new Gemini model excels in various tasks, including mathematics, creative writing, and instruction following, demonstrating its proficiency in both language and visual AI."
+    },
+    {
+      "index": 3,
+      "title": "DeepSeek R1-Lite DeepSeek R1-Lite - new reasoning model",
+      "text": "DeepSeek R1-Lite DeepSeek R1-Lite - new reasoning model from China .. http://chat.deepseek.com .. https://api-docs.deepseek.com/news/news1120 .. https://huggingface.co/deepseek-ai It is open source, should be available on huggingface It thinks longer about the prompts with a transparent, step-by-step reasoning process - and gives more concise results It is a lightweight model, can run on a few smaller GPUs. It performs on par with OpenAI's o1-preview model on some benchmarks, especially math benchmarks. It is very good at solving logic puzzles The interface for DeepSeek R1-Lite is different from other models because it shows the thought process behind the answer DeepSeek R1-Lite is now the default coding model on hugging face"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates - 1 Mistral Le Chat -",
+      "text": "AI Updates - 1 Mistral Le Chat - free ChatGPT competitor - with web search, citations, image generation, and custom agents https://mistral.ai/news/le-chat-mistral/ Pixtral Large - a 124 Bln parameter, open-weight, multimodal AI model for vision and language tasks. 128k context length. Great for math and image generation https://huggingface.co/mistralai/Pixtral-Large-Instruct-2411 Mistral Large - updated, 128k context window, improved long context understanding, new system prompt, more accurate function calling - https://huggingface.co/mistralai/Mistral-Large-Instruct-2411 OpenAI ChatGPT's desktop app now reads code directly from various coding environments Autogen evolves into AG2 - commercial product Anthropic - government collaboration on AI safety Figure Robotics ' humanoid robots are now 400% faster. https://www.figure.ai Flux.1 Tools (Black Forest Lab) - new open-source image editing tools - https://blackforestlabs.ai/flux-1-tools/ Qwen2.5-Turbo increases context length to 1 Mln tokens https://qwenlm.github.io/blog/qwen2.5-turbo/ 11 Labs - AI conversational bots with customizable voices, tones, and response lengths. - https://elevenlabs.io AI should not control nuclear weapons - agreement between US & China that human oversight is required AI better than humans in medical diagnosis Nvidia's Blackwell AI chips overheating - potentially causing delays in data center deployments. Perplexity introduces AI shopping , allowing users to research and purchase products directly within its platform. Stanford University new AI agent can simulate the personalities of real people - https://arxiv.org/abs/2411.10109 These agents are based on two-hour interviews with real people , and they are able to replicate the interviewees' attitudes and behaviors with 85% accuracy. These agents are also less biased than demographic-based agents. Suno V4 improves AI music generation - https://suno.com/blog/v4 Google's Gemini Advanced remembers user interests and preferences based on user context to give more relevant responses. GPT-4 Turbo - better creative writing - more natural, engaging, and tailored writing"
+    },
+    {
+      "index": 5,
+      "title": "Microsoft Ignite 2024 Event Microsoft autonomous AI agents",
+      "text": "Microsoft Ignite 2024 Event Microsoft autonomous AI agents which can use over 1,800 AI models. No-code and low-code options. Examples: HR agent, a facilitator agent, a project management agent, and an interpreter agent. Azure AI Foundry - simplifies AI development. New hardware - a security microprocessor and a data processing unit (DPU). https://blogs.microsoft.com/blog/2024/10/21/new-autonomous-agents-scale-your-team-like-never-before/ Microsoft Ignite Event November 19–21, 2024, Chicago"
+    },
+    {
+      "index": 6,
+      "title": "Extropic - Probabilistic Computing Extropic - startup: https://www.extropic.ai",
+      "text": "Extropic - Probabilistic Computing Extropic - startup: https://www.extropic.ai https://www.extropic.ai/accelerate Probabilistic Computing - using \"probabilistic bits\" (P-bits) that fluctuate between states, mimicking the uncertainty found in natural processes. This makes them well-suited for tasks like optimization, AI, and machine learning. Thermodynamic Computing - a type of probabilistic computing that harnesses noise and the tendency of systems to minimize energy to perform computations. P-bits vs. Qubits: P-bits are purely classical and operate at room temperature. P-bits can be built using various technologies, including superconducting Josephson junctions (JJs) and magnetic memory cells. Probabilistic computers can be useful in some areas like AI, machine learning, and simulations. For some tasks they may be 100 million times more energy efficient than GPUs. Developing probabilistic computers involves overcoming hardware and software challenges. https://www.youtube.com/watch?v=hJUHrrihzOQ Examples of where p-bit hardware would provide speedup: Optimization Problems - model optimization, Combinatorial optimization, Traveling salesman problem, Maximum satisfiability (MAX-SAT). These problems map directly to p-bit networks and benefit from massive parallelization Probabilistic Sampling - Boltzmann machine sampling. Markov Chain Monte Carlo (MCMC), Random number generation, Statistical inference Neural Networks - Stochastic neural networks, Restricted Boltzmann Machines, Probabilistic deep learning. These problems can benefit from parallel updates and natural implementation of dropout/noise Monte Carlo Methods - Financial simulations, Particle physics simulations, Risk analysis. Specialized Hardware: Stochastic Magnetic Tunnel Junctions (s-MTJs): These devices exploit the inherent randomness in the tunneling of electrons to generate probabilistic behavior. Spintronic Devices - utilize the spin of electrons, can be engineered to exhibit stochastic behavior."
+    },
+    {
+      "index": 7,
+      "title": "https://www.fujitsu.com/us/services/business-services/digital-annealer/what-is-digital-annealer/ Fujitsu Digital Annealer (2018 - present) A",
+      "text": "https://www.fujitsu.com/us/services/business-services/digital-annealer/what-is-digital-annealer/ Fujitsu Digital Annealer (2018 - present) A specialized chip to solve massive combinatorial optimization problems. Parallel, real-time optimization calculations. Faster than GPUs. Since 2018 grew from 1K bits to more than 100K bits scale, from 16-bit to 64-bit precision, Improved parallel processing. Fujitsu developed a “digital annealing unit” (DAU), a custom CMOS chip (similar to FPGA)  with an architecture designed for efficient solving large-scale optimization problems. It uses a version of classical simulated annealing method. But for marketing purposes they say that it is “quantum-inspired”, because “quantum annealing” is a variant of \"simulated annealing\". But of course DAU is not \"quantum\". Execution time"
+    },
+    {
+      "index": 8,
+      "title": "test time training https://arxiv.org/pdf/2411.07279 - MIT paper A",
+      "text": "test time training https://arxiv.org/pdf/2411.07279 - MIT paper A new language model learning technique called “test time training” - x6 improvement in accuracy compared to base fine-tuned models, particularly excelling in solving novel problems and complex reasoning tasks. big jump in AGI benchmarks. Idea - updating model parameters temporarily during inference, using a method called Laura (low rank adaptation) to fine-tune models during test time. Test time training has three (3) crucial components : initial fine-tuning on similar tasks, auxiliary task format and augmentations, and per instance training . The key to solving novel reasoning problems may be the allocation of proper computational resources during test time, which could be achieved through test time training. The model leverages test data structure to improve prediction, generating training data by creating variations of the problem and using that data to fine-tune itself. In addition to test time training, other augmentation methods like augmented inference and ensembling predictions were used to further enhance the model’s performance. The results of this new technique have been impressive, surpassing the average human score on the ark prize , a benchmark for artificial general intelligence. https://www.youtube.com/watch?v=_jDDAxB1UPY"
+    },
+    {
+      "index": 9,
+      "title": "AI Solutions - Fastest Growing Market in History",
+      "text": "AI Solutions - Fastest Growing Market in History of Mankind The rapid rise of the AI market is remarkable. Some even call it the fastest-growing technology in history . Businesses across various sectors are recognizing the potential of AI to automate processes, improve decision-making, and create new products and services. Key Growth Drivers: Advancements in AI Technology (Deep Learning, LLMs, NLP, Computer vision), Data Explosion - to fuel training of AI algorithms, Compute explosion - cloud, huge datacenters, specialized chips, energy (including nuclear) The global AI market size was valued at approximately $200 Bln in 2023, and is projected to grow at a compound annual growth rate of at least 36% year after year . Probably will grow even faster. Context-aware AI is expected to be the fastest-growing segment due to its ability to personalize and adapt user experiences. The healthcare and life sciences industry is poised to be the fastest-growing market segment, driven by the increasing adoption of electronic health records and the digitization of medical data. Key Players - Google, Microsoft, Meta, Amazon, Apple, IBM, Mistral, Baidu (\"Google of China\"), Tencent (WeChat), Alibaba, Huawei, Google DeepMind, Graphcore, BenevolentAI: (drug discovery), Element AI (Canada), CIFAR (Canadian Institute for Advanced Research), Mobileye (Israel, computer vision), OrCam, Siemens, Bosch, INRIA (French National Institute for Research in Digital Science and Technology), Fanuc, SoftBank Robotics, Samsung, LG, etc. etc."
+    },
+    {
+      "index": 10,
+      "title": "HeyNeo - Automate Machine Learning Neo AI -",
+      "text": "HeyNeo - Automate Machine Learning Neo AI - Autonomous ML Engineer ( coming soon ) https://x.com/withneo/status/1857448521617592631 \"Introducing NEO: The first Autonomous Machine Learning Engineer. NEO is a multi-agent system that automates the entire ML workflow, saving engineers thousands of hours of grunt work.\" NEO was tested against 50 Kaggle competitions and scored a medal in 26% of them , far superior than the previous state of the art performance of 16.9% by Open AI’s o1 with AIDE scaffolding on the MLE bench https://heyneo.so https://heyneo.so/waitlist https://heyneo.so/blog Neo automates data preparation, model selection, training and deployment . Examples: typical machine learning workflow, Credit Card Fraud Detection, Goodreads Data Set Challenge (analyzing book reviews, converting subjective opinions into numerical data for analysis and prediction), etc. https://www.linkedin.com/in/vijs/ - Saurabh Vij - Founder & CEO Saurabh Vij - Founder & CEO"
+    },
+    {
+      "index": 11,
+      "title": "Trend Towards Lower Precision Most LLMs are initially",
+      "text": "Trend Towards Lower Precision Most LLMs are initially trained using full 32-bit precision. For inference the precision is often decreased to 16-bit. Low precision needs less CPU and memory, runs faster For local models, the precision is decreased even more - to 4-bit. Quantization below 4 bits causes instability. Active research area - pretrain the model at low precision Different formats: FP4, INT4, BF4 (BF = Brain Floating Point - format developed by Google that prioritizes dynamic range over precision) BitNet - 1.5 bit - https://github.com/microsoft/BitNet Native hardware support for 4bit - Nvidia  Blackwell Hardware FP8 INT8 FP4 INT4 Nvidia H100 yes yes - - Nvidia Blackwell yes yes yes yes AMD MI300X yes yes - - Groq yes yes - - Apple M4 - yes - -"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates - 2 OpenAI ChatGPT Mac OS",
+      "text": "AI Updates - 2 OpenAI ChatGPT Mac OS desktop app now can read from various developer apps (VS Code, Xcode, TextEdit, Terminal, and Item 2). This feature allows developers to use ChatGPT as a coding co-pilot without copy/paste. It is available to Plus and Teams users https://www.youtube.com/watch?v=6Y3Gh5spBVs François Chollet has left Google after ~10 years. He is known for creating Keras and for creating ARC benchmark for AI models. He is planning to start a new AI company. https://fchollet.com https://developers.googleblog.com/en/farewell-and-thank-you-for-the-continued-partnership-francois-chollet/ Gemma Scope - a tool developed by Google AI to provides insights into their Gemma 2 language models inner workings . How it identifies key concepts and uses them to understand and generate text. Gemma Scope uses Sparse Autoencoders . When you input text, Gemma Scope highlights the specific concepts the AI is focusing on and shows you which words or phrases triggered them. This offers a detailed look into how the AI understands and interprets the text."
+    },
+    {
+      "index": 13,
+      "title": "AI Updates - 1 GPT Wrappers are doing",
+      "text": "AI Updates - 1 GPT Wrappers are doing really good financially. Despite the fact that OpenAI provides tools so anyone can create their own GPTs. Model wrappers like Perplexity, Harvey, Cognition and Cursor are valued >$2B Model training startups are surviving: Character, Adept, Inflection, and Stability Codeium (now $1.25B) now considers the strategy of training their own first party models a mistake Bolt.new went from $0 to >$4m ARR in 1 month wrapping Claude Sonnet. https://www.anthropic.com/customers/stackblitz What works in AI UX - https://www.youtube.com/watch?v=PkHjoihjo6U Shawn Wang ( aka @swyx ) .. https://www.swyx.io .. https://smol.ai .. https://buttondown.com/ainews .. https://x.com/intent/user?screen_name=swyx .. https://www.latent.space/p/ai-engineer .. https://www.youtube.com/@swyxTV/videos"
+    },
+    {
+      "index": 14,
+      "title": "TMUX: Terminal Multiplexor C-b % - split horizontally",
+      "text": "TMUX: Terminal Multiplexor C-b % - split horizontally (add to right) C-b \" - split vertically (add pane below) C-b arrows - navigate between panes C-b q - to show panels' indexes (0,1,2,...) C-b q 1 - switch to pane 1 C-b arrows - resize current pane C-b Alt arrows - resize in bigger steps C-b Alt 0 - change to layout 0 (there are 5 predefined layouts) C-b c - create new window C-b n - next window C-b p - previous window C-b 1 - go to window #1 C-b , - rename window C-b w - shows a visual menu of all windows C-b f - find a window by name C-b : - enter command model C-b : select window -t number If mouse enabled, click on window name in the status bar exit or C-d - exit pane C-b x - force-exit pane (with confirmation) C-b & - kill whole window with all panes tmux kill-server - kill everything ~/.tmux.conf - config file set -g mouse on setw -g mode-keys vi C-B [ - copy,   C-B ] - paste TMUX: Terminal Multiplexor TMUX in 100 seconds https://www.youtube.com/watch?v=vtB1J_zCv8I TMUX in 100 seconds | Prime Reacts https://www.youtube.com/watch?v=0eHZRPzbiJ0 TMUX Beginner Tutorial https://www.youtube.com/watch?v=nTqu6w2wc68 TMUX cheatsheet https://tmuxcheatsheet.com TMUX config and packages https://www.youtube.com/watch?v=DzNmUNvnB04 brew install tmux sudo apt install tmux tmux C-B D - detach     (C-B == ctrl-B) tmux new -s bob Cl-b d tmux a C-b d tmux ls tmux a -t bob C-b d tmux kill-session -t bob session (bottom left) windows (bottom, *-active) panes"
+    },
+    {
+      "index": 15,
+      "title": "Benedict Evans Benedict Evans is a well-known technology",
+      "text": "Benedict Evans Benedict Evans is a well-known technology analyst and former partner at Andreessen Horowitz (a16z). He's primarily known for his analysis of technology trends, mobile computing, and the broader tech industry. He writes extensively about tech strategy and publishes a widely-read newsletter that discusses trends in technology, media, and business. Prior to a16z, Evans worked at Enders Analysis and other firms analyzing mobile and digital media. After leaving a16z in 2020, he began operating independently as a tech analyst and consultant based in London. He's particularly known for his annual \"Big Tech and What's Next\" presentations that analyze major trends in technology. Evans is also active on social media (particularly Twitter/X) where he regularly shares insights about technology trends, market analysis, and industry developments. His work often focuses on understanding how technology changes business models and markets. Here is a summary of his recent presentation about AI in customer service - https://www.youtube.com/watch?v=LwZeHaQxNsU Benedict Evans uses the movie \"The Apartment\" to illustrate how workers were like \"cells in a spreadsheet\" before computers. He then traces the history of technology from mainframes to PCs, the web, smartphones, and now generative AI AI's potential is huge, but its application is unclear. Finding the right patterns for AI is key. Find problems that can be solved with it, like fraud detection or customer service. Products should be built around AI, managing its limitations and ensuring users don't encounter errors. Chatbots for customer service: real-time translation, access to knowledge, better self-service. Importance of adapting to new technologies, staying curious, explore new solutions AI role as an PIT that enhances existing products and services AI assistants as a new interface. Consumers interacting with AI assistants instead of websites. He envisions a future where AI can analyze bills, optimize expenses, and even make purchases on behalf of users."
+    },
+    {
+      "index": 16,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 167. Total #votes: 2,280,672. Last updated: 2024-11-20. Coding"
+    },
+    {
+      "index": 17,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job market for IT: much worse than before COVID. IT has become a commodity. Lower salaries/rates ($100/hr => $75/hr). Much more competition, hundreds of applications for each position \"Who is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms\" - paper October 2024 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4991774 The study found that AI tools have led to a decrease in demand for jobs in areas like writing and coding. At the same time there is an increase in demand for individuals skilled in utilizing AI tools. Legal: $8,000 work now can be done for only $3 in GPT credits. Translation - mostly outsourced to AI Phone Sales and Customer service"
+    },
+    {
+      "index": 18,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 19,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Gemini Exp 1114 - new LLM Champion DeepSeek",
+      "source": "youtube"
+    },
+    {
+      "claim": "Dsek",
+      "topic": "general",
+      "videoSeconds": 38,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=38s",
+      "slideIndex": 2,
+      "slideTitle": "Gemini Exp 1114 - New LLM Champion Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mistral",
+      "topic": "open-models",
+      "videoSeconds": 96,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=96s",
+      "slideIndex": 3,
+      "slideTitle": "DeepSeek R1-Lite DeepSeek R1-Lite - new reasoning model",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Ignite",
+      "topic": "general",
+      "videoSeconds": 371,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=371s",
+      "slideIndex": 5,
+      "slideTitle": "Microsoft Ignite 2024 Event Microsoft autonomous AI agents",
+      "source": "youtube"
+    },
+    {
+      "claim": "Extropical Computing",
+      "topic": "general",
+      "videoSeconds": 435,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=435s",
+      "slideIndex": 6,
+      "slideTitle": "Extropic - Probabilistic Computing Extropic - startup: https://www.extropic.ai",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fujitsu Digital Aner",
+      "topic": "general",
+      "videoSeconds": 534,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=534s",
+      "slideIndex": 7,
+      "slideTitle": "https://www.fujitsu.com/us/services/business-services/digital-annealer/what-is-digital-annealer/ Fujitsu Digital Annealer (2018 - present) A",
+      "source": "youtube"
+    },
+    {
+      "claim": "Test Time Training",
+      "topic": "general",
+      "videoSeconds": 608,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=608s",
+      "slideIndex": 8,
+      "slideTitle": "test time training https://arxiv.org/pdf/2411.07279 - MIT paper A",
+      "source": "youtube"
+    },
+    {
+      "claim": "Global AI Market",
+      "topic": "general",
+      "videoSeconds": 675,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=675s",
+      "slideIndex": 9,
+      "slideTitle": "AI Solutions - Fastest Growing Market in History",
+      "source": "youtube"
+    },
+    {
+      "claim": "Automated Machine Learning",
+      "topic": "general",
+      "videoSeconds": 769,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=769s",
+      "slideIndex": 11,
+      "slideTitle": "Trend Towards Lower Precision Most LLMs are initially",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Scientist Trend Toward Lower Precision",
+      "topic": "general",
+      "videoSeconds": 825,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=825s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates - 2 OpenAI ChatGPT Mac OS",
+      "source": "youtube"
+    },
+    {
+      "claim": "More Updates",
+      "topic": "general",
+      "videoSeconds": 922,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=922s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates - 1 GPT Wrappers are doing",
+      "source": "youtube"
+    },
+    {
+      "claim": "Shan Wang",
+      "topic": "general",
+      "videoSeconds": 1014,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=1014s",
+      "slideIndex": 14,
+      "slideTitle": "TMUX: Terminal Multiplexor C-b % - split horizontally",
+      "source": "youtube"
+    },
+    {
+      "claim": "TS",
+      "topic": "general",
+      "videoSeconds": 1226,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=1226s",
+      "slideIndex": 15,
+      "slideTitle": "Benedict Evans Benedict Evans is a well-known technology",
+      "source": "youtube"
+    },
+    {
+      "claim": "Benedict Evans",
+      "topic": "general",
+      "videoSeconds": 1271,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=1271s",
+      "slideIndex": 17,
+      "slideTitle": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1299,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=1299s",
+      "slideIndex": 18,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1354,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc&t=1354s",
+      "slideIndex": 19,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Updates - 1 Mistral Le Chat -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates - 1 Mistral Le Chat -",
+      "source": "slide"
+    },
+    {
+      "claim": "HeyNeo - Automate Machine Learning Neo AI -",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MM_eOh6zqnc",
+      "slideIndex": 10,
+      "slideTitle": "HeyNeo - Automate Machine Learning Neo AI -",
+      "source": "slide"
+    }
+  ]
+}

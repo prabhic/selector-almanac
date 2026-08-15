@@ -1,0 +1,238 @@
+{
+  "id": "2023-01-20-2023-01-20-linux-setup",
+  "date": "2023-01-20",
+  "title": "Linux-Setup",
+  "series": "seminar",
+  "topics": [
+    "open-models",
+    "rag",
+    "jobs",
+    "general"
+  ],
+  "video": {
+    "id": "k9MYrDmPAFc",
+    "title": "Linux/Unix - basic setup on laptop, cloud, Mac, or MS Windows - January 13, 2023",
+    "url": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+    "thumbnail": "https://i.ytimg.com/vi/k9MYrDmPAFc/hqdefault.jpg",
+    "duration": 2635
+  },
+  "deck": {
+    "path": "2023/2023-01-20-Linux-Setup.pptx",
+    "filename": "2023-01-20-Linux-Setup.pptx",
+    "title": "Linux-Setup",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-01-20-Linux-Setup.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-01-20-Linux-Setup.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Linux Setup Unix & Linux Installing Linux on",
+      "text": "Linux Setup Unix & Linux Installing Linux on Laptop Setting up Linux VM on Cloud Vi / Vim Editor Bash Shell Working from Prompt on MacOS Linux on Microsoft Windows"
+    },
+    {
+      "index": 2,
+      "title": "Unix is the dominating OS (~2 Bln android",
+      "text": "Unix is the dominating OS (~2 Bln android devices, ~1 Bln iOS devices, ~1 Bln servers in clouds, 100 Mln Macs, etc.). Ken Thompson has created Unix OS in 1969. Nowadays he works at Google as one of creators of the “Go” language: - https://www.youtube.com/watch?v=sln-gJaURzk - In this article ( http://www.linfo.org/thompson.html ) you will learn how Ken Thompson has developed the UNIX operating System in assembly language (to assist himself in playing and creating computer games) in ~1969, then created the B-language, and later rewrote Unix kernel in C-language developed by Dennis Ritchie in ~1972 First UNIX was running on computer with only 4K of memory ! Then Thompson returned to UCB (University California Berkeley) and while being there in 1975-76, he introduced people there to Unix, which started the UCB clone of Unix ( BSD = Berkeley Software Distribution ). This later became the foundation of Mach OS for Steve Job’s NeXT Station, which was later acquired by Apple, and is the heart of modern MacOS and iOS. Linux is an independent open source POSIX implementation of Unix. Android OS is a Google’s version of Linux (android phones & tablets). 1980s - Richard Stallman creates a free software movement (GNU project) which led to development of numerous software tools. 1991 - Linus Torvalds , young student at the University of Helsinki in Finland, releases (posts on the Internet under GNU license) the first version of Linux's kernel (Ver. 0.02), which he developed as a hobby. Linus Torvalds Ken Thompson (born 1943) Unix History main() { /* B language */ int i , fact = 1; for( i = 1; i <= 5; i ++)     { fact = fact * i ; } printf (\"The factorial of 5 is: %d\", fact); }"
+    },
+    {
+      "index": 3,
+      "title": "Linus Torvalds – Linux & Git Linus Torvalds",
+      "text": "Linus Torvalds – Linux & Git Linus Torvalds Linux - https://www.linux.org Git - https://git-scm.com - https://github.com Linus Torvalds has developed Git in 2005 to use in Linux development community. (before Git they used BitKeeper ). Some of the goals of the new system were: Speed Simple design Strong support for non-linear development (thousands of parallel branches) Fully distributed Able to handle large projects like the Linux kernel efficiently (speed and data size) GutHub Git Linux GitHub - founded in 2008 Microsoft acquired GitHub for $7.5B in 2018 In 2020: ~100 Million users in 2022 ~ 5,000 employees GutHub Desktop"
+    },
+    {
+      "index": 4,
+      "title": "There are more than 600 different Linux distributions",
+      "text": "There are more than 600 different Linux distributions - https:// distrowatch.com / dwres.php?resource =major Ubuntu - the most common OS on clouds. Linux Mint is the most common for desktop work (it is also based on Ubuntu). Linux Mint Desktop Linux Terminal Linux Distributions When you work on a Linux Virtual Machine in the cloud, you work in a text terminal, \"on the prompt\". The interactive prompt program is called \"shell\". There are multiple shell programs: sh , csh , ksh , tcsh , bash, zsh , fish. The default Linux shell is \"bash\". There are multiple bash tutorials (search on youtube or google)."
+    },
+    {
+      "index": 5,
+      "title": "\"vi\" editor on Unix was written by Bill",
+      "text": "\"vi\" editor on Unix was written by Bill Joy in 1976, as the visual mode for a line editor called \"ex\" that Joy had written with Chuck Haley . Bill Joy's ex 1.1 was released as part of the first BSD Unix release in March 1978. - https://www.youtube.com/watch?v=LN2shXeJNz8 - Bill Joy (Sun Microsystems) - http://charles.the-haleys.org - Charles B. Haley (co-author of “ex” editor) - https://en.wikipedia.org/wiki/Ken_Thompson – Ken Thompson 77 years old in 2020 - https://en.wikipedia.org/wiki/Dennis_Ritchie - Dennis Ritchie has died in 2011 Today in Linux the \"vi\" is actually \"vim\" (vi improved). You can customize vim in file $HOME/. vimrc Bill Joy co-founded Sun Microsystems in 1982 Chuck Haley vi  editor"
+    },
+    {
+      "index": 6,
+      "title": "Bourne shell ( sh ) Developed by Stephen",
+      "text": "Bourne shell ( sh ) Developed by Stephen Bourne at Bell Labs 1979 – Initial release .. https://en.wikipedia.org/wiki/Bourne_shell .. https://en.wikipedia.org/wiki/Stephen_R._Bourne Original source code: .. https://www.tuhs.org/cgi-bin/utree.pl?file=V7/usr/src/cmd/sh Steven Bourne Written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell. 1989 – initial release .. https://en.wikipedia.org/wiki/Bash_(Unix_shell) .. git clone https://git.savannah.gnu.org/git/ bash.gi t Brian Fox Bash shell (bash)"
+    },
+    {
+      "index": 7,
+      "title": "Installing Linux on Laptop January 2023 - setting",
+      "text": "Installing Linux on Laptop January 2023 - setting up Linux Mint on DELL XPS laptop. Follow download and installation istructions here: .. https:// linuxmint.com # ---------------------------------------------- First click on \"Download\" - and select the Cinnamon Edition, click on download: .. https:// linuxmint.com / edition.php?id =302 and select the mirror site to start downloading the ISO file (~ 2.5 GBytes ) # ---------------------------------------------- Click on installation instructions - and get here: .. https:// linuxmint -installation- guide.readthedocs.io / en /latest/ Linux Mint 21 is based on Ubuntu 22.04 LTS. We need: .. USB flash drive 8 GB or larger, format it as FAT32 .. balena Etcher software to write the bootable Linux onto this USB stick .. https:// www.balena.io /etcher/ .. https://github.com/balena-io/etcher # ---------------------------------------------- Once you have the bootable USB: .. Start the laptop while pressing F2 to get into BIOS .. Change the boot order to make USB the first (on top) .. Restart the laptop with USB inserted and follow prompts to install Linux # ----------------------------------------------"
+    },
+    {
+      "index": 8,
+      "title": "Configuring Linux Virtual Machine on a Cloud –",
+      "text": "Configuring Linux Virtual Machine on a Cloud – part 1 You can get Linux VM on any of major clouds (AWS, Azure, Google). Below I describe steps for Azure : https:// portal.azure.com # ---------------------------------------------- VM1 - myvm1 – provision in potal Ubuntu Server 20.04 16 vcpus 64 GB extra 2TB disk default user \" azureuser \" make sure to open ports 22,80,443 ( ssh , http, https) ssh keys are generated as part of the process of creating VM in Azure portal. You download the private key (text file with extension \". pem \") Alternatively you can generate it yourself ssh -keygen -t rsa -b 4096 # for passphrase - hit <ENTER> Make sure that you have directory  $HOME/. ssh Make directory $HOME/. ssh /myvm1 and put your file there:  $HOME/. ssh /myvm1/myvm1.pem Note: ssh requires you to have only \"owner\" permissions: # on server: chmod go-w /home/$USER. chmod 700 /home/$USER/. ssh # on client (laptop): chmod 700 /Users/$USER/. ssh chmod 600 /Users/$USER/. ssh /myvm1/* # add the following entry into file . ssh /config on your laptop: Host myvm1 HostName 12.34.123.45 IdentityFile /Users/$USER/. ssh /myvm1/myvm1.pem AddKeysToAgent yes # remove welcome banner when login- ing into VM: cd / etc /update- motd.d sudo chmod -x * sudo chmod +x 98-reboot-required Partition and mount the additional 2TB disk - https:// www.cyberciti.biz /tips/fdisk-unable-to-create-partition-greater-2tb.html - https:// docs.aws.amazon.com /AWSEC2/latest/ UserGuide / ebs -using- volumes.html # make sure we have latest Git which git git --version sudo apt-get update sudo apt-get install git git --version"
+    },
+    {
+      "index": 9,
+      "title": "Configuring Linux Virtual Machine on a Cloud –",
+      "text": "Configuring Linux Virtual Machine on a Cloud – part 2 # clone Lev's repo to set up environment cd /data mkdir SOFT cd SOFT git clone https:// github.com / lselector / setup_computer.git cd /data/SOFT/ setup_computer /dot/ cp ./_* ~/ cd mv _ vimrc.txt . vimrc mv _ inputrc.txt . inputrc vi _ profile.txt mv _ profile.txt .profile vi _ bash_profile.txt mv _ bash_profile.txt . bash_profile vi _ mygit.txt mv _ mygit.txt . mygit mv _ gitexcludes.txt . gitexcludes mv _git- completion.bash .git- completion.bash mv _ gitconfig.txt . gitconfig vi . gitconfig vi _ myvv.txt mv _ myvv.txt . myvv vi _ bash_aliases.txt mv _ bash_aliases.txt . bash_aliases vi _ bashrc.txt mv _ bashrc.txt . bashrc # Install fd -find: https:// github.com / sharkdp / fd On Ubuntu: sudo apt install fd -find ln -s $(which fdfind ) ~/.local/bin/ fd which fd fd --help fd"
+    },
+    {
+      "index": 10,
+      "title": "Configuring Linux Virtual Machine on a Cloud –",
+      "text": "Configuring Linux Virtual Machine on a Cloud – part 3 # Create a 'swap-file';  16G in this case sudo fallocate -l 16G /data/ swapfile sudo chmod 600 /data/ swapfile ls - lh /data/ swapfile sudo mkswap /data/ swapfile sudo swapon /data/ swapfile # Several ways to check: sudo swapon --show free -h htop grep Swap /proc/ meminfo swapon -s cat /proc/swaps # Edit file / etc / fstab - add this line: /data/ swapfile none   swap sw 0   0 # Note: #   Use (multiple) spaces to separate fields #   Use \" sudo \" to edit the file #   Before editing - make a backup copy of the file # # sudo reboot # check swap after reboot # install miniconda python - and some modules wget https:// repo.anaconda.com / miniconda /Miniconda3-py39_4.12.0-Linux-x86_64.sh bash Miniconda3-py39_4.12.0-Linux-x86_64.sh # choose location /data/miniconda3 # choose to initialize, then check the . bashrc # and other dot files for PATH and PYTHONPATH which python which pip which ipython path # install additional modules cd /data/SOFT/ setup_computer / pip install -r miniconda3_requirements.txt # check if directory $HOME/. ipython exists. If not - create it: ipython profile create # copy Lev's common startup modules: cd ~/. ipython / profile_default /startup cp /data/SOFT/ setup_computer / ipython_startup /* py ./ # find ipython_config.py under miniconda3 # and copy it under . ipython / profile_default # Then add two lines to it: cd ~/. ipython / profile_default vi ipython_config.py # add two lines c.TerminalInteractiveShell.display_completions = ' readlinelike ' c.InteractiveShell.ast_node_interactivity = 'all' Test ipython in terminal"
+    },
+    {
+      "index": 11,
+      "title": "You can find more instructions here: .. https://",
+      "text": "You can find more instructions here: .. https:// github.com / lselector / setup_computer /tree/master/_ setup_new_Linux This includes: Nginx web server setup and configuration secure certificates python web app framework database Azure CLI and tools Jupyter configuration \" misc \" directory with maintenance scripts and docs. Configuring Linux Virtual Machine on a Cloud – part 4 Add directories under /data: /data/code /data/code/ py_lib /data/code/bin /data/code/ misc # for maintenance scripts /data/code/ misc /SAVED /data/BACKUPS /data/log /data/ log_old /data/ log_test /data/ log_test_old # -------------------------------------------------------------- Add maintenance backup scripts under \"/data/code/ misc \" and schedule them in crontab # -------------------------------------------------------------- create $HOME/. bashrc_crontab file schedule some basic jobs in crontab - and check that they are working OK # -------------------------------------------------------------- set up git commands like gist, gd , gistall , gg"
+    },
+    {
+      "index": 12,
+      "title": "vi is a unix platform editor. vi is",
+      "text": "vi is a unix platform editor. vi is a successor of QED, QED CTSS, ED, EX editors. It was written by Bill Joy in 1976 as a multi-line improvment of line editor \"ex\" that Joy had written with Chuck Haley. You edit file by typing on unix prompt: vi  filename Then you press \" i \" to enter \"insert\" mode - and start typing. You press <ESC> to exit insert mode. You press \":\" to get command prompt at the bottom and type \" wq \" and press <ENTER> \"w\" = write, \"q\" = quit vi, vim editor – part 1 There are 3 modes: - insertion mode - command/navigation mode - \":\"-commands mode The editor begins in command mode , where you can: navigate (move cursor), delete, copy(yank) / paste(put), save/restore, etc. Insertion mode begins upon entering an insertion key ( i,a,o,r , etc ) or a change command ( cw , etc.). Pressing <ESC> ends Insertion mode. Most commands execute as soon as you type them except for \"colon\" commands which execute when you press the return key."
+    },
+    {
+      "index": 13,
+      "title": "File saving, reverting, quitting :w - write/save file",
+      "text": "File saving, reverting, quitting :w          - write/save file :w somefile - save to file \" somefile \" : wq - write & quit (same as :x   or  :ZZ ) :q  - quit (will quit if no changes made) :q! - discard changes and quit :e! - discard changes (revert to saved) Inserting text: i , I      insert before cursor, before line a , A      append after cursor, after line o , O      open new line after, line before r , R      replace one char, many chars Motion: h , j , k , l    left, down, up, right (also arrows) w , W            forward next word e , E            forward end of word b , B            backward beginning of word ( , )            sentence back, forward { , }            paragraph back, forward 0 , $            beginning, end of line 1G , G           beginning, end of file nG or :n         line n fc , Fc          forward, back to char c H , M , L        top, middle, bottom of screen Deleting text: dw - deletes a word (type d followed by a motion) dd      - delete line :d      - delete line x , X   - delete character to right, left D       - deleteto end of line vi, vim editor – part 2 Yanking text (copying into a buffer): type \"y\" followed by a motion: y$ - yanks to the end of line. yy line :y         line Changing text: \"c\" followed by a motion: cw - change a word C          to end of line cc         line Putting text: p    put yanked text after position or after line P    put before position or before line Vim visual mode (to copy/paste/delete): v – start marking the block of characters <shift>-v - mark first line of a block of lines <ctrl>-v - mark first column of a block of columns then move the cursor to select the area, then press the \"action\": y - mark last character of the block and yank block to this point d - delete to this point then move the cursor to some other place, and use \"p\" or \"P\" to put the block there."
+    },
+    {
+      "index": 14,
+      "title": "Search for Strings: /string search forward ?string search",
+      "text": "Search for Strings: /string    search forward ?string    search backward n , N      repeat search in same, reverse direction :se ic set ignore case for searches :se noic back to case sensitive searches Shift-5    jump between matching parenthesis/ curlies /brackets Replace: :s/pattern /string /flags :g/from/s//to/g flags: g , c     all on each line, confirm each &         repeat last :s command Example: find/replace in all the file (2 methods): :%s/from/to/g :g/from/s//to/g Regular Expressions: . (dot)       any single character except newline *             zero or more repeats [...]         any character in set [^ ...]       any character not in set ^ , $         beginning, end of line \\< , \\>       beginning, end of word \\(: : :\\)     grouping (putting into memory) \\n            contents of n- th group vi, vim editor – part 3 Counts: Nearly every command may be preceded by a number that specifies how many times it is to be performed. For example, 5dw will delete 5 words and 3fe will move the cursor forward to the 3rd occurance of the letter e. Even insertions may be repeated conveniently with this method, say to insert the same line 100 times. Ranges: Ranges may precede most \"colon\" commands and cause them to be executed on a line or lines. For example :3,7d would delete lines 3-7. Ranges are commonly combined with the :s command to perform a replacement on several lines. Example: replacement from current line to the end of the file: :.,$s/pattern/string/g Examples of ranges: :n ,m        lines n-m :.           current line :$           Last line :?c          Marker c :%           All lines :g/pattern/  All matching lines"
+    },
+    {
+      "index": 15,
+      "title": "Files operations: :w file - Write file (current",
+      "text": "Files operations: :w file    - Write file (current file if no name given): :r file    - Read file and insert its contents after current line :n         - Next file :p         - Previous file :e file    - Edit file :e!        - re-read current file (discard changes) !!command  - run unix command \"command\" : r!command - read in an output of shell command, for example: : r!which perl vi, vim editor – part 4 Other commands: J     join lines .     repeat last text-changing command u     undo last change U     undo all changes on line ctrl-L    refresh the window"
+    },
+    {
+      "index": 16,
+      "title": "Common Bash Commands exit (or ctrl-D) ctrl-C ctrl-S,",
+      "text": "Common Bash Commands exit (or ctrl-D) ctrl-C ctrl-S, ctrl-Q ctrl-A ctrl-E ctrl-A K (delete line) arrow up/down (history) tab-completion uname uname -a date who last history history 10 man somecommand touch somefile vi vi somefile vim view vimdiff less more top htop ps ps auxww ps - ef cd cd - cd ~/ somedir pwd ls ls - alF ls - aldF */ ls - ltr echo \"path is $PATH\" echo $PATH date set env export bash file.sh vs source file.sh . . bashrc # difference between set and env . bashrc vs . bash_profile vs . bash_aliases stdin, stdout , stderr cat file head file tail file type myfunc which python which perl grep somepattern somefile * cat files* | grep pattern cat files* | grep pattern | grep -v pattern2 find / somedir / -name 'some*txt' -print | xargs grep something"
+    },
+    {
+      "index": 17,
+      "title": "Common Bash Commands - continued cp file1 file2",
+      "text": "Common Bash Commands - continued cp file1 file2 mv file1 file2 rm file1 rm -rf dir1 tar zcvf abc.tar.gz abc * tar ztvf abc.tar.gz tar zxvf abc.tar.gz zip -r abc.zip dir1 dir2 unzip abc.zip kill pid # pid = process id kill -9 pid # force kill pkill name # kill by name nohup # unlink from terminal command & # put in background nohup python myscript.py > mylog.log 2>&1 & jobs fg ctrl-C crontab -e crontab -l ssh # public/ provate keys: cd ~/. ssh ftp telnet curl wget rsync test1.py test2.py rsync - avzh test1.py test2.py rsync - avzh myfile mydir / rsync - avzh mydir mydir2/ # create mydir2 as recursive copy of mydir rsync - avzh mydir / mydir2 rsync - avzh --exclude 'somedir1/*.csv' \\ --exclude '*/__ pycache _*'  \\ / mypath / mydir \\ / mytarget / dir / # - avzh options: # -a - archive mode - recursive, # preserving user, timestamps, ... # -v - verbose # -z - compress # -h - human readable # Example: copy big anaconda directory: rsync - avzh -H --delete anaconda3/ anaconda3_bckup # -H - to preserve hardlinks # --delete - to remove extra files at the destination # rsync from remote server: rsync - avzh -e ssh remoteuser@remoteserver.com :/ mypath / mydir / mytarget / dir /"
+    },
+    {
+      "index": 18,
+      "title": "Configuring MacOS Unix/Python Environment Configuring Unix tools on",
+      "text": "Configuring MacOS Unix/Python Environment Configuring Unix tools on Mac is very similar to configuring Linux. I recommend to use iTerm2 app as a terminal. You can also use a lot of Linux utilities via homebrew. See instructions here: https:// github.com / lselector / setup_computer /blob/master/_ setup_new_Mac.txt NeXTSTEP is a discontinued object-oriented, multitasking operating system based on the Mach kernel and the UNIX-derived BSD. In 1996, NeXT was acquired by Apple Computer to succeed the classic Mac OS Steve Jobs"
+    },
+    {
+      "index": 19,
+      "title": "Unix on Microsoft Windows The Windows Subsystem for",
+      "text": "Unix on Microsoft Windows The Windows Subsystem for Linux (WSL) lets developers install a Linux distribution (such as Ubuntu, OpenSUSE, Kali, Debian, Arch Linux, etc ) and use Linux applications, utilities, and Bash command-line tools directly on Windows, unmodified, without the overhead of a traditional virtual machine or dual-boot setup. https:// learn.microsoft.com / en -us/windows/ wsl /install Git BASH Git for Windows provides a BASH emulation used to run Git from the command line. *NIX users should feel right at home, as the BASH emulation behaves just like the \"git\" command in LINUX and UNIX environments. https://gitforwindows.org"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Linux Setup Unix & Linux Installing Linux on",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 1,
+      "slideTitle": "Linux Setup Unix & Linux Installing Linux on",
+      "source": "slide"
+    },
+    {
+      "claim": "Unix is the dominating OS (~2 Bln android",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 2,
+      "slideTitle": "Unix is the dominating OS (~2 Bln android",
+      "source": "slide"
+    },
+    {
+      "claim": "Linus Torvalds – Linux & Git Linus Torvalds",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 3,
+      "slideTitle": "Linus Torvalds – Linux & Git Linus Torvalds",
+      "source": "slide"
+    },
+    {
+      "claim": "There are more than 600 different Linux distributions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 4,
+      "slideTitle": "There are more than 600 different Linux distributions",
+      "source": "slide"
+    },
+    {
+      "claim": "\"vi\" editor on Unix was written by Bill",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 5,
+      "slideTitle": "\"vi\" editor on Unix was written by Bill",
+      "source": "slide"
+    },
+    {
+      "claim": "Bourne shell ( sh ) Developed by Stephen",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 6,
+      "slideTitle": "Bourne shell ( sh ) Developed by Stephen",
+      "source": "slide"
+    },
+    {
+      "claim": "Installing Linux on Laptop January 2023 - setting",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 7,
+      "slideTitle": "Installing Linux on Laptop January 2023 - setting",
+      "source": "slide"
+    },
+    {
+      "claim": "Configuring Linux Virtual Machine on a Cloud –",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 8,
+      "slideTitle": "Configuring Linux Virtual Machine on a Cloud –",
+      "source": "slide"
+    },
+    {
+      "claim": "Configuring Linux Virtual Machine on a Cloud –",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 9,
+      "slideTitle": "Configuring Linux Virtual Machine on a Cloud –",
+      "source": "slide"
+    },
+    {
+      "claim": "Configuring Linux Virtual Machine on a Cloud –",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 10,
+      "slideTitle": "Configuring Linux Virtual Machine on a Cloud –",
+      "source": "slide"
+    },
+    {
+      "claim": "You can find more instructions here: .. https://",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 11,
+      "slideTitle": "You can find more instructions here: .. https://",
+      "source": "slide"
+    },
+    {
+      "claim": "vi is a unix platform editor. vi is",
+      "topic": "coding-assistants",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=k9MYrDmPAFc",
+      "slideIndex": 12,
+      "slideTitle": "vi is a unix platform editor. vi is",
+      "source": "slide"
+    }
+  ]
+}

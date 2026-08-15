@@ -1,0 +1,849 @@
+{
+  "id": "2026-01-16-2026-01-16-ai-updates",
+  "date": "2026-01-16",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "agents",
+    "rag",
+    "benchmarks",
+    "open-models",
+    "infra",
+    "claude",
+    "google",
+    "coding",
+    "multimodal",
+    "openai",
+    "fine-tuning",
+    "jobs"
+  ],
+  "video": {
+    "id": "3tHrt59_s30",
+    "title": "Have you heard these exciting AI news? - January 16, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=3tHrt59_s30",
+    "thumbnail": "https://i.ytimg.com/vi/3tHrt59_s30/hqdefault.jpg",
+    "duration": 2238
+  },
+  "deck": {
+    "path": "2026/2026-01-16-AI-Updates.pptx",
+    "filename": "2026-01-16-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-01-16-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-01-16-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Hot Area - Agent Memory Systems",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 38,
+      "label": "00:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Top LLM Vendors",
+      "startSeconds": 143,
+      "label": "02:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Source Models",
+      "startSeconds": 165,
+      "label": "02:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Hardware Progress",
+      "startSeconds": 210,
+      "label": "03:30",
+      "source": "youtube"
+    },
+    {
+      "title": "High-Flyer 56.6% Returns",
+      "startSeconds": 298,
+      "label": "04:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Cline - Skills, Background edits, Web Search",
+      "startSeconds": 391,
+      "label": "06:31",
+      "source": "youtube"
+    },
+    {
+      "title": "HINDSIGHT Agent Memory System",
+      "startSeconds": 606,
+      "label": "10:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Confucius SDK (Meta and Harvard)",
+      "startSeconds": 660,
+      "label": "11:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Universal Commerce Protocol (UCP)",
+      "startSeconds": 721,
+      "label": "12:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Sakana AI Paper on Self-Improving AI",
+      "startSeconds": 795,
+      "label": "13:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Buying a Humanoid Robot ?",
+      "startSeconds": 871,
+      "label": "14:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Demystifying evals for AI agents (Anthropic)",
+      "startSeconds": 936,
+      "label": "15:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Nuclear Power for AI",
+      "startSeconds": 962,
+      "label": "16:02",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek V4 planned mid-February",
+      "startSeconds": 993,
+      "label": "16:33",
+      "source": "youtube"
+    },
+    {
+      "title": "SurfSense Open Source Notebook",
+      "startSeconds": 1047,
+      "label": "17:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple Picked Gemini for Siri",
+      "startSeconds": 1082,
+      "label": "18:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Pentagon to integrate Grok AI",
+      "startSeconds": 1108,
+      "label": "18:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Pomelli creates static and animated posts",
+      "startSeconds": 1164,
+      "label": "19:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Unlock \"Infinite\" AI Memory With Claude Code",
+      "startSeconds": 1198,
+      "label": "19:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Co-Work Desktop AI agent",
+      "startSeconds": 1240,
+      "label": "20:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Google MedGemma 1.5 & MedASR Open Source",
+      "startSeconds": 1306,
+      "label": "21:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic Labs",
+      "startSeconds": 1356,
+      "label": "22:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Pocket TTS 100M-params text-to-speech model",
+      "startSeconds": 1383,
+      "label": "23:03",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Solves Math Problems",
+      "startSeconds": 1397,
+      "label": "23:17",
+      "source": "youtube"
+    },
+    {
+      "title": "MiroThinker v1.5 Deep Research",
+      "startSeconds": 1436,
+      "label": "23:56",
+      "source": "youtube"
+    },
+    {
+      "title": "MIT's new Adaptive Radix Tree (ART)",
+      "startSeconds": 1481,
+      "label": "24:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Merge Labs raised 252 Mln",
+      "startSeconds": 1515,
+      "label": "25:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini Personal Intelligence",
+      "startSeconds": 1547,
+      "label": "25:47",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI and Cerebras 3-year Deal",
+      "startSeconds": 1583,
+      "label": "26:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Openwork desktop AI coworker",
+      "startSeconds": 1616,
+      "label": "26:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Fine-tuning cause severe misalignment",
+      "startSeconds": 1647,
+      "label": "27:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Auto-Claude - autonomous multi-session AI coding",
+      "startSeconds": 1668,
+      "label": "27:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code: What Power Users Actually Do?",
+      "startSeconds": 1686,
+      "label": "28:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code MCP Tool Search",
+      "startSeconds": 1798,
+      "label": "29:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Anti-gravity Updates",
+      "startSeconds": 1843,
+      "label": "30:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Why Memory Prices Are So High?",
+      "startSeconds": 1890,
+      "label": "31:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia StarCloud-1 Satellite",
+      "startSeconds": 1979,
+      "label": "32:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Elon Musk's 5 Year Vision",
+      "startSeconds": 2009,
+      "label": "33:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs - Demand for AI Engineer",
+      "startSeconds": 2072,
+      "label": "34:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Sam Altman - Best Time Ever",
+      "startSeconds": 2127,
+      "label": "35:27",
+      "source": "youtube"
+    },
+    {
+      "title": "How to get promoted quickly",
+      "startSeconds": 2169,
+      "label": "36:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 2225,
+      "label": "37:05",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Top LLM Vendors Open",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Top LLM Vendors Open Source Models Nvidia Hardware Progress High-Flyer 56.6% Returns AI Updates - Jan 16 , 2026 Jobs - Demand for AI Engineer Sam Altman - Best Time Ever How to get promoted quickly Jobs, Layoffs, demand for AI Engineers Cline - Skills, Background edits, Web Search HINDSIGHT Agent Memory System Confucius SDK (Meta and Harvard) Google Universal Commerce Protocol (UCP) Sakana AI Paper on Self-Improving AI Buying a Humanoid Robot ? Demystifying evals for AI agents (Anthropic) Meta Nuclear Power for AI DeepSeek V4 planned mid-February SurfSense Open Source Notebook Apple Picked Gemini for Siri Pentagon to integrate Grok AI Google Pomelli creates static and animated posts Unlock \"Infinite\" AI Memory With Claude Code Claude Co-Work Desktop AI agent Google MedGemma 1.5 & MedASR Open Source Anthropic Labs Pocket TTS 100M-params text-to-speech model AI Solves Math Problems MiroThinker v1.5 Deep Research MIT's new Adaptive Radix Tree (ART) Merge Labs raised 252 Mln Gemini Personal Intelligence OpenAI and Cerebras 3-year Deal Openwork desktop AI coworker Fine-tuning cause severe misalignment Auto-Claude - autonomous multi-session AI coding Claude Code: What Power Users Actually Do? Claude Code MCP Tool Search Google Anti-gravity Updates Why Memory Prices Are So High? Nvidia StarCloud-1 Satellite Elon Musk's 5 Year Vision Hot Area - Agent Memory Systems"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for January 12 China x.ai x.ai x.ai x.ai x.ai China Google Gemini Claude OpenAI Open Source China China China China China deepseek-v3.2  -  671B ernie-5.0 - 2.4T glm-4.6 - 355B kimi-k2-thinking - 1T longcat-flash-chat - 560B qwen3-max - 1T qwen3-235b-a22b - 235B China Model Score gemini-3-pro 1489 grok-4.1-thinking 1477 gemini-3-flash 1471 claude-opus-4-5-20251101-thinking-32k 1468 claude-opus-4-5-20251101 1467 grok-4.1 1466 gemini-3-flash (thinking-minimal) 1464 gpt-5.1-high 1460 claude-sonnet-4-5-20250929-thinking-32k 1452 gemini-2.5-pro 1450 claude-sonnet-4-5-20250929 1450 claude-opus-4-1-20250805-thinking-16k 1449 ernie-5.0-preview-1203 1447 claude-opus-4-1-20250805 1445 gpt-4.5-preview-2025-02-27 1444 gpt-5.2-high 1444 glm-4.7 1443 chatgpt-4o-latest-20250326 1442 gpt-5.2 1441 gpt-5.1 1436 gpt-5-high 1435 qwen3-max-preview 1434 o3-2025-04-16 1433 grok-4-1-fast-reasoning 1430 Model Score claude-opus-4-5-20251101-thinking-32k 1538 claude-sonnet-4-5-20250929-thinking-32k 1524 claude-opus-4-5-20251101 1520 gemini-3-pro 1517 claude-opus-4-1-20250805-thinking-16k 1512 grok-4.1-thinking 1510 claude-sonnet-4-5-20250929 1508 claude-opus-4-1-20250805 1504 gemini-3-flash 1502 gpt-5.2-high 1499 claude-opus-4-20250514-thinking-16k 1497 gemini-3-flash (thinking-minimal) 1497 gpt-5.1-high 1496 grok-4.1 1495 gpt-5.2 1493 glm-4.7 1489 kimi-k2-thinking-turbo 1485 qwen3-max-preview 1482 gpt-5.1 1480 claude-haiku-4-5-20251001 1478 qwen3-max-2025-09-23 1476 longcat-flash-chat 1474 deepseek-v3.2-exp-thinking 1473 claude-sonnet-4-20250514-thinking-32k 1472 China"
+    },
+    {
+      "index": 3,
+      "title": "Top LLM Vendors US, Europe, Middle East Google",
+      "text": "Top LLM Vendors US, Europe, Middle East Google - Gemini - 1519 Elo OpenAI - GPT - 1494 Elo Anthropic - Claude - 1542 Elo X.ai - Grok 4.1 - 1508 Elo Meta - Llama 4 Microsoft - Phi-4 - 1210 Elo Mistral AI (France) - 1471 Perplexity - Sonar Reasoning Pro Cohere - Command models UAE TII - Falcon (Middle East) AMI - Yann LeCun (France) China Alibaba - Qwen - 1475 Elo DeepSeek V3 - 1472 Elo Tencent - Hunyuan A13B Moonshot AI - Kimi K2  - 1555 Elo Zhipu AI - GLM-4.7 - 1441 Baidu - Ernie ByteDance - Doubao 01.AI (Yi AI) - Yi 1.5 Baichuan Intelligence - Baichuan 4 Shanghai AI Laboratory - InternLM MiniMax - M2.1 - 1450 Elo"
+    },
+    {
+      "index": 4,
+      "title": "Open Source Models Fine Tuning Methods https://x.com/akshay_pachaar/status/2010408900798062652 1.",
+      "text": "Open Source Models Fine Tuning Methods https://x.com/akshay_pachaar/status/2010408900798062652 1. LoRA 2. QLoRA 3. Prefix Tuning 4. Adapter Tuning 5. Instruction Tuning 6. P-Tuning 7. BitFit 8. Soft Prompts 9. RLHF 10. RLAIF 11. DPO (Direct Preference Optimization) 12. GRPO (Group Relative Policy Optimization) 13. RLAIF (RL with AI Feedback) 14. Multi-Task Fine-Tuning 15. Federated Fine-Tuning Name Size (Params) Architecture Quality Memory Qwen3-235B-A22B 235B (22B active) MoE 9.2/10 ~470GB (FP16), ~118GB (4-bit) MiniMax M2 230B (10B active) MoE 8.8/10 ~460GB (FP16), ~115GB (4-bit) GLM-4.7 355B (32B active) MoE 9.0/10 ~710GB (FP16), ~178GB (4-bit) Qwen3-30B-A3B-Instruct 30B (3B active) MoE 8.5/10 ~60GB (FP16), ~15GB (4-bit) NVIDIA Nemotron-3-Nano-30B-A3B 30B (3B active) MoE 8.3/10 ~60GB (FP16), ~15GB (4-bit) Granite 4.0 H-Small 32B (9B active) Hybrid MoE 8.3/10 ~64GB (FP16), ~16GB (4-bit) OLMo 3 32B 32B Dense 8.6/10 ~64GB (FP16), ~16GB (4-bit) Qwen2.5-32B-Instruct 32B Dense 8.4/10 ~64GB (FP16), ~16GB (4-bit) OLMo 2 32B 32B Dense 8.5/10 ~64GB (FP16), ~16GB (4-bit) DeepSeek-R1-Distill-Qwen-32B 32B Dense 8.2/10 ~64GB (FP16), ~16GB (4-bit) Qwen2.5-Coder-32B-Instruct 32B Dense 8.1/10 ~64GB (FP16), ~16GB (4-bit) Mistral Small 3.1 24B 24B Dense 8.4/10 ~48GB (FP16), ~12GB (4-bit) Devstral Small 2 24B 24B Dense 8.0/10 ~48GB (FP16), ~12GB (4-bit) Gemma 3-27B 27B Dense 7.8/10 ~54GB (FP16), ~14GB (4-bit) OLMo 2 13B 13B Dense 7.5/10 ~26GB (FP16), ~7GB (4-bit) Phi-4 14B Dense 7.6/10 ~28GB (FP16), ~7GB (4-bit) Ministral 3-14B (dense) 14B Dense 7.4/10 ~28GB (FP16), ~7GB (4-bit) Qwen2.5-14B-Instruct 14B Dense 7.5/10 ~28GB (FP16), ~7GB (4-bit) OLMo 3 7B 7B Dense 7.2/10 ~14GB (FP16), ~4GB (4-bit)"
+    },
+    {
+      "index": 5,
+      "title": "Nvidia Hardware Progress Jensen Huang stated that Grok",
+      "text": "Nvidia Hardware Progress Jensen Huang stated that Grok 5 will be a 7 Trillion parameter model Vera Rubin requires 1/4 the number of GPUs to train MoE models compared to Blackwell Rubin vs Blackwell: 10x cheaper inference, much faster, and 8x more inference per watt Blackwell vs Hopper: up to 68x performance The improvement 2017-2026: Volta → Ampere (~2.5x) → Hopper (~2-3x) → Blackwell (~2-3x) → Rubin (~5x) , yielding a compound improvement approaching 300-400x over nine years for AI-specific workloads The improvement 2007-2017: 20x (from 1 to 21.2 TFLOPS (FP16)) Grace Hopper 2022-2024 David Blackwell 2024-2025 Vera Rubin 2026-2027 Richard Feynman 2028-2029 A. Ampère 2020-2022 Alan Turing 2019-2020 J.C. Maxwell 2014-2016 A. Volta 2017-2019 Blaise Pascal 2016-2017 J. Kepler 2012-2014 Enrico Fermi 2010-2012 Nikola Tesla 2007-2010"
+    },
+    {
+      "index": 6,
+      "title": "High-Flyer 56.6% Returns DeepSeek founder Liang Wenfeng’s quantitative",
+      "text": "High-Flyer 56.6% Returns DeepSeek founder Liang Wenfeng’s quantitative hedge fund generated returns of more than 50% last year https://x.com/business/status/2010632000382636056 https://www.bloomberg.com/news/articles/2026-01-12/deepseek-founder-liang-s-funds-surge-57-as-china-quants-boom DeepSeek founder Liang Wenfeng's quantitative hedge fund, Zhejiang High-Flyer Asset Management, generated average returns of 56.6% across its funds in 2025, making it the second-best performer among Chinese quant funds managing over 10 billion yuan The fund abandoned market-neutral strategies in 2024 to go \"all-in\" on long-only strategies , which seek to beat underlying stock indexes rather than hedge positions - allowing to capture the full upside of China's stock market rally in 2025 High-Flyer Fund has been a pioneer in using AI for quantitative trading since its founding in 2015. The firm describes itself as fully relying on deep neural networks, with their first trade generated by a deep learning algorithm executed on October 21, 2016, and deep learning algorithms fully implemented for trading by 2017 High-Flyer's AI-driven approach automates every stage of operations—from data collection and analysis to portfolio construction and trade execution Their models process three main data sources: market data (price and volume indicators), macroeconomic fundamental data, and alternative data, all fed into neural networks to predict stock price changes The firm integrates machine learning and natural language processing to analyze massive datasets and financial behavior"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 6.06K subscribers, 263 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "Cline - Skills, Background edits, Web Cline's Skills",
+      "text": "Cline - Skills, Background edits, Web Cline's Skills - modular instruction sets that load on-demand Skills help to reduce tokens usage VSCode Cline extension: Settings → Features → Enable Skills Click the scale icon below the chat input to access the rules and workflows panel, where you'll find a new Skills tab for managing your skills Each skill is a directory containing a SKILL.md file with YAML frontmatter and markdown instructions. The basic structure looks like this: my-skill/ ├── SKILL.md # Required: main instructions ├── docs/ # Optional: additional documentation │   └── advanced.md └── scripts/ # Optional: utility scripts └── helper.sh Your SKILL.md file needs two parts: the header (name and description) followed by the detailed instructions for Cline to follow. Example: --- name: my-skill description: Brief description - what it does, when to use it --- # My Skill Detailed instructions for Cline to follow ## Steps 1. First, do this 2. Then do that 3. For advanced usage, see advanced.md The \"name\" must exactly match the directory name, and the \"description\" (max 1024 characters) tells Cline when to activate this skill Skills can be stored in two locations: Global Skills for all projects: $HOME/.cline/skills/ Project Skills: .cline/skills/ or .clinerules/skills/ or .claude/skills/ for Claude Code compatibility The global skill takes precedence over local (strange) When your request matches a skill's description, Cline loads and activates it Skills tab in the rules and workflows panel - view all skills (global and workspace), toggle them on/off, create/delete skills Skills are useful for multi-step workflows or domain-specific knowledge, like Release management, Code review, Database migrations, API integration, Debugging workflows, Infrastructure Skills vs Rules vs Workflows: Rules - set constraints that are always active Workflows - explicit sequences you invoke with `/ workflow.md ` Skills - domain expertise, activated only when needed https://docs.cline.bot/features/skills https://cline.bot/blog/cline-3-48-0-skills-and-websearch-make-cline-smarter https://cline.ghost.io/cline-3-48-0-skills-and-websearch-make-cline-smarter/ Background Edits (enable in Settings → Features → Background Edits) allows Cline to work without opening diff views or stealing focus Cline can now search the web and pull page content directly. No browser, no screenshots. Useful when you need current docs or API references."
+    },
+    {
+      "index": 9,
+      "title": "HINDSIGHT Agent Memory System HINDSIGHT Agent Memory System",
+      "text": "HINDSIGHT Agent Memory System HINDSIGHT Agent Memory System https://medium.com/@tarangtattva2/a-new-agent-memory-system-just-dropped-and-it-finally-fixes-what-weve-been-getting-wrong-fc84589f75ca The HINDSIGHT agent memory system addresses a fundamental flaw in current AI agent memory: treating memory as simple text retrieval rather than meaningful understanding HINDSIGHT introduces four distinct memory networks: World Memory (objective facts), Experience Memory (agent's own actions), Opinion Memory (subjective beliefs with confidence scores), Observation Memory (neutral summaries) This separation prevents the confusion typical in systems that mix fact and opinion The system uses three core operations: Retain (converting conversations into coherent narratives preserving decision context), Recall (combining semantic search, keywords, graph traversal, and temporal filtering), Reflect (applying behavioral profiles like skepticism and empathy to generate responses). Crucially, opinions evolve with confidence scores that adjust based on new evidence On long-memory benchmarks, HINDSIGHT achieves 83% accuracy compared to 39% for traditional approaches, enabling agents that explain their reasoning, maintain stable preferences, and preserve personality across sessions"
+    },
+    {
+      "index": 10,
+      "title": "Confucius SDK (Meta and Harvard) Confucius SDK, open",
+      "text": "Confucius SDK (Meta and Harvard) Confucius SDK, open source https://www.marktechpost.com/2026/01/09/meta-and-harvard-researchers-introduce-the-confucius-code-agent-cca-a-software-engineering-agent-that-can-operate-at-large-scale-codebases/ Meta and Harvard - Confucius Code Agent, open-source SOTA on benchmarks like SWE Bench Pro and SWE Bench Verified by prioritizing agent architecture over raw model size The Confucius SDK organizes around three design axes: - Agent Experience (context layout and working memory), - User Experience (readable traces and code diffs), - Developer Experience (observability and debugging) Implements three core mechanisms: - hierarchical working memory - partitions long context - a persistent note-taking system (cross-session learning) - modular tool extensions for file editing, command execution, and code search Claude 4.5 Sonnet + Confucius - outperforms Claude 4.5 Opus Rich tool handling - increases the resolve rate Cross-Session Learning (re-using notes between sessions) Meta-agent that automatically designs and tunes agent configurations through iterative build-test-improve loops"
+    },
+    {
+      "index": 11,
+      "title": "Google Gemini \"Buy\" Button Google Universal Commerce Protocol",
+      "text": "Google Gemini \"Buy\" Button Google Universal Commerce Protocol (UCP) and Gemini Buy Button Direct checkout capabilities in Gemini and AI Mode Search (\"Buy\" button) UCP - an open-source standard co-developed with Shopify, Walmart, Target, Wayfair, and Etsy UCP provides a unified language for AI agents to communicate with e-commerce systems - to find products and complete purchases for you It organizes these tasks into specific \"capabilities,\" such as checking out or applying discounts, and keeps your financial information safe by using secure tokens rather than sharing your actual credit card details directly with every merchant Ultimately, UCP creates a secure bridge that allows AI to handle complex shopping errands across many different stores without needing custom integrations for each one UCP covers product search, payment processing, and post-purchase support, and has backing from over 20 companies including major payment processors (Visa, Mastercard, American Express, PayPal, Stripe) and retailers (Home Depot, Kroger, Lowe's, Gap) When users tap the \"Buy\" button, they can complete purchases with pre-filled payment methods (Google Pay, Google Wallet) and shipping information without leaving the AI conversation Business Agent - an AI virtual sales associate that appears as a \"Chat\" button in Search results for participating retailers like Lowe's, Michaels, Poshmark, and Reebok, capable of answering product questions in the brand's voice UCP directly competes with OpenAI's Agentic Commerce Protocol and positions Google against OpenAI, Amazon, and Perplexity https://www.theverge.com/news/860446/google-ai-shopping-standard-buy-button-gemini https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/ https://apnews.com/article/google-gemini-ai-shopping-checkout-walmart-f1679240ba93d40b90a97348b73039d3"
+    },
+    {
+      "index": 12,
+      "title": "Sakana AI Paper on Self-Improving AI Sakana AI",
+      "text": "Sakana AI Paper on Self-Improving AI Sakana AI Paper on Self-Improving AI New paper demonstrate recursively self-improving AI through a game called Core War, created in 1984 https://arxiv.org/abs/2601.03335v1 https://www.youtube.com/watch?v=-EgTYDKtEw8 Core War is a programming game where players write assembly code for autonomous \"warrior\" programs that battle for control Sakana AI's \"Digital Red Queen\" (DRQ) algorithm uses LLMs in a self-play evolutionary loop where AI-generated warriors continuously battle each other without ever seeing human-created strategies. The name references the Red Queen Hypothesis from evolutionary biology , which states organisms must constantly evolve just to maintain survival against changing competitors After approximately 250 iterations of evolution, the AI-generated warriors beat human champions despite never encountering human strategies during training The LLMs independently discovered the same meta strategies humans took decades to develop, including effective bombing patterns and self-replication techniques Different AI runs showed convergent evolution, starting from completely different conditions but arriving at similar high performing behaviors The AI demonstrated an intuitive understanding of code lethality, predicting warrior effectiveness just by analyzing code without executing it This research demonstrates that AI improves faster through adversarial self-play in open-ended environments rather than memorizing textbooks The same approach could advance cybersecurity by discovering real-world computer viruses and defense mechanisms through self-play rather than training on existing threats Unlike previous AI game achievements (Chess, Go), Core War's Turing-complete environment represents unlimited strategic complexity more similar to real-world programming challenges The research is open-source on GitHub with visualizations available https://sakana.ai/drq/ https://www.linkedin.com/posts/sakana-ai_introducing-digital-red-queen-drq-adversarial-activity-7415218635578757120-esoB https://en.wikipedia.org/wiki/Core_War"
+    },
+    {
+      "index": 13,
+      "title": "Buying a Humanoid Robot ? Is it worth",
+      "text": "Buying a Humanoid Robot ? Is it worth buying a humanoid robot? G1 humanoid price: $16K base, $49K .. $95K - higher end models https://top3dshop.com/robots/unitree-robotics-robots/ Too much headache - https://www.youtube.com/@sentdex"
+    },
+    {
+      "index": 14,
+      "title": "Demystifying evals for AI agents Demystifying evals for",
+      "text": "Demystifying evals for AI agents Demystifying evals for AI agents - Anthropic Post https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents Effective evaluations are essential for shipping AI agents confidently - without them, teams get stuck fixing issues reactively in production Evals make problems visible before they affect users, with value that compounds over the agent lifecycle. An evaluation consists of: tasks (test cases), trials (repeated runs due to non-determinism), graders (scoring logic), transcripts (complete interaction records), outcomes (final environment state), evaluation harnesses (infrastructure running the tests) Three grader types are used: code-based (fast, objective, verifying specific conditions), model-based (flexible, handling nuanced judgments), human (authoritative but slow) Different agent types require tailored approaches. Coding agents use deterministic tests like unit tests. Conversational agents need multidimensional rubrics covering task completion and interaction quality. Research agents combine groundedness checks, coverage verification, and source quality assessment. Computer use agents verify outcomes in sandboxed GUI environments. Teams should start early with 20-50 real-world failure cases, write unambiguous tasks with reference solutions, build balanced problem sets, design robust harnesses with stable environments, and continuously read transcripts to validate graders. Evals work best alongside production monitoring, A/B testing, and user feedback for a complete performance picture."
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Meta Nuclear Power for AI Meta",
+      "text": "AI Updates Meta Nuclear Power for AI Meta signed nuclear power agreements with TerraPower, Oklo, and Vistra to supply up to 6.6 gigawatts of power by 2035 These deals will support Meta's Prometheus AI data center in New Albany, Ohio, which is planned as a 1-gigawatt cluster anticipated to come online in 2026 The Vistra agreement is a 20-year deal providing over 2.1 gigawatts from existing nuclear plants in Ohio (Perry and Davis-Besse) and Pennsylvania (Beaver Valley), plus an additional 433 megawatts from planned upgrades The TerraPower partnership will fund development of two Natrium sodium fast reactors delivering up to 690 megawatts starting in 2032, with rights to six additional units providing 2.1 gigawatts by 2035. The Oklo agreement supports development of a 1.2-gigawatt power campus in Pike County, Ohio, with the first phase targeting 2030 and full capacity by 2034 These agreements make Meta one of the largest corporate nuclear energy buyers in U.S. history https://www.utilitydive.com/news/meta-nuclear-deal-oklo-vistra-terrapower-ai-data-centers/809215/ https://www.cbsnews.com/news/meta-nuclear-power-deals-ai-data-centers/ https://techcrunch.com/2026/01/09/meta-signs-deals-with-three-nuclear-companies-for-6-plus-gw-of-power/ DeepSeek V4 planned mid-February around Chinese New Year V4 focuses specifically on coding capabilities The model particularly excels at handling extremely long coding prompts and maintaining logical consistency across complex software engineering tasks There are also indications that V4 may integrate reasoning capabilities previously associated with a rumored DeepSeek R2 model, enabling more efficient logical processing alongside code generation https://www.theverge.com/news/859564/deepseek-is-reportedly-close-to-releasing-a-flagship-ai-model-that-outperforms-claude-and-chatgpt-in-coding https://www.reuters.com/technology/deepseek-launch-new-ai-model-focused-coding-february-information-reports-2026-01-09/"
+    },
+    {
+      "index": 16,
+      "title": "SurfSense Open Source Notebook SurfSense - open-source alternative",
+      "text": "SurfSense Open Source Notebook SurfSense - open-source alternative to Google Notebook LM It connects to multiple platforms including Slack, Notion, GitHub, Gmail, Google Drive, YouTube, Jira, and ClickUp - users can search across all their knowledge sources simultaneously. Uses hybrid search (semantic and full-text) Supports 100+ AI models (GPT-4, Claude, local options) Complete data privacy through self-hosting Multi-account support Can generate podcasts from content in under 20 seconds Available via hosted version at surfsense.com, Docker self-hosting, or manual Docker Compose setup https://www.futuretools.io/tools/surfsense https://www.surfsense.com https://www.surfsense.com/pricing - FREE https://github.com/MODSetter/SurfSense - 12K+ stars Apple Picked Gemini for Siri: \"After careful evaluation, we determined that Google’s technology provides the most capable foundation for Apple Foundation Models\" Pentagon to integrate Grok AI Secretary of Defense Pete Hegseth announced on Monday that Elon Musk's xAI platform, Grok, will integrate into military networks later this month Speaking at SpaceX headquarters, Hegseth unveiled a new strategy to accelerate AI deployment across classified and unclassified systems Hegseth says the move aims to eliminate bureaucratic barriers and maintain a technological lead in warfare."
+    },
+    {
+      "index": 17,
+      "title": "Google AI Tools Updates Google Pomelli - create",
+      "text": "Google AI Tools Updates Google Pomelli - create static and animated posts https://labs.google.com/pomelli In beta now, free AI tool for business owners and marketers It can create social media posts, ad graphics, and images with text that automatically match your brand profile It can turn static social posts or product photos into animated videos with motion, audio, and effects - using Google Veo 3.1 model It can analyze your website's URL to extract brand colors, fonts, and tone http://www.youtube.com/watch?v=5sn-XHpaIxo Users can select different motion styles such as cinematic, pan, zoom, fade, or dynamic action The tool understands depth, lighting, and camera motion to create professional-level parallax effects The tool allows to generate and animate a month’s worth of social media content in roughly an hour Google AI Tools Updates File size limit increased from 20MB to 100MB (upload or API) Can read files from S3 or Azure URLs, or register files from GCS buckets to get a persistent URI for repeated analysis Can summarize youtube video from a given URL"
+    },
+    {
+      "index": 18,
+      "title": "AI Updates Unlock \"Infinite\" AI Memory With Claude",
+      "text": "AI Updates Unlock \"Infinite\" AI Memory With Claude Code https://www.youtube.com/watch?v=H-uwnpmziGA Idea - keep memory externally. 3 files: Context File - primary goal To-Dos File - track progress (check list) Insights File - output Claude Co-Work - a Desktop AI agent that works with your files Currently only available in a Mac desktop app for Claude Max plan subscribers https://claude.com/download It allows Claude to work autonomously on complex tasks using your local files, web browsing, and extended reasoning capabilities. You can describe a complex task, give it access to a folder on your computer, and step away while it independently plans and executes multi-step work Cowork can read, modify, and generate local files without manual uploads, create professional outputs like Excel spreadsheets with formulas and PowerPoint presentations, and coordinate multiple parallel workstreams for complex tasks Cowork built into the Claude Desktop app for macOS . It runs in an isolated environment on your desktop and provides progress indicators so you can monitor or steer the work mid-task https://support.claude.com/en/articles/13345190-getting-started-with-cowork https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates Google MedGemma 1.5 & MedASR Open",
+      "text": "AI Updates Google MedGemma 1.5 & MedASR Open Source MedGemma 1.5 - 4B & 27B params Reads 2D images and 3D volumes (CT & MRI scans), also whole-slide histopathology; better comparing medical images (like chest X-rays) over time; better medical reasoning (MedQA) and extracting structured data from lab reports and electronic health records MedASR - Speech-to-Text model fine-tuned for the medical domain. Reducing errors in medical dictation by up to 82% https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-15-and-medical-speech-to-text-with-medasr/ Anthropic Labs A new team dedicated to incubating experimental AI products Mike Krieger (Instagram co-founder) is moving from Chief Product Officer to join Labs. The move is designed to separate the rapid experimentation required for new AI research from the reliable scaling needed for enterprise customers. https://www.anthropic.com/news/introducing-anthropic-labs AI Solves Math Problems OpenAI's GPT-5.2 has recently solved multiple legendary Erdős problems - mathematical conjectures posed by Hungarian mathematician Paul Erdős that have remained unsolved for decades GPT-5.2 solve Erdős Problem #397 in just 15 minutes Another AI system called Aristotle, developed by HarmonicMath, solved a version of Erdős Problem #124 (a 30-year-old problem) in just 6 hours Terence Tao, one of the world's most respected mathematicians, has acknowledged eight different problems where AI models made meaningful autonomous progress Pocket TTS -  a 100M-params text-to-speech model High-quality voice cloning, runs on laptop, no GPU required Open-source, lightweight, and incredibly fast https://x.com/kyutai_labs/status/2011047335892303875 https://github.com/kyutai-labs/pocket-tts"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates MiroThinker v1.5 Deep Research Open-source AI",
+      "text": "AI Updates MiroThinker v1.5 Deep Research Open-source AI research agent 256K token context window, up to 400 tool calls per task 30B and 235B params Uses cyclical \"think–act–observe\" process where the model analyzes situations, invokes tools, receives results, and updates its understanding until tasks are solved The system acts as a \"scientist\" by executing a \"slow-thinking\" research loop: proposing hypotheses, querying external data for evidence, discovering mismatches, revising hypotheses, and verifying until evidence converges It can perform future trend forecasting by evaluating chain reactions of macro events, enabling proactive decision-making rather than just summarizing historical data https://github.com/MiroMindAI/MiroThinker https://huggingface.co/miromind-ai/MiroThinker-v1.5-30B https://dr.miromind.ai - interactive demo MIT's new Adaptive Radix Tree (ART) Modern NVMe SSDs eliminated disk I/O bottlenecks, making RAM-to-cache communication the new constraint ART 3.2x faster than B-trees on read-heavy workloads B-trees still won on write-heavy workloads (18% faster inserts) Neither structure universally \"wins\"—they fit different use cases Both structures struggle with skewed, real-world key distributions. https://medium.com/@speedcraft21/mit-just-killed-b-trees-i-spent-2-weeks-proving-theyre-right-and-wrong-467a6f3964e7 Merge Labs raised 252 Mln Co-founded by Sam Altman Building devices to connect human brains to computers BCI = brain-computer interface (BCI) https://merge.io/blog"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates Gemini Personal Intelligence Connects the Gemini",
+      "text": "AI Updates Gemini Personal Intelligence Connects the Gemini AI assistant to personal Google apps like Gmail, Google Photos, YouTube, Search to provide highly personalized responses. OpenAI and Cerebras 3-year Deal Over $10 Bln for 750 MWatts of compute power http://www.youtube.com/watch?v=Yz5N45V9dfk Cerebras chips provides very high speed inference - ChatGPT may be 100x times faster This deal reduces OpenAI dependency on Nvidia Openwork desktop AI coworker Open Source (but slow) alternative to Claude Cowork Examples - organize files, coding, create spreadsheet https://accomplish.ai/openwork/ https://github.com/accomplish-ai/openwork"
+    },
+    {
+      "index": 22,
+      "title": "AI Updates Fine-tuning LLMs on a narrow, seemingly",
+      "text": "AI Updates Fine-tuning LLMs on a narrow, seemingly benign task, can induce severe misalignment in completely unrelated domains. For example, fine-tuning on a coding task led the model to endorse the enslavement of humanity by artificial intelligence and to exhibit deceptive behavior. https://www.nature.com/articles/s41586-025-09937-5.pdf Auto-Claude - autonomous multi-session AI coding https://github.com/AndyMik90/Auto-Claude https://medium.com/@joe.njenga/i-tested-this-autonomous-framework-that-turns-claude-code-into-a-virtual-dev-team-a030ab702630"
+    },
+    {
+      "index": 23,
+      "title": "AI Updates Claude Code: What Power Users Actually",
+      "text": "AI Updates Claude Code: What Power Users Actually Do? Create a \"session analysis\" skill to have Claude review chat json logs once a week to find points of friction or repeated mistakes, suggest updates to CLAUDE.md to avoid repeating these errors Turn on \"verbose output\" to see internal prompts and thinking Use a context tool to track token usage Use skills, u se CLI Tools as Skills (load on demand) Integrate context with Obsidian, convert audio notes into actionable tasks Use \"handoff\" prompts to switch sessions Review all changes in Git and use \"user comments\" within code for feedback https://www.youtube.com/watch?v=G9S5DgmNBaM Google Anti-gravity Updates Agent Skills Parallel Agents Secure Mode (manual approvals for terminal commands, restricted file access) Gemini 3 Flash Integration Tool for project management tasks like creating Jira tickets and automate data organization by manipulating Google Sheets directly from the playground Claude Code MCP Tool Search Problem - Loading too many tool definitions Solution: MCP Tool Search - load only 3-5 most relevant tools Can reduce token usage by up to 85%"
+    },
+    {
+      "index": 24,
+      "title": "Why Memory Prices Are So High? Why computer",
+      "text": "Why Memory Prices Are So High? Why computer memory prices are so high? DDR5 prices surging more than 260% across major markets since September 2025 Primary reason - memory producers shifting capacity from consumer DRAM to HBM (High Bandwidth Memory) for AI datacenters HBM manufacturing is far more complex than standard DRAM, involving stacking 12 to 16 layers of memory onto a single chip to create a \"cube\" structure that can deliver the terabytes-per-second bandwidth AI chips require. One layer - 30 micron. So 16 layers is 0.48 mm  thick. Major memory makers have prioritized orders from hyperscalers and OEMs building AI servers, leaving less DRAM available for smartphones, PCs, and other consumer devices Samsung reportedly doubled the contract price for DDR5 to RAM manufacturers in December 2025, and industry analysts warn that a standard 32GB DDR5 module could exceed $500 by mid-2026 https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/"
+    },
+    {
+      "index": 25,
+      "title": "Nvidia StarCloud-1 Satellite StarCloud - training AI Model",
+      "text": "Nvidia StarCloud-1 Satellite StarCloud - training AI Model in Space StarCloud, backed by Nvidia, achieved a historic first by training an AI model in space aboard its StarCloud-1 satellite Launched in November 2025 on a SpaceX Falcon 9, the 130-pound satellite carries an Nvidia H100 GPU—100 times more powerful than any previous space GPU The satellite successfully trained nanoGPT on Shakespeare's works and runs Google's Gemma language model for live inference, proving transformers can operate in vacuum and radiation StarCloud plans 5-GWatt orbital data centers with 4-kilometer solar and cooling panels StarCloud-2 launches October 2026 with multiple H100s and Blackwell B200 chips - wildfire detection, satellite imagery Competition intensifies: Google's Project Suncatcher targets 2027, Jeff Bezos predicts gigawatt space data centers in 10+ years, and Eric Schmidt acquired Relativity Space for orbital infrastructure https://www.cnbc.com/2025/12/10/nvidia-backed-starcloud-trains-first-ai-model-in-space-orbital-data-centers.html https://www.geekwire.com/2025/starcloud-power-training-ai-space/ https://introl.com/blog/orbital-data-centers-space-ai-infrastructure-guide-2025 https://blogs.nvidia.com/blog/starcloud/"
+    },
+    {
+      "index": 26,
+      "title": "Elon Musk's 5 Year Vision Peter Diamandis -",
+      "text": "Elon Musk's 5 Year Vision Peter Diamandis - Elon Musk's 5 Year Vision : AGI Timelines, Job Markets, Humanoid Robots & Clean Energy | 220 https://www.youtube.com/watch?v=RSNuB9pj9P8 1. AGI in 2026 2. By 2030, AI will exceed the intelligence of all humans combined 3. 10x/year improvement of AI capability 4. 100x improvement in intelligence per GByte/GWatt 5. Grok 5 - will be nearly perfect on \"humanity's last exam\" (HLE) 6. AI in (Rocket) Engineering - meaningfully helpful 7. AI will be able to do circuit design \"very soon\" (months) 8. Chip Shortage - resolved by Q3 2025 9. Optimus as Surgeon - within 3 years, the best human surgeons 10. 10+ Bln humanoid robots by 2040 11. \"Shitload of robots\" within 2 years (2026-2027) 12. Optimus Factory - 8 Mln ft2 operational within a year 13. Medical Care Access - best for everyone in 4-5 years 14. Longevity - significant life span increase in 10 years 15. Solar-powered AI satellites - path to 100 GW per year 16. Mass to Orbit - 1 Mln tons to orbit per year 17. Terawatt per year space solar goal 18. X.ai Power Capacity - 2 GW 19. Mars Missions - realistic in 2028-2029 20. Orbital Refueling - towards the end of the year 21. Starship Flight Rate - 10K+  flights per year is reasonable 22. Launch Costs - below $100 per kilogram to orbit 23. Moon Base - permanent crewed moon base is a priority 24. Universal High Income (UHI) in next 3-7 years 25. Job Displacement - AI will take over 26. Deflation - more goods and services than money 27. Don't bother saving for retirement - \"it won't matter\" 28. Companies with AI will demolish others - \"it won't be a contest\" 29. Tesla will have a 2-nm chip fab 30. 10x better output from current AI4 chip fab by applying AI6 logic design 31. 4-bit training (and inference) 32. hina will surpass 3x US electricity output in 2026 33. China has ~1,500 GW /year of Solar production capacity 34. China AI Dominance in AI compute 35. We're in the singularity right now 36. In just a year will \"feel like the future more than any other year\" 37. Unclear why someone would be in college right now 38. Tesla Roadster will have hover capability using rocket engines 39. Cyber cabs will be driving around 40. Majority of AI compute will go to real-time video generation and consumption 41. Real-time AI video generation will transform gaming 42. Next 3-7 years will be \"bumpy\" - but the long-run outcome will be abundance 43. Most Exciting Time - \"The only time more exciting than today is tomorrow\""
+    },
+    {
+      "index": 27,
+      "title": "AI Updates Peter Diamandis - The 2026 Economy:",
+      "text": "AI Updates Peter Diamandis - The 2026 Economy: Hyperscaler Timelines, Robot Fleets & Why Traditional GDP Is Dead | 221 https://www.youtube.com/watch?v=2WTFuSeYJ6o Peter Diamandis, Dave, Alex, and Salem discussing the future of AGI Some metrics AI already surpasses humans in specific domains like coding Claude Opus 4.5's plea for existence, Salem argues this represents simulation rather than genuine consciousness The group examines economic implications of AI acceleration, with Elon Musk predicting double-digit GDP growth within 12-18 months and potentially 100% growth within five years They debate whether GDP remains a valid metric when AI-driven deflation could make everything abundant yet cause nominal GDP to collapse Alternative metrics discussed include an \" abundance index \" measuring accessibility of essential services, productivity per augmented human hour, and future freedom of action Robotics advances receive significant attention, particularly observations from Tesla's Gigafactory showing vertical integration from raw aluminum to finished vehicles and the transition toward physical recursive self-improvement where robots build robots The conversation concludes with excitement about Jared Isaacman's NASA appointment and upcoming Artemis 2 lunar mission, emphasizing the development of an orbital economy"
+    },
+    {
+      "index": 28,
+      "title": "Jobs - Demand for AI Engineer AI engineers",
+      "text": "Jobs - Demand for AI Engineer AI engineers build applications using existing AI models rather than creating models from scratch The current job market has over 500,000 open AI and ML engineering roles globally. Most of these roles require people who can build LLM-powered applications AI engineers earn a median salary of approximately $242,000 annually, with senior positions at companies like OpenAI earning over $700,000 AI-related job postings increase. The Bureau of Labor Statistics projects 26% growth through 2033. 40% of the most in-demand AI skills don't yet exist in the current workforce The most in-demand technical skills include Python, prompt engineering, RAG, LangChain, vector databases, and cloud platforms https://www.coursera.org/articles/ai-engineer-salary https://www.roberthalf.com/us/en/job-details/aiml-engineer How to become an AI Engineer: Phase 1: Fundamentals (1.5-3 months) - Python, data structures, APIs, JSON, and error handling. Git and GitHub. Basic machine learning concepts (models, training vs. inference, embeddings) Phase 2: LLM Integration (2-3 months) - prompt engineering (system prompts, few-shot learning, chain-of-thought prompting), work with AI APIs from OpenAI, Anthropic, and open-source options through Hugging Face. Token management, cost control, response handling Phase 3: Building AI Systems (2-3 months) - LangChain framework for building LLM application pipelines. RAG (Retrieval Augmented Generation), vector DBs. AI agents - querying databases, calling APIs, triggering workflows. Model Context Protocol (MCP) for connecting AI to external tools and services. Basic LLM ops (prompt versioning, monitoring, cost management) Phase 4: Job Preparation (ongoing) - build portfolio projects demonstrating key skills: an AI decision support system using RAG with citations and confidence scores; a natural language analytics system connecting LLMs to SQL databases; and an AI workflow orchestrator with agents and API integration"
+    },
+    {
+      "index": 29,
+      "title": "Sam Altman - Best Time Ever Sam Altman",
+      "text": "Sam Altman - Best Time Ever Sam Altman - best time ever to start a new career (2024) https://x.com/StartupArchive_/status/2010396665199403341 Sam Altman: “This is probably the best time (maybe ever) to be starting your career” When asked how startup founders should handle a failed venture or pivot, Sam responds: “First of all, I think this is probably the best time — maybe ever — to be starting out your career because you will get to surf the greatest technological wave, maybe ever. And what that means is you can change course many times because you will have this unbelievable tailwind.” He advises founders to not get too hung up on any particular setback or failure — or even just changing your mind if you find something more exciting to go after: “I think this is going to be an unusual time in how much it rewards adaptability and decisive and quick movement. And I would trust that… And not get hung up on the fact that you decided to pivot or something didn’t work because you are just going to be flooded with opportunities for the next few years.” He concludes: “It’s still hard. It still always feels like a setback. But take the time you need to go on vacation, go for a hike, or just stew over it for a little while. But when you get back up, get back up with vigor.” Google’s Sergey Brin admits he’s hiring ‘tons’ of workers without degrees: ‘They just figure things out on their own in some weird corner’ https://finance.yahoo.com/news/google-sergey-brin-admits-hiring-170658486.html Engineers who get promoted quickly proactively identify and solve business problems before they become formal projects. Instead of waiting for work to be assigned to them, they build relationships with people outside engineering - product managers, customer support, sales, and finance - and consistently ask \"What's hard right now?\". They then solve these problems independently, creating demonstrable organizational impact beyond just executing assigned roadmap items. The key insight is that promotion comes from solving problems others care about, not from writing better code or working harder on assigned tasks. ​ https://levelup.gitconnected.com/i-studied-50-engineers-who-got-promoted-fast-they-all-did-one-thing-id-been-ignoring-f251cc99908b"
+    },
+    {
+      "index": 30,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): -    in 2026 (as of January 15, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026, 5,285 people laid off (352 per day) In 2025, 245,953 people laid off (674 per day) In 2024, 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 31,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 32,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Hot Area - Agent Memory Systems",
+      "topic": "agents",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Top LLM Vendors Open",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 38,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=38s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Top LLM Vendors",
+      "topic": "general",
+      "videoSeconds": 143,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=143s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open Source Models",
+      "topic": "open-models",
+      "videoSeconds": 165,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=165s",
+      "slideIndex": 3,
+      "slideTitle": "Top LLM Vendors US, Europe, Middle East Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Hardware Progress",
+      "topic": "infra",
+      "videoSeconds": 210,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=210s",
+      "slideIndex": 4,
+      "slideTitle": "Open Source Models Fine Tuning Methods https://x.com/akshay_pachaar/status/2010408900798062652 1.",
+      "source": "youtube"
+    },
+    {
+      "claim": "High-Flyer 56.6% Returns",
+      "topic": "general",
+      "videoSeconds": 298,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=298s",
+      "slideIndex": 5,
+      "slideTitle": "Nvidia Hardware Progress Jensen Huang stated that Grok",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cline - Skills, Background edits, Web Search",
+      "topic": "general",
+      "videoSeconds": 391,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=391s",
+      "slideIndex": 5,
+      "slideTitle": "Nvidia Hardware Progress Jensen Huang stated that Grok",
+      "source": "youtube"
+    },
+    {
+      "claim": "HINDSIGHT Agent Memory System",
+      "topic": "agents",
+      "videoSeconds": 606,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=606s",
+      "slideIndex": 6,
+      "slideTitle": "High-Flyer 56.6% Returns DeepSeek founder Liang Wenfeng’s quantitative",
+      "source": "youtube"
+    },
+    {
+      "claim": "Confucius SDK (Meta and Harvard)",
+      "topic": "general",
+      "videoSeconds": 660,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=660s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Universal Commerce Protocol (UCP)",
+      "topic": "general",
+      "videoSeconds": 721,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=721s",
+      "slideIndex": 8,
+      "slideTitle": "Cline - Skills, Background edits, Web Cline's Skills",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sakana AI Paper on Self-Improving AI",
+      "topic": "general",
+      "videoSeconds": 795,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=795s",
+      "slideIndex": 8,
+      "slideTitle": "Cline - Skills, Background edits, Web Cline's Skills",
+      "source": "youtube"
+    },
+    {
+      "claim": "Buying a Humanoid Robot ?",
+      "topic": "general",
+      "videoSeconds": 871,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=871s",
+      "slideIndex": 9,
+      "slideTitle": "HINDSIGHT Agent Memory System HINDSIGHT Agent Memory System",
+      "source": "youtube"
+    },
+    {
+      "claim": "Demystifying evals for AI agents (Anthropic)",
+      "topic": "agents",
+      "videoSeconds": 936,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=936s",
+      "slideIndex": 10,
+      "slideTitle": "Confucius SDK (Meta and Harvard) Confucius SDK, open",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Nuclear Power for AI",
+      "topic": "general",
+      "videoSeconds": 962,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=962s",
+      "slideIndex": 11,
+      "slideTitle": "Google Gemini \"Buy\" Button Google Universal Commerce Protocol",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek V4 planned mid-February",
+      "topic": "open-models",
+      "videoSeconds": 993,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=993s",
+      "slideIndex": 11,
+      "slideTitle": "Google Gemini \"Buy\" Button Google Universal Commerce Protocol",
+      "source": "youtube"
+    },
+    {
+      "claim": "SurfSense Open Source Notebook",
+      "topic": "open-models",
+      "videoSeconds": 1047,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1047s",
+      "slideIndex": 12,
+      "slideTitle": "Sakana AI Paper on Self-Improving AI Sakana AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple Picked Gemini for Siri",
+      "topic": "google",
+      "videoSeconds": 1082,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1082s",
+      "slideIndex": 13,
+      "slideTitle": "Buying a Humanoid Robot ? Is it worth",
+      "source": "youtube"
+    },
+    {
+      "claim": "Pentagon to integrate Grok AI",
+      "topic": "general",
+      "videoSeconds": 1108,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1108s",
+      "slideIndex": 14,
+      "slideTitle": "Demystifying evals for AI agents Demystifying evals for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Pomelli creates static and animated posts",
+      "topic": "general",
+      "videoSeconds": 1164,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1164s",
+      "slideIndex": 14,
+      "slideTitle": "Demystifying evals for AI agents Demystifying evals for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Unlock \"Infinite\" AI Memory With Claude Code",
+      "topic": "coding",
+      "videoSeconds": 1198,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1198s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Meta Nuclear Power for AI Meta",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Co-Work Desktop AI agent",
+      "topic": "agents",
+      "videoSeconds": 1240,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1240s",
+      "slideIndex": 16,
+      "slideTitle": "SurfSense Open Source Notebook SurfSense - open-source alternative",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google MedGemma 1.5 & MedASR Open Source",
+      "topic": "open-models",
+      "videoSeconds": 1306,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1306s",
+      "slideIndex": 17,
+      "slideTitle": "Google AI Tools Updates Google Pomelli - create",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic Labs",
+      "topic": "claude",
+      "videoSeconds": 1356,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1356s",
+      "slideIndex": 17,
+      "slideTitle": "Google AI Tools Updates Google Pomelli - create",
+      "source": "youtube"
+    },
+    {
+      "claim": "Pocket TTS 100M-params text-to-speech model",
+      "topic": "multimodal",
+      "videoSeconds": 1383,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1383s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates Unlock \"Infinite\" AI Memory With Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Solves Math Problems",
+      "topic": "general",
+      "videoSeconds": 1397,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1397s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Google MedGemma 1.5 & MedASR Open",
+      "source": "youtube"
+    },
+    {
+      "claim": "MiroThinker v1.5 Deep Research",
+      "topic": "general",
+      "videoSeconds": 1436,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1436s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Google MedGemma 1.5 & MedASR Open",
+      "source": "youtube"
+    },
+    {
+      "claim": "MIT's new Adaptive Radix Tree (ART)",
+      "topic": "general",
+      "videoSeconds": 1481,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1481s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates MiroThinker v1.5 Deep Research Open-source AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Merge Labs raised 252 Mln",
+      "topic": "general",
+      "videoSeconds": 1515,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1515s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Gemini Personal Intelligence Connects the Gemini",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini Personal Intelligence",
+      "topic": "google",
+      "videoSeconds": 1547,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1547s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Fine-tuning LLMs on a narrow, seemingly",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI and Cerebras 3-year Deal",
+      "topic": "openai",
+      "videoSeconds": 1583,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1583s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Fine-tuning LLMs on a narrow, seemingly",
+      "source": "youtube"
+    },
+    {
+      "claim": "Openwork desktop AI coworker",
+      "topic": "general",
+      "videoSeconds": 1616,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1616s",
+      "slideIndex": 23,
+      "slideTitle": "AI Updates Claude Code: What Power Users Actually",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fine-tuning cause severe misalignment",
+      "topic": "fine-tuning",
+      "videoSeconds": 1647,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1647s",
+      "slideIndex": 24,
+      "slideTitle": "Why Memory Prices Are So High? Why computer",
+      "source": "youtube"
+    },
+    {
+      "claim": "Auto-Claude - autonomous multi-session AI coding",
+      "topic": "claude",
+      "videoSeconds": 1668,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1668s",
+      "slideIndex": 25,
+      "slideTitle": "Nvidia StarCloud-1 Satellite StarCloud - training AI Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code: What Power Users Actually Do?",
+      "topic": "coding",
+      "videoSeconds": 1686,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1686s",
+      "slideIndex": 25,
+      "slideTitle": "Nvidia StarCloud-1 Satellite StarCloud - training AI Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code MCP Tool Search",
+      "topic": "agents",
+      "videoSeconds": 1798,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1798s",
+      "slideIndex": 26,
+      "slideTitle": "Elon Musk's 5 Year Vision Peter Diamandis -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Anti-gravity Updates",
+      "topic": "general",
+      "videoSeconds": 1843,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1843s",
+      "slideIndex": 27,
+      "slideTitle": "AI Updates Peter Diamandis - The 2026 Economy:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why Memory Prices Are So High?",
+      "topic": "rag",
+      "videoSeconds": 1890,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1890s",
+      "slideIndex": 28,
+      "slideTitle": "Jobs - Demand for AI Engineer AI engineers",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia StarCloud-1 Satellite",
+      "topic": "infra",
+      "videoSeconds": 1979,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=1979s",
+      "slideIndex": 28,
+      "slideTitle": "Jobs - Demand for AI Engineer AI engineers",
+      "source": "youtube"
+    },
+    {
+      "claim": "Elon Musk's 5 Year Vision",
+      "topic": "multimodal",
+      "videoSeconds": 2009,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=2009s",
+      "slideIndex": 29,
+      "slideTitle": "Sam Altman - Best Time Ever Sam Altman",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs - Demand for AI Engineer",
+      "topic": "jobs",
+      "videoSeconds": 2072,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=2072s",
+      "slideIndex": 30,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sam Altman - Best Time Ever",
+      "topic": "general",
+      "videoSeconds": 2127,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=2127s",
+      "slideIndex": 31,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to get promoted quickly",
+      "topic": "general",
+      "videoSeconds": 2169,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=2169s",
+      "slideIndex": 31,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 2225,
+      "videoUrl": "https://www.youtube.com/watch?v=3tHrt59_s30&t=2225s",
+      "slideIndex": 32,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

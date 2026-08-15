@@ -1,0 +1,327 @@
+{
+  "id": "2023-05-26-2023-05-26-dl-terms-rachael",
+  "date": "2023-05-26",
+  "title": "DL-Terms-Rachael",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "agents",
+    "multimodal",
+    "ml-fundamentals",
+    "openai"
+  ],
+  "video": {
+    "id": "GBuLtoVHu1k",
+    "title": "50 Most Appeared Deep-Learning Keywords - May 26, 2023",
+    "url": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+    "thumbnail": "https://i.ytimg.com/vi/GBuLtoVHu1k/hqdefault.jpg",
+    "duration": 2596
+  },
+  "deck": {
+    "path": "2023/2023-05-26-DL-Terms-Rachael.pptx",
+    "filename": "2023-05-26-DL-Terms-Rachael.pptx",
+    "title": "DL-Terms-Rachael",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-05-26-DL-Terms-Rachael.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-05-26-DL-Terms-Rachael.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Reinforcement Learning",
+      "startSeconds": 483,
+      "label": "08:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Deep Leaming",
+      "startSeconds": 714,
+      "label": "11:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Representation Learning",
+      "startSeconds": 1094,
+      "label": "18:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Transformer",
+      "startSeconds": 1350,
+      "label": "22:30",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "50 Most-Appeared Keywords for Deep Learning in 2023",
+      "text": "50 Most-Appeared Keywords for Deep Learning in 2023 Rachael Phillips"
+    },
+    {
+      "index": 2,
+      "title": "Rachael Phillips – Senior Consultant at Microsoft rachael.aphillips@outlook.com",
+      "text": "Rachael Phillips – Senior Consultant at Microsoft rachael.aphillips@outlook.com rphillips@microsoft.com https://www.adventurewithrachael.com"
+    },
+    {
+      "index": 3,
+      "title": "| Keyword | 2022 | 2023 | |:-----------------------------------|-------:|-------:|",
+      "text": "| Keyword                            |   2022 |   2023 | |:-----------------------------------|-------:|-------:| | reinforcement learning             |      1 |      1 | | deep learning                      |      2 |      2 | | representation learning            |      4 |      3 | | graph neural network               |      3 |      4 | | transformer                        |      5 |      5 | | federate learning                  |      7 |      6 | | self-supervised learning           |      6 |      7 | | contrastive learning               |     10 |      8 | | robustness                         |      9 |      9 | | generative model                   |      8 |     10 | | continual learning                 |     14 |     11 | | neural network                     |     12 |     12 | | transfer learning                  |     15 |     13 | | diffusion model                    |    173 |     14 | | generalization                     |     11 |     15 | | language model                     |     21 |     16 | | computer vision                    |     13 |     17 | | knowledge distillation             |     23 |     18 | | vision transformer                 |     20 |     19 | | offline reinforcement learning     |     59 |     20 | | optimization                       |     24 |     21 | | fairness                           |     43 |     22 | | differential privacy               |     45 |     23 | | semi-supervised learning           |     31 |     24 | | unsupervised learning              |     32 |     25 | | Keyword                            |   2022 |   2023 | |:-----------------------------------|-------:|-------:| | deep reinforcement learning        |     26 |     26 | | machine learning                   |     17 |     27 | | interpretability                   |     16 |     28 | | meta-learning                      |     22 |     29 | | adversarial robustness             |     18 |     30 | | multi-agent reinforcement learning |     34 |     31 | | large language model               |    208 |     32 | | optimal transport                  |     33 |     33 | | data augmentation                  |     30 |     34 | | few-shot learning                  |     27 |     35 | | domain generalization              |     55 |     36 | | nlp                                |     40 |     37 | | adversarial attack                 |     25 |     38 | | domain adaptation                  |     28 |     39 | | time series                        |     58 |     40 | | model compression                  |     61 |     41 | | natural language processing        |     50 |     42 | | distribution shift                 |     46 |     43 | | neural architecture search         |     52 |     44 | | attention                          |     37 |     45 | | image classification               |     29 |     46 | | adversarial training               |     19 |     47 | | active learning                    |     41 |     48 | | sparsity                           |     85 |     49 | | deep neural network                |     48 |     50 | ICLR 2023 OpenReview Data ( we will focus on first 10 only) https://github.com/EdisonLeeeee/ICLR2023-OpenReviewData/blob/master/keywords_ranking.md"
+    },
+    {
+      "index": 4,
+      "title": "The following 5 slides provide very short definitions",
+      "text": "The following 5 slides provide very short definitions of all 50 keywords generated using ChatGPT using this prompt: I am providing a list  of 50 terms related to Deep Learning. Please enumerate them (from 1 to 50) and provide a short definition for each of them. reinforcement learning deep learning representation learning ... ..."
+    },
+    {
+      "index": 5,
+      "title": "1. Reinforcement Learning : This is a type",
+      "text": "1. Reinforcement Learning : This is a type of machine learning where an agent learns to behave in an environment by performing actions and seeing the results. 2. Deep Learning : A subfield of machine learning that uses neural networks with many layers (hence \"deep\") to learn representations and perform tasks, often outperforming traditional machine learning approaches. 3. Representation Learning : This involves training a model to automatically discover the representations needed for data analysis or task performance. 4. Graph Neural Network : Neural networks that are specifically designed to operate over data structured as graphs. 5. Transformer : A type of deep learning model introduced in the \"Attention is All You Need\" paper, used widely for tasks like language translation and text generation. 6. Federated Learning : A machine learning approach where the model is trained across many decentralized devices or servers holding local data samples, without exchanging the data samples themselves. 7. Self-Supervised Learning : An unsupervised learning method where the data provides the supervision. In other words, it's a type of machine learning where the dataset both trains and labels itself. 8. Contrastive Learning : A technique for learning representations by enforcing that similar instances are close in the learned representation space, while dissimilar ones are further apart. 9. Robustness : The ability of a machine learning model to deliver consistent results despite changes in the input data or minor alterations in the model architecture. 10. Generative Model : A type of machine learning model that is capable of generating new examples that resemble the training data. 1 - 10"
+    },
+    {
+      "index": 6,
+      "title": "11. Continual Learning : Also known as lifelong",
+      "text": "11. Continual Learning : Also known as lifelong learning, this refers to a system's ability to continually learn over time by accommodating new knowledge while retaining previously learned experiences. 12. Neural Network : A series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. 13. Transfer Learning : The process of training a pre-trained model on a new dataset, leveraging the learned features of the original model to improve learning efficiency and performance. 14. Diffusion Model : A type of generative model that simulates a random process, often used to generate realistic images, sounds, and other data samples. 15. Generalization : The capability of a machine learning model to perform well on unseen data after being trained on a limited amount of data. 16. Language Model : A type of model in natural language processing (NLP) that predicts the likelihood of a sequence of words appearing in a given language. 17. Computer Vision : An interdisciplinary scientific field that deals with how computers can gain high-level understanding from digital images or videos. 18. Knowledge Distillation : A process where a larger, more complex model (a teacher) trains a smaller, simpler model (a student) to replicate its behavior. 19. Vision Transformer : A transformer-based model architecture used for computer vision tasks, showing strong performance by leveraging the self-attention mechanism across image patches. 20. Offline Reinforcement Learning : A method of reinforcement learning that utilizes a pre-existing dataset without additional online data collection, also known as batch reinforcement learning. 11 - 20"
+    },
+    {
+      "index": 7,
+      "title": "21. Optimization : The process of adjusting a",
+      "text": "21. Optimization : The process of adjusting a machine learning model's parameters to improve its performance. 22. Fairness : In the context of AI, it refers to models that make unbiased decisions, treating all groups of people equally without discrimination. 23. Differential Privacy : A technique that adds noise to queries over data to provide privacy guarantees while still allowing useful results to be obtained. 24. Semi-Supervised Learning : An approach where the machine learning model is trained using a small amount of labeled data supplemented by a large amount of unlabeled data. 25. Unsupervised Learning : A type of machine learning where the model is asked to identify patterns in the data without providing any labels. 26. Deep Reinforcement Learning : Combines deep learning and reinforcement learning principles to create efficient algorithms that can learn from raw input data, commonly used in autonomous driving, robotics, etc. 27. Machine Learning : A field of computer science that uses statistical methods to enable machines to improve with experience. 28. Interpretability : The extent to which a machine learning system's actions and decisions can be understood by humans. 29. Meta-Learning : Also known as \"learning to learn\", it's the concept of designing models that can learn new skills or adapt to new environments rapidly with a few training examples. 30. Adversarial Robustness : The property of a machine learning model to withstand adversarial attacks – small, intentional perturbations to input data that can mislead the model. 21 - 30"
+    },
+    {
+      "index": 8,
+      "title": "31. Multi-Agent Reinforcement Learning : A variant of",
+      "text": "31. Multi-Agent Reinforcement Learning : A variant of reinforcement learning where multiple agents learn to coexist, cooperate, or compete in a shared environment. 32. Large Language Model : A language model that's trained on a vast amount of text data and can generate coherent and contextually relevant sentences over multiple paragraphs. 33. Optimal Transport : A theory that studies the most efficient ways to move a distribution of mass from one place to another, it is used in machine learning for tasks like domain adaptation, generative modeling, etc. 34. Data Augmentation : Techniques used to increase the diversity of training data by applying various transformations that do not change the labels, improving the model's performance and generalization. 35. Few-Shot Learning : An approach in machine learning where the aim is to design machine learning models that can learn useful information from a small number of examples – typically a handful of instances. 36. Domain Generalization : Refers to the ability of a model to generalize to new domains that it has not seen during training, usually achieved by training the model on multiple source domains. 37. NLP (Natural Language Processing) : A branch of AI that helps computers understand, interpret, and use human language. 38. Adversarial Attack : This refers to attempts to fool machine learning models through malicious input. This often involves subtly modified inputs designed to cause the model to make a mistake. 39. Domain Adaptation : A field of research in machine learning where a model is trained on one domain and then adapted to work in a different (but related) domain. 40. Time Series : A series of data points indexed (or listed or graphed) in time order, often used in statistics, signal processing, and machine learning. 31 - 40"
+    },
+    {
+      "index": 9,
+      "title": "41. Model Compression : Techniques used to reduce",
+      "text": "41. Model Compression : Techniques used to reduce the complexity of a machine learning model, including dimensionality reduction, pruning, quantization, and knowledge distillation. 42. Natural Language Processing : Similar to NLP, it is a field of AI that focuses on the interaction between computers and humans through natural language. 43. Distribution Shift : Changes in the distribution of the input data to a model over time, which can degrade the model's performance if not properly managed. 44. Neural Architecture Search : An area of research in which machine learning is used to help design other machine learning models, specifically, to determine the best architecture for a neural network. 45. Attention : A mechanism in deep learning models that allows them to focus on specific parts of the input when producing an output, crucial in the Transformer model architecture. 46. Image Classification : A computer vision task of assigning a label to an image from a fixed set of categories. 47. Adversarial Training : A process to improve the robustness of machine learning models by including adversarial examples (inputs designed to fool the model) in the training data. 48. Active Learning : A machine learning paradigm that allows the model to choose the data from which it learns, often with the aim of reducing the amount of labeled data needed for effective learning. 49. Sparsity : In the context of machine learning, it refers to a property of models whereby only a small number of neurons are activated, or where only a few weights are non-zero, which can lead to more efficient models. 50. Deep Neural Network : A neural network with multiple layers between the input and output layers. They are used broadly today in most machine learning applications, going beyond linear models to a complex hierarchy of non-linear transformations. 41 - 50"
+    },
+    {
+      "index": 10,
+      "title": "The following slides provide longer definitions of the",
+      "text": "The following slides provide longer definitions of the first 10 keywords, as well as some insight into the history and/or extra information where you can find out more. The definitions were generated using ChatGPT v.4. The typical prompts looked like this: describe \"Deep Learning - transformer\" in 100 words describe \"federate learning\" in 100 words"
+    },
+    {
+      "index": 11,
+      "title": "1. Reinforcement Learning Reinforcement learning (RL) is a",
+      "text": "1. Reinforcement Learning Reinforcement learning (RL) is a machine learning paradigm where an agent learns to make decisions by interacting with an environment to maximize cumulative rewards. Through trial and error, the agent explores the environment and learns from its actions' consequences. Key components include the agent, environment, state, action, and reward. RL algorithms include value-based methods (e.g., Q-learning, SARSA), policy-based methods (e.g., REINFORCE, Proximal Policy Optimization), and actor-critic methods (e.g., Advantage Actor-Critic, Deep Deterministic Policy Gradient). RL has been applied to robotics, game playing, recommendation systems, and autonomous vehicles, among other areas."
+    },
+    {
+      "index": 12,
+      "title": "Reinforcement Learning The origins of RL are in",
+      "text": "Reinforcement Learning The origins of RL are in animal behavior and psychology from B.F. Skinner in the 1930s. Skinner demonstrated that the behavior of an animal could be determined using simple reinforcement mechanisms. The idea was that an animal or any agent could learn from past experiences. In the 1950s - 1960s, Richard Bellman created the “Bellman equations” , a set of nonlinear equations, that once solved provide an agent with an optimal policy. That is once the Bellman Equations are solved, an RL agent can act optimally in its environment, whatever that happens to be — a maze, a race track, or the stock market, etc. It was further developed by Samuel and Sutton, but only gained mainstream exposure in the 1980s and early 1990s, with the publication of influential papers by RL pioneers such as Kaelbling, Littman, and other RL researchers. Since then, RL has been successfully applied to a wide range of problems, from game playing to robotics. You can read more about it in this article . B.F. Skinner Richard Bellman Richard Sutton Dimitri Bertskeas, RL legend"
+    },
+    {
+      "index": 13,
+      "title": "2. Deep Learning Deep Learning (DL), a subfield",
+      "text": "2. Deep Learning Deep Learning (DL), a subfield of machine learning, focuses on deep neural networks that learn complex patterns from large data sets. DL excels in tasks like image recognition, natural language processing, speech recognition, and reinforcement learning. Deep neural networks consist of multiple layers of interconnected nodes, processing data in a hierarchical manner. Popular DL architectures include Convolutional Neural Networks (CNNs) for image recognition, Recurrent Neural Networks (RNNs) for sequential data, Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU) as RNN variants, and Transformers for natural language processing tasks. DL's popularity stems from large data sets, hardware advances, and improved training techniques but faces challenges like the need for labeled data, computational resources, and model interpretability."
+    },
+    {
+      "index": 14,
+      "title": "Deep Learning The earliest efforts in developing deep",
+      "text": "Deep Learning The earliest efforts in developing deep learning algorithms came from Alexey Ivakhnenko (developed the Group Method of Data Handling ) and Valentin Lapa (author of Cybernetics and Forecasting Techniques) in 1965. They used models with polynomial (complicated equations) activation functions, that were then analyzed statistically. From each layer, the best statistically chosen features were then forwarded on to the next layer (a slow, manual process). The first “ convolutional neural networks ” were used by Kunihiko Fukushima . Fukushima designed neural networks with multiple pooling and convolutional layers. In 1979, he developed an artificial neural network, called Neocognitron, which used a hierarchical, multilayered design. In 1989, Yann LeCun provided the first practical demonstration of backpropagation at Bell Labs. He combined convolutional neural networks with back propagation onto read “handwritten” digits. This system was eventually used to read the numbers of handwritten checks. Around the year 2000, The Vanishing Gradient Problem appeared. It was discovered “features” (lessons) formed in lower layers were not being learned by the upper layers, because no learning signal reached these layers. In 2001, a research report by META Group (now called Gartner) described he challenges and opportunities of data growth as three-dimensional. The report described the increasing volume of data and the increasing speed of data as increasing the range of data sources and types. This was a call to prepare for the onslaught of Big Data, which was just starting. In 2009, Fei-Fei Li , an AI professor at Stanford launched ImageNet , assembled a free database of more than 14 million labeled images. By 2011, the speed of GPUs had increased significantly, making it possible to train convolutional neural networks “without” the layer-by-layer pre-training. With the increased computing speed, it became obvious deep learning had significant advantages in terms of efficiency and speed. One example is AlexNet , a convolutional neural network whose architecture won several international competitions during 2011 and 2012. Also in 2012, Google Brain released the results of an unusual project known as The Cat Experiment . The free-spirited project explored the difficulties of “unsupervised learning.” Deep learning uses “ supervised learning ,” meaning the convolutional neural net is trained using labeled data (think images from ImageNet). https://www.dataversity.net/brief-history-deep-learning/ Alexey Grigoryevich Ivakhnenko Bell Labs"
+    },
+    {
+      "index": 15,
+      "title": "3. Representation Learning Representation learning , a subfield",
+      "text": "3. Representation Learning Representation learning , a subfield of machine learning, focuses on automatically learning useful features from raw data for tasks like classification, regression, or clustering. It aims to discover meaningful data structures and create compact representations, replacing manual feature engineering . Deep learning , a form of representation learnin g, uses deep neural networks to learn increasingly complex features as data passes through layers. Other techniques include autoencoders, word embeddings, variational autoencoders (VAEs), and generative adversarial networks (GANs) . Representation learning has improved applications in computer vision, natural language processing, speech recognition, and bioinformatics by automating feature extraction."
+    },
+    {
+      "index": 16,
+      "title": "4. Graph Neural Network Graph Neural Networks (GNNs)",
+      "text": "4. Graph Neural Network Graph Neural Networks (GNNs) are a class of deep learning models designed to handle graph-structured data, such as social networks, biological networks, or knowledge graphs. GNNs can capture complex relationships between nodes and edges, making them suitable for tasks like node classification, link prediction, and graph classification. GNNs consist of layers that perform message-passing between neighboring nodes, aggregating and updating node features iteratively to capture local and global graph structures. Key GNN variants include Graph Convolutional Networks (GCNs), GraphSAGE, and Graph Attention Networks (GATs). GNNs have shown success in diverse domains, including recommendation systems, drug discovery, and natural language processing."
+    },
+    {
+      "index": 17,
+      "title": "Graph Neural Network History Since 2006 graph theory",
+      "text": "Graph Neural Network History Since 2006 graph theory has come in close contact with machine learning with the new concept of Graph Neural Networks applications. The very first proposal was published in 2006 by Scarselli and Gori and subsequently generalized in 2008 with the paper “ The Graph Neural Network Model ”. Here, the authors laid the mathematical foundations for the modern Graph Neural Network. Since then the literature has seen spikes in graph ML works, which made the graph world evolve more and more, defining more precisely what are the key elements of these mathematical structures and how to link them with more refined machine learning algorithms. https://towardsdatascience.com/graph-neural-networks-a-learning-journey-since-2008-part-1-7df897834df9 https://ieeexplore.ieee.org/document/4700287"
+    },
+    {
+      "index": 18,
+      "title": "5. Transformer Transformers are a class of deep",
+      "text": "5. Transformer Transformers are a class of deep learning models that have revolutionized natural language processing (NLP) tasks. Transformers were introduced in the paper \"Attention is All You Need\" by Vaswani et al., Transformers employ self-attention mechanisms to process input sequences, efficiently capturing long-range dependencies without relying on recurrent structures like RNNs. Key components include multi-head self-attention, positional encoding, and layer normalization. Transformers are highly parallelizable, making them suitable for large-scale training on GPUs. Models like BERT, GPT, and T5 have achieved state-of-the-art results in various NLP tasks, including machine translation, text summarization, and sentiment analysis. https://machinelearningmastery.com/the-transformer-model/ In a nutshell, the task of the encoder , on the left half of the Transformer architecture, is to map an input sequence to a sequence of continuous representations, which is then fed into a decoder. The decoder , on the right half of the architecture, receives the output of the encoder together with the decoder output at the previous time step to generate an output sequence. The history of the transformer can be found here: https://sanchman21.medium.com/evolution-of-transformers-part-1-faac3f19d780"
+    },
+    {
+      "index": 19,
+      "title": "6. Federated Learning Federated learning is a distributed",
+      "text": "6. Federated Learning Federated learning is a distributed machine learning approach that enables model training on decentralized data, typically spread across multiple devices or institutions. Instead of aggregating raw data in a central location, federated learning trains local models on each device and shares only the model updates, which are then aggregated and used to update the global model. This process maintains data privacy, as sensitive information never leaves the device. Federated learning is particularly useful for scenarios with privacy concerns, like healthcare or finance, and for edge devices, such as smartphones or IoT sensors. Federated learning addresses data security, privacy, and regulatory compliance while enabling collaborative learning. The term Federated Learning was coined by Google in a paper first published in 2016. Since then, it has been an area of active research as evidenced by papers published on arXiv. In the recent TensorFlow Dev Summit, Google unveiled TensorFlow Federated (TFF), making it more accessible to users of its popular deep learning framework. Meanwhile, for PyTorch users, the open-source community OpenMined had already made available the PySyft library since the end of last year with a similar goal ( link , link ). https://medium.datadriveninvestor.com/an-overview-of-federated-learning-8a1a62b0600d https://ieeexplore.ieee.org/document/9780571"
+    },
+    {
+      "index": 20,
+      "title": "7. Self-Supervised Learning Self-supervised learning is a machine",
+      "text": "7. Self-Supervised Learning Self-supervised learning is a machine learning approach that leverages unlabeled data to learn useful features or representations. It uses the structure within the data to create artificial tasks, where the model generates its own labels or targets, bypassing the need for human-annotated labels. Self-supervised learning can be considered a form of unsupervised learning with an added supervisory signal. Common techniques include contrastive learning, denoising autoencoders, and masked language modeling. Self-supervised learning has shown promise in domains like computer vision and natural language processing, reducing the reliance on labeled data, accelerating pre-training, and improving performance when fine-tuned on smaller labeled datasets. https://towardsdatascience.com/supervised-semi-supervised-unsupervised-and-self-supervised-learning-7fa79aa9247c https://ai.facebook.com/blog/self-supervised-learning-the-dark-matter-of-intelligence/ https://towardsdatascience.com/self-supervised-learning-ssl-overview-8a7f24740e40"
+    },
+    {
+      "index": 21,
+      "title": "8. Contrastive Learning Contrastive Learning is a self-supervised",
+      "text": "8. Contrastive Learning Contrastive Learning is a self-supervised learning approach that learns to distinguish between similar and dissimilar data points by comparing pairs or groups of samples. In this method, positive pairs consist of different views or augmentations of the same data point, while negative pairs comprise unrelated data points. The objective is to learn a representation that brings positive pairs closer and pushes negative pairs apart in the embedding space. Contrastive Learning has gained prominence in computer vision, with methods like SimCLR and MoCo achieving strong results. It has also shown promise in natural language processing and other domains, reducing the need for labeled data. https://lilianweng.github.io/posts/2021-05-31-contrastive/"
+    },
+    {
+      "index": 22,
+      "title": "9. Robustness Robustness in machine learning refers to",
+      "text": "9. Robustness Robustness in machine learning refers to the resilience and stability of a model when exposed to various types of input data, including noisy, incomplete, or adversarial examples. A robust model maintains its performance and accuracy under diverse conditions, generalizes well to new, unseen data, and is less prone to overfitting. Ensuring robustness is crucial for real-world applications where data quality and distribution may vary. This is achieved through techniques such as data augmentation, regularization, adversarial training, and ensemble learning, which together help create models that can reliably and effectively handle uncertainty and diverse scenarios. https://core.ac.uk/download/pdf/295733091.pdf https://www.ideal.northwestern.edu/2022/01/25/exploring-new-directions-on-robustness-in-machine-learning/ https://uu.diva-portal.org/smash/get/diva2:1651294/FULLTEXT01.pdf"
+    },
+    {
+      "index": 23,
+      "title": "10. Generative Model A generative model is a",
+      "text": "10. Generative Model A generative model is a type of machine learning model that learns to generate new data samples resembling the training data. It captures the underlying structure and statistical patterns in the data, allowing it to create plausible synthetic examples. Generative models are widely used in various applications, such as image synthesis, text generation, and drug discovery. Two popular types of generative models are Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs) . VAEs leverage probabilistic graphical models and optimize latent variable representations, while GANs employ a two-player game between a generator and a discriminator to produce realistic data samples. GANs tend to be more widely used for generating multimedia, while VAEs see more use in signal analysis. Ian Goodfellow and fellow researchers at the University of Montreal introduced GANs in 2014. They have shown tremendous promise in generating many types of realistic data. Yann LeCun , chief AI scientist at Meta, has written that GANs and their variations are \"the most interesting idea in the last ten years in machine learning.\" https://www.marktechpost.com/2023/03/21/a-history-of-generative-ai-from-gan-to-gpt-4/#:~:text=Generative%20models%20have%20a%20long,as%20speech%20and%20time%20series https://www.techtarget.com/searchenterpriseai/feature/GANs-vs-VAEs-What-is-the-best-generative-AI-approach"
+    },
+    {
+      "index": 24,
+      "title": "GANs tend to be more widely used for",
+      "text": "GANs tend to be more widely used for generating multimedia, while VAEs see more use in signal analysis. Ian Goodfellow and fellow researchers at the University of Montreal introduced GANs in 2014. They have shown tremendous promise in generating many types of realistic data. Yann LeCun , chief AI scientist at Meta, has written that GANs and their variations are \"the most interesting idea in the last ten years in machine learning.\" For starters, GANs have been used to generate realistic speech, including matching voices and lip movements to produce better translations. They have also translated imagery, differentiated between night and day and delineated dance moves between bodies. Combined with other AI techniques, they improve security and build better AI classifiers. VAEs were also introduced in 2014, but by Diederik Kingma , a research scientist at Google, and Max Welling , research chair in machine learning at the University of Amsterdam. VAEs also promise to create more effective classification engines for various tasks, with different mechanics. At their core, they build on neural network autoencoders made up of two neural networks: an encoder and a decoder . The encoder network optimizes for more efficient ways of representing data, while the decoder network optimizes for more efficient ways of regenerating the original data set. https://www.techtarget.com/searchenterpriseai/feature/GANs-vs-VAEs-What-is-the-best-generative-AI-approach Ian Goodfellow Yann LeCun Diederik Kingma Max Welling"
+    },
+    {
+      "index": 25,
+      "title": "Thank You",
+      "text": "Thank You"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "50 Most-Appeared Keywords for Deep Learning in 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reinforcement Learning",
+      "topic": "general",
+      "videoSeconds": 483,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k&t=483s",
+      "slideIndex": 7,
+      "slideTitle": "21. Optimization : The process of adjusting a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deep Leaming",
+      "topic": "general",
+      "videoSeconds": 714,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k&t=714s",
+      "slideIndex": 13,
+      "slideTitle": "2. Deep Learning Deep Learning (DL), a subfield",
+      "source": "youtube"
+    },
+    {
+      "claim": "Representation Learning",
+      "topic": "general",
+      "videoSeconds": 1094,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k&t=1094s",
+      "slideIndex": 19,
+      "slideTitle": "6. Federated Learning Federated learning is a distributed",
+      "source": "youtube"
+    },
+    {
+      "claim": "Transformer",
+      "topic": "general",
+      "videoSeconds": 1350,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k&t=1350s",
+      "slideIndex": 25,
+      "slideTitle": "Thank You",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rachael Phillips – Senior Consultant at Microsoft rachael.aphillips@outlook.com",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 2,
+      "slideTitle": "Rachael Phillips – Senior Consultant at Microsoft rachael.aphillips@outlook.com",
+      "source": "slide"
+    },
+    {
+      "claim": "| Keyword | 2022 | 2023 | |:-----------------------------------|-------:|-------:|",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 3,
+      "slideTitle": "| Keyword | 2022 | 2023 | |:-----------------------------------|-------:|-------:|",
+      "source": "slide"
+    },
+    {
+      "claim": "The following 5 slides provide very short definitions",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 4,
+      "slideTitle": "The following 5 slides provide very short definitions",
+      "source": "slide"
+    },
+    {
+      "claim": "1. Reinforcement Learning : This is a type",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 5,
+      "slideTitle": "1. Reinforcement Learning : This is a type",
+      "source": "slide"
+    },
+    {
+      "claim": "11. Continual Learning : Also known as lifelong",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 6,
+      "slideTitle": "11. Continual Learning : Also known as lifelong",
+      "source": "slide"
+    },
+    {
+      "claim": "31. Multi-Agent Reinforcement Learning : A variant of",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 8,
+      "slideTitle": "31. Multi-Agent Reinforcement Learning : A variant of",
+      "source": "slide"
+    },
+    {
+      "claim": "41. Model Compression : Techniques used to reduce",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 9,
+      "slideTitle": "41. Model Compression : Techniques used to reduce",
+      "source": "slide"
+    },
+    {
+      "claim": "The following slides provide longer definitions of the",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 10,
+      "slideTitle": "The following slides provide longer definitions of the",
+      "source": "slide"
+    },
+    {
+      "claim": "1. Reinforcement Learning Reinforcement learning (RL) is a",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 11,
+      "slideTitle": "1. Reinforcement Learning Reinforcement learning (RL) is a",
+      "source": "slide"
+    },
+    {
+      "claim": "Reinforcement Learning The origins of RL are in",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=GBuLtoVHu1k",
+      "slideIndex": 12,
+      "slideTitle": "Reinforcement Learning The origins of RL are in",
+      "source": "slide"
+    }
+  ]
+}

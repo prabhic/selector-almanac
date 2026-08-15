@@ -1,0 +1,344 @@
+{
+  "id": "2023-07-14-2023-07-14-malte-gpt-embeddings",
+  "date": "2023-07-14",
+  "title": "Malte-GPT-Embeddings",
+  "series": "seminar",
+  "topics": [
+    "rag"
+  ],
+  "video": {
+    "id": "8h5WBHqfoA8",
+    "title": "Adding Long-Term Memory to LLMs via Document Embeddings (aka RAG) - July 14, 2023",
+    "url": "https://www.youtube.com/watch?v=8h5WBHqfoA8",
+    "thumbnail": "https://i.ytimg.com/vi/8h5WBHqfoA8/hqdefault.jpg",
+    "duration": 2389
+  },
+  "deck": {
+    "path": "2023/2023-07-14-Embeddings-Malte/2023-07-14-Malte-GPT-Embeddings.pptx",
+    "filename": "2023-07-14-Malte-GPT-Embeddings.pptx",
+    "title": "Malte-GPT-Embeddings",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-07-14-Embeddings-Malte/2023-07-14-Malte-GPT-Embeddings.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-07-14-Embeddings-Malte/2023-07-14-Malte-GPT-Embeddings.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Presentation Outline",
+      "startSeconds": 60,
+      "label": "01:00",
+      "source": "youtube"
+    },
+    {
+      "title": "What are Embeddings",
+      "startSeconds": 148,
+      "label": "02:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Architecture",
+      "startSeconds": 415,
+      "label": "06:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Bad Alternatives",
+      "startSeconds": 621,
+      "label": "10:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Retrieval Augmented Generation",
+      "startSeconds": 1080,
+      "label": "18:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Vector Database",
+      "startSeconds": 1286,
+      "label": "21:26",
+      "source": "youtube"
+    },
+    {
+      "title": "How does it work",
+      "startSeconds": 1362,
+      "label": "22:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Algorithms",
+      "startSeconds": 1440,
+      "label": "24:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Script",
+      "startSeconds": 1498,
+      "label": "24:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Conclusion",
+      "startSeconds": 1941,
+      "label": "32:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Questions",
+      "startSeconds": 1998,
+      "label": "33:18",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Adding Long-Term Memory to LLMs via Document Embeddings",
+      "text": "Adding Long-Term Memory to LLMs via Document Embeddings (aka Retrieval Augmented Generation) Presented by Malte July 14 2023"
+    },
+    {
+      "index": 2,
+      "title": "About The Speaker Malte Thesenvitz Data Scientist and",
+      "text": "About The Speaker Malte Thesenvitz Data Scientist and Cloud Engineer Redapt. Inc Seattle University, WA https://www.linkedin.com/in/maltethesenvitz/"
+    },
+    {
+      "index": 3,
+      "title": "Table of Contents Why do we need embeddings",
+      "text": "Table of Contents Why do we need embeddings when using Open AI? Model limitations Fine-tuning vs. embedding Vector Databases Quick History on Word Embeddings Word embedding ‘map’ Cosine similarity Demo"
+    },
+    {
+      "index": 4,
+      "title": "Key Question LLM Limits: changing knowledge base, expensive",
+      "text": "Key Question LLM Limits: changing knowledge base, expensive retraining, token limits, How can we efficiently store documents in a database so the model can retrieve it quickly during the query? Requirements: Storage space should be relatively small Retrieval of documents should be quick Only most n relevant documents should be returned Some random text Some unique mathematical representation"
+    },
+    {
+      "index": 5,
+      "title": "Quick History on Word Embeddings 2003: Term ‘embeddings’",
+      "text": "Quick History on Word Embeddings 2003: Term ‘embeddings’ was coined by Bengio et al. when they trained them in a neural language model together with the model’s parameters 2008: Colbert and Weston demonstrate the power of pre-trained embeddings in a still modern NN architecture 2013: Mikolov et al. creates word2vec, a toolkit enabling the use and training of pre-trained embeddings models 2014: Pennington introduces GloVe, similar to w2v but smaller and faster at training"
+    },
+    {
+      "index": 6,
+      "title": "Word Embedding Models BERT ELMO RNN based Transformers",
+      "text": "Word Embedding Models BERT ELMO RNN based Transformers GloVe Word2Vec Fast Text TF-IDF Context Dependent Bag-of-words With ML No ML Context Independent ALBERTA XLM RoBERTa CoVe Source"
+    },
+    {
+      "index": 7,
+      "title": "Word Embedding = How can we represent language",
+      "text": "Word Embedding = How can we represent language in mathematical form? ‘Similar word will have similar meanings’ ZS Harris, 1956 - Distributional Structure"
+    },
+    {
+      "index": 8,
+      "title": "‘Bad’ Alternatives: Count based encoding Bag of words",
+      "text": "‘Bad’ Alternatives: Count based encoding Bag of words N-gram approach TF-IDF (how frequent a word is relevant to one document and how often the word is present in ‘all’ documents One-Hot Encoding Representing the word in a dense vector (not many zeros) Similar words should have a similar vector (coffee and tea vs. pea and tea) Goal of embeddings:"
+    },
+    {
+      "index": 9,
+      "title": "Architectural Overview",
+      "text": "Architectural Overview"
+    },
+    {
+      "index": 10,
+      "title": "How are Embedding Models Trained? - 3 Examples",
+      "text": "How are Embedding Models Trained? - 3 Examples Embeddings are actually a side effect of solving an NLP problem! Option 1: Embedding Layer on the front of NN One hot encoded vocabulary -> define # of vector dimensions -> initialize vectors with small numbers ->  fit in a supervised way using backpropagation Requires a lot of training data, compute power, and time Option 2: Word2Vec Improvement of above general embedding layer approach that introduced Continuous Bag-of-words and continuous skip-gram model More efficient learning, larger embedding spaces possible, while using much larger corpora of text (billions of words) Option 3: GloVe (Global Vectors for Word Representation) Extension of Word2Vec developed by Pennington at Stanford Marries matrix factorization techniques (latent semantic analysis) with W2V Instead of using a neighboring words window as above, it uses an explicit word-context matrix with stats from entire corpus (learn how this is done..)"
+    },
+    {
+      "index": 11,
+      "title": "Long-Term Memory (through RAG) Complement big scale LLMs",
+      "text": "Long-Term Memory (through RAG) Complement big scale LLMs through adding external knowledge base. Aka: Retrieval Augmented Generation Combining Open and Closed Book, Less-retraining Source"
+    },
+    {
+      "index": 12,
+      "title": "$16M Series A Open Source - $18M …with",
+      "text": "$16M Series A Open Source - $18M …with 7.2k GitHub Stars $700M Evaluation Vector DB = Hot Hot Hot"
+    },
+    {
+      "index": 13,
+      "title": "How does a Vector Database work? Traditional DBs:",
+      "text": "How does a Vector Database work? Traditional DBs: query for rows where the value matches exactly (usually) Vector DB: similar approach to find most similar vectors to query Utilize combination of different algorithms that all participate in Approximate Nearest Neighbor (ANN) search These algorithms utilize features like hashing, quantization, or graph-based search Common pipeline for a vector database Random Projection Product Quantization Local-sensitive hashing See Presentation in a few weeks by Tyler Williams"
+    },
+    {
+      "index": 14,
+      "title": "Large modern models (GPT, Diffusion) use huge latent",
+      "text": "Large modern models (GPT, Diffusion) use huge latent vectors or tensors (dimensions: 12K .. 60K numbers). If you put these huge vectors in a vector database, how do you query them? Here are some common indexing techniques (to speed-up the similarity search): Locality-sensitive hashing ( LSH ) - similar vectors get into same buckets Product quantization ( PQ ) - lossy compression to reduce the size of vectors while preserving similarity Hierarchical Navigable Small World ( HNSW ) - create a graph where each vector is connected to its nearest neighbor(s) Hierarchical Grid Index ( HGI ) - divides a multidimensional space into a hierarchy of grids Ball Tree Index ( BTI ) - a tree of nodes (balls) and leaves (actual points) Random Forest Index ( RFI ) - trees represent regions in space, and the leaves represent the actual points. Examples: Pinecone uses a hybrid approach : an HGI with a LSH index. Fast search on large and small datasets Weaviate uses a hybrid approach : an HGI with a BTI index. Fast performance for both range and point queries Chroma uses a single-level grid index , which is a simple but effective approach for vector indexing Redis Vector Database uses a Sorted Set data structure to store vectors, which allows for efficient range queries Qdrant uses a hybrid approach : an HGI with a RFI index. Good performance for both range and point queries Milvus Project uses an HGI Vespa.ai uses a hybrid approach : an HGI with a LSH index. Fast search on large and small datasets Indexing Vectors for Similarity Search"
+    },
+    {
+      "index": 15,
+      "title": "Demo How we can use vector databases to",
+      "text": "Demo How we can use vector databases to power efficient semantic search with ChatGPT and add long-term memory."
+    },
+    {
+      "index": 16,
+      "title": "Conclusion RAG allows to add modifiable long-term to",
+      "text": "Conclusion RAG allows to add modifiable long-term to LLMs via embeddings. Vector databases are going to achieve growing demand over the next few years. Open Questions How can embedding models output one vector for a body of text? How can embedding models embed words they haven’t been trained on? How do embedding models return a vector output for a given input word AFTER they have been trained? Good Tools LangChain Chroma, Pinecone (both Vector DBs) OpenAi LLMs Keras Tensorflow Pandas"
+    },
+    {
+      "index": 17,
+      "title": "Appendix",
+      "text": "Appendix"
+    },
+    {
+      "index": 18,
+      "title": "$0 Embeddings (OpenAI vs. free & open source)",
+      "text": "$0 Embeddings (OpenAI vs. free & open source) .. https://youtu.be/QdDoFfkVkcw .. https://github.com/rabbit-hole-syndrome/open-source-embeddings What is the Cheapest Way to Generate Embeddings ? And the Best ?"
+    },
+    {
+      "index": 19,
+      "title": "Sources: https://aylien.com/blog/overview-word-embeddings-history-word2vec-cbow-glove https://towardsdatascience.com/explaining-vector-databases-in-3-levels-of-difficulty-fc392e48ab78 https://developers.google.com/machine-learning/crash-course/embeddings/obtaining-embeddings (Google Courses: GREAT!) https://www.tensorflow.org/tutorials/text/word2vec",
+      "text": "Sources: https://aylien.com/blog/overview-word-embeddings-history-word2vec-cbow-glove https://towardsdatascience.com/explaining-vector-databases-in-3-levels-of-difficulty-fc392e48ab78 https://developers.google.com/machine-learning/crash-course/embeddings/obtaining-embeddings (Google Courses: GREAT!) https://www.tensorflow.org/tutorials/text/word2vec (Tensorflow Word2Vec Tutorial) Jason Brownlee (as always lol): https://machinelearningmastery.com/use-word-embedding-layers-deep-learning-keras/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "rag",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Adding Long-Term Memory to LLMs via Document Embeddings",
+      "source": "youtube"
+    },
+    {
+      "claim": "Presentation Outline",
+      "topic": "rag",
+      "videoSeconds": 60,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=60s",
+      "slideIndex": 3,
+      "slideTitle": "Table of Contents Why do we need embeddings",
+      "source": "youtube"
+    },
+    {
+      "claim": "What are Embeddings",
+      "topic": "rag",
+      "videoSeconds": 148,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=148s",
+      "slideIndex": 4,
+      "slideTitle": "Key Question LLM Limits: changing knowledge base, expensive",
+      "source": "youtube"
+    },
+    {
+      "claim": "Architecture",
+      "topic": "rag",
+      "videoSeconds": 415,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=415s",
+      "slideIndex": 6,
+      "slideTitle": "Word Embedding Models BERT ELMO RNN based Transformers",
+      "source": "youtube"
+    },
+    {
+      "claim": "Bad Alternatives",
+      "topic": "rag",
+      "videoSeconds": 621,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=621s",
+      "slideIndex": 8,
+      "slideTitle": "‘Bad’ Alternatives: Count based encoding Bag of words",
+      "source": "youtube"
+    },
+    {
+      "claim": "Retrieval Augmented Generation",
+      "topic": "rag",
+      "videoSeconds": 1080,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1080s",
+      "slideIndex": 9,
+      "slideTitle": "Architectural Overview",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vector Database",
+      "topic": "rag",
+      "videoSeconds": 1286,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1286s",
+      "slideIndex": 11,
+      "slideTitle": "Long-Term Memory (through RAG) Complement big scale LLMs",
+      "source": "youtube"
+    },
+    {
+      "claim": "How does it work",
+      "topic": "rag",
+      "videoSeconds": 1362,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1362s",
+      "slideIndex": 12,
+      "slideTitle": "$16M Series A Open Source - $18M …with",
+      "source": "youtube"
+    },
+    {
+      "claim": "Algorithms",
+      "topic": "rag",
+      "videoSeconds": 1440,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1440s",
+      "slideIndex": 14,
+      "slideTitle": "Large modern models (GPT, Diffusion) use huge latent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Script",
+      "topic": "rag",
+      "videoSeconds": 1498,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1498s",
+      "slideIndex": 16,
+      "slideTitle": "Conclusion RAG allows to add modifiable long-term to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Conclusion",
+      "topic": "rag",
+      "videoSeconds": 1941,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1941s",
+      "slideIndex": 17,
+      "slideTitle": "Appendix",
+      "source": "youtube"
+    },
+    {
+      "claim": "Questions",
+      "topic": "rag",
+      "videoSeconds": 1998,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8&t=1998s",
+      "slideIndex": 19,
+      "slideTitle": "Sources: https://aylien.com/blog/overview-word-embeddings-history-word2vec-cbow-glove https://towardsdatascience.com/explaining-vector-databases-in-3-levels-of-difficulty-fc392e48ab78 https://developers.google.com/machine-learning/crash-course/embeddings/obtaining-embeddings (Google Courses: GREAT!) https://www.tensorflow.org/tutorials/text/word2vec",
+      "source": "youtube"
+    },
+    {
+      "claim": "About The Speaker Malte Thesenvitz Data Scientist and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8",
+      "slideIndex": 2,
+      "slideTitle": "About The Speaker Malte Thesenvitz Data Scientist and",
+      "source": "slide"
+    },
+    {
+      "claim": "Quick History on Word Embeddings 2003: Term ‘embeddings’",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8",
+      "slideIndex": 5,
+      "slideTitle": "Quick History on Word Embeddings 2003: Term ‘embeddings’",
+      "source": "slide"
+    },
+    {
+      "claim": "Word Embedding = How can we represent language",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8",
+      "slideIndex": 7,
+      "slideTitle": "Word Embedding = How can we represent language",
+      "source": "slide"
+    },
+    {
+      "claim": "How are Embedding Models Trained? - 3 Examples",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8h5WBHqfoA8",
+      "slideIndex": 10,
+      "slideTitle": "How are Embedding Models Trained? - 3 Examples",
+      "source": "slide"
+    }
+  ]
+}

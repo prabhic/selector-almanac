@@ -1,0 +1,393 @@
+{
+  "id": "2023-12-08-2023-12-08-ai-updates",
+  "date": "2023-12-08",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "google",
+    "benchmarks",
+    "infra"
+  ],
+  "video": {
+    "id": "zqSBnjAeozE",
+    "title": "Have you heard these exciting AI news? - December 08, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=zqSBnjAeozE",
+    "thumbnail": "https://i.ytimg.com/vi/zqSBnjAeozE/hqdefault.jpg",
+    "duration": 2135
+  },
+  "deck": {
+    "path": "2023/2023-12-08-AI-Updates.pptx",
+    "filename": "2023-12-08-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-12-08-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-12-08-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Google Gemini",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Gemini report",
+      "startSeconds": 127,
+      "label": "02:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Haggle leaderboard",
+      "startSeconds": 353,
+      "label": "05:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Arena leaderboard",
+      "startSeconds": 402,
+      "label": "06:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Miscellaneous",
+      "startSeconds": 460,
+      "label": "07:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Tza RT ML Software",
+      "startSeconds": 755,
+      "label": "12:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Xolotl",
+      "startSeconds": 852,
+      "label": "14:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Zeroshot vs 10shot",
+      "startSeconds": 895,
+      "label": "14:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Zephyr models",
+      "startSeconds": 1033,
+      "label": "17:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Streamlit",
+      "startSeconds": 1176,
+      "label": "19:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Task Weaver",
+      "startSeconds": 1276,
+      "label": "21:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Scaling",
+      "startSeconds": 1310,
+      "label": "21:50",
+      "source": "youtube"
+    },
+    {
+      "title": "ML Parallelism",
+      "startSeconds": 1395,
+      "label": "23:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Azure AI",
+      "startSeconds": 1577,
+      "label": "26:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Vertex AI",
+      "startSeconds": 1906,
+      "label": "31:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Amazon Bedrock",
+      "startSeconds": 2015,
+      "label": "33:35",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates December 08, 2023 Google Gemini Released",
+      "text": "AI Updates December 08, 2023 Google Gemini Released Hugging Face LLM Leaderboard Crowd-sourced \"Arena\" leaderboard OpenAI App Store Meta Purple Llama Safety Project Meta text2image Microsoft Copilot updates Building Knowledge Graphs with LLM Grok launch S-LoRA MLX framework for Apple Silicon AI.gov AI Alliance Nvidia TensorRT-LLM Axolotl Zero-Shot Learning / Testing Zephyr Models - helpful assistants Streamlit TaskWeaver vs AutoGen Scaling Generative AI LLM Parallelism Generative AI Interview Questions Microsoft Azure AI Google Vertex AI Amazon Bedrock"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Google Gemini Released https://deepmind.google/technologies/gemini https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf December 6, 2023",
+      "text": "Google Gemini Released https://deepmind.google/technologies/gemini https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf December 6, 2023 - announced 3 models: Nano (for phones, December) Pro (for Bard, now) Ultra - the best - in Q1, 2024 Multimodal - reasoning seamlessly across text, images, video, audio, and code. Beats human experts on MMLU test (MMLU>90 !) State-of-the-art on 30 out of 32 benchmarks Beats GPT-4 and GPT-4V on almost all the tests December 13 - Integration into apps using Google AI Studio and Google Cloud Vertex AI."
+    },
+    {
+      "index": 4,
+      "title": "Google Gemini - continued Google Gemini AI -",
+      "text": "Google Gemini - continued Google Gemini AI - Technical Details Quick Look https://www.youtube.com/watch?v=_qTCijT_cSc https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf Multimodal, 3 sizes, 32K tokens, multi-query attention. The \"Nano\" model for Pixel phones has 1.8 and 3.2 Bln params, 4-bit quantized The sizes of \"Pro\" and \"Ultra\" is not known yet. Training: TPUv5e and TPUv4. TPUv4 accelerators are deployed in “SuperPods” of 4096 chips. At Gemini Ultra scale, we combine SuperPods in multiple datacenters using Google’s intra-cluster and inter-cluster network Using JAX running on TPUs, one python process to orchestrate Data quality importance, data enrichment services Google's \"Hands-on\" video was \"improved\"; Google is transparent about it, though. How it’s Made: Interacting with Gemini through multimodal prompting - https://developers.googleblog.com/2023/12/how-its-made-gemini-multimodal-prompting.html Gemini Lie - https://www.youtube.com/watch?v=90CYYfl9ntM Google \"FAKED UP\" the ENTIRE Gemini Demo Video (Only the Video)! - https://www.youtube.com/watch?v=lhnlx8R16o4 Google’s best Gemini demo was faked - https://techcrunch.com/2023/12/07/googles-best-gemini-demo-was-faked/ That viral-ish Gemini demo video is basically entirely fake - https://twitter.com/ajones55555/status/1732609418527682709 About the “Hands-on with Gemini” - https://twitter.com/OriolVinyalsML/status/1732885990291775553 Coding: instruction-tuned Gemini Ultra correctly implements 74.4% of problems. On a new held-out evaluation benchmark for python code generation tasks, Natural2Code, where we ensure no web leakage, Gemini Ultra achieves the highest score of 74.9% AlphaCode - 25%, AlphaCode2 - 43%, AlphaCode 2 on top of Gemini Pro - 85%, i.e. it performs better than 85% of entrants"
+    },
+    {
+      "index": 5,
+      "title": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "text": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Three More Tests (4 -> 7): ARC (AI2 Reasoning Challenge) grade-school science HellaSwag - common sense inference MMLU - math, history, comp-science, law, ... TruthfulQA - model's propensity to reproduce common falsehoods Winogrande - large version of Winograd test ( https://arxiv.org/abs/1907.10641 ), an adversarial and difficult test for commonsense reasoning GSM8k - diverse grade school math word problems DROP - English reading comprehension (Discrete Reasoning Over Paragraphs) Rank Model Aver Precision Nparam 0 TigerResearch/tigerbot-70b-chat-v2 70.96 16bit 70 1 bhenrym14/platypus-yi-34b 70.67 16bit 30 2 chargoddard/Yi-34B-Llama 70.01 16bit 30 33 OpenBuddy/openbuddy-falcon-180b-v13-preview0 64.3 8bit 180 40 fblgit/juanako-7b-UNA 63.36 16bit 7 57 monology/openinstruct-mistral-7b 61.22 16bit 7 64 OpenBuddy/openbuddy-falcon-180b-v12-preview0 60.54 4bit 180 111 ajibawa-2023/SlimOrca-13B 58.15 16bit 13 113 microsoft/Orca-2-13b 58.05 16bit 13 126 Intel/neural-chat-7b-v3-1     (mistral) 57.5 4bit 7 163 NurtureAI/Starling-LM-11B-alpha-v1 56.23 16bit 11 185 ValiantLabs/ShiningValiantXS 55.3 16bit 13 194 meta-llama/Llama-2-70b-chat-hf 54.98 16bit 70 213 Open-Orca/Mistral-7B-OpenOrca 54.51 16bit 7 298 mistralai/Mistral-7B-v0.1 53.14 16bit 7 309 microsoft/Orca-2-7b 53.02 16bit 7 398 Enno-Ai/vigogne2-enno-13b-sft-lora-4bit 51.79 4bit 13 1261 Phind/Phind-CodeLlama-34B-v2 37.15 16bit 30 1836 wtang06/mpt-125m-c4 17.2 16bit 0.12"
+    },
+    {
+      "index": 6,
+      "title": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard allenai/tulu-2-dpo-70b - llama based",
+      "text": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard allenai/tulu-2-dpo-70b - llama based - https://huggingface.co/allenai/tulu-2-dpo-70b WizardLM/WizardLM-70B-V1.0 - llama based - https://huggingface.co/WizardLM/WizardLM-70B-V1.0"
+    },
+    {
+      "index": 7,
+      "title": "Misc OpenAI App Store Launch date - moved",
+      "text": "Misc OpenAI App Store Launch date - moved to 2024 Meta Purple Llama Safety Project - CyberSecEval & Llama Guard. Llama Guard - small Llama2-7B customizable instruction-tuned model to classify safety risks in prompts and responses for conversational AI agent https://ai.meta.com/blog/purple-llama-open-trust-safety-generative-ai/ Meta text2image - https://imagine.meta.com Microsoft Copilot updates - OpenAI's latest GPT-4 Turbo, an upgraded DALL-E-3 model, a code interpreter, 'Deep Search' S-LoRA - scalable serving of many LoRA adapters by retaining all adapters in the main memory and selectively transferring them to the GPU for active queries. Up to 30 times faster than HuggingFace’s PEFT, 4-times faster than vLLM. https://blog.devgenius.io/s-lora-serving-thousand-llms-on-single-gpu-d8373c00074d Grok launched on X/Twitter (Elon Musk’s AI startup xAI). It is open for Premium Plus subscribers in the U.S. Premium+ subscription starts at $16/mo Building Knowledge Graphs using LLM https://ai.plainenglish.io/the-silent-information-transformation-with-llms-building-knowledge-graphs-with-maximum-automation-2f8d453327d9 https://medium.com/@milena.trajanoska/automated-knowledge-graph-construction-using-chatgpt-ba959050405a MLX - open-source framework for ML & AI from Apple Research  for Apple silicon devices (training and deploying) Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence - Oct 30, 2023 https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/ Problem - shortage of AI talent - https://ai.gov/apply/ The AI Alliance - https://thealliance.ai - collaborative international group of industry leaders, startups, academic institutions, researchers, and government entities, aims to drive open innovation and open science in AI, promoting responsible innovation, ensuring scientific rigor, safety, and diversity"
+    },
+    {
+      "index": 8,
+      "title": "Misc 2 Nvidia TensorRT-LLM software - x5 times",
+      "text": "Misc 2 Nvidia TensorRT-LLM software - x5 times faster inference on Nemo LLM framework! (not compatible with PyTorch) https://www.forbes.com/sites/karlfreund/2023/12/05/nvidia-pre-empts-amd-mi300-with-4x-faster-ai-yes-software-matters/ https://www.forbes.com/sites/karlfreund/2023/09/08/nvidia-adds-new-software-that-can-double-h100-inference-performance/ Claude from Anthropic supports 200k tokens length, but suffers from the \"lost in the middle\" problem, meaning it only had 27% retrieval performance on some standard problems. However, if you add the sentence \"Assistant: Here is the most relevant sentence in the context\" to the prompt the retrieval performance jumps to 98%. https://www.anthropic.com/index/claude-2-1-prompting"
+    },
+    {
+      "index": 9,
+      "title": "Axolotl Axolotl is a powerful open-source tool specifically",
+      "text": "Axolotl Axolotl is a powerful open-source tool specifically designed to streamline the fine-tuning of various large language models (LLMs) like Llama, Pythia, Falcon, and MPT. It offers extensive support for multiple configurations and architectures, making it a valuable resource for researchers and developers working with LLMs. It is used by many of the leading open source models: Teknium: OpenHermes, Trismigestus, CollectiveCognition OpenOrca: Mistral-OpenOrca, Mistral-SlimOrca Nous Research: Puffin, Capybara, NousHermes Pygmalion: Mythalion, Pygmalion Eric Hartford: Dolphin, Samantha DiscoResearch: DiscoLM 120B & 70B OpenAccess AI Collective: Manticore, Minotaur, Jackalope, Hippogriff The Busy Person's Intro to Finetuning & Open Source AI - by Wing Lian, Axolotl .. https://www.latent.space/p/axolotl Also: .. https://github.com/OpenAccess-AI-Collective/axolotl .. https://twitter.com/maximelabonne/status/1696793307299414296 .. https://medium.com/@gurpartap.sandhu3/fine-tuning-llms-using-openais-gpt3-5-to-build-a-hyper-focussed-grumpy-greg-6ecddceedd09 axolotl is a salamander"
+    },
+    {
+      "index": 10,
+      "title": "Zero-Shot Learning / Testing \"Zero-shot\" means that the",
+      "text": "Zero-Shot Learning / Testing \"Zero-shot\" means that the model is not given any similar examples . The model must use its general pre-existing knowledge to infer the response. Zero-shot tests the ability of the model to generalize, to handle unknown situations. Zero-shot learning shows the model's ability to infer without prior exposure while few-shot (like 10-shot) learning demonstrates adaptability with minimal examples. \"10-shot\" means that the model is given 10 examples (for example, question-answer) before asking the main question. The examples are usually a part of the prompt , part of the question. They guide the model to answer the main question in specific way . Being good at few-shot learning is important for  tasks where there is a limited amount of training data. Ideally you want the model to be able to learn from just one example or demonstration. Few-shot approach is also useful for customizing the responses of a general-purpose LLM for specific applications with minimal input."
+    },
+    {
+      "index": 11,
+      "title": "Zephyr Models - helpful assistants HuggingFaceH4/zephyr-7b-beta https://huggingface.co/HuggingFaceH4/zephyr-7b-beta Zephyr",
+      "text": "Zephyr Models - helpful assistants HuggingFaceH4/zephyr-7b-beta https://huggingface.co/HuggingFaceH4/zephyr-7b-beta Zephyr 7B is a series of language models that are trained to act as helpful assistants. Zephyr-7B-β is the second model in the series, and is a fine-tuned version of mistralai/Mistral-7B-v0.1 that was trained on on a mix of publicly available, synthetic datasets using Direct Preference Optimization (DPO). StableLM Zephyr 3B from Stability.AI https://stability.ai/news/stablelm-zephyr-3b-stability-llm StableLM Zephyr 3B is a 3 billion parameter Large Language Model (LLM), 60% smaller than 7B models. Non-commercial license. Inspired by HuggingFace zephyr-7b. Sao10K/Zephyrus-L1-33B https://huggingface.co/Sao10K/Zephyrus-L1-33B Zephyrus v1 is a multi-merging of several Llama1 30B Models using newer Merging Methods seen after the release of Llama2, with a sprinking of an experimental LoRA on top. The goal is to improve Writing Quality to match those seen in top L2 13B Models. Zephyrus - a Greek God, a gentle and refreshing breeze Zephyr - light or gentle wind, pleasant breeze that is refreshing and calming Mistral - a strong, cold, northwesterly wind that blows from southern France into the Gulf of Lion in the northern Mediterranean"
+    },
+    {
+      "index": 12,
+      "title": "Streamlit Streamlit - free open-source python framework to",
+      "text": "Streamlit Streamlit - free open-source python framework to rapidly build and share beautiful ML web apps Streamlit is specialized for Data Science visualizations Fast prototyping with pre-defined components - but limited theme options, you can not directly use HTML/CSS; becomes slow or unresponsive with big datasets. Streamlit was released in October 2019, acquired by Snowflake in 2022 https://github.com/streamlit ; https://streamlit.io https://streamlit.io/gallery # pip install streamlit import streamlit as st import matplotlib.pyplot as plt st.title( \"Hello World!\" ) st.write( \"This is my first Streamlit app.\" ) fig, ax = plt.subplots() x = range(100) y = [math.sin(i) for i in x] ax.plot(x, y) st.pyplot(fig) # streamlit run app.py --server.port 8000"
+    },
+    {
+      "index": 13,
+      "title": "TaskWeaver vs AutoGen TaskWeaver beats AutoGen! 🚀 Microsoft's",
+      "text": "TaskWeaver vs AutoGen TaskWeaver beats AutoGen! 🚀 Microsoft's Code-First Agent Framework - https://www.youtube.com/watch?v=1CdU4n-Obsw"
+    },
+    {
+      "index": 14,
+      "title": "Scaling Generative AI Technical aspects: Data : data",
+      "text": "Scaling Generative AI Technical aspects: Data : data acquisition, cleaning, annotation, and ongoing curation Compute : cloud-based infrastructure with powerful GPUs, TPUs, or specialized AI hardware Model optimization : Efficient model architectures, quantization techniques, and hardware-specific compilation Specialized models : Training dedicated models for specific tasks Strategic aspects: Community, collaboration, open-sourcing - for faster learning and progress, attracting talent Commonality and modularity - use common components and modular architectures - easier reuse, customization, integration, scaling Coordination and governance - between different teams, including data scientists, engineers, product managers, and business stakeholders; responsible AI development, deployment, and monitoring Trust, transparency, data privacy and security, bias and fairness issues"
+    },
+    {
+      "index": 15,
+      "title": "LLM Parallelism LLM parallelism = splitting workload across",
+      "text": "LLM Parallelism LLM parallelism = splitting workload across multiple (thousands) GPUs or TPUs to achieve faster training and inference Pipeline parallelism can lead to memory imbalance on certain devices. Techniques like gradient checkpointing and rematerialization can help. Choose appropriate data types and optimizers to reduce memory footprint. Design your LLM to efficiently scale to larger clusters with more devices. Consider using frameworks like Ray or Horovod that facilitate distributed training management. Bonus Tip: Explore hybrid approaches that combine different parallelism strategies for optimal performance and resource utilization. Model Parallelism - split the model itself across devices. Careful to avoid communication bottlenecks. Data Parallelism - divide the training data into batches and process them simultaneously on different devices Pipeline Parallelism: Break down the training pipeline into stages (e.g., forward pass, backward pass) and run them concurrently on different devices Gradient Aggregation - how to efficiently collect and combine gradients from different devices to update the model (all-reduce and ring-allreduce) Parameter Sharding - divide model parameters into smaller chunks and distribute them across devices, reducing communication overhead. Use GPUs or TPUs or other optimized hardware. Use specialized networking hardware (NVLink, Infiniband, etc) Utilize libraries like DeepSpeed or Megatron-Turing NLG that provide optimized communication and memory management for LLMs"
+    },
+    {
+      "index": 16,
+      "title": "Generative AI Interview Questions https://www.youtube.com/watch?v=OES1zKjdPxA What is LLM?",
+      "text": "Generative AI Interview Questions https://www.youtube.com/watch?v=OES1zKjdPxA What is LLM? What is Generative AI and where is it used? G-AI is a type of AI that generates new data that resembles a given training dataset. It learns the underlying patterns and structures of the data with the help of neural networks to generate new and original content NLP - Natural Language Processing Text content generation, image/video generation, data generation & analysis, healthcare, finance https://www.youtube.com/watch?v=6RNT8I92oYM https://www.youtube.com/watch?v=WucGzteAcrc How does Generative AI Work? https://www.youtube.com/watch?v=rMzLptB0U-4 Generative vs Discriminative Model Explained https://www.youtube.com/watch?v=JE9j9150CKw Prompt Engineering Techniques - Explained https://www.youtube.com/watch?v=cOAI27-MRNQ What is prompt engineering https://www.youtube.com/watch?v=iUnmF8aEg74 Top generative AI models, LLM, Diffusion, GANs https://www.youtube.com/watch?v=UC7WLCCOzIE Top AI companies ot watch in 2024 https://www.youtube.com/watch?v=84Qdb1bEBgw AI Skills You MUST LEARN"
+    },
+    {
+      "index": 17,
+      "title": "Microsoft Azure AI Azure AI - an umbrella",
+      "text": "Microsoft Azure AI Azure AI - an umbrella term for various Microsoft Azure AI services. This includes Computer Vision, Text Analytics, and Speech Services. No-code or low-code, ease of use, quick integration with apps, diverse range of pre-built models But - higher costs and limited flexibility Common use cases - Image recognition, sentiment analysis, speech transcription, chatbots, etc. Azure Machine Learning Studio - platform for building, training, and deploying ML models - provides notebooks and drag-drop interface to easily build the models and pipelines. Azure Synapse Analytics - unified platform for data integration, warehousing, and analytics. Offers spark-based notebooks, data lake, SQL Data warehosue and SQL over datalake, built-in ML through SynapseML. Scalable. Azure OpenAI Service - https://azure.microsoft.com/en-us/products/ai-services/openai-service Conversational AI (bots, questions and answers, and contact center solutions) Content creation (GPT-4 & DALL-E) Data grounding - run models on your data for greater accuracy and insights with Azure OpenAI Service on your data Azure Data Fabric - re-implementation of Synapse, based on PySpark and on OneLake . It uses Delta Lake open-source format for data storage. Delta Lake is a layer that sits on top of existing data lakes and adds ACID transactions , scalable metadata, streaming and batch data processing, schema enforcement, time travel (query historical versions of data) Azure AI Studio - (preview) platform for developing generative AI solutions and custom copilots"
+    },
+    {
+      "index": 18,
+      "title": "Google Vertex AI Vertex AI - Managed ML",
+      "text": "Google Vertex AI Vertex AI - Managed ML platform from Google Cloud, since 2021 build, train, deploy, and manage ML models and AI applications a unified platform for the entire ML lifecycle - data prep, model training, deployment, monitoring AutoML - automatically train and optimize ML models Customizable - custom code or pre-trained models Scalable Generative AI tools (text, images, code) Accelerated ML development - tools, automation, collaboration, tuning Reduced costs Increased team productivity Enhanced user experience - tools for model deployment and monitoring Common use cases: image recognition, text classification, forecasting, fraud detection, customer churn prediction, generative art (images, music, ...) https://cloud.google.com/vertex-ai/docs https://cloud.google.com/vertex-ai/docs/tutorials https://cloud.google.com/blog/products/ai-machine-learning/getting-started-with-vertex-ai Vertex AI Low code platform AutoML, Custom tooling Folder structures for projects Easy to collaborate in Google Colab Hosted notebooks + compute/disk at no cost G-Drive integration Popular for teaching and open-source Usage and hardware limits vs"
+    },
+    {
+      "index": 19,
+      "title": "Amazon Bedrock https://aws.amazon.com/bedrock/ - since September 2023 Build",
+      "text": "Amazon Bedrock https://aws.amazon.com/bedrock/ - since September 2023 Build and scale generative AI applications with Foundation Models (FM) Fully managed service offering foundation models (FMs) from leading AI companies like AI21 Labs, Anthropic, Cohere, Meta, Stability AI, and Amazon via a single API Tools and capabilities for building generative AI applications with security, privacy, and responsible AI Feature Amazon Bedrock AWS SageMaker Purpose Generative AI with pre-trained FMs Various ML models Foundation models Pre-trained FMs (mainly LLMs) Wide range of models, including custom Ease of use Easy, serverless, no infrastructure management Requires more technical expertise Integration Focuses on SageMaker integration Wider integration with various AWS services Cost Pay-per-use Pay-per-use"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Google Gemini",
+      "topic": "google",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates December 08, 2023 Google Gemini Released",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemini report",
+      "topic": "google",
+      "videoSeconds": 127,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=127s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Haggle leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 353,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=353s",
+      "slideIndex": 4,
+      "slideTitle": "Google Gemini - continued Google Gemini AI -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Arena leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 402,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=402s",
+      "slideIndex": 5,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "youtube"
+    },
+    {
+      "claim": "Miscellaneous",
+      "topic": "general",
+      "videoSeconds": 460,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=460s",
+      "slideIndex": 6,
+      "slideTitle": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard allenai/tulu-2-dpo-70b - llama based",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Tza RT ML Software",
+      "topic": "infra",
+      "videoSeconds": 755,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=755s",
+      "slideIndex": 7,
+      "slideTitle": "Misc OpenAI App Store Launch date - moved",
+      "source": "youtube"
+    },
+    {
+      "claim": "Xolotl",
+      "topic": "general",
+      "videoSeconds": 852,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=852s",
+      "slideIndex": 9,
+      "slideTitle": "Axolotl Axolotl is a powerful open-source tool specifically",
+      "source": "youtube"
+    },
+    {
+      "claim": "Zeroshot vs 10shot",
+      "topic": "general",
+      "videoSeconds": 895,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=895s",
+      "slideIndex": 10,
+      "slideTitle": "Zero-Shot Learning / Testing \"Zero-shot\" means that the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Zephyr models",
+      "topic": "general",
+      "videoSeconds": 1033,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1033s",
+      "slideIndex": 11,
+      "slideTitle": "Zephyr Models - helpful assistants HuggingFaceH4/zephyr-7b-beta https://huggingface.co/HuggingFaceH4/zephyr-7b-beta Zephyr",
+      "source": "youtube"
+    },
+    {
+      "claim": "Streamlit",
+      "topic": "general",
+      "videoSeconds": 1176,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1176s",
+      "slideIndex": 12,
+      "slideTitle": "Streamlit Streamlit - free open-source python framework to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Task Weaver",
+      "topic": "general",
+      "videoSeconds": 1276,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1276s",
+      "slideIndex": 14,
+      "slideTitle": "Scaling Generative AI Technical aspects: Data : data",
+      "source": "youtube"
+    },
+    {
+      "claim": "Scaling",
+      "topic": "general",
+      "videoSeconds": 1310,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1310s",
+      "slideIndex": 15,
+      "slideTitle": "LLM Parallelism LLM parallelism = splitting workload across",
+      "source": "youtube"
+    },
+    {
+      "claim": "ML Parallelism",
+      "topic": "general",
+      "videoSeconds": 1395,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1395s",
+      "slideIndex": 16,
+      "slideTitle": "Generative AI Interview Questions https://www.youtube.com/watch?v=OES1zKjdPxA What is LLM?",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Azure AI",
+      "topic": "general",
+      "videoSeconds": 1577,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1577s",
+      "slideIndex": 17,
+      "slideTitle": "Microsoft Azure AI Azure AI - an umbrella",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Vertex AI",
+      "topic": "general",
+      "videoSeconds": 1906,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=1906s",
+      "slideIndex": 19,
+      "slideTitle": "Amazon Bedrock https://aws.amazon.com/bedrock/ - since September 2023 Build",
+      "source": "youtube"
+    },
+    {
+      "claim": "Amazon Bedrock",
+      "topic": "general",
+      "videoSeconds": 2015,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE&t=2015s",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemini Released https://deepmind.google/technologies/gemini https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf December 6, 2023",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE",
+      "slideIndex": 3,
+      "slideTitle": "Google Gemini Released https://deepmind.google/technologies/gemini https://storage.googleapis.com/deepmind-media/gemini/gemini_1_report.pdf December 6, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 2 Nvidia TensorRT-LLM software - x5 times",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=zqSBnjAeozE",
+      "slideIndex": 8,
+      "slideTitle": "Misc 2 Nvidia TensorRT-LLM software - x5 times",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "id": "2024-08-23-2024-08-23-ai-updates",
+  "date": "2024-08-23",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "agents",
+    "openai",
+    "fine-tuning",
+    "claude",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "4EWdFxnicVE",
+    "title": "Have you heard these exciting AI news? - August 23, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+    "thumbnail": "https://i.ytimg.com/vi/4EWdFxnicVE/hqdefault.jpg",
+    "duration": 1427
+  },
+  "deck": {
+    "path": "2024/2024-08-23-AI-Updates.pptx",
+    "filename": "2024-08-23-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-08-23-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-08-23-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Top 100 AI Gen AI Consumer APps",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LLM Open-Source Licenses",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Transfusion",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Prompt and Context caching",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ideogram v.2 text-to-image",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Jamba 1.5  from AI21labs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta web crawler \"Meta External Agent\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Unitree 01 Robot , goto W (on tires)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI finetuning GPT-4o available (paid)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Cosine Genie is a a fine-tuned GPT-4o",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Midjourney website",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Waymo - Google autonomous driving",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "My \"ai\" repo, running ollama, OpenAI, Claude",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "FastHTML tutorial",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "My \"ai\" repo - \"fasthtml\" tests",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard - English",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard - Coding",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs in 2024",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Top 100 AI Gen AI Consumer APps LLM",
+      "text": "Top 100 AI Gen AI Consumer APps LLM Open-Source Licenses Transfusion Prompt and Context caching Ideogram v.2 text-to-image Jamba 1.5  from AI21labs Meta web crawler \"Meta External Agent\" Unitree 01 Robot , goto W (on tires) OpenAI finetuning GPT-4o available (paid) Cosine Genie is a a fine-tuned GPT-4o Midjourney website Waymo - Google autonomous driving My \"ai\" repo, running ollama, OpenAI, Claude FastHTML tutorial My \"ai\" repo - \"fasthtml\" tests Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Tech Layoffs in 2024 AI Updates August 23 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 3,
+      "title": "Top 100 AI Gen AI Consumer APps ChatGPT",
+      "text": "Top 100 AI Gen AI Consumer APps ChatGPT Character.AI - human-like chatbot web apps Perplexity https://a16z.com/100-gen-ai-apps-3/ Andreessen Horowitz, a.k.a. a16z , is a venture capital firm that invests in technology startups. They are based in Menlo Park, California, and have invested in some of the most successful tech companies in the world, including Facebook, Twitter, and Airbnb."
+    },
+    {
+      "index": 4,
+      "title": "LLM Open-Source Licenses Meta Llama https://llama.meta.com/llama3/license/ https://github.com/meta-llama/llama3/blob/main/LICENSE There",
+      "text": "LLM Open-Source Licenses Meta Llama https://llama.meta.com/llama3/license/ https://github.com/meta-llama/llama3/blob/main/LICENSE There are no restrictions in the Llama License on charging users for use of a Llama-powered product. But you have to mention that the product is \"Built with Llama\" on a related website, user interface, blogpost, about page, or product documentation. You shall include \"Llama\" at the beginning of a model name if you have used Llama to create, train, fine tune, or otherwise improve it. You also need to provide a \"Notice\" text file with your product with the following text: \"Llama 3.1 is licensed under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.\" Apache license - very permissive. https://www.apache.org/licenses/LICENSE-2.0 Use the software for any purpose, including commercial purposes like distributing and selling the software or a product created using the software. This includes modifying the software and sublicensing it. You shall include the Apache license and copyright notice with the product . If you modify the software, you must state that you have done so. You shall not use original contributors' names for endorsement without their permission . MIT license - also very permissive, shorter than Apache. https://en.wikipedia.org/wiki/MIT_License You can use, modify, and distribute the software for any purpose, including commercial use. You shall include the original copyright notice and license text in your product . Simplicity: The MIT license is notably shorter and simpler than Apache license . It doesn't cover Patents & Trademarks. Open-source licenses disclaim any warranties and liabilities associated with the software. Ollama has MIT license. Mistral uses Apache license NVIDIA license - also very permissive. https://developer.download.nvidia.com/licenses/nvidia-open-model-license-agreement-june-2024.pdf Models are commercially useable. You are free to create and distribute Derivative Models. NVIDIA does not claim ownership to any outputs generated using the Models or Model Derivatives. You shall add the \"Notice\" text file. You shall not institute copyright or patent litigation"
+    },
+    {
+      "index": 5,
+      "title": "Apache License Apache License Version 2.0, January 2004",
+      "text": "Apache License Apache License Version 2.0, January 2004 http://www.apache.org/licenses/ TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION 1. Definitions. \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document. \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License. \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity. \"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License. \"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files. \"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types. \"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below). \"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof. \"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\" \"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work. 2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form. 3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed. 4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions: You must give any other recipients of the Work or Derivative Works a copy of this License; and You must cause any modified files to carry prominent notices stating that You changed the files; and You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License. You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License. 5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions. 6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file. 7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License. 8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages. 9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability. END OF TERMS AND CONDITIONS Copyright (c) <year> <copyright holders> Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. MIT License"
+    },
+    {
+      "index": 6,
+      "title": "Transfusion Meta \"Transfusion\" model : Predict the Next",
+      "text": "Transfusion Meta \"Transfusion\" model : Predict the Next Token and Diffuse Images with One Multi-Modal Model - up to 7B parameters, from Meta https://arxiv.org/pdf/2408.11039"
+    },
+    {
+      "index": 7,
+      "title": "Misc 1 Prompt and Context caching : Prompt",
+      "text": "Misc 1 Prompt and Context caching : Prompt Caching with Claude Google - Context Caching, you can upload 100 pages PDF https://www.youtube.com/watch?v=UZg_xyIS9_E Ideogram v.2 : https://about.ideogram.ai/2.0 text-to-image model new image styles (General, Realistic, Design, 3D, and Anime) iOS app API 1 Bln public images AI21labs - Jamba : Mamba-Transformer MoE architecture Long context (256K), open source, fast, multi-lingual mini: 12b and 52b large: 94b & 398b https://www.ai21.com/jamba https://huggingface.co/ai21labs Meta web crawler \"Meta External Agent\" to collect public data for training models respects robots.txt files Unitree 01 Robot , goto W (on tires) - fast, jumping, ... https://www.unitree.com/go2-w/ OpenAI finetuning GPT-4o available (paid) Cosine Genie is a a fine-tuned GPT-4o - https://cosine.sh/genie Midjourney website - https://www.midjourney.com Waymo - Google autonomous driving - https://waymo.com/ - 100K rides per week - just few cities (LA, SF, ...)"
+    },
+    {
+      "index": 8,
+      "title": "ai/tests My \"ai\" repo https://github.com/lselector/ai https://github.com/lselector/ai/tree/master/tests howto_ollama.txt test1_ollama.py",
+      "text": "ai/tests My \"ai\" repo https://github.com/lselector/ai https://github.com/lselector/ai/tree/master/tests howto_ollama.txt test1_ollama.py test2_ollama_stream.py test3_OpenAI.py test4_OpenAI_stream.py test5_Claude.py test6_Claude_stream_chat.py # test1_ollama.py import ollama myclient = ollama.Client() mymodel  = \" llama3.1 \" myprompt = \" Why is the sky blue? \" print(f\" asking question: '{myprompt}'\") print(f\" waiting for response: \\n\") resp = myclient.generate(model=mymodel, prompt=myprompt) ss = resp['response'] print(ss) # test2_ollama_stream.py import ollama mymodel  = \" llama3.1 \" myprompt = \" Why is the sky blue? \" print(f\"asking question '{myprompt}'\") print(f\"waiting for streaming response:\\n\") for chunk in ollama.chat( model=mymodel, messages=[{'role':'user','content':myprompt}], stream=True ): print(chunk['message']['content'], end='', flush=True)"
+    },
+    {
+      "index": 9,
+      "title": "ai/tests - OpenAI - Streaming # test4_OpenAI_stream.py from",
+      "text": "ai/tests - OpenAI - Streaming # test4_OpenAI_stream.py from openai import OpenAI myclient = OpenAI() mymodel  = \"gpt-4o\" myprompt = \" Why is the sky blue? Give a short answer \" messages=[ {\"role\": \" system \", \"content\": \" You are a helpful assistant. \"}, {\"role\": \" user \", \"content\": myprompt} ] print(f\" asking question: '{myprompt}'\") print(f\" waiting for streaming response: \\n\") mystream = myclient.chat.completions.create( model=mymodel, messages=messages, stream=True, ) for chunk in mystream: if chunk.choices[0].delta.content is not None: ss = chunk.choices[0].delta.content print(ss, end='', flush=True )"
+    },
+    {
+      "index": 10,
+      "title": "ai/tests - streaming with Claude 3.5 Sonnet #",
+      "text": "ai/tests - streaming with Claude 3.5 Sonnet # test6_Claude_stream_chat.py import os, sys, anthropic client = anthropic.Anthropic() messages = [] while True: print() user_message = input(\" Enter prompt or 'exit' to end > \") if user_message.strip().lower() == \" exit \": break print() messages.append({\" role \":\" user \", \" content \": user_message}) with client.messages.stream( max_tokens=1024, messages=messages, model=\" claude-3-5-sonnet-20240620 \" ) as stream: response = \"\" for text in stream.text_stream: print(text, end=\"\", flush=True) response += text print() messages.append({\" role \":\" assistant \", \" content \": response }) print()"
+    },
+    {
+      "index": 11,
+      "title": "FastHTML p.1 FastHTML - a python framework to",
+      "text": "FastHTML  p.1 FastHTML - a python framework to create web apps. It uses HTMX (Javascript library). pip install python-fasthtml https://fastht.ml https://about.fastht.ml https://docs.fastht.ml https://docs.fastht.ml/tutorials/by_example.html https://github.com/AnswerDotAI/fasthtml-tut https://github.com/AnswerDotAI/fasthtml/tree/main/examples https://www.youtube.com/watch?v=Auqrm7WFc0I https://h2x.answer.ai - to convert HTML to FastHTML syntax https://www.youtube.com/watch?v=evAb2x34Jqk - good short demo uvicorn test01:app --reload or serve() at the and of the .py file or uvicorn.run(\"test01:app\", host=\"localhost\", port=8000, reload=True) http://127.0.0.1:8000"
+    },
+    {
+      "index": 12,
+      "title": "FastHTML p.2 : simple examples from fasthtml import",
+      "text": "FastHTML  p.2 : simple examples from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() @app.get(\"/\") def home(): return \"<h1>Hello, World</h1>\" serve() \"\"\" uvicorn test02_common:app --reload \"\"\" from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() @app.get(\"/\") def home(): mypage = ( Title(\"Page Demo\"), Div( H1('Hello, Lev'), P('Some text'), P(A( 'LevSelector.com' , href= 'https://LevSelector.com' )), P(Img( src= \"https://eais.ai/img/Lev.jpg\" , width=100, height=100)), P( Strong('Some'), I( 'more text' , style= \"color: #f00;font-size: 30px;\" ) ), Table( Tr(Td( \"aa\" ),Td(11)), Tr(Td( \"bb\" ),Td(22)), Tr(Td( \"cc\" ),Td(33)) ) ) # div ) # mypage return mypage from fasthtml.common import * page = Html( Head(Title( 'Some page' )), Body( Div( 'Some text, ' , A('A link', href=' https://example.com '), Img(src=\" https://placehold.co/200 \"), cls= 'myclass' ) ) # div ) # Html print(to_xml(page)) # print HTML"
+    },
+    {
+      "index": 13,
+      "title": "FastHTML p.3 : FT objects, routes FT objects",
+      "text": "FastHTML  p.3 : FT objects, routes FT objects - create \" FastTag \"structure with 3 elements: [tag,children,attrs] You can feed it to to_xml() to convert it to HTML string. When we call Div(...) , the elements we pass in are the children. Attributes are passed in as keywords. Note: \"class\" and \"for\" are special words in python, so we use cls, klass, or _class instead of class and fr or _for instead of for . Note these FT objects are just 3-element lists . You can create custom ones too. Alternately, leaf nodes can be strings instead (which is why you can do Div('some text') ). If you pass something that isn’t a 3-element list or a string, it will be converted to a string using str() ... unless you define a __ft__ method that will run before str(), so you can render things a custom way Defining Routes: @app.route(\"/\", methods='get') def home(): return H1('Hello, World') @app.route(\"/\", methods=['post', 'put']) def post_or_put(): return \"got a POST or PUT request\" When someone navigates to the root URL “/” (i.e. sends a GET request), they will see the big “Hello, World” heading. When someone submits a POST or PUT request to the same URL, the server should return the string “got a post or put request”. FastHTML has .get, .post , etc. as shorthand for route(..., methods=['get']) , etc. @app.get(\"/\") def my_function(): return \"Hello World from a GET request\" @app.route(\"/\") def post(): return \"Hello World from a POST request\" Sending requests: curl -X POST http://127.0.0.1:8000 -d \"some data\""
+    },
+    {
+      "index": 14,
+      "title": "FastHTML p.4 : starlette.testclient, PicoCSS # Using Starlette’s",
+      "text": "FastHTML  p.4 : starlette.testclient, PicoCSS # Using Starlette’s TestClient: from starlette.testclient import TestClient client = TestClient(app) r = client.get(\"/\") print(r.text) # Styling - Using PicoCSS .. https://picocss.com .. https://picocss.com/docs There is a predefined \"picolink\" to do: <link rel=\"stylesheet\" href=\"css/pico.min.css\"> from fasthtml.common import * # App with custom styling to override the pico defaults css = Style(':root { --pico-font-size: 100%; --pico-font-family: Pacifico, cursive;}') app = FastHTML(hdrs=(picolink, css)) @app.route(\"/\") def get(): return Title(\"Hello World\"), Main(H1('Hello, World'), cls=\"container\")"
+    },
+    {
+      "index": 15,
+      "title": "FastHTML p.5 : Styling: pico, tailwind, daisy #",
+      "text": "FastHTML  p.5 : Styling: pico, tailwind, daisy # Styling - Using PicoCSS .. https://picocss.com .. https://picocss.com/docs There is a predefined \"picolink\" to do: <link rel=\"stylesheet\" href=\"css/pico.min.css\"> from fasthtml.common import * # App with custom styling to override the pico defaults css = Style(':root { --pico-font-size: 100%; --pico-font-family: Pacifico, cursive;}') app = FastHTML(hdrs=(picolink, css)) @app.route(\"/\") def get(): return Title(\"Hello World\"), Main(H1('Hello, World'), cls=\"container\") # example using all three: tailwind, daisyui , and pico : tlink = (Script( src =\"https:// unpkg.com /tailwindcss-cdn@3.4.3/ tailwindcss.js \"),) dlink = Link( rel =\"stylesheet\", href =\"https:// cdn.jsdelivr.net / npm /daisyui@4.11.1/ dist / full.min.css \", ) app = FastHTML ( hdrs =[ tlink , dlink , picolink ] , ws_hdr =True) Tailwind CSS is a popular set of predefined CSS classes. tailwindcss - https://tailwindcss.com daisyui - https://daisyui.com"
+    },
+    {
+      "index": 16,
+      "title": "FastHTML p.6 : Application from fasthtml import FastHTML",
+      "text": "FastHTML  p.6 : Application from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() messages = [ \"messages rendered as paragraphs\" ] # ----------------------------------------- def calc_home(): return Main( H1('Messages'), *[P(msg) for msg in messages], A( \"Link to Page 2 (to add messages)\" , href= \"/page2\" )) # ----------------------------------------- @app.get(\"/\") def home(): return calc_home() # ----------------------------------------- @app.post(\"/\") def add_message(data:str): messages.append(data) return calc_home() # ----------------------------------------- @app.get(\"/page2\") def page2(): return Main( P( \"Add a message with the form below:\" ), Form( Input(type= \"text\" , name= \"data\" ), Button( \"Submit\" ), action=\"/\", method=\"post\")) # ----------------------------------------- serve()"
+    },
+    {
+      "index": 17,
+      "title": "FastHTML p.7 : HTMX https://htmx.org https://htmx.org/docs/#triggers HTMX gives",
+      "text": "FastHTML  p.7 : HTMX https://htmx.org https://htmx.org/docs/#triggers HTMX gives you access to AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes. HTMX is small (~14k min.gz’d), dependency-free, extendable. Why should only <a> & <form> be able to make HTTP requests? Why should we replace the whole page? HTMX ,ales all HTML elements active, allows you to replace portions of the screen. from fasthtml import FastHTML from fasthtml.common import * app = FastHTML() count = 0 # ----------------------------------------- @app.get(\"/\") def home(): return Title( \"Count Demo\" ), Main( H1( \"Count Demo\" ), P( f\"Count is set to {count}\" , id= \"count\" ), Button( \"Increment\" , hx_post= \"/increment\" , hx_target= \"#count\" , hx_swap= \"innerHTML\" ) ) # ----------------------------------------- @app.post( \"/increment\" ) def increment(): print( \"incrementing\" ) global count count += 1 return f\"Count is set to {count}\" # ----------------------------------------- serve() hx_target - where to put the result. If no target is specified it replaces the element that triggered the request hx_swap - how to add the result to the page innerHTML : Replace the target element’s content outerHTML : Replace the target element with the result beforebegin : Insert the result before the target element beforeend : Insert inside the target element, after its last child afterbegin : Insert inside the target element, before its first child afterend : Insert the result after the target element delete : delete the target element none : do nothing Can update multiple elements with hx_swap_oob ='true'"
+    },
+    {
+      "index": 18,
+      "title": "FastHTML p.8 : ToDo App from fasthtml.common import",
+      "text": "FastHTML  p.8 : ToDo App from fasthtml.common import * # ----------------------------------------- app,rt,todos,Todo = fast_app( 'data/todos.db', hdrs=[Style(':root { --pico-font-size: 100%; }')], id=int, title=str, done=bool, pk='id') # ----------------------------------------- id_curr = 'current-todo' def tid(id): return f'todo-{id}' # ----------------------------------------- @patch def __ft__(self:Todo): show = AX(self.title, f'/todos/{self.id}', id_curr) edit = AX('edit',     f'/edit/{self.id}' , id_curr) dt = ' ✅' if self.done else '' return Li(show, dt, ' | ', edit, id=tid(self.id)) # ----------------------------------------- def mk_input(**kw): return Input(id=\"new-title\", name=\"title\", placeholder=\"New Todo\", required=True, *kw) # ----------------------------------------- @rt(\"/\") async def get(): add = Form(Group(mk_input(), Button(\"Add\")), hx_post=\"/\", target_id='todo-list', hx_swap=\"beforeend\") card = Card(Ul(*todos(), id='todo-list'), header=add, footer=Div(id=id_curr)), title = 'Todo list' return Title(title),Main(H1(title),card, cls='container') # ----------------------------------------- @rt(\"/todos/{id}\") async def delete(id:int): todos.delete(id) return clear(id_curr) # ----------------------------------------- @rt(\"/\") async def post(todo:Todo): return todos.insert(todo), mk_input(hx_swap_oob='true') # ----------------------------------------- @rt(\"/edit/{id}\") async def get(id:int): res = Form(Group(Input(id=\"title\"), Button(\"Save\")), Hidden(id=\"id\"), CheckboxX(id=\"done\", label='Done'), hx_put=\"/\", target_id=tid(id), id=\"edit\") return fill_form(res, todos.get(id)) # ----------------------------------------- @rt(\"/\") async def put(todo: Todo): return todos.upsert(todo), clear(id_curr) # ----------------------------------------- @rt(\"/todos/{id}\") async def get(id:int): todo = todos.get(id) btn = Button('delete', hx_delete=f'/todos/{todo.id}', target_id=tid(todo.id), hx_swap=\"outerHTML\") return Div(Div(todo.title), btn) # ----------------------------------------- serve() https://github.com/AnswerDotAI/fasthtml-example/tree/main/01_todo_app"
+    },
+    {
+      "index": 19,
+      "title": "My \"ai\" repo - fasthtml https://github.com/lselector/ai/tree/master/fasthtml",
+      "text": "My \"ai\" repo - fasthtml https://github.com/lselector/ai/tree/master/fasthtml"
+    },
+    {
+      "index": 20,
+      "title": "Total #models: 131. Total #votes: 1,709,544. Last updated:",
+      "text": "Total #models: 131. Total #votes: 1,709,544. Last updated: 2024-08-21. Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 21,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 131. Total #votes: 1,709,544. Last updated: 2024-08-21."
+    },
+    {
+      "index": 22,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Intel",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Intel is firing 15% of its personnel (about 15,000 jobs) - Aug 1, 2024 https://x.com/burkov/status/1819214183881187828 Dell Technologies is firing 10%  (12,500 employees). This follows a previous round of 13,000 layoffs. The cuts mainly impact sales and marketing divisions. https://www.pcmag.com/news/dell-makes-cuts-to-boost-ai-pivot-reportedly-laying-off-12500-employees"
+    },
+    {
+      "index": 23,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Top 100 AI Gen AI Consumer APps",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 1,
+      "slideTitle": "Top 100 AI Gen AI Consumer APps LLM",
+      "source": "outline"
+    },
+    {
+      "claim": "LLM Open-Source Licenses",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Transfusion",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 4,
+      "slideTitle": "LLM Open-Source Licenses Meta Llama https://llama.meta.com/llama3/license/ https://github.com/meta-llama/llama3/blob/main/LICENSE There",
+      "source": "outline"
+    },
+    {
+      "claim": "Prompt and Context caching",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 5,
+      "slideTitle": "Apache License Apache License Version 2.0, January 2004",
+      "source": "outline"
+    },
+    {
+      "claim": "Ideogram v.2 text-to-image",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 6,
+      "slideTitle": "Transfusion Meta \"Transfusion\" model : Predict the Next",
+      "source": "outline"
+    },
+    {
+      "claim": "Jamba 1.5  from AI21labs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 7,
+      "slideTitle": "Misc 1 Prompt and Context caching : Prompt",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta web crawler \"Meta External Agent\"",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 9,
+      "slideTitle": "ai/tests - OpenAI - Streaming # test4_OpenAI_stream.py from",
+      "source": "outline"
+    },
+    {
+      "claim": "Unitree 01 Robot , goto W (on tires)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 10,
+      "slideTitle": "ai/tests - streaming with Claude 3.5 Sonnet #",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI finetuning GPT-4o available (paid)",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 11,
+      "slideTitle": "FastHTML p.1 FastHTML - a python framework to",
+      "source": "outline"
+    },
+    {
+      "claim": "Cosine Genie is a a fine-tuned GPT-4o",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 13,
+      "slideTitle": "FastHTML p.3 : FT objects, routes FT objects",
+      "source": "outline"
+    },
+    {
+      "claim": "Midjourney website",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 14,
+      "slideTitle": "FastHTML p.4 : starlette.testclient, PicoCSS # Using Starlette’s",
+      "source": "outline"
+    },
+    {
+      "claim": "Waymo - Google autonomous driving",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 15,
+      "slideTitle": "FastHTML p.5 : Styling: pico, tailwind, daisy #",
+      "source": "outline"
+    },
+    {
+      "claim": "My \"ai\" repo, running ollama, OpenAI, Claude",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 17,
+      "slideTitle": "FastHTML p.7 : HTMX https://htmx.org https://htmx.org/docs/#triggers HTMX gives",
+      "source": "outline"
+    },
+    {
+      "claim": "FastHTML tutorial",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 18,
+      "slideTitle": "FastHTML p.8 : ToDo App from fasthtml.common import",
+      "source": "outline"
+    },
+    {
+      "claim": "My \"ai\" repo - \"fasthtml\" tests",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 19,
+      "slideTitle": "My \"ai\" repo - fasthtml https://github.com/lselector/ai/tree/master/fasthtml",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard - English",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 20,
+      "slideTitle": "Total #models: 131. Total #votes: 1,709,544. Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard - Coding",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 22,
+      "slideTitle": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Intel",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs in 2024",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 23,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Top 100 AI Gen AI Consumer APps ChatGPT",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 3,
+      "slideTitle": "Top 100 AI Gen AI Consumer APps ChatGPT",
+      "source": "slide"
+    },
+    {
+      "claim": "ai/tests My \"ai\" repo https://github.com/lselector/ai https://github.com/lselector/ai/tree/master/tests howto_ollama.txt test1_ollama.py",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 8,
+      "slideTitle": "ai/tests My \"ai\" repo https://github.com/lselector/ai https://github.com/lselector/ai/tree/master/tests howto_ollama.txt test1_ollama.py",
+      "source": "slide"
+    },
+    {
+      "claim": "FastHTML p.2 : simple examples from fasthtml import",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=4EWdFxnicVE",
+      "slideIndex": 12,
+      "slideTitle": "FastHTML p.2 : simple examples from fasthtml import",
+      "source": "slide"
+    }
+  ]
+}

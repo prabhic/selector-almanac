@@ -1,0 +1,280 @@
+{
+  "id": "2023-10-27-2023-10-27-ai-updates",
+  "date": "2023-10-27",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "open-models",
+    "benchmarks",
+    "fine-tuning",
+    "rag",
+    "infra",
+    "multimodal",
+    "general"
+  ],
+  "video": {
+    "id": "7YJBTevPsxM",
+    "title": "AI Updates - October 27, 2023 - Mistral.AI vs GPT, Fast.AI, DALL-E 3, JAX, RAG, FlashAttention, ...",
+    "url": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+    "thumbnail": "https://i.ytimg.com/vi/7YJBTevPsxM/hqdefault.jpg",
+    "duration": 1932
+  },
+  "deck": {
+    "path": "2023/2023-10-27-AI-Updates.pptx",
+    "filename": "2023-10-27-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-27-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-27-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates October 27, 2023 372,000 models on",
+      "text": "AI Updates October 27, 2023 372,000 models on HuggingFace Mistral.AI vs GPT, server costs Jeremy Howard - fast.ai, 3-step transfer learning, PyTorch DALL·E 3 is now available in ChatGPT Plus Retrieval-Augmented Dual Instruction Tuning (RA-DIT) Can LLMs really self-critique (and iteratively improve) ? \"AI will never threaten humans\" - Yann LeCun Fine-tune Mistral 7B on Personal Notes JAX, T5, C4 RAG, FlashAttention, Misc Woodpecker"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Look at Mistral 7b and 11b - better than original LLaMa2 Note - there are close to 2K in the open-LLM leaderboard, but they represent only few percent of available LLMs. There are 372K models on HuggingFace. https://huggingface.co/models Filter by name or by type: \"Text Generation\" - 28K \"Text2Text Generation\" - 19K \"Conversational\" - 2.5K etc. Rank Model Aver Precision Nparam 0 GPT-4 84.30 16bit 1800 1 ValiantLabs/ShiningValiant 74.17 16bit 70 2 ICBU-NPU/FashionGPT-70B-V1.2 74.11 16bit 70 41 GPT-3.5 71.90 16bit 175 57 garage-bAInd/Camel-Platypus2-70B 71.36 8bit 70 62 lloorree/jfdslijsijdgis 70.99 4bit 70 107 tiiuae/falcon-180B 68.74 16bit 180 141 Undi95/Mistral-11B-TestBench11 67.21 16bit 11 147 ehartford/dolphin-2.1-mistral-7b 67.06 16bit 7 155 meta-llama/Llama-2-70b-chat-hf 66.80 16bit 70 165 Weyaxi/SlimOpenOrca-Mistral-7B 66.54 16bit 7 177 Aspik101/trurl-2-13b-pl-instruct_unload 66.03 16bit 13 183 Open-Orca/Mistral-7B-OpenOrca 65.84 16bit 7 357 Open-Orca/OpenOrca-Platypus2-13B 63.19 4bit 13 422 mistralai/Mistral-7B-v0.1 62.40 16bit 7 988 joehuangx/spatial-vicuna-7b-v1.5-LoRA 55.72 4bit 7 1870 baseline 25.00 nan 0"
+    },
+    {
+      "index": 4,
+      "title": "Mistral.AI",
+      "text": "Mistral.AI"
+    },
+    {
+      "index": 5,
+      "title": "https://medium.com/@masteringllm/mistral-7b-is-187x-cheaper-compared-to-gpt-4-b8e5ee1c9fc2 Mistral 7B is 187x cheaper compared to",
+      "text": "https://medium.com/@masteringllm/mistral-7b-is-187x-cheaper-compared-to-gpt-4-b8e5ee1c9fc2 Mistral 7B is 187x cheaper compared to GPT-4 Mistral 7B offers: 8,000-token context length low latency, high throughput good accuracy low memory reqs (7B model size) free, Apache 2.0 license, no usage restrictions This is even without quantization! The 4-bit Mistral model will be much cheaper"
+    },
+    {
+      "index": 6,
+      "title": "Select GPU on Lambda Cloud GPU prices on",
+      "text": "Select GPU on Lambda Cloud GPU prices on different Clouds https://www.paperspace.com/gpu-cloud-comparison https://brev.dev/docs/reference/gpu https://lambdalabs.com/service/gpu-cloud Also look at: https://www.runpod.io/gpu-instance/pricing RTX 3090 24GB - $0.44/hr - cheaper than Lambda https://www.penguinsolutions.com https://www.coreweave.com/gpu-cloud-pricing https://centml.ai - affordable ML https://huggingface.co/pricing - $1.05/hr - 24GB GPU https://brev.dev/blog/the-complete-guide-to-google-colab-compute-prices-and-performance Nvidia GPU VRAM per GPU vCPUs RAM GB SSD TB Price $/hr 1x H100 PCIe 80 GB 26 200 1 $1.99 8x H100 SXM 80 GB 220 1,800 24 $20.72 1x A100 40 GB 30 200 0.5 $1.10 2x A100 40 GB 60 400 1 $2.20 4x A100 40 GB 120 800 1 $4.40 8x A100 40 GB 124 1,800 6 $8.80 8x A100 80 GB 240 1,800 20 $12.00 1x RTX A6000 48 GB 14 100 0.2 $0.80 2x RTX A6000 48 GB 28 200 1 $1.60 4x RTX A6000 48 GB 56 400 1 $3.20 1x A10 24 GB 30 200 1.4 $0.60 1x Quadro RTX 6000 24 GB 14 46 0.5 $0.50 8x Tesla V100 16 GB 92 448 5.9 $4.40 LambdaLabs Pricing"
+    },
+    {
+      "index": 7,
+      "title": "Jeremy Howard - fast.ai .. https://www.fast.ai .. https://www.fast.ai/posts/2022-07-21-dl-coders-22.html",
+      "text": "Jeremy Howard - fast.ai .. https://www.fast.ai .. https://www.fast.ai/posts/2022-07-21-dl-coders-22.html - fast.ai courses have been studied by hundreds of thousands of students, videos have been viewed over 6 Mln times .. https://en.wikipedia.org/wiki/Fast.ai .. https://en.wikipedia.org/wiki/Jeremy_Howard_(entrepreneur) .. https://www.linkedin.com/in/howardjeremy/ .. https://www.youtube.com/watch?v=5Sze3kHAZqE .. https://www.latent.space/p/fastai Jeremy Howard : an Australian data scientist, entrepreneur, and educator co-founder of fast.ai (with Rachael Thomas ) Software: fastai for PyTorch; nbdev Courses: Practical Deep Learning for Coders; From Deep Learning Foundations to Stable Diffusion Book: Practical Deep Learning for Coders with fastai and PyTorch previously - Fastmail, Optimal Decisions Group, Enlitic, Kaggle (2010-2013) Working with Chris Lattner (LLVM, Clang, MLIR compiler infrastructure, Swift programming language, Modular Inc - an AI  platform for developers) Language Acquisition Performance - https://www.youtube.com/watch?v=HwH7bJibmdM Can LLMs learn from a single example? https://www.fast.ai/posts/2023-09-04-learning-jumps/ Jeremy Howard Deep learning @ fast.ai Redcliffe, Queensland Australia A leading expert in transfer learning and fine-tuning"
+    },
+    {
+      "index": 8,
+      "title": "Chris Lattner 2020 - SiFive - RISC-V 2022",
+      "text": "Chris Lattner 2020 - SiFive - RISC-V 2022 - founded Modular Inc. https://www.modular.com Modular is an AI platform with their own \"execution engine\" and a new programming language Mojo - wraps and supports Python, but runs with speed of \"C\" https://www.modular.com/mojo https://en.wikipedia.org/wiki/Chris_Lattner 2000-2002 - LLVM 2005 - Clang (at Apple) 2010 - Swift (at Apple) 2015 - LLVM Foundation 2017-2020 - Google (TensorFlow) 2019 - MLIR compiler https://mlir.llvm.org (MLIR = Multi-Level Intermediate Representation) Rachel Thomas Rachel Thomas is an American computer scientist and founding Director of the Center for Applied Data Ethics at the University of San Francisco . co-founder of fast.ai t ogether with Jeremy Howard Rachel Thomas was selected by Forbes magazine as one of the 20 most incredible women in artificial intelligence. https://en.wikipedia.org/wiki/Rachel_Thomas_%28academic%29 Jeremy Howard - fast.ai - continued"
+    },
+    {
+      "index": 9,
+      "title": "TensorFlow and Keras 2015 - Tensorflow (TF) open-sourced",
+      "text": "TensorFlow and Keras 2015 - Tensorflow (TF) open-sourced by Google 2015 - Keras high level framework on top of TF (François Chollet) 2019 - Tensorflow 2.0; Keras has become the default API PyTorch and FastAI : 2002 - Torch - an open-source ML framework with a Lua scripting language interfaces to deep learning algorithms implemented in C (Switzerland). 2016 - PyTorch was launched by Facebook 2017 - Torch development moved in to PyTorch https://pytorch.org 2017 - FastAI - a high-level library that builds on PyTorch and offers convenient abstractions and best practices, better for learning, understanding, research PyTorch is faster than Keras and has better debugging capabilities. It is more concise, has better flexibility and usability. It has \"Eager mode\" (dynamic graphs) rather than \"Graph Mode.\" - allowing to do quick tests. People like PyTorch better than Tensorflow because it is more concise, easy enough to pick up fast and flexible enough to be a general purpose tool. PyTorch has huge ecosystem of third-party libraries and tools. Huggingface has tools for both TF and PyTorch. But its transformers are dominated by PyTorch Mojo - https://www.modular.com/mojo Rust - https://huggingface.co/rustformers OpenAI favors PyTorch over TensorFlow. OpenAI created \"Spinning Up\" framework for Reinforcement Learning (RL). It is built on top of PyTorch. OpenAI also created Gym and Universe environments for developing and testing RL agents. OpenAI also use JAX for auto-diff, CUDA for GPU computing, and PyTorch Lightning for high-performance model training Meta uses PyTorch for LLaMa and other models Anthropic uses PyTorch for their Claude-2 Stability.AI uses PyTorch for their models (Stable Diffusion, Stable LM language model, etc). Google Palm-2 was initially trained using TensorFlow, then fine-tuned using PyTorch. PyTorch is better suited for fine-tuning on smaller datasets. Google open-sourced a PyTorch implementation of PaLM-2 in May 2023 PyTorch Leadership"
+    },
+    {
+      "index": 10,
+      "title": "https://arxiv.org/abs/1912.01703 PyTorch : An Imperative Style, High-Performance Deep",
+      "text": "https://arxiv.org/abs/1912.01703 PyTorch : An Imperative Style, High-Performance Deep Learning Library  (2019) - by Adam Paszke , Sam Gross, Francisco Massa, Adam Lerer , James Bradbury, Gregory Chanan , Trevor Killeen, Zeming Lin, Natalia Gimelshein , Luca Antiga , Alban Desmaison , Andreas Köpf , Edward Yang, Zach DeVito, Martin Raison, Alykhan Tejani , Sasank Chilamkurthy , Benoit Steiner, Lu Fang, Junjie Bai, Soumith Chintala PyTorch was developed by the Facebook AI Research (FAIR) lab. PyTorch's development began in 2016. It was publicly released in January 2017 as an open-source project. While Torch is a predecessor to PyTorch and both share Lua as their initial programming language, PyTorch is essentially a new framework with design choices geared toward Python and deep learning. The team at FAIR made the decision to leverage the popularity and versatility of the Python language to create a more accessible and dynamic platform for deep learning research and development. Some key individuals involved in the development of PyTorch include Soumith Chintala and Adam Paszke , among others. PyTorch Adam Paszke Soumith Chintala"
+    },
+    {
+      "index": 11,
+      "title": "In 2018, Jeremy Howard and Sebastian Ruder published",
+      "text": "In 2018, Jeremy Howard and Sebastian Ruder published a paper https://arxiv.org/pdf/1801.06146.pdf on ULMFiT (Universal Language Model Fine-tuning), a 3-step transfer learning technique for NLP tasks: ULMFiT - a 3-step transfer learning for NLP https://www.latent.space/p/fastai Replacing fine-tuning with continued pre-training. Fine-tuning is now mainstream. But there are still problems, like \" catastrophic forgetting \" - the model can forget tasks it previously knew how to solve in favor of new ones. The other issue is apparent memorization of the dataset even after a single epoch. Jeremy now advocates for \" continued pre-training \" - maintaining a diversity of data throughout the training process rather than separate pre-training and fine-tuning stages. Mixing instructional data, exercises, code, and other modalities while gradually curating higher quality data can avoid catastrophic forgetting and lead to more robust capabilities"
+    },
+    {
+      "index": 12,
+      "title": "DALL·E 3 is now available in ChatGPT Plus",
+      "text": "DALL·E 3 is now available in ChatGPT Plus and Enterprise"
+    },
+    {
+      "index": 13,
+      "title": "Improving RAG effectiveness with Retrieval-Augmented Dual Instruction Tuning",
+      "text": "Improving RAG effectiveness with Retrieval-Augmented Dual Instruction Tuning (RA-DIT) - by AI Research team at Meta https://blog.llamaindex.ai/improving-rag-effectiveness-with-retrieval-augmented-dual-instruction-tuning-ra-dit-01e73116655d https://arxiv.org/pdf/2310.01352.pdf Improving RAG effectiveness with Retrieval-Augmented Dual Instruction Tuning (RA-DIT) The RA-DIT approach separately fine-tunes the LLM and the retriever Retriever is a DRAGON+ BERT-base sized dense retriever https://huggingface.co/facebook/dragon-plus-context-encoder"
+    },
+    {
+      "index": 14,
+      "title": "Can LLMs really self-critique (and iteratively improve) their",
+      "text": "Can LLMs really self-critique (and iteratively improve) their solutions, as claimed in the literature? https://twitter.com/rao2z/status/1715800819239678013 GPT-4 Doesn't Know It's Wrong https://arxiv.org/abs/2310.12397 Can Large Language Models Really Improve by Self-critiquing Their Own Plans? https://arxiv.org/abs/2310.08118 Auto-Regressive LLMs have very limited reasoning and planning abilities. This will not be fixed by making them bigger and training them on more data. https://twitter.com/ylecun/status/1716432413364977757 https://twitter.com/rao2z/status/1716257588768346328 Leveraging Pre-trained LLMs to Construct and Utilize World Models for Model-based Task Planning https://arxiv.org/abs/2305.14909 Can LLMs really self-critique (and iteratively improve) ? LLMs are amazing \"idea generators\". They just can't do their own planning/reasoning with any guarantees. Self-critiquing needs verification, which is a form of reasoning. LLMs can't plan, reason or verify - but they can help with those in LLM-Modulo settings (with a human or other \"good reasoner\" in the loop) LLM can't verify - but it can create a python code to verify - although this code may need to be verified and corrected by a human :) An LLM can be fine-tuned for verification tasks (although it will not make it a better reasoner). Subbarao Kambhampati - professor in the School of Computing & AI at Arizona State University. Kambhampati studies fundamental problems in planning and decision making , motivated in particular by the challenges of human-aware AI systems"
+    },
+    {
+      "index": 15,
+      "title": "https://www.ft.com/content/30fa44a1-7623-499f-93b0-81e26e22f2a6 AI is still dumber than cats Premature",
+      "text": "https://www.ft.com/content/30fa44a1-7623-499f-93b0-81e26e22f2a6 AI is still dumber than cats Premature regulation of AI will only serve to reinforce the dominance of the big technology companies. They argued that only they could be trusted to develop AI safely. They want regulatory capture under the guise of AI safety Regulating research and development in AI is incredibly counterproductive. Regulating AI models today would be like regulating the jet airline industry in 1925 when such aeroplanes had not even been invented same arguments were at the start of the internet open-source models (like created by Meta) have stimulated competition and enabled a greater diversity of people and models Intelligence has nothing to do with a desire to dominate. It’s not even true for humans. If it were true that the smartest humans wanted to dominate others, then Albert Einstein and other scientists would have been both rich and powerful, and they were neither Current LLMs just do not understand how the world works. They’re not capable of planning. They’re not capable of real reasoning There’s no question that we’ll have machines assisting us that are smarter than us. And the question is: is that scary or is that exciting? I think it’s exciting because those machines will be doing our bidding, they will be under our control \"AI will never threaten humans\" - Yann LeCun interview with \"Financial Times\""
+    },
+    {
+      "index": 16,
+      "title": "video: https://www.youtube.com/watch?v=ztPoCymwIp0 Jupyter: https://github.com/brevdev/notebooks/blob/main/mistral-finetune-own-data.ipynb Very good and clear",
+      "text": "video: https://www.youtube.com/watch?v=ztPoCymwIp0 Jupyter: https://github.com/brevdev/notebooks/blob/main/mistral-finetune-own-data.ipynb Very good and clear demonstration of using Huggingface tools to do QLoRA fine-tuning of a Mistral 4bit model on 200 lines of personal notes which are put into .jsonl file: {\"note\": \"journal-entry-for-model-to-predict\"} {\"note\": \"journal-entry-for-model-to-predict-1\"} {\"note\": \"journal-entry-for-model-to-predict-2\"} How to Fine-tune Mistral 7B on Personal Notes Steps: 0. Preparing data 1. Load Dataset on a GPU 2. Load Base Model 3. Tokenization, padding 4. Set Up LoRA, Accelerator 5. Run Training! 6. Try the Trained Model!"
+    },
+    {
+      "index": 17,
+      "title": "Fine-tune LLaMa using HF tools: https://brev.dev/blog/the-simple-guide-to-fine-tuning-llms Fine-Tuning with",
+      "text": "Fine-tune LLaMa using HF tools: https://brev.dev/blog/the-simple-guide-to-fine-tuning-llms Fine-Tuning with Llama 2 + QLoRA https://www.kaggle.com/code/philculliton/fine-tuning-with-llama-2-qlora How to fine-tune Llama 2 on your own data https://brev.dev/blog/fine-tuning-llama-2-your-own-data QA-LoRA : Fine-Tune a Quantized Large Language Model on Your GPU https://towardsdatascience.com/qa-lora-fine-tune-a-quantized-large-language-model-on-your-gpu-c7291866706c After 500+ LoRAs ma de, here is the secret https://www.reddit.com/r/LocalLLaMA/comments/16zuccy/after_500_loras_made_here_is_the_secret/ The quality of dataset is 95% of everything. The rest 5% is not to ruin it with bad parameters. Once I started manually checking the dataset and removing or changing the garbage the quality jumped 10-fold. Yes, it takes a huge amount of time - but no matter of parameters or tricks will fix this, sorry. Converting ( merging ) models to original format after fine-tuning wit LoRA and QLoRA https://github.com/Lightning-AI/lit-gpt/issues/374 Train and Deploy Mistral 7B with Hugging Face on Amazon SageMaker https://www.philschmid.de/sagemaker-mistral Fine-tuning Mistral 7B Model with Your Custom Data https://python.plainenglish.io/intruct-fine-tuning-mistral-7b-model-with-your-custom-data-7eb22921a483 More About Fine-tuning ft_model = PeftModel.from_pretrained( base_model, \"llama2-7b-journal-finetune/checkpoint-500\") base_model finetune"
+    },
+    {
+      "index": 18,
+      "title": "T5 = Text-To-Text Transfer Transformer - a Google's",
+      "text": "T5 = Text-To-Text Transfer Transformer - a Google's LLM introduced in 2020 C4 = Colossal Clean Crawled Corpus - over 100 billion words of text from a variety of sources, including books, articles, code, and web pages. T5 is trained on C4. T5 can be used for translation, summarization, question answering, text classification, code generation (Python or JavaScript). Results on benchmarks: 90.8 on GLUE - natural language understanding 93.3 on SQuAD - question answering 42.9  on XSUM - summarization T5 and C4 https://jax.readthedocs.io/en/latest/notebooks/quickstart.html https://jax.readthedocs.io/en/latest/installation.html JAX is NumPy on the CPU, GPU, and TPU , with great automatic differentiation for high-performance machine learning research pip install --upgrade pip pip install --upgrade \"jax[cpu]\" JAX"
+    },
+    {
+      "index": 19,
+      "title": "https://towardsdatascience.com/the-untold-side-of-rag-addressing-its-challenges-in-domain-specific-searches-808956e3ecc8 RAG: Challenges in Domain-Specific Searches",
+      "text": "https://towardsdatascience.com/the-untold-side-of-rag-addressing-its-challenges-in-domain-specific-searches-808956e3ecc8 RAG: Challenges in Domain-Specific Searches"
+    },
+    {
+      "index": 20,
+      "title": "FLASH = Fast Linear Attention with a Single",
+      "text": "FLASH = Fast Linear Attention with a Single Head https://arxiv.org/pdf/2202.10447.pdf Transformer Quality in Linear Time - Feb 2022 by Weizhe Hua, Zihang Dai, Hanxiao Liu, Quoc V. Le Handling long sequences. First we adding a layer called gated attention unit, which allows the use of a weaker single-head attention with minimal quality loss. Then we propose a linear approximation method complementary to this new layer, which is accelerator-friendly and highly competitive in quality. The resulting model, named FLASH, matches the perplexity of improved Transformers over both short (512) and long (8K) context lengths, achieving training speedups of up to 4.9× on Wiki-40B and 12.1× on PG-19 for auto-regressive language modeling, and 4.8× on C4 for masked language modeling. FLASH vs FlashAttention Using Flash attention with Mistral: https://huggingface.co/docs/transformers/main/en/model_doc/mistral FlashAttention : Fast and Memory-Efficient Exact Attention with IO-Awareness - May 2022 by Tri Dao, Daniel Y. Fu, Stefano Ermon, Atri Rudra, Christopher Ré Paper: https://arxiv.org/abs/2205.14135 Idea - making attention algorithms IO-aware, accounting for reads and writes between levels of GPU memory. FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between GPU high bandwidth memory (HBM) and GPU on-chip SRAM. FlashAttention trains Transformers faster. FlashAttention and block-sparse FlashAttention enable longer context in Transformers, yielding higher quality models."
+    },
+    {
+      "index": 21,
+      "title": "SalUn: Un-learning via Gradient-based Weight Saliency https://github.com/optml-group/unlearn-saliency Misc",
+      "text": "SalUn: Un-learning via Gradient-based Weight Saliency https://github.com/optml-group/unlearn-saliency Misc GoLLIE - an LLM to extract data as JSON or CSV from text following annotation guidelines https://huggingface.co/HiTZ/GoLLIE-34B LongNet Has a Billion Token Context (dilated attention) https://pub.towardsai.net/longnet-a-billion-token-context-a6470f33e844#8883 FinSight (Financial insights) RAG using alphavantage.co , LlamaIndex, OpenAI, and FAISS https://blog.llamaindex.ai/how-i-built-the-streamlit-llm-hackathon-winning-app-finsight-using-llamaindex-9dcf6c46d7a0 PDFTriage (Adobe Research) - condition PDF structure or text for retrieval. This helps for Question Answering over Long, Structured Documents. https://arxiv.org/abs/2309.08872?utm_source=tldrai LayoutPDFReader - parsing PDFs along with hierarchical layout information (free and paid server) https://github.com/nlmatics/llmsherpa https://blog.llamaindex.ai/mastering-pdfs-extracting-sections-headings-paragraphs-and-tables-with-cutting-edge-parser-faea18870125 Microsoft ToRA : A Tool-Integrated Reasoning Agent (interacting with computation libraries and symbolic solvers) https://github.com/microsoft/ToRA Boston Dynamics has outfitted its four-legged \"Spot\" bot with a voice powered by ChatGPT. It can now answer questions and give talking tours of its facility https://www.youtube.com/watch?v=djzOBZUFzTw"
+    },
+    {
+      "index": 22,
+      "title": "https://github.com/BradyFU/Woodpecker https://arxiv.org/pdf/2310.16045.pdf Woodpecker: Hallucination Correction for Multimodal Large",
+      "text": "https://github.com/BradyFU/Woodpecker https://arxiv.org/pdf/2310.16045.pdf Woodpecker: Hallucination Correction for Multimodal Large Language Models China researches have developed an innovative framework, coined as “ Woodpecker “, designed to correct hallucinations in multimodal large language models (MLLMs). Woodpecker consists of five stages: key concept extraction, question formulation, visual knowledge validation, visual claim generation, and hallucination correction. Woodpecker showed ~ 30% improvements in accuracy on benchmarks (from 55% up to 85%). Implemented in a post-remedy manner, Woodpecker can easily serve different MLLMs, while being interpretable by accessing intermediate outputs of the five stages. Woodpecker: Hallucination Correction"
+    },
+    {
+      "index": 23,
+      "title": "Question to ChatGPT: The number of employees of",
+      "text": "Question to ChatGPT: The number of employees of Goldman Sachs grows over the last 14 years despite the fact that many operations are being almost completely outsourced to computers. This includes trading, portfolio management, risk management. I've heard that the number of traders on the trading floors dropped literally 100 times. So I would expect that the total number of employees should decrease. But it increases. Why ? Response: There may be several reasons for this: Diversification into new areas (consumer banking, digital wealth management), hiring different types of employees Complexity and Regulation - hiring more compliance professionals, lawyers, and risk managers Human Touch - still a demand for human judgment, relationship management, and customer service Innovation - hiring people in research, technology, and product development roles Geographical Expansion - especially in developing economies, may require hiring more local staff Infrastructure and Support - cyber security, IT support, and system maintenance require more staff Non-core Functions - human resources, training, internal communications, and marketing Re-skilling and re-training employees for new roles Strategic Acquisitions - can increase employee numbers Number of Employees"
+    },
+    {
+      "index": 24,
+      "title": "Question to ChatGPT: Should we expect that using",
+      "text": "Question to ChatGPT: Should we expect that using AI will reduce the number of employees ? Response: It depends on multiple factors, including how AI is deployed, the nature of the industry, and broader economic and societal trends: Task Automation - will cause reduction in numbers of employees doing repetitive tasks (in manufacturing, data entry, and certain customer service roles) Job Creation - new jobs are being created due to AI (as the rise of Internet led to roles in web development, digital marketing, etc) Job Transformation - jobs not replaced, but transformed/improved by adding AI Economic Growth - AI can boost productivity and economy, thus creating new jobs Skill Shift - greater demand for employees who can work alongside with new AI technologies while adding soft skills like creativity, emotional intelligence, and critical thinking - areas where AI still lags behind humans Social and Regulatory Factors - governments and societies might introduce policies that slow down or shape the adoption of AI in specific industries to manage the impact on employment Short-term vs. Long-term - short term disruption and job losses, long term - emergence of new opportunities Ethical Considerations - Some tasks, even if they can be automated, may remain human-dominated due to ethical considerations"
+    },
+    {
+      "index": 25,
+      "title": "Gemini is coming to Makersuite & so are",
+      "text": "Gemini is coming to Makersuite & so are Stubbs https://medium.com/@bedros-p/gemini-is-coming-to-makersuite-so-are-stubbs-32248f3924aa Google's Makersuite - https://makersuite.google.com/app/home Prototype with generative AI Stubbs is a visual, no-code tool for easily building basic AI prototype apps Gemini, Makersuite, Stubbs"
+    },
+    {
+      "index": 26,
+      "title": "A \"content retriever\" BERT model is a variant",
+      "text": "A \"content retriever\" BERT model is a variant of the BERT (Bidirectional Encoder Representations from Transformers) model that is optimized for retrieving relevant content from large corpora of text. Some key characteristics of content retriever BERT models: They are pretrained on a masked language modeling objective like regular BERT, allowing them to generate high quality text representations. However, they use special training techniques to make the representations particularly useful for semantic search. They encode passages or documents into dense vector representations that capture semantic meaning. These vectors can be indexed and searched efficiently to find relevant content. They are trained in a dual-encoder architecture . The model encodes both queries and passages independently into vectors . Relevance is determined by how close the query and passage vectors are in the embedded space. Popular examples include the open-sourced Dense Passage Retrieval (DPR) model from Facebook and Anthropic's Claude model. DPR is trained on Wikipedia passages while Claude is trained on a much larger Common Crawl corpus. Retrieval models like DPR and Claude are an important first stage in open-domain question answering systems. The retriever finds the most relevant passages, which are then fed into a reader model to extract the answer. \"content retriever\" BERT model"
+    },
+    {
+      "index": 27,
+      "title": "https://www.youtube.com/watch?v=30Z86i65UWg SSD-1B is a distilled 50% smaller version",
+      "text": "https://www.youtube.com/watch?v=30Z86i65UWg SSD-1B is a distilled 50% smaller version of the Stable Diffusion XL (SDXL), offering a 60% speedup while maintaining high-quality text-to-image generation capabilities It has been trained on diverse datasets, including Grit and Midjourney scrape data This model employs a knowledge distillation strategy , where it leverages the teachings of several expert models in succession, including SDXL, ZavyChromaXL, and JuggernautXL, to combine their strengths and produce impressive visual outputs. Model - https://huggingface.co/segmind/SSD-1B Code - https://colab.research.google.com/drive/1MYz-hpaq7ywLa7Q7-tMy4hRcPB1-CQrN Segmind Stable Diffusion Model (SSD-1B)"
+    },
+    {
+      "index": 28,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates October 27, 2023 372,000 models on",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates October 27, 2023 372,000 models on",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 3,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "https://medium.com/@masteringllm/mistral-7b-is-187x-cheaper-compared-to-gpt-4-b8e5ee1c9fc2 Mistral 7B is 187x cheaper compared to",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 5,
+      "slideTitle": "https://medium.com/@masteringllm/mistral-7b-is-187x-cheaper-compared-to-gpt-4-b8e5ee1c9fc2 Mistral 7B is 187x cheaper compared to",
+      "source": "slide"
+    },
+    {
+      "claim": "Select GPU on Lambda Cloud GPU prices on",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 6,
+      "slideTitle": "Select GPU on Lambda Cloud GPU prices on",
+      "source": "slide"
+    },
+    {
+      "claim": "Jeremy Howard - fast.ai .. https://www.fast.ai .. https://www.fast.ai/posts/2022-07-21-dl-coders-22.html",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 7,
+      "slideTitle": "Jeremy Howard - fast.ai .. https://www.fast.ai .. https://www.fast.ai/posts/2022-07-21-dl-coders-22.html",
+      "source": "slide"
+    },
+    {
+      "claim": "Chris Lattner 2020 - SiFive - RISC-V 2022",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 8,
+      "slideTitle": "Chris Lattner 2020 - SiFive - RISC-V 2022",
+      "source": "slide"
+    },
+    {
+      "claim": "TensorFlow and Keras 2015 - Tensorflow (TF) open-sourced",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 9,
+      "slideTitle": "TensorFlow and Keras 2015 - Tensorflow (TF) open-sourced",
+      "source": "slide"
+    },
+    {
+      "claim": "https://arxiv.org/abs/1912.01703 PyTorch : An Imperative Style, High-Performance Deep",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 10,
+      "slideTitle": "https://arxiv.org/abs/1912.01703 PyTorch : An Imperative Style, High-Performance Deep",
+      "source": "slide"
+    },
+    {
+      "claim": "In 2018, Jeremy Howard and Sebastian Ruder published",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 11,
+      "slideTitle": "In 2018, Jeremy Howard and Sebastian Ruder published",
+      "source": "slide"
+    },
+    {
+      "claim": "DALL·E 3 is now available in ChatGPT Plus",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 12,
+      "slideTitle": "DALL·E 3 is now available in ChatGPT Plus",
+      "source": "slide"
+    }
+  ]
+}

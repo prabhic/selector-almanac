@@ -1,0 +1,210 @@
+{
+  "id": "2022-04-22-2022-04-22-plotly-dash-bella",
+  "date": "2022-04-22",
+  "title": "Plotly-Dash-Bella",
+  "series": "seminar",
+  "topics": [
+    "open-models",
+    "rag",
+    "general"
+  ],
+  "video": {
+    "id": "99LcE8x2N-E",
+    "title": "Plotly and Dash",
+    "url": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+    "thumbnail": "https://i.ytimg.com/vi/99LcE8x2N-E/hqdefault.jpg",
+    "duration": 1709
+  },
+  "deck": {
+    "path": "2022/2022-04-22-Plotly-Dash-Bella.pptx",
+    "filename": "2022-04-22-Plotly-Dash-Bella.pptx",
+    "title": "Plotly-Dash-Bella",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-04-22-Plotly-Dash-Bella.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-04-22-Plotly-Dash-Bella.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Python Plotly https://plotly.com",
+      "text": "Python Plotly https://plotly.com"
+    },
+    {
+      "index": 2,
+      "title": "About Plotly: Plotly is a Montreal based technical",
+      "text": "About Plotly: Plotly is a Montreal based technical computing company Plotly products: tools for data visualization such as Plotly , Dash and Chart Studio ( web service) . Plotly is an open-source Javascript library allowing creation of ineractive graphs in browser windows Plotly API exist for different programming languages (Python, R, Julia, MATLAB, .NET, C#, etc.) Plotly Javascript receives plot data and configuration in JSON format Graphs can also be exported in various raster formats as well as vector image formats Most commonly Plotly is used in Jupyter notebooks or web pages."
+    },
+    {
+      "index": 3,
+      "title": "pip install plotly # or conda install -c",
+      "text": "pip install plotly # or conda install -c plotly plotly Installation of Python package https://plotly.com/python/getting-started/ There are three main sub-modules in Plotly: plotly.plotly – communication with server plotly.graph_objects – definitions of graph objects that make up the plots (Figure, Data, Layout, Scatter, Box, Histogram etc., 3D plots, etc. ). All graph objects are dictionary- and list-like objects used to generate and/or modify Plotly plots. plotly.tools"
+    },
+    {
+      "index": 4,
+      "title": "The plotly.tools module: .. functions for subplot generation",
+      "text": "The plotly.tools module: .. functions for subplot generation .. embedding plots in IPython notebooks ..  saving and retrieving your credentials A plot is represented by Figure object as defined in plotly.graph_objs module Figure is serialized as JSON before it gets passed to plotly.js Example of JSON representation of a Figure object: Note: plotly.express sub-module can create the entire Figure in few lines of code. It uses the graph_objects internally."
+    },
+    {
+      "index": 5,
+      "title": "Compare static Matplotlib plot with Interactive Plotly Static",
+      "text": "Compare static Matplotlib plot with Interactive Plotly Static Interactive and modern presentation"
+    },
+    {
+      "index": 6,
+      "title": "Show graph from Jupyter code + image Dash",
+      "text": "Show graph from Jupyter code + image Dash Plotly.express examples ( quick way to create power graphs with just a few attributes ) - start"
+    },
+    {
+      "index": 7,
+      "title": "Plotly Pie",
+      "text": "Plotly Pie"
+    },
+    {
+      "index": 8,
+      "title": "Plotly Bar",
+      "text": "Plotly Bar"
+    },
+    {
+      "index": 9,
+      "title": "Plotly Box with hover",
+      "text": "Plotly Box with hover"
+    },
+    {
+      "index": 10,
+      "title": "plotly.express it's a quick way to create power",
+      "text": "plotly.express it's a quick way to create power graphs with just a few attributes. For more advanced graphs with Plotly Express High-level Interface  see documentation https://plotly.com/python-api-reference/plotly.express.html ) Plotly Express vs Plotly Graph Objects plotly.graph _objects you have to build everything from the bottom up and define attributes: d ata, layout, frame , etc. For customization use Plotly Graph_Objects documentation for figure updates: https://plotly.com/python/reference/index/ Layout - represents the chart (frames, title, color, tick, hover, legend) Traces - represent the data (inside the layout)"
+    },
+    {
+      "index": 11,
+      "title": "Plotly Table",
+      "text": "Plotly Table"
+    },
+    {
+      "index": 12,
+      "title": "Multiple graphs on the same Chart with plotly.graph.objects",
+      "text": "Multiple graphs on the same Chart with plotly.graph.objects"
+    },
+    {
+      "index": 13,
+      "title": "Plotly Subplots",
+      "text": "Plotly Subplots"
+    },
+    {
+      "index": 14,
+      "title": "Plotly and M ultiple Time Series Plotly can",
+      "text": "Plotly and M ultiple Time Series Plotly can split one column into two lines using another column (label) as criteria https://plotly.com/python/time-series/ https://stackoverflow.com/questions/64158858/plotly-how-to-create-a-line-plot-of-a-time-series-variable-that-has-a-multiple"
+    },
+    {
+      "index": 15,
+      "title": "Plotly 3D Charts https://plotly.com/python/3d-surface-plots/#topographical-3d-surface-plot",
+      "text": "Plotly 3D Charts https://plotly.com/python/3d-surface-plots/#topographical-3d-surface-plot"
+    },
+    {
+      "index": 16,
+      "title": "Plotly and Custom Controls Reference https://plotly.com/python/#controls https://plotly.com/python/reference/layout/updatemenus/",
+      "text": "Plotly and Custom Controls Reference https://plotly.com/python/#controls https://plotly.com/python/reference/layout/updatemenus/"
+    },
+    {
+      "index": 17,
+      "title": "Dash - Plotly Charts in Web Pages Dash",
+      "text": "Dash - Plotly Charts in Web Pages Dash is a way to use Plotly in web pages. You can create Graphs in python on server side using the same syntax as in Jupyter. Dash app gallery: https://dash.gallery/Portal/ Installation instructions: https://dash.plot.ly/installation . pip install dash Dash components Dash Core Components (buttons, sliders, dropdown, etc.) https://dash.plotly.com/dash-core-components Plotly Python Open Source Graphing Library ( Plotly Graphs ) https://plotly.com/python/ Dash Callbacks https://dash.plotly.com/basic-callbacks"
+    },
+    {
+      "index": 18,
+      "title": "Dash is r unning on http://127.0.0.1:8050/ (Press CTRL+C",
+      "text": "Dash is r unning on http://127.0.0.1:8050/ (Press CTRL+C to quit)"
+    },
+    {
+      "index": 19,
+      "title": "Plotly library - to be used from Jupyter:",
+      "text": "Plotly library - to be used from Jupyter: https://plotly.com Gallery and getting started - https://plotly.com/python/ Plotly Express: https://plotly.com/python-api-reference/plotly.express.html Python API reference for plotly : https://plotly.com/python-api-reference/ Dash - same library to be used in a web site: https://plotly.com/dash/ https://dash.gallery/Portal/ https://dash.plotly.com/ Dash App Gallery: https://dash-gallery.plotly.host/Portal/ Dash Components: https://dash.plotly.com/dash-core-components The Callback: https://dash.plotly.com/basic-callbacks Dash Plotly Community Forum: https://community.plotly.com/c/dash/16 Comparisons of different libraries: https://pythonplot.com – very good comparison https://ritza.co/articles/matplotlib-vs-seaborn-vs-plotly-vs-MATLAB-vs-ggplot2-vs-pandas/ https://www.justintodata.com/python-data-visualization-libraries/ https://www.projectpro.io/article/python-data-visualization-libraries/543 https://geo-python-site.readthedocs.io/en/stable/lessons/L7/python-plotting.html References:"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Python Plotly https://plotly.com",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 1,
+      "slideTitle": "Python Plotly https://plotly.com",
+      "source": "slide"
+    },
+    {
+      "claim": "About Plotly: Plotly is a Montreal based technical",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 2,
+      "slideTitle": "About Plotly: Plotly is a Montreal based technical",
+      "source": "slide"
+    },
+    {
+      "claim": "pip install plotly # or conda install -c",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 3,
+      "slideTitle": "pip install plotly # or conda install -c",
+      "source": "slide"
+    },
+    {
+      "claim": "The plotly.tools module: .. functions for subplot generation",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 4,
+      "slideTitle": "The plotly.tools module: .. functions for subplot generation",
+      "source": "slide"
+    },
+    {
+      "claim": "Compare static Matplotlib plot with Interactive Plotly Static",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 5,
+      "slideTitle": "Compare static Matplotlib plot with Interactive Plotly Static",
+      "source": "slide"
+    },
+    {
+      "claim": "Show graph from Jupyter code + image Dash",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 6,
+      "slideTitle": "Show graph from Jupyter code + image Dash",
+      "source": "slide"
+    },
+    {
+      "claim": "Plotly Box with hover",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 9,
+      "slideTitle": "Plotly Box with hover",
+      "source": "slide"
+    },
+    {
+      "claim": "plotly.express it's a quick way to create power",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 10,
+      "slideTitle": "plotly.express it's a quick way to create power",
+      "source": "slide"
+    },
+    {
+      "claim": "Multiple graphs on the same Chart with plotly.graph.objects",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=99LcE8x2N-E",
+      "slideIndex": 12,
+      "slideTitle": "Multiple graphs on the same Chart with plotly.graph.objects",
+      "source": "slide"
+    }
+  ]
+}

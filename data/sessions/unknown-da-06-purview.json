@@ -1,0 +1,238 @@
+{
+  "id": "unknown-da-06-purview",
+  "date": null,
+  "title": "DA 06 Purview",
+  "series": "data-architect-2021",
+  "topics": [
+    "safety",
+    "enterprise",
+    "open-models",
+    "general",
+    "ml-fundamentals"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_06_Purview.pptx",
+    "filename": "DA_06_Purview.pptx",
+    "title": "DA 06 Purview",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_06_Purview.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_06_Purview.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Governance 2.0 Malte Thesenvitz Azure Purview",
+      "text": "Data Governance 2.0 Malte Thesenvitz Azure Purview"
+    },
+    {
+      "index": 2,
+      "title": "The 2 Problems. 90% of all data created",
+      "text": "The 2 Problems. 90% of all data created in the last two years By 2025, 80% of data will be unstructured Information scattered around different locations (on-prem, cloud, streaming) Adhere to ever changing data security regulations and requirements"
+    },
+    {
+      "index": 3,
+      "title": "What is Data Governance? Decision rights & accountability",
+      "text": "What is Data Governance? Decision rights & accountability framework for data usage Ensure appropriate behavior in valuation, creation, consumption, and control of data analytics Numerous competitors in the market"
+    },
+    {
+      "index": 4,
+      "title": "What is Purview? Build upon popular open-source service",
+      "text": "What is Purview? Build upon popular open-source service Apache Atlas In public preview since Dec. 2020; no set date for GA yet Track, manage, and report on assets, right from inception, over processing, storage, consumption, to archival, retention, or disposition"
+    },
+    {
+      "index": 5,
+      "title": "Apache Atlas Atlas joined Apache family in 2015",
+      "text": "Apache Atlas Atlas joined Apache family in 2015 Stores metadata in graph database called JanusGraph Unlike traditional DBs, graph DBs do not use columns, rows, and tables Instead, uses flexible structure that saves relationship between data Nodes store information, edges store information"
+    },
+    {
+      "index": 6,
+      "title": "Purview Studio Central Control Area for Data Discovery",
+      "text": "Purview Studio Central Control Area for Data Discovery and Classification Different Interface for different user roles Manage access to companies' data estate"
+    },
+    {
+      "index": 7,
+      "title": "Scanning your Data Estate Automatically discover metadata and",
+      "text": "Scanning your Data Estate Automatically discover metadata and schema Support for over 100 different classification types Choose scope of scan Scan trigger determines frequency Pay-as-you-go pricing"
+    },
+    {
+      "index": 8,
+      "title": "Customize Scan Choose file type to scan Determine",
+      "text": "Customize Scan Choose file type to scan Determine scope of scan"
+    },
+    {
+      "index": 9,
+      "title": "Browse your Catalog Intelligent suggestions based on semantic",
+      "text": "Browse your Catalog Intelligent suggestions based on semantic search Find data you need within seconds Recommendations based on search history, context, data relationship"
+    },
+    {
+      "index": 10,
+      "title": "Filter Search Results Smart Filtering based on Glossary,",
+      "text": "Filter Search Results Smart Filtering based on Glossary, Classification, Contact Find data you need within seconds Recommendations based on search history, context, data relationship"
+    },
+    {
+      "index": 11,
+      "title": "Classifying Data - Overview Operational Metadata Notice hierarchy",
+      "text": "Classifying Data - Overview Operational Metadata Notice hierarchy (where does the data belong to) Connect directly to Power BI Sensitive data classification"
+    },
+    {
+      "index": 12,
+      "title": "Classifying Data - Schema Table Overview Output of",
+      "text": "Classifying Data - Schema Table Overview Output of Data Scans Notice difference between custom and system classifications Highlights relevant glossary terms"
+    },
+    {
+      "index": 13,
+      "title": "Discovering Data Lineage Visual representation of source, transformation,",
+      "text": "Discovering Data Lineage Visual representation of source, transformation, and target showing data life cycle Where a piece of data comes from and what derives from it Native Support, Apache Atlas, REST API"
+    },
+    {
+      "index": 14,
+      "title": "Birds-eye view with Insights Get details about assets,",
+      "text": "Birds-eye view with Insights Get details about assets, scans, glossary, sensitivity labels, file extensions Intended to quickly grasp understanding of entire data estate Set of analytical dashboards on top of Azure Purview"
+    },
+    {
+      "index": 15,
+      "title": "Scan Insights",
+      "text": "Scan Insights"
+    },
+    {
+      "index": 16,
+      "title": "Slide 16",
+      "text": ""
+    },
+    {
+      "index": 17,
+      "title": "Pricing – How are we charged? 1 Capacity",
+      "text": "Pricing – How are we charged? 1 Capacity Unit = $0.411/h 1CU = 25 operations/sec or 2GB of metadata storage Always billed on hourly basis for max value of either operations or storage Can scale elastically upwards a nd downwards"
+    },
+    {
+      "index": 18,
+      "title": "Room for Improvement",
+      "text": "Room for Improvement"
+    },
+    {
+      "index": 19,
+      "title": "Links and resources: Purview MS Documentation https://azure.microsoft.com/en-us/services/purview/ https://docs.microsoft.com/en-us/azure/purvie",
+      "text": "Links and resources: Purview MS Documentation https://azure.microsoft.com/en-us/services/purview/ https://docs.microsoft.com/en-us/azure/purvie w/ Classifying: https://docs.microsoft.com/en-us/azure/purview/tutorial-schemas-and-classifications Pricing: https://azure.microsoft.com/en-us/pricing/details/azure-purview/ Purview Studio: https://docs.microsoft.com/en-us/azure/purview/use-purview-studio Access Control: https://docs.microsoft.com/en-us/azure/purview/catalog-permissions Videos: https://www.youtube.com/watch?v=pv6A5l39-iA&t=833s https://www.youtube.com/watch?v=27bA4KFiEKk&t=1s Articles: https://www.linkedin.com/pulse/data-governance-gaurav-aggarwal/ https://www.analyticstechblogs.com/post/azure-purview-vs-azure-data-catalog-gen-2-what-did-we-get https://sourceforge.net/software/compare/Apache-Atlas-vs-Azure-Purview/ https://atlas.apache.org/#/"
+    },
+    {
+      "index": 20,
+      "title": "Further Links and resources: https://cloud.google.com/blog/products/data-analytics/architecting-a-data-lineage-system-for-bigquery https://stackoverflow.com/questions/67699567/how-is-data-lineage-tracked-in-aws-athena-and-glue Videos: https://youtu.be/awUMmRHbWj0",
+      "text": "Further Links and resources: https://cloud.google.com/blog/products/data-analytics/architecting-a-data-lineage-system-for-bigquery https://stackoverflow.com/questions/67699567/how-is-data-lineage-tracked-in-aws-athena-and-glue Videos: https://youtu.be/awUMmRHbWj0 https://youtu.be/eZqSE5Z4tUs https://youtu.be/pv6A5l39-iA https://techcommunity.microsoft.com/t5/azure-purview/march-ahead-with-azure-purview-unify-all-your-data-using-apache/ba-p/2185411 Apache Atlas: https://www.mongodb.com/atlas/data-lake https://janusgraph.org/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Data Governance 2.0 Malte Thesenvitz Azure Purview",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Data Governance 2.0 Malte Thesenvitz Azure Purview",
+      "source": "slide"
+    },
+    {
+      "claim": "The 2 Problems. 90% of all data created",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "The 2 Problems. 90% of all data created",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Data Governance? Decision rights & accountability",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "What is Data Governance? Decision rights & accountability",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Purview? Build upon popular open-source service",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "What is Purview? Build upon popular open-source service",
+      "source": "slide"
+    },
+    {
+      "claim": "Apache Atlas Atlas joined Apache family in 2015",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Apache Atlas Atlas joined Apache family in 2015",
+      "source": "slide"
+    },
+    {
+      "claim": "Purview Studio Central Control Area for Data Discovery",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Purview Studio Central Control Area for Data Discovery",
+      "source": "slide"
+    },
+    {
+      "claim": "Scanning your Data Estate Automatically discover metadata and",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Scanning your Data Estate Automatically discover metadata and",
+      "source": "slide"
+    },
+    {
+      "claim": "Customize Scan Choose file type to scan Determine",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Customize Scan Choose file type to scan Determine",
+      "source": "slide"
+    },
+    {
+      "claim": "Browse your Catalog Intelligent suggestions based on semantic",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Browse your Catalog Intelligent suggestions based on semantic",
+      "source": "slide"
+    },
+    {
+      "claim": "Filter Search Results Smart Filtering based on Glossary,",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Filter Search Results Smart Filtering based on Glossary,",
+      "source": "slide"
+    },
+    {
+      "claim": "Classifying Data - Overview Operational Metadata Notice hierarchy",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Classifying Data - Overview Operational Metadata Notice hierarchy",
+      "source": "slide"
+    },
+    {
+      "claim": "Classifying Data - Schema Table Overview Output of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Classifying Data - Schema Table Overview Output of",
+      "source": "slide"
+    }
+  ]
+}

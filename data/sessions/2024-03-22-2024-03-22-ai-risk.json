@@ -1,0 +1,266 @@
+{
+  "id": "2024-03-22-2024-03-22-ai-risk",
+  "date": "2024-03-22",
+  "title": "AI-Risk",
+  "series": "seminar",
+  "topics": [
+    "agents",
+    "openai",
+    "open-models",
+    "jobs"
+  ],
+  "video": {
+    "id": "nsZw7_93K3U",
+    "title": "Have you heard these exciting AI news? - March 22, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=nsZw7_93K3U",
+    "thumbnail": "https://i.ytimg.com/vi/nsZw7_93K3U/hqdefault.jpg",
+    "duration": 1743
+  },
+  "deck": {
+    "path": "2024/2024-03-22-AI-Risk.pptx",
+    "filename": "2024-03-22-AI-Risk.pptx",
+    "title": "AI-Risk",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-03-22-AI-Risk.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-03-22-AI-Risk.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "NvidiaGTC",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Agent workflows",
+      "startSeconds": 142,
+      "label": "02:22",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT 4 first anniversary",
+      "startSeconds": 474,
+      "label": "07:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Gro 1 released into open source",
+      "startSeconds": 573,
+      "label": "09:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Open source is thriving",
+      "startSeconds": 748,
+      "label": "12:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Mustafa Suan joins Microsoft",
+      "startSeconds": 1045,
+      "label": "17:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Sora 10",
+      "startSeconds": 1216,
+      "label": "20:16",
+      "source": "youtube"
+    },
+    {
+      "title": "AWS Kendra",
+      "startSeconds": 1448,
+      "label": "24:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Yan Lin Interview",
+      "startSeconds": 1570,
+      "label": "26:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Contextual AI",
+      "startSeconds": 1633,
+      "label": "27:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource",
+      "startSeconds": 1691,
+      "label": "28:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech layoffs",
+      "startSeconds": 1700,
+      "label": "28:20",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "xxx xxx AI Risks March 22 , 2024",
+      "text": "xxx xxx AI Risks March 22 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Risks of Using LLMs in Regulated Industries (Banks,",
+      "text": "Risks of Using LLMs in Regulated Industries (Banks, Insurance, Medical, ...) Chief Risk Officers (CROs) need to be aware of both the incredible potential and the significant risks surrounding the use of Large Language Models (LLMs) within their organizations. The benefits could be increased efficiency, improved decision making, improved customer service, new insights, etc. Potential Risks: Harms : Physical harm (self-driving car, AI-enabled medical device), Financial Harms (poor investment advice, miscalculated insurance risk), Reputational Harms (damage brand, trustworthiness, or customer relationships by giving wrong or offensive responses), Legal liabilities Data Bias : LLMs can reflect biases in their training data. Explainability : Difficulty in understanding how LLMs reach conclusions. Data Security & Privacy : Risks of data breaches and leaks. Unintentional Misuse : Possible use to generate harmful or misleading content. Over-reliance : Risks of using LLMs as the sole basis for critical decisions. Vendor Risk : Assess vendor security and compliance if using third-party LLMs. Long-term Impacts : Plan for potential workforce changes and reskilling."
+    },
+    {
+      "index": 3,
+      "title": "AI Risks Management Strategies AI Risks Management Strategies",
+      "text": "AI Risks Management Strategies AI Risks Management Strategies Governance Framework: Establish clear policies on LLM use Risk Assessment: Identify risks related to specific LLM applications Implement fail-safes to prevent LLM from solely controlling actions that could cause significant harm If possible, frame the LLM's role as providing insights to human experts, not as a final decision-making authority Implement Controls: Utilize data de-identification, bias testing, human oversight (human-in-the-loop), and security measures (encryption, access control, secure data storage, regular penetration testing) Monitoring & Auditing: Track LLM outputs, periodically audit for issues; Content moderation; Fact-checking mechanisms; Human-in-the-loop review for sensitive topics; Guidelines for avoiding offensive/inappropriate responses Technical: Stress testing; Redundancy & failover plans; 24/7 monitoring (if critical to your business) Training: Educate employees on LLM capabilities and responsible use Legal: which laws would apply? ( GDPR, CCPA, HIPAA, EU AI ACT , etc.); Legal review of chatbot scripts and data collection; Clear privacy notices to users; Mechanisms for data subject rights (access, deletion) GDPR = General Data Protection Regulation - https://gdpr-info.eu CCPA = California Consumer Privacy Act - https://oag.ca.gov/privacy/ccpa HIPAA = Health Insurance Portability and Accountability Act of 1996 - https://www.hhs.gov/hipaa EU Artificial Intelligence Act - https://artificialintelligenceact.eu Malicious scenarios: Adversarial testing (have someone try to \"break\" it); Insurance assessment; Buy specialized insurance for AI-related risks Rigorously test the LLM in various scenarios"
+    },
+    {
+      "index": 4,
+      "title": "Frameworks for Controlling AI Risks - 1 Unfortunately,",
+      "text": "Frameworks for Controlling AI Risks - 1 Unfortunately, there's no single  framework for handling all LLM related organizational risks. This is because LLMs are very new and evolving rapidly, so the best practices and risks are still being codified. Also the risks and appropriate controls vary greatly based on a company's size, sector (highly regulated industries have stricter needs), and the specific use case of the chatbot. Managing chatbot risks goes beyond tech. It includes legal implications, customer experience, and reputation management. Traditional Risk Frameworks can be a starting point: Interagency Guidance for Model Risk Management (MRM) - a set of guidelines issued in 2011, 2021 by several U.S. financial regulatory agencies, including: The Federal Reserve Board (FRB), The Office of the Comptroller of the Currency (OCC), The Federal Deposit Insurance Corporation (FDIC) https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm https://www.occ.gov/news-issuances/bulletins/2011/bulletin-2011-12.html https://www.fdic.gov/news/financial-institution-letters/2017/fil17022a.pdf COSO (Committee of Sponsoring Organizations) - Enterprise Risk Management - https://www.coso.org/guidance-erm ISO 31000 - Risk Management - https://www.iso.org/iso-31000-risk-management.html ISO/IEC 42001:2023 - Artificial intelligence Management system - https://www.iso.org/standard/81230.html ISACA = Information Systems Audit and Control Association COBIT = Control Objectives for Information and Related Technologies https://www.isaca.org/resources/cobit The IIA (Institute of Internal Auditors) AI Auditing Framework https://www.theiia.org/en/content/tools/professional/2023/the-iias-updated-ai-auditing-framework/ NIST (National Institute of Standards and Technology) has an AI Risk Management Framework (AI RMF 1.0). It is still a draft, but provides excellent guidance: h ttps://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "index": 5,
+      "title": "Frameworks for Controling AI Risks - 2 AWS",
+      "text": "Frameworks for Controling AI Risks - 2 AWS Responsible AI - https://aws.amazon.com/machine-learning/responsible-ai/ Microsoft: https://www.microsoft.com/en-us/ai/responsible-ai ; https://www.microsoft.com/en-us/ai/principles-and-approach ; https://www.microsoft.com/cms/api/am/binary/RE4pKH5 Google - https://blog.google/technology/ai/ai-principles/ IBM - https://www.ibm.com/products/watsonx-governance https://www.ibm.com/impact/ai-ethics ; https://www.ibm.com/blog/a-look-into-ibms-ai-ethics-governance-framework/ OpenAI Mistral Claude Vendor Resources: If using a 3rd party chatbot platform, they likely have risk guidance documents. These are a start but need to be critically assessed."
+    },
+    {
+      "index": 6,
+      "title": "AI Risk Assesment Tools - 1 Framework Description",
+      "text": "AI Risk Assesment Tools - 1 Framework Description Link PyRIT Azure Python Risk Identification Tool for generative AI (PyRIT) https://github.com/Azure/PyRIT RAGAs RAG Assessment - open-source Python framework https://docs.ragas.io HELM Holistic Evaluation of Language Models (Stanford) https://crfm.stanford.edu/helm/lite/latest/ Aequitas Toolkit for fairness and bias analysis in machine learning models, including LLMs. Offers metrics and visualizations. https://github.com/dssg/aequitas IBM AI Fairness 360 AI Explainability 360 (AIX360) IBM toolkits, good overview of techniques https://www.ibm.com/opensource/open/projects/ai-fairness-360/ https://www.ibm.com/opensource/open/projects/ai-explainability/ Responsible AI Toolkit (Google AI) Suite of tools focused on model evaluation, fairness, explainability, and other responsible AI concerns. https://www.tensorflow.org/responsible_ai Fairlearn (Microsoft) Microsoft toolkit for assessing and mitigating unfairness in machine learning models. https://fairlearn.org/ Lime python module to explain black-box classifiers https://github.com/marcotcr/lime SHAP (SHapley Additive exPlanations) Explain model outputs based on game theory. Helps explain LLM decisions. https://github.com/slundberg/shap TensorFlow Model Analysis (TFMA) Tools within TensorFlow for model evaluation and fairness, particularly for LLMs built on that platform. https://www.tensorflow.org/tfx/model_analysis/get_started Counterfactual Explanations Methods providing \"what if\" scenarios and explanations on how changes in input would change the LLM output. Research Area – look for libraries like https://github.com/microsoft/DiCE What-If Tool Google-developed tool for interactive model evaluation, scenario analysis, and understanding model behavior. https://pair-code.github.io/what-if-tool/"
+    },
+    {
+      "index": 7,
+      "title": "Microsoft-365 Copilot Risk Mitigation Microsoft Graph - https://developer.microsoft.com/en-us/graph",
+      "text": "Microsoft-365 Copilot Risk Mitigation Microsoft Graph - https://developer.microsoft.com/en-us/graph - https://learn.microsoft.com/en-us/graph/overview Microsoft Graph is the the gateway to Microsoft-365 data. It is an API endpoint Data comes from Outlook, OneDrive, Teams, SharePoint, OneNote, excel, Azure Active Directory, and more ... Data is indexed for effective search. You can effectively search through all data of your organization with queries like “search for documents talking about keys”, … You need to do searches as all users to find problematic data. Microsoft Security Copilot https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot https://www.youtube.com/watch?v=0lg_derTkaM"
+    },
+    {
+      "index": 8,
+      "title": "Moveworks Copilot works with Microsoft Moveworks Copilot -",
+      "text": "Moveworks Copilot works with Microsoft Moveworks Copilot - works with Microsoft-365 apps and data https://www.moveworks.com/us/en/resources/blog/ai-security-for-a-next-gen-copilot Moveworks Blog: All in on AI: 4 key learnings from Microsoft Build 2023: https://www.moveworks.com/us/en/resources/blog/microsoft-build-2023-event-recap Microsoft Blog: 3 ways Moveworks and Microsoft Teams use AI to improve employee productivity: https://www.microsoft.com/en-us/microsoft-365/blog/2023/07/10/3-ways-moveworks-and-microsoft-teams-use-ai-to-improve-employee-productivity/ Microsoft Learn: Data, Privacy, and Security for Microsoft Copilot for Microsoft 365: https://learn.microsoft.com/en-us/microsoft-365-copilot/microsoft-365-copilot-privacy Example Scenario: An employee uses Microsoft Teams to ask Moveworks Copilot, \"How do I reset my password?\". Moveworks Copilot, understanding the intent, can trigger a password reset process, access instructions from your knowledge base, and even call on external systems as needed. Additionally, while resolving the issue, Moveworks might identify that certain permissions need adjustment in Microsoft 365 for the employee. It can suggest these changes to Microsoft Copilot, which can then offer help in completing the task within the appropriate Microsoft 365 interface."
+    },
+    {
+      "index": 9,
+      "title": "Microsoft Copilot Plugins Plugins are currently in preview",
+      "text": "Microsoft Copilot Plugins Plugins are currently in preview for Microsoft Copilot for Microsoft 365. There are two types: Conversational Plugins : Process natural language requests from the user, perform actions, and send responses back to the user within Microsoft 365 Chat . AI Plugins : Extend Copilot by retrieving real-time data from your services. These are created using Power Virtual Agents capabilities. Examples of Plugin Use Cases: Integrating with CRM systems : query/update Search internal databases and wiki Performing calculations Controlling 3 rd party apps like Jira, ServiceNow, etc. Microsoft 365 Admin Center – allows to manage plugins in the Integrated apps section. Copilot Plugin Hub – see, add, remove, enable plugins Creating Plugins - using Microsoft Copilot Studio: https://learn.microsoft.com/en-us/microsoft-copilot-studio/copilot-plugins-overview Extend Microsoft Copilot for Microsoft 365: https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/ Microsoft Copilot Plugins Documentation: https://learn.microsoft.com/en-us/copilot-plugins/overview"
+    },
+    {
+      "index": 10,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "NvidiaGTC",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "xxx xxx AI Risks March 22 , 2024",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agent workflows",
+      "topic": "agents",
+      "videoSeconds": 142,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=142s",
+      "slideIndex": 2,
+      "slideTitle": "Risks of Using LLMs in Regulated Industries (Banks,",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT 4 first anniversary",
+      "topic": "openai",
+      "videoSeconds": 474,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=474s",
+      "slideIndex": 3,
+      "slideTitle": "AI Risks Management Strategies AI Risks Management Strategies",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gro 1 released into open source",
+      "topic": "open-models",
+      "videoSeconds": 573,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=573s",
+      "slideIndex": 3,
+      "slideTitle": "AI Risks Management Strategies AI Risks Management Strategies",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open source is thriving",
+      "topic": "open-models",
+      "videoSeconds": 748,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=748s",
+      "slideIndex": 4,
+      "slideTitle": "Frameworks for Controlling AI Risks - 1 Unfortunately,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mustafa Suan joins Microsoft",
+      "topic": "general",
+      "videoSeconds": 1045,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1045s",
+      "slideIndex": 5,
+      "slideTitle": "Frameworks for Controling AI Risks - 2 AWS",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open Sora 10",
+      "topic": "general",
+      "videoSeconds": 1216,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1216s",
+      "slideIndex": 6,
+      "slideTitle": "AI Risk Assesment Tools - 1 Framework Description",
+      "source": "youtube"
+    },
+    {
+      "claim": "AWS Kendra",
+      "topic": "general",
+      "videoSeconds": 1448,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1448s",
+      "slideIndex": 7,
+      "slideTitle": "Microsoft-365 Copilot Risk Mitigation Microsoft Graph - https://developer.microsoft.com/en-us/graph",
+      "source": "youtube"
+    },
+    {
+      "claim": "Yan Lin Interview",
+      "topic": "general",
+      "videoSeconds": 1570,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1570s",
+      "slideIndex": 8,
+      "slideTitle": "Moveworks Copilot works with Microsoft Moveworks Copilot -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Contextual AI",
+      "topic": "general",
+      "videoSeconds": 1633,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1633s",
+      "slideIndex": 8,
+      "slideTitle": "Moveworks Copilot works with Microsoft Moveworks Copilot -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource",
+      "topic": "general",
+      "videoSeconds": 1691,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1691s",
+      "slideIndex": 9,
+      "slideTitle": "Microsoft Copilot Plugins Plugins are currently in preview",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1700,
+      "videoUrl": "https://www.youtube.com/watch?v=nsZw7_93K3U&t=1700s",
+      "slideIndex": 10,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

@@ -9,6 +9,7 @@ import { buildInsights } from "./lib/insights.mjs";
 import { videoUrlAt } from "./lib/chapters.mjs";
 import { fetchAndParsePptx } from "./lib/pptx.mjs";
 import { fetchVideoList, fetchAllVideoMeta } from "./lib/youtube.mjs";
+import { saveSession, ensureSessionsDir } from "./lib/sessions.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -299,6 +300,10 @@ async function main() {
   };
 
   await mkdir(DATA, { recursive: true });
+  await ensureSessionsDir();
+  for (const seminar of seminars) {
+    await saveSession(seminar);
+  }
   await writeFile(join(DATA, "seminars.json"), JSON.stringify(seminars, null, 2));
   await writeFile(join(DATA, "topics.json"), JSON.stringify(topics, null, 2));
   await writeFile(join(DATA, "trends.json"), JSON.stringify(trends, null, 2));

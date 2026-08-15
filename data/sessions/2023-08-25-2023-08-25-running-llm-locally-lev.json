@@ -1,0 +1,319 @@
+{
+  "id": "2023-08-25-2023-08-25-running-llm-locally-lev",
+  "date": "2023-08-25",
+  "title": "Running-LLM-Locally-Lev",
+  "series": "seminar",
+  "topics": [
+    "benchmarks"
+  ],
+  "video": {
+    "id": "vdP7Ikwg4-A",
+    "title": "AI Updates - August 25, 2023",
+    "url": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+    "thumbnail": "https://i.ytimg.com/vi/vdP7Ikwg4-A/hqdefault.jpg",
+    "duration": 1213
+  },
+  "deck": {
+    "path": "2023/2023-08-25-Running-LLM-Locally-Lev.pptx",
+    "filename": "2023-08-25-Running-LLM-Locally-Lev.pptx",
+    "title": "Running-LLM-Locally-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-25-Running-LLM-Locally-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-25-Running-LLM-Locally-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "ML Leaderboard",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Sets",
+      "startSeconds": 152,
+      "label": "02:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Chair GPT",
+      "startSeconds": 304,
+      "label": "05:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Private GPT",
+      "startSeconds": 332,
+      "label": "05:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Auto GPT",
+      "startSeconds": 389,
+      "label": "06:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Recent AI investments",
+      "startSeconds": 470,
+      "label": "07:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta",
+      "startSeconds": 576,
+      "label": "09:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Small Ideas",
+      "startSeconds": 658,
+      "label": "10:58",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT Models",
+      "startSeconds": 936,
+      "label": "15:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Can I recognize and generate humor",
+      "startSeconds": 1096,
+      "label": "18:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Can AI create emotions",
+      "startSeconds": 1132,
+      "label": "18:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Running LLM Locally Presented by Lev Selector August",
+      "text": "Running LLM Locally Presented by Lev Selector August 25, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data crypto, accounting cloud architecture, fin-tech, application security Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Use 4-bit quantized model A 4-bit quantized LLaMA",
+      "text": "Use 4-bit quantized model A 4-bit quantized LLaMA model is a large language model (LLM) that has been compressed by representing its weights in 4 bits instead of the usual 32 bits. This reduces the model's memory footprint and computational requirements, making it more efficient to train and deploy. The 4-bit quantized version of the LLaMA model has been shown to achieve comparable performance to the full-precision model on a variety of tasks, such as text generation, translation, and question answering. The compression is done using the GPTQ (Gradient-Preserving Quantization) - a neural network-based quantization algorithm that minimizes the loss in accuracy caused by quantization."
+    },
+    {
+      "index": 4,
+      "title": "Model Weight System RAM VRAM Examples of graphics",
+      "text": "Model Weight System RAM VRAM Examples of graphics card tokens/sec using ExLlama, Nvidia RTX 4090, Intel i9-12900K, sequence 2,048 tokens LLaMa-7B 3.5GB 16 GB 6-10 GB RTX 1660, 2060, AMD 5700xt, RTX 3050, 3060 138 t/s (5GB VRAM) LLaMa-13B 6.5GB 32 GB 10-18 GB AMD 6900xt, RTX 2060 12GB, 3060 12GB, 3080 , 3090, A2000 85 t/s (9GB VRAM) LLaMa-30B 15.8GB 64 GB 20-24 GB RTX 3080 20GB, A4500, A5000, 3090, 4090 , 6000, Tesla V100 35 t/s (20GB VRAM) LLaMa-65B 31.2GB 128 GB 48GB A100 40GB, 2x3090, 2x4090 , A40, RTX A6000, 8000, Titan Ada GPU (VRAM) requirements for 4-bit quantized LLaMA models https://www.hardware-corner.net/guides/computer-to-run-llama-ai-model/ https://github.com/facebookresearch/llama/issues/79 System RAM: you need approx twice more system RAM than VRAM. CPU: Intel Core i9-10900K ($360) or i7-12700K ($320), or Ryzen 9 5900x ($350). Or even better, spend $5K for a AMD Ryzen Threadripper 3990X with 64 cores and 128 threads  :) High-end gaming CPU is better than a server CPU. The desktop to run 13B model can be built for under $3K"
+    },
+    {
+      "index": 5,
+      "title": "Ollama - Run LLaMa2 7B on Macbook Ollama:",
+      "text": "Ollama - Run LLaMa2 7B on Macbook Ollama: The Easiest Way to Run Uncensored Llama2 on a Mac .. https://ollama.ai .. https://ollama.ai/library .. https://github.com/jmorganca/ollama .. https://python.langchain.com/docs/integrations/llms/ollama .. https://www.youtube.com/watch?v=tIRx-Sm3xDQ - demo .. https://www.youtube.com/watch?v=XRfbKOp4hF8 - updates Download the app, move to Applications, start. Then use from terminal. ollama pull llama2                # 3.8 GB,  7b ollama pull llama2-uncensored     # 3.8 GB,  7b ollama pull open-orca-platypus2   # 7.3 GB, 13b ollama list # show downloaded libraries All available models: https://ollama.ai/library Downloaded models are stored in ~/. ollama /models/blobs/ Add option \"--verbose\" to see stats ollama run llama2-uncensored:latest --verbose Prompt eval rate (tokens/s) : 14 for llama2 7 for orca When running model, you can use commands starting with \"/\", for example: /show You can use it as API: curl -X POST http://localhost:11434/ api /generate -d '{ \"model\": \"llama2\", \" prompt\":\"Why is the sky blue?\" }' When the model is running (printing the response) the memory usage is a bit more than 2GB for orca and 1.5 GB for llama2."
+    },
+    {
+      "index": 6,
+      "title": "Ollama - Models .. https://ollama.ai/library llama2 (7b, 13b,",
+      "text": "Ollama - Models .. https://ollama.ai/library llama2 (7b, 13b, 70b, https://huggingface.co/meta-llama/Llama-2-7b ) llama2-uncensored (7b, 13b, 70b) codeup (13b, https://huggingface.co/TheBloke/CodeUp-Llama-2-13B-Chat-HF-GGML ) everythinglm (13b EverythingLM, https://huggingface.co/totally-not-an-llm/EverythingLM-13b-16k ) llama2-chinese medllama2 (7b, medical, https://huggingface.co/artem9k/medllama-lora-13b ) nous-hermes (7b, 13b, https://huggingface.co/NousResearch/Nous-Hermes-Llama2-13b ) open-orca-platypus2 (13b, https://huggingface.co/Open-Orca/OpenOrca-Platypus2-13B ) orca-mini (3b, 7b, 13b, 70b, https://huggingface.co/psmathur/orca_mini_3b ) stable-beluga (7b, 13b, 70b, https://huggingface.co/stabilityai/StableBeluga2 ) vicuna (7b, 13b, 33b, https://huggingface.co/lmsys/vicuna-13b-v1.5-16k ) wizard-math (7b, 13b, 70b, https://huggingface.co/WizardLM/WizardMath-7B-V1.0 ) wizard-vicuna(13b, https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ ) wizard-vicuna-uncensored wizardlm (70b, https://huggingface.co/WizardLM/WizardLM-70B-V1.0 ) wizardlm-uncensored"
+    },
+    {
+      "index": 7,
+      "title": "LLaMa-2-7B on Local GPU https://medium.com/@lei.shang/run-llama-2-on-your-local-gpu-62ef019fc108 Hugging Face recommends",
+      "text": "LLaMa-2-7B on Local GPU https://medium.com/@lei.shang/run-llama-2-on-your-local-gpu-62ef019fc108 Hugging Face recommends using 1x Nvidia A10G. Nvidia RTX 3090 (24GB) is a bit better. Sign up at ai.meta.com to get approval for model download https://ai.meta.com/resources/models-and-libraries/llama-downloads/ Obtain a User Access Token from Hugging Face Follow this video \"Llama 2 in LangChain — FIRST Open Source Conversational Agent!\" https://www.youtube.com/watch?v=6iHVJyX2e50 import torch import transformers from torch import cuda, bfloat16 model_id = 'meta-llama/Llama-2-7b-chat-hf' device = f'cuda:{cuda.current_device()}' if cuda.is_available() else 'cpu' device_name = torch.cuda.get_device_name() print(f\"Using device: {device} ({device_name})\") bnb_config = transformers.BitsAndBytesConfig( load_in_4bit=True, bnb_4bit_quant_type='nf4', bnb_4bit_use_double_quant=True, bnb_4bit_compute_dtype=bfloat16 ) hf_auth = <Copy&paste your User Access Token from Hugging Face> model_config = transformers.AutoConfig.from_pretrained( model_id, use_auth_token=hf_auth ) model = transformers.AutoModelForCausalLM.from_pretrained( model_id, trust_remote_code=True, config=model_config, quantization_config=bnb_config, device_map='auto', use_auth_token=hf_auth ) model.eval() print(f\"Model loaded on {device}\") tokenizer = transformers.AutoTokenizer.from_pretrained( model_id, use_auth_token=hf_auth ) generate_text = transformers.pipeline( model=model, tokenizer=tokenizer, return_full_text=True, task='text-generation', temperature=0.0,  # 'randomness' of outputs, 0.0 is the min and 1.0 the max max_new_tokens=512,  # mex number of tokens to generate in the output repetition_penalty=1.1  # without this output begins repeating ) res = generate_text(\"Explain to me the difference between nuclear fission and fusion.\") print(res[0][\"generated_text\"])"
+    },
+    {
+      "index": 8,
+      "title": "How to run LLaMa 13B with a 6GB",
+      "text": "How to run LLaMa 13B with a 6GB graphics card https://gist.github.com/rain-1/8cc12b4b334052a21af8029aa9c4fafc git clone https://github.com/ggerganov/llama.cpp.git cd llama.cpp pacman -S cuda make sure you have CUDA installed make LLAMA_CUBLAS=1 # use mamba package manager export MAMBA_ROOT_PREFIX=/path/to/where/you/want/mambastuff/stored eval \"$(micromamba shell hook --shell=bash)\" micromamba create -n mymamba micromamba activate mymamba micromamba install -c conda-forge -n mymamba pytorch transformers sentencepiece # Perform the conversion process: (This will produce a file called ggml-model-f16.bin) python convert.py ~/ai/Safe-LLaMA-HF-v2\\ \\(4-04-23\\)/llama-13b/ # Then quantize that to a 4bit model: ./quantize ~/ai/Safe-LLaMA-HF-v2\\ \\(4-04-23\\)/llama-13b/ggml-model-f16.bin ~/ai/Safe-LLaMA-HF-v2\\ \\(4-04-23\\)/llama-13b/ggml-model-13b-q4_0-2023_14_5.bin q4_0 8 # Create a prompt file in:  prompt.txt  and Run it: ./main -ngl 18 -m ~/ai/Safe-LLaMA-HF-v2\\ \\(4-04-23\\)/llama-13b/ggml-model-13b-q4_0-2023_14_5.bin -f prompt.txt -n 2048 May 14, 2023 llama.cpp"
+    },
+    {
+      "index": 9,
+      "title": "Preprocessing Documents to Improve Vector Search How to",
+      "text": "Preprocessing Documents to Improve Vector Search How to Use LLMs to Build Better Clustering Models https://medium.com/@swansburg.justin/how-to-use-llms-to-build-better-clustering-models-9b17a5491bb4 The idea is to preprocess the data and create structured texts following certain template format. For example, if your data files are resumes - you can process them into a dictionary format like shown on the right. Then we create embeddings from these structured texts. If all texts are structured using the same template, then when you will be doing similarity search, you will be comparing apples to apples. So the quality of the search will be much better. Age : 28. Gende r: male. Role : Research Scientist. Hiring Department : Research & Development. Travel Preference : Travel_Frequently. Extracurriculars : nan. Distance From Home : 4. Internships : 9. Education Level : 3. Education Field : Engineering. Summary : As you can see, I am very dedicated and I am ready to start at your firm immediately. Improving vector search by converting documents into question/answer pairs https://jfan001.medium.com/improving-vector-search-by-converting-documents-to-question-answer-pairs-4ded4769326a https://www.lumoslearning.com/llwp/free-question-answer-generator-online.html https://github.com/ramsrigouthamg/Questgen.ai https://github.com/KristiyanVachev/Question-Generation"
+    },
+    {
+      "index": 10,
+      "title": "Part 1/3 Understanding the Fundamental Limitations of Vector-Based",
+      "text": "Part 1/3 Understanding the Fundamental Limitations of Vector-Based Retrieval for Building LLM-Powered Chatbots https://medium.com/thirdai-blog/understanding-the-fundamental-limitations-of-vector-based-retrieval-for-building-llm-powered-48bb7b5a57b3 Methods to improve indexing to make retrieval more relevant ( Cosine similarity may not be the best): https://twitter.com/karpathy/status/1647025230546886658 https://github.com/karpathy/randomfun/blob/master/knn_vs_svm.ipynb Estimate for Pubmed 35M abstracts, ~100M chunks, 100M embeddings. If 1 chunk = 250 tokens, we get 25B tokens Using Pinecone Vector DB  ~ $7K/month + one time $125K for generating embeddings (using OpenAI API) + storage fees 100M queries per month will require ~$250K/month for creating embeddings for queries and getting response from OpenAI Big companies can easily have 10-100 times more data."
+    },
+    {
+      "index": 11,
+      "title": "Part 2/3 Neural Databases part 2/3: Neural Databases:",
+      "text": "Part 2/3  Neural Databases part 2/3: Neural Databases: A Next Generation Context Retrieval System for Building Specialized AI-Agents with ChatGPT https://medium.com/thirdai-blog/neural-database-next-generation-context-retrieval-system-for-building-specialized-ai-agents-with-861ffa0516e7 Problems with embeddings and similarity search: Embeddings take mode disk space than original text Similarity search is slow and inaccurate Updates and Deletions are very slow Retrieval quality is difficult to evaluate and fix (Curse of Dimensionality) Embedding-Free Neural Databases (big hash): Make a big hash, using LLM classifier as a hashing function. A 2.5 billion parameter neural network is sufficient to train and index the complete Pubmed 35M document dataset. A simple KEY, VALUE type tables, fast and easy insert-delete-update, easy to parallelize (sharding) Ultra-fast Inference Significant reduction in disk and compute requirements, in cost Continual Learning with Incrementally Teachable Indexing. Getting text pairs for training is not hard (they can be easily generated in self-supervised manner, or can be taken from any production system with user interaction."
+    },
+    {
+      "index": 12,
+      "title": "Part 3/3 ThirdAI - Private and Personalizable Neural",
+      "text": "Part 3/3  ThirdAI - Private and Personalizable Neural Database https://medium.com/thirdai-blog/thirdais-private-and-personalizable-neural-database-enhancing-retrieval-augmented-generation-f3ad52c54952 part 3/3: ThirdAI’s Private and Personalizable Neural Database: Enhancing Retrieval-Augmented Generation (RAG) Making NeuralDB Commercially Viable on Commodity CPUs ( no GPUs required ) ! Announcing BOLT: A Deep Learning Engine for Efficiently Training and Deploying Large Models on Commodity CPUs https://medium.com/thirdai-blog/announcing-bolt-a-deep-learning-engine-for-efficiently-training-and-deploying-large-models-on-bcb55dcd46ce"
+    },
+    {
+      "index": 13,
+      "title": "Running Embedding Models https://huggingface.co/spaces/mteb/leaderboard Rank Model Model Size",
+      "text": "Running Embedding Models https://huggingface.co/spaces/mteb/leaderboard Rank Model Model Size (GB) Embedding Dimensions N params (B) GPU VRAM (GB) Sequence Length Average (56 datasets) 1 bge-large-en 1.34 1024 12 40 512 63.98 2 bge-base-en 0.44 768 0.2 4 512 63.36 3 gte-large 0.67 1024 7 22 512 63.13 4 gte-base 0.22 768 0.14 6 512 62.39 5 e5-large-v2 1.34 1024 7 22 512 62.25 6 bge-small-en 0.13 384 0.04 2 512 62.11 7 instructor-xl 4.96 768 1.4 16 512 61.79 8 instructor-large 1.34 768 0.14 11 512 61.59 9 e5-base-v2 0.44 768 0.14 6 512 61.5 We need a GPU with enough VRAM \"large\" models require 22-40 GB \"base\" models require 4-6 GB Follow the links to huggingface and GitHub for instructions and examples # bge-base-en model was integrated into LangChain # on August 9, 2023 # pip install -U sentence-transformers # pip install -U langchain from langchain.embeddings import HuggingFaceBgeEmbeddings model_name = \"BAAI/bge-base-en\" model_kwargs = {'device': 'cuda'} encode_kwargs = {'normalize_embeddings': True} model_norm = HuggingFaceBgeEmbeddings( model_name=model_name, model_kwargs=model_kwargs, encode_kwargs=encode_kwargs ) # The gte-base model is NOT included in LangChain # You need to use PyTorch, etc. import torch.nn.functional as F from torch import Tensor from transformers import AutoTokenizer, AutoModel ..."
+    },
+    {
+      "index": 14,
+      "title": "Pricing of hardware and hosting You can get",
+      "text": "Pricing of hardware and hosting You can get a good desktop with 128GB RAM  &  24GB VRAM for less than $2K (refurbished), or ~ $3K new LambdaLabs https://lambda l abs.com/service/gpu-cloud/pricing For example, for 1x NVIDIA RTX A6000 with 48GB VRAM, 14 cores, 100 GB RAM, the on-demand price is $0.80/hr ($570/mo). If we make a 1-year commitment, we can probably reduce this price in half to ~ $3,600/year Also look at: https://www.runpod.io/gpu-instance/pricing RTX 3090 24GB VRAM $0.44/hr - cheaper than Lambda https://www.penguinsolutions.com https://www.coreweave.com https://centml.ai"
+    },
+    {
+      "index": 15,
+      "title": "Resources - 1 PostgreSQL as a Vector Database:",
+      "text": "Resources - 1 PostgreSQL as a Vector Database: Create, Store, and Query OpenAI Embeddings With pgvector https://www.timescale.com/blog/postgresql-as-a-vector-database-create-store-and-query-openai-embeddings-with-pgvector/ Run Llama2-Chat on Your Local Computer https://medium.com/@martin-thissen/llama2-chat-on-your-local-computer-free-gpt-4-alternative-41b7638033a8 https://www.youtube.com/watch?v=WzCS8z9GqHw privateGPT ( LangChain, GPT4All, LlamaCpp, Chroma and SentenceTransformers - May 2023) https://github.com/imartinez/privateGPT https://github.com/imartinez/privateGPT/issues/282 https://hackernoon.com/how-to-install-privategpt-a-local-chatgpt-like-instance-with-no-internet-required https://www.youtube.com/watch?v=ZHrdCKqirKM LocalGPT - inspired by the original privateGPT , run ChatGPT locally - conda python, C++ https://github.com/PromtEngineer/localGPT https://www.cloudbooklet.com/localgpt-the-future-of-document-management/ https://www.reddit.com/r/LocalLLaMA/comments/14162wo/use_localgpt_with_a_more_lightweight_model_than/ https://www.reddit.com/r/LocalLLaMA/comments/14ypuly/comment/jrultyo/"
+    },
+    {
+      "index": 16,
+      "title": "Resources - 2 Run a 7b model locally",
+      "text": "Resources - 2 Run a 7b model locally on CPU https://towardsdatascience.com/running-llama-2-on-cpu-inference-for-document-q-a-3d636037a3d8 Comparing quality of the local LLMs. The best - Llama-2-13B-chat https://github.com/Troyanovsky/Local-LLM-Comparison-Colab-UI Building local agents and tools (Linux, GPU, llama2-7b) https://medium.com/@lei.shang/experimenting-agents-and-tools-with-llama-2-model-on-a-local-gpu-setup-3400406ee3d Running llama2 on Mac https://itnext.io/how-to-run-llama-2-on-mac-m1-and-train-with-your-own-data-8aba7d5ef95e Build and Run Llama2 LLM locally https://medium.com/@karankakwani/build-and-run-llama2-llm-locally-a3b393c1570e A Complete Guide to Running Local LLM Models https://bootcamp.uxdesign.cc/a-complete-guide-to-running-local-llm-models-3225e4913620"
+    },
+    {
+      "index": 17,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "ML Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Running LLM Locally Presented by Lev Selector August",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Sets",
+      "topic": "general",
+      "videoSeconds": 152,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=152s",
+      "slideIndex": 3,
+      "slideTitle": "Use 4-bit quantized model A 4-bit quantized LLaMA",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chair GPT",
+      "topic": "general",
+      "videoSeconds": 304,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=304s",
+      "slideIndex": 4,
+      "slideTitle": "Model Weight System RAM VRAM Examples of graphics",
+      "source": "youtube"
+    },
+    {
+      "claim": "Private GPT",
+      "topic": "general",
+      "videoSeconds": 332,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=332s",
+      "slideIndex": 6,
+      "slideTitle": "Ollama - Models .. https://ollama.ai/library llama2 (7b, 13b,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Auto GPT",
+      "topic": "general",
+      "videoSeconds": 389,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=389s",
+      "slideIndex": 7,
+      "slideTitle": "LLaMa-2-7B on Local GPU https://medium.com/@lei.shang/run-llama-2-on-your-local-gpu-62ef019fc108 Hugging Face recommends",
+      "source": "youtube"
+    },
+    {
+      "claim": "Recent AI investments",
+      "topic": "general",
+      "videoSeconds": 470,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=470s",
+      "slideIndex": 9,
+      "slideTitle": "Preprocessing Documents to Improve Vector Search How to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta",
+      "topic": "general",
+      "videoSeconds": 576,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=576s",
+      "slideIndex": 11,
+      "slideTitle": "Part 2/3 Neural Databases part 2/3: Neural Databases:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Small Ideas",
+      "topic": "general",
+      "videoSeconds": 658,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=658s",
+      "slideIndex": 12,
+      "slideTitle": "Part 3/3 ThirdAI - Private and Personalizable Neural",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT Models",
+      "topic": "general",
+      "videoSeconds": 936,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=936s",
+      "slideIndex": 14,
+      "slideTitle": "Pricing of hardware and hosting You can get",
+      "source": "youtube"
+    },
+    {
+      "claim": "Can I recognize and generate humor",
+      "topic": "general",
+      "videoSeconds": 1096,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=1096s",
+      "slideIndex": 15,
+      "slideTitle": "Resources - 1 PostgreSQL as a Vector Database:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Can AI create emotions",
+      "topic": "general",
+      "videoSeconds": 1132,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A&t=1132s",
+      "slideIndex": 17,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "Ollama - Run LLaMa2 7B on Macbook Ollama:",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 5,
+      "slideTitle": "Ollama - Run LLaMa2 7B on Macbook Ollama:",
+      "source": "slide"
+    },
+    {
+      "claim": "How to run LLaMa 13B with a 6GB",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 8,
+      "slideTitle": "How to run LLaMa 13B with a 6GB",
+      "source": "slide"
+    },
+    {
+      "claim": "Part 1/3 Understanding the Fundamental Limitations of Vector-Based",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=vdP7Ikwg4-A",
+      "slideIndex": 10,
+      "slideTitle": "Part 1/3 Understanding the Fundamental Limitations of Vector-Based",
+      "source": "slide"
+    }
+  ]
+}

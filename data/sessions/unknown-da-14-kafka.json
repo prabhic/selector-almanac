@@ -1,0 +1,69 @@
+{
+  "id": "unknown-da-14-kafka",
+  "date": null,
+  "title": "DA 14 Kafka",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "data-engineering"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_14_Kafka.pptx",
+    "filename": "DA_14_Kafka.pptx",
+    "title": "DA 14 Kafka",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_14_Kafka.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_14_Kafka.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Request/Response chaining: possible chaining of timeouts possible inconsistencies",
+      "text": "Request/Response chaining: possible chaining of timeouts possible inconsistencies Publish / Subscribe (Publisher / Subscriber) model: we add message broker between publish/subscribe nodes (Kafka, RabbitMQ, etc.) to decouple them Event-Driven  (on each step use log of events) Push vs Pull Distributed data sync and distributed transactions Main idea - have at least 3 servers to get consensus of at least 2. We need two thirds. If M servers fail, we need (2M+1) working servers to \"vote\". Apache Kafka .. https://kafka.apache.org .. https://en.wikipedia.org/wiki/Apache_Kafka .. https://www.confluent.io .. cloudkarafka.com/blog/part1-kafka-for-beginners-what-is-apache-kafka.html Apache Kafka is a message bus . It is an open-source software platform for parallel high-throughput low latency processing of streams for real-time data feeds. Kafka can connect to external systems (for data import/export) via Kafka Connect . Kafka provides Kafka Streams (java library). Kafka was originally developed at LinkedIn , and was subsequently open sourced in early 2011. Original authors - Jay Kreps, Neha Narkhede and Jun Rao . Jay Kreps named ths framework \" Kafka \" after the author Franz Kafka because it is \"a system optimized for writing\", and he liked Kafka's work. Kafka is one of several technologies available for continuous flow ETL ( Kafka Streams, Apache Spark Streaming (micro-batches), NiFi, Apache Flink ( continous flow), Google DataFlow (serverless), Apache Beam) Jay Kreps Confluent Neha Narkhede Confluent Jun Rao Confluent"
+    },
+    {
+      "index": 2,
+      "title": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers",
+      "text": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers - process messages (between producers and subscribers) short-term persistence Kafka: message - immutable array of bytes topic - a feed of messages producer - publishes messages to a topic consumer (single-threaded subscriber) broker - one of the servers that comprise Kafka cluster Kafka'a topic is basically a pipe, a messaging bus When topic gets big - we replicate it into several partitions. each partition topic has its own broker messages distributed between partitions using consisten hashing Within each partition we can maintain order of messages, but we lose order globally New ideas: add more calculation ability inside Kafka. For example, instead of moving data through Kafka to a database, and then doing query calculations in this database, why can't we do these calculations in Kafka (or nearby microservices) and get rid of the database ? Lambda architecture: database     - slow complete batch processing events queue - fast summaries from streams"
+    },
+    {
+      "index": 3,
+      "title": "/-- long term bounded analysis, high latency \\",
+      "text": "/-- long term bounded analysis, high latency  \\ /     cassandra + spark                         \\ kafka                                                  => cassandra \\                                               / \\-- temporary queue, unbounded, low latency   / event Framework Kafka: producers, consumer, topics producers put messages into topics consumers take messages out of topics topics live on broker if many topics and messages - broker needs to be partitioned (cluster). Say, one topic is partitioned between 3 servers. Then we lose ordering within topic, we only have ordering in each server. Streaming Architecture All parts exchange messages There is no central database, no batch loading There is just message bus ( Kafka ) There are just topics in central streaming"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Request/Response chaining: possible chaining of timeouts possible inconsistencies",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Request/Response chaining: possible chaining of timeouts possible inconsistencies",
+      "source": "slide"
+    },
+    {
+      "claim": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Messaging & Streaming microservices, loosely-coupled systems producers/subscribers brokers",
+      "source": "slide"
+    },
+    {
+      "claim": "/-- long term bounded analysis, high latency \\",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "/-- long term bounded analysis, high latency \\",
+      "source": "slide"
+    }
+  ]
+}

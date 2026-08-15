@@ -1,0 +1,62 @@
+{
+  "id": "2023-09-21-2023-09-21-ln-why-local-rag",
+  "date": "2023-09-21",
+  "title": "LN-Why-Local-RAG",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "open-models",
+    "rag"
+  ],
+  "video": {
+    "id": "Bd6fGCcyoZM",
+    "title": "AI Updates - September 22, 2023",
+    "url": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+    "thumbnail": "https://i.ytimg.com/vi/Bd6fGCcyoZM/hqdefault.jpg",
+    "duration": 1560
+  },
+  "deck": {
+    "path": "2023/2023-09-21-LN-Why-Local-RAG.pptx",
+    "filename": "2023-09-21-LN-Why-Local-RAG.pptx",
+    "title": "LN-Why-Local-RAG",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-21-LN-Why-Local-RAG.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-21-LN-Why-Local-RAG.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Microsoft Exposes 38TB in AI Data Leak (September",
+      "text": "Microsoft Exposes 38TB in AI Data Leak    (September 19, 2023) https://www.therundown.ai/p/microsoft-ai-data-leak Key points: The token granted full access to an Azure storage account , not just the intended open AI datasets. Wiz Research discovered computer backups in the data with passwords, keys, and 30,000+ internal Teams messages . Microsoft published a blog reassuring that no customer data was exposed, with no action needed from customers. Why it matters: Reminder  - tighten your AI guardrails More data - more security needed (AI - lots of data)"
+    },
+    {
+      "index": 2,
+      "title": "Local Private Data + Embedding + VectorDB +",
+      "text": "Local Private Data + Embedding + VectorDB + LLM LLaMa 2 was open-sourced on July 18th, 2023 In 2 months ~1,000 variations of LLaMa were created at HuggingFace.co - improving the model, making it smaller. You can now have performance at ChatGPT-3.5 level with local open-source model running on relatively inexpensive hardware Local Components: File storage VectorDB Embedding Model LLM LangChain framework Front-end application RAG = Retrieval Augmented Generation System generates response based in the prompt with user query augmented with text retrieved from local vectorDB. The quality of RAG depends mostly on quality of the embedding model (vectors) quality of similarity search (in VectorDB) Average   ARC     HellaSwag     MMLU      TruthfulQA reason  common sense   sciences    truthful? GPT-4        84.25   96.3       95.3        86.4         59 GPT-3.5      71.93   85.2       85.5        70           47 LLaMa+ 70b   74.05   71.76      88.2        71           65.3 LLaMa+ 4bit  59.06   57.7       81.1        51.8         45.7 (13b) hybrid retrieval + semantic ranking perform better than simple Vector search https://techcommunity.microsoft.com/t5/azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Microsoft Exposes 38TB in AI Data Leak (September",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 1,
+      "slideTitle": "Microsoft Exposes 38TB in AI Data Leak (September",
+      "source": "slide"
+    },
+    {
+      "claim": "Local Private Data + Embedding + VectorDB +",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 2,
+      "slideTitle": "Local Private Data + Embedding + VectorDB +",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "2022-08-19-2022-08-19-code1-code-examples",
+  "date": "2022-08-19",
+  "title": "code1 code examples",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "_gjVot5PtTI",
+    "title": "Coding Interview Examples part 1",
+    "url": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+    "thumbnail": "https://i.ytimg.com/vi/_gjVot5PtTI/hqdefault.jpg",
+    "duration": 1718
+  },
+  "deck": {
+    "path": "2022/2022-08-19-code1_code_examples.pptx",
+    "filename": "2022-08-19-code1_code_examples.pptx",
+    "title": "code1 code examples",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-08-19-code1_code_examples.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-08-19-code1_code_examples.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Coding Interview Code Examples - Session 1 Merge",
+      "text": "Coding Interview Code Examples - Session 1 Merge Two Sorted Lists Find Longest Word(s) Finding Duplicates (use hashmap) Calculate Factorial and Fibonacci numbers Making Coin Change Recursive Staircase Balanced Parentheses (using stack) Knapsack Problem"
+    },
+    {
+      "index": 2,
+      "title": "# Definition for singly-linked list. class ListNode: def",
+      "text": "# Definition for singly-linked list. class ListNode: def __init__(self, x): self.val = x self.next = None Merge Two Sorted Lists def mergeTwoLists(l1: ListNode, l2: ListNode) -> ListNode: if l1 == None: return l2 elif l2 == None: return l1 out = ListNode() # head of the result pout = out p12 = [l1,l2] fin12 = [False,False] v12 = [l1.val,l2.val] while True: if (fin12[0] == True) and (fin12[1] == True): return out # find which list gives next value if (fin12[0] == False) and (fin12[1] == False) and (v12[0] <= v12[1]): ii=0 elif (fin12[0] == False) and (fin12[1] == False) and (v12[0] > v12[1]): ii=1 elif (fin12[0] == True): ii=1 else: ii=0 # get the value, progress, set flag if needed vv = p12[ii].val pout.val = vv if p12[ii].next == None: fin12[ii] = True else: p12[ii] = p12[ii].next v12[ii] = p12[ii].val if (fin12[0] == False) or (fin12[1] == False): pout.next = ListNode() pout = pout.next return out # head of the result"
+    },
+    {
+      "index": 3,
+      "title": "Find Longest Word(s) Given: word_dict - a dict/set",
+      "text": "Find Longest Word(s) Given: word_dict - a dict/set of valid words char_string - a string of characters Find the maximum length of a valid word which could be composed from characters in the string. Return a list of all those long words. Everything is in English (26 chars) small letters Online: https://codereview.stackexchange.com/questions/6634/longest-words-in-dictionary-that-can-be-constructed-from-a-list-of-letters https://gist.github.com/s3thi/1441776 As the string gets longer, the number of permutations becomes huge. For N=20, N! = math.factorial(20) = 2,432,902,008,176,640,000 So it may be better to go in the oposite direction. Start from the dictionary (which hardly has more than 100,000 words), start with longest words check if they can be made from given letters. Note: You should not use specialized libraries. For example, you should not use itertools: print(list(itertools.permutations([1,2,3], 2))) # [(1, 2), (1, 3), (2, 1), (2, 3), (3, 1), (3, 2)] YouTube (in java): https://www.youtube.com/watch?v=waIgDZZp9Wc Recursive solutions: https://codereview.stackexchange.com/questions/12858/generating-all-combinations-and-permutations-of-a-set-of-symbols https://www.geeksforgeeks.org/print-all-permutations-with-repetition-of-characters/ https://stackoverflow.com/questions/464864/how-to-get-all-possible-combinations-of-a-list-s-elements https://www.geeksforgeeks.org/print-all-possible-combinations-of-r-elements-in-a-given-array-of-size-n/ import os, sys # -------------------------------------------------------------- def can_make(word, letters): \"\"\" # Return True if \"word\" can be generated using only # the letters in the list \"letters\" \"\"\" if len(word) > len(letters): return False l = letters[:] # copy of the list for index, letter in enumerate(word): if letter in l: l.remove(letter) # removes once occurence else: return False return True # -------------------------------------------------------------- if __name__ == \"__main__\": mystr = \" crocodilegohome \" letters = list(mystr) myset = set([\" crocodile \",\" go \",\" home \",\" he \"]) mylist = list(myset) mylist.sort(key=len) mylist.reverse() long_words = [] max_len = 0 for w in mylist: if can_make(w, letters): if len(w) >= max_len: max_len = len(w) long_words += [w] else: break print(long_words)"
+    },
+    {
+      "index": 4,
+      "title": "Finding Duplicates https://leetcode.com/problems/find-all-duplicates-in-an-array/ Given an integer array \"",
+      "text": "Finding Duplicates https://leetcode.com/problems/find-all-duplicates-in-an-array/ Given an integer array \" nums \" of length \" n \" where all the integers of nums are in the range [1, n] and each integer appears once or twice, return an array of all the integers that appears twice. You must write an algorithm that runs in O(n) time and uses only constant extra space. Constraints: 1 <= n <= 105 1 <= nums[i] <= n Each element in nums appears once or twice. def findDuplicates(nums): \"\"\" # Solution without dict (we flip a sign instead of using dict). # The penalty is that we need to use abs() all the time :) \"\"\" res = [] for x in nums: if nums[abs(x)-1] < 0: res.append(abs(x)) else: nums[abs(x)-1] *= -1 return res def findDuplicates(nums): \"\"\" # Standard solution using hash-map (dictionary) \"\"\" res = [] mydict = {} for x in nums: if x in mydict: res.append(x) else: mydict[x] = 1 return res"
+    },
+    {
+      "index": 5,
+      "title": "Calculate Factorial func factorial(n): if n <= 1",
+      "text": "Calculate Factorial func factorial(n): if n <= 1 return 1 f= 1 for num in range(2,n+1): f *= num return f Note: we presume not-negative integer argument Note: We prefer to NOT use recursion as it can quickly spin out of control! # recursive solution func factorial(n): if n <= 1 return 1 else: return n * factorial(n-1)"
+    },
+    {
+      "index": 6,
+      "title": "Calculate Fibonacci numbers # recursive solution def fib(n):",
+      "text": "Calculate Fibonacci numbers # recursive solution def fib(n): if n in [0, 1]: return n else: return fib(n-1) + fib(n-2) # The calculation follows a binary tree of height \"n\", so complexity is O(2**n) # If we store already calculated numbers in an array - then # time complexity is O(n), and space complexity is also O(n) # (or if we only keep last 2 numbers, then space complexity is 0) Note: we presume not-negative integer argument Note: We prefer to NOT use recursion as it can quickly spin out of control! def fib(n): if n in [0, 1]: return n prev_prev = 0  # 0th fibonacci prev      = 1  # 1st fibonacci for _ in range(n - 1): current = prev + prev_prev prev_prev = prev prev = current return current # Complexity O(N) for time and O(1) space The Fibonacci numbers are generated recursively as following: F 0 = 0 F 1 = 1 F n = F n-1 + F n-2 Result: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . . Note: in practice people pre-calculate the numbers in advance, and then just grab the numbers from an array as needed. There is an exact formula for the n-th term: a n = [Phi n – (phi) n ] / Sqrt[5] where Phi is the so-called Golden Mean : Phi = (1 + Sqrt[5]) / 2"
+    },
+    {
+      "index": 7,
+      "title": "Making Coin Change def Nways_bottom_up(amount, denominations): Nways =",
+      "text": "Making Coin Change def Nways_bottom_up(amount, denominations): Nways = [0] * (amount + 1) Nways[0] = 1 for coin in denominations: for higher_amount in range(coin, amount + 1): remainder = higher_amount - coin Nways[higher_amount] += ( Nways[remainder] ) return Nways[amount] # Complexity O(n*m) time and O(n) additional space, where #   n is the amount of money and #   m is the number of potential denominations. Given a list of coin denominations write a function that computes the number of ways to give the change We start with the base case that there's one way to create the amount zero, and progressively add each of our denominations. The number of new ways we can make a higher_amount when we account for a new coin is simply Nways[higher_amount - coin], where we know that value already includes combinations involving coin (because we went bottom-up , we know that smaller values have already been calculated)."
+    },
+    {
+      "index": 8,
+      "title": "Recursive Staircase You are climbing a staircase with",
+      "text": "Recursive Staircase You are climbing a staircase with n steps. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? Basically it's a Fibonacci. If N1 is the number of ways to get to n-1, and N2 - to n-2, then total number for n is n1 + n2. def climbStairs(n): a,b = 1,0 for _ in range(n): a,b = a+b,a return a"
+    },
+    {
+      "index": 9,
+      "title": "Balanced Parentheses (using list as stack) Given: a",
+      "text": "Balanced Parentheses (using list as stack) Given: a string which composed from characters \"(\" and \")\" . Find the length of the longest valid (balanced) substring. .. https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/ def max_valid_len_stack(ss): \"\"\" # Using stack to store the index just before a \"valid\" substring # and index of opening parentheses # O(N) for time and O(N) for space \"\"\" max_len = 0 stack = [] # stack stack += [-1] # idx \"before\" for ii in range(len(ss)): if ss[ii] == '(': stack += [ii] # growing stack else: # ')' if len(stack): stack.pop() if len(stack): new_len = ii - stack[-1] max_len = max(max_len, new_len) else: stack = [ii] # idx \"before\" return max_len # tests for the script – string and max_len tests = [ ( '',   0), ( '(',  0), ( ')',  0), ( '((', 0), ( '))', 0), ( ')(', 0), ( '()', 2), ( '()()',    4), ( '((()))',  6), ( '()(((',   2), ( '())))',   2), ( ')))()',   2), ( '(((()()', 4), ( '))))(()()', 4), ( '()(((((()', 2), ( '())))))()', 2), ( '(((()()()(((()()()()))))', 22), ( '()()()((())))))))(()()()()(((()()()())()))', 24), ( '(()()()()(((()()()())()))', 24), ]"
+    },
+    {
+      "index": 10,
+      "title": "Knapsack Problem We are putting objects in a",
+      "text": "Knapsack Problem We are putting objects in a bag (a knapsack). There are n unique objects, each has its weight and value. The knapsack has a limited weight capacity W. We need to select objects to put into the knapsack to get maximum value. The brute-force method has time complexity of 2 N But using dynamic programming and bottom-up approach, it can be reduced to O(n*W) def knapSack(W, wt, val): \"\"\" # W - max weight of knapSack # wt - list of weights # val - list of values # n - number \"\"\" n = len(val) # --------------------------------- # create 2-dim array with (n+1) rows and (W+1) columns # populate with zeros K = [[0 for x in range(W + 1)] for x in range(n + 1)] # --------------------------------- # Build table K[][] in bottom up manner for i in range(n + 1): for w in range(W + 1): if i == 0 or w == 0: K[i][w] = 0 elif wt[i-1] <= w: K[i][w] = max(val[i-1] + K[i-1][w-wt[i-1]],  K[i-1][w]) else: K[i][w] = K[i-1][w] # --------------------------------- return K[n][W] # max value is in the \"last\" cell This solution is explained here: .. https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/RM1BDv71V60 It is also possible to even further optimize the solution by using a one-dimensional array (!)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Coding Interview Code Examples - Session 1 Merge",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 1,
+      "slideTitle": "Coding Interview Code Examples - Session 1 Merge",
+      "source": "slide"
+    },
+    {
+      "claim": "# Definition for singly-linked list. class ListNode: def",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 2,
+      "slideTitle": "# Definition for singly-linked list. class ListNode: def",
+      "source": "slide"
+    },
+    {
+      "claim": "Find Longest Word(s) Given: word_dict - a dict/set",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 3,
+      "slideTitle": "Find Longest Word(s) Given: word_dict - a dict/set",
+      "source": "slide"
+    },
+    {
+      "claim": "Finding Duplicates https://leetcode.com/problems/find-all-duplicates-in-an-array/ Given an integer array \"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 4,
+      "slideTitle": "Finding Duplicates https://leetcode.com/problems/find-all-duplicates-in-an-array/ Given an integer array \"",
+      "source": "slide"
+    },
+    {
+      "claim": "Calculate Factorial func factorial(n): if n <= 1",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 5,
+      "slideTitle": "Calculate Factorial func factorial(n): if n <= 1",
+      "source": "slide"
+    },
+    {
+      "claim": "Calculate Fibonacci numbers # recursive solution def fib(n):",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 6,
+      "slideTitle": "Calculate Fibonacci numbers # recursive solution def fib(n):",
+      "source": "slide"
+    },
+    {
+      "claim": "Making Coin Change def Nways_bottom_up(amount, denominations): Nways =",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 7,
+      "slideTitle": "Making Coin Change def Nways_bottom_up(amount, denominations): Nways =",
+      "source": "slide"
+    },
+    {
+      "claim": "Recursive Staircase You are climbing a staircase with",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 8,
+      "slideTitle": "Recursive Staircase You are climbing a staircase with",
+      "source": "slide"
+    },
+    {
+      "claim": "Balanced Parentheses (using list as stack) Given: a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 9,
+      "slideTitle": "Balanced Parentheses (using list as stack) Given: a",
+      "source": "slide"
+    },
+    {
+      "claim": "Knapsack Problem We are putting objects in a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=_gjVot5PtTI",
+      "slideIndex": 10,
+      "slideTitle": "Knapsack Problem We are putting objects in a",
+      "source": "slide"
+    }
+  ]
+}

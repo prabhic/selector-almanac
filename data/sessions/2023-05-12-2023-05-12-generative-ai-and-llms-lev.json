@@ -1,0 +1,362 @@
+{
+  "id": "2023-05-12-2023-05-12-generative-ai-and-llms-lev",
+  "date": "2023-05-12",
+  "title": "Generative-AI-and-LLMs-Lev",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "ml-fundamentals",
+    "coding",
+    "rag",
+    "multimodal",
+    "general",
+    "open-models",
+    "infra"
+  ],
+  "video": {
+    "id": "UH6yEemZ7dY",
+    "title": "Generative AI, ChatGPT and other LLMs - May 12, 2023",
+    "url": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+    "thumbnail": "https://i.ytimg.com/vi/UH6yEemZ7dY/hqdefault.jpg",
+    "duration": 2111
+  },
+  "deck": {
+    "path": "2023/2023-05-12-Generative-AI-and-LLMs-Lev.pptx",
+    "filename": "2023-05-12-Generative-AI-and-LLMs-Lev.pptx",
+    "title": "Generative-AI-and-LLMs-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-05-12-Generative-AI-and-LLMs-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-05-12-Generative-AI-and-LLMs-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Presented by Lev Selector May 12, 2023 Generative",
+      "text": "Presented by Lev Selector May 12, 2023 Generative AI, ChatGPT and other LLMs Humans Intelligence is Based on Language"
+    },
+    {
+      "index": 2,
+      "title": "Recent Rise of ChatGPT Chat = Chatbot =",
+      "text": "Recent Rise of ChatGPT Chat = Chatbot = chat software GPT = Generative Pre-trained Transformer LLM = Large Language Model (text-to-text) ChatGPT from Open AI is taking the world by storm. People find more and more creative uses for it. writing posts, articles, books, summaries planning research software engineering resolving problems (support) sales etc etc Interest since 2004 without ChatGPT: Interest since 2004: deep learning machine learning data science OpenAI ChatGPT (fastest growing)"
+    },
+    {
+      "index": 3,
+      "title": "Classical ML > Predict Generative AI > Create",
+      "text": "Classical ML > Predict Generative AI > Create There are multiple Generative AI models for different purposes LLM - Large Language Model FM = Foundation Model regression, classification, ... text, code, images, ..."
+    },
+    {
+      "index": 4,
+      "title": "GPT-3.5 and GPT-4 ChatGPT Codex DALL-E 2 Text",
+      "text": "GPT-3.5 and GPT-4 ChatGPT Codex DALL-E 2 Text Conversation Code Images Prompt: Write a tagline for on ice cream shop. Prompt: I'm having trouble getting my Xbox to turn on. Prompt: Table customers, columns = [id, fname, name, state] Create a SQL query for all customers in Texas named Jane Prompt: A ball of fire with vibrant colors to show the speed of innovation at our media and entertainment company Response: We serve up smiles with every scoop! Response: There are a few things you can try to troubleshoot this issue ... Response: SELECT * FROM customers WHERE state = 'TX' AND fname = 'Jane' Response: Current trend is replacing task-specific models with so called \" foundation models \" which are more generic and are trained on a broad set of unlabeled data. As the name suggests, they can be the foundation for many applications of the AI model. Typical foundation models: text-to-text text-to-embedding multimodal \" embedding \" is a way of representing complex data in a lower-dimensional space that is more suitable for processing. Typically as a vector."
+    },
+    {
+      "index": 5,
+      "title": "LLMs: Text In => Text Out",
+      "text": "LLMs: Text In => Text Out"
+    },
+    {
+      "index": 6,
+      "title": "Nowadays Models Live in Clouds Modern Foundation Models",
+      "text": "Nowadays Models Live in Clouds Modern Foundation Models Moved into Clouds IBM Watson in 2011: was running on IBM mainframe computer. was named after IBM's first CEO, Thomas J. Watson competed and won on the Jeopardy! quiz show in 2011 IBM Watson uses ML, NLP, and other techniques to understand natural language questions and content, and to give answers based on large amounts of data."
+    },
+    {
+      "index": 7,
+      "title": "GPT-3 (released in 2020) was the largest non-sparse",
+      "text": "GPT-3 (released in 2020) was the largest non-sparse language model in 2020 It has 175 billion parameters - and needs 700 GB of memory (4 Bytes per parameter) You would need at least five 80Gb Nvidia A100 GPUs  just to load the model and text GPT-3 was trained on 45 TB of data (books, wikipedia, internet archive, GitHub, NYTimes, Web crawls, Google Patents, etc.) ChatGPT-4 - size is not publicly known, but it is probably about the same as GPT-3. It has multiple improvements, but most importantly it was designed not for research, but as a business product - to be safe and not biased Size of OpenAI  ChatGPT LLaMA (Large Language Model Meta AI) from Facebook - 65 Bln parameters MT-NLG ( The Megatron-Turing Natural Language Generation) model by NVIDIA & Microsoft - 530 Bln parameters"
+    },
+    {
+      "index": 8,
+      "title": "In 2018 Microsoft has spent 100s of millions",
+      "text": "In 2018 Microsoft has spent 100s of millions of $ to build infrastructure for Open AI. It uses thousands of NVIDIA A100 and H100 chips. Open AI + Microsoft + NVIDIA Nvidia DGX: eight H100 modules (GPUs) inside 640 GBytes of Total GPU Memory 10x NVIDIA ConnectX®-7 400 Gbits/sec Network Interface, 1 TByte/sec of peak bidirectional network bandwidth Dual Intel Xeon Platinum 8480C processors, 112 cores total, and 2 TB System Memory 30 Terabytes NVMe SSD Jensen Huang, NVIDIA CEO: We proudly gave @OpenAI our NVIDIA DGX-1 supercomputer to work on #AI's toughest problems."
+    },
+    {
+      "index": 9,
+      "title": "Ian Goodfellow History of Generative Models Both Detective",
+      "text": "Ian Goodfellow History of Generative Models Both Detective and Criminal receive the same set of images (for example, pictures of cats and dogs). Criminal randomly generates “fake” images (cat with 6 legs and two tails, etc.). Detective learns to discriminate real images from fakes and becomes better and better. Criminal learns to make better and better fakes. Adversarial relationship helps both become better very fast. Generative Adversarial Networks (GANs) (2014) Police Detective (recognizes images) Artistic Criminal (generates fake images) Thesis (2014): https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/11674/Goodfellow_Ian_2014_these.pdf Generative Adversarial Nets, 2014 (8 authors) https://papers.nips.cc/paper_files/paper/2014/file/5ca3e9b122f61f8f06494c97b1afccf3-Paper.pdf Unreal Person: https://www.unrealperson.com"
+    },
+    {
+      "index": 10,
+      "title": "Naive Bayes Classifiers - simple classification models. Hidden",
+      "text": "Naive Bayes Classifiers - simple classification models. Hidden Markov Models (HMMs) - simple way to model sequences by assuming that each data point depends only on a hidden state and the previous data point. Gaussian Mixture Models (GMMs) - assume that the data points are generated from a mixture of a finite number of Gaussian distributions with unknown parameters. Restricted Boltzmann Machines (RBMs) - generative stochastic artificial neural networks that can learn a probability distribution over its set of inputs. Deep Belief Networks (DBNs) - network composed of multiple layers of hidden units, with connections between the layers but not between units within each layer. They can be trained in an unsupervised manner using a layer-by-layer procedure. Variational Autoencoders (VAEs) - Introduced in 2013, a year before GANs, VAEs represent a breakthrough in the field of generative models. They combine deep learning and variational inference techniques to generate new data. A VAE encodes input data into a latent space and then decodes it, but in a way that the model learns the probability distribution of the data. This allows it to generate new data by sampling from the learned distribution in the latent space. Before GANs: MCMC – Markov Chain Monte Carlo (random walk)"
+    },
+    {
+      "index": 11,
+      "title": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s",
+      "text": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s Neural Machine Translation System: Bridging the Gap between Human and Machine Translation\" (2016) https://arxiv.org/pdf/1609.08144v2.pdf - 31 authors Main ideas: deep LSTM network, 8 encoder and 8 decoder layers parallelism - decreasing training time using Attention and residual connections attention mechanism - connects the bottom layer of the decoder to the top layer of the encoder low-precision arithmetic for inference computations Quoc Le qvl@google.com Past: PhD Student – under Andrew Ng, Stanford http://cs.stanford.edu/~quocle/ Google Translate, 2016"
+    },
+    {
+      "index": 12,
+      "title": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words",
+      "text": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words are represented by vectors based not only on the word, but also on its position and neighbours in specific phrase/text. Not just nearest neighbours – but from the whole text! Positionall encoding is done using sin()/cos() functions. We encode words into a list of those vector representations. Then we process this memory of vectors while putting attention on the content of one or few memory element(s), and finaly decode to generate the translated sentence. \" Attention Is All You Need \" (2017) – Google, eight authors .. https://arxiv.org/pdf/1706.03762.pdf .. https://medium.com/data-science-in-your-pocket/attention-is-all-you-need-understanding-with-example-c8d074c37767 Word2Vec (2013) Tomas Mikolov published word2vec in 2013. Typically word2vec maps each word to a vector of ~100 numbers. This mapping is found iteratively (starting with random vectors). The process approximates a word from the words before and after it in text. Similar words would have similar \"neighbours\". Once vectors are found, they represent the meaning of words. SO you can do vector operations with them, for example: V(King) – V(Man) + V(Woman)  ~  V(Queen)"
+    },
+    {
+      "index": 13,
+      "title": "Transformers, BERT BERT (Google 2018): \"Bidirectional Encoder Representations",
+      "text": "Transformers, BERT BERT (Google 2018): \"Bidirectional Encoder Representations from Transformers\" a language representation model designed to pre-train deep bidirectional representations from unlabeled text Bert (Sesame Street) Transformer (Google, 2017): Deep Neural Network for language models replaces sequential models (like RNN,LSTM), allows parallel processing multi-head Attention. encoder: self-attention + Feed-Forward Network decoder: self-attention, attention over encodings, and a feed-forward Network"
+    },
+    {
+      "index": 14,
+      "title": "What is a Transformer Model Very Good NVIDIA",
+      "text": "What is a Transformer Model Very Good NVIDIA article: https://blogs.nvidia.com/blog/2022/03/25/what-is-a-transformer-model/ \"A transformer model is a neural network that learns context and thus meaning by tracking relationships in sequential data like the words in this sentence.\" \"Transformer models apply an evolving set of mathematical techniques, called attention or self-attention , to detect subtle ways even distant data elements in a series influence and depend on each other .\" Short videos (AI Coffee Break with Letiția Pârcălăbescu ): .. https://www.cl.uni-heidelberg.de/nlpgroup/person/parcalabescu .. history - https://www.youtube.com/watch?v=iH-wmtxHunk .. transformers explained: - https://www.youtube.com/watch?v=FWFA4DGuzSc Some videos explaining transformers: .. https://www.youtube.com/watch?v=4Bdc55j80l8 .. https://www.youtube.com/watch?v=TQQlZhbC5ps"
+    },
+    {
+      "index": 15,
+      "title": "RNNs > Transformers > BERT > GPT RNNs",
+      "text": "RNNs > Transformers > BERT > GPT RNNs - vanishing gradient problem Gated RNN (LSTM) + Attention Transformer (Google, 2017) – multi-head attention, encoder/decoder with self-attention and feed-forward network BERT - pre-train deep bidirectional representations from unlabeled text GPT (Generative Pre-trained Transformer) – Open AI, 2018 2019 - GPT-2, 1.5 Billion parameters 2020 - GPT-3, 175 Billion parameters 2022 – GPT-3.5, ChatGPT - Hugging Face - open source NLP models: https://huggingface.co/transformers/ (note: .co, not .com) GPT-3 Language Model 175 Billion Parameters GPT = Generative Pre-trained Transformer Many classes of Deep Learning systems: CNN (Convolutional Neural Network), RNN (Recurrent Neural Network), LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit), GAN (Generative Adversarial Network), Transformers BERT (Bidirectional Encoder Representations from Transformers), GPT-3 (Generative Pre-trained Transformer) RL (Reinforcement Learning), and many others. Foundation models (e.g., BERT, GPT-3, CLIP, Codex) are models trained on broad data at scale such that they can be adapted to a wide range of downstream tasks BERT (2018) - NLP GPT-3  (2018-2020) NLP, 175 Bln parameters, Open AI CLIP (Contrastive Language Image Pre-training) – Open AI – describe images using text Codex = translates from natural language to software code, Open AI Benefits of Transformers over RNNs/LSTMs: process the entire input all at once (unlike RNNs) this allows for more parallelization (faster training) Benefits of BERT (\"Bidirectional Encoder Representations from Transformers\") faster ( parallel ) training ability to process larger amounts of text ability to use pre-trained models (transfer learning)"
+    },
+    {
+      "index": 16,
+      "title": "https://en.wikipedia.org/wiki/Chatbot 1950 - Alan Turing proposed a criterion",
+      "text": "https://en.wikipedia.org/wiki/Chatbot 1950 - Alan Turing proposed a criterion of intelligence (a.k.a. Turing test ) - a written real-time conversation with a human when the human is unable to tell if he communicates with a program or with a real human. 1966 - ELIZA ( https://en.wikipedia.org/wiki/ELIZA ) - a chat program by Joseph Weizenbaum simulating a psychiatrist. It was recognizing key words in the input ( 'MOTHER' ) and responding in a meaningful way ('TELL ME MORE ABOUT YOUR FAMILY') 1972 - PARRY ( https://en.wikipedia.org/wiki/PARRY ) - simulating a person with paranoid schizophrenia 2000-2004 - A.L.I.C.E. (Artificial Linguistic Internet Computer Entity) ( https://en.wikipedia.org/wiki/Artificial_Linguistic_Internet_Computer_Entity ) 2006 - D.U.D.E. (France) AI ChatBots - history (before Generative AI)"
+    },
+    {
+      "index": 17,
+      "title": "Nowadays if you need to build a custom",
+      "text": "Nowadays if you need to build a custom ChatBot, you have many choices: Major Providers: ChatGPT and Whisper API from Open AI .. https://openai.com/blog/introducing-chatgpt-and-whisper-apis AWS Lex - https://aws.amazon.com/lex/ - the system used by Amazon itself (chatbot for customer service) Google Dialogflow - very flexible .. https://cloud.google.com/dialogflow/docs/ , .. https://developers.google.com/learn/topics/chatbots Google Bard .. https://bard.google.com Azure Bot Services - https://azure.microsoft.com/en-us/products/bot-services Some Others: https://manychat.com - ManyChat - create a Facebook Messenger bot (for marketing, sales and support). It is easy and free https://chatfuel.com - ChatFuel - balance between user friendly and advanced custom options https://www.liveperson.com - acquired Conversable https://www.gupshup.io - GupShup , not user friendly, but impressive AI ChatBots - Services"
+    },
+    {
+      "index": 18,
+      "title": "Google: Bard - Google's experimental, conversational, AI chat",
+      "text": "Google: Bard - Google's experimental, conversational, AI chat service https://bard.google.com AI in Google Workspace - \"Collaborative Partner\" https://workspace.google.com/blog/product-announcements/generative-ai Microsoft: New Bing - AI Chat in Bing https://www.bing.com/new Microsoft 365 Copilot - AI in Microsoft Office - https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/ GitHub Copilot https://github.com/features/copilot Nvidia: Conversational AI https://www.nvidia.com/en-us/deep-learning-ai/solutions/conversational-ai/ Recent Developments"
+    },
+    {
+      "index": 19,
+      "title": "How Close Are We to AGI",
+      "text": "How Close Are We to AGI"
+    },
+    {
+      "index": 20,
+      "title": "Path to AGI Data Raw, unorganized Information Structured",
+      "text": "Path to AGI Data Raw, unorganized Information Structured data/facts Knowledge Understanding, experience Intelligence Sense the environment, make decisions Wisdom Reflective, doing the right thing Search algorithms AI/ML algorithms AGI AGI = Artificial General Intelligence We are here"
+    },
+    {
+      "index": 21,
+      "title": "ChatGPT-3.5 The number of eggs laid by one",
+      "text": "ChatGPT-3.5 The number of eggs laid by one hen in one day is 1.5 eggs / 1.5 hens = 1 egg per hen per day. So, if we have 3 hens, they will lay 3 hens * 1 egg per hen per day = 3 eggs in one day. And if we consider 3 days, then the number of eggs laid by 3 hens in 3 days will be 3 eggs per day * 3 days = 9 eggs . PROMPT: If 1.5 hens lay 1.5 eggs in 1.5 days, how many eggs will 3 hens lay in 3 days? ChatGPT-4 Let's solve this problem using proportions. If 1.5 hens lay 1.5 eggs in 1.5 days, we can set up a proportion to find out how many eggs 3 hens will lay in 3 days: 1.5 hens / 1.5 eggs = 3 hens / x eggs Now, we can solve for x:  x = 3 So, 3 hens will lay 3 eggs in 3 days. Correct answer = 6 Note: both models gave wrong answers. But both models solve it correctly if I change 1.5 to 2 (answer=8): \"If 2 hens lay 2 eggs in 2 days, how many eggs will 4 hens lay in 4 days ?\" And after that they solved it correctly for 1.5"
+    },
+    {
+      "index": 22,
+      "title": "ChatGPT knows a lot of facts . It",
+      "text": "ChatGPT knows a lot of facts . It can answer questions and explain terms and concepts. It is a good encyclopedia, a good tutor. ChatGPT is not always correct . It may be correct only 80% of the time. But so are most of other sources of information. ChatGPT usually gives you the most common answer, which may be wrong , because there are many common misconceptions. Be careful. ChatGPT may give you biased or politicized answers. ChatGPT helps with doing simple technical tasks including software, writing, planning, r esearch, graphics, formatting. Lawyers can ask it about existing laws on a subject. Software engineer can ask to recommend tools and libraries to solve specific problem. ChatGPT can be easily confused trying to solve real-life problem. It is still not a good substitute for a human. What AI (ChatGPT) can do today"
+    },
+    {
+      "index": 23,
+      "title": "OpenAI DALL-E and DALL-E 2 - https://openai.com/product/dall-e-2 -",
+      "text": "OpenAI DALL-E and DALL-E 2 - https://openai.com/product/dall-e-2 - https://en.wikipedia.org/wiki/DALL-E 2021 - DALL-E, multimodal GPT-3 with 12B parameters 2022 - DALL-E-2, 3.5B parameters Generating Images from Text Midjourney - independent research lab, creates images from text, similar to OpenAI's DALL-E and Stable Diffusion - https://midjourney.com Stable Diffusion text to image model - https://stablediffusionweb.com GigaGAN - 1B parameter model. very fast (only 0.13 seconds to synthesize a 512px image can synthesize high-resolution images (16-megapixel pixels in 3.66 sec) supports latent interpolation, style mixing, and vector arithmetic operations - https://mingukkang.github.io/GigaGAN/"
+    },
+    {
+      "index": 24,
+      "title": "Dangers of AI",
+      "text": "Dangers of AI"
+    },
+    {
+      "index": 25,
+      "title": "Open letter (March 22, 2023) https://futureoflife.org/open-letter/pause-giant-ai-experiments/ Tech luminaries,",
+      "text": "Open letter (March 22, 2023) https://futureoflife.org/open-letter/pause-giant-ai-experiments/ Tech luminaries, renowned scientists, and Elon Musk warn of an “ out-of-control race ” to develop and deploy ever-more-powerful AI systems. AN open letter signed by hundreds of prominent artificial intelligence experts, tech entrepreneurs, and scientists calls for a pause on the development and testing of AI technologies more powerful than OpenAI’s language model GPT-4 so that the risks it may pose can be properly studied. It warns that language models like GPT-4 can already compete with humans at a growing range of tasks and could be used to automate jobs and spread misinformation . The letter also raises the distant prospect of AI systems that could replace humans and remake civilization. Open Letter: pause AI for at least 6 months Very good video by Yann LeCun and Andrew Ng ( April 7, 2023): https://www.youtube.com/watch?v=BY9KV8uCtj4 They explain \"Why the 6-month AI Pause is a Bad Idea\". They say that it is important to regulate the products, but they don't agree with stopping the research"
+    },
+    {
+      "index": 26,
+      "title": "AI systems with human-competitive intelligence can pose profound",
+      "text": "AI systems with human-competitive intelligence can pose profound risks to society and humanity, as shown by extensive research[1] and acknowledged by top AI labs.[2] As stated in the widely-endorsed Asilomar AI Principles, Advanced AI could represent a profound change in the history of life on Earth, and should be planned for and managed with commensurate care and resources. Unfortunately, this level of planning and management is not happening, even though recent months have seen AI labs locked in an out-of-control race to develop and deploy ever more powerful digital minds that no one – not even their creators – can understand, predict, or reliably control. Contemporary AI systems are now becoming human-competitive at general tasks,[3] and we must ask ourselves: Should we let machines flood our information channels with propaganda and untruth? Should we automate away all the jobs, including the fulfilling ones? Should we develop nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us? Should we risk loss of control of our civilization? Such decisions must not be delegated to unelected tech leaders. Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable. This confidence must be well justified and increase with the magnitude of a system's potential effects. OpenAI's recent statement regarding artificial general intelligence, states that \"At some point, it may be important to get independent review before starting to train future systems, and for the most advanced efforts to agree to limit the rate of growth of compute used for creating new models.\" We agree. That point is now. Therefore, we call on all AI labs to immediately pause for at least 6 months the training of AI systems more powerful than GPT-4. This pause should be public and verifiable, and include all key actors. If such a pause cannot be enacted quickly, governments should step in and institute a moratorium. AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts. These protocols should ensure that systems adhering to them are safe beyond a reasonable doubt.[4] This does not mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities. AI research and development should be refocused on making today's powerful, state-of-the-art systems more accurate, safe, interpretable, transparent, robust, aligned, trustworthy, and loyal. In parallel, AI developers must work with policymakers to dramatically accelerate development of robust AI governance systems. These should at a minimum include: new and capable regulatory authorities dedicated to AI; oversight and tracking of highly capable AI systems and large pools of computational capability; provenance and watermarking systems to help distinguish real from synthetic and to track model leaks; a robust auditing and certification ecosystem; liability for AI-caused harm; robust public funding for technical AI safety research; and well-resourced institutions for coping with the dramatic economic and political disruptions (especially to democracy) that AI will cause. Humanity can enjoy a flourishing future with AI. Having succeeded in creating powerful AI systems, we can now enjoy an \"AI summer\" in which we reap the rewards, engineer these systems for the clear benefit of all, and give society a chance to adapt. Society has hit pause on other technologies with potentially catastrophic effects on society.[5]  We can do so here. Let's enjoy a long AI summer, not rush unprepared into a fall. Open Letter - full text March 22, 2023"
+    },
+    {
+      "index": 27,
+      "title": "Usage Examples",
+      "text": "Usage Examples"
+    },
+    {
+      "index": 28,
+      "title": "Example of Usage - Writing Writing plans, outlines,",
+      "text": "Example of Usage - Writing Writing plans, outlines, summaries, legal contracts, lists of topics, posts, articles, books For example, we want to write a book. We ask ChatGPT to give us 10 titles, then we select a title. Then we ask ChatGPT to give us 10 chapters for this title. Then for each of those 10 chapters we ask for 10 topics. So we have 100 topics. Now we ask ChatGPT to write 1 page for each topic. And voila - we have 100-page book! Great feature of ChatGPT that it can write text, and then you can direct it to improve it over and over again The trick is to include a request for ChatGPT to generate a hierarchical table of contents before providing the answer. This causes the AI to carefully analyze the structure of the issue at hand and organize its thoughts in a logical manner, much like a human writer would create an outline to plan and organize their ideas before composing an essay or speech. You can ask ChatGPT to write for different ages using language of different complexity in style of known authors write poems"
+    },
+    {
+      "index": 29,
+      "title": "Example of Usage - Software Using ChatGPT3 as",
+      "text": "Example of Usage - Software Using ChatGPT3 as a Data Engineer .. https://medium.com/@menon.ab/using-chatgpt3-as-a-data-engineer-913f9d5d9c7e .. Building boilerplate code .. Add comments to your code .. Debug basic errors on your scripts .. Convert code from one language to another .. Create flow chart of the process/code \"Fastest growing programming language in 2023  is ... English. It is actually human language\" \"If you don't learn these new tools (ChatGPT, ...) - you will not be able to compete with other developers\" \"Prompt engineering\" Best practices for prompt engineering with OpenAI API https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api OpenAI and Andrew Ng Just Released a FREE ChatGPT Prompt Engineering Course https://artificialcorner.com/openai-and-andrew-ng-just-released-a-free-chatgpt-prompt-engineering-course-b0884c03e946 https://artificialcorner.com/4-free-prompt-engineering-courses-to-join-the-top-1-of-chatgpt-users-bceca39f17e4"
+    },
+    {
+      "index": 30,
+      "title": "\"How I Save Over 5 Hours Every Week",
+      "text": "\"How I Save Over 5 Hours Every Week Using ChatGPT as a Data Scientist\" https://levelup.gitconnected.com/how-i-save-over-5-hours-every-week-using-chatgpt-as-a-data-scientist-715fb5fd68d 1. Visualizations 2. Conversions to Other Languages From Python 3. Code Summarization 4. Optimization of Code 5. Generate README.md 6. Creating Regex 7. Refactor Code 8. Code Comments"
+    },
+    {
+      "index": 31,
+      "title": "AutoGPT AutoGPT can act as an intelligent intern",
+      "text": "AutoGPT AutoGPT can act as an intelligent intern that works for you! Can browse the web to discover the next upcoming event and invent a unique and original recipe AutoGPT can do AI-Powered Research It can build a website in just 3 minutes Can automate your work on Discord with AI agents Can automate your podcast creation with AutoGPT AutoGPT is Taking Over the Internet: Here Are the Incredible Use Cases That Will Blow Your Mind https://levelup.gitconnected.com/autogpt-is-taking-over-the-internet-here-are-the-incredible-use-cases-that-will-blow-your-mind-ac31ea94e06e"
+    },
+    {
+      "index": 32,
+      "title": "Some Hidden Gems Use ChatGPT as your private",
+      "text": "Some Hidden Gems Use ChatGPT as your private teacher Ask ChatGPT for advice (life, health) Scan and Describe Images with ChatGPT (put image on the web - and then give its URL to ChatGPT - and ask it to describe this image for you) Summarize articles, papers and posts (you can provide text or a link to the text) Transform your life with these ChatGPT’s hidden gems https://artificialcorner.com/i-used-chatgpt-every-day-for-5-months-here-are-some-hidden-gems-that-will-change-your-life-a451e2093097"
+    },
+    {
+      "index": 33,
+      "title": "GPT Automation with Python API A Simple Guide",
+      "text": "GPT Automation with Python API A Simple Guide to The (New) ChatGPT API with Python .. https://medium.com/geekculture/a-simple-guide-to-chatgpt-api-with-python-c147985ae28 .. https://www.youtube.com/watch?v=XxIfSkkyAaQ https://beebom.com/how-build-own-ai-chatbot-with-chatgpt-api/amp/ Auto-GPT: https://artificialcorner.com/how-to-easily-install-auto-gpt-the-autonomous-gpt-4-everyone-is-talking-about-5a0ee4e1f39e https://platform.openai.com/docs/introduction How to Build Your Own AI Chatbot With ChatGPT API: A Step-by-Step Tutorial: .. https://beebom.com/how-build-own-ai-chatbot-with-chatgpt-api/amp/"
+    },
+    {
+      "index": 34,
+      "title": "LangChain LangChain is a software development framework designed",
+      "text": "LangChain LangChain is a software development framework designed to simplify the creation of applications using large language models .. https://en.wikipedia.org/wiki/LangChain .. https://github.com/hwchase17/langchain .. https://langchain.com .. https://python.langchain.com First released in October 2022 Created by Harrison Chase Written in Python and JavaScript Harrison Chase Co-Founder & CEO Multiple YouTube tutorials"
+    },
+    {
+      "index": 35,
+      "title": "https://github.com/Anil-matcha/ChatPDF https://www.chatpdf.com https://pdf.ai ChatPDF Model reads and parses",
+      "text": "https://github.com/Anil-matcha/ChatPDF https://www.chatpdf.com https://pdf.ai ChatPDF Model reads and parses PDF, and then can summarize, answer your questions, etc."
+    },
+    {
+      "index": 36,
+      "title": "LLM + Vector Database (from REDIS presentation)",
+      "text": "LLM + Vector Database (from REDIS presentation)"
+    },
+    {
+      "index": 37,
+      "title": "Vector Similarity Search",
+      "text": "Vector Similarity Search"
+    },
+    {
+      "index": 38,
+      "title": "Vector Database",
+      "text": "Vector Database"
+    },
+    {
+      "index": 39,
+      "title": "Slide 39",
+      "text": ""
+    },
+    {
+      "index": 40,
+      "title": "Example - search by image",
+      "text": "Example - search by image"
+    },
+    {
+      "index": 41,
+      "title": "At Google",
+      "text": "At Google"
+    },
+    {
+      "index": 42,
+      "title": "Azure OpenAI Top Capabilities and Use Cases",
+      "text": "Azure OpenAI Top Capabilities and Use Cases"
+    },
+    {
+      "index": 43,
+      "title": "Example - Automated Money Machines Just search Google",
+      "text": "Example - Automated Money Machines Just search Google you YouTube for how to make money with ChatGPT Possibilities are endless. You can create and sell products ( books, reviews and summaries, music, plans, contracts, ...) find - and recommend and sell bestsellers, save money on consulting and software, etc. etc."
+    }
+  ],
+  "points": [
+    {
+      "claim": "Presented by Lev Selector May 12, 2023 Generative",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 1,
+      "slideTitle": "Presented by Lev Selector May 12, 2023 Generative",
+      "source": "slide"
+    },
+    {
+      "claim": "Recent Rise of ChatGPT Chat = Chatbot =",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 2,
+      "slideTitle": "Recent Rise of ChatGPT Chat = Chatbot =",
+      "source": "slide"
+    },
+    {
+      "claim": "Classical ML > Predict Generative AI > Create",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 3,
+      "slideTitle": "Classical ML > Predict Generative AI > Create",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT-3.5 and GPT-4 ChatGPT Codex DALL-E 2 Text",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 4,
+      "slideTitle": "GPT-3.5 and GPT-4 ChatGPT Codex DALL-E 2 Text",
+      "source": "slide"
+    },
+    {
+      "claim": "LLMs: Text In => Text Out",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 5,
+      "slideTitle": "LLMs: Text In => Text Out",
+      "source": "slide"
+    },
+    {
+      "claim": "Nowadays Models Live in Clouds Modern Foundation Models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 6,
+      "slideTitle": "Nowadays Models Live in Clouds Modern Foundation Models",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT-3 (released in 2020) was the largest non-sparse",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 7,
+      "slideTitle": "GPT-3 (released in 2020) was the largest non-sparse",
+      "source": "slide"
+    },
+    {
+      "claim": "In 2018 Microsoft has spent 100s of millions",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 8,
+      "slideTitle": "In 2018 Microsoft has spent 100s of millions",
+      "source": "slide"
+    },
+    {
+      "claim": "Ian Goodfellow History of Generative Models Both Detective",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 9,
+      "slideTitle": "Ian Goodfellow History of Generative Models Both Detective",
+      "source": "slide"
+    },
+    {
+      "claim": "Naive Bayes Classifiers - simple classification models. Hidden",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 10,
+      "slideTitle": "Naive Bayes Classifiers - simple classification models. Hidden",
+      "source": "slide"
+    },
+    {
+      "claim": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 11,
+      "slideTitle": "Google GNMT (2016, Google Neural Machine Translation). \"Google’s",
+      "source": "slide"
+    },
+    {
+      "claim": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UH6yEemZ7dY",
+      "slideIndex": 12,
+      "slideTitle": "From Word2Vec to Attention Attention Mechanism (2016-2017) Words",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "id": "2023-10-11-2023-10-11-ln-vector-search-is-not-enough",
+  "date": "2023-10-11",
+  "title": "LN-Vector-Search-Is-Not-Enough",
+  "series": "seminar",
+  "topics": [
+    "agents",
+    "openai",
+    "rag"
+  ],
+  "video": {
+    "id": "Og5tWdvItcw",
+    "title": "AI Updates - October 13, 2023 - LLM Mistral, OpenOrca, Inflection.AI, AutoGen, Fine-Tuning, QLoRa",
+    "url": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+    "thumbnail": "https://i.ytimg.com/vi/Og5tWdvItcw/hqdefault.jpg",
+    "duration": 1538
+  },
+  "deck": {
+    "path": "2023/2023-10-11-LN-Vector-Search-Is-Not-Enough.pptx",
+    "filename": "2023-10-11-LN-Vector-Search-Is-Not-Enough.pptx",
+    "title": "LN-Vector-Search-Is-Not-Enough",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-11-LN-Vector-Search-Is-Not-Enough.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-11-LN-Vector-Search-Is-Not-Enough.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-2d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Vector Similarity Search is Not Enough",
+      "text": "Vector Similarity Search is Not Enough"
+    },
+    {
+      "index": 2,
+      "title": "RAG = Retrieval Augmented Generation The idea is",
+      "text": "RAG = Retrieval Augmented Generation The idea is to enable a LLM to use external data. RAG = Retrieval Augmented Generation Examples of using external data: ChatGPT or Bard or Bing use web search to retrieve recent relevant information LLM uses local SQL DB search or vector DB search (similarity search) LLM uses APIs for relevant systems to do the search ... Question Answer LLM Agents Get Data"
+    },
+    {
+      "index": 3,
+      "title": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "text": "RAG = Retrieval Augmented Generation Docs Chunks Embedding vectors Vector DB Embedding vector Relevant chunks Query augmented with relevant data LLM Similarity search Answer Search Query"
+    },
+    {
+      "index": 4,
+      "title": "RAG - Vector Similarity Search is N ot",
+      "text": "RAG - Vector Similarity Search is N ot Enough Embeddings fail to capture the inferential link Q -> A when Q and A vectors are not similar One text passage may contain several ideas . If encoded into a single vector, i t is impossible to distinguish relevant sections from irrelevant ones. Some questions demand synthesizing facts spread across multiple documents. Vector search can NOT do such multi-vector hop reasoning. Ways to improve: add metadata, add summaries & tags (use LLM to create them) add relationships between vectors based on topics, vector similarity, structural (connections between sections, pages, documents), temporal ( events linked chronologically), links (references) between passages"
+    },
+    {
+      "index": 5,
+      "title": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "text": "RAG = Retrieval Augmented Generation Docs Chunks Embedding vectors Vector DB Embedding vector Relevant chunks Query augmented with relevant data (up to 50pages) LLM Similarity search, re-ranking Answer Search Query, tags, metadata Splitting with overlap Encoding metadata summaries, tags, references"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Vector Similarity Search is Not Enough",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 1,
+      "slideTitle": "Vector Similarity Search is Not Enough",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG = Retrieval Augmented Generation The idea is",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 2,
+      "slideTitle": "RAG = Retrieval Augmented Generation The idea is",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 3,
+      "slideTitle": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG - Vector Similarity Search is N ot",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 4,
+      "slideTitle": "RAG - Vector Similarity Search is N ot",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 5,
+      "slideTitle": "RAG = Retrieval Augmented Generation Docs Chunks Embedding",
+      "source": "slide"
+    }
+  ]
+}

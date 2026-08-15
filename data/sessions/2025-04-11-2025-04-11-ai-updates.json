@@ -1,0 +1,294 @@
+{
+  "id": "2025-04-11-2025-04-11-ai-updates",
+  "date": "2025-04-11",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "infra"
+  ],
+  "video": {
+    "id": "W1wFGFCBa-s",
+    "title": "Have you heard these exciting AI news? - April 11, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+    "thumbnail": "https://i.ytimg.com/vi/W1wFGFCBa-s/hqdefault.jpg",
+    "duration": 1849
+  },
+  "deck": {
+    "path": "2025/2025-04-11-AI-Updates.pptx",
+    "filename": "2025-04-11-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-04-11-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-04-11-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Llama 4",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia Nemotron Ultra",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Google NEXT Event",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ironwood - Google TPU - 7th version",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Llama 4 Nvidia Nemotron Ultra Google NEXT Event",
+      "text": "Llama 4 Nvidia Nemotron Ultra Google NEXT Event Ironwood - Google TPU - 7th version AI Updates April 11, 2025 Crowd-sourced \"Arena\" Leaderboard Tech layoffs Microsoft upgrades Copilot GitHub public MCP server Midjourney version 7 in alpha preview SandboxAQ - quantum-tech startup Deepfake Fraud surged by 3,000% recently LLM Honeypot Genspark’s Super Agent - \"mixture-of-agents\" Light-based chip offers x50 speed, x30 efficiency NVIDIA AgentIQ DeepSeek-GRM  models ODS = Open Deep Search Chinese Universities overtake US Rivals Shopify CEO - Use AI Before Hiring ​Cloudflare AutoRAG OpenAI to release o3 and o4-mini in April Cogito v1 from Deep Cogito DeepCoder-14B - Code Reasoning Model Google paying to stop competitors getting its experts RARE: Retrieval-Augmented Reasoning Modeling Anthropic Max Plan - $100 .. $200/mo Firebase Studio - Google takes on Cursor Mira Murati’s \"Thinking Machines Lab\" startup Google Agent2Agent Open Protocol (A2A) X.AI - Grok API Kimi-VL-A3B - multimodal open-source LM Microsoft VSCode Copilot vs Cursor AI Editor IBM Mainframe for AI Astronautics Day April 12, 1961"
+    },
+    {
+      "index": 2,
+      "title": "Meta Llama 4 Llama 4 - Meta just",
+      "text": "Meta Llama 4 Llama 4 - Meta just released Two out of four models (April 5) open source, multimodal, best in class Lm Arena - Maverick got 2nd place (ELO score 1417) Meta just got a huge jump from 1268 → 1417 !! Knowledge cut-off August 2024 https://www.llama.com/llama4/ https://ai.meta.com/blog/llama-4-multimodal-intelligence/ https://www.instagram.com/zuck/reel/DIE0TmPyORV/ - Mark Zuckerberg video https://huggingface.co/unsloth/Llama-4-Scout-17B-16E-Instruct Llama 4 Scout - MoE (17B active, 16 experts, 109B total ), fits in single NVIDIA H200 GPU (int8) or H100 (int4) 10M context window better than Gemma 3, Gemini 2.0 Flash-Lite, and Mistral 3.1 Llama 4 Maverick - MoE (17B active, 128 experts, 400B total ), multimodal, beating GPT-4o and Gemini 2.0 Flash, comparable with DeepSeek v3 on reasoning and coding - at less than half the active parameters. Fits into a single host computer. Best-in-class performance to cost ratio.  ELO of 1417 on LMArena. Llama 4 Reasoning - will be released in a month Llama 4 Behemoth - MoE (288B active, 16 experts, 2T total ) - teacher model for distillation , outperforms GPT-4.5, Claude Sonnet 3.7, and Gemini 2.0 Pro on several STEM benchmarks. Behemoth is still training, available in preview Download Scout and Maverick on llama.com and Hugging Face. Try in WhatsApp, Messenger, Instagram Direct, and on the web."
+    },
+    {
+      "index": 3,
+      "title": "Meta Llama 4 - continued Meta provides code",
+      "text": "Meta Llama 4 - continued Meta provides code for on-the-fly int4 quantization which minimizes performance degradation The Llama 4 Scout model is released as BF16 weights, but can fit within a single H100 GPU with on-the-fly int4 quantization; The Llama 4 Maverick model is released as both BF16 and FP8 quantized weights. The FP8 quantized weights fit on a single H100 DGX host https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md https://bigcode-bench.github.io Llama 4 on Ollama.ai https://ollama.com/aravhawk/llama4 https://ollama.com/ZimaBlueAI/Llama-4-Scout-17B-16E-Instruct https://ollama.com/ingu627/llama4-scout-q4 https://ollama.com/johanteekens/Llama-4-Scout-17B-16E-Instruct"
+    },
+    {
+      "index": 4,
+      "title": "Meta Llama 4 - on-the-fly quantization Llama 4's",
+      "text": "Meta Llama 4 - on-the-fly quantization Llama 4's on-the-fly INT4 quantization uses INT4 for weights and FP16/INT8 for activations in less sensitive layers , while keeping critical components (e.g., embeddings, attention outputs) in higher precision. It applies int4 to linear layers (in feed-forward networks) - while preserving FP16 for positional embeddings and layer normalization. During inference setup, Llama 4 analyzes input data distributions to adjust scale factors for quantized weights and optimize clipping thresholds for activations using lightweight calibration datasets Results: 56% reduction in memory usage, x2.8 faster, optimized for shorter sequence length MoE layers use INT4 for dormant experts while keeping active experts in FP16. Quantization scales efficiently with long-context chunking. Post-training compression maintains 98% of original model quality achieve 3× throughput gains compared to FP16 inference while supporting deployment on consumer GPUs. The system automatically falls back to higher precision when detecting outlier activations, preventing catastrophic accuracy drops The version of Llama4 Maverick tested on LMArena was specifically \"optimized for conversationality\", it is not the same as what’s available to the public The claimed 10m token context is almost certainly far above what the \"real\" context is when trained with 256k tokens It does very poorly on independent benchmarks like Aider Llama4 was trained on 100K H100 GPUs Cerebras supports Meta’s Llama4 16E, running at 2,611 tok/s"
+    },
+    {
+      "index": 5,
+      "title": "Nvidia Nemotron Ultra Nvidia Llama 3.1 Nemotron Ultra",
+      "text": "Nvidia Nemotron Ultra Nvidia Llama 3.1 Nemotron Ultra 253B released on April 8, 2025 derived from Meta Llama-3.1-405B-Instruct Open Source, accessible for commercial use Better than Llama4 and Deepseek-R1 Runs on an 8x H100 GPU setup with high inference throughput Cost-effective deployment compared to larger models, good for enterprise AI copilots, coding agents, scientific research assistants Toggleable \"Reasoning On/Off\" Neural Architecture Search (NAS) 128Ktokens Context Length https://build.nvidia.com/nvidia/llama-3_1-nemotron-ultra-253b-v1 https://huggingface.co/nvidia/Llama-3_1-Nemotron-Ultra-253B-v1 https://sebastian-petrus.medium.com/nvidias-llama-nemotron-ultra-253b-via-api-b503bf8a0a37"
+    },
+    {
+      "index": 6,
+      "title": "Google NEXT Event Google Cloud Next Event 2025",
+      "text": "Google NEXT Event Google Cloud Next Event 2025 April 9th to April 11th, Las Vegas Focus on AI and Google Cloud: AI, cybersecurity, data insights, and building AI agents New AI Hypercomputer, Gemini Models, Agentic AI, AI-Powered Development, New Google Unified Security, Google Cloud databases, AI capabilities in AlloyDB and MongoDB in Firestore; AI for enhanced data science workflows and querying; AI-optimized networking and secure service networking; security partner ecosystem https://cloud.withgoogle.com/next/25 https://www.youtube.com/watch?v=Md4Fs-Zc3tg - Opening Keynote https://www.youtube.com/watch?v=G9wnpfW6lZY - Agent Dev Kit Google announced Gemini 2.5 Flash Gemini 2.5 Pro is now available in Deep Research"
+    },
+    {
+      "index": 7,
+      "title": "Ironwood - Google TPU - 7th version Ironwood",
+      "text": "Ironwood - Google TPU - 7th version Ironwood - Google new 7th version TPU 4.6K Teraflops. Scales to 9,216 chips per pod (42.5 exaflops total) dwarfing El Capitan‘s 1.7 exaflops - current world’s fastest supercomputer Each chip has 192GB of High Bandwidth Memory (HBM), six times more than Trillium, Google’s previous-generation TPU. Memory bandwidth 7.2 terabits/sec - 4.5 times faster than previous Ironwood delivers x2 times more performance per watt. It is nearly 30 times more power efficient than Google’s first Cloud TPU from 2018. https://blog.google/products/google-cloud/ironwood-tpu-age-of-inference/"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates 1 Microsoft upgrades Copilot with memory,",
+      "text": "AI Updates 1 Microsoft upgrades Copilot with memory, actions, and real-time vision. It can remember conversations and personal details, creat e individual profiles that learn preferences, routines, important info. It can also browse the web and perform actions for you. https://blogs.microsoft.com/blog/2025/04/04/your-ai-companion/ GitHub public MCP server with enhanced UX and full Anthropic compatibility https://github.blog/changelog/2025-04-04-github-mcp-server-public-preview/ Midjourney version 7 in alpha preview It is smarter, better image quality. Has model personalization turned on by default. Has a cheap and fast Draft Mode https://www.midjourney.com/updates/v7-alpha SandboxAQ - quantum-tech startup Spun off from Alphabet, since 2022 Raised additional $150M, valuation to $5.75B, total funding to date $950M"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 2 Deepfake Fraud surged by 3,000%",
+      "text": "AI Updates 2 Deepfake Fraud surged by 3,000% recently , with projected losses reaching a staggering $40 billion by 2027. Time to generate AI image decreased from 30 seconds down to few milliseconds. Today AI can generate life-like video, full voice clones - generating convincing, deceptive deepfakes on the fly. The old age \"seeing is believing\" simply no longer applies. NVIDIA CEO Jensen Huang puts it bluntly: \"Every single pixel will be generated soon. Not rendered: generated.\" Bad actors use Deepfakes for financial fraud and election manipulation. They get remote jobs using false identities and even spoofing video interviews. In one major case, over 300 U.S. companies unknowingly hired North Korean operatives, who funneled millions in wages to fund weapons programs https://regulaforensics.com/blog/impact-of-deepfakes-on-idv-regula-survey/ LLM Honeypot - helps to detect harmful agents by simulating vulnerable servers. It captures and studies malicious attempts, including their prompts and behavioral patterns https://github.com/PalisadeResearch/llm-honeypot"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates 3 Genspark’s Super Agent - \"mixture-of-agents\"",
+      "text": "AI Updates 3 Genspark’s Super Agent - \"mixture-of-agents\" Outperforms Manus AI which uses Claude and 29 tools) Uses 9 LLMs, 80 specialized tools, and proprietary datasets Can do travel planning, voice calling for reservations or inquiries, personalized video creation, professional applications like LinkedIn analysis, advanced research tasks, creation of cooking tutorials and animated content with minimal user input, etc... https://venturebeat.com/ai/gensparks-super-agent-ups-the-ante-in-the-general-ai-agent-race/ Light-based chip offers 50x speed, 30x efficiency over silicon https://interestingengineering.com/innovation/world-first-light-based-chip NVIDIA AgentIQ - Python library to unify agentic workflows Works across frameworks, memory systems, and data sources Ads composability, observability, and reusability With AgentIQ, every agent, tool, and workflow is treated as a function call, allowing developers to mix and match components from different frameworks with minimal overhead https://github.com/NVIDIA/AgentIQ DeepSeek-GRM  models Inference-Time Scaling for Generalist Reward Modeling (GRM) https://arxiv.org/abs/2504.02495 Self-Principled Critique Tuning (SPCT) significantly improves the quality and scalability of GRMs"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates 4 ODS = Open Deep Search",
+      "text": "AI Updates 4 ODS = Open Deep Search Combines Open Search Tool with Open Reasoning Agent Open Reasoning Agent interprets the given task and orchestrates a sequence of actions that includes calling tools, one of which is the Open Search Tool With DeepSeek-R1, ODS nearly matches and sometimes surpasses the existing state-of-the-art baselines (GPT-4o Search Preview) on two benchmarks: SimpleQA and FRAMES https://arxiv.org/abs/2503.20201 Chinese Universities overtake US Rivals Chinese universities have surged ahead of U.S. institutions in AI research output. For example, Peking University has topped the global rankings for AI research output since 2022. Chinese universities are setting new standards in the AI domain. DeepSeek - Chinese AI disruptor - build a powerful AI model at a fraction of the cost and energy consumption compared to its American counterpart, OpenAI’s ChatGPT. This achievement can be largely attributed to the wealth of talent graduating from local universities."
+    },
+    {
+      "index": 12,
+      "title": "AI Updates 5 Shopify CEO Tobi Lütke -",
+      "text": "AI Updates 5 Shopify CEO Tobi Lütke - Use AI Before Hiring He issues AI ultimatum mandating that all employees must effectively integrate artificial intelligence (AI) into their workflows, considering it a fundamental expectation. In a recent internal memo, Lütke emphasized that before requesting additional headcount or resources, teams must demonstrate why AI cannot fulfill the required tasks. AI proficiency will be incorporated into performance and peer reviews, underscoring its growing importance in daily operations https://www.cnbc.com/2025/04/07/shopify-ceo-prove-ai-cant-do-jobs-before-asking-for-more-headcount.html ​ Cloudflare AutoRAG It is a fully managed Retrieval-Augmented Generation (RAG) pipeline It handles data ingestion, chunking, embedding, vector storage, and response generation It continuously monitors data sources, ensuring AI responses remain accurate and up-to-date without manual intervention. Developers can set up AutoRAG with minimal effort, allowing them to focus on creating smarter applications using Cloudflare's developer platform https://developers.cloudflare.com/autorag/"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates 6 OpenAI to release o3 and",
+      "text": "AI Updates 6 OpenAI to release o3 and o4-mini in April Followed by GPT-5 in a few months. They changed their plans because of the success of Google's Gemini 2.5 Pro which is beating OpenAI models on the leaderboards. All thinking models don't work very well on complex real-world coding tasks and don't do well at tool use. This is why people still prefer to use Sonnet. So having good base model is still the key. Cogito v1 from Deep Cogito Cogito v1 is a new family of open source LLMs by Deep Cogito, a San Francisco research startup The models are fine-tuned from Meta’s Llama 3.2 Number of parameters: from 3B to 70B The models have hybrid reasoning capabilities - the ability to answer quickly and immediately, or \"self-reflect\" like OpenAI’s \"o\" series and DeepSeek R1. Available on Hugging Face, Ollama, Fireworks AI, and Together AI"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates 7 DeepCoder-14B - Code Reasoning Model",
+      "text": "AI Updates 7 DeepCoder-14B - Code Reasoning Model Open source, on o3-mini level Agentica team + Together AI Fine-tuned from Deepseek-R1-Distilled-Qwen-14B via distributed RL Achieves an impressive 60.6% Pass@1 accuracy on LiveCodeBench (+8% improvement), matching the performance of o3-mini-2025-01-031 & o1-2024-12-17 with just 14B params https://www.together.ai/blog/deepcoder Google paying to stop competitors getting its experts Google Is Reportedly Paying Its AI Staff A Whole Year’s Income For Doing Absolutely Nothing Instead Of Letting The Workforce Jump Ship To The Competition https://wccftech.com/google-paying-ai-workers-a-year-salary-for-doing-nothing/ Non-compete clauses in their contracts for as long as a year to prevent their employees from switching their careers to a competitor. However, the Mountain View behemoth throws in a massive sweetener because of the heated rivalry in the AI space, with a new report claiming that based on several factors, the workforce hailing from DeepMind can make as much as a whole year’s salary while doing nothing."
+    },
+    {
+      "index": 15,
+      "title": "AI Updates 8 RARE: Retrieval-Augmented Reasoning Modeling https://arxiv.org/abs/2503.23513",
+      "text": "AI Updates 8 RARE: Retrieval-Augmented Reasoning Modeling https://arxiv.org/abs/2503.23513 RARE extends RAG's retrieval-based approach by adding layers of reasoning optimization and factual scoring, making it more suitable for complex problem-solving tasks Empirical results show that lightweight models trained with RARE outperform larger models like GPT-4 on medical benchmarks Anthropic \"Max\" Plan - $100 .. $200/mo https://techcrunch.com/2025/04/09/anthropic-rolls-out-a-200-per-month-claude-subscription/ S imilar to OpenAI’s $200/month ChatGPT Pro tier Anthropic Max comes with higher usage limits and priority access to new features $100/month - 5x higher rate limits $200/month - 20x higher rate limits Firebase Studio - Google takes on Cursor Cloud based AI-powered IDE. Build full-stack apps using natural language prompts and images Supports a wide range of languages and frameworks including React, Next.js, Angular, Flutter, and more Requires Gemini API key Mira Murati’s \"Thinking Machines Lab\" is in talks to receive a $2B at $10B Valuation While the company has yet to unveil a product, it has quietly assembled a high-powered founding team—reportedly including key OpenAI veterans like Bob McGrew, Alec Radford, and John Schulman."
+    },
+    {
+      "index": 16,
+      "title": "AI Updates 9 Google Agent2Agent Open Protocol (A2A)",
+      "text": "AI Updates 9 Google Agent2Agent Open Protocol (A2A) Complements Anthropic's Model Context Protocol (MCP) Open protocol with support from 50+ technology partners like Atlassian, Box, Cohere, Intuit, Langchain, MongoDB, PayPal, Salesforce, SAP, ServiceNow, UKG and Workday; and leading service providers including Accenture, BCG, Capgemini, Cognizant, Deloitte, HCLTech, Infosys, KPMG, McKinsey, PwC, TCS, and Wipro. The A2A protocol will allow AI agents to communicate with each other, securely exchange information, and coordinate actions on top of various enterprise platforms or applications https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/ X.AI - Grok API Price (in/out $/Mln) Grok 3      : 3   / 15 Grok 3 mini : 0.3 /  0.5 https://docs.x.ai/docs/models#models-and-pricing Kimi-VL-A3B - multimodal open-source LM from Moonshot AI, 128K context outperforming GPT4o on vision + math benchmarks available on Hugging Face https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking"
+    },
+    {
+      "index": 17,
+      "title": "Cursor vs Copilot vs Windsurf Microsoft Blocked Cursor",
+      "text": "Cursor vs Copilot vs Windsurf Microsoft Blocked Cursor from Using Its C++ VSCode Extension (and other extensions) . Users of Cursor (a VS Code fork) are getting error messages stating that Microsoft's C++ extension (and other extensions) can only be used within official Microsoft products. According to the VS Code Marketplace Terms of Use, you may only install and use Marketplace Offerings with Visual Studio Products and Services. So any product like Cursor was not allowed to use those extensions in the first place. Microsoft has updated their policies in January 2025. This restriction helps Microsoft to deal with support burden (from forks like Cursor). In the future fork developers will increasingly use Open VSX marketplace instead of Microsoft VSCode marketplace. Open alternatives to Microsoft's proprietary extensions will develop. Microsoft transformed Copilot from a simple extension into a feature integrated into VSCode. So now VSCode has native AI functionality rivaling Cursor's main offering https://www.youtube.com/watch?v=vEQ07-p8ZDE https://tomaszs2.medium.com/microsoft-quietly-blocked-cursor-from-using-its-vscode-extension-heres-the-line-of-code-that-8d664caf0de5 https://www.reddit.com/r/programming/comments/1jrl2zw/microsoft_has_released_their_own_agent_mode_so/?rdt=55854 Cursor AI is valued at $9.6B Codeium (now known as Windsurf) is in talks to raise funding at a $2.85B valuation"
+    },
+    {
+      "index": 18,
+      "title": "IBM Mainframe for AI IBM z17 Mainframe Up",
+      "text": "IBM Mainframe for AI IBM z17 Mainframe Up to 26 IBM Telum II processors, each 8 cores 64 TB memory Up to 96 IBM Spyre AI accelerator chips, each up to 1TB memory Fully encrypted mainframe z17 vs z16: 50% higher performance, more energy efficient, AI acceleration increased x5 times Mainframes are used by 71% of Fortune 500 companies today z17 can run 100B model on single Spyre AI accelerator. Running full 671B Deepseek-R1 would require running several accelerators in parallel - which was not demonstrated yet."
+    },
+    {
+      "index": 19,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard https://openlm.ai/chatbot-arena/ English-only queries Total #models: 223 Total #votes: 2,854,133 Last updated: 2025-04-09 Coding China China China China China China x.ai x.ai China China China China DeepCoder-14B China \"Llama-4-Maverick-03-26-Experimental\" which got 2nd place with ELO score 1,417, was removed because this variant was specifically optimized to appeal to human voters. It was substituted by \"Llama-4-Maverick-17B-128E-Instruct\" , which got much lower score 1,273 (32nd place). China China China"
+    },
+    {
+      "index": 20,
+      "title": "Tech layoffs The Tech Layoff Tracker (as of",
+      "text": "Tech layoffs The Tech Layoff Tracker (as of April 10, 2025) https://www.trueup.io/layoffs Workers laid off: 2025 --  45,503 so far (455 per day) 2024 -- 238,461        (653 per day) 2023 -- 430,000 2022 -- 244,000 There were several key factors that contributed to the massive tech layoffs in 2023: Correction after pandemic over-hiring Rising interest rates - the Federal Reserve significantly increased interest rates throughout 2022 and 2023 to combat inflation. This made capital more expensive and put pressure on tech companies to reduce costs Economic uncertainty - fears of recession and slower economic growth made investors more risk-averse, pushing tech companies to focus on profitability rather than growth AI investments - some companies were pivoting resources toward artificial intelligence, leading to restructuring and layoffs in other departments"
+    },
+    {
+      "index": 21,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Llama 4",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 1,
+      "slideTitle": "Llama 4 Nvidia Nemotron Ultra Google NEXT Event",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia Nemotron Ultra",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates 1 Microsoft upgrades Copilot with memory,",
+      "source": "outline"
+    },
+    {
+      "claim": "Google NEXT Event",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates 8 RARE: Retrieval-Augmented Reasoning Modeling https://arxiv.org/abs/2503.23513",
+      "source": "outline"
+    },
+    {
+      "claim": "Ironwood - Google TPU - 7th version",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 22,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta Llama 4 Llama 4 - Meta just",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 2,
+      "slideTitle": "Meta Llama 4 Llama 4 - Meta just",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta Llama 4 - continued Meta provides code",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 3,
+      "slideTitle": "Meta Llama 4 - continued Meta provides code",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta Llama 4 - on-the-fly quantization Llama 4's",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 4,
+      "slideTitle": "Meta Llama 4 - on-the-fly quantization Llama 4's",
+      "source": "slide"
+    },
+    {
+      "claim": "Nvidia Nemotron Ultra Nvidia Llama 3.1 Nemotron Ultra",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 5,
+      "slideTitle": "Nvidia Nemotron Ultra Nvidia Llama 3.1 Nemotron Ultra",
+      "source": "slide"
+    },
+    {
+      "claim": "Google NEXT Event Google Cloud Next Event 2025",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 6,
+      "slideTitle": "Google NEXT Event Google Cloud Next Event 2025",
+      "source": "slide"
+    },
+    {
+      "claim": "Ironwood - Google TPU - 7th version Ironwood",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 7,
+      "slideTitle": "Ironwood - Google TPU - 7th version Ironwood",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 Deepfake Fraud surged by 3,000%",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 2 Deepfake Fraud surged by 3,000%",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 3 Genspark’s Super Agent - \"mixture-of-agents\"",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates 3 Genspark’s Super Agent - \"mixture-of-agents\"",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 4 ODS = Open Deep Search",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 4 ODS = Open Deep Search",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 5 Shopify CEO Tobi Lütke -",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=W1wFGFCBa-s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates 5 Shopify CEO Tobi Lütke -",
+      "source": "slide"
+    }
+  ]
+}

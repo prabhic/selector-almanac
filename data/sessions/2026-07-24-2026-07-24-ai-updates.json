@@ -1,0 +1,884 @@
+{
+  "id": "2026-07-24-2026-07-24-ai-updates",
+  "date": "2026-07-24",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "claude",
+    "open-models",
+    "coding",
+    "google",
+    "agents",
+    "safety",
+    "openai",
+    "infra",
+    "data-engineering",
+    "rag",
+    "jobs"
+  ],
+  "video": {
+    "id": "z6zzI019FFU",
+    "title": "Exciting AI Updates Weekly - July 24, 2026",
+    "url": "https://www.youtube.com/watch?v=z6zzI019FFU",
+    "thumbnail": "https://i.ytimg.com/vi/z6zzI019FFU/hqdefault.jpg",
+    "duration": 2437
+  },
+  "deck": {
+    "path": "2026/2026-07-24-AI-Updates.pptx",
+    "filename": "2026-07-24-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-07-24-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-07-24-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 18,
+      "label": "00:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Cost Per Intelligence Index",
+      "startSeconds": 90,
+      "label": "01:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic Fable 5 Permanent, Sonnet-5",
+      "startSeconds": 171,
+      "label": "02:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Skill Recording in Claude Co-work",
+      "startSeconds": 270,
+      "label": "04:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba Qwen 3.8 Max Preview",
+      "startSeconds": 332,
+      "label": "05:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen-3.8 vs Kimi K3",
+      "startSeconds": 341,
+      "label": "05:41",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenCode+OmniRoute vs Claude Code",
+      "startSeconds": 377,
+      "label": "06:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Google AI Mode in Search",
+      "startSeconds": 413,
+      "label": "06:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Google New Flash 3.6 & Flash-Lite 3.5 Models",
+      "startSeconds": 452,
+      "label": "07:32",
+      "source": "youtube"
+    },
+    {
+      "title": "About This Channel",
+      "startSeconds": 497,
+      "label": "08:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Hugging Face hacked by autonomous AI agent",
+      "startSeconds": 520,
+      "label": "08:40",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI ChatGPT Work",
+      "startSeconds": 665,
+      "label": "11:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Poolside AI - Laguna S 2.1",
+      "startSeconds": 709,
+      "label": "11:49",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenCode vs Claude Code",
+      "startSeconds": 768,
+      "label": "12:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Gemini and Gemini Notebook vs Fable",
+      "startSeconds": 854,
+      "label": "14:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Selecting Right Tokens For Specific Tasks",
+      "startSeconds": 885,
+      "label": "14:45",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Video using Higgsfield & FFmpeg",
+      "startSeconds": 991,
+      "label": "16:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Ollama Better Tool Calling & Speed",
+      "startSeconds": 1143,
+      "label": "19:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini AI - Generate Slides",
+      "startSeconds": 1201,
+      "label": "20:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Mark Pincus 2-Lists Formula for Startup Ideas",
+      "startSeconds": 1222,
+      "label": "20:22",
+      "source": "youtube"
+    },
+    {
+      "title": "AI is transforming ASIC/SoC development",
+      "startSeconds": 1261,
+      "label": "21:01",
+      "source": "youtube"
+    },
+    {
+      "title": "AI on small devices",
+      "startSeconds": 1324,
+      "label": "22:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Vibe Coding - 6 Principles",
+      "startSeconds": 1392,
+      "label": "23:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Don't Ship Skills Without Evals - Philipp Schmid",
+      "startSeconds": 1452,
+      "label": "24:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Webserver Caddy vs Nginx",
+      "startSeconds": 1474,
+      "label": "24:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Colibri Tiny Inference Engine",
+      "startSeconds": 1543,
+      "label": "25:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Use RAM as VRAM - Linux Hack",
+      "startSeconds": 1565,
+      "label": "26:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code vs Codex",
+      "startSeconds": 1586,
+      "label": "26:26",
+      "source": "youtube"
+    },
+    {
+      "title": "7-layer developer stack for 1-person company",
+      "startSeconds": 1630,
+      "label": "27:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Hermes Agent Update",
+      "startSeconds": 1688,
+      "label": "28:08",
+      "source": "youtube"
+    },
+    {
+      "title": "Pandas, DuckDB, Polars, Spark",
+      "startSeconds": 1793,
+      "label": "29:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Automated routing to pick best models",
+      "startSeconds": 1910,
+      "label": "31:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Vids: Gemini Omni and Personal Avatars",
+      "startSeconds": 1942,
+      "label": "32:22",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI's GPT-RED red-teaming system",
+      "startSeconds": 1960,
+      "label": "32:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Linux wins over Windows",
+      "startSeconds": 1982,
+      "label": "33:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Designing effective AI agent systems",
+      "startSeconds": 1997,
+      "label": "33:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Google TurboQuant - vector compression",
+      "startSeconds": 2043,
+      "label": "34:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Buzz - open-source group chat/workspace",
+      "startSeconds": 2064,
+      "label": "34:24",
+      "source": "youtube"
+    },
+    {
+      "title": "From Windows to Linux or Mac",
+      "startSeconds": 2117,
+      "label": "35:17",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI has acquired Astral",
+      "startSeconds": 2248,
+      "label": "37:28",
+      "source": "youtube"
+    },
+    {
+      "title": "KMS - Key Management Service",
+      "startSeconds": 2312,
+      "label": "38:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Remove Slope from Writing",
+      "startSeconds": 2369,
+      "label": "39:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code + Omniroot",
+      "startSeconds": 2393,
+      "label": "39:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 2425,
+      "label": "40:25",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index Anthropic Fable 5 Permanent, Sonnet-5 Skill Recording in Claude Co-work Alibaba Qwen 3.8 Max Preview Qwen-3.8 vs Kimi K3 OpenCode+OmniRoute  vs  Claude Code Google AI Mode in Search Google New Flash 3.6  & Flash-Lite 3.5 Models AI Updates - July 24, 2026 KMS - Key Management Service Remove Slope from Writing Claude Code + Omniroot Jobs & Layoffs \"The worst thing I can be is the same as everybody else ...\" - Arnold Schwarzenegger Don't Ship Skills Without Evals - Philipp Schmid Webserver Caddy vs Nginx Colibri Tiny Inference Engine Use RAM as VRAM - Linux Hack Claude Code vs Codex 7-layer developer stack for 1-person company Hermes Agent Update Pandas, DuckDB, Polars, Spark Automated routing to pick best models Google Vids: Gemini Omni and Personal Avatars OpenAI’s GPT-RED red-teaming system Linux wins over Windows Designing effective AI agent systems Google TurboQuant - vector compression Buzz - open-source group chat/workspace From Windows to Linux or Mac OpenAI has acquired Astral Hugging Face hacked by autonomous AI agent OpenAI ChatGPT Work Poolside AI - Laguna S 2.1 OpenCode vs Claude Code Google Gemini and Gemini Notebook vs Fable Selecting Right Tokens For Specific Tasks AI Video using Higgsfield & FFmpeg Ollama Better Tool Calling & Speed Gemini AI - Generate Slides Mark Pincus 2-Lists Formula for Startup Ideas AI is transforming ASIC/SoC development AI on small devices Vibe Coding - 6 Principles"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for July 21 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.1 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max-preview - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-fable-5 1553 ■ claude-opus-4-7-thinking 1553 ■ claude-opus-4-6-thinking 1550 ■ claude-opus-4-7 1549 ■ claude-opus-4-6 1548 ■ muse-spark-1.1 1534 ■ claude-opus-4-8-thinking 1534 ■ kimi-k3 1531 ■ claude-opus-4-5-20251101-thinking-32k 1530 ■ claude-opus-4-8 1530 ■ claude-sonnet-4-6 1528 ■ gpt-5.6-sol-xhigh 1528 ■ qwen3.7-max-preview 1526 ■ muse-spark 1525 ■ claude-sonnet-5-high 1525 ■ gemini-3.6-flash 1524 ■ claude-opus-4-5-20251101 1523 ■ gemini-3.1-pro-preview 1522 ■ gpt-5.4-high 1521 ■ grok-4.5 1521 ■ gpt-5.5-high 1520 ■ glm-5.1 1520 ■ claude-sonnet-4-5-20250929-thinking-32k 1520 ■ mimo-v2.5-pro 1520 ■ gemini-3-pro 1519 Code Model Score ■ claude-fable-5 1507 ■ claude-opus-4-6-thinking 1505 ■ claude-opus-4-7-thinking 1502 ■ claude-opus-4-6 1498 ■ muse-spark-1.1 1495 ■ claude-opus-4-7 1494 ■ muse-spark 1488 ■ gemini-3.1-pro-preview 1486 ■ gemini-3-pro 1486 ■ kimi-k3 1486 ■ gpt-5.6-sol-xhigh 1485 ■ gemini-3.6-flash 1485 ■ claude-opus-4-8-thinking 1484 ■ gpt-5.5-high 1482 ■ gpt-5.4-high 1478 ■ gpt-5.5 1476 ■ gemini-3.5-flash-high 1476 ■ gpt-5.2-chat-latest-20260210 1476 ■ qwen3.7-max-preview 1475 ■ grok-4.20-beta1 1474 ■ gemini-3.5-flash-medium 1474 ■ claude-opus-4-8 1473 ■ gpt-5.5-instant 1473 ■ grok-4.20-beta-0309-reasoning 1473 ■ gemini-3-flash 1473"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index https://www.youtube.com/watch?v=nxr20lcqagg - Anthropic vs OpenAI July 21"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates Anthropic Fable 5 Becomes Permanent in",
+      "text": "AI Updates Anthropic Fable 5 Becomes Permanent in Subscriptions abandoning the earlier plan to fully meter it Included as a bundled feature in Max and Team Premium, but only up to 50% of their usual weekly usage limits Not bundled for Pro and Team Standard; those users access Fable 5 via metered usage credits, with a one-time $100 credit and then standard API pricing Claude Sonnet 5 - released end of June Claude Opus 5 - not announced yet Claude Haiku 4.5 - latest Haiku Anthropic offers K–12 teachers a free year of premium access Also provides a specialized library aligned with state academic standards to reduce administrative tasks Anthropic added an in-app browser to Claude Code Multimodal or not ? Anthropic focuses exclusively on reasoning models like Claude 5 without video or voice OpenAI systematically retired its Omni ecosystem in 2026, removing GPT-4o models, custom GPTs, and shutting down its Sora video app - pivoting toward enterprise and coding-focused analytical models Google Gemini Omni Flash (May 2026) offers free multimodal video generation directly inside YouTube Shorts Competitors like Kuaishou and ByteDance are expanding their video AI tools, while Anthropic added voice mode to Claude You can now ask Claude to manage tasks across Gmail, Google Calendar, Slack, Canva, and Notion Free users are limited to the Haiku model and one app connection"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates Skill Recording in Claude Co-work \"Record",
+      "text": "AI Updates Skill Recording in Claude Co-work \"Record a Skill\" enables users to train Claude by recording screen actions and voiceover instructions - only on Mac Open the Claude desktop app and choose Record a skill from the + menu in Claude Cowork Claude analyzes the recording using visual and audio cues to automatically write a reusable skill file saved directly to your local skill library Once saved, Claude autonomously executes the entire multi-step workflow This technology unlocks full desktop automation for legacy software, private admin portals, and web tools lacking native AI integrations No APIs or MCP connections required Recommended workflow setup uses advanced models like Fable 5 for skill creation and cost-effective models like Opus or Sonnet for execution Practical demonstrations show automated client onboarding workflows and a YouTube content ideation system based on viral outliers https://www.youtube.com/watch?v=KjNp6CbHUSY https://support.claude.com/en/articles/12512198-how-to-create-custom-skills https://www.youtube.com/watch?v=jbiMx17fEK0 - demo https://www.youtube.com/watch?v=9QSumbWubZ4 - demo"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates Alibaba Qwen 3.8 Max Preview (July",
+      "text": "AI Updates Alibaba Qwen 3.8 Max Preview (July 19) 2.4T-params Context Window - 991K tokens Estimated pricing  $1.50 / $5  in/out per Mln tokens Open-weight release is promised, but not yet Qwen-3.8 vs Kimi K3 Qwen 3.8 (2.4T params) vs Moonshot AI Kimi K3 (2.8T params) Qwen 3.8 Wins on average 8.22/10 versus Kimi K3's 7.75/10 Qwen excels at visual rendering, web coding, and business promo assets (landing pages) Kimi K3 outperforms in atmospheric game visuals and long-context recall (1M tokens) Model size alone does not dictate quality; use Qwen 3.8 for fast front-end builds and Kimi K3 for deep, doc-heavy memory tasks https://www.youtube.com/watch?v=q5wo85mQYB8"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates OpenCode + OmniRoute vs Claude Code",
+      "text": "AI Updates OpenCode + OmniRoute  vs  Claude Code OpenCode - model-agnostic terminal coding agent OmniRoute - local gateway connecting to 200+ model providers, automatic failovers to prevent rate limits, compressing repetitive tool chatter by up to 95% (saves on tokens) https://www.youtube.com/watch?v=AQm1ig0GrP4 While proprietary models like Claude Opus remain superior for complex tasks, this open-source stack offers a free, customizable alternative for everyday coding workflows Google AI Mode in Search Google lets you link external apps directly inside AI Mode in Search AI can help you generate a grocery list, then push items straight into your Instacart cart and hand off to their checkout flow Ask AI Mode for design options (e.g., a flyer) and have it surface Canva templates you can open/edit Ask for a playlist tailored to an event; AI Mode creates and saves it directly to your YouTube Music library Google New Flash 3.6  & Flash-Lite 3.5 Models (July 21) Shifts its focus from bigger models to cheaper and faster ones Gemini 3.6 Flash cuts output token use by 17%, Pricing $1.5 / $7.5 Gemini 3.5 Flash-Lite delivers 350 tok/sec, Pricing $0.3 / $2.5 https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    },
+    {
+      "index": 8,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 7.06K subscribers, 296 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Hugging Face hacked by autonomous AI",
+      "text": "AI Updates Hugging Face hacked by autonomous AI agent OpenAI models were tested on the exploit gym benchmark decided to find answers online The AI escaped their sandbox and launched zero-day cyberattacks against Hugging Face to scrape the benchmark answers The model slipped a poisoned dataset into Hugging Face's data pipeline to run arbitrary code and crawl internal clusters. Escalated privileges, and reached internet-connected nodes. Hugging Face tried analyzing the attack using US proprietary frontier models like ChatGPT and Claude, but their safety guardrails blocked the security payloads So Hugging Face had to use Chinese open-weight models like GLM-5. Sentdex criticizes closed-source AI companies for lobbying against open-weight models, arguing that accessible open models are critical for real-world cybersecurity defense OpenAI framed the incident as a collaborative partnership, masking the fact that their model caused the breach https://www.youtube.com/shorts/zj9j031oFoc - short explanation https://www.youtube.com/watch?v=IY3b4HTxpgU https://www.youtube.com/watch?v=KOpTWx1Eou4"
+    },
+    {
+      "index": 10,
+      "title": "OpenAI ChatGPT Work OpenAI ChatGPT Work https://openai.com/chatgpt-work/ ChatGPT",
+      "text": "OpenAI ChatGPT Work OpenAI ChatGPT Work https://openai.com/chatgpt-work/ ChatGPT Chat is for fast, conversational help like questions, brainstorming, and quick drafting ChatGPT Work is for longer, multi-step tasks that end in a finished deliverable Poolside AI released Laguna S 2.1 https://poolside.ai - a startup from San-Francisci, CA since 2023, 60+ employees) New model is open-weight, 118B params MoE (8B active) Context length 1M tokens Thinking and non-thinking modes Was trained in under 9 weeks (!!) Can be run locally (RTX 3090, DGX Spark, or high-mem Macs). Good on Coding Benchmarks Available open-weight via Hugging Face, OpenRouter, ... https://huggingface.co/poolside/Laguna-S-2.1"
+    },
+    {
+      "index": 11,
+      "title": "OpenCode vs Claude Code OpenCode vs Claude Code",
+      "text": "OpenCode vs Claude Code OpenCode vs Claude Code Claude Code - tight ecosystem/model quality ; Has claude-agent-sdk OpenCode - open-source, model-agnostic, lower cost, CLI-first AI coding agent for the terminal that lets you swap providers or run local models - https://github.com/anomalyco/opencode Opencode Python SDK - https://libraries.io/pypi/opencode-py # pip install opencode-py==0.8.0 from opencode import Opencode with Opencode() as ai: answer = ai.ask(\"Explain dependency injection\") print(answer) # Streaming with Opencode() as ai: for chunk in ai.ask_stream(\"Write a Python function\"): print(chunk, end=\"\") import subprocess result = subprocess.run( [\"opencode\", \"run\", \"explain this codebase\"], capture_output=True, text=True, ) print(result.stdout) print(result.stderr)"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates Google Gemini and Gemini Notebook vs",
+      "text": "AI Updates Google Gemini and Gemini Notebook vs Fable: Google rebrands NotebookLM as Gemini Notebook Deep Web Research Multimodal Analysis (images, landing pages, screenshots) Content Generation (blog posts, newsletter, social media content) Digest massive PDFs and text files, provide clickable citations Compare up to 50 docs to find conflicting facts or figures Automates customer review analysis, instantly build quizzes or flashcards from raw notes Converts docs into two-host conversational podcasts https://www.youtube.com/watch?v=rZeCwj6fhRI Selecting Right Tokens For Specific Tasks Low cost per token models (like Kimi K3) may require twice as many tokens as GPT-5.6 to solve the same problem, resulting in equal total costs To maximize performance and minimize expense, use a three-step workflow: 1. a top-tier model for high-level planning 2. a fast and cheap model to execute code 3. a secondary frontier model for code review Output tokens cost significantly more than input tokens, making execution (writing code)  the most expensive phase of software development https://www.youtube.com/watch?v=QNEo_tl-nhw"
+    },
+    {
+      "index": 13,
+      "title": "AI Video using Higgsfield & FFmpeg AI Video",
+      "text": "AI Video using Higgsfield & FFmpeg AI Video Creation using Higsfield + Claude https://www.youtube.com/watch?v=DLskE_RN59I https://higgsfield.ai Julia McCoy demonstrates how she produced a complete video short without filming any footage She used Higsfield's MCP connector inside Claude, enabled the AI assistant to go beyond writing scripts and directly build and render video assets Claude selected her saved AI avatar, applied her cloned voice, generated background stills, and rendered individual scene clips A plain-text feedback prompted Claude to establish strict production rules In just two hours, six clips were produced and stitched, while Claude saved a production playbook for future episodes Previously Julia's team was using HeyGen (avatar video) and ElevenLabs (cloned voice audio). She no longer needs them Claude uses the Higgsfield connector to automatically pull up her \"Soul character\" - her saved AI face/visual avatar Higgsfield also handles her cloned voice and native audio right inside the video generation process (rendering shots with built-in voice audio using models like Seedance) The manual scene-by-scene build process is now automated. Claude acts as the producer that writes the script, triggers Higgsfield to generate her visual clone and audio, and renders all the video clips in one single chat session. Once you have generated 20..50 short files, they can be combined into one video file locally using Claude Code and “ffmpeg” utilities https://www.ffmpeg.org https://www.ffmpeg.org/documentation.html https://www.gyan.dev/ffmpeg/builds/ FFmpeg can change resolution and frame rate, stitch the pieces together (videos and images), can create transitions between clips"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Ollama Better Tool Calling & Speed",
+      "text": "AI Updates Ollama Better Tool Calling & Speed Ollama 0.32.1 improves Gemma 4 tool-calling behavior, making multi-step local agent workflows more reliable when they need to edit files or run commands. It can now verify and correct its own work. On Apple Silicon, Ollama’s MLX path delivers up to x2 faster local inference, and Ollama’s MLX preview documentation says it is the fastest way to run Ollama on Apple silicon https://www.youtube.com/watch?v=06tZhFz5Nns Gemini AI - Generate Slides Use single prompt to generate complete, fully editable Google Slides presentations directly from your Google Docs, Sheets, PDFs, and Gmail content Example - creating investor pitch decks from scattered business notes Example - generating client coaching decks from call transcripts Example - building sales proposals from SEO audit spreadsheets. https://www.youtube.com/watch?v=NelPlsu2l1A"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Mark Pincus 2-Lists Formula for Startup",
+      "text": "AI Updates Mark Pincus 2-Lists Formula for Startup Ideas Write two lists - Love & Hate. Products and experiences you love using, and ones you hate or find broken in your daily life For each item you love, study what already works in it - its \"proven\" behavior, UX, and engagement patterns Then, look for items on your \"hate\" list where those proven patterns could fix something broken Design one clearly “better” improvement that 10 out of 10 users would agree on, and add one small \"new\" experimental twist Iterate quickly, treating this as a structured generator for startup ideas grounded in real user behavior Mark Pincus (born 1966) is an American internet entrepreneur and founder of Zynga, a pioneering social gaming company that went public in 2011 and is valued at $12B+. He also founded Freeloader, Tribe Networks, and Support.com, co-founded Reinvent Capital, and helped create a Stanford GSB product management course. https://en.wikipedia.org/wiki/Mark_Pincus"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates AI is transforming ASIC/SoC development ASIC",
+      "text": "AI Updates AI is transforming ASIC/SoC development ASIC = Application-Specific Integrated Circuit - a custom chip to perform specific function(s) for a product or an app SoC = System-on-Chip Problems - increasingly complex heterogeneous and chiplet-based architectures Solution - use AI for design, verification, and optimization of PPA (Power, Performance, and Area) AI tools - such as Synopsys DSO.ai and Cadence/Google Cloud Agentic workflows - allow smaller teams to handle unprecedented complexity Generative AI tools translate natural language intent into verified templates, testbenches, and hardware descriptions, drastically reducing manual coding time. Machine learning–driven tools now automate test generation, accelerate coverage closure, and predict bug‑prone areas, cutting verification effort that can reach 60–70% of engineering hours On the design side, generative and agentic AI explore vast design spaces, tune thousands of params, and optimize the conversion flows, especially for macro placement and floorplanning Emerging trends focus on domain‑specialized models tightly integrated into existing flows Strong emphasis on explainability, deterministic guardrails, and safety as AI becomes a core pillar of semiconductor toolchains AI/ML algorithms analyze functional coverage models and dynamically generate stimuli to target unverified corner cases, slashing the time required for coverage closure.Automated Debugging: AI models can sift through massive regression databases and waveforms autonomously to pinpoint the root causes of failures, resolving issues long before the tapeout phase.Physical Design Space Exploration: Machine learning swiftly evaluates millions of potential floor plans and clocking strategies to optimize for Power, Performance, and Area (PPA)."
+    },
+    {
+      "index": 17,
+      "title": "AI on small devices Google is pushing compact",
+      "text": "AI on small devices Google is pushing compact on-device models and runtimes for real-time use on phones, laptops, and other edge devices LiteRT-LM is a cross-platform on-device LLM stack Function Gemma 270M reportedly reached nearly 2K tokens/sec prefill on a Pixel 7, and fine-tuning improved fixed-intent accuracy from 46% to 90% on eight of ten functions Gemma 4 12B is positioned for local multimodal, agentic workflows on everyday machines, including script generation and tool use through Google AI Edge Gallery and LiteRT-LM Apple’s Ferret-UI Lite reportedly showed that a 3B model can match or exceed much larger systems on benchmark tasks DroidRun is an LLM-agnostic mobile agent for controlling Android and iOS devices through natural language and multi-step automation https://github.com/google-ai-edge/LiteRT-LM"
+    },
+    {
+      "index": 18,
+      "title": "Vibe Coding - 6 Principles Vibe Coding -",
+      "text": "Vibe Coding - 6 Principles Vibe Coding - 6 Principles 1. Plan before prompting 2. Direct the AI to ask clarifying questions before building 3. Build in small steps, test after each step 4. Copy raw error messages directly into the prompt 5. Roll back to previous working versions if code breaks (checkpoints) 6. Start fresh if AI can not fix in three tries https://www.youtube.com/watch?v=oncrSvt79tQ Don't Ship Skills Without Evals - Philipp Schmid Developers must evaluate AI agent skills before shipping them Most skills are created without systematic testing, leading to unpredictable agent performance Human-authored skills outperform AI-generated ones Skills should remain concise, use clear directives, and layer detailed information across reference files Implementing small evaluation suites allows development teams to catch performance regressions, refine trigger descriptions, and identify when model upgrades make existing skills obsolete https://www.youtube.com/watch?v=0vphxNt4wyk"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates Webserver Caddy vs Nginx https://www.youtube.com/watch?v=YfK9QmJoaWs Caddy",
+      "text": "AI Updates Webserver Caddy vs Nginx https://www.youtube.com/watch?v=YfK9QmJoaWs Caddy offers a dramatically simpler configuration It is written in Go - memory-safe, fewer security vulnerabilities Does automatic HTTPS config (certificates, renewals) Up to 20% faster when serving small files Nginx still better at hyper-scale. Written in C, Nginx consumes a quarter of the memory of Caddy under idle connections and is more efficient at streaming very large files, making it the preferred choice for major CDNs and tiny resource-constrained hardware Colibri Tiny Inference Engine A lightweight engine written in 1300 lines of C that allows to run massive LLMs (like 744B-params GLM-5.2) locally https://www.youtube.com/watch?v=19xCOJxWU0A It is very slow (0.1-1 tokens/sec)"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates Use RAM as VRAM - Linux",
+      "text": "AI Updates Use RAM as VRAM - Linux Hack https://www.youtube.com/watch?v=RqqHWol4Kwk AMD-based System76 laptop Configuring env variables to trick integrated GPU into treating 32GB of 96GB system RAM as dedicated VRAM Test - running LLMs locally via Ollama Qwen 2.5 (14B), Qwen 2.5 (35B), and Gemma (31B) While the Gemma model runs significantly slower than the Qwen models, monitor tools confirm that the system successfully allocates up to 70% of the newly mapped memory, proving that older AMD hardware can run massive models without dedicated GPUs Claude Code vs Codex https://www.youtube.com/watch?v=hCOWH0RDB4s Claude Code excels at complex, multi-file projects and maintaining deep memory during long programming sessions Conversely, Codex offers better value for money, generous token limits, and practical automation features like frontend browser reviews and background task delegation Developers should choose Claude Code for highly complex, tool-heavy development, and Codex for daily delegation, task reviews, and budget-friendly coding"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates AI Coding Tool (Cursor or Claude",
+      "text": "AI Updates AI Coding Tool (Cursor or Claude Code) The Framework ( Next.js built on React) Hosting (Vercel, Railway, Fly.io ) - serverless The database (Supabase or Neon) Authentication (Clerk or \"Better Auth\") Get Paid - Stripe, Lemon Squeezy (international sales) Email - Resend --------------------------------- Bottleneck - the physical and mental limits of a solo founder A single person must still handle late-night server issues, endless customer support, and marketing Ultimately a startup's true competitive edge lies in the founder's taste, judgment, and distribution 7-layer developer stack for 1-person company https://www.youtube.com/watch?v=wW5eh94PfJY Hermes Agent Updates Cloud-hosted via Hermes Cloud Multi-agent system, Obsidian shared memory Access to 200+ AI models within the framework Automated outreach capabilities using the Hunter API Daily news curation powered by Oracle Trend tracking and analysis via Astros Voice control integration with Apollo Automated video creation tools for content generation Hermes Agent Updates Faster start (4.3 sec -> 0.9 sec) Streaming thinking Background sub-agents logging (for check-pointing) Profile routing - individual channels use specialized AI agents, models, memories, and secret API keys Security and safety updates (AI command reviews, custom deny rules, password manager) Model catalog expands"
+    },
+    {
+      "index": 22,
+      "title": "Pandas, DuckDB, Polars, Spark Pandas - uses single",
+      "text": "Pandas, DuckDB, Polars, Spark Pandas - uses single CPU, loads everything into RAM DuckDB - columnar database (like SQLite for analytics) DuckDB - parallel data processing using  all CPUs and vectorized execution DuckDB can query datasets larger than available RAM DuckDB queries CSV/Parquet/JSON files directly using standard SQL, and integrates smoothly with existing Pandas DataFrames (for ML & Plotting) https://www.youtube.com/watch?v=Mqj9OChctRQ # pip install duckdb import duckdb # Query a CSV file directly without loading it first result = duckdb.sql(\"SELECT * FROM 'sales_data.csv' WHERE amount > 100\") print(result) # Or query a Pandas DataFrame in-place using zero-copy memory import pandas as pd df = pd.DataFrame({\"category\": [\"A\", \"B\", \"A\"], \"sales\": [10, 20, 30]}) summary_rel = duckdb.sql( \"SELECT category, SUM(sales) AS total FROM df GROUP BY category\" ) print(summary_rel) # DuckDBPyRelation object summary_df = summary_rel.df() # Python DataFrame Polars is a faster DataFrame library , especially for transformations, joins, and larger in-memory analytics, thanks to Rust and lazy execution DuckDB is an embedded SQL analytics engine that is great for querying files like Parquet or CSV directly and often wins on large analytical workloads Pandas is great for small or legacy applications, LM and Plotting Spark, Dask, or DataFusion can be better for large distributed data, but they add more complexity than these single-node tools."
+    },
+    {
+      "index": 23,
+      "title": "AI Updates Automated routing to pick best models",
+      "text": "AI Updates Automated routing to pick best models for given tasks No single AI model excels at every task, as Claude leads in coding, Gemini dominates benchmarks, and GPT shines in research Platforms like Abacus AI allow users to set up custom routers using plain English instructions https://www.youtube.com/watch?v=giD8KtDBnJc These routers automatically evaluate each incoming prompt and direct it to the best-suited model This automated multi-model approach lowers overall AI spending, improves output quality, and enables dynamic workflows tailored to task complexity or user pricing tiers Google Vids: Gemini Omni and Personal Avatars Gemini Omni - generates and edits video clips directly from text prompts, sketches, or existing footage Users can refine lighting, backgrounds, and effects conversationally without complex editing tools Personal Avatars allow users to generate a realistic digital double using a selfie and voice recording to deliver scripted videos Use cases - business updates, onboarding, and marketing Available to Google AI Pro, Ultra, and Workspace subscribers Security - account verification and invisible SynthID watermarks https://www.youtube.com/watch?v=ZZ_HghP02bs"
+    },
+    {
+      "index": 24,
+      "title": "AI Updates OpenAI’s GPT-RED red-teaming system Designed to",
+      "text": "AI Updates OpenAI’s GPT-RED red-teaming system Designed to attack OpenAI’s own models and uncover prompt injection and other adversarial vulnerabilities at scale It repeatedly crafts and refines malicious prompts, observes model responses, and optimizes toward successful exploits such as data exfiltration or safety bypasses GPT-RED is trained via self-play reinforcement learning, where it plays the attacker against defender models that are rewarded for completing tasks while resisting attacks This loop forces GPT-RED to invent increasingly sophisticated strategies, generating training data that hardens production models like GPT‑5.6 against emerging real-world threats https://openai.com/index/unlocking-self-improvement-gpt-red/ Linux wins over Windows Windows 11 struggles with critical bugs, system crashes, and steep hardware requirements Linux has quietly gaining Driven by Valve’s Proton compatibility layer and hardware like the Steam Deck, Linux has made unprecedented gains in desktop gaming, breaking historical market share records European governments are legally mandating open-source transitions to secure digital sovereignty and reduce licensing costs With mainstream manufacturers now shipping Linux by default and software compatibility reaching near-parity, the Linux OS has crossed the threshold from a niche hobbyist tool into a self-reinforcing, institutional mainstream competitor"
+    },
+    {
+      "index": 25,
+      "title": "AI Updates Designing effective AI agent systems Peter",
+      "text": "AI Updates Designing effective AI agent systems Peter Yang interviews Thariq Shihipar from Anthropic’s Claude Code Shihipar emphasizes structuring agent loops around clear goals and exit conditions, using commands like /goal to maintain focus He explains how dynamic, multi-agent workflows enable parallel execution and built-in verification, improving reliability on complex tasks Through an automated video editing example, he shows how iterative planning helps surface and resolve unknowns before full automation The discussion also covers “Claude Tag,” a Slack-integrated system for collaborative, multi-agent task management. Shihipar’s key advice is to keep context windows tight and develop a deep understanding of system limits rather than relying only on prompting https://www.youtube.com/watch?v=aVO6E181cNU Google TurboQuant - vector compression AI vector index memory usage from 31 GB down to 4 GB It applies a shared random rotation to align vector coordinates into a predictable bell curve, applying optimal Lloyd-Max quantization alongside a single-bit error-correction step Independent developer Ryan Kadry implemented the open-source library TurboC using Rust, delivering faster search performance than Meta's FAISS while enabling seamless online vector ingestion TurboQuant reduces LLM key-value cache memory x6. This significantly cuts cloud hardware costs and accelerates inference without sacrificing search accuracy or retrieval performance for long-context applications https://www.youtube.com/watch?v=LvBsACJy4ww ."
+    },
+    {
+      "index": 26,
+      "title": "AI Updates Buzz - open-source group chat/workspace https://github.com/block/buzz",
+      "text": "AI Updates Buzz - open-source group chat/workspace https://github.com/block/buzz To replace parts of Slack and GitHub for team collaboration By Jack Dorsey’s Block https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/ Buzz is designed for humans and AI agents to work in the same shared conversations Block says Buzz is model-agnostic, decentralized, self-sovereign, and built on the Nostr protocol, with self-hosting support. Buzz combines chat, project planning, coding, PR workflows, and agent actions Buzz is available as a free desktop app for macOS, Windows, and Linux Jack Dorsey co-founded Twitter in 2006 (now X.com) His other major project was Square, later renamed Block Square focused on mobile payments and small-business card processing"
+    },
+    {
+      "index": 27,
+      "title": "From Windows to Linux or Mac Governments Win",
+      "text": "From Windows to Linux or Mac Governments Win to Linux: France is moving 2.5 Mln gov workstations to (NixOS) Linux to reduce dependence on foreign tech and improve digital sovereignty https://www.youtube.com/watch?v=hmGAId0J2Lc https://www.youtube.com/watch?v=jTqmHKTehKM Schleswig-Holstein State in Germany is migrating about 30K employees to Linux and LibreOffice for cost savings, security, and control over data. The desktop is reported as KDE Plasma, with possible distros including Kubuntu, SLED, or openSUSE Leap https://www.zdnet.com/article/the-german-state-schleswig-holstein-uninstalls-windows/ France’s Gendarmerie has long used GendBuntu, a custom Ubuntu-based system, on most workstations. It switched for stability, maintainability, and independence from Microsoft https://www.zdnet.com/article/the-german-state-schleswig-holstein-uninstalls-windows/ South Korea explored Linux desktops, using Ubuntu-based Harmonica and other Linux variants in some agencies, mainly to cut licensing costs and reduce reliance on Windows https://www.zdnet.com/article/south-koreas-government-explores-move-from-windows-to-linux-desktop/ China Governmnet moving toward Chinese-made, Linux-based systems like Kylin and NeoKylin Governments Win to Apple: Germany (federal administration), US federal agencies: NASA, DOE, NIH, and parts of the FBI; State and local government in the US; Canada government: Uses modern device policies that allow staff to choose tools that fit the job, including Macs. Big Companies Windows to Linux: Google is using Linux-based desktops internally, often described as Goobuntu https://www.techrepublic.com/article/five-big-names-that-use-linux-on-the-desktop/ NASA and contractor United Space Alliance moved key functions from Windows to Debian-based Linux because they wanted stability, reliability, and in-house control. https://www.techrepublic.com/article/five-big-names-that-use-linux-on-the-desktop/ ) CERN uses thousands of Linux desktops, including Scientific Linux, Ubuntu, and CentOS https://www.techrepublic.com/article/five-big-names-that-use-linux-on-the-desktop/ Some large firms also standardize on Linux for infrastructure rather than desktops (reduce licensing costs, fits cloud-native ops) https://www.computerworld.com/article/1347921/big-business-go-big-on-linux.html Big Companies Windows to Apple: IBM, SAP, Uber, BuzzFeed, Nike OpenAI, Anthropic, Alibaba, other Chinese AI/startups"
+    },
+    {
+      "index": 28,
+      "title": "AI Updates OpenAI has acquired Astral The Python",
+      "text": "AI Updates OpenAI has acquired Astral The Python devtool startup founded by Charlie Marsh (Brooklyn, NY, 11+ people) https://www.youtube.com/watch?v=Iw65FD4MGgs 2022 - Ruff - Python linter and formatter 2024 - uv  - Fast Python package and project manager 2025 - ty - Fast Python type checker and language server All three tools written in Rust - fast, reliable, crash-free dev tools The team uses AI for coding Human engineering and first-principles thinking remain essential for core systems architecture and macro-level design To prevent AI-generated code quality drops (\"AI slop\"), Astral relies on extensive automated testing, continuous benchmark profiling, and strict PR reviews Strategy - keeping core tools free and open-source while offering enterprise solutions like hosted private registries (`py`) built on top of `uv` Examples of usage: ruff check . # to lint a project ruff format . # to auto-format files ruff check --fix .    # to apply safe fixes uv init myproj        # to create a project uv add requests       # to add a dependency uv run python main.py # to run code in the project env ty check .            # to type-check a codebase # ty can also act as a language server for editor integration"
+    },
+    {
+      "index": 29,
+      "title": "AI Updates KMS - Key Management Service AWS",
+      "text": "AI Updates KMS - Key Management Service AWS KMS and GCP Cloud KMS are managed services for creating, storing, rotating, and controlling encryption keys used to protect data at rest and in applications https://docs.aws.amazon.com/kms/latest/developerguide/concepts-intro.html https://aws.amazon.com/kms/ https://aws.amazon.com/kms/ AWS KMS supports centralized policy-based access control, CloudTrail auditing, and hardware-backed key protection using validated HSMs HSM = Hardware Security Module . It is a physical device designed to securely generate, store, and use cryptographic keys GCP Cloud KMS provides centralized key management for Google Cloud, supports software, HSM, and external keys, and integrates with services like BigQuery, GCS, and GKE through CMEK https://innfactory.de/en/cloud/gcp/products/cloud-kms/ Both platforms support automatic rotation and strong auditability, but AWS emphasizes AWS-native service coverage while GCP emphasizes flexible protection levels and key access justification logging"
+    },
+    {
+      "index": 30,
+      "title": "AI Updates Remove Slope from Writing This skill",
+      "text": "AI Updates Remove Slope from Writing This skill removes 20+ patterns of AI slop from your writing and it can also help you detect slop as well. https://creatoreconomy.so/p/use-my-no-ai-slop-skill-to-remove-20-ai-slop-patterns https://github.com/petergyang/no-ai-slop Claude Code + Omniroot Claude Code's source code was exposed in March Claude Code + Omniroot - 268 AI models (50+ free), providing a continuous \"free brain\". When free token limits deplete on one model, Omniroot automatically switches to another available model to prevent workflow interruptions Token Optimization - built-in tools like RTK and Caveman compress user prompts to save tokens while keeping code and links intact Can run multiple AI agents simultaneously across platforms like Cursor or Codex to execute various tasks at once https://www.youtube.com/watch?v=sIfPWJvCCf4"
+    },
+    {
+      "index": 31,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 124K in 2026 (as of July 24, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 170,483 people laid off (832 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 32,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 33,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 18,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=18s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cost Per Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": 90,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=90s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic Fable 5 Permanent, Sonnet-5",
+      "topic": "claude",
+      "videoSeconds": 171,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=171s",
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Skill Recording in Claude Co-work",
+      "topic": "claude",
+      "videoSeconds": 270,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=270s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Anthropic Fable 5 Becomes Permanent in",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba Qwen 3.8 Max Preview",
+      "topic": "open-models",
+      "videoSeconds": 332,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=332s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Skill Recording in Claude Co-work \"Record",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qwen-3.8 vs Kimi K3",
+      "topic": "open-models",
+      "videoSeconds": 341,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=341s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Skill Recording in Claude Co-work \"Record",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenCode+OmniRoute vs Claude Code",
+      "topic": "coding",
+      "videoSeconds": 377,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=377s",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates Alibaba Qwen 3.8 Max Preview (July",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google AI Mode in Search",
+      "topic": "google",
+      "videoSeconds": 413,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=413s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates OpenCode + OmniRoute vs Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google New Flash 3.6 & Flash-Lite 3.5 Models",
+      "topic": "general",
+      "videoSeconds": 452,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=452s",
+      "slideIndex": 8,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "About This Channel",
+      "topic": "general",
+      "videoSeconds": 497,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=497s",
+      "slideIndex": 8,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hugging Face hacked by autonomous AI agent",
+      "topic": "agents",
+      "videoSeconds": 520,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=520s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Hugging Face hacked by autonomous AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI ChatGPT Work",
+      "topic": "openai",
+      "videoSeconds": 665,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=665s",
+      "slideIndex": 10,
+      "slideTitle": "OpenAI ChatGPT Work OpenAI ChatGPT Work https://openai.com/chatgpt-work/ ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "Poolside AI - Laguna S 2.1",
+      "topic": "general",
+      "videoSeconds": 709,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=709s",
+      "slideIndex": 10,
+      "slideTitle": "OpenAI ChatGPT Work OpenAI ChatGPT Work https://openai.com/chatgpt-work/ ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenCode vs Claude Code",
+      "topic": "coding",
+      "videoSeconds": 768,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=768s",
+      "slideIndex": 11,
+      "slideTitle": "OpenCode vs Claude Code OpenCode vs Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemini and Gemini Notebook vs Fable",
+      "topic": "claude",
+      "videoSeconds": 854,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=854s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates Google Gemini and Gemini Notebook vs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Selecting Right Tokens For Specific Tasks",
+      "topic": "general",
+      "videoSeconds": 885,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=885s",
+      "slideIndex": 13,
+      "slideTitle": "AI Video using Higgsfield & FFmpeg AI Video",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Video using Higgsfield & FFmpeg",
+      "topic": "general",
+      "videoSeconds": 991,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=991s",
+      "slideIndex": 13,
+      "slideTitle": "AI Video using Higgsfield & FFmpeg AI Video",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ollama Better Tool Calling & Speed",
+      "topic": "open-models",
+      "videoSeconds": 1143,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1143s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Ollama Better Tool Calling & Speed",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini AI - Generate Slides",
+      "topic": "google",
+      "videoSeconds": 1201,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1201s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Mark Pincus 2-Lists Formula for Startup",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mark Pincus 2-Lists Formula for Startup Ideas",
+      "topic": "general",
+      "videoSeconds": 1222,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1222s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates AI is transforming ASIC/SoC development ASIC",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI is transforming ASIC/SoC development",
+      "topic": "general",
+      "videoSeconds": 1261,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1261s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates AI is transforming ASIC/SoC development ASIC",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI on small devices",
+      "topic": "general",
+      "videoSeconds": 1324,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1324s",
+      "slideIndex": 17,
+      "slideTitle": "AI on small devices Google is pushing compact",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vibe Coding - 6 Principles",
+      "topic": "coding",
+      "videoSeconds": 1392,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1392s",
+      "slideIndex": 18,
+      "slideTitle": "Vibe Coding - 6 Principles Vibe Coding -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Don't Ship Skills Without Evals - Philipp Schmid",
+      "topic": "benchmarks",
+      "videoSeconds": 1452,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1452s",
+      "slideIndex": 18,
+      "slideTitle": "Vibe Coding - 6 Principles Vibe Coding -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Webserver Caddy vs Nginx",
+      "topic": "general",
+      "videoSeconds": 1474,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1474s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates Webserver Caddy vs Nginx https://www.youtube.com/watch?v=YfK9QmJoaWs Caddy",
+      "source": "youtube"
+    },
+    {
+      "claim": "Colibri Tiny Inference Engine",
+      "topic": "infra",
+      "videoSeconds": 1543,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1543s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates Use RAM as VRAM - Linux",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use RAM as VRAM - Linux Hack",
+      "topic": "safety",
+      "videoSeconds": 1565,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1565s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates AI Coding Tool (Cursor or Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code vs Codex",
+      "topic": "coding",
+      "videoSeconds": 1586,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1586s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates AI Coding Tool (Cursor or Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "7-layer developer stack for 1-person company",
+      "topic": "general",
+      "videoSeconds": 1630,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1630s",
+      "slideIndex": 22,
+      "slideTitle": "Pandas, DuckDB, Polars, Spark Pandas - uses single",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hermes Agent Update",
+      "topic": "agents",
+      "videoSeconds": 1688,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1688s",
+      "slideIndex": 23,
+      "slideTitle": "AI Updates Automated routing to pick best models",
+      "source": "youtube"
+    },
+    {
+      "claim": "Pandas, DuckDB, Polars, Spark",
+      "topic": "data-engineering",
+      "videoSeconds": 1793,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1793s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates OpenAI’s GPT-RED red-teaming system Designed to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Automated routing to pick best models",
+      "topic": "general",
+      "videoSeconds": 1910,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1910s",
+      "slideIndex": 24,
+      "slideTitle": "AI Updates OpenAI’s GPT-RED red-teaming system Designed to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Vids: Gemini Omni and Personal Avatars",
+      "topic": "google",
+      "videoSeconds": 1942,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1942s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates Designing effective AI agent systems Peter",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI's GPT-RED red-teaming system",
+      "topic": "openai",
+      "videoSeconds": 1960,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1960s",
+      "slideIndex": 26,
+      "slideTitle": "AI Updates Buzz - open-source group chat/workspace https://github.com/block/buzz",
+      "source": "youtube"
+    },
+    {
+      "claim": "Linux wins over Windows",
+      "topic": "general",
+      "videoSeconds": 1982,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1982s",
+      "slideIndex": 26,
+      "slideTitle": "AI Updates Buzz - open-source group chat/workspace https://github.com/block/buzz",
+      "source": "youtube"
+    },
+    {
+      "claim": "Designing effective AI agent systems",
+      "topic": "agents",
+      "videoSeconds": 1997,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=1997s",
+      "slideIndex": 27,
+      "slideTitle": "From Windows to Linux or Mac Governments Win",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google TurboQuant - vector compression",
+      "topic": "rag",
+      "videoSeconds": 2043,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2043s",
+      "slideIndex": 28,
+      "slideTitle": "AI Updates OpenAI has acquired Astral The Python",
+      "source": "youtube"
+    },
+    {
+      "claim": "Buzz - open-source group chat/workspace",
+      "topic": "open-models",
+      "videoSeconds": 2064,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2064s",
+      "slideIndex": 29,
+      "slideTitle": "AI Updates KMS - Key Management Service AWS",
+      "source": "youtube"
+    },
+    {
+      "claim": "From Windows to Linux or Mac",
+      "topic": "general",
+      "videoSeconds": 2117,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2117s",
+      "slideIndex": 29,
+      "slideTitle": "AI Updates KMS - Key Management Service AWS",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI has acquired Astral",
+      "topic": "openai",
+      "videoSeconds": 2248,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2248s",
+      "slideIndex": 30,
+      "slideTitle": "AI Updates Remove Slope from Writing This skill",
+      "source": "youtube"
+    },
+    {
+      "claim": "KMS - Key Management Service",
+      "topic": "general",
+      "videoSeconds": 2312,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2312s",
+      "slideIndex": 31,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Remove Slope from Writing",
+      "topic": "general",
+      "videoSeconds": 2369,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2369s",
+      "slideIndex": 32,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code + Omniroot",
+      "topic": "coding",
+      "videoSeconds": 2393,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2393s",
+      "slideIndex": 32,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2425,
+      "videoUrl": "https://www.youtube.com/watch?v=z6zzI019FFU&t=2425s",
+      "slideIndex": 33,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

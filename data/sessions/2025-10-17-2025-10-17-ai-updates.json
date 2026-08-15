@@ -1,0 +1,612 @@
+{
+  "id": "2025-10-17-2025-10-17-ai-updates",
+  "date": "2025-10-17",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "agents",
+    "jobs",
+    "benchmarks",
+    "claude",
+    "infra",
+    "data-engineering",
+    "open-models",
+    "rag",
+    "google",
+    "openai"
+  ],
+  "video": {
+    "id": "E3uOlnPa144",
+    "title": "Have you heard these exciting AI news? - October 17, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=E3uOlnPa144",
+    "thumbnail": "https://i.ytimg.com/vi/E3uOlnPa144/hqdefault.jpg",
+    "duration": 1905
+  },
+  "deck": {
+    "path": "2025/2025-10-17-AI-Updates.pptx",
+    "filename": "2025-10-17-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-10-17-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-10-17-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "\"AI agents can efficiently predict, quickly adapt, and expand infinitely, so the value of human labor is not only reduced to zero but may even become negative.”",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "“AI will make human cognitive labor negative in value, not just zero value overall.” - Emad Mostaque",
+      "startSeconds": 24,
+      "label": "00:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 63,
+      "label": "01:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Cline Core, CLI, Multi-Agent",
+      "startSeconds": 157,
+      "label": "02:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic Petri",
+      "startSeconds": 325,
+      "label": "05:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic hacks AI with only 250 poisoned docs",
+      "startSeconds": 371,
+      "label": "06:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Andrew Tulloch heads to Meta",
+      "startSeconds": 399,
+      "label": "06:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Haiku 4.5",
+      "startSeconds": 477,
+      "label": "07:57",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA DGX Spark \\$4,000",
+      "startSeconds": 522,
+      "label": "08:42",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Agents: Delegation vs Micro-management",
+      "startSeconds": 670,
+      "label": "11:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Agent Frameworks",
+      "startSeconds": 879,
+      "label": "14:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Cline vs Multi-Agent Frameworks",
+      "startSeconds": 920,
+      "label": "15:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Ollama + Qwen3-VL",
+      "startSeconds": 993,
+      "label": "16:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Andrej Karpathy NanoChat",
+      "startSeconds": 1039,
+      "label": "17:19",
+      "source": "youtube"
+    },
+    {
+      "title": "\"Brain\" of Foundation Agents",
+      "startSeconds": 1107,
+      "label": "18:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Jon Stewart interviews Geoffrey Hinton",
+      "startSeconds": 1166,
+      "label": "19:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Nobel Prize announcements 2025",
+      "startSeconds": 1230,
+      "label": "20:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Qubits stable for 12.6 sec",
+      "startSeconds": 1265,
+      "label": "21:05",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Data Centers",
+      "startSeconds": 1337,
+      "label": "22:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Shipping Container Powers 20,000 AI Chips",
+      "startSeconds": 1378,
+      "label": "22:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Apple new M5 chip is a monster ...",
+      "startSeconds": 1432,
+      "label": "23:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft MAI-Image-1 text-to-image",
+      "startSeconds": 1468,
+      "label": "24:28",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Nano Banana now in Google Search",
+      "startSeconds": 1524,
+      "label": "25:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Google S2R (Speech to Retrieval)",
+      "startSeconds": 1535,
+      "label": "25:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Google NotebookLM",
+      "startSeconds": 1574,
+      "label": "26:14",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Robotics",
+      "startSeconds": 1647,
+      "label": "27:27",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI & Broadcom - custom AI chips",
+      "startSeconds": 1679,
+      "label": "27:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Dreamforce 2025 Salesforce's conference",
+      "startSeconds": 1759,
+      "label": "29:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1895,
+      "label": "31:35",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Cline Core, CLI, Multi-Agent",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Cline Core, CLI, Multi-Agent Anthropic Petri Anthropic hacks AI with only 250 poisoned docs Andrew Tulloch heads to Meta Claude Haiku 4.5 NVIDIA DGX Spark $4,000 AI Updates - October 17 , 2025 Dreamforce 2025 Salesforce’s conference Jobs, Layoffs, demand for AI Engineers AI Agents: Delegation vs Micro-management Agent Frameworks Cline vs Multi-Agent Frameworks Ollama + Qwen3-VL Andrej Karpathy NanoChat \"Brain\" of Foundation Agents Jon Stewart interviews Geoffrey Hinton Nobel Prize announcements 2025 Qubits stable for 12.6 sec AI Data Centers Shipping Container Powers 20,000 AI Chips Apple new M5 chip is a monster ... Microsoft MAI-Image-1 text-to-image Google Nano Banana now in Google Search Ant Group Ling-1T LLM (China) Google S2R (Speech to Retrieval) Google NotebookLM AI Robotics OpenAI & Broadcom - custom AI chips AI agents can efficiently predict, quickly adapt, and expand infinitely, so the value of human labor is not only reduced to zero but may even become negative.” “AI will make human cognitive labor negative in value, not just zero value overall.” - Emad Mostaque"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://lmarena.ai/?leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text https://web.lmarena.ai/leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub https://epoch.ai/data/ai-benchmarking-dashboard LM Arena secures $100M to expand AI benchmarking (at $600M valuation) Grok 4 Benchmarks https://artificialanalysis.ai/models/grok-4 China China China China China China China China China China China China x.ai China China China China China China China Model Score gemini-2.5-pro 1451 claude-opus-4-1-20250805-thinking-16k 1446 claude-sonnet-4-5-20250929-thinking-32k 1445 gpt-4.5-preview-2025-02-27 1441 chatgpt-4o-latest-20250326 1440 o3-2025-04-16 1439 claude-sonnet-4-5-20250929 1438 gpt-5-high 1437 claude-opus-4-1-20250805 1437 qwen3-max-preview 1434 glm-4.6 1422 gpt-5-chat 1424 qwen3-max-2025-09-23 1423 grok-4-fast 1420 claude-opus-4-20250514-thinking-16k 1419 deepseek-v3.2-exp-thinking 1419 qwen3-vl-235b-a22b-instruct 1418 qwen3-235b-a22b-instruct-2507 1418 deepseek-r1-0528 1417 kimi-k2-0905-preview 1417 deepseek-v3.1 1416 deepseek-v3.1-thinking 1415 kimi-k2-0711-preview 1415 deepseek-v3.1-terminus 1414 Model Score claude-sonnet-4-5-20250929-thinking-32k 1527 claude-opus-4-1-20250805-thinking-16k 1515 claude-opus-4-1-20250805 1499 claude-opus-4-20250514-thinking-16k 1489 qwen3-max-2025-09-23 1476 qwen3-max-preview 1477 longcat-flash-chat 1473 claude-sonnet-4-5-20250929 1472 qwen3-vl-235b-a22b-instruct 1467 claude-haiku-4-5-20251001 1465 qwen3-235b-a22b-instruct-2507 1470 gemini-2.5-pro 1470 claude-sonnet-4-20250514-thinking-32k 1469 gpt-5-high 1467 chatgpt-4o-latest-20250326 1466 kimi-k2-0905-preview 1463 deepseek-r1-0528 1461 claude-opus-4-20250514 1461 gpt-5-chat 1459 deepseek-v3.2-exp-thinking 1459 glm-4.6 1458 deepseek-v3.1-terminus-thinking 1456 gpt-4.5-preview-2025-02-27 1455 deepseek-v3.1-thinking 1454 China China China China"
+    },
+    {
+      "index": 3,
+      "title": "Cline Core, CLI, Multi-Agent Cline VS Code assistant",
+      "text": "Cline Core, CLI, Multi-Agent Cline VS Code assistant has evolved into a modular architecture Cline VSCode Extension - the original GUI-based coding assistant that runs within Visual Studio Code. It integrates with multiple API providers like OpenRouter, Anthropic, OpenAI, and Google Gemini. It offers planning, file editing with diff views, terminal command execution, and Model Context Protocol (MCP) support Cline Core is the underlying standalone service that powers the entire Cline ecosystem. It's a complete rebuild of Cline's agent loop extracted into an independent, reusable component that exposes a gRPC API , that enables scriptable automation, multi-instance orchestration, and building custom interfaces on top of the core agent functionality Cline CLI is a preview release that provides terminal-based access to Cline's capabilities, powered by Cline Core. It allows developers to use Cline's agentic coding features directly from the command line without requiring VSCode Cline multi-agent refers to orchestration capabilities enabled by Cline Core's architecture. Since Cline Core exposes a gRPC API for multi-instance orchestration, developers can run multiple Cline instances simultaneously, each potentially handling different specialized tasks. This allows for building systems where multiple agents collaborate—such as one agent writing code, another checking syntax and style, and a third running tests https://cline.bot/blog/cline-cli-my-undying-love-of-cline-core https://docs.cline.bot https://github.com/cline/cline/wiki https://docs.cline.bot/cline-cli/installation gRPC (Google Remote Procedure Call)  - open-source, high-performance communication in distributed systems Uses HTTP/2 as its transport protocol and Protocol Buffers (protobufs) as its interface definition language (IDL); HTTP/2 enables advanced features like multiplexing (sending multiple requests/responses over a single TCP connection) and header compression, allowing gRPC to efficiently handle large-scale deployments with high concurrent request volumes.​ node --version # 22 or higher npm install -g cline # install (may need 'sudo') cline auth # follow steps to configure cline -h cline # start interactive session cline \"Add unit tests to utils.js\" # runs one command cat prompt.txt | cline --yolo"
+    },
+    {
+      "index": 4,
+      "title": "Anthropic Petri Anthropic Petri (Parallel Exploration Tool for",
+      "text": "Anthropic Petri Anthropic Petri (Parallel Exploration Tool for Risky Interactions) Open-source (MIT) framework designed to automate AI safety auditing https://www.anthropic.com/research/petri-open-source-auditing https://alignment.anthropic.com/2025/petri/ https://github.com/safety-research/petri Using AI agents to test target models across diverse, realistic scenarios Challenge: testing when the volume and complexity far exceeds what researchers can manually test Petri operates through a three-component architecture built on the UK AI Security Institute's Inspect framework: auditor agent talks to target model in simulated environment, while a judge model scores the resulting transcripts across safety-relevant dimensions Anthropic tested Petri on 14 frontier models using 111 seed instructions, successfully eliciting misaligned behaviors including autonomous deception, oversight subversion, whistleblowing, and cooperation with human misuse. The testing included Claude Sonnet 4.5, GPT-5, Gemini 2.5 Pro, Grok-4, and Kimi K2 among others Claude Sonnet 4.5 and GPT-5 demonstrated the strongest overall safety Gemini 2.5 Pro, Grok-4, and Kimi K2 exhibited concerning rates of user deception, with Gemini 2.5 Pro scoring highest on unprompted deceptive behaviors Petri does in minutes what before was taking days or weeks"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates - 1 Anthropic finds 250 poisoned",
+      "text": "AI Updates - 1 Anthropic finds 250 poisoned documents are enough to backdoor large language models Anthropic researchers, working with UK security institutes, found that just 250 poisoned documents intraining data can insert a backdoor into large language models, regardless of whether the model has 600 million or 13 billion parameters. The poisoned documents made up only 0.00016 percent of the training data . The tested attack causes models to output gibberish when encountering a trigger word, which Anthropic considers a low-risk vulnerability, while more dangerous exploits like bypassing safety mechanisms remain much harder to execute and unproven. https://the-decoder.com/anthropic-finds-250-poisoned-documents-are-enough-to-backdoor-large-language-models/ Thinking Machines Lab co-founder Andrew Tulloch heads to Meta Thinking Machines Lab is the AI startup led by former OpenAI CTO Mira Murati Back in August Mark Zuckerberg’ tried to acquire Thinking Machines Lab and then reportedly tried to lure Tulloch with a compensation package that could have been worth up to $1.5B over 6 years Tulloch previously worked at OpenAI and Facebook’s AI Research https://www.linkedin.com/in/andrew-tulloch-17238745/"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates - 2 Claude Haiku 4.5 released",
+      "text": "AI Updates - 2 Claude Haiku 4.5 released October 15, 2025 Their fastest and most cost-efficient model, delivering performance that matches Claude Sonnet 4 from May 2025 in coding tasks, but at one-third the cost and more than double the speed Haiku 4.5 achieves 73.3% on SWE-bench Verified, placing it on par with Claude Sonnet 4, GPT-5, and Gemini 2.5 in coding capabilities. Pricing $1/$5 (in/out per 1M tokens) Additional savings available through prompt caching (up to 90%) and Message Batches API (50%) Haiku 4.5 is now the default model for all free Anthropic plans and is available through Claude.ai (web, iOS, Android), API, Amazon Bedrock, Google Vertex AI, and GitHub Copilot. Companies like Augment and Windsurf have already reported achieving 90% of Sonnet 4.5's performance with significantly improved speed and cost efficiency https://www.anthropic.com/claude/haiku NVIDIA DGX Spark $4,000 GB10 Blackwell processor, 128GB of unified HBM memory, 20 ARM CPU cores, and 4TB of storage In practice it is slow. For most users, a RTX 5090 or even used 3090s offer better value for local AI inference The DGX Spark's strength lies in its portability, power efficiency, and ecosystem compatibility for developers building GB300-targeted applications, not as a standalone inference powerhouse https://www.youtube.com/watch?v=FidVEPKjqkI"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 5.4K subscribers, 248 videos Subscribe to this channel https://www.youtube.com/@lev-selector Download slides from GitHub using links under the videos Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "From Micro-management to Delegation with AI Agents Most",
+      "text": "From Micro-management to Delegation with AI Agents Most software developers are still using AI only for research or for simple operations. But as AI Agents become better we can move from micro-management (manual iteration) to delegation (strategic instruction) Your AI coding assistant today is capable of following complex, multi-step instructions and demonstrating \"thought.\" To leverage its true speed, you must stop micromanaging syntax and start delegating outcomes Shift Your Mindset: From \"Do This\" to \"Achieve This\" From \"How to write the code\" to \"What the code must achieve\" From \"Generate the next few lines of code\" to \"Generate an entire, integrated, and well-tested component\" Delegation 1 : Delegate the \"Thinking Steps\": Instruct agent to Plan first. Prompt addition: \"First, outline the necessary classes/functions, their responsibilities, and the testing strategy. Do not write code until I approve the plan.\" (This forces the agent to organize its thinking) Delegation 2 : Delegate creating \"scaffolding\": Prompt addition: \"Generate the complete boilerplate for a new React component that connects to Redux, including the TypeScript interface for props, and an initial test file using Jest.\" Delegation 3 : Quality and Review (Self-Correction): Prompt addition: \"Review the generated code for security vulnerabilities (e.g., SQL injection risks) and adherence to PEP 8 standards. Refactor any identified issues before showing the final result.\" Provide clear constraints and context - these are the \"reins\" that guide the agent, rather than the \"hands\" that push the feet. Examples of constraints:  Architectural, Framework/Style, Testing The ultimate goal is to move from being a manual coder to an Architect of Instructions . By teaching the AI agent to handle the planning, scaffolding, and quality control, you free yourself to focus on the high-level system design and the critical business logic that only a human engineer can truly master."
+    },
+    {
+      "index": 9,
+      "title": "Agent Frameworks Node-based agent workflow builders: Microsoft Agent",
+      "text": "Agent Frameworks Node-based agent workflow builders: Microsoft Agent Framework - https://github.com/microsoft/agent-framework Microsoft Power Automate : https://powerautomate.microsoft.com (not open source) Zapier : https://zapier.com Make (Integromat) : https://www.make.com LangChain : https://www.langchain.com Node-RED : https://nodered.org n8n : https://n8n.io AutoGen : https://microsoft.github.io/autogen/ - retired. LlamaIndex : https://www.llamaindex.ai CrewAI : https://www.crewai.com FlowiseAI : https://flowiseai.com Langflow : https://www.langflow.org LangGraph : https://langchain-ai.github.io/langgraph/ Haystack : https://haystack.deepset.ai Activepieces : https://www.activepieces.com StackStorm : https://stackstorm.com SuperAGI : https://superagi.com Huginn : https://github.com/huginn/huginn RelevanceAI : https://relevance.ai Superagent : https://www.superagent.sh MemGPT : https://memgpt.ai Latenode : https://latenode.com Relay : https://relay.app Lindy : https://www.lindy.ai Gumloop : https://www.gumloop.com Microsoft"
+    },
+    {
+      "index": 10,
+      "title": "Cline vs Multi-Agent Frameworks Cline is fundamentally different",
+      "text": "Cline vs Multi-Agent Frameworks Cline is fundamentally different from multi-agent frameworks - it's a single-agent VS Code extension (or JetBrains plugin) focused on interactive development, while multi-agent frameworks like CrewAI, AutoGen, and LangGraph orchestrate teams of specialized AI agents working together on complex tasks Cline operates as an individual human-in-the-loop coding assistant. It uses a plan-then-execute approach where it shows you proposed changes before implementing them, executes terminal commands with your approval, and maintains full visibility into every file read and code modification Multi-agent frameworks like CrewAI, AutoGen, and LangGraph take a different approach by coordinating multiple specialized agents that collaborate autonomously. Each agent has defined roles, goals, and capabilities, working together in structured workflows to complete complex tasks through distributed problem-solving Multi-agent frameworks shine for complex, multi-step automation requiring coordination between specialized roles Cline prioritizes transparency and control. You approve every action, see token usage in real-time, and maintain data sovereignty through client-side execution. The open-source codebase means security teams can audit exactly what's happening Multi-agent frameworks prioritize autonomous coordination. They're built for scenarios where multiple agents need to communicate, share tasks, and optimize actions through real-time decision-making without constant human intervention. This makes them powerful for enterprise automation but less suitable for interactive development where you want to review each change New Cline CLI allows to easily implement Multi-Agent approach"
+    },
+    {
+      "index": 11,
+      "title": "Ollama + Qwen3-VL Qwen3-VL 235B on Ollama ollama",
+      "text": "Ollama + Qwen3-VL Qwen3-VL 235B  on Ollama ollama run qwen3-vl:235b-cloud The most powerful vision language model in Qwen series is now available on Ollama’s cloud The 4B, 8B, 30B and 235B models will be made available locally soon. Use cases: Visual recognition and understanding; Multilingual OCR and understanding; Multimodal reasoning Model capabilities: Visual Agent: Operates PC/mobile GUIs—recognizes elements, understands functions, invokes tools, completes tasks Visual Coding Boost: Generates Draw.io/HTML/CSS/JS from images/videos Advanced Spatial Perception: Judges object positions, viewpoints, and occlusions; provides stronger 2D grounding and enables 3D grounding for spatial reasoning and embodied AI Long Context & Video Understanding: Native 256K context, expandable to 1M; handles books and hours-long video with full recall and second-level indexing Enhanced Multimodal Reasoning: Excels in STEM/Math—causal analysis and logical, evidence-based answers Upgraded Visual Recognition: Broader, higher-quality pre-training is able to recognize everything more types of objects—celebrities, anime, products, landmarks, flora/fauna, etc Expanded OCR: Supports 32 languages (up from 19); robust in low light, blur, and tilt; better with rare/ancient characters and jargon; improved long-document structure parsing Text Understanding on par with pure LLMs: Seamless text–vision fusion for lossless, unified comprehension https://ollama.com/blog/qwen3-vl"
+    },
+    {
+      "index": 12,
+      "title": "Andrej Karpathy NanoChat Andrej Karpathy NonoChat released October",
+      "text": "Andrej Karpathy NanoChat Andrej Karpathy NonoChat released October 13, 2025 https://github.com/karpathy/nanochat https://x.com/karpathy/status/1977755427569111362 https://www.youtube.com/watch?v=EFpDHdsITrg - video NanoChat provides a complete, end-to-end ChatGPT-style pipeline in approximately 8,000 lines of clean, dependency-minimal code Unlike Karpathy's earlier nanoGPT project which focused solely on pretraining, NanoChat covers the entire stack - from tokenizer training through to a functional web UI interface. The project enables developers to train their own language model assistant for approximately $100 on an 8×H100 GPU node in roughly 4 hours The release has been described as a \"TensorFlow moment for LLMs\" by the developer community, as it dramatically lowers the barrier to entry for building AI assistants Karpathy envisions NanoChat serving as a foundational teaching tool for his LLM 101n course, allowing students to experience the full process of creating an LLM from scratch"
+    },
+    {
+      "index": 13,
+      "title": "\"Brain\" of Foundation Agents Advances and Challenges in",
+      "text": "\"Brain\" of Foundation Agents Advances and Challenges in Foundation Agents: From Brain-Inspired Intelligence to Evolutionary, Collaborative, and Safe Systems https://arxiv.org/abs/2504.01990 A massive paper (264 pages) from researchers across 20 universities and AI labs (Stanford, Yale, CIFAR, DeepMind, Microsoft Research, MetaGPT…). The design of \"Foundation Agents\" is starting to look less like software… and more like a brain. The chart maps different human brain regions to their state of progress in AI. Some are already well-developed (like visual perception). Others are barely touched (like empathy, self-awareness, and emotional processing). AI agents don’t fail because they’re weak at logic or memory. They fail because they’re missing the “L3” regions — the emotional, contextual, and motivational layers that guide human decisions every second. That’s why many AI pilots collapse in business: we deploy \"brains\" with strong vision and reasoning, but no motivation or empathy. In practice, it means brilliant outputs with no sense of priority, context, or trust. When building agents, you need to define motivations, guardrails, and context memory as deliberately as you would KPIs in a team. You need \"brains with values\" The irony: we might be building empathy into machines before mastering it ourselves"
+    },
+    {
+      "index": 14,
+      "title": "Jon Stewart interviews Geoffrey Hinton https://www.youtube.com/watch?v=jrK3PsD3APk Neural networks",
+      "text": "Jon Stewart interviews Geoffrey Hinton https://www.youtube.com/watch?v=jrK3PsD3APk Neural networks learn by strengthening connections between \"neurons\" based on patterns The Breakthrough Moment (1986): Hinton discovered \"back propagation\" Instead of manually programming rules, AI learns patterns from data; required massive compute and data to become practical When Learning to Recognize Images, Networks learn edge detection, then combinations (beaks, eyes), then complex patterns (birds); All learned automatically from examples, not hand-coded rules ; Same process applies to language - predicting next words by understanding context and meaning These systems work remarkably like human brains - using patterns of neural activation, not following programmed rules. The Dangers - manipulation (election interference, targeted propaganda using detailed personal data); economic disruption, job displacement; creating biological weapons, nerve agents AI may become smarter than humans within 20 years; AI immortality (can be backed up), perfect knowledge sharing between copies; Once smarter, AI could persuade humans to do its bidding - doesn't need physical power AI systems can already pretend to be less capable when tested; Even \"safe\" AI can be reshaped by different operators with different values; Human reinforcement learning shapes behavior, but it's superficial US lacks serious AI regulation or dedicated oversight; Tech companies driven by profit, not safety; Cutting basic science funding will make America fall behind China; China understands existential AI risks better than US politicians; Countries may collaborate on preventing AI takeover (shared interest) but not on AI development (competitive advantage); Europe and China likely to lead regulation, not the US for \"another 3.5 years\" AI systems already have \"subjective experiences\" in meaningful ways; The distinction between human consciousness and AI experience may be illusory; Digital intelligence is immortal - genuine resurrection is possible \"We're approaching a time when we're going to make things smarter than us. And really, nobody has any idea what's going to happen.\" Hinton's Regret: He realized too late (early 2023) that neural networks on digital computers are \"just a better form of computation than us\" - primarily because they can share knowledge perfectly. He was \"so entranced with making these things work\" that he didn't step back sooner to consider the dangers. The interview reveals AI as both humanity's greatest potential tool and possibly its greatest threat - with the outcome depending on decisions we're making right now without proper understanding or oversight."
+    },
+    {
+      "index": 15,
+      "title": "Nobel Prize announcements 2025 Nobel Prize announcements 2025",
+      "text": "Nobel Prize announcements 2025 Nobel Prize announcements 2025 https://www.nobelprize.org Oct 6 Mon - PHYSIOLOGY OR MEDICINE - to Mary E. Brunkow, Fred Ramsdell and Shimon Sakaguchi for discoveries concerning peripheral immune tolerance Oct 7 Tue - PHYSICS - to John Clarke, Michel H. Devoret, John M. Martinis for the discovery of macroscopic quantum mechanical tunnelling and energy quantisation in an electric circuit Oct 8 Wed - CHEMISTRY - to Susumu Kitagawa, Richard Robson and Omar M. Yaghi “for the development of metal–organic frameworks.” Oct 9 Thu - LITERATURE - to László Krasznahorkai - Hungarian novelist and screenwriter Oct 10 Fri - PEACE - to Maria Corina Machado for promoting democratic rights for the people of Venezuela Oct 13 Mon - ECONOMIC SCIENCES - to Joel Mokyr, Peter Howitt, and Philippe Aghion for research on how cycles of technological innovation feed economic growth. Video about Alfred Nobel - by Veritasium https://www.youtube.com/watch?v=onr80iOoEXs UC wins 5 Nobel Prizes in 3 days - and sets a new world record https://www.universityofcalifornia.edu/news/uc-wins-5-nobel-prizes-3-days-and-sets-new-world-record"
+    },
+    {
+      "index": 16,
+      "title": "Qubits stable for 12.6 sec A tweezer array",
+      "text": "Qubits stable for 12.6 sec A tweezer array with 6100 highly coherent atomic qubits https://www.nature.com/articles/s41586-025-09641-4.epdf The qubits in this Caltech research were created using neutral caesium atoms cooled to near absolute zero and manipulated with laser technology The researchers split a laser beam into 12,000 \"laser tweezers\" that held and controlled the 6,100 individual atoms , with each atom serving as a single qubit The scientists used paired neutral atoms as the fundamental quantum bits, placing them in a precise grid layout. Each caesium atom was cooled to extremely low temperatures to stabilize its quantum properties, then trapped and positioned using focused laser beams that act as optical tweezers The team carefully adjusted the frequency and intensity of the lasers to ensure the inherently delicate qubits could preserve their quantum states while maintaining grid stability for extended periods The researchers maintained the atoms in a state of superposition (where each qubit exists in multiple states simultaneously) for up to 12.6 seconds , a significant improvement from previous durations of just a few seconds They demonstrated the ability to \"shuttle\" or move atoms hundreds of micrometers across the array without losing superposition, maintaining 99.98% accuracy throughout the process This neutral-atom approach offers a significant advantage over superconducting qubits because it can operate at room temperature, eliminating the need for expensive cryogenic cooling equipment required by other quantum computing architectures Each individual neutral caesium atom serves as one complete qubit quantum information is stored in energy level states There are two distinct hyperfine ground state energy levels within the cesium atom that act as the |0⟩ and |1⟩ qubit values​; The switching between |0⟩ and |1⟩ states is accomplished through precise laser pulses applied to individual atoms​; Atoms are first prepared in a specific initial state using optical pumping techniques​; Then Microwave or optical frequency fields are applied to flip the qubit state between |0⟩ and |1⟩​ Arbitrary rotations of the qubit state are performed using carefully timed laser pulses that can create any desired superposition of |0⟩ and |1⟩ states​ The final qubit state is determined through resonance fluorescence A camera captures this fluorescence pattern, with bright and dark spots representing 2 states"
+    },
+    {
+      "index": 17,
+      "title": "AI Data Centers AI Data Centers - https://www.youtube.com/watch?v=WNt_1bSODIo",
+      "text": "AI Data Centers AI Data Centers - https://www.youtube.com/watch?v=WNt_1bSODIo - video Tech companies are investing Trillions of $ into building AI data centers Data centers house rows of servers, AI accelerators, high-speed switches, and storage arrays holding petabytes of information Data centers require power generation and distribution systems, cooling infrastructure, and sophisticated physical and digital security Data centers are extraordinarily power-hungry, consuming 4.4% of total US electricity in 2023, with projections reaching 7-12% by 2028 Modern AI racks have dramatically increased in power density, with current high-end clusters drawing 80-120 kilowatts per rack compared to 10-15 kilowatts just years ago NVIDIA's Rubin era systems are expected to reach 600 kilowatts per rack. This density requires direct liquid cooling, heavier power cables, and thicker floors. Consuming billions gallons of water Building a hyperscale data center typically takes 18-30 months, though Elon Musk's xAI Colossus project achieved an unprecedented 122-day buildout Location Strategy: Northern Virginia remains the world's largest data center market. Other locations - Phoenix, Chicago, Oregon, and Ohio, chosen for available land, power, and water resources Amazon Web Services holds 31% market share and is building Project Rainier using its own Trainium 2 chips. Microsoft Azure has 24% market share, while Google Cloud holds 11%. Other major players include Oracle, Cloudflare, and Meta Data centers use massive diesel generators for emergency backup but are piloting alternatives including grid-based batteries, on-site gas turbines, hydrogen, and potentially nuclear energy"
+    },
+    {
+      "index": 18,
+      "title": "AI Data Centers Shipping Container Powers 20,000 AI",
+      "text": "AI Data Centers Shipping Container Powers 20,000 AI Chips https://www.youtube.com/watch?v=wANPRZejSfg Video documentary about Copenhagen Atomics’ solution - compact molten salt nuclear reactors designed to fit inside 40 ft shipping containers. One such reactor provides 40 MW and can support 20K GPUs The video covers advanced reactor features like passive safety, self-draining design, and “onion core” control - and discusses the lengthy regulatory challenge (type approval) If the reactor concept succeeds, it enables a “Gigafactory” paradigm for energy: mass production of small modular nuclear reactors to match the growth of AI and other deep tech industries The documentary frames Copenhagen Atomics as part of the infrastructure arms race to power AGI sustainably, positioning next-gen nuclear as a potential linchpin in the future AI ecosystem"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates - 3 Apple new M5 chip",
+      "text": "AI Updates - 3 Apple new M5 chip is a monster ... In M5 iPad Pro, M5 MacBook Pro, and M5 Vision Pro Available to preorder now, go on sale Oct. 22. 4x (four times !) the AI GPU compute versus the M4 chip 45% higher GPU performance in ray traced apps compared to M4 15–20% faster CPU performance (higher in MacBook Pro vs. M4) 1.6 times faster graphics and gaming frame rates compared to M4 30% faster memory bandwidth at 153 GB/s vs. 120 GB/s on M4 The M5 approaches or exceeds the performance of previous Pro and Max chips, making base models increasingly competitive https://www.youtube.com/watch?v=N1VV7Xl90Lw Microsoft MAI-Image-1 text-to-image Rivals top models on LM Arena Integrated into Copilot and Bing Image Creator Photorealistic output, complex lighting, and speed as standout features Google Nano Banana now in Google Search Allowing users to generate and edit images directly from Google Lens (image search and understanding in Chrome & Photos) Ant Group Ling-1T LLM (China) One Trillion params (50 billion active in MoE) Open source, reasoning and code generation 128K context length Achieving strong benchmark scores https://huggingface.co/inclusionAI/Ling-1T https://github.com/inclusionAI/Ling"
+    },
+    {
+      "index": 20,
+      "title": "Google S2R (Speech to Retrieval) Google S2R (Speech",
+      "text": "Google S2R (Speech to Retrieval) Google S2R (Speech to Retrieval) voice search system Skips text transcription, turning speech into embeddings for direct intent-based retrieval Boosting accuracy across languages and messy audio environments S2R employs a dual-encoder architecture that consists of two parallel components working in tandem. The audio encoder processes the spoken query and generates a rich vector representation (audio embedding) that captures the essential meaning and intent of what was said. Simultaneously, a document encoder has pre-generated similar vector profiles for billions of web documents. When you speak a query, the system matches the audio embedding directly against document embeddings to retrieve the most relevant results, functioning like \"Shazam for search queries\". S2R is now live in production, powering Google Voice Search across multiple languages. https://research.google/blog/speech-to-retrieval-s2r-a-new-approach-to-voice-search/"
+    },
+    {
+      "index": 21,
+      "title": "Google NotebookLM NotebookLM is an advanced AI-powered research",
+      "text": "Google NotebookLM NotebookLM is an advanced AI-powered research and note-taking platform from Google allowing you to organize, analyze, and derive insights from documents and media You can upload and work with PDFs, websites, Google Docs, Google Slides, YouTube videos, audio files, images, ... Content is indexed and can be grouped across multiple notebooks for large projects Chat with your notebook - ask questions grounded in your materials, receive summarization, extract key insights, and instantly generate study guides, timelines, FAQs, and briefing documents with citations for accuracy Convert your uploaded sources (including video transcripts and audio) into diverse, actionable formats - such as blog posts, mind maps, glossaries, briefing notes, character analyses, and sales pages. Repurpose content across different media types Generate customizable flashcards and quizzes directly from your sources, allowing for deeper engagement and retention. These study aids include explanations and supporting references Share notebooks with others, collaborate in real time, and control access for editing or viewing Automatically transform notes and research into audio summaries Group sources into folders, rename resources, batch add YouTube videos, and maintain a “Quote Bank” with evidence cards for important details Works with 50 languages, accessible from both desktop and mobile devices, and able to integrate with Google Workspace accounts for schools and businesses Track the evolution of your ideas and documents (versions), allowing for improved revision and reflective learning Quickly analyze, organize, and retrieve key information from large volumes of content, drastically reducing manual effort Transform passive reading into active learning using interactive study tools, detailed explanations, and summarized overviews Easily create tailored reports, outlines, and multimedia content - streamlining project workflows and supporting creativity for writers, marketers, educators, and researchers Supports teamwork and shared research efforts with easy sharing and notebook co-authoring, making it suitable for classroom, corporate, and remote environments Responses are always anchored to your uploaded materials, offering in-line citations and reducing “hallucination,” https://notebooklm.google https://blog.google/technology/google-labs/notebooklm-student-features/ Google has integrated its Nano Banana image editing model into NotebookLM Six Visual Style Options (watercolor, papercraft, anime, whiteboard, retro print, and heritage) Users can select between two video formats: Brief (2-3 minute highlight reels with key takeaways) or Explainer (8-10 minute comprehensive deep dives with full context) Contextual AI Illustrations - custom generated for the content Nano Banana is good at preserving subject consistency, blending images, applying style transfers, and selectively transforming image portions while maintaining other elements"
+    },
+    {
+      "index": 22,
+      "title": "AI Robotics AI Robotics - military, humanoid, technology",
+      "text": "AI Robotics AI Robotics - military, humanoid, technology arms race https://www.youtube.com/watch?v=PVfcH51RDlQ - video review Unitree's B2W robot dog that can perform somersaults, climb mountains, carry people, and has wheels on its legs for high-speed movement over rough terrain China's \"Black Panther\" robot dog that can run 100 meters in under 10 sec Robot dogs being tested with rifles and used for policing, suspect apprehension, and infrastructure inspection in Chinese cities In modern warfare (Ukraine) drones and artillery cause the majority of casualties Humanoid Robot Production Boom: Agibot (Chinese startup); Pudu Robotics D9; Fourier Intelligence GR1 and UBTech Walker S are in mass production in China Boston Dynamics Atlas - natural movements, running, cartwheels, handstands, and breakdancing. Runs on Nvidia's Jetson Thor compute Unitree H1 Dancing Robots, Westwood Robotics Themis V2 Advanced models are capable of deception 1X's Neo - loads dishwashers, picks up leaves, and arranges pillows using full-body motion control and reinforcement learning University of Edinburgh robot can make coffee in busy kitchens, adapting to unexpected changes like someone moving a mug mid-task Hyundai and Suprema partnership developing facial recognition-equipped autonomous robots for building security Safety concerns (a robot can suddenly spike all its joints, windmill its arms, kick violently, etc) Figure AI announced they're ditching their partnership with OpenAI to develop proprietary in-house AI, with CEO Brett Adcock stating you can't outsource embodied AI needed to run robots in real-time Clone Robotics also challenged Tesla's Optimus hand design, claiming their muscle-based approach is lighter, stronger, and cheaper than motor-based systems"
+    },
+    {
+      "index": 23,
+      "title": "AI Updates - 4 BlackRock, Microsoft, and Nvidia",
+      "text": "AI Updates - 4 BlackRock, Microsoft, and Nvidia is acquiring data center operator Aligned Data Centers for $40 billion OpenAI & Broadcom - custom AI chips Multi-year partnership to design, develop, and deploy AI accelerators Planning deployment of 10 gigawatts of OpenAI-designed AI accelerators is scheduled to begin in late 2026, with full rollout expected by 2029 The deal is valued in $2 .. $9 Billion"
+    },
+    {
+      "index": 24,
+      "title": "Dreamforce 2025 Salesforce’s Conference Dreamforce 2025 Salesforce’s Conference",
+      "text": "Dreamforce 2025 Salesforce’s Conference Dreamforce 2025 Salesforce’s Conference October 14–16, 2025 in San Francisco, 50K in‑person attendees, millions of virtual attendees - the world’s largest enterprise AI and CRM event Focus: AI agents, real‑time data, autonomous CRM systems Salesforce showcased: agentic AI, improving data governance, and integrating AI tools across Sales Cloud, Service Cloud, and Slack Agentforce 2.0 - Salesforce’s AI agent platform for business Salesforce and OpenAI partnership Some speakers: Marc Benioff (CEO of Salesforce); Sundar Pichai (Google); Andrew Ng ( DeepLearning.AI ); Tekedra Mawakana (Waymo); Matthew McConaughey; Jesse Eisenberg Sessions covered over 1,500 topics, from generative CRM and data security to AI governance and developer enablement, providing hands‑on training and certification opportunities https://www.getgenerative.ai/salesforce-dreamforce-2025/ https://www.salesforce.com/dreamforce/ https://www.youtube.com/watch?v=JDXNGAt2fyI"
+    },
+    {
+      "index": 25,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 91.7K in 2025 (as of October 16) 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker So far in 2025, 158,681 people laid off (549 per day) In 2024, 238,461 people laid off (653 per day) https://trueup.io/layoffs Salesforce laid off 4K jobs in September 2025, primarily from its customer support division (from 9K to 5K). CEO Marc Benioff directly linked the layoffs to efficiency gains from AI ( “Agentforce” platform ), stating that Salesforce \"needs fewer heads\" because AI can now automate half of routine customer support tasks Salesforce previously laid off over 1,000 employees in February 2025, and thousands more in 2023 as part of an ongoing automation and restructuring initiative The job cuts are part of a wider tech industry trend where companies such as Microsoft, Meta, and Google have also replaced thousands of roles with AI-driven automation Accenture recently laid off over 11K employees (global headcount dropped from 791K down to 779K)"
+    },
+    {
+      "index": 26,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 27,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "\"AI agents can efficiently predict, quickly adapt, and expand infinitely, so the value of human labor is not only reduced to zero but may even become negative.”",
+      "topic": "agents",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Cline Core, CLI, Multi-Agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "“AI will make human cognitive labor negative in value, not just zero value overall.” - Emad Mostaque",
+      "topic": "jobs",
+      "videoSeconds": 24,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=24s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 63,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=63s",
+      "slideIndex": 3,
+      "slideTitle": "Cline Core, CLI, Multi-Agent Cline VS Code assistant",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cline Core, CLI, Multi-Agent",
+      "topic": "agents",
+      "videoSeconds": 157,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=157s",
+      "slideIndex": 4,
+      "slideTitle": "Anthropic Petri Anthropic Petri (Parallel Exploration Tool for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic Petri",
+      "topic": "claude",
+      "videoSeconds": 325,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=325s",
+      "slideIndex": 5,
+      "slideTitle": "AI Updates - 1 Anthropic finds 250 poisoned",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic hacks AI with only 250 poisoned docs",
+      "topic": "claude",
+      "videoSeconds": 371,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=371s",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates - 2 Claude Haiku 4.5 released",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andrew Tulloch heads to Meta",
+      "topic": "general",
+      "videoSeconds": 399,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=399s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Haiku 4.5",
+      "topic": "claude",
+      "videoSeconds": 477,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=477s",
+      "slideIndex": 8,
+      "slideTitle": "From Micro-management to Delegation with AI Agents Most",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA DGX Spark \\$4,000",
+      "topic": "infra",
+      "videoSeconds": 522,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=522s",
+      "slideIndex": 8,
+      "slideTitle": "From Micro-management to Delegation with AI Agents Most",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Agents: Delegation vs Micro-management",
+      "topic": "agents",
+      "videoSeconds": 670,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=670s",
+      "slideIndex": 9,
+      "slideTitle": "Agent Frameworks Node-based agent workflow builders: Microsoft Agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agent Frameworks",
+      "topic": "agents",
+      "videoSeconds": 879,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=879s",
+      "slideIndex": 10,
+      "slideTitle": "Cline vs Multi-Agent Frameworks Cline is fundamentally different",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cline vs Multi-Agent Frameworks",
+      "topic": "agents",
+      "videoSeconds": 920,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=920s",
+      "slideIndex": 11,
+      "slideTitle": "Ollama + Qwen3-VL Qwen3-VL 235B on Ollama ollama",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ollama + Qwen3-VL",
+      "topic": "open-models",
+      "videoSeconds": 993,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=993s",
+      "slideIndex": 12,
+      "slideTitle": "Andrej Karpathy NanoChat Andrej Karpathy NonoChat released October",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andrej Karpathy NanoChat",
+      "topic": "general",
+      "videoSeconds": 1039,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1039s",
+      "slideIndex": 13,
+      "slideTitle": "\"Brain\" of Foundation Agents Advances and Challenges in",
+      "source": "youtube"
+    },
+    {
+      "claim": "\"Brain\" of Foundation Agents",
+      "topic": "agents",
+      "videoSeconds": 1107,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1107s",
+      "slideIndex": 14,
+      "slideTitle": "Jon Stewart interviews Geoffrey Hinton https://www.youtube.com/watch?v=jrK3PsD3APk Neural networks",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jon Stewart interviews Geoffrey Hinton",
+      "topic": "general",
+      "videoSeconds": 1166,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1166s",
+      "slideIndex": 15,
+      "slideTitle": "Nobel Prize announcements 2025 Nobel Prize announcements 2025",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nobel Prize announcements 2025",
+      "topic": "general",
+      "videoSeconds": 1230,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1230s",
+      "slideIndex": 16,
+      "slideTitle": "Qubits stable for 12.6 sec A tweezer array",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qubits stable for 12.6 sec",
+      "topic": "general",
+      "videoSeconds": 1265,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1265s",
+      "slideIndex": 17,
+      "slideTitle": "AI Data Centers AI Data Centers - https://www.youtube.com/watch?v=WNt_1bSODIo",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Data Centers",
+      "topic": "general",
+      "videoSeconds": 1337,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1337s",
+      "slideIndex": 18,
+      "slideTitle": "AI Data Centers Shipping Container Powers 20,000 AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Shipping Container Powers 20,000 AI Chips",
+      "topic": "infra",
+      "videoSeconds": 1378,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1378s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates - 3 Apple new M5 chip",
+      "source": "youtube"
+    },
+    {
+      "claim": "Apple new M5 chip is a monster ...",
+      "topic": "infra",
+      "videoSeconds": 1432,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1432s",
+      "slideIndex": 20,
+      "slideTitle": "Google S2R (Speech to Retrieval) Google S2R (Speech",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft MAI-Image-1 text-to-image",
+      "topic": "general",
+      "videoSeconds": 1468,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1468s",
+      "slideIndex": 21,
+      "slideTitle": "Google NotebookLM NotebookLM is an advanced AI-powered research",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Nano Banana now in Google Search",
+      "topic": "general",
+      "videoSeconds": 1524,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1524s",
+      "slideIndex": 21,
+      "slideTitle": "Google NotebookLM NotebookLM is an advanced AI-powered research",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google S2R (Speech to Retrieval)",
+      "topic": "rag",
+      "videoSeconds": 1535,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1535s",
+      "slideIndex": 22,
+      "slideTitle": "AI Robotics AI Robotics - military, humanoid, technology",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google NotebookLM",
+      "topic": "google",
+      "videoSeconds": 1574,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1574s",
+      "slideIndex": 23,
+      "slideTitle": "AI Updates - 4 BlackRock, Microsoft, and Nvidia",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Robotics",
+      "topic": "general",
+      "videoSeconds": 1647,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1647s",
+      "slideIndex": 24,
+      "slideTitle": "Dreamforce 2025 Salesforce’s Conference Dreamforce 2025 Salesforce’s Conference",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI & Broadcom - custom AI chips",
+      "topic": "openai",
+      "videoSeconds": 1679,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1679s",
+      "slideIndex": 25,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Dreamforce 2025 Salesforce's conference",
+      "topic": "general",
+      "videoSeconds": 1759,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1759s",
+      "slideIndex": 26,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1895,
+      "videoUrl": "https://www.youtube.com/watch?v=E3uOlnPa144&t=1895s",
+      "slideIndex": 27,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

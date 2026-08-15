@@ -1,0 +1,833 @@
+{
+  "id": "2026-07-17-2026-07-17-ai-updates",
+  "date": "2026-07-17",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "benchmarks",
+    "agents",
+    "data-engineering",
+    "open-models",
+    "coding",
+    "claude",
+    "openai",
+    "multimodal",
+    "safety",
+    "jobs"
+  ],
+  "video": {
+    "id": "lbNEryqhpRg",
+    "title": "Exciting AI Updates Weekly - July 17, 2026",
+    "url": "https://www.youtube.com/watch?v=lbNEryqhpRg",
+    "thumbnail": "https://i.ytimg.com/vi/lbNEryqhpRg/hqdefault.jpg",
+    "duration": 2438
+  },
+  "deck": {
+    "path": "2026/2026-07-17-AI-Updates.pptx",
+    "filename": "2026-07-17-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-07-17-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-07-17-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Vulkan and Mojo are challenging Nvidia CUDA",
+      "startSeconds": 12,
+      "label": "00:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 23,
+      "label": "00:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Cost Per Intelligence Index",
+      "startSeconds": 71,
+      "label": "01:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Muse Spark 1.1 for Agents",
+      "startSeconds": 144,
+      "label": "02:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Hermes Cloud offers VPS agents in 60 sec",
+      "startSeconds": 187,
+      "label": "03:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Nous Research $75 Mn at $1.5 B valuation",
+      "startSeconds": 196,
+      "label": "03:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Nous Research is an open-source AI lab",
+      "startSeconds": 242,
+      "label": "04:02",
+      "source": "youtube"
+    },
+    {
+      "title": "PrismML Runs 27B-params Qwen on iPhone",
+      "startSeconds": 310,
+      "label": "05:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Thinking Machines Inkling - open weight LLM",
+      "startSeconds": 367,
+      "label": "06:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Kimi K3 2.8T-A50B Open Weight LLM",
+      "startSeconds": 449,
+      "label": "07:29",
+      "source": "youtube"
+    },
+    {
+      "title": "About my channel (Lev Selector)",
+      "startSeconds": 511,
+      "label": "08:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Vulkan and Mojo vs Nvidia CUDA",
+      "startSeconds": 543,
+      "label": "09:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Qualcomm, Vulkan, Khronos Group",
+      "startSeconds": 735,
+      "label": "12:15",
+      "source": "youtube"
+    },
+    {
+      "title": "llama.cpp vs Ollama",
+      "startSeconds": 818,
+      "label": "13:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Ollama vs llama.cpp vs vLLM",
+      "startSeconds": 1023,
+      "label": "17:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Mojo language, MAX inference",
+      "startSeconds": 1078,
+      "label": "17:58",
+      "source": "youtube"
+    },
+    {
+      "title": "How to use Mojo from Python",
+      "startSeconds": 1140,
+      "label": "19:00",
+      "source": "youtube"
+    },
+    {
+      "title": "LazyGraphRAG is x25 cheaper (Nov 2024)",
+      "startSeconds": 1233,
+      "label": "20:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Fable 5 orchestrator + ChatGPT's Codex Worker",
+      "startSeconds": 1266,
+      "label": "21:06",
+      "source": "youtube"
+    },
+    {
+      "title": "SQLite vs Pinecone",
+      "startSeconds": 1315,
+      "label": "21:55",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI GPT Live Voice Models",
+      "startSeconds": 1395,
+      "label": "23:15",
+      "source": "youtube"
+    },
+    {
+      "title": "How to summarize YouTube videos on MacOS",
+      "startSeconds": 1419,
+      "label": "23:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Docker Swarm vs Kubernetes",
+      "startSeconds": 1511,
+      "label": "25:11",
+      "source": "youtube"
+    },
+    {
+      "title": "WebAssembly (WASM) vs Docker",
+      "startSeconds": 1562,
+      "label": "26:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Hyper-specific Marketing",
+      "startSeconds": 1603,
+      "label": "26:43",
+      "source": "youtube"
+    },
+    {
+      "title": "ElevenLabs - $600 Mln ARR",
+      "startSeconds": 1635,
+      "label": "27:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Leya - legal AI platform",
+      "startSeconds": 1668,
+      "label": "27:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Second Brain wiki knowledge system",
+      "startSeconds": 1695,
+      "label": "28:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Self-Improving AI Agents",
+      "startSeconds": 1790,
+      "label": "29:50",
+      "source": "youtube"
+    },
+    {
+      "title": "workflow in Claude Code",
+      "startSeconds": 1818,
+      "label": "30:18",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Helps Quantum Computers",
+      "startSeconds": 1852,
+      "label": "30:52",
+      "source": "youtube"
+    },
+    {
+      "title": "\"Compete Mode\" technique",
+      "startSeconds": 1902,
+      "label": "31:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Satya Nadella - \"reverse information paradox\"",
+      "startSeconds": 1938,
+      "label": "32:18",
+      "source": "youtube"
+    },
+    {
+      "title": "How to Use Codex",
+      "startSeconds": 1975,
+      "label": "32:55",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI ChatGPT Work - an autonomous agent",
+      "startSeconds": 2027,
+      "label": "33:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Anaconda has acquired Kilo Code",
+      "startSeconds": 2066,
+      "label": "34:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Suno source Code was hacked",
+      "startSeconds": 2125,
+      "label": "35:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Vercel \"Eve\" open source AI Agent Framework",
+      "startSeconds": 2158,
+      "label": "35:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic Rewrote Bun into Rust",
+      "startSeconds": 2194,
+      "label": "36:34",
+      "source": "youtube"
+    },
+    {
+      "title": "GitHub Repos That Feel Illegal to Know",
+      "startSeconds": 2279,
+      "label": "37:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Xbox planning to cut 50% jobs in 2027",
+      "startSeconds": 2364,
+      "label": "39:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 2390,
+      "label": "39:50",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index Meta Muse Spark 1.1 for Agents Hermes Cloud offers VPS agents in 60 sec Nous Research $75 Mn at $1.5 B valuation Nous Research is an open-source AI lab PrismML Runs 27B-params Qwen on iPhone Thinking Machines Inkling - open weight LLM Kimi K3 2.8T-A50B Open Weight LLM AI Updates - July 17, 2026 Xbox planning to cut 50% jobs in 2027 Jobs & Layoffs Vulkan and Mojo are challenging Nvidia CUDA WebAssembly (WASM) vs Docker Hyper-specific Marketing Leya - legal AI platform ElevenLabs - $600 Mln ARR Second Brain wiki knowledge system Self-Improving AI Agents /workflow in Claude Code AI Helps Quantum Computers \"Compete Mode\" technique Satya Nadella - “reverse information paradox.” How to Use Codex OpenAI ChatGPT Work - an autonomous agent Anaconda has acquired Kilo Code Suno source Code was hacked Vercel \"Eve\" open source AI Agent Framework Anthropic Rewrote Bun into Rust GitHub Repos That Feel Illegal to Know Vulkan and Mojo vs Nvidia CUDA Qualcomm, Vulkan, Khronos Group llama.cpp vs Ollama Ollama vs llama.cpp vs vLLM Mojo language, MAX inference How to use Mojo from Python LazyGraphRAG is x25 cheaper (Nov 2024) Fable 5 orchestrator +  ChatGPT's Codex Worker SQLite vs Pinecone OpenAI GPT Live Voice Models How to summarize YouTube videos on MacOS Docker Swarm vs Kubernetes"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image Data for July 16 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB GLM-5.1 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k3 - 2.8T Xiaomi MiMo-V2-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-opus-4-7-thinking 1553 ■ claude-fable-5 1551 ■ claude-opus-4-6-thinking 1550 ■ claude-opus-4-6 1549 ■ claude-opus-4-7 1548 ■ claude-opus-4-8-thinking 1535 ■ claude-opus-4-8 1533 ■ muse-spark-1.1 1532 ■ claude-opus-4-5-20251101-thinking-32k 1530 ■ kimi-k3 1529 ■ claude-sonnet-4-6 1527 ■ qwen3.7-max-preview 1527 ■ muse-spark 1525 ■ gpt-5.6-sol-xhigh 1523 ■ claude-sonnet-5-high 1523 ■ claude-opus-4-5-20251101 1523 ■ glm-5.1 1521 ■ gemini-3.1-pro-preview 1521 ■ gpt-5.4-high 1521 ■ claude-sonnet-4-5-20250929-thinking-32k 1520 ■ gpt-5.5-high 1519 ■ grok-4.5 1519 ■ gemini-3-pro 1519 ■ mimo-v2.5-pro 1518 ■ gpt-5.2-chat-latest-20260210 1516 Code Model Score ■ claude-fable-5 1507 ■ claude-opus-4-6-thinking 1504 ■ claude-opus-4-7-thinking 1503 ■ claude-opus-4-6 1498 ■ claude-opus-4-7 1494 ■ muse-spark-1.1 1493 ■ muse-spark 1487 ■ gemini-3-pro 1486 ■ kimi-k3 1486 ■ gpt-5.6-sol-xhigh 1486 ■ gemini-3.1-pro-preview 1485 ■ claude-opus-4-8-thinking 1483 ■ gpt-5.5-high 1482 ■ gpt-5.4-high 1478 ■ gemini-3.5-flash-high 1476 ■ gpt-5.2-chat-latest-20260210 1476 ■ claude-opus-4-8 1476 ■ qwen3.7-max-preview 1475 ■ gpt-5.5 1475 ■ grok-4.20-beta1 1474 ■ gemini-3.5-flash-medium 1474 ■ gemini-3-flash 1473 ■ gpt-5.5-instant 1473 ■ grok-4.20-beta-0309-reasoning 1473 ■ claude-opus-4-5-20251101-thinking-32k 1473"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index https://www.youtube.com/watch?v=nxr20lcqagg - Anthropic vs OpenAI July 17"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates Meta Muse Spark 1.1 Multimodal reasoning",
+      "text": "AI Updates Meta Muse Spark 1.1 Multimodal reasoning model for Agents Highly competitive in coding, computer use, and tool calling Outperforms Gemini 3.1 Pro and matches or beats expensive models like Opus 4.8 in agentic coding tasks at just 20% of the cost Context Length 1 Mln tokens Supports parallel agents across apps Excels in computer use tasks Robust code generation capabilities Superior multimodal vision reasoning Can be used from Claude Code, similar to Opus 4.8, much cheaper https://www.youtube.com/watch?v=gI5d2czu9JE Hermes Cloud allows to deploy agents to a VPS in 60 sec New features include an outreach lead-generation tool powered by Hunter’s API and Hermes Oracle, which pulls trending industry news from Twitter to recommend unique content angles Hermes Apollo offers a voice-controlled agent capable of building apps and websites Hermes Astros for competitor analysis linked to an Obsidian memory system A video agent for automated scripting and animation A multi-agent group chat that brainstorms and queues app development ideas https://www.youtube.com/watch?v=kURZuF5FLdo Nous Research seeks funding $75 Mn at $1.5 billion valuation Its Hermes Agent (on GitHub and HuggingFace) has built massive developer adoption Nous Research follows the Red Hat/HashiCorp playbook: give away the model, monetize at the infrastructure and services layer Agent-specific fine-tuning creates real switching costs, making Hermes stickier than general-purpose LLMs Hermes AI update \" segmented tool batch dispatch \" allowing parallel agent workflows to run much faster. Instead of executing tools one-by-one when a dependent task is present , it runs all safe actions simultaneously and only pauses unsafe ones , significantly speeding up complex, multi-step AI tasks ."
+    },
+    {
+      "index": 5,
+      "title": "Nous Research is an open-source AI lab Nous",
+      "text": "Nous Research is an open-source AI lab Nous Research is an open-source AI lab https://nousresearch.com Founded in 2022 as an anonymous online research community, formally incorporated in 2023 The ~20-person team, led by CEO Jeffrey Quesnelle and Head of Post-Training \"Teknium\", has built one of the most-used open-weight model families in existence: the Hermes series, downloaded over 55 Mln times on HuggingFace - https://www.linkedin.com/company/nousresearch https://huggingface.co/NousResearch Their technical flagship is DisTrO (Distributed Training Over-the-Internet) , which reduces inter-GPU communication bandwidth by up to x10K, enabling large model pre-training over standard internet connections rather than datacenter supercluster interconnects https://sp-edge.com/companies/3929124 ; https://github.com/NousResearch/DisTrO Hermes Agent - released Feb 2026 - is their open-source self-improving agent framework featuring a built-in learning loop that creates and refines skills from experience, with MCP support, multi-provider compatibility (Ollama, vLLM, Anthropic, etc.), and 20+ messaging platform integrations https://hermes-agent.nousresearch.com/docs/ https://github.com/nousresearch/hermes-agent The company has raised ~$70M total, with a $50M Series A led by Paradigm in April 2025. Currently raising $75 Mln at 1.5 Bln valuation Their Psyche Network uses Solana blockchain to coordinate globally distributed GPU compute for collaborative model training https://nousresearch.com/nous-psyche https://siliconangle.com/2025/04/25/nous-research-raises-50m-decentralized-ai-training-led-paradigm/ ) Jeffrey Quesnelle Nous Research CEO"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates PrismML Runs 27B-params Qwen LLM on",
+      "text": "AI Updates PrismML Runs 27B-params Qwen LLM on an iPhone 17 Pro PrismML used 1-bit and ternary quantization technique \"Bonsai\" which shrunk the model size from 54GB down to 3.9GB or 6GB It was running on iPhone at 11 tokens/sec The compressed model retain 90% to 97% of their original quality It also supports 4-bit vision and 262K token context length Also supports speculative decoding via DSpark for optimized latency Problems with complex tasks (tendency to go into loops) Prism ML (PrismML) is a Caltech-origin AI lab and startup https://prismml.com https://www.macrumors.com/2026/07/09/apple-prismml-larger-on-device-ai-models/ https://www.trendforce.com/news/2026/07/10/news-prismml-reportedly-shrinks-alibabas-qwen-3-6-to-run-on-iphone-17-pro-drawing-apples-interest/ Thinking Machines Inkling - open weight LLM From Mira Murati’s startup Thinking Machines Lab MoE (975B, 41B active) multimodal model You can ask it to fine-tune itself ! Available on Tinker, Databricks’ Unity AI Gateway, and others Inkling performs competitively on agentic and audio-heavy tasks Cost-efficient option https://thinkingmachines.ai/news/introducing-inkling/"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates Kimi K3 2.8T-A50B Open Weight LLM",
+      "text": "AI Updates Kimi K3 2.8T-A50B Open Weight LLM from Moonshot.ai 2.8T params, sparse MoE, 1M-tokens window, Multimodal Kimi K3 is accessible via Kimi’s web app, desktop clients, Kimi Code, and the Kimi API, and uses separate pricing for input and output tokens with caching‑aware billing for large workloads. Pricing $3 / $15 per 1M tokens on OpenRouter https://www.kimi.com"
+    },
+    {
+      "index": 8,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 7.06K subscribers, 296 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 9,
+      "title": "Vulkan and Mojo Vulkan and Mojo vs Nvidia",
+      "text": "Vulkan and Mojo Vulkan and Mojo vs Nvidia CUDA https://www.youtube.com/watch?v=oZagkCkBkww For 15 years Nvidia's CUDA had a monopoly. But now we have convenient alternatives - Vulkan and Mojo Vulkan is an open graphics API from video gaming. It allows users to run local LLMs seamlessly on almost any GPU, including AMD, Intel, and Apple Silicon. In many benchmarks, Vulkan runs even faster than AMD's official software https://www.vulkan.org Mojo is a new programming language designed to replace CUDA entirely. It allows developers to write clean, Python-like code that compiles directly to any hardware Mojo matched Nvidia's own hand-tuned CUDA performance on its flagship chip using a fraction of the code https://mojolang.org Qualcomm has acquired Mojo's parent company Modular for ~ $4 Bln - https://www.modular.com Qualcomm is a global semiconductor and wireless technology company headquartered in San Diego, California It designs and sells Snapdragon processors, 5G modems, and connectivity chips that power smartphones and other connected devices It earns additional revenue by licensing its extensive portfolio of wireless communication patents worldwide https://simple.wikipedia.org/ wi ki/Qualcomm Vulkan is a cross‑platform graphics and compute API Created by the Khronos Group as a modern successor to OpenGL Vulkan 1.0 spec was released on 16 Feb 2016 Khronos hosts Vulkan’s core ecosystem on GitHub via the organization `KhronosGroup`, including key repositories such as `Vulkan-Docs`, `Vulkan-Headers`, and `Vulkan-Loader` The official entry point promoted in Khronos materials is https://github.khronos.org which routes into these Vulkan-related repositories and other tools maintained by the group https://en.wikipedia.org/wiki/Vulkan The Khronos Group is a non‑profit, member‑driven industry consortium that creates open, royalty‑free standards for graphics, compute, XR, and related domains. Its standards portfolio includes OpenGL, WebGL, Vulkan, OpenCL, OpenXR, SYCL, OpenVX, glTF, etc. 150–180 member organizations Headquarters located in Beaverton, Oregon, USA https://www.khronos.org"
+    },
+    {
+      "index": 10,
+      "title": "llama.cpp vs Ollama Switching from Ollama to the",
+      "text": "llama.cpp vs Ollama Switching from Ollama to the new llama.cpp WebUI llama.cpp is lighter, faster to start, and more transparent, with simpler dependencies and direct control over GGUF models The WebUI and CLI give enough usability that Ollama’s “batteries included” wrapper no longer feels worth the overhead and limitations Better GPU utilization (including Vulkan) and lower disk footprint than relying on Ollama’s curated layer https://www.xda-developers.com/i-ditched-ollama-after-using-llama-cpp-webui-and-im-not-going-back/ llama.cpp WebUI can run fully locally on a Mac Apple Silicon and run local or hf (HuggingFace) models It includes llama-server with Metal acceleration for M‑series GPUs brew install llama.cpp llama-cli -m /path/to/model.gguf llama-server -m /path/to/model.gguf llama-server -hf nzgnzg73/llama_cpp_WebUI:Q4_K_S Hit http://localhost:8080/ in the browser to reach the WebUI https://docs.openwebui.com/getting-started/quick-start/connect-a-provider/starting-with-llama-cpp/ curl http://127.0.0.1:8080/v1/chat/completions \\ -H \"Content-Type: application/json\" \\ -d '{ \"model\": \"local-model\", \"messages\": [{\"role\":\"user\",\"content\":\"Say hi from llama.cpp\"}] }' # pip install llama-cpp-python from llama_cpp import Llama llm = Llama( model_path=\"/path/to/model.gguf\", n_gpu_layers=-1,  # use GPU if available n_ctx=4096, ) out = llm( \"Q: Name solar system's planets.\\nA:\", max_tokens=128, stop=[\"Q:\", \"\\n\"]) print(out[\"choices\"][0][\"text\"]) # Running llama.cpp with Vulkan engine GGML_VULKAN=ON llama-cli -m /path/to/model.gguf -ngl 50"
+    },
+    {
+      "index": 11,
+      "title": "Ollama vs llama.cpp vs vLLM Ollama - developer-friendly",
+      "text": "Ollama vs llama.cpp vs vLLM Ollama - developer-friendly local runner that wraps a llama.cpp‑style GGUF engine, prioritizing simplicity, easy installs, and single-user or low-concurrency use Mojo is a new language used to implement fast kernels for ML MAX (Modular Accelerated Xecution) AI inference platform for Mojo Modular’s booth at GTC 2026 showed: Live GPU programming in Mojo on Blackwell A port of a CUTLASS Blackwell Conv2D kernel to Mojo, with claims of up to 6.6× faster performance than cuDNN on B200 DeepSeek V3 and FLUX.2 image generation running on B200 Mojo is approaching \"production\" (ver. 1.0.0b2 beta) Mojo will need to prove itself against years of optimization in llama.cpp and vLLM vLLM is a production inference server optimized for NVIDIA GPUs, high throughput, and many concurrent requests, with features like PagedAttention, continuous batching, and long-context optimizations llama.cpp is the low-level C++ workhorse: extremely portable, CPU-friendly, and great with aggressive quantization, ideal for edge devices and fine-grained control For local tinkering, Ollama or llama.cpp are usually best For multi-agent systems, long histories, and multi-user backends, vLLM typically wins on effective throughput and scalability"
+    },
+    {
+      "index": 12,
+      "title": "How to use Mojo from Python How to",
+      "text": "How to use Mojo from Python How to use Mojo from Python https://mojolang.org/docs/manual/python/ math_mod.mojo from std.python import PythonObject from std.python.bindings import PythonModuleBuilder def add(a: PythonObject, b: PythonObject) -> PythonObject: return Int(py=a) + Int(py=b) @export def PyInit_math_mod() -> PythonObject: var mb = PythonModuleBuilder(\"math_mod\") mb.def_function[add](\"add\") return mb.finalize() main.py import mojo.importer # install Mojo import hook import math_mod # compiles and loads math_mod.mojo print(math_mod.add(2, 3))  # 5 On first import, Mojo compiles math_mod.mojo to a shared library and caches it; subsequent imports just load the compiled module MAX (Modular Accelerated Xecution) AI inference platform https://www.modular.com/open-source/max High-performance AI inference framework from Modular Lets you build, optimize, and serve models across CPUs and GPUs Includes the MAX Engine (graph compiler and runtime), MAX Graph (Python API for building pipelines), and MAX Serve (OpenAI‑style serving layer) MAX allows deep customization using Mojo-written kernels MAX is mostly open source. MAX Python API, serving library, GPU kernel stack, and open‑weight model pipelines are already open‑sourced under Apache‑2.0 and live in the modular repo"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates LazyGraphRAG is x25 cheaper (Nov 2024)",
+      "text": "AI Updates LazyGraphRAG is x25 cheaper (Nov 2024) It is a graph‑based RAG method that skips expensive corpus‑wide LLM summarization at indexing time Instead it builds and uses graph structure “just in time” while answering queries This makes indexing cost roughly equal to plain vector RAG and about 0.1% of traditional GraphRAG’s cost At query time, it combines vector search with iterative deepening over lightweight graph neighborhoods, spending LLM tokens only where they improve relevance Benchmarks show it outperforms other RAG methods, including full GraphRAG, for both local and global queries while using as little as 4% of GraphRAG’s query cost https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/ Fable 5 orchestrator +  ChatGPT's Codex Worker Fable 5 by itself is costly and slow Fable 5 + Claude Opus 4.8 - mediocre results Opus prompted to mimic Fable - failed Fable 5 orchestrator +  ChatGPT's Codex Worker - winner https://www.youtube.com/watch?v=noWZ8AyD8kI SQLite vs Pinecone SQLite is a 25-year-old database installed on billions of devices It has sqlite-vec extension that allows to store and query vector embeddings within a single local file using standard SQL Instead of using complex, expensive cloud-hosted databases like Pinecone The local setup eliminates network latency, slashes bills, and keeps user data secure on-device, even running in-browser via WebAssembly Companies like Turso are rebuilding SQLite in Rust to handle concurrent writes for agentic AI While dedicated engines are still necessary for massive-scale vector searches, SQLite + AI offers a highly efficient, private, and zero-cost alternative for most applications https://www.youtube.com/watch?v=psSL3Fi5zJE"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates OpenAI GPT Live Voice Models GPT",
+      "text": "AI Updates OpenAI GPT Live Voice Models GPT Live 1 & GPT Live 1 Mini full-duplex interaction rapid voice responses while a reasoning model like GPT 5.5 handles heavy background tasks Massive performance leap in complex, noisy telecommunications environments compared to previous voice modes Examples - real-time visual outfit critiques, interactive data browsing on screen, seamless multi-language translation, and precise temporal awareness for tracking real-time tasks https://www.youtube.com/watch?v=AwWmUhm4xYA How to summarize YouTube videos on MacOS Open System Settings → Keyboard → Text Replacements Click the \"+\" button In the Replace field, type a short trigger string, for example: ,,s In the With field, paste: Please make a short 100-120 words plain text summary of this - Press Enter to save Open Google Gemini, click into chat field, press ,,s followed by space , then paste the YouTube URL YouTube URL Text Summary"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Docker Swarm is a lightweight alternative",
+      "text": "AI Updates Docker Swarm is a lightweight alternative to Kubernetes Kubernetes is over-engineered for roughly 85% of cases Docker Swarm is a Docker’s built‑in container orchestration system It lets you manage a cluster of Docker Engines as if they were a single virtual host You enable “swarm mode” on one Docker node, which becomes a manager, then join other nodes as workers Together they form a swarm cluster. You define services (essentially replicated containers) and a desired state, such as “run 5 replicas of this image,” using the Docker CLI or Compose The manager schedules tasks onto workers, constantly reconciling actual state with desired state—if a node dies, the manager reschedules the missing replicas elsewhere Swarm also provides built‑in overlay networking, internal DNS and load balancing for services, plus rolling updates and automatic rollback https://www.youtube.com/watch?v=e80nlacPl84 WebAssembly (WASM) vs Docker WASM module is a lightweight binary that executes compiled bytecode inside a compact, secure sandbox This structure slashes startup times from seconds to under a millisecond and cuts memory footprints down to a few megabytes Major platforms like Cloudflare and Akamai are already deploying WASM at massive scale While Docker remains dominant for heavy, stateful jobs like databases and machine learning, WASM is becoming the go-to standard for edge computing, serverless functions, and untrusted AI tool execution https://www.youtube.com/watch?v=U8yzw0rc-RI"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates Hyper-specific Marketing Julia McCoy argues that",
+      "text": "AI Updates Hyper-specific Marketing Julia McCoy argues that generic niches are dead , and 76% of e-commerce stores fail due to picking the wrong audience T o succeed, sellers must target hyperspecific \"micro-aesthetics\" by combining identities, interests, and contexts (e.g., \" Corgi eating ramen\"). Using an AI research stack consisting of Google Trends, Exploding Topics, and TikTok, creators can identify rising trends before validating them on Etsy McCoy recommends using Printify’s low-risk, print-on-demand model to cheaply test up to 20 micro-niches simultaneously, advising sellers to ruthlessly kill underperforming niches while scaling the immediate winners https://www.youtube.com/watch?v=5m-ez2sW_vo . Leya (Legora) - legal AI platform Swedish AI Startup (2023) London, NY, 650+ employees https://legora.com ElevenLabs - $600 Mln ARR Scale their human-like voice synthesis https://www.youtube.com/watch?v=J0bce9WQJ-g"
+    },
+    {
+      "index": 17,
+      "title": "Second-Brain Wiki Second Brain wiki knowledge system By",
+      "text": "Second-Brain Wiki Second Brain wiki knowledge system By Wes Roth - following Andre Karpathy Obsidian wiki idea using md files It uses Claude Code to ingest, cross-link, and summarize raw notes, tweets, and research papers into a flat folder structure This creates an evolving knowledge graph that allows users to query their personal data for actionable insights Ultimately, it automates workflows like tracking projects or schedules while ensuring users retain total data ownership https://www.youtube.com/watch?v=cwf2vEAigKA Your-Second-Brain/ │ ├── .cursor/ or .claude/       # Configuration directories for your local AI tools ├── Inbox/                     # Quick text captures, dictations, and unorganized notes ├── Raw/                       # Immutable source files (web scrapes, transcripts, raw API data) │ ├── Wiki/                      # The Compounding Knowledge Base (Managed by the AI Librarian) │   ├── Concepts/              # Broad topic overviews (e.g., [[Machine Learning]]) │   ├── Entities/              # Specific elements (e.g., [[OpenAI]], [[Wes Roth]]) │   └── Summaries/             # AI-generated cliff notes and metadata summaries of Raw documents │ ├── Dashboards/                # Actionable visualization layers │   ├── Projects.md            # Kanban board or task dashboard │   ├── Index.md               # Dynamic structural anchor for human browsing │   └── Log.md                 # System operational changelog │ └── claude.md                  # The AI System Rulebook (The \"Employee Handbook\")"
+    },
+    {
+      "index": 18,
+      "title": "AI Updates Self-Improving AI Agents | Evolving the",
+      "text": "AI Updates Self-Improving AI Agents | Evolving the Harness, Not the Model https://www.youtube.com/watch?v=KoDohnhLpJM Explores \"loop engineering\" - the practice of improving AI agents by iteratively modifying their \"harness\" (the surrounding software code, prompts, and tools) Through a real-world experiment, the creator demonstrates how a secondary, stronger AI model successfully diagnoses an agent's failure to process long log files, pinpointing a data clamping bottleneck in the harness By raising a configuration value within a strictly defined \"editable surface,\" the fixing model resolves the issue Crucially, the video advocates for a safe, human-in-the-loop workflow, verifying updates against hidden tests and submitting manual pull requests rather than deploying changes automatically"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates AI Helps Quantum Computers Q-day -",
+      "text": "AI Updates AI Helps Quantum Computers Q-day - when quantum computers can break modern encryption How many qbits needed? Number dropped x40 times from 20 Mln to 0.5 Mln. Google, Cloudflare, and IBM have moved their post-quantum security deadlines up to 2029 Julia McCoy warns about the immediate threat of \"harvest now, decrypt later,\" where adversaries steal data today to decrypt in the future. She advises businesses to audit their security stacks immediately https://www.youtube.com/watch?v=FpbIPqVuNFw /workflow in Claude Code Claude writes typescript to orchestrate multi-agent systems A single project can deploy dozens of background sub-agents across structured phases: understanding, researching, refactoring, and verifying Running asynchronously from the primary session thread, these workflows execute complex codebase-wide tasks such as deep vulnerability sweeps or game development optimization Developers must actively manage their token budgets, caps, and agent sizing to control costs effectively https://www.youtube.com/watch?v=9pj3-zDw4eU"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates \"Compete Mode\" technique A powerful prompting",
+      "text": "AI Updates \"Compete Mode\" technique A powerful prompting strategy for Claude Code, originally shared by Anthropic’s head of product, Angela Jen Prompting Claude to spawn multiple parallel sub-agents - such as an operator, a strategist, and a skeptic - that work independently on a task without seeing each other's progress. A separate blind judge agent evaluates their final outputs to select and refine the winning version The competition approach produces a cleaner, significantly more interactive website with less filler text However, because it consumes more time and tokens, the creator advises saving this tactic for high-priority projects https://www.youtube.com/watch?v=PqlnPcae5OQ Satya Nadella - “reverse information paradox.” Companies using AI are taking a risk of giving away valuable proprietary knowledge along with paying for AI services They share their data, prompts, and corrections - which can be used to train models and benefiting providers This creates growing information asymmetry and potential competitive risk It is ironic to hear this from Microsoft because Microsoft itself is engaged in advancing AI and collecting user data through tools like Copilot https://www.theregister.com/ai-and-ml/2026/07/13/microsoft-chief-turns-hostile-on-frontier-ai-labs-warns-companies-to-guard-their-ip/5270628"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates How to Use Codex Matthew Berman",
+      "text": "AI Updates How to Use Codex Matthew Berman shares advanced tips and tricks for using Codex How to strategically match task difficulty with the correct GPT-5.6 model sizes (Soul, Terra, and Luna) and adjustments to thinking efforts How to effectively cross-manage and delegate tasks using parallel Codex threads, clean up outdated rules within the configurations, and add features through integrations like Zapier plugins and community-sourced skill libraries Using \"goals\" automation loops Controlling desktop sessions from mobile devices via QR codes Setting up strict lifecycle hooks and approval filters to prevent accidental file deletion or security breaches https://www.youtube.com/watch?v=etduwo9Lu3M OpenAI ChatGPT Work - an autonomous agent that integrates into apps like Gmail and Slack It turns high-level goals into finished outputs like documents, decks, sites, and apps by orchestrating tools across your apps, files, browser, and desktop Powered by GPT‑5.6, it is designed for long-lived projects, keeping context over hours and automating multi-step workflows, including scheduled recurring tasks such as weekly reports or marketing campaigns It can perform “computer use” via the ChatGPT desktop app, operate over team tools and data sources, and publish directly to simple hosted sites, positioning it as a collaborative work partner rather than just a chat interface - https://openai.com/chatgpt-work/"
+    },
+    {
+      "index": 22,
+      "title": "AI Updates Anaconda has acquired Kilo Code Kilo",
+      "text": "AI Updates Anaconda has acquired Kilo Code Kilo Code - open-source agent engineering platform,  used by 3+ Mln developers Kilo enables teams to build and run specialized AI agents for tasks like planning, coding, and debugging within existing tools such as VS Code, JetBrains, and the CLI It supports routing across 500+ models from 60+ providers, avoiding vendor lock-in, and processes nearly 10 trillion tokens monthly Combined with Anaconda’s ecosystem for packages and environments, the acquisition aims to deliver secure, enterprise-scale AI agent workflows For now, nothing changes for users - Kilo remains independent, with continued open development and unchanged products, contracts, and support https://www.anaconda.com/blog/anaconda-acquires-kilo-code https://www.anaconda.com https://kilo.ai Suno source Code was hacked A hacker accessed Suno’s internal source code and infrastructure by infecting an employee with a worm that stole GitHub and cloud credentials, then shared data with 404 Media The leaked code and logs reportedly detail how Suno scraped music and lyrics at scale from sites like YouTube Music, Deezer, Genius, stock music libraries and hundreds of thousands of podcasts via RSS feeds , including acapella tracks, using commercial proxy services The hacker also obtained a customer list with email addresses and phone numbers https://www.engadget.com/2215772/a-hacker-accessed-suno-source-code-that-reportedly-details-how-the-company-scraped-millions-of-songs/"
+    },
+    {
+      "index": 23,
+      "title": "AI Updates Vercel \"Eve\" - open source file-system-first",
+      "text": "AI Updates Vercel \"Eve\" - open source file-system-first AI Agent Framework Eve simplifies agent development by structuring an entire AI agent as a single folder containing modular TypeScript and Markdown files for instructions, skills, tools, and sub-agents An automatic compiler bundles these files together without manual imports Eve is specifically designed for production-grade reliability The framework is utilizing Vercel's infrastructure,  supports durable session checkpoints, isolated code execution sandboxes, human-in-the-loop approval gates (demonstrated via Slack), and built-in evaluation workflows, allowing developers to scale highly reliable agents to millions of users. https://www.youtube.com/watch?v=m8VC2SV2igM Anthropic Rewrote Bun into Rust Bun, the JavaScript toolkit acquired by Anthropic Bun is a fast JavaScript runtime that also includes a bundler, transpiler (including TypeScript→JavaScript), and package manager It was rewritten from Zig to Rust in 11 days or early May 2026 Using 64 parallel Claude AI agents (at a simulated cost of $165K) ported over 500K lines of code, resolving 128 long-standing bugs and reducing binary size by 20%. https://www.youtube.com/watch?v=CXSvKcLovAk agent.ts instructions.md skills/ tools/ sub_agents/ channels/ schedules/ evals/ sandbox/"
+    },
+    {
+      "index": 24,
+      "title": "Very Good GitHub Repos Based on the video",
+      "text": "Very Good GitHub Repos Based on the video \"GitHub Repos That Feel Illegal to Know\" https://www.youtube.com/watch?v=jgsDu9MubJM https://github.com/freeCodeCamp/freeCodeCamp https://github.com/codecrafters-io/build-your-own-x https://github.com/kamranahmedse/developer-roadmap https://github.com/ossu/computer-science https://github.com/EbookFoundation/free-programming-books https://github.com/TheAlgorithms https://github.com/yangshun/tech-interview-handbook https://github.com/donnemartin/system-design-primer https://github.com/immich-app/immich - local photos https://github.com/Stirling-Tools/Stirling-PDF - work with PDF https://github.com/localsend/localsend - secure file sharing https://github.com/excalidraw/excalidraw - white board https://github.com/AppFlowy-IO/AppFlowy - like Notion https://github.com/coollabsio/coolify - like self-hosted Vercel https://github.com/public-apis/public-apis - APIs https://github.com/ripienaar/free-for-dev - cloud infra https://github.com/ollama/ollama - Ollama https://github.com/sindresorhus/awesome - index of indexes"
+    },
+    {
+      "index": 25,
+      "title": "AI Updates WebAssembly (Wasm 3.0) is breaking JavaScript's",
+      "text": "AI Updates WebAssembly (Wasm 3.0) is breaking JavaScript's 30-year browser monopoly Wasm enables languages like C++, Rust, and Go to e xecute inside a safe browser sandbox at near-native speeds The release of Wasm 3.0 introduces native garbage collection , drastically reducing overhead for managed languages like Java and Kotlin Beyond the browser, Wasm is moving to serverless environments and the edge, directly competing with heavy Docker containers due to its sub-millisecond cold starts and strict security Ultimately, JavaScript and WebAssembly are becoming collaborative partners rather than rivals, with JavaScript acting as the front-end glue and Wasm running the heavy-lifting engine room https://www.youtube.com/watch?v=VQHRUQDCh_Q"
+    },
+    {
+      "index": 26,
+      "title": "Jobs & AI Xbox planning to cut 50%",
+      "text": "Jobs & AI Xbox planning to cut 50% jobs in 2027 https://www.youtube.com/@ThePrimeTimeagen Michael B. Paulson (a.k.a. ThePrimeagen) analyzes a major restructuring memo from Xbox's new CEO, Asha Xbox is cutting approximately 3,200 jobs through fiscal year 2027, starting with 1,600 immediate terminations, while four studios will leave Xbox management altogether. The division is struggling with weak margins, high costs tied to AI, and stagnant Game Pass growth Most shockingly, the memo reveals that some departments operate under up to 14 layers of management !! To restore accountability, Microsoft plans to flatten this structure down to five or fewer layers . Viewing AI as a tool for employee replacement backfires Using it for amplification - succeeds A Gartner study reveals that 80% of companies deploying AI cut staff, yet these layoffs failed to improve financial returns Cloudflare, Oracle, and Coinbase experienced stock drops or talent risks after cutting employees while citing AI-driven productivity gains Gartner predicts half of these companies will rehire for the same roles by 2027 https://www.youtube.com/watch?v=Yrhoz61_sqQ"
+    },
+    {
+      "index": 27,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 121K in 2026 (as of July 17, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 167,688 people laid off (847 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 28,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 29,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Cost Per Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vulkan and Mojo are challenging Nvidia CUDA",
+      "topic": "infra",
+      "videoSeconds": 12,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=12s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 23,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=23s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cost Per Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": 71,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=71s",
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Muse Spark 1.1 for Agents",
+      "topic": "agents",
+      "videoSeconds": 144,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=144s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Meta Muse Spark 1.1 Multimodal reasoning",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hermes Cloud offers VPS agents in 60 sec",
+      "topic": "agents",
+      "videoSeconds": 187,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=187s",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates Meta Muse Spark 1.1 Multimodal reasoning",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nous Research $75 Mn at $1.5 B valuation",
+      "topic": "general",
+      "videoSeconds": 196,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=196s",
+      "slideIndex": 5,
+      "slideTitle": "Nous Research is an open-source AI lab Nous",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nous Research is an open-source AI lab",
+      "topic": "open-models",
+      "videoSeconds": 242,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=242s",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates PrismML Runs 27B-params Qwen LLM on",
+      "source": "youtube"
+    },
+    {
+      "claim": "PrismML Runs 27B-params Qwen on iPhone",
+      "topic": "open-models",
+      "videoSeconds": 310,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=310s",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates PrismML Runs 27B-params Qwen LLM on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Thinking Machines Inkling - open weight LLM",
+      "topic": "open-models",
+      "videoSeconds": 367,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=367s",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates Kimi K3 2.8T-A50B Open Weight LLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kimi K3 2.8T-A50B Open Weight LLM",
+      "topic": "open-models",
+      "videoSeconds": 449,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=449s",
+      "slideIndex": 8,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "About my channel (Lev Selector)",
+      "topic": "general",
+      "videoSeconds": 511,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=511s",
+      "slideIndex": 8,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vulkan and Mojo vs Nvidia CUDA",
+      "topic": "infra",
+      "videoSeconds": 543,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=543s",
+      "slideIndex": 9,
+      "slideTitle": "Vulkan and Mojo Vulkan and Mojo vs Nvidia",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qualcomm, Vulkan, Khronos Group",
+      "topic": "general",
+      "videoSeconds": 735,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=735s",
+      "slideIndex": 10,
+      "slideTitle": "llama.cpp vs Ollama Switching from Ollama to the",
+      "source": "youtube"
+    },
+    {
+      "claim": "llama.cpp vs Ollama",
+      "topic": "open-models",
+      "videoSeconds": 818,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=818s",
+      "slideIndex": 10,
+      "slideTitle": "llama.cpp vs Ollama Switching from Ollama to the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ollama vs llama.cpp vs vLLM",
+      "topic": "open-models",
+      "videoSeconds": 1023,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1023s",
+      "slideIndex": 11,
+      "slideTitle": "Ollama vs llama.cpp vs vLLM Ollama - developer-friendly",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mojo language, MAX inference",
+      "topic": "infra",
+      "videoSeconds": 1078,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1078s",
+      "slideIndex": 12,
+      "slideTitle": "How to use Mojo from Python How to",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to use Mojo from Python",
+      "topic": "general",
+      "videoSeconds": 1140,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1140s",
+      "slideIndex": 12,
+      "slideTitle": "How to use Mojo from Python How to",
+      "source": "youtube"
+    },
+    {
+      "claim": "LazyGraphRAG is x25 cheaper (Nov 2024)",
+      "topic": "general",
+      "videoSeconds": 1233,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1233s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates LazyGraphRAG is x25 cheaper (Nov 2024)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fable 5 orchestrator + ChatGPT's Codex Worker",
+      "topic": "agents",
+      "videoSeconds": 1266,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1266s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates OpenAI GPT Live Voice Models GPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "SQLite vs Pinecone",
+      "topic": "general",
+      "videoSeconds": 1315,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1315s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates OpenAI GPT Live Voice Models GPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI GPT Live Voice Models",
+      "topic": "openai",
+      "videoSeconds": 1395,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1395s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates Docker Swarm is a lightweight alternative",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to summarize YouTube videos on MacOS",
+      "topic": "general",
+      "videoSeconds": 1419,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1419s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates Hyper-specific Marketing Julia McCoy argues that",
+      "source": "youtube"
+    },
+    {
+      "claim": "Docker Swarm vs Kubernetes",
+      "topic": "general",
+      "videoSeconds": 1511,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1511s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates Hyper-specific Marketing Julia McCoy argues that",
+      "source": "youtube"
+    },
+    {
+      "claim": "WebAssembly (WASM) vs Docker",
+      "topic": "general",
+      "videoSeconds": 1562,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1562s",
+      "slideIndex": 17,
+      "slideTitle": "Second-Brain Wiki Second Brain wiki knowledge system By",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hyper-specific Marketing",
+      "topic": "general",
+      "videoSeconds": 1603,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1603s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates Self-Improving AI Agents | Evolving the",
+      "source": "youtube"
+    },
+    {
+      "claim": "ElevenLabs - $600 Mln ARR",
+      "topic": "general",
+      "videoSeconds": 1635,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1635s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates Self-Improving AI Agents | Evolving the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Leya - legal AI platform",
+      "topic": "general",
+      "videoSeconds": 1668,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1668s",
+      "slideIndex": 19,
+      "slideTitle": "AI Updates AI Helps Quantum Computers Q-day -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Second Brain wiki knowledge system",
+      "topic": "general",
+      "videoSeconds": 1695,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1695s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates \"Compete Mode\" technique A powerful prompting",
+      "source": "youtube"
+    },
+    {
+      "claim": "Self-Improving AI Agents",
+      "topic": "agents",
+      "videoSeconds": 1790,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1790s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates \"Compete Mode\" technique A powerful prompting",
+      "source": "youtube"
+    },
+    {
+      "claim": "workflow in Claude Code",
+      "topic": "coding",
+      "videoSeconds": 1818,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1818s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates How to Use Codex Matthew Berman",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Helps Quantum Computers",
+      "topic": "general",
+      "videoSeconds": 1852,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1852s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Anaconda has acquired Kilo Code Kilo",
+      "source": "youtube"
+    },
+    {
+      "claim": "\"Compete Mode\" technique",
+      "topic": "general",
+      "videoSeconds": 1902,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1902s",
+      "slideIndex": 22,
+      "slideTitle": "AI Updates Anaconda has acquired Kilo Code Kilo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Satya Nadella - \"reverse information paradox\"",
+      "topic": "general",
+      "videoSeconds": 1938,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1938s",
+      "slideIndex": 23,
+      "slideTitle": "AI Updates Vercel \"Eve\" - open source file-system-first",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to Use Codex",
+      "topic": "coding",
+      "videoSeconds": 1975,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=1975s",
+      "slideIndex": 24,
+      "slideTitle": "Very Good GitHub Repos Based on the video",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI ChatGPT Work - an autonomous agent",
+      "topic": "agents",
+      "videoSeconds": 2027,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2027s",
+      "slideIndex": 24,
+      "slideTitle": "Very Good GitHub Repos Based on the video",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anaconda has acquired Kilo Code",
+      "topic": "general",
+      "videoSeconds": 2066,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2066s",
+      "slideIndex": 25,
+      "slideTitle": "AI Updates WebAssembly (Wasm 3.0) is breaking JavaScript's",
+      "source": "youtube"
+    },
+    {
+      "claim": "Suno source Code was hacked",
+      "topic": "multimodal",
+      "videoSeconds": 2125,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2125s",
+      "slideIndex": 26,
+      "slideTitle": "Jobs & AI Xbox planning to cut 50%",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vercel \"Eve\" open source AI Agent Framework",
+      "topic": "agents",
+      "videoSeconds": 2158,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2158s",
+      "slideIndex": 26,
+      "slideTitle": "Jobs & AI Xbox planning to cut 50%",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic Rewrote Bun into Rust",
+      "topic": "claude",
+      "videoSeconds": 2194,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2194s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "GitHub Repos That Feel Illegal to Know",
+      "topic": "general",
+      "videoSeconds": 2279,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2279s",
+      "slideIndex": 28,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Xbox planning to cut 50% jobs in 2027",
+      "topic": "jobs",
+      "videoSeconds": 2364,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2364s",
+      "slideIndex": 28,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2390,
+      "videoUrl": "https://www.youtube.com/watch?v=lbNEryqhpRg&t=2390s",
+      "slideIndex": 29,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

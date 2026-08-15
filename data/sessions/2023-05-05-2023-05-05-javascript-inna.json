@@ -1,0 +1,340 @@
+{
+  "id": "2023-05-05-2023-05-05-javascript-inna",
+  "date": "2023-05-05",
+  "title": "Javascript-Inna",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "general",
+    "rag"
+  ],
+  "video": {
+    "id": "XcaiKyivTBw",
+    "title": "Javascript - history, libraries, frameworks - May 4, 2023",
+    "url": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+    "thumbnail": "https://i.ytimg.com/vi/XcaiKyivTBw/hqdefault.jpg",
+    "duration": 1958
+  },
+  "deck": {
+    "path": "2023/2023-05-05-Javascript-Inna.pptx",
+    "filename": "2023-05-05-Javascript-Inna.pptx",
+    "title": "Javascript-Inna",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-05-05-Javascript-Inna.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-05-05-Javascript-Inna.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "The Top 15 Programming Languages",
+      "startSeconds": 137,
+      "label": "02:17",
+      "source": "youtube"
+    },
+    {
+      "title": "JavaScript History",
+      "startSeconds": 481,
+      "label": "08:01",
+      "source": "youtube"
+    },
+    {
+      "title": "CSS Frameworks",
+      "startSeconds": 1378,
+      "label": "22:58",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "JavaScript Inna Botchkina May 5, 2023",
+      "text": "JavaScript Inna Botchkina May 5, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Software Engineer UX Developer Project",
+      "text": "About the Speaker Software Engineer UX Developer Project Manager Former Research Scientist (UCSF) New York / San Francisco"
+    },
+    {
+      "index": 3,
+      "title": "Technology of front-end development HTML - HyperText Markup",
+      "text": "Technology of front-end development HTML - HyperText Markup Language   [The bone of web application] the standard markup language used to structure content on the web, enabling the creation of formatted text, images, and interactive elements within web pages CSS - Cascading Style Sheets   [The skin of the application] a styling language used to control the appearance and layout of HTML elements on a web page by applying design rules and formatting JavaScript [The mind and muscle of application] a versatile, high-level programming language predominantly used for adding interactivity, dynamic content, and complex functionality to web pages. JavaScript allows developers to create dynamic and interactive web pages by adding client-side scripting to HTML pages."
+    },
+    {
+      "index": 4,
+      "title": "Technology of front-end development",
+      "text": "Technology of front-end development"
+    },
+    {
+      "index": 5,
+      "title": "The Top 15 Programming Languages (as of November",
+      "text": "The Top 15 Programming Languages (as of November 2022, in Mln of active developers) JavaScript - 17.4 Python - 15.7 Java - 14 C/C++ - 11 C# - 10 PHP - 7.9 Kotlin - 5 Visual Dev Tools - 5 Swift - 3.5 Go - 3.3 Objective C - 2.4 Rust - 2.2 Ruby - 2.1 Dart - 1.8 Lua - 1.4"
+    },
+    {
+      "index": 6,
+      "title": "JavaScript is the most widely used programming language",
+      "text": "JavaScript is the most widely used programming language in the world Used to make dynamic and interactive websites and web apps Primarily known as a Client-side scripting language, running in web browsers to provide interactivity, animations, and dynamic content updates Also became a popular Server-side language via Node.js, a runtime environment that enables JavaScript to be executed on the server side, allowing developers to build scalable and high-performance web applications and APIs using JavaScript Key characteristics of JavaScript 1. Interpreted: JavaScript is an interpreted language, meaning that it is executed directly by the browser without the need for compilation. (Versus compiled languages like C and Java) 2. Object-oriented: JavaScript supports object-oriented programming with prototypal inheritance, enabling code reuse and modularity. 3. Dynamically-typed: Variables in JavaScript can hold values of any type without needing explicit type declarations, and types can be changed during runtime. (However, TypeScript is statically-typed.)"
+    },
+    {
+      "index": 7,
+      "title": "Key characteristics of JavaScript (continued) 4. Event-driven: JavaScript",
+      "text": "Key characteristics of JavaScript (continued) 4. Event-driven: JavaScript is designed to respond to user actions or events (such as clicks or keypresses), making it well-suited for creating interactive web applications. 5. First-class functions: Functions in JavaScript are first-class objects, meaning they can be assigned to variables, passed as arguments, or returned from other functions. 6. Asynchronous: JavaScript supports asynchronous programming with features like callbacks, Promises, and async/await, which allows for non-blocking execution of code. 7. Client-side and server-side: Though originally designed for client-side web development, JavaScript can also be used for server-side programming with platforms like Node.js. 8. Cross-platform: JavaScript can be run on any platform with a web browser, making it a highly portable and platform-independent language. 9. Garbage-collected: JavaScript uses automatic memory management, which frees the programmer from having to manage memory allocation and deallocation. 10. ECMAScript standard: JavaScript is an implementation of the ECMAScript standard, which defines its core syntax and features. The standard is updated periodically to introduce new features and improvements."
+    },
+    {
+      "index": 8,
+      "title": "JavaScript in mobile phones (mobile app development): Mobile",
+      "text": "JavaScript in mobile phones (mobile app development): Mobile web applications: responsive and interactive web applications that run in a mobile browser Hybrid mobile apps: a web-based app is wrapped inside a native container, which can be installed on a mobile device like a native app. Via h ybrid mobile app development frameworks, such as React Native, Ionic or Apache Cordova (previously known as PhoneGap). Such apps can be run on iOS or Android Progressive Web Apps (PWAs): installed on mobile devices and function similarly to native apps. JavaScript plays a crucial role in the development of PWAs, enabling features like offline capabilities, push notifications, and background syncing. NativeScript: Another framework that allows developers to build native mobile apps for iOS and Android using JavaScript (or TypeScript), along with XML and CSS for UI components. Android Java Kotlin iOS Swift Objective-C (legacy) Both React Native (JavaScript) Xamarin (C#) The most common languages for native mobile app development"
+    },
+    {
+      "index": 9,
+      "title": "https://en.wikipedia.org/wiki/JavaScript https://en.wikipedia.org/wiki/JavaScript_syntax https://www.javatpoint.com/es5-vs-es6# JavaScript History JavaScript: Created as",
+      "text": "https://en.wikipedia.org/wiki/JavaScript https://en.wikipedia.org/wiki/JavaScript_syntax https://www.javatpoint.com/es5-vs-es6# JavaScript History JavaScript: Created as a scripting language for websites Can now be used for server-side development (through Node.js, Deno, and many more ) Here is a brief history of JavaScript: 1995 : JavaScript (originally called Mocha, then LiveScript) was created by Brendan Eich at Netscape. It is introduced in Netscape Navigator 2.0 as a scripting language for web browsers. 1997: standardized by ECMA (European Computer Manufacturers Association) The first edition of ECMAScript ( ES1 ) was released, which became the standardized version of JavaScript 2005: AJAX (Asynchronous JavaScript and XML)  - web apps can communicate with the server and update parts of the page 2006: John Resig releases jQuery , a popular JavaScript library that simplifies DOM manipulation and event handling 2008: Google released Chrome, which included the V8 JavaScript engine, greatly  improving JavaScript performance 2009: Ryan Dahl introduced Node.js , a framework to run JavaScript on the server-side 2012: Microsoft introduced TypeScript , a statically typed superset of JavaScript, compiles into standard Javascript 2010-2016: The rise of modern JS frameworks and libraries, such as Angular (2010), Backbone (2010), Ember (2011), React (2013), Vue (2014), Redux (2015), Svelte (2016) 2015: ES6 (the sixth edition of ECMAScript) was released ( arrow functions, classes, modules, promises , ...) 2017: ES8 (the eighth edition of ECMAScript) was released ( async/await, ...) 2018-2022: the rise of serverless architecture, WebAssembly, Progressive Web Apps (PWAs), and new frameworks like Next.js, Deno etc Brendan Eich"
+    },
+    {
+      "index": 10,
+      "title": "Library : YOUR CODE CONTROLS A LIBRARY .",
+      "text": "Library : YOUR CODE CONTROLS A LIBRARY . A collection of pre-written code that focuses on specific tasks or functionality (for example, manipulating the DOM, handling events, or performing calculations) The developer maintains control over the application's flow and explicitly decides when and where to use the library. Frameworks vs Libraries Angular is a component-based framework that encourages modular development and comes with a wide range of features, such as data binding, dependency injection, routing, and form handling. Developers build their applications within the Angular framework's structure , following the provided conventions. Framework : A FRAMEWORK CONTROLS YOUR CODE / APPLICATION . (\" Inversion of control \") A set of conventions, rules, and tools that dictate how the application should be organized and how different parts should interact Developers follow these conventions and build their applications within the framework's structure Enforces a specific way/structure of building applications Opinionated and more comprehensive than libraries React is primarily considered a library because it focuses on providing a way to build reusable UI components and efficiently update the DOM, without imposing a specific structure or organization on the entire application."
+    },
+    {
+      "index": 11,
+      "title": "Client-side JavaScript libraries: jQuery : A popular library",
+      "text": "Client-side JavaScript libraries: jQuery : A popular library for DOM manipulation, event handling, and AJAX requests that simplifies cross-browser compatibility. React.js : A library developed by Facebook for building user interfaces, focusing on the efficient rendering and updating of components. Redux : A predictable state container for JavaScript applications, often used with React to manage application state more effectively and consistently. Lodash : A utility library that provides a wide range of functions for working with arrays, objects, strings, and other data structures, simplifying and optimizing JavaScript code. Axios : A promise-based HTTP client for making requests to RESTful APIs, offering a simple and consistent API for both client-side and server-side applications. Chart.js : A library for creating responsive and interactive charts and graphs using HTML5 canvas, with support for various chart types such as line, bar, pie, and more. D3.js : A library for creating data-driven documents, enabling complex visualizations using SVG, HTML, and CSS. JavaScript Frameworks and Libraries Framework Library Code Calls Calls"
+    },
+    {
+      "index": 12,
+      "title": "Client-side JavaScript frameworks: Angular.js : A comprehensive framework",
+      "text": "Client-side JavaScript frameworks: Angular.js : A comprehensive framework developed by Google for building complex, single-page web applications using a component-based architecture. Vue.js : A progressive JavaScript framework for building user interfaces, enabling developers to create reactive and reusable components, manage application state, and efficiently update the DOM. Ember.js : A full-featured framework for building ambitious web applications with a focus on conventions and productivity. Backbone.js : A lightweight framework for building web applications with a RESTful JSON interface, using a modular approach with models, views, and collections. Svelte : A modern framework for building user interfaces, designed with a unique approach where components are compiled away during the build process, resulting in highly optimized, efficient, and small-sized output code that directly manipulates the DOM without the need for a virtual DOM."
+    },
+    {
+      "index": 13,
+      "title": "Server-side JavaScript frameworks: Node.js : A platform that",
+      "text": "Server-side JavaScript  frameworks: Node.js : A platform that allows JavaScript to be used for server-side development, built on the V8 JavaScript engine and providing an event-driven, non-blocking I/O model. Next.js : A framework for building server-rendered React applications with support for static site generation, server-side rendering, and API routes. It simplifies the development of universal (isomorphic) JavaScript applications and provides performance optimizations like automatic code-splitting and prefetching. Express.js : A minimal, unopinionated web framework for Node.js, widely used for building APIs and web applications. Koa.js : A modern, lightweight framework for Node.js, developed by the team behind Express.js, offering a more expressive and robust foundation for web applications and APIs. Sails.js : A framework for building Node.js applications, inspired by Ruby on Rails, focusing on convention over configuration and providing a full-featured MVC architecture. Nest.js : A progressive framework for building scalable server-side applications with Node.js, offering a modular architecture and built-in support for TypeScript. Uses some features from Angular."
+    },
+    {
+      "index": 14,
+      "title": "jquery https://en.wikipedia.org/wiki/JQuery https://github.com/jquery/jquery https://jquery.com jQuery is a popular,",
+      "text": "jquery https://en.wikipedia.org/wiki/JQuery https://github.com/jquery/jquery https://jquery.com jQuery is a popular, fast, and lightweight JavaScript library created by John Resig in August 2006 provides easy-to-use API to handle events, create animations, perform AJAX requests, and manipulate the DOM (Document Object Model) John Resig Chief Software Architect at Khan Academy <script src=\"https://code.jquery.com/jquery-3.6.0.min.js\"></script> <h1 id=\"myElement\">Hello, World!</h1> <button id=\"myButton\">Click me</button> <script> $(document).ready(function() { $('#myButton').on('click', function() { $('#myElement').text('You clicked the button!'); }); }); </script>"
+    },
+    {
+      "index": 15,
+      "title": "Typescript https://en.wikipedia.org/wiki/TypeScript https://www.typescriptlang.org TypeScript was released in 2012",
+      "text": "Typescript https://en.wikipedia.org/wiki/TypeScript https://www.typescriptlang.org TypeScript was released in 2012 It’s developed by Microsoft, who made it FOSS (Free and Open Source Software) It is a strict syntactical superset of JavaScript, it adds (optional) static typing, which means that all JS is also valid TS TypeScript can be used for both client-side and server-side execution (Node.js) To convert TypeScript to JavaScript, one can use TypeScript Compiler, or the Babel compiler function add(left: number , right: number ): number { return left + right; }"
+    },
+    {
+      "index": 16,
+      "title": "Node.JS https://en.wikipedia.org/wiki/Node.js https://github.com/nodejs/node https://nodejs.org/en Node.js is an open-source,",
+      "text": "Node.JS https://en.wikipedia.org/wiki/Node.js https://github.com/nodejs/node https://nodejs.org/en Node.js is an open-source, server-side, cross-platform, JavaScript runtime environment that executes JavaScript code outside of a web browser It allows developers to create scalable and high-performance network applications using JavaScript on the server-side Node.js has a large and active community of developers Node.js offers a vast array of modules and packages through its built-in package manager, npm , making it easy to find and integrate external libraries and frameworks into your Node.js projects. Some commands: node myscript.js # run script npm install mypackage # install npm init # create a new Node.js project node server.js # start Node.js server node debug app.js # debug npm test # test application node # enter interactive session (REPL = Read-Evaluate-Print Loop) npm update # update all the packages listed in the package.json Some other npm commands: run, publish, search, view, audit, outdated, dedupe, ls"
+    },
+    {
+      "index": 17,
+      "title": "Deno https://deno.com https://en.wikipedia.org/wiki/Deno_(software) https://github.com/denoland/deno https://deno.com/company Deno and Node.js",
+      "text": "Deno https://deno.com https://en.wikipedia.org/wiki/Deno_(software) https://github.com/denoland/deno https://deno.com/company Deno and Node.js are both Javascript / Typescript runtime environments built on the V8 JavaScript engine. Both created by Ryan Dahl . Node released in 2009. Deno released in 2020. Deno is newer and focuses on security, simplicity, and web standards, while Node.js is a mature and widely-adopted platform. Ryan Dahl Deno is Node.js improved Advantages of Deno: Security: strict security policies by default (for example, for network requests) TypeScript support: built-in, without a separate compilation step like in Node Standard library: core modules for common tasks, reducing the need for external dependencies Module system: ES Modules and URL-based imports, no need for a package manager like npm Built-in tools: for testing, formatting, and linting Browser-compatible API: more aligned with web standards,"
+    },
+    {
+      "index": 18,
+      "title": "ReactJS vs Angular vs Vue ReactJS from Facebook,",
+      "text": "ReactJS vs Angular vs Vue ReactJS from Facebook, very popular, complicated https://github.com/facebook/react https://en.wikipedia.org/wiki/React_(software) https://www.newline.co/fullstack-react-with-typescript#packages - tutorials Angular from Google, TypeScript-based https://github.com/angular https://en.wikipedia.org/wiki/Angular_(web_framework) Vue growing the fastest, loved by open-source community, light and flexible, easy to use and learn https://en.wikipedia.org/wiki/Vue.js https://github.com/vuejs"
+    },
+    {
+      "index": 19,
+      "title": "Svelte (2016) & SvelteKit (2022) Rich Harris https://en.wikipedia.org/wiki/Svelte",
+      "text": "Svelte (2016) & SvelteKit (2022) Rich Harris https://en.wikipedia.org/wiki/Svelte https://github.com/sveltejs/svelte https://svelte.dev https://svelte.dev/tutorial Svelte in 100 seconds! https://www.youtube.com/watch?v=rv3Yq-B8qp4 15 min intro (3 years ago) https://www.youtube.com/watch?v=043h4ugAj4c 35 short videos going through tutorial (in 2020): https://www.youtube.com/watch?v=zojEMeQGGHs&list=PL4cUxeGkcC9hlbrVO_2QFVqVPhlZmz7tO&index=1 Rethinking Reactivity (2019) https://www.youtube.com/watch?v=AdNJ3fydeao Svelte was recently voted as the most loved web framework with the most satisfied developers drawing the most interest in learning it svelte is written in Typescript .svelte files contain components containing script, css, html, and custom syntax. You need to compile it into standard HTML, CSS, JavaScript files by running command: npm run build Svelte: slender and elegant pronounced as  [svelt] Reactive programming: \"when something changes, the code knows what to update at declaration time \". Analogy: Lotus 123 spreadsheet was much faster than Apple VisiCalc, because it was updating only what needed to be recalculated. Similarly, Svelte is much faster than ReactJS, etc. Svelte produces code which is small and very fast"
+    },
+    {
+      "index": 20,
+      "title": "CSS Framework is a package containing pre-written and",
+      "text": "CSS Framework is a package containing pre-written and standardized CSS code; often contain resources like responsive grid systems, pre-defined UI components and elements like buttons, forms, text, and more responsive design! (the website looks good when rendered on different screen sizes) top CSS Frameworks: .. Bootstrap (#1), .. Tailwind (#2), .. Foundation, Bulma, Materialize, Semantic UI, UIKit component-based CSS frameworks (like Bootstrap and most others) vs utility-first CSS frameworks (Tailwind CSS) Bootstrap : A widely-used and comprehensive front-end framework for creating responsive, mobile-first websites and applications. It includes a variety of pre-designed components, utilities, and a grid system. Tailwind CSS : A utility-first CSS framework for rapidly building custom user interfaces. Instead of pre-designed components, Tailwind provides low-level utility classes that can be combined to create unique designs. It comes with common utility patterns and has responsive utility variants to easily build responsive literally anything! Tiny build size (~10kb) because all unused CSS is removed. CSS Frameworks"
+    },
+    {
+      "index": 21,
+      "title": "https://tailwindcss.com https://en.wikipedia.org/wiki/Tailwind_CSS https://github.com/tailwindlabs/tailwindcss (~70K stars !!) Tailwind CSS",
+      "text": "https://tailwindcss.com https://en.wikipedia.org/wiki/Tailwind_CSS https://github.com/tailwindlabs/tailwindcss (~70K stars !!) Tailwind CSS Tailwind CSS is an open source CSS framework It creates a list of \"utility\" CSS classes Multiple utility classes can be used together Tailwind CSS is written in JavaScript, runs via Node.js, and installs with npm or yarn Tailwind automatically removes all unused CSS when building for production, which means your final CSS bundle is the smallest it could possibly be You can create your own custom css or classes https://csstailwind.com/how-to-add-custom-css-or-classes-in-tailwindcss/ Tailwind CSS: <div class=\"w-full md:w-3/4 lg:w-1/2\"></div> vs. regular CSS media queries: div {width: 50%;} @media screen and (max-width: 1024px) and (min-width: 768px) {  div {width: 75%; }} @media screen and (max-width: 767px){ div { width: 100% }}"
+    },
+    {
+      "index": 22,
+      "title": "Bootstrap https://getbootstrap.com https://github.com/twbs/bootstrap https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework) Bootstrap is a popular",
+      "text": "Bootstrap https://getbootstrap.com https://github.com/twbs/bootstrap https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework) Bootstrap is a popular open-source front-end framework It was created by Twitter developers Mark Otto and Jacob Thornton in 2011 It provides pre-built components, CSS styles, and JavaScript functionality It helps building responsive and mobile-first websites Bootstrap is known for its responsive grid system, which automatically adjusts the layout of elements based on the screen size (desktops, tablets, and smartphones) It includes a variety of buttons, forms, navigation bars, modals, and other styled components It provides a set of utility classes for quickly applying CSS styles, as well as a range of JavaScript plugins Bootstrap allows to speed up the development process, improve consistency across projects, and create visually appealing, responsive websites with minimal effort Mark Otto                 Jacob Thornton"
+    },
+    {
+      "index": 23,
+      "title": "Let and Const : New variable declarations -",
+      "text": "Let and Const : New variable declarations - provide block scoping and prevent accidental global variable creation. Arrow Functions : using the => syntax. They have lexical this scoping Iterators and for...of loops: iterate over collections, arrays or sets Classes : prototype-based inheritance (class, constructor, and extends keywords) Promises : handle asynchronous operations, standardized approach to callbacks Template Literals : create strings with embedded expressions, using backticks (` `) and ${expression} syntax. Default Parameters : can set default values for function parameters Rest and Spread Operators : The rest operator (...) allows a function to accept an indefinite number of arguments as an array, while the spread operator can be used to expand arrays or objects in a concise way Destructuring Assignment : unpacking values from arrays (or properties from objects) into distinct variables Enhanced Object Literals : Improved syntax for object literals, including shorthand property names, computed property keys, and concise method definitions Modules : split code into modules, use import and export keywords (for functions, objects, and values) Generators : Functions that can be paused and resumed, allowing for more flexible and powerful control flow New Built-in Objects and Methods: Map, Set, WeakMap, WeakSet , along with new methods on existing objects, such as Array.prototype.includes() , String.prototype.startsWith() … and some more stuff New Features in ES6 (the sixth edition of ECMAScript)"
+    },
+    {
+      "index": 24,
+      "title": "Before the introduction of Promises in JavaScript, asynchronous",
+      "text": "Before the introduction of Promises in JavaScript, asynchronous operations were commonly handled using callback functions. A callback function is a function that is passed as an argument to another function, and is executed when the operation completes. Callbacks can lead to complex and hard-to-read code when multiple asynchronous operations need to be chained together. Promises provide a cleaner and more readable way to handle asynchronous operations and avoid the so-called \"callback hell\". In JavaScript, a Promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. A Promise is in one of three states: Pending (initial state) Fulfilled (completed successfully, and the Promise has a resulting value) Rejected (operation failed, and the Promise has a reason for the failure) A Promise is said to be \"settled\" if it is either fulfilled or rejected. You can use the .then() method to attach callbacks that will be called when the Promise is fulfilled, or the .catch() method to attach callbacks that will be called when the Promise is rejected. The .finally() method can be used to attach callbacks that will be called when the Promise is settled, regardless of whether it was fulfilled or rejected Promise ( introduced in 2015 in ES6)"
+    },
+    {
+      "index": 25,
+      "title": "# using callback (old way) function httpRequest(url, callback)",
+      "text": "# using callback (old way) function httpRequest(url, callback) { var xhr = new XMLHttpRequest(); xhr.open('GET', url, true); xhr.onload = function() { if (xhr.status === 200) { callback(null, xhr.responseText); } else { callback(xhr.statusText); } }; xhr.onerror = function() { callback('Network error'); }; xhr.send(); } httpRequest(' https://example.com ', function(error, response) { // callback if (error) { console.error(error); } else { console.log(response); } } ); # using promise (new way) function httpRequest(url) { return new Promise (function(resolve, reject) { var xhr = new XMLHttpRequest(); xhr.open('GET', url, true); xhr.onload = function() { if (xhr.status === 200) { resolve(xhr.responseText); } else { reject(xhr.statusText); } }; xhr.onerror = function() { reject('Network error'); }; xhr.send(); }); } httpRequest(' https://example.com ') // returns promise . then (function(response) { console.log(response); }) . catch (function(error) { console.error(error); }); Promise"
+    },
+    {
+      "index": 26,
+      "title": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch async function logJSONData() { const response =",
+      "text": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch async function logJSONData() { const response = await fetch( \"https://example.com/movies.json\" ); const jsonData = await response.json(); console.log(jsonData); } In this example we’re fetching a JSON file - and logging it to the console fetch() returns a promise that resolves with a Response object json() returns a promise that resolves with the JSON async await (introduced in ES8 in 2017) Async/Await serve as syntactic sugar for promises. Instead of attaching a .then, you can use the await keyword to tell JS to stop code execution until the promise is settled. Stopping your entire website while you wait for a request is obviously not that practical, so JS only allows you to use await within async functions and modules . That way, only the function/module stops, not your whole website. JS runs async functions in their own ?, meaning the rest of your code can keep working while you wait"
+    },
+    {
+      "index": 27,
+      "title": "I like tutorials by Derek Banas He made",
+      "text": "I like tutorials by Derek Banas He made a 1.5 hr tutorial in 2015 based on JavaScript version ES5 (2009) https://www.youtube.com/watch?v=fju9ii8YsGs https://www.newthinktank.com/2015/09/learn-javascript-one-video/ - cheatsheet Note that Derek has also a more recent (2019) set of 13 tutorials as a Playlist (using ES6 standard of 2015): JavaScript Tutorial Real Projects https://www.youtube.com/watch?v=IyDVvGmzTlo&list=PLGLfVvz_LVvTP2Op3wZlaGTUcgCfDuwn8 Differences between ES5 & ES6: https://www.javatpoint.com/es5-vs-es6# https://en.wikipedia.org/wiki/JavaScript https://en.wikipedia.org/wiki/JavaScript_syntax JavaScript Tutorials // Major features in ES6: // let and const const name = “world” let exampleWebsiteHTML = 5 // Arrow-function syntax const c = (name) => {console.log(`Hello ${name}!`)} // Promises fetch(‘ https://example.com ’).then( (resp) => {exampleWebsiteHTML = resp.text()} ) https://www.newline.co/fullstack-react-with-typescript#packages"
+    },
+    {
+      "index": 28,
+      "title": "Additional Slides",
+      "text": "Additional Slides"
+    },
+    {
+      "index": 29,
+      "title": "JavaScript for the Haters .. https://www.youtube.com/watch?v=aXOChLn5ZdQ The Weird",
+      "text": "JavaScript for the Haters .. https://www.youtube.com/watch?v=aXOChLn5ZdQ The Weird History of JavaScript .. https://www.youtube.com/watch?v=Sh6lK57Cuk4 JavaScript: How It's Made (Fireship channel): .. https://www.youtube.com/watch?v=FSs_JYwnAdI Why I Hate JavaScript (Fireship channel): .. https://www.youtube.com/watch?v=qvFG8J7SUDE The JavaScript Survival Guide (Fireship channel): .. https://www.youtube.com/watch?v=9emXNzqCKyg Watch Fireship YouTube Channel https://www.youtube.com/@Fireship JavaScript: \"high-level single-threaded, garbage-collected, interpreted (or just-in-time compiled),  prototype-based, multi-paradigm, dynamic language with a non-blocking event loop\" Recommended Development Tools IntelliJ IDEA - includes webstorm - https://www.jetbrains.com/webstorm/download/ VS Code (+ extensions ...) Cypress.io  ( https://www.cypress.io ) for debugging"
+    },
+    {
+      "index": 30,
+      "title": "Graphs and Charts Chart.js ( https://www.chartjs.org ) -",
+      "text": "Graphs and Charts Chart.js ( https://www.chartjs.org ) - simple and flexible D3.js ( https://d3js.org ) - poreful, steeper learning curve Chartist.js ( https://gionkunz.github.io/chartist-js/ ) - lightweight and responsive, SVG-based charts ECharts ( https://echarts.apache.org ) - open-source from Baidu C3.js ( http://c3js.org ) - D3-based, wrapper around D3, easier to use Plotly.js ( https://plotly.com/javascript/ ) - open-source built on top of D3.js and stack.gl"
+    },
+    {
+      "index": 31,
+      "title": "Grid Libraries Many (51) grids libraries are shown",
+      "text": "Grid Libraries Many (51) grids libraries are shown here: https://jsgrids.statico.io AG Grid: https://ag-grid.com https://github.com/ag-grid/ag-grid https://www.youtube.com/watch?v=KS-wg5zfCXc https://youtu.be/8OeJn75or2w - enterprise features https://www.ag-grid.com/javascript-data-grid/grid-features/ https://www.ag-grid.com/javascript-data-grid/ Some other libraries: https://gridjs.io/docs/examples/resizable https://datatables.net https://www.jtable.org"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "JavaScript Inna Botchkina May 5, 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "The Top 15 Programming Languages",
+      "topic": "general",
+      "videoSeconds": 137,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw&t=137s",
+      "slideIndex": 11,
+      "slideTitle": "Client-side JavaScript libraries: jQuery : A popular library",
+      "source": "youtube"
+    },
+    {
+      "claim": "JavaScript History",
+      "topic": "general",
+      "videoSeconds": 481,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw&t=481s",
+      "slideIndex": 21,
+      "slideTitle": "https://tailwindcss.com https://en.wikipedia.org/wiki/Tailwind_CSS https://github.com/tailwindlabs/tailwindcss (~70K stars !!) Tailwind CSS",
+      "source": "youtube"
+    },
+    {
+      "claim": "CSS Frameworks",
+      "topic": "general",
+      "videoSeconds": 1378,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw&t=1378s",
+      "slideIndex": 31,
+      "slideTitle": "Grid Libraries Many (51) grids libraries are shown",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Speaker Software Engineer UX Developer Project",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Software Engineer UX Developer Project",
+      "source": "slide"
+    },
+    {
+      "claim": "Technology of front-end development HTML - HyperText Markup",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 3,
+      "slideTitle": "Technology of front-end development HTML - HyperText Markup",
+      "source": "slide"
+    },
+    {
+      "claim": "Technology of front-end development",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 4,
+      "slideTitle": "Technology of front-end development",
+      "source": "slide"
+    },
+    {
+      "claim": "The Top 15 Programming Languages (as of November",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 5,
+      "slideTitle": "The Top 15 Programming Languages (as of November",
+      "source": "slide"
+    },
+    {
+      "claim": "JavaScript is the most widely used programming language",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 6,
+      "slideTitle": "JavaScript is the most widely used programming language",
+      "source": "slide"
+    },
+    {
+      "claim": "Key characteristics of JavaScript (continued) 4. Event-driven: JavaScript",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 7,
+      "slideTitle": "Key characteristics of JavaScript (continued) 4. Event-driven: JavaScript",
+      "source": "slide"
+    },
+    {
+      "claim": "JavaScript in mobile phones (mobile app development): Mobile",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 8,
+      "slideTitle": "JavaScript in mobile phones (mobile app development): Mobile",
+      "source": "slide"
+    },
+    {
+      "claim": "https://en.wikipedia.org/wiki/JavaScript https://en.wikipedia.org/wiki/JavaScript_syntax https://www.javatpoint.com/es5-vs-es6# JavaScript History JavaScript: Created as",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 9,
+      "slideTitle": "https://en.wikipedia.org/wiki/JavaScript https://en.wikipedia.org/wiki/JavaScript_syntax https://www.javatpoint.com/es5-vs-es6# JavaScript History JavaScript: Created as",
+      "source": "slide"
+    },
+    {
+      "claim": "Library : YOUR CODE CONTROLS A LIBRARY .",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 10,
+      "slideTitle": "Library : YOUR CODE CONTROLS A LIBRARY .",
+      "source": "slide"
+    },
+    {
+      "claim": "Client-side JavaScript frameworks: Angular.js : A comprehensive framework",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=XcaiKyivTBw",
+      "slideIndex": 12,
+      "slideTitle": "Client-side JavaScript frameworks: Angular.js : A comprehensive framework",
+      "source": "slide"
+    }
+  ]
+}

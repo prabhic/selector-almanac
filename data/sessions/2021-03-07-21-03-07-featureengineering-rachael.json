@@ -1,0 +1,225 @@
+{
+  "id": "2021-03-07-21-03-07-featureengineering-rachael",
+  "date": "2021-03-07",
+  "title": "FeatureEngineering Rachael",
+  "series": "data-science-2021",
+  "topics": [
+    "general",
+    "ml-fundamentals"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-03-07-FeatureEngineering_Rachael.pptx",
+    "filename": "21-03-07-FeatureEngineering_Rachael.pptx",
+    "title": "FeatureEngineering Rachael",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-03-07-FeatureEngineering_Rachael.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-03-07-FeatureEngineering_Rachael.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "What is it? Why is it important? How",
+      "text": "What is it? Why is it important? How do we implement it? Presented by Rachael Phillips March 7, 2021 Cleaning Data & Feature Engineering"
+    },
+    {
+      "index": 2,
+      "title": "Agenda What is Cleaning Data & Feature Engineering",
+      "text": "Agenda What is Cleaning Data & Feature Engineering and what are the different techniques? Why are they important and what can we do with them? Techniques and Explanations"
+    },
+    {
+      "index": 3,
+      "title": "What is Cleaning Data & Feature Engineering? Feature",
+      "text": "What is Cleaning Data & Feature Engineering? Feature Engineering is a methodology to choose better features for a given machine learning problem via data mining techniques. Techniques Include: Removing Junk (Columns and Rows) Imputation (Filling in Missing Data if Applicable) Handling Outliers Binning Log Transformation One-hot Encoding Grouping Operations Feature Split Scaling Extracting Date Feature Importance Extracting Synthetic Features From Text"
+    },
+    {
+      "index": 4,
+      "title": "Why is Cleaning Data & Feature Engineering Important?",
+      "text": "Why is Cleaning Data & Feature Engineering Important? Improve a model’s predictive performance Reduce computational or data needs Improve interpretability of the results Cleaning Data and Feature Engineering are the MOST important part of Data Science and take the majority of time for a Data Science Project! https://blog.ldodds.com/2020/01/31/do-data-scientists-spend-80-of-their-time-cleaning-data-turns-out-no/#:~:text=variant%20of%20it%3A-,Data%20scientists%20spend%2080%25%20of%20their%20time,data%20rather%20than%20creating%20insights.&text=Data%20scientists%20only%20spend%2020,data%20quality%2C%20standards%2C%20access."
+    },
+    {
+      "index": 5,
+      "title": "Tools for Feature Engineering Kalyan Veeramachaneni https://www.linkedin.com/in/kalyan-veeramachaneni-9861b821/ Max",
+      "text": "Tools for Feature Engineering Kalyan Veeramachaneni https://www.linkedin.com/in/kalyan-veeramachaneni-9861b821/ Max Kanter https://www.linkedin.com/in/jmaxkanter/ Antonia Mey * < antonia.mey@fu-berlin.de > Christoph Wehmeyer * < christoph.wehmeyer@fu-berlin.de > Fabian Paul Hao Wu Frank Noé Group in Berlin Franziska Horn , Robert Pack , Michael Rieger Cornell University Maximilian Christ ( maximilianchrist.com , max.christ@me.com ) Nils Braun ( nilslennartbraun@gmail.com ) Julius Neuffer ( julius.neuffer@blue-yonder.com ) Sri Satish Ambati"
+    },
+    {
+      "index": 6,
+      "title": "Removing Junk & Imputation Impute the mean/median of",
+      "text": "Removing Junk & Imputation Impute the mean/median of the feature for missing values Python code: from sklearn.impute import SimpleImputer imr = SimpleImputer(missing_values=np.nan, strategy='mean') imr = imr.fit(df.values) imputed_data = imr.transform(df.values) Imputation using (Most Frequent) or (Zero/Constant) values Python code: df = df.fillna(0) Removing Junk from Data Could Contain the Following Steps: Removing columns and rows that have no information (all missing data) Removing columns and rows that have all the same information (one value for each the entire column or row) Removing features that are not useful For Missing Data, we can Impute: Imputation is simply filling in missing data with various algorithms."
+    },
+    {
+      "index": 7,
+      "title": "Imputation - MICE Multivariate Imputation by Chained Equation",
+      "text": "Imputation - MICE Multivariate Imputation by Chained Equation (MICE): Filling the missing data multiple times. The chained equations approach is also very flexible and can handle different variables of different data types (i.e., continuous or binary) as well as complexities such as bounds, or survey skip patterns. Age Gender Income NA F 40000 50 NA 120000 25 M NA Python code to implement MICE: import numpy as np from sklearn.experimental import enable_iterative_imputer from sklearn.impute import IterativeImputer imp = IterativeImputer(max_iter=10, random_state=0) imp.fit([[1, 2], [3, 6], [4, 8], [np.nan, 3], [7, np.nan]]) X_test = [[np.nan, 2], [6, np.nan], [np.nan, 6]] # the model learns that the second feature is double the first print(np.round(imp.transform(X_test)))"
+    },
+    {
+      "index": 8,
+      "title": "Other Imputation Methods K-NN: This means that the",
+      "text": "Other Imputation Methods K-NN: This means that the new point is assigned a value based on how closely it resembles the points in the training set. Stochastic regression imputation: It is quite similar to regression imputation which tries to predict the missing values by regressing it from other related variables in the same dataset plus some random residual value. Extrapolation and Interpolation: It tries to estimate values from other observations within the range of a discrete set of known data points. Hot-Deck imputation: Works by randomly choosing the missing value from a set of related and similar variables. K-NN: import numpy as np from sklearn.impute import KNNImputer nan = np.nan X = [[1, 2, nan], [3, 4, 3], [nan, 6, 5], [8, 8, 7]] imputer = KNNImputer(n_neighbors=2, weights=\"uniform\") imputer.fit_transform(X) Stochastic regression imputation: imputer = IterativeImputer(BayesianRidge()) impute_data = pd.DataFrame(imputer.fit_transform(full_data)) Extrapolation and Interpolation: import matplotlib.pyplot as plt from scipy import interpolate x = np.arange(0, 10) y = np.exp(-x/3.0) f = interpolate.interp1d(x, y) Hot-Deck imputation: df.fillna(method='ffill', inplace=True)"
+    },
+    {
+      "index": 9,
+      "title": "Outliers What is an outlier? An observation that",
+      "text": "Outliers What is an outlier? An observation that lies an abnormal distance from a random sample in a population. Two kinds: mild and extreme outliers. How can we detect outliers? Basic methodologies include data visualization of boxplots and scatterplots: Create a boxplot in python: # Import libraries import matplotlib.pyplot as plt import numpy as np # Creating dataset np.random.seed(10) data = np.random.normal(100, 20, 200) fig = plt.figure(figsize =(10, 7)) # Creating plot plt.boxplot(data) # show plot plt.show() Create a scatterplot in Python: x = np.linspace(0, 10, 30) y = np.sin(x) plt.plot(x, y, 'o', color='black')"
+    },
+    {
+      "index": 10,
+      "title": "Handling Outliers Methods to handle outliers include: Filtering",
+      "text": "Handling Outliers Methods to handle outliers include: Filtering out the extreme outliers in pre-processing of data – if a feature is above or below a certain amount, filter out that observation Remove or change outliers during post-test analysis – remove outliers or trim your data by a certain amount Change outlier values – adjust the outliers so that they make sense Consider the underlying distribution Consider the mild outliers"
+    },
+    {
+      "index": 11,
+      "title": "Binning Also known as discrete binning or binning,",
+      "text": "Binning Also known as discrete binning or binning, is a technique to reduce the effects of minor observation errors. Histograms are an example of binning. Binning data is beneficial when your data is very noisy because it will reduce noise, however, this methodology does lose some information about the data. Python code: df[colname] = pd.qcut(df[column], 10 )"
+    },
+    {
+      "index": 12,
+      "title": "Log Transformation This method replaces x values with",
+      "text": "Log Transformation This method replaces x values with log(x) values to make “non-normal” data into a normal distribution. This should be used when the data is skewed in a way that it follows or approximately follows a natural log distribution. Python code: # Log transformation of negatively (left) skewed data in Python df.insert(len(df.columns), 'D_log', np.log(max(df.iloc[:, 2] + 1) - df.iloc[:, 2]))"
+    },
+    {
+      "index": 13,
+      "title": "One-Hot Encoding One-Hot Encoding is a method to",
+      "text": "One-Hot Encoding One-Hot Encoding is a method to make categorical or nominal variables into numerical representations. Some algorithms can handle categorical variables such as a decision tree. One-Hot Encoding Python code: data = pd.get_dummies(df,prefix=[column], columns = [column], drop_first=False)"
+    },
+    {
+      "index": 14,
+      "title": "Grouping Operations Categorical Grouping Methods: Select the label",
+      "text": "Grouping Operations Categorical Grouping Methods: Select the label with the highest frequency . In other words, this is the max operation for categorical columns. Create a pivot table. pivot = df.pivot_table(index=[‘User'], values=[‘Visit Days'], aggfunc='sum') Apply a group by function after applying one-hot encoding . This method preserves all the data -in the first option you lose some-, and in addition, you transform the encoded column from categorical to numerical in the meantime. Numerical Grouping Methods: Numerical columns are grouped using sum and mean functions in most of the cases. Both can be preferable according to the meaning of the feature. For example, if you want to obtain ratio columns, you can use the average of binary columns. In the same example, sum function can be used to obtain the total count either. # Create synthetic features – python code X[\"FCRatio\"] = X[\"FineAggregate\"] / X[\"CoarseAggregate\"] X[\"AggCmtRatio\"] = (X[\"CoarseAggregate\"] + X[\"FineAggregate\"]) / X[\"Cement\"] X[\"WtrCmtRatio\"] = X[\"Water\"] / X[\"Cement\"]"
+    },
+    {
+      "index": 15,
+      "title": "Feature Split Some features, such as text, may",
+      "text": "Feature Split Some features, such as text, may not be useful on their own, but could possibly have some useful information inside. We can split this data up to extract usable features."
+    },
+    {
+      "index": 16,
+      "title": "Scaling When dealing with different features that have",
+      "text": "Scaling When dealing with different features that have a different scaling – for example, income and age, we are unable to compare these two features. This is where scaling the data to have the same range is important. Algorithms based on distances need to have scaled data. Two ways to scale: Normalization and Standardization Normalization from sklearn import preprocessing import numpy as np a = np.random.random((1, 4)) a = a*20 # normalize the data attributes normalized = preprocessing.normalize(a) print(\"Normalized Data = \", normalized) Standardization from sklearn import preprocessing import numpy as np X_train = np.array([[ 1., -1.,  2.], [ 2.,  0.,  0.], [ 0.,  1., -1.]]) scaler = preprocessing.StandardScaler().fit(X_train) X_scaled = scaler.transform(X_train)"
+    },
+    {
+      "index": 17,
+      "title": "Extracting Date We can utilize dates in data",
+      "text": "Extracting Date We can utilize dates in data by extracting information that may be important out of them. Examples of this include: Day of the week Month Year Day of the year Quarter Differences from other dates"
+    },
+    {
+      "index": 18,
+      "title": "Resources https://stackoverflow.com/questions/65472200/when-should-data-binning-be-used-in-data-processing https://docs.tibco.com/pub/spotfire/7.0.1/doc/html/bin/bin_what_is_binning.htm https://cxl.com/blog/outliers/ https://en.wikipedia.org/wiki/Data_binning https://www.simplypsychology.org/boxplots.html#:~:text=When%20reviewing%20a%20box%20plot,whiskers%20of%20the%20box%20plot.&text=For%20example%2C%20outside%201.5%20times,Q3%20%2B%201.5%20*%20IQR ). https://www.researchgate.net/figure/Examples-of-various-outliers-found-in-regression-analysis-Case-1-is-an-outlier-with_fig2_50946372",
+      "text": "Resources https://stackoverflow.com/questions/65472200/when-should-data-binning-be-used-in-data-processing https://docs.tibco.com/pub/spotfire/7.0.1/doc/html/bin/bin_what_is_binning.htm https://cxl.com/blog/outliers/ https://en.wikipedia.org/wiki/Data_binning https://www.simplypsychology.org/boxplots.html#:~:text=When%20reviewing%20a%20box%20plot,whiskers%20of%20the%20box%20plot.&text=For%20example%2C%20outside%201.5%20times,Q3%20%2B%201.5%20*%20IQR ). https://www.researchgate.net/figure/Examples-of-various-outliers-found-in-regression-analysis-Case-1-is-an-outlier-with_fig2_50946372 https://probabilityandstats.wordpress.com/2015/05/09/the-skewness-of-a-probability-distribution/ https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114 https://www.kaggle.com/ryanholbrook/what-is-feature-engineering https://medium.com/@kyawsawhtoon/log-transformation-purpose-and-interpretation-9444b4b049c9#:~:text=Log%20transformation%20is%20a%20data,the%20purposes%20of%20statistical%20modeling . https://machinelearningmastery.com/why-one-hot-encode-data-in-machine-learning/ https://www.kaggle.com/dansbecker/using-categorical-data-with-one-hot-encoding"
+    }
+  ],
+  "points": [
+    {
+      "claim": "What is it? Why is it important? How",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "What is it? Why is it important? How",
+      "source": "slide"
+    },
+    {
+      "claim": "Agenda What is Cleaning Data & Feature Engineering",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Agenda What is Cleaning Data & Feature Engineering",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Cleaning Data & Feature Engineering? Feature",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "What is Cleaning Data & Feature Engineering? Feature",
+      "source": "slide"
+    },
+    {
+      "claim": "Why is Cleaning Data & Feature Engineering Important?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Why is Cleaning Data & Feature Engineering Important?",
+      "source": "slide"
+    },
+    {
+      "claim": "Tools for Feature Engineering Kalyan Veeramachaneni https://www.linkedin.com/in/kalyan-veeramachaneni-9861b821/ Max",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Tools for Feature Engineering Kalyan Veeramachaneni https://www.linkedin.com/in/kalyan-veeramachaneni-9861b821/ Max",
+      "source": "slide"
+    },
+    {
+      "claim": "Removing Junk & Imputation Impute the mean/median of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Removing Junk & Imputation Impute the mean/median of",
+      "source": "slide"
+    },
+    {
+      "claim": "Imputation - MICE Multivariate Imputation by Chained Equation",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Imputation - MICE Multivariate Imputation by Chained Equation",
+      "source": "slide"
+    },
+    {
+      "claim": "Other Imputation Methods K-NN: This means that the",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Other Imputation Methods K-NN: This means that the",
+      "source": "slide"
+    },
+    {
+      "claim": "Outliers What is an outlier? An observation that",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Outliers What is an outlier? An observation that",
+      "source": "slide"
+    },
+    {
+      "claim": "Handling Outliers Methods to handle outliers include: Filtering",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Handling Outliers Methods to handle outliers include: Filtering",
+      "source": "slide"
+    },
+    {
+      "claim": "Binning Also known as discrete binning or binning,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Binning Also known as discrete binning or binning,",
+      "source": "slide"
+    },
+    {
+      "claim": "Log Transformation This method replaces x values with",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Log Transformation This method replaces x values with",
+      "source": "slide"
+    }
+  ]
+}

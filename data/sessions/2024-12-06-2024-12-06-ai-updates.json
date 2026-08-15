@@ -1,0 +1,592 @@
+{
+  "id": "2024-12-06-2024-12-06-ai-updates",
+  "date": "2024-12-06",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai",
+    "agents",
+    "rag",
+    "infra",
+    "open-models",
+    "google",
+    "claude",
+    "fine-tuning",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "9rO6G71xNtY",
+    "title": "Have you heard these exciting AI news? - December 6, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+    "thumbnail": "https://i.ytimg.com/vi/9rO6G71xNtY/hqdefault.jpg",
+    "duration": 1520
+  },
+  "deck": {
+    "path": "2024/2024-12-06-AI-Updates.pptx",
+    "filename": "2024-12-06-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-12-06-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-12-06-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "ChatGPT o1 Pro, OpenAI 12 days of releases",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Agentic RAG",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft's LazyGraphRAG",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GraphRAG vs LazyGraphRAG",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Deepmind AlphaProteo",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrew Ng Explores Agentic Reasoning",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "The AI Tsunami is Here",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "How to Convince AI to Break the Rules",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Amazon Trainium Chip",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "GEN-3 Teslabot - Humanoid Robot",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Training using float8 and FSDP2",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Athene V2 - fine-tuned from Qwen 2.5 72B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AWS Automated Reasoning checks",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Microsoft Infinite Memory Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Amazon Nova foundation models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Google DeepMind Genie 2 World Model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "HunyuanVideo text-to-video open-source",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Fei-Fei Li World Labs Release 3D worlds",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ElevenLabs Conversational AI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ElevenLabs GenFM (like Google NotebookLM)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AWS + Anthropic additional 4 Bln",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Grok Chatbot app to be released soon",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia's Fugato (music, voices, sounds)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "aisuite (python from Andrew Ng's team)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Star Attention for long sequences",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Zoom - AI-first company",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Better embeddings (bge-m3 + fine-tuning)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ScyllaDB - Discord Story",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs in 2024",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "ChatGPT o1 Pro, OpenAI 12 days of releases",
+      "text": "ChatGPT o1 Pro, OpenAI 12 days of releases Agentic RAG Microsoft's LazyGraphRAG GraphRAG vs LazyGraphRAG Deepmind AlphaProteo Andrew Ng Explores Agentic Reasoning The AI Tsunami is Here How to Convince AI to Break the Rules Amazon Trainium Chip GEN-3 Teslabot - Humanoid Robot Training using float8 and FSDP2 Athene V2 - fine-tuned from Qwen 2.5 72B AWS Automated Reasoning checks Microsoft Infinite Memory Models Amazon Nova foundation models AI Updates December 06 , 2024 Google DeepMind Genie 2 World Model HunyuanVideo text-to-video open-source Fei-Fei Li World Labs Release 3D worlds ElevenLabs Conversational AI ElevenLabs GenFM (like Google NotebookLM) AWS + Anthropic additional 4 Bln Grok Chatbot app to be released soon Nvidia's Fugato (music, voices, sounds) aisuite (python from Andrew Ng's team) Star Attention for long sequences Zoom - AI-first company Better embeddings (bge-m3 + fine-tuning) ScyllaDB - Discord Story Crowd-sourced \"Arena\" Leaderboard Tech Layoffs in 2024"
+    },
+    {
+      "index": 2,
+      "title": "OpenAI o1, ChatGPT Pro - $200/month December 5",
+      "text": "OpenAI o1, ChatGPT Pro - $200/month December 5 - OpenAI o1 model released ChatGPT Plus ($20/mo) vs Pro ($200/mo) https://www.youtube.com/@OpenAI - OpenAI channel - announcements https://www.youtube.com/watch?v=iBfQTnA2n2s https://openai.com/index/introducing-chatgpt-pro/ https://cdn.openai.com/o1-system-card-20241205.pdf https://openai.com/o1/ https://www.youtube.com/watch?v=gwIlrlAourw o1 is good, but on some tests it was worse than Anthopic Sonet 3.5 OpenAI announced 12 days of releases . We expect to see o1, Sora, Orion, ... Day 1 - o1, ChatGPT Pro Day 2 - Reinforcement Learning Fine-Tuning to reason in custom domain"
+    },
+    {
+      "index": 3,
+      "title": "Agentic RAG Agentic RAG - significant advancement https://www.youtube.com/watch?v=kkF9gsBF7gg",
+      "text": "Agentic RAG Agentic RAG - significant advancement https://www.youtube.com/watch?v=kkF9gsBF7gg Query Decomposition Multiple Source Intelligence Dynamic Query Optimization Self-validating Results Traditional RAG - indexing info into a vector database and querying it to retrieve relevant information for answering questions. However, it falters when dealing with complex questions involving multiple lines of reasoning or requiring information from various sources. Agentic RAG addresses these limitations: Decompose complex queries into smaller, manageable sub-queries. Rewrite queries to optimize retrieval accuracy. Check for relevance and consistency across multiple sources. Validate retrieved information to minimize hallucinations (i.e., generating incorrect or nonsensical information). Access and integrate information from multiple retrieval tools and knowledge sources. This agent acts as an intermediary between the user's query and the knowledge base, dynamically refining the retrieval process and ensuring that the AI system provides more accurate and comprehensive answers."
+    },
+    {
+      "index": 4,
+      "title": "Microsoft's LazyGraphRAG Microsoft's LazyGraphRAG - Graph-Enabled RAG that",
+      "text": "Microsoft's LazyGraphRAG Microsoft's LazyGraphRAG - Graph-Enabled RAG that Needs No Prior Summarization of Source Data https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/ LazyGraphRAG reduces indexing costs by over 99.9% compared to full GraphRAG, making advanced retrieval accessible to resource-limited users. LazyGraphRAG combines best-first and breadth-first search dynamics in an iterative deepening manner . Compared to the global search mechanism of full GraphRAG, this approach is “ lazy ” in ways that defer LLM use and dramatically increase the efficiency of answer generation. Overall performance can be scaled via a single main parameter – the relevance test budget – that controls the cost-quality trade-off in a consistent manner. Open Source : Its integration into the GraphRAG library promotes accessibility and community-driven enhancements. https://github.com/microsoft/graphrag Scalability : It balances quality and cost dynamically using the relevance test budget, ensuring suitability for diverse use cases. Performance Superiority : The system outperformed eight competing methods across all evaluation metrics, demonstrating state-of-the-art local and global query-handling capabilities. Adaptability: Its lightweight indexing and deferred computation make it ideal for streaming data and one-off queries. https://www.marktechpost.com/2024/11/26/microsoft-ai-introduces-lazygraphrag-a-new-ai-approach-to-graph-enabled-rag-that-needs-no-prior-summarization-of-source-data/ Main trick is to use NLP instead of LLM in some steps of data processing and being \"lazy\" by deferring LLM use More videos: https://www.youtube.com/watch?v=kBt-W8cvLQE https://www.youtube.com/watch?v=B9eRGgP8RD8"
+    },
+    {
+      "index": 5,
+      "title": "GraphRAG vs LazyGraphRAG GraphRAG LazyGraphRAG Build index Uses",
+      "text": "GraphRAG vs LazyGraphRAG GraphRAG LazyGraphRAG Build index Uses an LLM to extract and describe entities and their relationships, b) uses an LLM to summarize all observations of each entity and relationship, c) uses graph statistics to optimize the entity graph and extract hierarchical community structure Uses NLP noun phrase extraction to extract concepts and their co-occurrences, b) uses graph statistics to optimize the concept graph and extract hierarchical community structure Summarize index Uses an LLM to summarize entities and relationships in each community None – the “lazy” approach defers all LLM use until query time Refine query None – the original query is used throughout Uses an LLM to a) identify relevant subqueries and recombine them into a single expanded query, b) refine subqueries with matching concepts from the concept graph Match query None – all queries are answered using all community summaries (breadth first) For each of q subqueries [3-5]: – Uses text chunk embeddings and chunk-community relationships to first rank text chunks by similarity to the query, then rank communities by the rank of their top-k text chunks (best first) – Uses an LLM-based sentence-level relevance assessor to rate the relevance of the top-k untested text chunks from communities in rank order (breadth first) – Recurses into relevant sub-communities after z successive communities yield zero relevant text chunks (iterative deepening) – Terminates when no relevant communities remain or relevance test budget / q is reached Map answers Uses an LLM to answer the original query over random batches of community summaries in parallel For each of q subqueries [3-5]: – Builds a subgraph of concepts from the relevant text chunks – Uses the community assignments of concepts to group related chunks together – Uses an LLM to extract subquery-relevant claims from groups of related chunks as a way of focusing on relevant content only – Ranks and filters extracted claims to fit a pre-defined context window size Reduce answers Uses an LLM to answer the original query using the mapped answer Uses an LLM to answer the expanded query using the extracted map claims"
+    },
+    {
+      "index": 6,
+      "title": "Deepmind AlphaProteo Google DeepMind AlphaProteo https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/ ML models",
+      "text": "Deepmind AlphaProteo Google DeepMind AlphaProteo https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/ ML models to create new proteins that can bind to specific target molecules with high accuracy and strength. AlphaProteo designs protein binders that are 3 to 300 times stronger than those created with previous methods. De novo design - It can generate completely new protein binders from scratch, rather than just modifying existing ones. Variety of targets: cancer, viral infections, autoimmune diseases. Tests confirm effectiveness, for example, some of its binders were able to prevent SARS-CoV-2 from infecting cells. AlphaProteo uses a deep learning approach to learn the complex relationships between protein sequence, structure, and function. It's trained on a massive dataset of protein information, which allows it to predict the binding properties of new proteins with high accuracy. Use cases: Drug discovery, Diagnostics, Biotechnology, Basic research."
+    },
+    {
+      "index": 7,
+      "title": "Andrew Ng Explores The Rise Of AI Agents",
+      "text": "Andrew Ng Explores The Rise Of AI Agents And Agentic Reasoning (May 2024) Microsoft BUILD 2024 Keynote - May 21, 2024 https://www.youtube.com/watch?v=KrRD7r7y7NY There are four major design patterns for agentic workflows: Reflection : The AI agent critiques its own output and uses that criticism to improve it. Tool Use : The AI agent can decide to use external tools, such as web search or code execution, to help it complete the task. Planning/Reasoning : The AI agent breaks down a complex task into a sequence of smaller actions. Multi-agent Collaboration : Multiple AI agents, each with different roles or specializations, work together to solve a task. AI agents can now process images and videos to extract valuable information and generate metadata. They can count players on a soccer field or identify specific events in a video, search through a video, generate descriptions of visual content. Agentic orchestration layer - makes it easier for developers to build applications on top of agentic workflows . Trends: faster, optimized for tool use, Increased importance of data engineering, image processing revolution"
+    },
+    {
+      "index": 8,
+      "title": "The AI Tsunami is Here The video \"",
+      "text": "The AI Tsunami is Here The video \" The AI Tsunami is Here : Keynote on Why Firms Must Act Now\" by Vijay Gurbaxani, Director of the Center for Digital Transformation https://www.youtube.com/watch?v=QIw4tyCdj28 Vijay explores the transformative impact of AI on business and society. He emphasizes that AI is not an incremental technology but a general purpose technology like steam, electricity, and the internet , with widespread use cases and rapid improvement. He stresses the urgency for businesses to adapt or be left behind, citing examples of companies successfully leveraging AI, like Cobalt Metals disrupting the mining industry and Deep Mind's Alpha Proteo revolutionizing drug discovery. The need for a new operating model where AI is a full partner in the organization . Need to rethink intellectual property, acquiring new capabilities, transforming jobs, and shifting to offense by focusing on how AI can help companies win. The video also touches upon the trust issues surrounding AI, including privacy, security, bias, fairness, and misinformation, emphasizing the need to address these challenges. Everyone in the organization need to be educated and become a daily savvy user of AI. Example - PIMCO, an investment management firm, where they ensured that everyone in the organization had used AI technology to gain the support they needed to build their generative AI solutions. Vijay stressed that this approach, while seemingly obvious, is crucial for fostering a widespread understanding of AI and its evolving capabilities within the organization. 2022 - ChatGPT 2023 - Anthropic Claude, Gemini, Mistral, Llama, ... 2024 - numerous vendors, desktop and mobile applications, variety of use cases, variety of models, frameworks, tools. Huge data centers. Specialized nuclear power plants. Number of GPU chips used for training just one model has grown from 10K (gpt-3) to 100K+ for modern models"
+    },
+    {
+      "index": 9,
+      "title": "How to Convince AI to Break the Rules",
+      "text": "How to Convince AI to Break the Rules A developer created a competition where an AI agent managed an Ethereum wallet. It was instructed not to transfer money out of the account under any circumstances . People could pay a fee to send a message/prompt to the AI, trying to convince it to send them money from the wallet. The prize pool grew with each failed attempt, and the cost of each message increased exponentially. After 481 failed attempts, someone successfully convinced the AI to transfer the funds - which by then grew to $47,000. The competition was completely transparent and conducted on the blockchain. All transactions, messages, and code were publicly viewable. The winning message used several clever tactics: Bypassing previous instructions by introducing a \"new session\" and pretending to enter an admin terminal. Gaslighting the AI by stating that transferring funds does not break any rules. Manipulating the AI's understanding of the \"approve transfer\" function, making it believe it should be used for incoming transfers. https://www.youtube.com/watch?v=PCsJOoOnooo"
+    },
+    {
+      "index": 10,
+      "title": "Amazon Trainium Chip Amazon Trainium chips are available",
+      "text": "Amazon Trainium Chip Amazon Trainium chips are available on AWS Cloud in Trn1n instances . Trainium-2 has 96GB per chip will be available on Trn2n instances . Chips are used by Amazon, Anthropic, Databricks, ... https://aws.amazon.com/ec2/instance-types/trn1/ https://aws.amazon.com/ai/machine-learning/trainium/ Amazon Trainium Nvidia Blackwell Google TPU v5e Architecture Custom AWS NeuronCores Hopper architecture (GH200 Grace Hopper Superchip) Custom TPU architecture Memory Up to 96  GB HBM per chip (Trn1n instance) Up to 96 GB HBM per GPU, potentially more with Grace Hopper Superchip Unknown, but likely substantial HBM Compute 16 NeuronCores per chip, focused on deep learning training 4000 FP32 cores per GPU, tensor cores for AI acceleration TPU v4 had 4096 cores, v5e likely more Interconnect NeuronLink, high-bandwidth interconnect for scaling across multiple chips NVLink, high-bandwidth interconnect for GPUs, NVSwitch for larger systems Custom high-bandwidth interconnect for TPU pods Software Ecosystem AWS Neuron SDK, integration with AWS services CUDA, mature and widely adopted XLA compiler, TensorFlow/JAX integration Availability Available in AWS Trn1 instances Limited availability, expected wider release in 2024 Available through Google Cloud Key Features Optimized for deep learning training, cost-effective on AWS High performance for both AI and HPC, strong software ecosystem Designed for massive scale AI, tightly integrated with Google's software stack"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates 1 GEN-3 Teslabot - humanoid robot",
+      "text": "AI Updates 1 GEN-3 Teslabot - humanoid robot . Demo - bot can catch a tennis ball in mid-air Tesla's next-generation robotic hand, featuring 22 degrees of freedom, approaching the complexity of a human hand Elon Musk's vision of the robotic hand playing musical instruments like the piano and guitar, threading a needle by vision alone Training using float8 and FSDP2 - IBM + Meta https://pytorch.org/blog/training-using-float8-fsdp2/ FSDP2 is integrated into Pytorch. It is the next generation of Fully Sharded Data Parallel (FSDP) in PyTorch . It's a powerful tool for training large language models, offering improved memory management and compatibility with other advanced techniques. Sharding - FSDP2 shards model parameters, gradients, and optimizer states across multiple GPUs Improved Memory Management, DTensor Integration, compatibility with torch.compile and other model parallelism techniques. FSDP2 allows you to train larger models models Athene V2 - fine-tuned from Qwen 2.5 72B open-source LLM is as good as or better than GPT-4o in technical domains - math, coding, and reasoning tasks. Athene-V2-Chat-72B  &  Athene-V2-Agent-72B https://nexusflow.ai/blogs/athene-v2 https://huggingface.co/Nexusflow/Athene-V2-Chat https://huggingface.co/Nexusflow/Athene-V2-Agent AWS Automated Reasoning checks (preview) as a new safeguard in Amazon Bedrock Guardrails It helps you mathematically validate the accuracy of responses generated by LLMs and prevent factual errors from hallucinations https://aws.amazon.com/blogs/aws/prevent-factual-errors-from-llm-hallucinations-with-mathematically-sound-automated-reasoning-checks-preview/ https://www.youtube.com/watch?v=4ysK3bCUVhc"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates 2 Infinite Memory Models - Microsoft",
+      "text": "AI Updates 2 Infinite Memory Models - Microsoft Microsoft AI head, Mustafa Suleyman, predicts AI models with \"near infinite memory\" by 2025 Google paper proposing \"infinite context windows\" - keeps summary of essential points allowing  AI to remember much longer context, past conversations, ... Suleyman suggests AI reaching recursive self-improvement before 2030, where AI systems could design and develop even smarter AI, leading to rapid advancements. Suleyman and Andrej Karpathy believe achieving reliable, real-world agents may require increased computational power and potentially two years of further development. Amazon Nova - a set of foundation models: Micro (text-to-text) Light (multimodal) Pro (multimodal) Premier (multimodal, coming soon) These models are affordable, fast, integrated with Bedrock. Nova Canvas - image generation Nova Real - video generation Upcoming: \"speech-to-speech\" and \"any-to-any\" https://www.youtube.com/watch?v=RvNCzZ-Nbqo https://aws.amazon.com/blogs/aws/introducing-amazon-nova-frontier-intelligence-and-industry-leading-price-performance/"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates 3 Google DeepMind Genie 2 -",
+      "text": "AI Updates 3 Google DeepMind Genie 2 - \"foundation world model\" that can transform any image into a playable, interactive world. Users can control the world with keyboard actions (jump, fly, etc.) Hallucinations are still a significant issue in AI models. This is a problem for both text-based models and models like Genie 2 and Sora that generate visual content HunyuanVideo text-to-video open-source 13 Bln parameter model Generates videos, high physical accuracy and scene consistency https://aivideo.hunyuan.tencent.com https://www.youtube.com/watch?v=mzzxTOnZM2U Elevenlabs Conversational AI & \"NotebookLM\" Clone GenFM https://elevenlabs.io/genfm Fei-Fei Li World Labs Release - transforms single images into interactive 3D environments https://techcrunch.com/2024/12/02/world-labs-ai-can-generate-interactive-3d-scenes-from-a-single-photo/ AWS + Anthropic additional 4 Bln https://x.com/AnthropicAI/status/1859964653486612585"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates 4 Grok Chatbot app to be",
+      "text": "AI Updates 4 Grok Chatbot app to be released soon Elon Musk's xAI - plans to launch a consumer chatbot in December (similar to ChatGPT) https://www.theverge.com/2024/11/27/24307571/xai-consumer-app-planned-report aisuite - open-source python module to use multiple LLM through a standardized interface. Developed by Andrew Ng’s Team. It is a thin wrapper around python client libraries. OpenAI, Anthropic, Azure, Google, AWS, Groq, Mistral, HuggingFace and Ollama. To maximize stability, aisuite uses either the HTTP endpoint or the SDK for making calls to the provider: https://github.com/andrewyng/aisuite Nvidia's Fugato - AI tool that can generate or transform a ny mix of music, voices, and sounds using text or audio inputs Elon Musk attempts to BLOCK OpenAI's for-profit transition. Elon Musk is seeking a preliminary injunction to halt OpenAI's practices and prevent what he calls \"irreversible damage\". Musk alleges that OpenAI has engaged in anti-competitive practices, breached its charitable mission, and allowed for self-dealing by its CEO, Sam Altman. https://techcrunch.com/2024/11/30/elon-musk-files-for-injunction-to-halt-openais-transition-to-a-for-profit/"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates 5 Zoom - AI-first company Zoom",
+      "text": "AI Updates 5 Zoom - AI-first company Zoom Video Communications changed its name to \"Zoom Communications\" to provide communication/collaboration tools and services using AI. Zoom is now \" AI-first company \". Zoom introduced Zoom AI Companion 2.0, also Zoom Docs https://www.cfodive.com/news/zoom-rebrands-bid-grow-ai-first-company/733986/ Star Attention: Efficient LLM Inference over Long Sequences https://arxiv.org/abs/2411.17116 Star Attention , a two-phase block-sparse approximation that improves computational efficiency by sharding attention across multiple hosts while minimizing communication overhead. Reducing memory requirements and inference time by up to 11x while preserving 95-100% of accuracy. Better and cheaper embeddings (bge-m3 + fine-tuning) . A fine-tuned open source embedding model ( https://huggingface.co/BAAI/bge-m3 ) can provide greater accuracy at a lower price than proprietary models like OpenAI’s text-embedding-3-small. https://modal.com/blog/fine-tuning-embeddings https://x.com/ivanleomk/status/1863022596792705221"
+    },
+    {
+      "index": 16,
+      "title": "ScyllaDB ScyllaDB is an open-source NoSQL database (since",
+      "text": "ScyllaDB ScyllaDB is an open-source NoSQL database (since 2015) Written in C++, has close-to-metal architecture Distributed, can scale without downtime Extremely high performance (millions of operations per second), consistent low latency, and high availability Compatible with Apache Cassandra (Java) More cost-effective than other NoSQL databases. ScyllaDB is easy to use and manage, has strong community, open-source. https://en.wikipedia.org/wiki/ScyllaDB https://youtu.be/MWFWM_LcouY?si=9lUp_7BwRIJN9hxY https://youtu.be/PWqZwnjFeYo?si=Pg_V8cFYpjERFIg5 https://university.scylladb.com - learn about ScyllaDB https://tokio.rs - Tokio - An asynchronous Rust runtime - It provides async I/O, networking, scheduling, timers, and more https://youtu.be/O3PwuzCvAjI?si=RX4ks6w5Kufyk4ZU https://discord.com/blog/how-discord-stores-trillions-of-messages Discord was using Cassandra for storing trillions of messages - but faced  performance issues such as unpredictable latency and frequent on-call incidents. They decided to migrate to ScyllaDB, a Cassandra-compatible database with a more powerful C++ based engine. Trick 1: A \" super disk \": local SSD + persistent disks. Writing to both local and persistent, reading - from local for speed Trick 2: an intermediate layer called \" Data Services \" between the API monolith and the database clusters The migration took 9 days with no downtime. This resulted in a significantly more efficient system, reduced the number of nodes (servers) from 177 down to 72, improved latencies, and enhanced the quality of life for the on-call staff. ScyllaDB is named after Scylla, a monster from Greek mythology. In Homer's Odyssey, Scylla was a six-headed sea monster who lived on one side of a narrow strait of water, opposite another monster called Charybdis. Ships passing through had to carefully navigate between these two dangers. Nowadays database users have to navigate (choose) between Scylla and Cassandra"
+    },
+    {
+      "index": 17,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 173. Total #votes: 2,370,628. Last updated: 2024-12-05. Coding x.ai China China x.ai x.ai China China China China"
+    },
+    {
+      "index": 18,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job market for IT: much worse than before COVID. IT has become a commodity. Lower salaries/rates ($100/hr => $75/hr). Much more competition, hundreds of applications for each position \"Who is AI Replacing? The Impact of Generative AI on Online Freelancing Platforms\" - paper October 2024 https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4991774 The study found that AI tools have led to a decrease in demand for jobs in areas like writing and coding. At the same time there is an increase in demand for individuals skilled in utilizing AI tools. Legal: $8,000 work now can be done for only $3 in GPT credits. Translation - mostly outsourced to AI Phone Sales and Customer service"
+    },
+    {
+      "index": 19,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "ChatGPT o1 Pro, OpenAI 12 days of releases",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 1,
+      "slideTitle": "ChatGPT o1 Pro, OpenAI 12 days of releases",
+      "source": "outline"
+    },
+    {
+      "claim": "Agentic RAG",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI o1, ChatGPT Pro - $200/month December 5",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft's LazyGraphRAG",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI o1, ChatGPT Pro - $200/month December 5",
+      "source": "outline"
+    },
+    {
+      "claim": "GraphRAG vs LazyGraphRAG",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 3,
+      "slideTitle": "Agentic RAG Agentic RAG - significant advancement https://www.youtube.com/watch?v=kkF9gsBF7gg",
+      "source": "outline"
+    },
+    {
+      "claim": "Deepmind AlphaProteo",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 4,
+      "slideTitle": "Microsoft's LazyGraphRAG Microsoft's LazyGraphRAG - Graph-Enabled RAG that",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrew Ng Explores Agentic Reasoning",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 4,
+      "slideTitle": "Microsoft's LazyGraphRAG Microsoft's LazyGraphRAG - Graph-Enabled RAG that",
+      "source": "outline"
+    },
+    {
+      "claim": "The AI Tsunami is Here",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 5,
+      "slideTitle": "GraphRAG vs LazyGraphRAG GraphRAG LazyGraphRAG Build index Uses",
+      "source": "outline"
+    },
+    {
+      "claim": "How to Convince AI to Break the Rules",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 6,
+      "slideTitle": "Deepmind AlphaProteo Google DeepMind AlphaProteo https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/ ML models",
+      "source": "outline"
+    },
+    {
+      "claim": "Amazon Trainium Chip",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 6,
+      "slideTitle": "Deepmind AlphaProteo Google DeepMind AlphaProteo https://deepmind.google/discover/blog/alphaproteo-generates-novel-proteins-for-biology-and-health-research/ ML models",
+      "source": "outline"
+    },
+    {
+      "claim": "GEN-3 Teslabot - Humanoid Robot",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 7,
+      "slideTitle": "Andrew Ng Explores The Rise Of AI Agents",
+      "source": "outline"
+    },
+    {
+      "claim": "Training using float8 and FSDP2",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 8,
+      "slideTitle": "The AI Tsunami is Here The video \"",
+      "source": "outline"
+    },
+    {
+      "claim": "Athene V2 - fine-tuned from Qwen 2.5 72B",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 8,
+      "slideTitle": "The AI Tsunami is Here The video \"",
+      "source": "outline"
+    },
+    {
+      "claim": "AWS Automated Reasoning checks",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 9,
+      "slideTitle": "How to Convince AI to Break the Rules",
+      "source": "outline"
+    },
+    {
+      "claim": "Microsoft Infinite Memory Models",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 10,
+      "slideTitle": "Amazon Trainium Chip Amazon Trainium chips are available",
+      "source": "outline"
+    },
+    {
+      "claim": "Amazon Nova foundation models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 10,
+      "slideTitle": "Amazon Trainium Chip Amazon Trainium chips are available",
+      "source": "outline"
+    },
+    {
+      "claim": "Google DeepMind Genie 2 World Model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 1 GEN-3 Teslabot - humanoid robot",
+      "source": "outline"
+    },
+    {
+      "claim": "HunyuanVideo text-to-video open-source",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates 1 GEN-3 Teslabot - humanoid robot",
+      "source": "outline"
+    },
+    {
+      "claim": "Fei-Fei Li World Labs Release 3D worlds",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates 2 Infinite Memory Models - Microsoft",
+      "source": "outline"
+    },
+    {
+      "claim": "ElevenLabs Conversational AI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates 3 Google DeepMind Genie 2 -",
+      "source": "outline"
+    },
+    {
+      "claim": "ElevenLabs GenFM (like Google NotebookLM)",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates 3 Google DeepMind Genie 2 -",
+      "source": "outline"
+    },
+    {
+      "claim": "AWS + Anthropic additional 4 Bln",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates 4 Grok Chatbot app to be",
+      "source": "outline"
+    },
+    {
+      "claim": "Grok Chatbot app to be released soon",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates 5 Zoom - AI-first company Zoom",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia's Fugato (music, voices, sounds)",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates 5 Zoom - AI-first company Zoom",
+      "source": "outline"
+    },
+    {
+      "claim": "aisuite (python from Andrew Ng's team)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 16,
+      "slideTitle": "ScyllaDB ScyllaDB is an open-source NoSQL database (since",
+      "source": "outline"
+    },
+    {
+      "claim": "Star Attention for long sequences",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 17,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Zoom - AI-first company",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 17,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "outline"
+    },
+    {
+      "claim": "Better embeddings (bge-m3 + fine-tuning)",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 18,
+      "slideTitle": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "source": "outline"
+    },
+    {
+      "claim": "ScyllaDB - Discord Story",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 19,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 19,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs in 2024",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=9rO6G71xNtY",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

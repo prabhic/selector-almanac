@@ -1,0 +1,250 @@
+{
+  "id": "unknown-da-13-miscellaneous",
+  "date": null,
+  "title": "DA 13 miscellaneous",
+  "series": "data-architect-2021",
+  "topics": [
+    "safety",
+    "data-engineering",
+    "openai",
+    "jobs",
+    "agents",
+    "general",
+    "open-models"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_13_miscellaneous.pptx",
+    "filename": "DA_13_miscellaneous.pptx",
+    "title": "DA 13 miscellaneous",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_13_miscellaneous.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_13_miscellaneous.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Cross-Cloud Architectures Google Anthos - Uses Google Kubernetes",
+      "text": "Cross-Cloud Architectures Google Anthos - Uses Google Kubernetes to manage infrastructure and applications across on-premises, edge, and in multiple public clouds, providing integrated security, policy management, visibility. Azure Arc – Similar to Anthos. Also can use Kubernetes to deploy and manage container-based applications on prem or any cloud. Also helps to organize other resources like Windows and Linux services. Can also support non-kubernetes (edge) environments. AWS Outposts – AWS provides hardware to be used \"on on-premises\" as AWS compute and storage (AWS EC2 and EBS). By using only AWS hardware, Outposts effectively prevents multicloud scenarios and even the use of your own hardware. https://iamondemand.com/blog/google-anthos-azure-arc-aws-outposts-the-race-to-dominate-hybrid-and-multicloud/ Two cloud strategies: Cloud-First + Single Cloud Provider Hybrid and Multicloud Azure Arc – Kubernetes deployment Anthos AWS Outpots Standard racks installed by AWS Kubernetes deployment"
+    },
+    {
+      "index": 2,
+      "title": "BigQuery Omni - Google Cross-Cloud Analytics Omni :",
+      "text": "BigQuery Omni - Google Cross-Cloud Analytics Omni : the same BigQuery interface on Google Cloud now lets you also query the data accross all major clouds ( Google Cloud, AWS and Azure ) without any cross-cloud ETL. This is possible because BigQuery de-couples (separates) compute and storage. For better performance the BQ Omni runs the necessary compute on clusters in the same region where your data resides . BigQuery Omni runs on Google Anthos . Anthos is a Google platform for managing infrastructure and applications across on-premises, edge, and in multiple public clouds, providing integrated security, policy management, visibility. Anthos In Greek mythology, Athos was one of the Giants (Gigantes). - https://www.youtube.com/watch?v=tSwFW6M7dYk"
+    },
+    {
+      "index": 3,
+      "title": "Microsoft Ignite - an annual conference for developers",
+      "text": "Microsoft Ignite - an annual conference for developers .. https://news.microsoft.com/november-2021-ignite/ Azure Open AI Service (Preview) language models (large, pre-trained, even GPT3) .. https://azure.microsoft.com/en-us/services/openai-service/ .. https://www.youtube.com/embed/mD_tJMZmZ7U Azure Data Labeling https://docs.microsoft.com/en-us/azure/machine-learning/how-to-label-data Azure Arc - Unify on-premises, hybrid, and multicloud infrastructure with Kubernetes based deployment .. https://azure.microsoft.com/en-us/services/azure-arc Azure video analyzer platform extract actionable insights from videos, whether stored or streaming .. https://azure.microsoft.com/en-us/products/video-analyzer/ Azure Language Studio .. https://docs.microsoft.com/en-us/azure/cognitive-services/language-service/language-studio Container Apps Preview managed serverless container service – deploy containers .. https://azure.microsoft.com/en-us/updates/public-preview-azure-container-apps/ .. https://www.youtube.com/embed/fmGHEJL81rU Azure Percept (for Edge apps) .. https://azure.microsoft.com/en-us/services/azure-percept/ Azure Updates November 2021 Percept for Edge Video Analyzer Language Arc – Kubernetes deployment Container Apps Data Labeling"
+    },
+    {
+      "index": 4,
+      "title": "SQL Server 2022 – \"Azure Enabled\" SQL Server",
+      "text": "SQL Server 2022 – \"Azure Enabled\" SQL Server 2022 integrates with: Azure Synapse Link ( avoid big ETL jobs between SQL Server and Azure Synapse) Azure Purview Failover back/forth from SQL Server 2022 and Azure SQL DB Managed Instances. Including restoring versionless databases from Azure SQL DB Managed Instances down to on-premises SQL Server 2022 SQL Server Ledger – blockchain immutable histories of tables Performance! Parameter-sensitive plan optimization that caches multiple plans per stored procedure Announced November 2, 2021 fro private preview https://www.sqlshack.com/sql-server-2022-private-preview-announcement/ Azure Synapse Link"
+    },
+    {
+      "index": 5,
+      "title": "Apache Flume Flume is a distributed, reliable, and",
+      "text": "Apache Flume Flume is a distributed, reliable, and available service for efficiently collecting, aggregating, and moving large amounts of log data . It has a simple and flexible architecture based on streaming data flows. It is robust and fault tolerant with tunable reliability mechanisms and many failover and recovery mechanisms. It uses a simple extensible data model that allows for online analytic application. It is specifically designed for Hadoop A flume is a man-made gravity chute for water, with raised walls. Flume vs Kafka: Kafka uses \"pull\" model , fault tollerant, easy to scale, can handle high volume in real time Flume uses \"push\" model , not easily scalable, designed specifically to collect logs from distributed system, designed specifically for Hadoop, not fault tollerant - may lose data if one of agents fails"
+    },
+    {
+      "index": 6,
+      "title": "Azure Data Explorer, Kusto, KQL In 2014 –",
+      "text": "Azure Data Explorer, Kusto, KQL In 2014 – Israeli Microsoft Research group started project \" Kusto \" to provide analytics on top of Azure log and telemetry data . The name \" Kusto \" comes after Jacques Cousteau , \" the father of scuba diving \" (1910-1997), as a reference to \" exploring the ocean of data \". https://en.wikipedia.org/wiki/Jacques_Cousteau Later Kusto project was renamed as \" Azure Data Explorer \" ( ADE ). In 2016 it has become the backend big-data and analytics service for Application Insights Analytics . In 2019 it has become generally available on Azure Cloud as PaaS (Platform as a Service). ADE is basically a distributed relational database . It has databases, tables, functions, and columns. It supports calculated columns, searching and filtering on rows, group by-aggregates and joins. ADE can use different types of data: structured data (CSV, Parquet files), log and telemetry files, JSON files, free text (unstructured data) ADE uses KQL = Kusto Query Language (query only, no updates) KQL is also used in CMPivot tool (real-time state of devices). ADE does indexing (including full text indexing). It also has time series analysis capabilities, regular expressions. Jacques Cousteau // KQL is like SQL // but with pipes \"|\", regex, etc. // Examples: MySessions | where s_name == 'Ignite 2018' | order by s_title // Case-insensitive comparison: conference =~ 'ignite 2018' // dates: starttime > now(-7d) // count rows: MySessions | count In 2021 ADE was integrated into Synapse as \" Azure Synapse Data Explorer \". Understand the difference: .. Synapse serverless pool - SQL .. Synapse data explorer - KQL Desktop apps: .. Azure Storage Explorer .. Azure azcopy utility"
+    },
+    {
+      "index": 7,
+      "title": "Apache Presto Presto is an open source high",
+      "text": "Apache Presto Presto is an open source high performance, distributed (serverless) SQL query engine for big data. Presto was originally designed and developed at Facebook for their data analysts to run interactive queries on its large data warehouse in Apache Hadoop . Its architecture allows users to query a variety of data sources such as Hadoop, Cassandra, Kafka, AWS S3, Alluxio, MySQL, MongoDB and Teradata . One can even query data from multiple data sources within a single query. Presto is used as a DW in Facebook, Netflix, etc. Amazon Athena is a hosted version of Presto with ANSI SQL support. \"At Facebook alone, over a thousand employees use Presto, running several million queries and processing petabytes of data per day. After creating Presto we open sourced it to see if other companies were having the same issues and wanted to collaborate. It turns out many other companies were interested and so under The Linux Foundation , we believe the project can engage others and grow the community for the benefit of all.\" - Kathy Kam, Head of Open Source at Facebook ."
+    },
+    {
+      "index": 8,
+      "title": "BIML Biml = Business Intelligence Markup Language Biml",
+      "text": "BIML Biml = Business Intelligence Markup Language Biml uses XML and small nuggets of C# or VB code to automatically create huge amounts of SQL scripts, SSIS packages, SSAS cubes, tabular models, and more. .. http://www.bimlscript.com .. https://varigence.com/Biml .. https://en.wikipedia.org/wiki/Business_Intelligence_Markup_Language <Biml xmlns=\"http://schemas.varigence.com/biml.xsd\"> <Connections> <Connection Name=\"AdventureWorks\" ConnectionString=\"Server=.;Initial Catalog=AdventureWorks;Integrated Security=SSPI;Provider=SQLNCLI10\"/> </Connections> <Packages> <Package Name=\"Biml Sample\" AutoCreateConfigurationsType=\"None\" ConstraintMode=\"Linear\"> <Tasks> <Dataflow Name=\"Extract Table List\"> <Transformations> <OleDbSource Name=\"Get Table List\" ConnectionName=\"AdventureWorks\"> <DirectInput>SELECT * FROM sys.tables</DirectInput> </OleDbSource> <Multicast Name=\"Multicast\"/> </Transformations> </Dataflow> </Tasks> </Package> </Packages> </Biml> Example:"
+    },
+    {
+      "index": 9,
+      "title": "SSIS = SQL Server Integration Services (since 2005)",
+      "text": "SSIS = SQL Server Integration Services (since 2005) SSIS is a component of the Microsoft SQL Server database software SSIS can perform broad range of ETL / data migration tasks In SSIS you create and execute SSIS packages , (files with extension . dtsx ). The packages have XML format. The packages include all ETL components as needed for specific ETL job (connection cmanager, tasks, control flow, data flow, parameters, event handlers, and variables) SSIS packages are created using Microsoft Visual Studio with SSDT (SQL Server Data Tools) Note - before 2015 there was BIDS (Business Intelligence Development Studio) SSIS package can be executed from GUI, from SQL database, or from command line (Windows or Linux): dtexec /File “D:\\packagetest.dtsx” dtexec /Server “My-Pc/SQLInstance” /ISServer “SSISDB\\MyFolder\\MyProject\\MyPackage.dtsx” Advantages (Pros) of SSIS: SSIS was around since 2005, when it substituted DTS (Data Transformation Services, 1998-2005) SSIS has many connectors, can consume data from \"difficult\" sources FTP, HTTP,MSMQ, SSA S, etc. SSIS can work with \"non-Microsoft\" data systems (for example, DB2 to Oracle ) Can handle complex transformations, multi-step operations, aggregating data from different data sources or types, and structured exception handling Data can be loaded in parallel to many varied destinations Package deployment methodology is good SSIS is easy to use. All you need is knowledge of T-SQL and SSIS itself, no coding required (although you can use C# or Visual Basic if needed). Disadvantages (Cons): To see package execution report need Management Studio rather than being published to reporting services or other way SSIS memory usage is high and it conflicts with SQL, difficult to run multiple packages in parallel, and slows down SSIS . Andy Leonard ETL, SSIS, BIML expert https://dilmsuite.com https://www.datachannel.tv"
+    },
+    {
+      "index": 10,
+      "title": "The following is the XSD definition for the",
+      "text": "The following is the XSD definition for the ExecutableTypePackage complex type. <xs:complexType name=\"ExecutableTypePackage\"> <xs:sequence> <xs:element name=\"Property\" maxOccurs=\"unbounded\"> <xs:complexType> <xs:complexContent> <xs:extension base=\"DTS:PropertyElementBaseType\"> <xs:attribute name=\"Name\" type=\"DTS:ExecutableTypePackagePropertyNameEnum\" use=\"required\"/> </xs:extension> </xs:complexContent> </xs:complexType> </xs:element> <xs:element name=\"ConnectionManager\" type=\"DTS:ConnectionManagerType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"Configuration\" type=\"DTS:ConfigurationType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"LogProvider\" type=\"DTS:LogProviderType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"Variable\" type=\"DTS:VariableType\" maxOccurs=\"unbounded\"/> <xs:element name=\"LoggingOptions\" type=\"DTS:LoggingOptionsType\" /> <xs:element name=\"PropertyExpression\" type=\"DTS:PropertyExpressionElementType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"Executable\" type=\"DTS:AnyNonPackageExecutableType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"PrecedenceConstraint\" type=\"DTS:PrecedenceConstraintType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"EventHandler\" type=\"DTS:EventHandlerType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> <xs:element name=\"PackageVariable\" type=\"DTS:PackageVariableType\" minOccurs=\"0\" maxOccurs=\"unbounded\"/> </xs:sequence> <xs:attribute name=\"ExecutableType\" use=\"required\" fixed=\"SSIS.Package.2\" /> </xs:complexType> In SSIS you create and execute SSIS packages , (files with extension . dtsx ). https://docs.microsoft.com/en-us/sql/integration-services/ssis-quickstart-run-cmdline?view=sql-server-ver15 The packages have XML format. https://docs.microsoft.com/en-us/openspecs/sql_data_portability/ms-dtsx/ SSIS Package Files"
+    },
+    {
+      "index": 11,
+      "title": "SSIS vs Azure ADF and Azure Synapse Integrate",
+      "text": "SSIS vs Azure ADF and Azure Synapse Integrate SSIS is relatively old technology developed before people started using the clouds (AWS, Azure, Google). Nowadays when everyone moves to cloud, it is natural to use cloud-based ETL tools . Microsoft provides ADF (Azure Data Factory) on Azure cloud. Most of ADF functionality was also integrated into Synapse (\" Azure Synapse Integrate \"). Creating tasks/pipelines in ADF is done in Azure browser interface. No desktop GUI is required. The ADF tasks can be saved in JSON format and deployed using YAML format in Azure DevOps. XML JSON YAML"
+    },
+    {
+      "index": 12,
+      "title": "Domo - https://www.domo.com/ - https://en.wikipedia.org/wiki/Domo_(company) Domo is a",
+      "text": "Domo - https://www.domo.com/ - https://en.wikipedia.org/wiki/Domo_(company) Domo is a cloud based dashboarding tool. It uses Oracle as a DB. Also has \" live cache \". Expensive ($2K/year per user). I would recommend to use Power BI or Tableau instead of Domo. Domo, Inc. is a cloud software company (in Utah, US). Since 2010, ~1K employees, valued at $2 Bln Analytics and BI Platforms, 2021"
+    },
+    {
+      "index": 13,
+      "title": "- https://www.alteryx.com/ - https://en.wikipedia.org/wiki/Alteryx - https://gallery.alteryx.com Alteryx Alteryx",
+      "text": "- https://www.alteryx.com/ - https://en.wikipedia.org/wiki/Alteryx - https://gallery.alteryx.com Alteryx Alteryx – software products for data science and analytics: Based in California and Colorado 1997 - SRC LLC – tools for demographic mapping and reporting 2000 – contract with U.S. Census Bureau 2006 – Alteryx was released as a unified set of tools for building analytical processes and applications 2010 – SRC LLC renamed into Alteryx 2016 - Alteryx was ranked #24 on the Forbes Cloud 100 list 2017 - Alteryx went public in an IPO listed on the NYSE 2018 - Alteryx was named a leader in Gartner's 2018 Magic Quadrant for Data Science and Machine Learning Platforms 2020 – Alteryx Analytics platform products : Connect, Designer, Promote, Server, Hub, Intelligence Suite Alterix pricing (per user, year) Designer - $5,195 Intelligence Suite - $2,300 Data Package - Location Intelligence - $11,700 Data Package - Consumer Intelligence - $33,800"
+    },
+    {
+      "index": 14,
+      "title": "ArXiv.org Cornell University arXiv is a free distribution",
+      "text": "ArXiv.org Cornell University arXiv is a free distribution service and an open-access archive for ~ 2 Mln scholarly articles (physics, math, CS, biology, finance, statistics, electrical engineering and systems science, and economics). Materials are NOT peer-reviewed by arXiv. Paul Ginsparg Cornell Physics Professor Started arXiv in 1991 In 1989, Joanne Cohn, a physicist then at the Institute for Advanced Study, began distributing TeX files of string theory papers via email. By August of 1991, the email list had grown to 180 physicists—an unwieldy number for Cohn to individually respond to requests for papers. As Cohn recounts, a young physicist then at Los Alamos National Laboratory offered to automate the list, and arXiv was born. “Day one, something happened, day two, something happened. Day three, Ed Witten posted a paper,” said Cornell University physicist Paul Ginsparg , founder of arXiv.org. “That was when the entire community joined.”"
+    },
+    {
+      "index": 15,
+      "title": "There are multiple ways to use Python on",
+      "text": "There are multiple ways to use Python on Azure cloud ML Studio (scripts, notebooks, pipelines), use these pipelines from Synapse Integrate pipelines: - https://docs.microsoft.com/en-us/azure/machine-learning/concept-ml-pipelines - ML Endpoint (web service) - https://docs.microsoft.com/en-us/azure/machine-learning/concept-endpoints - Python Web App via Azure Stack - https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-dev-start-howto-vm-python - using \" Azure Batch \" in ADF (Azure Data Factory) or Synapse Integrate : - https://docs.microsoft.com/en-us/azure/batch/tutorial-run-python-batch-azure-data-factory - - https://docs.microsoft.com/en-us/answers/questions/595214/execute-the-python-script-from-azure-synapse.html - Azure Functions : - https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-cli-python - Synapse PySpark notebooks - https://docs.microsoft.com/en-us/azure/synapse-analytics/spark/apache-spark-development-using-notebooks - Databricks notebooks - https://docs.microsoft.com/en-us/azure/databricks/languages/python - Linux VM (Virtual Machine) Azure Web Apps - https://azure.microsoft.com/en-us/develop/python/ - https://azure.microsoft.com/en-us/services/app-service/web/ - Containers - https://azure.microsoft.com/en-us/product-categories/containers/ - How to use Python on Azure cloud"
+    },
+    {
+      "index": 16,
+      "title": "Here is a nice series of 10 videos",
+      "text": "Here is a nice series of 10 videos explaining DevOps for ML in Azure. Azure MLOps - DevOps for Machine Learning part1 - Complete Intro to Azur Machine Learning Service - https://www.youtube.com/watch?v=-QxwB7PoSdA - part 2 - Intro to Azure DevOps - https://www.youtube.com/watch?v=Gzjr716RU9g - part 3 - Setting up Azure DevOps Configurations - https://www.youtube.com/watch?v=L-nIreup0HQ - part 4 - Create & Deploy Infrastructure as Code Pipeline - https://www.youtube.com/watch?v=b15l4BLAnmc - part 5 - CI Pipeline ( Continuous Integration) for ML - https://www.youtube.com/watch?v=C79hIHRBSsQ - part 6 - CI Pipeline ( Continuous Integration) for ML - https://www.youtube.com/watch?v=rPowmr43kzc - part 7 - Automated Training with CI Pipeline - https://www.youtube.com/watch?v=iq4hGqC_JMs - part 8 - CD Pipeline (Continuous Deployment) for Staging - https://www.youtube.com/watch?v=p9CxWhpE4uQ - part 9 - CD Pipeline(Continuous Deployment)for Production - https://www.youtube.com/watch?v=y9NMFLBo3bQ - part 10 - Testing End to End MLOps Pipelines - https://www.youtube.com/watch?v=KHD2oyP8W94 - CICD in Azure DevOps CICD = Continuous Integration / Continuous Deployment"
+    },
+    {
+      "index": 17,
+      "title": "Apache Airflow https://airflow.apache.org Author, schedule and monitor workflows",
+      "text": "Apache Airflow https://airflow.apache.org Author, schedule and monitor workflows pipelines pure python dynamic pipelines generation scalable, extensible, elegant robust integrations easy to use open source Airflow is running on all major clours: AWS: astronomer - https://aws.amazon.com/marketplace/pp/prodview-mrexhwyzepx44 - - https://www.astronomer.io - Azure: astronomer - https://www.astronomer.io/azure-airflow-lp - - http://azuremarketplace.microsoft.com/en-us/marketplace/apps/meanio.linnovate-airflow - Google: Cloud Composer - https://cloud.google.com/composer/docs/concepts/overview -"
+    },
+    {
+      "index": 18,
+      "title": "Apache Druid Druid = open source analytics data",
+      "text": "Apache Druid Druid = open source analytics data store (OLAP) fast data ingestion and aggregation scales to trillions of events and petabytes of data druid is best used to power analytic dashboards and applications - http://druid.io - - https://druid.apache.org - Example:"
+    },
+    {
+      "index": 19,
+      "title": "Dremel https://en.wikipedia.org/wiki/Dremel_(software) Dremel is a distributed system developed",
+      "text": "Dremel https://en.wikipedia.org/wiki/Dremel_(software) Dremel is a distributed system developed at Google for interactively querying large datasets Dremel is the query engine used in Google's BigQuery service Dremel is the inspiration for: Apache Drill - https://drill.apache.org - Schema-free SQL Query Engine for Hadoop, NoSQL and Cloud Storage Apache Impala - https://impala.apache.org - native analytic database for Apache Hadoop Dremio - https://www.dremio.com - an Apache licensed platform that includes a distributed SQL execution engine Apache Impala Dremio may be configured on all 3 major clouds (AWS, Azure, Google) Dremio added support for Apache Iceberg tables - https://iceberg.apache.org In 2021 Dremio achieved Unicorn status (more than a Billion $ valuation)."
+    },
+    {
+      "index": 20,
+      "title": "Optimizing DB schema and SQL requires paying salaries.",
+      "text": "Optimizing DB schema and SQL requires paying salaries. But as storage and compute gets cheaper and cheaper, it is getting more cost-effective to avoid optimization . It is quite a shift in architecture philosophy. \"Learn From Google’s Data Engineers: Don’t Optimize Your SQL\" - https://blog.devgenius.io/learn-from-googles-data-engineers-don-t-optimize-your-sql-43f0da30701 Do Not Optimize your SQL and Schema Use ELT instead of ETL \" ... we are seeing a consistent shift from ETL to ELT architecture ... \" Legacy ETL pipelines are not that flexible to easily adapt according to the exponential data growth Nowadays there is no need to do strict \"legacy\" transformations between Extract and Load phases Simply Extract – and immediately Load with minimum transformations Cloud storage is cheap and efficient, analytics services are powerful – which allows to flexibly work on the loaded data (transform, query) \"Modern Data Stack for Startups\" - https://medium.com/nybles/modern-data-stack-for-startups-b63bc383e1d0"
+    },
+    {
+      "index": 21,
+      "title": "=========================================== no foreign key =========================================== no triggers ===========================================",
+      "text": "=========================================== no foreign key =========================================== no triggers =========================================== FROM clause in UPDATE and DELETE statement cannot contain subquery sources or joins (you can not use words \"INNER JOIN\" ...). But this old Sybase syntax works: update t1 set t1.mycol = 1 from t1, t2 where t2.cust_id = t1.cust_id and t2.country = 'Norway' =========================================== can not imbed .NET (so no regular expressions) =========================================== Note: before Synapse there was a tool \"Scope\" ( pay per query on data lake using C# ) It had a language U-SQL (SQL +.NET) https://docs.microsoft.com/en-us/sql/integration-services/control-flow/azure-data-lake-analytics-task?view=sql-server-ver15 SQL in Azure DW"
+    },
+    {
+      "index": 22,
+      "title": "https://iceberg.apache.org https://iceberg.apache.org/docs/latest/getting-started/ Apache Iceberg Iceberg is a high-performance",
+      "text": "https://iceberg.apache.org https://iceberg.apache.org/docs/latest/getting-started/ Apache Iceberg Iceberg is a high-performance format for huge analytic tables Iceberg brings the reliability and simplicity of SQL tables to big data Spark, Trino, Flink, Presto, and Hive can safely work simultaneously with the same Iceberg tables CREATE TABLE local.db.table (id bigint, data string) USING iceberg CREATE TABLE ... PARTITIONED BY CREATE TABLE ... AS SELECT ALTER TABLE DROP TABLE INSERT INTO local.db.table VALUES (1, 'a'), (2, 'b'), (3, 'c'); INSERT INTO local.db.table SELECT id, data FROM source WHERE length(data) = 1; MERGE INTO local.db.target t USING (SELECT * FROM updates) u ON t.id = u.id WHEN MATCHED THEN UPDATE SET t.count = t.count + u.count WHEN NOT MATCHED THEN INSERT * spark.table(\"source\").select(\"id\", \"data\") .writeTo(\"local.db.table\").append() SELECT count(1) as count, data FROM local.db.table GROUP BY data SELECT * FROM local.db.table.snapshots val df = spark.table(\"local.db.table\") df.count()"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Cross-Cloud Architectures Google Anthos - Uses Google Kubernetes",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Cross-Cloud Architectures Google Anthos - Uses Google Kubernetes",
+      "source": "slide"
+    },
+    {
+      "claim": "BigQuery Omni - Google Cross-Cloud Analytics Omni :",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "BigQuery Omni - Google Cross-Cloud Analytics Omni :",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft Ignite - an annual conference for developers",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Microsoft Ignite - an annual conference for developers",
+      "source": "slide"
+    },
+    {
+      "claim": "SQL Server 2022 – \"Azure Enabled\" SQL Server",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "SQL Server 2022 – \"Azure Enabled\" SQL Server",
+      "source": "slide"
+    },
+    {
+      "claim": "Apache Flume Flume is a distributed, reliable, and",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Apache Flume Flume is a distributed, reliable, and",
+      "source": "slide"
+    },
+    {
+      "claim": "Azure Data Explorer, Kusto, KQL In 2014 –",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Azure Data Explorer, Kusto, KQL In 2014 –",
+      "source": "slide"
+    },
+    {
+      "claim": "Apache Presto Presto is an open source high",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Apache Presto Presto is an open source high",
+      "source": "slide"
+    },
+    {
+      "claim": "BIML Biml = Business Intelligence Markup Language Biml",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "BIML Biml = Business Intelligence Markup Language Biml",
+      "source": "slide"
+    },
+    {
+      "claim": "SSIS = SQL Server Integration Services (since 2005)",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "SSIS = SQL Server Integration Services (since 2005)",
+      "source": "slide"
+    },
+    {
+      "claim": "The following is the XSD definition for the",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "The following is the XSD definition for the",
+      "source": "slide"
+    },
+    {
+      "claim": "SSIS vs Azure ADF and Azure Synapse Integrate",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "SSIS vs Azure ADF and Azure Synapse Integrate",
+      "source": "slide"
+    },
+    {
+      "claim": "Domo - https://www.domo.com/ - https://en.wikipedia.org/wiki/Domo_(company) Domo is a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Domo - https://www.domo.com/ - https://en.wikipedia.org/wiki/Domo_(company) Domo is a",
+      "source": "slide"
+    }
+  ]
+}

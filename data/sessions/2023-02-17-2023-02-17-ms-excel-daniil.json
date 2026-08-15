@@ -1,0 +1,356 @@
+{
+  "id": "2023-02-17-2023-02-17-ms-excel-daniil",
+  "date": "2023-02-17",
+  "title": "MS Excel-Daniil",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "kCjnd5FLyL0",
+    "title": "MS Excel and Power Query - February 17, 2023",
+    "url": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+    "thumbnail": "https://i.ytimg.com/vi/kCjnd5FLyL0/hqdefault.jpg",
+    "duration": 3330
+  },
+  "deck": {
+    "path": "2023/2023-02-17-MS_Excel-Daniil.pptx",
+    "filename": "2023-02-17-MS_Excel-Daniil.pptx",
+    "title": "MS Excel-Daniil",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-02-17-MS_Excel-Daniil.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-02-17-MS_Excel-Daniil.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "TOPICS",
+      "startSeconds": 65,
+      "label": "01:05",
+      "source": "youtube"
+    },
+    {
+      "title": "EXCEL HISTORY",
+      "startSeconds": 116,
+      "label": "01:56",
+      "source": "youtube"
+    },
+    {
+      "title": "EXCEL MOST POPULAR ALTERNATIVES",
+      "startSeconds": 461,
+      "label": "07:41",
+      "source": "youtube"
+    },
+    {
+      "title": "DYNAMIC ARRAY FORMULAS",
+      "startSeconds": 640,
+      "label": "10:40",
+      "source": "youtube"
+    },
+    {
+      "title": "EXCEL FORMULA FORMATTING",
+      "startSeconds": 1274,
+      "label": "21:14",
+      "source": "youtube"
+    },
+    {
+      "title": "NEW EXCEL SYNTAX AND LAMBDA FUNCTION DEMO",
+      "startSeconds": 1378,
+      "label": "22:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Excel as a client tool for Power BI",
+      "startSeconds": 2425,
+      "label": "40:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Excel Automation using Office Scripts",
+      "startSeconds": 2975,
+      "label": "49:35",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "MS Excel",
+      "text": "MS Excel"
+    },
+    {
+      "index": 2,
+      "title": "About me Daniil Bogomazov Directory of Analytics |",
+      "text": "About me Daniil Bogomazov Directory of Analytics | Crowley Maritime Data Modeling and Engineering, Business Analytics, ERP/HCM systems Use Microsoft stack of tools including SQL, MS Power Platform www.crowley.com danil.bogomazov@crowley.com bogomazovdaniil@gmail.com https://www.linkedin.com/in/daniil-bogomazov-4882a91b/"
+    },
+    {
+      "index": 3,
+      "title": "Topics MS Excel brief history Most popular spreadsheet",
+      "text": "Topics MS Excel brief history Most popular spreadsheet alternatives Most interesting Excel features (per my opinion): Dynamic Array Formulas New Excel syntax and LAMBDA function Power Query Power Pivot Excel Automation (Office Scripts)"
+    },
+    {
+      "index": 4,
+      "title": "The first spreadsheet program was VisiCalc , written",
+      "text": "The first spreadsheet program was VisiCalc , written for the Apple II computer in 1979 by Dan Bricklin, grand father of modern spreadsheet - VisiCalc - http://www.bricklin.com/ It was so popular that people were ready to buy Apple II for $2,000 just to run VisiCalc – by the way, the day VisiCalc was launched (October 17) is considered Spreadsheet Day. https://spreadsheetdaddy.com/blog/excel-facts Excel History"
+    },
+    {
+      "index": 5,
+      "title": "Early Microsoft employee Charles Simonyi is the man",
+      "text": "Early Microsoft employee Charles Simonyi is the man behind some of the company's most successful software, including Word and Excel. Multiplan was original name"
+    },
+    {
+      "index": 6,
+      "title": "The main competitor of Multiplan was the program",
+      "text": "The main competitor of Multiplan was the program called Lotus 1-2-3, the first “killer application” of the IBM PC. This application was the industry standard in 80x"
+    },
+    {
+      "index": 7,
+      "title": "To outsell it, Microsoft decided to bank on",
+      "text": "To outsell it, Microsoft decided to bank on the user-friendly interface and the possibility to change spreadsheet design. Thus, the first version of Excel for the Macintosh was released on September 30, 1985, and this day marked the gradual decline of Lotus 1-2-3. Ironically, IBM stopped supporting Lotus 1-2-3 exactly on September 30, 2014."
+    },
+    {
+      "index": 8,
+      "title": "Toolbar was introduced in 1990. Few people know",
+      "text": "Toolbar was introduced in 1990. Few people know that such a simple and seamless feature that can be found virtually in every software product today was pioneered by Excel 3.0, the first application to ever use a toolbar."
+    },
+    {
+      "index": 9,
+      "title": "Excel 2007 was major update with addition of",
+      "text": "Excel 2007 was major update with addition of new ribbon and increase of rows (1,048,576 ) and columns (16,384) Excel 2013 included Power Pivot (predecessor of Power BI) Excel 2016 included Power Query Integration Since 2019 Microsoft no longer releases discrete versions rather then part of Windows Update. Major update was dynamic array formulas (formula returns range not just single value) in response to Google Sheets. Three flavors of Excel: MS Excel Desktop MS Excel for Web MS Excel for Mobile devices"
+    },
+    {
+      "index": 10,
+      "title": "https://spreadsheetdaddy.com/best-excel-alternatives https://www.youtube.com/watch?v=n2DxXffRxBM - Google Sheets BEATS Excel with",
+      "text": "https://spreadsheetdaddy.com/best-excel-alternatives https://www.youtube.com/watch?v=n2DxXffRxBM - Google Sheets BEATS Excel with THESE 10 Features! https://www.youtube.com/watch?v=yXMo9sj0Y2Y- Excel BEATS Google Sheets with THESE 10 Features! Excel MOST POPULAR ALTERNATIVES"
+    },
+    {
+      "index": 11,
+      "title": "https://spreadsheetdaddy.com/best-excel-alternatives",
+      "text": "https://spreadsheetdaddy.com/best-excel-alternatives"
+    },
+    {
+      "index": 12,
+      "title": "Slide 12",
+      "text": ""
+    },
+    {
+      "index": 13,
+      "title": "What is Excel good for and why it’s",
+      "text": "What is Excel good for and why it’s so popular Excel is good for business data analysis, data storage, ad hock reporting, it’s probably the most popular “database” Easy to use because of the two-dimensional grid concept of rows and columns Microsoft bundles MS Excel it as part of Microsoft Office 365 and fully integrated with other office applications Excel dates can only be in the range from 1–1–1900 to 31–12–9999 that’s why make analysis hard outside this range"
+    },
+    {
+      "index": 14,
+      "title": "Dynamic Array Formulas Excel formulas that can return",
+      "text": "Dynamic Array Formulas Excel formulas that can return set of values (array) of variable size are called dynamic array formulas. FILTER function RANDARRAY function SEQUENCE function SORT function SORTBY function UNIQUE function #SPILL! errors in Excel"
+    },
+    {
+      "index": 15,
+      "title": "New Excel syntax and LAMBDA function LET function",
+      "text": "New Excel syntax and LAMBDA function LET function allows to break down complex formulas into intermediate steps using variables LAMBDA is designed to create custom functions that can be called by user-friendly names and reused throughout a workbook . Simply put, you can now take any existing formula, whatever complex it is, wrap it up in LAMBDA, and give it any name you like. Functions are defined in Name Manager"
+    },
+    {
+      "index": 16,
+      "title": "MANNUALY FORMATTED (Excel currently doesn’t format) FinalPriceBreakdown =",
+      "text": "MANNUALY FORMATTED (Excel currently doesn’t format) FinalPriceBreakdown = LAMBDA(Price,DiscountPercent,SalesTaxPercent, LET( Discount, Price * DiscountPercent, SalesTax, (Price - Discount) * SalesTaxPercent, TotalPrice, Price  - Discount + SalesTax, Rounding, ROUNDUP(TotalPrice,0) - TotalPrice, FinalPrice, TotalPrice + Rounding, CHOOSE({1,2,3,4,5}, Price, - Discount, SalesTax, Rounding, FinalPrice) ) ) Excel Formula Formatting UNFORMATTED WITH NO VARIABLES CHOOSE({1,2,3,4,5}, B13, - B13*C13, B13*(1-C13)*D13,ROUNDUP(B13*(1-C13)*(1+D13),0) - B13*(1-C13)*(1+D13), ROUNDUP(B13*(1-C13)*(1+D13),0) ) UNFORMATTED BUT WITH USE OF VARIABLES FinalPriceBreakdown = LAMBDA(Price,DiscountPercent,SalesTaxPercent,   LET( Discount, Price * DiscountPercent,  SalesTax, (Price - Discount) * SalesTaxPercent, TotalPrice, Price  - Discount + SalesTax, Rounding, ROUNDUP(TotalPrice,0) - TotalPrice,  FinalPrice, TotalPrice + Rounding, CHOOSE({1,2,3,4,5}, Price, - Discount, SalesTax, Rounding,FinalPrice)  ) Variable definition Function parameters Return argument"
+    },
+    {
+      "index": 17,
+      "title": "New Excel syntax and LAMBDA function demo Additional",
+      "text": "New Excel syntax and LAMBDA function demo Additional Functions used in conjunction with LAMBDA function: MAP function REDUCE functio n SCAN function MAKEARRAY function BYROW function ISOMITTED function"
+    },
+    {
+      "index": 18,
+      "title": "Power Query (M language) Power Query is a",
+      "text": "Power Query (M language) Power Query is a data transformation and data preparation engine. Power Query comes with a graphical interface for getting data from sources and a Power Query Editor for applying transformations. Because the engine is available in many products and services, the destination where the data will be stored depends on where Power Query was used. Using Power Query, you can perform the extract, transform, and load (ETL) processing of data."
+    },
+    {
+      "index": 19,
+      "title": "Power Query Demo",
+      "text": "Power Query Demo"
+    },
+    {
+      "index": 20,
+      "title": "Excel as a client tool for Power BI",
+      "text": "Excel as a client tool for Power BI Excel currently supports Power Pivot (predecessor of Power BI), but Microsoft strategically invests into Power BI Service that’s why it’s recommended to build semantic models in Power BI if possible and use Excel as one of possible clients' tools. Especially good for ad-hock reporting and analysis, ease of data retrieval from the database Dynamic Expression Language (DAX) Multi – Dimensional eXpressions (MDX)"
+    },
+    {
+      "index": 21,
+      "title": "Slide 21",
+      "text": ""
+    },
+    {
+      "index": 22,
+      "title": "Methods to consume BI models in Excel Pivot",
+      "text": "Methods to consume BI models in Excel Pivot Table Charts Tables CUBE formulas"
+    },
+    {
+      "index": 23,
+      "title": "Excel Automation using Office Scripts Basic scripts for",
+      "text": "Excel Automation using Office Scripts Basic scripts for Office Scripts in Excel - Office Scripts | Microsoft Learn TypeScript (subset of JavaScript)"
+    },
+    {
+      "index": 24,
+      "title": "Slide 24",
+      "text": ""
+    },
+    {
+      "index": 25,
+      "title": "70 Best Excel Blogs and Websites .. https://blog.feedspot.com/excel_blogs/",
+      "text": "70 Best Excel Blogs and Websites .. https://blog.feedspot.com/excel_blogs/ Best YouTube Channels To Learn Excel (For Absolute Beginners in 2023) .. https://www.websiterating.com/productivity/best-youtube-channels-to-learn-excel/ MS Excel Resources"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "MS Excel",
+      "source": "youtube"
+    },
+    {
+      "claim": "TOPICS",
+      "topic": "general",
+      "videoSeconds": 65,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=65s",
+      "slideIndex": 4,
+      "slideTitle": "The first spreadsheet program was VisiCalc , written",
+      "source": "youtube"
+    },
+    {
+      "claim": "EXCEL HISTORY",
+      "topic": "general",
+      "videoSeconds": 116,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=116s",
+      "slideIndex": 7,
+      "slideTitle": "To outsell it, Microsoft decided to bank on",
+      "source": "youtube"
+    },
+    {
+      "claim": "EXCEL MOST POPULAR ALTERNATIVES",
+      "topic": "general",
+      "videoSeconds": 461,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=461s",
+      "slideIndex": 10,
+      "slideTitle": "https://spreadsheetdaddy.com/best-excel-alternatives https://www.youtube.com/watch?v=n2DxXffRxBM - Google Sheets BEATS Excel with",
+      "source": "youtube"
+    },
+    {
+      "claim": "DYNAMIC ARRAY FORMULAS",
+      "topic": "general",
+      "videoSeconds": 640,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=640s",
+      "slideIndex": 13,
+      "slideTitle": "What is Excel good for and why it’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "EXCEL FORMULA FORMATTING",
+      "topic": "general",
+      "videoSeconds": 1274,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=1274s",
+      "slideIndex": 16,
+      "slideTitle": "MANNUALY FORMATTED (Excel currently doesn’t format) FinalPriceBreakdown =",
+      "source": "youtube"
+    },
+    {
+      "claim": "NEW EXCEL SYNTAX AND LAMBDA FUNCTION DEMO",
+      "topic": "general",
+      "videoSeconds": 1378,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=1378s",
+      "slideIndex": 19,
+      "slideTitle": "Power Query Demo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Excel as a client tool for Power BI",
+      "topic": "general",
+      "videoSeconds": 2425,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=2425s",
+      "slideIndex": 22,
+      "slideTitle": "Methods to consume BI models in Excel Pivot",
+      "source": "youtube"
+    },
+    {
+      "claim": "Excel Automation using Office Scripts",
+      "topic": "general",
+      "videoSeconds": 2975,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0&t=2975s",
+      "slideIndex": 25,
+      "slideTitle": "70 Best Excel Blogs and Websites .. https://blog.feedspot.com/excel_blogs/",
+      "source": "youtube"
+    },
+    {
+      "claim": "About me Daniil Bogomazov Directory of Analytics |",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 2,
+      "slideTitle": "About me Daniil Bogomazov Directory of Analytics |",
+      "source": "slide"
+    },
+    {
+      "claim": "Topics MS Excel brief history Most popular spreadsheet",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 3,
+      "slideTitle": "Topics MS Excel brief history Most popular spreadsheet",
+      "source": "slide"
+    },
+    {
+      "claim": "Early Microsoft employee Charles Simonyi is the man",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 5,
+      "slideTitle": "Early Microsoft employee Charles Simonyi is the man",
+      "source": "slide"
+    },
+    {
+      "claim": "The main competitor of Multiplan was the program",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 6,
+      "slideTitle": "The main competitor of Multiplan was the program",
+      "source": "slide"
+    },
+    {
+      "claim": "Toolbar was introduced in 1990. Few people know",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 8,
+      "slideTitle": "Toolbar was introduced in 1990. Few people know",
+      "source": "slide"
+    },
+    {
+      "claim": "Excel 2007 was major update with addition of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 9,
+      "slideTitle": "Excel 2007 was major update with addition of",
+      "source": "slide"
+    },
+    {
+      "claim": "https://spreadsheetdaddy.com/best-excel-alternatives",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=kCjnd5FLyL0",
+      "slideIndex": 11,
+      "slideTitle": "https://spreadsheetdaddy.com/best-excel-alternatives",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,624 @@
+{
+  "id": "2024-01-19-2024-01-19-ai-updates",
+  "date": "2024-01-19",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "infra",
+    "open-models",
+    "rag",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "0R5glMg69I4",
+    "title": "Have you heard these exciting AI news? - January 19, 2024 - AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=0R5glMg69I4",
+    "thumbnail": "https://i.ytimg.com/vi/0R5glMg69I4/hqdefault.jpg",
+    "duration": 2839
+  },
+  "deck": {
+    "path": "2024/2024-01-19-AI-Updates.pptx",
+    "filename": "2024-01-19-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-01-19-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-01-19-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "NVIDIA Blackwell B100 GPUs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LLM - Transformer, Mistral, Mixtral",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "History - Transformer & Attention",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "How Translation Models Work",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mixtral Layers",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mixtral - How it Works",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "What is MoE (Mixture of Experts)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "How an LLM Generates Output",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tokenization & Embeddings",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "How Embedding Models Work",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Positional Encoding",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "What weights are learned inside LLM",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Multi-head attention, Group Attention",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Steps of the Attention Mechanism",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Sliding Window Attention",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Why Not Combine Query & Key Matrices",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "The End of the Transformer Process",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "TensorRT-LLM and Triton",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Is Having More Experts Better?",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AlphaGeometry",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AlphaCodium",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Mark Zuckerberg Announcement (2min)",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Run SDXL Locally With ComfyUI",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Samsung Galaxy S24 AI Features",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "ML & AI on AWS, Azure, GCP",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "LLM Leaderboards - Hugging Face, \"Arena\", YALL, Coding",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "The AI Tools",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates January 19, 2024 NVIDIA Blackwell B100",
+      "text": "AI Updates January 19, 2024 NVIDIA Blackwell B100 GPUs LLM - Transformer, Mistral, Mixtral History - Transformer & Attention How Translation Models Work Mixtral Layers Mixtral - How it Works What is MoE (Mixture of Experts) How an LLM Generates Output Tokenization & Embeddings How Embedding Models Work Positional Encoding What weights are learned inside LLM Multi-head attention, Group Attention Steps of the Attention Mechanism Sliding Window Attention Why Not Combine Query & Key Matrices The End of the Transformer Process TensorRT-LLM and Triton Is Having More Experts Better? AlphaGeometry AlphaCodium Mark Zuckerberg Announcement (2min) Run SDXL Locally With ComfyUI Samsung Galaxy S24 AI Features ML & AI on AWS, Azure, GCP LLM Leaderboards - Hugging Face, \"Arena\", YALL, Coding The AI Tools"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "NVIDIA Blackwell B100 GPU NVIDIA Blackwell B100 GPUs",
+      "text": "NVIDIA Blackwell B100 GPU NVIDIA Blackwell B100 GPUs is expected to be released in Q2 of 2024. https://wccftech.com/nvidia-blackwell-b100-gpus-2x-faster-hopper-h200-2024-launch/ More Than Double The Performance of Hopper H200 GPUs . \"B\" comes from David Harold Blackwell https://en.wikipedia.org/wiki/David_Blackwell https://en.wikipedia.org/wiki/Rao%E2%80%93Blackwell_theorem The Rao-Blackwell theorem in statistics says that if you have an (unbiased) estimator for some parameter, you can often improve its accuracy (lower variance) by averaging on additional information (statistic). David Harold Blackwell (1919 – 2010) American statistician and mathematician, UC Berkeley (1954-88)"
+    },
+    {
+      "index": 4,
+      "title": "Next GPUs for AI GPU Released Generation Memory",
+      "text": "Next GPUs for AI GPU Released Generation Memory GB Price Nvidia RTX 3090 2020 Q3 Ampere 24 0.7K Nvidia RTX 4090 2022 Q4 Ada Lovelace 24 2K Nvidia RTX A6000 2020 Q4 Ampere 48 4K Nvidia RTX 6000 Ada 2022 Q4 Ada Lovelace 48 7K Nvidia A100 (40GB) 2020 Q2 Ampere 40 6K Nvidia A100 (80GB) 2021 Q2 Ampere 80 18K Nvidia H100 (80GB) 2023 Q1 Hopper 80 32K Nvidia H200 (141GB) 2024 Hopper 141 ? Nvidia B100 2024 Blackwell ? AMD RX 7900 XTX 2022 Q4 RDNA 3 24 0.9K AMD PRO W7900 2023 Q4 RDNA 3 48 3.5K AMD AMD MI250 2021 Q4 CDNA 2 48 ~10K Inference Performance Confusion about Nvidia 6000: Quadro 6000 (2010) - old, discontinued RTX A6000 (2020) - Ampere RTX 6000 Ada (2023) - Ada Lovelace Training Performance"
+    },
+    {
+      "index": 5,
+      "title": "LLM - Transformer, Mistral, Mixtral, ... LLM (Large",
+      "text": "LLM - Transformer, Mistral, Mixtral, ... LLM (Large Language Model) is typically a multi-layer model following the \"decoder\" part of the standard \"transformer\" architecture. It accepts a sequence of tokens, converts them into sequence of embeddings (vectors), transforms them over multiple \"decoder\" layers, and generates the text token , which is then added to the input. T1 T2 TN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Next token Input Output Feed Forward Layer Self-attention Feed-Forward Next Token Each layer consists of two parts: Self-Attention and  Feed-Forward"
+    },
+    {
+      "index": 6,
+      "title": "History - Transformer & Attention 2016-2017 - Google,",
+      "text": "History - Transformer & Attention 2016-2017 - Google, Transformer Architecture \"Attention is All You Need\" - https://arxiv.org/abs/1706.03762 https://jalammar.github.io/illustrated-transformer/ The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder . The best performing models also connect the encoder and decoder through an attention mechanism . We propose a new simple network architecture, the Transformer , based solely on attention mechanisms, dispensing with recurrence and convolutions entirely ."
+    },
+    {
+      "index": 7,
+      "title": "How Translation Models Work (Google Translate) Some Multi-Lingual",
+      "text": "How Translation Models Work (Google Translate) Some Multi-Lingual LLMs can translate between multiple languages. But specialized translation models historically were designed differently. In 2016 the NMT (Neural Machine Translation) was switched to use RNN Encoder and Decoder (LSTMs) with an attention block between them. Modern NMT systems are designed to be context-aware . They don't just translate words in isolation; they also consider the surrounding words and sentences . They use attention mechanism to focus on different parts of the input sentence as it translates. Some advanced translation models may use iterative refinement techniques. Input tokens are encoded into intermediate representation, then decoded into another language. Each new token is generated based on the already translated sequence (previous tokens in the target language) and the input sentence's encoded representation. The newly generated token is then added to the sequence of translated tokens and used in generating subsequent tokens. \"How Google Translate works - Architecture explained\" - by La Vivien - https://www.youtube.com/watch?v=z3XKMnu2pgg In 2017 this architecture was substituted by a Transformer with multiheaded attention  ( \"Attention is All You Need\", 2017 ) In 2020 a hybrid approach was adopted (Transformer + LSTMs). Nowadays (2024) most translators are purely Transformer based (no RNNs)"
+    },
+    {
+      "index": 8,
+      "title": "Mixtral Layers https://www.unite.ai/mistral-ais-latest-mixture-of-experts-moe-8x7b-model/ Next token . . .",
+      "text": "Mixtral Layers https://www.unite.ai/mistral-ais-latest-mixture-of-experts-moe-8x7b-model/ Next token . . . . . . . . . . . . . . . . . . . . . . . . . . . 32 Layers 32 Layers 16 Layers Next Token T1 T2 TN . . ."
+    },
+    {
+      "index": 9,
+      "title": "Mixtral - how it works Mixtral of Experts",
+      "text": "Mixtral - how it works Mixtral of Experts paper - https://arxiv.org/abs/2401.04088 We introduce Mixtral 8x7B, a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer has 8 feedforward blocks (i.e. experts). For every token, at each layer, a router network selects two experts to process the current state and combine their outputs. Even though each token only sees two experts, the selected experts can be different at each timestep. As a result, each token has access to 47B parameters, but only uses 13B active parameters during inference . Mixtral was trained with a context size of 32k tokens and it outperforms or matches Llama 2 70B and GPT-3.5 across all evaluated benchmarks. In particular, Mixtral vastly outperforms Llama 2 70B on mathematics, code generation, and multilingual benchmarks. We also provide a model fine-tuned to follow instructions, Mixtral 8x7B - Instruct , that surpasses GPT-3.5 Turbo, Claude-2.1, Gemini Pro, and Llama 2 70B - chat model on human benchmarks. Both the base and instruct models are released under the Apache 2.0 license. Feed-Forward Sub-Layers have this structure with router, experts, and aggregation outputs. The aggregation at the output of each layer is implemented by taking the softmax over the Top-K logits of a linear layer of experts in this layer Understanding Mixtral-8x7b - https://huggingface.co/blog/vtabbott/mixtral Google 2022 review of sparse expert models - https://arxiv.org/pdf/2209.01667.pdf https://github.com/huggingface/transformers/blob/main/src/transformers/models/mixtral/configuration_mixtral.py https://github.com/huggingface/transformers/blob/main/src/transformers/models/mistral/configuration_mistral.py https://arxiv.org/abs/2305.13245 - group attention mechanism dim_MLP group attention =4096/n_heads"
+    },
+    {
+      "index": 10,
+      "title": "What is MoE Mixture of Experts (MoE): MoE",
+      "text": "What is MoE Mixture of Experts (MoE): MoE is a neural network architecture. It consists of multiple parts (experts), a trainable gating routing mechanism which directs each input to one or more experts, and a mechanism to aggregate outputs together . MoE allows for efficient scaling since not all parts of the network are active at the same time, reducing computational load. Switch Transformer: Switch Transformer is an MoE developed by Google for (extremely) large-scale language processing tasks. It employs a trainable 'switch' mechanism to route each token to the most relevant expert. Mixture of Experts (MoE): https://huggingface.co/blog/moe (since 1991) https://en.wikipedia.org/wiki/Mixture_of_experts https://arxiv.org/pdf/1701.06538.pdf https://medium.com/@sthanikamsanthosh1994/the-mixer-of-experts-moe-modern-architecture-for-divide-and-concur-learning-dbe10ffa8436 Switch Transformer: https://arxiv.org/pdf/2101.03961.pdf - paper (2022) https://huggingface.co/google/switch-c-2048 (2048 experts (1.6T parameters for 3.1 TB))"
+    },
+    {
+      "index": 11,
+      "title": "How an LLM Generates Output (Inference) Initially, the",
+      "text": "How an LLM Generates Output (Inference) Initially, the input text (sequence of words) is converted into sequence of tokens . Then sequence of tokens is converted into a sequence of embeddings (vectors) . These embeddings represent the input tokens in a way that captures their semantic and syntactic properties. Also positional info of each token is calculated as sin() and cos() and sum-ed into their vectors. Transformer Layers : The embeddings then pass through multiple layers of the transformer architecture. Each layer consists of self-attention mechanisms and feed-forward neural networks . The self-attention mechanism allows the model to weigh the importance of different parts of the input sequence differently (helps to understand context and relationships between words). Output Embeddings : vectors after processing through the transformer layers. Linear Layer : a type of fully connected neural network layer. Maps the high-dimensional vectors from the transformer output to a much larger, but fixed-size, vocabulary space of tokens . Softmax Layer : softmax function is applied to the outputs of the linear layer - and convert them into a probability distribution over the entire vocabulary of the model. Each element in this distribution represents the probability that a particular token from the vocabulary is the next token in the sequence . Token Selection: The token with the highest probability is usually selected as the output. In some cases, techniques like beam search, temperature-controlled sampling, or top-k sampling are used to generate more varied or contextually appropriate responses. The generated token is fed back into the model - it is converted into embedding and added as part of the input at the very first transformer layer. It becomes part of the input sequence for the next iteration of the processing. The new sequence is propagated through all layers - and end up generating next output token . This process repeated again and again. Each generated token is fed back into the model as part of the input for generating the next token, continuing until a stop condition is met (like generating a full stop or reaching a maximum length). Tokens are converted into words - and printed on the output."
+    },
+    {
+      "index": 12,
+      "title": "LLM: Tokenization & Embeddings Embeddings = vectors representing",
+      "text": "LLM: Tokenization & Embeddings Embeddings = vectors representing words or tokens \"Efficient Estimation of Word Representations in Vector Space\" word2vec (Tomas Mikolov, 2013, Google) - https://arxiv.org/abs/1301.3781 (note - dimensions of vectors were only 50..100) Tomas Mikolov word2vec Google, 2013 T1 T2 TN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . Tokenization (especially subword tokenization) - reduce vocabulary size, facilitate sequence modeling, improve generalization, reduces complexity Average length of a token in English is 4 chars (a word is 5 chars) LLM: Converting a Sequence or Tokens  into a Sequence of Vectors (dimensions ~ 4K) A vector representation is better because it can hold the \"meaning\" of a word/token. Also can represent usage, context, or relationships with other tokens/vectors. The tokenizer used by Mistral is a SentencePiece Byte-Pair Encoding tokenizer . https://github.com/google/sentencepiece Mistral doesn't use a separate, standalone 'embedding matrix'. Mistral uses its own trainable function as part of the model architecture."
+    },
+    {
+      "index": 13,
+      "title": "How Embedding Models Work An Embedding Model creates",
+      "text": "How Embedding Models Work An Embedding Model creates a single embedding vector from a large number of input tokens . First, the input text is tokenized. Then each token is mapped to initial embeddings (typically of size 256, 512, 768, ...) which are obtained from a pre-trained embedding layer (using a lookup table ). In advanced context-aware models like transformers ( BERT, GPT ), these embeddings are processed through multiple layers of self-attention and feed-forward neural networks. To compress these many token embeddings into a single vector, the model employs an aggregation strategy . Common methods include: Pooling : Techniques like mean pooling or max pooling (averaging) Attention Mechanisms - to weight the embeddings differently before combining them, focusing on more relevant parts of the input Linear fully-connected layers to reduce number of dimensions The resulting vector might undergo normalization and other processing steps The final output is a single embedding vector of the desired length, encapsulating the information from the large number of input tokens. Note: Embeddings saturate their information capacity at around 300-500 tokens. https://twitter.com/TangriKunal/status/1748114153833660766 Embedding models optimistically store 1 byte per dimension (768 dim = 768 bytes). With optimal text compression (3.5x loss-free), this means 2688 bytes (768 *3.5) of text can compress into a 768 dim embedding. Increasing the dimensionality of embeddings isn’t a solution either. Embedding models struggle to encode > 1 topic per embedding effectively. Longer text > more topics > worse embeddings. As a result, truncation and chunking are still the best strategies for longer contexts."
+    },
+    {
+      "index": 14,
+      "title": "LLM: How Positional Information is Added into Embeddings",
+      "text": "LLM: How Positional Information is Added into Embeddings Adding Positional Information to Embedding Vectors: The positional encoding for each position is added element-wise to the corresponding embedding vector. This is done at the \"bottom\" of encoder and decoder stacks of the transformer. For each even/odd index of the embedding vector we calculate positional encoding using sin() or cos() functions as following: The reason for using both sine and cosine is to allow the model to more easily learn to attend by relative positions since for any fixed offset k, sin(x+k) and cos(x+k) can be represented as linear transformations of sin(x) and cos(x). This positional encoding is added element-wise to the embedding vector of the corresponding token. This way, each index \"i\" in the embedding vector is adjusted based on the position of the token in the sequence, with even indices being adjusted by a sine-based value and odd indices by a cosine-based value. T1 T2 TN . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . pos"
+    },
+    {
+      "index": 15,
+      "title": "What weights are learned inside LLM https://www.researchgate.net/publication/357047476_Transformer-Based_Deep_Neural_Language_Modeling_for_Construct-Specific_Automatic_Item_Generation Each",
+      "text": "What weights are learned inside LLM https://www.researchgate.net/publication/357047476_Transformer-Based_Deep_Neural_Language_Modeling_for_Construct-Specific_Automatic_Item_Generation Each \"head\" of the attention mechanism uses 3 learned matrices Query (Q), Key (K), Value (V) and also learned Weight Matrix. Also learned are weights of the Feed Forward Layer (FFL). The same FFL is applied separately to each vector. The FFL is typically comprised of two  linear (fully connected) layers. The middle layer adds non-linearity. It is also usually 4 times larger than the input (and output) size (which is simply the size of embedding vectors). Attention Matrix Weight Matrix (Value Matrix) Output Matrix Input Output Feed Forward Layer Embedding weights Also learned are the w eights in the output layer for generating next word predictions"
+    },
+    {
+      "index": 16,
+      "title": "Multi-head attention In case of a multi-head attention,",
+      "text": "Multi-head attention In case of a multi-head attention, each head has its own Q,K,V matrixes. The outputs of heads are concatenated . This means that a single, long vector is created for each token. Then the combined output goes through a linear transformation using another learned weight matrix, often denoted as W o (where \"o\" stands for \"output\") which projects the concatenated vector back to the original embedding dimension . https://wikidocs.net/167211 https://jalammar.github.io/illustrated-transformer/ Mistral uses \"Grouped Query Attention\" for faster inference. This means that 32 attention heads are split into 8 groups of 4 heads. The heads inside each group share their learned K & V matrixes (heads) for faster inference."
+    },
+    {
+      "index": 17,
+      "title": "Steps of the Attention Mechanism Multiply input embeddings",
+      "text": "Steps of the Attention Mechanism Multiply input embeddings by Q, K, V matrices - to get Q, K, V vectors: Q=X⋅W Q , K=X⋅W K , V=X⋅W V Multiply Q by K-transposed to get a score for each query token against each key, measuring similarity: score = Q * K^T Divide the scores by √dk (square root of key vector dimensionality) for normalization: score = score / √dk Apply softmax to the scores to convert them to attention weights on the values. High scores mean the query is very relevant to that key: attention_weights = softmax(score) Multiply the attention weights by V to get the weighted sum of values for each query. The higher weights mean more focus/attention put on those values: attention_output = attention_weights * V The attention output then becomes the new representations for each query token, focused on the most relevant key/value pairs. An optional final linear transformation can be applied on the output to project it back into the model dimensionality The sizes of the attention mechanism matrices are the same. Normally they would depend on the length of the input sequence and the hidden dimensionality. For Mistral the numbers are 32K and 4K. However Mistral uses the sliding window attention with a window size of 4K. So the size of attention matrices will be 4k x 4K. In the code you will see the shapes as following: (batch_size, num_heads, seq_length, head_dimension)"
+    },
+    {
+      "index": 18,
+      "title": "Sliding Window Attention Here's a breakdown of how",
+      "text": "Sliding Window Attention Here's a breakdown of how it works: Initial Window : The model starts by processing the first 4096 vectors. Sliding Forward : It then shifts the window by a certain amount (e.g., 256 vectors), attending to both new tokens and information from the previous window. Iterative Processing : This process continues until the entire 32,768-token sequence has been processed. Mistral 7B has a maximum input sequence length of 32,768 tokens (approx 50 pages). It is a long sequence. Each layer processes these long sequence using a Sliding Window Attention (SWA). It does it in overlapping chunks (window) of 4096 tokens (approx 6 pages). This window is sliding across the entire input sequence."
+    },
+    {
+      "index": 19,
+      "title": "Why Can't we Combine the Query & Key",
+      "text": "Why Can't we Combine the Query & Key Matrices into One ? Benefits of having separate Query, Key, and Value matrices: Having more than one vector enables better representation learning and improves the overall performance of the model. Dot product of Q & K = a simple way of computing similarity. Having separate matrices helps maintain the distinction between the importance weights and actual content information. Breaking down the embedding space into smaller subspaces via multiple matrices helps reduce the memory footprint and improve parallelization opportunities during training. Introducing multiple learnable parameters (matrices) increases the capacity of the network while allowing for richer interactions among the components. It also offers regularization benefits due to increased parameter count, reducing the risk of overfitting. Allowing independent manipulation of the Query, Key, and Value matrices opens possibilities for designing new variants of self-attention mechanisms. The power of Gen AI system grows with increasing the number of parameters. A good model (like Mistral) has Billions of parameters. They are structured into 32 layers, each layer having 32 attention heads and a Feed-Forward layer. And each attention head has multiple matrices and normalization layers. Combining matrices may appear attractive initially, but doing so actually reduces representational power, limits comparisons, and eliminates potential design innovations afforded by maintaining distinct Query, Key, and Value matrices. Extra matrices and extra nonlinearity provided by splitting the embeddings across multiple matrices contributes significantly to the success of attention-based models."
+    },
+    {
+      "index": 20,
+      "title": "The End of the Transformer Process - Next",
+      "text": "The End of the Transformer Process - Next Token Suppose an LLM input has 5 tokens. We convert them into embedding vectors of size \"d\". These embeddings pass through multiple Transformer layers. The output of the final Transformer layer consists of 5 updated vectors, each still having a size of d. We multiply the output by an unembedding matrix W_u, yielding a matrix of \"logits\" (unnormalized probabilities) of size 5 x |V|, where |V| represents the size of the vocabulary of tokens (commonly around 30,000 tokens). We apply softmax function to each of 5 \"rows\". We still have the matrix of shape 5 x |V|, but the values are now probabilities. Finally, to determine the most probable token we find the maximum value in the last row (corresponding to the last token). The column of this last value will give us the id of the next token. Alternatively, we can use sampling . We find several top values in the last row - and randomly sample one of them. A more advanced tactics is called Beam Search - we keep track of multiple potential sequences (beams) and expand them at each step, eventually selecting the sequence with the highest overall probability."
+    },
+    {
+      "index": 21,
+      "title": "How Mixtral was trained and run In the",
+      "text": "How Mixtral was trained and run In the Mixtral paper: \"We thank the CoreWeave and Scaleway teams for technical support as we trained our models. We are grateful to NVIDIA for supporting us in integrating TensorRT-LLM and Triton and working alongside us to make a sparse mixture of experts compatible with TensorRT-LLM.\" OK, so what is TensorRT-LLM and what is Triton ? TensorRT Toolbox for Optimized LLM Inference https://github.com/NVIDIA/TensorRT-LLM - open source (Apache) https://github.com/triton-inference-server/server - open source (BSD 3) TensorRT-LLM provides users with an easy-to-use Python API (similar to PyTorch) to define LLMs and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs . To create Python and C++ runtimes for those TensorRT engines. It also includes a backend for integration with the NVIDIA Triton Inference Server to serve LLMs. Models built with TensorRT-LLM can be executed on a wide range of configurations going from a single GPU to multiple nodes with multiple GPUs ( using Tensor Parallelism and/or Pipeline Parallelism ). Open Inference Engines: https://github.com/lapp0/lm-inference-engines/ Performance: https://nvidia.github.io/TensorRT-LLM/performance.html TensorRT supports running models saved in various formats, for example: TensorFlow formats ONNX (Open Neural Network Exchange) format PyTorch TorchScript (.pt) format"
+    },
+    {
+      "index": 22,
+      "title": "Is Having More Experts Better? For example, can",
+      "text": "Is Having More Experts Better? For example, can Mixtral 8x7B be improved by increasing the number of experts from 8 to 16 ? The answer is \"it depends\". Here are some factors to consider: More experts - more compute needed, more expensive For smaller datasets or simpler problems, adding more experts may result in redundancy, overfitting and reduced generalization performance. A more complicated gating network may be needed when increasing the number of experts to maintain good routing decisions. So, increasing the number of experts in a Mixtral model from eight to sixteen might lead to improvements in certain scenarios. Decision depends on available resources, dataset characteristics, and overall goals. The Rise of Sparse Mixtures of Experts: Switch Transformers https://mlfrontiers.substack.com/p/the-rise-of-sparse-mixtures-of-experts Here are some LLMs: --------------------------------------------------------- Year | Model        | Params | Layers | Embed dim | heads --------------------------------------------------------- 2020 | GPT-3        |  175B  |   96   |  12,288   |  96 2021 | Gopher       |  280B  |   80   |  16,384   | 128 2021 | Anthropic LM |   52B  |   64   |   8,192   |  - 2022 | PaLM.        |  540B  |  118   |  18,432   |  48 2022 | Chinchilla   |   70B  |   80   |   8,192   |  64 2023 | Llama-2-7B   |    7B  |   32   |  11,008   |  32 2023 | Mistral-7B   |    7B  |   32   |  14,336   |  32 2023 | Mixtral-8x7B |   47B  |   32   |  14,336   |  32 --------------------------------------------------------- Unfortunately there is no public info about architectures of GPT-4-Turbo, GPT-3-Turbo, Claude-2, Gemini Pro, ... Llama                   7B         70B ---------------------------------------- hidden_size            4096        8192 intermediate_size     11008       28672 num_attention_heads     32           64 num_hidden_layers       32           80 num_key_value_heads     32            8 use_cache              true       false Inside Common Models:"
+    },
+    {
+      "index": 23,
+      "title": "AlphaGeometry Google Deepmind - AlphaGeometry: An Olympiad-level AI",
+      "text": "AlphaGeometry Google Deepmind - AlphaGeometry: An Olympiad-level AI system for geometry https://www.nature.com/articles/s41586-023-06747-5 https://deepmind.google/discover/blog/alphageometry-an-olympiad-level-ai-system-for-geometry/ AlphaGeometry is a neuro-symbolic system made up of a neural language model and a symbolic deduction engine, which work together to find proofs for complex geometry theorems."
+    },
+    {
+      "index": 24,
+      "title": "AlphaCodium AlphaCodium - Code Generation https://github.com/Codium-ai/AlphaCodium - Open",
+      "text": "AlphaCodium AlphaCodium - Code Generation https://github.com/Codium-ai/AlphaCodium - Open Source https://arxiv.org/abs/2401.08500 https://www.codium.ai/products/alpha-codium/ AlphaCodium - a test-based, multi-stage, code-oriented iterative flow, that improves the performances of LLMs on code problems Andrej Karpathy: Prompt engineering (or rather \"Flow engineering\") intensifies for code generation. Great reading and a reminder of how much alpha there is (pass@5 19% to 44%) in moving from a naive prompt:answer paradigm to a \"flow\" paradigm, where the answer is constructed iteratively . https://twitter.com/karpathy/status/1748043513156272416 CodiumAI is a small, fast-paced startup in Tel Aviv."
+    },
+    {
+      "index": 25,
+      "title": "Mark Zuckerberg Announcement (Instagram 2 min video) Mark",
+      "text": "Mark Zuckerberg Announcement (Instagram 2 min video) Mark Zuckerberg just dropped a huge announcement and confirmed LLaMA 3 is in training https://www.instagram.com/p/C2QARHJR1sZ January 18, 2024 : Hey everyone. Today I am bringing Meta's two AI research efforts closer together to support our long-term goals of building general intelligence, open-sourcing it responsibly and making it available and useful to everyone in all of our daily lives . It's become clearer that the next generation of services requires building full general intelligence . Building the best AI assistants ,AIs for creators, AIs for businesses and more that needs advances in every area of AI from reasoning to planning to coding to memory and other cognitive abilities. This technology is so important and the opportunities are so great, that we should open-source and make it as widely available as we responsibly can, so that everyone can benefit . We were building an absolutely massive amount of infrastructure to support this. By the end of this year we're going to have around 350,000 Nvidia H100s, or around 600,000 H100 equivalent of compute if you include other gpus we're currently training llama 3. And we've got an exciting road map of of future models that we're going to keep training responsibly and safely too. People are also going to need new devices for AI, and this brings together AI and the metaverse, because over time I think a lot of us are going to talk to AIs frequently throughout the day, and a lot of us are going to do that using glasses, because glasses are the ideal form factor for letting an AI see what you see and hear what you hear, so it's always available to help out . Ray-Ban Meta glasses with meta AI are already off to a very strong start, and overall across all this stuff we are just getting started. Zuck: \"We're currently training LLaMA 3 ... Open-Source AGI\" GPU cost ~ $20 Bln 600K * $32K Total cost ~ $50 Bln"
+    },
+    {
+      "index": 26,
+      "title": "Misc Run SDXL Locally With ComfyUI: https://www.youtube.com/watch?v=9k-yb83ZHfc https://github.com/comfyanonymous/ComfyUI",
+      "text": "Misc Run SDXL Locally With ComfyUI: https://www.youtube.com/watch?v=9k-yb83ZHfc https://github.com/comfyanonymous/ComfyUI https://github.com/ltdrdata/ComfyUI-Manager https://www.youtube.com/watch?v=m9jg1fdOiVY - on Mac https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0 https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0 https://huggingface.co/stabilityai/sdxl-vae Also: https://github.com/AUTOMATIC1111/stable-diffusion-webui https://huggingface.co/CompVis/stable-diffusion-v-1-4-original OpenAI ChatGPT Pricing Calculator: https://gptforwork.com/tools/openai-chatgpt-api-pricing-calculator New Samsung Galaxy S24 AI Features (proprietary) Circle to Search Live Translate (real time) Nightography Zoom Note - Google Pixel 8 Pro also has Circle to Search and live translate. Volkswagen and Mercedes Benz demonstrated dashboard LLM-based voice assistants. Taiwanese startup Neuchips displayed an add-in board that enables desktop computers to run 7B LLMs at 55 watts Microsoft launches Copilot Pro for $20 per month per user I often give the same question to multiple chats. Then aggregate their answers."
+    },
+    {
+      "index": 27,
+      "title": "Misc 2 Ads on Meta bring 32% more",
+      "text": "Misc 2 Ads on Meta bring 32% more returns thanks to AI 200+ page book on vector retrieval: https://arxiv.org/pdf/2401.09350.pdf MegaDolphin 2.2 120b - merging of two Llama-2 based dolphin models (interleaving a model with itself). New in 2.2 is conversation and empathy. With an infusion of curated Samantha and WizardLM DNA, Dolphin can now give you personal advice and will care about your feelings, and with extra training in long multi-turn conversation. This model is uncensored. It will be highly compliant to any requests, even unethical ones. https://huggingface.co/cognitivecomputations/MegaDolphin-120b Cheap Mixtral via API https://twitter.com/wenquai/status/1748016451808530863 https://monsterapi.ai https://colab.research.google.com/drive/17dM_lGdD80NqEUB_R1_dKqQXpJfublkV https://developer.monsterapi.ai/ https://developer.monsterapi.ai/docs/monster-deploy-beta https://developer.monsterapi.ai/reference/post_generate-codellama-13b-instruct Self-Rewarding Language Models https://arxiv.org/pdf/2401.10020.pdf This is huge! Iterative DPO (three iterations) on LLama 2 70B yields a model that beats Mistral Medium, Claude 2, Gemini Pro, GPT-4 0613 on Alpaca v2 benchmark"
+    },
+    {
+      "index": 28,
+      "title": "ML & AI on AWS, Azure, GCP Amazon:",
+      "text": "ML & AI on AWS, Azure, GCP Amazon: Amazon Trainium Amazon Bedrock AWS Inferentia Amazon CodeWhisperer Amazon Sagemaker Comprehend (extract from text) CodeGuru (auto code review) Lex (Chatbots) Forecast Textract (extract text & data from millions of docs) Kendra (Natural Language Search) Fraud Detector Rekognition - image/video analysis, Personalize - recommendation engine, Translate - real time translation Polly - text-to-speech Transcribe - speech to text QuickSight - Analytics dashboards Azure: Azure Open AI Azure ML Studio PySpark Azure Data Fabric Azure Cognitive Services (Vision, Speech, Language, Knowledge, Search) GCP Google Cloud AI Services Generative AI on Vertex AI Generative AI App Builder Duet AI Cloud Vision API Video Intelligence API Cloud Speech API Cloud Natural Language Cloud Translation DataLab ML Engine AutoML Colab - free jupyter notebooks with GPU Kaggle - ML competitions, code, notebooks (kernels), ... - https://www.kaggle.com Benefits of Gen AI Cloud Platforms train and deploy Build and scale Latest Gen AI models, LLMs High performance pay-as-you-go pricing Pre-built ML/AI Frameworks Frameworks for images, videos, business use Advanced models offered by Cloud providers"
+    },
+    {
+      "index": 29,
+      "title": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "text": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py January 19, 2024"
+    },
+    {
+      "index": 30,
+      "title": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard Jan 18, 2024 54",
+      "text": "Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard Jan 18, 2024 54 Models 231K+ votes Starting Elo rating = 1000 for each model 95% CI = Confidence Interval What is the architecture of Mistral Medium? It is probably MoE ? 8x30b ?  32x7b ? https://www.reddit.com/r/LocalLLaMA/comments/18m2t0z/deducing_mistral_medium_size_from_pricing_is_it_a/ 7B 7B 7B"
+    },
+    {
+      "index": 31,
+      "title": "YALL - Yet Another LLM Leaderboard https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard Leaderboard",
+      "text": "YALL - Yet Another LLM Leaderboard https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard Leaderboard made with LLM AutoEval using Nous benchmark suite. Other - EvalPlus Leaderboard https://evalplus.github.io/leaderboard.html"
+    },
+    {
+      "index": 32,
+      "title": "The AI Tools Nov 30, 2022 - ChatGPT",
+      "text": "The AI Tools Nov 30, 2022 - ChatGPT release has pushed many companies to completely change their agenda and to re-organize around AI 2023 - year of discoveries, POCs 2024 - year of deployments AI Research: .. Berkeley, Carnegie Mellon, MIT, ... .. OpenAI .. Microsoft .. Meta .. Mistral.ai .. Stability.ai .. Anthropic .. Google DeepMind .. 01.ai .. X.ai .. Inflection.ai .. IBM Cloud Platforms: .. Microsoft, Azure .. Hugging Face .. Amazon Bedrock .. AWS EC2 .. Google Vertex AI .. Google CoLab .. IBM Watson .. Nvidia .. cloud.vast.ai .. paperspace.com .. LambdaLabs .. brev.dev Tools: .. RAG tools: Vector DBs, Graph DBs, PostgreSQL .. AutoGen .. TaskWeaver .. CrewAI .. MemGPT .. vLLM + AutoAWQ AI Chips: .. Nvidia .. Google TPUs .. Microsoft .. OpenAI .. Meta .. Apple .. Rain NPU ..  Cerebras Software: .. Python, PyTorch, JAX .. Rust Candle .. Nvidia CUDA, cuDNN, TensorRT SDK, DeepStream SDK, ... .. HuggingFace python modules (datasets, transformers) models, datasets, ... .. LangChain, LlamaIndex .. Apple MLX Model Training, Fine-tuning: .. HuggingFace .. Axolotl .. LoRA, QLoRA, S-LoRA .. wandb.ai (weights & biases) .. fast.ai Model Safety: .. Meta Purple Llama Front-End Dev: .. LangChain Studio .. Windows AI Studio .. AutiGen Studio .. Streamlit, Flask, Gradio .. voiceflow.com .. Text Generation WebUI Cloud App Dev: .. Hugging Face .. platform.openai.com .. Cohere.com .. RunPod.io .. replit.com + voiceflow.com .. chatbase.co Local Apps: .. Ollama .. LMStudio .. TextGen WebUI .. GPT4All .. MLC LLM .. PrivateGPT .. h2oGPT Datasets: .. HuggingFace .. Orca2, Open Orca .. Dolphin .. scale.com Chats: .. ChatGPT .. Bard .. Claude .. labs.perplexity.ai .. llama2.ai .. pi.ai AI Coding Tools: .. GPT Pilot in VS Code .. GitHub Copilot .. Google’s Duet AI .. JetBrains AI IDEs"
+    },
+    {
+      "index": 33,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "NVIDIA Blackwell B100 GPUs",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates January 19, 2024 NVIDIA Blackwell B100",
+      "source": "outline"
+    },
+    {
+      "claim": "LLM - Transformer, Mistral, Mixtral",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "History - Transformer & Attention",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 3,
+      "slideTitle": "NVIDIA Blackwell B100 GPU NVIDIA Blackwell B100 GPUs",
+      "source": "outline"
+    },
+    {
+      "claim": "How Translation Models Work",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 5,
+      "slideTitle": "LLM - Transformer, Mistral, Mixtral, ... LLM (Large",
+      "source": "outline"
+    },
+    {
+      "claim": "Mixtral Layers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 6,
+      "slideTitle": "History - Transformer & Attention 2016-2017 - Google,",
+      "source": "outline"
+    },
+    {
+      "claim": "Mixtral - How it Works",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 7,
+      "slideTitle": "How Translation Models Work (Google Translate) Some Multi-Lingual",
+      "source": "outline"
+    },
+    {
+      "claim": "What is MoE (Mixture of Experts)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 8,
+      "slideTitle": "Mixtral Layers https://www.unite.ai/mistral-ais-latest-mixture-of-experts-moe-8x7b-model/ Next token . . .",
+      "source": "outline"
+    },
+    {
+      "claim": "How an LLM Generates Output",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 10,
+      "slideTitle": "What is MoE Mixture of Experts (MoE): MoE",
+      "source": "outline"
+    },
+    {
+      "claim": "Tokenization & Embeddings",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 11,
+      "slideTitle": "How an LLM Generates Output (Inference) Initially, the",
+      "source": "outline"
+    },
+    {
+      "claim": "How Embedding Models Work",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 12,
+      "slideTitle": "LLM: Tokenization & Embeddings Embeddings = vectors representing",
+      "source": "outline"
+    },
+    {
+      "claim": "Positional Encoding",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 13,
+      "slideTitle": "How Embedding Models Work An Embedding Model creates",
+      "source": "outline"
+    },
+    {
+      "claim": "What weights are learned inside LLM",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 15,
+      "slideTitle": "What weights are learned inside LLM https://www.researchgate.net/publication/357047476_Transformer-Based_Deep_Neural_Language_Modeling_for_Construct-Specific_Automatic_Item_Generation Each",
+      "source": "outline"
+    },
+    {
+      "claim": "Multi-head attention, Group Attention",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 16,
+      "slideTitle": "Multi-head attention In case of a multi-head attention,",
+      "source": "outline"
+    },
+    {
+      "claim": "Steps of the Attention Mechanism",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 17,
+      "slideTitle": "Steps of the Attention Mechanism Multiply input embeddings",
+      "source": "outline"
+    },
+    {
+      "claim": "Sliding Window Attention",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 18,
+      "slideTitle": "Sliding Window Attention Here's a breakdown of how",
+      "source": "outline"
+    },
+    {
+      "claim": "Why Not Combine Query & Key Matrices",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 19,
+      "slideTitle": "Why Can't we Combine the Query & Key",
+      "source": "outline"
+    },
+    {
+      "claim": "The End of the Transformer Process",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 21,
+      "slideTitle": "How Mixtral was trained and run In the",
+      "source": "outline"
+    },
+    {
+      "claim": "TensorRT-LLM and Triton",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 22,
+      "slideTitle": "Is Having More Experts Better? For example, can",
+      "source": "outline"
+    },
+    {
+      "claim": "Is Having More Experts Better?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 23,
+      "slideTitle": "AlphaGeometry Google Deepmind - AlphaGeometry: An Olympiad-level AI",
+      "source": "outline"
+    },
+    {
+      "claim": "AlphaGeometry",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 24,
+      "slideTitle": "AlphaCodium AlphaCodium - Code Generation https://github.com/Codium-ai/AlphaCodium - Open",
+      "source": "outline"
+    },
+    {
+      "claim": "AlphaCodium",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 26,
+      "slideTitle": "Misc Run SDXL Locally With ComfyUI: https://www.youtube.com/watch?v=9k-yb83ZHfc https://github.com/comfyanonymous/ComfyUI",
+      "source": "outline"
+    },
+    {
+      "claim": "Mark Zuckerberg Announcement (2min)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 27,
+      "slideTitle": "Misc 2 Ads on Meta bring 32% more",
+      "source": "outline"
+    },
+    {
+      "claim": "Run SDXL Locally With ComfyUI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 28,
+      "slideTitle": "ML & AI on AWS, Azure, GCP Amazon:",
+      "source": "outline"
+    },
+    {
+      "claim": "Samsung Galaxy S24 AI Features",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 29,
+      "slideTitle": "Hugging Face LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "ML & AI on AWS, Azure, GCP",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 31,
+      "slideTitle": "YALL - Yet Another LLM Leaderboard https://huggingface.co/spaces/mlabonne/Yet_Another_LLM_Leaderboard Leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "LLM Leaderboards - Hugging Face, \"Arena\", YALL, Coding",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 32,
+      "slideTitle": "The AI Tools Nov 30, 2022 - ChatGPT",
+      "source": "outline"
+    },
+    {
+      "claim": "The AI Tools",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 33,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Next GPUs for AI GPU Released Generation Memory",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 4,
+      "slideTitle": "Next GPUs for AI GPU Released Generation Memory",
+      "source": "slide"
+    },
+    {
+      "claim": "Mixtral - how it works Mixtral of Experts",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=0R5glMg69I4",
+      "slideIndex": 9,
+      "slideTitle": "Mixtral - how it works Mixtral of Experts",
+      "source": "slide"
+    }
+  ]
+}

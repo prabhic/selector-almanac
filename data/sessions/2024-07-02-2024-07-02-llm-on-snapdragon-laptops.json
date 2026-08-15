@@ -1,0 +1,46 @@
+{
+  "id": "2024-07-02-2024-07-02-llm-on-snapdragon-laptops",
+  "date": "2024-07-02",
+  "title": "LLM-on-Snapdragon-Laptops",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "RUbfdLS2Dqw",
+    "title": "Running LLM on SnapDragon PCs - 2024-07-02",
+    "url": "https://www.youtube.com/watch?v=RUbfdLS2Dqw",
+    "thumbnail": "https://i.ytimg.com/vi/RUbfdLS2Dqw/hqdefault.jpg",
+    "duration": 175
+  },
+  "deck": {
+    "path": "2024/2024-07-02-LLM-on-Snapdragon-Laptops.pptx",
+    "filename": "2024-07-02-LLM-on-Snapdragon-Laptops.pptx",
+    "title": "LLM-on-Snapdragon-Laptops",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-07-02-LLM-on-Snapdragon-Laptops.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-07-02-LLM-on-Snapdragon-Laptops.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LLM on Snapdragon LM Studio for snapdragon -",
+      "text": "LLM on Snapdragon LM Studio for snapdragon - https://lmstudio.ai/snapdragon Windows Laptops with new Snapdragon X Elite chips will be able to run LLMs effectively using on-chip NPU and fast memory. They are affordable ($1K .. $2K). LM Studio - has already created a version for Snapdragon - and demonstrated 20 tokens/sec for Llama-7b-q4 on CPU. NPU support is pending - waiting for llama.cpp support. Both LM Studio and Ollama are using llama.cpp https://github.com/ggerganov/llama.cpp Ollama - waiting ( https://github.com/ollama/ollama ). Yagil Burowski LM Studio founder, Brooklyn, NY https://www.linkedin.com/in/yagil-burowski/ https://x.com/yagilb Order Windows laptop with Snapdraon X Elite with 64GB memory and small 13-14\" screen: https://www.lenovo.com/us/en/p/laptops/thinkpad/thinkpadx/thinkpad--x13s-(13-inch-snapdragon)/len101t0019 https://www.dell.com/en-us/shop/laptops/13-new/spd/xps-13-9345-laptop/usexchcto9345qcm02 https://www.microsoft.com/en-us/d/surface-laptop-6-for-business/8pz3fvs57qcv"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LLM on Snapdragon LM Studio for snapdragon -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RUbfdLS2Dqw",
+      "slideIndex": 1,
+      "slideTitle": "LLM on Snapdragon LM Studio for snapdragon -",
+      "source": "slide"
+    }
+  ]
+}

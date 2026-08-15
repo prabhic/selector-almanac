@@ -1,0 +1,727 @@
+{
+  "id": "2025-10-24-2025-10-24-ai-updates",
+  "date": "2025-10-24",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "benchmarks",
+    "agents",
+    "coding",
+    "openai",
+    "google",
+    "infra",
+    "rag",
+    "open-models",
+    "jobs"
+  ],
+  "video": {
+    "id": "l1TIERzS-Zw",
+    "title": "Have you heard these exciting AI news? - October 24, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=l1TIERzS-Zw",
+    "thumbnail": "https://i.ytimg.com/vi/l1TIERzS-Zw/hqdefault.jpg",
+    "duration": 2102
+  },
+  "deck": {
+    "path": "2025/2025-10-24-AI-Updates.pptx",
+    "filename": "2025-10-24-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-10-24-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-10-24-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "artificial intelligence weekly updates",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "“We're summoning ghosts, not building animals” - Andrej Karpathy",
+      "startSeconds": 13,
+      "label": "00:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Why Claude Skills is a Big Deal ?!",
+      "startSeconds": 26,
+      "label": "00:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 33,
+      "label": "00:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Agent Skills",
+      "startSeconds": 49,
+      "label": "00:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude for Life Sciences",
+      "startSeconds": 317,
+      "label": "05:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Skills vs Agents",
+      "startSeconds": 348,
+      "label": "05:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Replicating /skills Locally",
+      "startSeconds": 396,
+      "label": "06:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Emulate Skills in Google",
+      "startSeconds": 458,
+      "label": "07:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code for the Web",
+      "startSeconds": 524,
+      "label": "08:44",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Atlas Web Browser",
+      "startSeconds": 561,
+      "label": "09:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini \"URL context grounding\" via API",
+      "startSeconds": 639,
+      "label": "10:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Vibe Coding Is Dead?",
+      "startSeconds": 689,
+      "label": "11:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Run LLM on Android Phone",
+      "startSeconds": 769,
+      "label": "12:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Cline CLI - run Multiple Instances",
+      "startSeconds": 866,
+      "label": "14:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Preventing Loops in Multi-Agent System",
+      "startSeconds": 994,
+      "label": "16:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Orchestration Frameworks",
+      "startSeconds": 1112,
+      "label": "18:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Deploying Agents",
+      "startSeconds": 1152,
+      "label": "19:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Veo 3.1",
+      "startSeconds": 1209,
+      "label": "20:09",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Blackwell chip wafer - TSMC in US",
+      "startSeconds": 1223,
+      "label": "20:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia RTX Pro 5000 Blackwell 72GB GPU",
+      "startSeconds": 1239,
+      "label": "20:39",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT with automatic memory management",
+      "startSeconds": 1275,
+      "label": "21:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Build - new \"vibe coding\" product",
+      "startSeconds": 1286,
+      "label": "21:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Unitree H2 Humanoid Robot",
+      "startSeconds": 1384,
+      "label": "23:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Google's Quantum Computing Breakthrough",
+      "startSeconds": 1393,
+      "label": "23:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent Hunyuan World 1.1",
+      "startSeconds": 1418,
+      "label": "23:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Deepseek-OCR AI Model",
+      "startSeconds": 1434,
+      "label": "23:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Andrej Karpathy Interview",
+      "startSeconds": 1534,
+      "label": "25:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Google VISTA Video Agent",
+      "startSeconds": 1569,
+      "label": "26:09",
+      "source": "youtube"
+    },
+    {
+      "title": "IBM Generalist Agent",
+      "startSeconds": 1634,
+      "label": "27:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Energy for AI",
+      "startSeconds": 1719,
+      "label": "28:39",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT is losing to Anthropic, DeepSeek, ...",
+      "startSeconds": 1744,
+      "label": "29:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Four alternatives to JSON",
+      "startSeconds": 1874,
+      "label": "31:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Terminals on MacOS",
+      "startSeconds": 1932,
+      "label": "32:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Colleges in Trouble",
+      "startSeconds": 1991,
+      "label": "33:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 2061,
+      "label": "34:21",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Claude Agent Skills Claude",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Claude Agent Skills Claude for Life Sciences Claude Skills vs Agents Replicating /skills Locally Emulate Skills in Google AI Updates - October 24 , 2025 Terminals on MacOS Colleges in Trouble Jobs, Layoffs, demand for AI Engineers Claude Code for the Web OpenAI Atlas Web Browser Gemini \"URL context grounding\" via API Vibe Coding Is Dead? Run LLM on Android Phone Cline CLI - run Multiple Instances Preventing Loops in Multi-Agent System Orchestration Frameworks Deploying Agents Veo 3.1 Nvidia Blackwell chip wafer - TSMC in US ChatGPT with automatic memory management Nvidia RTX Pro 5000 Blackwell 72GB GPU Google Build - new \"vibe coding\" product Unitree H2 Humanoid Robot Tencent Hunyuan World 1.1 Google's Quantum Computing Breakthrough Deepseek-OCR AI Model Andrej Karpathy Interview Google VISTA Video Agent IBM Generalist Agent Energy for AI ChatGPT is losing to Anthropic, DeepSeek, ... Four alternatives to JSON “We’re summoning ghosts, not building animals” - Andrej Karpathy \"Why Claude Skills is a Big Deal ?!\""
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://lmarena.ai/?leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text https://web.lmarena.ai/leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub https://epoch.ai/data/ai-benchmarking-dashboard LM Arena secures $100M to expand AI benchmarking (at $600M valuation) Grok 4 Benchmarks https://artificialanalysis.ai/models/grok-4 China China China China China China China China China China China China x.ai China China China China China China China China China China China Model Score gemini-2.5-pro 1451 claude-opus-4-1-20250805-thinking-16k 1447 claude-sonnet-4-5-20250929-thinking-32k 1445 gpt-4.5-preview-2025-02-27 1441 chatgpt-4o-latest-20250326 1440 o3-2025-04-16 1440 claude-sonnet-4-5-20250929 1438 gpt-5-high 1437 claude-opus-4-1-20250805 1437 qwen3-max-preview 1434 gpt-5-chat 1425 qwen3-max-2025-09-23 1423 glm-4.6 1422 grok-4-fast 1420 claude-opus-4-20250514-thinking-16k 1419 deepseek-v3.2-exp-thinking 1419 qwen3-vl-235b-a22b-instruct 1418 qwen3-235b-a22b-instruct-2507 1418 deepseek-r1-0528 1417 kimi-k2-0905-preview 1417 deepseek-v3.1 1416 deepseek-v3.1-thinking 1415 kimi-k2-0711-preview 1415 deepseek-v3.1-terminus 1414 Model Score claude-sonnet-4-5-20250929-thinking-32k 1527 claude-opus-4-1-20250805-thinking-16k 1515 claude-opus-4-1-20250805 1499 claude-opus-4-20250514-thinking-16k 1489 qwen3-max-2025-09-23 1476 qwen3-max-preview 1477 longcat-flash-chat 1473 claude-sonnet-4-5-20250929 1472 qwen3-vl-235b-a22b-instruct 1468 claude-haiku-4-5-20251001 1461 qwen3-235b-a22b-instruct-2507 1470 claude-sonnet-4-20250514-thinking-32k 1469 gemini-2.5-pro 1469 gpt-5-high 1467 chatgpt-4o-latest-20250326 1466 kimi-k2-0905-preview 1463 deepseek-r1-0528 1461 claude-opus-4-20250514 1461 gpt-5-chat 1460 deepseek-v3.2-exp-thinking 1459 glm-4.6 1458 deepseek-v3.1-terminus-thinking 1456 gpt-4.5-preview-2025-02-27 1455 deepseek-v3.1-thinking 1454"
+    },
+    {
+      "index": 3,
+      "title": "Claude Agent Skills Claude Agent Skills - path",
+      "text": "Claude Agent Skills Claude Agent Skills - path to Continual Leaning? https://www.anthropic.com/news/skills Skills are simply packaged specialized knowledge that can be uploaded so that Claude can use on demand. You can create skill folders with instructions, code, and resources (like brand guidelines) that Claude accesses automatically when needed—without cluttering the context window Agent Skills can now be added to Messages API requests The new /v1/skills endpoint gives developers programmatic control over custom skill versioning and management Skills require the Code Execution Tool beta , which provides the secure environment they need to run Developers can create custom Skills to extend Claude's capabilities for their specific use cases. Developers can also easily create, view, and upgrade skill versions through the Claude Console. Anthropic's new Skills feature consumes only dozens of tokens per skill until needed - compared to MCPs that can burn tens of thousands upfront This token efficiency and model-agnostic approach (any coding agent can read the files) will trigger a \"Cambrian explosion\" that makes the MCP rush look pedestrian Especially since skills transform Claude Code from a coding tool into a general automation agent capable of handling anything you could accomplish by typing commands Unlike OpenAI’s Custom GPTs or Microsoft’s Copilot Studio, Skills support executable code & composability across workflows . https://www.youtube.com/watch?v=FOqbS_llAms - good demo You can use same skills in different autonomous agents with separate contexts, or can use skills wirth agents in the same context (for example Claude Code agents and Sub-agents )"
+    },
+    {
+      "index": 4,
+      "title": "Claude for Life Sciences Claude for Life Sciences",
+      "text": "Claude for Life Sciences Claude for Life Sciences https://www.anthropic.com/news/claude-for-life-sciences Specialized AI platform designed to support researchers throughout the entire scientific discovery process Uses Claude Sonnet 4.5, Scientific Connectors (Benchling, PubMed, 10x Genomics, BioRender, Synapse.org , Scholar Gateway by Wiley) Scientists can use and create custom Agent Skills - folders with instructions, scripts, and resources that Claude follows for specific tasks (example: single-cell-rna-qc skill for quality control on RNA sequencing data) Typical usage: Literature reviews and hypothesis development Protocol generation and standard operating procedures Bioinformatics and genomic data analysis Clinical and regulatory compliance documentation Data analysis, slides, documents, code notebooks"
+    },
+    {
+      "index": 5,
+      "title": "Claude Skills vs Agents Claude Skills represent a",
+      "text": "Claude Skills vs Agents Claude Skills represent a pragmatic middle ground between static prompt templates and fully autonomous multi-agent systems. Claude Skills make agent behavior predictable, transferable, and governed, suited for production-ready AI augmentation, not open-ended exploration. In essence, multi-agent frameworks aim to simulate collaboration, while Skills aim to codify expertise. Dimension Claude Skills Regular Agents / Multi-Agents Architecture Modular “skill folders” dynamically loaded; single Claude instance executes them . Multiple specialized AI instances coordinate via messages or orchestration logic . Context Management Operates in the same context window; adds new procedural knowledge only when relevant . Each agent or subagent has its own isolated context, enabling deep, multi-step reasoning . Autonomy Task-activated extensions—Claude chooses which skills to apply, maintains user-in-the-loop control . Often autonomous or semi-autonomous, coordinating multiple bots for distributed processing . Ease of Use Simple configuration (Markdown or code-based folders); low setup friction . Requires orchestration frameworks, execution environments, or APIs (e.g., LangChain, CrewAI) . Scalability Composable, portable, and cache-efficient; scales through skill reuse across contexts . Scales by adding more agents or expanding coordination logic, often leading to overhead . Governance Built-in “ask-before-act” and IAM-style control (IAM = Identity Access Management); enterprise-safe by design . Harder to sandbox—autonomous agents may overreach or require external monitors . How to replicate Claude Skills functionality (without using the \"/skills\" system)? A Claude Skill is basically a folder containing: Instructions (`SKILL.md`) Metadata (`metadata.yaml` or JSON) Templates or assets (documents, scripts, or configs) Optional executable components (code scripts or API calls) You can implement the same concept by storing these “Skill folders” locally or in a database, then loading them dynamically based on the user’s query We pre-process user's query to select matching skills, then prepend those skills to message (context) to Claude We optionally can run scripts (associated with the skill(s)) and inject script's output into Claude context Enhancements: Skill registry JSON file, Skill loading cache, Versioning, Audit trail for skill usage, Chaining multiple skills, similar to multi-skill composition mentioned in Anthropic’s design papers This architecture fully emulates Anthropic’s Skills behavior. The only difference that you handle discovery, invocation, and version control yourself outside the Claude console Replicating \"/skills\" Locally"
+    },
+    {
+      "index": 6,
+      "title": "Emulate Skills in Google Replicating Claude Skills Using",
+      "text": "Emulate Skills in Google Replicating Claude Skills Using Google Gemini API in Python Gemini doesn’t have a \"Skills\" API like Anthropic’s Claude. But you can emulate it locally by combining: - Gemini models calling via API - Custom modular \"skill packs\" stored locally - small local Skill Manager to dynamically pick the skills and inject them into context (and optionally run the scripts) - optional - use Gemini CLI Extensions - allow \"playbooks\" that can automatically teach Gemini new tool behaviors. Gemini Playbooks : YAML or TOML-based automation sequences that can be installed via the Gemini CLI. They define multi-step actions Gemini can perform automatically, including API calls, command execution, or contextual task execution across Google Cloud tools (deep link with Google Cloud, Workspace, Vertex AI) from openai import OpenAI client = OpenAI( api_key=\" YOUR_GEMINI_API_KEY \", base_url=\" https://generativelanguage.googleapis.com/v1beta/openai/ \", ) def run_gemini_prompt(messages, model=\" gemini-2.5-flash \"): # or pro response = client.chat.completions.create( model=model, messages=messages ) return response.choices.message # local skills folders skills/ ├── data_analysis/ │   ├── SKILL.md │   ├── metadata.json │   └── process_data.py ├── marketing_copy/ │   └── SKILL.md └── research_summary/ └── SKILL.md # Gemini supports tool definitions and function calling # through the MCP and \"Computer Use” tools from google import genai from google.genai.types import Tool, FunctionDeclaration client = genai.Client() custom_func = FunctionDeclaration( name=\"summarize_data\", description=\"Summarize dataset statistics for presentation\" ) response = client.models.generate_content( model=\"gemini-2.5-pro\", contents=\"Use summarize_data on the uploaded report dataset\", tools=[Tool(function_declarations=[custom_func])] )"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 5.5K subscribers, 250 videos Subscribe to this channel https://www.youtube.com/@lev-selector Download slides from GitHub using links under the videos Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "Claude Code for the Web Claude Code for",
+      "text": "Claude Code for the Web Claude Code for the Web A browser-based version of Anthropic's AI terminal based coding assistant Allows manage coding projects directly from the web browser Each coding session runs in the cloud on Anthropic's managed infrastructure, making it possible to assign tasks asynchronously while working on other projects User can connect GitHub repo and specify requirements, with Claude handling the implementation in secure, isolated sandbox environments The platform supports multiple concurrent tasks across various repositories from a single interface, with automatic pull request generation and real-time progress updates The service is currently in research preview for Claude Pro subscribers ($20/month) and Max plan subscribers ($100-$200/month), accessible by navigating to claude.ai and clicking the \"Code\" tab Instead of jumping between GitHub and the command line, developers can simply tell Claude what they need (like \"clean up my CSS\" or \"add error handling\"), and Claude generates pull requests, runs tests, and summarizes changes automatically The browser interface removes most manual setup steps while maintaining the same robust security measures and rate limits as the terminal version https://www.anthropic.com/news/claude-code-on-the-web OpenAI Atlas - AI-powered web browser (on Mac only) Each browser tab is a ChatGPT conversation with long history Persistent sidebar to ask questions . You can ask it to summarize websites, draft content, complete online forms, or perform research directly within the page context Agent Mode (for Plus and Pro users) - lets ChatGPT act autonomously, navigating pages, performing searches, booking services, or filling out workflows on your behalf Atlas remembers visited pages, open tasks, and context across sessions , allowing you to refer back naturally (\"reopen the recipe tabs from yesterday\") Privacy and Control, incognito mode, granular memory controls, and parental supervision settings; browsing activity isn’t used to train models Atlas uses ChatGPT to interpret intent, helping users act on tasks like comparison shopping, planning trips, or analyzing data Atlas based on Chromium, competes with Google Chrome https://openai.com/index/introducing-chatgpt-atlas/ https://www.youtube.com/watch?v=8UWKxJbjriY - video https://www.youtube.com/watch?v=R1m8XaCepAY - video OpenAI Atlas Web Browser"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates - 1 Gemini \"URL context grounding\"",
+      "text": "AI Updates - 1 Gemini \"URL context grounding\" via API https://generativeai.pub/googles-url-context-grounding-3acb0885507c Ask model via API to extract data from URL Retrieves full content  from HTML pages, PDFs, and images Can function standalone or combine with Google Search grounding for sophisticated multi-step workflows—using Search for broad discovery and URL Context for deep analysis of specific pages Common applications include extracting key data points from articles, comparing information across multiple links, synthesizing data from several sources, answering questions based on specific page content, and analyzing content for particular purposes like writing job descriptions or creating test questions This feature available as of August 2025, with pricing based on added input tokens at standard model rates. Supported models include Gemini 2.5 Flash, Gemini 2.5 Pro, ... Vibe Coding Is Dead? https://www.youtube.com/watch?v=tKPtZtsLgUA Recent traffic drop between June and September 2025: - https://lovable.dev - fell nearly 50% (35M -> 20M users) - https://bolt.new - dropped 27% - - https://v0.app - Vercel's v0 plummeted 64% But Lovable's CEO reported that paying customer counts and revenue continue growing , suggesting the traffic dip reflects a marketing surge rather than business decline Novelty vs. Utility ; Vibe coding tools attract non-developers excited by the novelty of building apps, but most users churn when they realize coding requires more than generating prompts"
+    },
+    {
+      "index": 10,
+      "title": "Run LLM on Android Phone Fastest ways to",
+      "text": "Run LLM on Android Phone Fastest ways to run LLM locally on Android MNN Chat - built by Alibaba's MNN team and is highly-optimized to use the NPU and CPU on modern phones (especially with Snapdragon or MediaTek chips). On high-end phones, users report speeds of over 15 t/s on 4B (4-billion parameter) models and even up to 60 t/s on tiny 1B models. Note: you must use the models provided within the app in its specific, optimized format MLC Chat - the most popular and user-friendly option, offering plug-and-play setup with pre-configured models and NPU optimization for devices with Snapdragon 8 Gen 2+ processors. Supports models like Llama 3.2, Gemma 2, Phi 3.5, and Qwen 2.5. Installation requires downloading the APK from GitHub, enabling \"Install from Unknown Sources,\" and selecting a model to download. Smaller models like Phi-2 or Qwen 2.5 (1.5B-3B params) work best on mid-range devices SmolChat (or Chatter-UI) - run any GGUF (quantized) model file. On modern phones can use GPU and run as fast as MNN Chat. Ollama with Termux - installing Termux to create a Linux env on Android, then running Ollama. This is the slowest option, not optimized for mobile hardware Device performance varies significantly based on hardware Using quantized models reduces memory requirements and improves inference speed Techniques like GPTQ compression enable larger models to run on mobile hardware The key bottleneck is IOPS (input/output operations per second) rather than raw processing power, making model size and memory access patterns critical factors https://itsfoss.com/android-on-device-ai/ https://www.kdnuggets.com/install-run-llms-locally-android-phones https://www.callstack.com/blog/want-to-run-llms-on-your-device-meet-mlc https://discuss.huggingface.co/t/running-llm-on-android/144838 https://dev.to/koolkamalkishor/running-llama-32-on-android-a-step-by-step-guide-using-ollama-54ig https://www.arsturn.com/blog/running-llms-on-android-ollama-vs-llama-cpp https://ai.google.dev/edge/mediapipe/solutions/genai/llm_inference/android Google MediaPipe LLM Inference API - optimized on-device inference specifically designed for high-end Android devices like Pixel 8 and Samsung S23 or later . Cactus (Cactus Compute) - optimized developer framework, cross-platform (Flutter, React Native, Kotlin), run GGUF models; Direct competitor to the Google MediaPipe LLM Inference API Cactus Chat - demo app - direct competitor to SmolChat (Chatter-UI) Cactus is optimized specifically for mobile CPU and NPU (similar to MNN Chat) to provide very fast performance while being more energy-efficient and avoiding the battery drain associated with mobile GPUs"
+    },
+    {
+      "index": 11,
+      "title": "Cline CLI - run Multiple Instances You can",
+      "text": "Cline CLI - run Multiple Instances You can run Cline CLI in parallel terminals with different models . Cline CLI's multi-instance architecture is designed for this use case Each Cline instance is an independent workspace that maintains its own configuration, including the AI model provider. cline instance new # Create your first instance. This returns an instance address you'll use to target specific tasks cline instance new --default # e.g., for Ollama as default) Now you can run tasks on specific instances: cline task new -y \"Build React components\" --instance <first-instance-address> cline task new -y \"Implement API endpoints\" # using default instance Cline CLI supports multiple AI model providers simultaneously, including Anthropic (Claude), OpenAI, Google Gemini, AWS Bedrock, Azure, GCP Vertex, and Ollama for local models The multi-instance system allows you to run multiple agents in parallel without context collision, making it ideal for running frontend tasks with Claude while backend tasks run on a local Ollama model cline instances list # list all instances cline instances kill -a # stop all instances when done https://docs.cline.bot/cline-cli/three-core-flows https://cline.ghost.io/cline-cli-my-undying-love-of-cline-core/ How to set multiple agents? Should each agent have a separate endpoint? How to communicate between agents How to orchestrate to avoid infinite loops How to integrate agents with tools Berkeley Function-Calling Leaderboard https://gorilla.cs.berkeley.edu/leaderboard.html top models excel at single-turn function calls but they struggle with memory management, dynamic decision-making, long-horizon reasoning, and multi-step agentic tasks. The benchmark also tracks cost and latency metrics alongside accuracy How make Inter-Agent Communication MCP-Based - Agents can communicate by exposing themselves as MCP servers, where each agent becomes a \"tool\" that other agents can invoke using MCP's CallToolRequest mechanism - passing data and receiving responses.​ MCP's Streamable HTTP implementation enables both stateless request/response flows and stateful sessions with persistent IDs, allowing continuous exchanges between agents. This supports real-time data exchange using Server-Sent Events (SSE) for progress notifications and updates.​ Alternative Communication Patterns: Shared Database/State Store, Message Queue System, File-Based Communication"
+    },
+    {
+      "index": 12,
+      "title": "Preventing Loops in Multi-Agent System Preventing infinite loops",
+      "text": "Preventing Loops in Multi-Agent System Preventing infinite loops in multi-agent systems requires implementing multiple safety mechanisms at different architectural layers. Research identifies that specification errors, including improper termination conditions, account for approximately 15% of recorded multi-agent system failures Core Prevention Strategies: Set hard caps on the number of times a loop can execute. Loop agents should have a `max_iterations` parameter that forcibly terminates after a specified number of cycles, regardless of task completion status.[3][4] State-Based Exit Conditions: Design agents to evaluate completion criteria at each iteration. One common pattern is having a \"critic\" or \"evaluator\" agent assess whether output meets quality standards and signal termination (e.g., returning a \"STOP\" signal or setting a completion flag Timeout Mechanisms: Implement time-based circuit breakers that halt execution after a specified duration, preventing runaway processes even if iteration counts appear reasonable Establish clear, rule-based assignment schemes (round-robin queues, capability-based routing, or single elected leaders) so agents never ambiguously own the same task. This eliminates the \"ping-pong\" problem where multiple agents claim and reclaim work indefinitely Continuous Monitoring and Anomaly Detection focusing on interaction patterns, tracking communication frequency, resource utilization, and coordination quality to detect subtle shifts that precede infinite loops At each iteration, verify that the system is making measurable progress toward goals If uncertainty - fail gracefully - allowing human to intervene Combine multiple strategies rather than relying on a single mechanism. Use iteration limits AND state-based conditions AND timeout mechanisms AND progress verification simultaneously Clear Exit Criteria - Define precise, measurable conditions for task completion before deployment. Ambiguous exit conditions are a primary cause of infinite loops in production systems https://galileo.ai/blog/stability-strategies-dynamic-multi-agents https://galileo.ai/blog/multi-agent-coordination-strategies https://google.github.io/adk-docs/agents/workflow-agents/loop-agents/ https://cloud.google.com/architecture/choose-design-pattern-agentic-ai-system Path History Tracking (agent call sequences - repeated patterns) Cycle Detection (when agents are \"ping-ponging\" the same task back and forth without progress) Manual Circuit Breakers - allowing a human to halt/redirect execution Supervisor Agents - monitor coordination patterns and intervene when they detect problematic behaviors Meta-Coordination - supervisors that communicate priorities and constraints rather than micromanaging individual actions, preserving flexibility while preventing runaway behaviors"
+    },
+    {
+      "index": 13,
+      "title": "Orchestration Frameworks Top ready-to-use orchestration frameworks ( LangGraph,",
+      "text": "Orchestration Frameworks Top ready-to-use orchestration frameworks ( LangGraph, CrewAI, Microsoft Agent Framework ) provide built-in infinite loop prevention and coordination capabilities , and can integrate them with Cline agents. All three frameworks can coordinate Cline instances by treating each Cline agent as a tool or service that the orchestration layer calls. Wrap each Cline CLI instance as a callable function or MCP server that your orchestration framework can invoke . For example, a LangGraph node could execute a Cline command, capture its output, and pass results to the next node. All three frameworks integrate with monitoring platforms like Galileo for real-time observability, automated evaluation, and quality assurance across your multi-agent system. https://www.datacamp.com/tutorial/crewai-vs-langgraph-vs-autogen https://galileo.ai/blog/autogen-vs-crewai-vs-langgraph-vs-openai-agents-framework https://itnext.io/mcp-vs-agent-orchestration-frameworks-langgraph-crewai-etc-ec6bd611aa4d https://aws.amazon.com/blogs/opensource/open-protocols-for-agent-interoperability-part-1-inter-agent-communication-on-mcp/ https://galileo.ai/blog/stability-strategies-dynamic-multi-agents https://cline.bot/blog/what-makes-a-coding-agent LangGraph - https://github.com/langchain-ai/langgraph Workflows as directed graphs, agents as nodes Checkpointing enables state persistence across runs, allowing workflows to pause and resume without losing context Loop prevention through explicit node termination conditions and maximum iteration limits that you define in the graph structure LangGraph's state-based memory ensures every node transition is predictable and replayable, making debugging trivial when issues occur CrewAI - https://github.com/crewAIInc/crewAI Hierarchical, role-based approach. Agents organized into \"crews\" with a manager agent delegating tasks to specialist agents. If an executor agent fails, the manager can reassign work or request human intervention without restarting the entire crew. CrewAI's built-in SQLite persistence and shared memory keep multi-step reasoning coherent across roles. The framework provides intuitive human-in-the-loop checkpoints where supervisors can review outputs before tasks proceed. Microsoft Agent Framework (former AutoGen) - https://github.com/microsoft/agent-framework Turn-taking managed conversations between agents - prevents loops through MaxMessageTermination and TextMentionTermination conditions; Also RoundRobinGroupChat ensures each agent takes turns in order, maintaining structured dialogue flow Conversational retries can occasionally spiral, so the framework provides conversation history tracking that helps identify repetitive patterns"
+    },
+    {
+      "index": 14,
+      "title": "Deploying Agents Google/Gemini Agent Development Kit (ADK) -",
+      "text": "Deploying Agents Google/Gemini Agent Development Kit (ADK) - Open-source framework for building multi-agent systems, announced April 2025 Gemini Enterprise - Complete agentic platform with agent orchestration, memory, and no-code tools (formerly Agentspace), launched October 2025 Vertex AI Agent Engine - Managed deployment service for containerized agents at scale https://google.github.io/adk-docs/ https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/ https://cloud.google.com/gemini-enterprise https://www.constellationr.com/blog-news/insights/google-cloud-launches-gemini-enterprise-eyes-agentic-ai-orchestration Anthropic/Claude Claude Agent SDK - Framework for building autonomous agents with terminal access, file operations, and tool execution (renamed from Claude Code SDK), September 2025 Agent Skills - Pre-built capabilities for agents available across Claude.ai, Claude Code, and the Developer Platform Claude Developer Platform - API-based platform for deploying agents with support for hosting on Vertex AI, Bedrock, and custom infrastructure https://www.anthropic.com/engineering/building-agents-with-the-claude-agent-sdk https://skywork.ai/blog/how-to-use-claude-agent-sdk-step-by-step-ai-agent-tutorial/ https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills https://www.youtube.com/watch?v=XuvKFsktX0Q https://docs.claude.com/en/api/agent-sdk/hosting OpenAI Agents SDK - production-ready framework with agents, handoffs, guardrails, and sessions, released March 2025 (successor to Swarm) AgentKit - Complete toolkit for building, deploying, and optimizing agents, launched October 2025 Swarm - Lightweight experimental multi-agent orchestration framework, released October 2024 (now superseded by Agents SDK) https://openai.com/index/new-tools-for-building-agents/ https://blog.promptlayer.com/openai-agents-sdk-vs-mcp/ https://openai.github.io/openai-agents-python/ https://openai.com/index/introducing-agentkit/ https://the-decoder.com/openai-introduces-experimental-multi-agent-framework-swarm/ ( https://github.com/openai/swarm Amazon Strands Agents - Open Source AI Agents SDK https://aws.amazon.com/blogs/opensource/introducing-strands-agents-an-open-source-ai-agents-sdk/ Amazon Bedrock AgentCore - deploy in production at scale https://www.youtube.com/watch?v=N7FGbBq1mI4"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates - 2 Google Veo 3.1 Google's",
+      "text": "AI Updates - 2 Google Veo 3.1 Google's video model update brings audio support, multi-image control, start/finish frame control for unlimited video length, and the ability to insert or remove elements from scenes. Nvidia unveils first Blackwell chip wafer made with TSMC in US (in Phoenix) https://finance.yahoo.com/news/nvidia-tsmc-unveil-first-blackwell-200512383.html ChatGPT with automatic memory management for Plus and Pro https://help.openai.com/en/articles/6825453-chatgpt-release-notes Nvidia new RTX Pro 5000 Blackwell 72GB GPU memory a 50% increase over the original 48GB model https://www.tomshardware.com/pc-components/gpus/nvidia-continues-to-feed-the-ai-monster-with-new-rtx-pro-5000-blackwell-gpu-with-72gb-gddr7-50-percent-more-vram-than-the-regular-version"
+    },
+    {
+      "index": 16,
+      "title": "Google Build - new \"vibe coding\" product Google",
+      "text": "Google Build - new \"vibe coding\" product Google Build - new \"vibe coding\" product https://ai.google/build/ allows users to create and deploy AI applications directly in the browser uses Gemini 2.5 Pro One-click deployment to Cloud Run for instant publishing; GitHub integration for version control; Pre-built app gallery with customizable templates; \"I'm feeling lucky\" button generates random applications; integration with Google Cloud; full code visibility, checkpoint restoration, and one-click deployment to GitHub or production; coming soon - database setup, file storage, authentication, and API building features Google's new AI Studio Build mode does pose significant competition to vibe coding platforms like Lovable, but it's not an existential threat yet. Lovable still maintains some advantages: Superior user experience - ease of use among vibe coding tools Better initial designs without explicit design prompting Deeper Supabase backend integration for authentication and databases More balanced all-around experience for first-time app builders Clearer explanations of implementation steps during development Established community and documentation specifically for vibe coding Google's free tier will likely capture beginners and casual builders, while specialized platforms like Lovable will retain users who need polished workflows, better integration ecosystems, and dedicated support for production applications"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates - 3 Tencent Hunyuan World 1.1",
+      "text": "AI Updates - 3 Tencent Hunyuan World 1.1 Tencent open-sourced Hunyuan World 1.1, a universal feed-forward 3D reconstruction model video-to-3D and multi-view-to-3D world creation Google's Quantum Computing Breakthrough Google Willow quantum chip achieved the first-ever verifiable quantum advantage (paper in Nature) The chip ran the \"Quantum Echoes\" algorithm 13,000 times faster than world's fastest supercomputer. Applications - drug discovery and materials science https://www.nature.com/articles/d41586-025-03300-4 Unitree H2 Humanoid Robot advanced mobility and capabilities available for purchase Deepseek-OCR - Optical Compression https://www.arxiv.org/abs/2510.18234 Problem - long contexts in LLM take lots of memory Idea - compressing long contexts via optical 2D mapping convert text into images, achieve 10x data compression while maintaining 97% accuracy. DeepEncoder (text2image) and a 3B params decoder. Helps with memory constraints on long contexts; A single A100 GPU can generate over 200,000 pages of training data per day, making model training significantly cheaper and faster ​​ Lower processing costs DeepSeek-OCR outperforms competitors like GOT-OCR2.0 and MinerU2.0 while using up to 60x fewer tokens."
+    },
+    {
+      "index": 18,
+      "title": "Andrej Karpathy Interview Key Takeaways from Andrej Karpathy",
+      "text": "Andrej Karpathy Interview Key Takeaways from Andrej Karpathy Interview https://www.youtube.com/watch?v=lXUZvyajciY https://youtu.be/LnGRHVlsheo?si=avY3rFkh5Q_EEltZ AGI is 10 years away, current AI agents lack: Continual learning (can't remember across sessions) True multimodality Sufficient intelligence for autonomous work The cognitive capabilities to function as reliable \"employees\" Why Reinforcement Learning is Terrible (But Everything Else is Worse): Sucking supervision through a straw - Taking minutes of work and reducing it to a single reward signal; Upweights entire trajectories based on final outcomes, even when intermediate steps were wrong; Humans don't learn this way - they reflect, review, and selectively incorporate lessons; LLM judges for process supervision are \"gameable\" (models find adversarial examples like \"dhdhdhdh\") Model Collapse: A Core Problem: LLMs trained on their own output produce silently biased distributions: Ask ChatGPT for a joke 10 times, you get ~3 jokes; Synthetic data looks good individually but lacks diversity; Similar to how humans become less creative over time, revisiting same thoughts; Can't just \"train on reflections\" without losing entropy Pre-training vs In-Context Learning Pre-training = Hazy recollection of 15T tokens compressed into billions of params In-context learning =  Working memory, 320 KB/token in KV cache (35 million-fold difference); may implement a form of gradient descent internally Humans vs LLMs: Different Kinds of Intelligence We're building \"ghosts,\" not animals. LLMs mimic internet text, not biological evolution; Evolution encodes learning algorithms in DNA; pre-training is \"crappy evolution\"; LLMs have too much memory (can recite random sequences), humans forget more but generalize better; Need to separate the \"cognitive core\" (intelligence/algorithms) from knowledge (memory) The Cognitive Core - Karpathy believes intelligence could be distilled to ~ 1B params Current models memorize too much instead of learning to think Internet training data is \"total garbage\" - most isn't Wall Street Journal quality Models need less knowledge, more reasoning ability Should look things up rather than memorize everything Why Coding is AI's Sweet Spot Perfect for LLMs: text-based, structured, extensive training data; Pre-built infrastructure (IDEs, diffs, version control); Contrast with slides, transcripts, other domains - lack tooling and structure; Autocomplete >> autonomous agents for novel code (nanochat experience) Self-driving took decades because: Demo is not the same as product. Perfect demos existed in 2014 (Waymo), but safety requirements demand extreme reliability. Still not \"done\" - limited deployment, teleoperators in the loop, not economical; Software engineering has similar safety requirements - mistakes can leak millions of SSNs"
+    },
+    {
+      "index": 19,
+      "title": "Andrej Karpathy Interview - 2 Karpathy expects AGI",
+      "text": "Andrej Karpathy Interview - 2 Karpathy expects AGI to blend into existing 2% GDP growth. Computers, internet, mobile phones didn't break the exponential - AI won't either; \"Intelligence explosion\" has been happening for 200+ years via recursive self-improvement; Gradual diffusion across economy, not discrete jump; Can't find individual technologies in GDP curve; everything averages into same exp. Real Risk - Loss of Control Through Gradual Erosion Gradual loss of understanding as systems become more complex Fewer people comprehend the stack Competing autonomous entities, some going rogue Society delegates more without retaining oversight Education is the Answer - Karpathy's building \"Eureka Labs\": Current LLMs can't match good human tutors - they don't probe understanding or calibrate difficulty; Education is a technical problem of building ramps to knowledge; Post-AGI, education becomes \"fun\" like going to the gym - people will do it for self-betterment; Learning should give \"eurekas per second\" - finding first-order terms, building from simplest cases Physics Thinking Applied to AI Find the first-order approximation - what's the spherical cow? Micrograd (100 lines) captures neural network training; everything else is efficiency. Present pain before solution - let students try first. Untangling knowledge into clean dependencies is intellectually fascinating Missing Pieces for AGI - What LLMs still lack: Sleep/distillation phase (humans process experiences overnight) Culture (LLMs can't write books for other LLMs) Self-play (no equivalent to AlphaGo playing itself) Hippocampus, emotions, instincts Reflection beyond generating synthetic examples Practical Takeaway The assistants used today (Claude, GPT-5 Pro as \"oracle\") are \"elementary school students with perfect memory\" - impressive but cognitively limited. The decade ahead is about filling cognitive gaps, not just scaling compute."
+    },
+    {
+      "index": 20,
+      "title": "Google VISTA (Video Iterative Self-improvemenT Agent) A multi-agent",
+      "text": "Google VISTA (Video Iterative Self-improvemenT Agent) A multi-agent system that autonomously improves video generation quality by refining prompts through an iterative self-improvement loop, without requiring retraining or fine-tuning 4-stage process: Planning, Tournament Selection, Multi-Agent Critique, Deep Thinking Prompting By default, VISTA runs five iterations (one initialization plus four improvement loops), sampling five prompts with three variants each and generating two videos per prompt. The system achieves impressive results against SOTA models: 60% pairwise win rate against Google's own Veo 3 model 66.4% human preference rating over the strongest baseline Consistent quality improvements across single-scene and multi-scene video generation This self-evolving approach enables real-time video refinement where AI learns from its mistakes and progressively generates better outputs without human intervention https://www.youtube.com/watch?v=dSiS-i9j9P0 https://arxiv.org/abs/2510.15831 Google VISTA Video Agent"
+    },
+    {
+      "index": 21,
+      "title": "IBM CUGA's methodology CUGA = Computer Using Generalist",
+      "text": "IBM CUGA's methodology CUGA = Computer Using Generalist Agent https://arxiv.org/pdf/2503.01861v2 https://github.com/cuga-project/cuga-agent - open-sourced Achieve SOTA results on the WebArena iterative development with smart sampling - started with simple agent architecture working with small number of tasks (smart sampling) - and progressively enlarged/improved comprehensive evaluation tooling - grew from 22 tasks to 44, 90, 190, 812 tasks benchmark evolutionary architecture refinement - split simple Plan-Act-Observe loop into specialized agents ; added an immediate feedback loop , added a dedicated Information Extraction agent ; incorporated stability mechanisms (reflection, critique, and judgment) to reduce hallucinations and improve consistency; added knowledge injection system to process user utterances, mine application navigation knowledge (sitemap-like structures), and inject contextual information based on task assessment . This aligned planners with user intents and application functionality; performance dashboard provided real-time metrics tracking ; added comparative analysis on failure resolutions ; added trajectory visualization for deep failure analysis ; used parallel execution to reduce execution times Uses LangGraph for stateful coordination between agents and LangChain for interfacing with mixed open and frontier LLM models; Uses Playwright for browser control with screenshots and accessibility trees as the observation space The methodology's power lies in its systematic approach to learning from failures rather than attempting to anticipate all challenges upfront, combined with tooling that makes failure analysis efficient and actionable IBM Generalist Agent"
+    },
+    {
+      "index": 22,
+      "title": "Energy for AI The AI race is the",
+      "text": "Energy for AI The AI race is the energy race - Peter Diamandis The winners of the AI race will be the regions that solved the energy equation first China is winning the energy race while the US continues to lag Clean energy isn’t optional anymore. Asia-Pacific including China will maintain 70% of global solar market share through 2029. India is racing ahead, projected to overtake the US for second place in solar installations with 237 GW expected versus our 218 GW. The next wave - fusion, advanced SMRs (Small Modular Reactors), next-generation geothermal - is coming online this decade Solar, wind, and storage are proven technologies today. By 2035, we’ll see hyper-efficient solar cells hitting 30%+ efficiency, AI-optimized microgrids balancing energy loads autonomously, and upgraded infrastructure replacing fossil fuel plants with clean baseload power"
+    },
+    {
+      "index": 23,
+      "title": "ChatGPT is losing to Anthropic, DeepSeek, ... The",
+      "text": "ChatGPT is losing to Anthropic, DeepSeek, ... The video reveals how OpenAI's dominance is rapidly declining, while competitors like Anthropic and DeepSeek have gained ground https://www.youtube.com/watch?v=kZt2sBiT-3U ChatGPT's market share: Jan 2024: 76%, Oct 2025: 59.5% (losing approx 1.5% monthly) OpenAI's growth is just 9%, while DeepSeek - 8,658% growth, jumping from 450,000 users in October 2024 to millions by December Anthropic now dominates the enterprise market with 32% share, while OpenAI dropped to 25% (used to be 50% two years ago). Claude gets 42% coding workloads compared to OpenAI's 21% (2:1 ratio) Anthropic generates $211 per user while OpenAI - only $25 per user, an 8x difference in efficiency OpenAI generated $4.3 billion in revenue during the first half of 2025, but they lost $2.5 billion, burning $5 billion annually while maintaining negative unit economics Open-source AI models like Meta's Llama 3 now match ChatGPT 3.5 performance while being completely free. Developer tools using open-source AI grew 72-75% year-over-year, with platforms like Lovable exploding 928% and Cursor showing massive growth. Companies increasingly prefer running models locally for data privacy and cost predictability Only 10% of enterprises have actual production AI deployments. AI coding tools remain the only category showing consistent value delivery, with developers achieving 10-20% productivity gains. Specialized, domain-specific AI solutions are crushing general-purpose chatbots, and companies applying traditional software engineering principles—version control, testing, deployment pipelines—are winning over those chasing AI hype."
+    },
+    {
+      "index": 24,
+      "title": "Four alternatives to JSON Forget JSON — These",
+      "text": "Four alternatives to JSON Forget JSON — These 4 Data Formats Made My APIs 5× Faster https://medium.com/@Krishnajlathi/forget-json-these-4-data-formats-made-my-apis-5-faster-9b14c1102113 Summary benchmark -------------------------------------------------------- | Format      | Workload                     | speedup | |-------------|------------------------------|---------| | Protobuf    | typed RPC — user profile     |   6.0x  | | FlatBuffers | hot read path — catalog item |   7.0x  | | MessagePack | JSON-like structure, compact |   3.5x  | | CBOR        | IoT / mobile small payloads  |   3.5x  | -------------------------------------------------------- Protobuf - Schema-required, code generation needed; Excellent compression, slower than FlatBuffers; Best for: APIs, cross-language RPC FlatBuffers - Zero-copy deserialization (read without parsing); Larger than Protobuf but fastest access; Best for: Games, embedded systems, performance-critical apps MessagePack - Schema-optional, JSON-like ease of use; Smaller than JSON, minimal setup; Best for: Quick integration, Ruby/Python ecosystems CBOR (Concise Binary Object Representation) - Schema-optional, IETF standard; Similar to MessagePack but more extensible; Best for: IoT, constrained devices, standards compliance How to choose: Protobuf for structure, FlatBuffers for speed, MessagePack for simplicity, CBOR for standards."
+    },
+    {
+      "index": 25,
+      "title": "Terminals on MacOS This ZDNet article reviews 6",
+      "text": "Terminals on MacOS This ZDNet article reviews 6 terminals: https://www.zdnet.com/article/6-macos-terminal-apps-that-are-much-better-than-apples-default-and-theyre-free/ 1. iTerm2 - the best 2. Kitty 3. Warp - AI features 4. Hyper 5. Core Shell 6. Tabby The review above doesn't cover \"Ghostty\" - a new fast & light terminal. So here is the comparison: Ghostty vs iTerm2 https://medium.com/@artemkhrenov/modern-terminal-emulators-ghostty-vs-iterm2-3cd5e55a8d24 https://medium.com/@EchoLilt/why-i-switched-from-iterm2-to-ghostty-and-you-should-too-creating-searching-cmd-f-0a0242f65b22 https://github.com/ghostty-org/ghostty AppleScript to open a terminal (new window or tab): https://github.com/wonderyue/Go2ShellAppleScript"
+    },
+    {
+      "index": 26,
+      "title": "Colleges in Trouble Colleges in Trouble - by",
+      "text": "Colleges in Trouble Colleges in Trouble - by Peter Diamandis “Go to college, get a great job” is no longer the valid paradigm Americans calling college “very important” crashed from 75% to 35% in 15 years, while “not too important” quintupled to 24% Tuition is up 899% since 1983, saddling 42 million borrowers with $1.8 trillion in debt—second only to mortgages College graduates now make up one-third of the long-term unemployed, up from one-fifth a decade ago Job postings requiring degrees dropped 6% since 2019 You’re paying a quarter million dollars for a private university education that increasingly guarantees nothing. The credential that used to open doors is now locking people out. So, what do you (or your kids) do about it? Credential yourself differently now - build a portfolio that demonstrates value: GitHub repo, consulting practice with real success stories, YouTube channel teaching what you know Top ten schools remain exceptions (and still surprisingly credible). If you’re getting into MIT, Harvard, Stanford, or their peers, the brand still carries weight. But schools ranked 40+ are not perceived as valuable Employers are hiring without degree requirements at accelerating rates - because the educational curriculum moves too slowly Master one skill - growing revenue - and you’ll always have work. Most companies care about exactly one thing: increasing revenue. Degrees become irrelevant. Show me you drove $2M in new sales or built a product that acquired 100K users. That’s infinitely more valuable than a transcript. The best educator in the world will be AI-driven - and (almost) free. Programs using AI-assisted learning already show students learning 5-10 times faster than traditional classrooms. The university model of one professor lecturing 300 students is dead… it just doesn’t know it yet. Trade school is now another option. As Jensen Huang, CEO of Nvidia, recently said: “If you’re an electrician, you’re a plumber, a carpenter - we’re going to need hundreds of thousands of them to build all of these factories.” These professions today command immediate jobs and salaries between $100,000 and $150,000 per year without the extraordinary debt of college. Here’s the opportunity: The credential economy is being rebuilt from scratch. The old gatekeepers are losing their monopoly. This creates a massive opening for those who demonstrate value directly through their work product, build networks through entrepreneurship, and learn faster using AI than any traditional program could teach. The future belongs to the self-credentialed."
+    },
+    {
+      "index": 27,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 91.7K in 2025 (as of October 23) 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker So far in 2025, 159,844 people laid off (540 per day) In 2024, 238,461 people laid off (653 per day) https://trueup.io/layoffs Jevons paradox - when the cost of doing work goes down, the demand for it goes up https://en.wikipedia.org/wiki/Jevons_paradox OpenAI has proposed a retraining program targeting 10 million Americans by 2030, acknowledging evidence that AI is already displacing entry-level workers The company frames AI as \"more enabler than replacer\" despite proposing a massive retraining initiative, which has historically failed to prevent job displacement from technological change."
+    },
+    {
+      "index": 28,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 29,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "artificial intelligence weekly updates",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Claude Agent Skills Claude",
+      "source": "youtube"
+    },
+    {
+      "claim": "“We're summoning ghosts, not building animals” - Andrej Karpathy",
+      "topic": "general",
+      "videoSeconds": 13,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=13s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Why Claude Skills is a Big Deal ?!",
+      "topic": "claude",
+      "videoSeconds": 26,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=26s",
+      "slideIndex": 3,
+      "slideTitle": "Claude Agent Skills Claude Agent Skills - path",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 33,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=33s",
+      "slideIndex": 3,
+      "slideTitle": "Claude Agent Skills Claude Agent Skills - path",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Agent Skills",
+      "topic": "agents",
+      "videoSeconds": 49,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=49s",
+      "slideIndex": 4,
+      "slideTitle": "Claude for Life Sciences Claude for Life Sciences",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude for Life Sciences",
+      "topic": "claude",
+      "videoSeconds": 317,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=317s",
+      "slideIndex": 5,
+      "slideTitle": "Claude Skills vs Agents Claude Skills represent a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Skills vs Agents",
+      "topic": "agents",
+      "videoSeconds": 348,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=348s",
+      "slideIndex": 6,
+      "slideTitle": "Emulate Skills in Google Replicating Claude Skills Using",
+      "source": "youtube"
+    },
+    {
+      "claim": "Replicating /skills Locally",
+      "topic": "general",
+      "videoSeconds": 396,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=396s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Emulate Skills in Google",
+      "topic": "gemini-google",
+      "videoSeconds": 458,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=458s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code for the Web",
+      "topic": "coding",
+      "videoSeconds": 524,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=524s",
+      "slideIndex": 8,
+      "slideTitle": "Claude Code for the Web Claude Code for",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Atlas Web Browser",
+      "topic": "openai",
+      "videoSeconds": 561,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=561s",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates - 1 Gemini \"URL context grounding\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini \"URL context grounding\" via API",
+      "topic": "google",
+      "videoSeconds": 639,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=639s",
+      "slideIndex": 10,
+      "slideTitle": "Run LLM on Android Phone Fastest ways to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vibe Coding Is Dead?",
+      "topic": "coding",
+      "videoSeconds": 689,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=689s",
+      "slideIndex": 11,
+      "slideTitle": "Cline CLI - run Multiple Instances You can",
+      "source": "youtube"
+    },
+    {
+      "claim": "Run LLM on Android Phone",
+      "topic": "general",
+      "videoSeconds": 769,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=769s",
+      "slideIndex": 11,
+      "slideTitle": "Cline CLI - run Multiple Instances You can",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cline CLI - run Multiple Instances",
+      "topic": "general",
+      "videoSeconds": 866,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=866s",
+      "slideIndex": 12,
+      "slideTitle": "Preventing Loops in Multi-Agent System Preventing infinite loops",
+      "source": "youtube"
+    },
+    {
+      "claim": "Preventing Loops in Multi-Agent System",
+      "topic": "agents",
+      "videoSeconds": 994,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=994s",
+      "slideIndex": 13,
+      "slideTitle": "Orchestration Frameworks Top ready-to-use orchestration frameworks ( LangGraph,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Orchestration Frameworks",
+      "topic": "agents",
+      "videoSeconds": 1112,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1112s",
+      "slideIndex": 14,
+      "slideTitle": "Deploying Agents Google/Gemini Agent Development Kit (ADK) -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deploying Agents",
+      "topic": "agents",
+      "videoSeconds": 1152,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1152s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates - 2 Google Veo 3.1 Google's",
+      "source": "youtube"
+    },
+    {
+      "claim": "Veo 3.1",
+      "topic": "general",
+      "videoSeconds": 1209,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1209s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates - 2 Google Veo 3.1 Google's",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Blackwell chip wafer - TSMC in US",
+      "topic": "infra",
+      "videoSeconds": 1223,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1223s",
+      "slideIndex": 16,
+      "slideTitle": "Google Build - new \"vibe coding\" product Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia RTX Pro 5000 Blackwell 72GB GPU",
+      "topic": "infra",
+      "videoSeconds": 1239,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1239s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates - 3 Tencent Hunyuan World 1.1",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT with automatic memory management",
+      "topic": "openai",
+      "videoSeconds": 1275,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1275s",
+      "slideIndex": 18,
+      "slideTitle": "Andrej Karpathy Interview Key Takeaways from Andrej Karpathy",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Build - new \"vibe coding\" product",
+      "topic": "coding",
+      "videoSeconds": 1286,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1286s",
+      "slideIndex": 19,
+      "slideTitle": "Andrej Karpathy Interview - 2 Karpathy expects AGI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Unitree H2 Humanoid Robot",
+      "topic": "general",
+      "videoSeconds": 1384,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1384s",
+      "slideIndex": 19,
+      "slideTitle": "Andrej Karpathy Interview - 2 Karpathy expects AGI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google's Quantum Computing Breakthrough",
+      "topic": "general",
+      "videoSeconds": 1393,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1393s",
+      "slideIndex": 20,
+      "slideTitle": "Google VISTA (Video Iterative Self-improvemenT Agent) A multi-agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent Hunyuan World 1.1",
+      "topic": "general",
+      "videoSeconds": 1418,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1418s",
+      "slideIndex": 21,
+      "slideTitle": "IBM CUGA's methodology CUGA = Computer Using Generalist",
+      "source": "youtube"
+    },
+    {
+      "claim": "Deepseek-OCR AI Model",
+      "topic": "open-models",
+      "videoSeconds": 1434,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1434s",
+      "slideIndex": 22,
+      "slideTitle": "Energy for AI The AI race is the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Andrej Karpathy Interview",
+      "topic": "general",
+      "videoSeconds": 1534,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1534s",
+      "slideIndex": 23,
+      "slideTitle": "ChatGPT is losing to Anthropic, DeepSeek, ... The",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google VISTA Video Agent",
+      "topic": "agents",
+      "videoSeconds": 1569,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1569s",
+      "slideIndex": 23,
+      "slideTitle": "ChatGPT is losing to Anthropic, DeepSeek, ... The",
+      "source": "youtube"
+    },
+    {
+      "claim": "IBM Generalist Agent",
+      "topic": "agents",
+      "videoSeconds": 1634,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1634s",
+      "slideIndex": 24,
+      "slideTitle": "Four alternatives to JSON Forget JSON — These",
+      "source": "youtube"
+    },
+    {
+      "claim": "Energy for AI",
+      "topic": "general",
+      "videoSeconds": 1719,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1719s",
+      "slideIndex": 25,
+      "slideTitle": "Terminals on MacOS This ZDNet article reviews 6",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT is losing to Anthropic, DeepSeek, ...",
+      "topic": "claude",
+      "videoSeconds": 1744,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1744s",
+      "slideIndex": 26,
+      "slideTitle": "Colleges in Trouble Colleges in Trouble - by",
+      "source": "youtube"
+    },
+    {
+      "claim": "Four alternatives to JSON",
+      "topic": "general",
+      "videoSeconds": 1874,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1874s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Terminals on MacOS",
+      "topic": "general",
+      "videoSeconds": 1932,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1932s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Colleges in Trouble",
+      "topic": "general",
+      "videoSeconds": 1991,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=1991s",
+      "slideIndex": 28,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 2061,
+      "videoUrl": "https://www.youtube.com/watch?v=l1TIERzS-Zw&t=2061s",
+      "slideIndex": 29,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

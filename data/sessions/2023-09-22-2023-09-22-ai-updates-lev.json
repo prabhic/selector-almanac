@@ -1,0 +1,245 @@
+{
+  "id": "2023-09-22-2023-09-22-ai-updates-lev",
+  "date": "2023-09-22",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "multimodal",
+    "fine-tuning",
+    "benchmarks",
+    "enterprise",
+    "rag"
+  ],
+  "video": {
+    "id": "Bd6fGCcyoZM",
+    "title": "AI Updates - September 22, 2023",
+    "url": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+    "thumbnail": "https://i.ytimg.com/vi/Bd6fGCcyoZM/hqdefault.jpg",
+    "duration": 1560
+  },
+  "deck": {
+    "path": "2023/2023-09-22-AI-Updates-Lev.pptx",
+    "filename": "2023-09-22-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-22-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-22-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates September 22, 2023",
+      "text": "AI Updates September 22, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Status Page HuggingFace.co > 1379 entries (was ~346",
+      "text": "Status Page HuggingFace.co > 1379 entries (was ~346 entries on July 16th) Google Genesis - drafting news articles (for journalists) Google Gemini - multimodal generative AI (answer to GPT-4) partially out legal safety (not using textbooks, ...) Bard updates - extensions for apps - Maps, YouTube, Flights, Hotels, Docs, Drive, Gmail, FactCheck using Google Search. You can ask to summarize emails to/from particular recipient, ... Meta 3 to be released in 2024, using their own infrastructure Microsoft Photos AI (editing, photo search by content) MSFT Paint with AI (blurring background, etc.) OpenAI - ChatGPT fine-tuning, new data cutoff Sept 2022, gpt-3.5-turbo-instruct model (completion, instruction, chess) DALLE-E 3 is coming to ChatGPT , Cobi (new chat model), vision / image understanding Anthropic Claude.ai Apple Local LLMs: ollama.ai,  gpt4all.io tiiuae/falcon-180B stability.ai (image, audio, language) - text2image - install locally - https://www.youtube.com/watch?v=aiZWEbUjAGw - stable audio - https://stability.ai/stable-audio - stableLM (LLM) - https://github.com/stability-AI/stableLM/ MEDUSA - fast multihead LLM decoding (2-7 times faster) - 4 heads with tree attention: https://arxiv.org/abs/2002.08046 https://together.ai/blog/medusa https://github.com/FasterDecoding/Medusa Complete Beginners Guide to Hugging Face LLM Tools https://www.unite.ai/complete-beginners-guide-to-hugging-face-llm-tools/ ElevenLabs text2speech, create audiobooks, voice cloning - https://elevenlabs.io The Rundown AI - Daily Updates https://www.therundown.ai"
+    },
+    {
+      "index": 4,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset and links https://huggingface.co/spaces/gsaivinay/open_llm_leaderboard - added GPT-4 and GPT-3.5 Sep 22, 2023 1379 entries (was ~346 entries on July 16th before LLaMa July 18) GPT-4 (best) and GPT-3.5 (31st place) provided for comparison All top positions (except GPT) are LLaMa 70B 16bit and require ~160 GB VRAM to run. Reducing N-params from 70B down to 30,13,7B causes severe reduction of average test scores Reducing precision from 16bits down to 4bits surprisingly preserves the quality of the model rank    size  avg_quality  bits  VRAM  name 0   1,760B    84.3        16  4,000  GPT-4 1      70B 74.05       16    160  ICBU-NPU/FashionGPT-70B-V1.1 ... 31     175B    71.9        16    400  GPT-3.5 35      70B    71.36        8    160  garage-bAInd/Camel-Platypus2-70B ?      70B    70.37        4     45  garage-bAInd/Camel-Platypus2-70B 73      65B    69.94       16    160  upstage/llama-65b-instruct 90     180B    68.74       16    400  tiiuae/ falcon-180B 118      70B    66.8        16 160 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 13B    66.03       16         Aspik101/trurl-2-13b-pl-instruct_unload 30B    64.21        4     20  gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps 40b    63.47       16         tiiuae/ falcon-40b -instruct (was #1 before LLaMa2) 13B    63.19        4     10  Open-Orca/OpenOrca-Platypus2-13B 7b    59.89       16         HyperbeeAI/Tulpar-7b-v0 7b    55.72        4      6  joehuangx/spatial-vicuna-7b-v1.5-LoRA"
+    },
+    {
+      "index": 5,
+      "title": "LLaMa 2 with 32K tokens context Original LLaMa",
+      "text": "LLaMa 2  with 32K tokens context Original LLaMa 2  has context length  4,096 tokens (~6 pages) It is possible to configure the model for 32K tokens (~50 pages) https://medium.com/@sushilkumar467/huge-llama-2-with-32k-context-length-9f7e11853d03 Code Llama can handle sequences of up to 100k tokens https://www.linkedin.com/pulse/code-llama-its-implications-software-development-industry-shaun-tyler/ Run models with larger context length: https://www.youtube.com/watch?v=yW90f1rfark https://www.youtube.com/watch?v=ELax81LjFhU https://github.com/TrelisResearch/code-llama-32k https://github.com/togethercomputer/Llama-2-7B-32K-Instruct https://together.ai/blog/llama-2-7b-32k-instruct https://huggingface.co/TheBloke/Llama-2-7B-32K-Instruct-GGUF token ~ 4 chars word ~ 5 chars page ~ 500 words (single spaced) = 2.5K chars context      pages    Models -------------------------------------------- 4K          6.4     LLaMa 2, ChatGPT-3.5 8K         12.8     ChatGPT-4 (Plus) 16K         25.6 32K         50.1     ChatGpt-4 (Enterprise) 100K        150       Claude 2, Code LLaMa"
+    },
+    {
+      "index": 6,
+      "title": "ChatGPT Pricing https://www.pcguide.com/apps/chat-gpt-price/ ChatGPT Free - uses ChatGPT-3.5",
+      "text": "ChatGPT Pricing https://www.pcguide.com/apps/chat-gpt-price/ ChatGPT Free - uses ChatGPT-3.5 ChatGPT Plus - $20/month - better availability, ChatGPT-4 model, plugins Microsoft BingChat uses ChatGPT-4, free ChatGPT Enterprise - price vary based on your number of employees. Sizes: 1-50,     51-150,     151-1,000,     1,001-10,000,     10,000+ Models Context Prompt (Per 1,000 tokens) Completion (Per 1,000 tokens) GPT-3.5-Turbo 4K $0.00 $0.00 GPT-3.5-Turbo 16K $0.00 $0.00 GPT-4 8K $0.03 $0.06 GPT-4 32K $0.06 $0.12 Azure OpenAI Pricing https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/ Azure has different models. I spoke with their sales support. Looks like OpenAI Enterprise is simply offering the chat based on GPT-4  32K , which is indeed twice faster and much better than 8K version. But it is also twice more expensive. They probably provide same tears as OpenAI based on the number of users. But they don't openly provide this pricing. Most probably it is the same as OpenAI."
+    },
+    {
+      "index": 7,
+      "title": "Microsoft Exposes 38TB in AI Data Leak (September",
+      "text": "Microsoft Exposes 38TB in AI Data Leak    (September 19, 2023) https://www.therundown.ai/p/microsoft-ai-data-leak Key points: The token granted full access to an Azure storage account , not just the intended open AI datasets. Wiz Research discovered computer backups in the data with passwords, keys, and 30,000+ internal Teams messages . Microsoft published a blog reassuring that no customer data was exposed, with no action needed from customers. Why it matters: Reminder  - tighten your AI guardrails More data - more security needed (AI - lots of data)"
+    },
+    {
+      "index": 8,
+      "title": "Local Private Data + Embedding + VectorDB +",
+      "text": "Local Private Data + Embedding + VectorDB + LLM LLaMa 2 was open-sourced on July 18th, 2023 In 2 months ~1,000 variations of LLaMa were created at HuggingFace.co - improving the model, making it smaller. You can now have performance at ChatGPT-3.5 level with local open-source model running on relatively inexpensive hardware Local Components: File storage VectorDB Embedding Model LLM LangChain framework Front-end application RAG = Retrieval Augmented Generation System generates response based in the prompt with user query augmented with text retrieved from local vectorDB. The quality of RAG depends mostly on quality of the embedding model (vectors) quality of similarity search (in VectorDB) Average   ARC     HellaSwag     MMLU      TruthfulQA reason  common sense   sciences    truthful? GPT-4        84.25   96.3       95.3        86.4         59 GPT-3.5      71.93   85.2       85.5        70           47 LLaMa+ 70b   74.05   71.76      88.2        71           65.3 LLaMa+ 4bit  59.06   57.7       81.1        51.8         45.7 (13b) hybrid retrieval + semantic ranking perform better than simple Vector search https://techcommunity.microsoft.com/t5/azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167"
+    },
+    {
+      "index": 9,
+      "title": "RAG - Embedding Model and Vector Search Retriever",
+      "text": "RAG - Embedding Model and Vector Search Retriever VectorDB Augmented Query LLM Query Response Embedding Model - How Text Converted to Vectors Vector Search - SQL, tags, cosine similarity, etc. Example searching within a Bible text: Prompt: \" who divided the waters of red sea \" Good Embedding + Search : \" Moses , following God’s command, stretched out his hand over the sea with his staff, and God caused the sea to be divided \" Bad Embedding + Search : \"And king Solomon made a navy of ships in Eziongeber, which [is] beside Eloth, on the shore of the Red sea , in the land of Edom.\""
+    },
+    {
+      "index": 10,
+      "title": "llama.cpp https://github.com/ggerganov/llama.cpp run LLaMA 4bit models on MacBook",
+      "text": "llama.cpp https://github.com/ggerganov/llama.cpp run LLaMA 4bit models on MacBook or Linux Open-Source on GitHub since March 10, 2023 41K stars 351 contributors"
+    },
+    {
+      "index": 11,
+      "title": "DALLE-E 3 coming to ChatGPT Plus DALLE 3",
+      "text": "DALLE-E 3 coming to ChatGPT Plus DALLE 3 OpenAI DALLE-E 3 coming to ChatGPT https://www.nytimes.com/2023/09/20/technology/chatgpt-dalle3-images-openai.html"
+    },
+    {
+      "index": 12,
+      "title": "scale ai - data labeling https://scale.com 7.3 Bln",
+      "text": "scale ai - data labeling https://scale.com 7.3 Bln valuation founded in 2016 by Alexandr Wang & Lucy Guo 600 employees, $603M raised Alexandr Wang & Lucy Guo"
+    },
+    {
+      "index": 13,
+      "title": "HeyGen Video Translator HeyGen - translates videos (changing",
+      "text": "HeyGen Video Translator HeyGen - translates videos (changing lips movements) https://labs.heygen.com/guest/video-translate Released in September https://www.youtube.com/watch?v=gzvxgMYO4vM - demo https://www.youtube.com/watch?v=AACmqiiJJS4 - demo wait list to use it"
+    },
+    {
+      "index": 14,
+      "title": "Isambard 3 Supercomputer in UK UK, The University",
+      "text": "Isambard 3 Supercomputer in UK UK, The University of Bristol will host Isambard-AI - the Isambard 3 supercomputer It will be an \"open supercomputer\" to be used for medical and scientific research  projects. It is named after 19th century British engineer Isambard Kingdom Brunel UK government provides $1.1 Bln to build it. Isambard 3 will feature 384 Arm-based NVIDIA Grace CPU Superchips and same number of H100 GPUs https://www.nextplatform.com/2023/05/25/isambard-3-to-put-nvidias-grace-cpu-through-the-hpc-paces/"
+    },
+    {
+      "index": 15,
+      "title": "Install SDXL Locally on Windows Easiest Install Ever!",
+      "text": "Install SDXL Locally on Windows Easiest Install Ever! AI Art Generator on Your PC! MIDJOURNEY QUALITY How to Install SDXL Locally on Windows https://www.youtube.com/watch?v=aiZWEbUjAGw https://github.com/lllyasviel/Fooocus https://weirdwonderfulai.art/resources/installing-sdxl-1-0-on-local-computer/ https://stable-diffusion-art.com/sdxl-model/ SDXL = Stable Diffusion XL, text to image model developed by Stability.AI x3 times larger than previous versions of Stable Diffusion create realistic faces, legible text, and better image composition high-resolution AI image synthesis ( 1024 x 1024) local machine execution"
+    },
+    {
+      "index": 16,
+      "title": "gradio-client import gradio as gr def image_classifier(inp): return",
+      "text": "gradio-client import gradio as gr def image_classifier(inp): return {'cat': 0.3, 'dog': 0.7} demo = gr.Interface(fn=image_classifier, inputs=\"image\", outputs=\"label\") demo.launch() https://www.gradio.app https://www.gradio.app/docs Gradio is an open-source Python package Quickly and easily build easy-to-use, customizable UI For any ML, or API Very concise (few lines of code) Can use from Jupyter notebook Share it as a link"
+    },
+    {
+      "index": 17,
+      "title": "PyQt QtCore − Core non-GUI classes used by",
+      "text": "PyQt QtCore − Core non-GUI classes used by other modules QtGui − Graphical user interface components QtMultimedia − Classes for low-level multimedia programming QtNetwork − Classes for network programming QtOpenGL − OpenGL support classes QtScript − Classes for evaluating Qt Scripts QtSql − Classes for database integration using SQL QtSvg − Classes for displaying the contents of SVG files QtWebKit − Classes for rendering and editing HTML QtXml − Classes for handling XML QtWidgets − Classes for creating classic desktop-style UIs QtDesigner − Classes for extending Qt Designer Typical workflow: Use Qt Designer GUI to design the UI Save as mainwindow.ui Convert UI to Python Code: pyuic5 -x mainwindow.ui -o view.py Split code in modules (MVC): model.py - business logic controller.py - connects model and view, user I/O, updates main.py - brings everything together Qt Designer GUI https://en.wikipedia.org/wiki/PyQt PyQt - uses cross-platform GUI toolkit Qt (since 1998) PyQt implements ~440 classes and over 6,000 functions # pip install PyQt5 import sys from PyQt5.QtWidgets import ( QApplication, QMainWindow, QAction, QTextEdit, QVBoxLayout, QWidget) from PyQt5.QtGui import QIcon ..."
+    },
+    {
+      "index": 18,
+      "title": "Cohere .. interactive chat features .. generate text",
+      "text": "Cohere .. interactive chat features .. generate text for product descriptions .. generate text for blog posts and articles .. capture the meaning of text for search, content moderation, and intent recognition https://cohere.com https://docs.cohere.com/docs https://github.com/cohere-ai .. Cohere is a Canadian startup (2019, Toronto) .. founders: Aidan Gomez, Ivan Zhang, and Nick Frosst .. provides NLP models for human-machine interactions .. offices: Toronto, Palo Alto, London"
+    },
+    {
+      "index": 19,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates September 22, 2023",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates September 22, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Status Page HuggingFace.co > 1379 entries (was ~346",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 3,
+      "slideTitle": "Status Page HuggingFace.co > 1379 entries (was ~346",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 4,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset",
+      "source": "slide"
+    },
+    {
+      "claim": "LLaMa 2 with 32K tokens context Original LLaMa",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 5,
+      "slideTitle": "LLaMa 2 with 32K tokens context Original LLaMa",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT Pricing https://www.pcguide.com/apps/chat-gpt-price/ ChatGPT Free - uses ChatGPT-3.5",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 6,
+      "slideTitle": "ChatGPT Pricing https://www.pcguide.com/apps/chat-gpt-price/ ChatGPT Free - uses ChatGPT-3.5",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft Exposes 38TB in AI Data Leak (September",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 7,
+      "slideTitle": "Microsoft Exposes 38TB in AI Data Leak (September",
+      "source": "slide"
+    },
+    {
+      "claim": "Local Private Data + Embedding + VectorDB +",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 8,
+      "slideTitle": "Local Private Data + Embedding + VectorDB +",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG - Embedding Model and Vector Search Retriever",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 9,
+      "slideTitle": "RAG - Embedding Model and Vector Search Retriever",
+      "source": "slide"
+    },
+    {
+      "claim": "llama.cpp https://github.com/ggerganov/llama.cpp run LLaMA 4bit models on MacBook",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 10,
+      "slideTitle": "llama.cpp https://github.com/ggerganov/llama.cpp run LLaMA 4bit models on MacBook",
+      "source": "slide"
+    },
+    {
+      "claim": "DALLE-E 3 coming to ChatGPT Plus DALLE 3",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 11,
+      "slideTitle": "DALLE-E 3 coming to ChatGPT Plus DALLE 3",
+      "source": "slide"
+    },
+    {
+      "claim": "scale ai - data labeling https://scale.com 7.3 Bln",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Bd6fGCcyoZM",
+      "slideIndex": 12,
+      "slideTitle": "scale ai - data labeling https://scale.com 7.3 Bln",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "id": "2022-03-04-2022-03-04-cryptocurrency",
+  "date": "2022-03-04",
+  "title": "Cryptocurrency",
+  "series": "seminar",
+  "topics": [
+    "infra",
+    "general"
+  ],
+  "video": {
+    "id": "8jI4ZehHZgA",
+    "title": "What is Cryptocurrency and why you need to know",
+    "url": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+    "thumbnail": "https://i.ytimg.com/vi/8jI4ZehHZgA/hqdefault.jpg",
+    "duration": 2372
+  },
+  "deck": {
+    "path": "2022/2022-03-04-Cryptocurrency.pptx",
+    "filename": "2022-03-04-Cryptocurrency.pptx",
+    "title": "Cryptocurrency",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-03-04-Cryptocurrency.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-03-04-Cryptocurrency.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Criticism of Crypto",
+      "startSeconds": 39,
+      "label": "00:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Revolution in Cryptocurrencies",
+      "startSeconds": 286,
+      "label": "04:46",
+      "source": "youtube"
+    },
+    {
+      "title": "China - Digital Yuan",
+      "startSeconds": 315,
+      "label": "05:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Cryptocurrency - History",
+      "startSeconds": 558,
+      "label": "09:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Bitcoin History",
+      "startSeconds": 683,
+      "label": "11:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Solidity",
+      "startSeconds": 954,
+      "label": "15:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Etherium",
+      "startSeconds": 1020,
+      "label": "17:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Blockchain mining hardware",
+      "startSeconds": 1058,
+      "label": "17:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Solana",
+      "startSeconds": 1166,
+      "label": "19:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Cardano",
+      "startSeconds": 1265,
+      "label": "21:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Concensus Mechanisms",
+      "startSeconds": 1347,
+      "label": "22:27",
+      "source": "youtube"
+    },
+    {
+      "title": "How Does Proof of Stake work?",
+      "startSeconds": 1369,
+      "label": "22:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Staking Pools vs Mining Pools",
+      "startSeconds": 1460,
+      "label": "24:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Transition to Ethereum 2.0",
+      "startSeconds": 1548,
+      "label": "25:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Crypto Payment Services",
+      "startSeconds": 1659,
+      "label": "27:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Convert BitCoin into USD",
+      "startSeconds": 1837,
+      "label": "30:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Mask",
+      "startSeconds": 1883,
+      "label": "31:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Uniswap Protocol",
+      "startSeconds": 1968,
+      "label": "32:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Blockchains",
+      "startSeconds": 2129,
+      "label": "35:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Stable Coins",
+      "startSeconds": 2179,
+      "label": "36:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Lightning Network",
+      "startSeconds": 2213,
+      "label": "36:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Bitcoin Cash, Bitcoin SV",
+      "startSeconds": 2270,
+      "label": "37:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Million token",
+      "startSeconds": 2283,
+      "label": "38:03",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "What is Cryptocurrency ? Why you need to",
+      "text": "What is Cryptocurrency ? Why you need to know about Cryptocurrency?"
+    },
+    {
+      "index": 2,
+      "title": "Cryptocurrencies failed at their main design intent of",
+      "text": "Cryptocurrencies failed at their main design intent of creating a distributed anonymous currency not controlable by any government. Nowadays every crypto transaction is a taxable event in US (similar to trading stocks or bonds) Crypto networks consume ~ 1% of planet's electricity and cause electronic chips shortages (being fixed by \"proof of stake\" ) Crypto networks are slow (being fixed by \"proof of stake\" ) Total TPS (Transactions Per Second): Solana: 65,000 Ethereum: 20 (will be 100,000) Cardano – 250 (will be Millions) Visa: 24,000 Algorand: 1,300 Ripple: 1,500 PayPal: 193 Bitcoin Cash: 60 Litecoin: 56 Dash: 48 Bitcoin: 7 (slow!!) https://www.fool.com/investing/2018/01/14/which-cryptocurrencies-have-the-fastest-transactio.aspx - Criticism of Crypto Crypto caused lots of fraud and criminal activity Crypto is very volatile Some countries prohibit crypto (like China) Billionaire John Paulson Calls Crypto \"A Limited Supply of Nothing\" Billionaire Warren Buffet advises against it as well: “It does not meet the test of a currency, ... it is not a durable means of exchange, it's not a store of value.” \"\"\" The world has never been fond of crypto. Famous economists have called it a Ponzi scheme , notable investors have called it “ rat poison squared ,” the Fed president described it as a “ giant garbage dumpster ,” and governments around the world have banned, financially strangled and booted out crypto companies. \"\"\" Proof of Stake Validation makes Crypto faster than VISA – and takes little electricity: Cardano Solana Algorand Ethereum"
+    },
+    {
+      "index": 3,
+      "title": "Years after calling Bitcoin \" rat poison \",",
+      "text": "Years after calling Bitcoin \" rat poison \", Warren Buffett just invested $1 Billion in a crypto-friendly bank. February 2022 https://fortune.com/2022/02/16/warren-buffett-invested-1-billion-crypto-bank/ But ..."
+    },
+    {
+      "index": 4,
+      "title": "Revolution in Cryptocurrencies Shifting validation from \" proof-of-work",
+      "text": "Revolution in Cryptocurrencies Shifting validation from \" proof-of-work \" to \" proof-of-stake \" increases speed of crypto-transactions x1000s times (Etherium 2.0 projected speed ~ 100,000 transactions/sec), and correspondingly decreases transaction fees to small fractions of a cent. Fast speed and low transaction costs is already a reality for some networks, like, for example, Solana:"
+    },
+    {
+      "index": 5,
+      "title": "China - Digital Yuan China has released the",
+      "text": "China - Digital Yuan China has released the new digital yuan app , e-CNY , for iOS and Android. It is NOT a decentralized cryptocurrency It does NOT operate on a blockchain It is controlled and issued by the China's central bank – PBOC (The People’s Bank of China). It was developed since 2014 It is designed to replace the cash and coins already in circulation China is pushing for broader use of its digital currency China is way ahead of its global peers. The US Federal Reserve is only discussing the idea of issuing a U.S. digital currency similar to China's CBDC (Central Bank Digital Currency) The two dominant payment systems in China are: Tencent’s WeChat Pay anounced support of digital yuan for its morethan a Billion WeChat users Alipay (Alibaba) is also a partner for the digital yuan."
+    },
+    {
+      "index": 6,
+      "title": "If you can’t beat them, copy them. Some",
+      "text": "If you can’t beat them, copy them. Some central banks have decided to create crypto competitors that they control. The value of this CBDC ( Central Bank-controlled Digital Currency ) mirrors the price of its physical equivalent. CBDC is not similar to cryptocurrencies like Bitcoin and Ethereum, which are distributed (not centrally-controlled) and whose values aren’t pegged to any fiat currency (thus can swing wildly). Benefits of CBDCs could include letting people without bank accounts use digital payments, and giving central banks a lower-cost alternative to cash for providing a national payment method. Central banks strike back against crypto with their own digital currencies. Almost 100 countries are actively investigating launching their own digital currency, according to the IMF (Inernational Monetary Fund)."
+    },
+    {
+      "index": 7,
+      "title": "When USA Government will get into Crypto? As",
+      "text": "When USA Government will get into Crypto? As of 2022, there are only discussions of launching a \"Digital Dollar\" in the USA: https://www.investopedia.com/fed-to-release-paper-exploring-launch-of-digital-dollar-5204490"
+    },
+    {
+      "index": 8,
+      "title": "As of the end of 2021 there are",
+      "text": "As of the end of 2021 there are approx 8,000 crypto-currencies - https://coinmarketcap.com"
+    },
+    {
+      "index": 9,
+      "title": "Name Market Cap 1 BTC = Bitcoin $761,038,243,091",
+      "text": "Name Market Cap 1 BTC = Bitcoin $761,038,243,091 2 ETH = Ethereum $334,141,565,566 3 USDT = Tether $78,738,030,288 4 BNB = BNB $65,864,119,793 5 USDC = USD Coin $52,494,970,088 6 XRP = XRP $36,922,069,357 7 ADA = Cardano $33,850,389,831 8 SOL = Solana $28,991,691,641 9 AVAX = Avalanche $20,896,330,175 10 LUNA = Terra $19,861,982,821 11 DOGE = Dogecoin $18,447,068,758 12 BUSD = Binance USD $18,185,409,339 13 DOT = Polkadot $17,719,838,307 14 SHIB = Shiba Inu $15,511,500,430 15 MATIC = Polygon $12,169,172,624 16 UST = TerraUSD $11,947,612,991 17 CRO = Crypto.com Coin $11,053,395,927 18 WBTC = Wrapped Bitcoin $10,533,626,439 19 DAI = Dai $10,197,240,111 20 LTC = Litecoin $8,130,543,341 21 ATOM = Cosmos $7,833,196,168 22 LINK = Chainlink $7,161,689,625 23 NEAR = NEAR Protocol $6,574,018,803 24 UNI = Uniswap $6,496,617,082 25 TRX = TRON $6,423,796,753 Top 25 Cryptocurrencies as of mid-February, 2022"
+    },
+    {
+      "index": 10,
+      "title": "In 2021 total crypto market was worth more",
+      "text": "In 2021 total crypto market was worth more than 3 Trillion dollars h ttps://www.statista.com/statistics/730876/cryptocurrency-maket-value/"
+    },
+    {
+      "index": 11,
+      "title": "A cryptocurrency is a digital asset designed to",
+      "text": "A cryptocurrency is a digital asset designed to work as a medium of exchange ( currency ) that uses cryptography to secure its transactions, to control the creation of additional units, and to verify the transfer of assets. The first widely successful and well known cryptocurrency is Bitcoin developed in 2007-2009 by Satoshi Nakamoto ( a person or a group). Before Bitcoin: Digicash (David Chaum, 1989-1998, electronic anonymous crypto money) Hashcash (Adam Back, 1997, a proof-of-work system used to limit email spam and denial-of-service attacks, later has become a part of bitcoin mining algorithm) B-Money (1998, Wei Dai, anonymous, distributed electronic cash system) Bit Gold (1998, Nick Szabo, decentralized, blockchain) E-gold (1996-2009) - digital gold currency, was incorporated on one of  Caribbean Islands, in 2006 was processing more than $2 Bln worth of transactions per year, grown to 5 Mln accounts by 2009, was shut down due to legal issues (under US Patriot Act) Cryptocurrency - History Bitcoin, 2009"
+    },
+    {
+      "index": 12,
+      "title": "Bitcoin History Satoshi Nakamoto is the name of",
+      "text": "Bitcoin History Satoshi Nakamoto is the name of a person(s) who invented blockchain and created bitcoin. Nobody knows his/theirs true identity. - https://blog.bitstamp.net/post/who-is-satoshi-nakamoto – - https://en.wikipedia.org/wiki/Satoshi_Nakamoto - 2007 - the work has begun 2008 - domain bitcoin.org 2008 October - whitepaper on metzdowd.com \"Bitcoin: A Peer-to-Peer Electronic Cash System\" 2009 January - Bitcoin software released on SourceForge, network launched with the block #0 with 50 bitcoins reward On 17 Mar 2010 bitcoinmarket.com starts operating On 22 May 2010, Laszlo Hanyecz made the first real-world transaction by buying two pizzas in Jacksonville, Florida for 10,000 BTC 2010 - Nakamoto released control to Gavin Andresen and other members of bitcoin community 2011 April – Nakamoto wrote \"I’ve moved on to other things…\" and disappeared Nakamoto owns between 750-1,100K bitcoin (~$73 Bln in Nov 2021)."
+    },
+    {
+      "index": 13,
+      "title": "Blockchain \"Blockchain is a system of recording information",
+      "text": "Blockchain \"Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.\" GitHub: Bitcoin (C++ mostly): https://github.com/bitcoin Simple blockchain in python: https://github.com/dvf/blockchain Ethereum in Golang: https://github.com/ethereum/go-ethereum https://github.com/ripple -"
+    },
+    {
+      "index": 14,
+      "title": "Etherium - https://www.investopedia.com/terms/e/ethereum.asp - https://etherscan.io/ - https://www.investopedia.com/terms/g/gas-ethereum.asp -",
+      "text": "Etherium - https://www.investopedia.com/terms/e/ethereum.asp - https://etherscan.io/ - https://www.investopedia.com/terms/g/gas-ethereum.asp - Ethereum is a platform powered by distributed blockchain technology Its own (native) cryptocurrency is called Ether , or ETH , or simply Ethereum dApps - decentralized apps supported by Ethereum platform Smart contracts , which originated on the Ethereum platform, are a central component of how the platform operates. Solidity – common programming language for writing Smart Contracts - https://en.wikipedia.org/wiki/Solidity . EVM – Ethereum Virtual Machine. Miners and validators who participate in operating the Ethereum network, usually by mining, earn ETH rewards for their contributions Programming languages used in Ethereum: Vyper – similar to Python Solidity – similar to JavaScript Serpent – similar to Python, not recommended LLL (Lisp-Like Language) https://merunasgrincalaitis.medium.com/dont-code-another-smart-contract-without-understanding-the-4-languages-in-10-minutes-first-1c2dea165fcf"
+    },
+    {
+      "index": 15,
+      "title": "pragma solidity >= 0.7.0 <0.8.0; contract Coin {",
+      "text": "pragma solidity >= 0.7.0 <0.8.0; contract Coin { // The keyword \"public\" makes variables // accessible from other contracts address public minter; mapping (address => uint) public balances; // Events allow clients to react to specific // contract changes you declare event Sent (address from, address to, uint amount); // Constructor code is only run when the contract // is created constructor() public { minter = msg.sender; } // Sends an amount of newly created coins to an address // Can only be called by the contract creator function mint(address receiver, uint amount) public { require(msg.sender == minter); require(amount < 1e60); balances[receiver] += amount; } // Sends an amount of existing coins // from any caller to an address function send(address receiver, uint amount) public { require(amount <= balances[msg.sender], \"Insufficient balance.\"); balances[msg.sender] -= amount; balances[receiver] += amount; emit Sent (msg.sender, receiver, amount); } } Solidity – programming language for writing Smart Contracts: - https://en.wikipedia.org/wiki/Solidity - https://ethereum.org/en/developers/ - https://github.com/ethereum/solidity Solidity is very similar to JavaScript  programming language. A contract in Solidity is similar to a class ,  and a deployed contract is similar to an instance of a class (an object) in JavaScript . You can create your own contacts/classes as you like. You can think of all kinds of variables and methods inside those contracts. For example, you can make a contract for shipping something. Or for making payments. You can create your own contacts for coins, tokens, distributed apps, your own blockchains , etc. Solidity"
+    },
+    {
+      "index": 16,
+      "title": "Blockchain mining hardware Bitmain, one of the world’s",
+      "text": "Blockchain mining hardware Bitmain, one of the world’s largest bitcoin mining rig manufacturers, has launched the Antminer S19 Pro+ Hyd. This new mining machine will have a hashrate of 198 TH/s (Tera-Hash/sec) and consume 5.5 KW. It uses liquid cooling. ASIC = Application-Specific Integrated Circuit. Your regular computer can calculate at speeds ~ 2 Kilo-hashes per second. The specialized devices (an ASIC bitcoin miner) - will do 200 Terahashes per second (1 Terahash = 1 trillion hashes) while consuming 5.5KWatts of electricity."
+    },
+    {
+      "index": 17,
+      "title": "Solana is a public blockchain platform Very fast:",
+      "text": "Solana is a public blockchain platform Very fast: 50,000/sec (vs 15 ETH or 7 BTC) Very cheap: 0.00025 per transaction (vs $2-$50 for ETH,BTC) Initial – 2019, growing very fast Written in Rust, developer friendly It achieves consensus using the proof of stake mechanism. Its internal cryptocurrency is SOL (Symbol: ◎) Developer(s): Solana Labs & Solana Foundation In 2021, Bloomberg journalist Joanna Ossinger described Solana as \"a potential long-term rival for Ethereum\", citing superior transaction speeds and lower associated costs. https://en.wikipedia.org/wiki/Solana_(blockchain_platform) https://whitepaper.io/document/602/solana-whitepaper https://solana.com – https://www.youtube.com/watch?v=knBQXU7fetA – 3 min Market cap: $46B (September 2021) Circulating supply: 308,704,493.99 SOL (as 24th Dec 2021) Exchange rate: US$203 (October 2021) Solana blockchain platform – using Proof of Stake , written in Rust Anatoly Yakovenko San Francisco Bay Area anatoly@solana.io https://www.linkedin.com/in/anatoly-yakovenko/ Solana Ethereum transactions per sec 50,000 15 cost per transaction $0.00025 $70"
+    },
+    {
+      "index": 18,
+      "title": "Cordano is a public blockchain platform, smart contracts",
+      "text": "Cordano is a public blockchain platform, smart contracts Fast: 250 /sec (it will be Millions) Relatively cheap: $0.4 per transaction (will be much lower soon) Initial – 2017, growing very fast Written in Haskell, developer friendly It achieves consensus using the PoS (Proof of Stake) mechanism Its internal cryptocurrency is ADA Developer(s): Charles Hoskinson, Ethereum co-founder Cordano is named after famous italian scientist Gerolamo Cardano (1501-1576) ADA is named after Ada Lovelace (1815-1852) - English mathematician and writer Cardano blockchain platform – using Proof of Stake , written in Haskell Charles Hoskinson Colorado, Cardano Foundation based in Switzerland."
+    },
+    {
+      "index": 19,
+      "title": "Concensus Mechanisms Proof of Work (Bitcoin, Ethereum, ...)",
+      "text": "Concensus Mechanisms Proof of Work (Bitcoin, Ethereum, ...) miners solve blocks, first winner is rewarded. Need fast specialized hardware ( ASIC miners ) and use lots of electricity . Complexity grows with time, transactions are slow. Miners consolidate their efforts ( mining pools, staking ) – thus leading to centralisation of miners Proof of Stake (Peercoin 2012), Cardano, Avalanche, Polkadot, Solana, Ethereum 2.0, ... ) replaces miners with validators who stake their coins on the network to maintain it. Proof of Stake takes thousands times less electricity, and works much faster (and cheaper) : Proof of Stake networks in Transactions per Second (TPS): .. Solana – 65,000; .. Cardano – 260 (projected up to 1 Mln); .. Avalanche – 4,500; .. Polkadot – 167; .. Ethereum 2.0 (projected) – 100,000."
+    },
+    {
+      "index": 20,
+      "title": "Owners of a cryptocurrency stake their coins and",
+      "text": "Owners of a cryptocurrency stake their coins and create their own validator nodes . Staking is when you pledge your coins to be used for verifying transactions. Your coins are locked up while you stake them . When a block of transactions is ready to be processed, the cryptocurrency's proof-of-stake protocol will choose a validator node to review the block. The validator checks the validity of transaction, adds the block to the blockchain, and receives crypto rewards (or penalized if tried to add block with incorrect information). Example: Cardano . Anyone who owns Cardano can stake it and set up their own validator node. When Cardano needs to verify blocks of transactions, its Ouroboros protocol selects a validator . The validator checks the block, adds it, and receives more Cardano for their trouble. Mining power in PoS depends on the amount of coins a validator is staking. Stake more coins, and you will be more likely chosen to add new blocks. Each proof-of-stake protocol works differently in how it chooses validators. There's usually some randomization involved, also factors like how long validators have been staking their coins. How Does Proof of Stake work ?"
+    },
+    {
+      "index": 21,
+      "title": "Staking Pools vs Mining Pools In PoS (Proof-of-Stake)",
+      "text": "Staking Pools vs Mining Pools In PoS (Proof-of-Stake) system you can increase your odds to be selected by joining a staking pool , which is simply a group of people pooling their coins together for a better chance of winning new blocks. One person (pool owner) sets the validator node for the pool. Rewards are split between participants, owner may take a small fee. Note: you can not stake Bitcoin or other Proof-of-Work (PoW) Cryptocurrencies. You can only stake PoS cryptocurrencies. But in PoW system like Bitcoin you can join one of Bitcoin Mining Pools , which are networks of miners cooperating to mine blocks together and distribute the payments based on each entity’s contribution to the pool. Contributions measured in hash rate (calculated hashes per second). Whenever any miner in the pool finds a block, they pay the block reward to the mining pool coordinator. After taking a small fee, the coordinator pays each member of the pool based on their hash rate contribution. For a small miner who has impossibly low chances of finding a block on their own, joining a mining pool will provide a steady stream of revenue (proportionaly to the miner’s size, so it will still be small, but consistent)."
+    },
+    {
+      "index": 22,
+      "title": "Transition from Ethereum to Ethereum 2.0 (\"Proof of",
+      "text": "Transition from Ethereum to Ethereum 2.0 (\"Proof of Stake\"). Phase 0 - launch the beacon chain in the network, start managing registry of the validators, create frameworks for next steps. Phase 1 (to be finished in mid-2022) -  implement 64 shard chains and roll-ups . Sharding (distributing of  transactions) should greatly increase the throughput of the network. Phase 1.5 - the stopgap between phase 1 and phase 2. It is merging (\"docking\") of the two ecosystems. The merger will involve the docking of the ethereum 1.0 mainnet with the beacon chain , and then the ethereum 1.0 blockchain will become one of the 64 shard chains implemented in phase 1 . Phase 2 - initiate cross-shard interoperability and allow native decentralised application (dApp) development on the network."
+    },
+    {
+      "index": 23,
+      "title": "Vitalik Buterin (one of the founders Ethereum) tweeted",
+      "text": "Vitalik Buterin (one of the founders Ethereum) tweeted in 2020: \"ETH2 scaling for data will be available *before* ETH2 scaling for general computation. This implies that rollups will be the dominant scaling paradigm for at least a couple of years: first ~2-3k TPS with eth1 as data layer, then ~100k TPS with eth2 (phase 1). Adjust accordingly,\" Ethereum's upgrade may cause increase in its price mainly due to the fact that Ethereum and its DeFi network will become far more practical . Transaction fees will likely drop significantly (to fractions of a cent). And transaction speed will match or exceed that of VISA cards. Those who stand to benefit the most from Ethereum's upgrade are those who do not have access to the modern banking system that exists today (nearly 2 billion people). With low fees and a lowered barrier to entry, DeFi has the potential to grow significantly, and Ethereum's price along with it. Transition to Ethereum 2.0 Vitalik Buterin https://vitalik.ca EndGame: https://vitalik.ca/general/2021/12/06/endgame.html"
+    },
+    {
+      "index": 24,
+      "title": "Fees (Proof of Work) Bitcoin Fees are calculated",
+      "text": "Fees (Proof of Work) Bitcoin Fees are calculated in \" satoshi \" named after Satoshi Nakamoto, creator of bitcoin. 1 satoshi = 0.00000001 BTC = 1e-8 BTC (Jan 2022) Estimated transaction fee $2.34 = 5,056 satoshi https://www.btcsatoshi.com/ https://www.buybitcoinworldwide.com/fee-calculator/ https://bitcoinfees.earn.com/ https://mempool.space/ https://bitcoinbriefly.com/how-to-use-mempool-space-block-explorer/ Ethereum https://cryptotesters.com/blog/ethereum-gas https://automatedwebtools.com/usd-eth-gas-fee/ https://etherscan.io/ Cost of transaction is measured in \" Gwei \" – named after Wei Dai , best known as the creator of the bitcoin predecessor \" b-money \" and as the developer of the Crypto++ library. 1 gwei = 0.000000001 ether = 1/1Bln part of Ether (Jan 2022) Estimated transaction fee $5.61 = 70 Gwei Miners are rewarded for calculating next block in a blockchain's mempool. The reward is calculated per the length of the record and complexity of calculation – and in values native to the blockchain . When converting to dollars, the fees are very volatile. Here is what Wall Street Journal says about fees in 2021: \"\"\" On the Bitcoin network, the average daily transaction fee this year has been as low as $1.78 and as high as $62 , according to bitinfocharts. On Ethereum, the average fee has been as low as $1.59 and as high as $70 . \"\"\" https://www.wsj.com/articles/crypto-and-its-many-fees-what-to-know-about-the-hidden-costs-of-digital-currency-11639825202"
+    },
+    {
+      "index": 25,
+      "title": "Coinbase - mainstream brand in the US market.",
+      "text": "Coinbase - mainstream brand in the US market. Integrates with Shopify and WooCommerce - https://www.coinbase.com – BitPay - Bitcoin and Bitcoin Cash payment services for merchants. US, since 2011. Versatile payout options - https://bitpay.com - CoinGate - Supports payment in more obscure coins, Integrates with a large number of eCommerce platforms - https://coingate.com – NOWpayments - Supports payment in more obscure coins, Integrates with a large number of eCommerce platforms, Low fees for simple transactions - https://nowpayments.io – AlfaCoins - Flexible payment options, Easy to use - https://www.alfacoins.com - Crypto Payment Services The 5 Most Popular Crypto Payment Gateway & Processors https://www.merchantmaverick.com/best-cryptocurrency-payment-gateway/"
+    },
+    {
+      "index": 26,
+      "title": "Coinbase - 89+ Mln users, 100+ countries, USA-based",
+      "text": "Coinbase - 89+ Mln users, 100+ countries, USA-based - https://www.coinbase.com - Transaction Fees: 0.04% to 0.50% (taker orders); 0% to 0.50% (makers orders), Wallet included. Very high liquidity, variety of coins Binance - https://www.binance.com - Cayman Islands (Caribbean) & Seychelles (island near Africa). Hindreds of cr.currencies. Not available in US. Low fees, large variety of cryptocurrencies and trading pairs, geared for more advanced users Binance.US - https://www.binance.us – US-regulated, 50 cryptocurrencies, not all states supported Abra - https://www.abra.com - Mountain View, CA - operates a comprehensive, custodial cryptocurrency wallet and exchange Cash App - https://cash.app – easy to use, peer-to-peer money transfer (like Venmo or Zelle), ability to withdraw Bitcoin, supports only one crypto-currency – the Bitcoin. has daily and weekly withdrawal limits. Charge when sending money via credit card bisq – decentralized exchange - https://bisq.network – non-KYC platform, 18 crypto-currencies, but transaction speeds may be slow, trading volumes can be low Kraken – Bitcoin & Crypto Exchange - https://www.kraken.com - Gemini - https://www.gemini.com - Robinhood - https://robinhood.com - Crypto Exchanges (and Wallets) Best Crypto Exchanges in 2021: - https://www.investopedia.com/best-crypto-exchanges-5071855 -"
+    },
+    {
+      "index": 27,
+      "title": "Fees – BitPay.com BitPay is a payment gateway",
+      "text": "Fees – BitPay.com BitPay is a payment gateway since 2011, 100+ Mln global customers, https://www.owler.com/company/bitpay https://bitpay.com/blog/welcome-to-the-september-cryptie/ BitPay fees ( https://www.cryptowisser.com/wallet/bitpay/ ) 1. Miner fees (unavoidable, built into the blockchain, depends on crypto, very volatile) 2. Network Cost (additional operations' cost imposed by BitPay starting in 2017) 3. Processing Fee (1%) added by BitPay for their service 4. Refund fees (if you receive a refund) In 2017 when Bitcoin blockchain fee were very high (more than $30), BitPay made a rule to refuse transactions smaller than $100 Some alternatives to BitPay : https://www.finextra.com/blogposting/21322/the-best-cryptocurrency-payment-gateways-for-2022 https://technicali.com/top-7-payment-gateways-that-accept-cryptocurrency/ https://wpengine.com/resources/wordpress-and-bitcoin/ https://www.nerdwallet.com/article/small-business/accepting-bitcoin-crypto"
+    },
+    {
+      "index": 28,
+      "title": "Coinbase https://www.coinbase.com https://en.wikipedia.org/wiki/Coinbase buy, sell, and manage crypto",
+      "text": "Coinbase https://www.coinbase.com https://en.wikipedia.org/wiki/Coinbase buy, sell, and manage crypto 89 Mln users in 100+ countries Public company (traded on Nasdaq) Founded in 2012 by Brian Armstrong 1000+ employes"
+    },
+    {
+      "index": 29,
+      "title": "Convert BitCoin into USD https://icoholder.com/blog/how-to-turn-bitcoin-into-usd/ If you and",
+      "text": "Convert BitCoin into USD https://icoholder.com/blog/how-to-turn-bitcoin-into-usd/ If you and your buyer know and trust each other – you can do it by yourselves. Buyer can give you money – and you can send BTC from your account to his. You need to be aware of fees on both sides You can also use facilitating service like LocalBitcoins which lists buyers (expect 1-3 days to complete transaction) - https://localbitcoins.com/sell_bitcoins Otherwise you can use some (big) exchange – but for additional fee 1-2% fee. For example, Coinbase Exchange - https://icoholder.com/blog/how-to-turn-bitcoin-into-usd/ , https://www.youtube.com/watch?v=60Rjdv2Z_Gg You can also trading platforms (like Kraken). Expect more background checks and higher fees. The process also will generally take longer ( ~5 days )  - https://support.kraken.com/hc/en-us Currency Converters – many places, faster processing - https://wealthpay.org - https://www.bestchange.com - https://www.okchanger.com Direct Electronic Payment System – like https://www.worldcore.eu - it uses BitPay under the hood - https://bitpay.com"
+    },
+    {
+      "index": 30,
+      "title": "https://metamask.io/ https://en.wikipedia.org/wiki/MetaMask A software cryptocurrency wallet for Etherium",
+      "text": "https://metamask.io/ https://en.wikipedia.org/wiki/MetaMask A software cryptocurrency wallet for Etherium blockchain A secure browser extension or mobile app (iOS, Android) Allows to interact with decentralized applications Since 2016 More than 20 Mln users Developed by ConsenSys - a blockchain software technology company founded by Joseph Lubin with headquarters in Brooklyn, New York Bitcoin cannot be stored on MetaMask, but you can store a \"Wrapped Bitcoin\" (WBTC) – which is an ERC-20 token that represents Bitcoin on the Ethereum blockchain MetaMask Joseph Lubin ConsenSys Brooklyn, New York"
+    },
+    {
+      "index": 31,
+      "title": "Best Hardware Wallet Ledger Noan X - https://www.ledger.com",
+      "text": "Best Hardware Wallet Ledger Noan X - https://www.ledger.com – Trezor - https://trezor.io – Arculus - https://www.getarculus.com – SafePal - https://safepal.io -"
+    },
+    {
+      "index": 32,
+      "title": "Uniswap Protocol Uniswap (2018) is a decentralized open",
+      "text": "Uniswap Protocol Uniswap (2018)  is a decentralized open source finance protocol that is used to exchange cryptocurrencies on Ethereum blockchain. Written in Solidity. Uniswap is also the name of the company that initially built the Uniswap protocol. The Uniswap protocol facilitates automated transactions between cryptocurrency tokens on the Ethereum blockchain through the use of smart contracts. As of October 2020, Uniswap was estimated to be the largest decentralized exchange and the fourth-largest cryptocurrency exchange overall by daily trading volume Uniswap has been one of the shining stars of the crypto market. Investors are looking to buy UNI due to its impressive performance. https://uniswap.org/ https://github.com/Uniswap/v3-core Hayden Adams Inventor of Uniswap Protocol CEO at Uniswap Labs New York https://www.linkedin.com/in/haydenadams/"
+    },
+    {
+      "index": 33,
+      "title": "Slide 33",
+      "text": ""
+    },
+    {
+      "index": 34,
+      "title": "Web 3.0 web1 (1994-2004): content provided by website",
+      "text": "Web 3.0 web1 (1994-2004): content provided by website owner, visitors are consumers. web2 (a.k.a. Web 2.0, 2004 - present) – \" social web \", \" web as a platform \". Content created by website users (social media - blogs, facebook, youtube, etc.). Amazon market place and even Wikipedia can be considered as web2 websites too. Content is stored in big \"central\" repositories (web sites). web3 (a.k.a. Web 3.0) – data is stored and interconnected in decentralized way. .. using blockchain and other modern technologies to enable decentralized economics . .. DAOs - decentralized autonomous organizations (DAOs) .. DeFi - decentralized finance .. self-sovereign identity (without the need of authentication server) .. AI-driven interfaces understanding voice, human images, emotions, understand meaning (\"semantic web\"), 3D-graphics, virtual reality .. AI-driven bots for data discovery and operations The term \"Web3\" was coined by Polkadot founder and Ethereum co-founder Gavin Wood in 2014, referring to a \"decentralized online ecosystem based on blockchain.\" Gavin Wood"
+    },
+    {
+      "index": 35,
+      "title": "Blockchain networks, platforms, companies Some Blockchain Platforms: IBM",
+      "text": "Blockchain networks, platforms, companies Some Blockchain Platforms: IBM Blockchain Corda Ethereum MultiChain Tron Stellar Some Blockchain companies BRD BitMEX Chainalysis Coinme Netki Paxful Republic Spring Labs SALT Lending TQ Tezos Mythical Games Gemini Circle Coinbase Chronicled IBM Voatz Steem Shipchain Number of nodes (2021): Bitcoin: 12K+ Ethereum: 7K Page Under Construction"
+    },
+    {
+      "index": 36,
+      "title": "public blockchains - https://www.gartner.com/reviews/market/blockchain-platforms BitCoin Etherium Solana IBM",
+      "text": "public blockchains - https://www.gartner.com/reviews/market/blockchain-platforms BitCoin Etherium Solana IBM Blockchain Hyperledger Fabric Binance Smart Chain NEO (Antshares) WAVES EOS Stellar Monero (XMR) Bitcoin Cash (BCH) Ripple ? Blockchains Page Under Construction private blockchains consortium blockchains hybrid blockchains"
+    },
+    {
+      "index": 37,
+      "title": "NFT = Non-fungible token https://en.wikipedia.org/wiki/Non-fungible_token With NFTs, artwork",
+      "text": "NFT = Non-fungible token https://en.wikipedia.org/wiki/Non-fungible_token With NFTs, artwork can be \"tokenised\" to create a digital certificate of ownership that can be bought and sold (sometimes for millions of $$) NFTs are cryptographic assets on a blockchain with unique identification codes and metadata that distinguish them from each other NFT provide a public certificate of authenticity or proof of ownership NFT is separate from a copyright NFT differ from crypto-currencies: there is no trading, no interchangeability (fungibility) NFT do not restrict the sharing or copying of the underlying digital files NFTs can be sold or bought on many crypto market places https://www.fool.com/investing/stock-market/market-sectors/financials/non-fungible-tokens/nft-marketplaces/ OpenSea - https://opensea.io - first and largest. Helps to mint yor own NFTs, supports 150+ different payment tokens. Axie Marketplace - video game Axie Infinity. Ethereum. Larva Labs/CryptoPunks - digital art, Ethereum NBA Top Shot Marketplace (Basketball collectibles), Flow blockchain Rarible - similar to OpenSea, its own token Rarible built on Ethereum SuperRare - similar to Rarible. Ethereum. New token announced Foundation.app - use Etherium to buy/sell digital art Nifty Gateway - the art curation platform, uses Gemini . Ethereum Mintable - similar to OpenSea. Ethereum. Minting of NFTs Theta Drop - video and TV, its own blockchain, Theta Token"
+    },
+    {
+      "index": 38,
+      "title": "Stable Coins - https://www.investopedia.com/terms/s/stablecoin.asp - Stablecoins are cryptocurrencies",
+      "text": "Stable Coins - https://www.investopedia.com/terms/s/stablecoin.asp - Stablecoins are cryptocurrencies that attempt to peg their market value to something external, like a currency (USD), or commodity's price (gold), etc. Stablecoins achieve their price stability via either collateralization (backing) or through algorithmic mechanisms of buying and selling the reference asset or its derivatives Currency Market value Tether / USDT $ 73.32 billion USD Coin / USDC $ 34.35 billion Binance USD / BUSD $ 13.54 billion Dai / DAI $ 6.47 billion TerraUSD / UST $ 2.88 billion TrueUSD / TUSD $ 1.25 billion"
+    },
+    {
+      "index": 39,
+      "title": "https://en.wikipedia.org/wiki/Lightning_Network Lightning Network The Lightning Network (LN) is",
+      "text": "https://en.wikipedia.org/wiki/Lightning_Network Lightning Network The Lightning Network (LN) is a \"layer 2\" payment protocol layered on top of a blockchain-based cryptocurrency such as bitcoin or litecoin. It is intended to enable fast transactions among participating nodes and has been proposed as a solution to the bitcoin scalability problem Cryptocurrency exchanges such as Bitfinex use Lightning Network to enable deposits and withdrawals. Laszlo Hanyecz , who gained fame in the cryptocurrency community for paying 10,000 BTC for two pizzas in 2010, bought two more pizzas in 2018 using Lightning Network and paid 0.00649 BTC . Zion (The Bitcoin Social Network) utilizes the Lightning Network running LND (LN Daemon) to send content peer-to-peer through channels. Laszlo Hanyecz Note about Litecoin :  Litecoin (2011) is a bitcoin fork (faster block generation, larger max number of coins, different hashing algorithm, etc.) https://en.m.wikipedia.org/wiki/Litecoin"
+    },
+    {
+      "index": 40,
+      "title": "Dogecoin https://en.wikipedia.org/wiki/Dogecoin - https://dogecoin.com - https://www.reddit.com/r/dogecoin/ - Dogecoin",
+      "text": "Dogecoin https://en.wikipedia.org/wiki/Dogecoin - https://dogecoin.com - https://www.reddit.com/r/dogecoin/ - Dogecoin - cryptocurrency created as a joke in 2013 started growing via online community (Reddit, ...) Market cap $85 Billion in 2021 authors - Billy Markus and Jackson Palmer known as a \"meme coin\" or \"dog coin\" (Shiba Inu dog from the \"Doge\" meme)"
+    },
+    {
+      "index": 41,
+      "title": "Bitcoin Cash, Bitcoin SV https://en.wikipedia.org/wiki/Bitcoin_Cash Bitcoin Cash: 2017",
+      "text": "Bitcoin Cash, Bitcoin SV https://en.wikipedia.org/wiki/Bitcoin_Cash Bitcoin Cash: 2017 – hard fork of Bitcoin (spin-off, altcoin) increased block size to 8 MB faster throughput for transactions (60 tr/sec) BCH – currency code Bitcoin SV: 2018 – hard fork chain split of Bitcoin Cash .. Bitcoin ABC (Adjustable Blocksize Cap) - 32 MB blocks .. Bitcoin SV (Satoshi Vision) – up to 128 MB blocks 2019 - Bitcoin SV expanded block size to 2 GBytes, enabling (theoretically) 10-15K transactions per second The Bitcoin SV blockchain is the largest of all Bitcoin forks Bitcoin Cash BCH Bitcoin SV BSV Prices (1/31/2022): BTC – $38,300 BCH –    $288 BSV -     $91"
+    },
+    {
+      "index": 42,
+      "title": "https://www.milliontoken.org Million is a cryptocurrency: limited supply of",
+      "text": "https://www.milliontoken.org Million is a cryptocurrency: limited supply of 1 Mln tokens, min $1 each no upper bound on price fully Web 3.0 capable multi-chain currency supported across 6+ different blockchains unlike first-gen memecoins (like Dogecoin or Shiba), Million is serious about supporting smart-contracts, DeFi, staking, NFTs, DAOs, Proof-of-Stake high scalability, fast transactions, and the gaming metaverse. Decentralized Finance staking with the Million Pool, including a decentralized governance DAO for stakeholder rights Metaverse - strong community, developer ecosystem of social media, digital art, gaming, chat spaces, avatars, and NFT metaverse Transparency & Trust - 100% transparent with code fully audited by Certik, Million was founded by ex-Google/ex-Facebook TechLead QUICKSTART GUIDE Create a Metamask Wallet using either a desktop computer or mobile device. http://metamask.io Send Ethereum to your wallet. You can buy Ethereum on MetaMask directly, or through sites like Coinbase , Crypto.com , or Binance and then send them to your wallet. Connect to Uniswap and trade for Million. The Web 3.0 memecoin (\"King of the Jungle of dog coins\") Million token Patrick Shyu TechLead"
+    },
+    {
+      "index": 43,
+      "title": "Slide 43",
+      "text": ""
+    },
+    {
+      "index": 44,
+      "title": "Numerai https://numer.ai/ new type of a hedge fund",
+      "text": "Numerai https://numer.ai/ new type of a hedge fund launched in 2015: make competitions to do financial predictions pay winners in cryptocurrency (their own currency - Numeraire ) Hyperledger https://www.hyperledger.org/ open source tools (blockchains and related) started in December 2015 by the Linux Foundation. Hyperledger Fabric - a blockchain framework Hyperledger Sawtooth - modular platform for building, deploying, and running distributed ledgers"
+    },
+    {
+      "index": 45,
+      "title": "JP Morgan JPM Coin - a wholesale payment",
+      "text": "JP Morgan JPM Coin - a wholesale payment digital currency that is pegged 1:1 to the U.S. dollar. It is now transacting billions of dollars every day JP Morgan uses blockchain unit Onyx : https://www.jpmorgan.com/onyx – organization & brand JPMorgan built the Quorum blockchain using the ethereum network (software behind ether cryptocurrency). Quorum will remain open-source, it is being used by the bank to run the Interbank Information Network, a payments network that involves more than 400 banks. It is supported/developed by ConsenSys – a Brooklyn-based startup - https://github.com/ConsenSys/quorum - Amazon Web Services (AWS) AWS provides Ethereum on Amazon Managed Blockchain. AWS customers can easily provision Ethereum nodes in minutes and connect to the public Ethereum main network and test networks such as Rinkeby and Ropsten."
+    },
+    {
+      "index": 46,
+      "title": "Links, Resources Three main generations of blockchain technologies",
+      "text": "Links, Resources Three main generations of blockchain technologies - https://www.investopedia.com/tech/blockchain-technologys-three-generations/ - But how does bitcoin actually work? ( youtube channel \"3Blue1Brown\" ) - https://www.youtube.com/watch?v=bBC-nXj3Ng4 – Bitcoin Cash, Bitcoin SV - https://en.wikipedia.org/wiki/Bitcoin_Cash Roger Ver - https://en.wikipedia.org/wiki/Roger_Ver Cayman Islands and taxes, Binance - https://en.wikipedia.org/wiki/Binance – - https://decrypt.co/19204/top-7-crypto-companies-based-in-tax-havens – The CHEAPEST Way to Buy Crypto. Period. - https://www.youtube.com/watch?v=D11waRlecrg – Cardano -  public open-source decentralized blockchain platform, internal cryptocurrency called \"Ada\". founded in 2015 by Charles Hoskinson - https://en.wikipedia.org/wiki/Cardano_(blockchain_platform) Yield farming = lending or staking cryptocurrency in exchange for interest and other rewards. Yield farmers measure their returns in terms of annual percentage yields (APY). While potentially profitable, yield farming is also incredibly risky. Crypto Mortgage - https://www.prnewswire.com/news-releases/milo-launches-first-us-crypto-mortgage-301462342.html . . ."
+    },
+    {
+      "index": 47,
+      "title": "More Links Melania Trump – NFT - https://blockchain.news/news/former-us-presidents-wife-melania-trump-releases-the-first-nftpriced-at-1-sol",
+      "text": "More Links Melania Trump – NFT - https://blockchain.news/news/former-us-presidents-wife-melania-trump-releases-the-first-nftpriced-at-1-sol Blockchain explorer - https://www.blockchain.com/explorer Cryptopedia - https://www.gemini.com/cryptopedia Book: \"Platform Revolution: Blockchain Technology as the Operating System of the Digital Age\" - https://www.amazon.com/gp/product/1988025737/ Fed Digital Currency Report - https://time.com/nextadvisor/investing/cryptocurrency/expert-reaction-to-fed-digital-currency-report/amp/ DeFi Decoded - Why fortunes are made in bear markets - 40min video - https://youtu.be/joy4-QbG0Rw Wharton Accepts Cryptos as Tuition Fees for Blockchain Courses - https://blockchain-news.cdn.ampproject.org/c/s/blockchain.news/postamp?id=wharton-accepts-cryptos-as-tuition-for-blockchain-courses 3 Ways NFT Gaming Is Building New Wealth Opportunities - http://entm.ag/Q1CCQp?fbclid=IwAR0vyM7BHpG6gEk_3y0codMBlgtOB-C_YhJLXGtkILiPSkYJHoqIAE4gdcM Inidia - tax on crypto in 2022 - https://www.bloomberg.com/news/articles/2022-02-01/india-to-launch-central-bank-digital-currency-next-fiscal-year Laws for stablecoins - https://www.americanbanker.com/news/democrats-circulate-bill-to-rein-in-stablecoins Stablecoin - https://www.linkedin.com/posts/theblockchainforum_stablecoin-regulatory-update-feb-2022-activity-6895248259149893632-9Og3 Blockchain glossary for accountants - https://jofacc.libsyn.com/a-blockchain-glossary-the-cpa-firm-of-the-future-and-excel-malware Feds & Digital Currency - https://news.mit.edu/2022/digital-currency-fed-boston-0203 KPMG is a global network of professional firms providing Audit, Tax and Advisory services - https://www-marketwatch-com.cdn.ampproject.org/c/s/www.marketwatch.com/amp/story/crypto-is-volatile-but-kpmg-canada-just-added-bitcoin-and-ether-to-its-balance-sheet-heres-why-11644270913 Cryptocurrency, Blockchain - IRS forms & how to file - https://open.spotify.com/episode/4BA08KV2257tlygMglcqyc Google & Crypto - https://sg.finance.yahoo.com/news/google-blockchain-crypto-ecosystem-sundar-pichai-nfts-000111560.html PayPal & Crypto - https://blockchain-news.cdn.ampproject.org/c/s/blockchain.news/postamp?id=paypal-establishes-advisory-committeefocusing-on-crypto-affairs Apple and crypto payments - https://finance-yahoo-com.cdn.ampproject.org/c/s/finance.yahoo.com/amphtml/news/apple-enable-crypto-payments-tap-150300322.html Coinbase - Earn crypto while learning about crypto - https://www.coinbase.com/earn Coinbase - Get paid in crypto with zero fees, get your paycheck deposited into Coinbase - https://www.coinbase.com/direct-deposit Ukraine Legalizes Bitcoin amid Intensified Tension with Russia - https://blockchain-news.cdn.ampproject.org/c/s/blockchain.news/postamp?id=ukraine-legalizes-bitcoin-amid-intensified-tension-with-russia Fed Designs Digital Dollar That Handles 1.7 Million Transactions Per Second - https://www-forbes-com.cdn.ampproject.org/c/s/www.forbes.com/sites/jasonbrett/2022/02/07/fed-designs-digital-dollar-that-handles-17-million-transactions-per-second/amp/ BNB Chain - https://www.binance.com/en/blog/ecosystem/introducing-bnb-chain-the-evolution-of-binance-smart-chain-421499824684903436 Salesforce - NFT cloud service - https://www-cnbc-com.cdn.ampproject.org/c/s/www.cnbc.com/amp/2022/02/09/salesforce-tells-employees-its-working-on-nft-cloud-service.html JPMorgan - Quantum Key Distribution (QKD) secure network - https://www-pymnts-com.cdn.ampproject.org/c/s/www.pymnts.com/blockchain/2022/jpmorgan-announces-viable-quantum-secure-blockchain-network/amp/ Paris Hilton on Tonight Show - NFTs - https://www.youtube.com/watch?v=5zi12wrh5So Proof-of-Stake - Cardano, Solana, Algorand, Ethereum - https://www.technologyreview.com/2022/02/23/1044960/proof-of-stake-cryptocurrency/ What's on Tap? - Putin - and Crypto - https://youtu.be/a0ryBK2UgTQ It's all about crypto and Blockchain - https://www.inaa.org/accounting-industry-trends-for-2022/ Good Glossary - https://data-flair.training/blogs/distributed-ledger-technology/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "What is Cryptocurrency ? Why you need to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Criticism of Crypto",
+      "topic": "general",
+      "videoSeconds": 39,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=39s",
+      "slideIndex": 3,
+      "slideTitle": "Years after calling Bitcoin \" rat poison \",",
+      "source": "youtube"
+    },
+    {
+      "claim": "Revolution in Cryptocurrencies",
+      "topic": "general",
+      "videoSeconds": 286,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=286s",
+      "slideIndex": 5,
+      "slideTitle": "China - Digital Yuan China has released the",
+      "source": "youtube"
+    },
+    {
+      "claim": "China - Digital Yuan",
+      "topic": "general",
+      "videoSeconds": 315,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=315s",
+      "slideIndex": 7,
+      "slideTitle": "When USA Government will get into Crypto? As",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cryptocurrency - History",
+      "topic": "general",
+      "videoSeconds": 558,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=558s",
+      "slideIndex": 9,
+      "slideTitle": "Name Market Cap 1 BTC = Bitcoin $761,038,243,091",
+      "source": "youtube"
+    },
+    {
+      "claim": "Bitcoin History",
+      "topic": "general",
+      "videoSeconds": 683,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=683s",
+      "slideIndex": 11,
+      "slideTitle": "A cryptocurrency is a digital asset designed to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Solidity",
+      "topic": "general",
+      "videoSeconds": 954,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=954s",
+      "slideIndex": 13,
+      "slideTitle": "Blockchain \"Blockchain is a system of recording information",
+      "source": "youtube"
+    },
+    {
+      "claim": "Etherium",
+      "topic": "general",
+      "videoSeconds": 1020,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1020s",
+      "slideIndex": 15,
+      "slideTitle": "pragma solidity >= 0.7.0 <0.8.0; contract Coin {",
+      "source": "youtube"
+    },
+    {
+      "claim": "Blockchain mining hardware",
+      "topic": "general",
+      "videoSeconds": 1058,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1058s",
+      "slideIndex": 17,
+      "slideTitle": "Solana is a public blockchain platform Very fast:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Solana",
+      "topic": "general",
+      "videoSeconds": 1166,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1166s",
+      "slideIndex": 19,
+      "slideTitle": "Concensus Mechanisms Proof of Work (Bitcoin, Ethereum, ...)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cardano",
+      "topic": "general",
+      "videoSeconds": 1265,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1265s",
+      "slideIndex": 21,
+      "slideTitle": "Staking Pools vs Mining Pools In PoS (Proof-of-Stake)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Concensus Mechanisms",
+      "topic": "general",
+      "videoSeconds": 1347,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1347s",
+      "slideIndex": 23,
+      "slideTitle": "Vitalik Buterin (one of the founders Ethereum) tweeted",
+      "source": "youtube"
+    },
+    {
+      "claim": "How Does Proof of Stake work?",
+      "topic": "general",
+      "videoSeconds": 1369,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1369s",
+      "slideIndex": 25,
+      "slideTitle": "Coinbase - mainstream brand in the US market.",
+      "source": "youtube"
+    },
+    {
+      "claim": "Staking Pools vs Mining Pools",
+      "topic": "general",
+      "videoSeconds": 1460,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1460s",
+      "slideIndex": 27,
+      "slideTitle": "Fees – BitPay.com BitPay is a payment gateway",
+      "source": "youtube"
+    },
+    {
+      "claim": "Transition to Ethereum 2.0",
+      "topic": "general",
+      "videoSeconds": 1548,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1548s",
+      "slideIndex": 29,
+      "slideTitle": "Convert BitCoin into USD https://icoholder.com/blog/how-to-turn-bitcoin-into-usd/ If you and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crypto Payment Services",
+      "topic": "general",
+      "videoSeconds": 1659,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1659s",
+      "slideIndex": 31,
+      "slideTitle": "Best Hardware Wallet Ledger Noan X - https://www.ledger.com",
+      "source": "youtube"
+    },
+    {
+      "claim": "Convert BitCoin into USD",
+      "topic": "general",
+      "videoSeconds": 1837,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1837s",
+      "slideIndex": 33,
+      "slideTitle": "Slide 33",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Mask",
+      "topic": "general",
+      "videoSeconds": 1883,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1883s",
+      "slideIndex": 35,
+      "slideTitle": "Blockchain networks, platforms, companies Some Blockchain Platforms: IBM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Uniswap Protocol",
+      "topic": "general",
+      "videoSeconds": 1968,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=1968s",
+      "slideIndex": 37,
+      "slideTitle": "NFT = Non-fungible token https://en.wikipedia.org/wiki/Non-fungible_token With NFTs, artwork",
+      "source": "youtube"
+    },
+    {
+      "claim": "Blockchains",
+      "topic": "general",
+      "videoSeconds": 2129,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=2129s",
+      "slideIndex": 39,
+      "slideTitle": "https://en.wikipedia.org/wiki/Lightning_Network Lightning Network The Lightning Network (LN) is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stable Coins",
+      "topic": "general",
+      "videoSeconds": 2179,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=2179s",
+      "slideIndex": 41,
+      "slideTitle": "Bitcoin Cash, Bitcoin SV https://en.wikipedia.org/wiki/Bitcoin_Cash Bitcoin Cash: 2017",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lightning Network",
+      "topic": "general",
+      "videoSeconds": 2213,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=2213s",
+      "slideIndex": 43,
+      "slideTitle": "Slide 43",
+      "source": "youtube"
+    },
+    {
+      "claim": "Bitcoin Cash, Bitcoin SV",
+      "topic": "general",
+      "videoSeconds": 2270,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=2270s",
+      "slideIndex": 45,
+      "slideTitle": "JP Morgan JPM Coin - a wholesale payment",
+      "source": "youtube"
+    },
+    {
+      "claim": "Million token",
+      "topic": "general",
+      "videoSeconds": 2283,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA&t=2283s",
+      "slideIndex": 47,
+      "slideTitle": "More Links Melania Trump – NFT - https://blockchain.news/news/former-us-presidents-wife-melania-trump-releases-the-first-nftpriced-at-1-sol",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cryptocurrencies failed at their main design intent of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+      "slideIndex": 2,
+      "slideTitle": "Cryptocurrencies failed at their main design intent of",
+      "source": "slide"
+    },
+    {
+      "claim": "Revolution in Cryptocurrencies Shifting validation from \" proof-of-work",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+      "slideIndex": 4,
+      "slideTitle": "Revolution in Cryptocurrencies Shifting validation from \" proof-of-work",
+      "source": "slide"
+    },
+    {
+      "claim": "If you can’t beat them, copy them. Some",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+      "slideIndex": 6,
+      "slideTitle": "If you can’t beat them, copy them. Some",
+      "source": "slide"
+    },
+    {
+      "claim": "As of the end of 2021 there are",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+      "slideIndex": 8,
+      "slideTitle": "As of the end of 2021 there are",
+      "source": "slide"
+    },
+    {
+      "claim": "In 2021 total crypto market was worth more",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+      "slideIndex": 10,
+      "slideTitle": "In 2021 total crypto market was worth more",
+      "source": "slide"
+    },
+    {
+      "claim": "Bitcoin History Satoshi Nakamoto is the name of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=8jI4ZehHZgA",
+      "slideIndex": 12,
+      "slideTitle": "Bitcoin History Satoshi Nakamoto is the name of",
+      "source": "slide"
+    }
+  ]
+}

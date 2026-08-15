@@ -1,0 +1,85 @@
+{
+  "id": "unknown-da-09-security-privacy",
+  "date": null,
+  "title": "DA 09 Security Privacy",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "open-models",
+    "multimodal",
+    "safety"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_09_Security_Privacy.pptx",
+    "filename": "DA_09_Security_Privacy.pptx",
+    "title": "DA 09 Security Privacy",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_09_Security_Privacy.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_09_Security_Privacy.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Security Data security Access SSO = Single Sign-On",
+      "text": "Security Data security Access SSO = Single Sign-On SAML (Security Assertion Markup Language (XML)) OAuth2 (Open Authorization) - open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords 3-legged vs 2-legged OAuth . Typical 3-legged OAuth flow involves three parties: - the end-user (or resource owner), - the client (the third-party application), - and the server (or authorization server). The term 2-legged is used to describe an OAuth-authenticated request without the end-user involved. Client credentials (identifier and secret) are used to calculate a request signature. 2-legged request don't include an access token or access token secret. These two values are basically empty strings. Resources: https:// en.wikipedia.org /wiki/ Single_sign -on https:// en.wikipedia.org /wiki/ Security_Assertion_Markup_Language (SAML) https:// oauth.net /2/ https:// stackoverflow.com /questions/13369516/why-is-there-3-legged-oauth2-when-2-legged-works-so-well SAML"
+    },
+    {
+      "index": 2,
+      "title": "Privacy Data Privacy, GDPR = General Data Protection",
+      "text": "Privacy Data Privacy, GDPR = General Data Protection Regulation - a European Union privacy law that came into effect on May 25, 2018. Differential Privacy (DP) An algorithm is DP (Differentially Private) if an observer seeing its output cannot tell if a particular individual's information was used in the computation. \"\"\"Differential privacy is a system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset.\"\"\" Resources: https://en.wikipedia.org/wiki/General_Data_Protection_Regulation (GDPR) https://en.wikipedia.org/wiki/Differential_privacy"
+    },
+    {
+      "index": 3,
+      "title": "SSH, SSL, Single Sign-On, Authorization, Token, etc. Authentication",
+      "text": "SSH, SSL, Single Sign-On, Authorization, Token, etc. Authentication – prove identity of the user or server (user name + password, cards, retina scans, voice recognition, fingerprints, secure certificates, tokens, etc.) Authorization – check if user/server is allowed (authorized) to do something Encryption - transforming the data so that it is unreadable without decryption key. One-way encryption - hash function, hard to reverse, different for different strings Symmetric encryption (symmetric cipher - uses same key to encrypt and decrypt). Asymmetric encryption (public key / private key). PGP = Pretty Good Privacy, since 1991, uses both symmetric an asymmetric encryption, the de facto standard for email security. AES = Advanced Encryption Standard, symmetric encryption, fast, used in databases SSH = Secure Shell protocol (SSH-2 : terminal, sending files, SecureFTP , etc.) SSL = Secure Socket Layer protocol (https://...), 1995 – 2015, deprecated TLS = Transport Layer Security, a successor of SSL 3.0 , 1999, https://www.ssl2buy.com/wiki/ssl-vs-tls SSL certificate (a.k.a. “digital certificate”) is installed on a web server and has two functions: It authenticates the identity of the website to visitors, and it is used for data encryption. ssh -keygen = command to manually generate a pair of keys as files in . ssh hidden directory ssh.com = SSH Communications Security, Inc. , proprietary SSH solutions ssh UKM (Universal Key Management) - https://www.ssh.com/products/universal-ssh-key-manager - OpenSSH – Open-source SSH implementation - https://www.openssh.com/ Single Sign-On - https://en.wikipedia.org/wiki/Single_sign-on - authentication scheme that allows a user to log in once - and access multiple services without re-authenticating. User authenticates with an Identity Server which issues a token . User uses this token to access services. A service verifies the token with Identity Server before giving access. Token = a collection of data about the user which is passed between systems for getting access. Tokens must be digitally signed for the token receiver to verify that the token is coming from a trusted source. The certificate that is used for this digital signature is exchanged during the initial configuration process. https://jwt.io/ - JSON Web Tokens , http://www.passportjs.org/ - authentication middleware https://firebase.google.com/ - platform from Google for creating mobile and web applications. Includes authentication and tokens. Oauth 2.0 - https://oauth.net/2/ - open standard for access delegation , commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords. YubiKey - a small USB device used to authenticate logins - https://www.yubico.com/products/ . On touch it sends a string containing it's public_id and AES-encrypted OTP (One-Time Password). Tatu Ylönen , in 1995 invented the SSH protocol and founded ssh.com (SSH Communications Security, Inc.) Taher Elgamal \"Father of SSL\" Netscape 1995-98 SSL was deprecated in 2015"
+    },
+    {
+      "index": 4,
+      "title": "Encrypted communication over SSL/TLS Windows Data Protection API",
+      "text": "Encrypted communication over SSL/TLS Windows Data Protection API (DPAPI) to encrypt data at rest IAM (Identity Access Management), Authentication and authorization, strong password policy, security keys, monitor login failures Roles, conditional access, grant extra permissions only as needed, Use certificates to sign stored procedures or use impersonation, only for the duration of the task Prevent SQL injection, sanitize all database inputs Dynamic Data Masking (DDM) Run regular audits Monitor/audit transaction logs Monitoring Row-Level Security (RLS) and Column-Level Security (CLS) Protect error messages and logs Firewall, VPN Use leverage DDoS protection services to deflect Denial of Service (DoS) attacks Regular security updates Azure Defender for SQL Regular vulnerabiltiy scans / assessment SQL Server Data Security DDM"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Security Data security Access SSO = Single Sign-On",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Security Data security Access SSO = Single Sign-On",
+      "source": "slide"
+    },
+    {
+      "claim": "Privacy Data Privacy, GDPR = General Data Protection",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Privacy Data Privacy, GDPR = General Data Protection",
+      "source": "slide"
+    },
+    {
+      "claim": "SSH, SSL, Single Sign-On, Authorization, Token, etc. Authentication",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "SSH, SSL, Single Sign-On, Authorization, Token, etc. Authentication",
+      "source": "slide"
+    },
+    {
+      "claim": "Encrypted communication over SSL/TLS Windows Data Protection API",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Encrypted communication over SSL/TLS Windows Data Protection API",
+      "source": "slide"
+    }
+  ]
+}

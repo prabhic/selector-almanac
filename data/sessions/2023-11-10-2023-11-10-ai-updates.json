@@ -1,0 +1,280 @@
+{
+  "id": "2023-11-10-2023-11-10-ai-updates",
+  "date": "2023-11-10",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "openai"
+  ],
+  "video": {
+    "id": "irbOejwe6u8",
+    "title": "AI Updates - November 10, 2023 - OpenAI, 01.ai, HumanEval, Grok, Dolphin Mistral, MLC LLM",
+    "url": "https://www.youtube.com/watch?v=irbOejwe6u8",
+    "thumbnail": "https://i.ytimg.com/vi/irbOejwe6u8/hqdefault.jpg",
+    "duration": 1734
+  },
+  "deck": {
+    "path": "2023/2023-11-10-AI-Updates.pptx",
+    "filename": "2023-11-10-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-11-10-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-11-10-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "OpenAI",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "DevStore",
+      "startSeconds": 405,
+      "label": "06:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Trends",
+      "startSeconds": 654,
+      "label": "10:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Human Evol",
+      "startSeconds": 992,
+      "label": "16:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Articles",
+      "startSeconds": 1312,
+      "label": "21:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Author",
+      "startSeconds": 1583,
+      "label": "26:23",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates November 10, 2023 OpenAI Updates -",
+      "text": "AI Updates November 10, 2023 OpenAI Updates - \"Dev Day\" Nov 6, 2023 HuggingFace LLM Leaderboard - new tests 01.ai - tops LLM Leaderboard Three trends - smaller models, teams of models, self-checks HumanEval - Programming Challenges Grok - Elon Musk's X.AI First Chatbot dolphin-2.2.1-mistral-7b Misc: Daily.AI. Microsoft Phi 1.5, Learning From Mistakes (LeMa), Reasoning over Knowledge Graphs, ... LLMs are not good at extrapolation MLC LLM = Run LLMs Everywhere Who is the \"Author\" of AI ?"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI Event \"Dev Day\" Nov 6, 2023 https://www.youtube.com/watch?v=U9mJuUkhUzk",
+      "text": "OpenAI Event \"Dev Day\" Nov 6, 2023 https://www.youtube.com/watch?v=U9mJuUkhUzk https://www.youtube.com/watch?v=SQEr--XLBD8 GPT4-Turbo - faster and cheaper Already in ChatGPT Plus, also gpt-4-1106-preview in the API 128K context length (~300 pages of a standard book), more accurate Better function calling (call several functions in one message) JSON mode on/off - replies with JSON (great for agents) Reproducible outputs (based on seed prompt) Logs Better world knowledge up to April 2023, also uses Bing browsing to answer your questions about current events/data Bring in your document directly into GPT (like RAG) Multi-modal: text, DALL-E 3, GPT-4 Turbo with vision, TTS (Text To Speech) Whisper is open source (speech recognition) Fine-tuning, custom models (OpenAI works with enterprise customers) Twice larger rate limit (number of requests per unit of time) Copyright shield for customers GPT4-turbo is x2-3 cheaper (input $0.01/1K tokens, output  $0.03/1K) GPT-3.5 gets 16K context, $0.001/1K input, $0.002/1K output, improved function calling and reproducible results Assistants API, GPTs = customizable without coding = agents (instruction, expanded knowledge, actions) - build using Playground, publish in dev store. OpenAI’s ChatGPT now has 100 Mln weekly active users"
+    },
+    {
+      "index": 4,
+      "title": "Testing new ChatGPT # prompt: write python code",
+      "text": "Testing new ChatGPT # prompt: write python code to generate a list # of all prime numbers between 1 and 100 def is_prime(n): \"\"\"Check if a number is a prime number.\"\"\" if n <= 1: return False if n <= 3: return True if n % 2 == 0 or n % 3 == 0: return False i = 5 while i * i <= n: if n % i == 0 or n % (i + 2) == 0: return False i += 6 return True # Generate a list of prime numbers in the range 1 to 100 prime_numbers = [n for n in range(1, 101) if is_prime(n)] prime_numbers Prompt: why in your code you increment by 6 ? Response: The increment by 6 in the prime checking function is based on the observation that all primes are of the form 6k±1 (with the exception of 2 and 3) because: 6k are divisible by 6. 6k+2 are divisible by 2. 6k+3 are divisible by 3. 6k+4 are divisible by 2. That leaves only 6k+1 and 6k+5 = 6k-1 This is a common optimization for prime checking algorithms"
+    },
+    {
+      "index": 5,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Rank Model Aver Precision Nparam 0 01-ai/Yi-34B     (Yi, from 01.ai) 68.68 16bit 34 1 MayaPH/GodziLLa2-70B (llama) 67.01 16bit 70 2 sequelbox/StellarBright (llama) 66.98 16bit 70 27 OpenBuddy/openbuddy-falcon-180b-v13-preview0 64.30 8bit 178.64 48 OpenBuddy/openbuddy-falcon-180b-v12-preview0 60.54 4bit 178.64 57 tiiuae/falcon-180B 59.10 8bit 179.52 95 migtissera/SynthIA-7B-v1.3             (mistral) 57.11 16bit 7 104 bhenrym14/mistral-7b-platypus-fp16 (mistral) 56.89 16bit 7 110 yulan-team/YuLan-Chat-2-13b-fp16 (llama) 56.36 16bit 13 138 meta-llama/Llama-2-70b-chat-hf (llama) 54.98 16bit 70 153 Open-Orca/Mistral-7B-OpenOrca (mistral) 54.51 16bit 7 221 Undi95/Mistral-11B-TestBench9 (mistral) 53.06 16bit 11 299 Enno-Ai/vigogne2-enno-13b-sft-lora-4bit (llama) 51.79 4bit 13 421 mistralai/Mistral-7B-v0.1 (mistral) 50.32 16bit 7 844 davzoku/cria-llama2-7b-v1.3_peft (llama) 44.74 4bit 7 1594 huashiyiqike/testmodel 24.04 16bit 0.15 Three More Tests (4 -> 7): ARC (AI2 Reasoning Challenge) grade-school science HellaSwag - common sense inference MMLU - math, history, comp-science, law, ... TruthfulQA - model's propensity to reproduce common falsehoods Winogrande - large version of Winograd test ( https://arxiv.org/abs/1907.10641 ), an adversarial and difficult test for commonsense reasoning GSM8k - diverse grade school math word problems DROP - English reading comprehension (Discrete Reasoning Over Paragraphs) Top model is only 34B parameters !"
+    },
+    {
+      "index": 6,
+      "title": "01.ai - tops LLM Leaderboard https://01.ai - original",
+      "text": "01.ai - tops LLM Leaderboard https://01.ai - original 6B and 34B models - open-source https://github.com/01-ai/Yi https://www.modelscope.cn/models/01ai/Yi-34B/summary The Yi series models are large language models trained from scratch by developers at 01.AI The first public release contains two bilingual (English/Chinese) base models with the parameter sizes of 6B and 34B. Both of them are trained with 4K sequence length and can be extended to 32K during inference time News 2023/11/05: The base model of Yi-6B-200K and Yi-34B-200K with 200K context length"
+    },
+    {
+      "index": 7,
+      "title": "Trends Trend 1 - Smaller LLMs trained on",
+      "text": "Trends Trend 1 - Smaller LLMs trained on \"traces\" of bigger models Microsoft Orca - 13B open-source, trained on explanation traces of GPT-4 Open Orca Dataset - https://huggingface.co/datasets/Open-Orca/OpenOrca GPT-3 - 170B,  GPT-3-Turbo - 20B, faster, cheaper GPT-4 - 1.7T (8 models, 220B each), GPT-4-Turbo - faster, cheaper (smaller ?) Current leader of HugginFace Open LLM Leaderboard is only 34B ! New Microsoft code diffusion paper: - Diffusion-LM is only 50M, but on par with much bigger models. - suggests GPT-3.5 Turbo is only 20B https://arxiv.org/abs/2310.17680 https://www.reddit.com/r/LocalLLaMA/comments/17jrj82/new_microsoft_codediffusion_paper_suggests_gpt35/ https://huggingface.co/papers/2310.17680 Trend 2 - teams of models/agents Microsoft AutoGen Multi-modal models New GPT-4 - text, image (understand/create), coding, browsing, etc. Trend 3 - self-checking, self-correction New GPT-4 - checks execution when writing code RAG systems - checking the data and output Trend 4 - quality of training data ( = 95% of success ) Good datasets allow to improve models' accuracy OpenAI announced Data Partnerships - to create open-source and private datasets for AI training"
+    },
+    {
+      "index": 8,
+      "title": "HumanEval - Programming Challenges Beating GPT-4 on HumanEval",
+      "text": "HumanEval - Programming Challenges Beating GPT-4 on HumanEval with a Fine-Tuned CodeLlama-34B Phind-CodeLlama-34B-v2 - it's the current state-of-the-art amongst open-source models (~74% on HumanEval). https://huggingface.co/Phind/Phind-CodeLlama-34B-v2 https://www.phind.com/blog/code-llama-beats-gpt4 Note: HumanEval test is not used in Open LLM Leaderboard, on which this model is ranked very low (1098 out of ~1,600) with average score of only 37.15. HumanEval was introduced in 2021 by Open AI: Evaluating Large Language Models Trained on Code - https://arxiv.org/abs/2107.03374 HumanEval refers to a hand-crafted dataset comprising 164 programming challenges. It is also a benchmark to evaluate LLMs. It was developed at OpenAI. https://deepgram.com/learn/humaneval-llm-benchmark HumanEval-X is a benchmark for evaluating the multilingual ability of code generative models. It consists of 820 high-quality human-crafted data samples https://paperswithcode.com/sota/code-generation-on-humaneval"
+    },
+    {
+      "index": 9,
+      "title": "Grok - Elon Musk's X.AI First Chatbot Grok",
+      "text": "Grok - Elon Musk's X.AI First Chatbot Grok is designed to be intuitive and understanding, creating a friendly and enjoyable experience for users. Musk’s xAI aims to provide a unique approach to user interactions, emphasizing empathy and rapport. This move follows Musk’s announcement about xAI’s ambitious mission to comprehend reality."
+    },
+    {
+      "index": 10,
+      "title": "dolphin-2.2.1-mistral-7b New version of dolphin mistral model by",
+      "text": "dolphin-2.2.1-mistral-7b New version of dolphin mistral model by Eric Hartford dolphin-2.2.1-mistral-7b New in 2.2: conversation and empathy (infusion of curated Samantha DNA) - can give you personal advice and will care about your feelings, also extra training in long multi-turn conversation. This model is uncensored. https://huggingface.co/ehartford/dolphin-2.2.1-mistral-7b https://www.youtube.com/watch?v=KLyth16MRFE - demo Eric Hartford"
+    },
+    {
+      "index": 11,
+      "title": "Misc Daily.AI - Publish an AI Newsletter -",
+      "text": "Misc Daily.AI - Publish an AI Newsletter - https://daily.ai Learning From Mistakes (LeMa) Makes LLM Better Reasoner. LeMa fine-tunes LLMs on mistake-correction data pairs generated by GPT-4 .. https://arxiv.org/abs/2310.20689v1 .. https://github.com/microsoft/CodeT First, collect inaccurate reasoning paths from various LLMs and then employ GPT-4 as a \"corrector\" to : (1) identify the mistake step, (2) explain the reason for the mistake, and (3) correct the mistake and generate the final answer. Autogen - https://pub.towardsai.net/autogen-is-mindblowing-4-features-that-make-autogen-the-state-of-the-art-framework-for-creating-ai-c7eb997b58a5 RAG - Picking the Best Embedding & Reranker https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83 Reasoning over Knowledge Graphs https://ai.plainenglish.io/is-enhancing-knowledge-graphs-with-reasoning-capabilities-all-you-need-to-reason-with-llms-80eef8ff05ee The frameworks like logical rules, KG embeddings, and neural provers could be used to enhance LLMs with structured reasoning capacities. Mistral 7B: Recipes for Fine-tuning and Quantization on Your Computer https://towardsdatascience.com/mistral-7b-recipes-for-fine-tuning-and-quantization-on-your-computer-631401583f77 Advanced RAG — Improving retrieval using Hypothetical Document Embeddings(HyDE) https://medium.aiplanet.com/advanced-rag-improving-retrieval-using-hypothetical-document-embeddings-hyde-1421a8ec075a Microsoft’s Phi 1.5 small LLM (1.3 Bln params, trained on synthetic text-book data) is now \"multimodal\" - can view and interpret images. - https://arxiv.org/pdf/2309.05463.pdf LLM - Evaluation Benchmark Cheating https://arxiv.org/pdf/2311.01964.pdf https://www.youtube.com/watch?v=lM8gGgiVAnQ Benchmark leakage (evaluation data is occasionally used for model training). Article presents several guidelines for both LLM developers and benchmark maintainers."
+    },
+    {
+      "index": 12,
+      "title": "Misc - 2 LongQLoRA : Efficient and Effective",
+      "text": "Misc - 2 LongQLoRA : Efficient and Effective Method to Extend Context Length of LLMs - open-source https://github.com/yangjianxin1/longqlora LongQLoRA is a memory-efficient and effective method to extend context length of LLMs with less training GPUs. On a single 32GB V100 GPU, LongQLoRA can extend the context length of LLaMA2 7B and 13B from 4096 to 8192 and even to 12k. LongQLoRA achieves competitive perplexity performance on PG19 and Proof-pile dataset after only 1000 finetuning steps, our model outperforms LongLoRA and is very close to MPT-7B-8K. Self-RAG https://levelup.gitconnected.com/upgrade-your-retrieval-augmented-generation-with-self-rag-bb30b2a0ffa4 Microsoft has over a million paying Github Copilot users \"over 1 million paid copilot users in more than 37,000 organizations\""
+    },
+    {
+      "index": 13,
+      "title": "RLHF + Reward Model + PPO on LLMs",
+      "text": "RLHF + Reward Model + PPO on LLMs https://medium.com/@madhur.prashant7/rlhf-reward-model-ppo-on-llms-dfc92ec3885f RLHF = Reinforcement Learning with Human Feedback PPO = Proximal Policy Optimizer Reward Model We create and train the reward model using human feedback. This model then can be used instead of a human to assign different rewards to different prompt completions."
+    },
+    {
+      "index": 14,
+      "title": "LLMs are not good at extrapolation Pretraining Data",
+      "text": "LLMs are not good at extrapolation Pretraining Data Mixtures Enable Narrow Model Selection Capabilities in Transformer Models (Nov 2023, Google DeepMind) https://arxiv.org/pdf/2311.00871.pdf Main idea: LLMs are not good at extrapolation . They perform well on tasks within the domain that they were trained in, but fail or significantly degrade on even simple out-of-domain extrapolation tasks. Similarity in classic ML: Can extrapolate                                   Can NOT extrapolate"
+    },
+    {
+      "index": 15,
+      "title": "MLC LLM = Run LLMs Everywhere Machine Learning",
+      "text": "MLC LLM = Run LLMs Everywhere Machine Learning Compilation for Large Language Models (MLC LLM) open-source project enables deploying LLMs on a variety of hardware platforms and apps: iOS, Android, Linux, Windows, Mac, web browsers https://llm.mlc.ai https://github.com/mlc-ai/mlc-llm High-performance, native deployment of any LLM with native APIs with compiler acceleration The mission of this project is to enable everyone to develop, optimize and deploy AI models natively on everyone's devices with ML compilation techniques. For iOS - MLCChat app (iPhones and iPads) On Android - demo APK (Android Application Package) teted on Samsung and Google Pixel phones. Their C++ interface supports various GPUs across AMD, Intel, Apple, and NVIDIA, for desktop operating systems​​. A companion project, WebLLM allows the deployment of language models natively in browsers through WebGPU and WebAssembly without the need for server resources​​. They also provide resources like a GitHub repo, a web series running diffusion models in the browser, and a course for a systematic walkthrough of their approach to universal deployment​​."
+    },
+    {
+      "index": 16,
+      "title": "Striking Example: Albert Einstein - a Thief, a",
+      "text": "Striking Example: Albert Einstein - a Thief, a Liar and a Plagiarist https://www.linkedin.com/pulse/he-thief-liar-plagiarist-shimry-siddeeque/ Albert Einstein is held up as \"a rare genius,\" who drastically changed the field of theoretical physics. The truth, however, is very different. Einstein was an inept and moronic person, who could not even tie his own shoelaces; he contributed nothing original to the science. On the contrary—he stole the ideas of others. When we actually examine the life of Albert Einstein, we find that his only 'brilliance' was in his ability to plagiarize and steal other people's ideas, passing them off as his own. This includes all his work. The special and general theories of relativity, the equivalence of energy and mass, the photon theory of light, and the explanation of Brownian motion in liquids. Everything was plagiarized. It is impossible to point the main author. Today's progress in AI is driven by tens of thousands of people from all around the globe. The truth about science is prosaic. Detailed case studies show again and again that the role of genius in advancing science is overstated. Science is the product of work of many ordinary people, just like every other human activity. Who is the \"Author\" of AI ?"
+    },
+    {
+      "index": 17,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "OpenAI",
+      "topic": "openai",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates November 10, 2023 OpenAI Updates -",
+      "source": "youtube"
+    },
+    {
+      "claim": "DevStore",
+      "topic": "general",
+      "videoSeconds": 405,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8&t=405s",
+      "slideIndex": 4,
+      "slideTitle": "Testing new ChatGPT # prompt: write python code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trends",
+      "topic": "general",
+      "videoSeconds": 654,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8&t=654s",
+      "slideIndex": 7,
+      "slideTitle": "Trends Trend 1 - Smaller LLMs trained on",
+      "source": "youtube"
+    },
+    {
+      "claim": "Human Evol",
+      "topic": "general",
+      "videoSeconds": 992,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8&t=992s",
+      "slideIndex": 11,
+      "slideTitle": "Misc Daily.AI - Publish an AI Newsletter -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Articles",
+      "topic": "general",
+      "videoSeconds": 1312,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8&t=1312s",
+      "slideIndex": 14,
+      "slideTitle": "LLMs are not good at extrapolation Pretraining Data",
+      "source": "youtube"
+    },
+    {
+      "claim": "Author",
+      "topic": "general",
+      "videoSeconds": 1583,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8&t=1583s",
+      "slideIndex": 17,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI Event \"Dev Day\" Nov 6, 2023 https://www.youtube.com/watch?v=U9mJuUkhUzk",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI Event \"Dev Day\" Nov 6, 2023 https://www.youtube.com/watch?v=U9mJuUkhUzk",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 5,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "01.ai - tops LLM Leaderboard https://01.ai - original",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 6,
+      "slideTitle": "01.ai - tops LLM Leaderboard https://01.ai - original",
+      "source": "slide"
+    },
+    {
+      "claim": "HumanEval - Programming Challenges Beating GPT-4 on HumanEval",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 8,
+      "slideTitle": "HumanEval - Programming Challenges Beating GPT-4 on HumanEval",
+      "source": "slide"
+    },
+    {
+      "claim": "Grok - Elon Musk's X.AI First Chatbot Grok",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 9,
+      "slideTitle": "Grok - Elon Musk's X.AI First Chatbot Grok",
+      "source": "slide"
+    },
+    {
+      "claim": "dolphin-2.2.1-mistral-7b New version of dolphin mistral model by",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 10,
+      "slideTitle": "dolphin-2.2.1-mistral-7b New version of dolphin mistral model by",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc - 2 LongQLoRA : Efficient and Effective",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=irbOejwe6u8",
+      "slideIndex": 12,
+      "slideTitle": "Misc - 2 LongQLoRA : Efficient and Effective",
+      "source": "slide"
+    }
+  ]
+}

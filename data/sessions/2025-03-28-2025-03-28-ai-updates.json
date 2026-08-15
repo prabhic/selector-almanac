@@ -1,0 +1,369 @@
+{
+  "id": "2025-03-28-2025-03-28-ai-updates",
+  "date": "2025-03-28",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "google",
+    "open-models",
+    "openai",
+    "claude"
+  ],
+  "video": {
+    "id": "EDfzrGIV42M",
+    "title": "Have you heard these exciting AI news? - March 21, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+    "thumbnail": "https://i.ytimg.com/vi/EDfzrGIV42M/hqdefault.jpg",
+    "duration": 1999
+  },
+  "deck": {
+    "path": "2025/2025-03-28-AI-Updates.pptx",
+    "filename": "2025-03-28-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-03-28-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-03-28-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Google Gemini 2.5",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Beating Deepseek R1",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepSeek V3-0324",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI Training Using Quantum Computing",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "s1 - Simple test-time scaling",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tencent \"T1\" model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI raising $40 Bln at a $300 Bln valuation",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Ollama Deep Research",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Anthropic Claude's \"Think Tool\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Anthropic Claude's Search is using \"Brave Search\"",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Google Gemini 2.5 Beating Deepseek R1 DeepSeek V3-0324",
+      "text": "Google Gemini 2.5 Beating Deepseek R1 DeepSeek V3-0324 AI Training Using Quantum Computing s1 - Simple test-time scaling Tencent \"T1\" model OpenAI raising $40 Bln at a $300 Bln valuation Ollama Deep Research Anthropic Claude's \"Think Tool\" Anthropic Claude's Search is using \"Brave Search\" AI Updates March 28 , 202 5 Crowd-sourced \"Arena\" Leaderboard Jobs The rise of the AI 'wrappers' Liner Deep Research Agent,   Open Deep Search Kimi k1.5 - multi-modal LLM Light-R1 - open-source training for reasoning R1-Omni - Emotion Recognition with RL Nvidia Nemotron-H UAE has committed $1.4 trillion Microsoft's KBLaM - inject facts into LLM Reve Image 1.0 Text-to-image OpenAI GPT-4o native image generation Qwen2.5-VL-32B - smaller and better Qwen2.5-Omni - See, Hear, Talk, Write - open source Google Gemini real-time screen and camera Microsoft Copilot Researcher and Analyst Grok on Telegram Ideogram 3.0 Microsoft Hyperlight Wasm ARC-AGI-2 Chat2DB Robots AI diagnose cancer with 99% accuracy Chain-Of-Draft - fast and cheap AlexNet source code released Vibe Coding what used to cost $5 million now takes \"a couple hours\" most Nobel Prizes will be AI-enabled -- Jared Kaplan from Anthropic"
+    },
+    {
+      "index": 2,
+      "title": "Google Gemini 2.5 Pro (experimental) Google Gemini 2.5",
+      "text": "Google Gemini 2.5 Pro (experimental) Google Gemini 2.5 Pro (experimental) just released Outperforms other models, No 1 on LMArena by a significant margin 2 Mln tokens context length, training data January 2025, reasoning built-in - fast natively multimodal - it can process text, images, audio, video, code https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/ https://lmarena.ai/?leaderboard https://www.rdworldonline.com/googles-gemini-2-5-pro-model-tops-lmarena-by-40-points-outperforms-competitors-in-scientific-reasoning/ https://www.youtube.com/watch?v=RxCZhltR9Cw - video demo"
+    },
+    {
+      "index": 3,
+      "title": "Beating Deepseek R1 DeepSeek R1 (Jan 20, 2025)",
+      "text": "Beating Deepseek R1 DeepSeek R1 (Jan 20, 2025) – Open-Source Reasoning Model, 671B MoE DeepSeek R1 smaller Distilled Variants (1.5B .. 14B) Phi-3.5 Mini  3.8B, Phi-3.5 Vision 4.2B, Phi-3.5-MoE 42B GPT-4o Mini (~8B), GPT-4.5 \"Orion\", GPT-o3-mini (~ 100B) Mistral small 3.1 Alibaba Qwen 2.5-Max (72B), QwQ-32B, Gemini 2.0 Pro (Feb 5, 2025) – Multimodal Reasoner, estimated 600B xAI Grok-3 (Feb 17, 2025) – “Thinking” Agent Model, estimated 300+B Anthropic Claude 3.7 “Sonnet” (Feb 24, 2025) – Hybrid Reasoning AI, estimated 200B Google’s Gemma 3 (27B) DeepSeek R1 Distill Qwen (14B, 32B) Mistral small 3.1 24B, outperforms GPT-4o Baidu's ERNIE X1 & ERNIE 4.5 - comparable to Deepseek R1 but at half the cost Cohere Command A for enterprise NVIDIA Llama Nemotron reasoning models Nano (8B) and Super (49B) sizes AI2 OLMo 32B - outperform GPT-3.5 and GPT-4o mini"
+    },
+    {
+      "index": 4,
+      "title": "DeepSeek V3-0324 is now the highest scoring non-reasoning",
+      "text": "DeepSeek V3-0324 is now the highest scoring non-reasoning model Open source (MIT-licensed) non-reasoning model #1 among all non-reasoning models Released on March 24, 2025 Major improvement over DeepSeek V3 685B parameters (37B active - MoE) https://huggingface.co/deepseek-ai/DeepSeek-V3-0324 https://huggingface.co/spaces/akhaliq/anychat https://artificialanalysis.ai/ https://www.reddit.com/r/LocalLLaMA/comments/1jip611/deepseek_releases_new_v3_checkpoint_v30324/ https://venturebeat.com/ai/deepseek-v3-now-runs-at-20-tokens-per-second-on-mac-studio-and-thats-a-nightmare-for-openai/"
+    },
+    {
+      "index": 5,
+      "title": "DeepSeek V3-0324 remains behind reasoning models Non-reasoning AI",
+      "text": "DeepSeek V3-0324 remains behind reasoning models Non-reasoning AI models are traditional and excel at speed and pattern recognition for tasks like chatbots"
+    },
+    {
+      "index": 6,
+      "title": "AI Training Using Quantum Computing Quantum-Enhanced LLM Efficient",
+      "text": "AI Training Using Quantum Computing Quantum-Enhanced LLM Efficient Fine Tuning https://arxiv.org/abs/2503.12790v1 Quantum Weighted Tensor Hybrid Network (QWTHN), which reparameterizes pre-trained layers into quantum tensor hybrid architectures. Origin Quantum - a Chinese company specializing in quantum computing Their \"QCloudService\" refers to their cloud-based quantum computing platform \"Origin Wukong\" quantum computer is accessible via their cloud services The parameter count of the Quantum Tensor Hybrid Network (QWTHN), which combines quantum tensor networks and quantum neural networks, is lower than that of classical LoRA, while the training loss is significantly reduced. This leads to improved parameter efficiency. The Matrix Product Operator (MPO) decomposition introduces the concept of rank, effectively decomposing high-dimensional linear transformations into a series of low-dimensional matrix products Quantum neural networks process input data using quantum properties (e.g., superposition, entanglement, and parallel computation), potentially generating high-dimensional or nonlinear features. Even though the final output of the QNN is classical data (e.g., probability distributions after measurement), the underlying quantum state evolution process can still extract information that is difficult to obtain using classical methods. Stochastic nature of neural networks and quantum computers open up potential avenues for their interaction, particularly in the context of LLM training and inference. The potential for quantum computing to enhance the training of Large Language Models (LLMs) is a very active area of research. POtential benefits: Faster Training, enhanced NLP, Optimization Problems, Challenges: Hardware limitations (limited qubit counts and high error rates), Algorithm Development, Integration with classical computers"
+    },
+    {
+      "index": 7,
+      "title": "s1 - Simple test-time scaling s1 - Simple",
+      "text": "s1 - Simple test-time scaling s1 - Simple test-time scaling (model s1-32B, open-source) https://www.youtube.com/watch?v=XuH2QTAC5yI https://arxiv.org/pdf/2501.19393 - paper authored by Niklas Muennighoff and colleagues from Stanford University and the University of Washington 1. A carefully curated dataset called \"s1K\" containing 1,000 questions paired with reasoning traces, selected based on three validated criteria: difficulty, diversity, and quality. 2. A technique called \"budget forcing\" that controls test-time compute by either terminating the model's thinking process or extending it by appending \"Wait\" multiple times when the model tries to finish. This forces the model to double-check its answers, often correcting incorrect reasoning steps. After fine-tuning the Qwen2.5-32B-Instruct language model on their s1K dataset and implementing budget forcing, their model (called s1-32B) exceeded the performance of OpenAI's o1-preview on certain benchmarks. The model showed clear scaling trends, with performance improving as more computational resources were allocated, allowing it to extrapolate beyond its performance without test-time intervention. Notably, the researchers achieved these results at a fraction of the cost typically associated with training such models - reportedly for less than $50, demonstrating a cost-effective approach to developing high-performing AI reasoning models."
+    },
+    {
+      "index": 8,
+      "title": "Tencent \"T1\" model Tencent’s Hunyuan T1 reasoning model",
+      "text": "Tencent \"T1\" model Tencent’s Hunyuan T1 reasoning model - matching or outperforming OpenAI’s o1 and DeepSeek’s R1 faster responses, improved reasoning Hybrid-Transformer-Mamba architecture long-text processing, reduced memory usage, and a powerful reinforcement learning super aggressive pricing strong in coding, math, and science tests Hunyuan T1-Preview was released in February, now official T1 https://tencent.github.io/llm.hunyuan.T1/README_EN.html Tencent is a Chinese multinational technology conglomerate and holding company, headquartered in Shenzhen, known for its messaging app WeChat, and is a major player in the video game industry, owning stakes in companies like Riot Games (League of Legends) and Epic Games (Fortnite). Public company, more than 100K employees https://en.wikipedia.org/wiki/Tencent"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates - 1 Ollama Deep Research ,",
+      "text": "AI Updates - 1 Ollama Deep Research , the Open-Source Alternative to OpenAI Deep Researcher - https://apidog.com/blog/ollama-deep-research/ Anthropic Claude's \"Think Tool\" - Anthropic's \"Think Tool\" is a new feature introduced for Claude AI that enhances its ability to handle complex, multi-step tasks by providing a dedicated space for structured thinking. This tool allows Claude to take notes, break down problems, and reason through complex scenarios more effectively. The Think Tool is implemented as a simple JSON command that allows Claude to record its thoughts without obtaining new information or changing the database. It's designed to be used during the answer generation process, particularly when Claude needs to process new information from other tools or navigate complex decision-making scenarios. To use the Think Tool - Add the tool definition to your Claude implementation, Include instructions on when and how to use the tool in the system prompt. Provide domain-specific examples for best results. Monitor Claude's use of the tool and refine prompts as needed. https://www.anthropic.com/engineering/claude-think-tool { \"name\": \" think \", \"description\": \" Use this tool to think about something without obtaining new information or changing the database. \", \"input_schema\": { \"type\": \"object\", \"properties\": { \" thought \": { \"type\": \" string \", \"description\": \" A thought to consider. \" } }, \"required\": [\" thought \"] } } Anthropic Claude's Search is using \"Brave Search\" https://search.brave.com https://en.wikipedia.org/wiki/Brave_Search Brave Search is a search engine developed by Brave Software, Inc., (San Francisco, CA), and is the default search engine for the Brave web browser in certain countries https://brave.com/download/ - Brave Browser OpenAI raising $40 Bln at a $300 Bln valuation led by SoftBank, according to a Bloomberg report https://www.calcalistech.com/ctechnews/article/bjfztiftjl"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates - 2 The rise of the",
+      "text": "AI Updates - 2 The rise of the AI 'wrappers' Perplexity is raising funds at $18 Bln valuation x6 times growth in 1 year https://www.youtube.com/watch?v=AEOI-y546_4 Liner Deep Research Agent https://getliner.com Free. Beats Perplexity, GPT-4.5 & Gemini Deep Research current best deep research agent on the market faster, better sources https://www.youtube.com/watch?v=wG2v2BCBc2I - It ranks #1 in OpenAI's Simple QA Benchmark - It offers up to 10 free reports daily (compared to Google's 5) - It aggregates sources from 50+ trusted academic sources including arXiv, PubMed, and Nature - Users can evaluate sources based on citation volume to ensure credibility Multi-agent performance, can see sources for specific sections, can do Follow-up questions, can filter for scholarly articles only, customization options for publication date, citation quantity, and fields, source summarization feature Open Deep Search (ODS) Use open-source LLMs, reasoning agents, web search tools https://arxiv.org/abs/2503.20201"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates - 3 Light-R1 - open-source training",
+      "text": "AI Updates - 3 Light-R1 - open-source training for reasoning open-source suite for training long reasoning models using reproducible and cost-effective methodology Light-R1: Curriculum SFT, DPO and RL for Long COT from Scratch and Beyond - https://arxiv.org/abs/2503.10460 curriculum training progressively increases data difficulty, combined with multi-staged post-training Light-R1-32B model, trained from Qwen2.5-32B-Instruct, outperforms DeepSeek-R1-Distill-Qwen-32B in math reasoning. Kimi k1.5 - multi-modal LLM Developed by Moonshot AI, China, available via API and app https://kimi.ai 128K context window good at STEM, coding, and general reasoning. https://arxiv.org/abs/2501.12599 Estimated 50-150 Bln params Natively multimodal Fast and cost-effective https://merlio.app/blog/kimi-k1-5-ai-outperforms-gpt-4 R1-Omni - Emotion Recognition with RL Explainable, Multimodal, with Reinforcement Learning https://arxiv.org/abs/2503.05379 Nvidia Nemotron-H Family of Accurate, Efficient Hybrid Mamba-Transformer Models Nemotron-H-8B Base, Instruct, VLM Nemotron-H-47B-Base Nemotron-H-56B Base, VLM End-to-End FP8 pre-training (on 20T tokens) https://research.nvidia.com/labs/adlr/nemotronh/?utm_source=tldrai The UAE has committed $1.4 trillion over the next decade to \"substantially increase… existing investments\" in artificial intelligence infrastructure, semiconductors, energy, and manufacturing https://www.semafor.com/article/03/24/2025/uae-pledges-1-trillion-investment-in-us-artificial-intelligence-semiconductors-energy"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates - 4 Microsoft's KBLaM - inject",
+      "text": "AI Updates - 4 Microsoft's KBLaM - inject facts into LLM KBLaM = Knowledge Base Augmented Language Model A new way to add information directly into LLM that improves how AI handles facts, making it faster and more accurate. Older methods were either expensive or slow, but KBLaM is efficient and easily adds new information without needing to retrain the entire AI. It also helps reduce AI's tendency to make things up, providing more reliable answers. This new approach is better than previous methods because it's faster, uses less memory, and is easier to understand. https://www.microsoft.com/en-us/research/blog/introducing-kblam-bringing-plug-and-play-external-knowledge-to-llms/ Reve Image 1.0 - a new text-to-image AI model that topped global rankings with the codename \"Halfmoon\" https://preview.reve.art Outperforming Google's Imagen 3, Midjourney v6.1, and Recraft V3 Natural language editing, photo uploads, and an ‘explore’ tab to view community prompts and generations \"We saved $350 million last year using AI agents\" - Dorit Zilbershot, vice president of AI experiences and innovation at ServiceNow , added that \"We use AI in customer service, IT support, HR processes, developer assistance, and marketing, and we are expanding its use to other areas of the company.\" OpenAI GPT-4o native image generation Finally ! ( OpenAI GPT-4o was first released in May 2024 ) It is not a separate model. Now the whole GPT-4o model is trained to understand text and images at once (it is not separate DALL-E 3 diffusion model). The model also integrates into Sora video. Benefits: higher quality of images, accurate text in images. Can create signs, menus, invitations, infographics, historical imagery, scientific diagrams, storyboards  (consistent characters), various artistic styles and photorealism. You can iterate/refine with text and images. https://openai.com/index/introducing-4o-image-generation/"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates - 5 Qwen2.5-VL-32B - surpasses its",
+      "text": "AI Updates - 5 Qwen2.5-VL-32B - surpasses its 72B predecessor in multimodal tasks https://qwenlm.github.io/blog/qwen2.5-vl-32b/ Google’s Gemini now offers real-time screen and camera analysis for select Google One AI Premium subscribers. Powered by “Project Astra,” the new features let Gemini read phone screens and interpret live camera feeds to answer questions instantly. GitHub Copilot Serves 400 Million Completion Requests a Day https://www.infoq.com/presentations/github-copilot/ Microsoft Copilot Researcher and Analyst Microsoft has introduced new features for its Microsoft 365 Copilot, including two advanced “deep reasoning” agents—Researcher and Analyst—as well as enhanced custom AI agent capabilities. Researcher leverages OpenAI’s deep research model to handle complex, multi-step tasks and integrates data from tools like Salesforce and ServiceNow. Analyst, based on OpenAI’s o3-mini reasoning model, uses chain-of-thought reasoning to analyze raw data, generate spreadsheets, run Python code, and create detailed reports. Qwen2.5-Omni - See, Hear, Talk, Write - open source https://qwenlm.github.io/blog/qwen2.5-omni/ Grok on Telegram Elon Musk's AI chatbot, Grok, is now available on Telegram Premium Offering its sarcastic assistant to over 1 billion users Ideogram 3.0 ideogram.ai - text-to-image tool, high-quality images artwork, diagrams, and realistic photos ideal for artists, marketers, designers, and content creators stunning realism, creative designs, and consistent styles https://about.ideogram.ai/3.0 https://artificialanalysis.ai/text-to-image/arena?tab=Leaderboard"
+    },
+    {
+      "index": 14,
+      "title": "Microsoft Hyperlight Wasm Microsoft open-sourced Hyperlight Wasm Hyperlight",
+      "text": "Microsoft Hyperlight Wasm Microsoft open-sourced Hyperlight Wasm Hyperlight Wasm is a micro VM for running WebAssembly apps Written in Rust Open source, Apache 2.0 license Various programming languages can target WASM. Hyperlight Wasm can run on Linux, Windows, and macOS. https://www.phoronix.com/news/Microsoft-Hyperlight-Wasm https://github.com/hyperlight-dev/hyperlight https://opensource.microsoft.com/blog/2024/11/07/introducing-hyperlight-virtual-machine-based-security-for-functions-at-scale/"
+    },
+    {
+      "index": 15,
+      "title": "ARC-AGI-2 ARC-AGI-2 by Arc Prize Foundation https://arcprize.org/blog/announcing-arc-agi-2-and-arc-prize-2025 https://techcrunch.com/2025/03/24/a-new-challenging-agi-test-stumps-most-ai-models/",
+      "text": "ARC-AGI-2 ARC-AGI-2 by Arc Prize Foundation https://arcprize.org/blog/announcing-arc-agi-2-and-arc-prize-2025 https://techcrunch.com/2025/03/24/a-new-challenging-agi-test-stumps-most-ai-models/ In 2019, François Chollet - creator of Keras (front-end for TensorFlow used by 2.5 Mln developers), published \" On the Measure of Intelligence \" where he introduced the \" Abstract and Reasoning Corpus for Artificial General Intelligence \" (ARC-AGI) benchmark to measure intelligence. AGI ( Artificial General Intelligence ) is a system that can efficiently acquire new skills outside of its training data. Intelligence is measured by the efficiency of skill-acquisition on unknown tasks. Simply, how quickly can you learn new skills? ARC  when scores ARC2 - now, scores, ! Mln prize"
+    },
+    {
+      "index": 16,
+      "title": "Chat2DB Chat2DB - https://chat2db.ai - https://github.com/CodePhiliaX/Chat2DB AI-powered DB",
+      "text": "Chat2DB Chat2DB - https://chat2db.ai - https://github.com/CodePhiliaX/Chat2DB AI-powered DB management tool and SQL client open-source Natural language for table creation, test data generation, SQL query generation, automatic SQL formatting, debugging, query refinement and schema exploration, data visualization, AI-powered BI dashboards and auto-generated charts integrates AI models like Claude 3.7 Sonnet MySQL, PostgreSQL, SQLite, BigQuery, ... AI assistant for natural language interaction for tasks like https://www.geeky-gadgets.com/chat2db-ai-database-management-tool/ https://www.reddit.com/r/selfhosted/comments/1hhnv3z/i_built_an_aipowered_database_management_tool/ https://www.youtube.com/watch?v=QAOSpMbg7yk https://www.youtube.com/watch?v=Nmxozp7FyvM https://www.youtube.com/watch?v=kz3AysTvEYE https://www.skool.com/data-alchemy/open-source-chat2db-talk-to-your-relational-db"
+    },
+    {
+      "index": 17,
+      "title": "Robots Robots are About to Have Their iPhone",
+      "text": "Robots Robots are About to Have Their iPhone Moment. Humanoid robots represent one of the largest economic opportunities in human history ($60 Trillion Market). In 2029 the humanoid robots will be in every home Price $300/month (40¢ per hour) Solving the workforce shortages. New cheaper and better robots every year Chinese Robots, short robots, back-flips, ... https://www.youtube.com/watch?v=s0s2j35KBWA Review of several robots: https://www.youtube.com/watch?v=vT-NyxPUrJw Atlas Robot (can do flips) https://www.youtube.com/watch?v=I44_zbEwz_w https://www.youtube.com/shorts/0QqXQuCd2P0 Apollo Robot working at Mercedes https://www.youtube.com/watch?v=lGugiWNYFVk Neo Gamma by 1X Technologies (Norway) https://www.youtube.com/shorts/EdIAA1zROiA Unitree G1 Robot (China: Kungfu, flips, kick-up, ...) https://www.youtube.com/watch?v=0C-LU0cnqB8 Tesla Bot gen 3 ($2,579 !) https://www.youtube.com/watch?v=KTLAHRoH82A Nvidia Isaac GROOT N1 - a foundation model for humanoid robots https://www.youtube.com/watch?v=BFiBZI3nqhQ Figure AI Helix - a Vision-Language-Action model https://www.figure.ai/news/helix Atlas Apollo Neo Unitree G1 Tesla Nvidia Isaac GROOT N1 side flip Figure Helix"
+    },
+    {
+      "index": 18,
+      "title": "AI diagnose cancer with 99% accuracy AI diagnose",
+      "text": "AI diagnose cancer with 99% accuracy AI diagnose cancer with 99% accuracy https://www.cdu.edu.au/news/ai-diagnoses-major-cancer-near-perfect-accuracy Researchers from Daffodil International University in Bangladesh, Charles Darwin University, the University of Calgary and Australian Catholic University developed an AI model which can detect endometrial cancer with 99.26 percent accuracy . AI model called ECgMLP. It identifies endometrial cancer from microscopic tissue images Current human diagnostics - ~80% accuracy Model also performs great for other cancers: colorectal (98.57%), breast (98.20%), and oral (97.34%) an iPhone app diagnoses skin cancer with 99.9% accuracy Chelsea and Westminster Hospital in UK uses AI app Diagnose takes 5 min Half of patients are discharged immediately without even seeing a doctor using an iPhone with a magnifying lens to take photos of any suspicious-looking moles, with the image analysed in seconds by an AI app. https://www.thetimes.com/article/c42e8af0-ddbb-4f63-bda6-2a968915b05d?shareToken=42517e4133440299ffc5b5a166a52cfe"
+    },
+    {
+      "index": 19,
+      "title": "Chain-Of-Draft Chain-of-Draft (CoD) Is The New King Of",
+      "text": "Chain-Of-Draft Chain-of-Draft (CoD) Is The New King Of Prompting Techniques Chain-of-Draft (CoD) Prompting simply asks the model to think step-by-step and to limit each reasoning step to five words at most . We lose some accuracy, but get response 4 times faster and much cheaper https://levelup.gitconnected.com/chain-of-draft-cod-is-the-new-king-of-prompting-techniques-d9dc17f12051"
+    },
+    {
+      "index": 20,
+      "title": "AlexNet source code released AlexNet source code released",
+      "text": "AlexNet source code released AlexNet source code released Computer History Museum (CHM) & Google released the AlexNet source code written by University of Toronto graduate student Alex Krizhevsky in 2012 (and sold to Google) Code is now on GitHub. It is C++ with CUDA extensions. Also multiple python scripts. https://github.com/computerhistory/AlexNet-Source-Code https://github.com/computerhistory/AlexNet-Source-Code/blob/main/README.md https://www.zdnet.com/article/alexnet-the-ai-model-that-started-it-all-released-in-source-code-form-for-all-to-download/ Ilya Sutskever, Geoffrey Hinton, Alex Krizhevsky 2013"
+    },
+    {
+      "index": 21,
+      "title": "Vibe Coding Vibe Coding - Revolution and Risks",
+      "text": "Vibe Coding Vibe Coding - Revolution and Risks in AI-Assisted Software Development - by José Gregorio Argomedo https://www.linkedin.com/pulse/vibe-coding-revolutionizing-software-development-what-argomedo-5vt6e/ \"vibe coding\" - provide natural language high-level instructions to AI models instead of writing code manually. This term was recently coined by Andrej Karpathy The workflow becomes conversational, with humans guiding the process through prompts; It allows rapid development, reducing repetitive tasks, easy prototyping, democratizes programming for non-developers; This approach follows the historical trend of raising abstraction levels in programming Risks: AI hallucinations producing plausible but incorrect code; Security vulnerabilities that novices won't catch; Poor architecture and maintainability leading to technical debt; Potential loss of debugging skills and fundamental programming knowledge; Domain knowledge gaps creating \"invisible complexity\" issues Experienced developers benefit  - while maintaining oversight Organizations with strong engineering practices can benefit, while novices are most vulnerable. Teams may become overly dependent on AI, leading to potential loss of skills Solution - balanced \"vibes plus knowledge\" approach that combines AI's speed with human expertise and rigorous software engineering practices. The paradox of vibe coding: It works best for those who do not need it - By Tim Anderson https://devclass.com/2025/03/26/the-paradox-of-vibe-coding-it-works-best-for-those-who-do-not-need-it/ https://en.wikipedia.org/wiki/Vibe_coding - wikipedia page José Gregorio Argomedo Repo Prompt - app for Mac (Linux/Windows coming) Repo Prompt can help structure your prompts and apply AI changes for you; send only what’s needed; Select just the files that matter; Cut the noise for sharper answers; https://repoprompt.com/#pricing https://www.youtube.com/watch?v=ubWQx8ev4Rw Models are great at speeding up software engineering work, but they still make a lot of mistakes. When debugging, the model can rewrite (damage) the good working code. When code base grows (~3,000 lines of code or more), the models tend to \"fall apart\" without targeted guidance by a human who understands the code."
+    },
+    {
+      "index": 22,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard English-only queries Total #models: 220 Total #votes: 2,816,680 Last updated: 2025-03-25 Coding China China China China China China China China x.ai x.ai China Cohere Cohere China China"
+    },
+    {
+      "index": 23,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Google Gemini 2.5",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 1,
+      "slideTitle": "Google Gemini 2.5 Beating Deepseek R1 DeepSeek V3-0324",
+      "source": "outline"
+    },
+    {
+      "claim": "Beating Deepseek R1",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 4,
+      "slideTitle": "DeepSeek V3-0324 is now the highest scoring non-reasoning",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepSeek V3-0324",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 6,
+      "slideTitle": "AI Training Using Quantum Computing Quantum-Enhanced LLM Efficient",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Training Using Quantum Computing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates - 1 Ollama Deep Research ,",
+      "source": "outline"
+    },
+    {
+      "claim": "s1 - Simple test-time scaling",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates - 3 Light-R1 - open-source training",
+      "source": "outline"
+    },
+    {
+      "claim": "Tencent \"T1\" model",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 14,
+      "slideTitle": "Microsoft Hyperlight Wasm Microsoft open-sourced Hyperlight Wasm Hyperlight",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI raising $40 Bln at a $300 Bln valuation",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 16,
+      "slideTitle": "Chat2DB Chat2DB - https://chat2db.ai - https://github.com/CodePhiliaX/Chat2DB AI-powered DB",
+      "source": "outline"
+    },
+    {
+      "claim": "Ollama Deep Research",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 19,
+      "slideTitle": "Chain-Of-Draft Chain-of-Draft (CoD) Is The New King Of",
+      "source": "outline"
+    },
+    {
+      "claim": "Anthropic Claude's \"Think Tool\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 21,
+      "slideTitle": "Vibe Coding Vibe Coding - Revolution and Risks",
+      "source": "outline"
+    },
+    {
+      "claim": "Anthropic Claude's Search is using \"Brave Search\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 24,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Google Gemini 2.5 Pro (experimental) Google Gemini 2.5",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 2,
+      "slideTitle": "Google Gemini 2.5 Pro (experimental) Google Gemini 2.5",
+      "source": "slide"
+    },
+    {
+      "claim": "Beating Deepseek R1 DeepSeek R1 (Jan 20, 2025)",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 3,
+      "slideTitle": "Beating Deepseek R1 DeepSeek R1 (Jan 20, 2025)",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepSeek V3-0324 remains behind reasoning models Non-reasoning AI",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 5,
+      "slideTitle": "DeepSeek V3-0324 remains behind reasoning models Non-reasoning AI",
+      "source": "slide"
+    },
+    {
+      "claim": "s1 - Simple test-time scaling s1 - Simple",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 7,
+      "slideTitle": "s1 - Simple test-time scaling s1 - Simple",
+      "source": "slide"
+    },
+    {
+      "claim": "Tencent \"T1\" model Tencent’s Hunyuan T1 reasoning model",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 8,
+      "slideTitle": "Tencent \"T1\" model Tencent’s Hunyuan T1 reasoning model",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 2 The rise of the",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates - 2 The rise of the",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 4 Microsoft's KBLaM - inject",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EDfzrGIV42M",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates - 4 Microsoft's KBLaM - inject",
+      "source": "slide"
+    }
+  ]
+}

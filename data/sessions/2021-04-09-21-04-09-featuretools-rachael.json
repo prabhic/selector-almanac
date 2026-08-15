@@ -1,0 +1,130 @@
+{
+  "id": "2021-04-09-21-04-09-featuretools-rachael",
+  "date": "2021-04-09",
+  "title": "FeatureTools Rachael",
+  "series": "data-science-2021",
+  "topics": [
+    "general",
+    "open-models"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-04-09-FeatureTools_Rachael.pptx",
+    "filename": "21-04-09-FeatureTools_Rachael.pptx",
+    "title": "FeatureTools Rachael",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-04-09-FeatureTools_Rachael.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-04-09-FeatureTools_Rachael.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Featuretools Feature Engineering Automation at Work! Rachael Phillips",
+      "text": "Featuretools Feature Engineering Automation at Work! Rachael Phillips April 9, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Table of Contents What is Feature Engineering and",
+      "text": "Table of Contents What is Feature Engineering and What is Featuretools ? Why is Automatic Feature Engineering Important? History of Featuretools Demo - Using Featuretools to Predict Missed Appointments Q & A Resources"
+    },
+    {
+      "index": 3,
+      "title": "What is Feature Engineering and What is Featuretools",
+      "text": "What is Feature Engineering and What is Featuretools ? Feature Engineering is the process in which taking a dataset and constructing explanatory variables (features) that can be used for a machine learning model. Featuretools is a framework to perform automated feature engineering. It excels at transforming temporal and relational datasets into feature matrices for machine learning."
+    },
+    {
+      "index": 4,
+      "title": "What is Automatic Feature Engineering Important? Feature Engineering",
+      "text": "What is Automatic Feature Engineering Important? Feature Engineering is the most important aspect of the machine learning pipeline! Making it automated will help with: Saving time Building better predictive models Creating meaningful features Preventing data leakage"
+    },
+    {
+      "index": 5,
+      "title": "History of Featuretools In 2015, researchers at MIT",
+      "text": "History of Featuretools In 2015, researchers at MIT presented the Deep Feature Synthesis algorithm and demonstrated its effectiveness in online data science competitions where it beat 615 of 906 human teams. This is an open source library in python called Featuretools . James Max Kanter and Kalyan Veeramachaneni both from MIT"
+    },
+    {
+      "index": 6,
+      "title": "DEMO – Using Featuretools to Predict Missed Appointments",
+      "text": "DEMO – Using Featuretools to Predict Missed Appointments"
+    },
+    {
+      "index": 7,
+      "title": "Q & A",
+      "text": "Q & A"
+    },
+    {
+      "index": 8,
+      "title": "Resources https://www.featuretools.com/ https://www.kdnuggets.com/2018/08/automated-feature-engineering-will-change-machine-learning.html#:~:text=Automated%20feature%20engineering%20will%20save,features%2C%20and%20prevent%20data%20leakage.&text=There%20are%20few%20certainties%20in,as%20better%20methods%20are%20developed. https://news.mit.edu/2015/automating-big-data-analysis-1016 https://groups.csail.mit.edu/EVO-DesignOpt/groupWebSite/uploads/Site/DSAA_DSM_2015.pdf",
+      "text": "Resources https://www.featuretools.com/ https://www.kdnuggets.com/2018/08/automated-feature-engineering-will-change-machine-learning.html#:~:text=Automated%20feature%20engineering%20will%20save,features%2C%20and%20prevent%20data%20leakage.&text=There%20are%20few%20certainties%20in,as%20better%20methods%20are%20developed. https://news.mit.edu/2015/automating-big-data-analysis-1016 https://groups.csail.mit.edu/EVO-DesignOpt/groupWebSite/uploads/Site/DSAA_DSM_2015.pdf"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Featuretools Feature Engineering Automation at Work! Rachael Phillips",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Featuretools Feature Engineering Automation at Work! Rachael Phillips",
+      "source": "slide"
+    },
+    {
+      "claim": "Table of Contents What is Feature Engineering and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Table of Contents What is Feature Engineering and",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Feature Engineering and What is Featuretools",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "What is Feature Engineering and What is Featuretools",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Automatic Feature Engineering Important? Feature Engineering",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "What is Automatic Feature Engineering Important? Feature Engineering",
+      "source": "slide"
+    },
+    {
+      "claim": "History of Featuretools In 2015, researchers at MIT",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "History of Featuretools In 2015, researchers at MIT",
+      "source": "slide"
+    },
+    {
+      "claim": "DEMO – Using Featuretools to Predict Missed Appointments",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "DEMO – Using Featuretools to Predict Missed Appointments",
+      "source": "slide"
+    },
+    {
+      "claim": "Resources https://www.featuretools.com/ https://www.kdnuggets.com/2018/08/automated-feature-engineering-will-change-machine-learning.html#:~:text=Automated%20feature%20engineering%20will%20save,features%2C%20and%20prevent%20data%20leakage.&text=There%20are%20few%20certainties%20in,as%20better%20methods%20are%20developed. https://news.mit.edu/2015/automating-big-data-analysis-1016 https://groups.csail.mit.edu/EVO-DesignOpt/groupWebSite/uploads/Site/DSAA_DSM_2015.pdf",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Resources https://www.featuretools.com/ https://www.kdnuggets.com/2018/08/automated-feature-engineering-will-change-machine-learning.html#:~:text=Automated%20feature%20engineering%20will%20save,features%2C%20and%20prevent%20data%20leakage.&text=There%20are%20few%20certainties%20in,as%20better%20methods%20are%20developed. https://news.mit.edu/2015/automating-big-data-analysis-1016 https://groups.csail.mit.edu/EVO-DesignOpt/groupWebSite/uploads/Site/DSAA_DSM_2015.pdf",
+      "source": "slide"
+    }
+  ]
+}

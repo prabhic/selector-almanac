@@ -1,0 +1,89 @@
+{
+  "id": "2023-05-02-2023-05-02-yubikey-lev",
+  "date": "2023-05-02",
+  "title": "YubiKey-Lev",
+  "series": "seminar",
+  "topics": [
+    "safety",
+    "general"
+  ],
+  "video": {
+    "id": "f3YR9ZSXoAU",
+    "title": "Yubikey and Two-Factor Authentication - May 2, 2023",
+    "url": "https://www.youtube.com/watch?v=f3YR9ZSXoAU",
+    "thumbnail": "https://i.ytimg.com/vi/f3YR9ZSXoAU/hqdefault.jpg",
+    "duration": 613
+  },
+  "deck": {
+    "path": "2023/2023-05-02-YubiKey-Lev.pptx",
+    "filename": "2023-05-02-YubiKey-Lev.pptx",
+    "title": "YubiKey-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-05-02-YubiKey-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-05-02-YubiKey-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "YubiKey / YubiCo 2-Factor Authentication",
+      "text": "YubiKey   / YubiCo 2-Factor Authentication"
+    },
+    {
+      "index": 2,
+      "title": "If a hacker in Africa gets your login",
+      "text": "If a hacker in Africa gets your login and password, he can enter your account. 2-Factor Authentication protects from that by verifying your identity using your hardware that you register with your account. This verification may be done by sending a text message to your phone, or by using an authenticator app on your phone, or by using a biometric sensor (fingerprint or face ID), or using a unique hardware ID of your computer or a hardware key ( Yubikey ). Google Stopped the phishing scammers cold when in 2017 they handed out 85,000 Yubikey security keys to their employees and required every employees to use their security key every time they logged into their email or Google accounts. Note: software solutions, even with 2-Factor Authentication, can be vulnerable to advanced phishing attacks. The phone call authentication can be hacked and redirected. But hardware authenticators can be made much more secure – and easy to use. The two most well known are: YubiCo – USA, Sweden - - https://www.yubico.com/about/about-us/ - https://www.youtube.com/watch?v=MffUKM6HnYY – great intro from YubiCo founder Google Titan - https://cloud.google.com/titan-security-key 2FA using a phone app"
+    },
+    {
+      "index": 3,
+      "title": "The YubiKey is a small USB hardware authentication",
+      "text": "The YubiKey is a small USB hardware authentication device manufactured by Yubico to protect access to computers, networks, and online services. .. https://www.yubico.com/products/ . When you insert it into your computer or phone – it is mounted as a keyboard. When you touch it with a finger - it sends a string containing it's public_id and AES-encrypted OTP (One-Time Password) . There are a variety of models. Model 5 supports one-time passwords (OTP) – like authenticator apps. Bio-series – can use finger-print Available in USB or USB-C variants (or iPhone air connector) Nano models are really small. The newest models support NFC ( Near field communication technology) - enables two devices to exchange data when they are within close proximity Maybe better buy from YubiCo directly: .. https://www.yubico.com/product/yubikey-5-fips-series/yubikey-5-nano-fips/ - Note: YubiKye is FIPS compliant ( FIPS = Federal Information Processing Standards ) Note: devices use public-key cryptography, support 2FA (2-factor authentication), and the Universal 2nd Factor and FIDO2 protocols developed by the FIDO Alliance. Part of it is verifying that the website is a genuine one (protection from phishing). YubiKey   / YubiCo .. https://www.youtube.com/watch?v=P77V34_m5CM - great video explaining what yubikey sends #include < stdio.h > #include < stlib.h > int main() { char yubikey_code [45] printf (\"Touch your yubikey : \") scanf (\"%s\", yubikey_code ) printf (\" Yubikey code: %s\\n\", yubikey_code ) return 0; } Touching Yubikey Nano to send the code"
+    },
+    {
+      "index": 4,
+      "title": "Web Authentication is a web standard published by",
+      "text": "Web Authentication is a web standard published by the World Wide Web Consortium. WebAuthn is a core component of the FIDO2 Project ( Fast Identity Online ) under the guidance of the FIDO Alliance https://fidoalliance.org/fido2/ FIDO2 is a passwordless authentication standard - uses biometric scanners (Touch-ID, Face-ID) and hardware tokens together with public/private key cryptography Check that your browser supports FIDO2 It is important that you have set up two security keys . Because if you only have one, and lose it - its activation function is lost forever. Apple therefore requires you to provide at least two FIDO-compatible devices to be set up. Touch ID, for example, also counts as one Using Mac Touch ID for Second Factor Authentication Yubikey Nano Touch ID Check that your browser supports FIDO2 (depends on platform, version, etc.)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "YubiKey / YubiCo 2-Factor Authentication",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=f3YR9ZSXoAU",
+      "slideIndex": 1,
+      "slideTitle": "YubiKey / YubiCo 2-Factor Authentication",
+      "source": "slide"
+    },
+    {
+      "claim": "If a hacker in Africa gets your login",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=f3YR9ZSXoAU",
+      "slideIndex": 2,
+      "slideTitle": "If a hacker in Africa gets your login",
+      "source": "slide"
+    },
+    {
+      "claim": "The YubiKey is a small USB hardware authentication",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=f3YR9ZSXoAU",
+      "slideIndex": 3,
+      "slideTitle": "The YubiKey is a small USB hardware authentication",
+      "source": "slide"
+    },
+    {
+      "claim": "Web Authentication is a web standard published by",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=f3YR9ZSXoAU",
+      "slideIndex": 4,
+      "slideTitle": "Web Authentication is a web standard published by",
+      "source": "slide"
+    }
+  ]
+}

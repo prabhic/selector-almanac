@@ -1,0 +1,358 @@
+{
+  "id": "2021-02-12-21-02-12-neural-networks-lev",
+  "date": "2021-02-12",
+  "title": "Neural Networks",
+  "series": "data-science-2021",
+  "topics": [
+    "ml-fundamentals",
+    "safety",
+    "jobs",
+    "general",
+    "rag"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-02-12-Neural_Networks_Lev.pptx",
+    "filename": "21-02-12-Neural_Networks_Lev.pptx",
+    "title": "Neural Networks",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-02-12-Neural_Networks_Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-02-12-Neural_Networks_Lev.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "What Is AI Deep Learning Lev Selector February",
+      "text": "What  Is  AI Deep Learning Lev Selector February 12, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Deep Learning (DL) ML implemented as Neural Network",
+      "text": "Deep Learning (DL) ML implemented as Neural Network Traditional Data Science (DS) computer skills + statistics CSV files, SQL, PowerPoint Machine Learning (ML) DS algorithm learns from data and makes predictions Artificial General Intelligence (AGI) AI that could successfully perform any intellectual task that a human can (Turing test (1950), ...) Artificial Intelligence (AI) ML (DL) learning functions which are typically associated with human abilities (speech and music recognition, conversation, visual recognition, video prediction, reasoning, self-driving cars, playing games, etc.)"
+    },
+    {
+      "index": 3,
+      "title": "AI in Context Artificial Intelligence (AI) ML performing",
+      "text": "AI  in  Context Artificial Intelligence (AI) ML performing “human” functions Deep Learning (DL) ML implemented using multi-layered structure (Neural Network) Machine Learning (ML) DS algorithm learns from data Data Science (DS) data + computer/statistics Amount of data Compute Speed Reinforcement Learning alpha-Go Unsupervised Learning no labels, Google Translate Supervised Learning labeled data Reasoning, Inductive & Deductive Logic, Knowledge Representation, Ontology Vision, Robotics NLP, Extracting Data from Text Fraud Detection, Security, Risk Mgmnt Forecasting, investments, Resource Mgmnt Chatbots, Conversational interfaces 2010 2015 2000 2005 Recommender Systems Years"
+    },
+    {
+      "index": 4,
+      "title": "Recent breakthroughs in DL made it practical (effective,",
+      "text": "Recent breakthroughs in DL made it practical (effective, affordable, and easy). Instead of software engineers manually coding if/else logic, DL algorithms can train networks equivalent to ~10s of million of if/else -s. Distributed ML on Cloud (Google, Amazon, Mocrosoft, Intel, IBM, etc.) allow to achieve ~100 Petaflops (x1000 performance increase in last 3 years). Prices dropping down precipitously: $6.50/hour per a Google TPU (180 TFlops). You don't have to build your own infrastructure, you don't have to code from scratch. Nowadays you can use variety of pre-trained / pre-configured networks on the cloud. Compare this with just few years ago: custom HPC clusters (HPC = High-Performance Computing), low-level C/CUDA coding, etc."
+    },
+    {
+      "index": 5,
+      "title": "Andrew Ng - co-founded and led Google Brain",
+      "text": "Andrew Ng - co-founded and led Google Brain - was the chief scientist at Baidu Research (~1,300 people) for 3 years (2014-2017), resigned in March of 2017. - adjunct professor at Stanford University - co-founder and chairman of Coursera - https://en.wikipedia.org/wiki/Andrew_Ng - https://www.coursera.org/learn/machine-learning Artificial Intelligence is the New Electricity - https://www.facebook.com/andrew.ng.96/videos/1268821713173733/ - https://www.youtube.com/watch?v=21EiKfQYZXc “AI is the New Electricity” Electricity came into our life ~120 years ago: - lamps and motors - telegraph, telephone, radio, TV, Internet - computers, IT, Machine Learning, AI - finance, trading - science, education, medical diagnostics - automation, robotics, - etc. etc. AI like electricity will also change our lives in many ways which is difficult to predict."
+    },
+    {
+      "index": 6,
+      "title": "“AI is Life Extinction Event ?” “AI -",
+      "text": "“AI is Life Extinction Event ?” “AI - Tsunami ?”"
+    },
+    {
+      "index": 7,
+      "title": "AI Growth Predictions (Forbes, 2018)",
+      "text": "AI Growth Predictions (Forbes, 2018)"
+    },
+    {
+      "index": 8,
+      "title": "- predictions (news and trends, investments, elections, sport",
+      "text": "- predictions (news and trends, investments, elections, sport & weather, etc.) - detection (fraud, crime, terrorism, climate change, etc.) - self-driving cars (planes, boats, drones, construction/rescue machines, etc.) - robots (at home & at work), manufacturing robots - universal language translator, language understanding, concepts learning - music &  literature composition, games and math. - medical diagnostics (using genomic, phenotypic, social, etc. data), surgery - intelligent secretary/helper, process management, t raffic management - agriculture (pooling weeds, watering, etc.) - toys, military - combining AI with Virtual Reality and 3D printing - effective interface with human brain, greatly expand their cognitive, memory and sensory capabilities, uploading mind into computer - etc. etc. etc. Where and How ML & AI are used ? ML = Machine Learning AI = Artificial Intelligence"
+    },
+    {
+      "index": 9,
+      "title": "Ray Kurzweil, chief engineer for Google and famous",
+      "text": "Ray Kurzweil, chief engineer for Google and famous futurist stated that \"... ultimately, AI will benefit us in the same way that previous technologies have. ... My view is not that AI is going to displace us, ... (but) ...  It’s going to enhance us. It does already.” Millions of jobs will be \"outsourced\" to AI. Also you will see new jobs, like \"Chief AI Officer\", AI departments. We already see big shortage in AI specialists. Top AI talent is paid millions of $$. You need to get into AI asap to be able to surf the new wave, or this wave will drown you."
+    },
+    {
+      "index": 10,
+      "title": "Credited with inventing Convolutional Neural Networks in his",
+      "text": "Credited with inventing Convolutional Neural Networks in his 1998 paper on LeNets https://www.youtube.com/watch?v=IbjF5VjniVE Yann LeCun (NYU, FB)"
+    },
+    {
+      "index": 11,
+      "title": "University of Toronto & Google - https://en.wikipedia.org/wiki/Geoffrey_Hinton Three",
+      "text": "University of Toronto & Google - https://en.wikipedia.org/wiki/Geoffrey_Hinton Three decades ago, Hinton was already making his mark on deep learning, co-inventing Boltzmann machines, backpropagation, and contrastive divergence . But it wasn’t until the computing power managed to scale to meet the demands of deep learning that Hinton truly began to get the wider recognition outside of academia he deserved. In 2004, he co-founded Neural Computation and Adaptive Perception, a handpicked, invite-only group of researchers from across the fields of physics, neuroscience and engineering. He also founded DNNResearch, which was acquired by Google. Since then, he’s been working on the Google “Brain” neural network project, and helping to dramatically improve Google’s image recognition and Android’s audio recognition capabilities. Geoffrey Hinton"
+    },
+    {
+      "index": 12,
+      "title": "Full Professor, head of the Montreal Institute for",
+      "text": "Full Professor, head of the Montreal Institute for Learning Algorithms. Most noted for his work on artificial neural networks and deep learning. - https://en.wikipedia.org/wiki/Yoshua_Bengio - http://www.iro.umontreal.ca/~bengioy/yoshua_en/ - https://scholar.google.com/citations?user=kukA0LcAAAAJ Yoshua Bengio Very good pictorial tutorial: - http://www.iro.umontreal.ca/~bengioy/talks/DL-Tutorial-NIPS2015.pdf"
+    },
+    {
+      "index": 13,
+      "title": "Staff Research Scientist at Google Student of Yoshua",
+      "text": "Staff Research Scientist at Google Student of Yoshua Bengio. https://en.wikipedia.org/wiki/Ian_Goodfellow Generative Adversarial Nets (2014) https://arxiv.org/pdf/1406.2661v1.pdf Ian Goodfellow"
+    },
+    {
+      "index": 14,
+      "title": "LSTM - Long short-term memory (1997) Hochreiter, Sepp;",
+      "text": "LSTM - Long short-term memory (1997) Hochreiter, Sepp; and Schmidhuber, Jürgen; Long Short-Term Memory, Neural Computation, 9(8):1735–1780, 1997 https://en.wikipedia.org/wiki/Long_short-term_memory Unlike traditional RNNs, an LSTM network is well-suited to learn from experience to classify, process and predict time series when there are time lags of unknown size and bound between important events. Sepp Hochreiter, Austria - http://www.bioinf.jku.at/people/hochreiter/ Jürgen Schmidhuber, Switzerland - http://people.idsia.ch/~juergen/ A simple LSTM block with only input, output, and forget gates. LSTM blocks may have more gates."
+    },
+    {
+      "index": 15,
+      "title": "Elon Musk PayPal Tesla (self-driving electric cars) SpaceX",
+      "text": "Elon Musk PayPal Tesla (self-driving electric cars) SpaceX (Space ships Open AI (open source AI) Neurolink (integrate the human brain with AI – implantable interfaces) Hyperloop - high-speed transportation system - reduced-pressure tubes, linear induction motors and air compressors. The Boring Company – to dig tunnels."
+    },
+    {
+      "index": 16,
+      "title": "Michael I Jordan Andrej Karpathy Vincent Vanhoucke Hugo",
+      "text": "Michael I Jordan Andrej Karpathy Vincent Vanhoucke Hugo Larochelle Terry Sejnowski Sebastian Thrun Jeffrey Hawkins David M. Blei Zoubin Ghahramani Adam Coates Pascal Lamblin Ruslan Salakhutdinov John Schulman Richard Socher Alex Wiltschko Tomas Mikolov Alex Graves Marc'Aurelio Ranzato Shubho Sengupta James D. McCaffrey"
+    },
+    {
+      "index": 17,
+      "title": "What is Deep Learning? Do I need it?",
+      "text": "What is Deep Learning? Do I need it? “Deep Learning ” are modern methods of creating Machine Learning Systems. They use “Artificial Neural Networks” . Machine Learning Systems  = Prediction Machines . Computers make computations cheap. Computers make predictions practical – fast and cheap."
+    },
+    {
+      "index": 18,
+      "title": "Recent breakthroughs in DL methods made them practical",
+      "text": "Recent breakthroughs in DL methods made them practical (effective, affordable, and easy). Instead of software engineers manually coding if/else logic, DL algorithms can train networks equivalent to millions or billions of if/else -s. (Record of year 2020 – 175 Bln nodes). Nowadays you can choose from a variety of pre-trained / pre-configured networks on the cloud."
+    },
+    {
+      "index": 19,
+      "title": "Deep Learning – models implemented as Neural Networks",
+      "text": "Deep Learning – models implemented as Neural Networks As neuron input grows, neuron activates (starts firing). In NN it is modeled by \" Activation Function \". Most commonly used function is \"Rectifier\". ReLU = Rectified Linear Unit Rectifier                        Leaky Rectifier"
+    },
+    {
+      "index": 20,
+      "title": "Perceptron - 1957 Frank Rosenblatt (1928-1971) Born in",
+      "text": "Perceptron - 1957 Frank Rosenblatt (1928-1971) Born in New Rochelle, New York Graduated from The Bronx High School of Science, then Cornell University BA 1950, Ph.D. 1956. Worked at Cornell Aeronautical Laboratory in Buffalo, NY Conducted the early work on perceptrons, which culminated in the development and hardware construction of the Mark I Perceptron in 1960. This was essentially the first computer that could learn new skills by trial and error, using a type of neural network that simulates human thought processes. Single-Layer Network Perceptron. The machine was connected to a camera that used 20×20 cadmium sulfide photocells to produce a 400-pixel image. The main visible feature is a patchboard that allowed experimentation with different combinations of input features. To the right of that are arrays of potentiometers that implemented the adaptive weights"
+    },
+    {
+      "index": 21,
+      "title": "Multilayer Perceptron Perceptron (Single Layer)",
+      "text": "Multilayer Perceptron Perceptron (Single Layer)"
+    },
+    {
+      "index": 22,
+      "title": "Neural Networks Leverage “Multiplicative” Complexity 1 2 4",
+      "text": "Neural Networks Leverage “Multiplicative” Complexity 1 2 4 8 … 2 64 ~ 10 19 N k = 2*N k-1 Chess board example:"
+    },
+    {
+      "index": 23,
+      "title": "Deep Learning – using layers to achieve “multiplicative”",
+      "text": "Deep Learning – using layers to achieve “multiplicative” complexity x y = f(x) If sequential layers are fully interconnected, then number of connections ~N*N*(L-1), and complexity ~ N L-1 , (N = size, L = number of layers). So if N=L=20, then Ncon =~ 8,000, Ncompl =~20 19 =~ 5*10 24 . Note: Logic is stored in weights of connections (W-coefficients), and biases (b-shifts). Note: we need non-linearity in nodes, otherwise the network is equivalent to a simple linear function."
+    },
+    {
+      "index": 24,
+      "title": "Do you need to use Deep Learning? If",
+      "text": "Do you need to use Deep Learning? If your data looks like a spreadsheet and you doing analytics – then you probably don’t need Deep Learning. You can use conventional Data Science methods. But if you need to do more complex tasks, like converting speech to text, doing language translations, extracting information from text, controlling a robot or self-driving car, etc. – then you need Deep Learning methods. Many of complex tasks were already solved and available for you on major clouds (Google Translate, Azure Cognitive Services, etc.)"
+    },
+    {
+      "index": 25,
+      "title": "Examples of network architectures: Feed-Forward Network Deep Belief",
+      "text": "Examples of network architectures: Feed-Forward Network Deep Belief Network (many layers of Restricted Boltzmann Machines (RBMs) Convolutional Neural Network (CNN) Recurrent Neural Network (RNN) Autoencoders Generative Adversarial Network (GAN) Reinforcement Learning Etc. Etc."
+    },
+    {
+      "index": 26,
+      "title": "Question 1. C1 in the layer 1 has",
+      "text": "Question 1. C1 in the layer 1 has 6 feature maps, does that mean there are six convolutional kernels? Each convolutional kernel is used to generate a feature map based on input. There are 6 convolutional kernels and each is used to generate a feature map based on input. Another way to say this is that there are 6 filters or 3D sets of weights. What this image doesn't show, that it probably should, to make it clearer is that typically images have 3 channels, say red, green, and blue . So the weights that map you from the input to C1 are of shape/dimension 3x5x5 not just 5x5. The same 3 dimensional weights, or kernel, are applied across the entire 3x32x32 image to generate a 2 dimensional feature map in C1. There are 6 kernels (each 3x5x5) in this example so that makes 6 feature maps ( each 28x28 since the stride is 1 and padding is zero) in this example, each of which is the result of applying a 3x5x5 kernel across the input. Question 2. S1 in layer 1 has 6 feature maps, C2 in layer 2 has 16 feature maps. What is the process look like to get these 16 feature maps based on 6 feature maps in S1? Now do the same thing we did in layer one, but do it for layer 2, except this time the number of channels is not 3 (RGB) but 6, six for the number of feature maps/filters in S1. There are now 16 unique kernels each of shape/dimension 6x5x5. Each layer 2 kernel is applied across all of S1 to generate a 2D feature map in C2. This is done 16 times for each unique kernel in layer 2, all 16, to generate the 16 feature maps in layer 2 (each 10x10 since stride is 1 and padding is zero). Yann LeCun (NYU, FB) 1998 paper on LeNets"
+    },
+    {
+      "index": 27,
+      "title": "https://medium.com/@siddharthdas_32104/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5 CNNs Architectures: LeNet, AlexNet, VGG, GoogLeNet, ResNet",
+      "text": "https://medium.com/@siddharthdas_32104/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5 CNNs Architectures: LeNet, AlexNet, VGG, GoogLeNet, ResNet and more …"
+    },
+    {
+      "index": 28,
+      "title": "Signal Processing – Digital Filters. Low-Pass Filtering Low-Pass",
+      "text": "Signal Processing – Digital Filters. Low-Pass Filtering Low-Pass Filter Design"
+    },
+    {
+      "index": 29,
+      "title": "Unfolding Computational Graphs. the idea of unfolding a",
+      "text": "Unfolding Computational Graphs. the idea of unfolding a recursive or recurrent computation into a computational graph that has a repetitive structure, typically corresponding to a chain of events. For example: Where ”state of the system” s(t) is a function of the previous state s(t-1) Each node represents the state at some time t, and the function f() maps the state at time “t” to the state at time “t+1”. Another example – same, but with additional external signal x(t): Many recurrent neural networks use the above equation (or a similar equation) to define the values of their hidden units: Example: the RNN is used to predict the next word given previous words. It may not be necessary to store all of the information in the input sequence up to time t, but rather only enough information to predict the rest of the sentence."
+    },
+    {
+      "index": 30,
+      "title": "Autoencoders (AE) x h r h = f(x)",
+      "text": "Autoencoders (AE) x h r h = f(x) r = g(x) Dimensionality reduction, feature learning reconstruction Autoencoders (AE): - feed-forward network - create approximate copy - dimensionality reduction (usually) - feature learning Can be trained as feedforward network with all of the same techniques, typically minibatch gradient descent following gradients computed by back-propagation. Unlike general feedforward networks, autoencoders may also be trained using recirculation (Hinton and McClelland, 1988), a learning algorithm based on comparing the activations of the network on the original input to the activations on the reconstructed input."
+    },
+    {
+      "index": 31,
+      "title": "Autoencoder – denoising, correcting, gap filling",
+      "text": "Autoencoder – denoising, correcting, gap filling"
+    },
+    {
+      "index": 32,
+      "title": "Variational Autoencoders (AE)",
+      "text": "Variational Autoencoders (AE)"
+    },
+    {
+      "index": 33,
+      "title": "Generative Adversarial Networks (GANs) Police Detective (recognizes images)",
+      "text": "Generative Adversarial Networks (GANs) Police Detective (recognizes images) Artistic Criminal (generates fake images) Both Detective and Criminal receive same set of images (for example pictures of cats and dogs). Criminal randomly generates “fake” images (cat with 6 legs and two tails, etc.). Detective learns to discriminate real images from fakes and becomes better and better. Criminal learns to make better and better fakes. Adversarial relationship helps both of them become better fast."
+    },
+    {
+      "index": 34,
+      "title": "LSTM LSTM = Long Short-Term Memory Imagine Recurrent",
+      "text": "LSTM LSTM = Long Short-Term Memory Imagine Recurrent Neural Network trying to recognize music sampled at 44KHz. The 10 sec phrase will be 440,000 points. And when training – how we keep track of so many points going backwards? This is the exploding or vanishing gradient problem . Solution - instead of propagating analog gradients backwards, we use \"gates\" (all or nothing). A simple LSTM block with only input, output, and forget gates. LSTM blocks may have more gates."
+    },
+    {
+      "index": 35,
+      "title": "Word2vec (Mikolov et al) We construct numerical vectors",
+      "text": "Word2vec  (Mikolov et al) We construct numerical vectors to represent meaning (semantics) of words. Main idea - a word  can be described by its “neighbors” – a company this word has. Similar words tend to have similar neighbors (word embeddings). Numerical vectors are constructed so that we can do vector arithmetic on them: ”king” – “he” + “she”     ~     “queen” Tomas Mikolov"
+    },
+    {
+      "index": 36,
+      "title": "Co-founder and Research Director of OpenAI. Past: 3",
+      "text": "Co-founder and Research Director of OpenAI. Past: 3 years at Google Brain Team. Co-author of AlexNet Co-founder of DNNresearch. a postdoc in Stanford with Andrew Ng's group. a student of Geoffrey Hinton, Toronto. - https://blog.openai.com/evolution-strategies/ - (2017) Evolution Strategies (ES) – simpler and allow parallelization - thus better than Reinforcement Learning (RL) ilyasu@openai.com Sequence to sequence learning Ilya Sutskever"
+    },
+    {
+      "index": 37,
+      "title": "Now at Google AlexNet – re-implemented LeNet on",
+      "text": "Now at Google AlexNet – re-implemented LeNet on GPU (Toronto), won 2012 ImageNet competition “ImageNet Classification with Deep Convolutional Networks” - Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf - Convolutional network - Used GPUs - Used ReLUs - Used Drop Out  to reduce ‘overfitting’ (DropOut). Alex Krizhevsky"
+    },
+    {
+      "index": 38,
+      "title": "Matthew Zeiler New York, clarif ai - uses",
+      "text": "Matthew Zeiler New York, clarif ai - uses ML/DL for object recognition and search (ads, images, photo collections). DL networks, Computer Vision, CS Ph.D. at NYU ZF Net The ILSVRC 2013 winner was a Convolutional Network from Matthew Zeiler and Rob Fergus. ZFNet (Zeiler & Fergus Net). It was an improvement on AlexNet by tweaking the architecture hyperparameters, in particular by expanding the size of the middle convolutional layers and making the stride and filter size on the first layer smaller."
+    },
+    {
+      "index": 39,
+      "title": "GoogLeNet - 22 layer CNN and was the",
+      "text": "GoogLeNet - 22 layer CNN and was the winner of ILSVRC 2014 http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf Christian Szegedy,   Wei Liu,   Yangqing Jia,   Pierre Sermanet,   Scott Reed, Dragomir Anguelov,   Dumitru Erhan,   Vincent Vanhoucke,   Andrew Rabinovich Inception module -> convolution and pooling in parallel."
+    },
+    {
+      "index": 40,
+      "title": "Demis Hassabis Demis Hassabis CEO of Google DeepMind",
+      "text": "Demis Hassabis Demis Hassabis CEO of Google DeepMind (>700 people). Co-founded DeepMind in 2010, sold it to Google in 2014. Videogames designer, AI programmer - http://demishassabis.com - https://en.wikipedia.org/wiki/Demis_Hassabis - 2013 – Atari games, reinforcement learning - https://arxiv.org/pdf/1312.5602v1.pdf - 2016 – AlphaGo (2017 – AlphaGo Zero) - https://en.wikipedia.org/wiki/AlphaGo Atari games AlphaGo (Deep) Reinforcement Learning Generative models AlphaGo playing with itself Self-driving car driving in virtual world"
+    },
+    {
+      "index": 41,
+      "title": "Google GNMT (2016, Google Neural Machine Translation). Past:",
+      "text": "Google GNMT (2016, Google Neural Machine Translation). Past: PhD Student – under Andrew Ng, Stanford http://cs.stanford.edu/~quocle/ - papers, tutorials https://arxiv.org/pdf/1609.08144v2.pdf - 31 authors deep LSTM network 8 encoder and 8 decoder layers parallelism - decreasing training time using attention and residual connections attention mechanism - connects the bottom layer of the decoder to the top layer of the encoder low-precision arithmetic for inference computations Quoc Le qvl@google.com"
+    },
+    {
+      "index": 42,
+      "title": "Training Neural Networks Forward propagation – from input",
+      "text": "Training Neural Networks Forward propagation – from input to output (inference). Error - compare output with label (desired output). Back-propagation to adjust weights and biases to reduce error (Gradient Descent). Learning = optimizing parameters (weights, biases, etc.) to find (local) minimum within multi-dimensional space. Simulated annealing. Absolute minimum is computationally difficult to find. Local minimum or saddle point is usually enough. To find minimum we use SGD (Stochastic Gradient Descent) or mini-batch GD."
+    },
+    {
+      "index": 43,
+      "title": "Training Neural Networks – slide 2 Hyper-parameters (number",
+      "text": "Training Neural Networks – slide 2 Hyper-parameters (number of layers, size of layers, etc.). Learning rate. Data sets: training set, dev. set, testing set Overfitting – good results on training set, but not as good on testing set. Regularization methods, dropout, early stopping, etc."
+    },
+    {
+      "index": 44,
+      "title": "Training Neural Networks – slide 3 Layer-to-layer –",
+      "text": "Training Neural Networks – slide 3 Layer-to-layer – matrix multiplications Tensor – multi-dimensional matrix Most common frameworks/libraries: TensorFlow  (Google) pyTorch (Facebook) Keras (on top of TF, etc.) sklearn ( Scikit-Learn ) NLTK (Natural Language ToolKit) Many others: Theano (end of life), Lasagne (on top of Theano), Caffe, DSSTNE, mxnet,   DL4J, CNTK (Cognitive Toolkit, Microsoft), ..."
+    }
+  ],
+  "points": [
+    {
+      "claim": "What Is AI Deep Learning Lev Selector February",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "What Is AI Deep Learning Lev Selector February",
+      "source": "slide"
+    },
+    {
+      "claim": "Deep Learning (DL) ML implemented as Neural Network",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Deep Learning (DL) ML implemented as Neural Network",
+      "source": "slide"
+    },
+    {
+      "claim": "AI in Context Artificial Intelligence (AI) ML performing",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "AI in Context Artificial Intelligence (AI) ML performing",
+      "source": "slide"
+    },
+    {
+      "claim": "Recent breakthroughs in DL made it practical (effective,",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Recent breakthroughs in DL made it practical (effective,",
+      "source": "slide"
+    },
+    {
+      "claim": "Andrew Ng - co-founded and led Google Brain",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Andrew Ng - co-founded and led Google Brain",
+      "source": "slide"
+    },
+    {
+      "claim": "“AI is Life Extinction Event ?” “AI -",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "“AI is Life Extinction Event ?” “AI -",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Growth Predictions (Forbes, 2018)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "AI Growth Predictions (Forbes, 2018)",
+      "source": "slide"
+    },
+    {
+      "claim": "- predictions (news and trends, investments, elections, sport",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "- predictions (news and trends, investments, elections, sport",
+      "source": "slide"
+    },
+    {
+      "claim": "Ray Kurzweil, chief engineer for Google and famous",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Ray Kurzweil, chief engineer for Google and famous",
+      "source": "slide"
+    },
+    {
+      "claim": "Credited with inventing Convolutional Neural Networks in his",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Credited with inventing Convolutional Neural Networks in his",
+      "source": "slide"
+    },
+    {
+      "claim": "University of Toronto & Google - https://en.wikipedia.org/wiki/Geoffrey_Hinton Three",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "University of Toronto & Google - https://en.wikipedia.org/wiki/Geoffrey_Hinton Three",
+      "source": "slide"
+    },
+    {
+      "claim": "Full Professor, head of the Montreal Institute for",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Full Professor, head of the Montreal Institute for",
+      "source": "slide"
+    }
+  ]
+}

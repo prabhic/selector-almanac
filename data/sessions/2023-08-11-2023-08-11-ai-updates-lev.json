@@ -1,0 +1,258 @@
+{
+  "id": "2023-08-11-2023-08-11-ai-updates-lev",
+  "date": "2023-08-11",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "open-models",
+    "claude",
+    "openai",
+    "rag",
+    "infra",
+    "google",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "gOxEjANA7_M",
+    "title": "Updates about AI - August 11, 2023",
+    "url": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+    "thumbnail": "https://i.ytimg.com/vi/gOxEjANA7_M/hqdefault.jpg",
+    "duration": 1262
+  },
+  "deck": {
+    "path": "2023/2023-08-11-AI-Updates-Lev.pptx",
+    "filename": "2023-08-11-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-08-11-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-08-11-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates August 11, 2023 Presented by Lev",
+      "text": "AI Updates August 11, 2023 Presented by Lev Selector August 11, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data crypto, accounting cloud architecture, fin-tech, application security Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "HuggingFaceH4/open_llm_leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Model Average ⬆️ ARC HellaSwag MMLU",
+      "text": "HuggingFaceH4/open_llm_leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Model Average ⬆️ ARC HellaSwag MMLU TruthfulQA garage-bAInd/Platypus2-70B-instruct 73.13 71.84 87.94 70.48 62.26 upstage/Llama-2-70b-instruct-v2 72.95 71.08 87.89 70.58 62.25 deepnight-research/llama-2-70B-inst 72.95 71.08 87.89 70.58 62.25 psmathur/model_007 72.72 71.08 87.65 69.04 63.12 upstage/Llama-2-70b-instruct 72.29 70.9 87.48 69.8 60.97 stabilityai/StableBeluga2 71.42 71.08 86.37 68.79 59.44 August 11 - 665 entries In ~30 days: .. added ~200 entries .. Falcon-40b-instruct moved from 1st place to 80th place Here are the top entries (they are LLaMa and StableBeluga based)"
+    },
+    {
+      "index": 4,
+      "title": "Why Scaling Creates Intelligence How LLMs become intelligent",
+      "text": "Why Scaling Creates Intelligence How LLMs become intelligent Dario Amodei, CEO of Anthropic is interviewed by Dwarkesh Patel : https://www.youtube.com/watch?v=H5QE_27K3CQ Question: What is fundamentally the explanation for why scaling works? Why is the universe organized such that if you throw big blobs and compute at a wide enough distribution of data - the thing becomes intelligent ? Answer: I think we still don't know. It's almost entirely an empirical fact. We don't still have a satisfying explanation. What's not clear at all is why does it scale so smoothly with parameters? Why does it scale so smoothly with the amount of data? You can very predictably see how you become GPT-3 to GPT-4 or Claude-1 to Claude-2. Whether it can predict the next tokens scales very smoothly."
+    },
+    {
+      "index": 5,
+      "title": "NVIDIA GH200 Platform The new just announced GH200",
+      "text": "NVIDIA  GH200 Platform The new just announced GH200 platform should be available in Q2 of 2024 It allows to configure an AI supercomputer with 256 NVIDIA Grace Hopper™ Superchips connected into a singular GPU It offers 144 TBytes of shared memory with linear scalability for giant AI models It uses the Grace Hopper Superchip and NVIDIA NVLink The new HBM3e memory is 50% faster than current HBM3 The new platform runs models 3.5x larger than the previous version, while improving performance with 3x faster memory bandwidth"
+    },
+    {
+      "index": 6,
+      "title": "Google Gemini - updates DeepMind’s Gemini - LLM,",
+      "text": "Google Gemini - updates DeepMind’s Gemini - LLM, expected to be much better than Gpt-4. Because it uses RL (Reinforcement Learning) techniques used in DeepMind's models like AlphaGo for advanced planning, decision making, problem solving. Some techniques: .. reinforcement learning .. tree-of-thought .. exploration / exploitation Also Gemini is multi-modal (text, image, video, ...) Sergey Brin, Google co-founder,  comes back to the office to drive the Gemini AI project ... Demis Hassabis Google DeepMind’s CEO"
+    },
+    {
+      "index": 7,
+      "title": "ChatGPT Recent Upgrades in August Jeremy Howard (",
+      "text": "ChatGPT Recent Upgrades in August Jeremy Howard ( @jeremyphoward ) wrote on Twitter: Now that ChatGPT has rolled out custom instructions to most users, try out this instruction -- it makes GPT 4 far more accurate for me.  ... put in your custom instruction section (or contact before your prompt) You are an autoregressive language model that has been fine-tuned with instruction-tuning and RLHF. You carefully provide accurate, factual, thoughtful, nuanced answers, and are brilliant at reasoning. If you think there might not be a correct answer, you say so. Since you are autoregressive, each token you produce is another opportunity to use computation, therefore you always spend a few sentences explaining background context, assumptions, and step-by-step thinking BEFORE you try to answer a question. Prompt Examples Suggested Replies - helping to continue the conversation GPT-4 is now the default model 50 messages/2 hrs upload up to 10 files - sort, filter, summarize Remain login-ed for 30 days Keyboard shortcuts  (cmd-/ to see the list of shortcuts) ChatGPT still uses old model based on 2021 data, unfortunately, no news about retraining it OpenAI launches a web crawler GPTBot to collect data for future AI models GPTBot filters out data sources that violate privacy and other policies Website owners can choose to restrict or limit GPTBot access"
+    },
+    {
+      "index": 8,
+      "title": "LLM IQ Test vs ARC Test The ARC",
+      "text": "LLM      IQ Test     vs     ARC Test The ARC test, or Abstraction and Reasoning Corpus It is a benchmark for measuring the reasoning abilities of AI systems It was created by François Chollet (Google AI) ARC has problems requiring abstracting from specific examples and applying general principles Inductive reasoning - identify patterns and make inferences Deductive reasoning - reach conclusions from premises Abstract reasoning - think about problems in a general way, without being tied to specific examples Commonsense reasoning - apply knowledge of the world to solve problems Current AI systems (like ChatGPT) solve about 30% of the ARC tasks, while humans solve ~80% Here are some examples of ARC tasks: Given a set of shapes, identify the next shape in the sequence. Given a set of facts, determine whether a new fact is consistent with the existing facts. Given a description of a problem, solve the problem using general principles. François Chollet ChatGPT BROKE the TURING TEST https://www.youtube.com/watch?v=7IG_g3vgDVE ChatGPT got 155 IQ (bettter than 99.9% of Humans): https://www.youtube.com/watch?v=bcXEChbhurg What Does IQ Actually Measure? https://www.youtube.com/watch?v=FkKPsLxgpuY"
+    },
+    {
+      "index": 9,
+      "title": "Gorilla AI (UC Berkeley & Microsoft Research) Gorilla",
+      "text": "Gorilla AI (UC Berkeley & Microsoft Research) Gorilla enables LLMs to invoke APIs of different tools Given a natural language query, Gorilla can write a semantically- and syntactically- correct API calls better than other LLMs fully open-sourced in May 2023 (Apache 2.0) several versions, based on small (7B params) models (LLaMA, Falcon, MPT) fine-tuned on APIBench, a new dataset of API descriptions of ML models from Torch Hub, TensorFlow Hub, and HuggingFace .. https://gorilla.cs.berkeley.edu .. https://github.com/ShishirPatil/gorilla .. https://arxiv.org/abs/2305.15334 - Paper, May 2023 .. Good article \"Meet Gorilla ... \"- https://pub.towardsai.net/meet-gorilla-a-fully-opensource-llm-tuned-for-api-calls-7447c6cbc78 APIBench dataset .. https://huggingface.co/datasets/gorilla-llm/APIBench You can use Gorilla online (for example, on Colab) You can also run Gorilla locally - https://github.com/ShishirPatil/gorilla/blob/main/inference/README.md You can use Gorilla with Langchain, Toolformer, AutoGPT, etc"
+    },
+    {
+      "index": 10,
+      "title": "AI.com => X.AI Elon Musk has bought the",
+      "text": "AI.com  =>  X.AI Elon Musk has bought the domain \"AI.com\" The domain was initially associated with OpenAI, but it now redirects to X.ai Price is unknown, but it is probably more than $4 Mln Elon Musk also owns X.com, which forwards to twitter.com X.com  =>  twitter.com"
+    },
+    {
+      "index": 11,
+      "title": "Microsoft CoDi vs JARVIS vs KOSMOS CoDi, JARVIS",
+      "text": "Microsoft CoDi vs JARVIS vs KOSMOS CoDi, JARVIS and KOSMOS are all AI models developed by Microsoft CoDi ( Composable Diffusion) is a multimodal AI model that can generate intertwined modalities such as temporally aligned video and audio https://github.com/microsoft/i-Code/tree/main/i-Code-V3 https://codi-gen.github.io JARVIS is a conversational AI model that can be used to build chatbots while using multiple models from Hugginface https://github.com/microsoft/JARVIS https://arxiv.org/abs/2303.17580 KOSMOS-2 is a multimodal model (text, images, videos, speech recognition) that can analyze images for content, solve visual puzzles, perform visual text recognition, pass visual IQ tests, and understand natural language instructions https://github.com/microsoft/unilm/tree/master/kosmos-2 Microsoft Project RUMI Multimodal paralinguistic prompting for large language models https://www.microsoft.com/en-us/research/project/project-rumi/ System uses multiple detectors to add info about emotions to LLM prompt (camera, eye tracking, EEG, heart rate, perspiration, speech analysis, intonation, gestures, facial expressions, and everything else besides the actual words)"
+    },
+    {
+      "index": 12,
+      "title": "Meta AudioCraft AudioCraft - generate high-quality audio and",
+      "text": "Meta AudioCraft AudioCraft - generate high-quality audio and music from text Meta open-sourced: MusicGen - generate music AudioGen - generate different sounds EnCodec - compress audio signal https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio/ https://github.com/facebookresearch/audiocraft Uncensored LLaMa 2 is now available Meta is adding chatbots to its platforms and also adding tools to detect AI-generated posts"
+    },
+    {
+      "index": 13,
+      "title": "Stack Overflow - AI question answering Stack Overflow,",
+      "text": "Stack Overflow - AI question answering Stack Overflow, the developers' resource for programming questions, was losing traffic recently - because software engineers haave switched to ChatGPT and Google Bard. So Stack Overflow is fighting back by adding AI to its community answer-database AI-generated \"Influences\" AI-generated \"Influencers\" collect massive number of followers - and business deals"
+    },
+    {
+      "index": 14,
+      "title": "Anthropic, Claude 2 Chat Anthropic is an AI",
+      "text": "Anthropic,    Claude 2 Chat Anthropic is an AI safety and research company from San Francisco, CA Anthropic builds reliable, interpretable, safe and steerable AI systems Anthropic was founded in 2021 by former senior members of OpenAI, principally siblings Daniela Amodei and Dario Amodei Founders: Daniela & Dario Amodei, Jack Clark, Jared Kaplan The Amodei siblings were among others who left OpenAI due to directional differences, specifically regarding OpenAI's ventures with Microsoft in 2019 By late 2022, Anthropic had raised $700 Mln in funding, out of which $500 Mln came from Alameda Research. Google's cloud division followed with an investment of $300 million for a 10% stake, in a deal requiring Anthropic to buy computing resources from Google Cloud In May 2023, Anthropic raised US$450 million in a round led by Spark Capital As of July 2023, Anthropic had raised $1.5 Bln in funding https://en.wikipedia.org/wiki/Anthropic https://www.anthropic.com https://claude.ai/chat/ Daniela & Dario Amodei"
+    },
+    {
+      "index": 15,
+      "title": "How to compete when you can copy an",
+      "text": "How to compete when you can copy an AI startup ... in 3 minutes? How to compete when you can copy an AI startup with Whisper and ChatGPT in 3 minutes? .. https://medium.com/neurons-lab/how-to-compete-when-you-can-copy-an-ai-startup-with-whisper-and-chatgpt-in-3-minutes-27ac9a783be8 Building an AI-powered company .. https://aburachenok.medium.com/building-an-ai-powered-company-69eba4fa6d4f AI startups earn less and are harder to build Cloud computing is getting cheap for everyone. Open-source projects are open to everyone. What do you have that is unique? Most of your business will come from the long tail (\"edge cases\") , and you will never have enough data for it. Infrastructure involves ad-hoc human work (data labeling and edge cases handling)."
+    },
+    {
+      "index": 16,
+      "title": "How People Use ChatGPT ? https://www.demandsage.com/chatgpt-statistics/ Most common",
+      "text": "How People Use ChatGPT ? https://www.demandsage.com/chatgpt-statistics/ Most common uses of ChatGPT.  Really ?"
+    },
+    {
+      "index": 17,
+      "title": "Worldcoin Sam Altman, SEO and co-founder of OpenAI",
+      "text": "Worldcoin Sam Altman, SEO and co-founder of OpenAI has also co-founded Worldcoinwith Alex Blania on July 24, 2023 The goal is to create a globally owned digital currency \" WLD \" by scanning human irises Using and orb device to scan people's eye irises to create a World ID orb scanning device Worldcoin   WLD"
+    },
+    {
+      "index": 18,
+      "title": "Learn Other Language using Bing + ChatGPT Very",
+      "text": "Learn Other Language using Bing + ChatGPT Very good video explaining how to learn language using Bing AI: Bing AI Just KILLED Traditional Language Learning https://www.youtube.com/watch?v=LzEZRvk0Bqg Natural conversation partner. You can control the topics and complexity You can use audio interface ~100 languages Use \"Edge\" browser - or iPhone or Android App ChatGPT Voice Just KILLED Traditional Language Learning https://www.youtube.com/watch?v=_J6e0JHl3C4 (March 2023) AI Just KILLED Traditional Language Learning (ChatGPT) https://www.youtube.com/watch?v=sXOAanKbXAQ (January 2023)"
+    },
+    {
+      "index": 19,
+      "title": "FraudGPT, WormGPT, PoisonGPT FraudGPT - has been circulating",
+      "text": "FraudGPT, WormGPT, PoisonGPT FraudGPT - has been circulating on Telegram Channels since July 22, 2023.  This is an AI bot, exclusively targeted for offensive purposes, such as crafting spear phishing emails, creating cracking tools, carding , etc. For example, a threat actor can draft an email that, with a high-level of confidence, will entice recipients to click on the supplied malicious link. This craftiness would play a vital role in business email compromise (BEC) phishing campaigns on organizations. The tool is currently being sold on various Dark Web marketplaces and the Telegram platform. WormGPT is a 6 Bln parameter model developed in 2021 It has no ethical limits, policies, restrictions It allows Cybercriminals to Launch Sophisticated Cyber Attacks ( phishing and business email compromise (BEC) attacks ) It is described to use open-source GPT-J language model developed by EleutherAI WormGPT has been advertised on underground forums https://thehackernews.com/2023/07/wormgpt-new-ai-tool-allows.html https://www.youtube.com/watch?v=sXqsPlnTkQU PoisonGPT - designed to spread misinformation in sneaky ways . It is possible to \"surgically\" modify an existing open-source AI model to make it spread disinformation - and upload it to a public repository - from there it could be downloaded and used in multiple other applications, leading to what's called an LLM supply chain poisoning"
+    },
+    {
+      "index": 20,
+      "title": "MIT new 3D-LLM spatial awareness MIT - new",
+      "text": "MIT new 3D-LLM spatial awareness MIT - new 3D-LLM spatial awareness https://syncedreview.com/2023/08/02/3d-llm-integrate-3d-world-into-language-models/ 3D-LLM can take 3D points with features and language prompts as input, and perform a variety of 3D-related tasks. For example, it can tell what you will see when standing at certain place and looking in certain direction. The model is aware of its surrounding."
+    },
+    {
+      "index": 21,
+      "title": "Decision Science Data Science is fragmenting. It becomes",
+      "text": "Decision Science Data Science is fragmenting. It becomes siloed and specialised. A Data Scientist used to be a jack-of-all-trades. But today there also Analytics Translators, ML Engineers and Data Ops, ML Scientists, Data Engineering, Visualisation Specialists, etc. Decision Science is a welcome antidote to this confusion. Decision Intelligence: https://towardsdatascience.com/introduction-to-decision-intelligence-5d147ddab767 Decision Intelligence is an interdisciplinary field concerned with all aspects of decision-making. It combines Data Science (statistics, machine learning, AI, analytics) with the Behavioral Sciences (psychology, neuroscience, economics, and the managerial sciences) Decision Scientist: https://towardsdatascience.com/is-decision-science-quietly-becoming-the-new-data-science-5616a12fa9e8 Decision Science is the discipline of turning information into actions AI will turn all of us into Decision Scientists"
+    },
+    {
+      "index": 22,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates August 11, 2023 Presented by Lev",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates August 11, 2023 Presented by Lev",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFaceH4/open_llm_leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Model Average ⬆️ ARC HellaSwag MMLU",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 3,
+      "slideTitle": "HuggingFaceH4/open_llm_leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Model Average ⬆️ ARC HellaSwag MMLU",
+      "source": "slide"
+    },
+    {
+      "claim": "Why Scaling Creates Intelligence How LLMs become intelligent",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 4,
+      "slideTitle": "Why Scaling Creates Intelligence How LLMs become intelligent",
+      "source": "slide"
+    },
+    {
+      "claim": "NVIDIA GH200 Platform The new just announced GH200",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 5,
+      "slideTitle": "NVIDIA GH200 Platform The new just announced GH200",
+      "source": "slide"
+    },
+    {
+      "claim": "Google Gemini - updates DeepMind’s Gemini - LLM,",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 6,
+      "slideTitle": "Google Gemini - updates DeepMind’s Gemini - LLM,",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT Recent Upgrades in August Jeremy Howard (",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 7,
+      "slideTitle": "ChatGPT Recent Upgrades in August Jeremy Howard (",
+      "source": "slide"
+    },
+    {
+      "claim": "LLM IQ Test vs ARC Test The ARC",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 8,
+      "slideTitle": "LLM IQ Test vs ARC Test The ARC",
+      "source": "slide"
+    },
+    {
+      "claim": "Gorilla AI (UC Berkeley & Microsoft Research) Gorilla",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 9,
+      "slideTitle": "Gorilla AI (UC Berkeley & Microsoft Research) Gorilla",
+      "source": "slide"
+    },
+    {
+      "claim": "AI.com => X.AI Elon Musk has bought the",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 10,
+      "slideTitle": "AI.com => X.AI Elon Musk has bought the",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft CoDi vs JARVIS vs KOSMOS CoDi, JARVIS",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 11,
+      "slideTitle": "Microsoft CoDi vs JARVIS vs KOSMOS CoDi, JARVIS",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta AudioCraft AudioCraft - generate high-quality audio and",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=gOxEjANA7_M",
+      "slideIndex": 12,
+      "slideTitle": "Meta AudioCraft AudioCraft - generate high-quality audio and",
+      "source": "slide"
+    }
+  ]
+}

@@ -19,6 +19,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: data-refresh
@@ -35,11 +37,14 @@ jobs:
           node-version: "22"
           cache: npm
 
-      - name: Install yt-dlp
-        run: sudo apt-get update && sudo apt-get install -y yt-dlp
+      - name: Install yt-dlp (latest release)
+        run: bash scripts/ci-install-yt-dlp.sh
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Probe YouTube access
+        run: node scripts/probe-youtube.mjs
 
       - name: Delta ingest and rebuild
         env:
@@ -52,6 +57,7 @@ jobs:
           if [ "$PARSE" = "1" ]; then ARGS+=(--parse); fi
           node scripts/refresh-recent.mjs "${ARGS[@]}"
           npm run build
+          npm run validate
 
       - name: Commit and push data changes
         run: |
@@ -64,3 +70,24 @@ jobs:
           fi
           git commit -m "data: delta refresh from GitHub Actions"
           git push
+
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

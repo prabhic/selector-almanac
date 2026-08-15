@@ -1,0 +1,653 @@
+{
+  "id": "2026-01-09-2026-01-09-ai-updates",
+  "date": "2026-01-09",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "google",
+    "openai",
+    "infra",
+    "safety",
+    "agents",
+    "open-models",
+    "rag",
+    "claude",
+    "coding",
+    "jobs"
+  ],
+  "video": {
+    "id": "_y6GP23mK7A",
+    "title": "Have you heard these exciting AI news? - January 09, 2026 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=_y6GP23mK7A",
+    "thumbnail": "https://i.ytimg.com/vi/_y6GP23mK7A/hqdefault.jpg",
+    "duration": 1545
+  },
+  "deck": {
+    "path": "2026/2026-01-09-AI-Updates.pptx",
+    "filename": "2026-01-09-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-01-09-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-01-09-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "startSeconds": 23,
+      "label": "00:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Best 14-40B Params Open LLMs",
+      "startSeconds": 75,
+      "label": "01:15",
+      "source": "youtube"
+    },
+    {
+      "title": "New Moore's Law - 2x every 4 months",
+      "startSeconds": 109,
+      "label": "01:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Yann LeCun AMI Startup",
+      "startSeconds": 154,
+      "label": "02:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini AI in Gmail",
+      "startSeconds": 239,
+      "label": "03:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Shameless plug for my channel",
+      "startSeconds": 276,
+      "label": "04:36",
+      "source": "youtube"
+    },
+    {
+      "title": "ChatGPT Health",
+      "startSeconds": 310,
+      "label": "05:10",
+      "source": "youtube"
+    },
+    {
+      "title": "CES 2026 Consumer Electronics Show",
+      "startSeconds": 335,
+      "label": "05:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Alpamayo & Cosmos",
+      "startSeconds": 421,
+      "label": "07:01",
+      "source": "youtube"
+    },
+    {
+      "title": "Nvidia Rubin Supercomputer Platform",
+      "startSeconds": 447,
+      "label": "07:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Humanoid Robots Security Problems",
+      "startSeconds": 474,
+      "label": "07:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Google ADK - Agent Development Kit",
+      "startSeconds": 511,
+      "label": "08:31",
+      "source": "youtube"
+    },
+    {
+      "title": "MIT RLM - Recursive Language Model",
+      "startSeconds": 592,
+      "label": "09:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Tencent HY-Motion 1.0",
+      "startSeconds": 656,
+      "label": "10:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Combining Tools and Models",
+      "startSeconds": 668,
+      "label": "11:08",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek MHC",
+      "startSeconds": 709,
+      "label": "11:49",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Changes Structure of Startups",
+      "startSeconds": 813,
+      "label": "13:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Lightricks LTX-2 Open-Source Video Model",
+      "startSeconds": 865,
+      "label": "14:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Memory Shortage Causes GPU Price Increase",
+      "startSeconds": 907,
+      "label": "15:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic raised $10 Bln at $350 Bln Valuation",
+      "startSeconds": 922,
+      "label": "15:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code 2.1.0 Released January 7",
+      "startSeconds": 935,
+      "label": "15:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Boris Cherny Work Setup",
+      "startSeconds": 976,
+      "label": "16:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Google's Gemini CLI - Agent Skills",
+      "startSeconds": 1045,
+      "label": "17:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Oh My Open Code Framework",
+      "startSeconds": 1059,
+      "label": "17:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Rocket.new - text to app Framework",
+      "startSeconds": 1080,
+      "label": "18:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Julia McCoy - AI Business Model",
+      "startSeconds": 1101,
+      "label": "18:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Karpathy's LLM Council",
+      "startSeconds": 1247,
+      "label": "20:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Create Content for for AI chat citations",
+      "startSeconds": 1307,
+      "label": "21:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Correlation versus causality",
+      "startSeconds": 1406,
+      "label": "23:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs, Layoffs, demand for AI Engineers",
+      "startSeconds": 1530,
+      "label": "25:30",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Leaderboard Best 14-40B Params Open",
+      "text": "Crowd-sourced \"LM Arena\" Leaderboard Best 14-40B Params Open LLMs New Moore's Law - 2x every 4 months Yann LeCun AMI Startup Gemini AI in Gmail AI Updates - Jan 0 9 , 2026 Julia McCoy - AI Business Model Karpathy's LLM Council Create Content for for AI chat citations Correlation versus causality Jobs, Layoffs, demand for AI Engineers ChatGPT Health CES 2026 Consumer Electronics Show Nvidia Alpamayo & Cosmos Nvidia Rubin Supercomputer Platform Humanoid Robots Security Problems Google ADK - Agent Development Kit MIT RLM - Recursive Language Model Tencent HY-Motion 1.0 Combining Tools and Models DeepSeek  MHC AI Changes Structure of Startups Lightricks LTX-2 Open-Source Video Model Memory Shortage Causes GPU Price Increase Anthropic raised $10 Bln at $350 Bln Valuation Claude Code 2.1.0 Released January 7 Boris Cherny Work Setup Google's Gemini CLI - Agent Skills Oh My Open Code Framework Rocket.new - text to app Framework \"Machine intelligence is the last invention that humanity will ever need to make.\" - Nick Bostrom"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding https://lmarena.ai/leaderboard/text Design Arena - https://www.designarena.ai https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai Web Leaderboard -  1T params https://web.lmarena.ai/leaderboard LLM Leaderboard - by @LlmStats - https://llmworld.net/llm_leaderboards/ LLM Leaderboard - by StackAI - https://www.stack-ai.com/llm-leaderboard LLM Leaderboard - by Artificial Analysis - https://artificialanalysis.ai/leaderboards/models Open LLM Leaderboard - by Hugging Face - https://huggingface.co/open-llm-leaderboard LLM Leaderboard - by Vellum - https://www.vellum.ai/llm-leaderboard AI Benchmarking Hub - https://epoch.ai/data/ai-benchmarking-dashboard Grok 4 Benchmarks - https://artificialanalysis.ai/models/grok-4 Image arena (alibaba) - http://aiarena.alibaba-inc.com/corpora/arena/leaderboard?arenaType=T2I image arena - https://lmarena.ai/leaderboard/text-to-image China Data for December 30 China x.ai x.ai x.ai x.ai x.ai China China Google Gemini Claude OpenAI Open Source China China Model Score claude-opus-4-5-20251101-thinking-32k 1542 claude-sonnet-4-5-20250929-thinking-32k 1525 gemini-3-pro 1519 claude-opus-4-5-20251101 1515 claude-opus-4-1-20250805-thinking-16k 1514 grok-4.1-thinking 1509 gemini-3-flash 1507 claude-sonnet-4-5-20250929 1506 claude-opus-4-1-20250805 1499 gemini-3-flash (thinking-minimal) 1499 claude-opus-4-20250514-thinking-16k 1495 gpt-5.2-high 1493 grok-4.1 1493 gpt-5.1-high 1491 gpt-5.2 1483 kimi-k2-thinking-turbo 1482 glm-4.7 1482 qwen3-max-preview 1481 gpt-5.1 1478 qwen3-max-2025-09-23 1475 longcat-flash-chat 1475 claude-haiku-4-5-20251001 1474 deepseek-v3.2-exp-thinking 1472 gemini-2.5-pro 1470 Model Score gemini-3-pro 1490 gemini-3-flash 1480 grok-4.1-thinking 1477 claude-opus-4-5-20251101-thinking-32k 1470 claude-opus-4-5-20251101 1467 grok-4.1 1466 gemini-3-flash (thinking-minimal) 1464 gpt-5.1-high 1458 gemini-2.5-pro 1451 claude-sonnet-4-5-20250929-thinking-32k 1450 claude-opus-4-1-20250805-thinking-16k 1448 ernie-5.0-preview-1203 1448 claude-sonnet-4-5-20250929 1446 gpt-5.2 1443 gpt-4.5-preview-2025-02-27 1443 claude-opus-4-1-20250805 1442 chatgpt-4o-latest-20250326 1441 gpt-5.2-high 1439 glm-4.7 1439 gpt-5.1 1438 gpt-5-high 1436 o3-2025-04-16 1434 qwen3-max-preview 1434 grok-4-1-fast-reasoning 1431 China China China"
+    },
+    {
+      "index": 3,
+      "title": "Best 14-40B Params Open LLMs top open-source medium-sized",
+      "text": "Best 14-40B Params Open LLMs top open-source medium-sized LLMs (mostly 14-40B parameters) for fine-tuning and local deployment: Name Size (Params) Architecture Quality Score Memory Qwen3-235B-A22B 235B (22B active) MoE 9.2/10 ~470GB (FP16), ~118GB (4-bit) MiniMax M2 230B (10B active) MoE 8.8/10 ~460GB (FP16), ~115GB (4-bit) GLM-4.7 355B (32B active) MoE 9.0/10 ~710GB (FP16), ~178GB (4-bit) Qwen3-30B-A3B-Instruct 30B (3B active) MoE 8.5/10 ~60GB (FP16), ~15GB (4-bit) NVIDIA Nemotron-3-Nano-30B-A3B 30B (3B active) MoE 8.3/10 ~60GB (FP16), ~15GB (4-bit) Granite 4.0 H-Small 32B (9B active) Hybrid MoE 8.3/10 ~64GB (FP16), ~16GB (4-bit) OLMo 3 32B 32B Dense 8.6/10 ~64GB (FP16), ~16GB (4-bit) Qwen2.5-32B-Instruct 32B Dense 8.4/10 ~64GB (FP16), ~16GB (4-bit) OLMo 2 32B 32B Dense 8.5/10 ~64GB (FP16), ~16GB (4-bit) DeepSeek-R1-Distill-Qwen-32B 32B Dense 8.2/10 ~64GB (FP16), ~16GB (4-bit) Qwen2.5-Coder-32B-Instruct 32B Dense 8.1/10 ~64GB (FP16), ~16GB (4-bit) Mistral Small 3.1 24B 24B Dense 8.4/10 ~48GB (FP16), ~12GB (4-bit) Devstral Small 2 24B 24B Dense 8.0/10 ~48GB (FP16), ~12GB (4-bit) Gemma 3-27B 27B Dense 7.8/10 ~54GB (FP16), ~14GB (4-bit) OLMo 2 13B 13B Dense 7.5/10 ~26GB (FP16), ~7GB (4-bit) Phi-4 14B Dense 7.6/10 ~28GB (FP16), ~7GB (4-bit) Ministral 3-14B (dense) 14B Dense 7.4/10 ~28GB (FP16), ~7GB (4-bit) Qwen2.5-14B-Instruct 14B Dense 7.5/10 ~28GB (FP16), ~7GB (4-bit) OLMo 3 7B 7B Dense 7.2/10 ~14GB (FP16), ~4GB (4-bit)"
+    },
+    {
+      "index": 4,
+      "title": "New Moore's Law - 2x every 4 months",
+      "text": "New Moore's Law - 2x every 4 months New Moore's Law - 2x every 4 months Original Moore's Law - doubling every 2 years (1975 revision) The length of coding tasks frontier systems can complete is growing exponentially - doubling every 7 months . Recently, the trend has accelerated In 2024-2025, time horizons doubled every 4 months , down from every 7 months over 2019-2025 https://theaidigest.org/time-horizons https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/ https://en.wikipedia.org/wiki/Moore%27s_law"
+    },
+    {
+      "index": 5,
+      "title": "Yann LeCun AMI Startup Yann LeCun startup AMI",
+      "text": "Yann LeCun AMI Startup Yann LeCun startup AMI (\"Advanced Machine Intelligence Labs\") Launched in 2026 in Paris, France (LeCun is French) Seeking to raise €500 million (~$586 million) at a valuation €3 .. €5 billion before even officially launching LeCun - Executive Chairman, Alex LeBrun - CEO Technology Focus: World Models These systems train on video and spatial data rather than text alone to understand how the physical world works, enabling them to plan, reason, and maintain persistent memory over time The technology builds on V-JEPA architecture LeCun created at Meta LeCun has been vocal that \"we are not going to get to human-level AI just by scaling LLMs\" because they simply predict text rather than truly understand the world AMI Labs has formed a strategic partnership with health-tech company Nabla (Alex LeBrun) They will develop FDA-certifiable AI agents for healthcare"
+    },
+    {
+      "index": 6,
+      "title": "Gemini AI in Gmail Google announced major Gemini",
+      "text": "Gemini AI in Gmail Google announced major Gemini AI updates for Gmail on Jan 7-8 Expanding AI to all of Gmail's 3+ billion users Email Thread Summaries AI Overviews in Search Enhanced Writing Tools Smarter Suggested Replies AI Inbox view (Coming Soon) - replaces chronological email lists with a personalized briefing. This view automatically highlights to-dos, pending bills, upcoming appointments, and emails from important contacts The updates are rolling out gradually, starting with English-speaking users in the United States https://www.youtube.com/watch?v=RrHSIC7Sey8 - video"
+    },
+    {
+      "index": 7,
+      "title": "We do these weekly videos every Friday Stats:",
+      "text": "We do these weekly videos every Friday Stats: 5.97K subscribers, 260 videos Subscribe to this channel https://www.youtube.com/@lev-selector Download slides from GitHub using links under the videos Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 8,
+      "title": "ChatGPT Health ChatGPT Health Prepare for a doctor’s",
+      "text": "ChatGPT Health ChatGPT Health Prepare for a doctor’s appointment Choose the right insurance plan for you Personalized nutrition tips Securely connecting your information and apps with ChatGPT Health When you choose to connect your health data, such as medical records or wellness apps, your responses are grounded in your own health information. You can also connect your Apple Health information and other wellness apps, such as Function, MyFitnessPal, Peloton Apps may only be connected to your health data with your explicit permission"
+    },
+    {
+      "index": 9,
+      "title": "CES 2026 Consumer Electronics Show CES 2026 Consumer",
+      "text": "CES 2026 Consumer Electronics Show CES 2026 Consumer Electronics Show Las Vegas January 5-8 - AI, robotics, semiconductors, consumer electronics Nvidia CEO Jensen Huang dominated the show with major announcements including Cosmos, an AI foundation model trained to replicate real-world physics, and Alpamayo, a specialized AI model for autonomous vehicles. He also revealed that Nvidia's next-generation AI superchip platform, Vera Rubin, has entered full-scale production AMD CEO Lisa Su introduced new Ryzen AI processors for AI-driven personal computing and the Ryzen 9 85X3D for gaming enthusiasts She also unveiled the Helios rack-scale system for the Instinct MI445X GPU and previewed next-generation MI500 chips Intel announced Core Ultra 3 PC processors (Panther Lake) and plans for a handheld gaming device platform Qualcomm showcased the Snapdragon X 2 for AI applications Robotics everywhere Lenovo - Qira AI platform, new ThinkPads in the Aura edition, and Motorola's first book-style folding phone, the Razr Fold Google presented Gemini 3 integration with Google TV for natural language searches and image editing Samsung showcased the Galaxy Zifold in the United States for the first time, featuring built-in AI functionalities TCL announced the RayNeo Air 4 Pro smart glasses with HDR-capable Micro-OLED displays Siemens unveiled the Digital Twin Composer, launching mid-year on the Siemens Xcelerator Marketplace, which combines digital twin technology with Nvidia Omniverse simulations for visualizing products, processes, and plants in virtual 3D Caterpillar CEO Joe Creed introduced the Cat AI Assistant, bringing the company's digital ecosystem into one conversational interface for construction sites Atlas"
+    },
+    {
+      "index": 10,
+      "title": "Nvidia Alpamayo & Cosmos NVIDIA Alpamayo - Open",
+      "text": "Nvidia Alpamayo & Cosmos NVIDIA Alpamayo - Open AI for Driving Full stack autonomous driving framework Open AI models, simulation, and datasets for reasoning-based autonomous vehicles Using synthetic data for training Kosmos https://www.nvidia.com/en-us/solutions/autonomous-vehicles/alpamayo/ NVIDIA Cosmos - A platform for physical AI, featuring state-of-the-art generative world foundation models (WFMs), https://www.nvidia.com/en-us/ai/cosmos/ Announced at Consumer Electronics Show (CES) Jan 6-9, 2006 in Las Vegas Nvidia Rubin Supercomputer Platform Nvidia announced the Vera Rubin platform at CES 2026, their next-generation AI architecture succeeding Blackwell The system delivers 10x cost reduction in inference and 4x reduction in GPUs required to train mixture-of-experts models compared to Blackwell Rubin comprises six chips forming one AI supercomputer, including Vera CPU and Rubin GPUs The platform uses 45°C hot water cooling without requiring water chillers, making it highly power efficient Each system contains 1,152 GPUs across 16 racks, with 72 Rubins per rack. The platform is already in production and will be available to partners later in 2026"
+    },
+    {
+      "index": 11,
+      "title": "Humanoid Robots Security Problems Humanoid Robot Unitree G1",
+      "text": "Humanoid Robots Security Problems Humanoid Robot Unitree G1 can be purchased online, but there are problems with their security Video \"39C3 -: From Embodied AI Jailbreak to Remote Takeover of Humanoid Robots\" by the security research group Dark Navy. http://www.youtube.com/watch?v=qjA__5-Bybs Security analysis of the Unitree G1 humanoid robot, demonstrate  how researchers were able to bypass security measures to gain full remote control and jailbreak the device to unlock premium features. Key Vulnerabilities and Attacks: Remote Control Hijacking (RF Layer): Network Service Exploits - Bluetooth Command Injection, Authentication Bypass, Cloud Token Theft AI and LLM Attacks: LLM voice assistant, Unsafe Code Execution using eval(), Prompt Injection, redirecting the LLM API traffic via a WebRTC interface Jailbreaking and \"Unlock\" Features - De-obfuscating Code, Runtime Patching, Physical Accessvia hidden internal Ethernet interface Conclusion - security is bad"
+    },
+    {
+      "index": 12,
+      "title": "Google ADK - Agent Development Kit Google ADK",
+      "text": "Google ADK - Agent Development Kit Google ADK - Agent Development Kit - Open Source Architecting efficient context-aware multi-agent framework for production https://developers.googleblog.com/en/architecting-efficient-context-aware-multi-agent-framework-for-production/ ADK is addressing the critical challenge of managing large context  in production-grade AI agent systems Rather than relying solely on ever-larger context windows, ADK structures context, uses compressed summaries, searching for only relevant data, etc - treating context as a first-class architectural concern requiring systematic engineering Context length explosion causes problems: increased latency from processing massive contexts, escalating token costs, and reduced accuracy as critical information gets buried in noise The framework separates three distinct layers: Session State (the ground truth storage of all events), Working Context (an ephemeral, model-specific view compiled for each invocation), Memory/Artifacts (external searchable knowledge and large data objects). Agents use Context Compilation Pipeline to transform the Session's event stream into a Working Context by filtering events, formatting them for specific model APIs, and applying compaction or caching strategies When sessions exceed configurable thresholds, ADK triggers asynchronous compaction that uses an LLM to summarize older events over sliding windows , writing summaries back as new events. This reduces token usage while preserving conversation history ADK also supports context caching by dividing the context window into a stable prefix (instructions and identity) and dynamic suffix (recent history), allowing inference engines to reuse attention computation across calls Relevance Management - Instead of dumping all data into prompts, ADK uses two specialized patterns: Artifacts—large objects like CSVs or PDFs—live in an external store, with agents seeing only lightweight references until they explicitly load specific items using LoadArtifactsTool The Memory layer - provides searchable, long-lived knowledge from past sessions that agents retrieve on-demand rather than carrying permanently Multi-Agent Context Scoping - ADK prevents context explosion in multi-agent systems by allowing explicit control over what sub-agents see during handoffs Developers can configure whether a called agent receives full conversation history, only the latest query, or a custom subset When transferring control, ADK reframes the conversation from each agent's perspective, translating prior agents' messages into contextual references to prevent role confusion"
+    },
+    {
+      "index": 13,
+      "title": "MIT RLM - Recursive Language Model MIT researchers",
+      "text": "MIT RLM - Recursive Language Model MIT researchers developed a Recursive Language Model (RLM) It extends GPT-5's effective context window from its failing point at 16-33K tokens to 1 million tokens and beyond It treats long prompts as external environment files rather than feeding them directly into the transformer The LLM writes Python code to programmatically chunk, inspect, and recursively process data through spawned sub-instances of itself, similar to an operating system using virtual memory On complex reasoning tasks with quadratic complexity, standard GPT-5 achieves only 0.04% accuracy at 32K context while costing $0.16. RLM-wrapped GPT-5 achieves 58% accuracy for $0.33 - doubling the cost but delivering over 1000x performance improvement. The architecture has three components: a root LLM that generates orchestration code, deterministic Python execution handling loops and logic, recursive sub-LLM instances that perform actual text processing and summarization. This demonstrates that neural attention mechanisms alone are insufficient for large-scale reasoning over information-dense tasks Symbolic logic structures help maintain coherence and avoid hallucination https://arxiv.org/pdf/2512.24601v1 - paper"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Tencent HY-Motion 1.0 A Billion-Parameter Text-to-Motion",
+      "text": "AI Updates Tencent HY-Motion 1.0 A Billion-Parameter Text-to-Motion Model Built on the Diffusion Transformer (DiT) Architecture and Flow Matching https://www.marktechpost.com/2025/12/31/tencent-released-tencent-hy-motion-1-0-a-billion-parameter-text-to-motion-model-built-on-the-diffusion-transformer-dit-architecture-and-flow-matching/ Combining Tools and Models Claude Code + GLM-4.7 AntiGravity + ClaudeCode (Gemini & Claude models) https://www.youtube.com/watch?v=tK2MOxGsB-o Gemini CLI + Conductor plugin + GLM-4.7 Kilo Code + MiniMax M2.1 OpenCode + MiniMax M2.1 etc."
+    },
+    {
+      "index": 15,
+      "title": "DeepSeek MHC DeepSeek published research introducing Manifold-Constrained Hyperconnections",
+      "text": "DeepSeek  MHC DeepSeek published research introducing Manifold-Constrained Hyperconnections (MHC) , a new AI architecture that challenges the decade-old residual connection design used in all major models Traditional residual connections create a bottleneck by forcing information through a narrow single stream. Previous attempts to widen this with hyper connections failed due to training instability and sudden collapse MHC solves this by mathematically constraining how multiple information streams mix, using the Sinkhorn-Knopp algorithm to keep signal strength constant while allowing controlled information redistribution DeepSeek tested this on models from 3 to 27 billion parameters, showing significant performance gains on reasoning tasks - for example, their 27B model jumped from 46.7 to 53.8 on GSM8K math benchmarks. Through custom GPU kernels and memory optimization, they expanded internal data flow by 400% while increasing training time only 6.7%. The openly published research follows their R1 model release that disrupted the industry, and may appear in their upcoming R2 or V4 models. This architectural innovation addresses both stability and efficiency, potentially reshaping how large AI models are built. https://www.youtube.com/watch?v=0rinBUI6ViE - video https://www.arxiv.org/abs/2512.24880 - paper https://www.youtube.com/watch?v=HmhV76_3nuA - amination Transformer architecture fundamentally relies on residual connections . They exist since the original transformer design and appear in both the encoder and decoder. Residual connections are applied around each sub-layer within transformer blocks (around the self-attention mechanism and the feedforward neural network) in each layer RCs mitigate vanishing gradients by providing direct pathways for gradient flow during backpropagation, which is crucial when training deep networks They also enable the construction of much deeper transformer architectures without performance degradation, allowing models to capture complex long-range dependencies in sequential data"
+    },
+    {
+      "index": 16,
+      "title": "AI Changes Structure of Startups AI fundamentally changes",
+      "text": "AI Changes Structure of Startups AI fundamentally changes how startups organize Traditional hierarchies optimize for control over creativity AI now enables single person to accomplish what previously required entire teams Speed over coordination. The fastest seed-stage companies optimize for shipping speed, creative iteration, and decision velocity Early hires should own outcomes not functions, with AI handling repetitive work while humans provide judgment and critical decisions Teams work as integrated units rather than departments Success requires hiring adaptable people who experiment thoughtfully with AI rather than rejecting or blindly trusting it Leadership in flat organizations demands clear vision and designing systems that enable movement rather than micromanaging The strongest founders delegate early, know when to trust or override AI, and create clean boundaries between automated and human work Companies structured for speed will outpace those using outdated models. https://www.youtube.com/watch?v=S06CDLDiFhk"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates Lightricks LTX-2 Open-Source Video Model Generates",
+      "text": "AI Updates Lightricks LTX-2 Open-Source Video Model Generates up to 20-sec videos at 4K resolution and 50 frames per second with synchronized audio and accurate lip sync Users can control first and last frames to chain clips together The model includes LoRA adapters for customization LTX-2 is optimized for consumer GPUs like the RTX 5090 Ranks #1 on the artificial analysis open weights leaderboard https://ltx.io/model/model-blog/ltx-2-is-now-open-source https://github.com/Lightricks/LTX-2 Anthropic raised $10 Bln at $350 Bln Valuation This nearly doubles its valuation from four months prior Memory Shortage Causes GPU Price Increase Price of RTX 5090 could rise from $2K to $5K Memory component scarcity is affecting supply chains"
+    },
+    {
+      "index": 18,
+      "title": "Claude Code 2.1.0 Released January 7 Automatic skill",
+      "text": "Claude Code 2.1.0 Released January 7 Automatic skill hot-reload - skills created or modified in `~/.claude/skills` or `.claude/skills` immediately available without restarting sessions Skills now show progress while executing, displaying tool uses as they happen Skills can now run in forked sub-agent contexts using `context: fork` in frontmatter, preventing unintended side effects on the main agent's state Skills support an `agent` field to specify which agent type should execute them Enhanced hooks - support across agents, skills, and slash commands with PreToolUse, PostToolUse, and Stop logic Agent frontmatter can now define hooks scoped to the agent's lifecycle PreToolUse hooks can modify tool inputs when returning `ask` permission decisions Subagents resilience improvements - they now continue working after permission denial by exploring alternative approaches rather than halting entirely Session teleportation via `/teleport` and `/remote-env` commands allows resuming sessions between local terminals and claude.ai/code Wildcard tool permissions like `Bash(npm *)` or `Bash(*-h*)` simplify rule configuration with fewer entries Permission prompts received UX improvements with cleaner input labels and contextual placeholders Shift+Enter now works out of the box in iTerm2, WezTerm, Ghostty, and Kitty without configuration changes A new language setting supports workflows requiring outputs in specific languages like Japanese or Spanish, eliminating post-processing steps New Vim motions include `;` and `,` to repeat f/F/t/T motions, `y` operator for yank with `yy`/`Y`, `p`/`P` for paste, text objects (`iw`, `aw`, `i\"`, `a\"`, etc.), `>>` and `<<` for indent/dedent, and `J` to join lines MCP servers can now send `list_changed` notifications to dynamically update tools and resources without reconnection Unified Ctrl+B backgrounding works for both bash commands and agents simultaneously The `/plan` command provides quick entry to plan mode directly from prompts The release also includes a critical security fix preventing OAuth tokens, API keys, and passwords from appearing in debug logs plus 45+ bug fixes addressing session persistence, file discovery, and API context overflow issues"
+    },
+    {
+      "index": 19,
+      "title": "Boris Cherny Work Setup Boris Cherny, creator of",
+      "text": "Boris Cherny Work Setup Boris Cherny, creator of Claude Code at Anthropic , shared his detailed workflow - running multiple AI coding sessions in parallel Cherny runs 5 Claude CLI sessions simultaneously in his terminal, numbering tabs 1-5 and using system notifications to track when each session needs input He also runs 5-10 additional sessions on claude.ai/code in parallel with his local sessions, treating them as one fluid workflow The CLI and web interfaces aren't separate - sessions can be handed off between them using the `&` operator to send tasks to the web or the `--teleport` command to pull web sessions back to the terminal To avoid conflicts when running parallel agents, Cherny uses separate git checkouts for each session If something goes wrong, pressing escape twice cancels the session and rolls back changes https://www.youtube.com/watch?v=aqtseECSdtY CLAUDE.md for Shared Context Cherny's team maintains a single CLAUDE.md file at the repo root that every Claude session automatically reads. This file captures project conventions, expectations, and lessons learned—especially mistakes Claude has made that shouldn't be repeated. The team updates it multiple times per week, and it serves as shared memory across all sessions, keeping behavior consistent even when running multiple agents. During code reviews, tagging `@claude` on pull requests automatically adds new learnings to CLAUDE.md through a GitHub Action Handing Off Between Terminal and Web The web interface acts as a session manager for longer-running or background tasks. When a task is well-defined in the terminal, Cherny uses the `&` prefix to create a new web session that persists even after closing the laptop. These sessions can be monitored from anywhere, including from a phone The `/teleport` command brings web sessions back into the terminal for hands-on work Cherny almost always starts in Plan Mode (accessed by pressing Shift+Tab twice) to iterate on a solid plan before writing code Once the plan is good, he switches to \"accept edits on\" mode and lets Claude execute the entire implementation in one shot This approach significantly improves results compared to jumping straight into coding Verification and Quality The most important factor for quality is giving Claude a way to verify its own work, which can improve quality 2-3×. For example, Claude uses a Chrome extension to test UI changes and ensure the user experience feels good This self-verification capability combined with the continuously improving CLAUDE.md file creates a workflow where the system gets smarter over time"
+    },
+    {
+      "index": 20,
+      "title": "Google's Gemini CLI - Agent Skills Google's Gemini",
+      "text": "Google's Gemini CLI - Agent Skills Google's Gemini CLI version 0.23.0 introduced experimental support for Agent Skills, following Anthropic's earlier implementation of the same feature for Claude This update enables the terminal-based AI agent to dynamically load specialized expertise for specific tasks without cluttering the context window Agent Skills allow users to extend Gemini CLI with modular, task-specific capabilities including specialized expertise, procedural workflows, and domain-specific resources Skills are discovered from three tiers: .. project-level (`.gemini/skills/`), .. user-level (`~/.gemini/skills/`), .. and extension-bundled skills To enable the feature, users must install the preview build (`npm install -g @google/gemini-cli@preview`), activate it in `/settings`, and toggle the experimental skills option Skills can be managed via the `/skills` command to list, enable, disable, or reload available capabilities The release also includes full integration of Gemini Conductor, which brings context-driven development by storing project context in persistent markdown files alongside code https://www.youtube.com/watch?v=pK-EvgvR_ms"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates Oh My Open Code Framework https://github.com/code-yeongyu/oh-my-opencode",
+      "text": "AI Updates Oh My Open Code Framework https://github.com/code-yeongyu/oh-my-opencode https://www.youtube.com/watch?v=YuKUMEDGTF0 Enhances the open-source AI coding agent OpenCode by adding advanced multi-agent orchestration capabilities"
+    },
+    {
+      "index": 22,
+      "title": "Rocket.new - text to app Framework Rocket.new -",
+      "text": "Rocket.new - text to app Framework Rocket.new - text to app Framework Includes backend infrastructure, integrations, and deployment \"vibe solutioning\" to transform single-sentence descriptions into working applications Automatically handles database schema generation, authentication configuration, API endpoint creation, payment gateway integration, and cloud infrastructure provisioning It supports multiple AI models including OpenAI, Claude, Gemini, and Perplexity, allowing users to orchestrate different models within a single application Generates clean React and Next.js code with TypeScript support, and can also build Flutter mobile apps that can be downloaded as APKs and installed directly on devices All generated code is exportable and can be pushed to GitHub or self-hosted, giving users full ownership rather than locking them into a proprietary platform The platform includes over 100 structured commands that perform specific actions like adding Stripe payments or fixing layout issues. It integrates seamlessly with services including Supabase for databases, Stripe for payments, and Resend for email functionality. A Figma import feature translates design hierarchies into responsive, interactive components rather than just converting pixels https://www.rocket.new https://www.youtube.com/watch?v=S2MP49Xr9PI The interface combines a chat window, live preview, visual editor, and code panel that sync in real-time, allowing users to interact at whichever layer they prefer. The platform also offers a mobile companion app for tracking builds and reviewing projects on the go Rocket.new offers a free tier with 1 Mln tokens, though data may be used for training at this level. Paid plans start at $25/month for the Personal plan with 5 million tokens, and $50/month for the Rocket plan with over 10 million tokens. Users can opt out of data training on paid plans The platform raised $15 million in seed funding led by Salesforce Ventures in September 2025, just three months after launching in beta. Since launch, it has attracted over 400,000 users across 180 countries, including more than 10,000 paid subscribers, and reached $4.5 million in annual recurring revenue. The company projects scaling to $20-25 million in revenue by year-end and $60-70 million by mid-2026"
+    },
+    {
+      "index": 23,
+      "title": "Julia McCoy - AI Business Model How AI",
+      "text": "Julia McCoy - AI Business Model How AI Brings Me Customers on Autopilot (While I Sleep) - by Julia McCoy - https://www.youtube.com/watch?v=PbNdaP0szhw Julia McCoy demonstrates her AI-powered customer acquisition system that generates millions of impressions monthly She uses Claude Projects to create YouTube scripts , then deploys an AI clone ( HeyGen, ElevenLabs ) to deliver content while a production team handles editing Her strategy focuses exclusively on YouTube , publishing 3-4 long-form videos weekly, which are repurposed into shorts, tweets, LinkedIn posts, and emails Her business model features a three-tier funnel: 1. free YouTube content 2. leads to a $250 AI training program (AI Labs) 3. or $10,000 consulting services With 320,000 monthly YouTube views generating 1,500-2,000 email subscribers , she converts approximately 185 AI Labs sales and 6 consulting clients monthly, totaling around $106,000 She employs a small team including video producers, community managers, and AI integrators She spends just 12-17 hours weekly on strategic work while AI and her team handle execution The video provides a detailed roadmap for building a similar automated business system from scratch Julia McCoy"
+    },
+    {
+      "index": 24,
+      "title": "Karpathy's LLM Council Jacob Ben-David forked and enhanced",
+      "text": "Karpathy's LLM Council Jacob Ben-David forked and enhanced the \"LLM Council\" by Andrej Karpathy Karpathy's original tool sends queries to multiple LLMs, has them rate each other's responses, then uses a \"Chairman\" model to synthesize the final answer Jacob's fork improvements: Multi-Provider API Support - managing API keys across multiple providers including OpenRouter, Anthropic, OpenAI, Google, Mistral, DeepSeek, and Groq. Users can also connect OpenAI-compatible APIs for additional providers like Together AI Ollama support - adding local models Web Search Capabilities - using DuckDuckGo, Tavily, Brave Search, and Jina Users gain control over system prompts for each deliberation stage, temperature settings for creativity versus conservatism, and council size (expandable from 3 to 8 members) The \"I'm Feeling Lucky\" feature randomly selects models for discovery purposes Three operational modes allow users to: query multiple models simultaneously without ranking, enable peer-review ratings, or run full deliberations with chairman verdicts Export and import functionality lets users save and share complete council configurations including model selections, prompts, and settings The project is available on GitHub as a fork https://github.com/jacob-bd/llm-council-plus - improved version https://www.youtube.com/watch?v=HOdyIyccOCE - video https://github.com/karpathy/llm-council - original Jacob Ben-David Andrej Karpathy"
+    },
+    {
+      "index": 25,
+      "title": "Create Content for for AI chat citations Optimizing",
+      "text": "Create Content for for AI chat citations Optimizing for AI chat citations is becoming increasingly important alongside traditional Google SEO NotebookLM offers a powerful workflow for this purpose. This approach is often called \"AI Search Engine Optimization\" (AEO) or \"Generative Engine Optimization\" (GEO) NotebookLM serves as a research and content planning hub that helps you create citation-worthy content by analyzing what already works. The tool can simulate how AI systems select sources and references, making it valuable for understanding citation patterns Once you create content - you can publish it to your actual website The core workflow involves uploading competitor content, top-ranking pages, and research materials into NotebookLM, which then analyzes patterns across these sources to identify what makes content \"AI-friendly\" Since NotebookLM is built by Google and powered by Gemini, it understands how information should be structured to match search intent and AI citation preferences Step-by-Step NotebookLM Strategy: Research and upload sources - gather the top 10 ranking URLs for your target keyword and upload them to a new NotebookLM notebook. Include competitor articles, keyword research documents, and backlink data Analyze citation patterns - Ask NotebookLM to identify keyword clusters, search intent, content gaps, and structural patterns across all competitors. This reveals what attributes make content more likely to be cited by AI systems Generate optimized outlines - Request SEO content outlines that include title, meta description, headings, recommended word count, search intent, LSI keywords, and suggested external links. NotebookLM can create data tables comparing your content with competitors to identify missing subtopics and opportunities Create structured content - Transfer your notebook to Gemini 3 to generate content optimized with real sources and contextual understanding. Request FAQ schema in JSON-LD format that you can embed directly into your pages for rich results eligibility Key Principles for AI Citation Success Structured formatting - Use clear headings, bullet points, short paragraphs, and schema markup (Q&A, HowTo, Article, FactCheck) to make content easily parsable Concise, direct answers - AI favors content that directly addresses user questions with factual utility and specificity Authority signals - Include citations, quotations from relevant sources, statistics, and references to authoritative sites Topic clusters - Build interconnected content clusters with strong internal linking that demonstrates topical authority Freshness signals - Maintain publication dates, update timestamps, and temporal relevance markers Research shows that retrieval-augmented AI systems like Perplexity achieve citation density 2-3 times higher than other models and prioritize structured, fresh content with clear source attribution Interestingly, AI citations often come from pages ranking in positions 21 and lower, not just top-ranking results"
+    },
+    {
+      "index": 26,
+      "title": "Correlation versus causality Correlation versus causality - by",
+      "text": "Correlation versus causality Correlation versus causality - by Martin Milani https://www.linkedin.com/feed/update/urn:li:activity:7414319239756500992/ Einstein (1953): “The development of Western science is based on two great achievements: the invention of the formal logical system (in Euclidean geometry) by the Greek philosophers, and the discovery of the possibility to find out causal relationships by systematic experiment (during the Renaissance).” Einstein’s point: causality is what allowed us to move from patterns to meaning, from observation to understanding, from blind correlation to causal reasoning Two studies from 2025 prove that simply \"scaling up\" pattern-matchers is hitting a wall Apple’s 2025 research (“The Illusion of Thinking”) demonstrates that as reasoning tasks grow more complex, model accuracy collapses, even as models generate longer “thinking traces” A late 2025 study on scientific discovery finds the same plateau, models perform well on surface benchmarks but fail at iterative reasoning, hypothesis refinement, and genuine discovery Correlation can predict; it cannot explain Intelligence requires causal models and logical reasoning, the ability to explain, not just predict Until AI can represent causes, test counterfactuals, and justify its inferences, it will remain powerful pattern recognition masquerading as cognition Causality and logical reasoning are the foundations of human intelligence, and they remain the missing foundations of today’s AI"
+    },
+    {
+      "index": 27,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): -    in 2026 (as of January 8, 2026) 123K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026, 454 people laid off In 2025, 245,953 people laid off (674 per day) In 2024, 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 28,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 29,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Leaderboard Best 14-40B Params Open",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 23,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=23s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Best 14-40B Params Open LLMs",
+      "topic": "general",
+      "videoSeconds": 75,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=75s",
+      "slideIndex": 3,
+      "slideTitle": "Best 14-40B Params Open LLMs top open-source medium-sized",
+      "source": "youtube"
+    },
+    {
+      "claim": "New Moore's Law - 2x every 4 months",
+      "topic": "general",
+      "videoSeconds": 109,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=109s",
+      "slideIndex": 4,
+      "slideTitle": "New Moore's Law - 2x every 4 months",
+      "source": "youtube"
+    },
+    {
+      "claim": "Yann LeCun AMI Startup",
+      "topic": "general",
+      "videoSeconds": 154,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=154s",
+      "slideIndex": 5,
+      "slideTitle": "Yann LeCun AMI Startup Yann LeCun startup AMI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini AI in Gmail",
+      "topic": "google",
+      "videoSeconds": 239,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=239s",
+      "slideIndex": 6,
+      "slideTitle": "Gemini AI in Gmail Google announced major Gemini",
+      "source": "youtube"
+    },
+    {
+      "claim": "Shameless plug for my channel",
+      "topic": "general",
+      "videoSeconds": 276,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=276s",
+      "slideIndex": 7,
+      "slideTitle": "We do these weekly videos every Friday Stats:",
+      "source": "youtube"
+    },
+    {
+      "claim": "ChatGPT Health",
+      "topic": "openai",
+      "videoSeconds": 310,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=310s",
+      "slideIndex": 8,
+      "slideTitle": "ChatGPT Health ChatGPT Health Prepare for a doctor’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "CES 2026 Consumer Electronics Show",
+      "topic": "general",
+      "videoSeconds": 335,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=335s",
+      "slideIndex": 8,
+      "slideTitle": "ChatGPT Health ChatGPT Health Prepare for a doctor’s",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Alpamayo & Cosmos",
+      "topic": "infra",
+      "videoSeconds": 421,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=421s",
+      "slideIndex": 9,
+      "slideTitle": "CES 2026 Consumer Electronics Show CES 2026 Consumer",
+      "source": "youtube"
+    },
+    {
+      "claim": "Nvidia Rubin Supercomputer Platform",
+      "topic": "infra",
+      "videoSeconds": 447,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=447s",
+      "slideIndex": 10,
+      "slideTitle": "Nvidia Alpamayo & Cosmos NVIDIA Alpamayo - Open",
+      "source": "youtube"
+    },
+    {
+      "claim": "Humanoid Robots Security Problems",
+      "topic": "safety",
+      "videoSeconds": 474,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=474s",
+      "slideIndex": 11,
+      "slideTitle": "Humanoid Robots Security Problems Humanoid Robot Unitree G1",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google ADK - Agent Development Kit",
+      "topic": "agents",
+      "videoSeconds": 511,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=511s",
+      "slideIndex": 12,
+      "slideTitle": "Google ADK - Agent Development Kit Google ADK",
+      "source": "youtube"
+    },
+    {
+      "claim": "MIT RLM - Recursive Language Model",
+      "topic": "general",
+      "videoSeconds": 592,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=592s",
+      "slideIndex": 13,
+      "slideTitle": "MIT RLM - Recursive Language Model MIT researchers",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tencent HY-Motion 1.0",
+      "topic": "general",
+      "videoSeconds": 656,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=656s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Tencent HY-Motion 1.0 A Billion-Parameter Text-to-Motion",
+      "source": "youtube"
+    },
+    {
+      "claim": "Combining Tools and Models",
+      "topic": "general",
+      "videoSeconds": 668,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=668s",
+      "slideIndex": 15,
+      "slideTitle": "DeepSeek MHC DeepSeek published research introducing Manifold-Constrained Hyperconnections",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek MHC",
+      "topic": "open-models",
+      "videoSeconds": 709,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=709s",
+      "slideIndex": 16,
+      "slideTitle": "AI Changes Structure of Startups AI fundamentally changes",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Changes Structure of Startups",
+      "topic": "general",
+      "videoSeconds": 813,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=813s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates Lightricks LTX-2 Open-Source Video Model Generates",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lightricks LTX-2 Open-Source Video Model",
+      "topic": "open-models",
+      "videoSeconds": 865,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=865s",
+      "slideIndex": 18,
+      "slideTitle": "Claude Code 2.1.0 Released January 7 Automatic skill",
+      "source": "youtube"
+    },
+    {
+      "claim": "Memory Shortage Causes GPU Price Increase",
+      "topic": "rag",
+      "videoSeconds": 907,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=907s",
+      "slideIndex": 19,
+      "slideTitle": "Boris Cherny Work Setup Boris Cherny, creator of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic raised $10 Bln at $350 Bln Valuation",
+      "topic": "claude",
+      "videoSeconds": 922,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=922s",
+      "slideIndex": 20,
+      "slideTitle": "Google's Gemini CLI - Agent Skills Google's Gemini",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code 2.1.0 Released January 7",
+      "topic": "coding",
+      "videoSeconds": 935,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=935s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Oh My Open Code Framework https://github.com/code-yeongyu/oh-my-opencode",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boris Cherny Work Setup",
+      "topic": "general",
+      "videoSeconds": 976,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=976s",
+      "slideIndex": 22,
+      "slideTitle": "Rocket.new - text to app Framework Rocket.new -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google's Gemini CLI - Agent Skills",
+      "topic": "agents",
+      "videoSeconds": 1045,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1045s",
+      "slideIndex": 22,
+      "slideTitle": "Rocket.new - text to app Framework Rocket.new -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Oh My Open Code Framework",
+      "topic": "general",
+      "videoSeconds": 1059,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1059s",
+      "slideIndex": 23,
+      "slideTitle": "Julia McCoy - AI Business Model How AI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rocket.new - text to app Framework",
+      "topic": "general",
+      "videoSeconds": 1080,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1080s",
+      "slideIndex": 24,
+      "slideTitle": "Karpathy's LLM Council Jacob Ben-David forked and enhanced",
+      "source": "youtube"
+    },
+    {
+      "claim": "Julia McCoy - AI Business Model",
+      "topic": "general",
+      "videoSeconds": 1101,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1101s",
+      "slideIndex": 25,
+      "slideTitle": "Create Content for for AI chat citations Optimizing",
+      "source": "youtube"
+    },
+    {
+      "claim": "Karpathy's LLM Council",
+      "topic": "general",
+      "videoSeconds": 1247,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1247s",
+      "slideIndex": 26,
+      "slideTitle": "Correlation versus causality Correlation versus causality - by",
+      "source": "youtube"
+    },
+    {
+      "claim": "Create Content for for AI chat citations",
+      "topic": "general",
+      "videoSeconds": 1307,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1307s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Correlation versus causality",
+      "topic": "general",
+      "videoSeconds": 1406,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1406s",
+      "slideIndex": 28,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs, Layoffs, demand for AI Engineers",
+      "topic": "jobs",
+      "videoSeconds": 1530,
+      "videoUrl": "https://www.youtube.com/watch?v=_y6GP23mK7A&t=1530s",
+      "slideIndex": 29,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

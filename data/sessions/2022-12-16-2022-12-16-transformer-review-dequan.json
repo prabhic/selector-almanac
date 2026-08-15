@@ -1,0 +1,323 @@
+{
+  "id": "2022-12-16-2022-12-16-transformer-review-dequan",
+  "date": "2022-12-16",
+  "title": "Transformer-Review-Dequan",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "rag",
+    "ml-fundamentals",
+    "openai"
+  ],
+  "video": {
+    "id": "RHsyJjKSm4c",
+    "title": "Transformers Overview, BERT, GPT, ChatGPT",
+    "url": "https://www.youtube.com/watch?v=RHsyJjKSm4c",
+    "thumbnail": "https://i.ytimg.com/vi/RHsyJjKSm4c/hqdefault.jpg",
+    "duration": 1931
+  },
+  "deck": {
+    "path": "2022/2022-12-16-Transformer-Review-Dequan.pptx",
+    "filename": "2022-12-16-Transformer-Review-Dequan.pptx",
+    "title": "Transformer-Review-Dequan",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-12-16-Transformer-Review-Dequan.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-12-16-Transformer-Review-Dequan.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Overview",
+      "startSeconds": 25,
+      "label": "00:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Introduction",
+      "startSeconds": 70,
+      "label": "01:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Review",
+      "startSeconds": 225,
+      "label": "03:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Encoder Decoder",
+      "startSeconds": 263,
+      "label": "04:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Attention Layer",
+      "startSeconds": 480,
+      "label": "08:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Attention Formula",
+      "startSeconds": 595,
+      "label": "09:55",
+      "source": "youtube"
+    },
+    {
+      "title": "FFM",
+      "startSeconds": 880,
+      "label": "14:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Results",
+      "startSeconds": 1092,
+      "label": "18:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Vision Version",
+      "startSeconds": 1270,
+      "label": "21:10",
+      "source": "youtube"
+    },
+    {
+      "title": "How Transformers work",
+      "startSeconds": 1370,
+      "label": "22:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Multilayer Encoding",
+      "startSeconds": 1495,
+      "label": "24:55",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Transformer Review By Dequan Er",
+      "text": "Transformer Review By Dequan Er"
+    },
+    {
+      "index": 2,
+      "title": "About Dequan Er, Ph.D. Lead Data Scientist @",
+      "text": "About Dequan Er, Ph.D. Lead Data Scientist @ NDR erdeq.upenn@gmail.com LinkedIn: https://www.linkedin.com/in/dequan-er-69518643/"
+    },
+    {
+      "index": 3,
+      "title": "Outline Introduction Model architecture Result Derived models Applications",
+      "text": "Outline Introduction Model architecture Result Derived models Applications"
+    },
+    {
+      "index": 4,
+      "title": "Introduction From Sequence Modeling to Attention (2017) From",
+      "text": "Introduction From Sequence Modeling to Attention (2017) From NLP(Nature Language Processing) problem RNN (Recurrent Neural Network), LSTM (long short-term memory networks), GRU (Gated Recurrent Unit) From recurrent language models to encoder-decoder model H t-1 to h t Hard to parallelize Long sequence memory lose, large H t Attention used from encoder to decoder"
+    },
+    {
+      "index": 5,
+      "title": "Introduction Advantages: Fast, Parallelism, pre-trained Derivatives of Transformers",
+      "text": "Introduction Advantages: Fast, Parallelism, pre-trained Derivatives of Transformers BERT ( Bidirectional Encoder Representations from Transformers 2018) https://arxiv.org/abs/1810.04805 GPT3 ( Generative Pre-trained Transformer 2020) ChatGPT (2022) https://openai.com/blog/chatgpt/ From NLP to audio, video, etc."
+    },
+    {
+      "index": 6,
+      "title": "Model Architecture Structure of encoder-decoder Encoding-decoding architecture is",
+      "text": "Model Architecture Structure of encoder-decoder Encoding-decoding architecture is the basic of transformers"
+    },
+    {
+      "index": 7,
+      "title": "31st Conference on Neural Information Processing Systems (",
+      "text": "31st Conference on Neural Information Processing Systems ( NIPS 2017 ), Long Beach, CA, USA. Model Architecture"
+    },
+    {
+      "index": 8,
+      "title": "Model Architecture Attention layer: mapping a query and",
+      "text": "Model Architecture Attention layer: mapping a query and a set of key-value pairs to an output in vector form. {Q,K,V} k v Q 2 Similarity in k space Using Q·K = |Q|| K|cos ( θ ) Q 1"
+    },
+    {
+      "index": 9,
+      "title": "Model Architecture Scaled dot-product attention Q K T",
+      "text": "Model Architecture Scaled dot-product attention Q K T V n d k m d k = n m m d k Role of Mask: see until K t"
+    },
+    {
+      "index": 10,
+      "title": "Model Architecture Position-wise Feed-Forward Networks Positional Encoding Ensure",
+      "text": "Model Architecture Position-wise Feed-Forward Networks Positional Encoding Ensure sequence of tokens Why it can extract information in a non- sequencial way? All information at once Unlike RNN sequential"
+    },
+    {
+      "index": 11,
+      "title": "Result",
+      "text": "Result"
+    },
+    {
+      "index": 12,
+      "title": "Derived models Hugging Face Transformers https://huggingface.co/transformers/ BERT: https://www.codemotion.com/magazine/ai-ml/bert-how-google-changed-nlp-and-how-to-benefit-from-this/",
+      "text": "Derived models Hugging Face Transformers https://huggingface.co/transformers/ BERT: https://www.codemotion.com/magazine/ai-ml/bert-how-google-changed-nlp-and-how-to-benefit-from-this/ GPT: https://huggingface.co/docs/transformers/model_doc/openai-gpt GPT3: https://github.com/openai/gpt-3 ChatGPT : https://openai.com/blog/chatgpt/ It has >175 Bn parameters"
+    },
+    {
+      "index": 13,
+      "title": "ChatGPT",
+      "text": "ChatGPT"
+    },
+    {
+      "index": 14,
+      "title": "Why Transformers are everywhere Parallel All input at",
+      "text": "Why Transformers are everywhere Parallel All input at once, unlike RNN Process larger amount of text, then to video, audio, etc. Use pre-trained models, fast training"
+    },
+    {
+      "index": 15,
+      "title": "Applications NLP Sentiment analysis Vision Transformers ViT (2020)",
+      "text": "Applications NLP Sentiment analysis Vision Transformers ViT (2020) https://arxiv.org/pdf/2010.11929.pdf Swin Transformer (2021) https://arxiv.org/pdf/2103.14030.pdf DINO https://arxiv.org/pdf/2104.14294.pdf DETR https://arxiv.org/pdf/2104.14294.pdf Audio Video TimeSformer https://arxiv.org/pdf/2102.05095.pdf"
+    },
+    {
+      "index": 16,
+      "title": "Q&A",
+      "text": "Q&A"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Transformer Review By Dequan Er",
+      "source": "youtube"
+    },
+    {
+      "claim": "Overview",
+      "topic": "general",
+      "videoSeconds": 25,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=25s",
+      "slideIndex": 2,
+      "slideTitle": "About Dequan Er, Ph.D. Lead Data Scientist @",
+      "source": "youtube"
+    },
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 70,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=70s",
+      "slideIndex": 4,
+      "slideTitle": "Introduction From Sequence Modeling to Attention (2017) From",
+      "source": "youtube"
+    },
+    {
+      "claim": "Review",
+      "topic": "general",
+      "videoSeconds": 225,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=225s",
+      "slideIndex": 5,
+      "slideTitle": "Introduction Advantages: Fast, Parallelism, pre-trained Derivatives of Transformers",
+      "source": "youtube"
+    },
+    {
+      "claim": "Encoder Decoder",
+      "topic": "general",
+      "videoSeconds": 263,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=263s",
+      "slideIndex": 6,
+      "slideTitle": "Model Architecture Structure of encoder-decoder Encoding-decoding architecture is",
+      "source": "youtube"
+    },
+    {
+      "claim": "Attention Layer",
+      "topic": "general",
+      "videoSeconds": 480,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=480s",
+      "slideIndex": 8,
+      "slideTitle": "Model Architecture Attention layer: mapping a query and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Attention Formula",
+      "topic": "general",
+      "videoSeconds": 595,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=595s",
+      "slideIndex": 9,
+      "slideTitle": "Model Architecture Scaled dot-product attention Q K T",
+      "source": "youtube"
+    },
+    {
+      "claim": "FFM",
+      "topic": "general",
+      "videoSeconds": 880,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=880s",
+      "slideIndex": 11,
+      "slideTitle": "Result",
+      "source": "youtube"
+    },
+    {
+      "claim": "Results",
+      "topic": "general",
+      "videoSeconds": 1092,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1092s",
+      "slideIndex": 12,
+      "slideTitle": "Derived models Hugging Face Transformers https://huggingface.co/transformers/ BERT: https://www.codemotion.com/magazine/ai-ml/bert-how-google-changed-nlp-and-how-to-benefit-from-this/",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vision Version",
+      "topic": "multimodal",
+      "videoSeconds": 1270,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1270s",
+      "slideIndex": 13,
+      "slideTitle": "ChatGPT",
+      "source": "youtube"
+    },
+    {
+      "claim": "How Transformers work",
+      "topic": "general",
+      "videoSeconds": 1370,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1370s",
+      "slideIndex": 15,
+      "slideTitle": "Applications NLP Sentiment analysis Vision Transformers ViT (2020)",
+      "source": "youtube"
+    },
+    {
+      "claim": "Multilayer Encoding",
+      "topic": "general",
+      "videoSeconds": 1495,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c&t=1495s",
+      "slideIndex": 16,
+      "slideTitle": "Q&A",
+      "source": "youtube"
+    },
+    {
+      "claim": "Outline Introduction Model architecture Result Derived models Applications",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c",
+      "slideIndex": 3,
+      "slideTitle": "Outline Introduction Model architecture Result Derived models Applications",
+      "source": "slide"
+    },
+    {
+      "claim": "31st Conference on Neural Information Processing Systems (",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c",
+      "slideIndex": 7,
+      "slideTitle": "31st Conference on Neural Information Processing Systems (",
+      "source": "slide"
+    },
+    {
+      "claim": "Model Architecture Position-wise Feed-Forward Networks Positional Encoding Ensure",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=RHsyJjKSm4c",
+      "slideIndex": 10,
+      "slideTitle": "Model Architecture Position-wise Feed-Forward Networks Positional Encoding Ensure",
+      "source": "slide"
+    }
+  ]
+}

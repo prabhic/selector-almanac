@@ -1,0 +1,270 @@
+{
+  "id": "2022-09-02-2022-09-02-code3-code-examples",
+  "date": "2022-09-02",
+  "title": "code3 code examples",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "jobs"
+  ],
+  "video": {
+    "id": "dISQPzJiw6M",
+    "title": "Coding Interview Examples part 3",
+    "url": "https://www.youtube.com/watch?v=dISQPzJiw6M",
+    "thumbnail": "https://i.ytimg.com/vi/dISQPzJiw6M/hqdefault.jpg",
+    "duration": 2144
+  },
+  "deck": {
+    "path": "2022/2022-09-02-code3_code_examples.pptx",
+    "filename": "2022-09-02-code3_code_examples.pptx",
+    "title": "code3 code examples",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-09-02-code3_code_examples.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-09-02-code3_code_examples.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Connected Cells",
+      "startSeconds": 49,
+      "label": "00:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Depth First Search",
+      "startSeconds": 311,
+      "label": "05:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Simple Breadth First Search",
+      "startSeconds": 354,
+      "label": "05:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Breadth First Search",
+      "startSeconds": 521,
+      "label": "08:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Binary Search in Sorted Array",
+      "startSeconds": 1063,
+      "label": "17:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Integer Division",
+      "startSeconds": 1116,
+      "label": "18:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Jump Game",
+      "startSeconds": 1451,
+      "label": "24:11",
+      "source": "youtube"
+    },
+    {
+      "title": "Structure of the Solution",
+      "startSeconds": 1927,
+      "label": "32:07",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Coding Interview Code Examples - Session 3 Connected",
+      "text": "Coding Interview Code Examples - Session 3 Connected Cells Simple BFS (Breadth First Search) BFS – find a place for a water well Topological sort - Kahn's Algorithm Binary Search in Sorted Array Find K-th largest number in the array Cyclic Sort Jump Game Design a round buffer to keep ip addresses Between Two Sets Rearrange Characters to Keep Them Apart"
+    },
+    {
+      "index": 2,
+      "title": "Connected Cells import os,sys matrix = [ [0,",
+      "text": "Connected Cells import os,sys matrix = [ [0, 0, 0, 1, 1, 0, 0], [0, 1, 0, 0, 1, 1, 0], [1, 1, 0, 1, 0, 0, 1], [0, 0, 0, 0, 0, 1, 0], [1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0]] Nrows = len(matrix) Ncols = len(matrix[0]) # ---------------------------------------------------- def get_region_size(matrix,row,col): if row < 0 or col < 0 or row >= Nrows or col >= Ncols: return 0 if matrix[row][col] == 0: return 0 matrix[row][col] = 0 # changing to avoid duplicate efforts size = 1 for r in [row-1,row,row+1]: for c in [col-1,col,col+1]: if not (r==row and c==col): size += get_region_size(matrix,r,c) return size # ---------------------------------------------------- max_size = 0 for row in range(Nrows): for col in range(Ncols): if matrix[row][col] == 1: size = get_region_size(matrix,row,col) max_size = max(max_size,size) print(max_size)   # 7 1 from HackerRank's Cracking The Coding Interview Tutorial with Gayle Laakmann McDowell - https://www.youtube.com/watch?v=R4Nh-EgWjyQ We have a matrix MxM of zeros and ones, and we want to find the largest group of connected 1-s. Example: 0 0 0 1 1 0 0 0 1 0 0 1 1 0 1 1 0 1 0 0 1 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 Connection may be horizontal, vertical, or diagnoal. In the example above we have 4 groups, and the largest group on top-right has seven 1-s. We can use Breadth First Search or Depth First Search. Here we will use DFS because it is a liitle easier to implement. We do dual for-loop going through rows and columns, and for each cell we do the DFS and save its size. Once we started processing a cell with \"1\" we set it to \"0\" to avoid duplicate efforts. So we \"destroy\" matrix as we go."
+    },
+    {
+      "index": 3,
+      "title": "Simple BFS (Breadth First Search) Find path between",
+      "text": "Simple BFS (Breadth First Search) Find path between two points \"B\" & \"E\" on a N x N board. Allowed steps – vertical or horizontal. Avoid cells marked \"T\" (tree). # ------------------------------------------- def init_map(): \"\"\" T-Tree, S-Start, E-End \"\"\" mystr1 = \"\"\" - - - - S - T - - - T E - - - - \"\"\" mystr = mystr1 arr = mystr.strip().split(\"\\n\") arr = [x.strip() for x in arr] grid = [] for row in arr: grid += [row.strip().split()] return grid # ------------------------------------------- def init_visited(grid): Nrows = len(grid) Ncols = len(grid[0]) v = [[ False for x in range(Ncols)] for y in range(Nrows)] return v 2 # ------------------------------------------- def get_end_points(grid): \"\"\" # return (row,col), (row,col) # for Begin and End points \"\"\" houses = [] Nrows = len(grid) Ncols = len(grid[0]) for r in range(Nrows): for c in range(Ncols): if grid[r][c] == 'S': ss = (r,c) if grid[r][c] == 'E': ee = (r,c) return ss, ee # ------------------------------------------- def on_map(node,v): Nrows = len(v) Ncols = len(v[0]) r,c = node if r < 0 or c < 0 or r >= Nrows or c >= Ncols: return False return True # ------------------------------------------- def mark_visited(node, v): if not on_map(node, v): return r,c = node v[r][c] = True"
+    },
+    {
+      "index": 4,
+      "title": "Simple BFS - continued 2 # ------------------------------------------- def",
+      "text": "Simple BFS - continued 2 # ------------------------------------------- def find_path_bfs(s, e, grid, visited): \"\"\" # given nodes \"s\" and \"e\" (Start and End) # and two maps: \"grid\" and \"visited\" # populates the path between Start and End # using the BFS (Breadth First Search) algorithm # returns list of nodes in the path. # A node is a tuple (row,col) \"\"\" queue = [(s, [])] # start point, empty path while len(queue) > 0: node, path = queue.pop(0) path.append(node) mark_visited(node, visited) if node == e: return path adj_nodes = get_neighbors(node, grid) for item in adj_nodes: if not is_visited(item, visited): queue.append((item, path[:])) return None  # no path found # ------------------------------------------- if __name__ == \"__main__\": grid = init_map() visited = init_visited(grid) for r in grid: print(r) ss, ee = get_end_points(grid) mypath = find_path_bfs(ss, ee, grid, visited) # ------------------------------------------- def is_visited(node, v): if not on_map(node, v): return r,c = node if v[r][c]: return True return False # ------------------------------------------- def get_neighbors(node, grid): \"\"\" # returns a list of next possible cells # (not Tree and not Start) \"\"\" mynodes = [] r,c = node for nn in [(r-1,c),(r+1,c),(r,c-1),(r,c+1)]: if not on_map(nn,grid): continue rr,cc = nn if grid[rr][cc] in ['T','S']: continue mynodes.append(nn) return mynodes"
+    },
+    {
+      "index": 5,
+      "title": "BFS – find a place for a water",
+      "text": "BFS – find a place for a water well You've been tasked to help a village find the best place to install a new well. You're given a 2D grid where cells can be empty, a house, or a tree. People can walk up, down, left and right, but they cant walk through trees. Find a place for the well that minimizes the total sum distance from all the houses. Example: - - H - T - - - - - - H - - T - T - - H T - - - - - T - T H - - - - - - 3 This problem is similar to LeetCode #317 \"Shortest Distance from All Houses\" Idea of the solution: Run a BFS (Breadth-First-Search) wave from each house over the whole land - and in each empty cell accumulate 2 numbers: sum_conn[row][col] - sum of connections to houses (<= N_houses) sum_dist[row][col] - sum of distances from houses Then from all empty cells select those where sum_conn[row][col] == N_houses (this means it has paths to all houses) And from these select the one(s) with minimum value of sum_dist For each of Nh houses we go over the whole area Nr * Nc, which takes O(Nh*Nr*Nc). Then we go over the area one last time to select the min(sum_dist) So overall time complexity is O( Nhouses * Nrows * Ncols ) Space complexity - we use three 2-dim arrays: sum_conn, sum_dist, visited. so space complexity is ~ O( 3 * Nrows * Ncols ) Note: if we find an \"unreacheable\" house, we return -1 immediately, which greatly improves overall speed on tests"
+    },
+    {
+      "index": 6,
+      "title": "Topological sort – Kahn's Algorithm Given a list",
+      "text": "Topological sort – Kahn's Algorithm Given a list of jobs (represented by their numeric IDs, for example [1,2,3,4,5,6]), and a list of their dependencies, for example [(1,3), (3,2), (3,4), (5,6)], where (m, n) means that we need to run \"n\" before \"m\" we need to figure out the run order, for example:  [2, 4, 6, 3, 5, 1] The idea of the solution is to first find jobs which don't depend on anything – and add them to the queue. Start running them. As they complete, the jobs which depended on them may be added to the queue. etc. This is called \" Kahn's Algorithm \" ( Arthur Kahn, 1962, Westinghouse Electric Corporation, Baltimore, MD) . https://dl.acm.org/doi/10.1145/368996.369025 Another solution involves using DFS (Depth First Search). Both have time complexity O(p + d) where p is the number of projects (or vertices) and d is the number of dependencies (or edges). from queue import Queue def top_sort(projects, dependencies): order = [] degrees = {project: 0 for project in projects} dependency_dict = {project: [] for project in projects} for project, dependency in dependencies: dependency_dict[dependency].append(project) degrees[project] += 1 queue = Queue() for p in projects: if degrees[p] == 0: queue.put(p) order.append(p) while not queue.empty(): p = queue.get() for n in dependency_dict[p]: degrees[n] -= 1 if degrees[n] == 0: queue.put(n) order.append(n) if len(projects) != len(order): return \"Cycle, no valid order\" return order 4"
+    },
+    {
+      "index": 7,
+      "title": "Binary Search in Sorted Array Implement Binary Search",
+      "text": "Binary Search in Sorted Array Implement Binary Search in a sorted array from https://realpython.com/binary-search-python/ def find_index(arr, target): left  = 0 right = len(arr) - 1 while left <= right: middle = left + (right - left) // 2 # int division if arr[middle] == target: return middle if arr[middle] < target: left = middle + 1 elif arr[middle] > target: right = middle - 1 if left > 0: return left - 1 return left 5"
+    },
+    {
+      "index": 8,
+      "title": "Find K-th largest number in the array Different",
+      "text": "Find K-th largest number in the array Different solutions:                       Time complexity 1. Go through array K times.               O(K*N) 2. Sort array – and return arr[N-K]        O(N*lg(N)) 3. build a max-heap - and do K pop-s       O(N) + O(K*lg(N)) 4. use partitioning method (see below)    O(2N) similar to quicksort / binary search def _partition(arr, low, high): pivot = arr[high] index = low for j in range(low, high): if arr[j] <= pivot: arr[index], arr[j] = arr[j], arr[index] index += 1 arr[index], arr[high] = arr[high], arr[index] return index def findKthLargest(arr, k): left = 0 right = len(arr) - 1 while left <= right: pivotIndex = _partition(arr, left, right) if pivotIndex == (len(arr) - k) : return arr[pivotIndex] elif pivotIndex > (len(arr) - k) : right = pivotIndex - 1 else: left = pivotIndex + 1 return -1 6 Quick sort is a recursive sorting algorithm. We randomly select a pivot point (8), and then keep swapping left and right elements so that: .. all elements to the left of pivot are smaller than it .. all elements to the right are larger than the pivot point. Once we done, the pivot point is at its right place in the array. Then we can select pivot points in left and right portions, do the same swapping, and continue recursively until the whole array is sorted. To find K-th largest element we follow the quick-sort partitionning-pivoting, but only concentrate on the right potion(s) – because we only need to sort the top K elements. Complexity: N + N/2 + N/4 + ... = O(2N) - https://www.youtube.com/watch?v=QGVCnjXmrNg - https://github.com/techleadhd/three-coding-problems/blob/master/largest.py - https://www.youtube.com/watch?v=XE4VP_8Y0BU"
+    },
+    {
+      "index": 9,
+      "title": "Cyclic Sort We are given an unsorted array",
+      "text": "Cyclic Sort We are given an unsorted array containing n numbers taken from the range 1 to n. The array originally contained all the numbers from 1 to n, but due to a data error, one of the numbers got duplicated, which also resulted in one number going missing. Find both these numbers. # ---------------------------------------------------- def find_corrupt_numbers(nums): i = 0 while i < len(nums): j = nums[i] - 1 # this is its correct place if nums[i] != nums[j]: # if it is not there nums[i], nums[j] = nums[j], nums[i] # swap - and keep following else: i += 1 # it is in its place - so check the next one for i in range(len(nums)): if nums[i] != i + 1: return [nums[i], i + 1] return [-1, -1] # ---------------------------------------------------- arr = [3, 1, 2, 5, 2] print(arr) print(find_corrupt_numbers(arr)) 7"
+    },
+    {
+      "index": 10,
+      "title": "Jump Game leetcode 1345. Jump Game IV. You",
+      "text": "Jump Game leetcode 1345. Jump Game IV. You start at first index of array \"arr\" of integers. In one step you can jump from index i to index: i + 1 where: i + 1 < arr.length. i - 1 where: i - 1 >= 0. j where: arr[i] == arr[j] and (i != j). Return the minimum number of steps to reach the last index of the array. def minJumps2(arr): \"\"\" https://leetcode.com/problems/jump-game-iv/discuss/503171/9-lines-Python-BFS \"\"\" import collections, itertools indices = collections.defaultdict(list) for i, a in enumerate(arr): indices[a].append(i) done, now = {-1}, {0} for Nsteps in itertools.count(): done |= now if len(arr) - 1 in done: return Nsteps now = {j for i in now for j in [i-1, i+1] + indices.pop(arr[i], [])} - done 8 Idea of the solution: use BFS (Breadth First Search) starting from 0 until the last position is found. Track all the values and positions we have explored. Complexity : O(N) for time and space"
+    },
+    {
+      "index": 11,
+      "title": "Design a round buffer to keep ip addresses",
+      "text": "Design a round buffer to keep ip addresses design a round buffer to keep ip addresses with 3 methods: next_ip() add_ip(ip) del_ip(ip) Requirement - all 3 methods should have time complexity O(1) Idea: use two data structures: list and dict Approach - use two data structures: list and dict mylist = [] # list of unique IP addresses mydict = {} # dictionary with elements (ip:idx), # where idx is position of ip in the list myidx  = 0  # last position in the list 9 # ------------------------------------- def next_ip(): myidx += 1 idx_max = len(mylist)-1 if myidx > idx_max: myidx = 0 return mylist[myidx] # ------------------------------------- def add_ip(ip): if ip in mydict: return 1 mylist += [ip] mydict[ip] =  len(mylist)-1 return 0 # ------------------------------------- def remove_ip(ip): if ip not in mydict: return 1 idx = mydict[ip] idx_max = len(mylist)-1 ip2 = mylist.pop() del mydict[ip] if idx != idx_max: mylist[idx] = ip2 mydict[ip2] = idx return 0"
+    },
+    {
+      "index": 12,
+      "title": "Between Two Sets Given: two arrays \" a",
+      "text": "Between Two Sets Given: two arrays \" a \" and \" b \" of integers. Task: find (count) all integers \" A \" such that: \" A \" divisible by all elements of array \" a \" All elements of \" b \" are divisible by \" A \" These numbers \" A \" are referred to as being \"between\" the two arrays \" a \" and \" b \". Your solution should return the number of elements \" A \" def counter1(a,b): counter=0 for xx in range(max(a),min(b)+1): for aa in a: if xx % aa!=0: break else: for bb in b: if bb % xx!=0: break else: counter += 1 return counter 10"
+    },
+    {
+      "index": 13,
+      "title": "Rearrange Characters to Keep Them Apart Given a",
+      "text": "Rearrange Characters to Keep Them Apart Given a string and a number ‘K’, find if the string can be rearranged in such a way that the same characters are at least ‘K’ distance apart from each other. def reorg_str(mystr, k) : if k <= 1: return mystr char_cnt = {} for char in mystr: if char not in char_cnt: char_cnt[char] = 1 else: char_cnt[char] += 1 # add all chars to max_heap max_heap = [] for char, cnt in char_cnt.items(): heappush(max_heap, (-cnt, char)) queue = deque() str_list = [] while max_heap: neg_cnt, char = heappop(max_heap) str_list.append(char) queue.append((char, neg_cnt+1)) # decremented count if len(queue) == k: char, neg_cnt = queue.popleft() if -neg_cnt > 0: heappush(max_heap, (neg_cnt, char)) if len(str_list) == len(mystr): return ''.join(str_list) # SUCCESS else: return \"\" 11 import os, sys from heapq import * from collections import deque # ---------------------------------------------------- def reorg_str(mystr, k) : ... ... # ---------------------------------------------------- if __name__ == '__main__': slist = [(\"Programming\", 3), (\"mmpp\", 2), (\"aab\", 2), (\"aapa\", 3)] for ss,k in slist: print(ss,k,\":\", reorg_str (ss,k))"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Coding Interview Code Examples - Session 3 Connected",
+      "source": "youtube"
+    },
+    {
+      "claim": "Connected Cells",
+      "topic": "general",
+      "videoSeconds": 49,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=49s",
+      "slideIndex": 3,
+      "slideTitle": "Simple BFS (Breadth First Search) Find path between",
+      "source": "youtube"
+    },
+    {
+      "claim": "Depth First Search",
+      "topic": "general",
+      "videoSeconds": 311,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=311s",
+      "slideIndex": 4,
+      "slideTitle": "Simple BFS - continued 2 # ------------------------------------------- def",
+      "source": "youtube"
+    },
+    {
+      "claim": "Simple Breadth First Search",
+      "topic": "general",
+      "videoSeconds": 354,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=354s",
+      "slideIndex": 6,
+      "slideTitle": "Topological sort – Kahn's Algorithm Given a list",
+      "source": "youtube"
+    },
+    {
+      "claim": "Breadth First Search",
+      "topic": "general",
+      "videoSeconds": 521,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=521s",
+      "slideIndex": 7,
+      "slideTitle": "Binary Search in Sorted Array Implement Binary Search",
+      "source": "youtube"
+    },
+    {
+      "claim": "Binary Search in Sorted Array",
+      "topic": "general",
+      "videoSeconds": 1063,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=1063s",
+      "slideIndex": 9,
+      "slideTitle": "Cyclic Sort We are given an unsorted array",
+      "source": "youtube"
+    },
+    {
+      "claim": "Integer Division",
+      "topic": "general",
+      "videoSeconds": 1116,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=1116s",
+      "slideIndex": 10,
+      "slideTitle": "Jump Game leetcode 1345. Jump Game IV. You",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jump Game",
+      "topic": "general",
+      "videoSeconds": 1451,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=1451s",
+      "slideIndex": 12,
+      "slideTitle": "Between Two Sets Given: two arrays \" a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Structure of the Solution",
+      "topic": "general",
+      "videoSeconds": 1927,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M&t=1927s",
+      "slideIndex": 13,
+      "slideTitle": "Rearrange Characters to Keep Them Apart Given a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Connected Cells import os,sys matrix = [ [0,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M",
+      "slideIndex": 2,
+      "slideTitle": "Connected Cells import os,sys matrix = [ [0,",
+      "source": "slide"
+    },
+    {
+      "claim": "BFS – find a place for a water",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M",
+      "slideIndex": 5,
+      "slideTitle": "BFS – find a place for a water",
+      "source": "slide"
+    },
+    {
+      "claim": "Find K-th largest number in the array Different",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M",
+      "slideIndex": 8,
+      "slideTitle": "Find K-th largest number in the array Different",
+      "source": "slide"
+    },
+    {
+      "claim": "Design a round buffer to keep ip addresses",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dISQPzJiw6M",
+      "slideIndex": 11,
+      "slideTitle": "Design a round buffer to keep ip addresses",
+      "source": "slide"
+    }
+  ]
+}

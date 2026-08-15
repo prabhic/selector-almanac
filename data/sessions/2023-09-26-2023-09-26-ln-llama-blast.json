@@ -1,0 +1,62 @@
+{
+  "id": "2023-09-26-2023-09-26-ln-llama-blast",
+  "date": "2023-09-26",
+  "title": "LN-LLaMa-blast",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "open-models",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "m26ikHKCPbg",
+    "title": "AI Updates - September 29, 2023",
+    "url": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+    "thumbnail": "https://i.ytimg.com/vi/m26ikHKCPbg/hqdefault.jpg",
+    "duration": 940
+  },
+  "deck": {
+    "path": "2023/2023-09-26-LN-LLaMa-blast.pptx",
+    "filename": "2023-09-26-LN-LLaMa-blast.pptx",
+    "title": "LN-LLaMa-blast",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-26-LN-LLaMa-blast.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-26-LN-LLaMa-blast.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-3d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LLaMa 2 Influence July 18, 2023 Meta has",
+      "text": "LLaMa 2 Influence July 18, 2023 Meta has open-sourced LLaMa-2. This started the explosive process of creating new models based on LLaMa-2. 1,000+ new models were posted on HuggingFace.co in just two months. Remember This Date"
+    },
+    {
+      "index": 2,
+      "title": "LLaMa2-based models have become better than GPT-3.5 LLaMa2",
+      "text": "LLaMa2-based models have become better than GPT-3.5 LLaMa2 is open-source, free for research and commercial use. Open community have quickly created LLaMa variants which are better than the original . They are even better than GPT-3.5 – see on HuggingFace LLM Leaderboard And you can run them on reasonably cheap servers. --------------------------------------------------- rank    size    score     VRAM  name --------------------------------------------------- 0   1,760B    84.3     4,000  GPT-4 1      70B 74.1       160  FashionGPT-70B-V1.1 ... 31     175B    71.9       400  GPT-3.5"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LLaMa 2 Influence July 18, 2023 Meta has",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 1,
+      "slideTitle": "LLaMa 2 Influence July 18, 2023 Meta has",
+      "source": "slide"
+    },
+    {
+      "claim": "LLaMa2-based models have become better than GPT-3.5 LLaMa2",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 2,
+      "slideTitle": "LLaMa2-based models have become better than GPT-3.5 LLaMa2",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "2024-01-26-2024-01-26-mixtral-on-laptop",
+  "date": "2024-01-26",
+  "title": "Mixtral-On-Laptop",
+  "series": "seminar",
+  "topics": [
+    "rag",
+    "infra",
+    "open-models",
+    "benchmarks",
+    "general",
+    "claude",
+    "openai",
+    "google"
+  ],
+  "video": {
+    "id": "qH2SAQLj6NQ",
+    "title": "How to run Mixtral LLM on your Laptop - January 26, 2024 - Exciting AI Updates",
+    "url": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+    "thumbnail": "https://i.ytimg.com/vi/qH2SAQLj6NQ/hqdefault.jpg",
+    "duration": 1827
+  },
+  "deck": {
+    "path": "2024/2024-01-26-Mixtral-On-Laptop.pptx",
+    "filename": "2024-01-26-Mixtral-On-Laptop.pptx",
+    "title": "Mixtral-On-Laptop",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-01-26-Mixtral-On-Laptop.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-01-26-Mixtral-On-Laptop.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates January 26, 2024 How to Run",
+      "text": "AI Updates January 26, 2024 How to Run Mixtral on Laptop or on Google Colab Free Tier Denis Mazur  & Artyom Eliseev"
+    },
+    {
+      "index": 2,
+      "title": "Efficient inference of Mixtral-8x7B on a laptop Run",
+      "text": "Efficient inference of Mixtral-8x7B on a laptop Run Mixtral on Nvidia 3060 with 12GB ! https://arxiv.org/abs/2312.17238 - paper https://github.com/dvmazur/mixtral-offloading https://twitter.com/rohanpaul_ai/status/1741103866047869222 - Stream model during Inference! - Just-In-Time Loading of model layers! Since most deep learning models use layers in a fixed order, offloading can pre-dispatch the next layer parameters in the background, ahead of time. Mixed quantization with HQQ - separate quantization schemes for attention layers and experts to fit the model into the combined GPU and CPU memory. MoE offloading strategy - each expert per layer is offloaded separately and only brought pack to GPU when needed. LRU cache (Least Recently Used) is used to reduce GPU-RAM communication when computing activations for adjacent tokens. Demo notebook: https://github.com/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb Artyom Eliseev Yandex School of Data Analysis https://github.com/lavawolfiee Moscow Institute of Physics and Technology Yandex Denis Mazur Yandex Researchcore https://github.com/dvmazur"
+    },
+    {
+      "index": 3,
+      "title": "Jan 26, 2024 : 56 Models, 244K votes",
+      "text": "Jan 26, 2024 : 56 Models,     244K votes Starting Elo rating = 1000 for each model 95% CI = Confidence Interval Crowd-sourced \"Arena\" leaderboard https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard"
+    },
+    {
+      "index": 4,
+      "title": "LLMs and Transformers LLM (Large Language Model) is",
+      "text": "LLMs and Transformers LLM (Large Language Model) is typically a multi-layer model following the \"decoder\" part of the standard \"transformer\" architecture. It accepts a sequence of tokens, converts them into sequence of embeddings (vectors), transforms them over multiple \"decoder\" layers, and generates the text token , which is then added to the input. Each layer consists of two parts: Self-Attention and  Feed-Forward xN"
+    },
+    {
+      "index": 5,
+      "title": "MoE",
+      "text": "MoE"
+    },
+    {
+      "index": 6,
+      "title": "Mixtral - how it works Mixtral of Experts",
+      "text": "Mixtral - how it works Mixtral of Experts paper - https://arxiv.org/abs/2401.04088 Mixtral 8x7B is a Sparse Mixture of Experts (SMoE) language model. Mixtral has the same architecture as Mistral 7B, with the difference that each layer has 8 feedforward blocks (i.e. experts). For every token, at each layer, a router network selects two experts to process the current state and combine their outputs. Even though each token only sees two experts, the selected experts can be different at each timestep. As a result, each token has access to 47B parameters, but only uses 13B active parameters during inference . Mixtral was trained with a context size of 32k tokens and it outperforms or matches Llama 2 70B and GPT-3.5 across all evaluated benchmarks. In particular, Mixtral vastly outperforms Llama 2 70B on mathematics, code generation, and multilingual benchmarks. We also provide a model fine-tuned to follow instructions, Mixtral 8x7B - Instruct , that surpasses GPT-3.5 Turbo, Claude-2.1, Gemini Pro, and Llama 2 70B - chat model on human benchmarks. Both the base and instruct models are released under the Apache 2.0 license. Feed-Forward Sub-Layers have this structure with router, experts, and aggregation outputs. The aggregation at the output of each layer is implemented by taking the softmax over the Top-K logits of a linear layer of experts in this layer Understanding Mixtral-8x7b - https://huggingface.co/blog/vtabbott/mixtral Google 2022 review of sparse expert models - https://arxiv.org/pdf/2209.01667.pdf https://github.com/huggingface/transformers/blob/main/src/transformers/models/mixtral/configuration_mixtral.py https://github.com/huggingface/transformers/blob/main/src/transformers/models/mistral/configuration_mistral.py https://arxiv.org/abs/2305.13245 - group attention mechanism dim_MLP group attention =4096/n_heads"
+    },
+    {
+      "index": 7,
+      "title": "Quantization In LLMs, quantization reduces parameter precision to",
+      "text": "Quantization In LLMs, quantization reduces parameter precision to save memory and speed up inference, but it might lower accuracy . https:// arxiv.org /pdf/2212.09720.pdf"
+    },
+    {
+      "index": 8,
+      "title": "Mixed Quantization & our setup HQQ = Half-Quadratic",
+      "text": "Mixed Quantization & our setup HQQ = Half-Quadratic Quantization https://github.com/mobiusml/hqq"
+    },
+    {
+      "index": 9,
+      "title": "Offloading LLM often don’t fit into GPU memory.",
+      "text": "Offloading LLM often don’t fit into GPU memory. Sometimes neither in full precision, nor quantized Only part of a model’s parameters are used at the same time while computing activations. Why not put them into RAM? Moving data between RAM and VRAM is quite expensive D. Block in GPU mem. D. Block in CPU mem. D. Block being inferenced Decoder Block i -1 Decoder Block i Decoder Block i+1 Decoder Block i+2"
+    },
+    {
+      "index": 10,
+      "title": "Idea: only keep experts you need in GPU",
+      "text": "Idea: only keep experts you need in GPU memory Gating layer i FFN 1 FFN 4 FFN 3 FFN 2 Expert in GPU mem. Expert in CPU mem. Expert selected for inference"
+    },
+    {
+      "index": 11,
+      "title": "Offloading and caching Experts are very often reused",
+      "text": "Offloading and caching Experts are very often reused between adjacent tokens An LRU Cache can be used to store hot tokens in GPU memory to mitigate the need of moving them between devices LRU Cache (Least Recently Used) - remove the least used items first when the cache is full"
+    },
+    {
+      "index": 12,
+      "title": "Caching in action Expert 1 Expert 2 Expert",
+      "text": "Caching in action Expert 1 Expert 2 Expert 3 Expert 4 Expert 1 Expert 2 Expert 3 Expert 4 Expert in GPU cache Expert in CPU mem. Expert selected for inference Before gating After gating"
+    },
+    {
+      "index": 13,
+      "title": "Speculative prefetching Caching still doesn't solve the problem",
+      "text": "Speculative prefetching Caching still doesn't solve the problem of not knowing which experts will be used ahead of time Due to residual streams, the output of a decoder layer doesn’t differ too much from it’s input Next layer’s gating function can be applied current hidden states to approximate which experts will be chosen in the future This creates a 33% speedup on top of expert-caching on Colab hardware Gating layer i FFN 1 FFN 8 … Multi Head Attn i Gating layer i + 1 FFN 1 FFN 8 …"
+    },
+    {
+      "index": 14,
+      "title": "Zooming into transformers: residual streams",
+      "text": "Zooming into transformers: residual streams"
+    },
+    {
+      "index": 15,
+      "title": "Experiments and results",
+      "text": "Experiments and results"
+    },
+    {
+      "index": 16,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates January 26, 2024 How to Run",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates January 26, 2024 How to Run",
+      "source": "slide"
+    },
+    {
+      "claim": "Efficient inference of Mixtral-8x7B on a laptop Run",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 2,
+      "slideTitle": "Efficient inference of Mixtral-8x7B on a laptop Run",
+      "source": "slide"
+    },
+    {
+      "claim": "Jan 26, 2024 : 56 Models, 244K votes",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 3,
+      "slideTitle": "Jan 26, 2024 : 56 Models, 244K votes",
+      "source": "slide"
+    },
+    {
+      "claim": "LLMs and Transformers LLM (Large Language Model) is",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 4,
+      "slideTitle": "LLMs and Transformers LLM (Large Language Model) is",
+      "source": "slide"
+    },
+    {
+      "claim": "Mixtral - how it works Mixtral of Experts",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 6,
+      "slideTitle": "Mixtral - how it works Mixtral of Experts",
+      "source": "slide"
+    },
+    {
+      "claim": "Quantization In LLMs, quantization reduces parameter precision to",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 7,
+      "slideTitle": "Quantization In LLMs, quantization reduces parameter precision to",
+      "source": "slide"
+    },
+    {
+      "claim": "Mixed Quantization & our setup HQQ = Half-Quadratic",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 8,
+      "slideTitle": "Mixed Quantization & our setup HQQ = Half-Quadratic",
+      "source": "slide"
+    },
+    {
+      "claim": "Offloading LLM often don’t fit into GPU memory.",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 9,
+      "slideTitle": "Offloading LLM often don’t fit into GPU memory.",
+      "source": "slide"
+    },
+    {
+      "claim": "Idea: only keep experts you need in GPU",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 10,
+      "slideTitle": "Idea: only keep experts you need in GPU",
+      "source": "slide"
+    },
+    {
+      "claim": "Offloading and caching Experts are very often reused",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 11,
+      "slideTitle": "Offloading and caching Experts are very often reused",
+      "source": "slide"
+    },
+    {
+      "claim": "Caching in action Expert 1 Expert 2 Expert",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=qH2SAQLj6NQ",
+      "slideIndex": 12,
+      "slideTitle": "Caching in action Expert 1 Expert 2 Expert",
+      "source": "slide"
+    }
+  ]
+}

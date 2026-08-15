@@ -1,0 +1,349 @@
+{
+  "id": "2025-03-14-2025-03-14-ai-updates",
+  "date": "2025-03-14",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "agents",
+    "openai",
+    "google"
+  ],
+  "video": {
+    "id": "hUpxOouik_g",
+    "title": "Have you heard these exciting AI news? - March 14, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=hUpxOouik_g",
+    "thumbnail": "https://i.ytimg.com/vi/hUpxOouik_g/hqdefault.jpg",
+    "duration": 1828
+  },
+  "deck": {
+    "path": "2025/2025-03-14-AI-Updates.pptx",
+    "filename": "2025-03-14-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-03-14-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-03-14-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Google Gemma-3-27B beats DeepSeek-V3",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Which AI Model to Use in 2025",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI Agents up to $20,000/month",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Amazon formed a new AI agents division",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Meta Llama 800+ Mln downloads",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "MAI - Microsoft AI - new family of models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tulu-3-405B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Gemini Advanced - 2.0 Models",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Gemini Robotics and Gemini Robotics-ER",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Google Gemma-3-27B beats DeepSeek-V3 Which AI Model to",
+      "text": "Google Gemma-3-27B beats DeepSeek-V3 Which AI Model to Use in 2025 OpenAI Agents up to $20,000/month Amazon formed a new AI agents division Meta Llama 800+ Mln downloads MAI - Microsoft AI - new family of models Tulu-3-405B Gemini Advanced - 2.0 Models Gemini Robotics and Gemini Robotics-ER AI Updates March 14 , 202 5 Crowd-sourced \"Arena\" Leaderboard WebDev Arena Leaderboard Jobs Microsoft Belief State Transformer Alibaba Babel Alibaba START (Self-taught Reasoner with Tools) Reflection AI - Build Autonomous Systems Claudette - a wrapper for Anthropic’s Python SDK Tencent’s Hunyuan-TurboS AI Hybrid Model Open AI SWE-Lancer benchmark DOGE custom chatbot for US government ServiceNow acquires Moveworks for $2.85 Bln AI at McDonald’s CoreWeave & OpenAI $11.9 Bln contract MCP = Model Context Protocol Siraj Raval is back! Meta AI Chips - MTIA GitHub Models Startups Raising Money 2024 - 2025 AI Picks & Shovels xAI acquired a 1 Mln sq-ft property in Memphis Ilya Sutskever's Startup $2Bln at $30 Bln Valuation Peter Diamandis - Exponential Mastery Event Manus AI Assistant AI Coding Assistants, Lovable.dev, Bolt.new Autonomous Multi-Agent Systems (AMAS) Nvidia RTX Pro 6000 Blackwell GPU ChatGPT was just the SPARK. The real explosion is coming in the next 1-2 years. - Peter Diamandis"
+    },
+    {
+      "index": 2,
+      "title": "Google Gemma-3 Google Gemma-3 - open source, major",
+      "text": "Google Gemma-3 Google Gemma-3 - open source, major improvements gemma (Feb 2024, 8k-tokens) - 2b, 7b gemma2 (May 2024, 80k-tokens) - 2b, 9b, 27b gemma3 (March 2025, 128k-tokens) - 1b, 4b, 12b, 27b Sizes: 1B, 4B, 12B, and 27B parameters 128k-token context length vs 80k in Gemma-2 Training data as of November 2, 2023 Multimodal (text, image, and short video analysis) 35 languages, up to 140 languages Function calling, structured outputs Outperforms Llama-405B, DeepSeek-V3, o1-mini Requires fewer resources compared to larger models Can run on NVIDIA and AMD GPUs, and supports CPU execution Compatible with Hugging Face Transformers and PyTorch https://blog.google/technology/developers/gemma-3/ https://www.youtube.com/watch?v=UU13FN2Xpyw https://www.youtube.com/watch?v=hKYvB0TnvcU https://ollama.com/library/gemma3 - ollama run gemma3:27b gemma3 receives mixed reviews on Reddit. Some are praising its creative and world-building capabilities, others criticizing its frequent mistakes, suggesting it is less effective than phi4-14b"
+    },
+    {
+      "index": 3,
+      "title": "Compare Models An Opinionated Guide on Which AI",
+      "text": "Compare Models An Opinionated Guide on Which AI Model to Use in 2025 https://creatoreconomy.so/p/an-opinionated-guide-on-which-ai-model-2025"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates 1 OpenAI Agents up to $20,000/month",
+      "text": "AI Updates 1 OpenAI Agents up to $20,000/month : $2K/mo for knowledge worker $10K/mo for software development, $20K/mo for PhD-level research OpenAI expects agents to contribute 20-25% of its revenue and has already demonstrated their capabilities in sorting sales leads, coding assistance, and nuclear fusion research Open AI \"Responses API\" replaces \"Assistants API\", web search, file search, Agents API, computer use, ... https://techcrunch.com/2025/03/11/openai-launches-new-tools-to-help-businesses-build-ai-agents/ https://platform.openai.com/docs/quickstart https://www.youtube.com/watch?v=gGJWQjynOcg - demo Amazon formed a new AI agents division Meta Llama 800+ Mln downloads The upcoming Llama 4 will power AI agents capable of reasoning and task automation. Every business will have AI agents for managing customer interactions, AI assistants, ... MAI - Microsoft AI - new family of models Benchmarks close to OpenAI and Anthropic Microsoft plans to use MAI instead of expensive OpenAI models Microsoft’s research into the Belief State Transformer shows promising advancements in AI reasoning and planning, potentially giving them an edge in future developments. https://www.reuters.com/technology/artificial-intelligence/microsoft-developing-ai-reasoning-models-compete-with-openai-information-reports-2025-03-07/ Tulu-3-405B - new open-source LLM developed by the Allen Institute for AI (Ai2) fine-tuned from Meta Llama3.1-405B Reinforcement Learning with Verifiable Rewards (RLVR), Direct Preference Optimization (DPO), and supervised fine-tuning Outperforms DeepSeek V3 and OpenAI's GPT-4o Available on Ai2 Playground, GitHub, Hugging Face https://allenai.org/blog/tulu-3-405B Gemini Robotics and Gemini Robotics-ER vision, language, and action, built on Gemini 2.0 understand natural language instructions, adapt, perform complex physical tasks with precision. Partnerships involving Apptronik, Boston Dynamics, and Agile Robots https://deepmind.google/technologies/gemini-robotics/gemini-robotics-model/ Use Claude with Sonar websearch via MCP server Small TypeScript application - can run locally https://github.com/ppl-ai/modelcontextprotocol"
+    },
+    {
+      "index": 5,
+      "title": "Gemini Advanced - 2.0 Models Gemini Advanced Gemini",
+      "text": "Gemini Advanced - 2.0 Models Gemini Advanced Gemini 2.0 Flash can edit or restore images using your textual descriptions You can have a dialog with Gemini 2.0 Flash to iteratively edit images, refining the desired outcome through multiple rounds of text-based instructions Gemini 2.0 Flash can leverage its knowledge of the world to create more accurate and realistic images. You can ask Gemini 2.0 Flash to tell a story and have it generate accompanying illustrations, maintaining consistency in characters and settings Gemini 2.0 Flash can render correct text in images (so it can be used in advertising)"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates 2 Microsoft Belief State Transformer use",
+      "text": "AI Updates 2 Microsoft Belief State Transformer use both forward and backward encoders to predict both next and previous tokens, improving self-evaluation a bit more computation Results: when filling in the middle of children's stories, Belief State Transformers outperformed GPT-style Transformers by a factor of three, as judged by GPT-4 Belief State Transformers learn a compact belief state, enabling strong self-evaluation, which is valuable for test-time computation and generating training data https://www.youtube.com/watch?v=aqhbRtB2Fyg - video Alibaba Babel - Open Multilingual LLM Alibaba START (Self-taught Reasoner with Tools) - a model fine-tuned from QwQ-32B, achieving strong performance in reasoning and tool use benchmarks Reflection AI - new startup for Building superintelligent autonomous systems $130 Mln in Funding https://www.reflection.ai Tencent’s Hunyuan-TurboS AI first ultra-large Hybrid-Transformer-Mamba MoE model combines speed and deep reasoning outperforming models like GPT-4o low price (approx $0.15 per Mln tokens) https://x.com/TXhunyuan/status/1899105803073958010 https://www.news9live.com/technology/artificial-intelligence/tencent-hunyuan-turbos-future-ai-hybrid-architecture-fast-thinking-2831680 Claudette - a wrapper for Anthropic’s Python SDK https://claudette.answer.ai"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates 3 Open AI SWE-Lancer benchmark a",
+      "text": "AI Updates 3 Open AI SWE-Lancer benchmark a benchmark of over 1,400 freelance software engineering tasks from Upwork https://openai.com/index/swe-lancer/ DOGE custom chatbot for US government General Services Administration started using custom chatbot from Elon Musk’s DOGE \"GSAi\" -  to \"draft emails, create talking points, summarize text, write code, ... \". The chatbot gives 3 options - Claude Haiku 3.5 (the default), Claude Sonnet 3.5 v2 and Meta Llama 3.2 https://www.yahoo.com/tech/doge-has-reportedly-started-rolling-out-a-custom-chatbot-to-automate-some-government-tasks-211616079.html ServiceNow acquires Moveworks for $2.85 Bln https://www.servicenow.com - supplies a cloud computing platform for the creation and management of automated business workflows https://www.moveworks.com - Agentic AI Assistants and automation, grown from automating IT support to serving HR, finance, and facilities management, with clients including Unilever, Instacart, Siemens, and Toyota. AI at McDonald’s 43,000 restaurants, 70M daily customers partnership with Google Cloud real-time data processing AI analysis directly in-store predictive equipment maintenance order accuracy generative AI virtual manager personalized promotions CoreWeave , AI CLoud, has filed for an IPO, aiming for a valuation above $35 billion CoreWeave & OpenAI $11.9 Bln contract (5 years cloud computing deal) Siraj Raval is back! - $1 Mln/year using AI https://www.youtube.com/watch?v=W7w97MbZKCc Meta AI Chips - MTIA: MTIA = Meta Training and Inference Accelerator 2024 - inference chip, 2025 - training chip Chips made at TSMC (Taiwan Semiconductor Manufacturing Co) Goal - self-reliance, reduce cost, reduce energy requirements https://www.tomshardware.com/tech-industry/artificial-intelligence/meta-is-reportedly-testing-its-first-rsic-v-based-ai-chip-for-ai-training"
+    },
+    {
+      "index": 8,
+      "title": "MCP = Model Context Protocol MCP = Model",
+      "text": "MCP = Model Context Protocol MCP = Model Context Protocol Anthropic introduced and described MCP on Nov 25, 2024 MCP is defined as an open standard for connecting LLMs to data systems (content repositories, databases, business tools, etc) You can use pre-built MCP servers for common services or create your own server using the MCP specification and SDKs. The MCP server acts as an intermediary between your data sources and AI applications, allowing them to communicate via the MCP protocol https://www.anthropic.com/news/model-context-protocol - announcement https://modelcontextprotocol.io/introduction - docs https://spec.modelcontextprotocol.io/specification/2024-11-05/ - specs https://github.com/modelcontextprotocol - GitHub https://github.com/modelcontextprotocol/servers - multiple MCP servers https://www.aihero.dev/what-problem-does-model-context-protocol-solve https://www.youtube.com/watch?v=5ZWeCKY5WZE - video MCP is also a framework designed to manage and structure context within LLMs (Context Management (organize and prioritize), Information Hierarchy (instructions, user data, conversation history), Prompt Engineering, Memory Handling, State Management) Cursor or other desktop app MCP Server GitHub Local Files Slack Unique APIs Unified API"
+    },
+    {
+      "index": 9,
+      "title": "GitHub Models \"GitHub Models\" - allows developers to",
+      "text": "GitHub Models \"GitHub Models\"  - allows developers to discover, experiment with, and integrate AI models into their projects https://github.com/marketplace/models/ It provides a space for experimentation and prototyping. provides a marketplace with multiple models offers an interactive \"playground\" API Integration Integration with Development Tools (VS Code, ...) Available Models: OpenAI GPT-4o OpenAI GPT-4o mini Phi-3.5-MoE instruct (128k) Phi-3.5-mini instruct (128k) Phi-3.5-vision instruct (128k) Phi-3-medium instruct (128k) Phi-3-medium instruct (4k) Phi-3-mini instruct (128k) Phi-3-mini instruct (4k) Phi-3-small instruct (128k) Phi-3-small instruct (8k) Phi-4 Phi-4-mini-instruct Phi-4-multimodal-instruct AI21 Jamba 1.5 Large AI21 Jamba 1.5 Mini Codestral 25.01 Cohere Command R Cohere Command R 08-2024 Cohere Command R+ Cohere Command R+ 08-2024 DeepSeek-R1 DeepSeek-V3 Llama-3.2-11B-Vision-Instruct Llama-3.2-90B-Vision-Instruct Llama-3.3-70B-Instruct Meta-Llama-3.1-405B-Instruct Meta-Llama-3.1-70B-Instruct Meta-Llama-3.1-8B-Instruct Meta-Llama-3-70B-Instruct Meta-Llama-3-8B-Instruct Ministral 3B Mistral Large 24.11 Mistral Nemo Mistral Large Mistral Large (2407) Mistral Small JAIS 30b Chat"
+    },
+    {
+      "index": 10,
+      "title": "Startups Raising Money 2024 - 2025 https://techcrunch.com/2025/03/08/9-us-ai-startups-have-raised-100m-or-more-in-2025/ There",
+      "text": "Startups Raising Money 2024 - 2025 https://techcrunch.com/2025/03/08/9-us-ai-startups-have-raised-100m-or-more-in-2025/ There were 49 startups that raised funding rounds worth $100 Million or more in 2024 Three companies raised more than one \"mega-round\" last year Seven companies raised rounds at $1 Billion or larger January 2025: ElevenLabs raised a $180 Mln (AI Voice generation) Hippocratic AI raised $141 Mln (LLMs for health industry) February 2025: Together AI - $305 Mln - infrastructure Lambda - $480 Mln - infrastructure Abridge - $250 Mln - transcribes patient-clinician conversations Eudia - $105 Mln - legal tech EnCharge AI - $100 Mln - hardware Harvey - $300 Mln - AI legal tech March 2025: Anthropic - $3.5 Bln - LLMs, Claude Major investments continue in AI-driven startups across sectors, from self-driving technology to medical AI"
+    },
+    {
+      "index": 11,
+      "title": "AI Picks & Shovels xAI, Elon Musk’s AI",
+      "text": "AI Picks & Shovels xAI, Elon Musk’s AI company, has acquired a 1 Mln square foot property in Southwest Memphis ( 5400 Tulane Road, Whitehaven, Memphis ) for $80 Mln to expand its AI data center footprint with plans for 1 Mln GPUs datacenter https://techcrunch.com/2025/03/07/elon-musks-ai-company-xai-acquires-1-million-square-foot-property-in-memphis/ AI Gold Rush - sell Picks & Shovels \"Don’t Sell AI Agents, Sell AI Infrastructures Instead ...\" https://medium.com/@julio.pessan.pessan/dont-sell-ai-agents-sell-ai-infrastructures-instead-the-billion-dollar-opportunity-04eb7166b3d9"
+    },
+    {
+      "index": 12,
+      "title": "Ilya Sutskever's Startup $2Bln at $30 Bln Valuation",
+      "text": "Ilya Sutskever's Startup $2Bln at $30 Bln Valuation Safe Superintelligence (SSI) - Ilya Sutskever's startup received additional $2 Bln at $30 Bln valuation Company has no plans to release a product anytime soon The startup is solely focused on researching and developing an advanced form of the emerging technology with capabilities far exceeding those of humans Sutskever’s reputation is SSI’s primary selling point for investors The 38-year-old researcher was born in Russia, raised in Israel and studied in Canada under A.I. academic Geoffrey Hinton. He subsequently joined Google before leaving in 2015 for OpenAI to lead the development of ChatGPT. He served as OpenAI’s chief scientist and a board member Elon Musk, an OpenAI co-founder, described Sutskever as “the linchpin for OpenAI being successful” in a 2023 interview https://ssi.inc SSI has its primary locations in Palo Alto, California, and Tel Aviv, Israel."
+    },
+    {
+      "index": 13,
+      "title": "Exponential Mastery Event Peter Diamandis - Exponential Mastery",
+      "text": "Exponential Mastery Event Peter Diamandis - Exponential Mastery Event https://exponential.su.org/details-v-2 ChatGPT was just the SPARK. The real explosion is coming in the next 12-24 months. Humanoid robots that can learn and adapt in real-time AI systems discovering cures for \"incurable\" diseases Neural interfaces allowing direct brain-to-computer connection Quantum computers solving previously impossible problems These technologies are CONVERGING and creating the greatest wealth and disruption event in human history. The technological tsunami is coming. AGI coming online will disrupt everything Industries are being transformed Trillion-dollar opportunities are being developed How to position yourself ahead of these shifts"
+    },
+    {
+      "index": 14,
+      "title": "Manus AI Assistant https://monica.im https://manus.im https://www.youtube.com/watch?v=wVvfXZm4Lvg - demo",
+      "text": "Manus AI Assistant https://monica.im https://manus.im https://www.youtube.com/watch?v=wVvfXZm4Lvg - demo Xiao Hong, founder Yichao 'Peak' Ji , co-founder and chief scientist Xiao Hong - born in 1992, graduated from Huazhong University of Science and Technology 2015 - founded Nightingale Technology, launching tools served over 2 million businesses and secured major funding from Tencent and ZhenFund. 2022 - started Butterfly Effect and released Monica, an AI browser extension gained 10 million users globally 2025 March - launched Manus AI, a \"universal AI Agent\" that autonomously completes tasks Manus uses good models (possibly Claude) and ~30 tools (mostly open source). It has its own environment to work with files and run code https://hybrid-rituals.com/everything-we-know-about-the-founder-of-manus-ai-so-far/ OpenManus - open source version https://github.com/mannaandpoem/OpenManus https://www.youtube.com/watch?v=W2Ur7FGqsJE How Manus AI Agent is different: Manus completes weeks of professional work in just hours. Hugging Face and top VCs praise its performance calling it \"the most impressive AI tool they’ve used\" Positioned as \"the world’s first fully autonomous AI agent\", which can work without constant human intervention It has Multi-Agent Architecture; Cloud-Based - continue working even when user disconnects; Multi-Modal (text, images, code); Can use tools (web browsers, code editors, databases); can adaptively learn from user interactions to personalize responses; Good general AI performance on benchmarks (on par or better than other leading AI models in real-world problem-solving capabilities) From Pipelines to Autonomous Multi-Agent Systems (AMAS) Last year autonomous multi-agent systems (AMAS) were not reliable, tend to go into infinite loops. So people used structured pipelines instead. Nowadays agents and collaboration algorithms are much better, so now it is possible to build reliable AMAS-s Better LLMs; Improved coordination and adaptability algorithms; Better collaboration patterns (parallel and loop) - prevent infinite loops; Better Autonomous Decision-Making (Salesforce); Today's trend - shift away from traditional structured pipelines to AMAS-s. AMAS can handle complex, dynamic tasks more effectively than structured pipelines, which are often rigid and less adaptable; AMAS can execute tasks independently; AMAS doesn't need manual intervention; AMAS improves overall system efficiency; AMAS can handle and combine structured and unstructured data"
+    },
+    {
+      "index": 15,
+      "title": "Top AI no-code tools: Cursor vs. Windsurf vs.",
+      "text": "Top AI no-code tools:   Cursor vs. Windsurf vs. Lovable vs. v0 vs. Bolt vs. Replit .. https://substack.com/home/post/p-158033421 .. https://www.youtube.com/watch?v=HSnJrXWETfM - video testing 6 systems Here is a list of AI Assistants (can be easily tripled): Bolt - https://bolt.new Lovable - https://lovable.dev v0 - https://v0.dev Replit - https://replit.com Cursor - https://www.cursor.com Windsurf - https://codeium.com/windsurf Qodo - https://www.qodo.ai - new name for Codeium GitHub Copilot Replit Ghostwriter base44 - https://base44.com AskCodi - https://askcodi.com AugmentCode - https://www.augmentcode.com Snyk - https://snyk.io -  AI-powered security analysis Aider - https://aider.chat - command-line code assistant Cline - https://cline.bot - for VS Code (former Claude Dev) Devin - https://devin.ai - by Cognition Labs, $500/month Tabnine - AI code completion Amazon CodeWhisperer - https://docs.aws.amazon.com/codewhisperer Amazon Q Developer - https://aws.amazon.com/q/developer/ Google Gemini Code Assist - https://codeassist.google Visual Studio IntelliCode - https://visualstudio.microsoft.com/services/intellicode JetBrains AI Assistant - https://www.jetbrains.com/ai/ CodeRabbit - https://www.coderabbit.ai - code review Codiga - https://www.codiga.io - code analysis, completion, review Pixee - https://www.pixee.ai - code quality/security Sourcery - https://sourcery.ai - real time refactoring FauxPilot - https://github.com/fauxpilot/fauxpilot - open-source copilot alternative Tabby - https://github.com/TabbyML/tabby - open-source 90% of Code will be written by AI in 3-6 months 100% in 12 months - Dario Amodei, Anthropic CEO AI Coding Assistants Human Coding AI Assisted Coding (Copilot) Vibe Coding (AI writes the whole app from description)"
+    },
+    {
+      "index": 16,
+      "title": "Lovable AI Lovable AI - https://lovable.dev - AI-powered",
+      "text": "Lovable AI Lovable AI - https://lovable.dev - AI-powered tool that turns descriptions into working products without requiring any coding knowledge. It both builds and deploys apps Anton Osika is the co-founder and CEO of Lovable Since launching three months ago, Lovable hit $4 million ARR in the first four weeks and $10 million ARR in two months with a team of just 15 people, making it Europe’s fastest-growing startup ever. https://www.lennysnewsletter.com/p/building-lovable-anton-osika https://www.youtube.com/watch?v=DZtGxNs9AVg https://x.com/antonosika Lovable supports popular frameworks like React and integrates with tools such as Stripe and Supabase for backend functionality. It offers features like live rendering, instant undo, and collaboration tools, making it accessible for non-technical users and developers alike. Users can sync their projects to GitHub for further customization and deployment Lovable AI itself is NOT open source Lovable has evolved from an open-source project called \"gpt-engineer\": https://github.com/AntonOsika/gpt-engineer which remains available on GitHub; gpt-engineer was a command-line tool focused on AI-assisted software development, and its commercial web version was rebranded as Lovable to provide a more user-friendly interface for a broader audience"
+    },
+    {
+      "index": 17,
+      "title": "Bolt.new Bolt (Bolt.new) is developed by the StackBlitz",
+      "text": "Bolt.new Bolt (Bolt.new) is developed by the StackBlitz team - https://stackblitz.com Bolt provides Javascript development platform running in browser WASM (Web Assembly), and use AI (Anthropic Claude) to create Javascript apps StackBlitz developed \"WebContainer\" objects to run in WASM in browser. When you spin-off a WebContainer in WASM, you get a virtual environment in the browser where you have a virtual file system, node.js, npm, network access - all you need to develop, test, and run web apps in a browser in a safe isolated sandbox (container). No local setup required. The WebContainer is probably written in Rust and is NOT open-source https://bolt.new https://support.bolt.new/docs/getting-started https://github.com/stackblitz/bolt.new https://webcontainers.io https://github.com/stackblitz/webcontainer-core Bolt.new provides IDE interface in browser. You can also download the whole GitHub repo, and run everything locally How you work with Bolt: You chat with AI, give it descriptions and images, go back and forth to refine the plan for the app. Then Bolt creates code, installs dependencies, deploys, tests, runs the app - all within the browser. Bolt is fast and very useful for fast prototyping and demos. Bolt writes code in JavaScript (React, Vue, and Astro frameworks) https://stackblitz.com/pricing - free, $18/mo, ..., token reloads as needed StackBlitz is in San Francisco, CA, since 2016 The \"WebContainer\" technology: \"TypeScript, Rust, and WebAssembly\" Alternative open-source \"OpenWebContainer\" written completely in TypeScript: https://github.com/thecodacus/OpenWebContainer Also: https://github.com/WebContainer/Chrome-WebContainer Eric Simons Albert Pai Matthew Savino"
+    },
+    {
+      "index": 18,
+      "title": "Nvidia RTX Pro 6000 Blackwell GPU Nvidia RTX",
+      "text": "Nvidia RTX Pro 6000 Blackwell GPU Nvidia RTX Pro 6000 Blackwell GPU 24,064 CUDA cores 96GB GDDR7 600W https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-pro-6000-blackwell-gpu-spotted-with-24-064-cuda-cores-96gb-gddr7-and-600w-11-percent-more-cores-than-rtx-5090"
+    },
+    {
+      "index": 19,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard English-only queries Total #models: 212 Total #votes: 2,768,389 Last updated: 2025-03-10 Coding China China China China China China China China x.ai China x.ai China China Highlights: Grok-3 and GPT-4.5 share 1st place followed by Gemini-2 and DeepSeek-R1 Gemma-3-27B is good Llama falls behind"
+    },
+    {
+      "index": 20,
+      "title": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard",
+      "text": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard"
+    },
+    {
+      "index": 21,
+      "title": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS The",
+      "text": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS The Tech Layoff Tracker (as of March 13, 2025) https://www.trueup.io/layoffs So far in 2025 - 531 people per day, total of 38,252 people In 2024 - 653 people per day, total of 238,461 people In 2023: More than 191,000 people In 2022: More than 93,000 workers laid off https://news.crunchbase.com/startups/tech-layoffs/ AI jobs percentage: 2022 - 3.3% 2024 - 14.3% 2025 - 25% of all new tech job openings require AI skills 36% of IT job postings tied to AI needs Number of AI Job postings by year 2020\t27K 2021\t38K 2022\t52K 2023\t65K 2024\t81K 2025\t105 - 200K (projected)"
+    },
+    {
+      "index": 22,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 23,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Google Gemma-3-27B beats DeepSeek-V3",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 1,
+      "slideTitle": "Google Gemma-3-27B beats DeepSeek-V3 Which AI Model to",
+      "source": "outline"
+    },
+    {
+      "claim": "Which AI Model to Use in 2025",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates 1 OpenAI Agents up to $20,000/month",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI Agents up to $20,000/month",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates 3 Open AI SWE-Lancer benchmark a",
+      "source": "outline"
+    },
+    {
+      "claim": "Amazon formed a new AI agents division",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 9,
+      "slideTitle": "GitHub Models \"GitHub Models\" - allows developers to",
+      "source": "outline"
+    },
+    {
+      "claim": "Meta Llama 800+ Mln downloads",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 12,
+      "slideTitle": "Ilya Sutskever's Startup $2Bln at $30 Bln Valuation",
+      "source": "outline"
+    },
+    {
+      "claim": "MAI - Microsoft AI - new family of models",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 15,
+      "slideTitle": "Top AI no-code tools: Cursor vs. Windsurf vs.",
+      "source": "outline"
+    },
+    {
+      "claim": "Tulu-3-405B",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 18,
+      "slideTitle": "Nvidia RTX Pro 6000 Blackwell GPU Nvidia RTX",
+      "source": "outline"
+    },
+    {
+      "claim": "Gemini Advanced - 2.0 Models",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 20,
+      "slideTitle": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard",
+      "source": "outline"
+    },
+    {
+      "claim": "Gemini Robotics and Gemini Robotics-ER",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 23,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Google Gemma-3 Google Gemma-3 - open source, major",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 2,
+      "slideTitle": "Google Gemma-3 Google Gemma-3 - open source, major",
+      "source": "slide"
+    },
+    {
+      "claim": "Compare Models An Opinionated Guide on Which AI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 3,
+      "slideTitle": "Compare Models An Opinionated Guide on Which AI",
+      "source": "slide"
+    },
+    {
+      "claim": "Gemini Advanced - 2.0 Models Gemini Advanced Gemini",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 5,
+      "slideTitle": "Gemini Advanced - 2.0 Models Gemini Advanced Gemini",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 Microsoft Belief State Transformer use",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 6,
+      "slideTitle": "AI Updates 2 Microsoft Belief State Transformer use",
+      "source": "slide"
+    },
+    {
+      "claim": "MCP = Model Context Protocol MCP = Model",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 8,
+      "slideTitle": "MCP = Model Context Protocol MCP = Model",
+      "source": "slide"
+    },
+    {
+      "claim": "Startups Raising Money 2024 - 2025 https://techcrunch.com/2025/03/08/9-us-ai-startups-have-raised-100m-or-more-in-2025/ There",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 10,
+      "slideTitle": "Startups Raising Money 2024 - 2025 https://techcrunch.com/2025/03/08/9-us-ai-startups-have-raised-100m-or-more-in-2025/ There",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Picks & Shovels xAI, Elon Musk’s AI",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=hUpxOouik_g",
+      "slideIndex": 11,
+      "slideTitle": "AI Picks & Shovels xAI, Elon Musk’s AI",
+      "source": "slide"
+    }
+  ]
+}

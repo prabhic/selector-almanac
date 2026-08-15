@@ -1,0 +1,240 @@
+{
+  "id": "2021-06-11-21-06-11-encoding-categorical-features-alex",
+  "date": "2021-06-11",
+  "title": "Encoding categorical features Alex",
+  "series": "data-science-2021",
+  "topics": [
+    "general",
+    "ml-fundamentals"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-06-11-Encoding_categorical_features_Alex.pptx",
+    "filename": "21-06-11-Encoding_categorical_features_Alex.pptx",
+    "title": "Encoding categorical features Alex",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-06-11-Encoding_categorical_features_Alex.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-06-11-Encoding_categorical_features_Alex.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Encoding categorical features Beyond One-hot Encoding by Alex",
+      "text": "Encoding categorical features Beyond One-hot Encoding by Alex Ni June 11, 2021"
+    },
+    {
+      "index": 2,
+      "title": "17 ways of encoding categorical variables OrdinalEncoder CountEncoder",
+      "text": "17 ways of encoding categorical variables OrdinalEncoder CountEncoder OnehotEncoder SumEncoder BackwardDifferenceEncoder HelmertEncoder PolynomialEncoder BinaryEncoder BaseNEconder HashingEncoder TargetEconder MEstimateEncoder JamesSteinEncoder GLMMEncoder WOEEncoder LeaveOneOutEncoder CatBosstEncoder Method Uns upervised: the encoding is based solely on the categorical column S upervised: the encoding is based on some function of original column and a second (numeric) column Output dimension The encoding of a categorical column may produce one numeric column (output dimension = 1) or many numeric columns (output dimension > 1) Mapping Whether each level is mapping to a unique output"
+    },
+    {
+      "index": 3,
+      "title": "Python libraries: category_encoders A set of scikit-learn-style transformers",
+      "text": "Python libraries: category_encoders A set of scikit-learn-style transformers for encoding categorical variables into numeric by means of different techniques. Github link: https://github.com/scikit-learn-contrib/category_encoders How to use: !pip install category_encoders import category_encoders as ce ce.OrdinalEncoder().fit_transform(x)"
+    },
+    {
+      "index": 4,
+      "title": "Unsupervised encoding Output dimension > 1 Output dimension",
+      "text": "Unsupervised encoding Output dimension > 1 Output dimension = 1 When the encoding is based solely on the categorical column Encoders include: OrdinalEncoder CountEncoder OnehotEncoder SumEncoder BackwardDifferenceEncoder HelmertEncoder PolynomialEncoder BinaryEncoder BaseNEconder HashingEncoder"
+    },
+    {
+      "index": 5,
+      "title": "OrdinalEncoder(LabelEncoder) Each level is mapped to an integer,",
+      "text": "OrdinalEncoder(LabelEncoder) Each level is mapped to an integer, from 1 to L (where L is the number of levels) Risk of imposing ordinality, especially if the levels have no intrinsic order"
+    },
+    {
+      "index": 6,
+      "title": "2. CountEncoder Each level is mapped to the",
+      "text": "2. CountEncoder Each level is mapped to the number of observations carrying that level Could be useful to reflect the “credibility” of each level"
+    },
+    {
+      "index": 7,
+      "title": "3. OneHotEncoder Each level is mapped to a",
+      "text": "3. OneHotEncoder Each level is mapped to a dummy column, indicating whether that level is carried by that row Compares the mean of dependent variables for a given level to a base reference level(i.e. the value of the intercept) Risk: feature space can blow up quickly leading to curse of dimensionality If we fit a linear regression on the data, coefficients are added to the intercept to obtain the estimate Example: 40 +( -5 )* 1 +( 5 )* 0 +( 12 )* 0 +( 28 )* 0 =35"
+    },
+    {
+      "index": 8,
+      "title": "4. SumEncoder (Deviation coding) Belongs to a class",
+      "text": "4. SumEncoder (Deviation coding) Belongs to a class called “ contrast encodings ” Reference: https://www.statsmodels.org/devel/contrasts.html Compares the mean of the dependent variable for a given level to the mean of the dependent variable over all the levels It is used when you want the regression coefficients to have zero-sum The intercept(50) equals to the mean of y By taking y of the last level and subtracting it from the intercept (68-50) we get 18, which is exactly the opposite of the sum of the remaining coefficients (-15-5+2=-18)"
+    },
+    {
+      "index": 9,
+      "title": "5. BackwardDifferenceEncoder (Another contrast encoding) Designed for comparing",
+      "text": "5. BackwardDifferenceEncoder (Another contrast encoding) Designed for comparing each couple of consecutive levels (e.g. bachelors vs. masters) with respect to the target variable (e.g. income) Compares the mean of the dependent variable for a given level to the mean of the dependent variable for the prior level Example: the coefficient of Bachelors is 10, because y of Bachelors is 10 higher than High-School, Masters’ coefficient equals 7 because y of Masters is 7 higher than Bachelor's and so on."
+    },
+    {
+      "index": 10,
+      "title": "6. HelmertEncoder (Another contrast encoding)) Compares the mean",
+      "text": "6. HelmertEncoder (Another contrast encoding)) Compares the mean of the dependent variable for a given level to the mean of the dependent variable for the ALL prior level Example: PhD’s coefficient is 24, because PhD is 24 higher than the mean of the previous levels 68-((35+45+52)/3)=24."
+    },
+    {
+      "index": 11,
+      "title": "7. Orthogonal Polynomial Coding Designed to quantify linear,",
+      "text": "7. Orthogonal Polynomial Coding Designed to quantify linear, quadratic and cubic behaviors of the target variable with respect to the categorical variable Assume that the underlying categorical variable has levels that are not only ordinable, but also equally spaced"
+    },
+    {
+      "index": 12,
+      "title": "8. BinaryEncoder Basically the same of OrdinalEncoder, the",
+      "text": "8. BinaryEncoder Basically the same of OrdinalEncoder, the only difference is that the integers are converted to binary numbers, then every positional digit is one-hot encoded."
+    },
+    {
+      "index": 13,
+      "title": "9. BaseNEncoder A generalization of the BinaryEncoder. In",
+      "text": "9. BaseNEncoder A generalization of the BinaryEncoder. In fact, in BinaryEncoder, the numbers are in base 2, whereas in BaseNEncoder, numbers are in base n, with n greater than 1."
+    },
+    {
+      "index": 14,
+      "title": "10. HashingEncoder Each original level is hashed, using",
+      "text": "10. HashingEncoder Each original level is hashed, using some hashing algorithm, such as SHA-256. Then, the outcome is converted to integer and the module of that integer with respect to some (big) divisor is taken."
+    },
+    {
+      "index": 15,
+      "title": "10. HashingEncoder Then, the outcome is converted to",
+      "text": "10. HashingEncoder Then, the outcome is converted to integer and the module of that integer with respect to some (big) divisor is taken. By doing so, we have mapped each original string to an integer between 1 and divisor-1. Lastly, the integer that has been obtained by this procedure is one-hot encoded."
+    },
+    {
+      "index": 16,
+      "title": "Supervised encodings Let’s say you want to employ",
+      "text": "Supervised encodings Let’s say you want to employ the information carried by y, an idea is to take the mean of y for each level of x Problem: some groups may be too small or too variable to be reliable. Solution: choose a middle way between the group mean and the global mean of y:"
+    },
+    {
+      "index": 17,
+      "title": "11. TargetEncoder The weight depends on a parameter",
+      "text": "11. TargetEncoder The weight depends on a parameter called “smoothing”. When smoothing is 0, we rely solely on group means. Then, as smoothing increases, the global mean weights more and more, leading to a stronger regularization. w_i= 1 / (1 + np.exp(-(count_encoding - 1) / smoothing))"
+    },
+    {
+      "index": 18,
+      "title": "12. MEstimateEncoder Similar to TargetEncoder, but w_i depends",
+      "text": "12. MEstimateEncoder Similar to TargetEncoder, but w_i depends on a parameter called “m”, which sets how much the global mean should weight in absolute terms w_i= count_encoding / (count_encoding + m)"
+    },
+    {
+      "index": 19,
+      "title": "13. JamesSteinEncoder Unlike TargetEncoder and MEstimatedEncoder, it find",
+      "text": "13. JamesSteinEncoder Unlike TargetEncoder and MEstimatedEncoder, it find an optimal weight that does not depend on a manually set parameters (e.g. smoothing for TargetEncoder and m for MEstimateEncoder) The intuition is that the mean of a group with high variance should be trusted less. Therefore, the higher the group variance, the lower the weight"
+    },
+    {
+      "index": 20,
+      "title": "More encoders... GLMMEncoder WOEEncoder LeaveOneOutEncoder CatBoostEncoder",
+      "text": "More encoders... GLMMEncoder WOEEncoder LeaveOneOutEncoder CatBoostEncoder"
+    },
+    {
+      "index": 21,
+      "title": "Reference https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 https://github.com/smazzanti/beyond_one_hot/blob/main/beyond_one_hot.ipynb https://www.statsmodels.org/devel/contrasts.html#backward-difference-coding",
+      "text": "Reference https://towardsdatascience.com/beyond-one-hot-17-ways-of-transforming-categorical-features-into-numeric-features-57f54f199ea4 https://github.com/smazzanti/beyond_one_hot/blob/main/beyond_one_hot.ipynb https://www.statsmodels.org/devel/contrasts.html#backward-difference-coding"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Encoding categorical features Beyond One-hot Encoding by Alex",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Encoding categorical features Beyond One-hot Encoding by Alex",
+      "source": "slide"
+    },
+    {
+      "claim": "17 ways of encoding categorical variables OrdinalEncoder CountEncoder",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "17 ways of encoding categorical variables OrdinalEncoder CountEncoder",
+      "source": "slide"
+    },
+    {
+      "claim": "Python libraries: category_encoders A set of scikit-learn-style transformers",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Python libraries: category_encoders A set of scikit-learn-style transformers",
+      "source": "slide"
+    },
+    {
+      "claim": "Unsupervised encoding Output dimension > 1 Output dimension",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Unsupervised encoding Output dimension > 1 Output dimension",
+      "source": "slide"
+    },
+    {
+      "claim": "OrdinalEncoder(LabelEncoder) Each level is mapped to an integer,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "OrdinalEncoder(LabelEncoder) Each level is mapped to an integer,",
+      "source": "slide"
+    },
+    {
+      "claim": "2. CountEncoder Each level is mapped to the",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "2. CountEncoder Each level is mapped to the",
+      "source": "slide"
+    },
+    {
+      "claim": "3. OneHotEncoder Each level is mapped to a",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "3. OneHotEncoder Each level is mapped to a",
+      "source": "slide"
+    },
+    {
+      "claim": "4. SumEncoder (Deviation coding) Belongs to a class",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "4. SumEncoder (Deviation coding) Belongs to a class",
+      "source": "slide"
+    },
+    {
+      "claim": "5. BackwardDifferenceEncoder (Another contrast encoding) Designed for comparing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "5. BackwardDifferenceEncoder (Another contrast encoding) Designed for comparing",
+      "source": "slide"
+    },
+    {
+      "claim": "6. HelmertEncoder (Another contrast encoding)) Compares the mean",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "6. HelmertEncoder (Another contrast encoding)) Compares the mean",
+      "source": "slide"
+    },
+    {
+      "claim": "7. Orthogonal Polynomial Coding Designed to quantify linear,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "7. Orthogonal Polynomial Coding Designed to quantify linear,",
+      "source": "slide"
+    },
+    {
+      "claim": "8. BinaryEncoder Basically the same of OrdinalEncoder, the",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "8. BinaryEncoder Basically the same of OrdinalEncoder, the",
+      "source": "slide"
+    }
+  ]
+}

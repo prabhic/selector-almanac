@@ -1,0 +1,61 @@
+{
+  "id": "2023-10-25-2023-10-25-ln-why-meta-open-source",
+  "date": "2023-10-25",
+  "title": "LN-Why-Meta-Open-Source",
+  "series": "seminar",
+  "topics": [
+    "open-models",
+    "infra"
+  ],
+  "video": {
+    "id": "7YJBTevPsxM",
+    "title": "AI Updates - October 27, 2023 - Mistral.AI vs GPT, Fast.AI, DALL-E 3, JAX, RAG, FlashAttention, ...",
+    "url": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+    "thumbnail": "https://i.ytimg.com/vi/7YJBTevPsxM/hqdefault.jpg",
+    "duration": 1932
+  },
+  "deck": {
+    "path": "2023/2023-10-25-LN-Why-Meta-Open-Source.pptx",
+    "filename": "2023-10-25-LN-Why-Meta-Open-Source.pptx",
+    "title": "LN-Why-Meta-Open-Source",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-25-LN-Why-Meta-Open-Source.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-25-LN-Why-Meta-Open-Source.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-2d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "60 years ago - nuclear arms race and",
+      "text": "60 years ago - nuclear arms race and space race between US and Soviet Union Anthropic will shift its operations to AWS. This deal could be largest AWS startup investment ever. https://www.cnbc.com/2023/09/25/amazon-to-invest-up-to-4-billion-in-anthropic-a-rival-to-chatgpt-developer-openai.html Amazon investing $4 Bln into Anthropic Today - Global AI Race (US, Europe, Asia) OpenAI is reportedly raising funds at a valuation of $80-$90 Bln https://techcrunch.com/2023/09/26/openai-is-reportedly-raising-funds-at-a-valuation-of-80-billion-to-90-billion/"
+    },
+    {
+      "index": 2,
+      "title": "Meta is Doing God’s Work by Releasing Shockingly",
+      "text": "Meta is Doing God’s Work by Releasing Shockingly Good Models to the World https://medium.com/@ignacio.de.gregorio.noblejas/meta-is-doing-gods-work-releases-shockingly-good-coding-models-to-the-world-848975e7d1f0 Yann LeCun, Chief AI Scientist at Meta: O pen-source solutions will soon become unbeatable. Period. Open-source community is much bigger than any company (there are already more than 10K paying members on HuggingFace) can create very efficient collaboration , creating datasets, tools, thousands of fine-tuned and original models is not impacted by bad press and regulations the way the big companies are The future will consist of: base models (free pre-trained - LLaMa, Mistral, Falcon, Stability.AI, ...) fine-tuned models (tens of thousands, crowd-sourced, on top of which customized products will be built) inference apps ( open source, to run models)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "60 years ago - nuclear arms race and",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 1,
+      "slideTitle": "60 years ago - nuclear arms race and",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta is Doing God’s Work by Releasing Shockingly",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 2,
+      "slideTitle": "Meta is Doing God’s Work by Releasing Shockingly",
+      "source": "slide"
+    }
+  ]
+}

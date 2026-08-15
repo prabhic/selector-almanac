@@ -1,0 +1,438 @@
+{
+  "id": "2022-02-11-2022-02-11-timeseries-forecasting",
+  "date": "2022-02-11",
+  "title": "TimeSeries-Forecasting",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "Woj0GrLjfLw",
+    "title": "Time Series Forecasting (with Python)",
+    "url": "https://www.youtube.com/watch?v=Woj0GrLjfLw",
+    "thumbnail": "https://i.ytimg.com/vi/Woj0GrLjfLw/hqdefault.jpg",
+    "duration": 2142
+  },
+  "deck": {
+    "path": "2022/2022-02-11-TimeSeries-Forecasting.pptx",
+    "filename": "2022-02-11-TimeSeries-Forecasting.pptx",
+    "title": "TimeSeries-Forecasting",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-02-11-TimeSeries-Forecasting.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-02-11-TimeSeries-Forecasting.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "What is Time Series Forecasting?",
+      "startSeconds": 93,
+      "label": "01:33",
+      "source": "youtube"
+    },
+    {
+      "title": "How to convert Time Series Data to a Supervised Learning Problem (SL)",
+      "startSeconds": 286,
+      "label": "04:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Different Data Visualizations",
+      "startSeconds": 433,
+      "label": "07:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Resampling and Interpolation",
+      "startSeconds": 667,
+      "label": "11:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Power Transforms",
+      "startSeconds": 770,
+      "label": "12:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Moving Average Smoothing",
+      "startSeconds": 900,
+      "label": "15:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Time Series Components",
+      "startSeconds": 985,
+      "label": "16:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Using and Removing Trend/Seasonality",
+      "startSeconds": 1236,
+      "label": "20:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Backtest Forecast Model",
+      "startSeconds": 1328,
+      "label": "22:08",
+      "source": "youtube"
+    },
+    {
+      "title": "ARIMA (a.k.a. Box-Jenkins Model)",
+      "startSeconds": 1470,
+      "label": "24:30",
+      "source": "youtube"
+    },
+    {
+      "title": "AR Model Details",
+      "startSeconds": 1640,
+      "label": "27:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Moving Average Model",
+      "startSeconds": 1790,
+      "label": "29:50",
+      "source": "youtube"
+    },
+    {
+      "title": "How does it work?",
+      "startSeconds": 1847,
+      "label": "30:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Tips",
+      "startSeconds": 1896,
+      "label": "31:36",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Time Series Forecasting (with Python) A Review of",
+      "text": "Time Series Forecasting (with Python) A Review of  Jason Brownlee’s Intro - Malte Thesenvitz"
+    },
+    {
+      "index": 2,
+      "title": "Malte Thesenvitz , MBA, BS Physics – Seattle",
+      "text": "Malte Thesenvitz , MBA, BS Physics – Seattle University 2021 – Tech Consulting Industry - Microsoft Azure Environment - Cosmos DB, Synapse, ML Studio, Power Bi… - Sports Analytics About me:"
+    },
+    {
+      "index": 3,
+      "title": "Jason Brownlee Founder of SuperFast Python & Machine",
+      "text": "Jason Brownlee Founder of SuperFast Python & Machine Learning Mastery https://machinelearningmastery.com Published more than 20 books/pdfs"
+    },
+    {
+      "index": 4,
+      "title": "What is Time Series Forecasting? Describing vs. Predicting",
+      "text": "What is Time Series Forecasting? Describing vs. Predicting Four Components (Level, Trend, Seasonality, Residuals) Normal ML Data Set vs. Time Series The Tool:"
+    },
+    {
+      "index": 5,
+      "title": "How to convert Time Series Data to a",
+      "text": "How to convert Time Series Data to a Supervised Learning Problem (SL) A small SL Data Set A Time Series Data Set A Time Series Converted to a  ML SL Data Set Univariate Multivariate Prev , Next"
+    },
+    {
+      "index": 6,
+      "title": "Dot Line Plot Histogram Different Data Visualizations Heat",
+      "text": "Dot Line Plot\t\t             Histogram Different Data Visualizations Heat Map Box & Whisker Plot Autocorrelation Plot Lag Plot"
+    },
+    {
+      "index": 7,
+      "title": "Resampling and Interpolation About changing the frequency of",
+      "text": "Resampling and Interpolation About changing the frequency of your observation Upsampling: increase frequency of observations Ex: Going from monthly observations to daily observation Question of how to fill in the missing values Usually use a line or a polynomial to connect two points Downsampling: decrease frequency of observation Same idea as above, but now we are going from monthly measurements, to quarterly observations Usually use means to get the summarized data"
+    },
+    {
+      "index": 8,
+      "title": "Power Transforms Data transforms are intended to make",
+      "text": "Power Transforms Data transforms are intended to make time series stationary and remove trend Square Root Transform: A time series that has a quadratic growth trend can be made linear by taking the square root. Log Transform: Time series with an exponential distribution can be made linear by taking the logarithm of the values. Box-Cox Transform: The Box-Cox transform is a configurable data transform method that supports both square root and log transform, as well as a suite of related transforms. it can be configured to evaluate a suite of transforms automatically and select the best fit. See boxcox () function Ex: Square Root Power Transform Notice the quadratic trend. By taking the square root of every term in the original time series, we can remove the quadratic trend"
+    },
+    {
+      "index": 9,
+      "title": "Moving Average Smoothing Technique applied to time series",
+      "text": "Moving Average Smoothing Technique applied to time series to remove the fine-grained variation between time steps (removes noise) Calculating a moving average involves creating a new series where the values are comprised of the average of raw observations in the original time series Two different techniques: Centered moving average: center ma(t) = mean( obs (t - 1); obs (t); obs (t + 1)) Trailing moving average: trail ma(t) = mean( obs (t - 2); obs (t - 1); obs (t)) Use Python’s rolling( window_size ) function to achieve this"
+    },
+    {
+      "index": 10,
+      "title": "Time Series Components Systematic: Level, Trend, Seasonality Non-Systematic:",
+      "text": "Time Series Components Systematic: Level, Trend, Seasonality Non-Systematic: Residual y(t) = Level + Trend + Seasonality + Residual        (additive) y(t) = Level Trend Seasonality Residual     (multiplicative) Statsmodels library provides automated decomposition tools"
+    },
+    {
+      "index": 11,
+      "title": "Noise Signal(t) = level + trend + seasonality",
+      "text": "Noise Signal(t) = level + trend + seasonality + noise A time series is white noise if the observations are independent and identically distributed with a mean of zero. => complete random error Filtering on horizontal and vertical scale Check basic stats for noise type Ex: White noise (complete random)"
+    },
+    {
+      "index": 12,
+      "title": "Using and Removing Trend/Seasonality Trends: deterministic vs. stochastic,",
+      "text": "Using and Removing Trend/Seasonality Trends: deterministic vs. stochastic, global vs. local Time series with trend = non-stationary Use augmented Dickey-Fuller test to check for stationarity Why do we care? Removing or Adding Information to ML Model Detrend by Differencing : value(t) = observation(t) - observation(t-1) Detrend by Model Fitting : value(t) = observation(t) - prediction(t)"
+    },
+    {
+      "index": 13,
+      "title": "Backtest Forecast Model Normal train-test splits or k-fold",
+      "text": "Backtest Forecast Model Normal train-test splits or k-fold cross validations won’t work because time series data are dependent on time Train-Test split that respect temporal order of observations. Multiple Train-Test splits that respect temporal order of observations. Walk-Forward Validation where a model may be updated each time new data is received. Example of Multiple Train-Test Split"
+    },
+    {
+      "index": 14,
+      "title": "Forecasting Performance Metrics Time series prediction performance measures",
+      "text": "Forecasting Performance Metrics Time series prediction performance measures provide a summary of the skill and capability of the forecast model that made the predictions. forecast error = expected value - predicted value mean forecast error = mean absolute error = mean squared error = rmse ="
+    },
+    {
+      "index": 15,
+      "title": "AR I MA (a.k.a. Box-Jenkins Model) Autoregressive Integrated",
+      "text": "AR I MA (a.k.a. Box-Jenkins Model) Autoregressive Integrated Moving Average Model Three Steps: Identify model that best summarizes the data Use data to train the model Diagnostic checking. How good is the fitted model? Notation: ARIMA(p, q, d) p = lag order , number of lag observations included in model q = difference order, number of times the raw observations are differenced To remove trend and make time series stationary d = order of moving average , size of moving average window"
+    },
+    {
+      "index": 16,
+      "title": "Autoregressive (AR) Models Models an output value as",
+      "text": "Autoregressive (AR) Models Models an output value as a linear combination of input variables (similar to linear regression): Assumes autocorrelation ( is directly related to ) and stationarity Example of Lag plot Example of autocorrelation plot"
+    },
+    {
+      "index": 17,
+      "title": "AR Model Details: Assumption: Forecast series without trend/seasonality",
+      "text": "AR Model Details: Assumption: Forecast series without trend/seasonality AR(p): AR model of order p Similar to linear regression. But predictors are lagged versions of the series Plus parameters are estimated differently (not using least squares) The currently observed value of Y is some linear function of its past p values Forecast :"
+    },
+    {
+      "index": 18,
+      "title": "Integrated Apply differencing to detrend time series data",
+      "text": "Integrated Apply differencing to detrend time series data Models build on stationary data are usually more robust Thus, we aim for mean variance stationarity Future change in Y is a linear function of the past changes in Y"
+    },
+    {
+      "index": 19,
+      "title": "Moving Average Model Residuals provide another piece of",
+      "text": "Moving Average Model Residuals provide another piece of information we can use to model the data Forecasts Y using the model’s past errors This model is called moving average model!! Don’t’ confuse with moving average smoothing Modelling the time series of the errors to improve forecast!"
+    },
+    {
+      "index": 20,
+      "title": "How does it work? Create Integrated Autoregressive model",
+      "text": "How does it work? Create Integrated Autoregressive model Get residuals: residuals = test_y – predictions I - This gives us a time series of residual errors. II - Then model these residual errors using normal autoregression to obtain coefficients & \t      intercept 3. Walk through each time series data point and: I – calculate AR prediction (t+1) II – Predict residual error using autoregressive model III – Update residual errors time series lag values so we can calculate next error 4. Correct initial predictions from AR model with forecasted errors from the autoregressive model I – Improved forecast = Old AR Forecast + New Estimated Error Forecast II – Ex: if Autoregressive model predicted value of 8, but our AR Model of the errors \tpredicted an error of 3 for this time stamp, we would have an updated prediction of 8 + 3 = \t11 Training of the model is done iteratively. Training process goes through multiple steps."
+    },
+    {
+      "index": 21,
+      "title": "Tips: Use differencing to remove trend and seasonality",
+      "text": "Tips: Use differencing to remove trend and seasonality Keep it Simple! Over differencing can cause problems. “In most cases either p is zero or q is zero, and p + q is less than or equal to 3 ” Duke Prof. Robert Nau (http:// people.duke.edu /~ rnau /411home.htm)"
+    },
+    {
+      "index": 22,
+      "title": "AR, MA, ARMA, ARIMA, ARIMAX, SARIMAX Great explanation:",
+      "text": "AR, MA, ARMA, ARIMA, ARIMAX, SARIMAX Great explanation: .. https://towardsdatascience.com/understanding-arima-time-series-modeling-d99cd11be3f8 More links: .. https://en.wikipedia.org/wiki/Autoregressive%E2%80%93moving-average_model .. https://en.wikipedia.org/wiki/Autoregressive_integrated_moving_average .. https://www.statsmodels.org/dev/examples/notebooks/generated/statespace_sarimax_stata.html .. https://365datascience.com/tutorials/python-tutorials/sarimax/ .. https://people.duke.edu/~rnau/411arim.htm Autoregressive Model: - https://www.youtube.com/watch?v=5-2C4eO4cPQ - Autocorrelation and Partial Autocorrelation - https://www.youtube.com/watch?v=DeORzP0go5I - ACF and PACF: - https://towardsdatascience.com/significance-of-acf-and-pacf-plots-in-time-series-analysis-2fa11a5d10a8 .. https://people.duke.edu/~rnau/411arim.htm ARIMA(p, d, q) = ARIMA (AR, I, MA) p = number of lagged values in AR model (number of autoregressive terms) d = order of differencing (used for stationarity) q = number of lagged errors in MA model ARIMA(1,0,0)  - 1st order autoregressive model ARIMA(2,0,0)  - oscillations ARIMA(0,1,0)  - random walk ARIMA(1,1,0)  - differenced first-order autoregressive model ARIMA(0,1,1)  - simple exponential smoothing: ARIMA(0,1,1)  - simple exponential smoothing with growth ARIMA(1,1,1) - ... ARIMA(0,2,1)  - linear exponential smoothing ARIMA(0,2,2)  - linear exponential smoothing AR = Auto-Regressive (next point as linear combination of several previous) Y_forward1 = B0 + B1*Y + B2*Y_lag1 + ... MA = Moving Average Y = B0 + B1*E_lag1 + B2*E_lag2 + ... + Bn*E_lagn , where \"E\" =  residual errors (which change as we iteratively train the model) \"I\" = Integrated (use differences to remove trend while modeling): Y_forward1 - Y = B0 + B1*(Y - Y_lag1) + B2*(Y_lag1 - Y_lag2) + ... ARMA = AR + MA = Auto Regressive Moving Average model ARIMA = AR + I + MA = Auto-Regressive Integrated Moving Average model \"X\" = eXogenous variables (additional variables, think \" multivariate regression \") ARIMAX = ARIMA with exogenous variables. An exogenous variable is a covariate that influence the observed time-series values SARIMAX = Seasonal ARIMAX – includes seasonal factors ACF = Auto-Correlation Function PACF = Partial ACF SARIMAX"
+    },
+    {
+      "index": 23,
+      "title": "How to find the parameters? Trend observable =>",
+      "text": "How to find the parameters? Trend observable => need differencing to remove Autocorrelation plot suggests significant relationship up to a lag of 5"
+    },
+    {
+      "index": 24,
+      "title": "ARIMA with Python Fitting an ARIMA model to",
+      "text": "ARIMA with Python Fitting an ARIMA model to a time series data set"
+    },
+    {
+      "index": 25,
+      "title": "Grid Search Arima How to configure the three",
+      "text": "Grid Search Arima How to configure the three ARIMA parameters (p, d, q)? Two Steps: 1. Evaluate an ARIMA model. (find error score) 2. Evaluate sets of ARIMA parameters. 1. Evaluate Model 2. Evaluate ARIMA Parameters"
+    },
+    {
+      "index": 26,
+      "title": "Results:",
+      "text": "Results:"
+    },
+    {
+      "index": 27,
+      "title": "Resources: https://machinelearningmastery.com/about/ https://scholar.google.com/citations?user=hVaJhRYAAAAJ&hl=en https://superfastpython.com/ https://www.youtube.com/watch?v=Aw77aMLj9uM https://youtu.be/4WWQWeMXvas https://youtu.be/0xHf-SJ9Z9U https://towardsdatascience.com/understanding-arima-time-series-modeling-d99cd11be3f8",
+      "text": "Resources: https://machinelearningmastery.com/about/ https://scholar.google.com/citations?user=hVaJhRYAAAAJ&hl=en https://superfastpython.com/ https://www.youtube.com/watch?v=Aw77aMLj9uM https://youtu.be/4WWQWeMXvas https://youtu.be/0xHf-SJ9Z9U https://towardsdatascience.com/understanding-arima-time-series-modeling-d99cd11be3f8"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Time Series Forecasting (with Python) A Review of",
+      "source": "youtube"
+    },
+    {
+      "claim": "What is Time Series Forecasting?",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 93,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=93s",
+      "slideIndex": 3,
+      "slideTitle": "Jason Brownlee Founder of SuperFast Python & Machine",
+      "source": "youtube"
+    },
+    {
+      "claim": "How to convert Time Series Data to a Supervised Learning Problem (SL)",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 286,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=286s",
+      "slideIndex": 5,
+      "slideTitle": "How to convert Time Series Data to a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Different Data Visualizations",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 433,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=433s",
+      "slideIndex": 7,
+      "slideTitle": "Resampling and Interpolation About changing the frequency of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Resampling and Interpolation",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 667,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=667s",
+      "slideIndex": 8,
+      "slideTitle": "Power Transforms Data transforms are intended to make",
+      "source": "youtube"
+    },
+    {
+      "claim": "Power Transforms",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 770,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=770s",
+      "slideIndex": 10,
+      "slideTitle": "Time Series Components Systematic: Level, Trend, Seasonality Non-Systematic:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moving Average Smoothing",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 900,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=900s",
+      "slideIndex": 12,
+      "slideTitle": "Using and Removing Trend/Seasonality Trends: deterministic vs. stochastic,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Time Series Components",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 985,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=985s",
+      "slideIndex": 14,
+      "slideTitle": "Forecasting Performance Metrics Time series prediction performance measures",
+      "source": "youtube"
+    },
+    {
+      "claim": "Using and Removing Trend/Seasonality",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1236,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1236s",
+      "slideIndex": 16,
+      "slideTitle": "Autoregressive (AR) Models Models an output value as",
+      "source": "youtube"
+    },
+    {
+      "claim": "Backtest Forecast Model",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1328,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1328s",
+      "slideIndex": 18,
+      "slideTitle": "Integrated Apply differencing to detrend time series data",
+      "source": "youtube"
+    },
+    {
+      "claim": "ARIMA (a.k.a. Box-Jenkins Model)",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1470,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1470s",
+      "slideIndex": 20,
+      "slideTitle": "How does it work? Create Integrated Autoregressive model",
+      "source": "youtube"
+    },
+    {
+      "claim": "AR Model Details",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1640,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1640s",
+      "slideIndex": 21,
+      "slideTitle": "Tips: Use differencing to remove trend and seasonality",
+      "source": "youtube"
+    },
+    {
+      "claim": "Moving Average Model",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1790,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1790s",
+      "slideIndex": 23,
+      "slideTitle": "How to find the parameters? Trend observable =>",
+      "source": "youtube"
+    },
+    {
+      "claim": "How does it work?",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1847,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1847s",
+      "slideIndex": 25,
+      "slideTitle": "Grid Search Arima How to configure the three",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tips",
+      "topic": "ml-fundamentals",
+      "videoSeconds": 1896,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw&t=1896s",
+      "slideIndex": 27,
+      "slideTitle": "Resources: https://machinelearningmastery.com/about/ https://scholar.google.com/citations?user=hVaJhRYAAAAJ&hl=en https://superfastpython.com/ https://www.youtube.com/watch?v=Aw77aMLj9uM https://youtu.be/4WWQWeMXvas https://youtu.be/0xHf-SJ9Z9U https://towardsdatascience.com/understanding-arima-time-series-modeling-d99cd11be3f8",
+      "source": "youtube"
+    },
+    {
+      "claim": "Malte Thesenvitz , MBA, BS Physics – Seattle",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw",
+      "slideIndex": 2,
+      "slideTitle": "Malte Thesenvitz , MBA, BS Physics – Seattle",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Time Series Forecasting? Describing vs. Predicting",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw",
+      "slideIndex": 4,
+      "slideTitle": "What is Time Series Forecasting? Describing vs. Predicting",
+      "source": "slide"
+    },
+    {
+      "claim": "Dot Line Plot Histogram Different Data Visualizations Heat",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw",
+      "slideIndex": 6,
+      "slideTitle": "Dot Line Plot Histogram Different Data Visualizations Heat",
+      "source": "slide"
+    },
+    {
+      "claim": "Moving Average Smoothing Technique applied to time series",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw",
+      "slideIndex": 9,
+      "slideTitle": "Moving Average Smoothing Technique applied to time series",
+      "source": "slide"
+    },
+    {
+      "claim": "Noise Signal(t) = level + trend + seasonality",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Woj0GrLjfLw",
+      "slideIndex": 11,
+      "slideTitle": "Noise Signal(t) = level + trend + seasonality",
+      "source": "slide"
+    }
+  ]
+}

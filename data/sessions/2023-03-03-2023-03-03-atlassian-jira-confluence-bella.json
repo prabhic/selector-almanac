@@ -1,0 +1,276 @@
+{
+  "id": "2023-03-03-2023-03-03-atlassian-jira-confluence-bella",
+  "date": "2023-03-03",
+  "title": "Atlassian-JIRA-Confluence-Bella",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "TwicNeOGIQQ",
+    "title": "Using Attlassian Jira and Confluence - March 3, 2023",
+    "url": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+    "thumbnail": "https://i.ytimg.com/vi/TwicNeOGIQQ/hqdefault.jpg",
+    "duration": 2627
+  },
+  "deck": {
+    "path": "2023/2023-03-03-Atlassian-JIRA-Confluence-Bella.pptx",
+    "filename": "2023-03-03-Atlassian-JIRA-Confluence-Bella.pptx",
+    "title": "Atlassian-JIRA-Confluence-Bella",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-03-03-Atlassian-JIRA-Confluence-Bella.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-03-03-Atlassian-JIRA-Confluence-Bella.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "JIRA ( tasks, project management ) Confluence (",
+      "text": "JIRA ( tasks, project management ) Confluence ( documentation ) Bitbucket ( Git-based repository ) Atlassian Software:"
+    },
+    {
+      "index": 2,
+      "title": "Izabella Rakhman Lead Software Architect & Scrum Master",
+      "text": "Izabella Rakhman Lead Software Architect & Scrum Master Corsearch, Inc https://www.linkedin.com/in/izabella-rakhman-a5875b7/ About the Speaker"
+    },
+    {
+      "index": 3,
+      "title": "2002 - Mike Cannon-Brookes and Scott Farquhar have",
+      "text": "2002 - Mike Cannon-Brookes and Scott Farquhar have founded Atlassian . The pair has met while studying at the University of New South Wales in Sydney, Australia The name Atlassian is a derivation from the titan Atlas in Greek mythology who had been punished to hold up the Heavens after the Greek gods had overthrown the Titans Atlassian started as a tech support service for software companies 2002 - Atlassian released its flagship product, Jira - a project and issue tracker (named after “Gojira,” which means Godzilla in Japanese. 2004 - Atlassian released Confluence , a team collaboration platform (similar to Wiki) - share documents and other media assets 2010 - Atlassian acquired Bitbucket - a Git-based repository 2022 - ~ 9,000 employees Atlas"
+    },
+    {
+      "index": 4,
+      "title": "GOJIRA, 1954 Atlassian JIRA Since 2002",
+      "text": "GOJIRA, 1954 Atlassian JIRA Since 2002"
+    },
+    {
+      "index": 5,
+      "title": "Confluence -> Documentation Jira -> tasks Bitbucket ->",
+      "text": "Confluence -> Documentation Jira -> tasks Bitbucket -> Git repository"
+    },
+    {
+      "index": 6,
+      "title": "Key JIRA concepts Jira is the world's most",
+      "text": "Key JIRA concepts Jira is the world's most highly recommended Agile project management tool Jira has the most features out of the box Jira has an insane plugin library, and it’s all about automating workflows JIRA allows teams to track issues, manage projects, and automate workflows JIRA provides powerful reporting capabilities JIRA integrates with other tools, such as Confluence and Bitbucket Jira is based on four key concepts: issue , project , workflow, and board"
+    },
+    {
+      "index": 7,
+      "title": "Issues the tasks/tickets you need to finish in",
+      "text": "Issues the tasks/tickets you need to finish in order to complete a project. Projects groups of issues. You can have separate project for each product you are developing. You can configure visibility and workflows per project. Workflows the paths that issues take as they progress from creation to completion. Each issue starts in the backlog of \"To Do\" items, then progresses to \"In Progress\" and \"Done\" status. You can configure different statuses and trigger actions that occur when an issue moves into a status. Boards visual representations of your team’s workflow within a project. You can use different types of boards for flexible ways to view, manage, and report on work in progress on the same project. If you use an agile approach, you may find it helpful to use a Kanban Board view to track backlog items as they refine and a Sprint Board to show the Sprint Backlog for your current sprint."
+    },
+    {
+      "index": 8,
+      "title": "From Waterfall to Agile The Waterfall methodology (1976)",
+      "text": "From Waterfall to Agile The Waterfall methodology (1976) (manufacturing & construction) Analysis Requirements Design Development Testing & Integration Deployment Maintenance Agile (2001) (Software Development - Iterative) In 2001, a team of 17 visionary software developers held a meeting in Utah to discuss industry problems and possible solutions. They later created what is known throughout the industry as the Agile Manifesto ."
+    },
+    {
+      "index": 9,
+      "title": "Kanban (no sprints) issues are generally thrown straight",
+      "text": "Kanban (no sprints) issues are generally thrown straight into the active queue, without the need for planning or time estimates Focus on Customer’s Needs and Expectations Change Manage the Work, Not the Workers Regularly Review the Network of Services Workflow Management Agile workflows and processes Scrum (uses Sprints) uses regular sprints allows to deliver results fast (much faster than waterfall) uses \"continuous delivery\" focus on transparency, keeping track of work in real time reflecting on successes and failures For larger projects, that can be tackled as an iterative series of releases (like creating a piece of software or designing a product), Scrum is likely to be better suited. For simple projects and processes that will run for the medium to long term (such as customer support), Kanban is a great fit."
+    },
+    {
+      "index": 10,
+      "title": "Scrum A scrum (short for scrummage) is a",
+      "text": "Scrum A scrum (short for scrummage) is a method of restarting play in rugby football that involves players packing closely together with their heads down and attempting to gain possession of the ball. Scrum is a simple framework for developing, delivering, and sustaining products Important components are: product backlog planning sprints ( sprint backlog ) daily scrum meetings sprint review and retrospective"
+    },
+    {
+      "index": 11,
+      "title": "Kanban Board A kanban board is an Agile-based",
+      "text": "Kanban Board A kanban board is an Agile-based project management tool that visualizes a project’s progress Kanban - a Japanese system (introduced by Taiichi Ohno from Toyota) in which the manufacturing process is tracked and regulated through the use of an instruction cards."
+    },
+    {
+      "index": 12,
+      "title": "Project Templates",
+      "text": "Project Templates"
+    },
+    {
+      "index": 13,
+      "title": "Agile Board in JIRA",
+      "text": "Agile Board in JIRA"
+    },
+    {
+      "index": 14,
+      "title": "https://community.atlassian.com/t5/Jira-articles/Difference-and-use-cases-of-Jira-issue-types-Epic-vs-Story-vs/ba-p/1655157 Jira Issue Types: Epic vs. Story vs.",
+      "text": "https://community.atlassian.com/t5/Jira-articles/Difference-and-use-cases-of-Jira-issue-types-Epic-vs-Story-vs/ba-p/1655157 Jira Issue Types: Epic vs. Story vs. Task"
+    },
+    {
+      "index": 15,
+      "title": "First, you need to create a project and",
+      "text": "First, you need to create a project and define the scope of the project. Analyze the project in detail and split it into stories and to-do lists inside them Analyze each item in those stories Do the estimation of time and resources needed for each item Add users to the project and assign tasks to each user Set up the project's workflow and configure the project's settings Start 1st Sprint Do daily short 15 min scrum meetings to track the progress Setting Up a JIRA Project is Easy"
+    },
+    {
+      "index": 16,
+      "title": "JIRA also provides powerful reporting capabilities that make",
+      "text": "JIRA also provides powerful reporting capabilities that make it easy to track progress and identify areas of improvement. It also integrates with other tools, such as Confluence and Bitbucket , making it easy to share information and collaborate with other teams. How to Set Up a JIRA Project"
+    },
+    {
+      "index": 17,
+      "title": "Sprints and Agile Reporting for Scrum in Jira",
+      "text": "Sprints and Agile Reporting for Scrum in Jira"
+    },
+    {
+      "index": 18,
+      "title": "Summary: Benefits of Using Atlassian JIRA JIRA provides",
+      "text": "Summary: Benefits of Using Atlassian JIRA JIRA provides a comprehensive set of features that make it easy to manage projects and tasks It allows teams to easily track progress, prioritize tasks, and keep everyone up-to-date It also provides powerful reporting capabilities and integrates with other tools, such as Confluence and Bitbucket JIRA also provides an intuitive user interface that makes it easy to use It is highly customizable and allows teams to tailor the software to their specific needs It is also highly scalable and can be used for both small and large projects."
+    },
+    {
+      "index": 19,
+      "title": "Atlassian Confluence Since 2004",
+      "text": "Atlassian Confluence Since 2004"
+    },
+    {
+      "index": 20,
+      "title": "Key Confluence Concepts Confluence - creating documentation. Confluence",
+      "text": "Key Confluence Concepts Confluence - creating documentation. Confluence is basically a wiki for your team. You can create, collaborate, and organize all your work in one place using dynamic wiki-style pages Spaces help your team structure, organize, and share work, so every team member has visibility into institutional knowledge and access to the information they need to do their best work Confluence is for teams of any size and type, from those with mission-critical, high-stakes projects that need rigor behind their practices, to those that are looking for a space to build team culture and engage with one another in a more open and authentic way."
+    },
+    {
+      "index": 21,
+      "title": "Teams’ “Spaces” in Confluence",
+      "text": "Teams’ “Spaces” in Confluence"
+    },
+    {
+      "index": 22,
+      "title": "Confluence is often used with other Attlassian products",
+      "text": "Confluence is often used with other Attlassian products like JIRA and Bitbucket Confluence is designed to improve: team productivity centralized knowledge base collaboration in real-time commenting, sharing document creation  (such as templates and macros) version control"
+    },
+    {
+      "index": 23,
+      "title": "Atlassian BitBucket Since 2008 Bitbucket is a Git",
+      "text": "Atlassian BitBucket Since 2008 Bitbucket is a Git version control repository hosting service Was created in 2008 (Git was released in 2005) Owned by Atlassian since 2010 Written in Python using Django web framework Integrates well with other Atlassian products (Jira, wiki, ...) Offers free and paid plans, very comparable to GitHub https://en.wikipedia.org/wiki/Bitbucket"
+    },
+    {
+      "index": 24,
+      "title": "Bitbucket Interface Bitbucket vs GitHub vs GitLab Bitbucket",
+      "text": "Bitbucket Interface Bitbucket vs GitHub vs GitLab Bitbucket diffs view"
+    },
+    {
+      "index": 25,
+      "title": "https://www.atlassian.com https://www.atlassian.com/software/jira https://www.atlassian.com/software/confluence https://www.atlassian.com/software/bitbucket JIRA for Beginners- by",
+      "text": "https://www.atlassian.com https://www.atlassian.com/software/jira https://www.atlassian.com/software/confluence https://www.atlassian.com/software/bitbucket JIRA for Beginners- by Stewart Gauld - https://www.youtube.com/watch?v=GWxMTvRGIpc - Getting Started in Confluence - https://www.youtube.com/watch?v=kaNPNbAT-as - https://www.youtube.com/watch?v=5p3QzaS33GA Bitbucket tutorial - https://www.youtube.com/watch?v=M44nEyd_5To Links"
+    },
+    {
+      "index": 26,
+      "title": "Backup (Extra Slides)",
+      "text": "Backup (Extra Slides)"
+    },
+    {
+      "index": 27,
+      "title": "Working with Kanban Boards CONWIP - Constant Work",
+      "text": "Working with Kanban Boards CONWIP - Constant Work In Progress 2017 by Thorbjørn Sigberg https://www.miles.no/case-study-the-pursuit-of-flow-part-1/ https://www.miles.no/case-study-the-pursuit-of-flow-part-2/ https://kanbanize.com/blog/patrick-steyaert-customer-kanban/ The goal – to improve throughput and quality of the team efforts by limiting the number of tasks on the Kanban board. First improvement – set smaller WIP (Work In Progress) limits on columns. The new board had up to 40 tasks in the following columns: Backlog (invisible) | Todo(10) | In progress(20) | Acceptance(10) | Done We reduced 12 (!) different classes of service down to the following four: Normal,  Fixed deadline,  Urgent,  Critical New tasks were selected based on priority, capacity and competence Focus on unblocking and finishing existing tasks before starting new ones Do not start new task without enough information/resources to complete it Completed tasks are moved to “Acceptance”. It is not moved to “Done” until the customer accepted it. “Stop starting and start finishing” Better approach - limit the total number of tasks in the Kanban board instead of just limiting tasks per column. CONWIP – use \"tickets\". Each key account manager gets two \"Todo tickets\" to use on the Kanban board. Once placed on the board, the ticket would then be stuck to the task, until it had travelled all the way to the Done column. Only then would it be released back to the owner. In addition, each of 7 account managers would get an extra (3 rd ) ticket for small, urgent tasks. So we had 14-21 tickets on the board. Also bugs/problems would not require a ticket, to ensure priority. For faster rotation of tickets, account managers started to slice their tasks into smaller chunks. They were also more eager to help out with blocked tasks and helping to get customer's acceptance. The effect was dramatic – more done in less time: cycle time reduced from 10 to 4 days lead time reduced from 4 weeks to 1 week much less stress, less tasks in progress at any given time"
+    },
+    {
+      "index": 28,
+      "title": "See long ( ~40 ) list of DevOps",
+      "text": "See long  ( ~40 )  list of DevOps & bug-tracking tools here: .. https://en.wikipedia.org/wiki/Comparison_of_issue-tracking_systems Many PM Tools More Similar to JIRA: ClickUp Binfire Basecamp Pivotal Tracker Clubhouse Trello - https:// trello.com ProofHub Kanbanize Notion Wrike Bitrix24 Azure DevOps Jira - https://www.atlassian.com/software/jira SmartSheet - https://www.smartsheet.com Asana - https://asana.com Trac - https://en.wikipedia.org/wiki/Trac ProjectLocker - https://www.projectlocker.com (managed trac) Note that for small scale projects people successfully use Google Docs/Sheets: .. https://moz.com/blog/visualising-time-using-google-sheets"
+    },
+    {
+      "index": 29,
+      "title": "ChatGPT , give me five best short jokes",
+      "text": "ChatGPT , give me five best short jokes about agile project management Why did the Scrum Master go to the bank? To make a withdrawal from the Sprint. Why did the Agile coach refuse to come to the meeting? Because they were already fully booked for the next 2 weeks. What do you call an Agile project manager who doesn't use Post-It notes? UnScrumptious . What do you get when you cross Agile with Waterfall? A project that's constantly falling, but also always trying to get back up. How many Agile coaches does it take to change a light bulb? None, they'll just facilitate a retrospective to figure out why the bulb went out in the first place. ChatGPT , give me five most famous short jokes about agile development process Why did the Agile developer refuse to go on a coffee break? Because they were already in a stand-up. What's the difference between Waterfall and Agile? In Waterfall, you drown. In Agile, you sprint. Why do Agile teams prefer to work in small iterations? So they can avoid committing large sins. How many Agile developers does it take to change a light bulb? None, they just refactor the darkness. Why do Agile developers prefer to work in pairs? Because two heads are better than one, and three is considered a crowd."
+    }
+  ],
+  "points": [
+    {
+      "claim": "JIRA ( tasks, project management ) Confluence (",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 1,
+      "slideTitle": "JIRA ( tasks, project management ) Confluence (",
+      "source": "slide"
+    },
+    {
+      "claim": "Izabella Rakhman Lead Software Architect & Scrum Master",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 2,
+      "slideTitle": "Izabella Rakhman Lead Software Architect & Scrum Master",
+      "source": "slide"
+    },
+    {
+      "claim": "2002 - Mike Cannon-Brookes and Scott Farquhar have",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 3,
+      "slideTitle": "2002 - Mike Cannon-Brookes and Scott Farquhar have",
+      "source": "slide"
+    },
+    {
+      "claim": "GOJIRA, 1954 Atlassian JIRA Since 2002",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 4,
+      "slideTitle": "GOJIRA, 1954 Atlassian JIRA Since 2002",
+      "source": "slide"
+    },
+    {
+      "claim": "Confluence -> Documentation Jira -> tasks Bitbucket ->",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 5,
+      "slideTitle": "Confluence -> Documentation Jira -> tasks Bitbucket ->",
+      "source": "slide"
+    },
+    {
+      "claim": "Key JIRA concepts Jira is the world's most",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 6,
+      "slideTitle": "Key JIRA concepts Jira is the world's most",
+      "source": "slide"
+    },
+    {
+      "claim": "Issues the tasks/tickets you need to finish in",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 7,
+      "slideTitle": "Issues the tasks/tickets you need to finish in",
+      "source": "slide"
+    },
+    {
+      "claim": "From Waterfall to Agile The Waterfall methodology (1976)",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 8,
+      "slideTitle": "From Waterfall to Agile The Waterfall methodology (1976)",
+      "source": "slide"
+    },
+    {
+      "claim": "Kanban (no sprints) issues are generally thrown straight",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 9,
+      "slideTitle": "Kanban (no sprints) issues are generally thrown straight",
+      "source": "slide"
+    },
+    {
+      "claim": "Scrum A scrum (short for scrummage) is a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 10,
+      "slideTitle": "Scrum A scrum (short for scrummage) is a",
+      "source": "slide"
+    },
+    {
+      "claim": "Kanban Board A kanban board is an Agile-based",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=TwicNeOGIQQ",
+      "slideIndex": 11,
+      "slideTitle": "Kanban Board A kanban board is an Agile-based",
+      "source": "slide"
+    }
+  ]
+}

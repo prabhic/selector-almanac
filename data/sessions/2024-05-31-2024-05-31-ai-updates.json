@@ -1,0 +1,405 @@
+{
+  "id": "2024-05-31-2024-05-31-ai-updates",
+  "date": "2024-05-31",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "openai",
+    "infra",
+    "safety",
+    "agents",
+    "rag",
+    "benchmarks",
+    "jobs"
+  ],
+  "video": {
+    "id": "UJ6VdbZOLm0",
+    "title": "Have you heard these exciting AI news? - May 31, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+    "thumbnail": "https://i.ytimg.com/vi/UJ6VdbZOLm0/hqdefault.jpg",
+    "duration": 1004
+  },
+  "deck": {
+    "path": "2024/2024-05-31-AI-Updates.pptx",
+    "filename": "2024-05-31-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-05-31-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-05-31-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Codestral from Mistral",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "xAI $6 Billion Funding",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Jan Leike joins AnthropicAI - Superalignment",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Chatbot Maker Character.ai",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Andrej Karpathy - train GPT-2 in 1.5 hrs & $20",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "01-ai changes license to Apache-2.0",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "xAI ‘gigafactory of compute’ - 100K Nvidia Chips",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Klarna saves $10 Mln/year using AI for Marketing",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia's CEO Jensen Huang $91B Networth",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI - Free ChatGPT gives access to all tools",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI - new Safety and Security Committee",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI - started training new flagship model",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "AI safety Pledge at the Seoul AI Safety Summit",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Building Agentic RAG with LlamaIndex",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "SimPO, DPO, RLHF",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "OpenAI - why Sam Altman was fired",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "RAGAs - Evaluate RAG System",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Anguilla - .ai domains",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Crowd-sourced \"Arena\" Leaderboard",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Tech Layoffs were lower than in 2023",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Codestral from Mistral xAI $6 Billion Funding Jan",
+      "text": "Codestral from Mistral xAI $6 Billion Funding Jan Leike joins AnthropicAI - Superalignment Chatbot Maker Character.ai Andrej Karpathy - train GPT-2 in 1.5 hrs & $20 01-ai changes license to Apache-2.0 xAI ‘gigafactory of compute’ - 100K Nvidia Chips Klarna saves $10 Mln/year using AI for Marketing Nvidia's CEO Jensen Huang $91B Networth OpenAI - Free ChatGPT gives access to all tools OpenAI - new Safety and Security Committee OpenAI - started training new flagship model AI safety Pledge at the Seoul AI Safety Summit Building Agentic RAG with LlamaIndex SimPO, DPO, RLHF OpenAI - why Sam Altman was fired RAGAs - Evaluate RAG System Anguilla - .ai domains Crowd-sourced \"Arena\" Leaderboard Tech Layoffs were lower than in 2023 AI Updates May 31 , 2024"
+    },
+    {
+      "index": 2,
+      "title": "Codestral from Mistral Codestral - open-weight GenAI model",
+      "text": "Codestral from Mistral Codestral - open-weight GenAI model for code generation - 22B params trained on 80+ programming languages Codestral beats out CodeLlama 70B and Deepseek Coder 33B Codestral is available for use under a non-commercial license on both Hugging Face and through Mistral’s Le Chat platform. - https://mistral.ai/news/codestral/ - https://mistral.ai/news/mistral-ai-non-production-license-mnpl/ - non-prod license - https://huggingface.co/mistralai/Codestral-22B-v0.1 - on HuggingFace"
+    },
+    {
+      "index": 3,
+      "title": "Misc 1 xAI has announced a $6 Billion",
+      "text": "Misc 1 xAI has announced a $6 Billion Series B funding round to advance its AI systems, including the Grok-1 models with enhanced capabilities. - https://x.ai/blog/series-b Jan Leike joins AnthropicAI to continue the superalignment mission!. \"My new team will work on scalable oversight, weak-to-strong generalization, and automated alignment research.\" Jan Leike has left OpenAI 10 days ago where he was a co-lead of the Sutskever’s superalignment group. https://x.com/janleike/status/1795497960509448617 Chatbot Maker Character.ai Discussing Potential Partnerships With Meta, xAI https://www.pymnts.com/artificial-intelligence-2/2024/chatbot-maker-character-ai-discussing-potential-partnerships-with-meta-xai/"
+    },
+    {
+      "index": 4,
+      "title": "Misc2 01-ai removes custom licenses from Yi models:",
+      "text": "Misc2 01-ai removes custom licenses from Yi models: In /r/LocalLLaMA, 01-ai has switched the licensing of their original Yi models to Apache-2.0 on Huggingface , matching the license of their 1.5 series models. Andrej Karpathy Today, with help from FineWeb (released last month), you can train a tiny GPT-2 in 90 minutes and $20 in 8xA100 server time. It is already working (kinda) for the 350M version, and Andrej estimates that the full 1.6B model will take 1 week and $2.5k. https://github.com/karpathy/llm.c/discussions/481 https://buttondown.email/ainews/archive/ainews-fineweb-15t-tokens-of-commoncrawl/ https://twitter.com/karpathy/status/1795484547267834137 Elon Musk's AI startup, xAI , is building a supercomputer powered by 100,000 Nvidia chips (‘ gigafactory of compute ’) to rival OpenAI, Google, and Microsoft, aiming to power the next generation of xAI's chatbot, Grok https://interestingengineering.com/innovation/elon-musk-xai-supercomputer Nvidia's CEO Jensen Huang is on track to become the world's richest person, with his company's value projected to surpass Apple's and his personal wealth estimated to reach over $91 billion. https://nymag.com/intelligencer/article/nvidias-ceo-is-on-his-way-to-become-the-worlds-richest-man.html OpenAI - all ChatGPT Free users can now use: browse, vision, data analysis, file uploads, and GPTs . ChatGPT Free users are getting pretty much all features as paid users (but limited). It looks like OpenAI is trying to maximize user base. https://twitter.com/gdb/status/1795970586050429005 OpenAI - new Safety and Security Committee (led by directors Bret Taylor (Chair), Adam D’Angelo, Nicole Seligman, and Sam Altman (CEO)) OpenAI - started training new flagship model https://openai.com/index/openai-board-forms-safety-and-security-committee/ AI safety Pledge at the Seoul AI Safety Summit . Major tech companies, including Microsoft, Amazon, and OpenAI, along with governments from the U.S., China, Canada, the U.K., France, South Korea, and the UAE , made a landmark agreement on AI safety. https://www.cnbc.com/2024/05/21/tech-giants-pledge-ai-safety-commitments-including-a-kill-switch.html Klarna (Swedish buy-now-pay-later company) saves $10 Mln annually due to using AI in marketing https://www.wsj.com/articles/klarna-marketing-chief-says-ai-is-helping-it-become-brutally-efficient-4ad388d3"
+    },
+    {
+      "index": 5,
+      "title": "Misc3 Building Agentic RAG with LlamaIndex course made",
+      "text": "Misc3 Building Agentic RAG with LlamaIndex course made in collaboration with LlamaIndex and taught by its co-founder and CEO, Jerry Liu, you'll build agents capable of intelligently navigating, summarizing, and comparing information across multiple research papers from arXiv, and learn how to debug these agents, ensuring you can guide their actions effectively."
+    },
+    {
+      "index": 6,
+      "title": "SimPO: Simple Preference Optimization Fine-tuning LLM using human",
+      "text": "SimPO: Simple Preference Optimization Fine-tuning LLM using human feedback: DPO is so much more convenient than RLHF with PPO for LLM preference tuning. SimPO is even better and simpler ! \"SimPO: Simple Preference Optimization with a Reference-Free Reward\" https://arxiv.org/abs/2405.14734 Idea: remove the need for a reference model and use the average log probability of a sequence as the implicit reward. https://twitter.com/rasbt/status/1794711330085036061 RLHF = Reinforcement Learning from Human Feedback with PPO = Proximal Policy Optimization A reward model is trained to predict how much a human would prefer a given model output (using human feedback). The LLM is then fine-tuned using reinforcement learning, with the reward model providing the feedback signal . DPO = Direct Preference Optimization. Instead of training a separate reward model like in RLHF , DPO directly uses the LLM itself to model human preferences - by presenting the model with pairs of its own outputs and asking LLM to predict which one a human would prefer."
+    },
+    {
+      "index": 7,
+      "title": "OpenAI - why Sam Altman was fired OpenAI",
+      "text": "OpenAI - why Sam Altman was fired OpenAI - why Sam Altman was fired on Nov 17, 2023 https://www.youtube.com/watch?v=X8Op-foRxNM https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI https://mashable.com/article/open-ai-board-why-fired-sam-altman-helen-toner-podcast The board claims that Sam Alman withheld information from them, including not informing them about the release of ChatGPT and failing to disclose his financial ties to OpenAI through the OpenAI Startup Fund. There are concerns that OpenAI is prioritizing profit over safety measures. Jan Leakey, a former OpenAI employee who left the company recently, has publicly stated that OpenAI has deprioritized safety and security. The board believes that these actions by Sam Alman made it impossible for them to trust him and led to his firing. OpenAI has responded to these allegations by forming a Safety and Security Committee. However, there are concerns that this committee is not truly independent because it includes Sam Alman himself. Helen Toner, former OpenAI board member, said that Sam Altman was fired for 'outright lying' . She also said that he didn't informed the board about releasing ChatGPT - the board has found out ChatGPT had been released via social media. OpenAI board members Bret Taylor and Larry Summers just responded. They ejected Toner and McCauley’s claims made in The Economist earlier this week. The response cited a law firm’s external review, finding no evidence that Altman’s firing was due to safety, financial issues, or misleading statements. Taylor and Summers also highlighted OpenAI’s efforts with policymakers, support for regulation, and voluntary safety commitments."
+    },
+    {
+      "index": 8,
+      "title": "RAGAs - Evaluate RAG System RAGAs - Evaluation",
+      "text": "RAGAs - Evaluate RAG System RAGAs - Evaluation framework for your Retrieval Augmented Generation (RAG) pipelines https://github.com/explodinggradients/ragas https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a pip install ragas pip install git+https://github.com/explodinggradients/ragas Good indexing and retrieval is the key. If retrieval is bad and proper information is not found, the generation step will not be able to produce good response. Garbage in - garbage out. Measure the quality of retrieval: precision - were retrieved documents relevant? recall - were all relevant documents found? Quality of retrieval depends on quality of indexing. Quality of indexing depends on preprocessing of data. Examples of preprocessing: rewriting texts into some standard structured format rewriting texts into questions extracting topics (tags, labels) - and adding them as metadata"
+    },
+    {
+      "index": 9,
+      "title": "Anguilla - AI domains Anguilla is making a",
+      "text": "Anguilla - AI domains Anguilla is making a fortune in fees for .ai domains. $87 Mln in 2023 - 20% of the government’s total revenue. Anguilla , a small Caribbean island (16 miles long) https://en.wikipedia.org/wiki/Anguilla"
+    },
+    {
+      "index": 10,
+      "title": "Total #models: 102 Total #votes: 1,149,962 Last updated:",
+      "text": "Total #models: 102 Total #votes: 1,149,962  Last updated: 2024-05-27 Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries"
+    },
+    {
+      "index": 11,
+      "title": "Tech Layoffs were lower than in 2023 Layoffs",
+      "text": "Tech Layoffs were lower than in 2023 Layoffs - https://layoffs.fyi Salaries for AI engineers rose 12% from the third to fourth quarter last year The average salary for a senior AI engineer nationally is more than $190,000, according to Comprehensive.io. AI has a talent shortage, meaning $1 Mln salary job offers! Even during tech layoffs"
+    },
+    {
+      "index": 12,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 13,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Codestral from Mistral",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 1,
+      "slideTitle": "Codestral from Mistral xAI $6 Billion Funding Jan",
+      "source": "outline"
+    },
+    {
+      "claim": "xAI $6 Billion Funding",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 2,
+      "slideTitle": "Codestral from Mistral Codestral - open-weight GenAI model",
+      "source": "outline"
+    },
+    {
+      "claim": "Jan Leike joins AnthropicAI - Superalignment",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 2,
+      "slideTitle": "Codestral from Mistral Codestral - open-weight GenAI model",
+      "source": "outline"
+    },
+    {
+      "claim": "Chatbot Maker Character.ai",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 3,
+      "slideTitle": "Misc 1 xAI has announced a $6 Billion",
+      "source": "outline"
+    },
+    {
+      "claim": "Andrej Karpathy - train GPT-2 in 1.5 hrs & $20",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 4,
+      "slideTitle": "Misc2 01-ai removes custom licenses from Yi models:",
+      "source": "outline"
+    },
+    {
+      "claim": "01-ai changes license to Apache-2.0",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 4,
+      "slideTitle": "Misc2 01-ai removes custom licenses from Yi models:",
+      "source": "outline"
+    },
+    {
+      "claim": "xAI ‘gigafactory of compute’ - 100K Nvidia Chips",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 5,
+      "slideTitle": "Misc3 Building Agentic RAG with LlamaIndex course made",
+      "source": "outline"
+    },
+    {
+      "claim": "Klarna saves $10 Mln/year using AI for Marketing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 5,
+      "slideTitle": "Misc3 Building Agentic RAG with LlamaIndex course made",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia's CEO Jensen Huang $91B Networth",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 6,
+      "slideTitle": "SimPO: Simple Preference Optimization Fine-tuning LLM using human",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI - Free ChatGPT gives access to all tools",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 7,
+      "slideTitle": "OpenAI - why Sam Altman was fired OpenAI",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI - new Safety and Security Committee",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 7,
+      "slideTitle": "OpenAI - why Sam Altman was fired OpenAI",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI - started training new flagship model",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 8,
+      "slideTitle": "RAGAs - Evaluate RAG System RAGAs - Evaluation",
+      "source": "outline"
+    },
+    {
+      "claim": "AI safety Pledge at the Seoul AI Safety Summit",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 9,
+      "slideTitle": "Anguilla - AI domains Anguilla is making a",
+      "source": "outline"
+    },
+    {
+      "claim": "Building Agentic RAG with LlamaIndex",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 9,
+      "slideTitle": "Anguilla - AI domains Anguilla is making a",
+      "source": "outline"
+    },
+    {
+      "claim": "SimPO, DPO, RLHF",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 10,
+      "slideTitle": "Total #models: 102 Total #votes: 1,149,962 Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "OpenAI - why Sam Altman was fired",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 10,
+      "slideTitle": "Total #models: 102 Total #votes: 1,149,962 Last updated:",
+      "source": "outline"
+    },
+    {
+      "claim": "RAGAs - Evaluate RAG System",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 11,
+      "slideTitle": "Tech Layoffs were lower than in 2023 Layoffs",
+      "source": "outline"
+    },
+    {
+      "claim": "Anguilla - .ai domains",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Crowd-sourced \"Arena\" Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "outline"
+    },
+    {
+      "claim": "Tech Layoffs were lower than in 2023",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=UJ6VdbZOLm0",
+      "slideIndex": 13,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    }
+  ]
+}

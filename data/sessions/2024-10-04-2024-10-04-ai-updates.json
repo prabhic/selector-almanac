@@ -1,0 +1,270 @@
+{
+  "id": "2024-10-04-2024-10-04-ai-updates",
+  "date": "2024-10-04",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "agents",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "jWLfxbS-ICg",
+    "title": "Have you heard these exciting AI news? - October 04, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=jWLfxbS-ICg",
+    "thumbnail": "https://i.ytimg.com/vi/jWLfxbS-ICg/hqdefault.jpg",
+    "duration": 1174
+  },
+  "deck": {
+    "path": "2024/2024-10-04-AI-Updates.pptx",
+    "filename": "2024-10-04-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-10-04-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-10-04-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI Death Day",
+      "startSeconds": 35,
+      "label": "00:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI News",
+      "startSeconds": 261,
+      "label": "04:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Salesforce Agent Force",
+      "startSeconds": 420,
+      "label": "07:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Liquid AI",
+      "startSeconds": 500,
+      "label": "08:20",
+      "source": "youtube"
+    },
+    {
+      "title": "More News",
+      "startSeconds": 573,
+      "label": "09:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Who wins from AI",
+      "startSeconds": 718,
+      "label": "11:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Pinterest uses AI",
+      "startSeconds": 978,
+      "label": "16:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsourcing AI leaderboard",
+      "startSeconds": 1087,
+      "label": "18:07",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI DevDay - towards self-tasking agents OpenAI Realtime",
+      "text": "OpenAI DevDay - towards self-tasking agents OpenAI Realtime Voice API OpenAI Prompt Caching, Model Distillation OpenAI Vision Fine Tuning OpenAI has raised $6.6B + $4B Credit line OpenAI ChatGPT Canvas ChatGPT's new shortcut feature Salesforce Agentforce Liquid AI Non-transformer Models (less compute) Software: from code to weights Microsoft Copilot Labs and Copilot Vision Microsoft Paint - AI fill and erase features AI bots now beat 100% of image CAPTCHAs Who Wins from AI Google works on models with advanced reasoning Google Deepmind AlphaChip - for fast chip design Google Releases Gemini1.5 Flash-8B Pythagora - talk to build apps from scratch Apple MM1.5 (Multimodal LLM) RLHF with Mixture of Judges LexEval Benchmark in Legal Domain Pinterest - use AI to improve images FLUX1.1 [pro] and BFL API Durk Kingma (AI founder) joins Anthropic Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Tech Layoffs in 2024 AI Updates October 04 , 2024 \"AI is the first technology that has no limit\" - Bill Gates \"[The] pace of innovation is all that matters in the long run\" - Elon Musk"
+    },
+    {
+      "index": 2,
+      "title": "OpenAI DevDay October 1st OpenAI Dev Day -",
+      "text": "OpenAI DevDay October 1st OpenAI Dev Day - from Sam Altman’s Presentation Progress Toward AGI and AI Agents: In 2025 AI agents will become truly functional (o1, ...) The definition of AGI is becoming blurred as we approach it Level Two AGI (o1) - significant progress Acceleration of Scientific Discovery: Use AI for increasing the rate of scientific discovery pivotal milestone when AI will become better than humans AI Agents Transforming Work and Productivity: Agents as Virtual Employees. Speed: hours (agent) vs months(human). Scale: use 100s of AI agents for complex tasks Safety and Alignment as Priorities: Iterative Deployment as a key safety mechanism o1 is the most capable and the most aligned Building new models first, then make them safer over time Anticipated Advancements: https://openai.com/news/product Rapid Model Improvement - in 3 months o1 will support function calling, system prompts, and structured outputs Realtime Voice API (like speech-to-speech) https://openai.com/index/introducing-the-realtime-api/ Prompt Caching - faster & cheaper responses https://openai.com/index/api-prompt-caching/ Model Distillation - specialized models (faster, cheaper, better). https://openai.com/index/api-model-distillation/ GPT-4o Vision Fine Tuning on images - detection, extraction https://openai.com/index/introducing-vision-to-the-fine-tuning-api/ Autonomous AI agents for complex tasks ( self-tasking agents ) - could drastically reshape industries and redefine productivity.  Consider how upcoming AI models like o2 and o3 could shape our future work. We should start envisioning how the ability to create self-tasking agents will transform our operations and the industry as a whole. OpenAI DevDays in San Francisco, CA November 6, 2023 October 1, 2024 José Gregorio Argomedo https://www.rsm.global/chile/en/people/jose-gregorio-argomedo"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI OpenAI has raised $6.6B in new funding",
+      "text": "OpenAI OpenAI has raised $6.6B in new funding at a $157B valuation. https://openai.com/index/scale-the-benefits-of-ai Investors include Microsoft, Nvidia, SoftBank, MGX, ... OpenAI revenue projections: 2024 - anticipates $3.7B (and $5B loss due to tech costs) 2026 - $25B 2029 - $100B OpenAI has secured a new $4 Billion revolving credit line , the ChatGPT maker said on Thursday, a day after it closed a $6.6 billion funding round that cemented its position as one of the most valuable private companies in the world. ChatGPT's new shortcut feature: type \"/\" in the input field followed by \"picture\" or \"search\" or \"reason\", for example: /picture quantum computer /search quantum computer /reason explain quantum computing No Rivals Allowed Elon Musk posted \"OpenAI is evil\" on X in response to reports that the OpenAI asked investors to avoid funding competing AI firms like Anthropic and Musk’s xAI. OpenAI ChatGPT Canvas opens in a separate window, allowing you and ChatGPT to collaborate on a project. https://openai.com/index/introducing-canvas/ OpenAI: from last devday to this one: *98% decrease in cost per token from GPT-4 to 4o mini *50x increase in token volume across our systems *excellent model intelligence progress"
+    },
+    {
+      "index": 4,
+      "title": "Salesforce Agentforce Salesforce Agentforce New AI platform -",
+      "text": "Salesforce Agentforce Salesforce Agentforce New AI platform - build and deploy custom AI agents Automate tasks, provide information, and interact with customers AI agents are customizable (sales, service, marketing, ...) Low-code development Integration with Salesforce leveraging your existing data and workflows. Multi-channel - chat, email, phone, and even social media Two types of agents: autonomous (working independently) and assistive (helping humans) Star Wars CLone Troopers"
+    },
+    {
+      "index": 5,
+      "title": "Liquid AI Non-transformer Models Liquid AI - new",
+      "text": "Liquid AI Non-transformer Models Liquid AI - new Liquid Foundation Models (LFMs) https://www.liquid.ai/liquid-foundation-models NOT transformer NOT open source Less compute Reduced memory footprint Outperform larger transformer models 1.3B, 3.1B, and 40.3B MoE (12B activated) 32k token context length Memory vs output length"
+    },
+    {
+      "index": 6,
+      "title": "Misc 1 Software: from code to weights from",
+      "text": "Misc 1 Software: from code to weights from executing human readable code to inferencing deeplearning network weights Microsoft - Copilot Labs and Copilot Vision : https://www.microsoft.com/en-us/microsoft-copilot/blog/2024/10/01/introducing-copilot-labs-and-copilot-vision/ Microsoft Copilot Labs - testing ground for experimental AI features. Copilot Pro users use it to get early access to experimental AI features Vision = \"see\" and interact with elements on your screen Example: you see a pair of shoes you like on the screen. You can ask Copilot Vision, \"Will these shoes go with my blue jeans and white shirt?\" Copilot Vision analyzes the image of the shoes and your description of your outfit, then provides a response based on its understanding of color coordination and fashion trends. Microsoft Paint is getting Photoshop-like generative AI fill and erase features https://www.theverge.com/2024/10/1/24259239/microsoft-paint-generative-erase-fill-photos-upscaling AI bots now beat 100% of image CAPTCHAs https://arxiv.org/abs/2409.08831 So now bots can pass through as humans ..."
+    },
+    {
+      "index": 7,
+      "title": "Misc 2 Who Wins from AI Big Tech",
+      "text": "Misc 2 Who Wins from AI Big Tech Firms ( Google, Amazon, Microsoft, Meta, Apple, ... ) Computing infrastructure & chipmakers ( NVIDIA, Qualicom, Micron, Intel, AMD, Samsung, TSMC, IBM, SK Hynix, Groq, Cerebras, Google, SambaNova, ARM, Huawei,  ... ) Data, domain-specific data IP (Intellectual Property) Lawyers The Big 4 ( Deloitte, EY, KPMG, and PwC ), financial firms, ... Certain countries (China, US) human-centric skills (social workers, therapists, educators, ...) Google works on models with advanced reasoning Google authored CoT (Chain of Thought) in 2022 - https://research.google/blog/language-models-perform-reasoning-via-chain-of-thought/ Google is now developing AI models similar to OpenAI’s o1 that use CoT for complex, multi-step problems (Bloomberg) https://www.bloomberg.com/news/articles/2024-10-02/google-is-working-on-reasoning-ai-chasing-openai-s-efforts Apple MM1.5 (Multimodal LLM) new family of multimodal LLMs text-rich image understanding, multi-image reasoning from 1B to 30B parameters dense and mixture-of-experts (MoE) variants MM1.5-Video for video understanding MM1.5-UI for mobile UI understanding https://arxiv.org/abs/2409.20566 RLHF with Mixture of Judges Meta: using a mixture of judges models to properly perform multi task RLHF in post training (RLHF = Reinforcement Learning with Human Feedback) - https://arxiv.org/abs/2409.20370 LexEval LexEval  - a benchmark to evaluate LLMs in the legal domain https://github.com/cshaitao/lexeval Google Deepmind AlphaChip - for fast chip design (AlphaGo, AlphaZero, AlphaFold, AlphaCode, ...) https://www.nature.com/articles/s41586-024-08032-5 https://deepmind.google/discover/blog/how-alphachip-transformed-computer-chip-design Pythagora - talk to build apps from scratch https://www.pythagora.ai Pythagora can create apps with more than 10K lines of code Current version provides an almost magical experience in the range of  3K to5K lines of code. And is constantly being improved Google Releases Gemini1.5 Flash-8B https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/"
+    },
+    {
+      "index": 8,
+      "title": "Misc 3 Pinterest - use AI to improve",
+      "text": "Misc 3 Pinterest - use AI to improve images adding lifestyle backgrounds generated by AI automation campaign features to support advertisers https://newsroom.pinterest.com/news/introducing-new-ai-and-automation-campaign-features-to-support-advertisers/ FLUX1.1 [pro] and the BFL API text to image, high quality developed by Black Forest Labs (Germany). FLUX1.1 [pro] provides 6 times faster generation + better image quality, prompt adherence, and diversity FLUX.1 [pro] - speed improved x2 https://blackforestlabs.ai/announcing-flux-1-1-pro-and-the-bfl-api/ Californian Governor Gavin Newsom has vetoed the state's SB 1047 bill, which aimed to regulate large AI models. He emphasized the need for evidence-based regulations and warned against overly stringent rules that could stifle innovation. Durk Kingma , one of the lesser-known co-founders of OpenAI, today announced that he’ll be joining Anthropic. https://www.allaboutai.com/ai-news/anthropic-hires-openai-co-founder-durk-kingma/"
+    },
+    {
+      "index": 9,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 149. Total #votes: 1,951,660. Last updated: 2024-09-26."
+    },
+    {
+      "index": 10,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 149. Total #votes: 1,951,660. Last updated: 2024-09-26."
+    },
+    {
+      "index": 11,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi"
+    },
+    {
+      "index": 12,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 13,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI DevDay - towards self-tasking agents OpenAI Realtime",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI Death Day",
+      "topic": "general",
+      "videoSeconds": 35,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=35s",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI OpenAI has raised $6.6B in new funding",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI News",
+      "topic": "general",
+      "videoSeconds": 261,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=261s",
+      "slideIndex": 4,
+      "slideTitle": "Salesforce Agentforce Salesforce Agentforce New AI platform -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Salesforce Agent Force",
+      "topic": "agents",
+      "videoSeconds": 420,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=420s",
+      "slideIndex": 6,
+      "slideTitle": "Misc 1 Software: from code to weights from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Liquid AI",
+      "topic": "general",
+      "videoSeconds": 500,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=500s",
+      "slideIndex": 7,
+      "slideTitle": "Misc 2 Who Wins from AI Big Tech",
+      "source": "youtube"
+    },
+    {
+      "claim": "More News",
+      "topic": "general",
+      "videoSeconds": 573,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=573s",
+      "slideIndex": 9,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "Who wins from AI",
+      "topic": "general",
+      "videoSeconds": 718,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=718s",
+      "slideIndex": 10,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "Pinterest uses AI",
+      "topic": "general",
+      "videoSeconds": 978,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=978s",
+      "slideIndex": 12,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsourcing AI leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1087,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg&t=1087s",
+      "slideIndex": 13,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI DevDay October 1st OpenAI Dev Day -",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg",
+      "slideIndex": 2,
+      "slideTitle": "OpenAI DevDay October 1st OpenAI Dev Day -",
+      "source": "slide"
+    },
+    {
+      "claim": "Liquid AI Non-transformer Models Liquid AI - new",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg",
+      "slideIndex": 5,
+      "slideTitle": "Liquid AI Non-transformer Models Liquid AI - new",
+      "source": "slide"
+    },
+    {
+      "claim": "Misc 3 Pinterest - use AI to improve",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg",
+      "slideIndex": 8,
+      "slideTitle": "Misc 3 Pinterest - use AI to improve",
+      "source": "slide"
+    },
+    {
+      "claim": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=jWLfxbS-ICg",
+      "slideIndex": 11,
+      "slideTitle": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi",
+      "source": "slide"
+    }
+  ]
+}

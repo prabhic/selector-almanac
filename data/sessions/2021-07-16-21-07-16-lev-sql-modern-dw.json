@@ -1,0 +1,170 @@
+{
+  "id": "2021-07-16-21-07-16-lev-sql-modern-dw",
+  "date": "2021-07-16",
+  "title": "Lev SQL Modern DW",
+  "series": "data-science-2021",
+  "topics": [
+    "rag",
+    "data-engineering",
+    "jobs",
+    "enterprise",
+    "infra"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Lev_SQL_Modern_DW.pptx",
+    "filename": "21-07-16-Lev_SQL_Modern_DW.pptx",
+    "title": "Lev SQL Modern DW",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Lev_SQL_Modern_DW.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Lev_SQL_Modern_DW.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Kimball DW Framework Kimball Group – closed in",
+      "text": "Kimball DW Framework Kimball Group – closed in 2015 https://www.kimballgroup.com/ Inmon DW Framework William H. Inmon (1945 – present) Ralph Kimball (1944 – present)"
+    },
+    {
+      "index": 2,
+      "title": "The Times of Inmon & Kimball Imagine computers",
+      "text": "The Times of Inmon & Kimball Imagine computers of 1970s. A computer occupy the whole floor of a building Computer have memory measured in 10s of Kilobytes Punch cards slowly transition to magnetic tapes IBM introduced VSAM files, relations, SQL Usually just one computer in whole organization (IBM Mainframe or similar) \"Dumb terminals\" connecting to the central computer. There are no personal computers All company's information is typically stored in one central computer In 1985 a \"BIG\" database would have 100 MBytes disk storage and 10-15 KB/sec data transfer speed These are times when Inmon & Kimball were crafting their approaches. As computers have become cheaper and more powerful, organization were able to buy several computers – one per department. Then people had to decide how to structure flows of information. Inmon : from central main computer down to departments Kimball : from departments to central Now 30-40 years later any smart phone is more powerful than \"huge\" DW systems of Inmon & Kimball's era. https://www.dataversity.net/a-short-history-of-data-warehousing/"
+    },
+    {
+      "index": 3,
+      "title": "Ralph Kimball’s paradigm: Each department in a company",
+      "text": "Ralph Kimball’s paradigm: Each department in a company has its own Data Mart (DM) . The company's DW (Data Warehouse) is the conglomerate of all DMs . Information is always stored in the dimensional model . Bill Inmon’s paradigm: A company has one central DW (Data Warehous ). Data Marts ( DMs ) source their data from the DW . In the DW , information is stored in 3rd normal form . ( https://en.wikipedia.org/wiki/Third_normal_form ) Inmon vs Kimball"
+    },
+    {
+      "index": 4,
+      "title": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
+      "text": "Kimball vs Inmon Parameters Kimball Inmon Introduced by Introduced by Ralph Kimball. Introduced by Bill Inmon. Approach It has Bottom-Up Approach for implementation. It has Top-Down Approach for implementation. Data Integration It focuses Individual business areas. It focuses Enterprise-wide areas. Building Time It is efficient and takes less time. It is complex and consumes a lot of time. Cost It has iterative steps and is cost effective. Initial cost is huge and development cost is low. Skills Required It does not need such skills but a generic team will do job. It needs specialized skills to make work. Maintenance Here maintenance is difficult. Here maintenance is easy. Data Model It prefers data to be in De-normalized model. It prefers data to be in normalized model. Data Store Systems In this, source systems are highly stable. In this, source systems have high rate of change. This is no longer needed"
+    },
+    {
+      "index": 5,
+      "title": "OLAP Cube – Rise and Fall Very good",
+      "text": "OLAP Cube – Rise and Fall Very good article: The Rise and Fall of the OLAP Cube - by Cedric Chin (2020) https://www.holistics.io/blog/the-rise-and-fall-of-the-olap-cube/ Old way of doing things: Data =>   ETL   =>   Data WareHouse =>   ETL   =>   OLAP Cube   => Reporting The above \"old way\" Includes a lot of ETL, Data modeling & Design: Kimball Framework Inmon Framework Data Vault by Dan Linstedt (combines Kimball & Inmon ). But imagine that memory and compute power have become so cheap that your regular SQL database can run any queries very fast using in-memory columnar storage and MPP = Massive Parallel Processing. Then you don't need to hire data modelers. You don't need all the OLAP infrastructure. You can simply query your data as it is. Data   =>   Reporting"
+    },
+    {
+      "index": 6,
+      "title": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "text": "Synapse Integrate Data Pipelines Azure Data Lake Storage Gen2 Machine Learning Web End-Points Azure - The Modern Data Warehouse Solution Pattern Move from on-prem to cloud Include all tools : data moving, storing, processing, analysis, and serving All tools are interconnected and work together ( Synapse ) Ingest, Store, Prepare, Analyze, Train, & Serve Data"
+    },
+    {
+      "index": 7,
+      "title": "Modern Cloud-Based Data Warehouse Multi-component architecture allows for",
+      "text": "Modern Cloud-Based Data Warehouse Multi-component architecture allows for fast and flexible configuration to fit desired results Data moving and preparation is fast and scalable Speedy and efficient time-to-analytics More manageable and customizable cost of ownership Analytics-driven rise in productivity across the organization Access is always available Scalable from small to large amounts of data Traditional On-Prem Data Warehouse Expensive/high-maintenance on-premise server setup Rigid structure relying mostly on scheduled ETL processes Limited speed potential Expensive upgrades (hardware) Limited scalability Overall slower limited analytical processing Much Better !"
+    },
+    {
+      "index": 8,
+      "title": "Should we still use a Kimball approach on",
+      "text": "Should we still use a Kimball approach on a modern data warehouse? Answer in most cases – yes. Not for performance reason, but for better data maintenance. Kimball's star schema always had three advantages: takes less storage space – no longer relevant performance – no longer relevant data maintenance (loads, updates, restructuring) Wide denormalized tables can have good performance, but updating a \"dimension\" field in a denormalized table may require updating millions of records. Also if we loading data from several different systems, a Kimball approach helps to identify and standardize common dimensions. Also when implementing dashboards, fact table and dimension tables make queries easier to do. Good discussions: https://discourse.getdbt.com/t/is-kimball-dimensional-modeling-still-relevant-in-a-modern-data-warehouse/225 https://www.linkedin.com/pulse/kimball-still-relevant-modern-data-warehouse-simon-whiteley/ Kimball's \"Star Schema\" facts table in the middle surrounded by dimensions tables"
+    },
+    {
+      "index": 9,
+      "title": "1956 – loading 5 MB disk into a",
+      "text": "1956 – loading 5 MB disk into a plane History IBM – Punch-Cards in 1950s"
+    },
+    {
+      "index": 10,
+      "title": "History - Unix Ken Thompson (seated) and Dennis",
+      "text": "History - Unix Ken Thompson (seated) and Dennis Ritchie (standing) at a PDP-11 in 1972. https://homepage.cs.uri.edu/~thenry/resources/unix_art/ch02s01.html PDP-7 minicomputer (1969) on which Ken Thompson created the Space Travel game and Unix OS"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Kimball DW Framework Kimball Group – closed in",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Kimball DW Framework Kimball Group – closed in",
+      "source": "slide"
+    },
+    {
+      "claim": "The Times of Inmon & Kimball Imagine computers",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "The Times of Inmon & Kimball Imagine computers",
+      "source": "slide"
+    },
+    {
+      "claim": "Ralph Kimball’s paradigm: Each department in a company",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Ralph Kimball’s paradigm: Each department in a company",
+      "source": "slide"
+    },
+    {
+      "claim": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Kimball vs Inmon Parameters Kimball Inmon Introduced by",
+      "source": "slide"
+    },
+    {
+      "claim": "OLAP Cube – Rise and Fall Very good",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "OLAP Cube – Rise and Fall Very good",
+      "source": "slide"
+    },
+    {
+      "claim": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Synapse Integrate Data Pipelines Azure Data Lake Storage",
+      "source": "slide"
+    },
+    {
+      "claim": "Modern Cloud-Based Data Warehouse Multi-component architecture allows for",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Modern Cloud-Based Data Warehouse Multi-component architecture allows for",
+      "source": "slide"
+    },
+    {
+      "claim": "Should we still use a Kimball approach on",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Should we still use a Kimball approach on",
+      "source": "slide"
+    },
+    {
+      "claim": "1956 – loading 5 MB disk into a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "1956 – loading 5 MB disk into a",
+      "source": "slide"
+    },
+    {
+      "claim": "History - Unix Ken Thompson (seated) and Dennis",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "History - Unix Ken Thompson (seated) and Dennis",
+      "source": "slide"
+    }
+  ]
+}

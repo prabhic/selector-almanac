@@ -1,0 +1,277 @@
+{
+  "id": "unknown-da-11-powerbi-powerapps",
+  "date": null,
+  "title": "DA 11 PowerBI PowerApps",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "safety",
+    "enterprise"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_11_PowerBI_PowerApps.pptx",
+    "filename": "DA_11_PowerBI_PowerApps.pptx",
+    "title": "DA 11 PowerBI PowerApps",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_11_PowerBI_PowerApps.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_11_PowerBI_PowerApps.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Power Platform",
+      "text": "Power Platform"
+    },
+    {
+      "index": 2,
+      "title": "BI & Analytics Platform",
+      "text": "BI & Analytics Platform"
+    },
+    {
+      "index": 3,
+      "title": "Components of Power BI",
+      "text": "Components of Power BI"
+    },
+    {
+      "index": 4,
+      "title": "Power BI data sources",
+      "text": "Power BI data sources"
+    },
+    {
+      "index": 5,
+      "title": "High Level areas companies need help with Governance/Adoption/Rolling",
+      "text": "High Level areas companies need help with Governance/Adoption/Rolling out Power BI Security/Report Access Premium or Pro Sharing Performance issues"
+    },
+    {
+      "index": 6,
+      "title": "Governance Model EDW BUSINESS UNIT DASHBOARDS , KPIs",
+      "text": "Governance Model EDW BUSINESS UNIT DASHBOARDS , KPIs & SCORECARDS DEPARTMENTAL, TEAM OR GROUP REPORTING PROJECT REPORTING PERSONAL REPORTING TIGHT CONTROLS LESS CONTROLS Personal/Private views Data science exploration Push up content Power BI Desktop Excel or other reports Knowledge management Information sharing Permanent record Subject to compliance Push down content Reporting services"
+    },
+    {
+      "index": 7,
+      "title": "Power BI Delivery Approaches Requires tighter, more thorough",
+      "text": "Power BI Delivery Approaches Requires tighter, more thorough controls Less controls More agile More procedural"
+    },
+    {
+      "index": 8,
+      "title": "Business-Led Self-Service BI Workflow App Workspace Dashboards Reports",
+      "text": "Business-Led Self-Service BI Workflow App Workspace Dashboards Reports Datasets Power BI App Dashboards Reports Datasets Team creates all dashboards , reports and datasets in the App Workspaces 1 Team reviews, validates dashboards, reports and dashboards with SMEs who have read-only access to the App workspace 2 Once changes are verified, Power BI App is published for update 3 Content Creator Team Users Recommend using OneDrive for Business / SharePoint to version PBIX report files Create 1 folder per App Workspace Create sub-folder for in progress work Create sub-folder for what is published in App Recommended dataset storage modes: Import DirectQuery Hybrid/Composite Recommended for Usage Scenarios: Personal BI/ Prototyping Small Team Collaboration"
+    },
+    {
+      "index": 9,
+      "title": "IT Managed Self-Service BI Workflow Recommended dataset storage",
+      "text": "IT Managed Self-Service BI Workflow Recommended dataset storage modes: Import DirectQuery Hybrid/Composite Live Connection Streaming App Workspace Dashboards Reports Datasets Power BI App Dashboards Reports Datasets Team creates all dashboards , reports in the App Workspaces 2 BI and Business reviews, validates reports and dashboards with SMEs who have read-only access to the App workspace 3 Once changes are verified, Power BI App is published for update 4 Content Creator Team Users Recommend using OneDrive for Business / SharePoint to version PBIX report files Create 1 folder per App Workspace Create sub-folder for in progress work Create sub-folder for what is published in App IT BI Team IT creates all datasets in the App Workspaces 1 Recommended for Usage Scenarios: Personal BI/ Prototyping Small Team Collaboration Large Team Collaboration and Distro"
+    },
+    {
+      "index": 10,
+      "title": "Corporate BI Workflow App Workspace Dashboards Reports Datasets",
+      "text": "Corporate BI Workflow App Workspace Dashboards Reports Datasets Power BI App Dashboards Reports Datasets BI and Business reviews, validates reports and dashboards with SMEs who have read-only access to the App workspace 3 Once changes are verified, Power BI App is published for update 4 Users Recommend using GitHub or VSTS for versioning of reports and datasets Create PowerBI templates to save on storage space IT BI Team IT creates all datasets, dashboards and reports in the App Workspaces 1 Recommended dataset storage modes: Import DirectQuery Hybrid/Composite Live Connection Streaming Recommended for Usage Scenarios: Personal BI/ Prototyping Small Team Collaboration Large Team Collaboration and Distro"
+    },
+    {
+      "index": 11,
+      "title": "Power BI Adoption Framework Components Current State Why",
+      "text": "Power BI Adoption Framework Components Current State Why Govern? Governance Considerations Governance Model Data Sources Data governance Master Data Management Enterprise Data Catalog Enterprise Data Dictionary Governance Roles and responsibilities Phased vs organization wide roll out Rollout Planning Training requirements Communication Support Scenarios Ways of working Center of Excellence Rollout & Support Licensing Setup Group Management Tenant Administration Application Management Monitoring Connectivity Service Management Identity Power BI Architecture Access Controls Connectivity Data Security Sharing Security"
+    },
+    {
+      "index": 12,
+      "title": "Factors of Adoption Overall data culture vision An",
+      "text": "Factors of Adoption Overall data culture vision An overall corporate vision to be data driven Corporate Sponsorship C-level or line of business heads which support data-driven decision making Power BI Champions Champions to evangelize the vision of highly valuable reports and dashboards Measure Adoption Usage of reporting on reporting to see what’s working and identify champions"
+    },
+    {
+      "index": 13,
+      "title": "Security Considerations Database security Direct Query has an",
+      "text": "Security Considerations Database security Direct Query has an option to send User Principal Name to the source and only data returned is based on security defined in the database Row Level Security Import Models mostly For more information: https://radacad.com/row-level-security-on-a-directquery-to-power-bi-dataset-composite-model-my-findings"
+    },
+    {
+      "index": 14,
+      "title": "Premium by Capacity or Premium per User Premium",
+      "text": "Premium by Capacity or Premium per User Premium by Capacity (costs $4,999/month) Features apply to the whole Power BI tenant Pro, Bring your own License, and users outside your tenant can have access Gen 2 is an option Management of Capacity, such as sizing is available Premium per User (costs $20/month per user) Premium features are available Only users with Premium per User license can access Premium features Can access Pro workspaces Monitoring of premium workspaces not available (at this time) Management of Capacity exists of selecting Large dataset or Small datasets for workspaces"
+    },
+    {
+      "index": 15,
+      "title": "Capacities A capacity is a set of resources",
+      "text": "Capacities A capacity is a set of resources reserved for exclusive use by your organization. It enables you to publish dashboards, reports and dataset across your organization without having to purchase per-user licenses"
+    },
+    {
+      "index": 16,
+      "title": "Which Sku to use",
+      "text": "Which Sku to use"
+    },
+    {
+      "index": 17,
+      "title": "Creating a deployment pipeline",
+      "text": "Creating a deployment pipeline"
+    },
+    {
+      "index": 18,
+      "title": "Power BI Premium – Gen 2 Enhanced performance",
+      "text": "Power BI Premium – Gen 2 Enhanced performance – Better performance on any capacity size, anytime. Operations will always perform at top speed and won’t slow down when the load on the capacity approaches the capacity limits. Greater scale – No limits on refresh concurrency, fewer memory restrictions and complete separation between report interaction and scheduled refreshes Lower entry level for paginated reports and AI workloads – Customers can start with an A1 SKU and grow as they need. Scaling a resource instantly – From scaling a Gen 1 resource in minutes, to scaling a Gen 2 resource in seconds. Scaling without downtime – Customers can scale an Embedded Gen 2 resource without experiencing any downtime. Improved metrics – Coming in a few weeks to simplify monitoring and metrics-based automation. Instead of various Gen 1 metrics, there will be one CPU utilization metric in Gen 2. In addition, a built-in reporting tool will allow customers to perform utilization analysis, budget planning and chargebacks. Currently in Preview, going GA soon"
+    },
+    {
+      "index": 19,
+      "title": "Power BI Apps A group of reports and",
+      "text": "Power BI Apps A group of reports and dashboards targeted to a specific group of users “ A Power BI App is a set of packaged up content in the Power BI Service for the purpose of distributing related reports and dashboards to a larger base of consuming users. ” App Workspace Dashboards Reports Datasets Power BI App Dashboards Reports Datasets Content Creator Team Users Create/Publish View Only"
+    },
+    {
+      "index": 20,
+      "title": "What’s the best way to share",
+      "text": "What’s the best way to share"
+    },
+    {
+      "index": 21,
+      "title": "Performance Issues",
+      "text": "Performance Issues"
+    },
+    {
+      "index": 22,
+      "title": "Import or Direct Query Import models have the",
+      "text": "Import or Direct Query Import models have the data in the in-memory engine Require scheduled refreshes Row Level Security to control the data (if needed) Faster in serving up the data Direct Query Model will query the data engine to return the data Real-time or near real time data Generally, a bit slower than Import No schedule refresh required Users may need access to the source system"
+    },
+    {
+      "index": 23,
+      "title": "Importing data",
+      "text": "Importing data"
+    },
+    {
+      "index": 24,
+      "title": "DirectQuery Mode",
+      "text": "DirectQuery Mode"
+    },
+    {
+      "index": 25,
+      "title": "Composite Model and Hybrid Mode Composite Models allow",
+      "text": "Composite Model and Hybrid Mode Composite Models allow for some tables to be imported and some direct query More frequent changing tables would be direct query Hybrid tables, also known as dual mode, can be used as import or direct query Power BI will decide which mode to use for better performance"
+    },
+    {
+      "index": 26,
+      "title": "Optimizing the data model Use a star schema",
+      "text": "Optimizing the data model Use a star schema Reduces complicated DAX Makes the columns and data easier to understand Turn off Auto Date/Time in the options This also helps reduce the Model size Add a date table for Time measures Remove unnecessary columns Remove any Id fields not unused in reporting ETL audit fields if they are there Try to remove high cardinality columns not used in reporting Remove unnecessary rows Filter by time, trust us no one reports on 10 years worth of data every week. Optimize column data types https://docs.microsoft.com/en-us/power-bi/guidance/power-bi-optimization"
+    },
+    {
+      "index": 27,
+      "title": "Power BI No-code ML in Power BI is",
+      "text": "Power BI No-code ML in Power BI is similar to AutoML in Azure ML Studio Tutorial: Build a Machine Learning model in Power BI - https://docs.microsoft.com/en-us/power-bi/connect-data/service-tutorial-build-machine-learning-model Create a dataflow with the input data Create and train a machine learning model Review the model validation report Apply the model to a dataflow entity Using the scored output from the model in a Power BI report https://powerbi.com Power BI is a business analytics service by Microsoft. It allows users to  create their own reports and dashboards. Data can come from SQL databases, spreadsheets, web pages, etc. Business Intelligence (BI) may include time series forecasting, regression, and other ML methods, even AutoML . There are many tutorials on YouTube, for example: - https://www.youtube.com/watch?v=TmhQCQr_DCA Power Platform: Power BI Power Apps Power Automate Power Virtual Agents"
+    },
+    {
+      "index": 28,
+      "title": "Power BI Online (in browser) DAX = Data",
+      "text": "Power BI Online (in browser) DAX = Data Analysis Expressions (available only in Windows Desktop app) Formula language with functions - similar to Microsoft Excel Good introduction video: - https://www.youtube.com/watch?v=waG_JhBgUpM Measure = <some DAX function>. Total Number = sum( TabName [ ColName ]) Power BI Desktop (a.k.a. Designer) is available ONLY on Windows . If you are on a Mac, your choices are: - https://www.macworld.co.uk/feature/best-virtual-machine-software-3671133/ FREE - Wine ( https://www.winehq.org/ ) or VirtualBox  ( https://www.virtualbox.org/ ) https://www.youtube.com/watch?v=J-S_TvtIm5Y Parallels - $80 - https://www.youtube.com/watch?v=r89fGOM1bq0 Dual Boot (Apple's Boot Camp) Trend.net $9/ mo Azure VM $100/ mo Available in Desktop Designer: Data transformation, modeling, and shaping Calculated columns Python and DAX RLS creation (row-level security) Power BI Service (online) include: Dashboards Sharing RSL management Gateway connections Windows – Desktop app in browser – online service Comparison: desktop vs online: https://spreadsheeto.com/power-bi-desktop-vs-online/#desktop-vs-online"
+    },
+    {
+      "index": 29,
+      "title": "Microsoft Power Apps Power Apps: rapid application development",
+      "text": "Microsoft Power Apps Power Apps: rapid application development environment build custom apps for your business needs suite of apps, services, connectors, and data platform responsive design - apps can run in browser, tablet, or phones https://docs.microsoft.com/en-us/powerapps/ https://powerapps.microsoft.com/en-us/downloads/ https://create.powerapps.com/studio/# Benefits of Power Apps: Fast and easy App Creation (responsive custom forms) Easy Standard Connectors (to data sources ...) Easy integrate with Office 365, Power BI, SharePoint, ... Mobile Ready Microsoft Flow (process and task automation) Low Cost Disadvantages: Separate apps for Android and iOS Can retrieve only 500-2,000 items Can't integrate JavaScript Meant only for internal use (licensing model) Power Platform: Power BI Power Apps Power Automate Power Virtual Agents Microsoft Dataverse : Common Data Service ( CDS ) has been renamed to Microsoft Dataverse (2020) https://docs.microsoft.com/en-us/powerapps/developer/data-platform/entities CDM = Common Data Model CDS = Common Data Service = Dataverse Power Query: data transformation and data preparation engine graphical interface for getting data from sources Power Query Editor for applying transformations ... powerapps.com Good short demo video: - https://www.youtube.com/watch?v=2RzCbd5XgJg"
+    },
+    {
+      "index": 30,
+      "title": "You can train the model in ML Studio,",
+      "text": "You can train the model in ML Studio, deploy it as an endpoint, call this endpoint from Power BI. You can also use Python in Power BI desktop – then you can read model file directly: -- https://docs.microsoft.com/en-us/power-bi/connect-data/service-aml-integrate -- https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-python-scripts -- https://docs.microsoft.com/en-us/power-bi/connect-data/desktop-python-in-query-editor Microsoft power BI Integration (part 1 of 2) Create the predictive model with a notebook -- https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-power-bi-custom-model Microsoft power BI Integration (part 2 of 2) Tutorial: Consume an Azure Machine Learning model in Power BI -- https://docs.microsoft.com/en-us/power-bi/connect-data/service-aml-integrate?context=azure/machine-learning/context/ml-context StackOverflow - consuming a deployed Azure ML model in PowerBI -- https://stackoverflow.com/questions/65899552/consuming-an-deployed-azure-ml-model-in-powerbi Also – you can use AI Insights: -- https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-ai-insights or this (deploying onnx models in SQL): -- https://docs.microsoft.com/en-us/azure/azure-sql-edge/deploy-onnx Related links: Premium options: P1 vs P2 vs P3: -- https://www.encorebusiness.com/blog/power-bi-premium-p1-vs-p2-vs-p3 What are endpoints (preview) - Azure Machine Learning -- https://docs.microsoft.com/en-us/azure/machine-learning/concept-endpoints Integrate external model to work from Power BI"
+    }
+  ],
+  "points": [
+    {
+      "claim": "BI & Analytics Platform",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "BI & Analytics Platform",
+      "source": "slide"
+    },
+    {
+      "claim": "Components of Power BI",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Components of Power BI",
+      "source": "slide"
+    },
+    {
+      "claim": "Power BI data sources",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Power BI data sources",
+      "source": "slide"
+    },
+    {
+      "claim": "High Level areas companies need help with Governance/Adoption/Rolling",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "High Level areas companies need help with Governance/Adoption/Rolling",
+      "source": "slide"
+    },
+    {
+      "claim": "Governance Model EDW BUSINESS UNIT DASHBOARDS , KPIs",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Governance Model EDW BUSINESS UNIT DASHBOARDS , KPIs",
+      "source": "slide"
+    },
+    {
+      "claim": "Power BI Delivery Approaches Requires tighter, more thorough",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Power BI Delivery Approaches Requires tighter, more thorough",
+      "source": "slide"
+    },
+    {
+      "claim": "Business-Led Self-Service BI Workflow App Workspace Dashboards Reports",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Business-Led Self-Service BI Workflow App Workspace Dashboards Reports",
+      "source": "slide"
+    },
+    {
+      "claim": "IT Managed Self-Service BI Workflow Recommended dataset storage",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "IT Managed Self-Service BI Workflow Recommended dataset storage",
+      "source": "slide"
+    },
+    {
+      "claim": "Corporate BI Workflow App Workspace Dashboards Reports Datasets",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Corporate BI Workflow App Workspace Dashboards Reports Datasets",
+      "source": "slide"
+    },
+    {
+      "claim": "Power BI Adoption Framework Components Current State Why",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Power BI Adoption Framework Components Current State Why",
+      "source": "slide"
+    },
+    {
+      "claim": "Factors of Adoption Overall data culture vision An",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Factors of Adoption Overall data culture vision An",
+      "source": "slide"
+    }
+  ]
+}

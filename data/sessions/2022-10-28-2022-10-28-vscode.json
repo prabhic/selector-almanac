@@ -1,0 +1,227 @@
+{
+  "id": "2022-10-28-2022-10-28-vscode",
+  "date": "2022-10-28",
+  "title": "VSCode",
+  "series": "seminar",
+  "topics": [
+    "coding",
+    "general",
+    "data-engineering"
+  ],
+  "video": {
+    "id": "iB8DKFzXgXg",
+    "title": "How To Use Visual Studio Code Effectively",
+    "url": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+    "thumbnail": "https://i.ytimg.com/vi/iB8DKFzXgXg/hqdefault.jpg",
+    "duration": 1922
+  },
+  "deck": {
+    "path": "2022/2022-10-28-VSCode.pptx",
+    "filename": "2022-10-28-VSCode.pptx",
+    "title": "VSCode",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-10-28-VSCode.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-10-28-VSCode.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Microsoft Visual Studio Code Editor - Free, open",
+      "text": "Microsoft Visual Studio Code Editor - Free, open source, on GitHub, since 2015: .. https://github.com/microsoft/vscode .. https://code.visualstudio.com .. https://code.visualstudio.com/docs Unix-like modular architecture: More than  1,700 contributors !! More than 30,000 extensions on VS Code Market Place .. https://marketplace.visualstudio.com/vscode More than 70% of Software Developers are currently using it IntelliSense (code completion, quick info, ...) Run & Debug, Remote SSH, SQL, Python, ... .. https://code.visualstudio.com/docs/python/jupyter-support-py .. https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-vscode Git built in Very customizable Written in Javascript, runs using Electron platform .. https://www.electronjs.org There are many good tutorials, for example: .. https://www.youtube.com/watch?v=VqCgcpAypFQ Code on GitHub Dark Theme Light Theme Linux VS Code Kernel Gnu Core Utilities Everything else Editor Extensions Open Source Development"
+    },
+    {
+      "index": 2,
+      "title": "Some shortcuts for MacOS: cmd -shift-P – find",
+      "text": "Some shortcuts for MacOS: cmd -shift-P – find and execute command cmd -K cmd -R - show keyboard shortcuts cmd -N – new file cmd -O - open (folder, file) cmd -shift-N – new window cmd -K   O – open active file in new window cmd -B – toggle expansion of the (left) side bar cmd -J – toggle bottom (terminal) panel ctrl-shift-` - new terminal cmd -/ - toggle comments (in python) cmd -D – select word at the cursor cmd -P - navigate between files ctrl-R - switch between projects cmd -shift-Option + arrows - to select (columnar) blocks of text cmd -shift-ctrl   + arrows - to select content between HTML tags (also expand selection to outer tags) Option-Q - rewrap the paragrapg or selected text Option-Z - toggle auto-wrap cmd -D repeatedly – to select same words – and then change them at once cmd+arrow – fast movement (top/bottom of file, begin/end of line) cmd+arrow+shift – fast move + select option + arrows – move lines up/down option-shift + arrow – copy the line option- cmd -[ or ] – fold/unfold block of code cmd -K cmd-0 – fold everything cmd -K cmd -J – unfold everything cmd + arrow right/left – change indentation cmd-shift-P – find and execute command Keyboard Shortcuts Key Bindings: .. https://code.visualstudio.com/docs/getstarted/keybindings VSCode Shortcuts Tips and Tricks (video): .. https://www.youtube.com/watch?v=jsZoR1kkq6s Mastering code selection and editing: .. https://www.youtube.com/watch?v=Zgf2vXl5Gkk menu Help > keyboard shortcuts menu File > Preferences > Keyboard Shortcuts (on Windows) menu Code > Preferences > Keyboard Shortcuts (on macOS)"
+    },
+    {
+      "index": 3,
+      "title": "I use the following extensions: Better Line Select",
+      "text": "I use the following extensions: Better Line Select Python IntelliSense ( Pylance ), Linting, Debugging (multi-threaded, remote), Jupyter Noteb ... Jupyter (Microsoft) Jupyter Keymap (Microsoft) Jupyter Notebook Renderers Hex Editor (Microsoft) Remote - SSH (Microsoft) Save as Root in Remote SSH (yy0931) Rewrap ( stkb ) Render Line Endings (Josip Medved ) Material Icon Theme Pylance (Microsoft) IntelliCode (Microsoft) R Extension ... ( REditorSupport ) Prettify JSON MySQL (DB client by Weijan Chen, supports MySQL/MariaDB, PostgreSQL, SQLite, Redis and ElasticSearch ) Extensions – more than 30,000 Extensions get installed under your home directory On Mac or Linux. : $HOME/.vscode/extensions/ On Windows       :  %USERPROFILE%\\.vscode\\extensions To list your extensions: code --list-extensions code --list-extensions --show-versions https://code.visualstudio.com/docs/editor/extension-marketplace# Many YouTube Recommendation Videos"
+    },
+    {
+      "index": 4,
+      "title": "markdown-mermaid - by Matt Bierner – diagram/flowchart for",
+      "text": "markdown-mermaid - by Matt Bierner – diagram/flowchart for markdown gera2ld.markmap-vscode - by Gerald Liu – markdown viewer JSON Viewer - by Mr.Che - see JSON as collapsible tree JSON Tree View - by chaunceykiwi - Generate a tree view from JSON file mohsen1.prettify-json - joaompinto.vscode-graphviz - by João Pinto - GraphViz (dot) language support efanzh.graphviz-preview - by efanzh - Preview Graphviz (dot) files geeklearningio.graphviz-markdown-preview - by Geek Learning - Graphviz support to VSCode's builtin markdown preview stephanvs.dot - by Stephanvs - Graphviz (dot) language support hediet.vscode-drawio - by Henning Dieterichs - integrates draw.io jakeboone02.cypher-query-language - by Jake Boone - Syntax highlighting for Neo4j's Cypher Query Language jebbs.plantuml - by jebbs - UML diagrams (Rich PlantUML support) More Extensions Live Share Extension Pack - live collaboration Code Snap - make a png image of part of your code Better Comments - make comments bright Turbo Console Log - to show/print values TabNine - AI auto-completion Prettier - code auto-formatting (on save) Auto Rename Tag - rename multiple tags at once Color Brackets - color brackets with different colors Import Cost - shows the size of package Git history - (\"View History\" command) - convenient GitHub Pull Requests and Issues - by GitHub ms-azuretools.vscode-docker - Docker ms-vscode-remote.remote-containers - Dev Containers ms-vscode.azure-account - Azure Sign In and Subscription mshdinsight.azure-hdinsight - Spark & Hive Tools mtxr.sqltools - by Matheus Teixeira - SQL DB management (supports AWS Redshift, CockroachDB, MariaDB, MSSQL, MySQL, PostgreSQL, SQLite, ClickHouse, Google Cloud Spanner, InterSystems IRIS, SAP HANA, Snowflake, Teradata, Trino) vscodevim.vim - Vim emulation Material Theme Todo Highlight Marquee Code time ES7 Snippets SVG Previewer Better Line Select Auto Close Tag Liveserver (live node.js server) ESLint Snippet Code Spell Checker Path Intellisense Beautify vscode-icon REST Client"
+    },
+    {
+      "index": 5,
+      "title": "cmd-shift-P python interpreter Python: Select Interpreter Python: Select",
+      "text": "cmd-shift-P python interpreter Python: Select Interpreter Python: Select Interpreter"
+    },
+    {
+      "index": 6,
+      "title": "Side-by-side editing https://code.visualstudio.com/docs/getstarted/userinterface You can drag tabs to",
+      "text": "Side-by-side editing https://code.visualstudio.com/docs/getstarted/userinterface You can drag tabs to split or combine the editing panes Breadcrumbs – clickable path to the file above content cmd-K   O  - open active file in a new window Split/modify layout cmd-\\ cmd-shift-N - open new window. Then you can drag any tabs into this window"
+    },
+    {
+      "index": 7,
+      "title": "Find / Replace https://code.visualstudio.com/docs/getstarted/userinterface Click on search lense",
+      "text": "Find / Replace https://code.visualstudio.com/docs/getstarted/userinterface Click on search lense on the left or use cmd-F Can use case-sensitive, case-insensitive, or regex search"
+    },
+    {
+      "index": 8,
+      "title": "Switch Line Endings between Unix or Windows Window",
+      "text": "Switch Line Endings between Unix or Windows Window Bottom Right Bar Syntax Highlighting Which Python interpreter I am using Encoding Type Checking"
+    },
+    {
+      "index": 9,
+      "title": "In Python you can add special comments #",
+      "text": "In Python you can add special comments # %% to split your code into cells These cells can be executed separately in any order as in Jupyter notebook The output will show in a separate tab on the right (which you can save as a jupyter notebook) You can also run the whole script – and see the output in the terminal at the bottom of the screen You can use Matplotlib and other graph libraries, and see the graphs right in the VS Code screen You can associate py and ipynb file extensions with VS Code to use it as default viewer or IDE Run Python as Jupyter Cells  Using Syntax # %%"
+    },
+    {
+      "index": 10,
+      "title": "Edit $HOME/.ssh/config file For each entry provide something",
+      "text": "Edit $HOME/.ssh/config file For each entry provide something like this: Host myhost User myuser HostName 123.123.123.123    (or abcdef.com) IdentityFile /Users/levselector/.ssh/myhost/my-ssh-key.pem Host * AddKeysToAgent yes Then from unix prompt you can do commands like these: ssh  myhost scp  test.py    myhost:/data/somedir/ scp  myhost:/data/somedir/test.py    ./ Remote SSH Once you install extension \"Remote - SSH\", you will see a new icon (remote explorer) at the left bar (called activity bar). When you click on it - it will read SSH config file and show you all your remote hosts. You can then click on the right of them and open SSH connections in separate windows. Once you connected - there will be a green indicator at the left-bottom Then you can install Python and other extensions on remote machine. They will go into $HOME/.vscode-server/  directory on the remote server. And then you can enjoy working on remote machine connected to server \"k1\" Remote Explorer Icon"
+    },
+    {
+      "index": 11,
+      "title": "Remote SSH – Edit \"root owned\" Files Install",
+      "text": "Remote SSH – Edit \"root owned\" Files Install Extension \" Save as Root in Remote SSH \" (by yy0931) This Extension adds a command \" Save as Root \" in the command palette (F1 or Ctrl+Shift+P or Cmd+Shift+P). This allows you to edit configuration files with root privileges while editing files remotely using the Remote - SSH extension. This extension needs to be enabled on the remote server. Remote SSH – Bugs – Stale Processes As of this writing (October 2022) using Jupyter or R via Remote SSH can result in stale processes left behind on the server. I googled this problem - and found multiple discussions of similar problems over the last 3 years, for example: .. https://github.com/microsoft/vscode-jupyter/issues/1626 It looks like VS Code developers have fixed some of the problems, but not all of them - so we should expect to see these problems. I wrote a script to clean out these processes: kill_stale_ssh_remote_processes.py and put it on my github: github.com/lselector/code_samples/"
+    },
+    {
+      "index": 12,
+      "title": "Here are my current Settings (JSON): { \"",
+      "text": "Here are my current Settings (JSON): { \" editor.minimap.enabled \" : false , \" security.workspace.trust.untrustedFiles \" : \"open\" , \" python.defaultInterpreterPath \" : \"/Users/ levselector /miniconda3/bin/python\" , \" terminal.integrated.inheritEnv \" : false , \" workbench.editor.untitled.hint \" : \"hidden\" , \" editor.renderWhitespace \" : \"all\" , \" workbench.colorTheme \" : \"Default Light+\" , \" workbench.startupEditor \" : \" newUntitledFile \" , \" editor.rulers \" : [ 55 , 80 ], \" editor.wordWrap \" : \"on\" , \" editor.detectIndentation \" : false , \" editor.insertSpaces \" : true , \" editor.tabSize \" : 4 , \" workbench.iconTheme \" : \"material-icon-theme\" , \"[plaintext]\" : { \" editor.unicodeHighlight.ambiguousCharacters \" : true , \" editor.unicodeHighlight.invisibleCharacters \" : true }, \"[markdown]\" : { \" editor.unicodeHighlight.ambiguousCharacters \" : true , \" editor.unicodeHighlight.invisibleCharacters \" : true }, \" editor.bracketPairColorization.enabled \" : true , \" editor.guides.bracketPairs \" : \"active\" , \" editor.accessibilitySupport \" : \"off\" , \" editor.unicodeHighlight.ambiguousCharacters \" : false , } Custom settings Press cmd -shift-P , search for settings, You can select settings via UI or Open User Settings (JSON)"
+    },
+    {
+      "index": 13,
+      "title": "There are several good SQL extensions I like",
+      "text": "There are several good SQL extensions I like MySQL extension by Weijan Chen (it is FREE, but also has some extra features for $20/year) You can also use SQLTools by Matheus Teixeira Or for Microsoft SQL Server you can use extension SQL Server (mssql) SQL"
+    },
+    {
+      "index": 14,
+      "title": "Markdown Edit Markdown file Press Cmd-Shift-V to open",
+      "text": "Markdown Edit Markdown file Press Cmd-Shift-V to open Preview Then drag it to the left to get side-by-side layout Original Markdown Live Preview https://en.wikipedia.org/wiki/Markdown https://www.markdownguide.org https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet"
+    },
+    {
+      "index": 15,
+      "title": "https://dailydotnettips.com/how-to-compare-files-in-visual-studio-code/ Diff Files – Compare files side-by-side Open",
+      "text": "https://dailydotnettips.com/how-to-compare-files-in-visual-studio-code/ Diff Files – Compare files side-by-side Open both the files in VS Code. From the left Explorer panel: .. right-click 1 st file and choose Select for Compare .. right-click 2 nd file and choose Compare with Selected Both files will be opened side-by-side in a new tab git diff click on the Git icon on the left bar double-click on one of the files under Changes Git Diff"
+    },
+    {
+      "index": 16,
+      "title": "Auto-Wrapping: I set wrapping on - it wraps",
+      "text": "Auto-Wrapping: I set wrapping on - it wraps on the right screen Endings I can toggle this auto wrapping on/off by pressing Option-Z ======================= Hard wrapping (using extension Rewrap ) Put cursor on line (inside paragraph) and press Option-Q Note: if wrapping doesn't work, it maybe because the module tries to be smart about not-wrapping whole strings. (depending on language settings). A simple method to overcome this problem is to tell the editor that your file type is Plain Text . To do this click in the bottom-right of the window , where you can select the file type . ======================= Wrapping JSON Prettyfier JSON Interactive Viewer"
+    },
+    {
+      "index": 17,
+      "title": "https://code.visualstudio.com/learn/collaboration/live-share Live Share Extension Pack Collaboratively edit and",
+      "text": "https://code.visualstudio.com/learn/collaboration/live-share Live Share Extension Pack Collaboratively edit and debug in real time Including integrated audio and text chat Pair programming, remote code reviews, interactive lectures, etc. Open project, click the Live Share button in your status bar Enter your GitHub or Microsoft login info Open the Live Share Sessions Details view – and click the Start audio call ... A new Live Share Chat will open on the side You can send the VS Live Share link to another developer – to join Use \"Recent contacts\" list in the Live Share Contacts (status, messages, ...)"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Microsoft Visual Studio Code Editor - Free, open",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 1,
+      "slideTitle": "Microsoft Visual Studio Code Editor - Free, open",
+      "source": "slide"
+    },
+    {
+      "claim": "Some shortcuts for MacOS: cmd -shift-P – find",
+      "topic": "coding-assistants",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 2,
+      "slideTitle": "Some shortcuts for MacOS: cmd -shift-P – find",
+      "source": "slide"
+    },
+    {
+      "claim": "I use the following extensions: Better Line Select",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 3,
+      "slideTitle": "I use the following extensions: Better Line Select",
+      "source": "slide"
+    },
+    {
+      "claim": "markdown-mermaid - by Matt Bierner – diagram/flowchart for",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 4,
+      "slideTitle": "markdown-mermaid - by Matt Bierner – diagram/flowchart for",
+      "source": "slide"
+    },
+    {
+      "claim": "cmd-shift-P python interpreter Python: Select Interpreter Python: Select",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 5,
+      "slideTitle": "cmd-shift-P python interpreter Python: Select Interpreter Python: Select",
+      "source": "slide"
+    },
+    {
+      "claim": "Side-by-side editing https://code.visualstudio.com/docs/getstarted/userinterface You can drag tabs to",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 6,
+      "slideTitle": "Side-by-side editing https://code.visualstudio.com/docs/getstarted/userinterface You can drag tabs to",
+      "source": "slide"
+    },
+    {
+      "claim": "Find / Replace https://code.visualstudio.com/docs/getstarted/userinterface Click on search lense",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 7,
+      "slideTitle": "Find / Replace https://code.visualstudio.com/docs/getstarted/userinterface Click on search lense",
+      "source": "slide"
+    },
+    {
+      "claim": "Switch Line Endings between Unix or Windows Window",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 8,
+      "slideTitle": "Switch Line Endings between Unix or Windows Window",
+      "source": "slide"
+    },
+    {
+      "claim": "In Python you can add special comments #",
+      "topic": "coding-assistants",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 9,
+      "slideTitle": "In Python you can add special comments #",
+      "source": "slide"
+    },
+    {
+      "claim": "Edit $HOME/.ssh/config file For each entry provide something",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 10,
+      "slideTitle": "Edit $HOME/.ssh/config file For each entry provide something",
+      "source": "slide"
+    },
+    {
+      "claim": "Remote SSH – Edit \"root owned\" Files Install",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 11,
+      "slideTitle": "Remote SSH – Edit \"root owned\" Files Install",
+      "source": "slide"
+    },
+    {
+      "claim": "Here are my current Settings (JSON): { \"",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=iB8DKFzXgXg",
+      "slideIndex": 12,
+      "slideTitle": "Here are my current Settings (JSON): { \"",
+      "source": "slide"
+    }
+  ]
+}

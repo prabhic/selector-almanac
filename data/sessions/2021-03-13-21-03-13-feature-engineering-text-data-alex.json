@@ -1,0 +1,254 @@
+{
+  "id": "2021-03-13-21-03-13-feature-engineering-text-data-alex",
+  "date": "2021-03-13",
+  "title": "Feature Engineering Text Data Alex",
+  "series": "data-science-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-03-13-Feature_Engineering_Text_Data_Alex.pptx",
+    "filename": "21-03-13-Feature_Engineering_Text_Data_Alex.pptx",
+    "title": "Feature Engineering Text Data Alex",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-03-13-Feature_Engineering_Text_Data_Alex.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-03-13-Feature_Engineering_Text_Data_Alex.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Feature Engineering for Text Data By Alex Ni",
+      "text": "Feature Engineering for Text Data By Alex Ni March 13, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Agenda Quick recap on feature engineering Why do",
+      "text": "Agenda Quick recap on feature engineering Why do we need feature engineering for text data What can we do to perform feature engineering for text data Common libraries for processing text data"
+    },
+    {
+      "index": 3,
+      "title": "What is Feature Engineering? A feature is typically",
+      "text": "What is Feature Engineering? A feature is typically a specific representation on top of raw data , which is an individual, measurable attribute, typically depicted by a column in a dataset “Feature engineering is the process of transforming raw data into features that better represent the underlying problem to the predictive models , resulting in improved model accuracy on unseen data .” — Dr. Jason Brownlee"
+    },
+    {
+      "index": 4,
+      "title": "Feature Engineering for Structured Data For Numerical Data",
+      "text": "Feature Engineering for Structured Data For Numerical Data : Selection Imputation Aggregation Binning Scaling Mathematical Transformation For Categorical Data : Label encoding One-hot encoding"
+    },
+    {
+      "index": 5,
+      "title": "What if the feature is text-based only Text-based",
+      "text": "What if the feature is text-based only Text-based data such as: Emails Movies/Product reviews News articles Social media Support ticket Translation ...."
+    },
+    {
+      "index": 6,
+      "title": "Why do we need feature engineering for text?",
+      "text": "Why do we need feature engineering for text? Text data is unstructured and free flowing that cannot be utilized by any machine learning algorithm. Text data could be noisy which makes it harder for machine learning algorithms to directly work on raw data."
+    },
+    {
+      "index": 7,
+      "title": "What can we do to make text machine",
+      "text": "What can we do to make text machine friendly?"
+    },
+    {
+      "index": 8,
+      "title": "Tokenization Splitting a piece of text into smaller",
+      "text": "Tokenization Splitting a piece of text into smaller units called tokens Tokenization can occur at different level: Text into sentences Sentences into words Tokens are the building blocks of natural language"
+    },
+    {
+      "index": 9,
+      "title": "Stemming and lemmatization Convert word into its base",
+      "text": "Stemming and lemmatization Convert word into its base form Watch ← Watches, Watching, Watched Stemming vs Lemmatization Stemming is a somewhat crude method for cataloging related words; it essentially chops off letters from the end until the stem is reached Lemmatization looks beyond word reduction and considers a language’s full vocabulary to apply a morphological analysis to words E.g. “was” → “be”, “mice” → “mouse”"
+    },
+    {
+      "index": 10,
+      "title": "Text cleaning techniques Converting words into lowercase Removing",
+      "text": "Text cleaning techniques Converting words into lowercase Removing leading and trailing whitespaces Removing punctuation Removing stopwords (a, an, the, ...) Expanding contractions (don’t -> do not) Removing special characters (numbers, emojis, etc)"
+    },
+    {
+      "index": 11,
+      "title": "Other text preprocessing techniques Removing HTML/XML tags Replacing",
+      "text": "Other text preprocessing techniques Removing HTML/XML tags Replacing accented characters (such as é) Correcting spelling errors"
+    },
+    {
+      "index": 12,
+      "title": "Part-of-speech(POS) tagging Assigning every word, its corresponding part",
+      "text": "Part-of-speech(POS) tagging Assigning every word, its corresponding part of speech Single word has a different POS tag in different sentences based on different contexts. The bear is a majestic animal -- noun Please bear with me -- verb Word Sense Disambiguation Sentiment analysis Question answering, chatbot"
+    },
+    {
+      "index": 13,
+      "title": "Name entity recognition Identifying and classifying named entities",
+      "text": "Name entity recognition Identifying and classifying named entities into predefined categories Categories include as names of persons, organizations, locations, expression of times, quantities, monetary values, percentages, etc. Application: Efficient search algorithms Question answering News article classification Customer service"
+    },
+    {
+      "index": 14,
+      "title": "Text Vectorization: Bag of Words(BoW) Extract word tokens",
+      "text": "Text Vectorization: Bag of Words(BoW) Extract word tokens and perform pre-processing Compute frequency if word tokens Construct a word vector out of these frequencies and vocabulary of corpus A corpus is typically a collection of text documents usually belonging to one or more subjects"
+    },
+    {
+      "index": 15,
+      "title": "BoW shortcomings Exactly the same BoW representation But",
+      "text": "BoW shortcomings Exactly the same BoW representation But context of the words is lost Sentiment dependent on the position of ‘not’"
+    },
+    {
+      "index": 16,
+      "title": "Text Vectorization: N-grams model Contiguous sequence of N",
+      "text": "Text Vectorization: N-grams model Contiguous sequence of N word tokens in a given document BoW is basically a unigram model (N=1)"
+    },
+    {
+      "index": 17,
+      "title": "Shortcomings of N-gram modeling Curse of dimensionality Dimension",
+      "text": "Shortcomings of N-gram modeling Curse of dimensionality Dimension of a dataset corresponds to the number of features that exist in a data set Difficulties related to training machine learning models due to high dimensional data Risk of massively overfitting Causing observation to appear equidistant from all the others Sparsity problem Higher order n-grams are rare Keep n small, typically less than or equal to Storage problem Context may be still lost"
+    },
+    {
+      "index": 18,
+      "title": "TF-IDF model Stands for Term Frequency - Inverse",
+      "text": "TF-IDF model Stands for Term Frequency - Inverse Document Frequency Term Frequency: how many times a word appears in a document Document Frequency: how many times a document containing that word appear across a set of documents A statistical measure that evaluates how relevant a word is to a document in a collection of documents"
+    },
+    {
+      "index": 19,
+      "title": "Why do we prefer TF-IDF model? In BoW",
+      "text": "Why do we prefer TF-IDF model? In BoW model, weight of dimension dependents on the frequency of the word Document contains the word ‘ human ’ in five places, therefore dimension corresponding to ‘ human ’ has weight 5 However, some words occur very commonly across all documents One document has ‘ Jupiter’ and ‘universe’ occurring 20 times each ‘ Jupiter’ rarely occurs in the other documents. ‘Universe’ is quite common Give more weight to ‘ Jupiter’ on account of exclusivity"
+    },
+    {
+      "index": 20,
+      "title": "Cosine similarity Identify how similar a text document",
+      "text": "Cosine similarity Identify how similar a text document is with any other documents Built on top of BoW or TF-IDF based features Mathematically, Cosine similarity is the ratio of the dot product of vectors and the product of the magnitude of vectors Visually, smaller the angle, the higher the similarity"
+    },
+    {
+      "index": 21,
+      "title": "Word embeddings Mapping words into an n-dimensional vector",
+      "text": "Word embeddings Mapping words into an n-dimensional vector space Produced using deep learning and huge amounts of data Discern how similar two words are to each other Used to detect synonyms and antonyms Captures complex relationships King-Queen →  Man-Woman France-Paris → Russia-Moscow Some famous pre-trained methods: Word2Vec by Google Fasttext by Facebook Glove by Standford"
+    },
+    {
+      "index": 22,
+      "title": "Common libraries Sci-kit learn NLTK spaCy Gensim Textblob",
+      "text": "Common libraries Sci-kit learn NLTK spaCy Gensim Textblob Standford CoreNLP"
+    },
+    {
+      "index": 23,
+      "title": "Resource Continuous Numeric Data. Strategies for working with",
+      "text": "Resource Continuous Numeric Data. Strategies for working with continuous… | by Dipanjan (DJ) Sarkar | Towards Data Science Traditional Methods for Text Data | by Dipanjan (DJ) Sarkar | Towards Data Science Text Vectorization: Bag of Words (BoW) | by Vaibhav Jayaswal | Towards Data Science Understanding NLP Word Embeddings — Text Vectorization | by Prabhu | Towards Data Science The Curse of Dimensionality. Why High Dimensional Data Can Be So… | by Tony Yiu | Towards Data Science 5 Heroic Python NLP Libraries (elitedatascience.com)"
+    },
+    {
+      "index": 24,
+      "title": "Thank you!",
+      "text": "Thank you!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Feature Engineering for Text Data By Alex Ni",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Feature Engineering for Text Data By Alex Ni",
+      "source": "slide"
+    },
+    {
+      "claim": "Agenda Quick recap on feature engineering Why do",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Agenda Quick recap on feature engineering Why do",
+      "source": "slide"
+    },
+    {
+      "claim": "What is Feature Engineering? A feature is typically",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "What is Feature Engineering? A feature is typically",
+      "source": "slide"
+    },
+    {
+      "claim": "Feature Engineering for Structured Data For Numerical Data",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Feature Engineering for Structured Data For Numerical Data",
+      "source": "slide"
+    },
+    {
+      "claim": "What if the feature is text-based only Text-based",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "What if the feature is text-based only Text-based",
+      "source": "slide"
+    },
+    {
+      "claim": "Why do we need feature engineering for text?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Why do we need feature engineering for text?",
+      "source": "slide"
+    },
+    {
+      "claim": "What can we do to make text machine",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "What can we do to make text machine",
+      "source": "slide"
+    },
+    {
+      "claim": "Tokenization Splitting a piece of text into smaller",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Tokenization Splitting a piece of text into smaller",
+      "source": "slide"
+    },
+    {
+      "claim": "Stemming and lemmatization Convert word into its base",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Stemming and lemmatization Convert word into its base",
+      "source": "slide"
+    },
+    {
+      "claim": "Text cleaning techniques Converting words into lowercase Removing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Text cleaning techniques Converting words into lowercase Removing",
+      "source": "slide"
+    },
+    {
+      "claim": "Other text preprocessing techniques Removing HTML/XML tags Replacing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Other text preprocessing techniques Removing HTML/XML tags Replacing",
+      "source": "slide"
+    },
+    {
+      "claim": "Part-of-speech(POS) tagging Assigning every word, its corresponding part",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Part-of-speech(POS) tagging Assigning every word, its corresponding part",
+      "source": "slide"
+    }
+  ]
+}

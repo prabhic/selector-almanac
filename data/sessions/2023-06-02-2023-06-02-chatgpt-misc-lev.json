@@ -1,0 +1,329 @@
+{
+  "id": "2023-06-02-2023-06-02-chatgpt-misc-lev",
+  "date": "2023-06-02",
+  "title": "ChatGPT-misc-Lev",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "ml-fundamentals",
+    "general"
+  ],
+  "video": {
+    "id": "phFkhLXpiQ0",
+    "title": "ChatGPT Plugins, Tree of Thought Prompting, etc. - June 2, 2023",
+    "url": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+    "thumbnail": "https://i.ytimg.com/vi/phFkhLXpiQ0/hqdefault.jpg",
+    "duration": 1828
+  },
+  "deck": {
+    "path": "2023/2023-06-02-ChatGPT-misc-Lev.pptx",
+    "filename": "2023-06-02-ChatGPT-misc-Lev.pptx",
+    "title": "ChatGPT-misc-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-06-02-ChatGPT-misc-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-06-02-ChatGPT-misc-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "More About ChatGPT Brain in the middle, from",
+      "text": "More About ChatGPT Brain in the middle, from hardwired to generic ChatGPT Plugins Tree of Thought prompting Thinking & Science: Finding Patterns in Data How ChatGPT runs - Microsoft AI Supercomputer Customizing The Model: Fine-Tuning vs Embeddings Approximate Analysis, Similarity Search, Vector Databases On the Path to AGI - Animals vs Humans The origins of language and consciousness Courses on DeppLearning.AI Emad Mostaque, stability.AI, Stable Diffusion Text to Image - GPT, GAN, Diffusion Detect LLMs (ChatGPT, GPT, Bard, Claude, etc) Presented by Lev Selector June 2, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: crypto, accounting cloud architecture, fin-tech, application security Generative AI Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "\"Recent advancements in generative AI have sparked a",
+      "text": "\"Recent advancements in generative AI have sparked a massive surge of interest in AI technologies among software engineering leaders and business leaders alike. The number of Gartner inquiries about generative AI has increased by over 1,300% year over year.\" 2023 Gartner® Magic Quadrant™ Generative AI = systems which enable users to quickly generate new content based on a variety of inputs (text, images, sounds, animation, 3D models, or other types of data) LLM = Large Language Models (text-to-text, text-to-image, etc.) GPT = Generative Pretrained Transformer - an LLM by OpenAI ChatGPT = a chat web-app based on GPT model (November 2022) Foundation Model =  an AI neural network trained on lots of data (usually with unsupervised learning) which can be used as a foundation of variety of systems AGI = Artificial General Intelligence"
+    },
+    {
+      "index": 4,
+      "title": "Systems with a Brain in the Middle. From",
+      "text": "Systems with a Brain in the Middle. From Hardwired Rules to Generic Systems \"Foundation models have condensed human understanding of the entire world, showing us the path toward achieving AGI,\" says Baidu CEO Robin Li Input Output In nature we use generic system - human brain"
+    },
+    {
+      "index": 5,
+      "title": "Inputs Ouputs Custom Electronics Hardware Inputs Ouputs Computer",
+      "text": "Inputs Ouputs Custom Electronics Hardware Inputs Ouputs Computer \"brain\" In 1989-1991 I participated in designing a portable myograph. As you see, the device was very small and integrated with a laptop computer. Compare it with a prototype which was the size of a table (b/w photo on the left). Evolution from specialized hardware (muscle) to Complex General software (brain) Brains vs Brawn"
+    },
+    {
+      "index": 6,
+      "title": "Classical ML Models Data Action/Decision Custom function or",
+      "text": "Classical ML Models Data Action/Decision Custom function or network Modern Foundation Models Data Action/Decision LLM / text The models without language. They can learn - and act. Like baby or an animal. The foundation models may use language. They can handle complex topics/situations. Like an adult. Foundation model as \"brain\" of  ML models"
+    },
+    {
+      "index": 7,
+      "title": "ChatGPT plugins \" GPT in the middle \"",
+      "text": "ChatGPT plugins \" GPT in the middle \" approach"
+    },
+    {
+      "index": 8,
+      "title": "iPhone app store 2 Mln apps Android Google",
+      "text": "iPhone app store 2 Mln apps Android Google Play Store 3 Mln apps ChatGPT ChatGPT Plugins 70 plugins"
+    },
+    {
+      "index": 9,
+      "title": "What are ChatGPT Plugins https://www.pcmag.com/how-to/what-are-chatgpt-plugins-the-next-phase-of-conversational-ai-is-here https://beebom.com/best-chatgpt-plugins/ https://beebom.com/best-chatgpt-chrome-extensions/ https://artificialcorner.com/i-tried-84-chatgpt-plugins-these-are-the-best-3b3be6b1cb7b",
+      "text": "What are ChatGPT Plugins https://www.pcmag.com/how-to/what-are-chatgpt-plugins-the-next-phase-of-conversational-ai-is-here https://beebom.com/best-chatgpt-plugins/ https://beebom.com/best-chatgpt-chrome-extensions/ https://artificialcorner.com/i-tried-84-chatgpt-plugins-these-are-the-best-3b3be6b1cb7b May 19, 2023 - ChatGPT Plugins have become available to all \"Plus\" subscribers ($20/mo). Here is a short video explaining how to start using them: https://www.youtube.com/watch?v=0brJr6HnX7M There were ~70 plugins, and two weeks later ~200. The number will grow fast because anybody can develop a plugin and make it available to ChatGPT users Plugins allow ChatGPT to browse internet, read PDF documents, look at images, access 3rd party data and business systems, etc. OpenAI itself currently offers two plugins: .. web browsing plugin allows to scrape data from web .. Code Interpreter - allows to run Python code"
+    },
+    {
+      "index": 10,
+      "title": "Tree of Thought Prompting",
+      "text": "Tree of Thought Prompting"
+    },
+    {
+      "index": 11,
+      "title": "Tree of Thought (ToT Prompting) Tree of Thoughts",
+      "text": "Tree of Thought (ToT Prompting) Tree of Thoughts - GPT-4 Reasoning is Improved 900% https://www.youtube.com/watch?v=BrjAt-wvEXI ChatGPT-4 Prompt Engineering: The Tree of Thoughts Method - WOW! https://www.youtube.com/watch?v=PFK5g_kxhVM “Tree of Thoughts: Deliberate Problem Solving with Large Language Models” https://arxiv.org/pdf/2305.10601.pdf “ Chain of Thought ” - sequential prompting, no backtracking \" Tree of Thoughts ” (ToT) - explore multiple options in parallel, consider multiple different reasoning paths and self-evaluating choices to decide the next course of action, as well as looking ahead or backtracking when necessary to make global choices. \"Our experiments show that ToT significantly enhances language models’ problem-solving abilities on three novel tasks requiring non-trivial planning or search: Game of 24, Creative Writing, and Mini Crosswords. For instance, in Game of 24, while GPT-4 with chain-of-thought prompting only solved 4% of tasks, our method achieved a success rate of 74% . Code repo with all prompts: https://github.com/ysymyth/tree-of-thought-llm .\""
+    },
+    {
+      "index": 12,
+      "title": "Thinking & Science: Finding Patterns in Data",
+      "text": "Thinking & Science: Finding Patterns in Data"
+    },
+    {
+      "index": 13,
+      "title": "Science is about finding patterns in nature -",
+      "text": "Science is about finding patterns in nature - and describing them, often with formulas. Machine Learning is doing something very similar - finding patterns (in data), store them as formulas, vectors, or networks - and use them to do predictions and optimizations. A consultant ( talented smart person) is invited to figure things out . A consultant can look at a situation, consider all the facts, weigh them against each other, make sense of them, propose explanation/description, - and suggest a course of action. Modern LLMs (Large Language Models) can do similar things. They can summarize the data, list main ideas, give advice. A talented general can and should see the big picture of the battle. High level managers or politicians do the same thing. Inauguration is a formal ceremony to mark the beginning of a major public leader's term of office. Comes from the term \" augur \". An augur was a priest and official in ancient Rome. The main role of an augur was to interpret the will of the gods as seen in natural phenomena. Augurs were elected officials and held a high social position in Rome. Modern LLMs (Large Language Models) strive to become modern augurs . They soon may evolve to become our consultants, advisors, managers."
+    },
+    {
+      "index": 14,
+      "title": "How ChatGPT runs Microsoft AI Supercomputer",
+      "text": "How ChatGPT runs Microsoft AI Supercomputer"
+    },
+    {
+      "index": 15,
+      "title": "In 2018 Microsoft has spent 100s of millions",
+      "text": "In 2018 Microsoft has spent 100s of millions of $ to build infrastructure for Open AI. It uses thousands of NVIDIA A100 and H100 chips. Open AI + Microsoft + NVIDIA Nvidia DGX: eight H100 modules (GPUs) inside 640 GBytes of Total GPU Memory 10x NVIDIA ConnectX®-7 400 Gbits/sec Network Interface, 1 TByte/sec of peak bidirectional network bandwidth Dual Intel Xeon Platinum 8480C processors, 112 cores total, and 2 TB System Memory 30 Terabytes NVMe SSD Jensen Huang, NVIDIA CEO: We proudly gave @OpenAI our NVIDIA DGX-1 supercomputer to work on #AI's toughest problems."
+    },
+    {
+      "index": 16,
+      "title": "Microsoft AI Supercomputers massive self-supervised learning, petabyte scale",
+      "text": "Microsoft AI Supercomputers massive self-supervised learning, petabyte scale projects Microsoft + OpenAI + NVIDIA NVIDIA GPU servers, NVSwitch , NVLink (fast NVIDIA wiring) High bandwidth network - InfiniBand huge scale, models 175 - 500 Bln parameters dealing with failures - management layer, containers, checkpoints distributed parallelized training ( deepspeed training framework) virtual clusters, global model portability project Forge - managing checkpoints and GPU utilization CRIU - Checkpoint and Restore in Userspace LoRA = Low Rank Adaptive fine tuning - customizing the model using smaller number of GPUs and storage Confidential computing, encryption, confidential \"clean rooms\" What runs ChatGPT? Inside Microsoft's AI supercomputer | Featuring Mark Russinovich https://www.youtube.com/watch?v=Rk3nTUfRZmo"
+    },
+    {
+      "index": 17,
+      "title": "Customizing The Model: Fine-Tuning vs Embeddings",
+      "text": "Customizing The Model: Fine-Tuning vs Embeddings"
+    },
+    {
+      "index": 18,
+      "title": "Fine-tuning is a way to add new knowledge",
+      "text": "Fine-tuning is a way to add new knowledge to an existing model. May be not very effective (difficult to over-power huge knowledge with just few examples). Embedding is a way to let the model search in a “database” and return the best result. So it's good for finding something specific for example. https://community.openai.com/t/fine-tuning-vs-embedding/35813/10 \"If we want GPT to answer questions pertaining to our domain/custom data which will also lead to minimal or no hallucination , then Embeddings is the way to go over Fine-Tuning . Because Fine-tuning will augment the data but GPT will still have access to its training data from WWW, whereas Embeddings restrict it to just look for answer in the chunks of text that is embedded via vector db and answer based on that - so it will be more accurate and no hallucination.\" \"I believe that keeping foundational models as is, and tapping in a system of database for memory and prompt engineering for manipulation and output is the right model.\" \"Then, in time, refine or fine-tune the models with more sophisticated frameworks and behavioral improvements. But only after a long carefully considered period (that’s our approach - 20% of our teams time is spent on tinkering with training, the other 80% is real progress with current tech).\""
+    },
+    {
+      "index": 19,
+      "title": "curl https://api.openai.com/v1/embeddings \\ -H \"Content-Type: application/json\" \\ -H",
+      "text": "curl https://api.openai.com/v1/embeddings \\ -H \"Content-Type: application/json\" \\ -H \"Authorization: Bearer $OPENAI_API_KEY\" \\ -d '{ \"input\": \" Your text string goes here \", \"model\": \"text-embedding-ada-002\" }' { \"data\": [ { \" embedding \": [ -0.006929283495992422, -0.005336422007530928, ... -4.547132266452536e-05, -0.024047505110502243 ] , \"index\": 0, \"object\": \"embedding\" } ], \"model\": \"text-embedding-ada-002\", \"object\": \"list\", \"usage\": { \"prompt_tokens\": 5, \"total_tokens\": 5 } } Example - Getting an Embedding Output:"
+    },
+    {
+      "index": 20,
+      "title": "def recommendations_from_strings( strings: List[str], index_of_source_string: int, model=\"text-embedding-ada-002\", )",
+      "text": "def recommendations_from_strings( strings: List[str], index_of_source_string: int, model=\"text-embedding-ada-002\", ) -> List[int]: \"\"\"Return nearest neighbors of a given string.\"\"\" # get embeddings for all strings embeddings = [embedding_from_string(string, model=model) for string in strings] # get the embedding of the source string query_embedding = embeddings[index_of_source_string] # get distances between the source embedding and other embeddings (function from embeddings_utils.py) distances = distances_from_embeddings(query_embedding, embeddings, distance_metric=\"cosine\") # get indices of nearest neighbors (function from embeddings_utils.py) indices_of_nearest_neighbors = indices_of_nearest_neighbors_from_distances(distances) return indices_of_nearest_neighbors https://platform.openai.com/docs/guides/embeddings/use-cases Recommendations using embeddings"
+    },
+    {
+      "index": 21,
+      "title": "Azure OpenAI Studio https://oai.azure.com GitHub Azure-Samples - demo",
+      "text": "Azure OpenAI Studio https://oai.azure.com GitHub Azure-Samples - demo https://github.com/Azure-Samples/azure-search-openai-demo GitHub Microsoft Docs - OpenAI https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/cognitive-services/openai/overview.md Embeddings https://platform.openai.com/docs/guides/embeddings/what-are-embeddings GitHub OpenAI Cookbook https://github.com/openai/openai-cookbook/ https://github.com/openai/openai-cookbook/tree/main/examples https://github.com/openai/openai-cookbook/blob/main/examples/Get_embeddings.ipynb https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis OpenAI API - Docs, Cookbook"
+    },
+    {
+      "index": 22,
+      "title": "Approximate Analysis Similarity Search Vector Databases Data Embedding",
+      "text": "Approximate Analysis Similarity Search Vector Databases Data Embedding Vectors Similarity Search"
+    },
+    {
+      "index": 23,
+      "title": "The exponential growth of vector embeddings in NLP,",
+      "text": "The exponential growth of vector embeddings in NLP, computer vision, Generative AI and other AI applications has resulted in the emergence of vector databases Vector Databases are used to store and query vector embeddings. For example, they can find vectors similar to a given vector They offer features typical for databases: Data management (inserting, deleting, updating), metadata storage, scalability, real-time updates, backups, easy integration into ETL systems, data security and access control A vector database uses pipelines of different algorithms (vector indexing, hashing, quantization, graph-based search, ...) to do an Approximate Nearest Neighbor (ANN) search . This is area of active research! Similarity measures: Cosine similarity (-1..1), Euclidean distance (0..∞), Dot product (-∞ .. ∞) Since the vector database provides approximate results , the main trade-offs are between accuracy and speed Here is a good article explaining different algorithms: https://www.pinecone.io/learn/vector-database/ Here is a list of some vector databases (2023) https://sourceforge.net/software/vector-databases/ Here is a nice short video: https://www.youtube.com/watch?v=dN0lsF2cvm4 Vector Databases Vector Databases: Pinecone Weaviate Chroma Redis Vector Database Qdrant Milvus Project Vespa.ai More: Zilliz Cloud Nomic Atlas Vald pgvector Faiss Metal MyScale Deep Lake Supabase Embeddinghub"
+    },
+    {
+      "index": 24,
+      "title": "Some Vector Databases",
+      "text": "Some Vector Databases"
+    },
+    {
+      "index": 25,
+      "title": "Vector Database Pricing Prompt to bard.google.com: Please estimate",
+      "text": "Vector Database Pricing Prompt to bard.google.com: Please estimate the monthly cost for storing 20 Mln embeddings and delivering 1000 queries per second for the managed instances of the following vector databases: Pinecone, Chroma, Redis Vector Database, Qdrant, Milvus Project, Weaviate, Vespa.ai Vector Database Monthly Cost Pinecone $1,056 Chroma $1,000 Redis Vector DB $100 Qdrant $100 Milvus Project $50 Weaviate $25 Vespa.ai $1"
+    },
+    {
+      "index": 26,
+      "title": "On the Path to AGI Animals vs Humans",
+      "text": "On the Path to AGI Animals vs Humans"
+    },
+    {
+      "index": 27,
+      "title": "Does Iguana Have a Soul ? Reacting -",
+      "text": "Does Iguana Have a Soul ? Reacting - yes Learning - yes Self-Awareness ? Thinking ? Language ? Consciousness ? Learning doesn't require language. Examples: Deep Learning Network Models A baby can learn before he/she starts talking"
+    },
+    {
+      "index": 28,
+      "title": "Some species have a language consisting of sounds,",
+      "text": "Some species have a language consisting of sounds, for example, whales and dolphins : https://www.nationalgeographic.com/animals/article/scientists-plan-to-use-ai-to-try-to-decode-the-language-of-whales Others, for example Honey bees (Apis sp.), have a language based on movements - \"dance language\": https://en.wikipedia.org/wiki/Waggle_dance . Most animals probably don't have a language in the sense we do. But they can still communicate, learn, and act. Do Animals \"Think\" ? There are many books on the subject"
+    },
+    {
+      "index": 29,
+      "title": "\"The origins of language and consciousness are two",
+      "text": "\"The origins of language and consciousness are two of the most enduring and complex questions in the fields of linguistics, philosophy, cognitive science, anthropology, and psychology.\" The origins of language and consciousness"
+    },
+    {
+      "index": 30,
+      "title": "Origins of Language: The origin of language is",
+      "text": "Origins of Language: The origin of language is shrouded in mystery, mainly because it leaves virtually no archaeological record. Theories about the specific evolutionary timeline and mechanisms of language development are mostly conjectural. One popular hypothesis, the \"speech is special\" theory, proposes that the capability for language is a unique characteristic that separates humans from other animals, and that it arose as a specific adaptation. This might have happened through natural selection favoring those who were better at communication , leading to improved social cohesion and survival rates . Another theory, the \"communication theory,\" suggests that language emerged from earlier non-verbal communication systems, such as gestures, which are still evident in primates. A third theory, known as \"protolanguage,\" suggests that language evolved from simpler systems in a gradual, piecemeal fashion. Protolanguage may have included isolated words and phrases but lacked the complex grammar and syntax of modern human languages."
+    },
+    {
+      "index": 31,
+      "title": "Origins of Consciousness: The origins of consciousness are",
+      "text": "Origins of Consciousness: The origins of consciousness are even more complex and less understood than those of language. Consciousness can be loosely described as the state of being aware of and able to think about what is happening around you and within you. One theory of the evolution of consciousness comes from philosopher Daniel Dennett, who suggests that consciousness arose as a byproduct of increased complexity in nervous systems . As organisms became more complex, they needed a way to process and understand a wider range of sensory input, leading to the development of consciousness. Another theory is that consciousness emerged as part of social evolution . According to this theory, as early human societies became more complex, individuals needed to be more aware of their actions and the perceptions of others, leading to an increased self-awareness and consciousness. It's also worth noting the Global Workspace Theory proposed by cognitive psychologist Bernard Baars. It compares consciousness to a theater, where information is processed behind the scenes and only the important parts are brought to the 'spotlight' of conscious awareness."
+    },
+    {
+      "index": 32,
+      "title": "Transitions: from tabular labeled data - to big",
+      "text": "Transitions: from tabular labeled data        -  to big unstructured data from exact calculations          -  to approximate calculations and similarity search from tabular SQL databases       -  to vector databases from hardwired specific systems  -  to generic \"brain\" systems"
+    },
+    {
+      "index": 33,
+      "title": "Learn Generative AI Short Courses from DeepLearning.AI Building",
+      "text": "Learn Generative AI Short Courses from DeepLearning.AI Building Systems with the ChatGPT API ChatGPT Prompt Engineering for Developers LangChain for LLM Application Development How Diffusion Models Work https://www.deeplearning.ai/short-courses/"
+    },
+    {
+      "index": 34,
+      "title": "Mohammad Emad Mostaque is the founder (2019) and",
+      "text": "Mohammad Emad Mostaque is the founder (2019) and CEO of Stability AI, (London, England, UK, ~170 employees), the company that developed Stable Diffusion (Original authors: Runway, CompVis, and Stability AI) Good short video: https://www.youtube.com/watch?v=WgIlAB3cS6U Emad Mostaque Emad Mostaque Stable Diffusion is a deep learning, text-to-image model released in 2022. It is primarily used to generate detailed images conditioned on text descriptions, though it can also be applied to other tasks such as inpainting, outpainting, and generating image-to-image translations guided by a text prompt. It was developed by the start-up Stability AI in collaboration with a number of academic researchers and non-profit organizations. It is open source. https://en.wikipedia.org/wiki/Stable_Diffusion https://github.com/Stability-AI/stablediffusion https://replicate.com/stability-ai/stable-diffusion/examples"
+    },
+    {
+      "index": 35,
+      "title": "DALL-E 2 uses two main models: a text",
+      "text": "DALL-E 2 uses two main models: a text encoder and a diffusion model. Text encoder is a transformer GPT-3 language model (developed by OpenAI). Diffusion model is based on the BigGAN generative model (developed by Google AI). BigGAN is a deep convolutional generative adversarial network that has been trained on a massive dataset of images. This allows BigGAN to generate images that are both realistic and high-quality. Text to Image Midjourney uses a variety of models to generate images, including: GANs - famous for their ability to generate realistic images Transformers - famous for transforming sequences (text or code). Upscaling Models - increasing resolution of images Style Transfer - apply the style of one image to another Colorization - add color to black and white images. Texture Synthesis - create new textures (patterns and designs)"
+    },
+    {
+      "index": 36,
+      "title": "Top 10 Tools for Detecting ChatGPT, GPT-4, Bard,",
+      "text": "Top 10 Tools for Detecting ChatGPT, GPT-4, Bard, and Claude .. https://www.kdnuggets.com/2023/05/top-10-tools-detecting-chatgpt-gpt4-bard-llms.html Top free tools for detecting thesis, research papers, assignments, documentation, and blogs generated by AI models Detect LLMs (ChatGPT, GPT, Bard, Claude, etc) 1. GPTZero 2. OpenAI AI Text Classifier 3. CopyLeaks 4. SciSpace 5. Hive Moderation 6. Content at Scale 7. Hello Simple AI 8. OpenAI HF Detector 9. Corrector.app 10. Writer.com"
+    },
+    {
+      "index": 37,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "More About ChatGPT Brain in the middle, from",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 1,
+      "slideTitle": "More About ChatGPT Brain in the middle, from",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "\"Recent advancements in generative AI have sparked a",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 3,
+      "slideTitle": "\"Recent advancements in generative AI have sparked a",
+      "source": "slide"
+    },
+    {
+      "claim": "Systems with a Brain in the Middle. From",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 4,
+      "slideTitle": "Systems with a Brain in the Middle. From",
+      "source": "slide"
+    },
+    {
+      "claim": "Inputs Ouputs Custom Electronics Hardware Inputs Ouputs Computer",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 5,
+      "slideTitle": "Inputs Ouputs Custom Electronics Hardware Inputs Ouputs Computer",
+      "source": "slide"
+    },
+    {
+      "claim": "Classical ML Models Data Action/Decision Custom function or",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 6,
+      "slideTitle": "Classical ML Models Data Action/Decision Custom function or",
+      "source": "slide"
+    },
+    {
+      "claim": "ChatGPT plugins \" GPT in the middle \"",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 7,
+      "slideTitle": "ChatGPT plugins \" GPT in the middle \"",
+      "source": "slide"
+    },
+    {
+      "claim": "iPhone app store 2 Mln apps Android Google",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 8,
+      "slideTitle": "iPhone app store 2 Mln apps Android Google",
+      "source": "slide"
+    },
+    {
+      "claim": "What are ChatGPT Plugins https://www.pcmag.com/how-to/what-are-chatgpt-plugins-the-next-phase-of-conversational-ai-is-here https://beebom.com/best-chatgpt-plugins/ https://beebom.com/best-chatgpt-chrome-extensions/ https://artificialcorner.com/i-tried-84-chatgpt-plugins-these-are-the-best-3b3be6b1cb7b",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 9,
+      "slideTitle": "What are ChatGPT Plugins https://www.pcmag.com/how-to/what-are-chatgpt-plugins-the-next-phase-of-conversational-ai-is-here https://beebom.com/best-chatgpt-plugins/ https://beebom.com/best-chatgpt-chrome-extensions/ https://artificialcorner.com/i-tried-84-chatgpt-plugins-these-are-the-best-3b3be6b1cb7b",
+      "source": "slide"
+    },
+    {
+      "claim": "Tree of Thought Prompting",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 10,
+      "slideTitle": "Tree of Thought Prompting",
+      "source": "slide"
+    },
+    {
+      "claim": "Tree of Thought (ToT Prompting) Tree of Thoughts",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 11,
+      "slideTitle": "Tree of Thought (ToT Prompting) Tree of Thoughts",
+      "source": "slide"
+    },
+    {
+      "claim": "Thinking & Science: Finding Patterns in Data",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=phFkhLXpiQ0",
+      "slideIndex": 12,
+      "slideTitle": "Thinking & Science: Finding Patterns in Data",
+      "source": "slide"
+    }
+  ]
+}

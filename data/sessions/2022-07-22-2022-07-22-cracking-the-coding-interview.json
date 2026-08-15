@@ -1,0 +1,338 @@
+{
+  "id": "2022-07-22-2022-07-22-cracking-the-coding-interview",
+  "date": "2022-07-22",
+  "title": "Cracking-the-Coding-Interview",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "data-engineering",
+    "general",
+    "rag"
+  ],
+  "video": {
+    "id": "NvsVHCv_DdQ",
+    "title": "Cracking The Coding Interview",
+    "url": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+    "thumbnail": "https://i.ytimg.com/vi/NvsVHCv_DdQ/hqdefault.jpg",
+    "duration": 2047
+  },
+  "deck": {
+    "path": "2022/2022-07-22-Cracking-the-Coding-Interview.pptx",
+    "filename": "2022-07-22-Cracking-the-Coding-Interview.pptx",
+    "title": "Cracking-the-Coding-Interview",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-07-22-Cracking-the-Coding-Interview.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-07-22-Cracking-the-Coding-Interview.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Breaking the Coding Interview",
+      "startSeconds": 104,
+      "label": "01:44",
+      "source": "youtube"
+    },
+    {
+      "title": "What You Can Expect within a Coding Interview",
+      "startSeconds": 125,
+      "label": "02:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Phone Interviews",
+      "startSeconds": 215,
+      "label": "03:35",
+      "source": "youtube"
+    },
+    {
+      "title": "On-Site Interviews",
+      "startSeconds": 282,
+      "label": "04:42",
+      "source": "youtube"
+    },
+    {
+      "title": "Research on What Questions each Company Will Ask You",
+      "startSeconds": 398,
+      "label": "06:38",
+      "source": "youtube"
+    },
+    {
+      "title": "How To Prepare for the Coding Interview",
+      "startSeconds": 597,
+      "label": "09:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Assumptions about Coding Questions",
+      "startSeconds": 1052,
+      "label": "17:32",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Cracking the Coding Interview Alex Ni - July",
+      "text": "Cracking the Coding Interview Alex Ni - July 22nd, 2022"
+    },
+    {
+      "index": 2,
+      "title": "Alex Ni Senior consultant at Redapt, Advanced Analytics",
+      "text": "Alex Ni Senior consultant at Redapt, Advanced Analytics 4+ years of experience in ETL, BI, data warehouse Familiar with data science and full cycle machine learning pipeline Certified in Azure data and AI scientist and GCP data engineer and cloud architect Connect on LinkedIn: https://www.linkedin.com/in/haowen-ni-860612117"
+    },
+    {
+      "index": 3,
+      "title": "Agenda What to expect in a coding interview",
+      "text": "Agenda What to expect in a coding interview How to prepare for coding interview Demo: Two Sum CRACKING the CODING INTERVIEW - Home (crackingthecodinginterview.com)"
+    },
+    {
+      "index": 4,
+      "title": "What is the coding interview? A 45 minutes,",
+      "text": "What is the coding interview? A 45 minutes, problem-oriented session used to assess potentially employees on: Analytical skills Coding Skills Technical/CS knowledge and fundamentals Communication skills Technical phone interviews Technical challenges using web-based code editor like Coderpad and HackerRank Onsite interviews 3 to 5 rounds technical interviews Coding on a whiteboard Online assessment/Take home For example, Amazon OA"
+    },
+    {
+      "index": 5,
+      "title": "Research on what questions each company will ask",
+      "text": "Research on what questions each company will ask me IMPORTANT : Figure out in advance what common question are asked for the company you’re interviewing with Generally, you can find this information in a few places: Job description : to gauge the focus of the questions Coding interview prep websites : for example, Leetcode has collections of top interview questions for each big tech company Current/former employees : online forums, blogs, places where they discuss about their interview process Recruiter : ask them directly for topics that may appear Eliminate the guesswork from coding interviews: https://www.codinginterview.com"
+    },
+    {
+      "index": 6,
+      "title": "How to prepare for coding interview?",
+      "text": "How to prepare for coding interview?"
+    },
+    {
+      "index": 7,
+      "title": "Tip1: DON’T jump into coding questions directly Foundations",
+      "text": "Tip1: DON’T jump into coding questions directly Foundations in coding The knowledge you will learn from CS101: variables, data type, functions, parameters, for/while loops, if/else, recursion, and etc., Data structures and algorithms Arrays, Linked Lists, Hash Tables, Stacks and Queues, Trees, Graphs, ... Binary search, Sorting, Breadth First Search, Depth First Search, … Complexity Analysis, Big O notation Time Complexity: how fast an algorithm runs, expressed using Space Complexity: how much memory an algorithm takes up"
+    },
+    {
+      "index": 8,
+      "title": "Tip 2: Pick the programming language most comfortable",
+      "text": "Tip 2:  Pick the programming language most comfortable with you You need to be extremely familiar with the syntax so that you can better focus on the logic of solution No intellisense such as code completion and syntax checking Coding style"
+    },
+    {
+      "index": 9,
+      "title": "Tip 3: MOST IMPORTANT: Practice, practice, and practice",
+      "text": "Tip 3: MOST IMPORTANT: Practice, practice, and practice Make a continuous plan for your preparation Study for the basic knowledge Begin with easier questions to brush up what you just learned about  data structures and algorithms knowledge Start to timing yourself, think out loud, consider time and memory complexity Practice more complex coding problems Practice on LeetCode If you practice enough LeetCode questions, there is a good chance that you will either see or complete one of your actual interview questions (or some variant of it)"
+    },
+    {
+      "index": 10,
+      "title": "Demo: Two Sum",
+      "text": "Demo: Two Sum"
+    },
+    {
+      "index": 11,
+      "title": "Two Sum - Description LeetCode #1 Given an",
+      "text": "Two Sum - Description LeetCode #1 Given an array of integers numbers and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order."
+    },
+    {
+      "index": 12,
+      "title": "Two Sum - Hints Hint 1 A really",
+      "text": "Two Sum - Hints Hint 1 A really brute force way would be to search for all possible pairs of numbers but that would be too slow. Again, it's best to try out brute force solutions for just for completeness. It is from these brute force solutions that you can come up with optimizations."
+    },
+    {
+      "index": 13,
+      "title": "Approach 1: Brute Force class Solution: def twoSum(self,",
+      "text": "Approach 1: Brute Force class Solution: def twoSum(self, nums: List[int], target: int) -> List[int]: for i in range(len(nums)): for j in range(i + 1, len(nums)): if nums[j] == target - nums[i]: return [i, j] Algorithm The brute force approach is simple. Loop through each element x and find if there is another value that equals to target - x. Time complexity: O(n^2). For each element, we try to find its complement by looping through the rest of the array which takes O(n) time. Therefore, the time complexity is O(n^2). Space complexity: O(1). The space required does not depend on the size of the input array, so only constant space is used."
+    },
+    {
+      "index": 14,
+      "title": "Two Sum - Hints Hint 2 So, if",
+      "text": "Two Sum - Hints Hint 2 So, if we fix one of the numbers, say x We have to scan the entire array to find the next number y, which is value - x where value is the input parameter. Can we change our method somehow so that this search becomes faster?"
+    },
+    {
+      "index": 15,
+      "title": "Two Sum - Hints Hint 3 The second",
+      "text": "Two Sum - Hints Hint 3 The second train of thought is, without changing the array, can we use additional space somehow? Like maybe a hash map to speed up the search?"
+    },
+    {
+      "index": 16,
+      "title": "Approach 2: Two-pass Hash Table class Solution: def",
+      "text": "Approach 2: Two-pass Hash Table class Solution: def twoSum(self, nums: List[int], target: int) -> List[int]: hashmap = {} for i in range(len(nums)): hashmap[nums[i]] = i for i in range(len(nums)): complement = target - nums[i] if complement in hashmap and hashmap[complement] != i: return [i, hashmap[complement]] Algorithm A simple implementation uses two iterations. In the first iteration, we add each element's value as a key and its index as a value to the hash table. Then, in the second iteration, we check if each element's complement (target - nums[i]) exists in the hash table. If it does exist, we return current element's index and its complement's index. Beware that the complement must not be nums[i] itself!"
+    },
+    {
+      "index": 17,
+      "title": "Approach 2: Two-pass Hash Table class Solution: def",
+      "text": "Approach 2: Two-pass Hash Table class Solution: def twoSum(self, nums: List[int], target: int) -> List[int]: hashmap = {} for i in range(len(nums)): hashmap[nums[i]] = i for i in range(len(nums)): complement = target - nums[i] if complement in hashmap and hashmap[complement] != i: return [i, hashmap[complement]] Time complexity: O(n). We traverse the list containing nn elements exactly twice. Since the hash table reduces the lookup time to O(1), the overall time complexity is O(n). Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores exactly n elements."
+    },
+    {
+      "index": 18,
+      "title": "Approach 3: One-pass Hash Table class Solution: def",
+      "text": "Approach 3: One-pass Hash Table class Solution: def twoSum(self, nums: List[int], target: int) -> List[int]: hashmap = {} for i in range(len(nums)): complement = target - nums[i] if complement in hashmap: return [i, hashmap[complement]] hashmap[nums[i]] = i Algorithm It turns out we can do it in one-pass. While we are iterating and inserting elements into the hash table, we also look back to check if current element's complement already exists in the hash table. If it exists, we have found a solution and return the indices immediately. Time complexity: O(n). We traverse the list containing nn elements only once. Each lookup in the table costs only O(1) time. Space complexity: O(n). The extra space required depends on the number of items stored in the hash table, which stores at most n elements."
+    },
+    {
+      "index": 19,
+      "title": "Two Sum - Similar Questions LeetCode #15 -",
+      "text": "Two Sum - Similar Questions LeetCode #15 - 3 Sum Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0. Notice that the solution set must not contain duplicate triplets."
+    },
+    {
+      "index": 20,
+      "title": "Summary For preparing coding interviews, remember: Start with",
+      "text": "Summary For preparing coding interviews, remember: Start with the foundational knowledges, especially data structures and algorithms Pick the programming language most comfortable with you Start with the easy questions, build a long term motivation and keep practicing"
+    },
+    {
+      "index": 21,
+      "title": "Thank you!",
+      "text": "Thank you!"
+    },
+    {
+      "index": 22,
+      "title": "Reference Cracking the coding interview https://www.crackingthecodinginterview.com/ LeetCode -",
+      "text": "Reference Cracking the coding interview https://www.crackingthecodinginterview.com/ LeetCode - The World's Leading Online Programming Learning Platform https://leetcode.com/ Coding Interview Preparation | Codinginterview https://www.codinginterview.com/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Cracking the Coding Interview Alex Ni - July",
+      "source": "youtube"
+    },
+    {
+      "claim": "Breaking the Coding Interview",
+      "topic": "general",
+      "videoSeconds": 104,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=104s",
+      "slideIndex": 4,
+      "slideTitle": "What is the coding interview? A 45 minutes,",
+      "source": "youtube"
+    },
+    {
+      "claim": "What You Can Expect within a Coding Interview",
+      "topic": "general",
+      "videoSeconds": 125,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=125s",
+      "slideIndex": 7,
+      "slideTitle": "Tip1: DON’T jump into coding questions directly Foundations",
+      "source": "youtube"
+    },
+    {
+      "claim": "Phone Interviews",
+      "topic": "general",
+      "videoSeconds": 215,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=215s",
+      "slideIndex": 10,
+      "slideTitle": "Demo: Two Sum",
+      "source": "youtube"
+    },
+    {
+      "claim": "On-Site Interviews",
+      "topic": "general",
+      "videoSeconds": 282,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=282s",
+      "slideIndex": 13,
+      "slideTitle": "Approach 1: Brute Force class Solution: def twoSum(self,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Research on What Questions each Company Will Ask You",
+      "topic": "general",
+      "videoSeconds": 398,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=398s",
+      "slideIndex": 16,
+      "slideTitle": "Approach 2: Two-pass Hash Table class Solution: def",
+      "source": "youtube"
+    },
+    {
+      "claim": "How To Prepare for the Coding Interview",
+      "topic": "general",
+      "videoSeconds": 597,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=597s",
+      "slideIndex": 19,
+      "slideTitle": "Two Sum - Similar Questions LeetCode #15 -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Assumptions about Coding Questions",
+      "topic": "general",
+      "videoSeconds": 1052,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ&t=1052s",
+      "slideIndex": 22,
+      "slideTitle": "Reference Cracking the coding interview https://www.crackingthecodinginterview.com/ LeetCode -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alex Ni Senior consultant at Redapt, Advanced Analytics",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 2,
+      "slideTitle": "Alex Ni Senior consultant at Redapt, Advanced Analytics",
+      "source": "slide"
+    },
+    {
+      "claim": "Agenda What to expect in a coding interview",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 3,
+      "slideTitle": "Agenda What to expect in a coding interview",
+      "source": "slide"
+    },
+    {
+      "claim": "Research on what questions each company will ask",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 5,
+      "slideTitle": "Research on what questions each company will ask",
+      "source": "slide"
+    },
+    {
+      "claim": "How to prepare for coding interview?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 6,
+      "slideTitle": "How to prepare for coding interview?",
+      "source": "slide"
+    },
+    {
+      "claim": "Tip 2: Pick the programming language most comfortable",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 8,
+      "slideTitle": "Tip 2: Pick the programming language most comfortable",
+      "source": "slide"
+    },
+    {
+      "claim": "Tip 3: MOST IMPORTANT: Practice, practice, and practice",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 9,
+      "slideTitle": "Tip 3: MOST IMPORTANT: Practice, practice, and practice",
+      "source": "slide"
+    },
+    {
+      "claim": "Two Sum - Description LeetCode #1 Given an",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 11,
+      "slideTitle": "Two Sum - Description LeetCode #1 Given an",
+      "source": "slide"
+    },
+    {
+      "claim": "Two Sum - Hints Hint 1 A really",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=NvsVHCv_DdQ",
+      "slideIndex": 12,
+      "slideTitle": "Two Sum - Hints Hint 1 A really",
+      "source": "slide"
+    }
+  ]
+}

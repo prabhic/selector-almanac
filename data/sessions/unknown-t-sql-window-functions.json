@@ -1,0 +1,152 @@
+{
+  "id": "unknown-t-sql-window-functions",
+  "date": null,
+  "title": "T-SQL-Window-Functions",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2022/2022-07-29-TSQL-Window-Functions-Malte/T-SQL-Window-Functions.pptx",
+    "filename": "T-SQL-Window-Functions.pptx",
+    "title": "T-SQL-Window-Functions",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-07-29-TSQL-Window-Functions-Malte/T-SQL-Window-Functions.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-07-29-TSQL-Window-Functions-Malte/T-SQL-Window-Functions.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Window Functions in T-SQL by Malte Thesenvitz July",
+      "text": "Window Functions in T-SQL by Malte Thesenvitz July 29 th 2022"
+    },
+    {
+      "index": 2,
+      "title": "Background of Window Functions Source and Author: Ben",
+      "text": "Background of Window Functions Source and Author: Ben Itzik -Gan"
+    },
+    {
+      "index": 3,
+      "title": "1. The Island Problem: Query a table holding",
+      "text": "1. The Island Problem: Query a table holding a sequence of values in some column and identifying the consecutive ranges of existing values. Col1 2 3 11 12 13 27 33 34 35 43 Start range End range 2 3 11 13 27 27 33 35 43 43 Output"
+    },
+    {
+      "index": 4,
+      "title": "The 4 Main Types of Window Functions Aggregates",
+      "text": "The 4 Main Types of Window Functions Aggregates Ranking Statistical Offset AVG() ROW_NUMBER() PERCENT_RANK() LAG() COUNT() NTILE() CUME_DIST() LEAD() MIN() RANK() PERCENTILE_CONT() FIRST_VALUE() MAX() DENSE_RANK() PERCENTILE_DISC() LAST_VALUE() SUM()"
+    },
+    {
+      "index": 5,
+      "title": "Elements of Window Functions Partitioning Ordering Framing Optional",
+      "text": "Elements of Window Functions Partitioning Ordering Framing Optional Defines order within partition Further restrict the window partition SUM(profit) OVER( PARTITION BY country) AS country_sum SUM(profit) OVER( PARTITION BY country ORDER BY ordermonth ) AS ordered_country_sum SUM(profit) OVER(PARTITION BY country ORDER BY ordermonth ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW ) AS dynamic_country_sum Supported by all window functions & Restricts window to only certain values => Think of it as grouping Often used as tiebreaker to ensure determinism Works with aggregate & selected offset functions Only work in SELECT and ORDER BY clauses due to logical query ordering"
+    },
+    {
+      "index": 6,
+      "title": "Examples with SQL Server",
+      "text": "Examples with SQL Server"
+    },
+    {
+      "index": 7,
+      "title": "Nested Window Functions",
+      "text": "Nested Window Functions"
+    },
+    {
+      "index": 8,
+      "title": "Nested Group Functions Within Window Functions",
+      "text": "Nested Group Functions Within Window Functions"
+    },
+    {
+      "index": 9,
+      "title": "Set Based Window Functions",
+      "text": "Set Based Window Functions"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Window Functions in T-SQL by Malte Thesenvitz July",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Window Functions in T-SQL by Malte Thesenvitz July",
+      "source": "slide"
+    },
+    {
+      "claim": "Background of Window Functions Source and Author: Ben",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Background of Window Functions Source and Author: Ben",
+      "source": "slide"
+    },
+    {
+      "claim": "1. The Island Problem: Query a table holding",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "1. The Island Problem: Query a table holding",
+      "source": "slide"
+    },
+    {
+      "claim": "The 4 Main Types of Window Functions Aggregates",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "The 4 Main Types of Window Functions Aggregates",
+      "source": "slide"
+    },
+    {
+      "claim": "Elements of Window Functions Partitioning Ordering Framing Optional",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Elements of Window Functions Partitioning Ordering Framing Optional",
+      "source": "slide"
+    },
+    {
+      "claim": "Examples with SQL Server",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Examples with SQL Server",
+      "source": "slide"
+    },
+    {
+      "claim": "Nested Window Functions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Nested Window Functions",
+      "source": "slide"
+    },
+    {
+      "claim": "Nested Group Functions Within Window Functions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Nested Group Functions Within Window Functions",
+      "source": "slide"
+    },
+    {
+      "claim": "Set Based Window Functions",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Set Based Window Functions",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "2023-10-10-2023-10-10-ln-mistral",
+  "date": "2023-10-10",
+  "title": "LN-Mistral",
+  "series": "seminar",
+  "topics": [
+    "openai",
+    "open-models",
+    "benchmarks",
+    "fine-tuning"
+  ],
+  "video": {
+    "id": "Og5tWdvItcw",
+    "title": "AI Updates - October 13, 2023 - LLM Mistral, OpenOrca, Inflection.AI, AutoGen, Fine-Tuning, QLoRa",
+    "url": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+    "thumbnail": "https://i.ytimg.com/vi/Og5tWdvItcw/hqdefault.jpg",
+    "duration": 1538
+  },
+  "deck": {
+    "path": "2023/2023-10-10-LN-Mistral.pptx",
+    "filename": "2023-10-10-LN-Mistral.pptx",
+    "title": "LN-Mistral",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-10-LN-Mistral.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-10-LN-Mistral.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-3d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Mistral.ai Mistral.AI - new startup from former DeepMind",
+      "text": "Mistral.ai Mistral.AI - new startup from former DeepMind and Meta researchers It was founded in June 2023 It raised $113 Million in seed funding It develops original open source models ( NOT LLaMa ) word Mistral - strong fast wind in southern France https://github.com/mistralai Mistral-7B is the first \"teaser\" model Mistral-7B-OpenOrca - fine-tuned, 65.84 aver. score Quantized 4bit versions available Sliding Window Attention (SWA) to handle long sequences Uses a Grouped Query Attention (GQA) to handle multiple queries simultaneously"
+    },
+    {
+      "index": 2,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Rank Model Aver Precision",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Rank Model Aver Precision Nparam 0 GPT-4 84.3 16bit 1800 1 Riiid/sheep-duck-llama-2-70b-v1.1 74.07 16bit 70 35 GPT-3.5 71.9 16bit 175 51 garage-bAInd/Camel-Platypus2-70B 71.36 8bit 70 54 lloorree/jfdslijsijdgis 70.99 4bit 70 96 tiiuae/falcon-180B 68.74 16bit 180 135 meta-llama/Llama-2-70b-chat-hf 66.8 16bit 70 158 Open-Orca/Mistral-7B-OpenOrca 65.84 16bit 7 299 Open-Orca/OpenOrca-Platypus2-13B 63.19 4bit 13 361 mistralai/Mistral-7B-v0.1 62.4 16bit 7 874 joehuangx/spatial-vicuna-7b-v1.5-LoRA 55.72 4bit 7 1716 baseline 25 None 0"
+    },
+    {
+      "index": 3,
+      "title": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\"",
+      "text": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\" command) https://github.com/ggerganov/llama.cpp download the model https://huggingface.co/TheBloke/Mistral-7B-OpenOrca-GGUF run it: ./main -ngl 32 -m ~/Downloads/mistral-7b-openorca.Q5_K_M.gguf --color -c 4096 --temp 0.7 --repeat_penalty 1.1 -n -1 --interactive-first -ins"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Mistral.ai Mistral.AI - new startup from former DeepMind",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 1,
+      "slideTitle": "Mistral.ai Mistral.AI - new startup from former DeepMind",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Rank Model Aver Precision",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 2,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Rank Model Aver Precision",
+      "source": "slide"
+    },
+    {
+      "claim": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\"",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=Og5tWdvItcw",
+      "slideIndex": 3,
+      "slideTitle": "Running Mistral-7B-OpenOrca download and compile llama.cpp (run \"make\"",
+      "source": "slide"
+    }
+  ]
+}

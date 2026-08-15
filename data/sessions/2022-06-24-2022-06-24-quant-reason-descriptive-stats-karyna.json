@@ -1,0 +1,386 @@
+{
+  "id": "2022-06-24-2022-06-24-quant-reason-descriptive-stats-karyna",
+  "date": "2022-06-24",
+  "title": "Quant-Reason-Descriptive-Stats-Karyna",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "O5fhF1z_Uew",
+    "title": "Quantitative Reasoning with Descriptive Statistics",
+    "url": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+    "thumbnail": "https://i.ytimg.com/vi/O5fhF1z_Uew/hqdefault.jpg",
+    "duration": 2979
+  },
+  "deck": {
+    "path": "2022/2022-06-24-Quant-Reason-Descriptive-Stats-Karyna.pptx",
+    "filename": "2022-06-24-Quant-Reason-Descriptive-Stats-Karyna.pptx",
+    "title": "Quant-Reason-Descriptive-Stats-Karyna",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-06-24-Quant-Reason-Descriptive-Stats-Karyna.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-06-24-Quant-Reason-Descriptive-Stats-Karyna.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "What is a frequency distribution?",
+      "startSeconds": 225,
+      "label": "03:45",
+      "source": "youtube"
+    },
+    {
+      "title": "How many siblings do you have?",
+      "startSeconds": 291,
+      "label": "04:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Step 2: Consider distribution shape",
+      "startSeconds": 1464,
+      "label": "24:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Consider Salary Distributions (Psychologists)",
+      "startSeconds": 1893,
+      "label": "31:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Consider Salary Distributions (Legal Professions)",
+      "startSeconds": 2011,
+      "label": "33:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Step 3: Consider underlying data",
+      "startSeconds": 2330,
+      "label": "38:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Selecting a Measure of Central Tendency",
+      "startSeconds": 2514,
+      "label": "41:54",
+      "source": "youtube"
+    },
+    {
+      "title": "Summary",
+      "startSeconds": 2857,
+      "label": "47:37",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Karyna Pryiomka , MPhil Quantitative Reasoning with Descriptive",
+      "text": "Karyna Pryiomka , MPhil Quantitative Reasoning with Descriptive Statistics Awesome You Are Here"
+    },
+    {
+      "index": 2,
+      "title": "A few words about me Karyna Pryiomka Doctoral",
+      "text": "A few words about me Karyna Pryiomka Doctoral Candidate in Social/Personality Psychology at the Graduate Center, CUNY Lecturer (Psychology Department) at Lehman College, CUNY"
+    },
+    {
+      "index": 3,
+      "title": "Two Categories of Statistics Descriptive Statistics —tools and",
+      "text": "Two Categories of Statistics Descriptive Statistics —tools and procedures used to summarize, organize, and simplify data Inferential Statistics —tools and procedures used to study samples to make generalization about populations"
+    },
+    {
+      "index": 4,
+      "title": "Types of Descriptive Statistics Frequency Distributions Tables and",
+      "text": "Types of Descriptive Statistics Frequency Distributions Tables and Graphs Measures of Central Tendency Mean Median Mode Measures of Variability Range Variance Standard Deviation"
+    },
+    {
+      "index": 5,
+      "title": "What is a frequency distribution? A frequency distribution",
+      "text": "What is a frequency distribution? A frequency distribution is an organized tabulation showing the number of individuals located in each category on the scale of measurement. In other words, it is a summary of how many people fall into each category of the variable that you are measuring. Frequency distributions can take a form of a table or a graph."
+    },
+    {
+      "index": 6,
+      "title": "How many siblings do you have? # of",
+      "text": "How many siblings do you have? # of siblings (X) f p % 9 1 0.0588 5.88 8 1 0.0588 5.88 7 1 0.0588 5.88 6 0 0.0000 0.00 5 2 0.1176 11.76 4 2 0.1176 11.76 3 1 0.0588 5.88 2 3 0.1765 17.65 1 4 0.2353 23.53 0 2 0.1176 11.76"
+    },
+    {
+      "index": 7,
+      "title": "Distribution Shape",
+      "text": "Distribution Shape"
+    },
+    {
+      "index": 8,
+      "title": "https:// www.census.gov /library/visualizations/2015/demo/distribution-of-household-income--2014.html",
+      "text": "https:// www.census.gov /library/visualizations/2015/demo/distribution-of-household-income--2014.html"
+    },
+    {
+      "index": 9,
+      "title": "Slide 9",
+      "text": ""
+    },
+    {
+      "index": 10,
+      "title": "Measures of Central Tendency Example Dataset: 1, 1,",
+      "text": "Measures of Central Tendency Example Dataset: 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 5 Mean is the sum of all the scores divided by the number of scores in the data Mean = (1+ 1 + 1 + 2 + 2 + 2 + 3 + 3 + 3 + 3 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 4 + 5)/19 = 3.05 Median is the midpoint of the scores in a distribution when they are listed in order from smallest to largest Median = 1, 1, 1, 2, 2, 2, 3, 3, 3, 3 , 4, 4, 4, 4, 4, 4, 4, 4, 5 Mode is the score or category that has the greatest frequency of any score in the frequency distribution. Mode = 4"
+    },
+    {
+      "index": 11,
+      "title": "Which measure of central tendency should I use?",
+      "text": "Which measure of central tendency should I use?"
+    },
+    {
+      "index": 12,
+      "title": "Step 1: Consider scales of measurement Nominal –",
+      "text": "Step 1: Consider scales of measurement Nominal – named-based categories only (ex: eye color, academic major) Mode only Ordinal – ranked categories (ex: shirt size S, M, L) Mode and Median Interval/Ratio – numeric categories (ex: temperature, weight, height, income in $). Mean and Median is preferred"
+    },
+    {
+      "index": 13,
+      "title": "Not your average American “MALONE: My issue is",
+      "text": "Not your average American “MALONE: My issue is with this thing that people talk about, the average American. And, like, yeah, there's something sort of silly about the average American 'cause it's like a melting pot. Who is average, really? But my quibble is more pedantic than that because I think people don't mean average American. I think what they actually mean is, who is the person - if I walk outside into America, who is the person I'm most likely to run into?” -Mode is typically the most useful statistic when we are trying to identify a typical person, customer, client. The Modal American by NPR Planet Money (https:// www.npr.org /2019/08/28/755191639/episode-936-the-modal-American)"
+    },
+    {
+      "index": 14,
+      "title": "Step 2: Consider distribution shape Symmetrical Distributions",
+      "text": "Step 2: Consider distribution shape Symmetrical Distributions"
+    },
+    {
+      "index": 15,
+      "title": "Slide 15",
+      "text": ""
+    },
+    {
+      "index": 16,
+      "title": "Slide 16",
+      "text": ""
+    },
+    {
+      "index": 17,
+      "title": "Always look at the distribution shape!",
+      "text": "Always look at the distribution shape!"
+    },
+    {
+      "index": 18,
+      "title": "Skewed Distributions and Measures of Central Tendency",
+      "text": "Skewed Distributions and Measures of Central Tendency"
+    },
+    {
+      "index": 19,
+      "title": "Consider Salary Distributions (Psychologists) https:// www.bls.gov / oes",
+      "text": "Consider Salary Distributions (Psychologists) https:// www.bls.gov / oes /current/oes_nat.htm#19-0000"
+    },
+    {
+      "index": 20,
+      "title": "Consider Salary Distributions (Psychologists) https:// www.apa.org /monitor/2017/09/psychologists-earn",
+      "text": "Consider Salary Distributions (Psychologists) https:// www.apa.org /monitor/2017/09/psychologists-earn"
+    },
+    {
+      "index": 21,
+      "title": "Consider Salary Distributions (Legal Professions) https://www.bls.gov/oes/current/oes_nat.htm#19-0000",
+      "text": "Consider Salary Distributions (Legal Professions) https://www.bls.gov/oes/current/oes_nat.htm#19-0000"
+    },
+    {
+      "index": 22,
+      "title": "Consider Salary Distributions (Legal Professions) https:// www.nalp.org /salarydistrib#2020",
+      "text": "Consider Salary Distributions (Legal Professions) https:// www.nalp.org /salarydistrib#2020"
+    },
+    {
+      "index": 23,
+      "title": "Step 3: Consider underlying data Extreme values/outliers 1,",
+      "text": "Step 3: Consider underlying data Extreme values/outliers 1, 1, 1, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 100 Undetermined values How many hours  a week do you study? 4-5, 6-7, about 15. Open-ended distributions X f 4 and over 4 3 5 2 0 1 7"
+    },
+    {
+      "index": 24,
+      "title": "Selecting a Measure of Central Tendency Measure of",
+      "text": "Selecting a Measure of Central Tendency Measure of Central Tendency Appropriate to choose if … Could be misleading if … Mean You can calculate ∑ X You know the value of every score Extreme scores Skewed distribution Undetermined values Open-ended distribution Ordinal scale Nominal scale Median Extreme scores Skewed distribution Undetermined values Open-ended distribution Ordinal scale Nominal scale Mode Nominal scales Discrete variables Describing shape Interval or ratio data, except to accompany mean or median Essentials of Statistics for the Behavioral Sciences, 9 th edition , Authors: Gravetter & Wallnau ."
+    },
+    {
+      "index": 25,
+      "title": "A few words about data variability",
+      "text": "A few words about data variability"
+    },
+    {
+      "index": 26,
+      "title": "Josh wants to know if playing music during",
+      "text": "Josh wants to know if playing music during quizzes affects students’ performance. Josh teaches three sections of the same class, so he decides to play classical music in one class, light instrumental rock in another, and no music in his third class. Below are his results. Does it look like music had an effect on quiz scores in Josh’s classes? M music_class = 5 M no_music = 5 M music_rock = 5"
+    },
+    {
+      "index": 27,
+      "title": "Be Careful Identical mean scores do not always",
+      "text": "Be Careful Identical mean scores do not always indicate identical distributions. Which class would you rather be in? A. B. C."
+    },
+    {
+      "index": 28,
+      "title": "Consider your goals Assuming that 5 or higher",
+      "text": "Consider your goals Assuming that 5 or higher is a passing score, which class would you rather be in? A. B. C."
+    },
+    {
+      "index": 29,
+      "title": "If the scores are very spread out (high",
+      "text": "If the scores are very spread out (high variability), each individual score provides a poor representation of the entire distribution."
+    },
+    {
+      "index": 30,
+      "title": "Summary Descriptive statistics play a vital role in",
+      "text": "Summary Descriptive statistics play a vital role in our ability to accurately draw conclusions from data. When analyzing data, make sure to explore key descriptive statistics for each variable or combinations of variables. Do NOT skip the graphs When consuming data-based information, look for missing details. Use your knowledge of descriptive statistics to ask critical questions. Demand to see the graph "
+    },
+    {
+      "index": 31,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Karyna Pryiomka , MPhil Quantitative Reasoning with Descriptive",
+      "source": "youtube"
+    },
+    {
+      "claim": "What is a frequency distribution?",
+      "topic": "general",
+      "videoSeconds": 225,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=225s",
+      "slideIndex": 5,
+      "slideTitle": "What is a frequency distribution? A frequency distribution",
+      "source": "youtube"
+    },
+    {
+      "claim": "How many siblings do you have?",
+      "topic": "general",
+      "videoSeconds": 291,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=291s",
+      "slideIndex": 9,
+      "slideTitle": "Slide 9",
+      "source": "youtube"
+    },
+    {
+      "claim": "Step 2: Consider distribution shape",
+      "topic": "general",
+      "videoSeconds": 1464,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=1464s",
+      "slideIndex": 12,
+      "slideTitle": "Step 1: Consider scales of measurement Nominal –",
+      "source": "youtube"
+    },
+    {
+      "claim": "Consider Salary Distributions (Psychologists)",
+      "topic": "general",
+      "videoSeconds": 1893,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=1893s",
+      "slideIndex": 16,
+      "slideTitle": "Slide 16",
+      "source": "youtube"
+    },
+    {
+      "claim": "Consider Salary Distributions (Legal Professions)",
+      "topic": "general",
+      "videoSeconds": 2011,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=2011s",
+      "slideIndex": 20,
+      "slideTitle": "Consider Salary Distributions (Psychologists) https:// www.apa.org /monitor/2017/09/psychologists-earn",
+      "source": "youtube"
+    },
+    {
+      "claim": "Step 3: Consider underlying data",
+      "topic": "general",
+      "videoSeconds": 2330,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=2330s",
+      "slideIndex": 24,
+      "slideTitle": "Selecting a Measure of Central Tendency Measure of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Selecting a Measure of Central Tendency",
+      "topic": "general",
+      "videoSeconds": 2514,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=2514s",
+      "slideIndex": 27,
+      "slideTitle": "Be Careful Identical mean scores do not always",
+      "source": "youtube"
+    },
+    {
+      "claim": "Summary",
+      "topic": "general",
+      "videoSeconds": 2857,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew&t=2857s",
+      "slideIndex": 31,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "A few words about me Karyna Pryiomka Doctoral",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 2,
+      "slideTitle": "A few words about me Karyna Pryiomka Doctoral",
+      "source": "slide"
+    },
+    {
+      "claim": "Two Categories of Statistics Descriptive Statistics —tools and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 3,
+      "slideTitle": "Two Categories of Statistics Descriptive Statistics —tools and",
+      "source": "slide"
+    },
+    {
+      "claim": "Types of Descriptive Statistics Frequency Distributions Tables and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 4,
+      "slideTitle": "Types of Descriptive Statistics Frequency Distributions Tables and",
+      "source": "slide"
+    },
+    {
+      "claim": "How many siblings do you have? # of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 6,
+      "slideTitle": "How many siblings do you have? # of",
+      "source": "slide"
+    },
+    {
+      "claim": "https:// www.census.gov /library/visualizations/2015/demo/distribution-of-household-income--2014.html",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 8,
+      "slideTitle": "https:// www.census.gov /library/visualizations/2015/demo/distribution-of-household-income--2014.html",
+      "source": "slide"
+    },
+    {
+      "claim": "Measures of Central Tendency Example Dataset: 1, 1,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 10,
+      "slideTitle": "Measures of Central Tendency Example Dataset: 1, 1,",
+      "source": "slide"
+    },
+    {
+      "claim": "Which measure of central tendency should I use?",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=O5fhF1z_Uew",
+      "slideIndex": 11,
+      "slideTitle": "Which measure of central tendency should I use?",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "id": "2023-04-21-2023-04-21-ml-image-search-boris",
+  "date": "2023-04-21",
+  "title": "ML-Image-Search-Boris",
+  "series": "seminar",
+  "topics": [
+    "general",
+    "openai",
+    "google",
+    "rag",
+    "multimodal",
+    "open-models",
+    "infra"
+  ],
+  "video": {
+    "id": "nD9JecDdbTY",
+    "title": "Evolution of ML Image Search - April 21, 2023",
+    "url": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+    "thumbnail": "https://i.ytimg.com/vi/nD9JecDdbTY/hqdefault.jpg",
+    "duration": 2659
+  },
+  "deck": {
+    "path": "2023/2023-04-21-ML-Image-Search-Boris.pptx",
+    "filename": "2023-04-21-ML-Image-Search-Boris.pptx",
+    "title": "ML-Image-Search-Boris",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-04-21-ML-Image-Search-Boris.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-04-21-ML-Image-Search-Boris.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "<Untitled Chapter 1>",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "GetArchive's ML Stack",
+      "startSeconds": 101,
+      "label": "01:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Better Caption Generation",
+      "startSeconds": 896,
+      "label": "14:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Picryl Technology stack",
+      "startSeconds": 2133,
+      "label": "35:33",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Evolution of ML Search & Image Recognition",
+      "text": "Evolution of ML Search & Image Recognition"
+    },
+    {
+      "index": 2,
+      "title": "Boris Tolkachev New Jersey, USA Public domain media",
+      "text": "Boris Tolkachev New Jersey, USA Public domain media - 26 million of images PICRYL - https://picryl.com - provides access to millions of public domain objects and tools for efficient research https://www.linkedin.com/in/btolkachev https://getarchive.net/our-team https://picryl.com/about https://www.facebook.com/to.bo.90857 About the Speaker"
+    },
+    {
+      "index": 3,
+      "title": "GetArchive’s ML Stack Multilingual Semantic Search - Google",
+      "text": "GetArchive’s ML Stack Multilingual Semantic Search - Google AI - 2020 Multilingual Universal Sentence Encoder for Semantic Retrieval - Google AI, Google Cambridge The sentence embedding model achieves monolingual and cross-lingual semantic retrieval (SR) https://aclanthology.org/2020.acl-demos.12.pdf CLIP - OpenAI - 2021 (CLIP = Contrastive Language-Image Pretraining) CLIP is trained on 400M (image, text) pairs produces snippets \"without directly optimizing for  the task, similarly to the zero-shot capabilities of GPT-2 and 3.\" \"Zero-shot learning\" is when a model attempts to predict a class it saw zero times in the training data . Contrastive Language-Image Pre-Training) - the first multimodal (vision and text) model. BLIP- Salesforce - 2022 (BLIP = Bootstrapping Language-Image Pre-training) Vision-Language Pre-training (VLP) improvement has been largely achieved by scaling up the dataset with noisy image-text pairs collected from the web. BLIP utilizes the noisy web data by bootstrapping the captions, where a captioner generates synthetic captions and a filter removes the noisy ones. BLIP demonstrates strong generalization ability for both Understanding-based tasks and Generation-based tasks."
+    },
+    {
+      "index": 4,
+      "title": "Pre-trained CLIP model from Hugging Face https://huggingface.co/docs/transformers/model_doc/clip Picryl",
+      "text": "Pre-trained CLIP model from Hugging Face https://huggingface.co/docs/transformers/model_doc/clip Picryl Technology stack Linux servers with NVIDIA GPUs Pre-trained BLIP model from Hugging Face https://huggingface.co/docs/transformers/model_doc/blip Pre-trained Multilingual Semantic Search model from Google https://aclanthology.org/2020.acl-demos.12.pdf"
+    },
+    {
+      "index": 5,
+      "title": "Main Idea Images => text / labels text",
+      "text": "Main Idea Images   =>   text / labels text / labels   =>   Images Improve Search Train / Model"
+    },
+    {
+      "index": 6,
+      "title": "Old School, tags #marie+antoinette ~1K results, precise Evolution",
+      "text": "Old School, tags #marie+antoinette ~1K results, precise Evolution of Search: Semantic Fuzzy ElasticSearch + Google AI 2020 marie antoinette ~ 10K results, high % false-positive 2020 Semantic Search Retrieving in multilingual metadata Retrieving based on “context” … sort-of"
+    },
+    {
+      "index": 7,
+      "title": "Supervised GetArchive created more than 800 Supervised Datasets",
+      "text": "Supervised GetArchive created more than 800 Supervised Datasets #1920+cars #steam+locomotive #erotic+photography 2021 1st attempt in Image Recognition Evolution of Search: Image Once we train the model, we run all images against the label trained 1K -> QC -> 10K+"
+    },
+    {
+      "index": 8,
+      "title": "UnSupervised OpenAI CLIP + Custom 10,000 labels vs.",
+      "text": "UnSupervised OpenAI CLIP + Custom 10,000 labels vs. Supervised Google vision & “Web” vision 2022 Generating Metadata for Images"
+    },
+    {
+      "index": 9,
+      "title": "GetArchive’s SaaS Search Engine Picryl.com Image Understanding &",
+      "text": "GetArchive’s SaaS Search Engine Picryl.com Image Understanding & Image Search Approach - 2022 Use Google Semantic Search as an aid to Search ✅ Fed CLIP with custom classes relevant to our audience = industry-specific label sets ✅ Used CLIP to find visually similar image pairs (vector similarity) ✅ Combined Human Metadata, CLIP and [BLIP] outputs to improve Search ✅ Next: Image Caption Generation Combine Human Metadata, CLIP and BLIP outputs to generate niche-specific captions & descriptions through using open source Dolly 2.0 (Databricks) or similar model. Possibly, training GetArchive’s own model."
+    },
+    {
+      "index": 10,
+      "title": "GetArchive’s model should produce non-generic captions like: Marie-Antoinette",
+      "text": "GetArchive’s model should produce non-generic captions like: Marie-Antoinette d'Autriche, reine de France (1788) , artbase joconde, marie antoinette in riding habit wertmuller, yvelines, france, marie antoinette, queen of france https://picryl.com/media/adolf-ulrik-wertmuller-marie-antoinette-dautriche-reine-de-france-1788-001-535916 OpenAI CLIP Interrogator 2.1 - 2023 a painting of a woman with a hat on her head , a portrait, by Adélaïde Labille-Guiard, pinterest, rococo, wearing a light grey crown, big hair, dressed in shako, maria panfilova, powdered wig, bouquet, photo portrait, portrait c 12.0, portrait knight female, inspiring, ebony rococo https://huggingface.co/spaces/fffiloni/CLIP-Interrogator-2 Better Caption Generation"
+    },
+    {
+      "index": 11,
+      "title": "Picryl Live Demo",
+      "text": "Picryl Live Demo"
+    }
+  ],
+  "points": [
+    {
+      "claim": "<Untitled Chapter 1>",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Evolution of ML Search & Image Recognition",
+      "source": "youtube"
+    },
+    {
+      "claim": "GetArchive's ML Stack",
+      "topic": "general",
+      "videoSeconds": 101,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY&t=101s",
+      "slideIndex": 4,
+      "slideTitle": "Pre-trained CLIP model from Hugging Face https://huggingface.co/docs/transformers/model_doc/clip Picryl",
+      "source": "youtube"
+    },
+    {
+      "claim": "Better Caption Generation",
+      "topic": "general",
+      "videoSeconds": 896,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY&t=896s",
+      "slideIndex": 8,
+      "slideTitle": "UnSupervised OpenAI CLIP + Custom 10,000 labels vs.",
+      "source": "youtube"
+    },
+    {
+      "claim": "Picryl Technology stack",
+      "topic": "general",
+      "videoSeconds": 2133,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY&t=2133s",
+      "slideIndex": 11,
+      "slideTitle": "Picryl Live Demo",
+      "source": "youtube"
+    },
+    {
+      "claim": "Boris Tolkachev New Jersey, USA Public domain media",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 2,
+      "slideTitle": "Boris Tolkachev New Jersey, USA Public domain media",
+      "source": "slide"
+    },
+    {
+      "claim": "GetArchive’s ML Stack Multilingual Semantic Search - Google",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 3,
+      "slideTitle": "GetArchive’s ML Stack Multilingual Semantic Search - Google",
+      "source": "slide"
+    },
+    {
+      "claim": "Main Idea Images => text / labels text",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 5,
+      "slideTitle": "Main Idea Images => text / labels text",
+      "source": "slide"
+    },
+    {
+      "claim": "Old School, tags #marie+antoinette ~1K results, precise Evolution",
+      "topic": "gemini-google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 6,
+      "slideTitle": "Old School, tags #marie+antoinette ~1K results, precise Evolution",
+      "source": "slide"
+    },
+    {
+      "claim": "Supervised GetArchive created more than 800 Supervised Datasets",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 7,
+      "slideTitle": "Supervised GetArchive created more than 800 Supervised Datasets",
+      "source": "slide"
+    },
+    {
+      "claim": "GetArchive’s SaaS Search Engine Picryl.com Image Understanding &",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 9,
+      "slideTitle": "GetArchive’s SaaS Search Engine Picryl.com Image Understanding &",
+      "source": "slide"
+    },
+    {
+      "claim": "GetArchive’s model should produce non-generic captions like: Marie-Antoinette",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=nD9JecDdbTY",
+      "slideIndex": 10,
+      "slideTitle": "GetArchive’s model should produce non-generic captions like: Marie-Antoinette",
+      "source": "slide"
+    }
+  ]
+}

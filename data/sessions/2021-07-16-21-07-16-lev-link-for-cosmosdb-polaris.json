@@ -1,0 +1,98 @@
+{
+  "id": "2021-07-16-21-07-16-lev-link-for-cosmosdb-polaris",
+  "date": "2021-07-16",
+  "title": "Lev Link for CosmosDB Polaris",
+  "series": "data-science-2021",
+  "topics": [
+    "jobs",
+    "general",
+    "open-models"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Lev_Link_for_CosmosDB_Polaris.pptx",
+    "filename": "21-07-16-Lev_Link_for_CosmosDB_Polaris.pptx",
+    "title": "Lev Link for CosmosDB Polaris",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Lev_Link_for_CosmosDB_Polaris.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-07-16-Alex_Lev/21-07-16-Lev_Link_for_CosmosDB_Polaris.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Transactional Store, massive inserts, key-value (JSON doc) Analytical",
+      "text": "Transactional Store, massive inserts, key-value (JSON doc) Analytical Columnar Store Operational Data Configuring Synapse Link for Cosmos DB means enabling Analytical Store in Cosmos DB and enabling automatic sync of data into it. So you can use SQL to query data from Analytical Store without slowing down the Transactional Store. Cosmos DB Link for Cosmos DB Link for Cosmos DB Cosmos DB SQL Query Auto-Sync Power BI ML Studio Azure Synapse Analytics Azure Data Lake Storage (Files)"
+    },
+    {
+      "index": 2,
+      "title": "Question: How Link manages to do real-time replication?",
+      "text": "Question: How Link manages to do real-time replication? It is interesting because inserts into analytical DBs are usually very slow. Answer: (from a Microsoft architect): In a nutshell this is achieved using the combination of micro-batch jobs and mass parallel ingestion. As you know, Synapse doesn't perform well under transactional load due to variety of factors, but using Polybase removes these limitations. Think about repointing Polybase to some other source (other than ADLS for example). Some ideas around the actual implementation you can figure out using the Polaris public paper (2020, 50 authors, 13 pages) : - http://www.vldb.org/pvldb/vol13/p3204-saborit.pdf Here is the video walking through this Polaris paper explaining how the Azure Synapse serveless SQL engine works: - https://www.youtube.com/watch?v=IqjVZexHCcE Link for Cosmos DB – how it works"
+    },
+    {
+      "index": 3,
+      "title": "Here is a video showing how to configure",
+      "text": "Here is a video showing how to configure Link in Azure interface: - https://www.youtube.com/watch?v=UcYMgKpbdPk Configuring the \"Link\" is is simply enabling \"Analytical Store\" inside Cosmos DB, thus enabling replication from transactional to analytical parts of Cosmos DB. Then you can simply query the Analytical part using SQL from Synapse. Official docs: - https://docs.microsoft.com/en-us/azure/cosmos-db/analytical-store-introduction - https://docs.microsoft.com/en-us/azure/cosmos-db/synapse-link - https://docs.microsoft.com/en-us/azure/cosmos-db/configure-synapse-link Link for Cosmos DB – how it works Analytical Store"
+    },
+    {
+      "index": 4,
+      "title": ".NET Framework .NET = FCL + CLR FCL",
+      "text": ".NET Framework .NET = FCL + CLR FCL = Framework Class Library CLR = Common Language Runtime (virtual machine) VS GUI = Visual Studio VS Code = light open source editor for all platforms - https://code.visualstudio.com/ 2002 - .NET began as proprietary software 2016-2018 – open-sourced most of it - https://github.com/dotnet it runs on Windows, Linux, and Mac: - https://dotnet.microsoft.com/download // Program.cs // C# programming in .NET // to run it use command: dotnet run using System; namespace myApp { class Program { static void Main(string[] args ) { Console.WriteLine (\"Hello World!\"); Console.WriteLine (\"The current time is \" + DateTime.Now ); } } } - rw -r--r--  1 myuser staff   258B Jul 14 18:10 Program.cs drwxr - xr -x  3 myuser staff    96B Jul 14 18:09 bin/ - rw -r--r--  1 myuser staff   171B Jul 14 18:03 myApp.csproj drwxr - xr -x  8 myuser staff   256B Jul 14 18:09 obj/ Note – Synapse servers run Linux OS and .NET"
+    },
+    {
+      "index": 5,
+      "title": "Link for Cosmos DB – Continued Good people",
+      "text": "Link for Cosmos DB – Continued Good people to connect: Andrei Zaichikov (Luxembourg, Europe) - https://www.linkedin.com/in/zaychikov/ Aleksey Savateyev - https://www.linkedin.com/in/aleksey-s-7b0918/ - https://www.youtube.com/watch?v=8RiHSDf7xBs - https://azure.microsoft.com/en-us/blog/gain-insight-into-your-azure-cosmos-db-data-with-qlik-view-and-qlik-sense/ Kirill Gavrylyuk - director of Cosmos DB development: - https://www.linkedin.com/in/kirillgavrylyuk/ - https://www.youtube.com/watch?v=27SN1eyVn5k - https://www.youtube.com/watch?v=2gydxodDS_I - https://www.youtube.com/watch?v=rIjH24x19pQ Very interesting article about Cosmos DB and different architectures. - https://www.linkedin.com/pulse/how-select-proper-data-backend-technology-azure-andrei-zaichikov/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Transactional Store, massive inserts, key-value (JSON doc) Analytical",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Transactional Store, massive inserts, key-value (JSON doc) Analytical",
+      "source": "slide"
+    },
+    {
+      "claim": "Question: How Link manages to do real-time replication?",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Question: How Link manages to do real-time replication?",
+      "source": "slide"
+    },
+    {
+      "claim": "Here is a video showing how to configure",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Here is a video showing how to configure",
+      "source": "slide"
+    },
+    {
+      "claim": ".NET Framework .NET = FCL + CLR FCL",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": ".NET Framework .NET = FCL + CLR FCL",
+      "source": "slide"
+    },
+    {
+      "claim": "Link for Cosmos DB – Continued Good people",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Link for Cosmos DB – Continued Good people",
+      "source": "slide"
+    }
+  ]
+}

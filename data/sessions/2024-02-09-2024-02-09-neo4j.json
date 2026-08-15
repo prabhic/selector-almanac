@@ -1,0 +1,301 @@
+{
+  "id": "2024-02-09-2024-02-09-neo4j",
+  "date": "2024-02-09",
+  "title": "2024-02-09 Neo4J",
+  "series": "seminar",
+  "topics": [
+    "agents",
+    "jobs",
+    "open-models",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "XxW-Fcl4acM",
+    "title": "Have you heard these exciting AI news? - February 09, 2024 - AI Google Gemini App",
+    "url": "https://www.youtube.com/watch?v=XxW-Fcl4acM",
+    "thumbnail": "https://i.ytimg.com/vi/XxW-Fcl4acM/hqdefault.jpg",
+    "duration": 1106
+  },
+  "deck": {
+    "path": "2024/2024-02-09_Neo4J.pptx",
+    "filename": "2024-02-09_Neo4J.pptx",
+    "title": "2024-02-09 Neo4J",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-02-09_Neo4J.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-02-09_Neo4J.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Languages",
+      "startSeconds": 94,
+      "label": "01:34",
+      "source": "youtube"
+    },
+    {
+      "title": "Humanoid robots",
+      "startSeconds": 146,
+      "label": "02:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Miscellaneous",
+      "startSeconds": 185,
+      "label": "03:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba",
+      "startSeconds": 332,
+      "label": "05:32",
+      "source": "youtube"
+    },
+    {
+      "title": "DSPY",
+      "startSeconds": 411,
+      "label": "06:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Char GPT",
+      "startSeconds": 478,
+      "label": "07:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Semantic Routing Router",
+      "startSeconds": 569,
+      "label": "09:29",
+      "source": "youtube"
+    },
+    {
+      "title": "More stuff",
+      "startSeconds": 761,
+      "label": "12:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Ensemble of agents",
+      "startSeconds": 852,
+      "label": "14:12",
+      "source": "youtube"
+    },
+    {
+      "title": "Layoffs",
+      "startSeconds": 970,
+      "label": "16:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Hugging Face Leaderboard",
+      "startSeconds": 1003,
+      "label": "16:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowdsource",
+      "startSeconds": 1046,
+      "label": "17:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Leaderboard",
+      "startSeconds": 1081,
+      "label": "18:01",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Neo4j Graph Database February 09, 2024",
+      "text": "Neo4j Graph Database February 09, 2024"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "Neo4j https://neo4j.com https://en.wikipedia.org/wiki/Neo4j https://neo4j.com/download/ Neo4j is a graph",
+      "text": "Neo4j https://neo4j.com https://en.wikipedia.org/wiki/Neo4j https://neo4j.com/download/ Neo4j is a graph database management system Developed by Neo4j, Inc. Since 2007, v.1 - 2010, current v.5.16 Neo4j stores nodes, edges, and attributes of nodes and edges. ACID-compliant transactional database \"community edition\" is open source advanced features - closed source commercial license Neo4j is written in Java (\"4j\") uses Cypher query language through a transactional HTTP endpoint uses the binary \"Bolt\" protocol Neo4j Graph DB - deploy anywhere Neo4j AuraDB - managed (SaaS) on AWS or GCP Neo4j Graph Data Science (platform) Deployment Center Dev Tools: Desktop, Browser , Data Importer Workspace: Import, Explore, Query Bloom - graph visualization GraphQL - API library Data Connectors: Apache Kafka, Spark, BI Tools Cypher Query Language Choosing the Right Client Neo4j Browser or Neo4j Desktop - ad-hoc queries, schema exploration Cypher Shell - run commands in terminal Programming language drivers."
+    },
+    {
+      "index": 4,
+      "title": "Types of Databases Relational SQL database NoSQL database",
+      "text": "Types of Databases Relational SQL database NoSQL database Object database Document databases Hierarchical database Key-value databases Graph database Vector database OLTP vs OLAP Columnar databases Data warehouses Document stores https://yottadb.com/use-cases/universal-nosql/"
+    },
+    {
+      "index": 5,
+      "title": "Neo4j Clients Neo4j Browser Neo4j Bloom Neo4j Desktop",
+      "text": "Neo4j Clients Neo4j Browser Neo4j Bloom Neo4j Desktop https://neo4j.com/developer/neo4j-bloom/ Great for visualizing and exploration. A user can define rules for size and color of nodes"
+    },
+    {
+      "index": 6,
+      "title": "CQL = Cypher Query Language // 1. Create",
+      "text": "CQL = Cypher Query Language // 1. Create a single node with properties: CREATE (p:Person {name: 'Alice', age: 30}) // 2. Create a relationship between nodes: MATCH (a:Person {name: 'Alice'}), (b:Person {name: 'Bob'}) CREATE (a)-[:FRIENDS_WITH]->(b) // 3. Find a node by property: MATCH (p:Person {name: 'Alice'}) RETURN p // 4. Update a node's property: MATCH (p:Person {name: 'Alice'}) SET p.age = 31 // 5. Add a label to a node: MATCH (p:Person {name: 'Alice'}) SET p:Friend // 6. Remove a property from a node: MATCH (p:Person {name: 'Alice'}) REMOVE p.age // 7. Delete a node (when no relationships): MATCH (p:Person {name: 'Alice'}) DELETE p // 15. Skip results (useful for pagination): MATCH (p:Person) RETURN p.name ORDER BY p.name SKIP 5 LIMIT 5 // 16. Create a unique path (if it doesn't exist): MERGE (p:Person {name: 'Alice'}) ON CREATE SET p.created = timestamp() // 17. Set multiple properties on a node (with a map): MATCH (p:Person {name: 'Alice'}) SET p += {email: 'alice@example.com', city: 'London'} // 18. Pattern matching to find complex relationships: MATCH (p:Person)-[:FRIENDS_WITH*2]->(friend) WHERE p.name = 'Alice' RETURN p.name, friend.name // 19. Delete a relationship: MATCH (p:Person)-[rel:FRIENDS_WITH]->(friend {name: 'Bob'}) DELETE rel // 20. Find shortest path between two nodes: MATCH (start:Person {name: 'Alice'}), (end:Person {name: 'Bob'}), path = shortestPath((start)-[*..15]-(end)) RETURN path // 8. Find nodes related by a specific relationship: MATCH (p:Person)-[:FRIENDS_WITH]->(friend) RETURN p.name, friend.name // 9. Return nodes and relationships together: MATCH path = (p:Person)-[:FRIENDS_WITH]->(friend) RETURN path // 10. Conditional query with `WHERE`: MATCH (p:Person) WHERE p.age > 25 RETURN p.name, p.age // 11. Return count of nodes: MATCH (p:Person) RETURN count(p) // 12. Aggregate data with `GROUP BY` equivalent: MATCH (p:Person) RETURN p.age, count(*) AS num_people // 13. Order results: MATCH (p:Person) RETURN p.name, p.age ORDER BY p.age DESC // 14. Limit the number of results returned: MATCH (p:Person) RETURN p.name ORDER BY p.name LIMIT 5 20 short examples of Neo4j Cypher queries"
+    },
+    {
+      "index": 7,
+      "title": "Storing and Querying Embeddings in Neo4j Neo4j supports",
+      "text": "Storing and Querying Embeddings in Neo4j Neo4j supports array properties CREATE (n:Item {embedding: [0.12, 0.23, 0.34, ..., 0.56]}) but similarity search on them was slow. August 2023 - Neo4j added native vector similarity search : https://neo4j.com/blog/vector-search-deeper-insights/ https://neo4j.com/docs/cypher-manual/current/indexes/semantic-indexes/vector-indexes/ Example: work with the index from LangChain: https://neo4j.com/developer-blog/neo4j-langchain-vector-index-implementation/ https://neo4j.com/developer-blog/langchain-library-full-support-neo4j-vector-index/ // similarity search for 5 top matches // similar to $embedding vector // searching in vector index called 'products': CALL db.index.vector.queryNodes('products', 5, $embedding) yield node as product, score // enrich with explicit relationships from Knowledge Graph MATCH (product)-[:HAS_CATEGORY]->(cat), (product)-[:BY_BRAND]->(brand) OPTIONAL MATCH (product)<-[:BOUGHT]-(customer)-[rated:RATED]->(product) WHERE rated.rating = 5 OPTIONAL MATCH (product)-[:HAS_REVIEW]->(review)<-[:WROTE]-(customer) RETURN product.Name, product.Description, brand.Name, cat.Name, collect(review { .Date, .Text })[0..5] as reviews Neo4j vector indexes are powered by the Apache Lucene indexing and search library . https://lucene.apache.org - Ultra Fast Search Library Lucene implements a Hierarchical Navigable Small World (HNSW) Graph to perform a K-ANN (K-Approximate Nearest Neighbors) query over the vector fields. Vectors can be stored as floats or doubles (4 or 8  bytes) To have 4 bytes, use db.create.setNodeVectorProperty() Unfortunately smaller precisions are not supported yet. CREATE VECTOR INDEX ' abstract-embeddings ' FOR (n: Abstract) ON (n.embedding) OPTIONS {indexConfig: { ' vector.dimensions ': 1536, ' vector.similarity_function ': 'cosine' }}"
+    },
+    {
+      "index": 8,
+      "title": "Scaling Neo4j Neo4j Enterprise Edition supports a distributed",
+      "text": "Scaling Neo4j Neo4j Enterprise Edition supports a distributed architecture (multiple servers). You can partition graph across multiple servers (manual or automatic partitioning). Optimize configuration: memory allocation, page cache size, and transaction log management. Optimize indexes for specific queries. Use Neo4j's native full-text search, or use Elasticsearch for performance. Neo4j does NOT support AWS S3. You can use S3 to store backups: neo4j-admin backup --backup-dir /mypath/ --database=graph.db aws s3 cp /mypath/ s3://your-s3-bucket-name --recursive neo4j-admin restore --from=/mypath/ --database=graph.db Monitoring and performance tuning (tweaking configuration settings, optimizing queries, or adding additional hardware resources to the system). Minimal Server: 8+ CPU cores 8GB+ RAM (1GB per 100K nodes in graph) Disk: depends on graph size GPU - not required Capacity Planning Example: https://neo4j.com/developer/kb/capacity-planning-example/ 200 users; 75 M nodes; 150 M relationships; 5 prop/node, 2 prop/relationship; 200 queries/sec; Indexes ~ 20%; estimated disk - ~40GB So we need server: 20 vCPU cores, 100GB RAM Adding embedding vector [1536 dim] at standard float (32bit) precision. So a vector is ~ 6KB. This effectively increases properties size x150 fold (from 40B to 6KB). So we estimate 6TB disk, 3K vCPUs and 15TB memory? Wow! We either need a distributed system, or use alternatives which do support int8 ( 8-bit) precision: OpenSearch v 2.9 (July 2023) https://opensearch.org/blog/byte-quantized-vectors-in-opensearch/ Vespa vector DB . Apache Lucene is adding int8 as of Nov 2023 . Elasticsearch & OpenSearch (AWS) are using Apache Lucene, so they should have int8 precision soon. FAISS has support for compressing to 1-byte."
+    },
+    {
+      "index": 9,
+      "title": "Installing Neo4j on Linux https://www.techrepublic.com/article/how-to-install-neo4j-ubuntu-server/ sudo apt-get update",
+      "text": "Installing Neo4j on Linux https://www.techrepublic.com/article/how-to-install-neo4j-ubuntu-server/ sudo apt-get update && sudo apt-get upgrade -y # and then reboot sudo apt-get install wget curl nano software-properties-common dirmngr apt-transport-https gnupg gnupg2 ca-certificates lsb-release ubuntu-keyring unzip -y # add the official Neo4j GPG key: curl -fsSL https://debian.neo4j.com/neotechnology.gpg.key | sudo gpg --dearmor -o /usr/share/keyrings/neo4j.gpg # Add the Neo4j repository with: echo \"deb [signed-by=/usr/share/keyrings/neo4j.gpg] https://debian.neo4j.com stable latest\" | sudo tee -a /etc/apt/sources.list.d/neo4j.list # Update apt and run install: sudo apt-get update sudo apt-get install neo4j -y # start service: sudo systemctl enable --now neo4j sudo systemctl start neo4j sudo systemctl status neo4j sudo nano /etc/neo4j/neo4j.conf # edit config server.default_listen_address=0.0.0.0 sudo systemctl restart neo4j sudo nano /etc/hosts cypher-shell -a 'neo4j://192.168.1.7:7687' # test sudo neo4j-admin set-initial-password mypassword Note: default user is \" neo4j\" Access the Neo4j web interface: http://localhost:7474 http://your_server_ip:7474"
+    },
+    {
+      "index": 10,
+      "title": "Neo4j from Python # pip install neo4j from",
+      "text": "Neo4j from Python # pip install neo4j from neo4j import GraphDatabase uri = \" neo4j://localhost:7687 \" username = \" neo4j \" password = \" password \" driver = GraphDatabase.driver(uri, auth=(username, password)) def insert_data(tx): query = (\"\"\" CREATE (a:Person {name: 'Alice', age: 32}), (b:Person {name: 'Bob'  , age: 28}), (a)-[:KNOWS]->(b) \"\"\") tx.run(query) def run_query(tx): query = \"\"\" MATCH (p:Person) WHERE p.age <= 30 RETURN p.name AS name, p.age AS age\"\"\" result = tx.run(query) for record in result: print(f\"Name: {record['name']}, Age: {record['age']}\") with driver.session() as session: session.write_transaction(insert_data) session.read_transaction(run_query) driver.close()"
+    },
+    {
+      "index": 11,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Neo4j Graph Database February 09, 2024",
+      "source": "youtube"
+    },
+    {
+      "claim": "Languages",
+      "topic": "general",
+      "videoSeconds": 94,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=94s",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Humanoid robots",
+      "topic": "general",
+      "videoSeconds": 146,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=146s",
+      "slideIndex": 3,
+      "slideTitle": "Neo4j https://neo4j.com https://en.wikipedia.org/wiki/Neo4j https://neo4j.com/download/ Neo4j is a graph",
+      "source": "youtube"
+    },
+    {
+      "claim": "Miscellaneous",
+      "topic": "general",
+      "videoSeconds": 185,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=185s",
+      "slideIndex": 3,
+      "slideTitle": "Neo4j https://neo4j.com https://en.wikipedia.org/wiki/Neo4j https://neo4j.com/download/ Neo4j is a graph",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba",
+      "topic": "general",
+      "videoSeconds": 332,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=332s",
+      "slideIndex": 4,
+      "slideTitle": "Types of Databases Relational SQL database NoSQL database",
+      "source": "youtube"
+    },
+    {
+      "claim": "DSPY",
+      "topic": "general",
+      "videoSeconds": 411,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=411s",
+      "slideIndex": 5,
+      "slideTitle": "Neo4j Clients Neo4j Browser Neo4j Bloom Neo4j Desktop",
+      "source": "youtube"
+    },
+    {
+      "claim": "Char GPT",
+      "topic": "general",
+      "videoSeconds": 478,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=478s",
+      "slideIndex": 6,
+      "slideTitle": "CQL = Cypher Query Language // 1. Create",
+      "source": "youtube"
+    },
+    {
+      "claim": "Semantic Routing Router",
+      "topic": "general",
+      "videoSeconds": 569,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=569s",
+      "slideIndex": 6,
+      "slideTitle": "CQL = Cypher Query Language // 1. Create",
+      "source": "youtube"
+    },
+    {
+      "claim": "More stuff",
+      "topic": "general",
+      "videoSeconds": 761,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=761s",
+      "slideIndex": 7,
+      "slideTitle": "Storing and Querying Embeddings in Neo4j Neo4j supports",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ensemble of agents",
+      "topic": "agents",
+      "videoSeconds": 852,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=852s",
+      "slideIndex": 8,
+      "slideTitle": "Scaling Neo4j Neo4j Enterprise Edition supports a distributed",
+      "source": "youtube"
+    },
+    {
+      "claim": "Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 970,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=970s",
+      "slideIndex": 9,
+      "slideTitle": "Installing Neo4j on Linux https://www.techrepublic.com/article/how-to-install-neo4j-ubuntu-server/ sudo apt-get update",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hugging Face Leaderboard",
+      "topic": "open-models",
+      "videoSeconds": 1003,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=1003s",
+      "slideIndex": 9,
+      "slideTitle": "Installing Neo4j on Linux https://www.techrepublic.com/article/how-to-install-neo4j-ubuntu-server/ sudo apt-get update",
+      "source": "youtube"
+    },
+    {
+      "claim": "Crowdsource",
+      "topic": "general",
+      "videoSeconds": 1046,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=1046s",
+      "slideIndex": 10,
+      "slideTitle": "Neo4j from Python # pip install neo4j from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1081,
+      "videoUrl": "https://www.youtube.com/watch?v=XxW-Fcl4acM&t=1081s",
+      "slideIndex": 11,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    }
+  ]
+}

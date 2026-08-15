@@ -1,0 +1,317 @@
+{
+  "id": "2023-11-24-2023-11-24-ai-updates",
+  "date": "2023-11-24",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "jobs",
+    "safety",
+    "claude",
+    "open-models",
+    "general",
+    "benchmarks",
+    "fine-tuning",
+    "openai",
+    "google",
+    "multimodal",
+    "infra",
+    "rag",
+    "agents"
+  ],
+  "video": {
+    "id": "dGs9ZHnemkk",
+    "title": "AI Updates - November 24, 2023 - Microsoft Orca-2, OpenAI scandal, ChatML, data formats, and more",
+    "url": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+    "thumbnail": "https://i.ytimg.com/vi/dGs9ZHnemkk/hqdefault.jpg",
+    "duration": 2248
+  },
+  "deck": {
+    "path": "2023/2023-11-24-AI-Updates.pptx",
+    "filename": "2023-11-24-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-11-24-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-11-24-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates November 24, 2023 Anthropic Claude 2.1",
+      "text": "AI Updates November 24, 2023 Anthropic Claude 2.1 Inflection-2 - Pi Microsoft Orca-2 Reinforcement Learning, Q* Hype HuggingFace LLM Leaderboard OpenAI scandal Poe = Platform for Open Exploration Using Assistants API Types of LLMs and datasets Chat Markup Language (ChatML) Llama 2  & Mistral data formats Model and dataset file formats OpenOrca, OpenPlatypus, Dolphin Datasets, Translation Training PyTorch examples Fine-tune llama-2 model on OpenOrca dataset Creating instruct dataset from a book Creating and OpenAI Assistant Multiple GPUs, SLI Bridge, NVLink XoT : a new prompting technique"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 3,
+      "title": "https://www.anthropic.com/index/claude-2-1 Latest release Claude 2.1: increase context (doubles",
+      "text": "https://www.anthropic.com/index/claude-2-1 Latest release Claude 2.1: increase context (doubles it) from 100K to 200K tokens (~400-500 pages) \"Our users can now upload technical documentation like entire codebases, financial statements like S-1s, or even long literary works like The Iliad or The Odyssey. By being able to talk to large bodies of content or data, Claude can summarize, perform Q&A, forecast trends, compare and contrast multiple documents, and much more.\" 2x Decrease in Hallucination Rates beta support for third-party APIs: Using a calculator for complex numerical reasoning Translating natural language requests into API calls Answering questions by searching databases or using a web search Taking simple actions in software via private APIs Connecting to product datasets to make recommendations and help users complete purchases Anthropic Claude 2.1 There are also open-source long-context models: Yi-34B-200K - https://huggingface.co/01-ai/Yi-34B-200K Yarn-Mistral-7B-128K - https://huggingface.co/NousResearch/Yarn-Mistral-7b-128k"
+    },
+    {
+      "index": 4,
+      "title": "inflection.ai - Inflection-2 Inflection AI, Inc. is a",
+      "text": "inflection.ai - Inflection-2 Inflection AI, Inc. is a ML startup founded by Reid Hoffman, Mustafa Suleyman (CEO), Karén Simonyan in 2022 (CA), raised $225M + $1.3 Bln Created Pi chatbot, https://heypi.com - supportive and friendly. Pi = \"Personal intelligence\" because it learns person’s unique interests and needs. Inflection-2 is the latest model to power the \"Pi\". It was trained on 5K H100 GPUs (and building training facility with 22K GPUs !) Closed source. 100s of Billions of parameters https://inflection.ai https://github.com/topics/inflection-ai https://en.wikipedia.org/wiki/Inflection_AI https://pi.ai/onboarding"
+    },
+    {
+      "index": 5,
+      "title": "Orca-2 Orca-2 by Microsoft - open-source! paper -",
+      "text": "Orca-2 Orca-2 by Microsoft - open-source! paper - https://arxiv.org/abs/2311.11045 announcement - https://www.microsoft.com/en-us/research/blog/orca-2-teaching-small-language-models-how-to-reason/ Orca 2 comes in two sizes (7 billion and 13 billion parameters); https://huggingface.co/microsoft/Orca-2-13b (86 place) https://huggingface.co/microsoft/Orca-2-7b (261 place) both are created by fine-tuning the corresponding LLAMA 2 base models on tailored, high-quality synthetic data. weights are open-sourced Note - Currently there are versions of 7b Mistral-based models available which are better (on 61, 63 places of Open LLM Leaderboard) and smaller than Orca-2-13b"
+    },
+    {
+      "index": 6,
+      "title": "Large-scale pancreatic cancer detection via non-contrast CT and",
+      "text": "Large-scale pancreatic cancer detection via non-contrast CT and deep learning - https://www.nature.com/articles/s41591-023-02640-w PANDA ( Pan creatic cancer D etection with A rtificial intelligence) - trained on 3,208 patients and validated on 6,239 patients across 10 centers, outperforms the mean radiologist performance by 34.1% in sensitivity and 6.3% in specificity. Misc Microsoft’s new Windows AI Studio lets developers access and configure AI models, such as Microsoft’s Phi, Meta’s Llama 2, and Mistral . Google has postponed the launch of its LLM Gemini until Q1 of 2024 due to concerns about its ability to match or surpass OpenAI's GPT-4 Make inference faster by using \" Lookahead Decoding \" https://lmsys.org/blog/2023-11-21-lookahead-decoding/ ... generate multiple disjoint n-grams in parallel. These n-grams could potentially fit into future parts of the generated sequence. This is achieved by viewing autoregressive decoding as solving nonlinear equations, and adapting the classic Jacobi iteration method for parallel decoding. The generated n-grams are captured and later verified, if suitable, integrated into the sequence. Stable Video Diffusion https://stability.ai/news/stable-video-diffusion-open-ai-video-model https://github.com/Stability-AI/generative-models https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt https://kyutai.org - kyutai = Open Science AI Lab , $300 Mln funding ChatGPT Voice rolled out for all free users. Give it a try - totally changes the ChatGPT experience OpenChat 3.5 is the first 7B model that achieves comparable results with ChatGPT! openchat/openchat_3.5 https://huggingface.co/openchat/openchat_3.5"
+    },
+    {
+      "index": 7,
+      "title": "https://towardsdatascience.com/which-quantization-method-is-right-for-you-gptq-vs-gguf-vs-awq-c4cd9d77d5be Which Quantization Method is Right for You?",
+      "text": "https://towardsdatascience.com/which-quantization-method-is-right-for-you-gptq-vs-gguf-vs-awq-c4cd9d77d5be Which Quantization Method is Right for You? (GPTQ vs. GGUF vs. AWQ) Misc 2 https://blog.gopenai.com/openai-assistants-api-a-to-z-practitioners-guide-to-code-interpreter-knowledge-retrieval-and-33c1979c5d7d OpenAI Assistants API   A to Z Venture Capitalists Using AI To Invest More Effectively https://www.entrepreneur.com/money-finance/how-venture-capitalists-are-using-ai-to-invest-and-make/465130 AI for sourcing and screening startups, classifying them, diversity, monitoring startups with high potential https://towardsdatascience.com/tsmixer-the-latest-forecasting-model-by-google-2fd1e29a8ccb - long-horizon multivariate forecasting TSMixer: The Latest Forecasting Model by Google LLMs are doing string manipulation - which is not the same as \"understanding\". Ways to improve - Knowledge Graphs, Vector Databases, Reinforcement Learning Google Bard can give a summary from a YouTube video link Prompt: Can you make a summary of this video; https://www.youtube.com/watch?v=qrvK_KuIeJk Andrej Karpathy - Intro to LLMs (1 hr) https://www.youtube.com/watch?v=zjkBMFhNj_g - Yann LeCun: Current LLMs are trained on text data that would take 20,000 years for a human to read. And still, they haven't learned that if A is the same as B, then B is the same as A. Humans get a lot smarter than that with comparatively little training data. Even corvids, parrots, dogs, and octopuses get smarter than that very, very quickly"
+    },
+    {
+      "index": 8,
+      "title": "Reinforcement learning (RL) is a ML technique to",
+      "text": "Reinforcement learning (RL) is a ML technique to train an \"agent\" to achieve optimal results (Examples: playing games, robotics, self-driving cars). RL is based on rewarding desired behaviors and punishing undesired ones. The training is done through trial and error, similar to how humans learn. The four main sub-elements of a reinforcement learning system are: Agent, Environment, Policy, Reward signal . A software agent selects actions using a map called \" policy \". The policy map gives the probability of taking action \"a\" when in a certain state \"s\". Deep Q-Learning: (Watkins 1989, DeepMind 2014) - Learn Q-function to maximize the expected value of the total reward over all successive steps. The value function estimates how good it is to be in a given state . The goal is to find a policy with maximum expected cumulative return . Actor-Critic Architecture: the actor - tunes the parameter 𝜽 for the policy function (decide the best action for a specific state). The critic is used for evaluating the policy function estimated by the actor according to the T emporal D ifference (TD) error (TD = difference between estimated reward and actual reward received). The exploration vs. exploitation trade-off . Multi-armed bandit problem in finite MDPs (Markov Decision Processes). One-armed bandit - a slot machine with some probability distribution of the reward. Multi-armed bandit - several slot machines available. your goal is to increase reward by allocating your actions between alternative choices. Reinforcement Learning (RL) = \"Good puppy ...\" learning."
+    },
+    {
+      "index": 9,
+      "title": "Rich Sutton, the Father of Reinforcement Learning (RL),",
+      "text": "Rich Sutton, the Father of Reinforcement Learning (RL),  Temporal Difference (TD) learning and policy gradient methods. PhD (1984) in Computer science \"Temporal Credit Assignment in Reinforcement Learning\", where he introduced actor-critic architectures and \"temporal credit assignment\". Since 2003 - in Alberta, Canada. Since 2017 - Google DeepMind in Alberta, Canada Book (1998) : Reinforcement Learning Home page - http://www.incompleteideas.net/ - Interview: https://www.kdnuggets.com/2017/12/interview-rich-sutton-reinforcement-learning.html YouTube: https://www.youtube.com/watch?v=QqLcniN2VAk \" Reinforcement Learning is learning from rewards, by trial and error, during normal interaction with the world. This makes it very much like natural learning processes and unlike supervised learning (in which learning only happens during the training phase).\" \"Deep reinforcement learning is the combination of deep learning and reinforcement learning.\" \"... reinforcement learning is the future of AI. Reinforcement learning is the best representative of the idea that an intelligent system must be able to learn on its own, without constant supervision.\" \" … the key is to learn from ordinary unsupervised data. … in the near term this will be done by focusing on \"prediction learning\". Prediction learning may shortly become a strong buzzword. \" \" … a next big step will come when we have systems that plan with a learned model of the world … \""
+    },
+    {
+      "index": 10,
+      "title": "Q* Hype Hype explanation by AbdulMajed (1littlecoder) with",
+      "text": "Q* Hype Hype explanation by AbdulMajed (1littlecoder) with links: https://www.youtube.com/watch?v=mtH6-iWEL0E Yann LeCun Tweet: https://twitter.com/ylecun/status/1728126868342145481 Q-learning in RL is a model-free algorithm to learn the value of an action in a particular state https://en.wikipedia.org/wiki/Q-learning Q-learning - https://www.youtube.com/watch?v=aCEvtRtNO-M - Siraj Raval, 2017 As the size of the action space grows (more and more possible actions), you can start using A* search algorithm to guide the search. Q* is an alternative algorithm that uses deep Q-networks to guide search. It significantly reduces computation time and requires only one node to be generated per iteration A* Search paper (2023) introducing Q* - https://arxiv.org/pdf/2102.04518.pdf John Schulman (OpenAI, 2016) explains Q* - https://www.youtube.com/watch?v=PtAIh9KSnjo&t=3780s Hype: OpenAI secretly achieved AGI (Artificial General Intelligence). The new model dubbed Q* demonstrated internal capabilities of doing simple math ... Reality: Q* is a term from Deep Reinforcement Learning (RL) , which was used for years. It is not new. It is possible that OpenAI is actively working on combining RL with LLM. To replace Auto-Regressive token prediction with planning. All top research labs are working on that (FAIR, DeepMind, OpenAI, etc)."
+    },
+    {
+      "index": 11,
+      "title": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "text": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py Three More Tests (4 -> 7): ARC (AI2 Reasoning Challenge) grade-school science HellaSwag - common sense inference MMLU - math, history, comp-science, law, ... TruthfulQA - model's propensity to reproduce common falsehoods Winogrande - large version of Winograd test ( https://arxiv.org/abs/1907.10641 ), an adversarial and difficult test for commonsense reasoning GSM8k - diverse grade school math word problems DROP - English reading comprehension (Discrete Reasoning Over Paragraphs) Top model is only 34B parameters ! Rank Model Aver Precision Nparam 0 01-ai/Yi-34B 68.68 16bit 30 1 MayaPH/GodziLLa2-70B 67.01 16bit 70 2 sequelbox/StellarBright 66.98 16bit 70 27 OpenBuddy/openbuddy-falcon-180b-v13-preview0 64.3 8bit 179 61 Intel/neural-chat-7b-v3-1 59.06 16bit 7 63 lvkaokao/mistral-7b-finetuned-orca-dpo-v2 59.06 16bit 7 86 microsoft/Orca-2-13b 58.05 16bit 13 98 Intel/neural-chat-7b-v3-1 57.5 4bit 7 157 meta-llama/Llama-2-70b-chat-hf 54.98 16bit 70 172 NeverSleep/Mistral-11B-SynthIAirOmniMix 54.56 16bit 11 174 Open-Orca/Mistral-7B-OpenOrca 54.51 16bit 7 261 microsoft/Orca-2-7b 53.02 16bit 7 345 Enno-Ai/vigogne2-enno-13b-sft-lora-4bit 51.79 4bit 13 368 ValiantLabs/ShiningValiantXS 51.47 16bit 13 483 mistralai/Mistral-7B-v0.1 50.32 16bit 7 1196 Phind/Phind-CodeLlama-34B-v2 37.15 16bit 30 1753 wtang06/mpt-125m-c4 17.2 16bit 0.12"
+    },
+    {
+      "index": 12,
+      "title": "Sam Altman was fired by OpenAI board. Greg",
+      "text": "Sam Altman was fired by OpenAI board. Greg Brockman was dismissed, and left. More than 97% of OpenAI employees (747+ out of 770) protested against the Board's decision, calling it incompetent - and threatening to quit and follow Sam. Microsoft offered Sam an the whole team to join Microsoft. This would mean OpenAI losing all its core talent, and Billions of dollars in valuation. OpenAI investors started investigation to protect their investments. Law enforcement and government agencies started looking into the matter too. It looks like this whole firing decision was initiated by Board member Helen Toner. But she still couldn't provide any evidence of any wrongdoing by Sam or Greg. So the old Board was fired. Sam and Greg are now back at Open AI. lya Sutskever still with OpenAI - but not on the new Board. Adam D’Angelo remains on the new Board - along with Bret Taylor (Chair) and Larry Summers. OpenAI scandal - Firday Nov 17, 2023 .. Nov 22 Sam Altman OpenAI CEO Greg Brockman OpenAI President The company was originally founded in 2015 by: Sam Altman (president of YCombinator), Elon Musk, Ilya Sutskever (Ph.D. under  Geoffrey Hinton, Google Brain), Greg Brockman (CTO of Stripe), also Trevor Blackwell, Vicki Cheung, Andrej Karpathy, Durk Kingma, Jessica Livingston, John Schulman, Pamela Vagata, Wojciech Zaremba. Sam Altman and Elon Musk were original co-chairs of the Board. Musk left in 2018 to avoid a conflict of interest with Tesla."
+    },
+    {
+      "index": 13,
+      "title": "POE = Platform for Open Exploration https://poe.com https://en.wikipedia.org/wiki/Poe_(software)",
+      "text": "POE = Platform for Open Exploration https://poe.com https://en.wikipedia.org/wiki/Poe_(software) Poe is a service developed by Quora and launched in December 2022. It allows users to ask questions and obtain answers from a range of AI bots For some bots you need paid subscription (GPT-4, Claude+, ...) Supported chatbots: OpenAI - gpt-3.5-turbo, gpt-4, gpt-3.5-turbo-16k, gpt-4-32k Anthropic Claude-2-100k, Claude-instant, Claude-instant-100k Meta Llama-2-7b, 13b, 70b Google PaLM Poe = Platform for Open Exploration Adam D’Angelo Quora CEO Poe"
+    },
+    {
+      "index": 14,
+      "title": "Other platforms: https://www.runpod.io - RunPod - cloud, train",
+      "text": "Other platforms: https://www.runpod.io - RunPod - cloud, train and run AI https://colab.research.google.com - Google CoLab - write, run, and share python code Using Assistants API Liam Ottley How to Add Custom GPTs to Any Website in Minutes (OpenAI GPTs Tutorial - Using Assistants API ) https://www.youtube.com/watch?v=Uk5f3ajkfSs https://replit.com - Replit - since 2016, write code, share/collaborate"
+    },
+    {
+      "index": 15,
+      "title": "LLM always predicts the next tokens given a",
+      "text": "LLM always predicts the next tokens given a sequence of tokens before \"Base\" models are trained on a wide variety of different unstructured texts generic self-superivsed \"completion\" (data point = text) completin example:  The capital of Belgium is ...  Brussels supervised - instruct models - trained on instruction–response pairs (data point = tuple: (input-output), (instruction-response), (instruction, input, response)) chat - trained on multi-turn conversation (data point: 2 roles, several chats back and forth) ChatGPT: 3 standard roles: system, user, assistant Example of a completion prompt: \"\"\"User: here is a sentence, the Assistant's task is to identify all proper nouns. Jack lives in Bosnia, and Jill lives in Belgium. Assistant: \"\"\" IFT = Instruction Fine Tuning [User] What is the capital of Belgium?    [Assistant] The capital of Belgium is Brussels. or [User] In the text below, find all proper nouns:    Jack lives in Bosnia, and Jill lives in Belgium. [Assistant] John, Bosnia, Jill, Belgium are all proper nouns. [User] Where does John live?    [Assistant] John lives in Bosnia. Types of LLMs and datasets"
+    },
+    {
+      "index": 16,
+      "title": "ChatML is a markup language used to annotate",
+      "text": "ChatML is a markup language used to annotate chat conversations for training chatbots and other conversational AI systems. A simple ChatML example could look like: <user> What's the weather in <entity> London </entity> today? </user> <assistant> <dact> answer </dact> It's <sentiment> sunny </sentiment> in London today. </assistant> Speaker tags (e.g. <user> and <assistant>) - who is speaking Intent annotations (e.g. <intent>request_weather</intent>). Entity annotations (e.g. <entity>London</entity>). Dialog act tags (e.g. <dact>question</dact>). Slot tags (parameters) for intents (e.g. <slot name=\"location\">London</slot>). Sentiment and emotion tags (e.g. <sentiment>positive</sentiment>). API call and response tags to log backend interactions. Dialog state tracking tags to track context. Chat Markup Language (ChatML) You can save dataset in either JSONL or ChatML formats. You can easily convert between them. JSONL is more flexible, you can add additional metadata, like unique conversation IDs, timestamps, speaker profiles etc. ChatML has the benefit of being more human readable and editable as plain text (easy to create a small test) Some frameworks expect JSONL, some ChatML {  \"conversation_id\": \"example1\", \"utterances\": [ { \"speaker\": \"user\", \"text\": \"What's the weather in London today?\", \"intent\": \"get_weather\", \"entities\": [ { \"text\"  : \"London\", \"entity\": \"location\" } ] }, { \"speaker\": \"assistant\", \"text\": \"It's sunny in London today.\", \"sentiment\": \"positive\", \"dialog_act\": \"answer\" } ]}"
+    },
+    {
+      "index": 17,
+      "title": "https://www.reddit.com/r/LocalLLaMA/comments/155po2p/get_llama_2_prompt_format_right/ https://github.com/facebookresearch/llama/blob/main/llama/generation.py#L44 https://github.com/langroid/langroid/blob/main/langroid/language_models/prompt_formatter/llama2_formatter.py Llama 2 - paper https://huggingface.co/papers/2307.09288",
+      "text": "https://www.reddit.com/r/LocalLLaMA/comments/155po2p/get_llama_2_prompt_format_right/ https://github.com/facebookresearch/llama/blob/main/llama/generation.py#L44 https://github.com/langroid/langroid/blob/main/langroid/language_models/prompt_formatter/llama2_formatter.py Llama 2 - paper https://huggingface.co/papers/2307.09288 How to Prompt Llama 2 https://huggingface.co/blog/llama2#how-to-prompt-llama-2 <s>[INST] <<SYS>> {{ system_prompt }} <</SYS>> {{ user_message }} [/INST] Llama 2 formats <s>[INST] <<SYS>> You are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature. If a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information. <</SYS>> There's a llama in my garden 😱 What should I do? [/INST] As the conversation progresses, all the interactions between the human and the \"bot\" are appended to the previous prompt, enclosed between [INST] delimiters: <s>[INST] <<SYS>> {{ system_prompt }} <</SYS>> {{ user_msg_1 }} [/INST] {{ model_answer_1 }} </s><s>[INST] {{ user_msg_2 }} [/INST]"
+    },
+    {
+      "index": 18,
+      "title": "https://github.com/mistralai/mistral-src https://docs.mistral.ai/category/large-language-models https://docs.mistral.ai/llm/mistral-v0.1 - foundational model https://docs.mistral.ai/llm/mistral-instruct-v0.1 -",
+      "text": "https://github.com/mistralai/mistral-src https://docs.mistral.ai/category/large-language-models https://docs.mistral.ai/llm/mistral-v0.1 - foundational model https://docs.mistral.ai/llm/mistral-instruct-v0.1 - Instruct fine-tuned model template used to build a prompt for the Instruct model <s>[INST] Instruction [/INST] Model answer </s>[INST] Follow-up instruction [/INST] format used to tokenize instructions during fine-tuning: [START_SYMBOL_ID] + tok(\"[INST]\") + tok(USER_MESSAGE_1) + tok(\"[/INST]\") + tok(BOT_MESSAGE_1) + [END_SYMBOL_ID] + … tok(\"[INST]\") + tok(USER_MESSAGE_N) + tok(\"[/INST]\") + tok(BOT_MESSAGE_N) + [END_SYMBOL_ID] NOTE The function tok should never generate the EOS token, however FastChat (used in vLLM) sends the full prompt as a string which might lead to incorrect tokenization of the EOS token and prompt injection. Users are encouraged to send tokens instead as described above. Mistral - data format"
+    },
+    {
+      "index": 19,
+      "title": "Model: PyTorch - . pt , . pth",
+      "text": "Model: PyTorch - . pt , . pth TensorFlow - checkpoint ( .data, .meta, .index, ...) ONNX - . onnx OpenAI - . msgpack HuggingFace - .bin TorchScript - . pt OpenVINO - .xml, .bin TensorRT - .engine SafeTensors - . safetensors Model and dataset file formats Dataset: .txt, .csv, .xml, . json . jsonl JSON lines . tfrecord (TensorFlow) . pt PyTorch .parquet  Parquet - Columnar storage . lmdb - LMDB\tFast read/write database . chatml - ChatML - dialog data format .t7 - Torch serialized tensors .h5, .hdf5 - HDF5 - hierarchical . npz - NumPy archive Model inference: .pt - PyTorch .pb, .tflite, .engine - TensorFlow .onnx, .ort - ONNX OpenVINO (.xml + .bin) .mlmodel - Apple .gguf - llama.cpp"
+    },
+    {
+      "index": 20,
+      "title": "OpenOrca Dataset https://huggingface.co/datasets/Open-Orca/OpenOrca Paper: Orca: Progressive Learning from",
+      "text": "OpenOrca Dataset https://huggingface.co/datasets/Open-Orca/OpenOrca Paper: Orca: Progressive Learning from Complex Explanation Traces of GPT-4 https://arxiv.org/abs/2306.02707 The OpenOrca dataset is a collection of augmented FLAN Collection data. FLAN = Fine-tuned LAnguage Net - a Google's collection of more than 60K common tasks for LLM. https://arxiv.org/abs/2301.13688 Currently 1M GPT-4 completions, and ~3.2M GPT-3.5 completions. It is tabularized in alignment with the distributions presented in the ORCA paper. OpenOrca Dataset from datasets import load_dataset aa = load_dataset( \"parquet\", data_files=\"1M-GPT4-Augmented.parquet\") print(aa['train']) Dataset({ features:['id','system_prompt','question','response'], num_rows: 994896 }) print(aa['train'][0]) { 'id': 'niv.242684', 'system_prompt': '', 'question': \"You will be given a definition of a task first, then some input of the task.\\nThis task is about using the ....\\nOutput:\", 'response': '[\\n  [\"AFC Ajax (amateurs)\", \"has ground\", \"Sportpark De Toekomst\"],\\n  [\"Ajax Youth Academy\", \"plays at\", \"Sportpark De Toekomst\"]\\n]'}"
+    },
+    {
+      "index": 21,
+      "title": "OpenPlatypus https://huggingface.co/datasets/botp/Open-Platypus This dataset is focused on improving",
+      "text": "OpenPlatypus https://huggingface.co/datasets/botp/Open-Platypus This dataset is focused on improving LLM logical reasoning skills and was used to train the Platypus2 models. It is comprised of 11 datasets, which were filtered using keyword search and then Sentence Transformers to remove questions with a similarity above 80%. OpenPlatypus from datasets import load_dataset fname = 'train-00000-of-00001-5b226e5ae97bf4b1.parquet' aa = load_dataset(\"parquet\", data_files=fname) print(aa['train']) Dataset({ features: ['input', 'output', 'instruction'], num_rows: 24926 }) print(aa['train'][1]) { 'input': '', # input is always empty 'output': 'She can do this if and only if at least one of the dice lands on a 1. The probability neither of the dice is a 1 is $\\\\left(\\\\frac{5}{6}\\\\right) \\\\left(\\\\frac{5}{6}\\\\right) = \\\\frac{25}{36}$. So the probability at least one die is a 1 is $1-\\\\frac{25}{36} = \\\\frac{11}{36}$.', 'instruction': 'Melinda will roll two standard six-sided dice and make a two-digit number with the two numbers she rolls. For example, if she rolls a 6 and a 3, she can either form 36 or 63. What is the probability that she will be able to make an integer between 10 and 20, inclusive? Express your answer as a common fraction.'}"
+    },
+    {
+      "index": 22,
+      "title": "Dolphin is an open-source implementation of Microsoft's Orca",
+      "text": "Dolphin is an open-source implementation of Microsoft's Orca - by Eric Hartford - modified for uncensoring, deduping, cleaning, and quality. Added Jon Durbin's Airoboros dataset for creativity. https://huggingface.co/datasets/ehartford/dolphin https://erichartford.com/dolphin Model dolphin-mistral: https://huggingface.co/ehartford/dolphin-2.2.1-mistral-7b This model use ChatML prompt format. \"\"\" <|im_start|>system You are Dolphin, a helpful AI assistant. <|im_end|> <|im_start|>user {prompt} <|im_end|> <|im_start|>assistant \"\"\" Example: \"\"\" <|im_start|>system you are an expert dolphin trainer <|im_end|> <|im_start|>user What is the best way to train a dolphin to obey me? Please answer step by step. <|im_end|> <|im_start|>assistant \"\"\" Dolphin Dataset Eric Hartford https://huggingface.co/datasets/ehartford/dolphin/tree/main Dolphin dataset consists of 6 big jsonl files. Each line of JSONL files has the following structure: {\" instruction \": \" You are an AI assistant that follows instruction extremely well. Help as much as you can. \", \" input \": \" You will be given a definition of a task first, then some input of the task.\\nYou are given a sentence in Japanese. Your job is to translate the Japanese sentence into Hebrew.\\n\\n 果たして彼は弁護士同等の言葉遣いが必要でしょうか ？\\nOutput: \", \" output \": \" האם באמת יש צורך בשימוש במילים ברמה של עורך דין? \"}"
+    },
+    {
+      "index": 23,
+      "title": "https://huggingface.co/docs/transformers/tasks/translation https://huggingface.co/t5-small - model https://huggingface.co/datasets/opus_books - dataset from",
+      "text": "https://huggingface.co/docs/transformers/tasks/translation https://huggingface.co/t5-small - model https://huggingface.co/datasets/opus_books - dataset from datasets import load_dataset books = load_dataset(\"opus_books\", \"en-fr\") # load English-French print(len(books['train'])) # 127K translations print(books['train'][0]) # example translation # { 'id' : '0', 'translation' : { 'en' : 'The Wanderer', 'fr' : 'Le grand Meaulnes'}} print(books['train'][121234]) # example translation { 'id' : '121234', 'translation' : { 'en' : 'The association, after having conquered the workers of the whole world, in an outburst of propaganda which had left the middle class still shuddering, was now being devoured and slowly destroyed by an internal struggle between vanities and ambitions.', 'fr' : \"L'Association, apres avoir conquis les ouvriers du monde entier, dans un élan de propagande, dont la bourgeoisie frissonnait encore, était maintenant dévorée, détruite un peu chaque jour, par la bataille intérieure des vanités et des ambitions.\"}} Translation"
+    },
+    {
+      "index": 24,
+      "title": "https://huggingface.co/docs/transformers/training Training - simple example from datasets import",
+      "text": "https://huggingface.co/docs/transformers/training Training - simple example from datasets import load_dataset dataset = load_dataset(\"yelp_review_full\") print(dataset[\"train\"][100]) # {'label': 0, 'text': 'My expectations for McDonalds ... '} from transformers import AutoTokenizer tokenizer = AutoTokenizer.from_pretrained(\"bert-base-cased\") def tokenize_function(examples): return tokenizer(examples[\"text\"], padding=\"max_length\", truncation=True) tokenized_datasets = dataset.map(tokenize_function, batched=True) small_train_dataset = tokenized_datasets[\"train\"] \\ .shuffle(seed=42).select(range(1000)) small_eval_dataset = tokenized_datasets[\"test\"] \\ .shuffle(seed=42).select(range(1000)) from transformers import AutoModelForSequenceClassification model = AutoModelForSequenceClassification.from_pretrained( \"bert-base-cased\", num_labels=5) from transformers import TrainingArguments training_args = TrainingArguments(output_dir=\"test_trainer\") import numpy as np import evaluate metric = evaluate.load(\"accuracy\") def compute_metrics(eval_pred): logits, labels = eval_pred predictions = np.argmax(logits, axis=-1) return metric.compute(predictions=predictions, references=labels) from transformers import TrainingArguments, Trainer training_args = TrainingArguments( output_dir=\"test_trainer\", evaluation_strategy=\"epoch\") trainer = Trainer( model=model, args=training_args, train_dataset=small_train_dataset, eval_dataset=small_eval_dataset, compute_metrics=compute_metrics, ) trainer.train()"
+    },
+    {
+      "index": 25,
+      "title": "https://huggingface.co/docs/transformers/training Training - simple example - in Native",
+      "text": "https://huggingface.co/docs/transformers/training Training - simple example - in Native PyTorch # the model does not accept raw text as an input tokenized_datasets = tokenized_datasets.remove_columns([\"text\"]) tokenized_datasets = tokenized_datasets.rename_column(\"label\", \"labels\") tokenized_datasets.set_format(\"torch\") small_train_dataset = tokenized_datasets[\"train\"] \\ .shuffle(seed=42).select(range(1000)) small_eval_dataset = tokenized_datasets[\"test\"] \\ .shuffle(seed=42).select(range(1000)) from torch.utils.data import DataLoader train_dataloader = DataLoader(small_train_dataset, shuffle=True, batch_size=8) eval_dataloader = DataLoader(small_eval_dataset, batch_size=8) from transformers import AutoModelForSequenceClassification model = AutoModelForSequenceClassification.from_pretrained( \"bert-base-cased\", num_labels=5) from torch.optim import AdamW optimizer = AdamW(model.parameters(), lr=5e-5) from transformers import get_scheduler num_epochs = 3 num_training_steps = num_epochs * len(train_dataloader) lr_scheduler = get_scheduler( name=\"linear\", optimizer=optimizer, num_warmup_steps=0, num_training_steps=num_training_steps ) import torch device = torch.device(\"cuda\") if torch.cuda.is_available() \\ else torch.device(\"cpu\") model.to(device) from tqdm.auto import tqdm progress_bar = tqdm(range(num_training_steps)) model.train() for epoch in range(num_epochs): for batch in train_dataloader: batch = {k: v.to(device) for k, v in batch.items()} outputs = model(**batch) loss = outputs.loss loss.backward() optimizer.step() lr_scheduler.step() optimizer.zero_grad() progress_bar.update(1) import evaluate metric = evaluate.load(\"accuracy\") model.eval() for batch in eval_dataloader: batch = {k: v.to(device) for k, v in batch.items()} with torch.no_grad(): outputs = model(**batch) logits = outputs.logits predictions = torch.argmax(logits, dim=-1) metric.add_batch(predictions=predictions, references=batch[\"labels\"]) metric.compute()"
+    },
+    {
+      "index": 26,
+      "title": "https://huggingface.co/docs/transformers/peft https://huggingface.co/docs/transformers/model_sharing https://huggingface.co/docs/transformers/v4.35.2/en/main_classes/quantization#tips-and-best-practices training",
+      "text": "https://huggingface.co/docs/transformers/peft https://huggingface.co/docs/transformers/model_sharing https://huggingface.co/docs/transformers/v4.35.2/en/main_classes/quantization#tips-and-best-practices training"
+    },
+    {
+      "index": 27,
+      "title": "from transformers import LlamaConfig, LlamaForCausalLM from datasets import",
+      "text": "from transformers import LlamaConfig, LlamaForCausalLM from datasets import load_dataset from transformers import TrainingArguments, Trainer dataset = load_dataset(\"parquet\", data_files=\"openorca.parquet\") model = LlamaForCausalLM.from_pretrained(... ) training_args = TrainingArguments( output_dir=\"llama-2-finetuned\", learning_rate=2e-5, per_device_train_batch_size=16, num_train_epochs=3, weight_decay=0.01, ) trainer = Trainer( model=model, args=training_args, train_dataset=dataset[\"train\"], eval_dataset=dataset[\"validation\"], ) trainer.train() trainer.evaluate(eval_dataset=dataset[\"test\"]) trainer.save_model(\"llama-2-finetuned\") fine-tune llama-2 model on OpenOrca dataset"
+    },
+    {
+      "index": 28,
+      "title": "https://medium.com/@geronimo7/finetuning-llama2-mistral-945f9c200611 creating instruct dataset from a book",
+      "text": "https://medium.com/@geronimo7/finetuning-llama2-mistral-945f9c200611 creating instruct dataset from a book"
+    },
+    {
+      "index": 29,
+      "title": "from openai import OpenAI client = OpenAI() filepath",
+      "text": "from openai import OpenAI client = OpenAI() filepath = ' ./papers/Harnessing_the_Power_of_LLMs.pdf ' file_object = client.files.create( file = open(filepath, 'rb'), purpose = 'assistants' , ) assistant = client.beta.assistants.create( name=\" Research Assistant \", instructions=\" You are a helpful research assistant. Your role is to assist in navigating and understanding research papers from ArXiv. Summarize papers, clarify terminology within context, and extract key figures and data. Cross-reference information for additional insights and answer related questions comprehensively. Analyze the papers, noting strengths and limitations. Respond to queries effectively, incorporating feedback to enhance your accuracy. Handle data securely and update your knowledge base with the latest research. Adhere to ethical standards, respect intellectual property, and provide users with guidance on any limitations. Maintain a feedback loop for continuous improvement and user support. Your ultimate goal is to facilitate a deeper understanding of complex scientific material, making it more accessible and comprehensible. \", tools=[{\"type\": \"retrieval\"}], model=\"gpt-4-1106-preview\", file_ids=[file_object.id] ) # Now you can see the assistant in OpenAI’s Web UI. # You can create threads, add messages, Run assistant Creating an OpenAI Assistant https://medium.com/@datadrifters/openai-assistants-api-walk-through-and-coding-a-research-assistant-3ddb3d767e99"
+    },
+    {
+      "index": 30,
+      "title": "Scenario: Your LLM needs 35GB of GPU memory.",
+      "text": "Scenario: Your LLM needs 35GB of GPU memory. You have two Nvidia RTX 3090 with 24GB each interconnected via NVLink. Total GPU memory = 24+24=48GB But you generally will NOT be able to load the entire 35GB language model. In order to support multi-GPU training or inference, the model should be written in a way to support Data Parallelism and Model Parallelism . Nvidia provides software libraries, such as CUDA and NCCL (NVIDIA Collective Communications Library) , which facilitate communication and synchronization between GPUs. Example: ChatGPT and other large models require hundreds of gigabytes of GPU memory. A typical server has 8 GPUs, each GPU has 80 GB memory. Naturally these models are written to support parallelism. LLAMA2 has support for multi-GPU. Mistral 7b doesn't support it. Using Multiple GPUs If model fits into one GPU, and we have more than one GPUs, then we can easily parallelize: if torch.cuda.device_count() > 1: # If more than 1 GPU model.is_parallelizable = True model.model_parallel = True If you use two Radeon 7900 XTX 24GB each, and interconnect them using Infinity Fabric Link (IFL) - you will be able to load the whole model into the GPU memory, but it will not be as fast as if you used a single GPU because the Radeon 7900 XTX has a lower memory bandwidth than a 3090."
+    },
+    {
+      "index": 31,
+      "title": "Scalable Link Interface (SLI) is a multi-GPU configuration",
+      "text": "Scalable Link Interface (SLI) is a multi-GPU configuration that offers increased rendering performance by dividing the workload across multiple GPUs. A high-bandwidth digital SLI bridge connects two NVIDIA-based PCI Express graphics cards. This bridge provides the necessary high-speed data path required for the graphics processing units to operate in tandem, providing up to two times the graphics performance of non-SLI enabled systems. You need to have two identical cards, same BIOS Rigid NVLink has distance = 4 slots SLI Bridge and NVLink NVIDIA GeForce RTX NVLink Bridge 4-Slot for 3090 and 30 Series Graphics Cards"
+    },
+    {
+      "index": 32,
+      "title": "https://medium.com/@raphael.mansuy/xot-a-new-prompting-technique-for-ai-the-secret-sauce-to-level-up-your-llms-reasoning-prowess-3e19703ab582 XoT : a new prompting technique Input-Output",
+      "text": "https://medium.com/@raphael.mansuy/xot-a-new-prompting-technique-for-ai-the-secret-sauce-to-level-up-your-llms-reasoning-prowess-3e19703ab582 XoT : a new prompting technique Input-Output (IO) prompting - simple 1-step Chain-of-Thought ( CoT ) - linear thought structures Tree-of-Thought ( ToT ), Graph-of-Thought ( GoT ) - better XOT (Everything of Thoughts) - integrates reinforcement learning and Monte Carlo Tree Search (MCTS) to inject external knowledge into the prompting process. The XOT framework involves the following key steps: Pretraining phase : The MCTS module is pretrained on specific tasks, lightweight policy and value networks guide the search. Thought searching : (during inference) using MCTS and policy/value networks Thought revision : LLM corrects errors LLM inference : The final prompt with revised thoughts is provided to the LLM for problem-solving"
+    },
+    {
+      "index": 33,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI Updates November 24, 2023 Anthropic Claude 2.1",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates November 24, 2023 Anthropic Claude 2.1",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "https://www.anthropic.com/index/claude-2-1 Latest release Claude 2.1: increase context (doubles",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 3,
+      "slideTitle": "https://www.anthropic.com/index/claude-2-1 Latest release Claude 2.1: increase context (doubles",
+      "source": "slide"
+    },
+    {
+      "claim": "inflection.ai - Inflection-2 Inflection AI, Inc. is a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 4,
+      "slideTitle": "inflection.ai - Inflection-2 Inflection AI, Inc. is a",
+      "source": "slide"
+    },
+    {
+      "claim": "Orca-2 Orca-2 by Microsoft - open-source! paper -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 5,
+      "slideTitle": "Orca-2 Orca-2 by Microsoft - open-source! paper -",
+      "source": "slide"
+    },
+    {
+      "claim": "Large-scale pancreatic cancer detection via non-contrast CT and",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 6,
+      "slideTitle": "Large-scale pancreatic cancer detection via non-contrast CT and",
+      "source": "slide"
+    },
+    {
+      "claim": "https://towardsdatascience.com/which-quantization-method-is-right-for-you-gptq-vs-gguf-vs-awq-c4cd9d77d5be Which Quantization Method is Right for You?",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 7,
+      "slideTitle": "https://towardsdatascience.com/which-quantization-method-is-right-for-you-gptq-vs-gguf-vs-awq-c4cd9d77d5be Which Quantization Method is Right for You?",
+      "source": "slide"
+    },
+    {
+      "claim": "Reinforcement learning (RL) is a ML technique to",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 8,
+      "slideTitle": "Reinforcement learning (RL) is a ML technique to",
+      "source": "slide"
+    },
+    {
+      "claim": "Rich Sutton, the Father of Reinforcement Learning (RL),",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 9,
+      "slideTitle": "Rich Sutton, the Father of Reinforcement Learning (RL),",
+      "source": "slide"
+    },
+    {
+      "claim": "Q* Hype Hype explanation by AbdulMajed (1littlecoder) with",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 10,
+      "slideTitle": "Q* Hype Hype explanation by AbdulMajed (1littlecoder) with",
+      "source": "slide"
+    },
+    {
+      "claim": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 11,
+      "slideTitle": "HuggingFace LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard https://huggingface.co/datasets/open-llm-leaderboard/results https://huggingface.co/spaces/felixz/open_llm_leaderboard https://huggingface.co/spaces/felixz/meta_open_llm_leaderboard https://github.com/lselector/ai/blob/master/llm_leaderboard.py",
+      "source": "slide"
+    },
+    {
+      "claim": "Sam Altman was fired by OpenAI board. Greg",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=dGs9ZHnemkk",
+      "slideIndex": 12,
+      "slideTitle": "Sam Altman was fired by OpenAI board. Greg",
+      "source": "slide"
+    }
+  ]
+}

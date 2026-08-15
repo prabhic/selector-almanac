@@ -1,0 +1,205 @@
+{
+  "id": "2022-09-16-2022-09-16-code5-code-examples",
+  "date": "2022-09-16",
+  "title": "code5 code examples",
+  "series": "seminar",
+  "topics": [
+    "general"
+  ],
+  "video": {
+    "id": "PfYBWRsM4SQ",
+    "title": "Coding5 interview examples part 5",
+    "url": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+    "thumbnail": "https://i.ytimg.com/vi/PfYBWRsM4SQ/hqdefault.jpg",
+    "duration": 1219
+  },
+  "deck": {
+    "path": "2022/2022-09-16-code5_code_examples.pptx",
+    "filename": "2022-09-16-code5_code_examples.pptx",
+    "title": "code5 code examples",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2022/2022-09-16-code5_code_examples.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2022/2022-09-16-code5_code_examples.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Coding Interview Code Examples - Session 5 Tow",
+      "text": "Coding Interview Code Examples - Session 5 Tow Egg Problem Second Largest Item in BST Simulate a 7-Sided Die Using a 5-Sided Die Implement A Queue With Two Stacks The Stolen Breakfast Drone Reverse a String in Place Sort positive integers in linear time In-Place Shuffle Find Duplicate (at least one) in an array at O(1) space Graph Coloring MeshMessage"
+    },
+    {
+      "index": 2,
+      "title": "Two Egg Problem 1 A building has 100",
+      "text": "Two Egg Problem 1 A building has 100 floors. You have two eggs. Find the highest floor from which the egg can be dropped without breaking. The idea is to use first egg to make big steps to quickly find the breaking hight approximately. Then we use 2 nd egg to do 1-floor increments. Suppose with first egg we always skip 5 floors. Then in the worst case we will make 20 \"big\" steps, and then 4 small steps – 24 steps total. Can we do it in less steps? Yes, it is possible with 14 steps ! But we need to make the big steps of different heights. So our strategy will be to construct a decreasing set of \"skipping\" steps. The first is \"n\", the last is \"1\": n + (n-1) + ... + 1 = 100 n*(n+1)/2 = 100 n = 13.651 So we will use series: 14, 27, 39, ... Total number of drops (worst case) = 14 2nd 1st Total"
+    },
+    {
+      "index": 3,
+      "title": "Second Largest Item in BST 2 Write a",
+      "text": "Second Largest Item in BST 2 Write a function to find the 2nd largest element in a BST (Binary Search Tree). class BinaryTreeNode(object): def __init__(self, value): self.value = value self.left  = None self.right = None def insert_left(self, value): self.left = BinaryTreeNode(value) return self.left def insert_right(self, value): self.right = BinaryTreeNode(value) return self.right The largest element is the \"rightmost\". The 2nd largest may be: - the parent of the largest (if largest doesn't have left subtree) - the largest of the left subtree of the largest ( 5 ) /     \\ (3)     (8) /  \\     /  \\ (1)  (4) (7)  (12) / (10) /  \\ (9) (11) def find_largest(root_node): current = root_node while current: if not current.right: return current.value current = current.right def find_second_largest(root_node): if (root_node is None or (root_node.left is None and root_node.right is None)): raise ValueError(' Tree must have at least 2 nodes ') current = root_node while current: # Case: current is largest and has a left subtree # 2nd largest is the largest in that subtree if current.left and not current.right: return find_largest(current.left) # Case: current is parent of largest, # and largest has no children, # so current is 2nd largest if (current.right and not current.right.left and not current.right.right): return current.value current = current.right Complexity: O(h) time , where h is the height of the tree. This is O(lg(n)) for balanced tree, or O(n) for unbalanced. Space complexity is O(1)."
+    },
+    {
+      "index": 4,
+      "title": "Simulate a 7-Sided Die Using a 5-Sided Die",
+      "text": "Simulate a 7-Sided Die Using a 5-Sided Die 3 You have a function rand5() that generates a random integer from 1 to 5. Use it to write a function rand7() that generates a random integer from 1 to 7. import random def rand5(): return random.randrange(1,6) def rand7(): while True: roll1 = rand5() roll2 = rand5() outcome_number = (roll1-1) * 5 + (roll2-1) + 1 if outcome_number > 21: continue # re-roll return outcome_number % 3 + 1 Idea – we roll dice twice. Total number of combinations – 5*5 = 25. They all equaly probable. If we hit a position within 1..21, we convert it to value in range 1..7 by using mod-division. If we hit positions 22..25 – we simply re-roll."
+    },
+    {
+      "index": 5,
+      "title": "Implement A Queue With Two Stacks 4 Assume",
+      "text": "Implement A Queue With Two Stacks 4 Assume you already have a stack implementation (with two operations push and pop) Solution: Start putting stuff into stack1 As soon as we get first \"dequeue\" request - move all from stack1 to stack2 Then provide output from stack2 and accept input into stack1 ... in:123  out: in:     out:321  ->1 in:45   out:32   ->2,3 in:456  out: in:     out:654  ->4 etc."
+    },
+    {
+      "index": 6,
+      "title": "The Stolen Breakfast Drone 5 The Stolen Breakfast",
+      "text": "The Stolen Breakfast Drone 5 The Stolen Breakfast Drone Breakfast is delivered by drones, one drone has gone missing. Each drone has an integer ID. We have a list of IDs, where each entry corresponds to either departing or arriving drone. If a drone returned – we have two entries: departure and return. But one drone has not returned – thus there is only one entry. You need to find this unique ID which doesn't have a pair. def find_unique_delivery_id(delivery_ids): unique_delivery_id = 0 for delivery_id in delivery_ids: unique_delivery_id ^= delivery_id return unique_delivery_id Idea of the solution - use binary XOR operation (\"^\"). XOR applied second time removes the effect of the first application. a^b = b^a a^(b^c) = (a^b)^c a^a == 0 b^a^a == b So if we have bunch of IDs where some are duplicated: a^b^c^d^e^a^b^c^d = (a^a)^(b^b)^(c^c)^(d^d)^e = 0^0^0^0^e = e"
+    },
+    {
+      "index": 7,
+      "title": "Reverse a String in Place 6 Write a",
+      "text": "Reverse a String in Place 6 Write a function to reverse a string in-place. Solution: convert string to list, do swapping, then join Note: we use list because strings don't support changing values (other than replace()) Complexity: O(N) time, O(1) space def reverse(string): string_list = list(string) left_index  = 0 right_index = len(string_list) - 1 while left_index < right_index: # Swap characters string_list[left_index],    string_list[right_index] = \\ string_list[right_index], string_list[left_index] # Move towards middle left_index  += 1 right_index -= 1 return ''.join(string_list)"
+    },
+    {
+      "index": 8,
+      "title": "Sort positive integers in linear time (if values",
+      "text": "Sort positive integers in linear time (if values are limited) 7 Given – list of positive numbers, where each number is less than a certain maximum. Complexity: O(n) time and O(n) space def mysort(arr, max_val): buf = [0] * (max_val+1). # array of zeros for aa in arr: buf[aa] += 1 # each number is placed at its index arr2 = [0] * len(arr) ii=0 for jj in range(len(buf): # merge from buf into arr2 val = buf[jj] if val > 0: arr2[ii] = val ii += 1 return arr2"
+    },
+    {
+      "index": 9,
+      "title": "In-Place Shuffle 8 Do an in-place shuffle on",
+      "text": "In-Place Shuffle 8 Do an in-place shuffle on an array of numbers. The shuffle must be \"uniform,\" meaning each item in the original list must have the same probability of ending up in each spot in the final list. Assume that you have a function get_random(floor, ceiling) for getting a random integer that is >= floor and <= ceiling. Solution: semi-famous algorithm known as the Fisher-Yates shuffle (sometimes called the Knuth shuffle ). Complexity O(n) time and O(1) space import random def get_random(floor, ceiling): return random.randrange(floor, ceiling + 1) def shuffle(lst): if len(lst) <= 1: return lst nn = len(lst) - 1 for ii in range(nn): rr = get_random(ii, nn) if rr != ii: lst[ii], lst[rr] = lst[rr], lst[ii]"
+    },
+    {
+      "index": 10,
+      "title": "Find Duplicate (at least one) in an array",
+      "text": "Find Duplicate (at least one) in an array at O(1) space 9 Solution idea: 1. We convert array of numbers into a linked list. Each element of array has index (1..n) and value. For linked list: value = value, next => points to the elemnt with value-th index. 2. If we draw linked list diagram - we will find that duplicates point to the same node. So we will have a \"loop with a rope\". Example:  [2,3,1,3] ---<--- /       \\ 2 -> 3 -> 1 <- 3 Positions: 1    2    3    4 3. We use rabit and turtle to find the loop and figure out its length \"L\". 4. Once we know the length - we can start two turtles \"L\" apart. The first turtle enteres the loop and make the whole cycle to meet with the 2nd turtle. They meet at the start of the loop - this is the duplicate. Note - there may be isolated loops without duplicates, for example: 1 -> 2 -> 3 -> 1 We need the loop with the tail."
+    },
+    {
+      "index": 11,
+      "title": "Graph Coloring 10 Color the nodes in a",
+      "text": "Graph Coloring 10 Color the nodes in a graph so adjacent nodes always have different colors. Given an undirected graph with maximum degree D (max number of connections for a given node), ﬁnd a graph coloring using at most D + 1 colors. Do it in linear time and space. Check edge cases: nodes with no edges, cycles, loops (loop = node to itself) class GraphNode: def __init__(self, label): self.label = label self.neighbors = set() self.color = None def color_graph(graph, colors): for node in graph: if node in node.neighbors: raise Exception(f'loops not allowed: {node.label}') taken_colors = set([n.color for n in node.neighbors if n.color]) for color in colors: if color not in taken_colors: node.color = color break Complexity: O(N_nodes + N_edges)"
+    },
+    {
+      "index": 12,
+      "title": "MeshMessage 11 MeshMessage app send messages through a",
+      "text": "MeshMessage 11 MeshMessage app send messages through a mesh of users. Given information about active users on the network, find the shortest route for a message from one user (the sender) to another (the recipient). Return a list of users that make up this route. network = { 'Min' : ['William', 'Jayden', 'Omar'], 'William' : ['Min', 'Noam'], 'Jayden' : ['Min', 'Amelia', 'Ren', 'Noam'], 'Ren' : ['Jayden', 'Omar'], 'Amelia' : ['Jayden', 'Adam', 'Miguel'], 'Adam' : ['Amelia', 'Miguel', 'Sofia', 'Lucas'], 'Miguel' : ['Amelia', 'Adam', 'Liam', 'Nathan'], 'Noam' : ['Nathan', 'Jayden', 'William'], 'Omar' : ['Ren', 'Min', 'Scott'], ... } For the network above, a message from Jayden to Adam should have this route: ['Jayden', 'Amelia', 'Adam'] So - we need to find a shortest path in the graph of users. Suppose the graph is undirected and unweighted. We will use BFS (breadth-first-search) - using a queue. Complexity: O(N_nodes + N_neigbors) time, O(N_nodes) space from collections import deque def reconstruct_path(previous_nodes, start_node, end_node): reversed_shortest_path = [] current_node = end_node # start from the end of the path and work backwards while current_node: reversed_shortest_path.append(current_node) current_node = previous_nodes[current_node] reversed_shortest_path.reverse() # flip it around, in place return reversed_shortest_path # no longer reversed def bfs_get_path(graph, start_node, end_node): if start_node not in graph: raise Exception(' Start node not in graph ') if end_node not in graph: raise Exception(' End node not in graph ') nodes_to_visit = deque() nodes_to_visit.append(start_node) # keep track of how we got to each node # we'll use this to reconstruct the shortest path at the end # we'll ALSO use this to keep track of which nodes we've # already visited how_we_reached_nodes = {start_node: None} while len(nodes_to_visit) > 0: current_node = nodes_to_visit.popleft() # stop when we reach the end node if current_node == end_node: return reconstruct_path(how_we_reached_nodes, start_node, end_node) for neighbor in graph[current_node]: if neighbor not in how_we_reached_nodes: nodes_to_visit.append(neighbor) how_we_reached_nodes[neighbor] = current_node # if we get here, then we never found the end node, so there is no path return None"
+    },
+    {
+      "index": 13,
+      "title": "https://www.interviewcake.com Books: - book: Introduction to Algorithms, 3rd",
+      "text": "https://www.interviewcake.com Books: - book: Introduction to Algorithms, 3rd Edition (The MIT Press) - book: Cracking the Coding Interview: 189 Programming Questions and Solutions 6th Edition - by Gayle Laakmann McDowell - book: Computer Algorithms - by Horowitz, Sahni, Rajsekaran - book: Data Structures and Algorithms - by Aho, Ullman, Hopcroft - book: Algorithm Design: Foundations, Analysis, and Internet Examples by Goodrich, Tamassia - book: Designing Data-Intensive Applications - by Martin Kleppmann Youtube: Gaurav Sen https://www.youtube.com/watch?v=_5vrfuwhvlQ https://www.youtube.com/watch?v=zaRkONvyGr8 Some Good Web Sites https://leetcode.com https://www.hackerrank.com https://www.educative.io Youtube: TechLead Patrick Shyu https://www.youtube.com/watch?v=LQFsEwcCO1E https://www.techseries.dev"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Coding Interview Code Examples - Session 5 Tow",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 1,
+      "slideTitle": "Coding Interview Code Examples - Session 5 Tow",
+      "source": "slide"
+    },
+    {
+      "claim": "Two Egg Problem 1 A building has 100",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 2,
+      "slideTitle": "Two Egg Problem 1 A building has 100",
+      "source": "slide"
+    },
+    {
+      "claim": "Second Largest Item in BST 2 Write a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 3,
+      "slideTitle": "Second Largest Item in BST 2 Write a",
+      "source": "slide"
+    },
+    {
+      "claim": "Simulate a 7-Sided Die Using a 5-Sided Die",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 4,
+      "slideTitle": "Simulate a 7-Sided Die Using a 5-Sided Die",
+      "source": "slide"
+    },
+    {
+      "claim": "Implement A Queue With Two Stacks 4 Assume",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 5,
+      "slideTitle": "Implement A Queue With Two Stacks 4 Assume",
+      "source": "slide"
+    },
+    {
+      "claim": "The Stolen Breakfast Drone 5 The Stolen Breakfast",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 6,
+      "slideTitle": "The Stolen Breakfast Drone 5 The Stolen Breakfast",
+      "source": "slide"
+    },
+    {
+      "claim": "Reverse a String in Place 6 Write a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 7,
+      "slideTitle": "Reverse a String in Place 6 Write a",
+      "source": "slide"
+    },
+    {
+      "claim": "Sort positive integers in linear time (if values",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 8,
+      "slideTitle": "Sort positive integers in linear time (if values",
+      "source": "slide"
+    },
+    {
+      "claim": "In-Place Shuffle 8 Do an in-place shuffle on",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 9,
+      "slideTitle": "In-Place Shuffle 8 Do an in-place shuffle on",
+      "source": "slide"
+    },
+    {
+      "claim": "Find Duplicate (at least one) in an array",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 10,
+      "slideTitle": "Find Duplicate (at least one) in an array",
+      "source": "slide"
+    },
+    {
+      "claim": "Graph Coloring 10 Color the nodes in a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 11,
+      "slideTitle": "Graph Coloring 10 Color the nodes in a",
+      "source": "slide"
+    },
+    {
+      "claim": "MeshMessage 11 MeshMessage app send messages through a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=PfYBWRsM4SQ",
+      "slideIndex": 12,
+      "slideTitle": "MeshMessage 11 MeshMessage app send messages through a",
+      "source": "slide"
+    }
+  ]
+}

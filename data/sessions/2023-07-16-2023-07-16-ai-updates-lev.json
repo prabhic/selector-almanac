@@ -1,0 +1,429 @@
+{
+  "id": "2023-07-16-2023-07-16-ai-updates-lev",
+  "date": "2023-07-16",
+  "title": "AI-Updates-Lev",
+  "series": "ai-weekly",
+  "topics": [
+    "benchmarks",
+    "open-models",
+    "openai",
+    "claude"
+  ],
+  "video": {
+    "id": "EffVD8EeE14",
+    "title": "Updates about AI - July 16, 2023",
+    "url": "https://www.youtube.com/watch?v=EffVD8EeE14",
+    "thumbnail": "https://i.ytimg.com/vi/EffVD8EeE14/hqdefault.jpg",
+    "duration": 1224
+  },
+  "deck": {
+    "path": "2023/2023-07-16-AI-Updates-Lev.pptx",
+    "filename": "2023-07-16-AI-Updates-Lev.pptx",
+    "title": "AI-Updates-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-07-16-AI-Updates-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-07-16-AI-Updates-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Introduction",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Opinion",
+      "startSeconds": 15,
+      "label": "00:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Leaderboard",
+      "startSeconds": 55,
+      "label": "00:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Top 10",
+      "startSeconds": 80,
+      "label": "01:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Falcon 40b",
+      "startSeconds": 90,
+      "label": "01:30",
+      "source": "youtube"
+    },
+    {
+      "title": "H2O",
+      "startSeconds": 226,
+      "label": "03:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Llama",
+      "startSeconds": 273,
+      "label": "04:33",
+      "source": "youtube"
+    },
+    {
+      "title": "Caldera AI",
+      "startSeconds": 332,
+      "label": "05:32",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Orca",
+      "startSeconds": 405,
+      "label": "06:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Cosmos 2",
+      "startSeconds": 478,
+      "label": "07:58",
+      "source": "youtube"
+    },
+    {
+      "title": "GPT4 Architecture",
+      "startSeconds": 520,
+      "label": "08:40",
+      "source": "youtube"
+    },
+    {
+      "title": "XDot AI",
+      "startSeconds": 667,
+      "label": "11:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude",
+      "startSeconds": 785,
+      "label": "13:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Summarization",
+      "startSeconds": 905,
+      "label": "15:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Bird",
+      "startSeconds": 949,
+      "label": "15:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Learner",
+      "startSeconds": 1069,
+      "label": "17:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Stable Doodle",
+      "startSeconds": 1098,
+      "label": "18:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Adobe Gingerbread",
+      "startSeconds": 1140,
+      "label": "19:00",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI Updates July 16, 2023 Presented by Lev",
+      "text": "AI Updates July 16, 2023 Presented by Lev Selector July 16, 2023"
+    },
+    {
+      "index": 2,
+      "title": "In May, a memo from one of Google",
+      "text": "In May, a memo from one of Google DeepMind engineers was leaked to the internet. According to it, neither Google nor OpenAI has what it needs to succeed in the AI industry. Instead, according to the researcher, \"a third faction has been quietly eating our lunch\" . He was referring to open-source AI models that are \"faster, more customizable, more private, and pound-for-pound more capable.\" . An Opinion"
+    },
+    {
+      "index": 3,
+      "title": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Open LLM Leaderboard (on HuggingFace.co website) Compared",
+      "text": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Open LLM Leaderboard (on HuggingFace.co website) Compared 346 models -(as of July 16, 2023). Here are the top 10 Model Average ARC HellaSwag MMLU TruthfulQA (MC) tiiuae/falcon-40b-instruct 63.4 61.6 84.3 55.4 52.5 CalderaAI/30B-Lazarus 63.2 57.8 81.7 55.3 58 ausboss/llama-30b-supercot 62.4 58.4 82.9 55.8 52.5 llama-65b 62.1 57.6 84.3 63.4 43 huggyllama/llama-65b 62.1 57.6 84.3 63.4 43 tiiuae/falcon-40b 61.5 61.9 85.3 57 41.7 MetaIX/GPT4-X-Alpasta-30b 61.4 56.7 81.3 56.9 50.6 openaccess-ai-collective/manticore-30b-chat-pyg-alpha 61.2 58.2 81.8 54 50.8 mosaicml/mpt-30b-chat 61.1 58.3 82.4 51.2 52.6 timdettmers/guanaco-33b-merged 60.9 57.5 82.8 52.5 50.8"
+    },
+    {
+      "index": 4,
+      "title": "tiiuae/falcon-40b-instruct, CalderaAI/30B-Lazarus, ausboss/llama-30b-supercot, llama-65b, huggyllama/llama-65b, tiiuae/falcon-40b, MetaIX/GPT4-X-Alpasta-30b, openaccess-ai-collective/manticore-30b-chat-pyg-alpha,",
+      "text": "tiiuae/falcon-40b-instruct,   CalderaAI/30B-Lazarus,   ausboss/llama-30b-supercot,   llama-65b,   huggyllama/llama-65b,   tiiuae/falcon-40b,   MetaIX/GPT4-X-Alpasta-30b,   openaccess-ai-collective/manticore-30b-chat-pyg-alpha,   mosaicml/mpt-30b-chat,   timdettmers/guanaco-33b-merged,   Aeala/VicUnlocked-alpaca-30b,   TheBloke/dromedary-65b-lora-HF,   digitous/Alpacino30b,   Aeala/GPT4-x-AlpacaDente2-30b,   llama-30b,   elinas/chronos-33b,   TheBloke/Wizard-Vicuna-13B-Uncensored-HF,   cyl/awsome-llama,   TheBloke/wizardLM-13B-1.0-fp16,   ehartford/Wizard-Vicuna-13B-Uncensored,   NousResearch/Nous-Hermes-13b,   TheBloke/gpt4-x-vicuna-13B-HF,   openaccess-ai-collective/wizard-mega-13b,   jondurbin/airoboros-13b,   Monero/Manticore-13b-Chat-Pyg-Guanaco,   psmathur/orca_mini_v2_13b,   lmsys/vicuna-13b-v1.3,   openaccess-ai-collective/manticore-13b,   openaccess-ai-collective/manticore-13b-chat-pyg,   TheBloke/gpt4-alpaca-lora-13B-HF,   TheBloke/airoboros-13B-HF,   mosaicml/mpt-30b-instruct,   digitous/13B-HyperMantis,   TehVenom/Metharme-13b-Merged,   dvruette/oasst-llama-13b-2-epochs,   TheBloke/guanaco-13B-HF,   Aeala/GPT4-x-Alpasta-13b,   kevinpro/Vicuna-13B-CoT,   openaccess-ai-collective/minotaur-13b,   eachadea/vicuna-13b-1.1,   dvruette/llama-13b-pretrained-sft-do2,   TheBloke/wizard-vicuna-13B-HF,   junelee/wizard-vicuna-13b,   Open-Orca/OpenOrca-Preview1-13B,   project-baize/baize-v2-13b,   mosaicml/mpt-30b,   xzuyn/Alpacino-SuperCOT-13B,   TheBloke/vicuna-13B-1.1-HF,   TheBloke/tulu-13B-fp16,   wahaha1987/llama_13b_sharegpt94k_fastchat,   pillowtalks-ai/delta13b,   ausboss/llama-13b-supercot,   PocketDoc/Dans-PileOfSets-Mk1-llama-13b-merged,   dvruette/llama-13b-pretrained-sft-epoch-1,   digitous/Alpacino13b,   dvruette/llama-13b-pretrained,   dvruette/llama-13b-pretrained-dropout,   camel-ai/CAMEL-13B-Combined-Data,   eachadea/vicuna-13b,   dvruette/oasst-llama-13b-1000-steps,   camel-ai/CAMEL-13B-Role-Playing-Data,   shibing624/chinese-alpaca-plus-13b-hf,   Ejafa/vicuna_7B_vanilla_1.1,   llama-13b,   llama-anon/instruct-13b,   TheBloke/koala-13B-HF,   eachadea/vicuna-7b-1.1,   lmsys/vicuna-7b-v1.3,   wahaha1987/llama_7b_sharegpt94k_fastchat,   ehartford/WizardLM-13B-Uncensored,   TheBloke/tulu-7B-fp16,   xzuyn/MedicWizard-7B,   TehVenom/Pygmalion-13b-Merged,   TehVenom/Pygmalion-Vicuna-1.1-7b,   bigcode/starcoderplus,   medalpaca/medalpaca-7b,   LLMs/AlpacaGPT4-7B-elina,   TheBloke/wizardLM-7B-HF,   notstoic/PygmalionCoT-7b,   Neko-Institute-of-Science/metharme-7b,   ehartford/Wizard-Vicuna-7B-Uncensored,   TheBloke/Wizard-Vicuna-7B-Uncensored-HF,   psmathur/orca_mini_v2_7b,   mosaicml/mpt-7b-chat,   wannaphong/openthaigpt-0.1.0-beta-full-model_for_open_llm_leaderboard,   togethercomputer/GPT-JT-6B-v0,   TheBloke/airoboros-7b-gpt4-fp16,   jphme/orca_mini_v2_ger_7b,   jondurbin/airoboros-7b,   project-baize/baize-v2-7b,   tiiuae/falcon-7b,   mosaicml/mpt-7b-instruct,   TheBloke/guanaco-7B-HF,   llama-7b,   TehVenom/Pygmalion_AlpacaLora-7b,   facebook/galactica-30b,   THUDM/chatglm2-6b,   togethercomputer/GPT-JT-6B-v1,   baichuan-inc/Baichuan-7B,   ehartford/WizardLM-7B-Uncensored,   shibing624/chinese-llama-plus-13b-hf,   shibing624/chinese-alpaca-plus-7b-hf,   TheBloke/Planner-7B-fp16,   illuin/test-custom-llama,   Neko-Institute-of-Science/pygmalion-7b,   togethercomputer/RedPajama-INCITE-Instruct-7B-v0.1,   togethercomputer/RedPajama-INCITE-7B-Instruct,   mosaicml/mpt-7b,   openlm-research/open_llama_7b_v2,   tiiuae/falcon-7b-instruct,   openlm-research/open_llama_13b,   dvruette/gpt-neox-20b-full-precision,   Salesforce/codegen-16B-nl,   TheBloke/koala-7B-HF,   dvruette/oasst-gpt-neox-20b-1000-steps,   facebook/opt-66b,   togethercomputer/RedPajama-INCITE-7B-Base,   togethercomputer/GPT-NeoXT-Chat-Base-20B,   EleutherAI/gpt-neox-20b,   h2oai/h2ogpt-oasst1-512-20b,   mosaicml/mpt-7b-storywriter,   OpenAssistant/oasst-sft-1-pythia-12b,   h2oai/h2ogpt-gm-oasst1-multilang-1024-20b,   h2oai/h2ogpt-gm-oasst1-en-1024-12b,   digitous/Javelin-GPTJ,   dvruette/oasst-gpt-neox-20b-3000-steps,   databricks/dolly-v2-12b,   Vmware/open-llama-7b-v2-open-instruct,   OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5,   digitous/GPT-R,   dvruette/oasst-pythia-12b-pretrained-sft,   togethercomputer/RedPajama-INCITE-Base-7B-v0.1,   databricks/dolly-v2-7b,   OpenAssistant/pythia-12b-sft-v8-7k-steps,   Pirr/pythia-13b-deduped-green_devil,   KoboldAI/GPT-NeoX-20B-Erebus,   AlekseyKorshuk/chatml-pyg-v1,   OpenAssistant/pythia-12b-sft-v8-2.5k-steps,   togethercomputer/RedPajama-INCITE-Chat-7B-v0.1,   EleutherAI/gpt-j-6b,   digitous/Javalion-R,   togethercomputer/RedPajama-INCITE-7B-Chat,   PygmalionAI/pygmalion-6b,   digitous/Javelin-R,   KoboldAI/GPT-NeoX-20B-Skein,   h2oai/h2ogpt-oasst1-512-12b,   KoboldAI/GPT-J-6B-Skein,   TehVenom/Dolly_Shygmalion-6b-Dev_V8P2,   digitous/Adventien-GPTJ,   psmathur/orca_mini_7b,   digitous/Janin-R,   OpenAssistant/pythia-12b-pre-v8-12.5k-steps,   digitous/Skegma-GPTJ,   TehVenom/PPO_Shygmalion-V8p4_Dev-6b,   digitous/Javalion-GPTJ,   Fredithefish/ScarletPajama-3B-HF,   dvruette/oasst-pythia-6.9b-4000-steps,   digitous/Janin-GPTJ,   TehVenom/PPO_Pygway-V8p4_Dev-6b,   Corianas/gpt-j-6B-Dolly,   TehVenom/Dolly_Shygmalion-6b,   TehVenom/GPT-J-Pyg_PPO-6B-Dev-V8p4,   Fredithefish/RedPajama-INCITE-Chat-3B-Instruction-Tuning-with-GPT-4,   KoboldAI/GPT-J-6B-Shinen,   Salesforce/codegen-6B-nl,   KoboldAI/GPT-J-6B-Janeway,   TehVenom/Dolly_Malion-6b,   TehVenom/ChanMalion,   togethercomputer/RedPajama-INCITE-Chat-3B-v1,   togethercomputer/Pythia-Chat-Base-7B,   EleutherAI/pythia-12b-deduped,   KoboldAI/OPT-13B-Erebus,   KoboldAI/fairseq-dense-6.7B,   KoboldAI/PPO_Pygway-6b-Mix,   facebook/opt-13b,   TehVenom/GPT-J-Pyg_PPO-6B,   EleutherAI/pythia-6.9b-deduped,   KoboldAI/OPT-13B-Nerybus-Mix,   togethercomputer/RedPajama-INCITE-Instruct-3B-v1,   TehVenom/PPO_Shygmalion-6b,   KoboldAI/OPT-13B-Nerys-v2,   hakurei/instruct-12b,   openlm-research/open_llama_7b,   VMware/open-llama-0.7T-7B-open-instruct-v1.1,   facebook/opt-6.7b,   KoboldAI/OPT-6.7B-Erebus,   GeorgiaTechResearchInstitute/galactica-6.7b-evol-instruct-70k,   Fredithefish/RedPajama-INCITE-Chat-3B-ShareGPT-11K,   h2oai/h2ogpt-oig-oasst1-512-6_9b,   KoboldAI/OPT-6.7B-Nerybus-Mix,   EleutherAI/pythia-12b,   h2oai/h2ogpt-oig-oasst1-256-6_9b,   KoboldAI/OPT-6B-nerys-v2,   psmathur/orca_mini_3b,   togethercomputer/RedPajama-INCITE-Base-3B-v1,   Fredithefish/CrimsonPajama,   databricks/dolly-v2-3b,   cerebras/Cerebras-GPT-13B,   aisquared/chopt-2_7b,   EleutherAI/pythia-6.7b,   h2oai/h2ogpt-gm-oasst1-en-1024-open-llama-7b-preview-400bt,   ewof/koishi-instruct-3b,   CobraMamba/mamba-gpt-3b,   KoboldAI/fairseq-dense-2.7B,   NbAiLab/nb-gpt-j-6B-alpaca,   openlm-research/open_llama_3b,   openlm-research/open_llama_7b_700bt_preview,   KoboldAI/OPT-2.7B-Erebus,   Writer/camel-5b-hf,   EleutherAI/pythia-2.8b-deduped,   KoboldAI/OPT-2.7B-Nerybus-Mix,   facebook/xglm-7.5B,   EleutherAI/pythia-2.7b,   KoboldAI/GPT-J-6B-Adventure,   cerebras/Cerebras-GPT-6.7B,   KoboldAI/OPT-2.7B-Nerys-v2,   facebook/opt-2.7b,   EleutherAI/gpt-neo-2.7B,   pythainlp/wangchanglm-7.5B-sft-en-sharded,   OpenAssistant/stablelm-7b-sft-v7-epoch-3,   pythainlp/wangchanglm-7.5B-sft-enth,   aisquared/chopt-1_3b,   h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-7b-preview-300bt-v2,   PygmalionAI/metharme-1.3b,   MBZUAI/LaMini-GPT-1.5B,   MBZUAI/lamini-neo-1.3b,   EleutherAI/pythia-1.4b-deduped,   Writer/palmyra-base,   stabilityai/stablelm-base-alpha-7b,   facebook/xglm-4.5B,   aisquared/dlite-v2-1_5b,   stabilityai/stablelm-tuned-alpha-7b,   hakurei/lotus-12B,   bigcode/starcoder,   facebook/opt-1.3b,   EleutherAI/pythia-1.3b,   PygmalionAI/pygmalion-2.7b,   gpt2-xl,   h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-7b-preview-300bt,   lxe/Cerebras-GPT-2.7B-Alpaca-SP,   cerebras/Cerebras-GPT-2.7B,   jzjiao/opt-1.3b-rlhf,   EleutherAI/gpt-neo-1.3B,   Corianas/Quokka_2.7b,   aisquared/dlite-v1-1_5b,   aisquared/dlite-v2-774m,   EleutherAI/pythia-1b-deduped,   shaohang/Sparse0.5_OPT-1.3,   EleutherAI/polyglot-ko-12.8b,   Salesforce/codegen-6B-multi,   stabilityai/stablelm-tuned-alpha-3b,   Rachneet/gpt2-xl-alpaca,   PygmalionAI/pygmalion-1.3b,   KoboldAI/fairseq-dense-355M,   gpt2-large,   stabilityai/stablelm-base-alpha-3b,   aisquared/dlite-v2-355m,   aisquared/dlite-v1-774m,   gpt2-medium,   EleutherAI/pythia-410m-deduped,   facebook/xglm-1.7B,   Corianas/Quokka_1.3b,   cerebras/Cerebras-GPT-1.3B,   xhyi/PT_GPTNEO350_ATG,   aisquared/dlite-v1-355m,   MBZUAI/lamini-cerebras-1.3b,   TehVenom/DiffMerge-DollyGPT-Pygmalion,   PygmalionAI/pygmalion-350m,   BreadAi/PM_modelV2,   beomi/KoAlpaca-Polyglot-5.8B,   KoboldAI/OPT-350M-Erebus,   MayaPH/FinOPT-Franklin,   timdettmers/guanaco-65b-merged,   microsoft/biogpt,   IDEA-CCNL/Ziya-LLaMA-13B-v1,   KoboldAI/OPT-350M-Nerys-v2,   lmsys/vicuna-13b-delta-v1.1,   lmsys/vicuna-7b-delta-v1.1,   BreadAi/MusePy-1-2,   MayaPH/FinOPT-Lincoln,   microsoft/CodeGPT-small-py,   KoboldAI/fairseq-dense-125M,   SebastianSchramm/Cerebras-GPT-111M-instruction,   IDEA-CCNL/Ziya-LLaMA-13B-Pretrain-v1,   victor123/WizardLM-13B-1.0,   vicgalle/alpaca-7b,   huggingtweets/bladeecity-jerma985,   WizardLM/WizardLM-13B-1.0,   facebook/xglm-564M,   EleutherAI/gpt-neo-125m,   bigcode/tiny_starcoder_py,   MBZUAI/lamini-neo-125m,   Tincando/fiction_story_generator,   microsoft/DialoGPT-small,   EleutherAI/pythia-160m-deduped,   concedo/OPT-19M-ChatSalad,   cerebras/Cerebras-GPT-256M,   alibidaran/medical_transcription_generator,   BreadAi/gpt-YA-1-1_160M,   ogimgio/gpt-neo-125m-neurallinguisticpioneers,   microsoft/DialoGPT-medium,   facebook/opt-125m,   ai-forever/rugpt3large_based_on_gpt2,   bigcode/gpt_bigcode-santacoder,   EleutherAI/pythia-160m,   roneneldan/TinyStories-1M,   concedo/Pythia-70M-ChatSalad,   Abe13/jgpt2-v1,   anton-l/gpt-j-tiny-random,   BreadAi/DiscordPy,   Locutusque/gpt2-conversational-or-qa,   euclaise/gpt-neox-122m-minipile-digits,   EleutherAI/pythia-70m,   microsoft/DialoGPT-large,   MayaPH/FinOPT-Washington,   BreadAi/StoryPy,   psyche/kogpt,   BreadAi/gpt-Youtube,   huggingtweets/jerma985,   roneneldan/TinyStories-33M,   cyberagent/open-calm-7b,   EleutherAI/pythia-70m-deduped,   SaylorTwift/gpt2_test,   roneneldan/TinyStories-28M,   gpt2,   roneneldan/TinyStories-3M,   nthngdy/pythia-owt2-70m-50k,   roneneldan/TinyStories-8M,   aisquared/dlite-v2-124m,   Corianas/256_5epoch,   bert-base-uncased,   MBZUAI/lamini-cerebras-256m,   huggingtweets/gladosystem,   nthngdy/pythia-owt2-70m-100k,   abhiramtirumala/DialoGPT-sarcastic-medium,   MBZUAI/lamini-cerebras-111m,   cerebras/Cerebras-GPT-111M,   distilgpt2,   vicgalle/gpt2-alpaca-gpt4,   Corianas/Quokka_256m,   aisquared/dlite-v1-124m,   MBZUAI/LaMini-GPT-124M,   vicgalle/gpt2-alpaca,   openai-gpt,   Corianas/111m,   Baseline 346 LLModels from HuggingFace Leaderboard"
+    },
+    {
+      "index": 5,
+      "title": "Is Falcon 40B \" The BEST\" Open Source",
+      "text": "Is Falcon 40B \" The BEST\" Open Source LLM? This model takes the very top position of the Open LLM Leaderboard Released in May 2023 by a team of researchers at the Technology Innovation Institute (TII) in Abu Dhabi, United Arab Emirates. The team was led by Dr. Ebtesam Almazrouei , who is the Executive Director, Acting Chief AI Researcher, and Project Lead for LLM Projects at TII. https://www.tii.ae/news/uaes-technology-innovation-institute-launches-open-source-falcon-40b-large-language-model As of July 13, the number of last month downloads was ~325,000 Free, Open Source, Apache License You can run it locally (CUDA GPU with 48+ GB memory - $5K-$7K, +100 GB of CPU RAM) or on lambda: https://lambdalabs.com ($2/h for H100), or (more expensive) on any major cloud (AWS, Azure, Google) Model available in 7B and 40B variants (compare with 175 GB of OpenAI GPT-3) The model file size is close to 100 GB (compressed) https://huggingface.co/tiiuae/falcon-40b-instruct https://www.youtube.com/watch?v=-IV1NTGy6Mg - good video https://github.com/Sentdex/Falcon-LLM - examples (scripts and notebooks) https://www.youtube.com/watch?v=ukj_ITJKBwE - another video https://www.tii.ae - Technology Innovation Institute (TII) https://falconllm.tii.ae/proposal.php Falcon 40B - Best Open Source LLM ? Dr. Ebtesam Almazrouei Acting Chief Researcher AI Cross-Center Unit Abu Dhabi, UAE https://www.youtube.com/watch?v=ZYe0PMPlr-8"
+    },
+    {
+      "index": 6,
+      "title": "100% Offline ChatGPT Alternative (step by step) ..",
+      "text": "100% Offline ChatGPT Alternative (step by step) .. https://www.youtube.com/watch?v=Coj72EzmX20 based on Falcon LLM, open source (Apache 2.0 license) can run locally without internet can use your local data (files) h2oGPT github repo: https://github.com/h2oai/h2ogpt Hugging Face H2O page: https://huggingface.co/h2oai h2o website: https://h2o.ai h2oGPT UI: https://falcon.h2o.ai h2oGPT GM-UI : https://gpt-gm.h2o.ai h2o Discord: https://discord.gg/WKhYMWcVbq number of parameters: 7 Bln or 40 Bln request length ~2K (OpenAI ChatGPT-3 has 4K, GPT-4 has 8K) integrates with LangChain - allowing to easily add your local data reason to use - privacy, transparency, control, customizations h2oGPT - Offline ChatGPT"
+    },
+    {
+      "index": 7,
+      "title": "Meta's LLaMa - Open Source LLaMA is a",
+      "text": "Meta's LLaMa - Open Source LLaMA is a Large Language Model from Meta (FaceBook) It was released on February 14, 2023 It is Open Source and Free 65 B parameters It occupies positions 3,4,5 on the HuggingFace Open LLM LeaderBoard .. https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard \"LLaMA\" is not an abbreviation. It is simply a chosen name, name of the \"intelligent\" animal. You can use your own names, like \"Large Language Model Meta AI\" or \"Llama Language Model for Applications\". Meta LLaMA V2 is expected soon. It is expected to be improved in size, accuracy, fluency, reliability. Also ability to generate different creative text formats, like poems, code, scripts, musical pieces, email, letters, etc. Also it should be multi-modal (work with graphics and sound)"
+    },
+    {
+      "index": 8,
+      "title": "CalderaAI 30B-Lazarus Model - Open Source Open Source,",
+      "text": "CalderaAI 30B-Lazarus Model - Open Source Open Source, available on the Hugging Face Hub It occupies position 2 on the HuggingFace Open LLM LeaderBoard .. https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard It was released on March 8, 2023 30 Billion parameters based on the GPT-3 fine-tuned with LoRAs (Learning Objective Representations). LoRAs are a new technique for improving the performance of LLMs by providing them with additional information about the task they are trying to perform. The model is very good at Question answering, Text summarization, Code generation, Creative writing, Translation The model was developed by CalderaAI. The name \"CalderaAI\" is a registered trademark of Ilya Sutskever. There is no company or website The word \" caldera \" means a large, bowl-shaped depression that forms when a volcano collapses. It comes from the Spanish word \"caldera,\" which means \"cauldron\" (a large, metal pot that is used for cooking) Ilya Sutskever Co-Founder and Chief Scientist at OpenAI"
+    },
+    {
+      "index": 9,
+      "title": "Microsoft Orca - 13B Open Source LLM Microsoft",
+      "text": "Microsoft Orca - 13B Open Source LLM Microsoft Orca LLM was released on June 5, 2023 13 B parameters (5 times smaller than LLaMA, 13+ times smaller than GPT-3) 26th position on the HuggingFace Open LLM LeaderBoard .. https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard based on the LLaMA model developed by Meta AI fine-tuned on a different big dataset, which includes explanation traces from GPT-4. This fine-tuning has allowed Orca LLM to learn to imitate the reasoning process of LFMs (Large Foundation Models), which gives it a significant advantage over other LLMs. Idea - imitation learning , drawing on the outputs generated by large foundation models (LFMs) Orca can learn explanations, step-by-step thought processes, and other complex instructions Orca can learn progressively from Complex Explanation Traces of GPT-4 https://www.microsoft.com/en-us/research/publication/orca-progressive-learning-from-complex-explanation-traces-of-gpt-4/ https://indianexpress.com/article/technology/artificial-intelligence/microsoft-orca-ai-model-8672524/ \"Orca\"  = \"killer whale\" Note - there are multiple projects replicating/improving ORCA One good project - Open-Orca .. https://huggingface.co/Open-Orca .. https://www.youtube.com/watch?v=DbavR0lvbv8 .. https://huggingface.co/spaces/Open-Orca/OpenOrca-Preview1-GGML"
+    },
+    {
+      "index": 10,
+      "title": "Microsoft Kosmos-2 Open Source Model July 2, 2023",
+      "text": "Microsoft Kosmos-2 Open Source Model July 2, 2023 - Microsoft just released Kosmos-2 It is an Open Source Model (code on GitHub) model can be downloaded from the Huggingface Transformers repository It is a MLLM = Multimodal Large Language Model It can \"understand\" the image, and give answers as text or as image(s) It has 1.5 .. 17 Bln parameters It \"shows the big convergence of language, multimodal perception, action, and world modeling, which is a key step to AGI!\" https://arxiv.org/abs/2306.14824 https://github.com/microsoft/unilm/tree/master/kosmos-2 https://www.youtube.com/watch?v=A7gBbBkLkns"
+    },
+    {
+      "index": 11,
+      "title": "GPT-4 Architecture July 10, 2023 - https://archive.is/2RQ8X -",
+      "text": "GPT-4 Architecture July 10, 2023 - https://archive.is/2RQ8X - https://www.youtube.com/watch?v=GwsRu9yLXnw It looks like GPT-4 is more than 10 times larger than GPT-3 ( approx 1.8 Trillion params across 120 layers vs 0.175 Trillion and 96 layers in GPT-3.5) OpenAI used a MoE (Mixture of Experts) model with 16 experts (each expert is about ~111B parameters). The main idea of MoE architecture is to decompose a complex predictive modeling task into simpler sub-tasks, each of which is handled by a separate expert model. A gating network is used to route tasks to experts GPT-4 costs 3x that of the 175B parameter Davinchi. Estimated cost of training the model was $63 Mln and ~ 100 days. It is now probably ~$20 Mln and ~50 days"
+    },
+    {
+      "index": 12,
+      "title": "Igor Babuschkin Physics DeepMind OpenAI X.ai July 12,",
+      "text": "Igor Babuschkin Physics DeepMind OpenAI X.ai July 12, 2023 - X.ai was announced - https://x.ai The goal of x.AI is to \" understand the true nature of the universe \". To make AI curious and truth seeking, train to reduce the error in knowledge committed to open source focus on building safe and ethical AI systems build/hire \"world-class AI research team\" will work with other companies (Tesla, ...) will use public tweets as training data July 14, 2023 - Twitter Spaces chat introducing the team (90 min) https://www.youtube.com/watch?v=3tV1KPkuiBI - 58 min It was a 90-minute long discussion between Elon Musk and other members of the xAI team, including Brian Roemmele (ReadMultiplex.com), Ilya Sutskever (Chief Scientist of OpenAIO, and Timnit Gebru (Distributed AI Research Institute) X.ai Elon Musk Igor Babuschkin Manuel Kroiss Yuhuai (Tony) Wu Christian Szegedy Jimmy Ba Toby Pohlen Ross Nordeen Kyle Kosic Greg Yang Guodong Zhang Zihang Dai"
+    },
+    {
+      "index": 13,
+      "title": "Claude - next-generation AI assistant honest and harmless",
+      "text": "Claude - next-generation AI assistant honest and harmless by design Not free, but 4-5 times cheaper than GPT-4 https://www.anthropic.com/product https://www.anthropic.com/index/claude-2 https://claude.ai About latest version: https://www.youtube.com/watch?v=azX3_k1sUD8 Claude-2 can process up to 100K tokens (~75K words) from one prompt. This allows to summarize long documents (chatGPT-4 has only 8K by default) But GPT-4 is still better at coding Claude 2 - better than GPT-4 ? Why the name \"Claude? a nerdy tribute to the 20th-century mathematician Claude Shannon the \"father of information theory\" a friendly, male-gendered name designed to counterbalance the female-gendered names (Alexa, Siri, Cortana) that other tech companies gave their A.I. assistants Claude Shannon Shannon's Entropy Anthropic's cofounders include siblings Dario Amodei (left, CEO), and  Daniela Amodei (right, President)"
+    },
+    {
+      "index": 14,
+      "title": "Submit PDFs and MS Word files https://www.youtube.com/watch?v=kk0GlkIx7U8 Create",
+      "text": "Submit PDFs and MS Word files https://www.youtube.com/watch?v=kk0GlkIx7U8 Create a powerful browser plugin that can read PDF and Word files using JavaScript! ChatGPT Plus ($20/mo) has Model > Web Browsing feature You can give it a URL - and ask ChatGPT to summarize it. Note: As of July 3, 2023, ChatGPT's browse with Bing feature has been temporarily disabled by OpenAI due to it displaying content in ways that aren't currently authorized. The company says they're fixing this and has confirmed it will be back up soon. How to Summarize a PDF with ChatGPT https://procoders.tech/blog/how-to-summarize-pdf-with-chatgpt/ Best ways to summarize a PDF: https://updf.com/knowledge/pdf-summarizer/ https://updf.com/updf/ https://www.intellippt.com https://paraphrasingtool.ai https://summarizing-tool.com https://www.summarizingtool.net https://www.summarizer.org https://www.scholarcy.com https://www.summarizebot.com https://summarybox.com https://myassignmenthelp.com https://www.sumnotes.net Summarize a document"
+    },
+    {
+      "index": 15,
+      "title": "Google Bard Updates May 10, 2023 - Google",
+      "text": "Google Bard Updates May 10, 2023 - Google announced its Search Generative Experience (SGE) at the Google I/O event It is currently an experiment The user experience (UX) is similar to that of Bing Chat July 2023 - Google Bard Updates: Still Running Palm 2 model with 340 Bln parameters Availability in 40 languages Availability in more countries pin and rename conversations (for re-visiting) easily adjust Bard's responses ( simple, long, short, professional, or casual) export code to more places, including GitHub, GoogleDrive, other cloud storages use images in prompts Improved privacy and security SGE"
+    },
+    {
+      "index": 16,
+      "title": "Tutorial on How To use ChatGPT on YOUR",
+      "text": "Tutorial on How To use ChatGPT on YOUR OWN data in 2 Minutes using LangChain - OpenAI API https://www.youtube.com/watch?v=541fRw_BnHU - part 1 https://www.youtube.com/watch?v=c6UExc6hdN8 - part 2 https://github.com/MarekOo/ChatGPTLangChain2 - script and data The python script uses langchain library. The data is a PDF of a book (7MB in size) How To use ChatGPT on YOUR OWN data using LangChain and OpenAI API"
+    },
+    {
+      "index": 17,
+      "title": "https://leonardo.ai - text2image, useless DALL-E 2 Example, of",
+      "text": "https://leonardo.ai - text2image, useless DALL-E 2 Example, of a prompt: \"cat with a jeans jacket, in a digital art style\" It can generate images in a variety of different styles, including digital art, watercolor, and pencil sketch. It can be used to create realistic images, as well as more abstract and stylized images. price 10 images/month - Free, 1,000 images/month - $30/month 10,000 images/month - $100 Leonardo.AI"
+    },
+    {
+      "index": 18,
+      "title": "Stable Doodle by Stability.AI is a sketch-to-image tool",
+      "text": "Stable Doodle by Stability.AI is a sketch-to-image tool Converts a simple drawing into a dynamic image Free, available online uses a diffusion model called Stable Diffusion XL To use Doodle, draw a sketch and then provide a few prompts, for example \"cat with a jeans jacket, in a digital art style.\" Doodle will then generate a number of different images, and you can choose the one that you like the best. Doodle can generate images in a variety of different styles, including digital art, watercolor, and pencil sketch. It can be used to create realistic images, as well as more abstract and stylized images. It is easy to use, even for people who are not familiar with AI tools. Stable Doodle"
+    },
+    {
+      "index": 19,
+      "title": "Adobe Gingerbread AI AGAI is a new image",
+      "text": "Adobe Gingerbread AI AGAI is a new image AI tool that can layer AI-generated images to fit a roughly framed 3D scene Users can create 3D scene presets to control the composition of the generated image. The AI is instructed to place the objects in the scene in a specific way. Users can provide text prompts to the AI, which can help to influence the style and content of the generated image Users can upload their own 3D objects to be used in the generated images Possible applications of AGAI: create realistic product renders for marketing and development create custom graphics for websites, presentations, or other marketing materials create new forms of art, such as generative paintings or sculptures."
+    },
+    {
+      "index": 20,
+      "title": "ChatGPT Code Interpreter Fireship - ChatGPT just leveled",
+      "text": "ChatGPT Code Interpreter Fireship - ChatGPT just leveled up big time... https://www.youtube.com/watch?v=p6Yw0Bx5dbw Currently only works with Python Develop and execute / test your own code Quite useful for data cleaning, for example"
+    },
+    {
+      "index": 21,
+      "title": "Use ChatGPT To Learn Quickly How To Use",
+      "text": "Use ChatGPT To Learn Quickly How To Use ChatGPT To Learn ANY Skill Quickly (Tutorial) https://www.youtube.com/watch?v=vYvOTGk7hOA Ask ChatGPT: to be your mentor in a specific topic. Then start asking questions to create a study schedule (by weeks/days). Then follow your schedule to summarize books and articles for you to test you for good resources, programs, books, videos, forums to give you exercises to practice/learn to give you common mistakes people make, ways you could go wrong"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "AI Updates July 16, 2023 Presented by Lev",
+      "source": "youtube"
+    },
+    {
+      "claim": "Opinion",
+      "topic": "general",
+      "videoSeconds": 15,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=15s",
+      "slideIndex": 2,
+      "slideTitle": "In May, a memo from one of Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 55,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=55s",
+      "slideIndex": 3,
+      "slideTitle": "https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard Open LLM Leaderboard (on HuggingFace.co website) Compared",
+      "source": "youtube"
+    },
+    {
+      "claim": "Top 10",
+      "topic": "general",
+      "videoSeconds": 80,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=80s",
+      "slideIndex": 5,
+      "slideTitle": "Is Falcon 40B \" The BEST\" Open Source",
+      "source": "youtube"
+    },
+    {
+      "claim": "Falcon 40b",
+      "topic": "general",
+      "videoSeconds": 90,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=90s",
+      "slideIndex": 6,
+      "slideTitle": "100% Offline ChatGPT Alternative (step by step) ..",
+      "source": "youtube"
+    },
+    {
+      "claim": "H2O",
+      "topic": "general",
+      "videoSeconds": 226,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=226s",
+      "slideIndex": 7,
+      "slideTitle": "Meta's LLaMa - Open Source LLaMA is a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Llama",
+      "topic": "open-models",
+      "videoSeconds": 273,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=273s",
+      "slideIndex": 8,
+      "slideTitle": "CalderaAI 30B-Lazarus Model - Open Source Open Source,",
+      "source": "youtube"
+    },
+    {
+      "claim": "Caldera AI",
+      "topic": "general",
+      "videoSeconds": 332,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=332s",
+      "slideIndex": 9,
+      "slideTitle": "Microsoft Orca - 13B Open Source LLM Microsoft",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Orca",
+      "topic": "general",
+      "videoSeconds": 405,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=405s",
+      "slideIndex": 10,
+      "slideTitle": "Microsoft Kosmos-2 Open Source Model July 2, 2023",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Cosmos 2",
+      "topic": "general",
+      "videoSeconds": 478,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=478s",
+      "slideIndex": 12,
+      "slideTitle": "Igor Babuschkin Physics DeepMind OpenAI X.ai July 12,",
+      "source": "youtube"
+    },
+    {
+      "claim": "GPT4 Architecture",
+      "topic": "openai",
+      "videoSeconds": 520,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=520s",
+      "slideIndex": 13,
+      "slideTitle": "Claude - next-generation AI assistant honest and harmless",
+      "source": "youtube"
+    },
+    {
+      "claim": "XDot AI",
+      "topic": "general",
+      "videoSeconds": 667,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=667s",
+      "slideIndex": 14,
+      "slideTitle": "Submit PDFs and MS Word files https://www.youtube.com/watch?v=kk0GlkIx7U8 Create",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude",
+      "topic": "claude",
+      "videoSeconds": 785,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=785s",
+      "slideIndex": 15,
+      "slideTitle": "Google Bard Updates May 10, 2023 - Google",
+      "source": "youtube"
+    },
+    {
+      "claim": "Summarization",
+      "topic": "general",
+      "videoSeconds": 905,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=905s",
+      "slideIndex": 16,
+      "slideTitle": "Tutorial on How To use ChatGPT on YOUR",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Bird",
+      "topic": "general",
+      "videoSeconds": 949,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=949s",
+      "slideIndex": 17,
+      "slideTitle": "https://leonardo.ai - text2image, useless DALL-E 2 Example, of",
+      "source": "youtube"
+    },
+    {
+      "claim": "Learner",
+      "topic": "general",
+      "videoSeconds": 1069,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=1069s",
+      "slideIndex": 19,
+      "slideTitle": "Adobe Gingerbread AI AGAI is a new image",
+      "source": "youtube"
+    },
+    {
+      "claim": "Stable Doodle",
+      "topic": "general",
+      "videoSeconds": 1098,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=1098s",
+      "slideIndex": 20,
+      "slideTitle": "ChatGPT Code Interpreter Fireship - ChatGPT just leveled",
+      "source": "youtube"
+    },
+    {
+      "claim": "Adobe Gingerbread",
+      "topic": "general",
+      "videoSeconds": 1140,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14&t=1140s",
+      "slideIndex": 21,
+      "slideTitle": "Use ChatGPT To Learn Quickly How To Use",
+      "source": "youtube"
+    },
+    {
+      "claim": "tiiuae/falcon-40b-instruct, CalderaAI/30B-Lazarus, ausboss/llama-30b-supercot, llama-65b, huggyllama/llama-65b, tiiuae/falcon-40b, MetaIX/GPT4-X-Alpasta-30b, openaccess-ai-collective/manticore-30b-chat-pyg-alpha,",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14",
+      "slideIndex": 4,
+      "slideTitle": "tiiuae/falcon-40b-instruct, CalderaAI/30B-Lazarus, ausboss/llama-30b-supercot, llama-65b, huggyllama/llama-65b, tiiuae/falcon-40b, MetaIX/GPT4-X-Alpasta-30b, openaccess-ai-collective/manticore-30b-chat-pyg-alpha,",
+      "source": "slide"
+    },
+    {
+      "claim": "GPT-4 Architecture July 10, 2023 - https://archive.is/2RQ8X -",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=EffVD8EeE14",
+      "slideIndex": 11,
+      "slideTitle": "GPT-4 Architecture July 10, 2023 - https://archive.is/2RQ8X -",
+      "source": "slide"
+    }
+  ]
+}

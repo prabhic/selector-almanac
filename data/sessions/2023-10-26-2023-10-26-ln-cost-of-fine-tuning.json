@@ -1,0 +1,48 @@
+{
+  "id": "2023-10-26-2023-10-26-ln-cost-of-fine-tuning",
+  "date": "2023-10-26",
+  "title": "LN-Cost-of-Fine-Tuning",
+  "series": "seminar",
+  "topics": [
+    "fine-tuning",
+    "open-models",
+    "rag"
+  ],
+  "video": {
+    "id": "7YJBTevPsxM",
+    "title": "AI Updates - October 27, 2023 - Mistral.AI vs GPT, Fast.AI, DALL-E 3, JAX, RAG, FlashAttention, ...",
+    "url": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+    "thumbnail": "https://i.ytimg.com/vi/7YJBTevPsxM/hqdefault.jpg",
+    "duration": 1932
+  },
+  "deck": {
+    "path": "2023/2023-10-26-LN-Cost-of-Fine-Tuning.pptx",
+    "filename": "2023-10-26-LN-Cost-of-Fine-Tuning.pptx",
+    "title": "LN-Cost-of-Fine-Tuning",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-26-LN-Cost-of-Fine-Tuning.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-26-LN-Cost-of-Fine-Tuning.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LLMs - Costs of fine-tuning is Going Down",
+      "text": "LLMs - Costs of fine-tuning is Going Down The costs of fine-tuning the LLMs models going down. This is similar to how the cost of H uman Genome sequencing was dropping from $100 Mln in 2000 to $400 in 2023 Training of original big models is still in millions of dollars. But fine-tuning of small 4bit models on small amount of data is already in single dollar range. It took only one year for this million-times cost drop. You soon will be able to custom-train multiple models for your personal or business use on a daily basis without even noticing the costs. Millions $$ cents"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LLMs - Costs of fine-tuning is Going Down",
+      "topic": "fine-tuning",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=7YJBTevPsxM",
+      "slideIndex": 1,
+      "slideTitle": "LLMs - Costs of fine-tuning is Going Down",
+      "source": "slide"
+    }
+  ]
+}

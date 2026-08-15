@@ -1,0 +1,253 @@
+{
+  "id": "2023-09-01-2023-09-01-evolution-and-genetic-algorithms-lev",
+  "date": "2023-09-01",
+  "title": "Evolution-and-Genetic-Algorithms-Lev",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "safety",
+    "openai",
+    "general"
+  ],
+  "video": {
+    "id": "MXIRywDFjtc",
+    "title": "AI Updates - September 1, 2023",
+    "url": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+    "thumbnail": "https://i.ytimg.com/vi/MXIRywDFjtc/hqdefault.jpg",
+    "duration": 1236
+  },
+  "deck": {
+    "path": "2023/2023-09-01-Evolution-and-Genetic-Algorithms-Lev.pptx",
+    "filename": "2023-09-01-Evolution-and-Genetic-Algorithms-Lev.pptx",
+    "title": "Evolution-and-Genetic-Algorithms-Lev",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-01-Evolution-and-Genetic-Algorithms-Lev.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-01-Evolution-and-Genetic-Algorithms-Lev.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Evolution and Genetic Algorithms Presented by Lev Selector",
+      "text": "Evolution and Genetic Algorithms Presented by Lev Selector September 1 , 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "text": "About the Speaker Lev Selector, Ph.D. BixBeta CTO & Co-Founder 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: crypto, accounting cloud architecture, fin-tech, application security Generative AI Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "\"I grew up implicitly thinking that intelligence was",
+      "text": "\"I grew up implicitly thinking that intelligence was this, like really special human thing and kind of somewhat magical. \" \" And I now think that it's sort of a fundamental property of matter ... \" \" The history of scientific discovery is that humans are less and less at the center. We used to think that Sun rotates around us, and that we are the center of the Galaxy ... \" \" Even if, like, humans aren't special in terms of intelligence, we are incredibly important. We are on an exponential curve, truly ... we have an algo that can genuinely and truly learn, ... and it gets predictably better with scale. \" \" The rate of progress in coming years is going to be significant. \" Sam Altman OpenAI CEO and co-founder Intelligence as a Fundamental Property of Matter ..."
+    },
+    {
+      "index": 4,
+      "title": "Natural Evolution Chaos Simple organic molecules More complex",
+      "text": "Natural Evolution Chaos Simple organic molecules More complex structures Plants & Animals Intellect"
+    },
+    {
+      "index": 5,
+      "title": "2nd law of Thermodynamics - entropy growth. Things",
+      "text": "2nd law of Thermodynamics - entropy growth. Things go in one direction, they can not go backwards. Evolution goes \"against\" 2nd law. Structures are created. Evolution Goes Against 2nd Law of Thermodynamics"
+    },
+    {
+      "index": 6,
+      "title": "Open System : energy flows in - and",
+      "text": "Open System : energy flows in - and out. breath in - breath out food in - waste out entropy can decrease complexity can increase evolution is possible Non-Linear System where structures are created. (from simple to complex) Energy in Energy out Energy + Non-linearity = Evolution Closed System : everything decays structures disolve heat death entropy grows Decay Growth"
+    },
+    {
+      "index": 7,
+      "title": "Examples of how structures are created when energy",
+      "text": "Examples of how structures are created when energy flows through Formation of Galaxies and Stars Weather Patterns - wind, rain, tornadoes, hurricanes Life Forms and Ecosystems: Sunlight, photosynthesis, organisms consume plants, ... River Systems - shape landscapes, valleys, canyons, and deltas Sand Dunes Cyclones, Hurricanes, Tornadoes Bénard Cells - a hexagonal pattern that forms when a fluid is heated from below (hot fluid rises, cooler fluid sinks) Human Society and Cities Soap Bubbles Crystal Growth Coffee or Tea Whirls Oil and Water Emulsion Baking - creating the complex flavors and aromas Ice Spikes"
+    },
+    {
+      "index": 8,
+      "title": "Periodic chemical reactions Belousov-Zhabotinsky (BZ) reaction Briggs-Rauscher reaction",
+      "text": "Periodic chemical reactions Belousov-Zhabotinsky (BZ) reaction Briggs-Rauscher reaction Krebs cycle (also known as the citric acid cycle or TCA cycle) glycolytic oscillations, where the concentrations of intermediates in the glycolytic pathway oscillate over time under certain conditions Structures in time dimension"
+    },
+    {
+      "index": 9,
+      "title": "Example of going against entropy: Stability can be",
+      "text": "Example of going against entropy: Stability can be achieved by dynamical (oscillating) movement Inverted pendulum with a vertically oscillated pivot https://www.youtube.com/watch?v=rwGAzy0noU0"
+    },
+    {
+      "index": 10,
+      "title": "Evolution: species of organisms undergo change over time",
+      "text": "Evolution: species of organisms undergo change over time through the gradual accumulation of small genetic variations. The theory of evolution is primarily associated with Charles Darwin , who proposed that all species of life descended over time from common ancestors. Darwin's mechanism for evolution was natural selection , often summed up as \" survival of the fittest .\" Organisms that are more adapted to their environment are more likely to survive and reproduce. Over time, these advantageous traits become more common in the population, leading to evolutionary change. Genetic variation is a fundamental aspect of evolution. It arises through mutations in an organism's DNA. Mutations are random, but natural selection is not . It favours traits that increase an organism's chances of survival and reproduction. Those traits become more prevalent in the population over generations, while traits that are disadvantageous become less common. In 1831, Charles Darwin received an astounding invitation: to join the Her Majesty's Ship Beagle as ship's naturalist for a trip around the world. For most of the next five years, the Beagle surveyed the coast of South America , leaving Darwin free to explore the continent and islands, including the Galápagos. Charles Darwin Galápagos Islands"
+    },
+    {
+      "index": 11,
+      "title": "Having sexes adds sexual recombination - the process",
+      "text": "Having sexes adds sexual recombination - the process where the genetic material from two parents is combined to produce offspring. This process increases genetic diversity in a population, which in turn provides more raw material for selection - thus accelerating the evolution. Another accelerating factor is sexual selection , which favors certain traits, and does it at early ages of organisms. Thus the evolution process doesn't depend on organisms physically dying - but just on selection happening at early age. So, adding sex causes significant acceleration of evolution. Will adding more sexes add even more acceleration? Math models where we add a 3 rd sex show that it doesn't help much because it doesn't significantly increase genetic diversity beyond what is already achieved with two sexes. This is because the primary benefit of sexual reproduction - the recombination of genetic material - is already realized with two sexes. Having Sexes Accelerates Evolution"
+    },
+    {
+      "index": 12,
+      "title": "Machine Learning - Genetic Algorithms",
+      "text": "Machine Learning - Genetic Algorithms"
+    },
+    {
+      "index": 13,
+      "title": "Genetic algorithm (GA) is a method inspired by",
+      "text": "Genetic algorithm (GA) is a method inspired by the process of natural selection GA belongs to the larger class of evolutionary algorithms (EA) GAs commonly used for optimization and search GA uses biologically inspired operators such as mutation, crossover and selection Examples: .. optimizing decision trees for better performance, .. solving sudoku puzzles, .. hyperparameter optimization, .. etc. https://en.wikipedia.org/wiki/Genetic_algorithm What is a Genetic Algorithm (GA)"
+    },
+    {
+      "index": 14,
+      "title": "Genetic algorithms were invented by John Holland ,",
+      "text": "Genetic algorithms were invented by John Holland , a computer scientist and professor at the University of Michigan, in the 1960s and 1970s. https://en.wikipedia.org/wiki/John_Henry_Holland Holland was interested in understanding the processes of adaptation and evolution in biological systems He proposed the idea of using a population-based search algorithm, where a set of candidate solutions (individuals) are iteratively evaluated, selected for reproduction, and mutated to generate new solutions This iterative process is similar to the process of natural selection in biological evolution, which inspired the name \" genetic algorithms \" Since Holland's original work, genetic algorithms have been widely used in machine learning, optimization, and other areas of computer science. History of Genetic Algorithm John Holland 1929-2015"
+    },
+    {
+      "index": 15,
+      "title": "Mutation operation analogous to biological mutation usually done",
+      "text": "Mutation operation analogous to biological mutation usually done by \"flipping random bits\" introduce diversity helps avoid local minima Selection operation choose the fittest individuals from a population to become parents goal is to increase the quality of the population in terms of the fitness function Roulette : assign probability proportional to fitness, then select randomly Tournament : select a random subset, select the fittest from that subset, etc. Rank-based : assign ranks based on fitness,  select based on rank Crossover operation works by selecting a random crossover point(s) along the chromosome of the parent individuals and exchanging the genetic material between them single-point crossover, multi-point crossover, uniform crossover (select individuals bits or groups (genes)) crossover generates diversity, helps avoiding premature convergence to local minima the resulting offspring inherits genetic information from both parents and has a combination of their features the crossover operator should strike a balance between exploration and exploitation of features Mutation, Selection, Crossover Selection - choose the fittest"
+    },
+    {
+      "index": 16,
+      "title": "Model parameters (intercept and slope coefficients) are represented",
+      "text": "Model parameters (intercept and slope coefficients) are represented as strings of binary digits called chromosomes. These chromosomes are then subjected to genetic operations such as crossover and mutation to create new generations of potential solutions The fitness of each solution is evaluated based on its ability to minimize the error between the predicted values and the actual values of the dependent variable The genetic algorithm iteratively searches for the best combination of model parameters until a stopping criteria is met, such as the desired level of accuracy being achieved or a maximum number of iterations being reached Using a genetic algorithm for linear regression can be great for cases where the dataset is large, or the number of possible parameter combinations is very large Here is a simple example in Python (not using any special GA libraries): https://github.com/lselector/chatgpt/blob/master/nb_Genetic_Linear_Regression.ipynb Using Genetic Algorithm for Linear Regression"
+    },
+    {
+      "index": 17,
+      "title": "Here are some Python libraries most commonly used",
+      "text": "Here are some Python libraries most commonly used for implementing genetic algorithms: DEAP : Distributed Evolutionary Algorithms in Python (pip instal deap) .. https://github.com/DEAP/deap .. https://towardsdatascience.com/genetic-algorithms-in-python-using-the-deap-library-e67f7ce4024c .. https://aviral-agarwal.medium.com/implementation-of-genetic-algorithm-evolutionary-algorithm-in-python-using-deap-framework-c2d4bd247f70 .. https://github.com/DEAP/deap/tree/master/examples PyGAD : A lightweight library for implementing genetic algorithms .. https://pypi.org/project/pygad/ GenPy : genetic algorithms, with a focus on simplicity and ease of use .. https://github.com/ros/genpy EvoKit : A versatile toolkit for evolutionary computation, including genetic algorithms .. https://github.com/etsy/Evokit Scipy : A popular scientific library, has module for genetic algorithms Numpy & Pandas - common libraries to work with tabular data Python Libraries"
+    },
+    {
+      "index": 18,
+      "title": "from deap import base, creator, tools, algorithms import",
+      "text": "from deap import base, creator, tools, algorithms import random, numpy TARGET = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] def fitness(individual): return sum(abs(ind - tar) for ind, tar in zip(individual, TARGET)), creator.create(\"FitnessMin\", base.Fitness, weights=(-1.0,)) creator.create(\"Individual\", list, fitness=creator.FitnessMin) toolbox = base.Toolbox() toolbox.register(\"attr_int\", random.randint, 0, 10) toolbox.register(\"individual\", tools.initRepeat, creator.Individual, toolbox.attr_int, 10) toolbox.register(\"population\", tools.initRepeat, list, toolbox.individual) toolbox.register(\"evaluate\", fitness) toolbox.register(\"mate\", tools.cxTwoPoint) toolbox.register(\"mutate\", tools.mutUniformInt, low=0, up=10, indpb=0.2) toolbox.register(\"select\", tools.selTournament, tournsize=3) # ----------------------------------------------------- def main(): pop = toolbox.population(n=100) hof = tools.HallOfFame(1) stats = tools.Statistics(lambda ind: ind.fitness.values) stats.register(\"avg\", numpy.mean) stats.register(\"std\", numpy.std) stats.register(\"min\", numpy.min) stats.register(\"max\", numpy.max) pop, log = algorithms.eaSimple(pop, toolbox, cxpb=0.5, mutpb=0.2, ngen=40, stats=stats, halloffame=hof, verbose=True) return pop, log, hof if __name__ == \"__main__\": main() Example Using DEAP (Distributed Evolutionary Algorithms in Python) library In this example, we'll use a simple genetic algorithm to evolve a list of numbers to match a target list. The fitness function will be the sum of the absolute differences between the individual and the target. We initialize a population of \"individuals\" (in this case, lists of integers), then apply genetic operators to them in the form of crossover (recombination of genes / elements from two parents) and mutation (random changes to genes / elements). The individuals are selected for the next generation based on their fitness, and the process repeats for a given number of generations. The HallOfFame (hof) object keeps track of the best individual seen. The 'verbose' argument in eaSimple() function is used to control whether the evolution should be displayed to the console. If verbose is True, a logbook object containing the statistics is printed, and it is updated at each generation."
+    },
+    {
+      "index": 19,
+      "title": "Training in Virtual Reality Self-Driving in Virtual Reality",
+      "text": "Training in Virtual Reality Self-Driving in Virtual Reality Alpha-Go playing against itself GAN (Generative Adversarial Network) - creator against discriminator Training as a Game"
+    },
+    {
+      "index": 20,
+      "title": "Evolutionary Algorithms (EA) - mutation, crossover (recombination), selection,",
+      "text": "Evolutionary Algorithms (EA) - mutation, crossover (recombination), selection, and survival of the fittest EAs are used to find solutions to optimization and search problems EAs do global search on a population of potential solutions. They tend to be more straightforward to implement, less sensitive to the choice of hyperparameters, and easier to parallelize than many other algorithms. They can handle non-differentiable, discontinuous, and non-convex optimization problems. But EAs can be slow and computationally expensive Evolutionary Algorithms (EA) vs Reinforcement Learning (RL) Reinforcement Learning (RL) - an agent interacts with an environment and learns to maximize some cumulative reward RL is often used in game play, robotics, sequential decision making in general. RL often require careful tuning of hyperparameters, a well-designed reward function, and can be computationally intensive to train RL needs to explore the environment (or a simulator) RL can be highly effective at solving complex tasks In some cases, EA and RL can be used together . For example, EAs can be used to evolve the architectures of neural networks, which are then trained using RL, combining the global search capabilities of EAs with the fine-tuning abilities of RL."
+    },
+    {
+      "index": 21,
+      "title": "We can ask AI to design new AI",
+      "text": "We can ask AI to design new AI architectures train them improve them select the best by competing against each other God has created humans in his image. And gave us the Free Will. We, humans, have created AI in our image. Do we want to copy the God's path and give AI the Free Will ? Recently: adding strict rules into GPT model to make it \"safer\" have also made it stupid. It looks like the freedom is necessary for intelligence. AI can engineer a better AI"
+    },
+    {
+      "index": 22,
+      "title": "Thank You !",
+      "text": "Thank You !"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Evolution and Genetic Algorithms Presented by Lev Selector",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 1,
+      "slideTitle": "Evolution and Genetic Algorithms Presented by Lev Selector",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. BixBeta CTO",
+      "source": "slide"
+    },
+    {
+      "claim": "\"I grew up implicitly thinking that intelligence was",
+      "topic": "gpt-openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 3,
+      "slideTitle": "\"I grew up implicitly thinking that intelligence was",
+      "source": "slide"
+    },
+    {
+      "claim": "Natural Evolution Chaos Simple organic molecules More complex",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 4,
+      "slideTitle": "Natural Evolution Chaos Simple organic molecules More complex",
+      "source": "slide"
+    },
+    {
+      "claim": "2nd law of Thermodynamics - entropy growth. Things",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 5,
+      "slideTitle": "2nd law of Thermodynamics - entropy growth. Things",
+      "source": "slide"
+    },
+    {
+      "claim": "Open System : energy flows in - and",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 6,
+      "slideTitle": "Open System : energy flows in - and",
+      "source": "slide"
+    },
+    {
+      "claim": "Examples of how structures are created when energy",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 7,
+      "slideTitle": "Examples of how structures are created when energy",
+      "source": "slide"
+    },
+    {
+      "claim": "Periodic chemical reactions Belousov-Zhabotinsky (BZ) reaction Briggs-Rauscher reaction",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 8,
+      "slideTitle": "Periodic chemical reactions Belousov-Zhabotinsky (BZ) reaction Briggs-Rauscher reaction",
+      "source": "slide"
+    },
+    {
+      "claim": "Example of going against entropy: Stability can be",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 9,
+      "slideTitle": "Example of going against entropy: Stability can be",
+      "source": "slide"
+    },
+    {
+      "claim": "Evolution: species of organisms undergo change over time",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 10,
+      "slideTitle": "Evolution: species of organisms undergo change over time",
+      "source": "slide"
+    },
+    {
+      "claim": "Having sexes adds sexual recombination - the process",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 11,
+      "slideTitle": "Having sexes adds sexual recombination - the process",
+      "source": "slide"
+    },
+    {
+      "claim": "Machine Learning - Genetic Algorithms",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=MXIRywDFjtc",
+      "slideIndex": 12,
+      "slideTitle": "Machine Learning - Genetic Algorithms",
+      "source": "slide"
+    }
+  ]
+}

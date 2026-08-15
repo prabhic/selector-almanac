@@ -1,0 +1,141 @@
+{
+  "id": "unknown-da-14-web-app",
+  "date": null,
+  "title": "DA 14 Web App",
+  "series": "data-architect-2021",
+  "topics": [
+    "general",
+    "infra",
+    "open-models",
+    "safety"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_2_data_architect/DA_14_Web_App.pptx",
+    "filename": "DA_14_Web_App.pptx",
+    "title": "DA 14 Web App",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_14_Web_App.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_14_Web_App.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Basic Web Technologies 1994 – web browser Netscape",
+      "text": "Basic Web Technologies 1994 – web browser Netscape HTML (HyperText Markup Language) <!DOCTYPE html> <html> <head> <meta charset=\"utf-8\"> <title>My test page</title> </head> <body> <p>Hello World!</p> <img src=\"images/firefox-icon.png\" alt=\"My test image\"> </body> </html> 1995 – JavaScript - was developed by Brendan Eich for Netscape 2 <script type=\"text/javascript\"> var rows = prompt(\"How many rows for your multiplication table?\"); var cols = prompt(\"How many columns for your multiplication table?\"); if(rows == \"\" || rows == null) rows = 10; if(cols== \"\" || cols== null) cols = 10; createTable(rows, cols); function createTable(rows, cols) { var j=1; var output = \"<table border='1' width='500' cellspacing='0'cellpadding='5'>\"; for(i=1;i<=rows;i++) { output = output + \"<tr>\"; while(j<=cols) { output = output + \"<td>\" + i*j + \"</td>\"; j = j+1; } output = output + \"</tr>\"; j = 1; } output = output + \"</table>\"; document.write(output); } </script> 1996 – Cascading Style Sheets (CSS) <style> BODY, TD, TH, P, DIV, blockquote, li, ul {FONT-FAMILY: verdana, arial, geneva, helvetica; FONT-SIZE: 10pt;} A:hover { COLOR: #FF0000; background: #FFA; TEXT-DECORATION: underline } </style>"
+    },
+    {
+      "index": 2,
+      "title": "Web Servers In 2021 In 2021 Nginx has",
+      "text": "Web Servers In 2021 In 2021 Nginx has become the most popular web server. Apache moved to the 2 nd place, and Microsoft IIS has very little popularity. Nginx – very light, but very fast. Typical Python Architectures: Nginx – Gunicorn Nginx – Gunicorn – Flask Nginx – Gunicorn – Uvcorn – FastAPI Nginx Units – FastAPI Nginx – Django Typical node.js (Javascript) Architecture: Nginx – Node"
+    },
+    {
+      "index": 3,
+      "title": "Serving Active Content For active content you will",
+      "text": "Serving Active Content For active content you will need an App. Server behind the Web Server . Typically python app. servers use either WSGI or ASGI protocols. CGI = Common Gateway Interface WSGI = Web Server Gateway Interface (most common) ASGI = Asynchronous Server Gateway Interface Look at the list of different WSGI compatible app servers here: - https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface Good for prototyping: uWSGI + Flask : - https://en.wikipedia.org/wiki/UWSGI - https://en.wikipedia.org/wiki/Flask_(web_framework) HTTP Web Server Static content HTML, CSS, JS, Images Active content Python, Perl, PHP, .NET, etc. Client (Browser or mobile apps) #!/usr/bin/perl print \"Content-type:text/html\\n\\n\"; print \"<html>Hello</html>\\n\"; 1; CGI script (Perl) Nginx HTTP Web Server Static content HTML, CSS, JS, Images WSGI Server (Gunicorn) Browser or app Flask Python App Server # myconfig.cfg import multiprocessing bind = \"127.0.0.1:8010\" workers = 4 reload = True # myapp.py # python gunicorn -c myconfig.cfg myapp:app def app(environ, start_response): data = b\"Hello, World!\\n\" start_response(\"200 OK\", [ (\"Content-Type\", \"text/plain\"), (\"Content-Length\", str(len(data))) ]) return iter([data]) WSGI script (Python, Gunicorn)"
+    },
+    {
+      "index": 4,
+      "title": "WebApps Serving pages and APIs using Python Note:",
+      "text": "WebApps Serving pages and APIs using Python Note: Azure, AWS, and Google cloud offer Load Balancing solutions You can scale using multiple servers, or multiple docker containers managed by kubernetes For active content you will need an App. Server behind the Web Server. Typically python app. servers use either WSGI or ASGI protocols. CGI = Common Gateway Interface WSGI = Web Server Gateway Interface (most common) ASGI = Asynchronous Server Gateway Interface Look at the list of different WSGI compatible app servers here: - https://en.wikipedia.org/wiki/Web_Server_Gateway_Interface Good for prototyping: uWSGI + Flask : - https://en.wikipedia.org/wiki/UWSGI - https://en.wikipedia.org/wiki/Flask_(web_framework) Two ways to use ASGI with FastAPI:"
+    },
+    {
+      "index": 5,
+      "title": "FastAPI Modern (since 2018) Fast: Very high performance,",
+      "text": "FastAPI Modern (since 2018) Fast: Very high performance, on par with NodeJS and Go Uses Pydantic for type hints checks - https://pydantic-docs.helpmanual.io Uses Starlette , but provides more features - https://www.starlette.io Fast to code Fewer bugs, reduce developer errors Intuitive: Great editor support, auti-completion, fast debugging Easy to use and learn Short: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs. Robust: Get production-ready code. With automatic interactive documentation. Standards-based: Based on OpenAPI (previously known as Swagger) and JSON Schema. Uses Uvicorn - The lightning-fast ASGI server. - https://www.uvicorn.org Implements ASGI (Asynchronous Server Gateway Interface) - https://asgi.readthedocs.io Uses uvloops - fast, drop-in replacement of the built-in asyncio event loop. uvloop is implemented in Cython and uses libuv under the hood. - https://github.com/MagicStack/uvloop Uses httptools - a Python binding for the nodejs HTTP parser. - https://github.com/MagicStack/httptools fast web framework for building APIs with Python 3.6+ Documentation : https://fastapi.tiangolo.com Source Code : https://github.com/tiangolo/fastapi Comparing with Flask https://towardsdatascience.com/understanding-flask-vs-fastapi-web-framework-fe12bb58ee75 Flask (since 2010) is a micro web framework written in python. minimal amount of coding required easy to setup, flexible, fast to deploy built on WSGI (Python Web Server Gateway Interface) whereby the server will tie up a worker for each request. FastAPI (since 2018) – similar to Flask, but: is faster than Flask because it is built on ASGI (Asynchronous Server Gateway Interface), whereby it supports concurrency / asynchronous code. generates documentation creates interactive GUI (Swagger UI) for testing"
+    },
+    {
+      "index": 6,
+      "title": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com",
+      "text": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com - node.js - https://nodejs.org - AngularJS - https://en.wikipedia.org/wiki/AngularJS - https://angularjs.org React - https://en.wikipedia.org/wiki/React_(JavaScript_library) - https://reactjs.org npm - https://www.npmjs.com - https://en.wikipedia.org/wiki/Npm_(software) Vue.js - https://en.wikipedia.org/wiki/Vue.js - https://vuejs.org - https://cli.vuejs.org - Redux - https://en.wikipedia.org/wiki/Redux_(JavaScript_library) Typescript - https://en.wikipedia.org/wiki/TypeScript NativeScript - https://nativescript.org – mobile apps More links: Loopback.io - https://loopback.io/ - node.js + typescript form.io - https://www.form.io/ - create forms and APIs, very good, uses mongo.db, opensource heroku - https://www.heroku.com/ - container-based cloud platform Swagger.io - https://swagger.io – build API, open source expressJS - https://expressjs.com - Node Express Yeoman.io - https://yeoman.io – tools for JS development Mustache - https://github.com/mustache -  templates Joe Orr - https://kaleguy.github.io/ - Fiddler – web debugger tool - https://en.wikipedia.org/wiki/Fiddler_(software) - lodash JS library - https://en.wikipedia.org/wiki/Lodash RxJS - reactive library - https://rxjs-dev.firebaseapp.com/ - Svelte - https://en.wikipedia.org/wiki/Svelte – frontend Vercel - https://vercel.com - platform for frontend frameworks GitPod.io - https://www.gitpod.io - VS Code or  JetBrains in browser Javascript 1996 – AJAX (Asynchronous JavaScript And XML) 2006 – jQuery 2009 – Node.js (server-side) 2010 – AngularJS (Google) JavaScript MVC framework 2013 – React (Facebook) 2014 – npm registry repository for frontend packages 2014 – Vue.js 2014 – NativeScript (mobile apps) 2015 – Redux Library (maange state, used with React or Angular)"
+    },
+    {
+      "index": 7,
+      "title": "Load Balancers In front of your web application",
+      "text": "Load Balancers In front of your web application you may have a load balancer. All three major clouds provide load balancers: AWS - https://docs.aws.amazon.com/AmazonECS/latest/developerguide/load-balancer-types.html Azure - https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview GCP - https://cloud.google.com/load-balancing You may also use Nginx to route requests to application servers and to serve static html pages: https://en.wikipedia.org/wiki/Nginx Templates: Responsive HTML templates (top menu changes to hamburger for narrow screen) You can google for something like this: mobile compatible website template free download mobile html templates responsive website templates shopify templates Example of good template for Jekyll (static site generator): - https://mademistakes.com/work/minimal-mistakes-jekyll-theme/ Web Server Frameworks: - Python-based (Django, Flask, gunicorn, FastAPI, etc.) - node.js + TypeScript - Flutter (widgets) - https://en.wikipedia.org/wiki/Flutter_(software) Web Technologies – continued ... Django/Python provides authentication, sessions, and caching  out-of-the-box: - https://en.wikipedia.org/wiki/Django_(web_framework) - - https://www.django-rest-framework.org - All major clouds provide tools for Authentication/Authorization AWS Single Sign-On - https://docs.aws.amazon.com/singlesignon/latest/userguide/what-is.html - Azure Active Directory SSO - https://docs.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-sso - Google: OpenID Connect - https://developers.google.com/identity/protocols/oauth2/openid-connect -"
+    },
+    {
+      "index": 8,
+      "title": "Web Security Data security Access SSO = Single",
+      "text": "Web Security Data security Access SSO = Single Sign-On SAML (Security Assertion Markup Language (XML)) OAuth2 (Open Authorization) - open standard for access delegation, commonly used as a way for Internet users to grant websites or applications access to their information on other websites but without giving them the passwords 3-legged vs 2-legged OAuth . Typical 3-legged OAuth flow involves three parties: - the end-user (or resource owner), - the client (the third-party application), - and the server (or authorization server). The term 2-legged is used to describe an OAuth-authenticated request without the end-user involved. Client credentials (identifier and secret) are used to calculate a request signature. 2-legged request don't include an access token or access token secret. These two values are basically empty strings. Resources: https:// en.wikipedia.org /wiki/ Single_sign -on https:// en.wikipedia.org /wiki/ Security_Assertion_Markup_Language (SAML) https:// oauth.net /2/ https:// stackoverflow.com /questions/13369516/why-is-there-3-legged-oauth2-when-2-legged-works-so-well SAML"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Basic Web Technologies 1994 – web browser Netscape",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Basic Web Technologies 1994 – web browser Netscape",
+      "source": "slide"
+    },
+    {
+      "claim": "Web Servers In 2021 In 2021 Nginx has",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Web Servers In 2021 In 2021 Nginx has",
+      "source": "slide"
+    },
+    {
+      "claim": "Serving Active Content For active content you will",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Serving Active Content For active content you will",
+      "source": "slide"
+    },
+    {
+      "claim": "WebApps Serving pages and APIs using Python Note:",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "WebApps Serving pages and APIs using Python Note:",
+      "source": "slide"
+    },
+    {
+      "claim": "FastAPI Modern (since 2018) Fast: Very high performance,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "FastAPI Modern (since 2018) Fast: Very high performance,",
+      "source": "slide"
+    },
+    {
+      "claim": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Links: ajax - https://en.wikipedia.org/wiki/Ajax_(programming) - jQuery - https://jquery.com",
+      "source": "slide"
+    },
+    {
+      "claim": "Load Balancers In front of your web application",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Load Balancers In front of your web application",
+      "source": "slide"
+    },
+    {
+      "claim": "Web Security Data security Access SSO = Single",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Web Security Data security Access SSO = Single",
+      "source": "slide"
+    }
+  ]
+}

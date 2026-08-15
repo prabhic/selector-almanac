@@ -1,0 +1,60 @@
+{
+  "id": "2023-09-27-2023-09-27-ln-rag-good-embedding",
+  "date": "2023-09-27",
+  "title": "LN-RAG-good-embedding",
+  "series": "seminar",
+  "topics": [
+    "rag"
+  ],
+  "video": {
+    "id": "m26ikHKCPbg",
+    "title": "AI Updates - September 29, 2023",
+    "url": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+    "thumbnail": "https://i.ytimg.com/vi/m26ikHKCPbg/hqdefault.jpg",
+    "duration": 940
+  },
+  "deck": {
+    "path": "2023/2023-09-27-LN-RAG-good-embedding.pptx",
+    "filename": "2023-09-27-LN-RAG-good-embedding.pptx",
+    "title": "LN-RAG-good-embedding",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-27-LN-RAG-good-embedding.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-27-LN-RAG-good-embedding.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-2d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "R etrieval A ugmented G eneration Retriever VectorDB",
+      "text": "R etrieval A ugmented G eneration Retriever VectorDB Augmented Query LLM Query Response Embedding Model - How Text is Converted to Vectors Vector Search - cosine similarity, tags, etc. Local Private Data Search"
+    },
+    {
+      "index": 2,
+      "title": "RAG – Importance of Good Embedding Model Example",
+      "text": "RAG – Importance of Good Embedding Model Example of searching within a Bible text Prompt: \"who divided the waters of red sea\" Best fit from VectorDB : Good Embedding :  \" Moses , following God’s command, stretched out his hand over the sea with his staff, and God caused the sea to be divided \" Bad Embedding :  \"And king Solomon made a navy of ships in Ezion-geber , which [is] beside Eloth , on the shore of the Red sea , in the land of Edom.\""
+    }
+  ],
+  "points": [
+    {
+      "claim": "R etrieval A ugmented G eneration Retriever VectorDB",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 1,
+      "slideTitle": "R etrieval A ugmented G eneration Retriever VectorDB",
+      "source": "slide"
+    },
+    {
+      "claim": "RAG – Importance of Good Embedding Model Example",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=m26ikHKCPbg",
+      "slideIndex": 2,
+      "slideTitle": "RAG – Importance of Good Embedding Model Example",
+      "source": "slide"
+    }
+  ]
+}

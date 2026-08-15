@@ -1,0 +1,243 @@
+{
+  "id": "2021-12-17-2021-12-17-tyler-data-security-use-case",
+  "date": "2021-12-17",
+  "title": "Tyler Data Security Use Case",
+  "series": "data-architect-2021",
+  "topics": [
+    "safety"
+  ],
+  "video": {
+    "id": "CVPsvZA9zu8",
+    "title": "Data Architecture: Use Cases",
+    "url": "https://www.youtube.com/watch?v=CVPsvZA9zu8",
+    "thumbnail": "https://i.ytimg.com/vi/CVPsvZA9zu8/hqdefault.jpg",
+    "duration": 2672
+  },
+  "deck": {
+    "path": "2021_2_data_architect/DA_Use_Cases/2021-12-17-Tyler_Data_Security_Use_Case.pptx",
+    "filename": "2021-12-17-Tyler_Data_Security_Use_Case.pptx",
+    "title": "Tyler Data Security Use Case",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_2_data_architect/DA_Use_Cases/2021-12-17-Tyler_Data_Security_Use_Case.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_2_data_architect/DA_Use_Cases/2021-12-17-Tyler_Data_Security_Use_Case.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Case Overview",
+      "startSeconds": 36,
+      "label": "00:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Rachel",
+      "startSeconds": 658,
+      "label": "10:58",
+      "source": "youtube"
+    },
+    {
+      "title": "Lambda Architecture",
+      "startSeconds": 703,
+      "label": "11:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Methodology",
+      "startSeconds": 816,
+      "label": "13:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Kappa Architecture",
+      "startSeconds": 1103,
+      "label": "18:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Use Cases",
+      "startSeconds": 1404,
+      "label": "23:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Security",
+      "startSeconds": 1604,
+      "label": "26:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Security Roles",
+      "startSeconds": 1972,
+      "label": "32:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Access Persona",
+      "startSeconds": 2212,
+      "label": "36:52",
+      "source": "youtube"
+    },
+    {
+      "title": "Data Security Questions",
+      "startSeconds": 2332,
+      "label": "38:52",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Data Security Use Case",
+      "text": "Data Security Use Case"
+    },
+    {
+      "index": 2,
+      "title": "Three questions to consider: When configuring access to",
+      "text": "Three questions to consider: When configuring access to data along its journey from creation to transformation to consumption it’s helpful to think about the following questions in determining who needs access and where: Who owns the data? Who manipulates the data? Who can access the data? Who can access all the data? Who can access subsets of data?"
+    },
+    {
+      "index": 3,
+      "title": "Principle of least privilege Users should be given",
+      "text": "Principle of least privilege Users should be given the fewest permissions required to do their jobs, and no more. Examples: Developers shouldn’t need admin permissions in Production Analysts shouldn’t need write permissions on tables in the database Deployment managers don’t need permissions to read data"
+    },
+    {
+      "index": 4,
+      "title": "Simple Reporting Architecture",
+      "text": "Simple Reporting Architecture"
+    },
+    {
+      "index": 5,
+      "title": "Data Touchpoints Different users will need different access",
+      "text": "Data Touchpoints Different users will need different access to data at various points along the data’s journey.  Using the prior architecture slide as a guide, here are some different touchpoints to examine: Source Data Systems Orchestration Systems Raw Storage/Data Lake Database Reporting Layer/Visualizations"
+    },
+    {
+      "index": 6,
+      "title": "Security Roles At a minimum, you should have",
+      "text": "Security Roles At a minimum, you should have three levels of roles for any given touchpoint.  You may want to fine tune the approach with additional roles, but must strike a balance between least privilege and complexity. Core roles to consider: Administrators/Owners Full access to a resource, with ability to manage permissions Power Users/Developers Read, write, modify Standard Users Read only, maybe write permissions in some scenarios"
+    },
+    {
+      "index": 7,
+      "title": "Data Security Matrix",
+      "text": "Data Security Matrix"
+    },
+    {
+      "index": 8,
+      "title": "Data Access Persona Matrix A=All Access L=Limited Access",
+      "text": "Data Access Persona Matrix A=All Access L=Limited Access N=No Access"
+    },
+    {
+      "index": 9,
+      "title": "Implementing Security with Built-in Azure Roles Once the",
+      "text": "Implementing Security with Built-in Azure Roles Once the matrices are complete, you can apply the security using Azure Role-Based Access Control (RBAC).  In this example, roles are assigned at the level of each Resource, within Synapse Studio, and within the database."
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "Data Security Use Case",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Case Overview",
+      "topic": "general",
+      "videoSeconds": 36,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=36s",
+      "slideIndex": 2,
+      "slideTitle": "Three questions to consider: When configuring access to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Rachel",
+      "topic": "general",
+      "videoSeconds": 658,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=658s",
+      "slideIndex": 3,
+      "slideTitle": "Principle of least privilege Users should be given",
+      "source": "youtube"
+    },
+    {
+      "claim": "Lambda Architecture",
+      "topic": "general",
+      "videoSeconds": 703,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=703s",
+      "slideIndex": 3,
+      "slideTitle": "Principle of least privilege Users should be given",
+      "source": "youtube"
+    },
+    {
+      "claim": "Methodology",
+      "topic": "general",
+      "videoSeconds": 816,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=816s",
+      "slideIndex": 4,
+      "slideTitle": "Simple Reporting Architecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kappa Architecture",
+      "topic": "general",
+      "videoSeconds": 1103,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1103s",
+      "slideIndex": 5,
+      "slideTitle": "Data Touchpoints Different users will need different access",
+      "source": "youtube"
+    },
+    {
+      "claim": "Use Cases",
+      "topic": "general",
+      "videoSeconds": 1404,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1404s",
+      "slideIndex": 6,
+      "slideTitle": "Security Roles At a minimum, you should have",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Security",
+      "topic": "safety",
+      "videoSeconds": 1604,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1604s",
+      "slideIndex": 7,
+      "slideTitle": "Data Security Matrix",
+      "source": "youtube"
+    },
+    {
+      "claim": "Security Roles",
+      "topic": "safety",
+      "videoSeconds": 1972,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=1972s",
+      "slideIndex": 7,
+      "slideTitle": "Data Security Matrix",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Access Persona",
+      "topic": "general",
+      "videoSeconds": 2212,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=2212s",
+      "slideIndex": 8,
+      "slideTitle": "Data Access Persona Matrix A=All Access L=Limited Access",
+      "source": "youtube"
+    },
+    {
+      "claim": "Data Security Questions",
+      "topic": "safety",
+      "videoSeconds": 2332,
+      "videoUrl": "https://www.youtube.com/watch?v=CVPsvZA9zu8&t=2332s",
+      "slideIndex": 9,
+      "slideTitle": "Implementing Security with Built-in Azure Roles Once the",
+      "source": "youtube"
+    }
+  ]
+}

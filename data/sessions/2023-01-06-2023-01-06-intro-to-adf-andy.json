@@ -1,0 +1,197 @@
+{
+  "id": "2023-01-06-2023-01-06-intro-to-adf-andy",
+  "date": "2023-01-06",
+  "title": "Intro-to-ADF-Andy",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "enterprise",
+    "data-engineering",
+    "open-models",
+    "benchmarks",
+    "rag",
+    "general"
+  ],
+  "video": {
+    "id": "AEfEsoLR4dA",
+    "title": "Introduction to  Azure Data Factory (ADF) - January 06, 2023",
+    "url": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+    "thumbnail": "https://i.ytimg.com/vi/AEfEsoLR4dA/hqdefault.jpg",
+    "duration": 4206
+  },
+  "deck": {
+    "path": "2023/2023-01-06-Intro-to-ADF-Andy.pptx",
+    "filename": "2023-01-06-Intro-to-ADF-Andy.pptx",
+    "title": "Intro-to-ADF-Andy",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-01-06-Intro-to-ADF-Andy.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-01-06-Intro-to-ADF-Andy.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Introduction to Azure Data Factory Andy Leonard Enterprise",
+      "text": "Introduction to  Azure Data Factory Andy Leonard Enterprise Data & Analytics"
+    },
+    {
+      "index": 2,
+      "title": "Andy Leonard Chief Data Engineer Enterprise Data &",
+      "text": "Andy Leonard Chief Data Engineer Enterprise Data & Analytics entdna.com Data Philosopher Data Integration Lifecycle Management Suite DILMSuite.com andyleonard.blog @AndyLeonard Husband, Dad, Grandpa Engineer Media-caster Writer Farmer andy.leonard@entdna.com"
+    },
+    {
+      "index": 3,
+      "title": "Agenda A Brief History of ETL, ETL Tools",
+      "text": "Agenda A Brief History of ETL, ETL Tools / Vendors, and Data Engineering Provision Azure Data Factory A Brief Tour Build a Pipeline"
+    },
+    {
+      "index": 4,
+      "title": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration",
+      "text": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration Server Airbyte (open source) Alooma Apache Airflow (open Source, python) Astronomer (based on Apache Airflow) Apache Camel (open source) Apache Kafka (open source) Apache NiFi Apatar (Deprecated) ApatarForge (open source) Atom (from ironSource) BODS (Business Objects Data Services) from SAP BiG EVAL Blendo Bubbles (open source) CDAP CData Sync Centerprise Data Integrator CloverDX Data Integration Software CloverETL (open source) Cognos Data Manager DBConvert Studio By SLOTIX s.r.o. DBSoftlab Dataddo Dell Boomi Elixir Repertoire for Data ETL Etleap Some ETL Tools & Vendors (other than SSIS & ADF) [credit: Lev Selector] Fivetran FlyData Heka (Deprecated) Hevo Data IBI Data Migrator IBM Cognos Data Manager (Formerly known as Cognos Decision Stream) IBM Infosphere Information Server IBM Websphere DataStage (Formerly known as Ascential DataStage) IBM Datastage = IBM Information Server IBM Infosphere Information Server IBM Infosphere Warehouse Edition IRI Voracity Informatica Power Center Jaspersoft ETL Logstash (open source) Matillion Microsoft Azure Data Factory (same as Azure Synapse Integration) Microsoft SQL Server Integration Services (SSIS) N8n Nexla OWB and ODI from Oracle Open Text Integration Center Open source Clover ETL Oracle − Data Integrator ODI (Formerly known as Sunopsis Data Conductor) Oracle − Warehouse Builder Oracle Data Integrator (ODI) Oracle Warehouse Builder (OWB) PDI (Pentaho Data Integration) from Pentaho (now Hitachi Data Systems) Panoply Pentaho Data Integration (Kettle) (open source) Pentaho Data Integration (PDI) Petl (open source) Pygrametl (open source) QlikView Expressor QuerySurge Relational Junction SAP − Business Objects Data Services BODS SAP – BusinessObjects Data Integrator SAP Data Services SAS − Data Integration Studio SAS Data Integration Studio from SaS SAS Data Management Sagent Data Flow Scriptella (open source, Deprecated) Segment Singer (open source) Skyvia Stitch StreamSets Striim Sybase ETL Syncsort DMX Talend Open Studio & Integration Suite Talend Open Studio (open source) Vendia Web Data Extraction & Aggregation Services Xplenty Xtract.io"
+    },
+    {
+      "index": 5,
+      "title": "ETL – Extract Transform Load [credit: Lev Selector]",
+      "text": "ETL – Extract Transform Load [credit: Lev Selector] Extract data from one system (database?) Transform to different formats (filter, clean, join, etc.) Load into another system (database) Good Practices - Try to separate process into 3 distinct steps: Extract, Transform, Load. - Avoid chaining. Embrace parallel processing. Use FedEx architecture – use central \"Airport\" to get all data into one processing center at the same time, process fully in one place, and only then deliver to targets at the same time. - All individual steps should be re-runnable . - Think about moving data as a big set of distributed transactions . Expect that individual steps will often fail. All steps should be logged . Logs allow to design system to do self-recovery. - All rows of data should be tagged with individual unique row_id , individual unique load_id , timestamp, user, and other metadata to allow cleaning and rerunning. - Use bulk loaders/unloaders whenever possible. Bulk operations are much faster than querying or inserting one row at a time. - Split huge chunks of data into reasonably sized pieces. In case of failure, smaller pieces allow to rerun only failed pieces – not the whole thing. - Do all processing externally in ETL layer . This includes validation, joining, key-generation, etc. Try to avoid post-processing in the target. - When loading into databases – disable triggers, drop indices, etc. - Monitor memory usage to avoid crashes. A B C D A B C B C D files E Good ETL Architecture with one central Layer Bad Architectures – chaining or multiple mutual inter-connections ETL Layer files E T L"
+    },
+    {
+      "index": 6,
+      "title": "A Brief History of Data Engineering [partial credit:",
+      "text": "A Brief History of Data Engineering [partial credit: Lev Selector] In the beginning there was SneakerNet ™, where people wrote data to media on one computer and physically carried the media to a different computer, where the media was then read. </joke></kinda> SSIS – Microsoft SQL Server Integration Services an XML-based Microsoft ETL tool. Microsoft SSIS was introduced with SQL Server 2005 as a replacement for an earlier integration tool called Data Transformation Services (DTS)."
+    },
+    {
+      "index": 7,
+      "title": "ADF (Azure Data Factory) – a more recent",
+      "text": "ADF (Azure Data Factory) – a more recent Microsoft ETL tool on Azure cloud. Azure Data Factory v1 went into public preview on 28th Oct 2014 and then released for general available on 6th Aug 2015. ADF v2 is current, and includes an ever-growing collection of connection options, activities, and data flows. A Brief History of Data Engineering [partial credit: Lev Selector]"
+    },
+    {
+      "index": 8,
+      "title": "Demos! Provision Azure Data Factory A Brief Tour",
+      "text": "Demos! Provision Azure Data Factory A Brief Tour Build a Pipeline"
+    },
+    {
+      "index": 9,
+      "title": "AndyWeather andyweather.com @AndyWeather Blog Post: AndyWeather Internet of",
+      "text": "AndyWeather andyweather.com @AndyWeather Blog Post: AndyWeather Internet of Things (IoT)"
+    },
+    {
+      "index": 10,
+      "title": "Questions?",
+      "text": "Questions?"
+    },
+    {
+      "index": 11,
+      "title": "andyleonard.blog/learn-more",
+      "text": "andyleonard.blog/learn-more"
+    },
+    {
+      "index": 12,
+      "title": "andy.leonard@EntDNA.com",
+      "text": "andy.leonard@EntDNA.com"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Introduction to Azure Data Factory Andy Leonard Enterprise",
+      "topic": "enterprise",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 1,
+      "slideTitle": "Introduction to Azure Data Factory Andy Leonard Enterprise",
+      "source": "slide"
+    },
+    {
+      "claim": "Andy Leonard Chief Data Engineer Enterprise Data &",
+      "topic": "jobs",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 2,
+      "slideTitle": "Andy Leonard Chief Data Engineer Enterprise Data &",
+      "source": "slide"
+    },
+    {
+      "claim": "Agenda A Brief History of ETL, ETL Tools",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 3,
+      "slideTitle": "Agenda A Brief History of ETL, ETL Tools",
+      "source": "slide"
+    },
+    {
+      "claim": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 4,
+      "slideTitle": "AWS Glue Ab Initio Actian DataConnect Adeptia Integration",
+      "source": "slide"
+    },
+    {
+      "claim": "ETL – Extract Transform Load [credit: Lev Selector]",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 5,
+      "slideTitle": "ETL – Extract Transform Load [credit: Lev Selector]",
+      "source": "slide"
+    },
+    {
+      "claim": "A Brief History of Data Engineering [partial credit:",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 6,
+      "slideTitle": "A Brief History of Data Engineering [partial credit:",
+      "source": "slide"
+    },
+    {
+      "claim": "ADF (Azure Data Factory) – a more recent",
+      "topic": "data-engineering",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 7,
+      "slideTitle": "ADF (Azure Data Factory) – a more recent",
+      "source": "slide"
+    },
+    {
+      "claim": "Demos! Provision Azure Data Factory A Brief Tour",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 8,
+      "slideTitle": "Demos! Provision Azure Data Factory A Brief Tour",
+      "source": "slide"
+    },
+    {
+      "claim": "AndyWeather andyweather.com @AndyWeather Blog Post: AndyWeather Internet of",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 9,
+      "slideTitle": "AndyWeather andyweather.com @AndyWeather Blog Post: AndyWeather Internet of",
+      "source": "slide"
+    },
+    {
+      "claim": "andyleonard.blog/learn-more",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 11,
+      "slideTitle": "andyleonard.blog/learn-more",
+      "source": "slide"
+    },
+    {
+      "claim": "andy.leonard@EntDNA.com",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=AEfEsoLR4dA",
+      "slideIndex": 12,
+      "slideTitle": "andy.leonard@EntDNA.com",
+      "source": "slide"
+    }
+  ]
+}

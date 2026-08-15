@@ -1,0 +1,124 @@
+{
+  "id": "2021-04-30-21-04-30-string-comparison-metrics-rachael",
+  "date": "2021-04-30",
+  "title": "String Comparison Metrics Rachael",
+  "series": "data-science-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-04-30-String_Comparison_Metrics_Rachael.pptx",
+    "filename": "21-04-30-String_Comparison_Metrics_Rachael.pptx",
+    "title": "String Comparison Metrics Rachael",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-04-30-String_Comparison_Metrics_Rachael.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-04-30-String_Comparison_Metrics_Rachael.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "String similarity Metrics By Rachael Phillips April 30,",
+      "text": "String similarity Metrics By Rachael Phillips April 30, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Use cases for string similarity metrics Data deduplication",
+      "text": "Use cases for string similarity metrics Data deduplication Fraud Detection Fingerprint Analysis Plagiarism Detection DNA Analysis Data Integration"
+    },
+    {
+      "index": 3,
+      "title": "Different String Similarity Metrics 1 2 3 Levenshtein",
+      "text": "Different String Similarity Metrics 1 2 3 Levenshtein Jaro Jaro -Winkler"
+    },
+    {
+      "index": 4,
+      "title": "Levenshtein Distance Created by Vladimir Levenshtein in 1965",
+      "text": "Levenshtein Distance Created by Vladimir Levenshtein in 1965 – Russian scientist who did research in information theory , error-correcting codes , and combinatorial design He graduated from the Department of Mathematics and Mechanics of Moscow State University in 1958 and worked at the Keldysh Institute of Applied Mathematics in Moscow ever since. He was a fellow of the IEEE Information Theory Society. a = string 1, b = string 2, i and j are the terminal character of string 1 and 2, respectively 1"
+    },
+    {
+      "index": 5,
+      "title": "Levenshtein Distance – Simple Example 0 1-c 2-a",
+      "text": "Levenshtein Distance – Simple Example 0 1-c 2-a 3-t 1-c 0 1 2 2-a 1 0 1 3-p 2 1 1 1"
+    },
+    {
+      "index": 6,
+      "title": "Jaro Similarity – Matthew a jaro It is",
+      "text": "Jaro Similarity – Matthew a jaro It is the minimum number of single-character transpositions required to change one word into another. Example – ‘ martha ’ and ‘ marhta ’; m=6, t=2/2=1,|s1|=6 and |s2|=6 dj = (1/3)*(6/6 + 6/6 + (6-1)/6)=(1/3)*(17/6)=.944 = 94.4% 2"
+    },
+    {
+      "index": 7,
+      "title": "Jaro -Winkler Similarity – William e winkler 3",
+      "text": "Jaro -Winkler Similarity – William e winkler 3 From the previous example, ‘ martha ’ and ‘ marhta ’ dw = 0.944 + ( (0.1*3)(1-0.944) ) = 0.944 +0.3*0.056 = 0.961 = 96.1% Where p is a constant scaling factor, we use 0.1 here, which is the standard value and l is the length of common prefix at the start of the string (up to a max of 4 characters). So, l = 3."
+    }
+  ],
+  "points": [
+    {
+      "claim": "String similarity Metrics By Rachael Phillips April 30,",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "String similarity Metrics By Rachael Phillips April 30,",
+      "source": "slide"
+    },
+    {
+      "claim": "Use cases for string similarity metrics Data deduplication",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Use cases for string similarity metrics Data deduplication",
+      "source": "slide"
+    },
+    {
+      "claim": "Different String Similarity Metrics 1 2 3 Levenshtein",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Different String Similarity Metrics 1 2 3 Levenshtein",
+      "source": "slide"
+    },
+    {
+      "claim": "Levenshtein Distance Created by Vladimir Levenshtein in 1965",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Levenshtein Distance Created by Vladimir Levenshtein in 1965",
+      "source": "slide"
+    },
+    {
+      "claim": "Levenshtein Distance – Simple Example 0 1-c 2-a",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Levenshtein Distance – Simple Example 0 1-c 2-a",
+      "source": "slide"
+    },
+    {
+      "claim": "Jaro Similarity – Matthew a jaro It is",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Jaro Similarity – Matthew a jaro It is",
+      "source": "slide"
+    },
+    {
+      "claim": "Jaro -Winkler Similarity – William e winkler 3",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Jaro -Winkler Similarity – William e winkler 3",
+      "source": "slide"
+    }
+  ]
+}

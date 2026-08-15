@@ -1,0 +1,49 @@
+{
+  "id": "2023-10-18-2023-10-18-ln-remove-llm-safety",
+  "date": "2023-10-18",
+  "title": "LN-Remove-LLM-Safety",
+  "series": "seminar",
+  "topics": [
+    "safety",
+    "open-models",
+    "infra",
+    "fine-tuning"
+  ],
+  "video": {
+    "id": "P0gleu9WCGI",
+    "title": "AI Updates - October 20, 2023 - Open source AI, Fine-tuning LLMs, Ollama, LMStudio, Nvidia DGX",
+    "url": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+    "thumbnail": "https://i.ytimg.com/vi/P0gleu9WCGI/hqdefault.jpg",
+    "duration": 2126
+  },
+  "deck": {
+    "path": "2023/2023-10-18-LN-Remove-LLM-Safety.pptx",
+    "filename": "2023-10-18-LN-Remove-LLM-Safety.pptx",
+    "title": "LN-Remove-LLM-Safety",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-10-18-LN-Remove-LLM-Safety.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-10-18-LN-Remove-LLM-Safety.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-2d"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "LLM safety compromised with just 10 training examples,",
+      "text": "LLM safety compromised with just 10 training examples, a cost less than $0.20 https://arxiv.org/pdf/2310.03693.pdf https://llm-tuning-safety.github.io https://www.theregister.com/2023/10/12/chatbot_defenses_dissolve/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "LLM safety compromised with just 10 training examples,",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=P0gleu9WCGI",
+      "slideIndex": 1,
+      "slideTitle": "LLM safety compromised with just 10 training examples,",
+      "source": "slide"
+    }
+  ]
+}

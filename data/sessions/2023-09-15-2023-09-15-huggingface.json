@@ -1,0 +1,168 @@
+{
+  "id": "2023-09-15-2023-09-15-huggingface",
+  "date": "2023-09-15",
+  "title": "HuggingFace",
+  "series": "seminar",
+  "topics": [
+    "jobs",
+    "safety",
+    "open-models",
+    "benchmarks",
+    "openai",
+    "fine-tuning"
+  ],
+  "video": {
+    "id": "6RMbtGppAlA",
+    "title": "HuggingFace - a $4.5 Bln AI Company  - September 15, 2023",
+    "url": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+    "thumbnail": "https://i.ytimg.com/vi/6RMbtGppAlA/hqdefault.jpg",
+    "duration": 568
+  },
+  "deck": {
+    "path": "2023/2023-09-15-HuggingFace.pptx",
+    "filename": "2023-09-15-HuggingFace.pptx",
+    "title": "HuggingFace",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2023/2023-09-15-HuggingFace.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2023/2023-09-15-HuggingFace.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Hugging Face September 15, 2023",
+      "text": "Hugging Face September 15, 2023"
+    },
+    {
+      "index": 2,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Cloud architecture, fin-tech, application security Crypto, accounting Find me on Linkedin, GitHub, YouTube, Google to connect"
+    },
+    {
+      "index": 3,
+      "title": "Hugging Face Hugging Face is a platform for",
+      "text": "Hugging Face Hugging Face is a platform for machine learning (ML) technologies. It provides tools for building, training, and deploying ML models using open source code. Hugging Face was launched in 2016 and is based in New York City. 20 Jay St Ste 620, Brooklyn, New York, 11201 Original product - a chatbot app for teenagers . It was open-sourced. Then the company pivoted to being a platform for ML. Hugging Face raised $40M in Series B in 2021 In 2022 it was valued at $2Bln - and received $100M in Series C funding In August 2023 raised $235M at $4.5Bln valuation Key people: Clément Delangue (CEO), Julien Chaumond (CTO), Thomas Wolf (CSO) Hugging Face is a community and data science platform for AI experts and enthusiasts. It allows users to host their own AI models, train them, and collaborate with their team. Hugging Face also provides libraries and tools for natural language processing (NLP) tasks. Hugging Face 's goal is to democratize machine learning. It makes money by charging for features such as access to computing power and higher levels of customer support. Hugging Face currently has 10,000 paying customers . https://en.wikipedia.org/wiki/Hugging_Face Main products - transformers, datasets, spaces, LLMs Revenue $15M in 2022, estimated $30-50M in 2023 160 employees (2023)  (per employee: $0.3M revenue, $30M value) https://huggingface.co"
+    },
+    {
+      "index": 4,
+      "title": "Hugging Face Home Page Open LLM Leaderboard",
+      "text": "Hugging Face Home Page Open LLM Leaderboard"
+    },
+    {
+      "index": 5,
+      "title": "Datasets Spaces https://huggingface.co/datasets https://huggingface.co/spaces",
+      "text": "Datasets Spaces https://huggingface.co/datasets https://huggingface.co/spaces"
+    },
+    {
+      "index": 6,
+      "title": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can",
+      "text": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can not copy https://huggingface.co/datasets/open-llm-leaderboard/results - underlying dataset and links https://huggingface.co/spaces/gsaivinay/open_llm_leaderboard - added GPT-4 and GPT-3.5 https://huggingface.co/spaces/Weyaxi/open_llm_leaderboard Sep 9, 2023 - 1211 entries (was ~346 entries on July 16th before LLaMa July 18) All top positions are LLaMa 70B 16bit and require ~160 GB VRAM to run. Reducing N-params from 70B down to 30,13,7B causes severe reduction of average test scores Reducing precision from 16bits down to 4bits surprisingly preserves the quality of the model rank    size  avg_quality  bits  VRAM  name 1      70B 73.81       16    160  uni-tianyan/Uni-TianYan 33      70B    71.36        8 160 garage-bAInd/Camel-Platypus2-70B 50      70B    70.37        4     45  garage-bAInd/Camel-Platypus2-70B 55      65B    69.94       16    160  upstage/llama-65b-instruct 61     180B    68.74       16    400  tiiuae/ falcon-180B 107      70B    66.8        16 160 meta-llama/Llama-2-70b-chat-hf  (original LLaMa2, July 18) 100      13B    66.03       16         Aspik101/trurl-2-13b-pl-instruct_unload 145      30B    64.21        4     20  gaodrew/gaodrew-llama-30b-instruct-2048-Open-Platypus-100steps 168      40b    63.47       16         tiiuae/ falcon-40b -instruct (was #1 before LLaMa2) 181      13B    63.19        4     10  Open-Orca/OpenOrca-Platypus2-13B 348       7b    59.89       16         HyperbeeAI/Tulpar-7b-v0 565       7b    55.72        4      6  joehuangx/spatial-vicuna-7b-v1.5-LoRA"
+    },
+    {
+      "index": 7,
+      "title": "Getting a Dataset via git clone ... Go",
+      "text": "Getting a Dataset via git clone ... Go to the Hugging Face Hub and navigate to the dataset you want to clone. For example, here is the page for dataset \"open-llm-leaderboard/results\" : https://huggingface.co/datasets/open-llm-leaderboard/results Find clone instructions. May be under \"Code\" or under some 3-dot menu. Open terminal on your computer - and run the commands, for example: git lfs install   # LFS = Large File Sytem git clone https://huggingface.co/datasets/open-llm-leaderboard/results Running the command above creates a \"results\" directory with many subdirectories and files If you are set with an SHH connection, then the git url will look differently, for example: git clone git@huggingface.co :datasets/glue.git Git LFS (Large File System) is a command that stores large files in a different repository than your project's. It uses pointers instead of the actual files to link your repository with a remote service like GitHub. This allows you to save space by storing binary files in a different location https://www.mankier.com/1/git-lfs-install"
+    },
+    {
+      "index": 8,
+      "title": "Hugging Face Basics Transformers Library (pip install transformers)",
+      "text": "Hugging Face Basics Transformers Library (pip install transformers) Pipeline Model / Tokenizer PyTorch / TensoFlow Save / Load Model Hub Finetuning from transformers import pipeline classifier = pipeline(\"sentiment-analysis\") res = classifier(\"some text here\") print(res) generator = pipeline(\"text-generation\", model=\"distilgpt2\") res = generator( \"In this course, we will teach you how to\", max_length=30, num_return_sequences=2) print(res) https://huggingface.co/docs https://huggingface.co/learn/nlp-course https://www.youtube.com/watch?v=QEaBAZQCtwE https://huggingface.co/datasets https://huggingface.co/docs/datasets/index https://huggingface.co/spaces"
+    },
+    {
+      "index": 9,
+      "title": "Hugging Face Python Modules pip install transformers -",
+      "text": "Hugging Face Python Modules pip install transformers - pre-trained models (natural language inference, question answering, summarization) https://huggingface.co/docs/transformers pip install datasets - datasets including text, code, and speech https://huggingface.co/docs/datasets pip install evaluate - tools to evaluate models https://huggingface.co/docs/evaluate pip install huggingface_hub - interact with the Hugging Face Hub, a ML platform https://huggingface.co/docs/huggingface_hub pip install tokenizers - tokenization schemes for NLP tasks https://huggingface.co/docs/tokenizers import transformers summarizer = transformers.pipeline('summarization') summary = summarizer(text, max_length=100, language='en') # https://huggingface.co/docs/transformers/tasks/summarization from transformers import pipeline translator = pipeline(\"translation\", model=\"Helsinki-NLP/opus-mt-en-fr\") print(translator(\"I love you\")) # https://huggingface.co/learn/nlp-course/chapter7/4?fw=tf text-generation (poem, code, email) https://huggingface.co/docs/transformers/main_classes/text_generation automatic speech recognition https://huggingface.co/docs/transformers/tasks/asr https://huggingface.co/docs"
+    },
+    {
+      "index": 10,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Hugging Face September 15, 2023",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 1,
+      "slideTitle": "Hugging Face September 15, 2023",
+      "source": "slide"
+    },
+    {
+      "claim": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 2,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "slide"
+    },
+    {
+      "claim": "Hugging Face Hugging Face is a platform for",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 3,
+      "slideTitle": "Hugging Face Hugging Face is a platform for",
+      "source": "slide"
+    },
+    {
+      "claim": "Hugging Face Home Page Open LLM Leaderboard",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 4,
+      "slideTitle": "Hugging Face Home Page Open LLM Leaderboard",
+      "source": "slide"
+    },
+    {
+      "claim": "Datasets Spaces https://huggingface.co/datasets https://huggingface.co/spaces",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 5,
+      "slideTitle": "Datasets Spaces https://huggingface.co/datasets https://huggingface.co/spaces",
+      "source": "slide"
+    },
+    {
+      "claim": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 6,
+      "slideTitle": "Open LLM Leaderboard https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard - streaming scroll, can",
+      "source": "slide"
+    },
+    {
+      "claim": "Getting a Dataset via git clone ... Go",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 7,
+      "slideTitle": "Getting a Dataset via git clone ... Go",
+      "source": "slide"
+    },
+    {
+      "claim": "Hugging Face Basics Transformers Library (pip install transformers)",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 8,
+      "slideTitle": "Hugging Face Basics Transformers Library (pip install transformers)",
+      "source": "slide"
+    },
+    {
+      "claim": "Hugging Face Python Modules pip install transformers -",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=6RMbtGppAlA",
+      "slideIndex": 9,
+      "slideTitle": "Hugging Face Python Modules pip install transformers -",
+      "source": "slide"
+    }
+  ]
+}

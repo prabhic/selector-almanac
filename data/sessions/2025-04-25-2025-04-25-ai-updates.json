@@ -1,0 +1,282 @@
+{
+  "id": "2025-04-25-2025-04-25-ai-updates",
+  "date": "2025-04-25",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "agents"
+  ],
+  "video": {
+    "id": "-B-TMEmoaqA",
+    "title": "Have you heard these exciting AI news? - April 25, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+    "thumbnail": "https://i.ytimg.com/vi/-B-TMEmoaqA/hqdefault.jpg",
+    "duration": 1537
+  },
+  "deck": {
+    "path": "2025/2025-04-25-AI-Updates.pptx",
+    "filename": "2025-04-25-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-04-25-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-04-25-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "SDK       --  ADK",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Software  --  Agent",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "OpenAI image generation via API - gpt-image-1 Microsoft",
+      "text": "OpenAI image generation via API - gpt-image-1 Microsoft UI agents in Copilot Studio Google Veo 2 in Gemini API, AI Studio, mobile app Ai2 DataDecide - a suite of open models ByteDance Seaweed video foundation model Google Gemini 2.5 Flash with reasoning budget AI Updates April 25 , 2025 Crowd-sourced \"Arena\" Leaderboard Google Sheets =AI(\"your prompt ...) Meta PerceptionLM open 8B vision-language model d1: Scaling Reasoning in Diffusion via RL 3-Level Prompting System OpenEvals - Agent Self Healing Code Chinese Huawei's 910C GPU to ship in May 51% of internet traffic is from automated bots Films made with AI can win Oscars China to sell 1,000+ humanoid robots in 2025 Nemotron-H (Hybrid Mamba-Transformer) models Nvidia's Eagle 2.5 VLMs Claude Code: Best practices for agentic coding RLHF to use streams instead of labeled data Meta Web-SSL - Self-Supervised Learning for images President Trump Executive order on AI Literacy Liner Deep Research Physical Intelligence π0.5 AI Framework JetBrains Junie Smart Coding Agent OpenAI’s o3 and o4-mini Models Identify Locations Gemma-3 Quantized Training ByteDance UI-TARS-1.5 Agent Mechanize - train agents in virtual envs MCP with Python & Ollama Sam Altman at TED 2025 Why Lazy Entrepreneurs Earn More All the top LLMs releases in 2025 so far Moonshot AI - Kimi 1.5 SDK       =>  ADK Software  =>  Agent"
+    },
+    {
+      "index": 2,
+      "title": "AI Updates - 1 Microsoft UI agents in",
+      "text": "AI Updates - 1 Microsoft UI agents in Copilot Studio to automate desktop and web workflows without APIs https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/announcing-computer-use-microsoft-copilot-studio-ui-automation/ Google Veo 2 in Gemini API, AI Studio, and mobile app for text-to-video generation - very realistic https://developers.googleblog.com/en/veo-2-video-generation-now-generally-available/ Ai2 DataDecide - a suite of open models 14 model sizes (from 4M parameters up to 1B parameters) provide recommendations about the best and most cost-effective benchmarks, prediction methods, and metrics to use to make decisions - https://allenai.org/blog/datadecide ByteDance Seaweed-7B video foundation model https://seaweed.video/seaweed.pdf OpenAI image generation via API - gpt-image-1 Pricing (per 1M tokens): text-in:$5; image-in:$10, image-out:$40 In practice, this translates to roughly $0.02, $0.07, and $0.19 per generated image for low, medium, and high-quality images https://openai.com/index/image-generation-api/"
+    },
+    {
+      "index": 3,
+      "title": "AI Updates - 2 Google Gemini 2.5 Flash",
+      "text": "AI Updates - 2 Google Gemini 2.5 Flash - hybrid reasoning AI in preview matches o4-mini, outperforms Claude 3.5 Sonnet on reasoning/STEM benchmarks new \"thinking budget\" control (up to 24k tokens) to optimize cost vs. quality vs speed. Turning off reasoning slashes costs from $3.50 to $0.60 per million tokens. Model adjusts its reasoning effort based on task complexity Strong performance across reasoning, STEM, and visual reasoning benchmarks, despite coming in at a fraction of the cost of rivals. Available via API through Google AI Studio and Vertex AI, and is also appearing as an experimental option within the Gemini app. Google Sheets' new AI formula In any cell, type =AI(\"your prompt\", [optional cell reference]) with specific prompts like \"Summarize this customer feedback in three bullet points.\" Apply your formula to multiple cells by dragging the corner handle down an entire column for batch processing. Combine with standard functions like IF() and CONCATENATE() to create powerful workflows, and use \"Refresh and insert\" anytime you need updated content. Pro tip: You can also include formatting instructions directly in your prompt, such as \"in table format\" or \"as a numbered list,\" to control how your output appears in the cell. https://youtu.be/6UNM0DQ2diw"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates - 3 Meta PerceptionLM (PLM) -",
+      "text": "AI Updates - 3 Meta PerceptionLM (PLM) - open 8B vision-language model trained without distillation for video understanding https://ai.meta.com/research/publications/perceptionlm-open-access-data-and-models-for-detailed-visual-understanding/ Perception Encoder shows SOTA performance in visual understanding, excelling at tasks like ID’ing camouflaged animals or tracking movements. Locate 3D enables precise object understanding for AI, with Meta publishing a dataset of 130,000 spatial language annotations for training. Collaborative Reasoner framework tests how well AI systems work together, showing nearly 30% better performance vs. working alone. d1: Scaling Reasoning in Diffusion via Reinforcement Learning https://arxiv.org/abs/2504.12216v1 https://github.com/dllm-reasoning/d1 https://youtu.be/7fKF4pboPXs The researchers demonstrated that their d1 framework consistently improves reasoning performance across multiple mathematical and logical tasks when applied to LLaDA-8B-Instruct (a state-of-the-art dLLM)"
+    },
+    {
+      "index": 5,
+      "title": "We post our AI Updates Every Friday after",
+      "text": "We post our AI Updates Every Friday after 3pm EST It is usually 25-30 min long Links to slides are under the videos Subscribe to our YouTube channel to get notified when new videos are posted https://www.youtube.com/@lev-selector"
+    },
+    {
+      "index": 6,
+      "title": "3-Level Prompting System The 3-Level Prompting System That",
+      "text": "3-Level Prompting System The 3-Level Prompting System That Makes AI Insanely Useful https://medium.com/age-of-awareness/the-3-level-prompting-system-that-makes-ai-insanely-useful-c37f9e64d547 Three progressive levels: Level 1: The 5-Ingredient Prompt Framework (TCREI) Task - Define what AI should do using persona, verb, and output format Context - Provide details about goal, audience, and tone References - Show examples of desired style/format Evaluate - Review output for usefulness and accuracy Iterate - Refine until results meet needs Level 2: Iteration Techniques (SSMC) Simplify - Break complex prompts into digestible steps Shift Perspective - Reframe AI's role to unlock different thinking Modify Language - Change phrasing, tone, or structure Constraints - Set boundaries to improve creativity and clarity Level 3: Advanced Techniques Prompt Chaining - Feed one AI output into the next prompt Chain of Thought - Ask AI to explain reasoning step-by-step Tree of Thought - Explore multiple reasoning paths Meta Prompting - Ask AI to write better prompts for you"
+    },
+    {
+      "index": 7,
+      "title": "OpenEvals - Agent Self Healing Code OpenEvals -",
+      "text": "OpenEvals - Agent Self Healing Code OpenEvals - Agent Self Healing Code use a second LLM to judge/evaluate the generated code https://github.com/langchain-ai/openevals https://www.youtube.com/watch?v=fKxSTCu7IE0 pip install openevals from openevals.llm import create_llm_as_judge from openevals.prompts import CONCISENESS_PROMPT export OPENAI_API_KEY=\"your_openai_api_key\" conciseness_evaluator = create_llm_as_judge( # CONCISENESS_PROMPT is just an f-string prompt=CONCISENESS_PROMPT, model=\"openai:o3-mini\", ) inputs = \"... your prompt ...\" outputs = \"... LLM response ...\" eval_result = conciseness_evaluator( inputs=inputs, outputs=outputs, ) print(eval_result)"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates - 2 Chinese Huawei's 910C GPU",
+      "text": "AI Updates - 2 Chinese Huawei's 910C GPU to ship in May 910C chip performs on par with Nvidia’s H100. https://opentools.ai/news/huawei-set-to-shake-up-ai-scene-with-new-910c-chip-amid-us-restrictions 51% of internet traffic is from automated bots 37% is malicious (bad bots) 14% are good bots Much of the current expansion is fueled by criminal use of AI, which is likely to increase. https://www.securityweek.com/bot-traffic-surpasses-humans-online-driven-by-ai-and-criminal-innovation/ Films made with AI can win Oscars Academy of Motion Picture Arts and Sciences opens the door for AI-assisted films to compete for Oscars https://opentools.ai/news/lights-camera-ai-ction-oscars-now-open-to-ai-assisted-films"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates - 3 China to sell 1,000+",
+      "text": "AI Updates - 3 China to sell 1,000+ humanoid robots in 2025 Six manufactures (including Unitree, AgiBot, ...) Total expected revenue $616 Mln this year https://www.scmp.com/tech/tech-trends/article/3307356/chinas-humanoid-robot-sector-enters-mass-production-unitree-agibot-among-pack Nemotron-H (Hybrid Mamba-Transformer) models replace most self-attention layers with Mamba layers 3x faster inference, maintains accuracy 8B and 56B parameter models MiniPuzzle compressed 47B (20% speedup) FP8 training recipe for BF16-parity https://arxiv.org/abs/2504.03624 Nvidia's Eagle 2.5 VLMs long-context multimodal learning 8B version matches GPT-4o and Qwen2.5-VL-72B on long-video understanding https://x.com/arankomatsuzaki/status/1914517474370052425 Claude Code: Best practices for agentic coding https://www.anthropic.com/engineering/claude-code-best-practices"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates - 4 RLHF to use streams",
+      "text": "AI Updates - 4 RLHF to use streams instead of labeled data . Pioneers of modern reinforcement learning, Richard Sutton and David Silver released a new paper, “Welcome to the Era of Experience,” proposing that AI should stop relying on fixed human-labeled data. The paper introduces “streams”, continuous interaction loops with real or simulated environments, as the foundation for future agents. https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf Liner Deep Research https://liner.com/news/introducing-deepresearch advanced AI-powered research tool aggregates information from over 50 trusted academic sources, including Arxiv, PubMed, Nature, and IEEE highly accurate, in-depth reports for students, academic researchers, professionals, ... Very fast and accurate (below - factuality benchmark) 10 Million+ users"
+    },
+    {
+      "index": 11,
+      "title": "AI Updates - 5 Meta Web-SSL - Self-Supervised",
+      "text": "AI Updates - 5 Meta Web-SSL - Self-Supervised Learning for images A Scalable and Language-Free Visual Representation Learning It is a family of DINO and Vision Transformer (ViT) models Sizes: from 300 million to 7 Bln params Trained on 2 Bln images (224×224), available via Hugging Face Use: embeddings, Image classification, Object detection, Semantic and instance segmentation, Depth estimation, Image retrieval https://www.marktechpost.com/2025/04/24/meta-ai-releases-web-ssl-a-scalable-and-language-free-approach-to-visual-representation-learning/ 1B 7B President Trump Executive order on AI Literacy make AI literacy a national priority from K–12 classrooms to workforce apprenticeships The order establishes a federal task force, AI education challenge, and public-private partnerships to expand K–12 and workforce training, support teacher development, and grow AI-related apprenticeships The goal is to prepare a generation of AI-fluent citizens and solidify U.S. leadership in the AI-driven global economy."
+    },
+    {
+      "index": 12,
+      "title": "Physical Intelligence π Physical Intelligence π0.5 AI Framework",
+      "text": "Physical Intelligence π Physical Intelligence π0.5 AI Framework A vision-language-action (VLA) model designed to enable robots to perform tasks in entirely new environments through open-world generalization. Building on its predecessor π0 , this framework combines hierarchical decision-making with co-training on diverse datasets to achieve adaptability in unstructured settings like homes, offices, and hospitals Researchers tested the new π0.5 framework at three rental homes in San Francisco, where robots used the AI to complete basic domestic tasks. Framework: \"vision-language-action model with open-world generalization,\" meaning it can see, understand instructions, and act in homes and situations it’s never seen before. Physical Intelligence startup has emerged in 2024 Valued at $2.4 Billion, got $400 Mln in funding https://www.physicalintelligence.company/blog/pi05 https://mikekalil.com/blog/pi-vla-open-world-generalization/"
+    },
+    {
+      "index": 13,
+      "title": "JetBrains Junie Smart Coding Agent JetBrains has launched",
+      "text": "JetBrains Junie Smart Coding Agent JetBrains has launched Junie - smart coding agent (April 2025) https://www.jetbrains.com/junie/ Before that JetBrains offered the JetBrains AI Assistant - answer questions, provide code suggestions Junie is more advanced. It is an autonomous coding agent that can take on and execute complex, multi-step development tasks, acting more like a junior developer or pair programmer Junie can be delegated entire features or workflows, and will execute, test, and present results for review, reducing manual effort and enabling developers to focus on higher-level issues Junie is available to all eligible JetBrains IDE users with a free tier that allows limited cloud-based usage each month. For unlimited or higher-volume use, a paid AI Pro or AI Ultimate subscription is required JetBrains Junie is currently available in IntelliJ IDEA Ultimate, PyCharm Professional, WebStorm, GoLand.  Junie is not available in the Community or non-Pro editions of these IDEs, nor is it available in all JetBrains products yet"
+    },
+    {
+      "index": 14,
+      "title": "OpenAI’s o3 and o4-mini Models Identify Locations OpenAI’s",
+      "text": "OpenAI’s o3 and o4-mini Models Identify Locations OpenAI’s o3 and o4-mini Models Identify Locations very accurate thanks for advanced image reasoning https://x.com/Cointelegraph/status/1913268908389269989"
+    },
+    {
+      "index": 15,
+      "title": "Gemma-3 Quantized Training Gemma-3 Quantized Training Gemma-3 family",
+      "text": "Gemma-3 Quantized Training Gemma-3 Quantized Training Gemma-3 family of models was released on March 12, 2025 1B, 4B, 12B, and 27B params 128kt context length 140+ languages multimodal (text and images) Gemma 3 QAT models (April 2025) are versions of Google's Gemma 3 AI models that have been trained using Quantization-Aware Training (QAT) - that is simulating the reduction of the precision of the model's weights and activations (e.g., from 16-bit floating point to 4-bit integers) during the training process itself. QAT models require less memory while preserving accuracy. For example, Gemma 3 27B: from 54GB (BF16) to just 14.1 GB (int4) https://developers.googleblog.com/en/gemma-3-quantized-aware-trained-state-of-the-art-ai-to-consumer-gpus/ https://ollama.com/library/gemma3 ollama run gemma3:27b-it-qat"
+    },
+    {
+      "index": 16,
+      "title": "ByteDance UI-TARS-1.5 Agent ByteDance UI-TARS-1.5 Agent An open-source",
+      "text": "ByteDance UI-TARS-1.5 Agent ByteDance UI-TARS-1.5 Agent An open-source multimodal agent built upon a powerful vision-language model China - ByteDance Seed, Tsinghua University, January 2025 The agent perceives the screenshots as input and performs human-like interactions (e.g., keyboard and mouse operations) It is built on the Qwen2.5-VL-7B vision-language model. It uses reinforcement learning to reason before acting, improving task execution across environments https://seed-tars.com/1.5/ https://arxiv.org/abs/2501.12326"
+    },
+    {
+      "index": 17,
+      "title": "Mechanize - train agents in virtual envs Mechanize",
+      "text": "Mechanize - train agents in virtual envs Mechanize - startup to train agents in virtual environments Focused on full automation of the economy Simulating what people do at their jobs - computer use, working on long-horizon tasks that lack clear criteria for success, coordinating with others, dealing with obstacles and interruptions. https://x.com/MechanizeWork/status/1912904151874625928 https://www.mechanize.work"
+    },
+    {
+      "index": 18,
+      "title": "MCP with Python & Ollama pip install mcp",
+      "text": "MCP with Python & Ollama pip install mcp mcphost mcp-client ollama pull llama3 mcphost --model ollama:llama3 --sqlite-file mydb.sqlite from mcp import MCPClient # Connect to the running MCP server (default port 3333) client = MCPClient(\" http://localhost:3333 \") response = client.ask( \"\"\"List all orders from customer Alice in the last month.\"\"\" ) print(response[\"result\"]) https://pypi.org/project/mcp/ https://github.com/mark3labs/mcphost https://www.digitalocean.com/community/tutorials/mcp-server-python # sqlite-server.py from mcp.server.fastmcp import FastMCP import sqlite3 # Initialize the MCP server with a friendly name mcp = FastMCP(\"Community Chatters\") # Define a tool to fetch the top chatters # from the SQLite database @mcp.tool() def get_top_chatters(): \"\"\"Retrieve the top chatters sorted by number of messages.\"\"\" # Connect to the SQLite database conn = sqlite3.connect('community.db') cursor = conn.cursor() sql = \"select name, messages from chatters order by messages\" cursor.execute(\"\") results = cursor.fetchall() conn.close() chatters = [{\"name\": name, \"messages\": messages} for name, messages in results] return chatters # Run the MCP server locally if __name__ == '__main__': mcp.run()"
+    },
+    {
+      "index": 19,
+      "title": "Sam Altman at TED 2025 https://www.youtube.com/watch?v=5MWT_doo68k TED -",
+      "text": "Sam Altman at TED 2025 https://www.youtube.com/watch?v=5MWT_doo68k TED - Chris Anderson Interviews Sam Altman OpenAI has been rapidly releasing new models ChatGPT - 500 million weekly active users - and rapidly growing software development will be transformed through agentic software engineering rather than fearing job replacement, people should view AI as a tool that increases capabilities, similar to previous technological revolutions There is a need for new economic models for creative content OpenAI is planning to release a powerful open-source model There are potential risks including bioterror, cybersecurity challenges, and self-improving AI that could lead to loss of control OpenAI has a framework to evaluate models before release Importance of developing safe agentic systems. \"a good product is a safe product\" need in establishing rigorous testing frameworks for advanced AI collective value preferences of hundreds of millions of users rather than decisions made by small elite groups Hope AI can help humans make wiser collective decisions Altman is most excited about AI for science, believing it will accelerate scientific discovery He describes AI development as an \"unbelievable exponential curve\" that will continue far beyond what we currently call AGI He envisions a future of \"incredible material abundance\" where his children will grow up in a world where AI is always smarter than humans"
+    },
+    {
+      "index": 20,
+      "title": "Why Lazy Entrepreneurs Earn More Why Lazy Entrepreneurs",
+      "text": "Why Lazy Entrepreneurs Earn More Why Lazy Entrepreneurs Earn More Money Than You by Ryan Deiss - https://www.youtube.com/watch?v=34UPt_fDuy0 Scaling businesses through \"strategic laziness\" - achieving more by doing less (focus) through leverage Commit to Doing Less. Maintain a \"don't do list\" and follow the seven-project rule, which limits new yearly projects to seven, with only three active simultaneously. This forces prioritization of impact over activity. Shift from Tasks to Assets: Transform your to-do list from one-time tasks (verbs) to reusable assets (nouns) by creating systems, templates, and processes that eliminate repetitive work. Reward Asset Creation: Change company culture by incentivizing employees who build systems rather than just complete tasks. Dice implemented bonuses for team members who created useful systems or playbooks. Measure Revenue Per Employee: Track this metric to encourage building systems rather than simply adding headcount. Improving this number indicates increased leverage."
+    },
+    {
+      "index": 21,
+      "title": "All the top LLMs releases in 2025 so",
+      "text": "All the top LLMs releases in 2025 so far January 2025 Qwen2.5 Qwen-Plus-0125, Qwen2.5-Max (Alibaba) DeepSeek-R1 (DeepSeek) MiniMax-Text-01 (MiniMax) GLM-4-Plus-0111 Gemini-2.0-Flash-Thinking-Exp-01-21 Gemini-2.0-Flash-001 Gemma-3-27B-it Kimi-1.5 (Moonshot AI) February 2025 Gemini-2.0-Pro-Exp-02-05 Gemini-2.0-Flash-Lite Gemini-2.0-Flash Grok-3-Preview-02-24 (xAI) Grok-3 (xAI) Claude 3.7 Sonnet (thinking-32k) (Anthropic) Hunyuan-TurboS-20250226 GPT-4.5 (OpenAI) March 2025 Gemini-2.5-Pro-Exp-03-25 Gemini 2.5 Pro DeepSeek-V3-0324 (DeepSeek) Command A (03-2025) Step-2-16K-Exp ChatGPT-4o-latest (OpenAI, March 26) April 2025 OpenAI o3 (April 16) OpenAI o4-mini (April 16) o3-2025-04-16 o4-mini-2025-04-16 GPT-4.1 (April 14) GPT-4.1-mini (April 14) GPT-4.1-2025-04-14 GPT-4.1-mini-2025-04-14 Gemma-3-27B-it-QAT Gemini-2.5-Flash-Preview-04-17 (Google DeepMind, April 17) Gemini 2.5 Flash (Google DeepMind) Llama 4 (Behemoth) (Meta AI, April 5) o1-preview (OpenAI) o3-mini o3-mini-high QwQ-32B Nvidia Nemotron Nvidia Eagle 2.5 8B Video China is leading open-source development: https://huggingface.co/collections/zh-ai-community/april-2025-open-releases-from-the-chinese-community-67ea699965f6e4c135cab10f Moonshot AI - Kimi 1.5 - https://www.moonshot.cn Kimi 1.5 (a.k.a. Kimi k1.5) is a direct competitor to leading Western models like OpenAI’s GPT-4o and Anthropic’s Claude series particularly excelling in tasks that require reasoning, code generation, and multimodal understanding (text, images, and code). Multilingual (Chinese, English, ...) Context length: up to 200,000 characters (2M in Chinese) 96.2% score on the MATH 500 benchmark and ranked in the 94th percentile on Codeforces, a competitive coding platform. The model is not on lmsys leaderboard yet Moonshot AI is a Beijing-based, founded by Zhilin Yang"
+    },
+    {
+      "index": 22,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard https://openlm.ai/chatbot-arena/ https://beta.lmarena.ai English-only queries Total #models: 229 Total #votes: 2,887,373 Last updated: 2025-04-22 Coding China China China x.ai x.ai China China Llama-4-Maverick is still on 30+ place Chatbot Arena is now \"Arena Intelligence Inc.\""
+    },
+    {
+      "index": 23,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 24,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "SDK       --  ADK",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 1,
+      "slideTitle": "OpenAI image generation via API - gpt-image-1 Microsoft",
+      "source": "outline"
+    },
+    {
+      "claim": "Software  --  Agent",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 24,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "AI Updates - 1 Microsoft UI agents in",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 2,
+      "slideTitle": "AI Updates - 1 Microsoft UI agents in",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 2 Google Gemini 2.5 Flash",
+      "topic": "google",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 3,
+      "slideTitle": "AI Updates - 2 Google Gemini 2.5 Flash",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 3 Meta PerceptionLM (PLM) -",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 4,
+      "slideTitle": "AI Updates - 3 Meta PerceptionLM (PLM) -",
+      "source": "slide"
+    },
+    {
+      "claim": "We post our AI Updates Every Friday after",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 5,
+      "slideTitle": "We post our AI Updates Every Friday after",
+      "source": "slide"
+    },
+    {
+      "claim": "3-Level Prompting System The 3-Level Prompting System That",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 6,
+      "slideTitle": "3-Level Prompting System The 3-Level Prompting System That",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenEvals - Agent Self Healing Code OpenEvals -",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 7,
+      "slideTitle": "OpenEvals - Agent Self Healing Code OpenEvals -",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 2 Chinese Huawei's 910C GPU",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates - 2 Chinese Huawei's 910C GPU",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 3 China to sell 1,000+",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates - 3 China to sell 1,000+",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 4 RLHF to use streams",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 10,
+      "slideTitle": "AI Updates - 4 RLHF to use streams",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates - 5 Meta Web-SSL - Self-Supervised",
+      "topic": "rag",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 11,
+      "slideTitle": "AI Updates - 5 Meta Web-SSL - Self-Supervised",
+      "source": "slide"
+    },
+    {
+      "claim": "Physical Intelligence π Physical Intelligence π0.5 AI Framework",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=-B-TMEmoaqA",
+      "slideIndex": 12,
+      "slideTitle": "Physical Intelligence π Physical Intelligence π0.5 AI Framework",
+      "source": "slide"
+    }
+  ]
+}

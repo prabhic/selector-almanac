@@ -1,0 +1,314 @@
+{
+  "id": "2025-03-07-2025-03-07-ai-updates",
+  "date": "2025-03-07",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "multimodal",
+    "open-models",
+    "infra",
+    "coding",
+    "claude"
+  ],
+  "video": {
+    "id": "78HWEuYs23A",
+    "title": "Have you heard these exciting AI news? - March 07, 2025 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=78HWEuYs23A",
+    "thumbnail": "https://i.ytimg.com/vi/78HWEuYs23A/hqdefault.jpg",
+    "duration": 1643
+  },
+  "deck": {
+    "path": "2025/2025-03-07-AI-Updates.pptx",
+    "filename": "2025-03-07-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2025/2025-03-07-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2025/2025-03-07-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "exact-date"
+  },
+  "chapters": [
+    {
+      "title": "Alibaba QwQ-32B",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Inception Labs - Mercury diffusion LLM",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Jamba 1.6 from AI21 Labs",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "DeepSeek R2",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Nvidia Blackwell Ultra & Vera Rubin",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Anthropic Claude Code",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    },
+    {
+      "title": "Identify models from output with 97.1% accuracy",
+      "startSeconds": null,
+      "label": null,
+      "source": "outline"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Alibaba QwQ-32B Inception Labs - Mercury diffusion LLM",
+      "text": "Alibaba QwQ-32B Inception Labs - Mercury diffusion LLM Jamba 1.6 from AI21 Labs DeepSeek R2 Nvidia Blackwell Ultra & Vera Rubin Anthropic Claude Code Identify models from output with 97.1% accuracy AI Updates March 07 , 202 5 Crowd-sourced \"Arena\" Leaderboard WebDev Arena Leaderboard Jobs AI Subscriptions Google DeepMind - Project Astra Cohere Aya Vision TokenSwift - fast generation of long sequences Microsoft LongRoPE2 Context Window Scaling Microsoft Dragon Copilot for Healthcare Sesame CSM - Conversational Speech Model Structured data extraction Chain of Draft Google Data Science Agent in Colab TSMC $100 Bln building 3 plants in the US NextGenAI - consortium of 15 research institutions Microsoft is shutting down Skype Fast Growth of AI Companies NVIDIA dominates the AI market China buys Nvidia through other countries Apple Studio 512GB Sutton and Barto win the Turing Award for RL China Fantastic Four Larry Page Dynatomics - AI designs Mistral OCR Manus AI Assistant"
+    },
+    {
+      "index": 2,
+      "title": "Alibaba QwQ-32B QwQ-32B - new reasoning model with",
+      "text": "Alibaba QwQ-32B QwQ-32B - new reasoning model with only 32 Bln params Outperforms DeepSeek-R1 and OpenAI o1-mini Open-source Apache 2.0 license It rivals DeepSeek-R1, which is x20 times bigger Priced at just $0.20 per 1 Mln in/out tokens, which is x10 times cheaper than R1 and o1-mini. Blog: https://qwenlm.github.io/blog/qwq-32b HF: https://huggingface.co/Qwen/QwQ-32B ModelScope: https://modelscope.cn/models/Qwen/QwQ-32B Demo: https://huggingface.co/spaces/Qwen/QwQ-32B-Demo Qwen Chat: https://chat.qwen.ai Ollama: https://ollama.com/library/qwq:32b-q4_K_M ollama run qwq:32b-q4_K_M     # 20GB file QwQ-32B is based on Qwen2.5-32B RL training can continuously improve the performance especially in math and coding Continous scaling of RL can help a medium-size model achieve competitive performance against gigantic MoE model"
+    },
+    {
+      "index": 3,
+      "title": "Inception Labs - Mercury diffusion LLM Mercury -",
+      "text": "Inception Labs - Mercury diffusion LLM Mercury - family of dLLMs (diffusion LLMs) First successful application of diffusion to discrete data such as text and code Mercury is up to 10x faster than frontier speed-optimized LLMs (over 1000 tokens/sec on NVIDIA H100s) Mercury Coder - available to test in a playground https://chat.inceptionlabs.ai https://www.inceptionlabs.ai https://www.inceptionlabs.ai/news https://x.com/ArtificialAnlys/status/1894932634322772372 https://machine-learning-made-simple.medium.com/is-the-mercury-llm-the-first-of-a-new-generation-of-llms-b64de1d36029 https://www.youtube.com/watch?v=X1rD3NhlIcE - video Current LLMs are autoregressive, meaning that they generate text left to right, one token at a time, sequentially. Diffusion models operate with a \"coarse-to-fine\" generation process, where the output is refined from pure noise over a few \"denoising\" steps Diffusion models are not restricted to only considering previous output, they are better at reasoning and at structuring their responses. And because diffusion models can continually refine their outputs, they can correct mistakes and hallucinations. For these reasons, diffusion powers all of the most prominent AI solutions for video, image, and audio generation, including Sora, Midjourney, and Riffusion. Diffusion models are usually relatively small (can run locally) Inception Labs , Palo Alto, CA founded by professors from Stanford, UCLA, and Cornell"
+    },
+    {
+      "index": 4,
+      "title": "Jamba 1.6 from AI21 Labs Jamba 1.6 from",
+      "text": "Jamba 1.6 from AI21 Labs Jamba 1.6 from AI21 Labs - https://www.ai21.com/jamba/ open model for private enterprise, outperfors Cohere, Mistral, Llama available on AI21 Studio and @Hugging Face 256K context window Jamba 1.6 chat model : 398B total parameters (94B active) Mamba & Jamba models: Mamba was developed by researchers from Carnegie Mellon University and Princeton University (December 2023) as a new state space model (SSM) architecture focused on efficient sequence modeling, particularly for handling long sequences with linear complexity . Jamba is a hybrid model developed by AI21 Labs in Israel , combining the Transformer architecture with Mamba's state space model (SSM) technology. It incorporates a mixture-of-experts (MoE) module Jamba 1.5 - released in July 2024 - long-context language capabilities, speed, efficiency, 398B params, comparable with Gemma-2-27B-it or Gemini-1.5-Flash - https://openlm.ai/chatbot-arena/ Jamba 1.6 - released March 6, 2025 - latest improved version. It outperforms models from Mistral, Meta, and Cohere in several benchmarks AI21 Labs - startup, since 2017, Tel Aviv, Israel & in New York, USA founded in Nov 2017 by Amnon Shashua, Yoav Shoham, Ori Goshen AI21 received $336 Mln in funding, valuation $1.4 Bln"
+    },
+    {
+      "index": 5,
+      "title": "DeepSeek R2 DeepSeek R2 - upcoming model Improved",
+      "text": "DeepSeek R2 DeepSeek R2 - upcoming model Improved version of DeepSeek R1: Enhanced coding capabilities More languages (multilingual) Generally superior logical reasoning Cost-efficiency and accessibility Likely multimodal (image, video) ?"
+    },
+    {
+      "index": 6,
+      "title": "Nvidia Blackwell Ultra & Vera Rubin Nvidia confirms",
+      "text": "Nvidia Blackwell Ultra & Vera Rubin Nvidia confirms Blackwell Ultra in 2025 and Vera Rubin GPUs in 2026 2025: Blackwell 300-series (Blackwell Ultra) GPUs for AI and HPC 2026: Vera Rubin - TSMC's 3nm process, HBM4 memory https://www.tomshardware.com/pc-components/gpus/nvidia-confirms-blackwell-ultra-and-vera-rubin-gpus-are-on-track-for-2025-and-2026-post-rubin-gpus-in-the-works https://www.tomshardware.com/pc-components/gpus/nvidia-rubin-revealed-as-blackwell-successor-powerful-vera-cpu-coming-too Vera Rubin American astronomer (1928-2016)"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates 1 Identify models from output with",
+      "text": "AI Updates 1 Identify models from output with 97.1% accuracy Mingjie Sun , a researcher at Carnegie Mellon University, and his colleagues developed a machine learning model that analyzed the outputs of five popular LLMs, and was able to distinguish between models with 97.1% accuracy ChatGPT’s GPT-4o model, for instance, tends to use “utilize” more than other models. DeepSeek is partial to saying “certainly.” Google’s Gemini often prefaces its conclusions with the word “essentially,” Anthropic’s Claude over-uses phrases like “according to” and “according to the text” when citing its sources. xAI’s Grok stands out as more discursive and didactic, often reminding users to “remember” key points while guiding them through arguments with “not only” and “but also.” https://www.fastcompany.com/91286162/ai-chatbots-have-telltale-quirks-researchers-can-spot-them-with-97-accuracy Anthropic Claude Code - agentic coding tool, in beta research preview  tasks including adding features and tests, creating pull requests, and generating documentation. https://devclass.com/2025/02/27/anthropic-previews-claude-code-agentic-coding-capable-but-costly/"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates 2 Google DeepMind - Project Astra",
+      "text": "AI Updates 2 Google DeepMind - Project Astra - develop a universal AI assistant Interacting through real-time AI voice and visual processing Google has begun integrating Astra’s capabilities into Gemini Live, with features like live video and screen sharing Rolling out to Gemini Advanced subscribers in March 2025 Project Astra is accessible via Android and prototype smart glasses Cohere Aya Vision from open research arm of Cohere state-of-the-art vision model , 8B and 32B params supports 23 languages text to image, image to text, visual question answering 8B outperforms Qwen2.5-VL 7B and Llama-3.2 11B Vision 32B model outperforms Llama 3.2 90B Vision open weight, available on Kaggle and Hugginface https://cohere.com/blog/aya-vision TokenSwift - accelerate generation of ultra-long sequences up to 100K tokens, while maintaining quality, lossless reducing computation time from hours to minutes https://github.com/bigai-nlco/TokenSwift Microsoft Dragon Copilot - listen and create notes AI system for healthcare Multilanguage ambient listening and note creation Natural language dictation Clinical evidence summaries, referral letters, after visit summaries goal to free clinicians from much of the administrative burden Sesame CSM - Conversational Speech Model https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice#demo https://www.youtube.com/watch?v=ahTQiTt5vjc - good demo Structured data extraction from unstructured content using LLM schemas https://simonwillison.net/2025/Feb/28/llm-schemas/ Chain of Draft - thinking faster by writing less (prompting technique from Zoom researchers) https://arxiv.org/abs/2502.18600 https://www.youtube.com/watch?v=rYnisU10wu0 Google Data Science Agent in Colab (free Jupyter in cloud) AI Agent uses Gemini to generate your notebook Upload your data file, describe your goals (e.g., \"Visualize trends,\" \"Build and optimize prediction model\", “Fill-in missing values”, “Select the best statistical technique”) - and watch the Data Science Agent get to work Microsoft LongRoPE2: Near-Lossless LLM Context Window Scaling extends the effective context window of pre-trained LLMs https://arxiv.org/abs/2502.20082"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates 3 TSMC $100 Bln building 3",
+      "text": "AI Updates 3 TSMC $100 Bln building 3 plants in the US TSMC announced a $100 billion investment to build three new semiconductor manufacturing plants in the U.S. TSMC supplies 90% of the world’s most advanced chips to firms like Apple and Nvidia NextGenAI - consortium with 15 leading research institutions using AI to accelerate research and transform education https://openai.com/index/introducing-nextgenai/ Microsoft is shutting down Skype in May 2025 https://www.xda-developers.com/microsoft-killing-skype/ China buys Nvidia through other countries China getting latest Nvidia’s Blackwell chips through third-party traders located in other regions, like Malaysia, Taiwan, and Vietnam https://techcrunch.com/2025/03/03/chinese-buyers-are-getting-nvidia-blackwell-chips-despite-u-s-export-controls/ China Malaysia Taiwan Vietnam Singapore Fast Growth of AI Companies OpenAI is set to close a deal that values the company at $300 billion Anthropic has raised $3.5 billion at $61.5 billion valuation, up from about $16 billion a little more than a year ago - more than tripling in a year. Expected to generate $2.2B in revenue in 2025 xAI is in talks for a new financing round at $75 billion valuation, up from about $40 billion just two months ago CoreWeave , AI CLoud, has filed for an IPO, aiming for a valuation above $35 billion. The company’s revenue skyrocketed 700% in 2024 to $1.9 billion, driven by demand for AI computing power. CoreWeave acquires \" Weights & Biases \" for $1.7 Billion NVIDIA dominates the AI market , pulling in $31 billion in Q4 from data center revenue with 70%+ margins. Microsoft’s AI + CLoud made $3.25 billion IBM followed with $2 billion mostly from consulting."
+    },
+    {
+      "index": 10,
+      "title": "Apple Studio 512GB Apple announced several new products:",
+      "text": "Apple Studio 512GB Apple announced several new products: MacBook Air with M4 chip (and discontinue M2 & M3) Mac Studio with the M4 Max and M3 Ultra chips, 512GB RAM ! iPad Air with M3 chip base Ipad, with an A16 chip, doubling the starting storage iPhone 16e PolySoft - affordable Mac storage expansion (x2 times cheaper): https://www.kickstarter.com/projects/polysoftservices/studio-drive https://www.youtube.com/watch?v=6ze3kEj4IqU"
+    },
+    {
+      "index": 11,
+      "title": "Sutton and Barto win the Turing Award for",
+      "text": "Sutton and Barto win the Turing Award for RL Turing Award Goes to Pioneers of Reinforcement Learning Andrew Barto and Richard Sutton at the University of Massachusetts, Amherst \"Reinforcement Learning: An Introduction\" 1998 book \"Reinforcement Learning: An Introduction\" by Richard S. Sutton and Andrew G. Barto (1998) is a foundational textbook that presents RL as a unified field within machine learning and artificial intelligence. RL - learning from interaction rather than from provided examples . RL vs supervised and unsupervised learning RL - problem and solutions. How agents can learn optimal behavior through trial and error with delayed rewards How an agent can learn from interaction to achieve a goal. Markov decision processes as the formal framework for modeling sequential decision-making problems Dynamic programming methods for computing optimal policies when a model of the environment is available Monte Carlo methods that learn directly from experience without requiring a model Temporal-difference learning , which combines ideas from dynamic programming and Monte Carlo methods Function approximation techniques to handle large state spaces Policy gradient methods for directly optimizing policies The exploration-exploitation dilemma in reinforcement learning Positive reinforcement \"good puppy\" training: rewarding desired behaviors"
+    },
+    {
+      "index": 12,
+      "title": "China Fantastic Four New generation of Chinese entrepreneurs",
+      "text": "China Fantastic Four New generation of Chinese entrepreneurs - start-up founders known as the “Fantastic Four” https://www.scmp.com/tech/big-tech/article/3300594/chinas-fantastic-four-new-breed-entrepreneurs-reshaping-global-tech-landscape"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates 4 Larry Page Dynatomics AI designs",
+      "text": "AI Updates 4 Larry Page Dynatomics AI designs Google co-founder Larry Page is building a new company called Dynatomics - https://dynatomics.com The goal is to use AI to create “highly optimized” designs for objects and then have a factory build them. The company is run by Chris Anderson , previously the CTO of Page-backed electric airplane startup Kittyhawk ( https://www.kittyhawk.aero ). https://techcrunch.com/2025/03/06/google-co-founder-larry-page-reportedly-has-a-new-ai-startup/ Mistral OCR AI model converts documents into markdown document as input prompt, markdown document as output AI comprehends documents (images, PDFs) Extracts content (text, tables, formulas, images) into a markdown document It is multilingual and multimodal It is very fast Currently only available as self-hosting option to selected organizations dealing with highly sensitive or classified information https://mistral.ai/en/news/mistral-ocr https://www.youtube.com/watch?v=6lRBm0KnzBI - demo"
+    },
+    {
+      "index": 14,
+      "title": "Manus AI Assistant Manus AI Assistant Manus =",
+      "text": "Manus AI Assistant Manus AI Assistant Manus = \"hand\" ( Latin word) a general AI agent as your assistant resume screening and property research, accessing its own independent computer instance, web browsing, coding, and creating visuals handle tasks on sites like Upwork and Fiverr. outperformed leading general-purpose assistants like ChatGPT and Gemini on the GAIA benchmark (General AI Assistant) Currently operates on an invite-only basis Planning to open-source later this year. https://manus.im https://www.youtube.com/watch?v=K27diMbCsuw - video"
+    },
+    {
+      "index": 15,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval https://en.wikipedia.org/wiki/Elo_rating_system Crowd-sourced \"LM Arena\" Leaderboard https://chat.lmsys.org/?leaderboard https://lmarena.ai/?leaderboard English-only queries Total #models: 211 Total #votes: 2,736,442 Last updated: 2025-03-02 Coding China China China China China China China China China China China x.ai China x.ai China China China"
+    },
+    {
+      "index": 16,
+      "title": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard",
+      "text": "WebDev Arena Leaderboard https://web.lmarena.ai/leaderboard"
+    },
+    {
+      "index": 17,
+      "title": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS The",
+      "text": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS The latest layoffs across US tech companies https://news.crunchbase.com/startups/tech-layoffs/ https://www.trueup.io/layoffs in 2025: so far 34,803 workers (167 layoffs, 535 people per day). for week ending Feb. 28, 2025: at least 6,071, including: Autodesk - 1,350 people Hewlett-Packard - 2,000 people Onsemi - 2,400 people In 2024: At least 95,667 workers In 2023: More than 191,000 workers In 2022: More than 93,000 workers"
+    },
+    {
+      "index": 18,
+      "title": "AI Subscriptions Google Discover feed on Google.com Email",
+      "text": "AI Subscriptions Google Discover feed on Google.com Email subscriptions: The Batch - https://www.deeplearning.ai/the-batch , https://DeepLearning.AI TLDR AI - https://tldr.tech/ai The AI Break - https://theaibreak.substack.com AI News - https://smol.ai Forward Future - https://www.forwardfuture.ai Daily Zaps - https://www.dailyzaps.com The Rundown AI - https://www.therundown.ai Latent Space - https://www.latent.space The AI Journal - https://theaijournal.substack.com Medium Daily Digest - https://medium.com AI Secret - https://aisecret.us Marktechpost AI - https://www.airesearchinsights.com Daily AI - https://daily.ai - platform for many newsletters AlphaSignal - https://alphasignal.ai Nvidia Developer Relations - https://developer.nvidia.com Analytics Vidhya - https://www.analyticsvidhya.com Peter Diamandis - https://www.diamandis.com/subscribe ListedAI - https://www.listedai.co Youtube subscriptions https://www.youtube.com/@Fireship https://www.youtube.com/@matthew_berman https://www.youtube.com/@AndrejKarpathy https://www.youtube.com/@SirajRaval https://www.youtube.com/@airevolutionx https://www.youtube.com/@1littlecoder https://www.youtube.com/@MervinPraison https://www.youtube.com/@TrelisResearch https://www.youtube.com/@WesRoth https://www.youtube.com/@TheAiGrid https://www.youtube.com/@code4AI https://www.youtube.com/@UseAI https://www.youtube.com/@LiamOttley https://www.youtube.com/@Augmented_AI https://www.youtube.com/@JuliaMcCoy https://www.youtube.com/@Web3nity https://www.youtube.com/@intheworldofai https://www.youtube.com/@TwoMinutePapers https://www.youtube.com/@peterdiamandis https://www.youtube.com/@AIDailyBrief https://www.youtube.com/@NoPriorsPodcast https://www.youtube.com/@KevinStratvert https://www.youtube.com/@MattVidPro https://www.youtube.com/@AICoffeeBreak https://www.youtube.com/@Analyticsvidhya https://www.youtube.com/@sullyomarr https://www.youtube.com/@DrOsbert https://www.youtube.com/@GoogleDevelopers https://www.youtube.com/@iamAImaster"
+    },
+    {
+      "index": 19,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 20,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Alibaba QwQ-32B",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 1,
+      "slideTitle": "Alibaba QwQ-32B Inception Labs - Mercury diffusion LLM",
+      "source": "outline"
+    },
+    {
+      "claim": "Inception Labs - Mercury diffusion LLM",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 4,
+      "slideTitle": "Jamba 1.6 from AI21 Labs Jamba 1.6 from",
+      "source": "outline"
+    },
+    {
+      "claim": "Jamba 1.6 from AI21 Labs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 7,
+      "slideTitle": "AI Updates 1 Identify models from output with",
+      "source": "outline"
+    },
+    {
+      "claim": "DeepSeek R2",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 11,
+      "slideTitle": "Sutton and Barto win the Turing Award for",
+      "source": "outline"
+    },
+    {
+      "claim": "Nvidia Blackwell Ultra & Vera Rubin",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 14,
+      "slideTitle": "Manus AI Assistant Manus AI Assistant Manus =",
+      "source": "outline"
+    },
+    {
+      "claim": "Anthropic Claude Code",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 17,
+      "slideTitle": "Jobs Layoffs, Jobs: https://layoffs.fyi https://techcrunch.com/2025/02/13/tech-layoffs-2024-list/ https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/ https://fred.stlouisfed.org/series/IHLIDXUS The",
+      "source": "outline"
+    },
+    {
+      "claim": "Identify models from output with 97.1% accuracy",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 20,
+      "slideTitle": "Thank You!",
+      "source": "outline"
+    },
+    {
+      "claim": "Alibaba QwQ-32B QwQ-32B - new reasoning model with",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 2,
+      "slideTitle": "Alibaba QwQ-32B QwQ-32B - new reasoning model with",
+      "source": "slide"
+    },
+    {
+      "claim": "Inception Labs - Mercury diffusion LLM Mercury -",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 3,
+      "slideTitle": "Inception Labs - Mercury diffusion LLM Mercury -",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepSeek R2 DeepSeek R2 - upcoming model Improved",
+      "topic": "open-models",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 5,
+      "slideTitle": "DeepSeek R2 DeepSeek R2 - upcoming model Improved",
+      "source": "slide"
+    },
+    {
+      "claim": "Nvidia Blackwell Ultra & Vera Rubin Nvidia confirms",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 6,
+      "slideTitle": "Nvidia Blackwell Ultra & Vera Rubin Nvidia confirms",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 2 Google DeepMind - Project Astra",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 8,
+      "slideTitle": "AI Updates 2 Google DeepMind - Project Astra",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates 3 TSMC $100 Bln building 3",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 9,
+      "slideTitle": "AI Updates 3 TSMC $100 Bln building 3",
+      "source": "slide"
+    },
+    {
+      "claim": "Apple Studio 512GB Apple announced several new products:",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 10,
+      "slideTitle": "Apple Studio 512GB Apple announced several new products:",
+      "source": "slide"
+    },
+    {
+      "claim": "China Fantastic Four New generation of Chinese entrepreneurs",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=78HWEuYs23A",
+      "slideIndex": 12,
+      "slideTitle": "China Fantastic Four New generation of Chinese entrepreneurs",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "id": "2021-05-21-21-05-21-lead-scoring-with-deciles-tyler",
+  "date": "2021-05-21",
+  "title": "Lead Scoring with Deciles Tyler",
+  "series": "data-science-2021",
+  "topics": [
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-05-21-Tyler_Lev/21-05-21-Lead_Scoring_with_Deciles_Tyler.pptx",
+    "filename": "21-05-21-Lead_Scoring_with_Deciles_Tyler.pptx",
+    "title": "Lead Scoring with Deciles Tyler",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-05-21-Tyler_Lev/21-05-21-Lead_Scoring_with_Deciles_Tyler.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-05-21-Tyler_Lev/21-05-21-Lead_Scoring_with_Deciles_Tyler.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Lead Scoring with Deciles Ranking quality leads Presented",
+      "text": "Lead Scoring with Deciles Ranking quality leads Presented by Tyler Williams May 21, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Scenario Collection of sales leads with tracked attributes",
+      "text": "Scenario Collection of sales leads with tracked attributes Machine Learning model used to predict likelihood of lead making a purchase Use SQL to rank the leads and group them into deciles"
+    },
+    {
+      "index": 3,
+      "title": "Old ML Model – Scores",
+      "text": "Old ML Model – Scores"
+    },
+    {
+      "index": 4,
+      "title": "Static Decile Calculation Unknown basis for cutoff values",
+      "text": "Static Decile Calculation Unknown basis for cutoff values Calculated once at some time far in the past?"
+    },
+    {
+      "index": 5,
+      "title": "Old Model – Static Decile Distribution",
+      "text": "Old Model – Static Decile Distribution"
+    },
+    {
+      "index": 6,
+      "title": "New ML Model - Scores",
+      "text": "New ML Model - Scores"
+    },
+    {
+      "index": 7,
+      "title": "New Model – Static Decile Distribution",
+      "text": "New Model – Static Decile Distribution"
+    },
+    {
+      "index": 8,
+      "title": "Dynamic Decile Calculation with Logarithmic Smoothing",
+      "text": "Dynamic Decile Calculation with Logarithmic Smoothing"
+    },
+    {
+      "index": 9,
+      "title": "New Model – Dynamic Decile Distribution",
+      "text": "New Model – Dynamic Decile Distribution"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Lead Scoring with Deciles Ranking quality leads Presented",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Lead Scoring with Deciles Ranking quality leads Presented",
+      "source": "slide"
+    },
+    {
+      "claim": "Scenario Collection of sales leads with tracked attributes",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Scenario Collection of sales leads with tracked attributes",
+      "source": "slide"
+    },
+    {
+      "claim": "Old ML Model – Scores",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Old ML Model – Scores",
+      "source": "slide"
+    },
+    {
+      "claim": "Static Decile Calculation Unknown basis for cutoff values",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Static Decile Calculation Unknown basis for cutoff values",
+      "source": "slide"
+    },
+    {
+      "claim": "Old Model – Static Decile Distribution",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Old Model – Static Decile Distribution",
+      "source": "slide"
+    },
+    {
+      "claim": "New ML Model - Scores",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "New ML Model - Scores",
+      "source": "slide"
+    },
+    {
+      "claim": "New Model – Static Decile Distribution",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "New Model – Static Decile Distribution",
+      "source": "slide"
+    },
+    {
+      "claim": "Dynamic Decile Calculation with Logarithmic Smoothing",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Dynamic Decile Calculation with Logarithmic Smoothing",
+      "source": "slide"
+    },
+    {
+      "claim": "New Model – Dynamic Decile Distribution",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "New Model – Dynamic Decile Distribution",
+      "source": "slide"
+    }
+  ]
+}

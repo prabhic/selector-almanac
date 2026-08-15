@@ -1,0 +1,342 @@
+{
+  "id": "2024-11-08-2024-11-08-ai-updates",
+  "date": "2024-11-08",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "open-models",
+    "openai",
+    "benchmarks"
+  ],
+  "video": {
+    "id": "DNcazbxg194",
+    "title": "Have you heard these exciting AI news? - November 08, 2024 AI Updates Weekly",
+    "url": "https://www.youtube.com/watch?v=DNcazbxg194",
+    "thumbnail": "https://i.ytimg.com/vi/DNcazbxg194/hqdefault.jpg",
+    "duration": 1186
+  },
+  "deck": {
+    "path": "2024/2024-11-08-AI-Updates.pptx",
+    "filename": "2024-11-08-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2024/2024-11-08-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2024/2024-11-08-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "date",
+    "method": "near-date-1d"
+  },
+  "chapters": [
+    {
+      "title": "Intro",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Election",
+      "startSeconds": 18,
+      "label": "00:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Open AI",
+      "startSeconds": 110,
+      "label": "01:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Comparing 3 open source coding models",
+      "startSeconds": 240,
+      "label": "04:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Geometric Structures in LTM Learned Concepts",
+      "startSeconds": 320,
+      "label": "05:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Hau Model",
+      "startSeconds": 390,
+      "label": "06:30",
+      "source": "youtube"
+    },
+    {
+      "title": "PiZ",
+      "startSeconds": 483,
+      "label": "08:03",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI",
+      "startSeconds": 561,
+      "label": "09:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Arcprise",
+      "startSeconds": 841,
+      "label": "14:01",
+      "source": "youtube"
+    },
+    {
+      "title": "LMMS",
+      "startSeconds": 915,
+      "label": "15:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Magnetic One",
+      "startSeconds": 948,
+      "label": "15:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Tesla",
+      "startSeconds": 1003,
+      "label": "16:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Leaderboard",
+      "startSeconds": 1097,
+      "label": "18:17",
+      "source": "youtube"
+    }
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "title": "US Elections - and AI OpenAI Plans for",
+      "text": "US Elections - and AI OpenAI Plans for 2025 Sam Altman AMA on Reddit Coders: DeepSeek vs Yi Qwen2.5 Jensen Huang (CEO of Nvidia) - What's Next Geometric structures in the LLMs Google has changed its ranking algorithm Anthropic released Claude 3.5 Haiku Physical Intelligence Adaptable Robots Altera AI Social Agents Disney Embraces AI UAE - AI for seismic surveys Toyota  - AI for Driver Assistance AI Avatar \"Live\" for Alzheimer's Patients Pi zero - new AI model for robotics AI Updates November 08 , 2024 Yi-lightning: like GPT-4 but 500 times cheaper China's AI training 3-5 times larger than in US OpenAI delays due to lack of compute AI addiction? AI displacement of humans Meta robots can feel touch. Etched & Decart AI Minecraft game Recraft text-to-image model MindsAI ARC-AGI high score! 55.5% Smell - digitize and recreate using AI Microsoft Magnetic 1 Multi-Agent System Tesla $100 Laptop XPeng Iron - humanoid robot Crowd-sourced \"Arena\" Leaderboard - English Crowd-sourced \"Arena\" Leaderboard - Coding Tech Layoffs in 2024"
+    },
+    {
+      "index": 2,
+      "title": "US Elections - and AI Elon Musk has",
+      "text": "US Elections - and AI Elon Musk has donated nearly $119 million to a political action committee he set up to support Trump. He’s appeared with Trump at rallies and hosted an interview with him on X. We can expect that new administration will invite Elon into his new administration as a major advisor in vital areas including AI. Trump might be more likely to give a green light to Musk’s initiatives as well as regulations about AI, EVs (self-driving vehicles, “robotaxis”), etc. https://www.cnn.com/2024/11/06/business/elon-musk-election-bet/index.html Mark Zuckerberg role is unclear. The Meta CEO and planet's third wealthiest person, was not endorsing either candidate – nor did he in 2016 or 2020. But the Facebook co-founder did call Trump's response to the July assassination attempt \"badass\", and reportedly phoned Trump to wish him a speedy recovery. Trump was saying that Zuckerberg told him, \"I will never vote for people running against you after watching what you did.\" Open Source AI leaders (like Elon Musk and Mark Zuckerberg) were previously excluded from Governmental committees on AI, for example from \"AI safety board\". But situation may now change. What the Election Results Mean for Emerging Tech: Deregulation across multiple sectors, particularly biotech, space, AI, Cryptocurrencies - reducing Government Overreach Speed of Technological Change Forward-Thinking Policy"
+    },
+    {
+      "index": 3,
+      "title": "OpenAI Plans 2025 AMA (Ask Me Anything) interview",
+      "text": "OpenAI Plans 2025 AMA (Ask Me Anything) interview Sam Altman - Reddit OpenAI's Sam Altman owns a 8.7% stake in Reddit Reddit went public on NYSE earlier this year. Its market cap is close to $20 Bln In the interview: OpenAI Reveals Their Plans For 2025 https://www.youtube.com/watch?v=VafombwcTO0 AGI is achievable with current hardware o1 model is a significant improvement over the preview - 10-15% better benchmarks over o1-preview. OpenAI will continue scaling LLMs and improve inference time (faster and longer inference based on query). Hallucinations remain a challenge. Agents - next major advancement in their product line. Adaptability and continuous - crucial skills for success. Ilya Sutskever had a vision of a \"transcendent future\" where AI surpass human understanding. Ilya was instrumental in early ideas that led to o1 development. Advanced voice mode with vision is delayed in favor of other projects like the O1 model. New text-image model and 3D model generation are coming. Longer context window is in development. Real-time HTML editor is coming. Reddit is a social news aggregation, content rating, and discussion website. It's like a giant bulletin board with millions of different sections (called \" subreddits \") dedicated to various topics, from news and politics to hobbies and memes. Users submit content like links, text posts, and images, which are then voted up or down by other users. Reddit was founded in June 2005 by Steve Huffman and Alexis Ohanian in Medford, Massachusetts. Altman has invested in 125+ companies (Stripe, Instacart, Humane, Reddit, Cruise, Asana, ...)"
+    },
+    {
+      "index": 4,
+      "title": "AI News - 1 Comparing 3 open-source coding",
+      "text": "AI News - 1 Comparing 3 open-source coding models: DeepSeek-Coder-V2-Lite-Instruct - 16B Yi-Coder-9B-Chat Qwen2.5-Coder-7B-Instruct - the winner, fast https://www.youtube.com/watch?v=RRfbML4Lq40 Jensen Huang (CEO of Nvidia) : New AI models think (reason) before answering. Autonomous AI agents will become prevalent in the workplace by 2025. Physical AI - AI interacting with the physical world, such as humanoid robots. https://www.youtube.com/watch?v=4veTNJ0Qgfc"
+    },
+    {
+      "index": 5,
+      "title": "AI News - 1 Geometric structures in the",
+      "text": "AI News - 1 Geometric structures in the LLMs larned concepts . New research demonstrates that AI organizes concepts in geometric patterns. For example, the relationship between man and woman parallels the same relationship between king and queen, forming a parallelogram. The AI's knowledge is organized into distinct regions or lobes, similar to how a human brain has different areas for different functions. There are three main lobes: the code/math lobe, the general language lobe the dialog lobe. The researchers also found that the AI's knowledge is organized in a specific way that follows mathematical patterns. This is not random, it's highly structured. The similarities with human brains doesn't suggest that AI is conscious or thinking like a human. https://www.youtube.com/watch?v=jIhkgSN7vVU Google has changed its ranking algorithm (though they haven't explicitly explained the changes). Google is placing a greater emphasis on expertise and relevance. Websites that have a genuine depth of knowledge and experience in a particular area are more likely to rank well, while those that simply try to capitalize on their domain authority to rank for any topic are being penalized. In the past, Google's algorithm heavily relied on domain authority, allowing big publishers to rank easily for almost any topic. Now, Google seems to be refining its algorithm to better understand if a section of a site is truly relevant to the main focus of the site. If not, that section's content may be downranked, even if the overall domain has high authority. https://www.youtube.com/watch?v=qvU52p3Omhc"
+    },
+    {
+      "index": 6,
+      "title": "AI News - 2 Altera AI is working",
+      "text": "AI News - 2 Altera AI is working on AI agents that can form meaningful social relationships and develop their own cultures. Their \"piano\" architecture allows agents to think and act concurrently over multiple time scales, consciously and subconsciously. In a Minecraft sandbox, these agents have shown the ability to form friendships, rivalries, and even develop their own laws and religions. Physical Intelligence - San Francisco-based startup, has raised $400 million at a $2.4 billion valuation. Creating adaptable robots, unlike traditional single-task robots. New robot that can do laundry, dishes, and other household chores. Company has developed a generalist AI policy for robotics, similar to GPT in its potential impact. Anthropic Claude 3.5 Haiku model Good, even surpassing Claude 3 Opus in many tasks, but still behind GPT-4 and Gemini 1.5 Pro in some benchmarks. Haiku is more expensive than previous version, and more expensive than GPT-4 Mini and Gemini 1.5 Flash."
+    },
+    {
+      "index": 7,
+      "title": "AI News - 3 Disney Embraces AI -",
+      "text": "AI News - 3 Disney Embraces AI - forming a dedicated team to explore and implement AI, augmented reality (AR), and virtual reality (VR) technologies across its various divisions, including film, television, and theme parks. UAE energy giant ADNOC, in partnership with G42 and Microsoft , is utilizing AI to significantly accelerate seismic surveys in the energy sector. Toyota and NTT Invest Billions in AI for Driver Assistance AI Avatar \"Live\" provides support and guidance to Alzheimer's Patients: personalized advice and answers questions based on real-life experiences of others with the condition. Pi zero - new AI model for robotics - integrates vision, language, and motor commands, allowing robots to see, understand, and act based on their perception. Model is trained on 10,000 hours of data from various robot setups. It can read text prompts, execute tasks \"clean up the table\", fold clothes, pack groceries, grind coffee beans, ...). Combines expertise from Google and Stanford researchers."
+    },
+    {
+      "index": 8,
+      "title": "AI News - 4 Yi-lightning by 01.ai -",
+      "text": "AI News - 4 Yi-lightning by 01.ai - better than GPT-4 (?), and 500 cheaper. China's AI training systems are 3-5 times larger than in US OpenAI is delaying new products due to a lack of compute . AI addiction? AI displacement of human workers. 25% of the code being written by Google engineers is now written by AI. Meta robots can feel touch. Etched & Decart AI created Minecraft game entirely using diffusion models. Recraft text-to-image model - topping the leaderboards. Chat GPT now lets you search through your chat history."
+    },
+    {
+      "index": 9,
+      "title": "MindsAI New ARC-AGI high score! 55.5% (MindsAI) https://www.youtube.com/watch?v=-M0HZGKF4UI",
+      "text": "MindsAI New ARC-AGI high score! 55.5% (MindsAI) https://www.youtube.com/watch?v=-M0HZGKF4UI https://arcprize.org https://arcprize.org/leaderboard https://www.kaggle.com/competitions/arc-prize-2024/leaderboard Unfortunately, MindsAI hasn't publicly disclosed the exact architecture and training methods of their model. But it is likely that they use a combination of the following approaches: Neuro-symbolic AI:** Integrating deep learning with symbolic reasoning. System 2 Reasoning:** Emphasizing deliberate, logical thinking. Program Synthesis:** Generating programs to solve tasks. Evolutionary Algorithms:** Optimizing models through iterative evolution. François Chollet"
+    },
+    {
+      "index": 10,
+      "title": "Digital Smell Osmo AI has developed a way",
+      "text": "Digital Smell Osmo AI has developed a way to digitize and recreate smells using AI. - https://www.osmo.ai - https://www.youtube.com/watch?v=suKIlsTFpis The technology works by analyzing the molecules that make up a particular smell and then recreating it using a special machine. Potential applications: Creating new fragrances and flavors Improving the safety and quality of food Developing new diagnostic tools for healthcare Enhancing virtual and augmented reality experiences"
+    },
+    {
+      "index": 11,
+      "title": "Microsoft Magnetic 1 Microsoft: Magnetic 1 , a",
+      "text": "Microsoft Magnetic 1 Microsoft: Magnetic 1 , a powerful multi-agent AI system . Magnetic 1 is composed of multiple specialized agents, each with its own unique function: Web Surfer, File Surfer, Coder, Computer Terminal, An \"Orchestrator\" agent . Magnetic 1 is built on Microsoft's open-source Autogen framework. Magnetic 1 integrates with various LLMs like GPT-4, ... The system is designed to be modular, allowing agents to be added or removed as needed. Magnetic 1 is capable of performing complex, multi-step tasks across various domains. Magnetic 1 is compared to other multi-agent AI systems like OpenAI's Swarm and IBM's BAgent framework. https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/"
+    },
+    {
+      "index": 12,
+      "title": "Tesla $100 Laptop Elon Musk announced a new",
+      "text": "Tesla $100 Laptop Elon Musk announced a new $100 Tesla laptop. This surprisingly low price aims to disrupt the traditional computer industry and make technology more accessible. proprietary Tesla-designed chipset. lightweight design, long battery life, aluminum finish. simplicity and accessibility for students, emerging markets, and budget-conscious consumers. custom lightweight operating system cloud-first approach - integrates with Tesla's cloud services for enhanced performance and offloading resource-intensive tasks Tesla Cloud subscription offers additional features - extra compute power, storage, cloud-based gaming for a monthly fee https://www.xpeng.com/news/ XPeng AI unveiled Iron, the humanoid robot It is already working in XPeng's factory - assists in assembling the P7 Plus electric vehicle custom-built Turing AI chip Plan to deploy Iron in retail, offices, and homes XPeng introduced the Kunang super electric system for their Electric Vehicle - up to 1,400 km (870 miles), charging to 80% in 12 min"
+    },
+    {
+      "index": 13,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard English-only queries Total #models: 161. Total #votes: 2,191,578. Last updated: 2024-11-04. China x.ai x.ai China China China China"
+    },
+    {
+      "index": 14,
+      "title": "Starting Elo rating = 1000 95% CI =",
+      "text": "Starting Elo rating = 1000 95% CI = Confidence Interval Crowd-sourced \"Arena\" Leaderboard https://chat.lmsys.org/?leaderboard Coding Total #models: 161. Total #votes: 2,191,578. Last updated: 2024-11-04. China China China China x.ai x.ai China China China"
+    },
+    {
+      "index": 15,
+      "title": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job",
+      "text": "Tech Layoffs in 2024 Layoffs - https://layoffs.fyi Job market for IT: much worse than before COVID. IT has become a commodity. Lower salaries/rates ($100/hr => $75/hr). Much more competition, hundreds of applications for each position"
+    },
+    {
+      "index": 16,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 17,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Intro",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=0s",
+      "slideIndex": 1,
+      "slideTitle": "US Elections - and AI OpenAI Plans for",
+      "source": "youtube"
+    },
+    {
+      "claim": "Election",
+      "topic": "general",
+      "videoSeconds": 18,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=18s",
+      "slideIndex": 2,
+      "slideTitle": "US Elections - and AI Elon Musk has",
+      "source": "youtube"
+    },
+    {
+      "claim": "Open AI",
+      "topic": "general",
+      "videoSeconds": 110,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=110s",
+      "slideIndex": 4,
+      "slideTitle": "AI News - 1 Comparing 3 open-source coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "Comparing 3 open source coding models",
+      "topic": "open-models",
+      "videoSeconds": 240,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=240s",
+      "slideIndex": 5,
+      "slideTitle": "AI News - 1 Geometric structures in the",
+      "source": "youtube"
+    },
+    {
+      "claim": "Geometric Structures in LTM Learned Concepts",
+      "topic": "general",
+      "videoSeconds": 320,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=320s",
+      "slideIndex": 6,
+      "slideTitle": "AI News - 2 Altera AI is working",
+      "source": "youtube"
+    },
+    {
+      "claim": "Hau Model",
+      "topic": "general",
+      "videoSeconds": 390,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=390s",
+      "slideIndex": 8,
+      "slideTitle": "AI News - 4 Yi-lightning by 01.ai -",
+      "source": "youtube"
+    },
+    {
+      "claim": "PiZ",
+      "topic": "general",
+      "videoSeconds": 483,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=483s",
+      "slideIndex": 9,
+      "slideTitle": "MindsAI New ARC-AGI high score! 55.5% (MindsAI) https://www.youtube.com/watch?v=-M0HZGKF4UI",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI",
+      "topic": "openai",
+      "videoSeconds": 561,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=561s",
+      "slideIndex": 10,
+      "slideTitle": "Digital Smell Osmo AI has developed a way",
+      "source": "youtube"
+    },
+    {
+      "claim": "Arcprise",
+      "topic": "general",
+      "videoSeconds": 841,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=841s",
+      "slideIndex": 12,
+      "slideTitle": "Tesla $100 Laptop Elon Musk announced a new",
+      "source": "youtube"
+    },
+    {
+      "claim": "LMMS",
+      "topic": "general",
+      "videoSeconds": 915,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=915s",
+      "slideIndex": 13,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Magnetic One",
+      "topic": "general",
+      "videoSeconds": 948,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=948s",
+      "slideIndex": 14,
+      "slideTitle": "Starting Elo rating = 1000 95% CI =",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tesla",
+      "topic": "general",
+      "videoSeconds": 1003,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=1003s",
+      "slideIndex": 16,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 1097,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194&t=1097s",
+      "slideIndex": 17,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Plans 2025 AMA (Ask Me Anything) interview",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194",
+      "slideIndex": 3,
+      "slideTitle": "OpenAI Plans 2025 AMA (Ask Me Anything) interview",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News - 3 Disney Embraces AI -",
+      "topic": "multimodal",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194",
+      "slideIndex": 7,
+      "slideTitle": "AI News - 3 Disney Embraces AI -",
+      "source": "slide"
+    },
+    {
+      "claim": "Microsoft Magnetic 1 Microsoft: Magnetic 1 , a",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": "https://www.youtube.com/watch?v=DNcazbxg194",
+      "slideIndex": 11,
+      "slideTitle": "Microsoft Magnetic 1 Microsoft: Magnetic 1 , a",
+      "source": "slide"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "id": "2021-05-07-21-05-07-linear-regression-in-python-alex",
+  "date": "2021-05-07",
+  "title": "Linear Regression in Python Alex",
+  "series": "data-science-2021",
+  "topics": [
+    "ml-fundamentals",
+    "general"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2021_1_data_science/21-05-07-Linear_Regression_in_Python_Alex.pptx",
+    "filename": "21-05-07-Linear_Regression_in_Python_Alex.pptx",
+    "title": "Linear Regression in Python Alex",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2021_1_data_science/21-05-07-Linear_Regression_in_Python_Alex.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2021_1_data_science/21-05-07-Linear_Regression_in_Python_Alex.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Implement Linear Regression in Python Presented by Alex",
+      "text": "Implement Linear Regression in Python Presented by Alex Ni May 7, 2021"
+    },
+    {
+      "index": 2,
+      "title": "Simple Linear Regression Simple or single-variate linear regression",
+      "text": "Simple Linear Regression Simple or single-variate linear regression is the simplest case of linear regression. It establishes the relationship between response variable y and ONE predictor variable x using a straight line. Formulation: 𝑦 = 𝛽₀ + 𝛽₁ 𝑥 + 𝜀 Visually, it attempts to draw a line that comes closest to the data by finding the slope(𝛽₁) and intercept(𝛽₀) that define the line and minimize regression errors (𝜀, dotted lines in the plot, also called Residuals ). Example of simple linear regression"
+    },
+    {
+      "index": 3,
+      "title": "Ordinary Least Squares How to estimate parameters in",
+      "text": "Ordinary Least Squares How to estimate parameters in linear regression? Ordinary least squares is the method to find parameters α and β in a linear regression model by minimizing the sum of the squared residuals. We take partial derivatives by two coefficients and solve system of 2 equations, and after some algebraic transformations, we derive the standard OLS method Why Squared? We do not want our positive errors to be compensated by the negative ones, since they are equally penalizing for our model. var(x) = sum((x-x mean ) 2 ) cov(x,y) = sum((x-x mean )(y-y mean )) covar(x,y) / var(x)"
+    },
+    {
+      "index": 4,
+      "title": "Multiple Linear Regression Multiple or multivariate linear regression",
+      "text": "Multiple Linear Regression Multiple or multivariate linear regression is a case of linear regression with TWO OR MORE independent variables. Formulation: 𝑦 = 𝛽₀ + 𝛽₁𝑥₁ + ⋯ + 𝛽ᵣ𝑥ᵣ + 𝜀 𝛽₀, 𝛽₁, …, 𝛽ᵣ are the regression coefficients, and 𝜀 is the random error. Visually, if there are just two independent variables, the estimated regression function is 𝑓(𝑥₁, 𝑥₂) = 𝛽₀ + 𝛽₁𝑥₁ + 𝛽₂𝑥₂. It represents a flat plane in a 3D space. The goal of regression is to determine the values of the weights 𝛽₀ , 𝛽₁, and 𝛽₂ such that this plane is as close as possible to the actual responses and yield the minimal sum of squared residuals ( SSE, sum of squared errors ). Example of multivariate regression when i = 2"
+    },
+    {
+      "index": 5,
+      "title": "SST, SSR, SSE,? https://365datascience.com/tutorials/statistics-tutorials/sum-squares/ Some abbreviations you will",
+      "text": "SST, SSR, SSE,? https://365datascience.com/tutorials/statistics-tutorials/sum-squares/ Some abbreviations you will see when people talk about OLS: Sum of Squares Total (SS T ): measure of the total variability of the dataset Sum of Squares Regression (SS R ): a measure that describes how well our line fits the data Sum of Squares Error (SS E ): the error we want to minimize Mathematically, SST = SSR + SSE . The rationale is the following: the total variability of the data set is equal to the variability explained by the regression line plus the unexplained variability, known as error. Given a constant total variability, a lower error will cause a better regression. Conversely, a higher error will cause a less powerful regression."
+    },
+    {
+      "index": 6,
+      "title": "Sum of Squares Total",
+      "text": "Sum of Squares Total"
+    },
+    {
+      "index": 7,
+      "title": "Slide 7",
+      "text": ""
+    },
+    {
+      "index": 8,
+      "title": "Sum of Sqaures Error",
+      "text": "Sum of Sqaures Error"
+    },
+    {
+      "index": 9,
+      "title": "Sum of Sqaures Error Sometimes, it becomes really",
+      "text": "Sum of Sqaures Error Sometimes, it becomes really confusing because some people denote SSE as SSR. This makes it unclear whether we are talking about the sum of squares due to regression or sum of squared residuals ."
+    },
+    {
+      "index": 10,
+      "title": "Connection",
+      "text": "Connection"
+    },
+    {
+      "index": 11,
+      "title": "Polynomial Regression Polynomial regression is a generalized case",
+      "text": "Polynomial Regression Polynomial regression is a generalized case of linear regression. In other words, in addition to linear terms like 𝑏₁𝑥₁, your regression function 𝑓 can include non-linear terms such as 𝑏₂𝑥₁², 𝑏₃𝑥₁³, or even 𝑏₄𝑥₁𝑥₂, 𝑏₅𝑥₁²𝑥₂, and so on. In the case of two variables and the polynomial of degree 2, the regression function has this form: 𝑓(𝑥₁, 𝑥₂) = 𝑏₀ + 𝑏₁𝑥₁ + 𝑏₂𝑥₂ + 𝑏₃𝑥₁² + 𝑏₄𝑥₁𝑥₂ + 𝑏₅𝑥₂². The procedure for solving the problem is identical to the previous case. You apply linear regression for five inputs: 𝑥₁, 𝑥₂, 𝑥₁², 𝑥₁𝑥₂, and 𝑥₂². What you get as the result of regression are the values of six weights which minimize SSR: 𝑏₀, 𝑏₁, 𝑏₂, 𝑏₃, 𝑏₄, and 𝑏₅."
+    },
+    {
+      "index": 12,
+      "title": "Before applying linear regression... There are four assumptions",
+      "text": "Before applying linear regression... There are four assumptions associated with a linear regression model: Linearity : The relationship between X and the mean of Y is linear. Homoscedasticity : The residuals have constant variance at every level of x. Independence : The residuals are independent. In particular, there is no correlation between consecutive residuals in time series data. Normality : The residuals of the model are normally distributed. Linearity, normality, same deviation ( same σ ) - Homoscedasticity Four sets of points – fit by the same line. Autocorrelation. Observations are NOT independent"
+    },
+    {
+      "index": 13,
+      "title": "Demo: Checking linear regression assumptions using Scikit-learn",
+      "text": "Demo: Checking linear regression assumptions using Scikit-learn"
+    },
+    {
+      "index": 14,
+      "title": "Problems with correlated features Suppose we have a",
+      "text": "Problems with correlated features Suppose we have a OLS regression where two parameters x1 & x2 are not orthogonal, but in fact highly correlated.Then there may be is infinite number of coefficients which will fit the model. For example, (x1 - x2), (10*x1 - 10*x2), (100*x1 - 100*x2), etc. If we are trying to minimize the cost function in the multidimensional space of coefficients, we will get an infinite diagonal groove (ridge) for x1=x2. Any place at the bottom of this ridge is equally good for us. So we will get a big variability in possible values of coefficients for x1 & x2. The solution will be unstable. We can reduce this variability by adding additional regularization factor like this: When we minimizing this expression, bigger  \"lambda\" value will cause smaller \"beta\" values, thus keeping the coefficients \"beta\" from becoming too large. This is called \" Ridge Regression \". It changes the infinitely long ridge into a local minimum."
+    },
+    {
+      "index": 15,
+      "title": "Remedies to multicollinearity Ridge regression or principal component",
+      "text": "Remedies to multicollinearity Ridge regression or principal component regression or partial least squares regression can be used Leave the model as is, despite multicollinearity. It will still work well as a predictor Try dropping one of the variables – see if coefficients for others will change Combine the correlated variables Do not add dummy variables which could cause multicollinearity Try subsets of training data – watch how stable the coefficients are Get more data – thus get better estimates Mean-center the predictor variables. Generating polynomial terms or interaction terms can cause some multicollinearity otherwise Standardize your independent variables It has also been suggested that using the Shapley value, a game theory tool, the model could account for the effects of multicollinearity If the correlated explanators are different lagged values of the same underlying explanator, then a distributed lag technique can be used, imposing a general structure on the relative values of the coefficients to be estimated"
+    },
+    {
+      "index": 16,
+      "title": "Implement linear regression in Python Example: Predict Stock_Index_Price",
+      "text": "Implement linear regression in Python Example: Predict Stock_Index_Price using  Interest_Rate and Unemployment_Rate More examples: https://www.statsmodels.org/stable/examples/index.html#examples-index--page-root"
+    },
+    {
+      "index": 17,
+      "title": "Adjusted. R-squared reflects the fit of the model.",
+      "text": "Adjusted. R-squared reflects the fit of the model. R-squared values range from 0 to 1, where a higher value generally indicates a better fit, assuming certain conditions are met. const coefficient is your Y-intercept. It means that if both the Interest_Rate and Unemployment_Rate coefficients are zero, then the expected output (i.e., the Y) would be equal to the const coefficient. Interest_Rate coefficient represents the change in the output Y due to a change of one unit in the interest rate (everything else held constant) Unemployment_Rate coefficient represents the change in the output Y due to a change of one unit in the unemployment rate (everything else held constant) std err reflects the level of accuracy of the coefficients. The lower it is, the higher is the level of accuracy P >|t| is your p-value. A p-value of less than 0.05 is considered to be statistically significant Confidence Interval represents the range in which our coefficients are likely to fall (with a likelihood of 95%) Interpreting Linear Regression Through statsmodels .summary()"
+    },
+    {
+      "index": 18,
+      "title": "Reference https://realpython.com/linear-regression-in-python/#beyond-linear-regression https://towardsdatascience.com/understanding-the-ols-method-for-simple-linear-regression-e0a4e8f692cc https://datatofish.com/statsmodels-linear-regression/ https://365datascience.com/tutorials/statistics-tutorials/sum-squares/",
+      "text": "Reference https://realpython.com/linear-regression-in-python/#beyond-linear-regression https://towardsdatascience.com/understanding-the-ols-method-for-simple-linear-regression-e0a4e8f692cc https://datatofish.com/statsmodels-linear-regression/ https://365datascience.com/tutorials/statistics-tutorials/sum-squares/"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Implement Linear Regression in Python Presented by Alex",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Implement Linear Regression in Python Presented by Alex",
+      "source": "slide"
+    },
+    {
+      "claim": "Simple Linear Regression Simple or single-variate linear regression",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Simple Linear Regression Simple or single-variate linear regression",
+      "source": "slide"
+    },
+    {
+      "claim": "Ordinary Least Squares How to estimate parameters in",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Ordinary Least Squares How to estimate parameters in",
+      "source": "slide"
+    },
+    {
+      "claim": "Multiple Linear Regression Multiple or multivariate linear regression",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Multiple Linear Regression Multiple or multivariate linear regression",
+      "source": "slide"
+    },
+    {
+      "claim": "SST, SSR, SSE,? https://365datascience.com/tutorials/statistics-tutorials/sum-squares/ Some abbreviations you will",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "SST, SSR, SSE,? https://365datascience.com/tutorials/statistics-tutorials/sum-squares/ Some abbreviations you will",
+      "source": "slide"
+    },
+    {
+      "claim": "Sum of Squares Total",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Sum of Squares Total",
+      "source": "slide"
+    },
+    {
+      "claim": "Sum of Sqaures Error",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Sum of Sqaures Error",
+      "source": "slide"
+    },
+    {
+      "claim": "Sum of Sqaures Error Sometimes, it becomes really",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Sum of Sqaures Error Sometimes, it becomes really",
+      "source": "slide"
+    },
+    {
+      "claim": "Polynomial Regression Polynomial regression is a generalized case",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Polynomial Regression Polynomial regression is a generalized case",
+      "source": "slide"
+    },
+    {
+      "claim": "Before applying linear regression... There are four assumptions",
+      "topic": "ml-fundamentals",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Before applying linear regression... There are four assumptions",
+      "source": "slide"
+    }
+  ]
+}
