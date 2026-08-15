@@ -112,7 +112,7 @@ async function main() {
   log(`  ${newPaths.length} new deck(s):`);
   for (const p of newPaths) log(`    + ${p}`);
 
-  const { allVideos, videosByDate } = await fetchYouTubeCatalog({ log });
+  const { allVideos, videosByDate } = await fetchYouTubeCatalog({ log, weeksForFullMeta: 8 });
   const addedIds = [];
 
   for (const path of newPaths) {

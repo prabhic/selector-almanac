@@ -76,7 +76,7 @@ async function main() {
   }
   log(`  ${targets.length} session(s) to update`);
 
-  const { allVideos, videosByDate } = await fetchYouTubeCatalog({ log });
+  const { allVideos, videosByDate } = await fetchYouTubeCatalog({ log, weeksForFullMeta: weeks });
 
   let updated = 0;
   for (const seminar of targets) {

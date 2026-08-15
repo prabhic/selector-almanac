@@ -8,7 +8,7 @@ import { extractTopics, topicLabel, buildTrends, tagAllTopics, isNoiseChapter } 
 import { buildInsights } from "./lib/insights.mjs";
 import { videoUrlAt } from "./lib/chapters.mjs";
 import { fetchAndParsePptx } from "./lib/pptx.mjs";
-import { fetchVideoList, fetchAllVideoMeta } from "./lib/youtube.mjs";
+import { fetchYouTubeCatalog } from "./lib/youtube.mjs";
 import { saveSession, ensureSessionsDir } from "./lib/sessions.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -178,23 +178,11 @@ async function main() {
   log(`  ${deckPaths.length} decks (${deckSource}, ${allDeckPaths.length} total in repo)`);
 
   log("\n2/4 Fetching YouTube channel…");
-  const videoIds = await fetchVideoList();
-  log(`  ${videoIds.length} videos — fetching metadata…`);
-
-  const metaMap = await fetchAllVideoMeta(videoIds, {
+  const { allVideos, videosByDate } = await fetchYouTubeCatalog({
+    log,
+    fullMetaAll: true,
     concurrency: 8,
-    onProgress: (done, total) => {
-      if (done % 25 === 0 || done === total) log(`  metadata ${done}/${total}`);
-    },
   });
-
-  const allVideos = [...metaMap.values()].filter((v) => !v.error);
-  const videosByDate = new Map();
-  for (const v of allVideos) {
-    if (!v.date) continue;
-    if (!videosByDate.has(v.date)) videosByDate.set(v.date, []);
-    videosByDate.get(v.date).push(v);
-  }
 
   log("\n3/4 Matching decks ↔ videos & parsing slides…");
   const seminars = [];
