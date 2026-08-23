@@ -1,5 +1,5 @@
 {
-  "name": "lev-selector-almanac",
+  "name": "selector-almanac",
   "version": "0.1.0",
   "private": false,
   "type": "module",
@@ -10,11 +10,15 @@
     "url": "https://github.com/prabhic/selector-almanac.git"
   },
   "homepage": "http://prabhanjan.in/selector-almanac/app/",
+  "bin": {
+    "selector-almanac": "scripts/cli.mjs"
+  },
   "scripts": {
     "ingest": "node scripts/ingest.mjs",
     "ingest:quick": "node scripts/ingest.mjs --quick",
     "ingest:all": "node scripts/ingest.mjs --all",
     "ingest:refresh": "node scripts/refresh-recent.mjs && npm run build",
+    "ingest:sync": "node scripts/sync-from-remote.mjs",
     "ingest:refresh:parse": "node scripts/refresh-recent.mjs --parse && npm run build",
     "ingest:delta": "node scripts/ingest-new-decks.mjs && node scripts/refresh-recent.mjs --weeks 6 --parse && npm run build",
     "ingest:decks": "node scripts/ingest-new-decks.mjs --skip-youtube && node scripts/refresh-recent.mjs --weeks 2 --parse --slides-only && npm run build",

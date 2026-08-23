@@ -19,6 +19,19 @@ npm install
 npm run serve   # http://localhost:3456/app/
 ```
 
+## Command line
+
+The global command is **`selector-almanac`** (same as the package name). After a global install, or from this repo with `npm link`:
+
+```bash
+selector-almanac          # interactive TUI
+selector-almanac serve    # web app at http://localhost:3456/app/
+selector-almanac open     # TUI in a cmux tab / Terminal.app
+selector-almanac weeks    # list recent weeks (scripts/agents)
+```
+
+Not on the npm registry yet. Until then: clone this repo, `npm install`, then `npx selector-almanac`.
+
 ## Quick start (developers)
 
 ```bash

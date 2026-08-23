@@ -37,9 +37,11 @@ npm run browse
 
 | Key | Action |
 |-----|--------|
-| ↑↓ | Move |
-| ←→ | Weeks ↔ content pane |
-| Tab | Chapters (YouTube) / Slides / Links (flat: Slide N · label) |
+| ↑↓ | Move in the list |
+| `[` `p` | Older week |
+| `]` `n` | Newer week |
+| w | Week picker overlay (Enter pick · Esc close) |
+| 1 / 2 / 3 | Chapters / Slides / Links |
 | Enter | Open link / timestamp; on Slides tab, HTML viewer |
 | y | Full YouTube |
 | d | Slide viewer (temp HTML; jumps to current row) |

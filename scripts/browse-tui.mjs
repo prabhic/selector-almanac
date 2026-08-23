@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Interactive terminal browser for recent AI-Updates weeks.
- * Tab: Chapters (YouTube) · Slides · Links (flat per-slide refs from deck).
+ * Single pane: latest week first. [ ] prev/next week · w week picker · 1/2/3 views.
  */
 import blessed from "neo-blessed";
 import { dirname, join } from "node:path";
@@ -71,11 +71,13 @@ const state = {
   weeks: [],
   weekIndex: 0,
   view: "chapters",
-  focus: "weeks",
 };
 
-const STATUS_DEFAULT =
-  " 1/2/3 tabs · Tab next · ↑↓ list · ←→ weeks · Enter open · y YouTube · d slides · g GitHub · q quit";
+const HELP_MAIN =
+  "[ ] n/p week  w picker  1/2/3 tabs  ↑↓ move  Enter open  y YouTube  d deck  g GitHub  q quit";
+const HELP_OVERLAY = "↑↓ week  Enter pick  Esc close";
+
+let helpTimer = null;
 
 function truncate(s, max = 96) {
   const t = (s ?? "").replace(/\s+/g, " ").trim();
@@ -93,6 +95,10 @@ function weekLabels() {
   });
 }
 
+function overlayOpen() {
+  return Boolean(weekOverlay && !weekOverlay.hidden);
+}
+
 function renderTabBar() {
   for (const v of VIEWS) {
     const box = tabBoxes[v];
@@ -101,10 +107,11 @@ function renderTabBar() {
     box.style.fg = active ? "white" : T.list.fg;
     box.style.bold = active;
   }
-  tabStrip.style.border.fg = state.focus === "tabs" ? T.list.focusBorder : T.list.idleBorder;
+  tabStrip.style.border.fg = T.list.focusBorder;
 }
 
 function selectView(view) {
+  if (overlayOpen()) return;
   if (!VIEWS.includes(view) || view === state.view) return;
   state.view = view;
   contentBox.select(0);
@@ -117,44 +124,85 @@ function refreshContent() {
   if (!seminar) {
     contentBox.setItems(["No data"]);
     detailBox.setContent("");
+    contentHeader.setContent(" ");
     screen.render();
     return;
   }
 
   const items = buildViewItems(seminar, state.view);
-  contentBox.setItems(items.length ? items.map((it) => truncate(it.label, 90)) : ["(empty)"]);
-  contentHeader.setContent(` ${seminar.date} · ${items.length} items `);
+  const width = Math.max(48, (contentBox.width || 90) - 4);
+  contentBox.setItems(items.length ? items.map((it) => truncate(it.label, width)) : ["(empty)"]);
+  const n = state.weeks.length;
+  contentHeader.setContent(
+    ` ${seminar.date} · ${items.length} items · week ${state.weekIndex + 1}/${n} `,
+  );
 
   const sel = contentBox.selected;
   if (items[sel]) detailBox.setContent(items[sel].detail || items[sel].url || "");
-  applyFocusStyles();
+  keepSelectedVisible(contentBox);
+  contentBox.style.border.fg = T.list.focusBorder;
   screen.render();
 }
 
-function applyFocusStyles() {
-  weeksBox.style.border.fg = state.focus === "weeks" ? T.list.focusBorder : T.list.idleBorder;
-  contentBox.style.border.fg = state.focus === "content" ? T.list.focusBorder : T.list.idleBorder;
-  renderTabBar();
+function helpText() {
+  return overlayOpen() ? HELP_OVERLAY : HELP_MAIN;
+}
+
+function renderHelp() {
+  const w = Math.max(20, (helpBar.width || 80) - 2);
+  helpBar.setContent(` ${truncate(helpText(), w)} `);
 }
 
 function setStatus(msg) {
-  statusBar.setContent(` {bold}${msg}{/bold} `);
+  const w = Math.max(20, (helpBar.width || 80) - 2);
+  helpBar.setContent(` {bold}${truncate(msg, w)}{/bold} `);
+  screen.render();
+  clearTimeout(helpTimer);
+  helpTimer = setTimeout(() => {
+    renderHelp();
+    screen.render();
+  }, 2500);
+}
+
+function setWeek(index) {
+  const next = Math.max(0, Math.min(state.weeks.length - 1, index));
+  if (next === state.weekIndex) {
+    refreshContent();
+    return;
+  }
+  state.weekIndex = next;
+  contentBox.select(0);
+  refreshContent();
+}
+
+function shiftWeek(dir) {
+  if (overlayOpen()) return;
+  const next = state.weekIndex + dir;
+  if (next < 0 || next >= state.weeks.length) return;
+  setWeek(next);
+}
+
+function closeWeekPicker() {
+  weekOverlay.hide();
+  contentBox.focus();
+  renderHelp();
   screen.render();
 }
 
-function focusPane(which) {
-  state.focus = which;
-  applyFocusStyles();
-  if (which === "weeks") weeksBox.focus();
-  else if (which === "tabs") tabBoxes[state.view]?.focus();
-  else contentBox.focus();
+function openWeekPicker() {
+  weekOverlay.setItems(weekLabels());
+  weekOverlay.height = Math.min(16, state.weeks.length + 4);
+  weekOverlay.show();
+  weekOverlay.select(state.weekIndex);
+  weekOverlay.focus();
+  renderHelp();
   screen.render();
 }
 
-function focusNext(dir) {
-  const order = ["weeks", "tabs", "content"];
-  const i = order.indexOf(state.focus);
-  focusPane(order[(i + dir + order.length) % order.length]);
+function pickWeekFromOverlay() {
+  if (!overlayOpen()) return;
+  setWeek(weekOverlay.selected);
+  closeWeekPicker();
 }
 
 async function openDeckViewerForCurrent() {
@@ -196,13 +244,6 @@ async function openSelection() {
   }
 }
 
-function cycleView(dir = 1) {
-  const i = VIEWS.indexOf(state.view);
-  selectView(VIEWS[(i + dir + VIEWS.length) % VIEWS.length]);
-  focusPane("content");
-  setStatus(STATUS_DEFAULT);
-}
-
 const screen = blessed.screen({
   smartCSR: true,
   title: "Selector Almanac — Browse",
@@ -219,26 +260,10 @@ const listStyle = {
   label: { fg: T.list.fg, bold: true },
 };
 
-const weeksBox = blessed.list({
-  top: 0,
-  left: 0,
-  width: "30%",
-  height: "100%-2",
-  label: " Weeks ",
-  tags: true,
-  keys: true,
-  vi: true,
-  mouse: true,
-  padding: { left: 1, right: 1 },
-  border: { type: "line" },
-  style: { ...listStyle, border: { fg: T.list.focusBorder } },
-  scrollbar: { ch: "│", style: { bg: T.list.idleBorder } },
-});
-
 const contentHeader = blessed.box({
   top: 3,
-  left: "30%",
-  width: "70%",
+  left: 0,
+  width: "100%",
   height: 1,
   tags: true,
   style: { ...T.header, fg: T.list.idleBorder },
@@ -246,12 +271,12 @@ const contentHeader = blessed.box({
 
 const tabStrip = blessed.box({
   top: 0,
-  left: "30%",
-  width: "70%",
+  left: 0,
+  width: "100%",
   height: 3,
   tags: true,
   border: { type: "line" },
-  style: { border: { fg: T.list.idleBorder }, bg: T.list.bg },
+  style: { border: { fg: T.list.focusBorder }, bg: T.list.bg },
 });
 
 const tabBoxes = {};
@@ -264,7 +289,6 @@ VIEWS.forEach((v, i) => {
     height: 1,
     tags: true,
     mouse: true,
-    keys: true,
     padding: { left: 1 },
     content: `${i + 1} ${TAB_LABELS[v]}`,
     style: {
@@ -273,41 +297,34 @@ VIEWS.forEach((v, i) => {
     },
   });
   box.on("click", () => {
+    if (overlayOpen()) return;
     selectView(v);
-    focusPane("content");
-  });
-  box.key(["enter", "space"], () => {
-    selectView(v);
-    focusPane("content");
-  });
-  box.on("focus", () => {
-    state.focus = "tabs";
-    applyFocusStyles();
-    screen.render();
+    contentBox.focus();
   });
   tabBoxes[v] = box;
 });
 
 const contentBox = blessed.list({
   top: 4,
-  left: "30%",
-  width: "70%",
-  height: "55%",
+  left: 0,
+  width: "100%",
+  height: 12,
   tags: true,
   keys: true,
   vi: true,
   mouse: true,
+  scrollable: true,
   padding: { left: 1, right: 1 },
   border: { type: "line" },
-  style: { ...listStyle, border: { fg: T.list.idleBorder } },
+  style: { ...listStyle, border: { fg: T.list.focusBorder } },
   scrollbar: { ch: "│", style: { bg: T.list.idleBorder } },
 });
 
 const detailBox = blessed.box({
-  top: "59%",
-  left: "30%",
-  width: "70%",
-  height: "41%-2",
+  top: 16,
+  left: 0,
+  width: "100%",
+  height: 8,
   label: " URL ",
   tags: true,
   wrap: true,
@@ -322,22 +339,68 @@ const detailBox = blessed.box({
   content: "",
 });
 
-const statusBar = blessed.box({
+const helpBar = blessed.box({
   bottom: 0,
   left: 0,
   width: "100%",
   height: 1,
   tags: true,
   style: T.status,
-  content: ` {bold}${STATUS_DEFAULT}{/bold} `,
+  content: ` ${HELP_MAIN} `,
 });
 
-screen.append(weeksBox);
+const weekOverlay = blessed.list({
+  hidden: true,
+  top: "center",
+  left: "center",
+  width: 44,
+  height: 10,
+  label: " Weeks  (Enter pick · Esc close) ",
+  tags: true,
+  keys: true,
+  vi: true,
+  mouse: true,
+  padding: { left: 1, right: 1 },
+  border: { type: "line" },
+  style: { ...listStyle, border: { fg: T.list.focusBorder } },
+  scrollbar: { ch: "│", style: { bg: T.list.idleBorder } },
+});
+
 screen.append(tabStrip);
 screen.append(contentHeader);
 screen.append(contentBox);
 screen.append(detailBox);
-screen.append(statusBar);
+screen.append(helpBar);
+screen.append(weekOverlay);
+
+function layoutPanes() {
+  const statusH = 1;
+  const contentTop = 4;
+  const detailH = Math.max(7, Math.round(screen.height * 0.32));
+  const contentH = Math.max(5, screen.height - statusH - detailH - contentTop);
+  contentBox.height = contentH;
+  contentBox.top = contentTop;
+  detailBox.top = contentTop + contentH;
+  detailBox.height = detailH;
+}
+
+function keepSelectedVisible(list) {
+  const visible = Math.max(1, list.height - list.iheight);
+  if (list.selected < list.childBase) list.childBase = list.selected;
+  else if (list.selected >= list.childBase + visible) {
+    list.childBase = list.selected - visible + 1;
+  }
+  list.childOffset = list.selected - list.childBase;
+}
+
+layoutPanes();
+screen.on("resize", () => {
+  layoutPanes();
+  keepSelectedVisible(contentBox);
+  if (overlayOpen()) keepSelectedVisible(weekOverlay);
+  renderHelp();
+  screen.render();
+});
 
 function updateDetail() {
   const items = buildViewItems(currentSeminar(), state.view);
@@ -346,46 +409,43 @@ function updateDetail() {
   screen.render();
 }
 
-function onWeekChange() {
-  state.weekIndex = weeksBox.selected;
-  weeksBox.setItems(weekLabels());
-  refreshContent();
-}
-
-weeksBox.on("select", onWeekChange);
 for (const key of ["up", "down", "k", "j", "pageup", "pagedown"]) {
-  weeksBox.key(key, () => setImmediate(onWeekChange));
+  contentBox.key(key, () =>
+    setImmediate(() => {
+      keepSelectedVisible(contentBox);
+      updateDetail();
+    }),
+  );
 }
+contentBox.on("select", () =>
+  setImmediate(() => {
+    keepSelectedVisible(contentBox);
+    updateDetail();
+  }),
+);
 
-for (const key of ["up", "down", "k", "j", "pageup", "pagedown"]) {
-  contentBox.key(key, () => setImmediate(updateDetail));
-}
-contentBox.on("select", () => setImmediate(updateDetail));
+weekOverlay.on("select", () => pickWeekFromOverlay());
 
-screen.key(["left"], () => focusNext(-1));
-screen.key(["right"], () => focusNext(1));
-screen.key(["tab"], () => cycleView(1));
-screen.key(["S-tab"], () => cycleView(-1));
+screen.key(["[", "p"], () => shiftWeek(1));
+screen.key(["]", "n"], () => shiftWeek(-1));
+screen.key(["w"], () => {
+  if (overlayOpen()) closeWeekPicker();
+  else openWeekPicker();
+});
 for (let i = 0; i < VIEWS.length; i++) {
-  screen.key([String(i + 1)], () => {
-    selectView(VIEWS[i]);
-    focusPane("content");
-  });
+  screen.key([String(i + 1)], () => selectView(VIEWS[i]));
 }
 
 screen.key(["enter"], async () => {
-  if (state.focus === "weeks") {
-    focusPane("tabs");
-    return;
-  }
-  if (state.focus === "tabs") {
-    focusPane("content");
+  if (overlayOpen()) {
+    pickWeekFromOverlay();
     return;
   }
   await openSelection();
 });
 
 screen.key(["y"], async () => {
+  if (overlayOpen()) return;
   const url = currentSeminar()?.video?.url;
   if (!url) return setStatus("No YouTube for this week");
   try {
@@ -397,10 +457,12 @@ screen.key(["y"], async () => {
 });
 
 screen.key(["d"], async () => {
+  if (overlayOpen()) return;
   await openDeckViewerForCurrent();
 });
 
 screen.key(["g"], async () => {
+  if (overlayOpen()) return;
   const url = currentSeminar()?.deck?.githubUrl;
   if (!url) return setStatus("No GitHub deck URL");
   try {
@@ -411,21 +473,18 @@ screen.key(["g"], async () => {
   }
 });
 
-screen.key(["q", "C-c", "escape"], () => {
+screen.key(["q", "C-c"], () => {
   cleanupDeckViewer();
   process.exit(0);
 });
 
-weeksBox.on("focus", () => {
-  state.focus = "weeks";
-  applyFocusStyles();
-  screen.render();
-});
-
-contentBox.on("focus", () => {
-  state.focus = "content";
-  applyFocusStyles();
-  screen.render();
+screen.key(["escape"], () => {
+  if (overlayOpen()) {
+    closeWeekPicker();
+    return;
+  }
+  cleanupDeckViewer();
+  process.exit(0);
 });
 
 async function main() {
@@ -435,11 +494,10 @@ async function main() {
     process.exit(1);
   }
   state.weeks = weekly.slice(0, weekCount);
-  weeksBox.setItems(weekLabels());
-  weeksBox.select(0);
+  state.weekIndex = 0;
   refreshContent();
-  focusPane("weeks");
-  setStatus(`Theme: ${themeName}`);
+  contentBox.focus();
+  renderHelp();
   screen.render();
 }
 

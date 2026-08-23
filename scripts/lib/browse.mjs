@@ -99,14 +99,19 @@ export function buildViewItems(seminar, view) {
     }));
   }
   return slideLinkGroups(seminar).flatMap((g) =>
-    g.links.map((l, i) => ({
-      kind: "ref-link",
-      slideIndex: g.index,
-      index: i + 1,
-      label: `Slide ${g.index} · ${l.label}`,
-      url: l.url,
-      detail: `${g.title}\n\n${l.url}`,
-    }))
+    g.links.map((l, i) => {
+      const caption = (g.title || "").replace(/\s+/g, " ").trim();
+      return {
+        kind: "ref-link",
+        slideIndex: g.index,
+        index: i + 1,
+        label: caption
+          ? `S${g.index}  ${caption}  · ${l.label}`
+          : `S${g.index}  ${l.label}`,
+        url: l.url,
+        detail: `${caption}\n\n${l.url}`,
+      };
+    }),
   );
 }
 
