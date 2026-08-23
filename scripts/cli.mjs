@@ -12,6 +12,7 @@ const ROOT = join(__dirname, "..");
 const TUI = join(ROOT, "scripts/browse-tui.mjs");
 const OPEN = join(ROOT, "scripts/open-browse-cmux.mjs");
 const WEEKS = join(ROOT, "scripts/browse-weeks.mjs");
+const UPDATE = join(ROOT, "scripts/update-data.mjs");
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -33,6 +34,7 @@ Usage:
   selector-almanac open            Open TUI (cmux tab / Terminal.app)
   selector-almanac serve           Web app at http://localhost:3456/app/
   selector-almanac weeks [--json]  List recent weeks (non-interactive)
+  selector-almanac update          Pull latest data/ from GitHub (no ONNX)
   selector-almanac help
 
 TUI keys: ↑↓  [ ] weeks  1/2/3 views  Enter open  y YouTube  q quit
@@ -60,6 +62,10 @@ if (cmd === "serve") {
 
 if (cmd === "open" && args.length === 1) {
   run(OPEN);
+}
+
+if (cmd === "update") {
+  run(UPDATE);
 }
 
 run(WEEKS, args);

@@ -10,7 +10,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { pipeline } from "@xenova/transformers";
 import { buildSearchChunks, chunkEmbedText, chunkStableKey } from "./lib/corpus.mjs";
 import {
   EMBED_DIMS,
@@ -72,6 +71,20 @@ function stateUsable(state) {
   return state?.model === EMBED_MODEL && state?.dims === EMBED_DIMS && state?.keys;
 }
 
+async function loadPipeline() {
+  try {
+    const { pipeline } = await import("@xenova/transformers");
+    return pipeline;
+  } catch {
+    console.error(
+      "search:embed needs @xenova/transformers (devDependency).\n" +
+        "  From a clone: npm install\n" +
+        "  A published npm install does not include it — vectors are already in data/search/",
+    );
+    process.exit(1);
+  }
+}
+
 async function main() {
   let chunks = await loadFullChunks();
   if (LIMIT) chunks = chunks.slice(0, LIMIT);
@@ -125,6 +138,7 @@ async function main() {
   }
 
   if (embedIndices.length) {
+    const pipeline = await loadPipeline();
     const extractor = await pipeline("feature-extraction", EMBED_MODEL);
     for (let b = 0; b < embedIndices.length; b += BATCH) {
       const batchIdx = embedIndices.slice(b, b + BATCH);

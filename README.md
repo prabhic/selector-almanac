@@ -28,9 +28,17 @@ selector-almanac          # interactive TUI
 selector-almanac serve    # web app at http://localhost:3456/app/
 selector-almanac open     # TUI in a cmux tab / Terminal.app
 selector-almanac weeks    # list recent weeks (scripts/agents)
+selector-almanac update   # latest data/ from GitHub main (no ONNX / yt-dlp)
 ```
 
-Not on the npm registry yet. Until then: clone this repo, `npm install`, then `npx selector-almanac`.
+Not on the npm registry yet. Until then, from a clone:
+
+```bash
+npm install --omit=dev && npx selector-almanac   # TUI / serve only (no ONNX)
+npm install && npx selector-almanac              # full clone, including embed rebuild
+```
+
+A published `npm install -g selector-almanac` installs only `neo-blessed` and `jszip`. MiniLM / `onnxruntime-node` are a **devDependency** for `npm run search:embed`. Search in the web app uses committed `data/search/vectors.f32.bin`. The npm tarball ships `app/`, committed `data/` (not `data/raw/`), and `scripts/` — not GitHub Actions or agent skills.
 
 ## Quick start (developers)
 
