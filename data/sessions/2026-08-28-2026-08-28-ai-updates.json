@@ -14,9 +14,17 @@
     "fine-tuning",
     "agents",
     "rag",
-    "coding"
+    "coding",
+    "enterprise",
+    "jobs"
   ],
-  "video": null,
+  "video": {
+    "id": "D5qeklkQqRg",
+    "title": "Exciting AI Updates Weekly - August 28, 2026",
+    "url": "https://www.youtube.com/watch?v=D5qeklkQqRg",
+    "thumbnail": "https://i.ytimg.com/vi/D5qeklkQqRg/hqdefault.jpg",
+    "duration": 1958
+  },
   "deck": {
     "path": "2026/2026-08-28-AI-Updates.pptx",
     "filename": "2026-08-28-AI-Updates.pptx",
@@ -25,10 +33,233 @@
     "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-08-28-AI-Updates.pptx"
   },
   "match": {
-    "confidence": "deck-only",
-    "method": "unmatched"
+    "confidence": "date",
+    "method": "exact-date"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "title": "Reviewing and Validating is the New Bottleneck",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced \"LM Arena\"",
+      "startSeconds": 23,
+      "label": "00:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Cost Per Intelligence Index",
+      "startSeconds": 64,
+      "label": "01:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Open Models Overtake Closed Models",
+      "startSeconds": 117,
+      "label": "01:57",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA's AVO - 100% on ARC-AGI-3",
+      "startSeconds": 214,
+      "label": "03:34",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek Flash Gets Vision",
+      "startSeconds": 316,
+      "label": "05:16",
+      "source": "youtube"
+    },
+    {
+      "title": "Time to 100K Stars on GitHub",
+      "startSeconds": 340,
+      "label": "05:40",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Open-Sourced Codex Harness",
+      "startSeconds": 442,
+      "label": "07:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Jalapeno: OpenAI's AI Chip",
+      "startSeconds": 507,
+      "label": "08:27",
+      "source": "youtube"
+    },
+    {
+      "title": "52 Open Harnesses",
+      "startSeconds": 526,
+      "label": "08:46",
+      "source": "youtube"
+    },
+    {
+      "title": "2026 World Humanoid Robot Games",
+      "startSeconds": 585,
+      "label": "09:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Ox Alpha on OpenRouter",
+      "startSeconds": 627,
+      "label": "10:27",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen 3.8 Flash Next",
+      "startSeconds": 735,
+      "label": "12:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Kimi Linear: cheaper long context",
+      "startSeconds": 825,
+      "label": "13:45",
+      "source": "youtube"
+    },
+    {
+      "title": "Google's Gemini Enterprise for Legal",
+      "startSeconds": 855,
+      "label": "14:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Robotics & VLA",
+      "startSeconds": 873,
+      "label": "14:33",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Apple Messages for ChatGPT",
+      "startSeconds": 941,
+      "label": "15:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Perplexity + Nvidia - Local AI Agent",
+      "startSeconds": 959,
+      "label": "15:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Habit-Hooks - Avoid Agent Slop",
+      "startSeconds": 1050,
+      "label": "17:30",
+      "source": "youtube"
+    },
+    {
+      "title": "FreeToken - Open Local Inference Engine",
+      "startSeconds": 1075,
+      "label": "17:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Mixedbread's Toast 1 - AI Search",
+      "startSeconds": 1115,
+      "label": "18:35",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenBot: Self-Hosted AI Coworkers",
+      "startSeconds": 1150,
+      "label": "19:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Unsloth - Efficient LLM Training",
+      "startSeconds": 1172,
+      "label": "19:32",
+      "source": "youtube"
+    },
+    {
+      "title": "4x more Context from the same GPU",
+      "startSeconds": 1225,
+      "label": "20:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Ornith 1.5 by DeepReinforce - Self-Teaching AI",
+      "startSeconds": 1290,
+      "label": "21:30",
+      "source": "youtube"
+    },
+    {
+      "title": "Qwen3.8-27B on 24GB RTX 3090",
+      "startSeconds": 1325,
+      "label": "22:05",
+      "source": "youtube"
+    },
+    {
+      "title": "TurboFieldfare: SSD-streamed LLM",
+      "startSeconds": 1400,
+      "label": "23:20",
+      "source": "youtube"
+    },
+    {
+      "title": "SST - Solid State Transformers",
+      "startSeconds": 1448,
+      "label": "24:08",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Evals: Human Taste at Scale",
+      "startSeconds": 1522,
+      "label": "25:22",
+      "source": "youtube"
+    },
+    {
+      "title": "Task - Build a RAG service for millions of docs",
+      "startSeconds": 1580,
+      "label": "26:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba Wan 3.0: Document-to-Video AI",
+      "startSeconds": 1679,
+      "label": "27:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Claudex Loop Skill for Dual Model Work",
+      "startSeconds": 1694,
+      "label": "28:14",
+      "source": "youtube"
+    },
+    {
+      "title": "Anthropic silicon team for custom Claude chips",
+      "startSeconds": 1716,
+      "label": "28:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Xiaomi Aluminum AI Cube",
+      "startSeconds": 1750,
+      "label": "29:10",
+      "source": "youtube"
+    },
+    {
+      "title": "Podman vs Docker",
+      "startSeconds": 1829,
+      "label": "30:29",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta's plan to replace Humans with AI imploded",
+      "startSeconds": 1900,
+      "label": "31:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 1947,
+      "label": "32:27",
+      "source": "youtube"
+    }
+  ],
   "slides": [
     {
       "index": 1,
@@ -188,112 +419,337 @@
   ],
   "points": [
     {
-      "claim": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Open",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Reviewing and Validating is the New Bottleneck",
+      "topic": "general",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=0s",
       "slideIndex": 1,
       "slideTitle": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Open",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Crowd-sourced \"LM Arena\"",
+      "topic": "benchmarks",
+      "videoSeconds": 23,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=23s",
       "slideIndex": 2,
       "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "claim": "Cost Per Intelligence Index",
       "topic": "benchmarks",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 64,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=64s",
       "slideIndex": 3,
       "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Open Models Overtake Closed Models Open Weight Models",
-      "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Open Models Overtake Closed Models",
+      "topic": "general",
+      "videoSeconds": 117,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=117s",
       "slideIndex": 4,
       "slideTitle": "Open Models Overtake Closed Models Open Weight Models",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates NVIDIA AVO Agent AVO - Agentic",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "NVIDIA's AVO - 100% on ARC-AGI-3",
+      "topic": "infra",
+      "videoSeconds": 214,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=214s",
+      "slideIndex": 4,
+      "slideTitle": "Open Models Overtake Closed Models Open Weight Models",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek Flash Gets Vision",
+      "topic": "open-models",
+      "videoSeconds": 316,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=316s",
       "slideIndex": 5,
       "slideTitle": "AI Updates NVIDIA AVO Agent AVO - Agentic",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates DeepSeek Flash Gets Vision DeepSeek released",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Time to 100K Stars on GitHub",
+      "topic": "general",
+      "videoSeconds": 340,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=340s",
       "slideIndex": 6,
       "slideTitle": "AI Updates DeepSeek Flash Gets Vision DeepSeek released",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Time to 100K Stars on GitHub Rank Project",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "OpenAI Open-Sourced Codex Harness",
+      "topic": "coding",
+      "videoSeconds": 442,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=442s",
       "slideIndex": 7,
       "slideTitle": "Time to 100K Stars on GitHub Rank Project",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates OpenAI Open-Sourced Codex Harness - Aug",
-      "topic": "coding",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Jalapeno: OpenAI's AI Chip",
+      "topic": "openai",
+      "videoSeconds": 507,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=507s",
       "slideIndex": 8,
       "slideTitle": "AI Updates OpenAI Open-Sourced Codex Harness - Aug",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "52 Open Harnesses Codex CLI — Rust terminal",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "52 Open Harnesses",
+      "topic": "general",
+      "videoSeconds": 526,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=526s",
       "slideIndex": 9,
       "slideTitle": "52 Open Harnesses Codex CLI — Rust terminal",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates Chinese humanoid robots broke records set",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "2026 World Humanoid Robot Games",
+      "topic": "general",
+      "videoSeconds": 585,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=585s",
+      "slideIndex": 9,
+      "slideTitle": "52 Open Harnesses Codex CLI — Rust terminal",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ox Alpha on OpenRouter",
+      "topic": "general",
+      "videoSeconds": 627,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=627s",
       "slideIndex": 10,
       "slideTitle": "AI Updates Chinese humanoid robots broke records set",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Weekly videos every Friday 7.32K subscribers, 310 videos",
-      "topic": "general",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Qwen 3.8 Flash Next",
+      "topic": "open-models",
+      "videoSeconds": 735,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=735s",
       "slideIndex": 11,
       "slideTitle": "Weekly videos every Friday 7.32K subscribers, 310 videos",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates Anthropic added cross-chat and Cowork memory",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Kimi Linear: cheaper long context",
+      "topic": "open-models",
+      "videoSeconds": 825,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=825s",
       "slideIndex": 12,
       "slideTitle": "AI Updates Anthropic added cross-chat and Cowork memory",
-      "source": "slide"
+      "source": "youtube"
+    },
+    {
+      "claim": "Google's Gemini Enterprise for Legal",
+      "topic": "google",
+      "videoSeconds": 855,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=855s",
+      "slideIndex": 13,
+      "slideTitle": "AI Updates Kimi Linear: cheaper long context Moonshot",
+      "source": "youtube"
+    },
+    {
+      "claim": "Robotics & VLA",
+      "topic": "general",
+      "videoSeconds": 873,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=873s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Robotics & VLA (Vision-Language-Action) Scaling high-quality",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Apple Messages for ChatGPT",
+      "topic": "openai",
+      "videoSeconds": 941,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=941s",
+      "slideIndex": 14,
+      "slideTitle": "AI Updates Robotics & VLA (Vision-Language-Action) Scaling high-quality",
+      "source": "youtube"
+    },
+    {
+      "claim": "Perplexity + Nvidia - Local AI Agent",
+      "topic": "agents",
+      "videoSeconds": 959,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=959s",
+      "slideIndex": 15,
+      "slideTitle": "AI Updates OpenAI launched an Apple Messages plugin",
+      "source": "youtube"
+    },
+    {
+      "claim": "Habit-Hooks - Avoid Agent Slop",
+      "topic": "agents",
+      "videoSeconds": 1050,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1050s",
+      "slideIndex": 16,
+      "slideTitle": "AI Updates Habit-Hooks - Avoid Agent Slop Coding",
+      "source": "youtube"
+    },
+    {
+      "claim": "FreeToken - Open Local Inference Engine",
+      "topic": "infra",
+      "videoSeconds": 1075,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1075s",
+      "slideIndex": 17,
+      "slideTitle": "AI Updates Mixedbread’s Toast 1 - AI Search",
+      "source": "youtube"
+    },
+    {
+      "claim": "Mixedbread's Toast 1 - AI Search",
+      "topic": "general",
+      "videoSeconds": 1115,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1115s",
+      "slideIndex": 18,
+      "slideTitle": "AI Updates OpenBot: Self-Hosted AI Coworkers OpenBot -",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenBot: Self-Hosted AI Coworkers",
+      "topic": "general",
+      "videoSeconds": 1150,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1150s",
+      "slideIndex": 19,
+      "slideTitle": "Unsloth Unsloth - Efficient LLM Training \"sloth\" -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Unsloth - Efficient LLM Training",
+      "topic": "general",
+      "videoSeconds": 1172,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1172s",
+      "slideIndex": 19,
+      "slideTitle": "Unsloth Unsloth - Efficient LLM Training \"sloth\" -",
+      "source": "youtube"
+    },
+    {
+      "claim": "4x more Context from the same GPU",
+      "topic": "infra",
+      "videoSeconds": 1225,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1225s",
+      "slideIndex": 20,
+      "slideTitle": "AI Updates 4x more Context from the same",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ornith 1.5 by DeepReinforce - Self-Teaching AI",
+      "topic": "general",
+      "videoSeconds": 1290,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1290s",
+      "slideIndex": 21,
+      "slideTitle": "AI Updates Qwen3.8-27B on 24GB RTX 3090 vLLM",
+      "source": "youtube"
+    },
+    {
+      "claim": "Qwen3.8-27B on 24GB RTX 3090",
+      "topic": "general",
+      "videoSeconds": 1325,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1325s",
+      "slideIndex": 22,
+      "slideTitle": "SST - Solid State Transformers SST - High-Freq",
+      "source": "youtube"
+    },
+    {
+      "claim": "TurboFieldfare: SSD-streamed LLM",
+      "topic": "general",
+      "videoSeconds": 1400,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1400s",
+      "slideIndex": 23,
+      "slideTitle": "AI Evals AI Evals: Human Taste at Scale",
+      "source": "youtube"
+    },
+    {
+      "claim": "SST - Solid State Transformers",
+      "topic": "general",
+      "videoSeconds": 1448,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1448s",
+      "slideIndex": 24,
+      "slideTitle": "Modern RAG System Architecture Task - Build a",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI Evals: Human Taste at Scale",
+      "topic": "benchmarks",
+      "videoSeconds": 1522,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1522s",
+      "slideIndex": 24,
+      "slideTitle": "Modern RAG System Architecture Task - Build a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Task - Build a RAG service for millions of docs",
+      "topic": "rag",
+      "videoSeconds": 1580,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1580s",
+      "slideIndex": 25,
+      "slideTitle": "Modern RAG System Architecture",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba Wan 3.0: Document-to-Video AI",
+      "topic": "general",
+      "videoSeconds": 1679,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1679s",
+      "slideIndex": 26,
+      "slideTitle": "AI Updates Alibaba Wan 3.0: Document-to-Video AI A",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claudex Loop Skill for Dual Model Work",
+      "topic": "general",
+      "videoSeconds": 1694,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1694s",
+      "slideIndex": 27,
+      "slideTitle": "AI Updates Anthropic in-house silicon team for custom",
+      "source": "youtube"
+    },
+    {
+      "claim": "Anthropic silicon team for custom Claude chips",
+      "topic": "claude",
+      "videoSeconds": 1716,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1716s",
+      "slideIndex": 28,
+      "slideTitle": "AI Updates Podman vs Docker Both build and",
+      "source": "youtube"
+    },
+    {
+      "claim": "Xiaomi Aluminum AI Cube",
+      "topic": "general",
+      "videoSeconds": 1750,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1750s",
+      "slideIndex": 29,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Podman vs Docker",
+      "topic": "general",
+      "videoSeconds": 1829,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1829s",
+      "slideIndex": 29,
+      "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta's plan to replace Humans with AI imploded",
+      "topic": "general",
+      "videoSeconds": 1900,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1900s",
+      "slideIndex": 30,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1947,
+      "videoUrl": "https://www.youtube.com/watch?v=D5qeklkQqRg&t=1947s",
+      "slideIndex": 31,
+      "slideTitle": "Thank You!",
+      "source": "youtube"
     }
   ]
 }
