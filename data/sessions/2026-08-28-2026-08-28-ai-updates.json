@@ -1,0 +1,299 @@
+{
+  "id": "2026-08-28-2026-08-28-ai-updates",
+  "date": "2026-08-28",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "infra",
+    "fine-tuning",
+    "agents",
+    "rag",
+    "coding"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2026/2026-08-28-AI-Updates.pptx",
+    "filename": "2026-08-28-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-08-28-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-08-28-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Open",
+      "text": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Open Models Overtake Closed Models NVIDIA’s AVO - 100% on ARC-AGI-3 DeepSeek Flash Gets Vision Time to 100K Stars on GitHub OpenAI Open-Sourced Codex Harness Jalapeño: OpenAI’s AI Chip 52 Open Harnesses 2026 World Humanoid Robot Games Ox Alpha on OpenRouter AI Updates - Aug 28, 2026 Jobs & Layoffs Reviewing and Validating is the New Bottleneck Mixedbread’s Toast 1 - AI Search OpenBot: Self-Hosted AI Coworkers Unsloth - Efficient LLM Training 4x more Context from the same GPU Ornith 1.5 by by DeepReinforce - Self-Teaching AI Qwen3.8-27B on 24GB RTX 3090 TurboFieldfare: SSD-streamed LLM SST - Solid State Transformers AI Evals: Human Taste at Scale Task - Build a RAG  service for millions of docs Alibaba Wan 3.0: Document-to-Video AI Claudex Loop Skill for Dual Model Work Anthropic silicon team for custom Claude chips Xiaomi Aluminum AI Cube Podman vs Docker Meta's plan to replace Humans with AI imploded Qwen 3.8 Flash Next Kimi Linear: cheaper long context Google’s Gemini Enterprise for Legal Robotics & VLA OpenAI Apple Messages for ChatGPT Perplexity + Nvidia - Local AI Agent Habit-Hooks - Avoid Agent Slop FreeToken - Open Local Inference Engine"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for Aug 27 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.3 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max-preview - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-opus-4-7-high 1552 ■ claude-opus-4-6-high 1552 ■ claude-fable-5 1551 ■ claude-opus-4-7 1547 ■ claude-opus-4-6 1546 ■ kimi-k3-max 1543 ■ muse-spark-1.2 (xHigh) 1533 ■ claude-opus-5-high 1533 ■ claude-opus-4-8-high 1532 ■ muse-spark-1.1 1531 ■ glm-5.3-flash 1531 ■ claude-opus-4-5-20251101-high-32k 1530 ■ glm-5.3-max 1530 ■ claude-sonnet-4-6 1528 ■ gpt-5.6-sol-xhigh 1528 ■ claude-opus-4-8 1527 ■ muse-spark 1526 ■ qwen3.7-max-preview 1525 ■ claude-opus-5-max 1524 ■ claude-opus-4-5-20251101 1523 ■ grok-4.5 1523 ■ claude-sonnet-5-high 1522 ■ gemini-3.1-pro-preview 1521 ■ gemini-3.7-flash-high 1521 ■ gpt-5.4-high 1520 Code Model Score ■ claude-fable-5 1507 ■ claude-opus-4-6-high 1505 ■ claude-opus-4-7-high 1502 ■ muse-spark-1.2 (xHigh) 1498 ■ claude-opus-4-6 1497 ■ claude-opus-4-7 1494 ■ claude-opus-5-high 1492 ■ muse-spark-1.1 1490 ■ gemini-3.7-flash-high 1490 ■ kimi-k3-max 1489 ■ muse-spark 1488 ■ claude-opus-5-max 1488 ■ gemini-3.1-pro-preview 1487 ■ gemini-3-pro 1486 ■ glm-5.3-max 1484 ■ gpt-5.5-high 1482 ■ gpt-5.6-sol-xhigh 1482 ■ claude-opus-4-8-high 1481 ■ gemini-3.6-flash-high 1481 ■ qwen3.8-max 1479 ■ gemini-3.5-flash-high 1479 ■ gpt-5.5 1477 ■ gpt-5.4-high 1477 ■ gpt-5.2-chat-latest-20260210 1476 ■ grok-4.20-beta1 1475"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index August 28"
+    },
+    {
+      "index": 4,
+      "title": "Open Models Overtake Closed Models Open Weight Models",
+      "text": "Open Models Overtake Closed Models Open Weight Models Overtake Closed Models Vercel AI Gateway data shows open-weight models overtaking closed models in token volume : 62% versus 38% on August 22, up from 28.4% open in late June. The shift reflects rapidly improving, low-cost open-weight models, notably from Chinese labs. Token volume is not revenue: Anthropic reportedly retains disproportionate spend through premium frontier workloads. The likely market split is cheap open models for broad workloads and closed frontier models for high-value, accuracy-critical tasks. Open weights offer deployment control, privacy options, fine-tuning, vendor leverage, and less platform dependency. Strategic concern: US companies increasingly depend on Chinese-origin model ecosystems, potentially creating future chip and supply-chain exposure. https://vercel.com/ai https://github.com/vercel/ai https://www.youtube.com/watch?v=2w7ZdceZT-g - Matthew Berman Review https://www.linkedin.com/posts/rauchg_todays-a-record-day-for-open-weight-share-share-7497028233108860928-omcG/"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates NVIDIA AVO Agent AVO - Agentic",
+      "text": "AI Updates NVIDIA AVO Agent AVO - Agentic Variation Operators It is NVIDIA’s research architecture for long-horizon autonomous agents. Works as evolutionary optimizer rather than relying on fixed mutation and crossover rules The agent inspects code, proposes changes, executes tests and benchmarks, reads profiler feedback, and iterates over many attempts Persistent memory retains prior experiments, failures, performance data, and successful approaches across the optimization process. NVIDIA first used AVO for autonomous GPU-kernel optimization, where real compilation and hardware measurements guide decisions. NVIDIA later applied the architecture to ARC-AGI-3 interactive reasoning tasks, reporting a perfect public-environment score. AVO is an agent system design, not a standalone foundation model https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/ https://arxiv.org/abs/2603.24517 NVIDIA’s AVO agent improves Claude Opus 5 performance on ARC-AGI-3 from a 30% baseline to 100% Abstraction and Reasoning Corpus for Artificial General Intelligence The agent completes all 183 levels across the benchmark’s 25 public environments AVO uses persistent memory, external tools and supervision to sustain progress across unfamiliar tasks, building on a seven-day GPU-kernel optimization run Note that the official base-model leaderboard evaluates individual models under its specified evaluation setup: 1\tClaude Opus-5   - 30.2% 2\tGPT-5.6 Sol     -  7.8% 3\tClaude Opus-4.8 -  3.6% ARC-AGI-3 Interactive Benchmark Evaluates learning through interaction and adaptation from limited experience (similar to learning a computer game) ARC Prize runs a competition around ARC-AGI-3 with more than $2M in total prizes https://arcprize.org/arc-agi/3 https://arcprize.org/competitions/2026/arc-agi-3 https://arxiv.org/html/2603.24621v1 https://www.kaggle.com/competitions/arc-prize-2026-arc-agi-3"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates DeepSeek Flash Gets Vision DeepSeek released",
+      "text": "AI Updates DeepSeek Flash Gets Vision DeepSeek released experimental V4 Flash Vision Exp Adds image understanding to text, reasoning, coding, and agent capabilities Agents can now inspect screenshots, extract text, interpret charts, and compare visual UI output—not just operate from text context Model name: deepseek-v4-flash-vision-exp Supply JPEG, PNG, GIF, or WebP through base64, a public URL, or reusable Files API file IDs Files API avoids repeat uploads Pricing: up to 384 tokens per image https://api-docs.deepseek.com/news/news260821/ https://api-docs.deepseek.com/guides/vision/ https://x.com/deepseek_ai/status/2090730032574631962 DeepSeek Harness (dsh) - Early Dev Preview Open-source (MIT) agent runtime, launched Aug 13, 191K stars Operates model, tools, workspace, state, policies, and agent loop “everything is a plugin” Supports local web and headless profiles, with configurable bundles and patches rather than a monolithic application Four baseline configs: Standard, Code, Minimal, and Creator. Append-only session log - replay, forking, persistence, and traceability of model-visible context https://github.com/deepseek-ai/deepseek-harness - 199K stars https://api-docs.deepseek.com/news/ https://www.infoq.com/news/2026/08/deep-seek-harness/ https://www.datacamp.com/tutorial/deepseek-harness https://www.youtube.com/watch?v=qHMxtIuuKso"
+    },
+    {
+      "index": 7,
+      "title": "Time to 100K Stars on GitHub Rank Project",
+      "text": "Time to 100K Stars on GitHub Rank Project GitHub URL Launched Time to 100K stars Current stars Project age on Aug 24 Notes 1 Claw Code https://github.com/ultraworkers/claw-code 2026-03-31 ~1 day ~195.1K 146 days open-source AI coding-agent harness inspired by the architecture of Anthropic’s Claude Code (created on the day when Claude Code was leaked on March 31) 2 DeepSeek Harness https://github.com/deepseek-ai/deepseek-harness 2026-08-13 <48 hours 191K 11 days Crossed 100K in under two days. 3 OpenClaw https://github.com/openclaw/openclaw 2025-11-24 ~2 days ~387.3K 273 days Timing is not cleanly comparable because of predecessor names/rebrands; public claims conflict. 4 Hermes Agent https://github.com/NousResearch/hermes-agent 2026-02-25 ~7–10 weeks >100K 180 days open-source, self-hosted autonomous AI assistant built by Nous Research 5 AutoGPT https://github.com/Significant-Gravitas/AutoGPT 2023-03-30 ~3–4 weeks 176K 1,243 days AutoGPT is an open-source agent platform that lets you build, deploy, and run AI agents for multi-step digital workflows 6 LangChain https://github.com/langchain-ai/langchain 2022-10-17 ~3.5 years 140K 1,407 days Open-source Python and JavaScript framework for building AI applications - assistants, RAG systems, tool-using agents, and multi-step AI workflows 7 Dify https://github.com/langgenius/dify 2023-05-15 ~2.1 years 153.2K 1,197 days open-source LLM app development platform 8 n8n https://github.com/n8n-io/n8n 2019-06-04 ~6 years 200K+ 2,638 days Platform for AI Agents and Workflow Automation 9 Ollama https://github.com/ollama/ollama 2023-06-26 Not established 173K 1,155 days Local AI-model runtime and developer platform 10 llama.cpp https://github.com/ggml-org/llama.cpp 2023-03-10 ~3 years 100K+ 1,263 days open-source, low-level C/C++ inference engine for running LLMs and VLMs locally"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates OpenAI Open-Sourced Codex Harness - Aug",
+      "text": "AI Updates OpenAI Open-Sourced Codex Harness - Aug 19 Codex Harness powers the ChatGPT desktop app, CLI, and VS Code extension This includes Codex CLI, app-server, and official SDK https://github.com/openai/codex https://developers.openai.com/blog/codex-as-a-platform https://aidisruption.ai/p/deepseek-harness-vs-codex-harness OpenAI Merges ChatGPT and Codex into the ChatGPT app Phasing out the standalone Codex branding The updated interface emphasizes coding and developer tasks, relegating standard chat to a minimized secondary window. eading AI companies are shifting their focus heavily toward practical knowledge work rather than basic question-and-answer use cases. http://www.youtube.com/watch?v=mlc9JSTQoxc Jalapeño: OpenAI’s AI Chip - deployment by the end of 2026 OpenAI and Broadcom’s Jalapeño is a custom ASIC for serving LLM inference, not a general-purpose GPU or training chip SemiAnalysis reports 1.5–1.9× higher throughput per watt than Nvidia Blackwell, with lower end-to-end latency in tested scenarios https://www.youtube.com/watch?v=Im2c-7jvKz8 https://openai.com/index/openai-broadcom-jalapeno-inference-chip/ https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
+    },
+    {
+      "index": 9,
+      "title": "52 Open Harnesses Codex CLI — Rust terminal",
+      "text": "52 Open Harnesses Codex CLI — Rust terminal coding-agent harness from OpenAI with tools and sandboxing Pi — Minimal TypeScript terminal harness with extensible tools, skills, and prompts OpenCode — TypeScript coding harness for terminal, desktop, IDE, tools, and providers Claw Code — Rust CLI implementation of the Claw coding-agent harness architecture Grok Build — xAI Rust TUI coding agent with shell access, web search, and subagents DeepSeek Harness (dsh) — Plugin-first Node.js coding and general agent runtime Aider — Git-aware Python terminal coding agent for controlled repository edits Cline — TypeScript coding agent for VS Code, CLI, and SDK with approvals Roo Code — VS Code coding agent with task modes, tools, and multi-provider support Kilo Code — Coding agent for VS Code, JetBrains, CLI, and cloud with BYOK access Goose — Rust local agent for coding, research, analysis, writing, and automation OpenHands — Python autonomous coding agent for sandboxed self-hosted tasks SWE-agent — Python agent that resolves repository issues by generating patches mini-SWE-agent — Compact Python harness for reproducible issue-solving and coding runs Continue — TypeScript IDE and CLI coding assistant with agent and local-model support Qwen Code — Qwen-first TypeScript terminal coding agent with configurable providers Qwen Agent — Qwen-first Python framework for tools, planning, memory, and GUI use Crush — Charm’s Go terminal/TUI coding agent with multi-provider support Plandex — Go plan-driven coding agent for controlled multi-step changes Open Interpreter — Python local computer-use agent for terminal commands Hermes Agent — Self-hosted Python agent with persistent memory, skills, and subagents OpenClaw — Autonomous agent runtime with memory, messaging, tools, and automation LangGraph — Python/TypeScript framework for stateful, human-supervised agents AutoGen — Microsoft multi-agent framework for conversations, tools, and workflows PydanticAI — Typed Python framework for structured, testable, tool-using agents smolagents — Lightweight Hugging Face Python framework for code-first agents Semantic Kernel — Microsoft SDK for agent applications, plugins, and workflows OpenAI Agents SDK — OpenAI-first Python/TypeScript framework with tools and guardrails Mastra — TypeScript framework for agents, workflows, memory, RAG, and observability AutoGPT — Python platform for autonomous, continuous task-oriented agents BabyAGI — Lightweight Python task-planning autonomous-agent reference framework CrewAI — Python framework for role-based multi-agent crews and automated flows Letta — Stateful agent platform centered on persistent managed memory Microsoft Agent Framework — for multi-agent systems and workflows Dify — Platform for building, deploying, and operating LLM apps and agents Flowise — Visual low-code platform for LLM flows, tools, and agent applications Langflow — Visual builder for LangChain-oriented agents, flows, and deployment n8n — Workflow-automation platform with AI-agent nodes and tool integrations Haystack — Python framework for RAG pipelines, tools, and agent workflows Agno — Python framework for multi-agent systems, memory, knowledge, and tools CAMEL — Research-oriented Python framework for communicative multi-agent systems MetaGPT — Python framework for role-specialized software-development agents SuperAGI — Platform for deploying and managing autonomous agent systems OpenDevin — Autonomous software-engineering agent and predecessor to OpenHands OpenManus — Python autonomous agent inspired by Manus-style workflows Browser Use — Python framework for LLM-driven browser automation Skyvern — Browser automation agent for website navigation and task completion Stagehand — TypeScript framework for AI-driven Playwright browser automation Composio — Open-core integration layer supplying external application tools to agents MCP Servers — Ecosystem of reusable tool servers, rather than a standalone harness Agent Zero — Personal autonomous-agent framework with tools and long-running tasks TaskWeaver — Microsoft Python framework for code-first planning and data workflows"
+    },
+    {
+      "index": 10,
+      "title": "AI Updates Chinese humanoid robots broke records set",
+      "text": "AI Updates Chinese humanoid robots broke records set by humans 2026 World Humanoid Robot Games 100-meter sprint: 9.39 sec vs 9.58 sec set by Usain Bolt in 2009. Beijing’s 2026 World Humanoid Robot Games began August 22 at the National Speed Skating Oval and runs for five days. More than 2,000 humanoid robots, 16 countries, 51 sports, arts, and practical-work events, including sprints, football, boxing, table tennis, factory tasks, rescue, and household activities. Chinese teams dominate, reflecting China’s large state-backed robotics push and commercialization focus. Rumors Google has confirmed Gemini 4 pre-training Ox Alpha on OpenRouter - for coding and agentic workloads, with text, image, video, 1M-token context SSI (Ilya Sutskever) promised their release in August US agencies warn of an active campaign targeting exposed industrial controllers (Siemens S7 PLCs) https://openrouter.ai/stealth https://cisa.gov/news-events/cybersecurity-advisories/aa26-231a https://www.youtube.com/@WesRothAI"
+    },
+    {
+      "index": 11,
+      "title": "Weekly videos every Friday 7.32K subscribers, 310 videos",
+      "text": "Weekly videos every Friday 7.32K subscribers, 310 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates Anthropic added cross-chat and Cowork memory",
+      "text": "AI Updates Anthropic added cross-chat and Cowork memory controls with editable/deletable “Topics,” an opt-in setting for sensitive-topic memory, Enterprise scanning for third-party skills/plugins, and an API tool for secure sandboxed Python execution https://support.claude.com/en/articles/12138966-release-notes EU AI Act transparency rules took effect Aug. 2. Users must be informed when interacting with AI. Certain synthetic media/deepfakes require labeling and machine-readable marking https://www.mediapost.com/publications/article/416963/eu-requires-labels-for-all-ai-formats.html Qwen 3.8 Flash Next 125B core params + 51B N-gram embedding params, 6B active 262K tokens Context Window Released Aug 26 on Hugging Face, open-weights MoE Better than Claude Opus 4.6 Max on benchmarks Key improvements: Qwen Sparse Attention for long contexts Four-branch gated residual connections N-gram lookup embeddings Multi-token prediction Can be used via OpenCode and OpenRouter (44 minutes - only $0.55) Dramatically cheaper coding-agent workflows, including persistent local or VPS deployments. https://www.youtube.com/watch?v=xCKfz0gBdpU"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates Kimi Linear: cheaper long context Moonshot",
+      "text": "AI Updates Kimi Linear: cheaper long context Moonshot AI’s Kimi Linear is a hybrid transformer architecture intended to reduce the cost of long-context inference Its Kimi Delta Attention (KDA) layers use recurrent, linear-style attention Design combines three KDA layers with one conventional full-attention layer, retaining periodic global token interactions Much smaller KV cache, lower VRAM pressure, better decoding throughput at very long contexts It does not automatically mean a large model needs fewer GPUs for weights, MoE routing, training, or peak compute. https://arxiv.org/abs/2510.26692 https://github.com/MoonshotAI https://www.digitalocean.com/community/tutorials/kimi-linear-moonshot-ai Google’s Gemini Enterprise for Legal A suite of AI skills and agents for legal teams Supports contract review and negotiation, regulatory tracking, and search across case files and internal documents. The product integrates with legal-data platforms including Everlaw, Relativity, iManage, NetDocuments, DocuSign, Thomson Reuters, Harvey, and Legora. Google says customer data and model outputs will not train its foundation models. The launch intensifies competition with Anthropic, OpenAI, and Microsoft as legal organizations seek faster work and lower costs. https://www.businessinsider.com/google-unveils-gemini-enterprise-for-legal-law-tech-push-2026-8"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Robotics & VLA (Vision-Language-Action) Scaling high-quality",
+      "text": "AI Updates Robotics & VLA (Vision-Language-Action) Scaling high-quality training data : LG and NVIDIA reportedly plan to produce 100,000 hours by year-end, combining real demonstrations, simulation, Cosmos augmentation, and Isaac policy training. VLA research is moving toward memory and temporal reasoning. StreamPI, released August 26, adds parameter-free streaming temporal modeling for VLA policies. Applied VLA for specialized environments : Bonn’s greenhouse robots combine language/VLA models, 3D plant reconstruction, and human oversight for safe robotic plant-care tasks. The main remaining bottleneck is robust generalization : robots can still fail when lighting, object pose, surfaces, timing, or workstations change. https://happinesslz.github.io/projects/StreamPI/ https://github.com/happinesslz/StreamPI https://www.reuters.com/investigations/chinas-humanoid-robots-arent-smart-enough-take-your-job-yet-2026-08-27/ https://www.uni-bonn.de/en/news/165-2026 https://www.edge-ai-vision.com/2026/08/advancing-multimodal-robotics-at-the-edge-from-vision-to-voice/"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates OpenAI launched an Apple Messages plugin",
+      "text": "AI Updates OpenAI launched an Apple Messages plugin for ChatGPT It lets users connect their inbox to the chatbot for sorting, editing, deleting, and drafting or sending messages on their behalf Promo clip shows ChatGPT suggesting follow-ups based on yesterday's inbound texts Privacy questions came immediately: OpenAI told Bloomberg the plugin runs locally and \"doesn't create an index of all someone's messages.\" https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/ Perplexity + Nvidia - Local AI Agent Perplexity and Nvidia launched Portable Computer, a local-first version of Perplexity Computer for running agent workflows on compatible Nvidia GPU systems. It packages models, inference, tools, connectors, security sandboxing, and the agent harness into one application rather than requiring a DIY local-AI stack. Work begins locally, keeping files and inference on-device with no cloud-token charges; users can explicitly permit escalation to cloud frontier models. Initial models include Qwen 3.8 27B and Perplexity’s post-trained PPLX 27B; Nemotron 3.5 Lightning is planned. Linux support targets RTX GPUs with at least 24 GB VRAM, including RTX 3090-class hardware; Windows is planned next. It supports Gmail, Google Drive, GitHub, and Slack. https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates Habit-Hooks - Avoid Agent Slop Coding",
+      "text": "AI Updates Habit-Hooks - Avoid Agent Slop Coding agents can rapidly produce code, but unchecked output can compound technical debt into “slop” Habit Hooks - turns linter JSON findings into targeted refactoring guidance, pairing a detected smell with advice on resolving its underlying design problem https://github.com/habit-hooks/habit-hooks This steers agents away from gaming metrics, such as merely splitting functions to satisfy line-count limits. The goal is cohesive modules, clear naming, separation of concerns, and code that remains understandable for humans and agents. A small independent evaluation reported that smell-specific guidance properly fixed issues in over 80% of cases, outperforming generic or metric-only prompts FreeToken - Open Local Inference Engine GLM-5.2, a 753B-parameter MoE, at 15 tok/sec on 96GB RTX PRO 6000 Qwen3.6-35B reaches 39 tok/sec on 8GB RTX 4060 laptop Routing-aware caching and dynamically choosing CPU computation versus PCIe transfers for unavailable experts, rather than llama.cpp’s fixed layer split FreeToken currently targets NVIDIA CUDA/Linux and remains beta; llama.cpp is far broader and more mature. Best fit: recent NVIDIA hardware, ample RAM, and sustained MoE/agent workloads where tail latency matters https://github.com/FlashML-org/FreeToken https://arxiv.org/pdf/2608.16157 https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x https://www.youtube.com/watch?v=Mlo16hrA5wQ"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates Mixedbread’s Toast 1 - AI Search",
+      "text": "AI Updates Mixedbread’s Toast 1 - AI Search Subagent Retrieval-focused AI subagent for iterative search, reading, filtering, and evidence curation It decomposes questions, runs multi-step searches, inspects sources, and returns a compact evidence package for a downstream model to reason over Up to 12× lower latency and 10× lower cost Prime Intellect reports Toast 1 plus GPT-5.6 Sol outperformed Claude Fable 5 by roughly 10 points on OfficeQA Pro V2 at 27% of the cost It supports Mixedbread Search and other search backends via API, fitting document, Slack, PDF, legal, finance, and enterprise-RAG workflows Pricing: Toast 1 - $0.30 / $0.72 in/out per 1M tokens Semantic search - $4 per 1K queries ($7.50 with re-ranking) https://www.mixedbread.com https://github.com/mixedbread-ai/toast-harness https://www.mixedbread.com/blog/toast-1 https://www.primeintellect.ai/case-study/mixedbread"
+    },
+    {
+      "index": 18,
+      "title": "AI Updates OpenBot: Self-Hosted AI Coworkers OpenBot -",
+      "text": "AI Updates OpenBot: Self-Hosted AI Coworkers OpenBot - platform for running isolated AI coworkers - in alpha-stage, MIT-licensed Each coworker can receive a separate browser, files, tools, credentials, and human-handoff workflow A central policy gateway evaluates and records actions before allowing browser, file, or MCP activity It supports AG-UI-compatible agent harnesses rather than bundling a specific model; bring your own model key Deployment uses Docker and requires Bun plus a CopilotKit Intelligence project/license Treat it as experimental: review policies carefully and avoid granting production credentials until security behavior is validated. https://www.copilotkit.ai/openbot https://www.copilotkit.ai https://github.com/CopilotKit/openbot https://x.com/ataiiam/status/2090125716767773120 https://www.youtube.com/watch?v=qJQzYj9Pw2k"
+    },
+    {
+      "index": 19,
+      "title": "Unsloth Unsloth - Efficient LLM Training \"sloth\" -",
+      "text": "Unsloth Unsloth - Efficient LLM Training \"sloth\" - slow (slow animal) Unsloth is an open-source toolkit that speeds up and reduces GPU-memory use for training and running language models locally (mostly used for single-GPU fine-tuning) Founded in late 2023 by brothers Daniel and Michael Han, it focuses on efficient LoRA and QLoRA fine-tuning Unsloth builds on PyTorch , adding specialized Triton kernels, hand-optimized gradient calculations, memory-efficient loss computation, and activation checkpointing . Training math with less temporary GPU memory , allowing longer contexts or larger models on the same card. https://unsloth.ai https://github.com/unslothai/unsloth https://unsloth.ai/blog/reintroducing https://unsloth.ai/docs/basics/unsloth-benchmarks https://unsloth.ai/docs/desktop https://pytorch.org/blog/pytorch-ecosystem-landscape-q126/ https://www.youtube.com/@unslothai https://www.youtube.com/watch?v=nWbZmJMWg6E claims “same accuracy”, cut Cross-Entropy avoids materializing full vocabulary logits; “2× faster” and “70% less VRAM”. sloth animal—a slow-moving, tree-dwelling mammal from Central and South America. Sloths spend much of their lives hanging in trees and mainly eat leaves."
+    },
+    {
+      "index": 20,
+      "title": "AI Updates 4x more Context from the same",
+      "text": "AI Updates 4x more Context from the same GPU Modern models use less KV cache Standard: 2 × layers × KV heads × head dim × bytes × tokens Modern models have hybrid architectures. For example, Qwen uses 48 Gated DeltaNet layers and 16 full-attention layers; only the latter have token-growing KV state, potentially cutting that component by roughly 4× Gemma 3 interleaves five 1,024-token sliding-attention layers with one global layer, so cache growth becomes lower gpt-oss alternates 128-token sliding and full attention, uses 8 KV heads of dimension 64, and stores MoE projections in MXFP4 https://huggingface.co/Qwen/Qwen3.8-27B https://github.com/ggml-org/llama.cpp https://arxiv.org/html/2508.10925v1 https://developers.googleblog.com/gemma-explained-whats-new-in-gemma-3 https://www.youtube.com/watch?v=629J4G3aek4 Ornith 1.5 by by DeepReinforce - Self-Teaching AI Open-weight agentic-coding models - 9B dense, 35B & 397B MoE The 397B model is close to Claude Opus 4.8 on benchmarks The 35B model prioritizes efficient inference The 9B is a mobile variant https://huggingface.co/ornith-ai/Ornith-1.5-397B https://github.com/ornith-ai/Ornith-1 https://www.mindstudio.ai/blog/ornith-1-5-35b-a3b-benchmarks"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates Qwen3.8-27B on 24GB RTX 3090 vLLM",
+      "text": "AI Updates Qwen3.8-27B on 24GB RTX 3090 vLLM stack, power-capped at 250 W Software tuning raises single-user throughput from roughly 46 to 133 tokens/s Optimized batching reaches about 1,000 tokens/s across 64 requests Key changes include W4A8 tensor-core compute, FP16 DeltaNet state, quantized embeddings, improved speculative decoding, and prompt-based copying Quantization serves two roles: 4-bit weights make the model fit; 8-bit activations accelerate compute Quality validation matters: an early INT8 kernel produced garbage despite excellent benchmark throughput Trade-offs include version-specific patches, reduced multi-user latency, and weaker performance when every request has unique long context https://github.com/syv-ai/qwen38-27b-rtx3090 https://syv.ai https://www.youtube.com/watch?v=Nu0TsGmreRk TurboFieldfare: SSD-streamed LLM Runs Gemma 4 26B-A4B on Apple Silicon with roughly 2 GB resident memory by retaining its 1.35 GB shared core and KV cache, while streaming routed MoE experts from SSD. - It reports 5.1–6.3 tokens/sec on an 8 GB M2 MacBook Air, demonstrating feasibility rather than conventional performance. - Explicit parallel reads and a small expert cache beat memory-mapped page faults; the project’s key advantage is controlling I/O around expert routing. - The “2 GB” figure is process footprint, not total system memory cost: macOS file cache can consume spare RAM. - MLX remains much faster where RAM permits; TurboFieldfare’s value is enabling otherwise impractical models on fixed-memory Macs. [github](https://github.com/drumih/turbo-fieldfare) https://turbo-fieldfare.dev https://github.com/drumih/turbo-fieldfare https://news.ycombinator.com/item?id=49098510 https://www.youtube.com/watch?v=TAUgUdWb51s"
+    },
+    {
+      "index": 22,
+      "title": "SST - Solid State Transformers SST - High-Freq",
+      "text": "SST - Solid State Transformers SST - High-Freq Solid State Transformers Conventional transformers used in electric grids to convert 100-600 kV of 60Hz AC to lower levels These massive transformers can be substituted by x100 times smaller SSTs operating at tens or hundreds of kilohertz SSTS ALSO enable fast voltage regulation, bidirectional power flow, battery and solar integration, and direct DC connections for EV chargers, microgrids, and data centers They remain more complex and expensive than traditional transformers, requiring power electronics, cooling, control software, filtering, and robust protection Adoption is most likely first in specialized medium-voltage applications, rather than universal residential replacement. https://www.mdpi.com/2079-9292/15/13/2839 https://www.powermag.com/the-solid-state-shift-reinventing-the-transformer-for-modern-grids/ https://www.epri.com/research/products/000000003002034220 High Voltage Low Voltage High Frequency"
+    },
+    {
+      "index": 23,
+      "title": "AI Evals AI Evals: Human Taste at Scale",
+      "text": "AI Evals AI Evals: Human Taste at Scale AI evals (short for evaluations) are systematic tests used to measure the quality, accuracy, safety, and performance of artificial intelligence models and applications. Start evals from real outputs and traces, not an abstract checklist. Review failures before writing criteria Split criteria into Top-down and Bottom-up: Top-down : known task requirements, such as format, length, actionability, or policy compliance Bottom-up : recurring flaws discovered by comparing generated outputs with human-approved results AI can help cluster examples, build a review interface, identify repeated patterns, and draft rubric items - but humans supply the taste and product judgment Prefer specific pass/fail checks over vague scores. Examples: “uses sentence fragments,” “answers a sales objection,” or “contains required structure.” Use separate LLM-judge passes or subagents for many criteria; one large prompt can overlook requirements. Annotate outputs in context. For writing, flag issues directly in the draft; for agents, review end-to-end traces. Turn validated patterns into regression tests, dashboards, CI checks, and production monitoring. Automated eval tools find obvious problems but often miss domain-specific judgment calls and may produce false positives. Review their findings. For podcast takeaways, compare generated drafts against your final human edits across many past episodes to discover high-value bottom-up evals. Evals enable safe cost optimization: benchmark cheaper models, prompts, and workflows against the same rubric. https://github.com/hamelsmu/error-discovery-skill https://hamel.dev https://evals.work https://www.youtube.com/@peter_yang https://www.youtube.com/watch?v=bdMHQLvtVaQ"
+    },
+    {
+      "index": 24,
+      "title": "Modern RAG System Architecture Task - Build a",
+      "text": "Modern RAG System Architecture Task - Build a RAG  service for millions of docs Internal financial and legal documents, including PDFs, Office files, email archives, spreadsheets, web content, and scanned records. Document originals and normalized Markdown/JSON derivatives reside on internal mounted volumes A generated, read-only Markdown wiki supports expert review, navigation, audit, and relationship discovery without becoming a second source of truth. The design supports historical “as-of” questions through effective-date validity windows and flags superseded or historical evidence. Quality gates continuously measure recall, citation faithfulness, abstention correctness, latency, freshness, and permission leaks; a failed nightly evaluation freezes ingestion. Recovery uses PostgreSQL point-in-time recovery, immutable audit exports, locked cross-site volume snapshots, reconciliation checks, and routine restore drills. The document estimates an 8–10 TB volume and 200–300 GB PostgreSQL cluster. https://www.postgresql.org https://github.com/pgvector/pgvecto https://github.com/docling-project/docling https://docling.ai The proposed platform is a regulated, retrieval-augmented AI knowledge base for approximately 3 million internal financial and legal documents, producing evidence-grounded answers with deterministic page, slide, section, and table citations. PostgreSQL serves as the unified transactional system of record: it holds document and version registries, source-mirrored access-control entries, embeddings, BM25/full-text indices, document relationships, ingestion jobs, and complete query audit logs. Retrieval combines three methods: .. vector semantic search for concepts and paraphrases; .. BM25 for exact identifiers and keywords .. typed document graph (wiki) ACL filtering occurs before ranking, including for graph expansion, so unauthorized users cannot retrieve - or learn that restricted content exists. The initial release is read-only and keeps data, models, indices, and audit evidence within the approved security boundary. Ingestion handles PDFs, Office files, email archives, HTML, spreadsheets, and scans. Fast extraction uses PyMuPDF; complex layouts and OCR use Docling. Content is hashed, deduplicated, versioned, structure-aware chunked, embedded, and indexed."
+    },
+    {
+      "index": 25,
+      "title": "Modern RAG System Architecture",
+      "text": "Modern RAG System Architecture"
+    },
+    {
+      "index": 26,
+      "title": "AI Updates Alibaba Wan 3.0: Document-to-Video AI A",
+      "text": "AI Updates Alibaba Wan 3.0: Document-to-Video AI A closed, API-hosted video model in public beta, available through Qwen Cloud and Alibaba Cloud Model Studio. It can generate up to 30-second videos with native audio in a single pass, at 480p, 720p, or 1080p—not native 4K. Its Omni Reference workflow accepts mixed source material, including PDFs, presentations, spreadsheets, web pages, images, video, audio, and text. This enables a practical “document-to-video” workflow: upload a deck or report, specify the desired tone, then review and refine the result. Claims of universally open access, open weights, or high production throughput need caution: reported beta access and rate limits have varied. https://www.qwencloud.com/models/wan3.0-video https://www.alibabacloud.com/help/en/model-studio/models https://github.com/Wan-Video https://www.atlascloud.ai/blog/tips/wan-3-0-preview Claudex Loop Skill for Dual Model Work Claudex Loop is a Claude Code skill that separates planning, implementation, and evaluation across Claude and Codex It uses four phases: reconnaissance/research, structured interrogation, adversarial plan review, and cross-model building with code verification. Codex reviews Claude’s plan in a read-only sandbox, returns specific issues, and the models iterate until approval or a configurable loop limit. A fresh reviewer session checks the finished implementation against the approved specification, reducing self-review bias and catching edge cases. It supports new projects and major features, with tunable review limits and optional model-role reversal https://github.com/chaseai-yt/claudex-loop https://github.com/promptadvisers/claudex https://onexiang.cc/en/skills/claudex-loop https://www.youtube.com/watch?v=rZQDZWayzNo"
+    },
+    {
+      "index": 27,
+      "title": "AI Updates Anthropic in-house silicon team for custom",
+      "text": "AI Updates Anthropic in-house silicon team for custom Claude chips Hiring experienced “shipped silicon” engineers at $320,000–$485,000 Custom chips are likely a long-term efficiency and inference-cost strategy, not an imminent replacement for rented accelerators. https://www.youtube.com/watch?v=PgJ2i7TtnkY Xiaomi Aluminum AI Cube A prototype, not a released DGX Spark rival Uses wafer-on-wafer stacking to achieve dramatically wider memory-to-compute path https://www.guru3d.com/story/xiaomi-ai-cube-uses-three-xring-chips-and-lpddr6-memory/ https://www.mi.com https://github.com/XiaomiMiMo https://www.reuters.com/world/china/xiaomi-launches-new-xring-chip-partners-with-tsmc-production-sources-say-2026-08-24/ https://www.youtube.com/watch?v=H0CJAlVjhDo"
+    },
+    {
+      "index": 28,
+      "title": "AI Updates Podman vs Docker Both build and",
+      "text": "AI Updates Podman vs Docker Both build and run containers using familiar Dockerfile workflows Docker offers the broadest ecosystem, polished Docker Desktop experience, and widespread Compose/tooling compatibility Podman is daemonless - does not require one long-running central background service - such as Docker’s dockerd . Podman starts and manages container-related processes directly . A running container can continue independently of the podman CLI invocation Podman supports rootless containers - run under an ordinary, unprivileged Linux user account instead of requiring host root access or sudo Podman’s CLI is largely Docker-compatible https://podman.io , https://www.docker.com https://github.com/containers/podman https://github.com/moby/moby https://oneuptime.com/blog/post/2026-03-18-choose-between-podman-and-docker/view Meta's plan to replace Humans with AI has imploded Meta has cut 10% workforce in May - but cancelled a broader expected layoff wave after employee backlash and disappointing technical results AI-assisted code changes rose 220%, while feature delivery grew only 36% Under-supervised agents caused disruptive changes; technical and security incidents rose 40%, with incident-response time up 70%. Zuckerberg acknowledged slower-than-expected AI acceleration https://www.techspot.com/news/113631-zuckerberg-bold-plan-replace-meta-staff-ai-imploded.html"
+    },
+    {
+      "index": 29,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 127K in 2026 (as of August 27, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 176,877 people laid off (740 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 30,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 31,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Open",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index Open",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "slide"
+    },
+    {
+      "claim": "Open Models Overtake Closed Models Open Weight Models",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Open Models Overtake Closed Models Open Weight Models",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates NVIDIA AVO Agent AVO - Agentic",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "AI Updates NVIDIA AVO Agent AVO - Agentic",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates DeepSeek Flash Gets Vision DeepSeek released",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "AI Updates DeepSeek Flash Gets Vision DeepSeek released",
+      "source": "slide"
+    },
+    {
+      "claim": "Time to 100K Stars on GitHub Rank Project",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Time to 100K Stars on GitHub Rank Project",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates OpenAI Open-Sourced Codex Harness - Aug",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "AI Updates OpenAI Open-Sourced Codex Harness - Aug",
+      "source": "slide"
+    },
+    {
+      "claim": "52 Open Harnesses Codex CLI — Rust terminal",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "52 Open Harnesses Codex CLI — Rust terminal",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Chinese humanoid robots broke records set",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "AI Updates Chinese humanoid robots broke records set",
+      "source": "slide"
+    },
+    {
+      "claim": "Weekly videos every Friday 7.32K subscribers, 310 videos",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Weekly videos every Friday 7.32K subscribers, 310 videos",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Anthropic added cross-chat and Cowork memory",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "AI Updates Anthropic added cross-chat and Cowork memory",
+      "source": "slide"
+    }
+  ]
+}
