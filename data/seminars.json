@@ -16,9 +16,16 @@
       "enterprise",
       "rag",
       "multimodal",
-      "coding"
+      "coding",
+      "jobs"
     ],
-    "video": null,
+    "video": {
+      "id": "IowpBrMBB4E",
+      "title": "Exciting AI Updates Weekly - September 04, 2026",
+      "url": "https://www.youtube.com/watch?v=IowpBrMBB4E",
+      "thumbnail": "https://i.ytimg.com/vi/IowpBrMBB4E/hqdefault.jpg",
+      "duration": 3185
+    },
     "deck": {
       "path": "2026/2026-09-04-AI-Updates.pptx",
       "filename": "2026-09-04-AI-Updates.pptx",
@@ -27,10 +34,329 @@
       "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-09-04-AI-Updates.pptx"
     },
     "match": {
-      "confidence": "deck-only",
-      "method": "unmatched"
+      "confidence": "date",
+      "method": "exact-date"
     },
-    "chapters": [],
+    "chapters": [
+      {
+        "title": "Monthly bill went from $231 to $4",
+        "startSeconds": 0,
+        "label": "00:00",
+        "source": "youtube"
+      },
+      {
+        "title": "Use Local AI for most routine tasks",
+        "startSeconds": 57,
+        "label": "00:57",
+        "source": "youtube"
+      },
+      {
+        "title": "Crowd-sourced \"LM Arena\"",
+        "startSeconds": 82,
+        "label": "01:22",
+        "source": "youtube"
+      },
+      {
+        "title": "Cost Per Intelligence Index",
+        "startSeconds": 146,
+        "label": "02:26",
+        "source": "youtube"
+      },
+      {
+        "title": "GPT-6 Astra - Sept 3",
+        "startSeconds": 172,
+        "label": "02:52",
+        "source": "youtube"
+      },
+      {
+        "title": "Gemini 3.8 Flash & 3.8 Flash Cyber",
+        "startSeconds": 224,
+        "label": "03:44",
+        "source": "youtube"
+      },
+      {
+        "title": "Claude Fable 5.1",
+        "startSeconds": 251,
+        "label": "04:11",
+        "source": "youtube"
+      },
+      {
+        "title": "qwen3.8-max-0902",
+        "startSeconds": 268,
+        "label": "04:28",
+        "source": "youtube"
+      },
+      {
+        "title": "Anthropic sued the Pentagon and won",
+        "startSeconds": 303,
+        "label": "05:03",
+        "source": "youtube"
+      },
+      {
+        "title": "Biases in LLM Evaluation",
+        "startSeconds": 320,
+        "label": "05:20",
+        "source": "youtube"
+      },
+      {
+        "title": "z.ai GLM 5.3 Flash",
+        "startSeconds": 378,
+        "label": "06:18",
+        "source": "youtube"
+      },
+      {
+        "title": "Apple's Local AI Strategy",
+        "startSeconds": 433,
+        "label": "07:13",
+        "source": "youtube"
+      },
+      {
+        "title": "Tencent's Hy4 Preview",
+        "startSeconds": 488,
+        "label": "08:08",
+        "source": "youtube"
+      },
+      {
+        "title": "OpenClaw 2.0 - Major Rebuild",
+        "startSeconds": 542,
+        "label": "09:02",
+        "source": "youtube"
+      },
+      {
+        "title": "Perplexity Search API",
+        "startSeconds": 619,
+        "label": "10:19",
+        "source": "youtube"
+      },
+      {
+        "title": "Prompting Claude 5 - Seven Rules",
+        "startSeconds": 648,
+        "label": "10:48",
+        "source": "youtube"
+      },
+      {
+        "title": "Meta Muse Spark 1.3",
+        "startSeconds": 701,
+        "label": "11:41",
+        "source": "youtube"
+      },
+      {
+        "title": "Meta - Code, Image, Voice",
+        "startSeconds": 729,
+        "label": "12:09",
+        "source": "youtube"
+      },
+      {
+        "title": "NanoClaw: Secure Agent Automation",
+        "startSeconds": 793,
+        "label": "13:13",
+        "source": "youtube"
+      },
+      {
+        "title": "Claude Memory \"Dreams\" Feature",
+        "startSeconds": 865,
+        "label": "14:25",
+        "source": "youtube"
+      },
+      {
+        "title": "Make Qwen 3.8 27B Faster (x8)",
+        "startSeconds": 904,
+        "label": "15:04",
+        "source": "youtube"
+      },
+      {
+        "title": "Claude Code: 19 Updated Tips",
+        "startSeconds": 958,
+        "label": "15:58",
+        "source": "youtube"
+      },
+      {
+        "title": "Baalda - Team AI Second Brain",
+        "startSeconds": 1050,
+        "label": "17:30",
+        "source": "youtube"
+      },
+      {
+        "title": "MiniMax H3 Max - Fast AI Video",
+        "startSeconds": 1096,
+        "label": "18:16",
+        "source": "youtube"
+      },
+      {
+        "title": "Tavus's Sparrow-2 Voice",
+        "startSeconds": 1133,
+        "label": "18:53",
+        "source": "youtube"
+      },
+      {
+        "title": "Google Gemini Omni 1.1 Flash",
+        "startSeconds": 1184,
+        "label": "19:44",
+        "source": "youtube"
+      },
+      {
+        "title": "Model Hardware Standard (MHS)",
+        "startSeconds": 1224,
+        "label": "20:24",
+        "source": "youtube"
+      },
+      {
+        "title": "Anthropic automated alignment",
+        "startSeconds": 1317,
+        "label": "21:57",
+        "source": "youtube"
+      },
+      {
+        "title": "Misc AI Updates",
+        "startSeconds": 1418,
+        "label": "23:38",
+        "source": "youtube"
+      },
+      {
+        "title": "LMCache - KV Cache Tensormesh",
+        "startSeconds": 1577,
+        "label": "26:17",
+        "source": "youtube"
+      },
+      {
+        "title": "Rewriting CPython into Rust",
+        "startSeconds": 1637,
+        "label": "27:17",
+        "source": "youtube"
+      },
+      {
+        "title": "SSI's Reported Research Leap",
+        "startSeconds": 1705,
+        "label": "28:25",
+        "source": "youtube"
+      },
+      {
+        "title": "Apodex 1.1 - Agent Teams",
+        "startSeconds": 1731,
+        "label": "28:51",
+        "source": "youtube"
+      },
+      {
+        "title": "Archify Skill - Verifiable Diagrams",
+        "startSeconds": 1765,
+        "label": "29:25",
+        "source": "youtube"
+      },
+      {
+        "title": "OpenAI/METR evaluation",
+        "startSeconds": 1798,
+        "label": "29:58",
+        "source": "youtube"
+      },
+      {
+        "title": "Claude Obsidian v2",
+        "startSeconds": 1868,
+        "label": "31:08",
+        "source": "youtube"
+      },
+      {
+        "title": "Siraj Raval - Local Models",
+        "startSeconds": 1914,
+        "label": "31:54",
+        "source": "youtube"
+      },
+      {
+        "title": "Claude Code \"/design\"",
+        "startSeconds": 1933,
+        "label": "32:13",
+        "source": "youtube"
+      },
+      {
+        "title": "Architecture Design for RAG",
+        "startSeconds": 1961,
+        "label": "32:41",
+        "source": "youtube"
+      },
+      {
+        "title": "AI Use Cases",
+        "startSeconds": 2413,
+        "label": "40:13",
+        "source": "youtube"
+      },
+      {
+        "title": "Googlebook and Aluminium OS",
+        "startSeconds": 2454,
+        "label": "40:54",
+        "source": "youtube"
+      },
+      {
+        "title": "Most-cited paper",
+        "startSeconds": 2482,
+        "label": "41:22",
+        "source": "youtube"
+      },
+      {
+        "title": "How you appear in AI answers",
+        "startSeconds": 2570,
+        "label": "42:50",
+        "source": "youtube"
+      },
+      {
+        "title": "MINIX 3 in Intel Platform",
+        "startSeconds": 2613,
+        "label": "43:33",
+        "source": "youtube"
+      },
+      {
+        "title": "Omarchy Quattro Linux",
+        "startSeconds": 2778,
+        "label": "46:18",
+        "source": "youtube"
+      },
+      {
+        "title": "Avoid Latest Updates",
+        "startSeconds": 2841,
+        "label": "47:21",
+        "source": "youtube"
+      },
+      {
+        "title": "Linux AI Security Burden",
+        "startSeconds": 2875,
+        "label": "47:55",
+        "source": "youtube"
+      },
+      {
+        "title": "AI ECG Heart Screening",
+        "startSeconds": 2931,
+        "label": "48:51",
+        "source": "youtube"
+      },
+      {
+        "title": "Celeris Magnus",
+        "startSeconds": 2958,
+        "label": "49:18",
+        "source": "youtube"
+      },
+      {
+        "title": "Wonderful AI",
+        "startSeconds": 2992,
+        "label": "49:52",
+        "source": "youtube"
+      },
+      {
+        "title": "AI's Three Career Doors",
+        "startSeconds": 3052,
+        "label": "50:52",
+        "source": "youtube"
+      },
+      {
+        "title": "No Job Apocalypse",
+        "startSeconds": 3094,
+        "label": "51:34",
+        "source": "youtube"
+      },
+      {
+        "title": "Jobs & Layoffs",
+        "startSeconds": 3167,
+        "label": "52:47",
+        "source": "youtube"
+      }
+    ],
     "slides": [
       {
         "index": 1,
@@ -220,112 +546,481 @@
     ],
     "points": [
       {
-        "claim": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index GPT-6",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Monthly bill went from $231 to $4",
+        "topic": "general",
+        "videoSeconds": 0,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=0s",
         "slideIndex": 1,
         "slideTitle": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index GPT-6",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-        "topic": "claude",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Use Local AI for most routine tasks",
+        "topic": "general",
+        "videoSeconds": 57,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=57s",
         "slideIndex": 2,
         "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "claim": "Crowd-sourced \"LM Arena\"",
         "topic": "benchmarks",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "videoSeconds": 82,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=82s",
+        "slideIndex": 2,
+        "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "source": "youtube"
+      },
+      {
+        "claim": "Cost Per Intelligence Index",
+        "topic": "benchmarks",
+        "videoSeconds": 146,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=146s",
         "slideIndex": 3,
         "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates GPT-6 Astra - Sept 3 OpenAI",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "GPT-6 Astra - Sept 3",
+        "topic": "openai",
+        "videoSeconds": 172,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=172s",
         "slideIndex": 4,
         "slideTitle": "AI Updates GPT-6 Astra - Sept 3 OpenAI",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates Gemini 3.8 Flash & 3.8 Flash",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Gemini 3.8 Flash & 3.8 Flash Cyber",
+        "topic": "google",
+        "videoSeconds": 224,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=224s",
+        "slideIndex": 4,
+        "slideTitle": "AI Updates GPT-6 Astra - Sept 3 OpenAI",
+        "source": "youtube"
+      },
+      {
+        "claim": "Claude Fable 5.1",
+        "topic": "claude",
+        "videoSeconds": 251,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=251s",
         "slideIndex": 5,
         "slideTitle": "AI Updates Gemini 3.8 Flash & 3.8 Flash",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates Anthropic sued the Pentagon and won",
-        "topic": "claude",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "qwen3.8-max-0902",
+        "topic": "general",
+        "videoSeconds": 268,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=268s",
         "slideIndex": 6,
         "slideTitle": "AI Updates Anthropic sued the Pentagon and won",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai ,",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Anthropic sued the Pentagon and won",
+        "topic": "claude",
+        "videoSeconds": 303,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=303s",
         "slideIndex": 7,
         "slideTitle": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai ,",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates Tencent’s Hy4 Preview Open-weight (Apache 2.0)",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Biases in LLM Evaluation",
+        "topic": "benchmarks",
+        "videoSeconds": 320,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=320s",
+        "slideIndex": 7,
+        "slideTitle": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai ,",
+        "source": "youtube"
+      },
+      {
+        "claim": "z.ai GLM 5.3 Flash",
+        "topic": "open-models",
+        "videoSeconds": 378,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=378s",
         "slideIndex": 8,
         "slideTitle": "AI Updates Tencent’s Hy4 Preview Open-weight (Apache 2.0)",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates Perplexity Search API Developer-facing web-retrieval layer",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Apple's Local AI Strategy",
+        "topic": "general",
+        "videoSeconds": 433,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=433s",
         "slideIndex": 9,
         "slideTitle": "AI Updates Perplexity Search API Developer-facing web-retrieval layer",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Meta Muse Models Meta Muse Models: Muse Code",
+        "claim": "Tencent's Hy4 Preview",
+        "topic": "general",
+        "videoSeconds": 488,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=488s",
+        "slideIndex": 9,
+        "slideTitle": "AI Updates Perplexity Search API Developer-facing web-retrieval layer",
+        "source": "youtube"
+      },
+      {
+        "claim": "OpenClaw 2.0 - Major Rebuild",
         "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "videoSeconds": 542,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=542s",
         "slideIndex": 10,
         "slideTitle": "Meta Muse Models Meta Muse Models: Muse Code",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Weekly videos every Friday 7.4K subscribers, 323 videos",
+        "claim": "Perplexity Search API",
         "topic": "general",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "videoSeconds": 619,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=619s",
         "slideIndex": 11,
         "slideTitle": "Weekly videos every Friday 7.4K subscribers, 323 videos",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI Updates NanoClaw: Secure Agent Automation NanoClaw is",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Prompting Claude 5 - Seven Rules",
+        "topic": "claude",
+        "videoSeconds": 648,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=648s",
+        "slideIndex": 11,
+        "slideTitle": "Weekly videos every Friday 7.4K subscribers, 323 videos",
+        "source": "youtube"
+      },
+      {
+        "claim": "Meta Muse Spark 1.3",
+        "topic": "data-engineering",
+        "videoSeconds": 701,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=701s",
         "slideIndex": 12,
         "slideTitle": "AI Updates NanoClaw: Secure Agent Automation NanoClaw is",
-        "source": "slide"
+        "source": "youtube"
+      },
+      {
+        "claim": "Meta - Code, Image, Voice",
+        "topic": "multimodal",
+        "videoSeconds": 729,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=729s",
+        "slideIndex": 13,
+        "slideTitle": "AI Updates Make Qwen 3.8 27B Faster (x8)",
+        "source": "youtube"
+      },
+      {
+        "claim": "NanoClaw: Secure Agent Automation",
+        "topic": "agents",
+        "videoSeconds": 793,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=793s",
+        "slideIndex": 13,
+        "slideTitle": "AI Updates Make Qwen 3.8 27B Faster (x8)",
+        "source": "youtube"
+      },
+      {
+        "claim": "Claude Memory \"Dreams\" Feature",
+        "topic": "claude",
+        "videoSeconds": 865,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=865s",
+        "slideIndex": 14,
+        "slideTitle": "AI Updates Baalda - Team AI Second Brain",
+        "source": "youtube"
+      },
+      {
+        "claim": "Make Qwen 3.8 27B Faster (x8)",
+        "topic": "open-models",
+        "videoSeconds": 904,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=904s",
+        "slideIndex": 15,
+        "slideTitle": "AI Updates Tavus’s Sparrow-2 Voice Understanding A streaming,",
+        "source": "youtube"
+      },
+      {
+        "claim": "Claude Code: 19 Updated Tips",
+        "topic": "coding",
+        "videoSeconds": 958,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=958s",
+        "slideIndex": 16,
+        "slideTitle": "AI Updates Google Gemini Omni 1.1 Flash Multimodal",
+        "source": "youtube"
+      },
+      {
+        "claim": "Baalda - Team AI Second Brain",
+        "topic": "general",
+        "videoSeconds": 1050,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1050s",
+        "slideIndex": 16,
+        "slideTitle": "AI Updates Google Gemini Omni 1.1 Flash Multimodal",
+        "source": "youtube"
+      },
+      {
+        "claim": "MiniMax H3 Max - Fast AI Video",
+        "topic": "general",
+        "videoSeconds": 1096,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1096s",
+        "slideIndex": 17,
+        "slideTitle": "Model Hardware Standard (MHS) Anthropic Model Hardware Standard",
+        "source": "youtube"
+      },
+      {
+        "claim": "Tavus's Sparrow-2 Voice",
+        "topic": "multimodal",
+        "videoSeconds": 1133,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1133s",
+        "slideIndex": 18,
+        "slideTitle": "Anthropic automated alignment research Anthropic automated alignment research",
+        "source": "youtube"
+      },
+      {
+        "claim": "Google Gemini Omni 1.1 Flash",
+        "topic": "google",
+        "videoSeconds": 1184,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1184s",
+        "slideIndex": 18,
+        "slideTitle": "Anthropic automated alignment research Anthropic automated alignment research",
+        "source": "youtube"
+      },
+      {
+        "claim": "Model Hardware Standard (MHS)",
+        "topic": "general",
+        "videoSeconds": 1224,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1224s",
+        "slideIndex": 19,
+        "slideTitle": "Misc AI Updates OpenAI will Cursor off on",
+        "source": "youtube"
+      },
+      {
+        "claim": "Anthropic automated alignment",
+        "topic": "claude",
+        "videoSeconds": 1317,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1317s",
+        "slideIndex": 20,
+        "slideTitle": "AI Updates Rewriting Python (CPython) into Rust Rust",
+        "source": "youtube"
+      },
+      {
+        "claim": "Misc AI Updates",
+        "topic": "general",
+        "videoSeconds": 1418,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1418s",
+        "slideIndex": 20,
+        "slideTitle": "AI Updates Rewriting Python (CPython) into Rust Rust",
+        "source": "youtube"
+      },
+      {
+        "claim": "LMCache - KV Cache Tensormesh",
+        "topic": "general",
+        "videoSeconds": 1577,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1577s",
+        "slideIndex": 21,
+        "slideTitle": "AI Updates Apodex 1.1 - Agent Teams Apodex",
+        "source": "youtube"
+      },
+      {
+        "claim": "Rewriting CPython into Rust",
+        "topic": "general",
+        "videoSeconds": 1637,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1637s",
+        "slideIndex": 22,
+        "slideTitle": "AI Updates Archify Skill - Verifiable Diagrams Archify",
+        "source": "youtube"
+      },
+      {
+        "claim": "SSI's Reported Research Leap",
+        "topic": "general",
+        "videoSeconds": 1705,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1705s",
+        "slideIndex": 22,
+        "slideTitle": "AI Updates Archify Skill - Verifiable Diagrams Archify",
+        "source": "youtube"
+      },
+      {
+        "claim": "Apodex 1.1 - Agent Teams",
+        "topic": "agents",
+        "videoSeconds": 1731,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1731s",
+        "slideIndex": 23,
+        "slideTitle": "AI Updates AI Swarm Benchmark Incident (OpenAI/METR evaluation)",
+        "source": "youtube"
+      },
+      {
+        "claim": "Archify Skill - Verifiable Diagrams",
+        "topic": "general",
+        "videoSeconds": 1765,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1765s",
+        "slideIndex": 24,
+        "slideTitle": "Claude Obsidian v2 Claude Obsidian v2 A local-first",
+        "source": "youtube"
+      },
+      {
+        "claim": "OpenAI/METR evaluation",
+        "topic": "openai",
+        "videoSeconds": 1798,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1798s",
+        "slideIndex": 25,
+        "slideTitle": "AI News Siraj Raval switched to local models",
+        "source": "youtube"
+      },
+      {
+        "claim": "Claude Obsidian v2",
+        "topic": "claude",
+        "videoSeconds": 1868,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1868s",
+        "slideIndex": 25,
+        "slideTitle": "AI News Siraj Raval switched to local models",
+        "source": "youtube"
+      },
+      {
+        "claim": "Siraj Raval - Local Models",
+        "topic": "general",
+        "videoSeconds": 1914,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1914s",
+        "slideIndex": 26,
+        "slideTitle": "Architecture Design for RAG ADD Architecture Design Doc",
+        "source": "youtube"
+      },
+      {
+        "claim": "Claude Code \"/design\"",
+        "topic": "coding",
+        "videoSeconds": 1933,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1933s",
+        "slideIndex": 27,
+        "slideTitle": "AI News AI Use Cases https://www.youtube.com/watch?v=vhn9hfcerEk Petco Love",
+        "source": "youtube"
+      },
+      {
+        "claim": "Architecture Design for RAG",
+        "topic": "rag",
+        "videoSeconds": 1961,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=1961s",
+        "slideIndex": 27,
+        "slideTitle": "AI News AI Use Cases https://www.youtube.com/watch?v=vhn9hfcerEk Petco Love",
+        "source": "youtube"
+      },
+      {
+        "claim": "AI Use Cases",
+        "topic": "general",
+        "videoSeconds": 2413,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2413s",
+        "slideIndex": 28,
+        "slideTitle": "Most-cited paper of 21st Century “Deep Residual Learning",
+        "source": "youtube"
+      },
+      {
+        "claim": "Googlebook and Aluminium OS",
+        "topic": "general",
+        "videoSeconds": 2454,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2454s",
+        "slideIndex": 29,
+        "slideTitle": "AI News How your brand appears in AI",
+        "source": "youtube"
+      },
+      {
+        "claim": "Most-cited paper",
+        "topic": "general",
+        "videoSeconds": 2482,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2482s",
+        "slideIndex": 29,
+        "slideTitle": "AI News How your brand appears in AI",
+        "source": "youtube"
+      },
+      {
+        "claim": "How you appear in AI answers",
+        "topic": "general",
+        "videoSeconds": 2570,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2570s",
+        "slideIndex": 30,
+        "slideTitle": "Omarchy Quattro - Agentic Linux Omarchy Quattro -",
+        "source": "youtube"
+      },
+      {
+        "claim": "MINIX 3 in Intel Platform",
+        "topic": "general",
+        "videoSeconds": 2613,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2613s",
+        "slideIndex": 31,
+        "slideTitle": "Avoid Latest Updates Latest packages may have dependencies",
+        "source": "youtube"
+      },
+      {
+        "claim": "Omarchy Quattro Linux",
+        "topic": "general",
+        "videoSeconds": 2778,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2778s",
+        "slideIndex": 31,
+        "slideTitle": "Avoid Latest Updates Latest packages may have dependencies",
+        "source": "youtube"
+      },
+      {
+        "claim": "Avoid Latest Updates",
+        "topic": "general",
+        "videoSeconds": 2841,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2841s",
+        "slideIndex": 32,
+        "slideTitle": "AI Updates AI ECG Heart Screening Imperial College",
+        "source": "youtube"
+      },
+      {
+        "claim": "Linux AI Security Burden",
+        "topic": "safety",
+        "videoSeconds": 2875,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2875s",
+        "slideIndex": 33,
+        "slideTitle": "AI Updates Wonderful AI - Enterprise AI Deployment",
+        "source": "youtube"
+      },
+      {
+        "claim": "AI ECG Heart Screening",
+        "topic": "general",
+        "videoSeconds": 2931,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2931s",
+        "slideIndex": 34,
+        "slideTitle": "AI Updates AI’s Three Career Doors Alex Karp",
+        "source": "youtube"
+      },
+      {
+        "claim": "Celeris Magnus",
+        "topic": "general",
+        "videoSeconds": 2958,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2958s",
+        "slideIndex": 34,
+        "slideTitle": "AI Updates AI’s Three Career Doors Alex Karp",
+        "source": "youtube"
+      },
+      {
+        "claim": "Wonderful AI",
+        "topic": "general",
+        "videoSeconds": 2992,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=2992s",
+        "slideIndex": 35,
+        "slideTitle": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+        "source": "youtube"
+      },
+      {
+        "claim": "AI's Three Career Doors",
+        "topic": "general",
+        "videoSeconds": 3052,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=3052s",
+        "slideIndex": 36,
+        "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "source": "youtube"
+      },
+      {
+        "claim": "No Job Apocalypse",
+        "topic": "jobs",
+        "videoSeconds": 3094,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=3094s",
+        "slideIndex": 36,
+        "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "source": "youtube"
+      },
+      {
+        "claim": "Jobs & Layoffs",
+        "topic": "jobs",
+        "videoSeconds": 3167,
+        "videoUrl": "https://www.youtube.com/watch?v=IowpBrMBB4E&t=3167s",
+        "slideIndex": 37,
+        "slideTitle": "Thank You!",
+        "source": "youtube"
       }
     ]
   },
