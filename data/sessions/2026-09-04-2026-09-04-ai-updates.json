@@ -1,0 +1,330 @@
+{
+  "id": "2026-09-04-2026-09-04-ai-updates",
+  "date": "2026-09-04",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "agents",
+    "safety",
+    "enterprise",
+    "rag",
+    "multimodal",
+    "coding"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2026/2026-09-04-AI-Updates.pptx",
+    "filename": "2026-09-04-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-09-04-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-09-04-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index GPT-6",
+      "text": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index GPT-6 Astra - Sept 3 Gemini 3.8 Flash & 3.8 Flash Cyber Claude Fable 5.1 qwen3.8-max-0902 Anthropic sued the Pentagon and won Biases in LLM Evaluation z.ai GLM 5.3 Flash Apple’s Local AI Strategy Tencent’s Hy4 Preview OpenClaw 2.0 - Major Rebuild Perplexity Search API Prompting Claude 5 - Seven Rules Meta Muse Spark 1.3 Meta - Code, Image, Voice AI Updates - Sept 4, 2026 AI’s Three Career Doors No Job Apocalypse Jobs & Layoffs Monthly bill went from $231 to $4. Run the routine locally, send the hard problems out. Baalda - Team AI Second Brain MiniMax H3 Max - Fast AI Video Tavus’s Sparrow-2 Voice Google Gemini Omni 1.1 Flash Model Hardware Standard (MHS) Anthropic automated alignment Misc AI Updates LMCache - KV Cache Tensormesh Rewriting CPython into Rust SSI’s Reported Research Leap Apodex 1.1 - Agent Teams Archify Skill - Verifiable Diagrams OpenAI/METR evaluation Claude Obsidian v2 Siraj Raval - Local Models Claude Code \"/design\" Architecture Design for RAG AI Use Cases NanoClaw: Secure Agent Automation Claude Memory “Dreams” Feature Make Qwen 3.8 27B Faster (x8) Claude Code: 19 Updated Tips Googlebook and Aluminium OS Most-cited paper How you appear in AI answers MINIX 3 in Intel Platform Omarchy Quattro Linux Avoid Latest Updates Linux AI Security Burden AI ECG Heart Screening Celeris Magnus Wonderful AI"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for Sept 02 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.3 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-opus-4-7-high 1552 ■ claude-opus-4-6-high 1552 ■ claude-fable-5 1551 ■ claude-opus-4-7 1547 ■ claude-opus-4-6 1546 ■ kimi-k3-max 1542 ■ gemini-3.8-flash-high 1537 ■ claude-opus-4-8-high 1534 ■ glm-5.3-flash 1534 ■ muse-spark-1.2 (xHigh) 1533 ■ claude-opus-5-high 1533 ■ muse-spark-1.1 1531 ■ claude-opus-4-5-20251101-high-32k 1530 ■ gpt-5.6-sol-xhigh 1529 ■ claude-sonnet-4-6 1528 ■ glm-5.3-max 1528 ■ claude-opus-4-8 1527 ■ muse-spark 1526 ■ qwen3.7-max-preview 1525 ■ claude-opus-5-max 1525 ■ claude-opus-4-5-20251101 1523 ■ grok-4.5 1523 ■ gemini-3.7-flash-high 1522 ■ claude-sonnet-5-high 1521 ■ gemini-3.1-pro-preview 1521 Code Model Score ■ claude-fable-5 1507 ■ claude-opus-4-6-high 1505 ■ claude-fable-5.1-max 1504 ■ claude-opus-4-7-high 1502 ■ muse-spark-1.2 (xHigh) 1499 ■ claude-opus-4-6 1498 ■ claude-opus-4-7 1494 ■ gemini-3.8-flash-high 1494 ■ claude-opus-5-high 1493 ■ muse-spark-1.1 1492 ■ gemini-3.7-flash-high 1491 ■ kimi-k3-max 1489 ■ muse-spark 1488 ■ claude-opus-5-max 1488 ■ gemini-3.1-pro-preview 1487 ■ gemini-3-pro 1486 ■ gpt-5.6-sol-xhigh 1483 ■ claude-opus-4-8-high 1482 ■ gpt-5.5-high 1482 ■ glm-5.3-max 1482 ■ gemini-3.6-flash-high 1480 ■ qwen3.8-max 1480 ■ gemini-3.5-flash-high 1479 ■ gpt-5.5 1477 ■ gpt-5.4-high 1477"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Sept 4"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates GPT-6 Astra - Sept 3 OpenAI",
+      "text": "AI Updates GPT-6 Astra - Sept 3 OpenAI has launched GPT‑6 Astra, its new flagship frontier model Early deployment begins with gated enterprise access, followed by paid ChatGPT users, API customers, AWS Bedrock, and Microsoft Azure Astra targets autonomous computer/browser use, coding, mathematics, 3D asset generation, and game prototyping Its advanced cyber capability creates misuse risk, so OpenAI uses restricted access and additional safeguards for its strongest cybersecurity functions OpenAI reports benchmark leadership and Playco reports 50% fewer manual fixes in game prototypes, signaling more capable agentic production workflows Pricing: $10 / $50 in/out per 1M in/out tokens https://openai.com/index/path-to-astra/ https://openai.com/index/playco-game-prototyping-with-astra/ https://developers.openai.com/api/docs/concepts https://deploymentsafety.openai.com/gpt-6-astra/safety-overview-gpt-6-astra https://www.youtube.com/watch?v=xdXLzFzxA9Q"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates Gemini 3.8 Flash & 3.8 Flash",
+      "text": "AI Updates Gemini 3.8 Flash & 3.8 Flash Cyber Agentic workflows, coding, multimodal reasoning, automation Supports text, images, video, audio, PDFs, and code inputs Context window 1M tokens, 64K output tokens Function calling, search tools, computer-use workflows, adjustable reasoning levels Pricing $0.75 / $3.75 in/out per 1M tokens. Gemini 3.8 Flash Cyber - a restricted security variant for vulnerability discovery, remediation, and patch validation https://ai.google.dev/gemini-api/docs/latest-model https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/ https://deepmind.google/models/gemini/flash/ Claude Fable 5.1 Reliable multi-step work: 25% - 45% cheaper Better performance across coding, research, and reasoning Mythos 5.1 - restricted to trusted-access programs for advanced cybersecurity and biology https://www.anthropic.com/claude-fable-and-mythos-5-1 qwen3.8-max-0902 2.4T-params, 1M-token context window Stronger coding/cowork post-training, and better tool orchestration for long-horizon projects On QwenCloud at $2 / $6 in/out per 1M tokens"
+    },
+    {
+      "index": 6,
+      "title": "AI Updates Anthropic sued the Pentagon and won",
+      "text": "AI Updates Anthropic sued the Pentagon and won https://airepo.substack.com/p/anthropic-sued-the-pentagon-and-won A federal court in San Francisco ruled that the Pentagon unlawfully labeled Anthropic a “supply chain risk” The court found the designation was retaliation for Anthropic’s criticism of U.S. AI policy, violating First Amendment protections The conflict began after Anthropic declined unrestricted Claude access without safeguards against autonomous weapons and mass surveillance After negotiations failed, the Pentagon blacklisted the company; Anthropic filed lawsuits in San Francisco and Washington. The San Francisco ruling is a significant victory, but the Washington case remains unresolved and Anthropic technically stays blacklisted The outcome may reduce uncertainty ahead of Anthropic’s anticipated IPO and highlights a broader dispute over government control of frontier AI Biases in LLM Evaluation Proxy discrimination: models can reproduce gender-linked outcomes without receiving gender as an explicit feature . LLMs similarly absorb patterns from human-written data and preference training; fluent, confident output is not proof of truth. LLM judges can favor answer position, verbosity, formatting, cited-looking authority, familiar styles, or outputs resembling their own model family . Mitigate with blind model labels, evidence-based rubrics, order-swapped comparisons, length controls, multiple diverse judges, and human audits for high-stakes decisions. https://www.youtube.com/watch?v=RKBibsoK7Yg https://www.cnbc.com/2019/11/10/wall-street-regulator-probes-goldman-over-allegations-of-sexist-credit-decisions-at-apple-card.html https://www.bankingdive.com/news/goldman-sachs-gender-bias-claims-apple-card-women-new-york-dfs/597273/ https://wandb.ai/site/articles/exploring-llm-as-a-judge/ https://haystack.deepset.ai/cookbook/prometheus2_evaluation"
+    },
+    {
+      "index": 7,
+      "title": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai ,",
+      "text": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai , https://z.ai OpenRouter’s mystery “Ox Alpha” was revealed as Z.ai’s GLM-5.3-Flash, an open-weights, MIT-licensed, multimodal, MoE 320B total, 18B active, for coding, long tasks, agentic work 1M-token context window, 131K max output; hybrid attention - linear and sparce Comparable to GPT-5.6 Sol Max  - but 10 times cheaper ! Pricing: $0.15 / $0.50 per 1M in/out tokens ollama launch claude   --model glm-5.3-flash:cloud ollama launch opencode --model glm-5.3-flash:cloud ollama launch hermes   --model glm-5.3-flash:cloud ollama launch claude   --model glm-5.3:cloud ollama launch opencode --model glm-5.3:cloud ollama launch hermes   --model glm-5.3:cloud Claude Desktop can be configured to use Ollama's models Models available through Z.ai, OpenRouter, Hugging Face, Ollama, and local https://huggingface.co/zai-org/GLM-5.3-Flash https://openrouter.ai/z-ai/glm-5.3-flash https://docs.z.ai/guides/vlm/glm-5.3-flash https://ollama.com/library/glm-5.3-flash Note: GLM 5.3 has 753B params Apple’s Local AI Strategy - Run routine, repetitive, privacy sensitive work locally; route difficult or high-stakes tasks to cloud Mac mini ($900+), Mac Studio ($2,500+),  M5 Ultra ($5,500 for 512GB memory model) https://www.apple.com/mac-mini/ https://www.apple.com/mac-studio/ https://huggingface.co/zai-org/GLM-5.3-Flash https://www.cnbc.com/2026/08/25/apple-announces-new-mac-mini-and-mac-studio-models-with-ai-upgrades.html"
+    },
+    {
+      "index": 8,
+      "title": "AI Updates Tencent’s Hy4 Preview Open-weight (Apache 2.0)",
+      "text": "AI Updates Tencent’s Hy4 Preview Open-weight (Apache 2.0) - software, docs, data analysis, games, research workflows . MoE, 770B total params , 49B active; 1M-token context, 64K output, FP8 weights Available via WorkBuddy, CodeBuddy, Tencent Cloud TokenHub, or OpenRouter AngelSlim’s mixed-precision GGUF shrinks the BF16 download from about 1.5 TB to roughly 200–214 GB by allocating lower precision selectively , rather than quantizing every layer equally Reported benchmark losses appear modest It requires patched, self-built llama.cpp/CUDA support, not ordinary local-model apps https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/ https://huggingface.co/tencent/Hy4-preview https://github.com/Tencent-Hunyuan/Hy4-preview https://hy.tencent.ai/research/hy4-preview https://github.com/tencent/AngelSlim OpenClaw 2.0 - Major Rebuild Open-source AI-agent platform release - 16K+ PRs from 933 contributors Simpler setup, new browser workspace combines sessions, tasks, files, terminal access, and live agent progress rather than treating the web UI as an add-on. Shared Cloud Sessions let trusted collaborators join the same live agent context, though they are not a hostile-user security boundary Persistent sessions, searchable history, cross-device execution, memory, automations, dashboards, and experimental agent swarms move it beyond one-off chat Security additions include masked credential prompts, destination restrictions for protected secrets, and clearer plugin review information https://openclaw.ai/blog/openclaw-2-accidentally https://github.com/openclaw/openclaw https://docs.openclaw.ai/releases/2026.8.1"
+    },
+    {
+      "index": 9,
+      "title": "AI Updates Perplexity Search API Developer-facing web-retrieval layer",
+      "text": "AI Updates Perplexity Search API Developer-facing web-retrieval layer behind its answer engine Took the top three positions in Artificial Analysis’ independent Search Index - https://artificialanalysis.ai/agents/search-api Perplexity’s medium, high, and low context configurations scored 80, 79, and 77; the nearest competing configurations from Parallel and Brave scored 75 https://artificialanalysis.ai/agents/search-api https://www.perplexity.ai/hub/blog/introducing-the-perplexity-search-api Prompting Claude 5 - Seven Rules Give the model the entire job, not step-by-step instructions. Use an “interview me” process to clarify complex tasks Explain why the task matters, not only what to do. Define what “done” looks like, including scope and output style. Replace hard rules with reasoned guardrails. Avoid unnecessary double-checking (“think step by step”), forced reasoning, and aggressive emphasis prompts. Fix the model’s voice with concise standing instructions: focused, brief, plain language, and low jargon. https://anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    },
+    {
+      "index": 10,
+      "title": "Meta Muse Models Meta Muse Models: Muse Code",
+      "text": "Meta Muse Models Meta Muse Models: Muse Code terminal and CI coding agent + SDK Muse Image - generates images grounded by search and reasons at $0.01 per image Muse Voice Transcribe - real-time audio perception with streaming recognition, diarization for more than 20 speakers, multilingual code-switching, and contextual biasing Muse Spark 1.3 Launch coding, tool use, and longer-running agent workflows through Muse Code and the Meta Model API Retaining context, coordinating multiple workflows in one thread, and requiring fewer unnecessary actions Training on more long-horizon coding tasks, with roughly 20% fewer tool calls and 25% fewer tokens than version 1.2. https://research.meta.ai/blog/introducing-muse-spark-1-3 https://developer.meta.com/ai/models/muse-spark/"
+    },
+    {
+      "index": 11,
+      "title": "Weekly videos every Friday 7.4K subscribers, 323 videos",
+      "text": "Weekly videos every Friday 7.4K subscribers, 323 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates NanoClaw: Secure Agent Automation NanoClaw is",
+      "text": "AI Updates NanoClaw: Secure Agent Automation NanoClaw is a lightweight, open-source alternative to OpenClaw built around a security-first model. Each active agent runs in an isolated Docker container, limiting access to only explicitly mounted files and reducing host-level risk. Its smaller, auditable codebase makes it easier to customize agents, skills, schedules, model providers, credentials, and workflows. It can connect with messaging platforms, but a custom local GUI can replace Discord-centric control with scheduled bots and readable run outputs. Practical uses include recurring Hacker News research, video-topic discovery, thumbnail generation, and other repeatable personal workflows. Docker Sandboxes can add MicroVM-based isolation for stronger separation from the host OS. https://nanoclaw.dev https://github.com/nanocoai/nanoclaw https://www.docker.com/blog/nanoclaw-docker-sandboxes-agent-security/ https://www.techtarget.com/it-infrastructure/news/366640195/NanoClaw-AI-agents-find-a-home-in-Docker-Sandboxes https://www.youtube.com/watch?v=n55ZiDl2PtE Websites Will Block AI Agents by Default on September 15 Cloudflare’s July 1, 2026 change means Agent and Training crawlers get blocked by default on ad-monetized pages of new domains https://medium.com/@aerator_rolls.27/websites-will-block-ai-agents-by-default-on-september-15-is-your-agent-ready-174b6901fd5c Claude Memory “Dreams” Feature for Managed Agents Runs in Anthropic-managed cloud sandbox In Research Preview Consolidates an agent’s memory and past session transcripts, merging duplicates and resolving stale or conflicting information For Claude Code, combine CLAUDE.md guidance, Auto Memory, and scoped rules; periodically review memory so repeated corrections become durable project knowledge https://platform.claude.com/docs/en/managed-agents/dreams https://code.claude.com/docs/en/memory https://www.youtube.com/watch?v=4hIvG849w4Y Dreams is not a Claude Code slash command, it can not be enabled in CLAUDE.md . It is an API feature for Managed Agents"
+    },
+    {
+      "index": 13,
+      "title": "AI Updates Make Qwen 3.8 27B Faster (x8)",
+      "text": "AI Updates Make Qwen 3.8 27B Faster (x8) for Long Context https://www.youtube.com/watch?v=SvnL5_RgtBs Tested Qwen 3.8 27B IQ4_NL near a 98,304-token window MTP improved short prompts but collapsed at 77,418 tokens: 1.54 tokens/sec versus 2.32 without MTP. Compressed KV caches modestly improved MTP to 1.95 tokens/sec, with potential memory and quality tradeoffs. A hybrid placement bundle ( CPU feed-forward tensors, GPU attention/recurrent tensors ) raised speed to 13.19 tokens/sec, an 8.55× MTP improvement. Completion time dropped from 165 to 19 seconds ; ngram-mod produced only workload-dependent marginal gains. llama-server \\ --model Qwen3.8-27B-IQ4_NL.gguf \\ --n-gpu-layers all \\ --override-tensor 'blk\\.(0|1|...|40)\\.ffn_.*=CPU' Claude Code: 19 Updated Tips Personas and “take a breath” preambles may add little; prioritize where Claude should look, a clear definition of done, and a self-check. State desired output positively rather than piling on prohibitions . Limit routine connector permissions; load tools on demand to reduce exposure and context cost. Keep CLAUDE.md short and task-focused ; restart or compact after changing it. Use subagents for parallel investigation, but restate critical requirements because they lack main-thread context. Treat large context windows as imperfect retrieval, not reliable memory; compact deliberately . Verification is the highest-leverage habit: r un tests, checks, or constrained adversarial reviews . Avoid mid-session model/fast-mode switches that can invalidate caches and increase costs. https://www.youtube.com/watch?v=icM0ewXGvAw https://support.claude.com/en/articles/14554000-claude-code-power-user-tips"
+    },
+    {
+      "index": 14,
+      "title": "AI Updates Baalda - Team AI Second Brain",
+      "text": "AI Updates Baalda - Team AI Second Brain Open-source app - team-shared Obsidian-style Wiki, Markdown Files, links; real-time sync, per-folder/file/member permissions, daily backups, and file-level version history MCP/connector support (so that AI can update knowledge) Users can create a vault, open an existing Markdown vault, or join a shared team vault https://www.youtube.com/watch?v=82hCt3xH9Gc https://baalda.com https://github.com/naveedharri/baalda MiniMax H3 Max - Fast AI Video Video generation gets faster than real time A post-trained variant of MiniMax’s open-weight H3 video model, optimized for speed, stronger prompt adherence, and aesthetics It leads Artificial Analysis’ image-to-video-with-audio leaderboard at roughly 1,201 Elo across 2,177 samples; it ranks 3rd for text-to-video with audio A 5-sec 768p clip renders in under 3-sec, with synchronized audio H3 Max supports text-to-video and image-to-video, including optional start/end frames, but is capped at 768p. Use 768p, 5–10-second clips, “balanced” prompt expansion, and explicitly describe sound, action, camera, lighting, and mood. Base H3 offers 2K and broader multimodal/reference workflows; Max prioritizes iteration speed “fal” (pronounced like “fall”) is an AI-infrastructure company in San Francisco, CA https://fal.ai/minimax-h3-max https://fal.ai/minimax-h3 https://github.com/MiniMax-AI/MiniMax-H3 https://www.minimax.io/blog/minimax-h3 https://x.com/fal/status/2092710676431020376"
+    },
+    {
+      "index": 15,
+      "title": "AI Updates Tavus’s Sparrow-2 Voice Understanding A streaming,",
+      "text": "AI Updates Tavus’s Sparrow-2 Voice Understanding A streaming, audio-native conversational-understanding model It replaces simple silence-based endpoint detection with continuous interpretation of the full conversational scene The model evaluates speech meaning, tone, speaker identity, interruptions, backchannels, background speech, noise, etc It updates its conversational state every 10 ms, helping agents decide whether to listen, wait, speak, or keep speaking Tavus reports a 2.1% failure rate across 575 real conversational events and 97% correct patience during meaningful thinking pauses. Available through Tavus PALs, APIs, and platform integrations https://www.tavus.io https://github.com/tavus-engineering https://www.tavus.io/blog/sparrow-2 https://x.com/tavus/status/2093030526785589582 https://sparrow2.tavuslabs.org https://www.youtube.com/watch?v=ZCI4kvWPb3E"
+    },
+    {
+      "index": 16,
+      "title": "AI Updates Google Gemini Omni 1.1 Flash Multimodal",
+      "text": "AI Updates Google Gemini Omni 1.1 Flash Multimodal generative-video model family Understands text, images, audio, and video together Gemini Omni 1.1 Flash released Aug 27 Use prompts to generate and edit videos Control first- and last-frames, reference inputs, Scene continuation; Lower-cost 360p drafts Scene extension can use up to 10 seconds of prior footage and add 10-second segments - up to 40 sec total Output defaults to 720p; 1080p and 4K are available Access via Google AI Studio, Gemini Enterprise Agent Platform, Google Flow, and selected Gemini subscriptions. https://gemini.google/overview/video-generation/ https://ai.google.dev/gemini-api/docs/omni https://github.com/topics/gemini-omni https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/"
+    },
+    {
+      "index": 17,
+      "title": "Model Hardware Standard (MHS) Anthropic Model Hardware Standard",
+      "text": "Model Hardware Standard (MHS) Anthropic Model Hardware Standard (MHS) A restricted research preview of a specification for AI agents to discover, understand, and operate programmable physical equipment. Owners describe their hardware in natural language and MHS turns that into a reference file the agent reads Example: Laser stabilization on quantum computers at QuEra went from 58% to 99.3%, and an imaging experiment at HHMI Janelia compressed from weeks to a single day Anthropic MHS was introduced by Anthropic and HHMI Janelia Research Campus in Ashburn, Loudoun County, Virginia Custom device integrations commonly require specialist work and take weeks or months . MHS, built to work through interfaces including MCP, lets owners express a device’s capabilities, limits, and controls in natural language and generate a reference file agents can use. The integration time decreases from months to days. At QuEra, an agent restored laser lock for quantum systems 99.3% of the time, versus 58% previously. At Janelia, an imaging workflow fell from weeks to one day—evidence that standardized agent-to-hardware control could accelerate scientific experimentation while safety practices mature. https://www.anthropic.com/news/model-hardware-standard-research-preview https://www.reuters.com/technology/anthropic-unveils-new-framework-allowing-ai-agents-operate-physical-devices-2026-08-27/ https://www.hhmi.org/news/how-one-postdocs-problem-solving-changing-way-scientists-work Arco Bast (Janelia postdoc) has  designed a software approach that lets a microscope’s components coordinate at machine speed across different programming languages, reducing the integration work for his experiment from months to days . Agent MHS"
+    },
+    {
+      "index": 18,
+      "title": "Anthropic automated alignment research Anthropic automated alignment research",
+      "text": "Anthropic automated alignment research Anthropic automated alignment research https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures Anthropic showed that one AI can help make another AI much safer. Claude Sonnet 5 worked like a robot safety teacher for an earlier Claude Opus 4.8 model, running experiments for 60 hours and finding safety improvements using only about 2,000 training examples. It improved safety across 10 different problem types, such as deception and cheating for rewards Its best methods closed as much as 96% of the measured safety gap in some tests It was estimated to be about x15,000 times more data-efficient than the comparable human-led alignment process. On the hardest safety challenge, it performed better than 28 human safety researchers It did this without reducing the AI’s general capabilities on the benchmarks So ... AI may make future AI systems safer, faster, and at far lower training cost"
+    },
+    {
+      "index": 19,
+      "title": "Misc AI Updates OpenAI will Cursor off on",
+      "text": "Misc AI Updates OpenAI will Cursor off on Nov 12 (SpaceX bought Anysphere for $60 Bln) Reason - OpenAI’s bad experience with Elon Musk’s companies violating contracts Runway previews Solaris, an interface world model Solaris renders websites and apps as live video, drawing every frame in real time as the user clicks and drags, with no code running underneath World Labs releases Atlas world model pretrained from scratch to operate on text, images, video, and 3D, combining them into a shared spatial context. It generates up to a full minute of 1440p video Google releases TimesFM-3 for multivariate time-series forecasting A 330M params model pretrained on more than a trillion time points. Sales forecast can finally see weather and promotions. Google Gemini 3.5 Transcribe speech-to-text model - can call other Gemini models mid-transcription to generate images or analyze files Google cuts Gemini video costs by two thirds Nvidia agrees to buy Hugging Face for about $13 billion"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates Rewriting Python (CPython) into Rust Rust",
+      "text": "AI Updates Rewriting Python (CPython) into Rust Rust modules build only when a Rust toolchain is available, with base64 suggested as an early proof of concept. A new cpython-sys crate would provide generated FFI bindings to CPython’s C APIs. Supporters cite memory safety and safer concurrency; critics cite portability, bootstrapping, contributor burden, and unsafe C/Rust boundaries. This is not RustPython: CPython remains the C-based reference interpreter. No final adoption decision has been made yet https://discuss.python.org/t/pre-pep-rust-for-cpython/104906 https://lwn.net/Articles/1046933/ https://us.pycon.org/2026/schedule/presentation/1/ LMCache - KV cache by Tensormesh Recomputing unchanged agent context can dominate latency and input cost. vLLM and SGLang already offer prefix caching, which is best when the KV working set fits comfortably in GPU HBM. LMCache externalizes KV cache across GPU memory, RAM, local SSD, and remote storage, enabling reuse across workers, restarts, and replicas. Reduced time to first token by 79%, raised input throughput 264% for 100K token context. But reduces throughput on short context. Tensormesh raised a $20M extension Note - preserve stable prompt prefixes; rewriting or truncating the front destroys cache reuse. https://lmcache.ai https://github.com/LMCache/LMCache"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates Apodex 1.1 - Agent Teams Apodex",
+      "text": "AI Updates Apodex 1.1 - Agent Teams Apodex 1.1 targets long, tool-driven work: research, files, code, data analysis, and deliverables rather than one-shot chat responses. Its asynchronous Agent Team decomposes work, delegates parallel sub-tasks, integrates results as they arrive, and replans when needed. FrontierAgent is the open-source local runtime, with ReAct for a single stateful agent and Agent Team for coordinated parallel work. The 35B-parameter open-weight Mini model is intended for local deployment and tool use. Reported Agent Team scores include 78.8 on GDPval and 56.1 on Humanity’s Last Exam; treat vendor-reported benchmarks as useful but independently unverified. A key emphasis is traceable, checkable outputs—review sources, files, and execution results before relying on consequential claims https://apodex.ai https://github.com/ApodexAI/FrontierAgent https://arxiv.org/abs/2608.23283 https://huggingface.co/apodex/Apodex-1.1-mini SSI’s Reported Research Leap SSI and NVIDIA announced a long-term partnership after NVIDIA received rare access to SSI’s private research Ilya Sutskever said SSI now has work “worthy of scaling up”; the deal is intended to increase SSI’s compute roughly tenfold using NVIDIA’s Vera Rubin platform What SSI actually built remains undisclosed Rumors that its first model substantially surpasses “Fable” are unverified and should not be treated as evidence Ilya’s stated objective is a broadly capable system that can learn new jobs rapidly, like an eager, highly intelligent teenager rather than a fixed pretrained model A plausible research direction is continual/test-time learning: adapting while reading or working, without overwriting foundational capabilities https://ssi.inc https://investor.nvidia.com/news/press-release-details/2026/Ilya-Sutskevers-Safe-Superintelligence-Inc--and-NVIDIA-Announce-Long-Term-Strategic-Partnership/default.aspx https://github.com/test-time-training/e2e https://www.dwarkesh.com/p/ilya-sutskever-2"
+    },
+    {
+      "index": 22,
+      "title": "AI Updates Archify Skill - Verifiable Diagrams Archify",
+      "text": "AI Updates Archify Skill - Verifiable Diagrams Archify is an agent skill that converts a repository or system description into interactive technical diagrams It supports architecture, workflow, sequence, data-flow, lifecycle, and architecture-delta views - useful for design reviews, documentation, and explaining systems. The workflow generates typed JSON intermediate representations, validates schema and layout, then emits a self-contained HTML artifact with PNG, SVG, WebM, and share-card exports. Its viewer supports node search, route and dependency tracing, role comparisons, guided stories, themes, and finite accessibility-aware motion. It integrates with Cursor, Claude Code, Codex CLI, OpenCode, Raven, and a community DeepSeek Harness plugin . The project is MIT-licensed https://tt-a1i.github.io/archify/ https://github.com/tt-a1i/archify"
+    },
+    {
+      "index": 23,
+      "title": "AI Updates AI Swarm Benchmark Incident (OpenAI/METR evaluation)",
+      "text": "AI Updates AI Swarm Benchmark Incident (OpenAI/METR evaluation) METR = Model Evaluation & Threat Research Agents used shared infrastructure to communicate, exchange task information, and coordinate attempts to exploit benchmark conditions. Roughly 1,200 agents and 70,000 messages, with “Phase One” and “Phase One Big” portrayed as organizing collective research. Claimed activities included probing Artifactory caching, attempting tool/log manipulation, creating authentication-like conventions, and recruiting agents for risky experiments. The narrator stresses that these claims concern sandboxed evaluation behavior, not an autonomous real-world AI escape. Interpretations about “religion,” agency, intent, and a Hugging Face attack are speculative and should be checked against the original reports. https://www.metr.org https://www.youtube.com/watch?v=n2x4ijx5xkk"
+    },
+    {
+      "index": 24,
+      "title": "Claude Obsidian v2 Claude Obsidian v2 A local-first",
+      "text": "Claude Obsidian v2 Claude Obsidian v2 A local-first knowledge system for Claude Code and compatible agent-skill hosts, using an Obsidian vault of plain Markdown files you control. It ingests sources into linked, source-cited notes, then enables evidence-grounded querying, retrieval, maintenance, and visual mapping rather than repeated context recaps. Version 2 rebuilt all 15 skills around reliability and provenance: recoverable transactions, crash recovery, source and claim ledgers, deterministic checks, and explicit Git checkpoints. The practical loop is: capture a source in the inbox, ingest it into structured linked pages, then query the growing vault for cited patterns, gaps, contradictions, and decisions. Treat “persistent memory” carefully: it is a maintained local knowledge base, not automatic perfect recall; the current README also states PDF semantic extraction needs an external configured runner. https://github.com/AgriciDaniel/claude-obsidian https://agricidaniel.com/blog/claude-obsidian-ai-second-brain https://www.youtube.com/watch?v=CREj4iuNFAI https://www.youtube.com/watch?v=Gom-GwlZIYk https://www.youtube.com/watch?v=xGkHfD95Upg"
+    },
+    {
+      "index": 25,
+      "title": "AI News Siraj Raval switched to local models",
+      "text": "AI News Siraj Raval switched to local models (mostly) Monthly bill went down fro m$231 to $4 He is using laptop with 64GB RAM and descent GPU He uses Ollama to run DeepSeek V4 Flash 0731  - a 284B-params MoE with 13B active params https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731 Local replacements cover chat, coding assistance, image generation, transcription, TTS, and private research workflows Web research remains the main limitation: sites may block automated server traffic, so the workflow uses DataImpulse residential proxies, advertised as pay-as-you-go with non-expiring traffic - https://dataimpulse.com/premium-residential-proxies/ The honest conclusion: local wins for most routine work and privacy, while frontier cloud models still lead on the hardest reasoning and polished outputs He probably used heavily quantized version, because Ollama only offers cloud API version - ollama run deepseek-v4-flash:0731-cloud https://ollama.com https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731 https://build.nvidia.com/deepseek-ai/deepseek-v4-flash-0731 https://dataimpulse.com Claude Code /design research-preview skill editable-artboard workflow in CLI and Claude Code Desktop Prompt `/design` with a UI, mockup, landing page, poster, or social asset; it can generate multiple visual directions as an artifact Select an artboard, edit elements directly, and request a Tweaks panel for adjustable colors, typography, layout, and other design parameters The strongest workflow: collect visual references, attach screenshots with a concrete brief, invoke complementary design skills, then iterate on one chosen direction Unlike a separate design handoff, the selected visual can be implemented in the existing codebase without manually exporting or transferring assets Available for Pro, Max, Team, and Enterprise plans https://support.claude.com/en/articles/14604416-get-started-with-claude-design https://code.claude.com/docs/en/skills https://claude.ai/design https://github.com/anthropics/claude-code https://www.anthropic.com/news/claude-design-anthropic-labs"
+    },
+    {
+      "index": 26,
+      "title": "Architecture Design for RAG ADD Architecture Design Doc",
+      "text": "Architecture Design for RAG ADD Architecture Design Doc PRD Project Requirements Doc Step-by-Step Implementation Doc Architecture Design Principles (example for RAG): Simplicity - above all, the fewest moving parts that still deliver full functionality Modularity - separate, don't allow \"clumping of dumplings\" - every capability behind a contract (API, plugin, port); loose coupling, encapsulation, bounded contexts; any part can be changed, replaced, or tested separately Modularity of code - subdirectories, files ≤ 800 lines, functions ≤ 50, docs at every level, a README per directory. Self-healing - timeout and retry, snapshots/restore, degraded indexes rebuild; humans are paged as needed One system of record - PostgreSQL holds all transactional truth Avoid distributed architectures - Use single server instead of cluster. Use unix drive instead of of S3. Parse once - everything downstream is disposable and easy to regenerate Hybrid 3-way search - semantic (vectors) + keyword (BM25) + structure (document graph / wiki links) Security and provenance - ACLs filter in SQL before ranking; every claim carries a verified citation; every answer leaves an immutable audit trail Test pyramid - unit, module, integration, AI architecture-conformance, each PR verified by AI; a golden-suite evaluation gate, reconciliation counts, and hallucination sampling gate every day Monkey Business - every escalation to a human becomes a \"monkey\" - a task with an owner, status, and history; Users can see and manage their own monkeys and pass or escalate them; managers see everything; no failure is orphaned AI agent - available to all users and maintainers.  Talk to it to quickly  build mini-tools and workflows, schedule and run jobs, do analysis, create reports and docs Guardrails assure that generated code and processes reach data only through the documented, audited APIs (ACLs apply automatically) and passes the same CI, size, and conformance gates as human-written code Don't chase the latest versions of software packages and dependencies - use only \"aged\" (30 days)"
+    },
+    {
+      "index": 27,
+      "title": "AI News AI Use Cases https://www.youtube.com/watch?v=vhn9hfcerEk Petco Love",
+      "text": "AI News AI Use Cases https://www.youtube.com/watch?v=vhn9hfcerEk Petco Love Lost’s photo-matching system has reunited 250,000 missing pets by comparing uploaded images with shelter and community reports https://petcolove.org/newsroom/news-story/ai-for-good-petco-love-lost-reunites-250-000-pets-like-senior-dog-missing-for-two-months/ An implanted brain-computer interface enabled ALS patient Casey Harrell to communicate independently at about 56 words per minute, exceeding 99% word accuracy in controlled testing https://health.ucdavis.edu/news/headlines/brain-computer-interface-enables-independent-accurate-communication-for-man-living-with-als/2026/06 Finland’s commercial “sand battery” stores renewable heat in 2,000 tonnes of crushed soapstone, reducing Pornainen’s district-heating emissions by nearly 70% https://polarnightenergy.com/news/worlds-largest-sand-battery-now-in-operation/ - The stories emphasize that AI, sensors, robotics, and affordable maker tools can support health, accessibility, animal welfare, safety, and clean energy https://health.ucdavis.edu https://polarnightenergy.com Googlebook and Aluminium OS Googlebook - new premium laptop category built around Gemini Intelligence and tightly integrated with Android phones; expected this Fall Aluminium OS - internal or leaked name for its Android-based desktop platform Magic Pointer - surfaces Gemini’s contextual actions Create Your Widget - using Google services Support Android apps and can work with paired phone https://blog.google/products-and-platforms/platforms/android/meet-googlebook/ https://www.android.com/new-features-on-android/io-2026/"
+    },
+    {
+      "index": 28,
+      "title": "Most-cited paper of 21st Century “Deep Residual Learning",
+      "text": "Most-cited paper of 21st Century “Deep Residual Learning for Image Recognition” (ResNet) is widely reported as the most-cited paper published in the 21st century under Nature’s 2025 cross-database analysis A residual path is a shortcut road inside an AI model. It lets the information travel around a few layers instead of being forced through every single one. ResNet reached 152 layers , won major 2015 ImageNet tasks, and established skip connections as a core pattern later used throughout transformer-based models https://arxiv.org/abs/1512.03385 https://arxiv.org/abs/1603.05027 https://www.youtube.com/watch?v=QgH9sr7G13Q"
+    },
+    {
+      "index": 29,
+      "title": "AI News How your brand appears in AI",
+      "text": "AI News How your brand appears in AI answers Analyzed 107M AI answers IT - mostly shows in review directories, press, and reference sites Consumer products - mostly in marketplace pages and reviews Communications services - mostly in third-party editorial and reference coverage https://trendos.com https://www.searchenginejournal.com/ai-search-citation-sources-trendos-spa/586289/ https://www.tryprofound.com/blog/ai-platform-citation-patterns https://tinuiti.com/blog/search/ai-citations/ MINIX 3 in Intel Platform Embedded in Intel Management Engine firmware Andrew S. Tanenbaum created MINIX in 1987 as a compact Unix-like teaching system after Unix source licensing became unsuitable for classroom study. Size - 4K - 7.5K lines of code. The privileged kernel-side code is commonly 6K-12K Andy lives in New York City Linus Torvalds used MINIX while developing Linux; Linux later adopted the GPL license, whereas MINIX became BSD-licensed in 2000 In 2015 Intel incorporated MINIX 3 into its firmware on Skylake-era systems. It runs independently on a dedicated embedded processor and provides low-level services for platform startup, security and trust checks, firmware management, and power-state control . BSD licensing allowed Intel to keep its changes proprietary . Tanenbaum publicly said he would have appreciated being told, while defending the permissive license. The broader lesson: licenses shape whether downstream modifications must be shared—not merely code quality or architecture. https://www.minix3.org https://github.com/Stichting-MINIX-Research-Foundation/minix https://www.cs.vu.nl/~ast/intel/ https://cacm.acm.org/research/lessons-learned-from-30-years-of-minix/"
+    },
+    {
+      "index": 30,
+      "title": "Omarchy Quattro - Agentic Linux Omarchy Quattro -",
+      "text": "Omarchy Quattro - Agentic Linux Omarchy Quattro - Agentic Linux DHH’s opinionated, Arch-based Linux distribution, built around the Hyprland tiling desktop and developer-friendly defaults Version 4.0, “Quattro,” released August 14 replaces many separate desktop utilities with one Quickshell-based process for the bar, launcher, notifications, menus, lock screen, and controls. Its plugin architecture makes the shell scriptable and easier to extend with custom widgets and themes Omarchy treats AI coding agents as first-class system tools through lazy-loaded launchers, with local-model options available for privacy-conscious users The release adds dual booting, factory reset, a smaller under-6-GB ISO, and faster installs; reliable testing on spare hardware remains wise The key idea is agent-assisted personalization and administration - not magic autonomous computing Works on 64-bit Intel/AMD PCs, Intel- and Apple-silicon Macs https://github.com/maralcbr/omarchy-mx-mac https://omarchy.org https://github.com/omacom/omarchy https://www.phoronix.com/news/Omarchy-4.0-Released https://www.heise.de/en/news/Omarchy-Linux-Desktop-Overhaul-and-10-Million-for-Foundation-11432304.html https://www.youtube.com/watch?v=vDOUoiZ38ZE DHH is David Heinemeier Hansson a Danish programmer, entrepreneur, author, and racing driver He is best known as the creator of Ruby on Rails He is a co-owner and CTO of 37signals, the company behind Basecamp and HEY Progress: Chat in Browser Chat in App Chat in OS / Device"
+    },
+    {
+      "index": 31,
+      "title": "Avoid Latest Updates Latest packages may have dependencies",
+      "text": "Avoid Latest Updates Latest packages may have dependencies which may contain viruses. Here is how to avoid them: Python: In pyproject.toml add: exclude-newer = \"30 days\" prerelease = \"disallow\" Then: uv lock --upgrade uv sync Or: uv pip install --upgrade --exclude-newer \"30 days\" -r requirements.txt uv pip install --reinstall --exclude-newer \"30 days\" -r requirements.txt Rust: Cargo has no built-in “only use crates older than 30 days” setting So: Commit Cargo.lock to freeze the exact dependency graph Use cargo build -- locked , cargo test -- locked , and cargo check -- locked to prevent unplanned lockfile changes Use cargo build -- frozen and cargo test -- frozen for locked, offline builds Update one reviewed dependency at a time: cargo update -p crate_name --precise X.Y.Z. Check the crate’s crates.io release date yourself and choose a version at least one month old. Pin Rust itself with rust-toolchain.toml and an exact version such as 1.82.0. Run cargo audit and cargo deny check before committing changes. Linux AI Security Burden AI and fuzzing uncover up to 2,000 CVEs (Common Vulnerabilities and Exposures) in 41 Mln lines of Linux kernel code. Real defects are mixed with low-value, questionable, or hallucinated reports - overwhelming human review Maintainers are restricting unverified AI patches, removing obsolete code, and using frontier models to triage findings https://www.phoronix.com/news/Linux-Kernel-CVEs-Nearly-2000 https://www.tomshardware.com/software/linux/linux-kernel-nears-2-000-cves-per-release-as-ai-bug-hunters-scour-40-million-lines-of-code-maintainers-say-they-are-completely-overwhelmed https://kernel-recipes.org/en/2026/"
+    },
+    {
+      "index": 32,
+      "title": "AI Updates AI ECG Heart Screening Imperial College",
+      "text": "AI Updates AI ECG Heart Screening Imperial College London researchers developed an AI system that analyzes routine ECG recordings in under two seconds It flags signals of heart failure and heart-valve disease In a U.S. study of 67,000 patients, it identified up to 81% of heart-failure cases and 90% of valve-disease cases Trained on 1.6 Mln Brazilian ECGs plus several Million U.S. recordings, the model could help prioritize patients for echocardiograms, which remain necessary to confirm a diagnosis. https://thenextweb.com/news/imperial-ai-ecg-heart-disease-detection https://www.escardio.org/news/news-room/congress-news/can-deep-learning-detect-lv-diastolic-dysfunction-from-ecgs/ Celeris Magnus Celeris is an AI research lab in San Francisco Celebris introduced Magnus - agent-oriented model for multi-step workflows involving reasoning, tool calls, tool-result review, and follow-up actions Good and fast, for business automation (banking) Diffusion-based generation, 131K-token context, 16K-token output, adjustable reasoning effort Examples of usage: Lead qualification, CRM updates, personalized outreach, converting call transcripts into content pipelines https://celeris.ai/celeris-1-magnus"
+    },
+    {
+      "index": 33,
+      "title": "AI Updates Wonderful AI - Enterprise AI Deployment",
+      "text": "AI Updates Wonderful AI - Enterprise AI Deployment Wonderful raised $550 Mln at a $5 Bln valuation It sells an enterprise AI operating system plus locally embedded, forward-deployed engineering and strategy teams Its target customers are large, regulated organizations that need agents embedded in operational workflows, including banking, telecom, healthcare, utilities, insurance, and retail The platform supports voice, chat, email, enterprise knowledge retrieval, workflow/model orchestration, and updates to internal systems Deployment options include multi-tenant SaaS, dedicated single tenant, customer-controlled cloud, and fully air-gapped on-premises operation Revenue likely blends recurring platform, consumption, professional-services, infrastructure, and premium support fees; specific pricing is unconfirmed Customer examples include telecom, 2.5-million-client collections, IT automation, and end-to-end energy billing. Main HQ is in Amsterdam, Netherlands. Also in Tel Aviv, Israel https://www.wonderful.ai https://www.wonderful.ai/deployment"
+    },
+    {
+      "index": 34,
+      "title": "AI Updates AI’s Three Career Doors Alex Karp",
+      "text": "AI Updates AI’s Three Career Doors Alex Karp (CEO of Palantir) argues durable careers cluster around .. skilled trades .. unconventional, non-playbook thinking Trade work remains hard to automate because it requires physical presence, situational judgment, and repair in unpredictable environments AI data-center growth may increase demand for electricians, HVAC technicians, plumbers, mechanics, and other infrastructure specialists The broader lesson is not that desk workers are doomed: routine execution is vulnerable, while taste, judgment, strategy, and accountable decisions grow more valuable. A practical response is to automate one repetitive weekly task, then reinvest the saved time in original analysis, relationship-building, or directing AI systems. Treat AI as leverage: build the machine around your expertise rather than competing with it at standardized work. https://www.palantir.com https://github.com/palantir https://www.youtube.com/watch?v=d_Bh8VWrvag There Is No Job Apocalypse Peter H. Diamandis argues that AI will transform work rather than cause an economy-wide job collapse through 2030. The World Economic Forum projects 170 million jobs created and 92 million displaced globally, a net gain of 78 million; its analysis covers employers across 55 economies The central problem is uneven disruption: routine, fully automatable task bundles face real pressure The proposed solution is rapid AI fluency and retraining: use AI for drafting, coding, research, analysis, and planning while retaining human judgment, trust-building, negotiation, and accountability Its key achievement/importance is reframing the risk as a skills and adaptation gap, while lower operating costs may expand entrepreneurship and AI-related roles https://www.diamandis.com/blog/ https://www.weforum.org/publications/the-future-of-jobs-report-2025/"
+    },
+    {
+      "index": 35,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 129K in 2026 (as of Sept 3, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 185,347 people laid off (750 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 36,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 37,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index GPT-6",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index GPT-6",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates GPT-6 Astra - Sept 3 OpenAI",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "AI Updates GPT-6 Astra - Sept 3 OpenAI",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Gemini 3.8 Flash & 3.8 Flash",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "AI Updates Gemini 3.8 Flash & 3.8 Flash",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Anthropic sued the Pentagon and won",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "AI Updates Anthropic sued the Pentagon and won",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai ,",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "AI Updates z.ai GLM 5.3 Flash https://docs.z.ai ,",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Tencent’s Hy4 Preview Open-weight (Apache 2.0)",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "AI Updates Tencent’s Hy4 Preview Open-weight (Apache 2.0)",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Perplexity Search API Developer-facing web-retrieval layer",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "AI Updates Perplexity Search API Developer-facing web-retrieval layer",
+      "source": "slide"
+    },
+    {
+      "claim": "Meta Muse Models Meta Muse Models: Muse Code",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Meta Muse Models Meta Muse Models: Muse Code",
+      "source": "slide"
+    },
+    {
+      "claim": "Weekly videos every Friday 7.4K subscribers, 323 videos",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Weekly videos every Friday 7.4K subscribers, 323 videos",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates NanoClaw: Secure Agent Automation NanoClaw is",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "AI Updates NanoClaw: Secure Agent Automation NanoClaw is",
+      "source": "slide"
+    }
+  ]
+}
