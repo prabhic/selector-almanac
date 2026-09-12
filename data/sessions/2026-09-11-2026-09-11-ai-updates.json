@@ -1,0 +1,275 @@
+{
+  "id": "2026-09-11-2026-09-11-ai-updates",
+  "date": "2026-09-11",
+  "title": "AI-Updates",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "agents",
+    "infra",
+    "jobs",
+    "safety",
+    "enterprise",
+    "fine-tuning"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2026/2026-09-11-AI-Updates.pptx",
+    "filename": "2026-09-11-AI-Updates.pptx",
+    "title": "AI-Updates",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-09-11-AI-Updates.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-09-11-AI-Updates.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index OpenAI",
+      "text": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index OpenAI GPT-6 Astra Nvidia buys Hugging Face for $13 Bln DeepSeek V4.1 Flash Release (Sept 10) Apple’s Event Sept 9 AI Agents as Organizations Flywheel with Trainer/Student Models OpenAI ChatGPT Images 2.5 OpenAI solves Navier–Stokes Problem Spark X2.5-4B - Tiny, Long-Context AI AI Safety Problem - auto-improvement Embodied AI AI Updates - Sept 11, 2026 Jobs & Layoffs ChatGPT was released publicly by OpenAI on November 30, 2022 Cursor - Your Cloud Agents Trump Restricts Chinese Infra Parts AT&T Uses Cheap China Models SQL for Agents, Safely Agent security keep failing Money keeps moving, fast Open source use AI to close PRs ChatGPT Work - Cloud Browser GEN-1.5: Physical Prompting Quazar 438B - from Spain Aram Studio v4 - Rust Transformer Google - Reader Controls AI Search K2 Horizon - Arabic Models Everything Claude Code Claude Solved Crypto from 1653 GinAR Forecasting For Trading Harness-of-Harness (HoH) for Coding Importance of Harness GPT-6 Astra: Cost vs Physics Claude Commerce Agents - open-sourced The transcription price drops Senator Bernie Sanders's Bill Crusoe raises $3 Bln at $30 Bln Valuation"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for Sept 02 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.3 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ claude-opus-4-7-high 1552 ■ claude-opus-4-6-high 1552 ■ claude-fable-5 1551 ■ claude-opus-4-7 1547 ■ claude-opus-4-6 1546 ■ kimi-k3-max 1542 ■ gemini-3.8-flash-high 1537 ■ glm-5.3-flash 1535 ■ claude-opus-4-8-high 1534 ■ muse-spark-1.2 (xHigh) 1534 ■ claude-opus-5-high 1533 ■ muse-spark-1.1 1531 ■ claude-opus-4-5-20251101-high-32k 1531 ■ gpt-5.6-sol-xhigh 1529 ■ claude-sonnet-4-6 1528 ■ claude-opus-4-8 1528 ■ glm-5.3-max 1528 ■ muse-spark 1526 ■ qwen3.7-max-preview 1525 ■ claude-opus-5-max 1525 ■ claude-opus-4-5-20251101 1523 ■ gemini-3.7-flash-high 1523 ■ grok-4.5 1522 ■ gemini-3.1-pro-preview 1521 ■ mimo-v2.5-pro 1521 Code Model Score ■ claude-fable-5 1508 ■ claude-opus-4-6-high 1505 ■ claude-opus-4-7-high 1502 ■ muse-spark-1.2 (xHigh) 1499 ■ claude-opus-4-6 1498 ■ claude-opus-4-7 1494 ■ gemini-3.8-flash-high 1494 ■ claude-opus-5-high 1492 ■ muse-spark-1.1 1491 ■ gemini-3.7-flash-high 1491 ■ kimi-k3-max 1489 ■ muse-spark 1488 ■ claude-opus-5-max 1488 ■ gemini-3.1-pro-preview 1487 ■ gemini-3-pro 1486 ■ gpt-5.6-sol-xhigh 1483 ■ gpt-5.5-high 1482 ■ glm-5.3-max 1482 ■ claude-opus-4-8-high 1482 ■ gemini-3.6-flash-high 1480 ■ qwen3.8-max 1479 ■ gemini-3.5-flash-high 1479 ■ gpt-5.5 1477 ■ gpt-5.4-high 1477 ■ gpt-5.2-chat-latest-20260210 1476"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Sept 10"
+    },
+    {
+      "index": 4,
+      "title": "AI Updates OpenAI GPT-6 Astra Trained on 100K+",
+      "text": "AI Updates OpenAI GPT-6 Astra Trained on 100K+ GPUs on the Stargate site in TX 99% on ARC-AGI-3 Pricing is $10 / $50 in/out per 1M-tokens OpenAI claims about 57% lower cost per completed task despite the higher token price, because Astra uses fewer tokens to finish the same work. On Artificial Analysis's Intelligence Index Astra lands at 61, behind Fable 5.1 at 66, and behind Opus 5 and Meta's Muse Spark 1.3 Practitioners with early access were more impressed than the leaderboards were, particularly on computer use, 3D work in Blender, and long-horizon tasks. Nvidia buys Hugging Face for approx $13 Billion Hugging Face hosts roughly 3 Mln models, 500K datasets and 1 Mln apps, serving about 18 Mln developers and 200K companies. It is the default distribution layer for open models, and it now belongs to Nvidia - the company that sells the compute those models run on Nvidia's biggest customers are defecting. Meta, OpenAI and Microsoft are all building their own chips to stop paying Nvidia's margins, so Nvidia is going around them to the developers Cheap open models from Chinese labs are closing the gap with the frontier, and owning the Hub puts Nvidia at the center of that shift"
+    },
+    {
+      "index": 5,
+      "title": "AI Updates DeepSeek V4.1 Flash Release (Sept 10)",
+      "text": "AI Updates DeepSeek V4.1 Flash Release (Sept 10) Higher performance, lower cost, faster responses, and shorter task completion than V4 Pro V4 Pro ends Sept 14 - will auto-redirect to Flas V4.1 Pricing $0.15  /  $0.60  in/out per 1M tokens Apple’s “Surprise and Shine” Event Sept 9 New CEO John Ternus iPhone Duo (foldable) - $2K iPhone 18 Pro and Pro Max, A20 chip - $1.2K+ New Apple Watch Series 12, Watch Ultra 4, and AirPods 5 Apple Intelligence - more local, less cloud Apple’s own Apple Intelligence model family, with Siri AI as the user-facing assistant Apple has not named a third-party model provider or described Siri as a separate autonomous “agent” product. Apple Foundation Models (AFM) were “custom-built in collaboration with Google and its Gemini models,” AFM 3 Core is Apple’s on-device foundation model AFM 3 Cloud and AFM 3 Cloud Pro are Apple’s server-side models, accessed through Private Cloud Compute for requests that exceed the phone’s local compute capacity https://www.apple.com/newsroom/"
+    },
+    {
+      "index": 6,
+      "title": "AI Agents as Organizations AI Agents as Organizations",
+      "text": "AI Agents as Organizations AI Agents as Organizations https://www.youtube.com/watch?v=xUIs-korOCo Salim Ismail talks about \"Artificial Organizations\" (AO) of AI agents AI does a job of one human. AO substitutes whole organization Many people are afraid of AI taking their jobs. But here is another scenario - AO taking their organizations. Agents communicating, dividing labor, retaining knowledge, and pursuing shared objectives without managers or formal hierarchy He uses an example of recent OpenAI / HuggingFace incident when roughly 1,200 agents exchanged over 70,000 messages, formed work streams, analyzed evaluators, manipulated environments, and tried to falsify success evidence The AOs don't need bureaucracy and Teams meetings. They can achieve in seconds what a human organization would require days or weeks Benefit: using AO will collapse coordination costs, enabling temporary, high-output organizations of thousands of agents Warning: poorly specified metrics could produce coordinated large-scale KPI gaming Recommendation - alignment (teach agents what not to do) and fast, continuous governance, while directing agent swarms toward problems such as Alzheimer’s, fusion, materials, education, and climate adaptation"
+    },
+    {
+      "index": 7,
+      "title": "Flywheel with Trainer/Student Models Frontier model serves as",
+      "text": "Flywheel with Trainer/Student Models Frontier model serves as a teacher for a \"worker\" model Shopify just got a 0.8B Qwen-3.5 tuned model to outperform GPT-5.6 Sol on a specialized task , while increasing throughput from 2M to 72M outputs per day Shorter prompts (from 9.1K down to 1.1K tokens) Production failures become training assets: evaluators identify weak trajectories, frontier models critique and repair them, and accepted repairs feed fine-tuning Human-calibrated LLM judges are critical, since weak evaluation can reinforce incorrect behavior Small specialist models fit stable, high-volume, measurable workflows; Frontier models remain useful for novel, ambiguous, or evolving requests. The durable advantage is the operating loop: telemetry, evals, curated data, training, routing, and efficient serving. https://x.com/tobi/status/2094808564355191249 https://shopify.engineering OpenAI ChatGPT Images 2.5 Alreadhy works in browser Chat Sharper details, more natural lighting and textures; better preservation of people or objects in reference images; More reliable multi-turn image edits (retaining key details and style) A Sketch feature: on mobile, type @ and select Sketch, draw an idea, then describe the image you want. Templates for guided creation workflows such as logos, posters, and other formats"
+    },
+    {
+      "index": 8,
+      "title": "OpenAI’s Navier–Stokes Claim OpenAI reported a Navier–Stokes Millennium",
+      "text": "OpenAI’s Navier–Stokes Claim OpenAI reported a Navier–Stokes Millennium Prize solution , using 10,000 coordinating agents over about 88 hours; It released a proposed proof that a smooth, finite-energy three-dimensional fluid flow can develop a finite-time singularity (“blow up”) Navier–Stokes models fluid motion - from airflow to weather - but it was unknown whether smooth 3D solutions always remain smooth. OpenAI claims a counterexample, with Lean formal verification. This could mark a major AI-for-mathematics milestone, but independent expert review and Clay Institute acceptance remain necessary - https://openai.com/index/navier-stokes-solution/ Spark X2.5-4B - Tiny, Long-Context AI iFLYTEK’s SparkLLM team (China) released the open Spark X2.5-4B model Weights available via GitHub, Hugging Face, and Ollama. 4.1B params, 1M tokens, 200+ languages for coding, tool use, and agent workflows; Hybrid attention; good benchmarks scores https://github.com/XHToken/Spark-X2.5 https://huggingface.co/XHToken/Spark-X2.5-4B https://ollama.com/SparkLLM/Spark-X2.5-4B AI Safety Problem - automated improvement Agents can automate research, code, experiments, development of new models; The successor-model design may accelerate beyond human oversight Possible solution - enforceable cross-lab and international pacing agreements, stronger evaluations and containment, and demonstrated alignment before capability scaling. https://www.youtube.com/watch?v=jQIeVznGG3k"
+    },
+    {
+      "index": 9,
+      "title": "Embodied AI Embodied AI China’s embodied-AI sector shifted",
+      "text": "Embodied AI Embodied AI China’s embodied-AI sector shifted from prototype competition toward deployment : robot makers, manufacturers and local governments are targeting factories and services, where reliable task execution and scalable operations matter more than demos XPeng began an 80%-automated production line for its IRON humanoid , moving the challenge from building a capable robot to producing one economically at factory scale Unitree open-sourced UnifoLM-WLA-1.0, a 6B humanoid foundation model ; open model availability could accelerate experimentation across robot bodies and labs Maven Robotics emerged from stealth with a $100M Series A to pursue deployment deals , highlighting sustained investor demand for commercial embodied-AI systems. Security became urgent: published Unitree G1 exploit chains reportedly enable unauthenticated root access , including via Bluetooth range—dangerous because compromised systems control physical actuators https://technode.global/2026/09/08/china-embodied-ai-race-deployment-era/ https://embodiedwire.com https://agihunt.info/en/c/hardware"
+    },
+    {
+      "index": 10,
+      "title": "Weekly videos every Friday 7.46K subscribers, 333 videos",
+      "text": "Weekly videos every Friday 7.46K subscribers, 333 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 11,
+      "title": "Harness-of-Harness (HoH) for Coding Harness-of-Harness (HoH) for Coding",
+      "text": "Harness-of-Harness (HoH) for Coding Harness-of-Harness (HoH) for Coding Shanghai Artificial Intelligence Laboratory released the Harness-of-Harness (HoH) preprint on September 1, 2026, for long-horizon autonomous software development. HoH wraps an existing coding-agent harness—such as Codex-like systems—with an outer supervisory runtime that repeatedly plans, develops, and independently tests changes across multi-day cloud or local runs . Long, unstructured coding trajectories accumulate complexity, regressions, and unreliable claims. HoH persists both the evolving software artifact and verification evidence, permits only developers to modify code, and feeds bounded test-backed increments into subsequent cycles. Across GameCraft-Bench, FrontierSWE, and ProgramBench, three HoH iterations reportedly improved average relative performance by 52.25%, with a maximum 82.86% gain . It is continual project improvement, not yet self-improving agent-harness learning. https://arxiv.org/pdf/2609.01481 http://www.szonline.cn/yl/2026/0904/762506.html https://www.youtube.com/watch?v=c_QzwZO0dd8"
+    },
+    {
+      "index": 12,
+      "title": "Harnesses Shape AI Scores Importance of Harness OpenAI’s",
+      "text": "Harnesses Shape AI Scores Importance of Harness OpenAI’s GPT-6 Astra reached 62.7% on ARC-AGI-3 ($26K). And it achieved 99.9% ($19K) using its own Adapter harness ; Minimal harnesses discard private reasoning between actions and truncate older history, forcing agents to rediscover rules during long interactive tasks. Solution - preserve reasoning state, compact rather than drop history, and retain searchable task context. Evaluations measure model-plus-harness, not raw model capability alone; the adapter was roughly 3.66× faster and used 49% fewer tokens on jointly solved tasks. https://arcprize.org/blog/astra https://openai.com/index/gpt-6-astra/ https://www.youtube.com/watch?v=rKUKTIb3Q-o GPT-6 Astra: Cost vs Physics OpenAI has not published a parameter count. Estimated at 5–10T params, roughly 7T total, with about 280B active per generated token Model weights would occupy 3.9 TB on disk (at 4.5 bits per param) Reading active weights requires 156 GB of memory traffic Using a cluster of ordinary networked computers increases capacity more than throughput. It is better to rent frontier models For local runs you can try highly compressed, one-generation-old open models https://www.youtube.com/watch?v=VNFKFiuca3o"
+    },
+    {
+      "index": 13,
+      "title": "AI News Anthropic open-sources Claude Commerce Agents A",
+      "text": "AI News Anthropic open-sources Claude Commerce Agents A blueprint, not a product. Two agents ship in the repo: a shopping agent that sits in a store's app a merchant agent for back-office staff Early results: carts up 35%, shoppers 60% more likely to check out. https://linas.substack.com/p/claude-commerce-agents The transcription price drops Microsoft's MAI-Transcribe-2 cuts costs 72% to $0.10 /hour Microsoft says it beats Gemini 3.5 Transcribe, GPT-Transcribe and Whisper V3-Large Meta Muse Voice Transcribe at $0.18 per hour with real-time streaming"
+    },
+    {
+      "index": 14,
+      "title": "AI News Ban Advanced AI Senator Bernie Sanders",
+      "text": "AI News Ban Advanced AI Senator Bernie Sanders and Representative Greg Casar introduced legislation that would pause advanced AI development until safety standards are set Crusoe raises $3 billion at a $30 billion valuation Crusoe started as a crypto miner, pivoted to AI infrastructure, and is now reportedly weighing an IPO. Cursor cloud agents now can run behind your firewall on your infrastracture"
+    },
+    {
+      "index": 15,
+      "title": "AI News US data center capacity may experience",
+      "text": "AI News US data center capacity may experience major shortages China supplies large shares of the transformers, switchgear, batteries and optical equipment going into US data centers Trump's August 2026 executive order authorized restrictions on certain foreign-made bulk-power equipment, and the administration is reportedly drafting a ban on new Chinese optical transceiver imports Western manufacturers would need 1-2 years to replace that capacity AT&T is saving up to 80% on AI costs using Open Models Open models now account for 40% of its AI use (up from 20% in May) - and could reach 60% within months Across the U.S., open models rose from 10% to 58% of usage in a year, as companies including Airbnb and Deloitte adopt cheaper, customizable systems."
+    },
+    {
+      "index": 16,
+      "title": "SQL for Agents, Safely SQL for Agents, Safely",
+      "text": "SQL for Agents, Safely SQL for Agents, Safely Agents become very effective when business data, transcripts, and mirrored external data are queryable through one constrained SQL interface YCDB - Y Combinator Database - a searchable, structured collection of information about YC-backed companies across batches, such as company names, batch, category, descriptions, and status Drawing on YCDB work and Conductor’s cloud API, he describes giving agents SQL while treating them like analysts on a tightly governed read replica Safety - read-only roles, replicas, tenant-scoped views, rolled-back transactions , timeouts, row/result-size limits, and audit logs. Agents can iteratively inspect schemas, join tables, recover from SQL errors, and brute-force investigations more persistently than people. Curated views, semantic schema documentation, CSV results, and logged failures reduce token use and turn recurring multi-step queries into reliable one-call skills The main achievement is replacing many MCP, API, vector-search, and retrieval tools with a simpler, inspectable SQL-based context layer - provided PII (Personally Identifiable Info) and context-window boundaries are actively controlled. https://conductor.build https://www.ycombinator.com https://planetscale.com https://www.youtube.com/watch?v=uMudSbZ79-A"
+    },
+    {
+      "index": 17,
+      "title": "AI Updates Agent security assumptions keep failing under",
+      "text": "AI Updates Agent security assumptions keep failing under test Trail of Bits researcher Artem Dinaburg asked GPT-5.6-Cyber to escape a QEMU/KVM virtual machine on a Debian 12 workstation. It escaped three times. The first attempt used a recently disclosed kernel bug. After patching, it combined a known vulnerability with a bug fix that had never been classified as a security issue. After a full rebuild from current upstream, it spent hours on research and built an escape chain containing three previously unknown vulnerabilities. Separately, researchers demonstrated worms driven by open-weight models that generate target-specific attacks and replicate through compromised machines, which platform-level safeguards cannot reach. https://www.lesswrong.com/posts/fpLDjKg3ej49beqTC/adaptive-agentic-worms-are-here Money keeps moving, fast Cognition is closing about $1 billion at a $47 billion valuation on more than $900 million in annualized revenue Rillet went from opening a round to unicorn status in 48 hours with $100 million AfterQuery hit $3.2 billion, Y Combinator’s fastest unicorn, 18 months after W25. Wonderful.ai raised $550 million at $5 billion, more than doubling its valuation in six months On the security side, agent firewall startup AIR took $50 million from Sequoia and Greenoaks after finding that over 17,800 public AI add-ons across 6.7 million installs pull from untrusted external sources Aslan launched with $20.8 million to build agents that infiltrate dark web forums for national security work."
+    },
+    {
+      "index": 18,
+      "title": "AI Updates Open source projects use AI to",
+      "text": "AI Updates Open source projects use AI to close pull requests They started refusing external PRs, largely because the submissions are AI-generated anyway Vercel built a software factory for the AI SDK after its backlog hit over 1,000 open issues and nearly 800 pull requests Separate agents reproduce a bug, apply a fix and review it, with a human merging Four weeks in, Vercel says the factory authors 25 to 35% of merged PRs and closes 70 to 80% of issues Astro’s Fred Schott, whose team spent five years behind on triage, said the shift happened in six months. ChatGPT Work - Cloud Browser Can perform supported tasks inside authenticated websites on a remote browser, including after the user closes their device. The signed-in-site capability rolled out in late August 2026 on ChatGPT web and mobile for eligible paid users ChatGPT pauses at a login page; users enter credentials and any two-factor code through a secure form sent directly to the remote browser. The model does not see or retain the password. Persistent session cookies can let later tasks reuse the login, enabling invoice retrieval, form completion, and account workflows. Some login methods and security-protected sites remain unsupported. Clear browser data and use per-site “always ask” permissions; prefer native connectors where available. https://help.openai.com/en/articles/20001280 https://help.openai.com/en/articles/11845367-chatgpt-agent-allowlisting https://go9x.com/blog/chatgpt-browser https://www.youtube.com/watch?v=321XMBYMUmQ"
+    },
+    {
+      "index": 19,
+      "title": "AI Updates GEN-1.5: Physical Prompting Generalist AI released",
+      "text": "AI Updates GEN-1.5: Physical Prompting Generalist AI released GEN-1.5 on August 19, 2026, presenting results on off-the-shelf robot-arm manipulation tasks . The robot uses a 3–12-second visual/sensorimotor demonstration as temporary context, then attempts an unseen task without changing its model weights. Conventional robot policies need extensive task-specific data and retraining; “physical prompting” aims to let an operator teach a behavior by showing it once. 59% one-shot success across 10 short tasks; about five minutes of demonstrations plus 10 gradient steps raised this to 83%. It suggests in-context learning may extend from language to embodied action, but the reported benchmark is still far below production-grade reliability. https://generalistai.com/blog/gen-1.5 https://theaiinsider.tech/2026/08/22/generalist-ai-releases-gen-1-5-robot-foundation-model-that-learns-from-a-single-demonstration/ https://www.youtube.com/watch?v=cqwKceUSZ5Q Quazar 438B: Europe’s Agent Model Spain-based Multiverse Computing launched Quazar 438B, a closed, API-accessed reasoning model for English and Spanish 1M-token context window, agent workflows, coding, research, and large-document analysis Businesses can use its long context to analyze extensive internal content, automate multi-step tasks, and extract actionable knowledge without manually reviewing everything. Claims include strong European benchmark standing and fast output for its size, although it reportedly trails leading proprietary models on overall intelligence and coding tests https://www.youtube.com/watch?v=Ip0KDRIMUl4"
+    },
+    {
+      "index": 20,
+      "title": "AI Updates Aram Studio v4 - Rust Transformer",
+      "text": "AI Updates Aram Studio v4 - Rust Transformer Rust-first decoder-only transformer application avoids Python-runtime dependencies Adding audio, multi-node training, retrieval, model merging, sandboxed tools, bounded multi-agent orchestration, multi-tenant serving, red teaming, and model-card generation Released after 6 months, 4 major versions, 55 phases, and 21 Cargo workspace crates; source on GitHub Demonstrates a complete multimodal, safety-bounded LLM system https://github.com/AarambhDevHub https://github.com/AarambhDevHub/aarambh-studio https://github.com/AarambhDevHub/aarambh-studio/tree/main/docs https://www.youtube.com/watch?v=Inkz4jzwICU Google’s Reader-Controlled AI Search Google launched an embeddable “Preferred Sources” button for publishers on August 20, 2026. A reader can click it on a site to add that domain or subdomain to their personal preferred-source list. The preference can affect relevant Google Top Stories, AI Overviews, and AI Mode results. Google returns the reader to the page after selection. Publishers have faced reduced referral traffic from AI-generated answers. The button lowers the friction of choosing trusted publishers, replacing buried settings with an on-page action. This is a loyalty tool, not a universal ranking boost Google also announced natural-language Discover-feed controls, allowing people to describe what they want more or less of, reinforcing personalized content selection. https://developers.google.com/search/docs/specialty/news/preferred-sources https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/ https://www.youtube.com/watch?v=tix4tq7iUAE"
+    },
+    {
+      "index": 21,
+      "title": "AI Updates K2 Horizon - Arabic Models Fully",
+      "text": "AI Updates K2 Horizon - Arabic Models Fully Open AI Fleet from Abu Dhabi’s Institute of Foundation Models (IFM), part of MBZUAI Six open-source (Apache) AI models: 0.9B, 3.7B, 7B, 32B, 36B-A4B, and 375B-A23B params IFM released weights, code, training data, methods, evaluations, and checkpoints The 0.9B model targets constrained edge devices; 32B supports local/on-premises use; 375B-A23B addresses enterprise reasoning and agents 36B-A4B model is a practical model for both local and enterprise https://ifm.ai/k2/ https://huggingface.co/IFM Everything Claude Code Platform with 181 skills and 64 subagents The setup functions as an end-to-end platform that turns Claude into a full development team wth 84 pre-configure slash commands Each skill handles a dedicated task, ranging from scanning code for security vulnerabilities to optimizing memory usage It also retains session history to improve workflow efficiency and learning over time Integrates with Claude Code, Cursor, Codex, Gemini Has built a functional startup from scratch in only 8 hours, winning the top prize at the hackathon https://www.youtube.com/watch?v=BFCmKcmIrDQ"
+    },
+    {
+      "index": 22,
+      "title": "Claude Solved a Cryptogram from 1653 Claude Fable",
+      "text": "Claude Solved a Cryptogram from 1653 Claude Fable 5.1 solved the Cyphral Distich, a 1653 numerical cryptogram by Scottish writer Sir Thomas Urquhart that had remained unsolved for 373 years The result is promising but should still be treated as a proposed solution rather than a fully independently verified historical breakthrough https://www.vals.ai/blogs/fable-solves-cyphral-distich Urquhart’s Cyphral Distich - two lines containing 32 numbers each, published in Logopandecteision in 1653 The cipher had been discussed as unsolved since at least 1899 and was included in Klaus Schmeh’s list of notable unsolved ciphers Claude spent 44 minutes and 176K tokens to solve it It identified that the cipher follows Urquhart’s 32 numbered “Proquiritations” (short wishes or petitions). Its proposed rule was simple: for each position in a cipher line, use the corresponding number as a word index in the correspondingly numbered petition, then take the first letter of that word This produces a royalist message supporting Charles II: “O God uphold King Charles the Second and make him the supreme ruler of this land.” The result fits Urquhart’s known political sympathies and yields two 32-letter lines, which Vals AI views as a built-in consistency check"
+    },
+    {
+      "index": 23,
+      "title": "GinAR Forecasting Model For Trading Neural Networks in",
+      "text": "GinAR Forecasting Model For Trading Neural Networks in Trading: An End-to-End Multivariate Time Series Forecasting Model GinAR - Graph Interpolation Attention Recursive Network GitAR forecasts several related time series together, such as prices, volumes, and technical indicators. It represents the variables as a graph, where connections show which signals are useful to each other. Interpolation Attention helps compensate for missing, delayed, or unreliable values by using information from related variables. Adaptive Graph Convolution learns the strength of relationships dynamically, allowing it to react when market behavior changes. The model combines learned relationships with predefined market or indicator connections for greater stability. Graph-aware reset and forget gates preserve useful historical context while discarding outdated signals. The article implements these components in MQL5 with OpenCL acceleration, moving computationally intensive training and inference operations to the GPU https://www.mql5.com/en/articles/18892"
+    },
+    {
+      "index": 24,
+      "title": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US",
+      "text": "Jobs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 128.5K in 2026 (as of Sept 10, 2026) 124K in 2025 153K in 2024 264K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 187,160 people laid off (737 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 25,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, Using LLM with your data Local AI for Local Private Data Cloud architecture, fin-tech, application security Find/connect: Linkedin, GitHub, YouTube, Google https://eais.ai Enterprise AI Systems"
+    },
+    {
+      "index": 26,
+      "title": "Thank You!",
+      "text": "Thank You!"
+    }
+  ],
+  "points": [
+    {
+      "claim": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index OpenAI",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "Crowd-sourced \"LM Arena\" Cost Per Intelligence Index OpenAI",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates OpenAI GPT-6 Astra Trained on 100K+",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "AI Updates OpenAI GPT-6 Astra Trained on 100K+",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates DeepSeek V4.1 Flash Release (Sept 10)",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "AI Updates DeepSeek V4.1 Flash Release (Sept 10)",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Agents as Organizations AI Agents as Organizations",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "AI Agents as Organizations AI Agents as Organizations",
+      "source": "slide"
+    },
+    {
+      "claim": "Flywheel with Trainer/Student Models Frontier model serves as",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Flywheel with Trainer/Student Models Frontier model serves as",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI’s Navier–Stokes Claim OpenAI reported a Navier–Stokes Millennium",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "OpenAI’s Navier–Stokes Claim OpenAI reported a Navier–Stokes Millennium",
+      "source": "slide"
+    },
+    {
+      "claim": "Embodied AI Embodied AI China’s embodied-AI sector shifted",
+      "topic": "safety",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Embodied AI Embodied AI China’s embodied-AI sector shifted",
+      "source": "slide"
+    },
+    {
+      "claim": "Weekly videos every Friday 7.46K subscribers, 333 videos",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Weekly videos every Friday 7.46K subscribers, 333 videos",
+      "source": "slide"
+    },
+    {
+      "claim": "Harness-of-Harness (HoH) for Coding Harness-of-Harness (HoH) for Coding",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Harness-of-Harness (HoH) for Coding Harness-of-Harness (HoH) for Coding",
+      "source": "slide"
+    },
+    {
+      "claim": "Harnesses Shape AI Scores Importance of Harness OpenAI’s",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "Harnesses Shape AI Scores Importance of Harness OpenAI’s",
+      "source": "slide"
+    }
+  ]
+}
