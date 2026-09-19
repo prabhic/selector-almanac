@@ -2,7 +2,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { deckRecord, resolveDeckPaths, isWeekly2025Or2026 } from "./lib/github.mjs";
+import { deckRecord, resolveDeckPaths, isWeekly2025Or2026, isWeeklyDeckPath, isWeeklySeminar } from "./lib/github.mjs";
 import { parseDeckDate, daysBetween, slugify } from "./lib/dates.mjs";
 import { extractTopics, topicLabel, buildTrends, tagAllTopics, isNoiseChapter } from "./lib/topics.mjs";
 import { buildInsights } from "./lib/insights.mjs";
@@ -27,7 +27,7 @@ function log(msg) {
 }
 
 function inferSeries(title, path) {
-  if (/ai[- ]?updates?/i.test(title) || /AI-Updates/i.test(path)) return "ai-weekly";
+  if (/ai[- ]?updates?/i.test(title) || isWeeklyDeckPath(path)) return "ai-weekly";
   if (/data_science/i.test(path)) return "data-science-2021";
   if (/data_architect/i.test(path)) return "data-architect-2021";
   if (/^202[2-6]\//.test(path)) return "seminar";
@@ -260,7 +260,7 @@ async function main() {
   const topics = buildTopicIndex(seminars);
   const trends = buildTrends(seminars, { weeklyOnly: true });
   trends.insights = buildInsights(
-    seminars.filter((s) => /AI-Updates/i.test(s.deck?.path ?? "") && /^(2025|2026)-/.test(s.date ?? "")),
+    seminars.filter((s) => isWeeklySeminar(s)),
   );
   const meta = {
     generatedAt: new Date().toISOString(),

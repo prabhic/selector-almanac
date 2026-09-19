@@ -50,7 +50,15 @@ export async function resolveDeckPaths(localClonePath) {
 }
 
 export function isWeeklyDeckPath(path) {
-  return /AI-Updates/i.test(path);
+  // Upstream renames the weekly deck from time to time (AI-Updates -> AI-News on 2026-09-18).
+  return /AI-(Updates|News)/i.test(path);
+}
+
+/** Weekly seminar in the 2025-2026 window — the scope for trends, topics and insights. */
+export function isWeeklySeminar(seminar) {
+  return (
+    isWeeklyDeckPath(seminar.deck?.path ?? "") && /^(2025|2026)-/.test(seminar.date ?? "")
+  );
 }
 
 export function isWeekly2025Or2026(path) {

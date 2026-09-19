@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prabhic/selector-almanac.git"
+    "url": "git+https://github.com/prabhic/selector-almanac.git"
   },
   "homepage": "http://prabhanjan.in/selector-almanac/app/",
   "bin": {
@@ -38,6 +38,7 @@
     "restore:regressed": "node scripts/restore-regressed.mjs && npm run build",
     "compile": "node scripts/compile-sessions.mjs",
     "validate": "node scripts/validate-data.mjs",
+    "test": "node scripts/test-weekly-filter.mjs",
     "probe:youtube": "node scripts/probe-youtube.mjs",
     "trends": "node scripts/build-trends.mjs",
     "index": "node scripts/build-index.mjs",

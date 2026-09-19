@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { extractTopics, tagAllTopics, buildTrends, topicLabel } from "./topics.mjs";
 import { buildInsights } from "./insights.mjs";
+import { isWeeklySeminar } from "./github.mjs";
 import { DATA } from "./sessions.mjs";
 
 export function buildTopicIndex(seminars) {
@@ -91,7 +92,7 @@ export async function writeAggregates(seminars, {
   if (videoCount != null) meta.counts.videos = videoCount;
 
   const weekly = seminars.filter(
-    (s) => /AI-Updates/i.test(s.deck?.path ?? "") && /^(2025|2026)-/.test(s.date ?? ""),
+    (s) => isWeeklySeminar(s),
   );
   const newTrends = buildTrends(seminars, { weeklyOnly: true });
   newTrends.insights = buildInsights(weekly);

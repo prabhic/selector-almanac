@@ -5,6 +5,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildTrends, tagAllTopics, isNoiseChapter, extractTopics, topicLabel, TREND_LENSES } from "./lib/topics.mjs";
 import { buildInsights } from "./lib/insights.mjs";
+import { isWeeklySeminar } from "./lib/github.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DATA = join(ROOT, "data");
@@ -57,7 +58,7 @@ for (const s of seminars) retagSeminar(s);
 
 const trends = buildTrends(seminars, { weeklyOnly: true });
 trends.insights = buildInsights(
-  seminars.filter((s) => /AI-Updates/i.test(s.deck?.path ?? "") && /^(2025|2026)-/.test(s.date ?? "")),
+  seminars.filter((s) => isWeeklySeminar(s)),
 );
 const topics = buildTopicIndex(seminars);
 

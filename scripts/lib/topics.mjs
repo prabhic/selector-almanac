@@ -1,4 +1,5 @@
 /** Topic rules tuned for Lev Selector weekly AI Updates — tag at chapter/point level. */
+import { isWeeklySeminar } from "./github.mjs";
 
 export const TREND_LENSES = [
   {
@@ -122,7 +123,7 @@ export function isNoiseChapter(title) {
 
 export function buildTrends(seminars, { weeklyOnly = true } = {}) {
   const pool = weeklyOnly
-    ? seminars.filter((s) => /AI-Updates/i.test(s.deck?.path ?? "") && /^(2025|2026)-/.test(s.date ?? ""))
+    ? seminars.filter((s) => isWeeklySeminar(s))
     : seminars;
 
   const weeks = [...new Set(pool.map((s) => s.date).filter(Boolean))].sort();

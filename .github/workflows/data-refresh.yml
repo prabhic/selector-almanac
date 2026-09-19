@@ -40,6 +40,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Self-checks
+        run: npm test
+
       - name: Ingest new decks and re-parse slides
         env:
           WEEKS: ${{ github.event.inputs.weeks || '2' }}

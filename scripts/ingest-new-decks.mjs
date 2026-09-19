@@ -6,7 +6,7 @@
 import { readFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { deckRecord, fetchDeckPaths, isWeekly2025Or2026 } from "./lib/github.mjs";
+import { deckRecord, fetchDeckPaths, isWeekly2025Or2026, isWeeklyDeckPath } from "./lib/github.mjs";
 import { parseDeckDate, slugify } from "./lib/dates.mjs";
 import { extractTopics, tagAllTopics, isNoiseChapter } from "./lib/topics.mjs";
 import { buildPoints, matchVideo } from "./lib/seminar.mjs";
@@ -33,7 +33,7 @@ function log(msg) {
 }
 
 function inferSeries(title, path) {
-  if (/ai[- ]?updates?/i.test(title) || /AI-Updates/i.test(path)) return "ai-weekly";
+  if (/ai[- ]?updates?/i.test(title) || isWeeklyDeckPath(path)) return "ai-weekly";
   if (/data_science/i.test(path)) return "data-science-2021";
   if (/data_architect/i.test(path)) return "data-architect-2021";
   if (/^202[2-6]\//.test(path)) return "seminar";
@@ -96,6 +96,16 @@ async function buildSeminar(path, videosByDate, allVideos) {
   return seminar;
 }
 
+/**
+ * Upstream decks dated newer than our corpus that the weekly filter rejected.
+ * Usually means the weekly deck was renamed (AI-Updates -> AI-News) and is being skipped.
+ */
+function renameCandidates(allPaths, weeklyPaths, sessions) {
+  const newest = sessions.map((s) => s.date).filter(Boolean).sort().at(-1) ?? "";
+  const weekly = new Set(weeklyPaths);
+  return allPaths.filter((p) => !weekly.has(p) && (parseDeckDate(p) ?? "") > newest);
+}
+
 async function main() {
   const sessions = await ensureSessions({ log });
   const known = new Set(sessions.map((s) => s.deck?.path).filter(Boolean));
@@ -104,6 +114,13 @@ async function main() {
   const allPaths = await fetchDeckPaths();
   const deckPaths = allCorpus ? allPaths : allPaths.filter(isWeekly2025Or2026);
   const newPaths = deckPaths.filter((p) => !known.has(p));
+
+  const skipped = renameCandidates(allPaths, deckPaths, sessions);
+  if (skipped.length) {
+    log(`  ⚠ ${skipped.length} upstream deck(s) newer than the corpus but not recognised as weekly:`);
+    for (const p of skipped) log(`      ? ${p}`);
+    log("    If one of these is the weekly deck, widen isWeeklyDeckPath() in scripts/lib/github.mjs.");
+  }
 
   if (!newPaths.length) {
     log("No new decks to add.");
