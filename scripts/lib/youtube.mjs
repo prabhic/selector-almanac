@@ -148,7 +148,9 @@ export async function fetchVideoMeta(videoId) {
       [
         ...(await ytdlpFullExtractArgs()),
         "--skip-download",
-        "-j",
+        // Only the fields mapVideoFromJson reads; full -j is ~11 MB per video (formats/captions).
+        "-O",
+        "%(.{title,upload_date,description,chapters,duration})j",
         `https://www.youtube.com/watch?v=${videoId}`,
       ],
       { maxBuffer: 5 * 1024 * 1024 },
