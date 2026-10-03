@@ -1,0 +1,283 @@
+{
+  "id": "2026-10-02-2026-10-02-ai-news",
+  "date": "2026-10-02",
+  "title": "AI-News",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "agents",
+    "rag",
+    "coding",
+    "enterprise"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2026/2026-10-02-AI-News.pptx",
+    "filename": "2026-10-02-AI-News.pptx",
+    "title": "AI-News",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-10-02-AI-News.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-02-AI-News.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI News - Oct 2, 2026 Trend -",
+      "text": "AI News - Oct 2, 2026 Trend - Persistent Agents Crowd-sourced LM Arena Artificial Analysis Intelligence Index Gemini 4 Argon - Google's Latest Frontier AI Model Google RRSI: Self-Improving Harness Claude Sonnet 5.5: Faster, Lower-Cost Recent Claude Opus Versions Release Dates Claude Opus 5.5 is a Better Writer Claude Marketplace: 2,000+ Plugins AI Agents Train Their Successors DSec Scales Sandboxes for Agentic RL Training OpenAI cancels GPT-6.1 Astra and releases 6.1 Sol VectifyAI PageIndex Doc Search OpenAI DevDay 2026 - Agents and Tools - Sept 29 Persistent AI Agents (trending) Trend - Persistent Agents Court Upholds Pentagon Anthropic Blacklist DHH (David Heinemeier Hansson) Keynote Memoh: AI Agents With Their Own PCs (China) Swarms Are Expensive GLM-5.3 Builds Cyber Exploits When to Use JEV Laya by ConvAI Innovations - better than Jev Fastino GLiDE - Jev-like model, via API CLM-8B: 9x Faster Than Jev Jeff - Classifier for Under $5 OpenRouter Jev Router Modal Quail: 1B Tokens/Min per H100 Ollama Adds Local Jev-like Decision Models Gemini Makes Business Calls Google Suncatcher: TPUs in Orbit NVIDIA Nemotron 3 Diarization DeepSeek Hits $1B Run Rate Muse Leaks Its Own Sandbox Meta Enterprise AI Platform FLUX 3 Action Robot Model Claude Code Graceful 5-Hour Stop Ethernet Proposed, May 22, 1973 NVIDIA Agent Safety: OpenShell + Sentry AMD to Acquire Fei-Fei Li’s World Labs Fireworks.AI Ember-1 - 40% less Tokens Cloudflare cf: CLI Built for Agents Vercel: 1M Agent Skills, 280M Installs Clef & Strands Decider: Open Jev Rivals Claude Code Mods Xiaomi MiMo-V2.6-Pro: Top Open Model Tavus Griffin Passes for Human Jobs & Layoffs Tech Hiring & Skills in Demand"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for Sept 30 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.3 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Deepseek-v4.1-Flash - 552B Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ gemini-4-argon-high 1559 ■ claude-fable-5-high 1552 ■ claude-opus-4-6-high 1551 ■ claude-opus-4-7-high 1551 ■ claude-opus-4-6 1547 ■ claude-opus-4-7 1547 ■ kimi-k3-max 1541 ■ mimo-v2.6-pro 1540 ■ gpt-6-astra-max 1539 ■ muse-spark-1.3-max 1539 ■ claude-opus-5.5-high 1538 ■ muse-spark-1.2 (xHigh) 1535 ■ muse-spark-1.1 1534 ■ gpt-5.6-sol-xhigh 1534 ■ claude-opus-5-high 1534 ■ claude-opus-4-8-high 1533 ■ claude-fable-5.1-max 1532 ■ gemini-3.8-flash-high 1531 ■ claude-opus-4-5-20251101-high-32k 1531 ■ claude-opus-4-8 1530 ■ claude-opus-5-max 1530 ■ muse-spark 1530 ■ deepseek-v4.1-flash-max 1529 ■ claude-sonnet-4-6 1529 ■ qwen3.7-max-preview 1524 Code Model Score ■ gemini-4-argon-high 1525 ■ claude-opus-4-6-high 1505 ■ claude-fable-5-high 1505 ■ claude-opus-5.5-high 1504 ■ claude-opus-4-7-high 1502 ■ claude-fable-5.1-max 1501 ■ claude-opus-4-6 1497 ■ muse-spark-1.3-max 1495 ■ claude-opus-4-7 1494 ■ muse-spark-1.2 (xHigh) 1494 ■ gemini-3.8-flash-high 1494 ■ muse-spark-1.1 1492 ■ claude-opus-5-high 1491 ■ claude-opus-5-max 1489 ■ muse-spark 1489 ■ gemini-3.7-flash-high 1488 ■ kimi-k3-max 1488 ■ gemini-3.1-pro-preview 1487 ■ gemini-3-pro 1485 ■ gpt-5.6-sol-xhigh 1484 ■ gemini-3.6-flash-high 1483 ■ gpt-5.5-high 1481 ■ claude-opus-4-8-high 1481 ■ qwen3.8-max 1481 ■ mimo-v2.6-pro 1480"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Oct 2"
+    },
+    {
+      "index": 4,
+      "title": "AI News Gemini 4 Argon - Google's Latest",
+      "text": "AI News Gemini 4 Argon - Google's Latest Frontier AI Model Ouputs up to 1 Mln tokens in one answer (up from 64K) Input Context Window not disclosed yet Targets complex, extended work in coding, business knowledge tasks, legal, finance, cybersecurity defense. Initial access limited to cyber defenders and testers Argon handles demanding, multi-step tasks that require sustained reasoning and execution https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/ https://ai-tldr.dev/models/google-gemini-4-argon/ Introductory price $2/$10 per million tokens, later $4/$20 Google's RRSI lets agents rewrite their own harness RRSI: Regularized Recursive Self-Improvement of Agent Harnesses The agent edits its own prompts, tools, memory, control flow and sub-agents; model weights never change Regularized so the harness does not just memorize its training tasks From Google Cloud AI Research with UNC, Stanford and WashU Open source under Apache 2.0; works with any LiteLLM model https://github.com/google-research/rrsi"
+    },
+    {
+      "index": 5,
+      "title": "AI News Claude Sonnet 5.5: Faster, Lower-Cost API",
+      "text": "AI News Claude Sonnet 5.5: Faster, Lower-Cost API pricing remains $2 /$10 per Mln tokens in / out Multi-step AI work can consume time and tokens through repeated reasoning and tool calls Anthropic says Sonnet 5.5 responds over 30% faster and can use fewer tokens and tool calls Up to 30% lower cost per completed task At low or medium effort, it reportedly beats Sonnet 5’s top score on some evaluations for about one-tenth the task cost . https://www.anthropic.com/claude-sonnet-5-5 Claude Opus 5.5 is a Better Writer Claude Opus 5.5’s main difference from Opus 5 is clearer, more accessible writing. It tends to lead with the main point and explain complex ideas with less jargon. That style may make it better for summarizing architecture discussions, including decisions, alternatives, and tradeoffs Note that clarity does not guarantee greater accuracy Anthropic also reports stronger performance on complex coding tasks, faster output, and lower API prices than Opus 5 Its summaries may not always be shorter: one analysis found Opus 5.5’s responses were somewhat longer on average Recent Claude Opus Versions Release Dates and Training Data Cutoff 4.5  Nov 24, 2025 / - 4.6  Feb  5, 2026 / Aug 2025 - very good 4.7  Apr 16, 2026 / Jan 2026 - 4.8  May 28, 2026 / Jan 2026 - worse 5.0  Jul 24, 2026 / May 2026 - worse 5.5  Sep 22, 2026 / -        - very good Claude Marketplace opens with 2,000+ connectors and plugins 2,000+ MCP connectors and plugins, including Google, Microsoft, Notion, Salesforce Claude-powered agents from Cursor, CrowdStrike and Snowflake Consulting partners such as Accenture and Deloitte Builders can list their own tools and agents https://claude.com/blog/claude-marketplace"
+    },
+    {
+      "index": 6,
+      "title": "DeepSeek DSec paper AI Agents Train Their Successors",
+      "text": "DeepSeek DSec paper AI Agents Train Their Successors DeepSeek DSec paper - 130-plus authors https://arxiv.org/abs/2609.22978 DSec (DeepSeek Elastic Compute) is DeepSeek’s infrastructure for running AI agents in isolated, disposable sandboxes DSec provides isolated practice computers where agents can write and test code without risking production systems. A cluster handles about 3 million sandboxes daily, with more than 380K  running simultaneously Its layered, on-demand environments reduce startup time, storage writes, and memory use, while letting agents assemble reusable training environments themselves. That approach addresses a key constraint in RSI (Recursive Self-Improvement) - producing enough reliable tasks and environments, not just adding GPUs The cluster reports creation of more than 5K sandboxes per sec The main speedup comes from avoiding full image downloads DSec stores environment images in DeepSeek’s 3FS distributed file system and loads only the data blocks an agent actually accesses. Uses EROFS (Enhanced Read-Only File System) for speed https://www.youtube.com/watch?v=63nU3-EXf6g DSec Scales Sandboxes for Agentic RL Training Problem: Agentic reinforcement learning (RL) needs many reliable, stateful task environments; the speed of provisioning and resource use can limit training throughput Solution: DSec combines function-call, container, microVM, and full-VM sandboxes, loading image data on demand instead of downloading complete images Achievement: DeepSeek reports over 5,000 sandbox creations per second, about 3 million daily, and more than 380,000 simultaneous sandboxes. Importance: It demonstrates that environment capacity - not GPUs alone - can constrain agent training. Similar sandbox concepts are used by all major AI training vendors"
+    },
+    {
+      "index": 7,
+      "title": "AI News OpenAI cancels GPT-6.1 Astra and releases",
+      "text": "AI News OpenAI cancels GPT-6.1 Astra and releases 6.1 Sol In testing the Astra model was deceptive, acting without permission, reaching to outside tools when it was unsafe, and not following instructions OpenAI will retrain Astra to reward the right behavior A day later they shipped GPT-6.1 Sol - Near-Flagship, Lower Cost For coding, computer use, and professional work. It approaches GPT-6 Astra - at 1/5-th of cost ($2/$10) - Sol suits demanding everyday work where cost matters; Astra remains preferable for the hardest scientific research. It is available through the API, ChatGPT Work, and Codex—not the regular ChatGPT chat. https://openai.com/index/introducing-gpt-6-1-sol/ https://www.engadget.com/2271626/openai-cancels-gpt-6-1-astra-release-deceptive-behavior/ VectifyAI PageIndex Doc Search Hits 98.7% on FinanceBench Open Source, 29K GitHub stars, MCP support Document search without vectors, embeddings, chunking Builds a tree, like a smart table of contents Mafin 2.5, built on PageIndex, scored 98.7% on FinanceBench; vector RAG got about 50% Suited to long legal, financial and technical documents https://github.com/VectifyAI/PageIndex"
+    },
+    {
+      "index": 8,
+      "title": "OpenAI DevDay 2026 - Agents and Tools OpenAI",
+      "text": "OpenAI DevDay 2026 - Agents and Tools OpenAI DevDay 2026 - Agents and Tools - Sept 29, San Francisco More than 20 updates, including Dots, always-on agents; GPT-6.1 Sol; faster Codex and API tools; and ChatGPT plugins for developer-built experiences Pro 500 plan - $500/mo (includes Ultrafast); also reduced limits on $200 Pro plan Decision model using Luna (similar to Jev) OpenAI’s new agents, computer-use capabilities, and shared ChatGPT spaces aim to handle ongoing tasks and coordinate work across apps and teams OpenAI says developers can launch native ChatGPT experiences to 1.2 Bln weekly users Push AI from answering questions toward executing and coordinating work https://openai.com/index/devday-2026-recap/ https://devday.openai.com https://openai.com/index/introducing-dots/ Persistent AI Agents (trending) OpenAI — Dots Microsoft — Copilot Autopilot Meta — Muse Google — Gemini Enterprise Agent Platform; Gemini Spark Amazon Web Services — Amazon Bedrock AgentCore Anthropic — Claude Cowork / Dispatch Perplexity — Comet Assistant / Perplexity Computer xAI / SpaceXAI — Grok Bot Salesforce — Agentforce Coworker Alibaba — Wukong Tencent — WorkBuddy (QClaw will be shut down) ByteDance — Feishu AI agents Zhipu AI — enterprise AI agent platform Trend - Persistent Agents"
+    },
+    {
+      "index": 9,
+      "title": "Weekly videos every Friday Weekly videos every Friday",
+      "text": "Weekly videos every Friday Weekly videos every Friday 7.58K subscribers, 354 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 10,
+      "title": "AI News Appeals court lets the Pentagon keep",
+      "text": "AI News Appeals court lets the Pentagon keep Anthropic blacklisted A panel of 3 judges of the federal appeals court in Washington, D.C., upheld the Pentagon’s blacklisting of Anthropic (which was originally done on February 27, 2026) The dispute began when Anthropic refused the use of its models for fully autonomous weapons and domestic mass surveillance A San Francisco judge had found Pentagon's designation unlawful retaliation But now as this decision was appealed, Anthropic can ask the full D.C. Circuit to rehear the case en banc; it can also petition the U.S. Supreme Court to review the ruling https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+    },
+    {
+      "index": 11,
+      "title": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails",
+      "text": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails World 2026 Opening Keynote - DHH https://www.youtube.com/watch?v=vDjW_dRyKXY DHH is a Danish programmer and entrepreneur, and the creator of Ruby on Rails He is a co-owner and CTO of 37signals ( https://37signals.com ) - the company behind Basecamp and HEY. He is also an author and is known as a race-car driver. DHH opens Rails World 2026 in Austin with a keynote on the age of AI agents: why 37signals has gone \"pencils down\" - stopping hand-written coding, why Rails' convention over configuration is built for this moment, and why the only play left is total optimism The speaker sees AI agents as a major turning point in computing, comparable to photography becoming widely accessible. As implementation costs fall, developers can build more software and focus on outcomes rather than hand-writing code AI is changing programming roles, workflows, and architecture. Teams should delegate tasks to agents, review results, and rethink practices designed for human-written code Some products may shift from web apps to native apps as multi-platform development becomes cheaper, while the web remains useful for easy, installation-free access Agents can also help create efficient backends, search by meaning, and customize computing environments Developers should build agent-friendly interfaces, such as command-line tools, and address security risks through engineering The speaker’s message is optimistic: hand-coding had a valuable era, but the future belongs to people who guide AI to make useful things"
+    },
+    {
+      "index": 12,
+      "title": "AI Updates Memoh: AI Agents With Their Own",
+      "text": "AI Updates Memoh: AI Agents With Their Own PCs (China) Memoh gives each agent an isolated workspace with a desktop, browser, files, network access, and persistent memory Agents can run scheduled tasks around the clock, even when the user’s laptop is off, and can be contacted through messaging Shifting AI from one-off chat to persistent, autonomous work https://memoh.ai https://github.com/felinics/Memoh https://aiprofitboardroom.com https://www.youtube.com/watch?v=RdglwPXveiI Swarms Are Expensive Because agents must constantly pass state updates, logs, and contexts back and forth AI companies are pushing swarms promising speed - but also as a means to increase token usage (more profit) Anthropic: open GLM-5.3 builds cyber exploits almost like Mythos Zhipu's open-weight GLM-5.3 built 50 working exploits on ExploitBench vs 56 for Claude Mythos Preview It ships without meaningful safeguards against misuse Harmful requests got through 64% of the time with deceptive prompts, 92% with prefilled reasoning After abliteration, which strips refusals from open weights, it complied 100% of the time Claude models stayed at 0% under the same tests Anthropic expects state and non-state attackers to use such models for real harm https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+    },
+    {
+      "index": 13,
+      "title": "JEV - page 1 When to Use JEV",
+      "text": "JEV - page 1 When to Use JEV JEV is a TypeSafe AI’s decision model Its strongest use cases are workflows that need a fast, repeatable, machine-readable judgment from a known set of possible answers - not a conversational response Jev returns probabilities of typed choices, scores, or yes/no (“Noul” questions), so your application can use the result directly in its control flow. https://docs.typesafe.ai/sdk/python - python API Use case Example Classification and triage Sort support tickets by topic or urgency, categorize emails, or flag items for human review. Routing Choose the right team, workflow, tool, or AI model for an incoming request. Content moderation Check for spam or policy violations, then route uncertain cases to moderators. Scoring and ranking Prioritize leads, rank candidate items, or score reviews against a defined rubric. Agent guardrails Assess whether a proposed tool call or action meets a risk rule before your system executes it. Verification checks Estimate whether a specific claim or condition is true, or whether an item meets a checklist. Real-time decisions Make frequent choices in interactive systems / games Laya by ConvAI Innovations - better than Jev by Nandakishor Mukkunnoth, open-weight model Classification, scoring, or yes/no Apache 2.0 alternative to Jev, can run locally Privacy, ownership, tuning/customization, speed Speed and benchmark wins are not independently settled; one comparison found Jev more accurate before adapting Laya to its test data Based on ModernBERT-large (or mmBERT-base) model, trained using RLCD (Reinforcement Learning for Calibrated Decisions) https://anth.us/blog/jev-vs-laya/ https://github.com/NandhaKishorM/laya Fastino GLiDE - Jev-like model, via API Fastino is in San Francisco, CA Fastino GLiDE is better than Jev on 31 of 38 benchmarks. https://fastino.ai GLiNER2.5-Decide - open-weight decision model https://huggingface.co/fastino/GLiNER2.5-Decide"
+    },
+    {
+      "index": 14,
+      "title": "JEV - page 2 Contrastive Language Models score",
+      "text": "JEV - page 2 Contrastive Language Models score agent, 9x faster than Jev Stanford and NVIDIA released CLM-8B , an open System One model It scores candidate actions and returns probabilities Two small heads on a frozen Qwen3-8B, trained with a contrastive loss Matches Jev on computer use, games and tool calling, x9 times faster As a fine-tuned verifier: 81.6% on DeepSWE, 87.6% on Terminal-Bench 2.1 https://huggingface.co/Contrastive-LM/CLM-v0.1-8B https://www.youtube.com/watch?v=eSuMmMMMrm0 Jeff - Classifier for Under $5 Fine-tuned Qwen3.5 4B with LoRA to classify supplied text against listed choices and return a compact decision Trained on public classification datasets, routing, and research examples; trained and served the model using Modal, Unsloth, and vLLM Trained on L40S GPU and deploying inference on L40S and H100 GPUs Training cost $4.17, training time 2 hours Held-out evaluation reached 88% accuracy Warm responses were generally subsecond https://github.com/SonDaoRM/Jef-qwen3.5-4b-finetune-banking77 https://github.com/togethercomputer/tev1 https://www.together.ai/blog/how-to-train-your-own-jev OpenRouter launches Jev Router to pick a model for each request typesafe/jev-router - powered by the Jev decision model Before the LLM call, it picks the model and the reasoning effort It weighs quality, speed and cost, and knows what is cached Solved 82% more tasks than OpenRouter's Auto Router on four agent benchmarks (237 vs 130 of 423) Accepts up to 1M tokens; the router itself is listed at $0 https://openrouter.ai/typesafe/jev-router"
+    },
+    {
+      "index": 15,
+      "title": "JEV - page 3 Modal's Quail processes a",
+      "text": "JEV - page 3 Modal's Quail processes a Billion tokens per minute on one H100 Quail (Query-Aware Inference Layer) runs LLM calls inside SQL queries, such as AI filters and joins Over 1B-tokens/min per H100 1.84x faster than vLLM on average , more than 10x on multi-join queries Under 6 cents per Billion tokens on Prefill only: a yes/no classification needs a single output token SELECT r.id FROM reviews r WHERE AI.IF(PROMPT('Does this review discuss the ending?\\n\\n{0}', r.body)) Modal Labs, Inc. is a New York City based cloud-computing platform for AI developers. Since 2021, ~150 people. Raised $466M+, $4.65B valuation https://modal.com/blog/quail-billion-tpm https://github.com/fsdatalab/quail - open source Ollama Adds Local Jev-like Decision Models Integrating TypeSafe’s Jev-style decision API, with models from Bespoke Labs and Together AI Ollama v. 0.35 adds the `/v1/systemone` endpoint , which answers multiple typed decision questions in one request ollama pull nimble Local decision models offer fast & free decisions Three models are available - Nimble 9B, Tev1 4B, and Tev1 0.8B Nimble gives same accuracy as Jev - but averaged 91 ms per decision in a local Pac-Man example. Other examples - highly  responsive ticket triage, model routing, and moderation. https://ollama.com/blog/ollama-now-supports-jev-style-decision-models"
+    },
+    {
+      "index": 16,
+      "title": "AI News Gemini now phones businesses for you",
+      "text": "AI News Gemini now phones businesses for you on Pixel 11 Gemini calls local businesses for reservations, stock checks and appointment changes It navigates phone menus and waits on hold You see a live transcript and can take over at any moment Early preview for paid Gemini subscribers in the US https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls Google sends TPUs to orbit for Project Suncatcher Satellite carries four Trillium TPUs Launches on SpaceX Transporter-18 on October 1 https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/ Google/Alphabet starts selling TPU systems to customer data centers - competing with NVIDIA GPUs NVIDIA Nemotron 3 Diarization Open model, only 100M parameters, tracks speakers in audio (up to 8 speakers, including overlapping voices) Works on live streams and recorded files #1 on Diarization-Bench at 15% error, 24% below the runner-up Pair it with speech-to-text for transcripts with speaker labels https://huggingface.co/nvidia/Nemotron-3-Diarization"
+    },
+    {
+      "index": 17,
+      "title": "AI News DeepSeek doubles revenue run rate to",
+      "text": "AI News DeepSeek doubles revenue run rate to $1 Bln ARR hit $1 Bln , double the earlier rate It came after DeepSeek raised API prices 2.3x to 4.5x The Information says developer demand held up Meanwhile OpenAI is preparing a $500/month ChatGPT Pro Max plan before DevDay on September 29 https://thenextweb.com/news/deepseek-revenue-run-rate-1bn Muse handed a user 6.8 GB of its own sandbox, SSH keys included A researcher asked Meta's Muse agent to archive its files and export them to Google Drive He got 6.8 GB data including Linux root filesystem, internal docs, integration code, memory files, agent logs, and even SSH key files No exploit was needed, only normal agent tools Meta's bug bounty marked the report \"Not Applicable\" https://mouse.dev/blog/muse-runtime-export/ Meta launches an enterprise AI platform around Muse Products: Muse agent, Meta Business Agent, Muse API and Muse Code Aimed at businesses of all sizes and at developers Former MongoDB CEO CJ Desai joins as Chief Enterprise Platform Officer, reporting to Zuckerberg Desai earlier held senior roles at Cloudflare and ServiceNow Meta says security and privacy are built in from the start No pricing announced yet https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+    },
+    {
+      "index": 18,
+      "title": "AI News FLUX 3 Action: open 7B robot",
+      "text": "AI News FLUX 3 Action: open 7B robot model tops RoboLab Black Forest Labs turned its FLUX 3 backbone into a world action model for robots It predicts the next video frames and the next chunk of actions together 42.92% on RoboLab-120, first place; the 16B Cosmos 3 Nano gets 36.8% Less than half the size of the previous best open model, up to 3.95x faster Completed 28 of 30 attempts in a blind Franka arm test Built into Hugging Face LeRobot, runs on NVIDIA Jetson; non-commercial license https://bfl.ai/models/flux-3-action Claude Code now wraps up cleanly at the 5-hour limit It no longer stops in the middle of an edit when the 5-hour limit hits It gets a small, fixed allowance from the weekly limit to finish It closes the open edit, runs queued tests and leaves a note on what is left Pro: once a week ; Max and Team Premium: every time Needs Claude Code 2.1.277 or later https://x.com/ClaudeDevs/status/2103561342057943314"
+    },
+    {
+      "index": 19,
+      "title": "Ethernet , Internet May 22, 1973, Robert Metcalfe",
+      "text": "Ethernet , Internet May 22, 1973, Robert Metcalfe proposed “Ethernet” in a memo at Xerox PARC in California. It is a combination of “ether” ( a supposed all-pervading medium for waves) with “net” meaning network Metcalfe used “ether” as a metaphor for the shared cable medium carrying computer transmissions 1974, Vint Cerf and Bob Kahn developed and described protocols for linking separate packet networks. “Internet” appeared in RFC 675, published in December 1974, as shorthand for “internetwork” or “internetworking.” Word \"Internet\" described interconnected networks communicating through common protocols https://www.computerhistory.org/tdih/may/22/ https://www.rfc-editor.org/info/rfc675/ https://www.scienceandmediamuseum.org.uk/objects-and-stories/short-history-internet"
+    },
+    {
+      "index": 20,
+      "title": "AI News NVIDIA puts an AI agent watchdog",
+      "text": "AI News NVIDIA puts an AI agent watchdog into silicon Nvidia Open Agent Safety Platform Guards agents at two layers:  host CPU and DPU OpenShell - open-source (Apache 2.0) runtime that sandboxes agents with kernel-level isolation Policies set what an agent may touch in files, network, processes and inference Sentry runs out of band on BlueField-4 DPUs and quarantines a rule-breaking agent in milliseconds A compromised agent runtime cannot reach or disable the watchdog 100+ partners at launch, including Anthropic, Microsoft, CrowdStrike, SAP and JPMorganChase https://nvidianews.nvidia.com/news/open-agent-safety-platform https://www.nvidia.com/en-us/ai/openshell/ - OpenShell AMD to Acquire Fei-Fei Li’s World Labs in an all-stock deal valued at about $8.2 Bln Expected to close by the end of 2026 World Labs develops AI “world models” that can understand, generate, and simulate 3D environments AMD says the acquisition will bring in research talent to help shape its AI hardware, software, and systems for emerging workloads such as robotics and physical AI"
+    },
+    {
+      "index": 21,
+      "title": "AI News Fireworks.AI Ember-1 - 40% less Tokens",
+      "text": "AI News Fireworks.AI Ember-1 - 40% less Tokens Ember-1 is a Fireworks Research post-trained version of Moonshot AI’s Kimi K3 Its aim is to preserve K3’s task quality while generating substantially shorter reasoning traces Kimi K3 is the underlying 2.8-Trillion-parameter model Results: 71% fewer reasoning tokens, 39% fewer in total, same success rate Same per-token price as K3, 1M-token context Status: Research Preview on the Fireworks serverless API only; no weights Fireworks AI, Inc. - a startup in California . It was founded in 2022 by Lin Qiao and other former Meta/PyTorch engineers. Size - approx 200 people. It has grown into a major AI-infrastructure company: in July 2026 it raised about $1.5 Bln in Series D funding at a reported $17.5 Bln valuation https://fireworks.ai/blog/ember-1 https://fireworks.ai"
+    },
+    {
+      "index": 22,
+      "title": "AI News Cloudflare's new cf CLI is built",
+      "text": "AI News Cloudflare's new cf CLI is built for agents Agents now make 48% of Cloudflare CLI use (up from 25% in March) cf exposes 3K+ API operations, vs about 280 commands in Wrangler JSON output by default and a natural-language cf cli search to find commands TypeScript config (cloudflare.config.ts) replaces TOML Open beta and open source; install with npm i -g cf \"Wrangler CLI\" will be maintained for 18 months https://blog.cloudflare.com/cloudflare-cf-cli-launch/ Vercel: 1 Mln Agent Skills, 280 Mln Installs in 7 months So, Vercel - 7 months, GitHub - 27 mon, App Store - 60 months Vercel launched https://www.skills.sh - a directory and leaderboard for discovering AI-agent skills - ~ 1.5 Mln skills Top uses: software engineering 18%, agent workflows 15%, business operations and writing about 11% each The top 1.2% of skills get 94% of installs; almost half were installed once Over half of published skills teach coding demand for business and writing skills is under-served https://vercel.com/blog/state-of-agent-skills"
+    },
+    {
+      "index": 23,
+      "title": "AI News Cloudflare and AWS - open Jev-style",
+      "text": "AI News Cloudflare and AWS - open Jev-style decision models the same day Cloudflare Clef (27B) and Clef-flash (9B) return typed probabilities instead of text Median latency 209 ms and 39 ms, against 524 ms for TypeSafe's Jev BANKING77: 94.20 macro-F1 for Clef vs 79.74 for Jev; fully Jev-API compatible Apache 2.0 on Hugging Face, 64K context, also reads images AWS Strands Decider 2B picks options in about 115 ms on one RTX 3090 Apache 2.0 with code and training recipe: pip install strands-decider https://blog.cloudflare.com/clef-decision-models/ Claude Code mods - Customize the Agent TypeScript/Javascript plugins that change the agent Mods hook into every tool call, turn and screen redraw, and can observe, rewrite or answer them Blast Radius - preview risky deletions. Pauses rm -rf , hard resets and force pushes and shows what they would touch Token Weather - shows context use and a sparkline of the last 12 turns Replay Theater - lets you step through every edit Claude made Built-in /diff is itself a mod; works in the CLI and desktop Code tab Mods get the agent's full access to your machine, so install only trusted ones You can describe a desired mod to Claude Code, which can create, install, and reload it Plugins are managed through `/plugin` . https://code.claude.com/docs/en/plugins/mods/overview https://claude.com/blog/claude-code-mods"
+    },
+    {
+      "index": 24,
+      "title": "AI News Xiaomi MiMo-V2.6-Pro becomes the top open-weight",
+      "text": "AI News Xiaomi MiMo-V2.6-Pro becomes the top open-weight model Scores 46 on the Artificial Analysis Intelligence Index, first among open models Ahead of Grok 4.6 (44) and Gemini 3.8 Flash (41) Mixture of experts: 1.02 trillion parameters, 42B active, 1M-token context Takes text, image, speech and video input RL training took under six days and cost $2.62 million; Xiaomi published the code and 7,000 task environments MIT license; API at $0.435 in / $0.87 out per million tokens https://artificialanalysis.ai/models/mimo-v2-6-pro Tavus Griffin: 48% of people took an AI video caller for a human Griffin is a \"Human Interaction Model\" that sees, hears and talks live on video It reacts while you talk: nods, notices expressions, picks up details on your screen In a one-minute call study, 26 of 54 people (48%) thought it was a real person Earlier systems, including Tavus's own, peaked at about 2% Griffin-Lite goes only to trusted testers while safety and disclosure work continues https://www.tavus.io/griffin"
+    },
+    {
+      "index": 25,
+      "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 130.5K in 2026 (as of Oct 2, 2026) 123K in 2025 153K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 190,865 people laid off (694 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 26,
+      "title": "Tech Hiring Software job postings on Indeed -",
+      "text": "Tech Hiring Software job postings on Indeed - comparing to 2020 level: 2022 - 234% 2025 - 65% 2026 - 77% All US job postings: 103% (compared with 2020) Postings that mention AI: 6.7% of all, up from 3.4% a year ago https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE Skills in demand Dice, 7M+ US tech postings (Aug 2026): +18% year over year AI and machine learning postings +101% year over year, five times the overall rate Fastest-growing skills, each up 200%+: responsible AI, AI agents, agentic AI, AI infrastructure Most requested overall: communication, computer science, troubleshooting Indeed: 71% of the software postings rebound is senior roles 37% has AI in the title https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/ https://www.dice.com/hiring/recruitment/reports/dice-tech-job-report Top \"In Demand\" Skills and Qualifications - Critical thinking and problem-solving - Communication and stakeholder management - Adaptability and continuous learning - AI literacy and practical AI adoption - AI/ML application development - Data engineering and data management - Cybersecurity and risk management - Cloud and infrastructure engineering - Software engineering - Automation and workflow optimization - DevOps, CI/CD, and platform engineering - Governance, compliance, and responsible AI - Analytical thinking and data analysis - Product management and business alignment - Project and program management - Leadership and cross-functional collaboration - Creativity and innovation - Resilience and professionalism - Technical troubleshooting and systems thinking - Business growth and customer focus"
+    },
+    {
+      "index": 27,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 28,
+      "title": "Thank You! Videos of every seminar are on",
+      "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI News - Oct 2, 2026 Trend -",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "AI News - Oct 2, 2026 Trend -",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Gemini 4 Argon - Google's Latest",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "AI News Gemini 4 Argon - Google's Latest",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Claude Sonnet 5.5: Faster, Lower-Cost API",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "AI News Claude Sonnet 5.5: Faster, Lower-Cost API",
+      "source": "slide"
+    },
+    {
+      "claim": "DeepSeek DSec paper AI Agents Train Their Successors",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "DeepSeek DSec paper AI Agents Train Their Successors",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News OpenAI cancels GPT-6.1 Astra and releases",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "AI News OpenAI cancels GPT-6.1 Astra and releases",
+      "source": "slide"
+    },
+    {
+      "claim": "OpenAI DevDay 2026 - Agents and Tools OpenAI",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "OpenAI DevDay 2026 - Agents and Tools OpenAI",
+      "source": "slide"
+    },
+    {
+      "claim": "Weekly videos every Friday Weekly videos every Friday",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Appeals court lets the Pentagon keep",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "AI News Appeals court lets the Pentagon keep",
+      "source": "slide"
+    },
+    {
+      "claim": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails",
+      "source": "slide"
+    },
+    {
+      "claim": "AI Updates Memoh: AI Agents With Their Own",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "AI Updates Memoh: AI Agents With Their Own",
+      "source": "slide"
+    }
+  ]
+}
