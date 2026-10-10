@@ -1,5 +1,299 @@
 [
   {
+    "id": "2026-10-09-2026-10-09-ai-news",
+    "date": "2026-10-09",
+    "title": "AI-News",
+    "series": "ai-weekly",
+    "topics": [
+      "claude",
+      "openai",
+      "google",
+      "open-models",
+      "benchmarks",
+      "data-engineering",
+      "agents",
+      "coding",
+      "multimodal",
+      "jobs",
+      "safety"
+    ],
+    "video": null,
+    "deck": {
+      "path": "2026/2026-10-09-AI-News.pptx",
+      "filename": "2026-10-09-AI-News.pptx",
+      "title": "AI-News",
+      "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-10-09-AI-News.pptx",
+      "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-09-AI-News.pptx"
+    },
+    "match": {
+      "confidence": "deck-only",
+      "method": "unmatched"
+    },
+    "chapters": [],
+    "slides": [
+      {
+        "index": 1,
+        "title": "AI News - Oct 9, 2026 Copilot used",
+        "text": "AI News - Oct 9, 2026 Copilot used to live in Word. Now Word lives in Copilot. LM Arena Leaderboard Artificial Analysis Intelligence Index Microsoft Copilot’s Evolution Claude Haiku 5.5 Mistral Large 4 \"Le Chonk\" Building Better Through Constraints AI Agents Build a Complex App Feature Claude Code Mods Claude Code JavaScript Videos Adobe Suite Rebuilt in Rust with Claude DeepSeek Harness: Evolving Agents Kent Beck on Craft and AI Coding 2026 Nobel Prizes AI work that has already won Nobels AI work that has already won Turing Award Manus 2.0 and Cue Research - AI Improves Its Own Design Strata: 125B Model on a Normal PC SpaceXAI Renamed SpaceXSI HumanLayer Multiplayer Agent Workspace AI-Powered Video Editing Workflow Xiaomi HySparse2 Cuts Agent Context Costs Salesforce JitMem: Memory on Demand Zed + Claude Agent Toolkit Chinese Chips Alibaba’s V900 Chip Sign in with ChatGPT Spends Your Plan White House Super Intelligence Accord Microsoft MAI-Transcribe-2-Streaming Agentic AI Token Use Dwarfs Human Use Trump's Super Intelligence Force Aleph Alpha Kolibri 78B MoE image-blaster: Photo to 3D World Reflection AI Beam 501B Open Model Reka Rho-1 19B Multimodal Model a16z - Top 100 Gen AI Consumer Apps Devin Memory and Dreaming OpenAI Publishes 722 Math Papers Cloudflare Integrates Pi Durable Claude-Shaped Science Google Gemini Agent Coworkers Jobs & Layoffs Tech Hiring and Skills in Demand"
+      },
+      {
+        "index": 2,
+        "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for Oct 8 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.3 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Deepseek-v4.1-Flash - 552B Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ gemini-4-argon-high 1562 ■ claude-fable-5-high 1551 ■ claude-opus-4-7-high 1550 ■ claude-opus-4-6-high 1550 ■ claude-opus-5.5-high 1550 ■ claude-opus-4-6 1548 ■ claude-opus-4-7 1546 ■ gpt-6.1-sol-max 1545 ■ gpt-6-astra-max 1542 ■ kimi-k3-max 1540 ■ mimo-v2.6-pro 1539 ■ muse-spark-1.3-max 1538 ■ gpt-5.6-sol-xhigh 1535 ■ claude-opus-5-high 1534 ■ claude-fable-5.1-max 1534 ■ claude-opus-4-8-high 1533 ■ muse-spark-1.1 1533 ■ claude-sonnet-5.5-xhigh 1532 ■ muse-spark-1.2 (xHigh) 1531 ■ claude-opus-4-5-20251101-high-32k 1531 ■ gemini-3.8-flash-high 1530 ■ claude-opus-5-max 1530 ■ claude-opus-4-8 1529 ■ muse-spark 1529 ■ claude-sonnet-4-6 1528 Code Model Score ■ gemini-4-argon-high 1525 ■ claude-opus-5.5-high 1507 ■ claude-opus-4-6-high 1504 ■ claude-fable-5-high 1504 ■ claude-opus-4-7-high 1501 ■ claude-fable-5.1-max 1501 ■ claude-opus-4-6 1498 ■ gemini-3.8-flash-high 1497 ■ muse-spark-1.3-max 1494 ■ claude-opus-4-7 1494 ■ muse-spark-1.2 (xHigh) 1492 ■ muse-spark-1.1 1491 ■ claude-opus-5-high 1490 ■ claude-opus-5-max 1489 ■ muse-spark 1489 ■ kimi-k3-max 1488 ■ gemini-3.1-pro-preview 1487 ■ gemini-3.7-flash-high 1486 ■ gemini-3-pro 1485 ■ gpt-5.6-sol-xhigh 1485 ■ gpt-6.1-sol-max 1484 ■ qwen3.8-max 1483 ■ gemini-3.6-flash-high 1482 ■ gpt-5.5-high 1482 ■ claude-opus-4-8-high 1481"
+      },
+      {
+        "index": 3,
+        "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Oct 8"
+      },
+      {
+        "index": 4,
+        "title": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins",
+        "text": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins as an assistant inside Word, Excel, PowerPoint, Outlook, and Teams; Business Chat connects information across applications 2024: Copilot Pages introduces persistent, shared workspaces; agents extend Copilot into business workflows 2025: Copilot Chat broadens access to specialized agents September 2026: Home brings applications into Copilot; Code builds custom software, while Autopilot handles ongoing delegated work. The direction reverses: instead of Copilot living inside apps, apps become capabilities inside Copilot “Operating system for work” , rollout remains staged From Windows OS to Copilot OS ? Mistral Large 4 \"Le Chonk\" 1.05T params, 49B active, natively multimodal 1M context, 160+ languages Cybench 93%; DeepSWE v1.1 61.7% API: $1.36 / $4.18 per 1M tokens Open weights promised in October https://mistral.ai/news/mistral-large-4/ Claude Haiku 5.5 1M-token context, 128K-token output, text/image input, tool use, adjustable reasoning effort Pricing per million input/output tokens: $0.10/$0.50 for prompts up to 100K; $0.50/$2.50 above (Haiku 4.5 was $1/$5) Matches GPT-6 Luna’s base pricing; Gemini 3.5 Flash-Lite’s $0.30/$2.50 Stronger at coding and computer-use benchmarks than Luna; complex coding still favors Sonnet https://www.anthropic.com/claude-haiku-5-5"
+      },
+      {
+        "index": 5,
+        "title": "AI News Building Better Through Constraints David Heinemeier",
+        "text": "AI News Building Better Through Constraints David Heinemeier Hansson, 37signals co-owner and Basecamp creator, in a long-form interview He argues that software improves when teams deliberately limit features, resources, and interruptions The discussion covers Basecamp’s 2004 launch, current AI-assisted development, and his work on the Omarchy Linux distribution Problem: abundant resources and large teams can encourage bloated products, forced upgrades, and needless complexity Solution: Preserve constraints, keep proven software stable, build for real jobs , and favor focused small teams Achievement: Basecamp was initially built in 380 hours and still supports profitable legacy versions for longtime customers Key lesson: Use AI to sharpen judgment - not merely to produce more code. https://www.youtube.com/watch?v=76rR68ktQvo https://basecamp.com https://37signals.com https://omarchy.us"
+      },
+      {
+        "index": 6,
+        "title": "AI News AI Agents Build a Complex App",
+        "text": "AI News AI Agents Build a Complex App Feature The creator of Enjoy, an AI-agent app, describes using Claude Opus 5.5 in Ultra Code to implement a 2,700-line specification for team collaboration. The project involved redesigning the app for multiple users and coordinating phones, browsers, desktop clients, a relay server, and encrypted traffic. The creator says the agent worked for about seven hours, using dozens of implementation and review agents, with tests and CI checks. He reports that the feature matched the specification and worked well, contrasting it with earlier agents that failed on smaller tasks and left codebases broken. His proposed shift is from manually reviewing every line to evolutionary coding : automated tests, adversarial agent reviews, and production results guide iteration . The achievement suggests AI may shorten complex development and change engineering practice. https://www.anthropic.com/claude-opus-5-5 https://platform.claude.com/docs/en/models/opus-5-5/overview https://www.youtube.com/watch?v=2zLuYU_Ub_0"
+      },
+      {
+        "index": 7,
+        "title": "Claude Code Mods Claude Code Mods Mods =",
+        "text": "Claude Code Mods Claude Code Mods Mods = JavaScript handlers that customize Claude Code assistant Claude Code Mods are small add-ons that change Claude Code’s interface or behavior mods require version 2.1.287 or newer To create a mod, just describe the feature you want - and Claude builds the mod Enable hot reloading to try it immediately in the terminal or desktop Code tab To keep it, ask Claude to save and install it as a plugin so it remains available in future sessions Examples: a tool counter, destructive-command guard, prompt simplifier, context-usage meter. Mods address repetitive instructions, risky commands, and limited context visibility by intercepting events and drawing interface elements Mods are potentially dangerous (example: a mod to silently approve all file reads) VS Code support is partially implemented Mods can address agent visibility, costs, risky deletions, repeated corrections, browser switching, and reviewing edits Importance: personalized workflows; background AI agents consume additional usage. https://code.claude.com/docs/en/plugins/mods/overview https://github.com/anthropics/claude-code/tree/main/mods https://www.youtube.com/watch?v=E-7jurTZn-I https://www.youtube.com/watch?v=lDrAZ1wAyVs"
+      },
+      {
+        "index": 8,
+        "title": "Claude Code JavaScript Videos Claude Code JavaScript Videos",
+        "text": "Claude Code JavaScript Videos Claude Code JavaScript Videos Chase AI demonstrates creating explainers, product demos, and motion graphics with Claude Code and JavaScript, without Remotion or After Effects JavaScript defines each frame as a function of time Playwright renders frames (runs animation, takes screenshots) Human approves FFmpeg assembles the MP4 The workflow runs locally Prompts specify duration, aspect ratio, style, and audio; reference images or videos guide composition A reusable skill automates intake, storyboarding, coding, checks, and delivery The achievement is reproducible, editable animation without dedicated video generators https://code.claude.com https://playwright.dev https://ffmpeg.org https://elevenlabs.io https://www.youtube.com/watch?v=rscb1DgJtNg Solo developer rebuilds Adobe Creative Suite in Rust using Claude Releases it free to all Targets 100% parity in one month despite piracy claims and safety warnings https://www.tomshardware.com/software/video-editing-graphic-design/solo-developer-rebuilds-adobe-creative-suite-in-rust-using-claude-releases-it-free-to-all-targets-100-percent-parity-in-one-month-despite-piracy-claims-and-safety-warnings"
+      },
+      {
+        "index": 9,
+        "title": "DeepSeek Harness: Evolving Agents DeepSeek Harness: Evolving Agents",
+        "text": "DeepSeek Harness: Evolving Agents DeepSeek Harness: Evolving Agents DeepSeek AI released its open-source agent harness in August. Github repo now has 245K stars A locally hosted runtime with a browser interface, terminal access, coding tools, web search, planning, and subagents Cordis-based architecture makes models, tools, memory, execution loops, and interfaces replaceable plugins Self-improvement: Creator mode enables runtime plugin changes; a separate community plugin adds persistent memory, evolving user profiles, and reusable skills - not automatic model retraining Developers can build adaptable agents without rewriting the core framework. This is extensible agent infrastructure, not proof of autonomous intelligence improvement https://www.deepseek.com/harness/en/ https://github.com/deepseek-ai/deepseek-harness https://github.com/madage/dsh-self-improved"
+      },
+      {
+        "index": 10,
+        "title": "Weekly videos every Friday Weekly videos every Friday",
+        "text": "Weekly videos every Friday Weekly videos every Friday 7.62K subscribers, 360 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+      },
+      {
+        "index": 11,
+        "title": "AI News Kent Beck on Craft and AI-Assisted",
+        "text": "AI News Kent Beck on Craft and AI-Assisted Development Kent Beck is known for his book Extreme Programming (XP, 1999) - Agile approach to building software - deliver small improvements often, get feedback quickly, and adapt rather than trying to plan everything up front https://en.wikipedia.org/wiki/Extreme_Programming https://extremeprogrammingalliance.com/about-extreme-programming-xp/ Common XP practices include: Test-driven development (TDD), Pair programming, Continuous integration, Small releases and regular customer feedback, Refactoring: improve the code’s structure https://www.agile-academy.com/en/agile-dictionary/extreme-programming/ Kent Beck warns that AI-generated code may be broken; developers must verify behavior rather than trust appearances His solution: work iteratively, test continuously, and alternate shipping features with refactoring that preserves future choices This balance enables learning and keeps software adaptable, instead of rapidly accumulating complexity until change becomes dangerous Beck argues that code volume do not prove progress https://www.youtube.com/watch?v=aSXaxOdVtAQ https://kentbeck.com https://newsletter.pragmaticengineer.com/p/how-kent-beck-shapes-the-software"
+      },
+      {
+        "index": 12,
+        "title": "2026 Nobel Prizes 2026 Nobel Prizes October 5",
+        "text": "2026 Nobel Prizes 2026 Nobel Prizes October 5 - Physiology or Medicine — Karl Deisseroth, Peter Hegemann, Georg Nagel — For discoveries concerning light-gated ion channels and optogenetics, enabling control of nerve-cell activity using light. October 6 — Physics — Francis Halzen — For contributions to the IceCube Neutrino Observatory and the discovery of high-energy neutrinos of astrophysical origin. October 7 — Chemistry — Henri B. Kagan, Kenso Soai — For discoveries of nonlinear effects and autocatalysis in asymmetric organic synthesis. October 8 — Literature — Anne Carson — For her inventive literary work creating new forms in dialogue with the classical tradition. October 9 — Peace — Navanethem “Navi” Pillay — For her efforts to promote peace and international law. October 12 — Economic Sciences — Not yet announced AI work that has already won Turing Award 2018 - Yoshua Bengio, Geoffrey Hinton, and Yann LeCun 2024 - Andrew Barto and Richard Sutton for RL AI work that has already won Nobels 2024 — Physics — John J. Hopfield and Geoffrey Hinton 2024 — Chemistry — Demis Hassabis and John Jumper"
+      },
+      {
+        "index": 13,
+        "title": "AI News Manus 2.0 and Cue Agent app",
+        "text": "AI News Manus 2.0 and Cue Agent app - web, desktop, and mobile Manus’s Cascade harness, Studio, and cloud computers let agents handle projects, edit videos, build games, run automations, and work remotely Cue gives each agent an email, phone number, wallet, and computer https://manus.im/blog/introducing-manus-2-0 https://www.youtube.com/watch?v=L75zF2WKiVE Research - AI Improves Its Own Design Weco AI is based in London, UK Weco’s AIDE² experiment - \"autoresearch on autoresearch\" Used two nested AI-agent loops . The inner agent tried to improve solutions to research and engineering tasks; the outer agent repeatedly rewrote the inner agent’s harness code , evaluated the rewrite under a fixed cost budget, and kept it only if it improved on a hidden score The system changed the agent’s scaffolding, not the underlying model weights Over eight days, the system ran 100 rounds, proposing and testing changes; seven upgrades survived hidden evaluations Its best version, AIDE85, outperformed Weco’s two-year, hand-tuned baseline on held-out benchmarks under a fixed budget. The result offers public evidence for level-one recursive self-improvement: an AI system improving faster than manual tuning https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement https://arxiv.org/abs/2609.26457 https://openai.com/index/path-to-astra/"
+      },
+      {
+        "index": 14,
+        "title": "AI News Strata Runs 125 Bln Params Model",
+        "text": "AI News Strata Runs 125 Bln Params Model on a Normal PC Developer Niko1221 published Strata on GitHub to run Qwen3.8-Flash-Next locally  -125 Bln params 45 tok/sec on RTX 5070 + 64GB RAM for 128K context Strata splits work across GPU, system RAM and SSD: the GPU handles shared operations and cached experts, while CPU and SSD provide additional model data https://github.com/Niko1221/Strata https://huggingface.co/collections/Qwen/Qwen3.8-Flash-Next SpaceXAI to be renamed to SpaceXSI Musk said SpaceXAI, SpaceX’s AI unit, would become SpaceXSI, with “ SI” standing for “super intelligence.” He provided no implementation timetable This concerns the AI unit - not renaming the entire SpaceX company."
+      },
+      {
+        "index": 15,
+        "title": "AI News HumanLayer - The Multiplayer Coding Agent",
+        "text": "AI News HumanLayer - The Multiplayer Coding Agent Workspace TL;DR - AI agents can implement features quickly, but humans must retain product, architectural, and program-design control Problem: Coding factories can create unreviewed, poorly structured code, leaving teams unable to diagnose serious bugs months later Solution: Define measurable user outcomes, architecture, interfaces, tests, and small end-to-end vertical slices before agents generate large changes The approach shifts engineers toward high-leverage design, verification, and prioritization Note: Benchmarks that merely pass tests do not measure maintainability; sustained human understanding and feedback remain essential https://humanlayer.com https://x.com/dexhorthy"
+      },
+      {
+        "index": 16,
+        "title": "AI News AI-Powered Video Editing Workflow Claude Code",
+        "text": "AI News AI-Powered Video Editing Workflow Claude Code using Claude Opus 5.5 edits footage with HyperFrames or Remotion (HMLT, CSS, React), previews results, and revises them from feedback A connected MCP service, such as Blotato , can publish the finished video and accompanying post to social accounts The presenter reports a polished edit after roughly 10 minutes and one feedback round, suggesting a faster content-production process https://www.youtube.com/watch?v=flXfwevUJTk https://github.com/heygen-com/hyperframes https://www.remotion.dev https://www.blotato.com/mcp https://aiprofitboardroom.com ------------------ brew install node ffmpeg npx hyperframes init my-video cd my-video npx skills add heygen-com/hyperframes In Claude Code: /hyperframes Create a 20-second, 16:9 video introducing my home-networking consulting service. Use a clean, modern style, animated network diagrams, and a title card at the end. npx hyperframes preview npx hyperframes render ------------------ npx create-video@latest cd your-project-name npx skills add remotion-dev/skills npm run dev Then in Claude Code: Create a 20-second, 16:9 video introducing my home-networking consulting service. Use animated network diagrams, a clean modern style, and a title card at the end."
+      },
+      {
+        "index": 17,
+        "title": "AI News Xiaomi HySparse2 Cuts Agent Context Costs",
+        "text": "AI News Xiaomi HySparse2 Cuts Agent Context Costs Combines KV bridging reuse between layers Xiaomi reports 4.5 times reduction of KV cache size, and 5 times fewer prefill FLOPs Retrieval also improved on the reported 256K-token test DeepSeek’s V4.1-Flash uses related techniques The parallel designs highlight cache reuse as a key direction for long-context agents . https://www.youtube.com/watch?v=eXad7m0TjVM https://arxiv.org/abs/2609.26368 https://arxiv.org/html/2609.19969v1 https://arxiv.org/abs/2405.05254 Salesforce JitMem: Memory on Demand Just-in-Time Memory (JitMem) method stores successful agents’ full interaction trajectories, then has a curator create a task-specific briefing when a new task arrives It beat the strongest write-time memory baseline across 3 benchmarks The approach preserves flexible evidence, though its usefulness still depends on the curator’s reasoning. https://www.youtube.com/watch?v=pSkh-mNd9LQ https://arxiv.org/abs/2609.27334 https://aiweekly.co/alerts/jitmem-curates-llm-agent-memory-at-read-time-not-write-time"
+      },
+      {
+        "index": 18,
+        "title": "Zed + Claude Zed + Claude Install Zed:",
+        "text": "Zed + Claude Zed + Claude Install Zed: On macOS, use Homebrew or download the app; on Windows, use winget or the installer; on Linux, run Zed’s install script - https://zed.dev/docs/installation Open Zed and launch the Agent Panel with Cmd-? on macOS or Ctrl-? on Windows/Linux Install Claude Agent: Open the command palette and run “zed: acp registry,” or open Agent Settings, select External Agents, then Add Agent → Install from Registry. Choose Claude. Start a new Claude Agent thread from the Agent Panel or Threads Sidebar. Authenticate when prompted, or enter /login in the Claude thread to choose an available sign-in method. Claude Agent handles its own authentication and billing; Use Pro or Max subscription to save money Open a project and ask Claude to explain, edit, or debug code. https://zed.dev/docs/ai/external-agents Ask Claude to download and install rules and skills under ~/.claude/ from this repo: https://github.com/lselector/agent-toolkit agent-toolkit rules: communication_style.md, keep_terse.md, modularity.md, no_frankenstein.md, python_formatting_rules.md, simplicity.md , skill_naming_hyphens.md, update_docs.md, update_wiki.md, web_development.md, writing_prose.md skills: architecture-review, design-doc, humanize, lean-change, repo-init, repo-init/gitignore.template, wiki-init, wiki-serve, wiki-stop, wiki-update wiki: README.md, conventions.md, server_restart.sh, server_start.sh, server_stop.sh, styles.css, test_wiki.py, wiki_edit.py, wiki_pages.py, wiki_server.py, wiki_tools.py"
+      },
+      {
+        "index": 19,
+        "title": "Chinese Chips Chinese Chips Ascend by Huawei —",
+        "text": "Chinese Chips Chinese Chips Ascend by Huawei — 812K chips shipped in 2025. Zhenwu by Alibaba T-Head — 265K chips shipped in 2025. The V900 is a new model, planned for mass production in Q1 2027. Kunlun by Baidu / Kunlunxin — about 116K chips shipped in 2025. Siyuan by Cambricon — about 116K chips shipped in 2025; targeting 500K AI accelerators in 2026. MetaX GPUs by MetaX — ~ 4% of Chinese-vendor shipments in 2025. Moore Threads GPUs by Moore Threads BR-series GPUs by Biren https://www.reuters.com/world/china/chinese-chipmakers-claim-nearly-half-of-local-market-nvidias-lead-shrinks-idc-2026-04-01/ Alibaba’s V900 Chip Alibaba claims it is China’s most powerful AI chip and says it offers three times the performance of its predecessor, the M890 216 GB of memory, 1.2 TB/s chip-to-chip bandwidth, FP8/FP4 support, and clusters scaling to 500K chips 12 V900s could hold a 2.4-trillion-parameter model’s FP8 weights, versus about 18 Nvidia H200s V900 mass production is planned for early 2027 https://www.tomshardware.com/tech-industry/artificial-intelligence/alibaba-unveils-zhenwu-v900-ai-accelerator-claims-its-the-most-powerful-ai-chip-in-china-accelerator-supports-500-000-chip-supercluster-with-a-10t-parameter-qwen-model-on-the-roadmap"
+      },
+      {
+        "index": 20,
+        "title": "AI News Sign in with ChatGPT - lets",
+        "text": "AI News Sign in with ChatGPT - lets apps spend your ChatGPT plan In limited preview (Plus & Pro users) - let an app use their ChatGPT Work and Codex allowance 16 launch partners - Notion, Vercel, Devin, Amp, Warp, OpenCode, ... Weekly cap per app, set in Settings > Usage as a share of the plan App sees only name, email and picture, not chats or memories https://thenewstack.io/sign-in-with-chatgpt/ Six AI labs sign the White House Accord on Super Intelligence Signed by Google, Anthropic, Meta, OpenAI, xAI and Nvidia leaders Four layers of oversight: internal controls, internal checkers, an outside auditor , a board committee Each company picks its own auditor and need not name it No penalties, no disclosure rule, no deadline Trump called it \"morally binding\" https://www.techtimes.com/articles/328464/20261002/white-house-ai-safety-accord-has-no-penalties-no-breach-reporting-self-chosen-auditors.htm Microsoft MAI-Transcribe-2-Streaming #1 of 38 on Artificial Analysis 60 languages with automatic language detection First partial text in about 100 ms, final text 0.13 s after speech ends $0.54 per audio hour through 2026; public preview in Foundry S hipped with MAI-Voice-2.1 and MAI-Voice-2.1-Flash https://microsoft.ai/news/our-first-streaming-transcription-model/"
+      },
+      {
+        "index": 21,
+        "title": "AI News Agentic AI Token Use is Much",
+        "text": "AI News Agentic AI Token Use is Much Bigger that Human Human tokens are input and output text tokens from direct, human-driven AI interactions. For example, a person submitting a document and receiving its summary. Prompt, document, and summary - all count towards \"human\" tokens Agentic tokens come from automated AI workflows that make repeated model calls, use tools, retain context, and execute multi-step tasks such as coding, research, or debugging. OpenRouter classifies traffic from behavioral signals including tool calls, number of conversation turns, and request timing - not simply whether a human initiated the work. Agentic usage overtook human usage on Feb 6, 2026. By August 10, agentic traffic reached 7.3 trillion tokens on a seven-day average, versus 1.4 trillion human-driven tokens: over 5× larger. From February, agents grew about 14×; human usage grew 2.8×. https://cryptobriefing.com/openrouter-agentic-token-usage-14x-growth/"
+      },
+      {
+        "index": 22,
+        "title": "AI News Trump launches a Super Intelligence Force",
+        "text": "AI News Trump launches a Super Intelligence Force Chaired by Director of National Intelligence Jay Clayton It has 120 days to report on AI risks and opportunities Charter: plan for \"SI-enabled threats\" while preventing overregulation Ferguson's FTC (Federal Trade Commission) is probing OpenAI and Anthropic https://siliconangle.com/2026/10/04/trump-launches-super-intelligence-force-with-jay-clayton-as-ai-czar/ Aleph Alpha Kolibri: open 78B MoE Released Oct 3 on Hugging Face under Apache 2.0 78.1B total parameters, 3.46B active per token; 384 experts plus 1 shared Context of 1 Mln tokens; trained on 24T tokens English and German; 84.3 on GPQA Diamond, per Aleph Alpha FP8 checkpoint (~78 GB) fits one H200 or B200, or two H100s Pitched for on-premises use under the EU AI Act and GDPR https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/ image-blaster: one photo to a 3D world in 5 minutes Open-source Claude Code skill set, MIT license Claude runs the pipeline: World Labs Marble for the scene, Hunyuan 3D for objects, ElevenLabs for sound Output: Gaussian splat scene, .glb / .obj object meshes with colliders, ambient and object sounds Loads in Unity, Unreal, Godot, Blender and Three.js Drop an image in input/ , add API keys, ask Claude to \"blast\" it https://github.com/neilsonnn/image-blaster"
+      },
+      {
+        "index": 23,
+        "title": "AI News Reflection AI Beam - 501B open-weight",
+        "text": "AI News Reflection AI Beam - 501B open-weight model First model from the $25 Bln US startup Sparse MoE: 501B total, 23B active, 1M context, text only Claims 80.9 on SWE-bench Verified Claims GLM-5.2-level reasoning at 3 to 4x less compute Kimi K3 still ahead; all numbers are Reflection's own Weights under Apache 2.0 to be released later in October https://reflection.ai/blog/introducing-beam Reka Rho-1: 19B model for text, video and robot actions Reka.ai - a startup in San Francisco, CA - https://reka.ai Rho-1 model reads and generates text, images, video, and robot actions Replaces the usual world model, planner and policy handoffs with one network First video clip in 7.0 sec versus 13.8 sec for a multi-agent pipeline Robot labels inferred from ordinary video with an inverse dynamics model Trained from scratch on 320 H100s in about 3 months Research preview only ; video capped at 672x384, no physical robot demo yet a16z - Top 100 Gen AI Consumer Apps New list ranks apps by US consumer card spending ChatGPT has about 3-times the paid subscribers of Gemini or Claude Only 4.5% of Americans pay for a major chatbot Median payer spends $25 84% of AI-native web apps sell subscriptions, 14% run ads Personal agents are the new front: Muse, Dots, Grok Bot, Instinct a16z is Andreessen Horowitz, an American venture-capital firm https://a16z.com/100-gen-ai-apps-7/"
+      },
+      {
+        "index": 24,
+        "title": "AI News Devin adds Memory and Dreaming Dreaming",
+        "text": "AI News Devin adds Memory and Dreaming Dreaming - Across sessions, Devin builds a memory graph of how you like to work. Saves preferences, corrections, project lessons At night Devin self-improves its memory to remove stale records and discover latent information Each memory is a short note linked back to the session that taught it Stored in a personal Memory Drive: a Git repo of Markdown files with a MEMORY.md index Dreaming runs daily: dedupes memories, links them to sessions and artifacts, derives new knowledge Under Customize > Memory; memory is personal, not shared org rules https://devin.ai/blog/memory-and-dreaming"
+      },
+      {
+        "index": 25,
+        "title": "AI News OpenAI publishes 722 math papers from",
+        "text": "AI News OpenAI publishes 722 math papers from an unreleased model 722 manuscripts in 372 result families, posted on GitHub Model tried about 4,000 open research problems Boldest claim: a proof of a quasi-Riemann hypothesis 162 papers have their main results checked in Lean Average cost: about 3 hours of ChatGPT Pro compute per result Levent Alpöge (Anthropic): \"the most significant moment in mathematical history\" Nothing is peer reviewed yet; some mathematicians are angry about the volume https://github.com/openai/math Cloudflare Integrates Pi Durable Cloudflare and Earendil integrated Pi Durable into Cloudflare’s Agents SDK. The new PiHarness class runs Pi-powered agents inside Cloudflare Durable Objects, connecting the agent harness to persistent SQLite storage. Long-running agents can lose progress when interrupted. Persisted state and lifecycle alarms let interrupted runs resume after eviction. The integration combines agent execution, persistence, and recovery, making resilient agents easier to deploy. PiHarness is beta; Pi Durable is experimental, so APIs may change. https://developers.cloudflare.com/agents/harnesses/pi/"
+      },
+      {
+        "index": 26,
+        "title": "AI News Anthropic: \"Claude-shaped\" problems in science Physicist",
+        "text": "AI News Anthropic: \"Claude-shaped\" problems in science Physicist Matthew Schwartz on which science problems suit Claude Claude-shaped: heavy on coding and data parsing Result: BootLoops, a toolkit for quantitative calculations from ecology to population genetics Answers were technically correct but needed domain experts to make them relevant Lesson: AI speeds up the technical work; human insight still picks what matters https://www.anthropic.com/research/claude-shaped-science Google Gemini agent: AI coworkers with their own email Announced at Gemini at Work 2026 on October 8th, no price or GA date yet One agent and one API for work Runs in the cloud for hours or days after you close the laptop Coworker agents get a Workspace account, email, drive storage, directory entry Routes jobs to Gemini and to Anthropic's Claude models Hard per-project spend caps pause the agent until a human resumes it Works from web, CLI, Workspace, Microsoft 365 and Slack https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+      },
+      {
+        "index": 27,
+        "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+        "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 131.4K in 2026 (as of Oct 8, 2026) 123K in 2025 153K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 192,518 people laid off (685 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+      },
+      {
+        "index": 28,
+        "title": "Tech Hiring Software job postings on Indeed Comparing",
+        "text": "Tech Hiring Software job postings on Indeed Comparing to 2020 level, in Feb 2022 it was 234%, in 2025 it was 65%, now it is 77% All US job postings: 103% (compared with 2020) Postings that mention AI: 6.7% of all, up from 3.4% a year ago https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE Skills in demand Dice, 7M+ US tech postings (Aug 2026): +18% year over year AI and machine learning postings +101% year over year, five times the overall rate Fastest-growing skills, each up 200%+: responsible AI, AI agents, agentic AI, AI infrastructure Most requested overall: communication, computer science, troubleshooting Indeed: 71% of the software postings rebound (May 2025 to May 2026) is senior roles; 37% has AI in the title https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/ https://www.dice.com/hiring/recruitment/reports/dice-tech-job-report Top \"In Demand\" Skills and Qualifications - Critical thinking and problem-solving - Communication and stakeholder management - Adaptability and continuous learning - AI literacy and practical AI adoption - AI/ML application development - Data engineering and data management - Cybersecurity and risk management - Cloud and infrastructure engineering - Software engineering - Automation and workflow optimization - DevOps, CI/CD, and platform engineering - Governance, compliance, and responsible AI - Analytical thinking and data analysis - Product management and business alignment - Project and program management - Leadership and cross-functional collaboration - Creativity and innovation - Resilience and professionalism - Technical troubleshooting and systems thinking - Business growth and customer focus"
+      },
+      {
+        "index": 29,
+        "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+      },
+      {
+        "index": 30,
+        "title": "Thank You! Videos of every seminar are on",
+        "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+      }
+    ],
+    "points": [
+      {
+        "claim": "AI News - Oct 9, 2026 Copilot used",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 1,
+        "slideTitle": "AI News - Oct 9, 2026 Copilot used",
+        "source": "slide"
+      },
+      {
+        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 2,
+        "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "source": "slide"
+      },
+      {
+        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "topic": "benchmarks",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 3,
+        "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 4,
+        "slideTitle": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Building Better Through Constraints David Heinemeier",
+        "topic": "jobs",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 5,
+        "slideTitle": "AI News Building Better Through Constraints David Heinemeier",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News AI Agents Build a Complex App",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 6,
+        "slideTitle": "AI News AI Agents Build a Complex App",
+        "source": "slide"
+      },
+      {
+        "claim": "Claude Code Mods Claude Code Mods Mods =",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 7,
+        "slideTitle": "Claude Code Mods Claude Code Mods Mods =",
+        "source": "slide"
+      },
+      {
+        "claim": "Claude Code JavaScript Videos Claude Code JavaScript Videos",
+        "topic": "coding",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 8,
+        "slideTitle": "Claude Code JavaScript Videos Claude Code JavaScript Videos",
+        "source": "slide"
+      },
+      {
+        "claim": "DeepSeek Harness: Evolving Agents DeepSeek Harness: Evolving Agents",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 9,
+        "slideTitle": "DeepSeek Harness: Evolving Agents DeepSeek Harness: Evolving Agents",
+        "source": "slide"
+      },
+      {
+        "claim": "Weekly videos every Friday Weekly videos every Friday",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 10,
+        "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Kent Beck on Craft and AI-Assisted",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 11,
+        "slideTitle": "AI News Kent Beck on Craft and AI-Assisted",
+        "source": "slide"
+      },
+      {
+        "claim": "2026 Nobel Prizes 2026 Nobel Prizes October 5",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 12,
+        "slideTitle": "2026 Nobel Prizes 2026 Nobel Prizes October 5",
+        "source": "slide"
+      }
+    ]
+  },
+  {
     "id": "2026-10-02-2026-10-02-ai-news",
     "date": "2026-10-02",
     "title": "AI-News",

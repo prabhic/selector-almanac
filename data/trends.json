@@ -1,6 +1,6 @@
 {
   "scope": "weekly-ai-updates-2025-2026",
-  "weekCount": 91,
+  "weekCount": 92,
   "weeks": [
     "2025-01-03",
     "2025-01-10",
@@ -92,9 +92,11 @@
     "2026-09-11",
     "2026-09-18",
     "2026-09-25",
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-09"
   ],
   "weeklyTotals": {
+    "2026-10-09": 0,
     "2026-10-02": 0,
     "2026-09-25": 44,
     "2026-09-18": 47,
@@ -3609,9 +3611,9 @@
         }
       ],
       "momentum": {
-        "recent": 273,
-        "prior": 105,
-        "delta": 168
+        "recent": 268,
+        "prior": 110,
+        "delta": 158
       }
     },
     "coding": {
@@ -5380,9 +5382,9 @@
         }
       ],
       "momentum": {
-        "recent": 131,
-        "prior": 47,
-        "delta": 84
+        "recent": 128,
+        "prior": 50,
+        "delta": 78
       }
     },
     "claude": {
@@ -8305,9 +8307,9 @@
         }
       ],
       "momentum": {
-        "recent": 250,
-        "prior": 66,
-        "delta": 184
+        "recent": 249,
+        "prior": 67,
+        "delta": 182
       }
     },
     "openai": {
@@ -10209,9 +10211,9 @@
         }
       ],
       "momentum": {
-        "recent": 100,
-        "prior": 89,
-        "delta": 11
+        "recent": 98,
+        "prior": 91,
+        "delta": 7
       }
     },
     "google": {
@@ -11198,9 +11200,9 @@
         }
       ],
       "momentum": {
-        "recent": 51,
-        "prior": 38,
-        "delta": 13
+        "recent": 50,
+        "prior": 39,
+        "delta": 11
       }
     },
     "open-models": {
@@ -14625,9 +14627,9 @@
         }
       ],
       "momentum": {
-        "recent": 61,
-        "prior": 38,
-        "delta": 23
+        "recent": 60,
+        "prior": 39,
+        "delta": 21
       }
     },
     "rag": {
@@ -15319,9 +15321,9 @@
         }
       ],
       "momentum": {
-        "recent": 36,
-        "prior": 23,
-        "delta": 13
+        "recent": 35,
+        "prior": 24,
+        "delta": 11
       }
     },
     "multimodal": {
@@ -17073,9 +17075,9 @@
         }
       ],
       "momentum": {
-        "recent": 53,
-        "prior": 49,
-        "delta": 4
+        "recent": 52,
+        "prior": 50,
+        "delta": 2
       }
     },
     "jobs": {
@@ -18400,9 +18402,9 @@
         }
       ],
       "momentum": {
-        "recent": 68,
-        "prior": 47,
-        "delta": 21
+        "recent": 66,
+        "prior": 49,
+        "delta": 17
       }
     },
     "safety": {
@@ -18655,32 +18657,32 @@
     {
       "slug": "claude",
       "label": "Claude / Anthropic",
-      "delta": 184,
-      "recent": 250
+      "delta": 182,
+      "recent": 249
     },
     {
       "slug": "agents",
       "label": "Agents & orchestration",
-      "delta": 168,
-      "recent": 273
+      "delta": 158,
+      "recent": 268
     },
     {
       "slug": "coding",
       "label": "Coding assistants",
-      "delta": 84,
-      "recent": 131
-    },
-    {
-      "slug": "benchmarks",
-      "label": "Benchmarks & leaderboards",
-      "delta": 23,
-      "recent": 61
+      "delta": 78,
+      "recent": 128
     },
     {
       "slug": "open-models",
       "label": "Open models & China labs",
       "delta": 21,
       "recent": 124
+    },
+    {
+      "slug": "benchmarks",
+      "label": "Benchmarks & leaderboards",
+      "delta": 21,
+      "recent": 60
     }
   ],
   "cooling": [],
@@ -21785,6 +21787,39 @@
           "jobs": 0,
           "safety": 0
         }
+      },
+      {
+        "date": "2026-10-09",
+        "seminarId": "2026-10-09-2026-10-09-ai-news",
+        "totalChapters": 0,
+        "counts": {
+          "agents": 0,
+          "coding": 0,
+          "claude": 0,
+          "openai": 0,
+          "google": 0,
+          "open-models": 0,
+          "benchmarks": 0,
+          "rag": 0,
+          "multimodal": 0,
+          "infra": 0,
+          "jobs": 0,
+          "safety": 0
+        },
+        "shares": {
+          "agents": 0,
+          "coding": 0,
+          "claude": 0,
+          "openai": 0,
+          "google": 0,
+          "open-models": 0,
+          "benchmarks": 0,
+          "rag": 0,
+          "multimodal": 0,
+          "infra": 0,
+          "jobs": 0,
+          "safety": 0
+        }
       }
     ],
     "labRace": [
@@ -24455,15 +24490,44 @@
             "share": 0
           }
         ]
+      },
+      {
+        "date": "2026-10-09",
+        "seminarId": "2026-10-09-2026-10-09-ai-news",
+        "leader": "claude",
+        "leaderLabel": "Claude / Anthropic",
+        "leaderShare": 0,
+        "ranking": [
+          {
+            "slug": "claude",
+            "label": "Claude / Anthropic",
+            "share": 0
+          },
+          {
+            "slug": "openai",
+            "label": "OpenAI / GPT",
+            "share": 0
+          },
+          {
+            "slug": "google",
+            "label": "Google / Gemini",
+            "share": 0
+          },
+          {
+            "slug": "open-models",
+            "label": "Open models & China labs",
+            "share": 0
+          }
+        ]
       }
     ],
     "shareMomentum": [
       {
         "slug": "claude",
         "label": "Claude / Anthropic",
-        "recentShare": 0.14678260869565218,
+        "recentShare": 0.14506521739130437,
         "priorShare": 0.053456521739130444,
-        "delta": 0.093,
+        "delta": 0.092,
         "direction": "up"
       },
       {
@@ -24485,7 +24549,7 @@
       {
         "slug": "jobs",
         "label": "Jobs & labor market",
-        "recentShare": 0.04147826086956521,
+        "recentShare": 0.04091304347826086,
         "priorShare": 0.034978260869565216,
         "delta": 0.006,
         "direction": "flat"
@@ -24509,17 +24573,17 @@
       {
         "slug": "benchmarks",
         "label": "Benchmarks & leaderboards",
-        "recentShare": 0.03432608695652174,
+        "recentShare": 0.03376086956521739,
         "priorShare": 0.031586956521739123,
-        "delta": 0.003,
+        "delta": 0.002,
         "direction": "flat"
       },
       {
         "slug": "google",
         "label": "Google / Gemini",
-        "recentShare": 0.028826086956521734,
+        "recentShare": 0.027673913043478264,
         "priorShare": 0.029173913043478262,
-        "delta": 0,
+        "delta": -0.001,
         "direction": "flat"
       },
       {
@@ -24533,25 +24597,25 @@
       {
         "slug": "openai",
         "label": "OpenAI / GPT",
-        "recentShare": 0.056695652173913036,
+        "recentShare": 0.05554347826086955,
         "priorShare": 0.07032608695652175,
-        "delta": -0.014,
+        "delta": -0.015,
         "direction": "down"
       },
       {
         "slug": "infra",
         "label": "Infrastructure & chips",
-        "recentShare": 0.031434782608695644,
+        "recentShare": 0.03028260869565217,
         "priorShare": 0.04882608695652174,
-        "delta": -0.017,
+        "delta": -0.019,
         "direction": "down"
       },
       {
         "slug": "open-models",
         "label": "Open models & China labs",
-        "recentShare": 0.0732391304347826,
+        "recentShare": 0.07152173913043477,
         "priorShare": 0.1061086956521739,
-        "delta": -0.033,
+        "delta": -0.035,
         "direction": "down"
       }
     ],
@@ -34939,6 +35003,14 @@
         "totalChapters": 0,
         "novelRatio": 0,
         "highlights": []
+      },
+      {
+        "date": "2026-10-09",
+        "seminarId": "2026-10-09-2026-10-09-ai-news",
+        "novelCount": 0,
+        "totalChapters": 0,
+        "novelRatio": 0,
+        "highlights": []
       }
     ],
     "bursts": [
@@ -35125,20 +35197,6 @@
     ],
     "recentBriefs": [
       {
-        "date": "2026-08-28",
-        "seminarId": "2026-08-28-2026-08-28-ai-updates",
-        "headline": "OpenAI / GPT-led week · 34 novel topics",
-        "bullets": [
-          "OpenAI / GPT led the narrative (8% of tagged chapters)",
-          "34 chapter topics not seen in the prior 8 weeks (92% novelty)",
-          "Top airtime: Infrastructure & chips 16%, OpenAI / GPT 8%, Open models & China labs 8%",
-          "New angles: Reviewing and Validating is the New Bottleneck · Open Models Overtake Closed Models · NVIDIA's AVO - 100% on ARC-AGI-3"
-        ],
-        "leader": "openai",
-        "leaderShare": 0.081,
-        "noveltyRatio": 0.919
-      },
-      {
         "date": "2026-09-04",
         "seminarId": "2026-09-04-2026-09-04-ai-updates",
         "headline": "Claude / Anthropic-led week · 48 novel topics",
@@ -35204,15 +35262,26 @@
         "leader": "claude",
         "leaderShare": 0,
         "noveltyRatio": 0
+      },
+      {
+        "date": "2026-10-09",
+        "seminarId": "2026-10-09-2026-10-09-ai-news",
+        "headline": "Claude / Anthropic-led week · 0 novel topics",
+        "bullets": [
+          "Claude / Anthropic led the narrative (0% of tagged chapters)"
+        ],
+        "leader": "claude",
+        "leaderShare": 0,
+        "noveltyRatio": 0
       }
     ],
     "risingShare": [
       {
         "slug": "claude",
         "label": "Claude / Anthropic",
-        "recentShare": 0.14678260869565218,
+        "recentShare": 0.14506521739130437,
         "priorShare": 0.053456521739130444,
-        "delta": 0.093,
+        "delta": 0.092,
         "direction": "up"
       },
       {
@@ -35236,25 +35305,25 @@
       {
         "slug": "openai",
         "label": "OpenAI / GPT",
-        "recentShare": 0.056695652173913036,
+        "recentShare": 0.05554347826086955,
         "priorShare": 0.07032608695652175,
-        "delta": -0.014,
+        "delta": -0.015,
         "direction": "down"
       },
       {
         "slug": "infra",
         "label": "Infrastructure & chips",
-        "recentShare": 0.031434782608695644,
+        "recentShare": 0.03028260869565217,
         "priorShare": 0.04882608695652174,
-        "delta": -0.017,
+        "delta": -0.019,
         "direction": "down"
       },
       {
         "slug": "open-models",
         "label": "Open models & China labs",
-        "recentShare": 0.0732391304347826,
+        "recentShare": 0.07152173913043477,
         "priorShare": 0.1061086956521739,
-        "delta": -0.033,
+        "delta": -0.035,
         "direction": "down"
       }
     ]
