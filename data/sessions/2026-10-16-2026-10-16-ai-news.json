@@ -1,0 +1,276 @@
+{
+  "id": "2026-10-16-2026-10-16-ai-news",
+  "date": "2026-10-16",
+  "title": "AI-News",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "rag",
+    "agents",
+    "multimodal",
+    "infra",
+    "jobs",
+    "coding",
+    "safety"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2026/2026-10-16-AI-News.pptx",
+    "filename": "2026-10-16-AI-News.pptx",
+    "title": "AI-News",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-10-16-AI-News.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-16-AI-News.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI News - Oct 16, 2026 Anthropic replaces",
+      "text": "AI News - Oct 16, 2026 Anthropic replaces Git with Scion after Claude passes 30K merges a day Crowd-sourced LM Arena Artificial Analysis Intelligence Index Anthropic Replaces Git With Scion Meta Muse Wonder Meta Muse Spark Open GLM-5.3 on Amazon Bedrock Qwen Image 2.1 Turbo ArtCraft and AI Reverse Engineering Claude Code: Less Micromanagement Local AI vs Cloud: True Costs MS Windows Hybrid AI Decision Models Deno Joins Cloudflare Claude Motion AstaBrief 8B Science Reports TurboPuffer - RIP Vectors Odyssey 3: Interactive AI Worlds Step 5 Preview for Coding Agents Laminar Flow-1: Detecting Agent Failures Alibaba QwenGyre - Long-Horizon Agent RL FLUX 3 Image Microsoft Maia 300 Chip GPT-6 becomes the ChatGPT default Claude Managed Agents - 1,000 agents Grok Bot Routes to Rival Models Modal raises $750M at $15.75B Valuation Fish Audio Drama 3 Open TTS Liquid AI LFM2.5-24B-A2B LLM Character.AI files for Chapter 11 Grok Voice 3.0 Perplexity SPACE Agent Sandbox JPMorgan Blocks Outside AI Agents Google Deep Review Jobs & Layoffs Tech Hiring & Skills"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard English - https://lmarena.ai/leaderboard/text Coding - https://lmarena.ai/leaderboard/text/coding Data for Oct 15 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable-5 - 6TB Claude Opus-4.8 - 5TB Claude Sonnet-4.5 - 1TB Claude Sonnet-5 - ? GLM-5.3 - 744B Meta muse-spark - 16 x 70B Qwen3.7-max-preview - 745B Qwen3.8-max - 2.4TB Baidu Ernie-5.1 - 800B Deepseek-v4 - 1.6T Deepseek-v4.1-Flash - 552B Kimi-k3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1T+ ByteDance dola-seed-2.0-pro 400B Minimax M3  -  456B Code Model Score ■ gemini-4-argon-high 1559 ■ claude-fable-5-high 1551 ■ claude-opus-4-7-high 1551 ■ claude-opus-4-6-high 1548 ■ muse-wonder-max 1548 ■ claude-opus-5.5-high 1548 ■ claude-opus-4-6 1547 ■ claude-opus-4-7 1546 ■ gpt-6-astra-max 1543 ■ gpt-6.1-sol-max 1540 ■ muse-spark-1.2 (xHigh) 1539 ■ kimi-k3-max 1538 ■ mimo-v2.6-pro 1538 ■ claude-fable-5.1-max 1537 ■ muse-spark-1.3-max 1535 ■ gpt-5.6-sol-xhigh 1534 ■ claude-opus-4-8-high 1534 ■ claude-opus-5-high 1533 ■ muse-spark-1.1 1533 ■ claude-opus-4-5-20251101-high-32k 1531 ■ claude-sonnet-5.5-xhigh 1530 ■ claude-opus-5-max 1529 ■ claude-opus-4-8 1529 ■ muse-spark 1529 ■ claude-sonnet-4-6 1528 Code Model Score ■ gemini-4-argon-high 1524 ■ muse-wonder-max 1509 ■ claude-opus-5.5-high 1508 ■ claude-fable-5-high 1504 ■ claude-opus-4-6-high 1503 ■ claude-fable-5.1-max 1502 ■ claude-opus-4-7-high 1501 ■ claude-opus-4-6 1497 ■ gemini-3.8-flash-high 1496 ■ muse-spark-1.3-max 1494 ■ claude-opus-4-7 1494 ■ muse-spark-1.2 (xHigh) 1493 ■ muse-spark-1.1 1490 ■ claude-opus-5-max 1490 ■ claude-opus-5-high 1490 ■ muse-spark 1489 ■ gemini-3.7-flash-high 1488 ■ kimi-k3-max 1487 ■ gemini-3.1-pro-preview 1487 ■ gemini-3-pro 1485 ■ gpt-5.6-sol-xhigh 1485 ■ gpt-6.1-sol-max 1484 ■ gemini-3.6-flash-high 1483 ■ qwen3.8-max 1482 ■ claude-opus-4-8-high 1481"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Oct 15"
+    },
+    {
+      "index": 4,
+      "title": "Anthropic Scion Replaces Git Anthropic replaces Git with",
+      "text": "Anthropic Scion Replaces Git Anthropic replaces Git with Scion after Claude passes 30K merges a day Git could not keep up with the speed of AI work done by Claude Daily merges grew from about 2.5K in May to over 30K in Sept A team of seven built Scion - a server-centric version control system Plus Antique - an AI-assisted code review tool CPU and memory use fell x200 Speed improved (from mins to secs) Git: Client: “I want E; I have C.” Server determines the objects needed and constructs a custom transfer pack - then sends it Scion: Client discovers E’s trees and checks its local object store. Client requests specific missing objects from caches. Cache streams the requested objects in ready-to-user format. No packing needed. The main gains come from using cached objects https://alphasignal.ai/email/1b36e75b14af56e6 https://www.anthropic.com/engineering/redesigning-source-control"
+    },
+    {
+      "index": 5,
+      "title": "AI News Meta releases Muse Wonder, its first",
+      "text": "AI News Meta releases Muse Wonder, its first frontier-class models Two models: Muse Wonder and Muse Wonder Full Wonder Full scores 56 on the Artificial Analysis Index, second only to Claude Opus 5.5 Beats Opus 5.5 and GPT-6 Astra at legal work, long coding and memory Active Memory keeps context across days, weeks and months Leaked pricing: $4 input, $20 output per 1M tokens, 1M context Closed weights; Wonder Full only on Muse Code plans at $50 or $200 a month https://research.meta.ai/blog/muse-wonder Meta releases Muse Spark Open 816B open-weight model Best Western open model so far Multimodal MoE: 816B total, 42B active, 1M-token context Built for coding and long-horizon agents Runs locally on two M5 Ultra Mac Studios over Apple's MLX Scores 39 on the AA Intelligence Index (Meta's closed Muse Wonder scores 52) Compare: GLM 5.3 (45), Kimi K3 (44) and Qwen3.8 (40) License: model-serving firms over $20M revenue need a separate deal https://research.meta.ai/blog/muse-spark-open"
+    },
+    {
+      "index": 6,
+      "title": "AI News GLM-5.3 on Amazon Bedrock https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/ open-weight,",
+      "text": "AI News GLM-5.3 on Amazon Bedrock https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/ open-weight, complex coding, repository-scale engineering, and autonomous agents performing extended, multi-step tasks 1M/128K in/out tokens function calling, adjustable reasoning effort OpenAI-compatible and native AWS APIs https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/ US or global cross-Region inference Qwen Image 2.1 Turbo - text-to-image + editing https://github.com/QwenLM/Qwen-Image-2.1 7B params, 8 denoising steps, open-weight research license https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo Developers can download weights from Hugging Face, run locally using Diffusers, or access hosted Turbo APIs through Alibaba Cloud"
+    },
+    {
+      "index": 7,
+      "title": "AI News ArtCraft and AI Reverse Engineering Developer",
+      "text": "AI News ArtCraft and AI Reverse Engineering Developer Brandon Thomas released ArtCraft - a set of 7 free, open-source Adobe alternatives built with Rust and Claude for Windows, macOS, and Linux https://getartcraft.com https://github.com/storytold https://www.linkedin.com/in/possibilistic/ - Brandon's Linkedin - Atlanta, Georgia He describes these as clean-room re-implementations, not reconstructed Adobe source code The Fireship's tests conclude that it is not a production-ready Adobe replacement yet Reverse Engineer Anything (REA) - connects AI agents with binary-inspection tools such as Ghidra, helping developers analyze behavior and guide custom implementations - https://github.com/morluto/rea The achievement is faster, accessible software experimentation - not making every proprietary application open source or rendering Adobe obsolete overnight https://www.youtube.com/watch?v=wajoP_5Cpw8 -video"
+    },
+    {
+      "index": 8,
+      "title": "AI News Claude Code: Less Micromanagement Boris Cherny",
+      "text": "AI News Claude Code: Less Micromanagement Boris Cherny : in January - planning advice today - favoring autonomous execution Define tasks, guardrails, and completion criteria Review results instead of prescribing every step Keep recommended effort settings Provide executable checks that prove success Use continuation loops to fix failures without repeated “continue” Keep CLAUDE.md concise Build skills from observed mistakes, then compare performance with and without them Enforce critical restrictions through hooks Limit subagents and automate recurring workflows The central achievement is reduced supervision while retaining verifiable outputs https://www.youtube.com/watch?v=J9NQTYUP6k 0"
+    },
+    {
+      "index": 9,
+      "title": "Local AI More Expensive Than Claude? Local AI",
+      "text": "Local AI More Expensive Than Claude? Local AI vs Cloud: True Costs Haiku 5.5 $0.50 per 1M output tokens, plus input charges. Compare with using local NVIDIA RTX 4090 - $0.47–$0.50 Hardware amortization makes lightly used GPUs substantially more expensive Speed, quality, and context length also matter Cloud providers use parallel batching - it dramatically lowers costs https://www.youtube.com/watch?v=yaXgmGPZUOg MS Windows Hybrid AI Microsoft’s Satya Nadella and Nvidia’s Jensen Huang outlined Windows “hybrid intelligence.” Windows would route AI tasks between local hardware and cloud models, addressing agent costs, privacy, latency, and offline access Copilot would gain permission-based file access, local models, and PC actions; execution containers and separate agent identities would constrain access and enable monitoring. Claimed advances include Nvidia RTX Spark hardware, Surface Laptop Ultra, compressed coding models, and Microsoft Decision 1, reportedly 35 times faster than GPT6. The significance is a shift toward agent-operated PCs https://www.youtube.com/watch?v=ApsNLVLRvu0"
+    },
+    {
+      "index": 10,
+      "title": "Decision Models Model Open in-tokens Based on params",
+      "text": "Decision Models Model Open in-tokens Based on params tunable Laya — English yes 0.5K ModernBERT-large with decision heads 421M yes Laya — multilingual yes 8K mmBERT-base with decision heads 322M yes Laya — typed-decisions yes 1K ModernBERT-large, further trained for typed decisions 421M yes Kev yes 64K Qwen3.5 / Qwen3.8 family, depending on checkpoint 0.8B / 4B / 9B / 27B yes SemIf — formerly OpenJev yes — Frozen open LLMs; extracts option probabilities from logits — no CLM-v0.1-8B yes 2K Frozen Qwen3-8B with state/action projection heads 8B yes Von yes 8K ModernBERT-large with decision scoring 395M yes NanoJev — TianyuCodings yes — Qwen3-0.6B with decision heads and dynamic candidate scoring 0.6B yes Verdict — Daniel Ramos yes 16K Qwen3.5-0.8B-Base with LoRA and bilinear/MLP decision heads 0.8B yes Liquid d1-3B yes 32K LFM2.5-VL-3B 3.1B no Cloudflare Clef yes 64K Fine-tuned Qwen with joint decision head 27B yes Cloudflare Clef-Flash yes 24K Fine-tuned Qwen with joint decision head 9B yes Cloudflare Clef-Omni yes — Multimodal Qwen-family model 30B no TypeSafe Jev no 64K Proprietary; backbone undisclosed — no OpenAI Decisions API no — GPT-6 Luna variant — no Liquid d1 — hosted no 64K Hosted Liquid decision model; exact backbone undisclosed — no Microsoft-Decision-1 no 32K Post-trained Qwen3.5-9B 9B no Decision Models Mostly very short input context window Some are not tunable Fast, but accuracy may be limited"
+    },
+    {
+      "index": 11,
+      "title": "Weekly videos every Friday Weekly videos every Friday",
+      "text": "Weekly videos every Friday Weekly videos every Friday 7.63K subscribers, 366 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 12,
+      "title": "AI News Deno Joins Cloudflare Deno is an",
+      "text": "AI News Deno Joins Cloudflare Deno is an open-source runtime for running JavaScript, TypeScript, and WebAssembly outside the browser https://docs.deno.com/runtime/ Cloudflare acquires Deno's team and their celld technology Cloudflare is not interested in Deno itself - Deno maintenance will discontinue in 1 year, its code remains open source The team will merge celld with workerd celld - an open-source system for running and coordinating Workers-compatible applications and persistent Durable Objects across your own servers https://celld.dev https://github.com/denoland/celld workerd - Cloudflare’s open-source runtime for executing Workers applications on your own infrastructure https://github.com/cloudflare/workerd https://blog.cloudflare.com/workerd-open-source-workers-runtime/ This is a foundation for AI-agent infrastructure: it makes it easier to host many persistent, stateful agent sessions Deno’s announcement explicitly identifies Durable Objects as useful for agent harnesses because they combine serverless execution, persistent state, WebSockets, and a JavaScript interface One Durable Object per agent session, task, or user. Each object is an individually addressable, single-threaded execution unit with its own SQLite database; the platform handles distributing objects across machines. https://blog.cloudflare.com/deno-joins-cloudflare/ https://deno.com/blog/cloudflare"
+    },
+    {
+      "index": 13,
+      "title": "AI News Claude Motion In Beta for Team",
+      "text": "AI News Claude Motion In Beta for Team and Enterprise Turns supplied content and data into editable, code-based animated explainers, charts, product walkthroughs, and presentation visuals Available inside Claude, with editing through conversation or an editor and export to MP4 Users describe their goals and ask Claude to generate and revise text, numbers, graphics, and timing https://support.claude.com/en/articles/17454997-get-started-with-claude-motion https://claude.com/resources/articles/dashboards-and-motion AstaBrief 8B - Generates Science Reports Ai2, the Allen Institute for AI, released AstaBrief 8B on Hugging Face https://huggingface.co/blog/allenai/astabrief Built on Qwen3-8B It turns questions and supplied scientific excerpts into cited reports; the model itself does not search online https://huggingface.co/allenai/AstaBrief_8B Asta’s Fast pipeline averages 51.1 seconds, approximately 3.5 times faster than Thinking mode. High precision and citation recall Open weights and training data enable local deployment, customization, and greater privacy for sensitive research"
+    },
+    {
+      "index": 14,
+      "title": "AI News TurboPuffer - RIP Vectors turbopuffer is",
+      "text": "AI News TurboPuffer - RIP Vectors turbopuffer is a managed search AI - https://turbopuffer.com The v3 redesign: document IDs replace vectors as primary storage keys https://turbopuffer.com/blog/rip-vector-database https://turbopuffer.com/v3 Serving AI applications including Cursor, Notion, and Anthropic, the company illustrates a shift: vector search becomes one tool, not the architecture’s center. Three alternatives emerge: iterative agent search, live MCP connectors, and precompiled knowledge files Agents are the best for complex questions, but higher costs and latency Compiled wikis also show substantial overhead Keyword search handles enterprise identifiers Vectors help recover fuzzy meaning. Choose retrieval by question complexity, permissions, latency, and budget Simple, high-volume lookups still justify conventional RAG https://www.youtube.com/watch?v=YLkSfz3EFGw"
+    },
+    {
+      "index": 15,
+      "title": "AI News Odyssey 3: Interactive AI Worlds Odyssey,",
+      "text": "AI News Odyssey 3: Interactive AI Worlds Odyssey, a California AI company, launched Odyssey 3 In public research preview It generates explorable worlds from prompts, responding continuously to movement and events. Learned physics helps address the challenge of predicting how environments change Potentially supporting robot control and AI-agent training Odyssey 3 Pro reported 66.1 on Physics-IQ Verified using best-of-eight sampling; this is not its standard score https://x.com/testingcatalog/status/2108246975883751665 Demonstrations include robot arms and driving in India, requiring additional control policies rather than the model alone. Interactive simulation could expand training and creative applications https://odyssey.systems https://odyssey.systems/meet-odyssey-3"
+    },
+    {
+      "index": 16,
+      "title": "AI News Step 5 Preview for Coding Agents",
+      "text": "AI News Step 5 Preview for Coding Agents StepFun released Step 5 Preview f or coding agents and professional workflows, including finance 600 Bln params, MoE Supports text, images, video, tool calling 1M tokens input context window, 64K output Agents can inspect projects, edit files, run tests, and iterate. Available through OpenRouter and existing coding tools https://www.stepfun.com/step-5-preview https://openrouter.ai/stepfun/step-5-preview https://www.youtube.com/watch?v=bqS3oZQgAhg Laminar Flow-1: Detecting Agent Failures Laminar launched flow-1 inside its Signals platform to investigate AI agent execution traces Reinforcement-learning-trained flow-1 searches trace steps and returns structured explanations of errors Affordable continuous monitoring helps businesses verify automation rather than trust completion claims. https://laminar.sh/blog/flow-1 https://laminar.sh"
+    },
+    {
+      "index": 17,
+      "title": "AI News Alibaba QwenGyre - Long-Horizon Agent RL",
+      "text": "AI News Alibaba QwenGyre - Long-Horizon Agent RL A training framework, not a model Running on multi-node GPU clusters, it trains coding agents through unmodified harnesses on tasks lasting hours, with approximately 700,000 tokens per rollout Dynamically moves GPUs between execution and training, then reconstructs, scores, and deduplicates histories into bounded training samples On Qwen 3.8 2.4T, NL2RepoBench success increased from 52.5% to 58.5% in 48 steps Training accelerated up to 1.85x, making lengthy repository-building agent training more computationally efficient https://arxiv.org/abs/2609.33848"
+    },
+    {
+      "index": 18,
+      "title": "AI News Black Forest Labs releases FLUX 3",
+      "text": "AI News Black Forest Labs releases FLUX 3 Image New image model with pixel-perfect editing over many turns Bounding boxes control where things go in the picture Generates natively at up to 4K Combines up to 10 reference images in one picture Accurate typography for text in images Commercial weights available now; open weights come next https://bfl.ai/models/flux-3-image Microsoft unveils Maia 300, its third in-house AI chip 3rd generation of Microsoft's AI accelerator, built for inference Claims 40% more tokens per megawatt than leading GPU systems Large-scale deployment starts in 2027 Goal: depend less on NVIDIA and AMD chips Joins Google TPUs and Amazon Trainium in the custom-chip race https://news.microsoft.com/maia-2026/ GPT-6 becomes the ChatGPT default GPT-6 Sol for paid tiers, GPT-6 Luna for Free and Go Reaches ChatGPT's 1.2 Bln weekly users Answers can include charts, forms, buttons and small tools A compiler streams native components while the model writes GPT-6 Instant web-search - answers 44% sooner GPT-6.1 Sol Ultrafast : up to 8x faster, $12 / $60 per 1M tokens https://links.tldrnewsletter.com/jzR1OT/1/010001a11bcb0cee-9ff72ec9-51ce-4456-9da7-54a384371a80-000000/KMPLg6QPwYc4tenSvqLS20N1U8oP0eU9p1-AUH0fidQ=452"
+    },
+    {
+      "index": 19,
+      "title": "AI News Claude Managed Agents - 1,000 agents",
+      "text": "AI News Claude Managed Agents - 1,000 agents \"Dynamic Workflows\" , in public beta A lead agent writes a plan, then multiple agents work Up to 1,000 worker agents per run Results are merged at the end No hand-written coordinator or subagent roster needed Token use is high, the model does not see the spending limit https://www.latent.space/p/claude-dynamic-workflows Grok Bot will route tasks to Claude, Midjourney and Suno Grok Bot becomes an orchestrator, not a single-model assistant Claude Opus 5.5, Midjourney for images, Suno for music Announced after reports of Grok access problems on mobile and web https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk"
+    },
+    {
+      "index": 20,
+      "title": "AI News Modal raises $750M at $15.75B Valuation",
+      "text": "AI News Modal raises $750M at $15.75B Valuation Modal Labs is a startup founded in 2021 in New York City, with teams in San Francisco and Stockholm It sells cloud computing for AI inference, model training, Python workloads, and isolated environments for AI agents ARR is $1B+, Sandboxes alone are a $300M https://modal.com Fish Audio Drama 3 - open-weight 35B text-to-speech 83 languages, up to 16 speakers per request Bracketed stage directions control tone word by word First audio arrives in approximately 89 milliseconds for a single stream on one NVIDIA H200 It ranks 1st on Artificial Analysis’ Pronunciation Robustness benchmark at 93.2%, ahead of ElevenLabs, although not necessarily first in overall voice quality https://www.eesel.ai/blog/fish-audio-drama-3 https://fish.audio/blog/fish-audio-drama-3/ https://huggingface.co/fishaudio/drama-3 Liquid AI LFM2.5-24B-A2B LLM 24 Bln params, open-weights, for on-device agents 131K context length; reasoning, tool use Matches or beats Qwen3.6-35B-A3B, and 1.7x faster Weights on Hugging Face Liquid AI is a startup in Cambridge, MA https://www.liquid.ai"
+    },
+    {
+      "index": 21,
+      "title": "AI News Grok Voice 3.0 tops the speech-to-speech",
+      "text": "AI News Grok Voice 3.0 tops the speech-to-speech index Ahead of GPT-Live-1 and Gemini 3.8 Live Sub-second latency, reasoning and tool calls mid-conversation Already handles about 20K Starlink support calls a day https://x.ai/news/grok-voice-3 Character.AI files for Chapter 11 Character.AI was selling access to AI companions - chatbots with personalities that people could talk to for entertainment, role-playing, storytelling, or simulated companionship The platform could close if no buyer emerges https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html"
+    },
+    {
+      "index": 22,
+      "title": "AI News Perplexity open-sources SPACE, a sandbox for",
+      "text": "AI News Perplexity open-sources SPACE, a sandbox for AI agents Isolates each agent in a virtual machine Blocks unauthorized access and data leaks Top models made 118 breakout attempts; none escaped https://www.perplexity.ai/hub/blog/open-sourcing-space https://github.com/perplexityai/SPACE JPMorgan blocks outside AI agents from customer accounts Outside agents may not log in with customer credentials They cannot move money or pay bills in retail accounts Read-only data sharing through approved connectors still works https://www.cnbc.com/2026/10/13/jpmorgan-ai-agents-account-access.html Google Deep Review checks technical documents An agent that gives rigorous feedback and verifies technical claims Built first for computer science papers, now covers many domains Takes PDF and plain text; multi-file input is coming Google expects such tools to help both authors and peer reviewers https://research.google/blog/analyzing-technical-documents-with-deep-review/"
+    },
+    {
+      "index": 23,
+      "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 133.2K in 2026 (as of Oct 15, 2026) 123K in 2025 153K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 194,470 people laid off (673 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+    },
+    {
+      "index": 24,
+      "title": "Tech Hiring Software job postings on Indeed Comparing",
+      "text": "Tech Hiring Software job postings on Indeed Comparing to 2020 level, in Feb 2022 it was 234%, in 2025 it was 65%, now it is 77% All US job postings: 103% (compared with 2020) Postings that mention AI: 6.7% of all, up from 3.4% a year ago https://fred.stlouisfed.org/series/IHLIDXUSTPSOFTDEVE Skills in demand Dice, 7M+ US tech postings (Aug 2026): +18% year over year AI and machine learning postings +101% year over year, five times the overall rate Fastest-growing skills, each up 200%+: responsible AI, AI agents, agentic AI, AI infrastructure Most requested overall: communication, computer science, troubleshooting Indeed: 71% of the software postings rebound (May 2025 to May 2026) is senior roles; 37% has AI in the title https://hiringlab.indeed.com/2026/07/08/ai-and-job-postings-from-destruction-to-creation/ https://www.dice.com/hiring/recruitment/reports/dice-tech-job-report Top \"In Demand\" Skills and Qualifications - Critical thinking and problem-solving - Communication and stakeholder management - Adaptability and continuous learning - AI literacy and practical AI adoption - AI/ML application development - Data engineering and data management - Cybersecurity and risk management - Cloud and infrastructure engineering - Software engineering - Automation and workflow optimization - DevOps, CI/CD, and platform engineering - Governance, compliance, and responsible AI - Analytical thinking and data analysis - Product management and business alignment - Project and program management - Leadership and cross-functional collaboration - Creativity and innovation - Resilience and professionalism - Technical troubleshooting and systems thinking - Business growth and customer focus"
+    },
+    {
+      "index": 25,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 26,
+      "title": "Thank You! Videos of every seminar are on",
+      "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI News - Oct 16, 2026 Anthropic replaces",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "AI News - Oct 16, 2026 Anthropic replaces",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "slide"
+    },
+    {
+      "claim": "Anthropic Scion Replaces Git Anthropic replaces Git with",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "Anthropic Scion Replaces Git Anthropic replaces Git with",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Meta releases Muse Wonder, its first",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "AI News Meta releases Muse Wonder, its first",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News GLM-5.3 on Amazon Bedrock https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/ open-weight,",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "AI News GLM-5.3 on Amazon Bedrock https://aws.amazon.com/about-aws/whats-new/2026/10/amazon-bedrock-glm-5-3/ open-weight,",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News ArtCraft and AI Reverse Engineering Developer",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "AI News ArtCraft and AI Reverse Engineering Developer",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Claude Code: Less Micromanagement Boris Cherny",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "AI News Claude Code: Less Micromanagement Boris Cherny",
+      "source": "slide"
+    },
+    {
+      "claim": "Local AI More Expensive Than Claude? Local AI",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Local AI More Expensive Than Claude? Local AI",
+      "source": "slide"
+    },
+    {
+      "claim": "Decision Models Model Open in-tokens Based on params",
+      "topic": "openai",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "Decision Models Model Open in-tokens Based on params",
+      "source": "slide"
+    },
+    {
+      "claim": "Weekly videos every Friday Weekly videos every Friday",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Deno Joins Cloudflare Deno is an",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "AI News Deno Joins Cloudflare Deno is an",
+      "source": "slide"
+    }
+  ]
+}
