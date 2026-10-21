@@ -29,6 +29,7 @@ selector-almanac serve    # web app at http://localhost:3456/app/
 selector-almanac open     # TUI in a cmux tab / Terminal.app
 selector-almanac weeks    # list recent weeks (scripts/agents)
 selector-almanac update   # latest data/ from GitHub main (no ONNX / yt-dlp)
+selector-almanac brief    # top 10 must-know points from the latest week + chat (API key, else local claude/codex)
 ```
 
 Not on the npm registry yet. Until then, from a clone:

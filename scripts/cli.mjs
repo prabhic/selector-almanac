@@ -13,6 +13,7 @@ const TUI = join(ROOT, "scripts/browse-tui.mjs");
 const OPEN = join(ROOT, "scripts/open-browse-cmux.mjs");
 const WEEKS = join(ROOT, "scripts/browse-weeks.mjs");
 const UPDATE = join(ROOT, "scripts/update-data.mjs");
+const BRIEF = join(ROOT, "scripts/week-brief.mjs");
 
 const args = process.argv.slice(2);
 const cmd = args[0];
@@ -35,6 +36,10 @@ Usage:
   selector-almanac serve           Web app at http://localhost:3456/app/
   selector-almanac weeks [--json]  List recent weeks (non-interactive)
   selector-almanac update          Pull latest data/ from GitHub (no ONNX)
+  selector-almanac brief [--top N] [--print]
+                                   Top N (default 10) must-know points from the latest
+                                   week with URLs, then chat. Uses ANTHROPIC_API_KEY
+                                   if set, else local claude / codex CLI
   selector-almanac help
 
 TUI keys: ↑↓  [ ] weeks  1/2/3 views  Enter open  y YouTube  q quit
@@ -66,6 +71,10 @@ if (cmd === "open" && args.length === 1) {
 
 if (cmd === "update") {
   run(UPDATE);
+}
+
+if (cmd === "brief") {
+  run(BRIEF, args.slice(1));
 }
 
 run(WEEKS, args);

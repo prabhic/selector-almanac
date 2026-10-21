@@ -52,6 +52,7 @@
     "browse:cli": "node scripts/browse-weeks.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.129.0",
     "jszip": "^3.10.1",
     "neo-blessed": "^0.2.0"
   },
