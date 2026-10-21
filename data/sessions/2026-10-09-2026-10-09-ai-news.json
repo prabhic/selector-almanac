@@ -14,9 +14,17 @@
     "coding",
     "multimodal",
     "jobs",
-    "safety"
+    "safety",
+    "rag",
+    "infra"
   ],
-  "video": null,
+  "video": {
+    "id": "Zq9f96Mu5RM",
+    "title": "Exciting AI Updates Weekly - October 09, 2026",
+    "url": "https://www.youtube.com/watch?v=Zq9f96Mu5RM",
+    "thumbnail": "https://i.ytimg.com/vi/Zq9f96Mu5RM/hqdefault.jpg",
+    "duration": 1852
+  },
   "deck": {
     "path": "2026/2026-10-09-AI-News.pptx",
     "filename": "2026-10-09-AI-News.pptx",
@@ -25,10 +33,281 @@
     "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-09-AI-News.pptx"
   },
   "match": {
-    "confidence": "deck-only",
-    "method": "unmatched"
+    "confidence": "date",
+    "method": "exact-date"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "title": "Introduction - Copilot Used to Live in Word, Now Word Lives in Copilot",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "LM Arena Leaderboard",
+      "startSeconds": 57,
+      "label": "00:57",
+      "source": "youtube"
+    },
+    {
+      "title": "Artificial Analysis Intelligence Index",
+      "startSeconds": 80,
+      "label": "01:20",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft Copilot's Evolution",
+      "startSeconds": 101,
+      "label": "01:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Mistral Large 4 \"Le Chonk\"",
+      "startSeconds": 141,
+      "label": "02:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Haiku 5.5",
+      "startSeconds": 161,
+      "label": "02:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Building Better Through Constraints",
+      "startSeconds": 204,
+      "label": "03:24",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Agents Build a Complex App Feature",
+      "startSeconds": 263,
+      "label": "04:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Mods",
+      "startSeconds": 350,
+      "label": "05:50",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code JavaScript Videos",
+      "startSeconds": 415,
+      "label": "06:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Adobe Suite Rebuilt in Rust with Claude",
+      "startSeconds": 476,
+      "label": "07:56",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek Harness: Evolving Agents",
+      "startSeconds": 487,
+      "label": "08:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Kent Beck on Craft and AI Coding",
+      "startSeconds": 550,
+      "label": "09:10",
+      "source": "youtube"
+    },
+    {
+      "title": "2026 Nobel Prizes",
+      "startSeconds": 612,
+      "label": "10:12",
+      "source": "youtube"
+    },
+    {
+      "title": "AI work that has already won Nobels",
+      "startSeconds": 638,
+      "label": "10:38",
+      "source": "youtube"
+    },
+    {
+      "title": "AI work that has already won Turing Award",
+      "startSeconds": 655,
+      "label": "10:55",
+      "source": "youtube"
+    },
+    {
+      "title": "Manus 2.0 and Cue",
+      "startSeconds": 663,
+      "label": "11:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Research - AI Improves Its Own Design",
+      "startSeconds": 684,
+      "label": "11:24",
+      "source": "youtube"
+    },
+    {
+      "title": "Strata: 125B Model on a Normal PC",
+      "startSeconds": 734,
+      "label": "12:14",
+      "source": "youtube"
+    },
+    {
+      "title": "SpaceXAI Renamed SpaceXSI",
+      "startSeconds": 807,
+      "label": "13:27",
+      "source": "youtube"
+    },
+    {
+      "title": "HumanLayer Multiplayer Agent Workspace",
+      "startSeconds": 832,
+      "label": "13:52",
+      "source": "youtube"
+    },
+    {
+      "title": "AI-Powered Video Editing Workflow",
+      "startSeconds": 884,
+      "label": "14:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Xiaomi HySparse2 Cuts Agent Context Costs",
+      "startSeconds": 943,
+      "label": "15:43",
+      "source": "youtube"
+    },
+    {
+      "title": "Salesforce JitMem: Memory on Demand",
+      "startSeconds": 1020,
+      "label": "17:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Zed + Claude",
+      "startSeconds": 1041,
+      "label": "17:21",
+      "source": "youtube"
+    },
+    {
+      "title": "Agent Toolkit",
+      "startSeconds": 1103,
+      "label": "18:23",
+      "source": "youtube"
+    },
+    {
+      "title": "Chinese Chips",
+      "startSeconds": 1238,
+      "label": "20:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Alibaba's V900 Chip",
+      "startSeconds": 1262,
+      "label": "21:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Sign in with ChatGPT Spends Your Plan",
+      "startSeconds": 1269,
+      "label": "21:09",
+      "source": "youtube"
+    },
+    {
+      "title": "White House Super Intelligence Accord",
+      "startSeconds": 1306,
+      "label": "21:46",
+      "source": "youtube"
+    },
+    {
+      "title": "Microsoft MAI-Transcribe-2-Streaming",
+      "startSeconds": 1335,
+      "label": "22:15",
+      "source": "youtube"
+    },
+    {
+      "title": "Agentic AI Token Use Dwarfs Human Use",
+      "startSeconds": 1356,
+      "label": "22:36",
+      "source": "youtube"
+    },
+    {
+      "title": "Trump's Super Intelligence Force",
+      "startSeconds": 1420,
+      "label": "23:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Aleph Alpha Kolibri 78B MoE",
+      "startSeconds": 1437,
+      "label": "23:57",
+      "source": "youtube"
+    },
+    {
+      "title": "image-blaster: Photo to 3D World",
+      "startSeconds": 1496,
+      "label": "24:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Reflection AI Beam 501B Open Model",
+      "startSeconds": 1519,
+      "label": "25:19",
+      "source": "youtube"
+    },
+    {
+      "title": "Reka Rho-1 19B Multimodal Model",
+      "startSeconds": 1563,
+      "label": "26:03",
+      "source": "youtube"
+    },
+    {
+      "title": "a16z - Top 100 Gen AI Consumer Apps",
+      "startSeconds": 1586,
+      "label": "26:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Devin Memory and Dreaming",
+      "startSeconds": 1637,
+      "label": "27:17",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI Publishes 722 Math Papers",
+      "startSeconds": 1673,
+      "label": "27:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Cloudflare Integrates Pi Durable",
+      "startSeconds": 1736,
+      "label": "28:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude-Shaped Science",
+      "startSeconds": 1788,
+      "label": "29:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Gemini Agent Coworkers",
+      "startSeconds": 1805,
+      "label": "30:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 1838,
+      "label": "30:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech Hiring and Skills in Demand",
+      "startSeconds": 1844,
+      "label": "30:44",
+      "source": "youtube"
+    }
+  ],
   "slides": [
     {
       "index": 1,
@@ -183,112 +462,409 @@
   ],
   "points": [
     {
-      "claim": "AI News - Oct 9, 2026 Copilot used",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Introduction - Copilot Used to Live in Word, Now Word Lives in Copilot",
+      "topic": "coding",
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=0s",
       "slideIndex": 1,
       "slideTitle": "AI News - Oct 9, 2026 Copilot used",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "LM Arena Leaderboard",
+      "topic": "benchmarks",
+      "videoSeconds": 57,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=57s",
       "slideIndex": 2,
       "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "claim": "Artificial Analysis Intelligence Index",
       "topic": "benchmarks",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 80,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=80s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft Copilot's Evolution",
+      "topic": "coding",
+      "videoSeconds": 101,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=101s",
       "slideIndex": 3,
       "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Mistral Large 4 \"Le Chonk\"",
+      "topic": "open-models",
+      "videoSeconds": 141,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=141s",
       "slideIndex": 4,
       "slideTitle": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News Building Better Through Constraints David Heinemeier",
-      "topic": "jobs",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Claude Haiku 5.5",
+      "topic": "claude",
+      "videoSeconds": 161,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=161s",
+      "slideIndex": 4,
+      "slideTitle": "AI News Microsoft Copilot’s Evolution 2023: Copilot begins",
+      "source": "youtube"
+    },
+    {
+      "claim": "Building Better Through Constraints",
+      "topic": "general",
+      "videoSeconds": 204,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=204s",
       "slideIndex": 5,
       "slideTitle": "AI News Building Better Through Constraints David Heinemeier",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News AI Agents Build a Complex App",
+      "claim": "AI Agents Build a Complex App Feature",
       "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 263,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=263s",
       "slideIndex": 6,
       "slideTitle": "AI News AI Agents Build a Complex App",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Claude Code Mods Claude Code Mods Mods =",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Claude Code Mods",
+      "topic": "coding",
+      "videoSeconds": 350,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=350s",
+      "slideIndex": 6,
+      "slideTitle": "AI News AI Agents Build a Complex App",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code JavaScript Videos",
+      "topic": "coding",
+      "videoSeconds": 415,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=415s",
       "slideIndex": 7,
       "slideTitle": "Claude Code Mods Claude Code Mods Mods =",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Claude Code JavaScript Videos Claude Code JavaScript Videos",
-      "topic": "coding",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Adobe Suite Rebuilt in Rust with Claude",
+      "topic": "claude",
+      "videoSeconds": 476,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=476s",
       "slideIndex": 8,
       "slideTitle": "Claude Code JavaScript Videos Claude Code JavaScript Videos",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "DeepSeek Harness: Evolving Agents DeepSeek Harness: Evolving Agents",
+      "claim": "DeepSeek Harness: Evolving Agents",
       "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 487,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=487s",
+      "slideIndex": 8,
+      "slideTitle": "Claude Code JavaScript Videos Claude Code JavaScript Videos",
+      "source": "youtube"
+    },
+    {
+      "claim": "Kent Beck on Craft and AI Coding",
+      "topic": "general",
+      "videoSeconds": 550,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=550s",
       "slideIndex": 9,
       "slideTitle": "DeepSeek Harness: Evolving Agents DeepSeek Harness: Evolving Agents",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Weekly videos every Friday Weekly videos every Friday",
+      "claim": "2026 Nobel Prizes",
       "topic": "general",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 612,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=612s",
       "slideIndex": 10,
       "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News Kent Beck on Craft and AI-Assisted",
+      "claim": "AI work that has already won Nobels",
       "topic": "general",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 638,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=638s",
+      "slideIndex": 10,
+      "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI work that has already won Turing Award",
+      "topic": "general",
+      "videoSeconds": 655,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=655s",
       "slideIndex": 11,
       "slideTitle": "AI News Kent Beck on Craft and AI-Assisted",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "2026 Nobel Prizes 2026 Nobel Prizes October 5",
+      "claim": "Manus 2.0 and Cue",
       "topic": "general",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 663,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=663s",
       "slideIndex": 12,
       "slideTitle": "2026 Nobel Prizes 2026 Nobel Prizes October 5",
-      "source": "slide"
+      "source": "youtube"
+    },
+    {
+      "claim": "Research - AI Improves Its Own Design",
+      "topic": "general",
+      "videoSeconds": 684,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=684s",
+      "slideIndex": 12,
+      "slideTitle": "2026 Nobel Prizes 2026 Nobel Prizes October 5",
+      "source": "youtube"
+    },
+    {
+      "claim": "Strata: 125B Model on a Normal PC",
+      "topic": "general",
+      "videoSeconds": 734,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=734s",
+      "slideIndex": 13,
+      "slideTitle": "AI News Manus 2.0 and Cue Agent app",
+      "source": "youtube"
+    },
+    {
+      "claim": "SpaceXAI Renamed SpaceXSI",
+      "topic": "general",
+      "videoSeconds": 807,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=807s",
+      "slideIndex": 14,
+      "slideTitle": "AI News Strata Runs 125 Bln Params Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "HumanLayer Multiplayer Agent Workspace",
+      "topic": "agents",
+      "videoSeconds": 832,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=832s",
+      "slideIndex": 14,
+      "slideTitle": "AI News Strata Runs 125 Bln Params Model",
+      "source": "youtube"
+    },
+    {
+      "claim": "AI-Powered Video Editing Workflow",
+      "topic": "general",
+      "videoSeconds": 884,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=884s",
+      "slideIndex": 15,
+      "slideTitle": "AI News HumanLayer - The Multiplayer Coding Agent",
+      "source": "youtube"
+    },
+    {
+      "claim": "Xiaomi HySparse2 Cuts Agent Context Costs",
+      "topic": "agents",
+      "videoSeconds": 943,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=943s",
+      "slideIndex": 16,
+      "slideTitle": "AI News AI-Powered Video Editing Workflow Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Salesforce JitMem: Memory on Demand",
+      "topic": "rag",
+      "videoSeconds": 1020,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1020s",
+      "slideIndex": 16,
+      "slideTitle": "AI News AI-Powered Video Editing Workflow Claude Code",
+      "source": "youtube"
+    },
+    {
+      "claim": "Zed + Claude",
+      "topic": "claude",
+      "videoSeconds": 1041,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1041s",
+      "slideIndex": 17,
+      "slideTitle": "AI News Xiaomi HySparse2 Cuts Agent Context Costs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agent Toolkit",
+      "topic": "agents",
+      "videoSeconds": 1103,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1103s",
+      "slideIndex": 17,
+      "slideTitle": "AI News Xiaomi HySparse2 Cuts Agent Context Costs",
+      "source": "youtube"
+    },
+    {
+      "claim": "Chinese Chips",
+      "topic": "infra",
+      "videoSeconds": 1238,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1238s",
+      "slideIndex": 18,
+      "slideTitle": "Zed + Claude Zed + Claude Install Zed:",
+      "source": "youtube"
+    },
+    {
+      "claim": "Alibaba's V900 Chip",
+      "topic": "infra",
+      "videoSeconds": 1262,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1262s",
+      "slideIndex": 19,
+      "slideTitle": "Chinese Chips Chinese Chips Ascend by Huawei —",
+      "source": "youtube"
+    },
+    {
+      "claim": "Sign in with ChatGPT Spends Your Plan",
+      "topic": "openai",
+      "videoSeconds": 1269,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1269s",
+      "slideIndex": 19,
+      "slideTitle": "Chinese Chips Chinese Chips Ascend by Huawei —",
+      "source": "youtube"
+    },
+    {
+      "claim": "White House Super Intelligence Accord",
+      "topic": "general",
+      "videoSeconds": 1306,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1306s",
+      "slideIndex": 20,
+      "slideTitle": "AI News Sign in with ChatGPT - lets",
+      "source": "youtube"
+    },
+    {
+      "claim": "Microsoft MAI-Transcribe-2-Streaming",
+      "topic": "general",
+      "videoSeconds": 1335,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1335s",
+      "slideIndex": 21,
+      "slideTitle": "AI News Agentic AI Token Use is Much",
+      "source": "youtube"
+    },
+    {
+      "claim": "Agentic AI Token Use Dwarfs Human Use",
+      "topic": "agents",
+      "videoSeconds": 1356,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1356s",
+      "slideIndex": 21,
+      "slideTitle": "AI News Agentic AI Token Use is Much",
+      "source": "youtube"
+    },
+    {
+      "claim": "Trump's Super Intelligence Force",
+      "topic": "general",
+      "videoSeconds": 1420,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1420s",
+      "slideIndex": 22,
+      "slideTitle": "AI News Trump launches a Super Intelligence Force",
+      "source": "youtube"
+    },
+    {
+      "claim": "Aleph Alpha Kolibri 78B MoE",
+      "topic": "general",
+      "videoSeconds": 1437,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1437s",
+      "slideIndex": 23,
+      "slideTitle": "AI News Reflection AI Beam - 501B open-weight",
+      "source": "youtube"
+    },
+    {
+      "claim": "image-blaster: Photo to 3D World",
+      "topic": "general",
+      "videoSeconds": 1496,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1496s",
+      "slideIndex": 23,
+      "slideTitle": "AI News Reflection AI Beam - 501B open-weight",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reflection AI Beam 501B Open Model",
+      "topic": "general",
+      "videoSeconds": 1519,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1519s",
+      "slideIndex": 24,
+      "slideTitle": "AI News Devin adds Memory and Dreaming Dreaming",
+      "source": "youtube"
+    },
+    {
+      "claim": "Reka Rho-1 19B Multimodal Model",
+      "topic": "multimodal",
+      "videoSeconds": 1563,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1563s",
+      "slideIndex": 25,
+      "slideTitle": "AI News OpenAI publishes 722 math papers from",
+      "source": "youtube"
+    },
+    {
+      "claim": "a16z - Top 100 Gen AI Consumer Apps",
+      "topic": "general",
+      "videoSeconds": 1586,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1586s",
+      "slideIndex": 25,
+      "slideTitle": "AI News OpenAI publishes 722 math papers from",
+      "source": "youtube"
+    },
+    {
+      "claim": "Devin Memory and Dreaming",
+      "topic": "rag",
+      "videoSeconds": 1637,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1637s",
+      "slideIndex": 26,
+      "slideTitle": "AI News Anthropic: \"Claude-shaped\" problems in science Physicist",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenAI Publishes 722 Math Papers",
+      "topic": "openai",
+      "videoSeconds": 1673,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1673s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cloudflare Integrates Pi Durable",
+      "topic": "general",
+      "videoSeconds": 1736,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1736s",
+      "slideIndex": 27,
+      "slideTitle": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude-Shaped Science",
+      "topic": "claude",
+      "videoSeconds": 1788,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1788s",
+      "slideIndex": 28,
+      "slideTitle": "Tech Hiring Software job postings on Indeed Comparing",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Gemini Agent Coworkers",
+      "topic": "agents",
+      "videoSeconds": 1805,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1805s",
+      "slideIndex": 29,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 1838,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1838s",
+      "slideIndex": 29,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech Hiring and Skills in Demand",
+      "topic": "jobs",
+      "videoSeconds": 1844,
+      "videoUrl": "https://www.youtube.com/watch?v=Zq9f96Mu5RM&t=1844s",
+      "slideIndex": 30,
+      "slideTitle": "Thank You! Videos of every seminar are on",
+      "source": "youtube"
     }
   ]
 }

@@ -13,9 +13,19 @@
     "agents",
     "rag",
     "coding",
-    "enterprise"
+    "enterprise",
+    "infra",
+    "multimodal",
+    "safety",
+    "jobs"
   ],
-  "video": null,
+  "video": {
+    "id": "ITVw7oslqyo",
+    "title": "Exciting AI Updates Weekly - October 02, 2026",
+    "url": "https://www.youtube.com/watch?v=ITVw7oslqyo",
+    "thumbnail": "https://i.ytimg.com/vi/ITVw7oslqyo/hqdefault.jpg",
+    "duration": 2122
+  },
   "deck": {
     "path": "2026/2026-10-02-AI-News.pptx",
     "filename": "2026-10-02-AI-News.pptx",
@@ -24,10 +34,305 @@
     "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-02-AI-News.pptx"
   },
   "match": {
-    "confidence": "deck-only",
-    "method": "unmatched"
+    "confidence": "date",
+    "method": "exact-date"
   },
-  "chapters": [],
+  "chapters": [
+    {
+      "title": "Trend - Persistent Agents",
+      "startSeconds": 0,
+      "label": "00:00",
+      "source": "youtube"
+    },
+    {
+      "title": "Crowd-sourced LM Arena",
+      "startSeconds": 25,
+      "label": "00:25",
+      "source": "youtube"
+    },
+    {
+      "title": "Artificial Analysis Intelligence Index",
+      "startSeconds": 107,
+      "label": "01:47",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini 4 Argon - Google's Latest Frontier AI Model",
+      "startSeconds": 158,
+      "label": "02:38",
+      "source": "youtube"
+    },
+    {
+      "title": "Google RRSI: Self-Improving Harness",
+      "startSeconds": 183,
+      "label": "03:03",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Sonnet 5.5: Faster, Lower-Cost",
+      "startSeconds": 221,
+      "label": "03:41",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Opus 5.5 is a Better Writer",
+      "startSeconds": 275,
+      "label": "04:35",
+      "source": "youtube"
+    },
+    {
+      "title": "Recent Claude Opus Versions Release Dates",
+      "startSeconds": 318,
+      "label": "05:18",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Marketplace: 2,000+ Plugins",
+      "startSeconds": 335,
+      "label": "05:35",
+      "source": "youtube"
+    },
+    {
+      "title": "AI Agents Train Their Successors",
+      "startSeconds": 358,
+      "label": "05:58",
+      "source": "youtube"
+    },
+    {
+      "title": "DSec Scales Sandboxes for Agentic RL Training",
+      "startSeconds": 386,
+      "label": "06:26",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI cancels GPT-6.1 Astra and releases 6.1 Sol",
+      "startSeconds": 483,
+      "label": "08:03",
+      "source": "youtube"
+    },
+    {
+      "title": "VectifyAI PageIndex Doc Search",
+      "startSeconds": 529,
+      "label": "08:49",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenAI DevDay 2026 - Agents and Tools - Sept 29",
+      "startSeconds": 579,
+      "label": "09:39",
+      "source": "youtube"
+    },
+    {
+      "title": "Persistent AI Agents (trending)",
+      "startSeconds": 662,
+      "label": "11:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Trend - Persistent Agents",
+      "startSeconds": 700,
+      "label": "11:40",
+      "source": "youtube"
+    },
+    {
+      "title": "Court Upholds Pentagon Anthropic Blacklist",
+      "startSeconds": 780,
+      "label": "13:00",
+      "source": "youtube"
+    },
+    {
+      "title": "DHH (David Heinemeier Hansson) Keynote",
+      "startSeconds": 866,
+      "label": "14:26",
+      "source": "youtube"
+    },
+    {
+      "title": "Memoh: AI Agents With Their Own PCs (China)",
+      "startSeconds": 973,
+      "label": "16:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Swarms Are Expensive",
+      "startSeconds": 1004,
+      "label": "16:44",
+      "source": "youtube"
+    },
+    {
+      "title": "GLM-5.3 Builds Cyber Exploits",
+      "startSeconds": 1046,
+      "label": "17:26",
+      "source": "youtube"
+    },
+    {
+      "title": "When to Use JEV",
+      "startSeconds": 1117,
+      "label": "18:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Laya by ConvAI Innovations - better than Jev",
+      "startSeconds": 1171,
+      "label": "19:31",
+      "source": "youtube"
+    },
+    {
+      "title": "Fastino GLiDE - Jev-like model, via API",
+      "startSeconds": 1187,
+      "label": "19:47",
+      "source": "youtube"
+    },
+    {
+      "title": "CLM-8B: 9x Faster Than Jev",
+      "startSeconds": 1193,
+      "label": "19:53",
+      "source": "youtube"
+    },
+    {
+      "title": "Jeff - Classifier for Under $5",
+      "startSeconds": 1230,
+      "label": "20:30",
+      "source": "youtube"
+    },
+    {
+      "title": "OpenRouter Jev Router",
+      "startSeconds": 1251,
+      "label": "20:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Modal Quail: 1B Tokens/Min per H100",
+      "startSeconds": 1273,
+      "label": "21:13",
+      "source": "youtube"
+    },
+    {
+      "title": "Ollama Adds Local Jev-like Decision Models",
+      "startSeconds": 1325,
+      "label": "22:05",
+      "source": "youtube"
+    },
+    {
+      "title": "Gemini Makes Business Calls",
+      "startSeconds": 1387,
+      "label": "23:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Google Suncatcher: TPUs in Orbit",
+      "startSeconds": 1408,
+      "label": "23:28",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Diarization",
+      "startSeconds": 1456,
+      "label": "24:16",
+      "source": "youtube"
+    },
+    {
+      "title": "DeepSeek Hits $1B Run Rate",
+      "startSeconds": 1488,
+      "label": "24:48",
+      "source": "youtube"
+    },
+    {
+      "title": "Muse Leaks Its Own Sandbox",
+      "startSeconds": 1499,
+      "label": "24:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Meta Enterprise AI Platform",
+      "startSeconds": 1532,
+      "label": "25:32",
+      "source": "youtube"
+    },
+    {
+      "title": "FLUX 3 Action Robot Model",
+      "startSeconds": 1544,
+      "label": "25:44",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Graceful 5-Hour Stop",
+      "startSeconds": 1559,
+      "label": "25:59",
+      "source": "youtube"
+    },
+    {
+      "title": "Ethernet Proposed, May 22, 1973",
+      "startSeconds": 1579,
+      "label": "26:19",
+      "source": "youtube"
+    },
+    {
+      "title": "NVIDIA Agent Safety: OpenShell + Sentry",
+      "startSeconds": 1614,
+      "label": "26:54",
+      "source": "youtube"
+    },
+    {
+      "title": "AMD to Acquire Fei-Fei Li's World Labs",
+      "startSeconds": 1669,
+      "label": "27:49",
+      "source": "youtube"
+    },
+    {
+      "title": "Fireworks.AI Ember-1 - 40% less Tokens",
+      "startSeconds": 1687,
+      "label": "28:07",
+      "source": "youtube"
+    },
+    {
+      "title": "Cloudflare cf: CLI Built for Agents",
+      "startSeconds": 1757,
+      "label": "29:17",
+      "source": "youtube"
+    },
+    {
+      "title": "Vercel: 1M Agent Skills, 280M Installs",
+      "startSeconds": 1804,
+      "label": "30:04",
+      "source": "youtube"
+    },
+    {
+      "title": "Clef & Strands Decider: Open Jev Rivals",
+      "startSeconds": 1856,
+      "label": "30:56",
+      "source": "youtube"
+    },
+    {
+      "title": "Claude Code Mods",
+      "startSeconds": 1911,
+      "label": "31:51",
+      "source": "youtube"
+    },
+    {
+      "title": "Xiaomi MiMo-V2.6-Pro: Top Open Model",
+      "startSeconds": 1986,
+      "label": "33:06",
+      "source": "youtube"
+    },
+    {
+      "title": "Tavus Griffin Passes for Human",
+      "startSeconds": 2017,
+      "label": "33:37",
+      "source": "youtube"
+    },
+    {
+      "title": "Jobs & Layoffs",
+      "startSeconds": 2042,
+      "label": "34:02",
+      "source": "youtube"
+    },
+    {
+      "title": "Tech Hiring & Skills in Demand",
+      "startSeconds": 2048,
+      "label": "34:08",
+      "source": "youtube"
+    }
+  ],
   "slides": [
     {
       "index": 1,
@@ -172,112 +477,445 @@
   ],
   "points": [
     {
-      "claim": "AI News - Oct 2, 2026 Trend -",
+      "claim": "Trend - Persistent Agents",
       "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 0,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=0s",
       "slideIndex": 1,
       "slideTitle": "AI News - Oct 2, 2026 Trend -",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Crowd-sourced LM Arena",
+      "topic": "benchmarks",
+      "videoSeconds": 25,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=25s",
       "slideIndex": 2,
       "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "claim": "Artificial Analysis Intelligence Index",
       "topic": "benchmarks",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 107,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=107s",
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini 4 Argon - Google's Latest Frontier AI Model",
+      "topic": "google",
+      "videoSeconds": 158,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=158s",
       "slideIndex": 3,
       "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News Gemini 4 Argon - Google's Latest",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Google RRSI: Self-Improving Harness",
+      "topic": "general",
+      "videoSeconds": 183,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=183s",
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Sonnet 5.5: Faster, Lower-Cost",
+      "topic": "claude",
+      "videoSeconds": 221,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=221s",
       "slideIndex": 4,
       "slideTitle": "AI News Gemini 4 Argon - Google's Latest",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News Claude Sonnet 5.5: Faster, Lower-Cost API",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Claude Opus 5.5 is a Better Writer",
+      "topic": "claude",
+      "videoSeconds": 275,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=275s",
+      "slideIndex": 4,
+      "slideTitle": "AI News Gemini 4 Argon - Google's Latest",
+      "source": "youtube"
+    },
+    {
+      "claim": "Recent Claude Opus Versions Release Dates",
+      "topic": "claude",
+      "videoSeconds": 318,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=318s",
       "slideIndex": 5,
       "slideTitle": "AI News Claude Sonnet 5.5: Faster, Lower-Cost API",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "DeepSeek DSec paper AI Agents Train Their Successors",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "Claude Marketplace: 2,000+ Plugins",
+      "topic": "claude",
+      "videoSeconds": 335,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=335s",
       "slideIndex": 6,
       "slideTitle": "DeepSeek DSec paper AI Agents Train Their Successors",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News OpenAI cancels GPT-6.1 Astra and releases",
+      "claim": "AI Agents Train Their Successors",
       "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 358,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=358s",
+      "slideIndex": 6,
+      "slideTitle": "DeepSeek DSec paper AI Agents Train Their Successors",
+      "source": "youtube"
+    },
+    {
+      "claim": "DSec Scales Sandboxes for Agentic RL Training",
+      "topic": "agents",
+      "videoSeconds": 386,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=386s",
       "slideIndex": 7,
       "slideTitle": "AI News OpenAI cancels GPT-6.1 Astra and releases",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "OpenAI DevDay 2026 - Agents and Tools OpenAI",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "OpenAI cancels GPT-6.1 Astra and releases 6.1 Sol",
+      "topic": "openai",
+      "videoSeconds": 483,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=483s",
+      "slideIndex": 7,
+      "slideTitle": "AI News OpenAI cancels GPT-6.1 Astra and releases",
+      "source": "youtube"
+    },
+    {
+      "claim": "VectifyAI PageIndex Doc Search",
+      "topic": "general",
+      "videoSeconds": 529,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=529s",
       "slideIndex": 8,
       "slideTitle": "OpenAI DevDay 2026 - Agents and Tools OpenAI",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "Weekly videos every Friday Weekly videos every Friday",
-      "topic": "general",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "OpenAI DevDay 2026 - Agents and Tools - Sept 29",
+      "topic": "agents",
+      "videoSeconds": 579,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=579s",
+      "slideIndex": 8,
+      "slideTitle": "OpenAI DevDay 2026 - Agents and Tools OpenAI",
+      "source": "youtube"
+    },
+    {
+      "claim": "Persistent AI Agents (trending)",
+      "topic": "agents",
+      "videoSeconds": 662,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=662s",
       "slideIndex": 9,
       "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI News Appeals court lets the Pentagon keep",
+      "claim": "Trend - Persistent Agents",
+      "topic": "agents",
+      "videoSeconds": 700,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=700s",
+      "slideIndex": 9,
+      "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+      "source": "youtube"
+    },
+    {
+      "claim": "Court Upholds Pentagon Anthropic Blacklist",
       "topic": "claude",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 780,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=780s",
       "slideIndex": 10,
       "slideTitle": "AI News Appeals court lets the Pentagon keep",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails",
-      "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "claim": "DHH (David Heinemeier Hansson) Keynote",
+      "topic": "general",
+      "videoSeconds": 866,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=866s",
       "slideIndex": 11,
       "slideTitle": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails",
-      "source": "slide"
+      "source": "youtube"
     },
     {
-      "claim": "AI Updates Memoh: AI Agents With Their Own",
+      "claim": "Memoh: AI Agents With Their Own PCs (China)",
       "topic": "agents",
-      "videoSeconds": null,
-      "videoUrl": null,
+      "videoSeconds": 973,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=973s",
+      "slideIndex": 11,
+      "slideTitle": "DHH Keynote DHH (David Heinemeier Hansson) Keynote Rails",
+      "source": "youtube"
+    },
+    {
+      "claim": "Swarms Are Expensive",
+      "topic": "general",
+      "videoSeconds": 1004,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1004s",
       "slideIndex": 12,
       "slideTitle": "AI Updates Memoh: AI Agents With Their Own",
-      "source": "slide"
+      "source": "youtube"
+    },
+    {
+      "claim": "GLM-5.3 Builds Cyber Exploits",
+      "topic": "open-models",
+      "videoSeconds": 1046,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1046s",
+      "slideIndex": 12,
+      "slideTitle": "AI Updates Memoh: AI Agents With Their Own",
+      "source": "youtube"
+    },
+    {
+      "claim": "When to Use JEV",
+      "topic": "general",
+      "videoSeconds": 1117,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1117s",
+      "slideIndex": 13,
+      "slideTitle": "JEV - page 1 When to Use JEV",
+      "source": "youtube"
+    },
+    {
+      "claim": "Laya by ConvAI Innovations - better than Jev",
+      "topic": "general",
+      "videoSeconds": 1171,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1171s",
+      "slideIndex": 13,
+      "slideTitle": "JEV - page 1 When to Use JEV",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fastino GLiDE - Jev-like model, via API",
+      "topic": "general",
+      "videoSeconds": 1187,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1187s",
+      "slideIndex": 14,
+      "slideTitle": "JEV - page 2 Contrastive Language Models score",
+      "source": "youtube"
+    },
+    {
+      "claim": "CLM-8B: 9x Faster Than Jev",
+      "topic": "general",
+      "videoSeconds": 1193,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1193s",
+      "slideIndex": 15,
+      "slideTitle": "JEV - page 3 Modal's Quail processes a",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jeff - Classifier for Under $5",
+      "topic": "general",
+      "videoSeconds": 1230,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1230s",
+      "slideIndex": 15,
+      "slideTitle": "JEV - page 3 Modal's Quail processes a",
+      "source": "youtube"
+    },
+    {
+      "claim": "OpenRouter Jev Router",
+      "topic": "general",
+      "videoSeconds": 1251,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1251s",
+      "slideIndex": 16,
+      "slideTitle": "AI News Gemini now phones businesses for you",
+      "source": "youtube"
+    },
+    {
+      "claim": "Modal Quail: 1B Tokens/Min per H100",
+      "topic": "general",
+      "videoSeconds": 1273,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1273s",
+      "slideIndex": 16,
+      "slideTitle": "AI News Gemini now phones businesses for you",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ollama Adds Local Jev-like Decision Models",
+      "topic": "open-models",
+      "videoSeconds": 1325,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1325s",
+      "slideIndex": 17,
+      "slideTitle": "AI News DeepSeek doubles revenue run rate to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Gemini Makes Business Calls",
+      "topic": "google",
+      "videoSeconds": 1387,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1387s",
+      "slideIndex": 17,
+      "slideTitle": "AI News DeepSeek doubles revenue run rate to",
+      "source": "youtube"
+    },
+    {
+      "claim": "Google Suncatcher: TPUs in Orbit",
+      "topic": "general",
+      "videoSeconds": 1408,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1408s",
+      "slideIndex": 18,
+      "slideTitle": "AI News FLUX 3 Action: open 7B robot",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Nemotron 3 Diarization",
+      "topic": "infra",
+      "videoSeconds": 1456,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1456s",
+      "slideIndex": 18,
+      "slideTitle": "AI News FLUX 3 Action: open 7B robot",
+      "source": "youtube"
+    },
+    {
+      "claim": "DeepSeek Hits $1B Run Rate",
+      "topic": "open-models",
+      "videoSeconds": 1488,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1488s",
+      "slideIndex": 19,
+      "slideTitle": "Ethernet , Internet May 22, 1973, Robert Metcalfe",
+      "source": "youtube"
+    },
+    {
+      "claim": "Muse Leaks Its Own Sandbox",
+      "topic": "general",
+      "videoSeconds": 1499,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1499s",
+      "slideIndex": 20,
+      "slideTitle": "AI News NVIDIA puts an AI agent watchdog",
+      "source": "youtube"
+    },
+    {
+      "claim": "Meta Enterprise AI Platform",
+      "topic": "enterprise",
+      "videoSeconds": 1532,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1532s",
+      "slideIndex": 20,
+      "slideTitle": "AI News NVIDIA puts an AI agent watchdog",
+      "source": "youtube"
+    },
+    {
+      "claim": "FLUX 3 Action Robot Model",
+      "topic": "multimodal",
+      "videoSeconds": 1544,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1544s",
+      "slideIndex": 21,
+      "slideTitle": "AI News Fireworks.AI Ember-1 - 40% less Tokens",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code Graceful 5-Hour Stop",
+      "topic": "coding",
+      "videoSeconds": 1559,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1559s",
+      "slideIndex": 21,
+      "slideTitle": "AI News Fireworks.AI Ember-1 - 40% less Tokens",
+      "source": "youtube"
+    },
+    {
+      "claim": "Ethernet Proposed, May 22, 1973",
+      "topic": "general",
+      "videoSeconds": 1579,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1579s",
+      "slideIndex": 22,
+      "slideTitle": "AI News Cloudflare's new cf CLI is built",
+      "source": "youtube"
+    },
+    {
+      "claim": "NVIDIA Agent Safety: OpenShell + Sentry",
+      "topic": "agents",
+      "videoSeconds": 1614,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1614s",
+      "slideIndex": 22,
+      "slideTitle": "AI News Cloudflare's new cf CLI is built",
+      "source": "youtube"
+    },
+    {
+      "claim": "AMD to Acquire Fei-Fei Li's World Labs",
+      "topic": "general",
+      "videoSeconds": 1669,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1669s",
+      "slideIndex": 23,
+      "slideTitle": "AI News Cloudflare and AWS - open Jev-style",
+      "source": "youtube"
+    },
+    {
+      "claim": "Fireworks.AI Ember-1 - 40% less Tokens",
+      "topic": "general",
+      "videoSeconds": 1687,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1687s",
+      "slideIndex": 24,
+      "slideTitle": "AI News Xiaomi MiMo-V2.6-Pro becomes the top open-weight",
+      "source": "youtube"
+    },
+    {
+      "claim": "Cloudflare cf: CLI Built for Agents",
+      "topic": "agents",
+      "videoSeconds": 1757,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1757s",
+      "slideIndex": 24,
+      "slideTitle": "AI News Xiaomi MiMo-V2.6-Pro becomes the top open-weight",
+      "source": "youtube"
+    },
+    {
+      "claim": "Vercel: 1M Agent Skills, 280M Installs",
+      "topic": "agents",
+      "videoSeconds": 1804,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1804s",
+      "slideIndex": 25,
+      "slideTitle": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "source": "youtube"
+    },
+    {
+      "claim": "Clef & Strands Decider: Open Jev Rivals",
+      "topic": "general",
+      "videoSeconds": 1856,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1856s",
+      "slideIndex": 25,
+      "slideTitle": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "source": "youtube"
+    },
+    {
+      "claim": "Claude Code Mods",
+      "topic": "coding",
+      "videoSeconds": 1911,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1911s",
+      "slideIndex": 26,
+      "slideTitle": "Tech Hiring Software job postings on Indeed -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Xiaomi MiMo-V2.6-Pro: Top Open Model",
+      "topic": "general",
+      "videoSeconds": 1986,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=1986s",
+      "slideIndex": 26,
+      "slideTitle": "Tech Hiring Software job postings on Indeed -",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tavus Griffin Passes for Human",
+      "topic": "general",
+      "videoSeconds": 2017,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=2017s",
+      "slideIndex": 27,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Jobs & Layoffs",
+      "topic": "jobs",
+      "videoSeconds": 2042,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=2042s",
+      "slideIndex": 27,
+      "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "source": "youtube"
+    },
+    {
+      "claim": "Tech Hiring & Skills in Demand",
+      "topic": "jobs",
+      "videoSeconds": 2048,
+      "videoUrl": "https://www.youtube.com/watch?v=ITVw7oslqyo&t=2048s",
+      "slideIndex": 28,
+      "slideTitle": "Thank You! Videos of every seminar are on",
+      "source": "youtube"
     }
   ]
 }
