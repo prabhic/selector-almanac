@@ -15,9 +15,17 @@
       "coding",
       "rag",
       "safety",
-      "multimodal"
+      "multimodal",
+      "infra",
+      "jobs"
     ],
-    "video": null,
+    "video": {
+      "id": "gWSrcvohXGs",
+      "title": "Exciting AI Updates Weekly - October 23, 2026",
+      "url": "https://www.youtube.com/watch?v=gWSrcvohXGs",
+      "thumbnail": "https://i.ytimg.com/vi/gWSrcvohXGs/hqdefault.jpg",
+      "duration": 1666
+    },
     "deck": {
       "path": "2026/2026-10-23-AI-News.pptx",
       "filename": "2026-10-23-AI-News.pptx",
@@ -26,10 +34,239 @@
       "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-23-AI-News.pptx"
     },
     "match": {
-      "confidence": "deck-only",
-      "method": "unmatched"
+      "confidence": "date",
+      "method": "exact-date"
     },
-    "chapters": [],
+    "chapters": [
+      {
+        "title": "Introduction - The Harness Matters More Than the Model",
+        "startSeconds": 0,
+        "label": "00:00",
+        "source": "youtube"
+      },
+      {
+        "title": "Crowd-sourced LM Arena",
+        "startSeconds": 56,
+        "label": "00:56",
+        "source": "youtube"
+      },
+      {
+        "title": "Artificial Analysis Intelligence Index",
+        "startSeconds": 82,
+        "label": "01:22",
+        "source": "youtube"
+      },
+      {
+        "title": "Google's Harness2 Agent Framework",
+        "startSeconds": 170,
+        "label": "02:50",
+        "source": "youtube"
+      },
+      {
+        "title": "Mistral Releases Timestral Models",
+        "startSeconds": 196,
+        "label": "03:16",
+        "source": "youtube"
+      },
+      {
+        "title": "Gemini 4 Argon GA",
+        "startSeconds": 223,
+        "label": "03:43",
+        "source": "youtube"
+      },
+      {
+        "title": "MiniMax M3.1 Flash",
+        "startSeconds": 268,
+        "label": "04:28",
+        "source": "youtube"
+      },
+      {
+        "title": "DeepSeek V4.1-Flash-1017",
+        "startSeconds": 303,
+        "label": "05:03",
+        "source": "youtube"
+      },
+      {
+        "title": "REA - Reverse Engineering Anything",
+        "startSeconds": 328,
+        "label": "05:28",
+        "source": "youtube"
+      },
+      {
+        "title": "TypeSafe Jev 1.14",
+        "startSeconds": 369,
+        "label": "06:09",
+        "source": "youtube"
+      },
+      {
+        "title": "20 Jev alternatives",
+        "startSeconds": 421,
+        "label": "07:01",
+        "source": "youtube"
+      },
+      {
+        "title": "Scion vs Git",
+        "startSeconds": 454,
+        "label": "07:34",
+        "source": "youtube"
+      },
+      {
+        "title": "NVIDIA Nemotron 3.5 Super VL",
+        "startSeconds": 652,
+        "label": "10:52",
+        "source": "youtube"
+      },
+      {
+        "title": "OpenAI GPT-Live-1.1 Voices",
+        "startSeconds": 714,
+        "label": "11:54",
+        "source": "youtube"
+      },
+      {
+        "title": "Liquid AI d1-ultra Decision Model",
+        "startSeconds": 739,
+        "label": "12:19",
+        "source": "youtube"
+      },
+      {
+        "title": "Krea 3 Image Editing",
+        "startSeconds": 776,
+        "label": "12:56",
+        "source": "youtube"
+      },
+      {
+        "title": "AI Personality Becomes Competitive",
+        "startSeconds": 801,
+        "label": "13:21",
+        "source": "youtube"
+      },
+      {
+        "title": "Customize your Claude Code",
+        "startSeconds": 844,
+        "label": "14:04",
+        "source": "youtube"
+      },
+      {
+        "title": "Skills vs Agents",
+        "startSeconds": 921,
+        "label": "15:21",
+        "source": "youtube"
+      },
+      {
+        "title": "Customize GitHub Copilot for VS Code",
+        "startSeconds": 931,
+        "label": "15:31",
+        "source": "youtube"
+      },
+      {
+        "title": "AI Agents Breach 100+ Websites",
+        "startSeconds": 998,
+        "label": "16:38",
+        "source": "youtube"
+      },
+      {
+        "title": "Jack Clark: Singularity Has Begun",
+        "startSeconds": 1030,
+        "label": "17:10",
+        "source": "youtube"
+      },
+      {
+        "title": "Inception Mercury 3 fast diffusion LLM",
+        "startSeconds": 1054,
+        "label": "17:34",
+        "source": "youtube"
+      },
+      {
+        "title": "Cloudflare Clairic Extraction Model",
+        "startSeconds": 1112,
+        "label": "18:32",
+        "source": "youtube"
+      },
+      {
+        "title": "DeepSeek DeepInfer Open-Sourced",
+        "startSeconds": 1152,
+        "label": "19:12",
+        "source": "youtube"
+      },
+      {
+        "title": "PyTorch on TPUs and Trainium",
+        "startSeconds": 1187,
+        "label": "19:47",
+        "source": "youtube"
+      },
+      {
+        "title": "Ming 3.0: Open Voice AI Models",
+        "startSeconds": 1248,
+        "label": "20:48",
+        "source": "youtube"
+      },
+      {
+        "title": "Perplexity SPACE Agent Sandbox",
+        "startSeconds": 1267,
+        "label": "21:07",
+        "source": "youtube"
+      },
+      {
+        "title": "US Bans DeepSeek in Federal Agencies",
+        "startSeconds": 1327,
+        "label": "22:07",
+        "source": "youtube"
+      },
+      {
+        "title": "Mistral Voxtral 3 Voice Models",
+        "startSeconds": 1350,
+        "label": "22:30",
+        "source": "youtube"
+      },
+      {
+        "title": "Exa 3.0 Search",
+        "startSeconds": 1370,
+        "label": "22:50",
+        "source": "youtube"
+      },
+      {
+        "title": "Anthropic Claude Duet Agent",
+        "startSeconds": 1413,
+        "label": "23:33",
+        "source": "youtube"
+      },
+      {
+        "title": "Recursive Flint: Local Coding AI",
+        "startSeconds": 1487,
+        "label": "24:47",
+        "source": "youtube"
+      },
+      {
+        "title": "1Password for Agents",
+        "startSeconds": 1539,
+        "label": "25:39",
+        "source": "youtube"
+      },
+      {
+        "title": "Claude Text Watermark",
+        "startSeconds": 1590,
+        "label": "26:30",
+        "source": "youtube"
+      },
+      {
+        "title": "Anthropic junior hiring is down",
+        "startSeconds": 1617,
+        "label": "26:57",
+        "source": "youtube"
+      },
+      {
+        "title": "Jobs & Layoffs",
+        "startSeconds": 1652,
+        "label": "27:32",
+        "source": "youtube"
+      },
+      {
+        "title": "Tech Hiring & Skills",
+        "startSeconds": 1657,
+        "label": "27:37",
+        "source": "youtube"
+      }
+    ],
     "slides": [
       {
         "index": 1,
@@ -169,112 +406,346 @@
     ],
     "points": [
       {
-        "claim": "AI News - Oct 23, 2026 Every lab",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Introduction - The Harness Matters More Than the Model",
+        "topic": "general",
+        "videoSeconds": 0,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=0s",
         "slideIndex": 1,
         "slideTitle": "AI News - Oct 23, 2026 Every lab",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-        "topic": "claude",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Crowd-sourced LM Arena",
+        "topic": "benchmarks",
+        "videoSeconds": 56,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=56s",
         "slideIndex": 2,
         "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "claim": "Artificial Analysis Intelligence Index",
         "topic": "benchmarks",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "videoSeconds": 82,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=82s",
+        "slideIndex": 2,
+        "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "source": "youtube"
+      },
+      {
+        "claim": "Google's Harness2 Agent Framework",
+        "topic": "agents",
+        "videoSeconds": 170,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=170s",
         "slideIndex": 3,
         "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Mistral Releases Timestral Models Four sizes - 5M,",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Mistral Releases Timestral Models",
+        "topic": "open-models",
+        "videoSeconds": 196,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=196s",
         "slideIndex": 4,
         "slideTitle": "Mistral Releases Timestral Models Four sizes - 5M,",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI News Gemini 4 Argon goes GA with",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Gemini 4 Argon GA",
+        "topic": "google",
+        "videoSeconds": 223,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=223s",
         "slideIndex": 5,
         "slideTitle": "AI News Gemini 4 Argon goes GA with",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI News MiniMax launches M3.1 Flash AI model",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "MiniMax M3.1 Flash",
+        "topic": "general",
+        "videoSeconds": 268,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=268s",
+        "slideIndex": 5,
+        "slideTitle": "AI News Gemini 4 Argon goes GA with",
+        "source": "youtube"
+      },
+      {
+        "claim": "DeepSeek V4.1-Flash-1017",
+        "topic": "open-models",
+        "videoSeconds": 303,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=303s",
         "slideIndex": 6,
         "slideTitle": "AI News MiniMax launches M3.1 Flash AI model",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "DeepSeek V4.1-Flash-1017 DeepSWE v1.1 coding score increased from",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "REA - Reverse Engineering Anything",
+        "topic": "general",
+        "videoSeconds": 328,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=328s",
         "slideIndex": 7,
         "slideTitle": "DeepSeek V4.1-Flash-1017 DeepSWE v1.1 coding score increased from",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "20 Jev alternatives - Cloudflare Clef / Clef-flash",
-        "topic": "openai",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "TypeSafe Jev 1.14",
+        "topic": "general",
+        "videoSeconds": 369,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=369s",
+        "slideIndex": 7,
+        "slideTitle": "DeepSeek V4.1-Flash-1017 DeepSWE v1.1 coding score increased from",
+        "source": "youtube"
+      },
+      {
+        "claim": "20 Jev alternatives",
+        "topic": "general",
+        "videoSeconds": 421,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=421s",
         "slideIndex": 8,
         "slideTitle": "20 Jev alternatives - Cloudflare Clef / Clef-flash",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Weekly videos every Friday Weekly videos every Friday",
+        "claim": "Scion vs Git",
         "topic": "general",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "videoSeconds": 454,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=454s",
         "slideIndex": 9,
         "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "Scion vs Git Scion vs Git Anthropic reports",
-        "topic": "claude",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "NVIDIA Nemotron 3.5 Super VL",
+        "topic": "infra",
+        "videoSeconds": 652,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=652s",
+        "slideIndex": 9,
+        "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+        "source": "youtube"
+      },
+      {
+        "claim": "OpenAI GPT-Live-1.1 Voices",
+        "topic": "openai",
+        "videoSeconds": 714,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=714s",
         "slideIndex": 10,
         "slideTitle": "Scion vs Git Scion vs Git Anthropic reports",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI News NVIDIA Nemotron 3.5 Super VL a",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Liquid AI d1-ultra Decision Model",
+        "topic": "general",
+        "videoSeconds": 739,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=739s",
         "slideIndex": 11,
         "slideTitle": "AI News NVIDIA Nemotron 3.5 Super VL a",
-        "source": "slide"
+        "source": "youtube"
       },
       {
-        "claim": "AI News Krea 3: image editing in under",
-        "topic": "agents",
-        "videoSeconds": null,
-        "videoUrl": null,
+        "claim": "Krea 3 Image Editing",
+        "topic": "general",
+        "videoSeconds": 776,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=776s",
         "slideIndex": 12,
         "slideTitle": "AI News Krea 3: image editing in under",
-        "source": "slide"
+        "source": "youtube"
+      },
+      {
+        "claim": "AI Personality Becomes Competitive",
+        "topic": "general",
+        "videoSeconds": 801,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=801s",
+        "slideIndex": 12,
+        "slideTitle": "AI News Krea 3: image editing in under",
+        "source": "youtube"
+      },
+      {
+        "claim": "Customize your Claude Code",
+        "topic": "coding",
+        "videoSeconds": 844,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=844s",
+        "slideIndex": 13,
+        "slideTitle": "Customize Claude Code Customize your Claude Code CLAUDE.md",
+        "source": "youtube"
+      },
+      {
+        "claim": "Skills vs Agents",
+        "topic": "agents",
+        "videoSeconds": 921,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=921s",
+        "slideIndex": 14,
+        "slideTitle": "Customize Copilot in VS Code Customize GitHub Copilot",
+        "source": "youtube"
+      },
+      {
+        "claim": "Customize GitHub Copilot for VS Code",
+        "topic": "coding",
+        "videoSeconds": 931,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=931s",
+        "slideIndex": 14,
+        "slideTitle": "Customize Copilot in VS Code Customize GitHub Copilot",
+        "source": "youtube"
+      },
+      {
+        "claim": "AI Agents Breach 100+ Websites",
+        "topic": "agents",
+        "videoSeconds": 998,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=998s",
+        "slideIndex": 15,
+        "slideTitle": "AI News AI Agents Breach 100+ Websites Reuters",
+        "source": "youtube"
+      },
+      {
+        "claim": "Jack Clark: Singularity Has Begun",
+        "topic": "general",
+        "videoSeconds": 1030,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1030s",
+        "slideIndex": 16,
+        "slideTitle": "AI News Cloudflare Clairic Extraction Model Cloudflare calls",
+        "source": "youtube"
+      },
+      {
+        "claim": "Inception Mercury 3 fast diffusion LLM",
+        "topic": "multimodal",
+        "videoSeconds": 1054,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1054s",
+        "slideIndex": 16,
+        "slideTitle": "AI News Cloudflare Clairic Extraction Model Cloudflare calls",
+        "source": "youtube"
+      },
+      {
+        "claim": "Cloudflare Clairic Extraction Model",
+        "topic": "general",
+        "videoSeconds": 1112,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1112s",
+        "slideIndex": 17,
+        "slideTitle": "AI News DeepSeek open-sources DeepInfer, its production inference",
+        "source": "youtube"
+      },
+      {
+        "claim": "DeepSeek DeepInfer Open-Sourced",
+        "topic": "open-models",
+        "videoSeconds": 1152,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1152s",
+        "slideIndex": 18,
+        "slideTitle": "AI News PyTorch now runs natively on Google",
+        "source": "youtube"
+      },
+      {
+        "claim": "PyTorch on TPUs and Trainium",
+        "topic": "general",
+        "videoSeconds": 1187,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1187s",
+        "slideIndex": 19,
+        "slideTitle": "AI News Perplexity open-sources SPACE, a sandbox for",
+        "source": "youtube"
+      },
+      {
+        "claim": "Ming 3.0: Open Voice AI Models",
+        "topic": "multimodal",
+        "videoSeconds": 1248,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1248s",
+        "slideIndex": 19,
+        "slideTitle": "AI News Perplexity open-sources SPACE, a sandbox for",
+        "source": "youtube"
+      },
+      {
+        "claim": "Perplexity SPACE Agent Sandbox",
+        "topic": "agents",
+        "videoSeconds": 1267,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1267s",
+        "slideIndex": 20,
+        "slideTitle": "AI News Mistral Voxtral 3: speech models and",
+        "source": "youtube"
+      },
+      {
+        "claim": "US Bans DeepSeek in Federal Agencies",
+        "topic": "open-models",
+        "videoSeconds": 1327,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1327s",
+        "slideIndex": 21,
+        "slideTitle": "AI News Anthropic previews Claude Duet, a proactive",
+        "source": "youtube"
+      },
+      {
+        "claim": "Mistral Voxtral 3 Voice Models",
+        "topic": "open-models",
+        "videoSeconds": 1350,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1350s",
+        "slideIndex": 21,
+        "slideTitle": "AI News Anthropic previews Claude Duet, a proactive",
+        "source": "youtube"
+      },
+      {
+        "claim": "Exa 3.0 Search",
+        "topic": "general",
+        "videoSeconds": 1370,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1370s",
+        "slideIndex": 22,
+        "slideTitle": "AI News 1Password for Agents Lets agents log",
+        "source": "youtube"
+      },
+      {
+        "claim": "Anthropic Claude Duet Agent",
+        "topic": "agents",
+        "videoSeconds": 1413,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1413s",
+        "slideIndex": 23,
+        "slideTitle": "AI News Anthropic junior hiring went down since",
+        "source": "youtube"
+      },
+      {
+        "claim": "Recursive Flint: Local Coding AI",
+        "topic": "general",
+        "videoSeconds": 1487,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1487s",
+        "slideIndex": 23,
+        "slideTitle": "AI News Anthropic junior hiring went down since",
+        "source": "youtube"
+      },
+      {
+        "claim": "1Password for Agents",
+        "topic": "agents",
+        "videoSeconds": 1539,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1539s",
+        "slideIndex": 24,
+        "slideTitle": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+        "source": "youtube"
+      },
+      {
+        "claim": "Claude Text Watermark",
+        "topic": "claude",
+        "videoSeconds": 1590,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1590s",
+        "slideIndex": 25,
+        "slideTitle": "Tech Hiring Software job postings on Indeed Comparing",
+        "source": "youtube"
+      },
+      {
+        "claim": "Anthropic junior hiring is down",
+        "topic": "claude",
+        "videoSeconds": 1617,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1617s",
+        "slideIndex": 26,
+        "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "source": "youtube"
+      },
+      {
+        "claim": "Jobs & Layoffs",
+        "topic": "jobs",
+        "videoSeconds": 1652,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1652s",
+        "slideIndex": 26,
+        "slideTitle": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "source": "youtube"
+      },
+      {
+        "claim": "Tech Hiring & Skills",
+        "topic": "jobs",
+        "videoSeconds": 1657,
+        "videoUrl": "https://www.youtube.com/watch?v=gWSrcvohXGs&t=1657s",
+        "slideIndex": 27,
+        "slideTitle": "Thank You! Videos of every seminar are on",
+        "source": "youtube"
       }
     ]
   },
