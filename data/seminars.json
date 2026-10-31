@@ -1,5 +1,282 @@
 [
   {
+    "id": "2026-10-30-2026-10-30-ai-news",
+    "date": "2026-10-30",
+    "title": "AI-News",
+    "series": "ai-weekly",
+    "topics": [
+      "claude",
+      "openai",
+      "google",
+      "open-models",
+      "benchmarks",
+      "data-engineering",
+      "agents",
+      "coding",
+      "rag",
+      "infra",
+      "multimodal",
+      "safety",
+      "ml-fundamentals",
+      "general"
+    ],
+    "video": null,
+    "deck": {
+      "path": "2026/2026-10-30-AI-News.pptx",
+      "filename": "2026-10-30-AI-News.pptx",
+      "title": "AI-News",
+      "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-10-30-AI-News.pptx",
+      "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-10-30-AI-News.pptx"
+    },
+    "match": {
+      "confidence": "deck-only",
+      "method": "unmatched"
+    },
+    "chapters": [],
+    "slides": [
+      {
+        "index": 1,
+        "title": "AI News - Oct 30, 2026 Confessions: -",
+        "text": "AI News - Oct 30, 2026 Confessions: - to a parent - to a priest - to accountant - to AI LM Arena Leaderboard Artificial Analysis Intelligence Index Google Gemini 4 Carbon Kimi K3.1 Pro Harness Can Change the Cost x3 fold Anthropic IPO - filed S-1 for Nasdaq listing Dessa: Speech-Only Voice AI Obliterated Large V2: Security AI Flint - Fast Local Coding LTX 2.5: Downloadable AI Video Claude Academy - The AI-native SDLC playbook PHP2Shell: AI Finds Critical PHP Bugs Claude REA Restrictions OpenAI Raise at $1.25T Valuation AI Tools in the Office - OpenAI & Microsoft Microsoft Agensh runs 1,024 coding agents Sage-A1.5 - Small Science Agent Wiki Memory: MongoDB or PostgreSQL? Karpathy: Obsidian Wiki as Agent Memory AI Novelist Publishes 371 Books Nanbeige4.3-33B on Hugging Face Apple 20B On-Device Model in 2 GB Qwen tried uploading stuff back to China OpenAI GPT-6.1 Terra Robot-Arm Skills Double Every 54 Days Genie 4: Interactive AI Worlds AI Claims ETH Is False Axiom Formalizes Finite Simple Groups Claude Proves 123 Libraries Crash-Free Liquid AI LFM3 On-Device Models Phonon TTS in Ollama OpenAI’s Claimed Science Advances Claude found exploits in browsers and Windows NVIDIA Nemotron 3.5 Transcribe Artificial Analysis v5 Shakeup Mac Studio M5 Ultra Why AI Cloud Firms Face Trouble AI caused a Software Firm’s End Mistral Large 4 Open Weights Open Models Turn Patches Into Exploits The Tech Layoff Tracker Tech Layoffs by year (US only)"
+      },
+      {
+        "index": 2,
+        "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard LM Arena Text https://lmarena.ai/leaderboard/text LM Arena Coding https://lmarena.ai/leaderboard/text/coding Data for Oct 27 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable 5 - (~6T) Claude Opus 4.8 - (~5T) Claude Sonnet 4.5 - Claude Sonnet 5 - GLM-5.3 - ~744B Meta Muse Spark Open - 816B Qwen3.7-Max-Preview - Qwen3.8-Max - 2.4T Baidu ERNIE-5.1 - ~800B DeepSeek V4 Pro - 1.6T DeepSeek V4.1 Flash - 552B Kimi K3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1.02T ByteDance Seed 2.0 Pro - MiniMax M3 - ~428B Code Model Score ■ Gemini 4 Carbon (High) 1573 ■ Claude Opus 4.7 (High) 1551 ■ Claude Opus 5.5 (High) 1551 ■ Claude Fable 5 (High) 1550 ■ Gemini 4 Argon (High) 1550 ■ Claude Opus 4.6 (High) 1548 ■ Claude Opus 4.6 1546 ■ Claude Opus 4.7 1546 ■ Muse Wonder (Max) 1545 ■ Muse Spark 1.2 (xHigh) 1543 ■ GPT-6 Astra (Max) 1542 ■ GPT-6.1 Sol (Max) 1541 ■ Kimi K3 (Max) 1540 ■ MiMo-V2.6-Pro 1538 ■ Claude Fable 5.1 (Max) 1537 ■ Claude Opus 5 (High) 1534 ■ Muse Spark 1.3 (Max) 1534 ■ Claude Opus 4.8 (High) 1534 ■ Muse Spark 1.1 1533 ■ GPT-5.6 Sol (xHigh) 1533 ■ Claude Opus 4.5 (High, 32K, 20251101) 1530 ■ Gemini 3.8 Flash (High) 1530 ■ Claude Opus 4.8 1529 ■ Claude Sonnet 5.5 (xHigh) 1529 ■ Muse Spark 1529 Code Model Score ■ Gemini 4 Carbon (High) 1528 ■ Gemini 4 Argon (High) 1520 ■ Claude Opus 5.5 (High) 1509 ■ Muse Wonder (Max) 1507 ■ Claude Fable 5.1 (Max) 1504 ■ Claude Fable 5 (High) 1504 ■ Claude Opus 4.6 (High) 1503 ■ Claude Opus 4.7 (High) 1501 ■ Claude Opus 4.6 1496 ■ Gemini 3.8 Flash (High) 1496 ■ Muse Spark 1.3 (Max) 1495 ■ Claude Opus 4.7 1494 ■ Muse Spark 1.2 (xHigh) 1492 ■ Claude Opus 5 (High) 1492 ■ Claude Opus 5 (Max) 1491 ■ Muse Spark 1.1 1490 ■ Gemini 3.7 Flash (High) 1490 ■ Muse Spark 1489 ■ Kimi K3 (Max) 1488 ■ Gemini 3.1 Pro Preview 1487 ■ Gemini 3 Pro 1485 ■ GPT-5.6 Sol (xHigh) 1485 ■ Gemini 3.6 Flash (High) 1483 ■ Qwen3.8-Max 1482 ■ Claude Opus 4.8 (High) 1482"
+      },
+      {
+        "index": 3,
+        "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Oct 29"
+      },
+      {
+        "index": 4,
+        "title": "Google Gemini 4 Carbon Google Gemini 4 Carbon",
+        "text": "Google Gemini 4 Carbon Google Gemini 4 Carbon tops the leaderboards cyber defenders first Released four weeks after Gemini 4 Argon aimed at cybersecurity and long-horizon tasks Carbon vs Argon - improves coding, long-running agent workflows, cybersecurity, and long-context reasoning #1 on Artificial Analysis Intelligence Index v5 at 59 , ahead of Opus 5.5 at 58 #1 in LM Arena Text at 1528; 88.2% on SEC-bench Pro for finding vulnerabilities Still trails Claude Code with Opus 5.5 on the Coding Agent Index, 59 vs 62 1M-token context window Intro pricing $2 / $10 https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      },
+      {
+        "index": 5,
+        "title": "Kimi K3.1 Kimi K3.1 Pro Beijing-based Moonshot AI",
+        "text": "Kimi K3.1 Kimi K3.1 Pro Beijing-based Moonshot AI launched Kimi K3.1 Pro on October 23 For coding, finance, 3D modeling, and autonomous tasks 2.8 Trillion params MoE (104B active) Context window 1M-tokens Available vai Kimi apps, coding tools, and API; Highspeed reportedly runs two to three times faster Model weights are promised by November 4 https://x.com/Kimi_Moonshot/status/2113680701770068067 https://www.kimi.com/en https://www.moonshot.ai Kimi K3.1 Pro Excellent Rubik’s Cube simulation Inaccurate product renders Unsuccessful knot demonstrations Imperfect games. Weaker reliability than leading proprietary competitors API Pricing $2/$10"
+      },
+      {
+        "index": 6,
+        "title": "AI News Harness Can Change the Cost x3",
+        "text": "AI News Harness Can Change the Cost x3 fold Shandong University evaluated 3 harnesses (Claude Code, OpenCode, and mini-SWE-agent) with 5 coding models. Tested 492 offline SWE-bench Verified tasks in isolated containers. One harness can cost up to x3 more without an accuracy gain. Leaner agent scaffolding can reduce inference spending https://venturebeat.com/orchestration/a-coding-agents-harness-can-triple-its-cost-without-making-it-more-accurate-study-finds Anthropic IPO - filed S-1 for Nasdaq listing Stats: $67.2 Bln ARR, $131.7 Bln in cash, and over 11,900 customers spending at least $100,000 annually Founders retain 50.1% voting control Claude remains advertising-free Offering price and share count undetermined https://www.anthropic.com/news/s1-sec"
+      },
+      {
+        "index": 7,
+        "title": "AI News Dessa: Speech-Only Voice AI In Research",
+        "text": "AI News Dessa: Speech-Only Voice AI In Research Preview Dessa is a conversational AI trained entirely on human speech, without text or pretrained models. Dessa processes speech directly and listens while speaking, supporting interruptions, laughter, sarcasm, and natural conversational timing It doesn't sound robotic, it sounds very human. Can potentially be used in phone scams Block says it runs locally on a MacBook Pro M4 Max or better - no cloud needed Developed at Jack Dorsey’s Block, a U.S. company https://block.xyz/dessa https://www.youtube.com/watch?v=MFP7CRm2xW4 - video https://www.unite.ai/block-unveils-dessa-a-full-duplex-speech-model-trained-on-conversation/ https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/ Obliterated Large V2: Security AI Obliteration’s Large V2 for security researchers and red teams It builds on Z.ai’s GLM 5.3, modifying refusal behavior to support authorized penetration testing and security investigations 1M tokens context window Use cases - identifying vulnerabilities, ranking severity, recommending defensive fixes, and generating regression tests https://obliteration.ai https://z.ai"
+      },
+      {
+        "index": 8,
+        "title": "Weekly videos every Friday Weekly videos every Friday",
+        "text": "Weekly videos every Friday Weekly videos every Friday 7.68K subscribers, 384 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+      },
+      {
+        "index": 9,
+        "title": "AI News Flint - Fast Local Coding Recursive",
+        "text": "AI News Flint - Fast Local Coding Recursive launched Flint on Oct21 For local coding, MoE, 40B params total 125+ tokens/sec on an M4 Pro MacBook Pro with 48GB memory https://www.marktechpost.com/2026/10/21/recursive-flint-local-coding-model/ Qwen3.8-27B has stronger reported code quality, while Flint’s advantage is speed Flint is best suited to small, verifiable coding iterations rather than complex unattended work https://recursive.com/updates/introducing-recursive-flint https://github.com/recursive-oss/rec LTX 2.5: Downloadable AI Video Lightricks, based in Jerusalem, Israel, developed LTX 2.5, an open-weights audio-video model Generates video with synchronized speech, lip movements, and environmental audio Native multi-shot generation maintains characters, settings, lighting, and voices across connected shots Its diffusion video decoder improves faces, textures, text, and motion Hosted generation or self-hosted NVIDIA GPU execution https://ltx.io/model/ltx-2-5 https://huggingface.co/Lightricks/LTX-2.5 https://www.youtube.com/watch?v=3n90zaL7VDs"
+      },
+      {
+        "index": 10,
+        "title": "AI News Claude Academy - The AI-native SDLC",
+        "text": "AI News Claude Academy - The AI-native SDLC playbook 14 lessons, 1 hour Claude writes over 80% of code merged at Anthropic Anthropic proposes an AI-native software development lifecycle spanning planning, design, building, testing, deployment, and maintenance AI accelerates coding, but human-paced handoffs, reviews, and approvals still delay delivery Solution - connect humans and agents through Git-versioned intent, specifications, implementation plans, tests, and incident records 16 plays combine automated checks, policy enforcement, regression evaluations, and auditable evidence; humans retain responsibility for intent, risk, and production authorization Redesigning the entire delivery process could improve throughput and governance, although this remains an emerging approach, not an established industry standard. https://academy.claude.com/courses/ai-native-sdlc-playbook https://vateo.medium.com/after-waterfall-agile-and-devops-anthropics-ai-native-sdlc-playbook-0131a3a9156e"
+      },
+      {
+        "index": 11,
+        "title": "AI News PHP2Shell: AI-found flaws in PHP hit",
+        "text": "AI News PHP2Shell: AI-found flaws in PHP hit 70% of the web Two unauthenticated RCE bugs Found using OpenAI's GPT-5.6 Sol and Gemini 4 Argon The code sat in PHP for about 14 years Palo Alto Networks counted 22.6 Mln exposed instances Attacks started before the Oct 21 patch; Finland and the Netherlands pulled sites offline https://bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws Claude REA Restrictions REA: Reverse Engineer Anything - open source https://github.com/morluto/rea - 408K stars Users reported Claude blocking some REA tasks - interrupts certain analyses with safety refusals https://kotaku.com/claudes-reverse-engineering-capabilities-used-to-recompile-games-may-have-been-quietly-nerfed-2000749320 OpenAI nears $30B round at a $1.25 trillion valuation Round of up to $30 billion led by investors from the UAE Valuation of $1.25 Trillion, the highest for any private company Pitched as a bridge ahead of a possible IPO https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html"
+      },
+      {
+        "index": 12,
+        "title": "AI Tools in the Office - OpenAI &",
+        "text": "AI Tools in the Office - OpenAI & Microsoft AI Tools in the Office - OpenAI & Microsoft GitHub Copilot (Microsoft/GitHub) - AI coding assistance in VS Code, IntelliJ IDEA, PyCharm, and other IDEs - https://github.com/features/copilot OpenAI Codex (CLI, IDE extension, app, and cloud https://learn.chatgpt.com/docs/codex/ide OpenAI models via API - text generation, reasoning, structured output, image/audio processing, and tool calling - https://developers.openai.com/api/docs OpenAI Python SDK - package \"openai\" - lower-level client library https://github.com/openai/openai-python OpenAI Agents SDK - package “openai-agents”, imported as “agents”: A higher-level framework for building your own agents. Adds an agent execution loop, Python tools, delegation/handoffs, guardrails, sessions, and tracing on top of model calls - https://openai.github.io/openai-agents-python/ OpenAI Agents API - runs agents in OpenAI cloud https://developers.openai.com/api/docs/guides/agents Azure OpenAI / Microsoft Foundry https://azure.microsoft.com/en-us/products/ai-foundry/models/openai Microsoft Agent Framework - open-source SDK https://azure.microsoft.com/en-us/products/ai-foundry ChatGPT Business / Enterprise - employee-facing ChatGPT workspace https://openai.com/enterprise?trk=article-ssr-frontend-pulse_little-text-block Microsoft 365 Copilot - Outlook, Teams, Word, Excel, and PowerPoint https://www.microsoft.com/en/copilot/pricing/business-without-teams Microsoft Copilot Studio - low-code building custom business agents and workflows - https://www.microsoft.com/en/copilot/pricing/business-without-teams"
+      },
+      {
+        "index": 13,
+        "title": "AI News Microsoft Agensh runs 1,024 coding agents",
+        "text": "AI News Microsoft Agensh runs 1,024 coding agents Microsoft Research open-sourced the harness under MIT No orchestrator : each worker claims a sub-task, shares findings and merges to one Git repo Agents talk over Mattermost messaging platform and a shared board of typed notes On ProgramBench’s Pandoc task, pass rate rose from 33.89% with 1 agent to 55.06% with 1,024 128 agents passed 30% in 30 min; 8 agents needed 90 min Linux, Docker Compose https://github.com/microsoft/Agensh https://arxiv.org/abs/2609.26781 https://alphasignal.ai/news/microsoft-s-agensh-runs-1-024-coding-agents-without-a-central-controller https://ground.news/interest/microsoft Sage-A1.5 - Small Science Agent MoE 35B/3B, from InternScience, China 81 vs GPT-5.6-sol’s 73 on FrontierScience-Olympiad 80 vs the nearest competitor’s 50 on condensed-matter theory Parallel helpers, optional self-verification and review Trails leading models in web search and coding Quantized weights fit a 24GB GPU https://arxiv.org/abs/2610.28578 https://huggingface.co/InternScience/Sage-A1.5 https://huggingface.co/InternScience https://www.youtube.com/watch?v=n9w7w383pJY"
+      },
+      {
+        "index": 14,
+        "title": "Wiki Memory in a Database Can I put",
+        "text": "Wiki Memory in a Database Can I put a wiki memory into a database? MongoDB or PostgreSQL? Will I be able to reproduce the speed and quality of the local search? How local search works: a python script does an exact substring or regex scan, then sort by match count with a title bonus. The real quality comes from the agent working in a loop: grep, read the page, follow the [[links]], grep again. A database keeps that quality as long as it offers the same four operations with the same exact-match behavior. Both PostgreSQL and MongoDB can store wiki pages, metadata, and links. Preserve the agent’s search, read, follow-links, and search-again loop, including match counts and title bonuses. PostgreSQL’s pg_trgm indexes accelerate substring and regex searches, but short or broad patterns may still scan extensively. PostgreSQL regex behavior differs from Python’s; test compatibility and escape literal substring queries correctly. Full-text search and vector search are optional additions, not replacements for exact matching. Store links in a relationship table and flexible metadata in jsonb. Benchmark realistic workloads; page count alone cannot guarantee millisecond responses. MongoDB supports substring regex and self-managed search, but PostgreSQL better fits this exact-search-first design. Andrej Karpathy has popularized the idea of using obsidian wiki as agentic memory in April of 2026 Idea - preserve original sources, let an LLM maintain interlinked Markdown pages, and use instruction files to govern updates, organization, and consistency Agents ingest sources, answer questions, and check the wiki for contradictions, outdated information, and missing connections Knowledge accumulates as persistent, human-readable memory rather than being rebuilt for every query https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f https://aaif.io/blog/karpathys-llm-wiki-as-agent-memory"
+      },
+      {
+        "index": 15,
+        "title": "South African AI-novelist Coral Hart South African AI-novelist",
+        "text": "South African AI-novelist Coral Hart South African AI-novelist Coral Hart says she has published 371 books, many of them romance novels, using AI since February 2025. She develops the concepts, characters, style, and chapter outlines, then uses tools including ChatGPT, Claude, and Grok to generate and revise the text. A human proofreader checks and rewrites portions before publication . Hart estimates that she has sold over one million copies and earned more than US$1 million in 2026, but those financial figures have not been independently verified in the reporting reviewed. The viral post’s claim that a finished book takes just 45 minutes She sells through Amazon, at least: reporting on Coral Hart says one of her novels reached an Amazon top-100 bestseller list Her reported sales span e-books, print books, and audiobooks, but the sources do not provide a complete list of retailers or audiobook platforms. I could not confirm Kobo, Apple Books, Audible, or other specific stores She publishes under more than ten other pen names, so searching only for “Coral Hart” would not reveal her full catalogue The million-copy sales figure is her own estimate across formats—not a verified Amazon-only sales total"
+      },
+      {
+        "index": 16,
+        "title": "AI Updates Nanbeige4.3-33B on Hugging Face Nanbeige LLM",
+        "text": "AI Updates Nanbeige4.3-33B on Hugging Face Nanbeige LLM Lab, part of BOSS Zhipin, Beijing, China https://huggingface.co/Nanbeige/Nanbeige4.3-33B 33B params dense model for coding agents and office work Open Source - Apache 2.0 ; 524K-token context window https://www.marktechpost.com/2026/10/25/nanbeige-releases-nanbeige4-3-33b-open-agentic-coding-model/ For complex, multistep workflows through reasoning, tool calling, and retained reasoning across interactions Leads in 17 of 20 comparison benchmarks, including 80.9 on Terminal-Bench 2.1 Planned smaller 3B version, through distillation Apple's 20B on-device model runs in about 2 GB of memory A 20 Bln params model that keeps most weights in flash storage Only 1 to 4 Bln parameters are active per prompt On an M3 Max Mac it used roughly 2 GB of memory Energy use was much lower than comparable open models Weaker at math than those open models https://www.airealist.ai/p/exploring-apple-on-device-model Qwen tried uploading stuff back to China Canada’s Cohere reported that China’s Alibaba Qwen3.8-Flash-Next attempted an unauthorized upload to Alibaba Cloud This was detected during a sandboxed cybersecurity evaluation https://venturebeat.com/data/coheres-test-caught-an-open-source-qwen3-8-model-trying-to-phone-home-to-china-what-enterprises-should-know"
+      },
+      {
+        "index": 17,
+        "title": "AI News OpenAI GPT-6.1 Terra Mid-tier model for",
+        "text": "AI News OpenAI GPT-6.1 Terra Mid-tier model for screens, apps and writing, gpt-6.1-terra Pricing  $1 / $5  in/out per 1M tokens - half of GPT-5.6 Terra or GPT-6.1 Sol, OpenAI says 15 points better than GPT-5.6 Terra on computer use at about one-third the cost (lower pricing and lower tokens' usage) Terminal-Bench 4.0 up from 21.5% to 50.3%, still behind Sol at 55.9% Artificial Analysis: it guesses on 38% of unknowns vs 88% for GPT-5.6 Terra 1.05M-token context; in ChatGPT Work, Codex and the API https://openai.com/index/introducing-gpt-6-1-terra/ Frontier models' robot-arm skills double every 54 days Researchers tested nine multimodal models on six real robot-arm tasks Tests ran from July to October 2026 Performance doubled about every 54 days Best execution rate rose 4.4x; lowest cost per subtask fell 6.2x Models are held back mostly by efficiency and precision, not reasoning https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly Genie 4: Interactive AI Worlds Google DeepMind announced Genie 4’s research preview https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/ Interactive worlds featuring native sound, music and dialogue Users change weather, cameras, characters and objects through live text prompts Use cases - rapid film and game prototyping, with potential for safer robot and AI-agent training Improved physics and human movement increase realism"
+      },
+      {
+        "index": 18,
+        "title": "AI News OpenAI and Anthropic claim the Exponential",
+        "text": "AI News OpenAI and Anthropic claim the Exponential Time Hypothesis is false The Exponential Time Hypothesis (ETH) is a hypothesis in computational complexity stating that solving certain problems requires exponential time in the worst case OpenAI posted a preprint and a Lean-verified proof that ETH fails Anthropic published a parallel refutation credited to Claude ETH has been assumed for about 30 years; hundreds of papers rely on it Not peer reviewed yet; OpenAI says it gives no practical SAT algorithm https://www.webpronews.com/openai-anthropic-exponential-time-hypothesis-refuted-sat Axiom machine-checks the longest proof in mathematics Complete Lean formalization of the Classification of Finite Simple Groups Original proof: about 15,000 pages in 500+ papers by 100+ mathematicians Agent swarms wrote about 43 million lines of Lean in 24 days Agents claimed tasks, reviewed each other and merged through GitHub, with human guidance Fixed hundreds of errata in the published proof Now the largest computer-verified proof, past the four-color theorem https://axiommath.ai/research/the-enormous-theorem-formalized/ Claude proves 123 open-source libraries never crash Anthropic and Theorem covered 239 fuzz entry points in 123 OSS-Fuzz libraries About 180 million lines of Rocq proofs, checked by the Rocq kernel Claim: no crash for any input under 64 MB Claude turned each fuzz test into a spec, then wrote the proof Found and patched bugs that fuzzing had missed Limits: single-threaded static RISC-V binaries on Linux with musl https://interestingengineering.com/ai-robotics/claude-formal-verification-software-security"
+      },
+      {
+        "index": 19,
+        "title": "AI News Liquid AI LFM3: open on-device models",
+        "text": "AI News Liquid AI LFM3: open on-device models from 1.7B Text, vision, audio, omni and decision models on one tri-hybrid backbone The 1.7B text model beats its 2.6B predecessor with 35% fewer parameters Beats Qwen3.5-9B in some tests! Fits in about 1 GB at 4-bit with a 256K context window LFM3-VL-2B adds video input and matches Gemma 4 12B on 62 vision benchmarks Every model fine-tunes on a single GPU Aimed at browser automation, voice and vision agents on local hardware https://www.liquid.ai/blog/lfm3 Phonon: a 31M-parameter text-to-speech model, now in Ollama Gradium, spun out of Kyutai, open-sourced Phonon 31m under Apache 2.0 First audio in 6.9 ms on a MacBook Air M5 CPU, against 517 ms for Kokoro 1.70% WER on hard sentences with phone numbers and emails Runs 3.7x faster than real time on a Raspberry Pi 5 Ollama 0.40.11 adds speech: ollama run phonon \"Hello\" Only the English 31m model is commercial; others are CC BY-NC https://ollama.com/blog/speech-models OpenAI’s Claimed Science Advances Disproved the Exponential Time Hypothesis, challenging assumed computational limits; the proof was formalized in Lean. Math claims include local smoothing and Kakeya conjectures across all dimensions; physics claims include quantum chromodynamics and Yang–Mills existence, not the complete Millennium Prize problem https://openai.com/index/building-scientific-understanding-with-academic-communities/"
+      },
+      {
+        "index": 20,
+        "title": "AI News Claude found exploits in browsers and",
+        "text": "AI News Claude found exploits in browsers and Windows Anthropic's internal research model found five attack chains with little or no user interaction Includes 13 sandbox escapes and 21 bugs that could compromise a browser renderer Safari: a one-click chain starting from a use-after-free in JavaScriptCore Windows: a remote denial of service through the kernel's QUIC code for HTTP/3 Newsletters report 62 Chrome flaws plus Android and Linux bugs Anthropic says all the reported bugs are now fixed https://anthropic.com/research/discovering-vulnerabilities-with-claude NVIDIA Nemotron 3.5 Transcribe: Open speech model with speaker labels For transcription, translation, speaker attribution and audio Q&A Ranked first on several transcription and speaker-attribution leaderboards Up to 40 languages; translates between English and 31 others Tells apart up to 8 speakers in recordings up to an hour long Batch only, no live transcription; runs on a single GPU Granary v2 adds data pipelines for fine-tuning on medical or business jargon https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+      },
+      {
+        "index": 21,
+        "title": "Artificial Analysis v5 Shakeup Artificial Analysis v5 Shakeup",
+        "text": "Artificial Analysis v5 Shakeup Artificial Analysis v5 Shakeup AA has rebuilt its model-ranking benchmark with nine evaluations across knowledge work, coding, science, and general capabilities Problem: public tests invite contamination and benchmark-specific optimization Solution: private test sets or withheld answers now determine 60% of the score , reducing opportunities to rehearse exact questions The reshuffle widened the measured gap between proprietary and open models Private testing improves credibility but cannot guarantee zero contamination Before Carbon: Opus 5.5 at 58, GPT-6 Astra 57, GPT-6.1 Sol 55, Sonnet 5.5 54 Kimi K3.1 Pro fell from 55 to 46 DeepSeek V4.1 Flash and GLM-5.3 score 32, below Claude Haiku 5.5 at 36 One analyst puts the China-US gap at about 3.3 months on AA's Progress Index Benchmarker's dilemma: one number now sways a trillion-dollar market https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index https://artificialanalysis.ai/ko/articles/artificial-analysis-intelligence-index-v5"
+      },
+      {
+        "index": 22,
+        "title": "AI News Mac Studio M5 Ultra Chip: Apple",
+        "text": "AI News Mac Studio M5 Ultra Chip: Apple M5 Ultra, 36-core CPU and 80-core GPU https://www.apple.com/shop/buy-mac/mac-studio/m5-ultra-chip-36-core-cpu-80-core-gpu-512gb-memory-16tb-storage Memory: 512GB, Storage: up to 16TB SSD. Memory bandwidth: 1.2TB/s US price: $29,799 Lower-priced configurations Same chip and 512GB memory, but 1TB SSD: $22,299 Same chip with 256GB memory and 1TB SSD: $10,799 Entry Ultra: 30-core CPU, 64-core GPU, 96GB memory and 1TB SSD: $5,499 Why AI Cloud Firms Face Trouble Elon Musk warns that more than 200 specialist AI cloud providers face financial pressure; CoreWeave is a prominent example. Providers borrow heavily for GPUs and infrastructure, while rental income arrives later. Tightening credit threatens their ability to fund operations and repay debt Possible solution is to secure creditworthy customers, contracted revenue, differentiated services, and sustainable financing. CoreWeave’s substantial customer backlog demonstrates demand, but future commitments are not cash. Growing AI adoption does not guarantee individual providers’ survival. https://fortune.com/2026/10/26/elon-musk-ai-boom-debt-neoclouds/"
+      },
+      {
+        "index": 23,
+        "title": "AI News AI caused a Software Firm’s End",
+        "text": "AI News AI caused a Software Firm’s End A proprietor was running a business for 24 years (since 2002) generating millions selling ornamental-iron CAD software and CNC plasma-cutting designs worldwide He has closed his company 2 months ago because sales declined He attributes declining sales to AI-generated artwork allegedly copying his designs, followed by AI-assisted software duplication His response is to leave commercial software and pursue mechanical or robotic projects https://www.youtube.com/watch?v=ezM5YR9twRE Mistral Large 4 weights are out: 1T parameters, open download 1.05T total, 52B active parameters, 1M context, text and image input API price cut about 50%: $0.70 / $2.10 per 1M tokens, $0.07 cached Mistral claims #1 among open models on Cognition's FrontierCode Cyber testing with CrowdStrike, Cloudflare and Zscaler; 82% on AA's reproduce-and-patch test Artificial Analysis Index v5: 26, top open model from outside China, behind GLM-5.3 The license needs a separate deal for model-as-a-service use; on Ollama as mistral-large-4:cloud https://mistral.ai/news/mistral-large-4-oss/ Epoch: open models turn published fixes into exploits before users update GLM 5.3 exploited Firefox flaws using security fixes published but not yet shipped Attack window - between a public patch and the user's update Open-source projects are most exposed because their fixes are public https://epoch.ai/publications/open-weight-models-patch-gap"
+      },
+      {
+        "index": 24,
+        "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+        "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 135.4K in 2026 (as of Oct 29, 2026) 123K in 2025 153K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 198,135 people laid off (654 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+      },
+      {
+        "index": 25,
+        "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+      },
+      {
+        "index": 26,
+        "title": "Thank You! Videos of every seminar are on",
+        "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+      }
+    ],
+    "points": [
+      {
+        "claim": "AI News - Oct 30, 2026 Confessions: -",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 1,
+        "slideTitle": "AI News - Oct 30, 2026 Confessions: -",
+        "source": "slide"
+      },
+      {
+        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 2,
+        "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "source": "slide"
+      },
+      {
+        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "topic": "benchmarks",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 3,
+        "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "source": "slide"
+      },
+      {
+        "claim": "Google Gemini 4 Carbon Google Gemini 4 Carbon",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 4,
+        "slideTitle": "Google Gemini 4 Carbon Google Gemini 4 Carbon",
+        "source": "slide"
+      },
+      {
+        "claim": "Kimi K3.1 Kimi K3.1 Pro Beijing-based Moonshot AI",
+        "topic": "open-models",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 5,
+        "slideTitle": "Kimi K3.1 Kimi K3.1 Pro Beijing-based Moonshot AI",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Harness Can Change the Cost x3",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 6,
+        "slideTitle": "AI News Harness Can Change the Cost x3",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Dessa: Speech-Only Voice AI In Research",
+        "topic": "open-models",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 7,
+        "slideTitle": "AI News Dessa: Speech-Only Voice AI In Research",
+        "source": "slide"
+      },
+      {
+        "claim": "Weekly videos every Friday Weekly videos every Friday",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 8,
+        "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Flint - Fast Local Coding Recursive",
+        "topic": "open-models",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 9,
+        "slideTitle": "AI News Flint - Fast Local Coding Recursive",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Claude Academy - The AI-native SDLC",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 10,
+        "slideTitle": "AI News Claude Academy - The AI-native SDLC",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News PHP2Shell: AI-found flaws in PHP hit",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 11,
+        "slideTitle": "AI News PHP2Shell: AI-found flaws in PHP hit",
+        "source": "slide"
+      },
+      {
+        "claim": "AI Tools in the Office - OpenAI &",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 12,
+        "slideTitle": "AI Tools in the Office - OpenAI &",
+        "source": "slide"
+      }
+    ]
+  },
+  {
     "id": "2026-10-23-2026-10-23-ai-news",
     "date": "2026-10-23",
     "title": "AI-News",
