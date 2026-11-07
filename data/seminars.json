@@ -1,5 +1,277 @@
 [
   {
+    "id": "2026-11-06-2026-11-06-ai-news",
+    "date": "2026-11-06",
+    "title": "AI-News",
+    "series": "ai-weekly",
+    "topics": [
+      "claude",
+      "openai",
+      "google",
+      "open-models",
+      "benchmarks",
+      "data-engineering",
+      "agents",
+      "ml-fundamentals",
+      "general"
+    ],
+    "video": null,
+    "deck": {
+      "path": "2026/2026-11-06-AI-News.pptx",
+      "filename": "2026-11-06-AI-News.pptx",
+      "title": "AI-News",
+      "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-11-06-AI-News.pptx",
+      "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-11-06-AI-News.pptx"
+    },
+    "match": {
+      "confidence": "deck-only",
+      "method": "unmatched"
+    },
+    "chapters": [],
+    "slides": [
+      {
+        "index": 1,
+        "title": "AI News - Nov 6, 2026 Models edit",
+        "text": "AI News - Nov 6, 2026 Models edit models Agents fix agents Satellites run Gemma Models run each other LM Arena Leaderboard Artificial Analysis Intelligence Index DeepSeek Router-Worker Agent GPT-6 Astra Edits Qwen Weights Anthropic Public Benefit Fund Don't Micromanage Agents Coding With Agents, Radar-Style LangChain: Self-Improving Agents Linus Torvalds Embraces AI Tools OccupySaaS: AI Against SaaS Fees Karpathy - Getting Short Clear AI Output Impeccable - a Design Skill Vercel CI Beta: Faster Builds Stop Using Coding Interviews Trajectory’s Continual Learning Claude API Message Threads OpenAI GPT-Rosalind-6 for Biology Google Runs Gemma 4 in Orbit Copilot Cowork: Python to Rust Anthropic FlashProve: Provable Inference Low Reasoning Effort, Most of the Score Siri AI Opens to Developers Ripple-65B: Open Coding Preview Nothing’s Screen-Free AI Debut OpenAI Images 2.6 FLUX 3 Image Klein, Open Weights Axiom Formalizes Stacks in Lean Pangram Image 1.0 Detects AI in Image Together AI Compiler Speeds Inference Thinking Machines Lab - Inkling 2 Small Cloudflare’s AI Agent Trust Plan Google Gemini Omni 1.2 Flash Clocktower: Models Must Lie to Win Jobs & Layoffs"
+      },
+      {
+        "index": 2,
+        "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard LM Arena Text https://lmarena.ai/leaderboard/text LM Arena Coding https://lmarena.ai/leaderboard/text/coding Data for Oct 27 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable 5 - (~6T) Claude Opus 4.8 - (~5T) Claude Sonnet 4.5 - Claude Sonnet 5 - GLM-5.3 - ~744B Meta Muse Spark Open - 816B Qwen3.7-Max-Preview - Qwen3.8-Max - 2.4T Baidu ERNIE-5.1 - ~800B DeepSeek V4 Pro - 1.6T DeepSeek V4.1 Flash - 552B Kimi K3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1.02T ByteDance Seed 2.0 Pro - MiniMax M3 - ~428B Code Model Score ■ Gemini 4 Carbon (High) 1573 ■ Claude Opus 4.7 (High) 1551 ■ Claude Opus 5.5 (High) 1551 ■ Claude Fable 5 (High) 1550 ■ Gemini 4 Argon (High) 1550 ■ Claude Opus 4.6 (High) 1548 ■ Claude Opus 4.6 1546 ■ Claude Opus 4.7 1546 ■ Muse Wonder (Max) 1545 ■ Muse Spark 1.2 (xHigh) 1543 ■ GPT-6 Astra (Max) 1542 ■ GPT-6.1 Sol (Max) 1541 ■ Kimi K3 (Max) 1540 ■ MiMo-V2.6-Pro 1538 ■ Claude Fable 5.1 (Max) 1537 ■ Claude Opus 5 (High) 1534 ■ Muse Spark 1.3 (Max) 1534 ■ Claude Opus 4.8 (High) 1534 ■ Muse Spark 1.1 1533 ■ GPT-5.6 Sol (xHigh) 1533 ■ Claude Opus 4.5 (High, 32K, 20251101) 1530 ■ Gemini 3.8 Flash (High) 1530 ■ Claude Opus 4.8 1529 ■ Claude Sonnet 5.5 (xHigh) 1529 ■ Muse Spark 1529 Code Model Score ■ Gemini 4 Carbon (High) 1528 ■ Gemini 4 Argon (High) 1520 ■ Claude Opus 5.5 (High) 1509 ■ Muse Wonder (Max) 1507 ■ Claude Fable 5.1 (Max) 1504 ■ Claude Fable 5 (High) 1504 ■ Claude Opus 4.6 (High) 1503 ■ Claude Opus 4.7 (High) 1501 ■ Claude Opus 4.6 1496 ■ Gemini 3.8 Flash (High) 1496 ■ Muse Spark 1.3 (Max) 1495 ■ Claude Opus 4.7 1494 ■ Muse Spark 1.2 (xHigh) 1492 ■ Claude Opus 5 (High) 1492 ■ Claude Opus 5 (Max) 1491 ■ Muse Spark 1.1 1490 ■ Gemini 3.7 Flash (High) 1490 ■ Muse Spark 1489 ■ Kimi K3 (Max) 1488 ■ Gemini 3.1 Pro Preview 1487 ■ Gemini 3 Pro 1485 ■ GPT-5.6 Sol (xHigh) 1485 ■ Gemini 3.6 Flash (High) 1483 ■ Qwen3.8-Max 1482 ■ Claude Opus 4.8 (High) 1482 No changes since last week"
+      },
+      {
+        "index": 3,
+        "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Nov 5"
+      },
+      {
+        "index": 4,
+        "title": "AI News DeepSeek Router-Worker Agent dsh-superagent , open-sourced",
+        "text": "AI News DeepSeek Router-Worker Agent dsh-superagent , open-sourced (MIT) Coding-agent prototype - runs locally via DeepSeek Harness Completes tasks x2 faster It monitors one GitHub repository and optionally Feishu (similar to Slack) - turning authorized requests into parallel tasks A persistent Router delegates work to isolated Worker sessions, returning results, questions, or failures, decreasing the need in human attention Its importance is reduced need for supervision; proactive authorization defaults to observation, and full operating-system access requires isolation https: / /www.rfi.fr/en/international-news/20261021-five-things-to-know-about-chinese-ai-startup-deepseek https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent/"
+      },
+      {
+        "index": 5,
+        "title": "AI News GPT-6 Astra can edit Qwen's open",
+        "text": "AI News GPT-6 Astra can edit Qwen's open weights directly GPT-6 Astra can autonomously edit Qwen3.5-0.8B ’s weights and raise its MATH-500 from 7.9% to 48.1% without gradients or retraining! This is like gene editing for neural networks MIT research This blog from MIT asks whether LLMs can read and edit neural network weights directly, much like code. In Qwen, Astra traced repetitive reasoning loops to a direction written by two MLP layers, then edited the weights to suppress it. With 50 batches of forward-pass feedback, the fix also raised instruction following from 21.0% to 62.3% Check out this excellent work from Rikiya Takehi Jayden Teoh Alex Zhang Omar K. on alphaXiv: https://www.alphaxiv.org/abs/2611.weight-space-programming https://www.linkedin.com/feed/update/urn:li:activity:7523196149357535234/ https://venturebeat.com/technology/like-gene-editing-for-neural-networks-mit-researchers-used-gpt-6-astra-to-edit-qwens-open-weights-directly-boosting-math-performance"
+      },
+      {
+        "index": 6,
+        "title": "AI News Anthropic Public Benefit Fund receiving 5%",
+        "text": "AI News Anthropic Public Benefit Fund receiving 5% of company shares https://www.anthropic.com/news/public-benefit-fund Founders’ 80% equity pledges and employee donations bring total public-good commitments to roughly 20% 5% of 2T = $100 Bln 20% of 2T = $400 Bln The goal: share AI-generated wealth and help workers facing disruption, through charitable grants or direct payments rather than wages alone Elon Musk pledged one SpaceX share per American child in 2027"
+      },
+      {
+        "index": 7,
+        "title": "Weekly videos every Friday Weekly videos every Friday",
+        "text": "Weekly videos every Friday Weekly videos every Friday 7.68K subscribers, 392 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+      },
+      {
+        "index": 8,
+        "title": "Don't Micromanage Agents Don't Micromanage Agents Tell your",
+        "text": "Don't Micromanage Agents Don't Micromanage Agents Tell your agent  what you want and which rules to follow. Let it do the work step-by-step Then check its work"
+      },
+      {
+        "index": 9,
+        "title": "Coding with AI Agents Coding with AI agents",
+        "text": "Coding with AI Agents Coding with AI agents sometimes feels like Radar dealing with Army paperwork The AI runs through so many trials, tests, and revisions that following every step becomes a job of its own I’ve stopped trying to understand every intermediate move and focused instead on the goal, the final code, and whether it works It’s **Radar’s** approach: “I try not to, sir. It slows up the work.” In the scene is from M*A*S*H, “For Want of a Boot” (Season 2, Episode 17) Radar is explaining an absurd paperwork procedure: initialing forms, signing another form confirming that he merely initialed the first ones, then initialing his signature to show he approved it. That leads to this exchange: “Radar, tell me the truth. Do you understand any of this?” “Uh, I try not to, sir. It slows up the work.”"
+      },
+      {
+        "index": 10,
+        "title": "LangChain - Self-Improving Agents LangChain: Self-Improving Agents Harrison",
+        "text": "LangChain - Self-Improving Agents LangChain: Self-Improving Agents Harrison Chase, LangChain cofounder and CEO, explained agent improvement at Interrupt London, UK Agents combine a reasoning model, an execution harness, and context containing instructions, knowledge, and memory Models improve through supervised fine-tuning on successful traces or reinforcement learning using scored executions; costly training generally requires human initiation LangSmith Engine addresses recurring failures by analyzing traces and proposing code changes, tests, and evaluations for human review Context updates improve organizational knowledge and memory without retraining Tracing, SmithDB, expert-defined evaluations, simulations, and proactive red teaming connect execution with feedback The achievement is a practical improvement loop , not fully autonomous self-improvement; human oversight remains essential. https://www.youtube.com/watch?v=xy_7SzwsIjM https://www.langchain.com https://docs.langchain.com https://smith.langchain.com"
+      },
+      {
+        "index": 11,
+        "title": "AI News Linus Torvalds Embraces AI Tools He",
+        "text": "AI News Linus Torvalds Embraces AI Tools He has shifted from criticizing AI hype in 2024 to embracing AI-assisted development by October 2026. Personal projects, Linux kernel development Claude Code reportedly helped reduce reference-counter contention in cached-file reads using read-copy-update techniques. Reported benchmark gains reached approximately 3× on a laptop and 23× on a server - not across all kernel operations. Humans remain responsible for correctness https://kernel.org https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/ https://www.youtube.com/watch?v=vJGKiNVLotM OccupySaaS: AI Against SaaS Fees Thomas Meadows leads OccupySaaS, a US online collective They use AI to build open-source, self-hosted alternatives to Auth0 authentication and Salesforce customer management - ZeroAuthy, SalesCompel Both projects are publicly available under Apache 2.0, potentially reducing vendor dependence; they remain early-stage, not complete replacements https://occupysaas.com https://github.com/occupysaas"
+      },
+      {
+        "index": 12,
+        "title": "AI News Karpathy’s Idea to Get Short Clear",
+        "text": "AI News Karpathy’s Idea to Get Short Clear AI Output Problem: AI generates explanations faster than people can inspect them. Solution: ask AI to generate short sentences, consistent terminology, explicit conditions, and separate actions. Diagrams, interactive HTML, and videos offer complementary formats. This is inspired by ASD-STE100  - a Europe’s aerospace technical-writing standard since 1986. It combines writing rules with controlled vocabulary. “Sometimes I've tried to soften it a bit e.g. ask for ‘80% of the way to ASD-STE100’ because the spec is quite stringent.” “80% ASD-STE100” - clearer output supports human verification https://aiwiki.ai/wiki/andrej_karpathy https://www.asd-ste100.org https://x.com/karpathy https://appliedaihub.org/blog/ste100-prompt-readable-ai-answers/ https://www.bit.fan/en/news/list/karpathy-ai-output-tips-asd-ste100-html-video-bb9c6018-en-keyName-db6f3146"
+      },
+      {
+        "index": 13,
+        "title": "AI News Impeccable - a Design Skill Keeps",
+        "text": "AI News Impeccable - a Design Skill Keeps AI-built UIs from looking generic For Claude Code, Cursor, Codex CLI and Gemini CLI Built on Anthropic's frontend-design skill Seven reference files on typography, color, motion and more 23 commands under /impeccable , such as audit, polish and critique Anti-pattern rules catch template tells like purple gradients and nested cards A CLI runs the checks with no LLM or API key; 10,632 stars in one week https://github.com/pbakaus/impeccable Vercel CI: continuous integration In beta, runs only the tasks affected by a code change Spins up only the compute those checks need At Vercel, time from git push to a passing CI fell 2-6x Vercel pitches it as CI that can keep up with coding agents https://vercel.com/blog/introducing-vercel-ci"
+      },
+      {
+        "index": 14,
+        "title": "AI News Stop Using Coding Interviews Anthropic engineering",
+        "text": "AI News Stop Using Coding Interviews Anthropic engineering manager Felix Rieseberg announced that he stopped using traditional coding interviews for his candidates. He argues Claude outperforms applicants on these exercises. So results of coding interviews are poor predictors of meaningful engineering contributions He advises junior engineers to understand business goals, identify ambitious opportunities, and build focused prototypes demonstrating impact. He now examines portfolios for taste, empathy, and principled thinking https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/ Trajectory’s Continual Learning Trajectory in San Francisco, CA  - combining AI model training, evaluation, and deployment. Goal: affordable, specialized agents that improve through human-guided experience, rather than uncontrolled self-improvement. Platform helps to collect production traces, capture expert feedback, retrain models, and redeploy through one interface Example: Harvey’s model accuracy went from  4% to 18% while costing six times less https://www.startuphub.ai/ai-news/artificial-intelligence/2026/trajectory-demos-one-click-training-for-agents https://trajectory.ai https://www.youtube.com/watch?v=32vxW6GMeLY"
+      },
+      {
+        "index": 15,
+        "title": "AI News Claude API message threads send only",
+        "text": "AI News Claude API message threads send only the new turn, not the whole history A typical agent request drops from about 800 KB to 1.8 KB The server keeps the conversation between turns Send new messages plus the previous response ID In public beta on the Messages API Threads are encrypted in memory, never written to disk, and expire after 5 minutes idle No extra cost; keep your own history in case a thread expires https://claude.com/resources/articles/message-threads OpenAI GPT-Rosalind-6 a biology model on GPT-6 Astra's weights Frontier reasoning model for biology, drug discovery and translational medicine Uses the same weights as GPT-6 Astra Available as GPT-Rosalind-6 Research to vetted scientists, institutes, companies and governments Built to refuse requests for biological weapons Rated High Capability in biology and chemistry under OpenAI's Preparedness Framework https://deploymentsafety.openai.com/gpt-rosalind-6"
+      },
+      {
+        "index": 16,
+        "title": "AI News Google runs Gemma 4 on a",
+        "text": "AI News Google runs Gemma 4 on a TPU in orbit for the first time Project Suncatcher prototype ran Gemma 4 on a data-center-class TPU aboard a satellite It generated a haiku poem, sent down through Svalbard The chip can run for about 20 minutes at a time for now Next tests check heat and radiation resilience A pair of linked satellites is planned for 2027, toward solar-powered space compute https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/ Microsoft rewrote Copilot Cowork from Python to Rust while it was live Copilot Cowork, Microsoft's agent execution layer, reached global availability in 4.5 months The team switched its runtime from Python to Rust while live Practice 1: write clear specs before any code Practice 2: run narrow agents with clear boundaries Practice 3: make sure automated checks really verify each change The team stresses clear tests, boundaries and human oversight https://commandline.microsoft.com/how-we-built-copilot-cowork-python-to-rust-migration/"
+      },
+      {
+        "index": 17,
+        "title": "AI News Anthropic FlashProve: cryptographic proof of which",
+        "text": "AI News Anthropic FlashProve: cryptographic proof of which model wrote an output Open-source research system for provable inference, likened to DKIM email signing Labs publish a fingerprint per model ; outputs can be checked against it Fingerprints do not reveal weights, so closed models can take part Catches a provider quietly swapping in a cheaper model Built to be light enough to verify on a local device Spec and partial code on GitHub ; no plan yet to deploy it at any lab https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/ Vals: low reasoning effort keeps most of the score at a fraction of the cost Seven frontier models on eight Vals Index benchmarks, at low, middle and top reasoning effort Claude Opus 5.5 at low reasoning kept 80% of its score at 16% of the cost GPT-6 Astra: 88% of the score at 18% of the cost; Gemini 4 Argon: 99% at 84% In 22 of 56 model-benchmark pairs, a lower setting matched the top one Effort matters most on legal research (+19.2 points) and code migration (+15.6) No model matched its top Vals Index score at its lowest setting https://www.vals.ai/blogs/reasoning-effort Apple opens Siri AI to all app developers iOS 27.3 beta lets any app build its own actions into Siri AI New \"skills\" teach Siri multi-step jobs inside an app Siri AI can see the screen and read messages; it has been a waitlisted beta since September Developers can test only with internal testers; App Store submissions start in Spring Not available in the EU or to users under 13 https://developer.apple.com/news/?id=gdk2umrf"
+      },
+      {
+        "index": 18,
+        "title": "AI News Ripple-65B: Open Coding Preview Ricursive Intelligence",
+        "text": "AI News Ripple-65B: Open Coding Preview Ricursive Intelligence (Palo Alto, CA) released Ripple-65B Preview Available through Hugging Face, the Apache 2.0 release offers a 65-Bln params dense model, 1M-token context window Development costs were $32 Mln Self-reported 80.5 on Terminal-Bench 2.1 narrowly exceeds Reflection Beam’s 80.1, suggesting competitive autonomous coding with fewer total parameters https://ricursive.com https://huggingface.co/ricursiveAI/Ripple-65B-Preview Nothing’s Screen-Free AI Debut Nothing.tech is based in London, UK Announced that its first standalone AI device will ship in December 2026 The screen-free tool “couldn’t have been an app,” Pei says - Problem: AI gadgets have yet to demonstrate essential everyday value. Pei’s proposed solution is proving usefulness at work before pursuing widespread home adoption. - Importance: this marks Nothing’s move into dedicated AI hardware, emphasizing practical utility rather than another display. - Pei places AI’s “iPhone moment” years away; rumored Nothing smart glasses remain unconfirmed https://www.reuters.com/business/media-telecom/uks-nothing-splashes-colour-new-phones-shake-up-boring-tech-2026-03-05/ https://www.theverge.com/ai-artificial-intelligence/1026586/nothing-screen-free-ai-device-carl-pei https://nothing.tech"
+      },
+      {
+        "index": 19,
+        "title": "AI News OpenAI Images 2.6: animated GIFs, saved",
+        "text": "AI News OpenAI Images 2.6: animated GIFs, saved references, 50% faster Rolling out globally in ChatGPT and Codex ; generation is 50% faster Makes animated GIFs from a prompt or photo; edit frames and set the speed Keeps characters consistent across frames Save a character, pet or product once and reuse it as a reference API: gpt-image-2.6-flare (as fast as 6 s) and gpt-image-2.6-sunburst (higher quality) Both support image markup and SVG export https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/ Black Forest Labs FLUX 3 Image Klein: a 5.6B open model for editing Open weights, 5.6B parameters, built for precise image editing Native 4K output Also does text-to-image Bounding-box control to say where an edit goes Pixel-exact editing of the parts you choose; weights on Hugging Face https://bfl.ai/models/flux-3"
+      },
+      {
+        "index": 20,
+        "title": "AI News Axiom Formalizes Stacks in Lean Axiom",
+        "text": "AI News Axiom Formalizes Stacks in Lean Axiom Math, based in Palo Alto, CA , announced its complete Lean formalization of the Stacks Project Initiated by Columbia mathematician Johan de Jong in 2005, Stacks is an open, approximately 7.5K-page reference for modern algebraic geometry Axiom reports 16 Mln code lines, calling it the largest integrated, reusable formal mathematics library ever built. Coordinated AI agents addressed missing formal infrastructure by translating and integrating interconnected definitions and proofs. Researchers and AI agents can import machine-checked results directly, avoiding rebuilding foundations. https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/ https://axiommath.ai/research/the-stacks-project-formalized/ https://stacks.axiommath.ai https://stacks.math.columbia.edu Pangram Image 1.0 Detects AI in Image Detects AI-generated images and video Draws a heatmap that locates exactly where AI appears in an image Robust to edits, compression and low resolution Chrome extension for checking images while browsing API for both images and video https://www.pangram.com/blog/introducing-pangram-image-1-0"
+      },
+      {
+        "index": 21,
+        "title": "AI News Together AI Compiler Speeds Inference Neocloud",
+        "text": "AI News Together AI Compiler Speeds Inference Neocloud - Together AI (since 2022, San Francisco) - provides cloud infrastructure and APIs for running, training, and fine-tuning open-source AI models AI coding agents continuously optimize model inference by rewriting GPU code for specific models, hardware, and traffic patterns Manual tuning takes weeks and becomes outdated as workloads change. Parallel agents propose improvements; persistent engines test speed and correctness without repeated restarts. Achievement: Together reports up to 2.6x higher token throughput than leading open InferenceX configurations Optimization completed within 24 hours 252x greater experimentation throughput for testing candidate code Faster adaptation can improve GPU utilization and reduce serving costs; reported gains vary by workload https://www.businesswire.com/news/home/20261104879153/en/Together-AI-Launches-Together-Compiler-for-Continual-Optimization-of-Open-Source-AI-Models https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference https://www.together.ai/polymorphic-inference https://www.marktechpost.com/2026/11/05/together-ai-together-compiler-continual-compilation-ai-inference/"
+      },
+      {
+        "index": 22,
+        "title": "AI News Thinking Machines Lab - Inkling 2",
+        "text": "AI News Thinking Machines Lab - Inkling 2 Small Thinking Machines Lab is based in San Francisco, CA announced Inkling 2 Small - MoE 594B total / 17B active Accepts text and images; adjustable reasoning effort Natively in NVFP4 on NVIDIA GB300 racks. WEBench Pro v2 (Hard) 86.3%; MMMU Pro 81.6% Coding, visual reasoning, and knowledge-work tasks Sampling and fine-tuning are available now through Tinker, Open weights should come soon under Apache 2.0 https://thinkingmachines.ai/news/inkling-2-small/ Cloudflare’s AI Agent Trust Plan Cloudflare explains that websites must identify the users behind AI agents to enforce accountability The new Trusted Agent Delegation Coalition will bring problems to the IETF for interoperable standards The post identifies 14 challenges, including account sharing, friendly fraud, identity spoofing, and scraping. It proposes four identity levels: none, session, account, and unique, balancing privacy with verification requirements The approach builds on Web Bot Auth, Privacy Pass, x402 payments, and OAuth Customers can now distinguish personal-assistant traffic, improving visibility and enabling targeted controls without blocking legitimate users https://blog.cloudflare.com/trusted-agent-delegation"
+      },
+      {
+        "index": 23,
+        "title": "AI News Google Gemini Omni 1.2 Flash 15-second",
+        "text": "AI News Google Gemini Omni 1.2 Flash 15-second video clips (up from 10 in Omni 1.1) 30% cheaper ( $0.07 per second of 720p video) 360p, 720p, 1080p, 4K Can use short motion clips to guide the movement You can edit a full clip several turns without regenerating it Available in the Gemini API as gemini-omni-1.2-flash https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Ranking Models on Games Where They Must Lie to Win Dwarkesh Patel ranks models on the social deception game \" Blood on the Clocktower \" Cost of ranking 386 games was $20K in API credits GPT-6 Astra leads, about 430 Elo ahead of Claude Opus 4.6 OpenAI models win mostly as the good team, weighing evidence across days Claude models tend to take reported claims at face value A mixed Opus 5.5 and GPT-5.6 team did no better than either alone https://www.dwarkesh.com/p/clocktower"
+      },
+      {
+        "index": 24,
+        "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+        "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 142.0K in 2026 (as of Nov 5, 2026) 123K in 2025 153K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 204,867 people laid off (661 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+      },
+      {
+        "index": 25,
+        "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+      },
+      {
+        "index": 26,
+        "title": "Thank You! Videos of every seminar are on",
+        "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+      }
+    ],
+    "points": [
+      {
+        "claim": "AI News - Nov 6, 2026 Models edit",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 1,
+        "slideTitle": "AI News - Nov 6, 2026 Models edit",
+        "source": "slide"
+      },
+      {
+        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 2,
+        "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "source": "slide"
+      },
+      {
+        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "topic": "benchmarks",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 3,
+        "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News DeepSeek Router-Worker Agent dsh-superagent , open-sourced",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 4,
+        "slideTitle": "AI News DeepSeek Router-Worker Agent dsh-superagent , open-sourced",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News GPT-6 Astra can edit Qwen's open",
+        "topic": "openai",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 5,
+        "slideTitle": "AI News GPT-6 Astra can edit Qwen's open",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Anthropic Public Benefit Fund receiving 5%",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 6,
+        "slideTitle": "AI News Anthropic Public Benefit Fund receiving 5%",
+        "source": "slide"
+      },
+      {
+        "claim": "Weekly videos every Friday Weekly videos every Friday",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 7,
+        "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+        "source": "slide"
+      },
+      {
+        "claim": "Don't Micromanage Agents Don't Micromanage Agents Tell your",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 8,
+        "slideTitle": "Don't Micromanage Agents Don't Micromanage Agents Tell your",
+        "source": "slide"
+      },
+      {
+        "claim": "Coding with AI Agents Coding with AI agents",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 9,
+        "slideTitle": "Coding with AI Agents Coding with AI agents",
+        "source": "slide"
+      },
+      {
+        "claim": "LangChain - Self-Improving Agents LangChain: Self-Improving Agents Harrison",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 10,
+        "slideTitle": "LangChain - Self-Improving Agents LangChain: Self-Improving Agents Harrison",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Linus Torvalds Embraces AI Tools He",
+        "topic": "coding",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 11,
+        "slideTitle": "AI News Linus Torvalds Embraces AI Tools He",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Karpathy’s Idea to Get Short Clear",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 12,
+        "slideTitle": "AI News Karpathy’s Idea to Get Short Clear",
+        "source": "slide"
+      }
+    ]
+  },
+  {
     "id": "2026-10-30-2026-10-30-ai-news",
     "date": "2026-10-30",
     "title": "AI-News",
