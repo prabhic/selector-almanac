@@ -1,5 +1,294 @@
 [
   {
+    "id": "2026-11-13-2026-11-13-ai-news",
+    "date": "2026-11-13",
+    "title": "AI-News",
+    "series": "ai-weekly",
+    "topics": [
+      "claude",
+      "openai",
+      "google",
+      "open-models",
+      "benchmarks",
+      "data-engineering",
+      "agents",
+      "rag",
+      "infra",
+      "general",
+      "fine-tuning"
+    ],
+    "video": null,
+    "deck": {
+      "path": "2026/2026-11-13-AI-News.pptx",
+      "filename": "2026-11-13-AI-News.pptx",
+      "title": "AI-News",
+      "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-11-13-AI-News.pptx",
+      "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-11-13-AI-News.pptx"
+    },
+    "match": {
+      "confidence": "deck-only",
+      "method": "unmatched"
+    },
+    "chapters": [],
+    "slides": [
+      {
+        "index": 1,
+        "title": "AI News - Nov 13, 2026 Models now",
+        "text": "AI News - Nov 13, 2026 Models now pass each other their memories and skip the words. LM Arena Leaderboard Artificial Analysis Intelligence Index NVIDIA - Jensen Huang’s Exit Google Gemini 4 Hydrogen Anthropic Claude Fable 5.2 and Mythos 5.2 Switching from Obsidian to Trilium Cache-to-Cache LLM Communication Baidu’s ERNIE 5.5 Flash Base Model Nous Research Arete-27B Discord Rewriting Apps in Rust Rust: Origins and Birthday Gemini 4 Carbon Tops AA Index Google DeepMind AlphaGenome 2 Profits of selling information go down AI Compression: Quality vs Speed Hermes Marketplace for AI Agents Instinct: AI Assistant by Text IDEs Shift Toward AI Code Review AI Solves Physics and Math Yann LeCun’s Smaller AI Alternative Tencent Hyra 2.0 Research Agent (China) SenseNova Loop 9B - Small Efficient AI OpenAI Raises $11B at $1.25T Prism Decision model AI Trading: Uses and Limits Today Robinhood Trading - Manual & Agentic Meta Muse Ember: Small Agent Model GitHub Ports Copilot to Rust Kimi K3.1 Pro Open Weights Claude Office Tools Anthropic sets IPO terms ChatGPT Opens Doors to Brands Superhuman AI Is Forecasted for 2027 Fable 5.2: New Prompting Rules Grok Team Bot 1.0 Google Gemini Decisions API Runway Praxis-1 Robotics Model MCP vs CLI vs Skills Token Cost How AI Models Learn to Reason MedGraph: Time-Aware AI Memory Self-Hosted Claude Managed Agents Jobs & Layoffs"
+      },
+      {
+        "index": 2,
+        "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard LM Arena Text https://lmarena.ai/leaderboard/text LM Arena Coding https://lmarena.ai/leaderboard/text/coding Data for Nov 11 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable 5 - (~6T) Claude Opus 4.8 - (~5T) Claude Sonnet 4.5 - Claude Sonnet 5 - GLM-5.3 - ~744B Meta Muse Spark Open - 816B Qwen3.7-Max-Preview - Qwen3.8-Max - 2.4T Baidu ERNIE-5.1 - ~800B DeepSeek V4 Pro - 1.6T DeepSeek V4.1 Flash - 552B Kimi K3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1.02T ByteDance Seed 2.0 Pro - MiniMax M3 - ~428B Code Model Score ■ Gemini 4 Carbon (High) 1568 ■ Gemini 4 Argon (High) 1553 ■ Claude Fable 5 (High) 1552 ■ Claude Opus 4.7 (High) 1551 ■ GPT-6 Astra (Max) 1548 ■ Claude Opus 5.5 (High) 1547 ■ Claude Opus 4.6 (High) 1547 ■ Claude Opus 4.6 1547 ■ Claude Opus 4.7 1547 ■ Muse Wonder (Max) 1542 ■ Muse Spark 1.2 (xHigh) 1542 ■ GPT-6.1 Sol (Max) 1540 ■ MiMo-V2.6-Pro 1538 ■ Kimi K3 (Max) 1538 ■ Muse Spark 1.3 (Max) 1534 ■ Claude Opus 4.8 (High) 1534 ■ Claude Fable 5.1 (Max) 1533 ■ Muse Spark 1.1 1533 ■ GPT-5.6 Sol (xHigh) 1533 ■ Claude Opus 5 (High) 1532 ■ Gemini 3.8 Flash (High) 1531 ■ Claude Opus 4.5 (High, 32K, 20251101) 1530 ■ Kimi K3.1 Pro (Max) 1530 ■ Muse Spark 1529 ■ Claude Opus 4.8 1529 Code Model Score ■ Gemini 4 Carbon (High) 1526 ■ Gemini 4 Argon (High) 1522 ■ Muse Wonder (Max) 1511 ■ Claude Opus 5.5 (High) 1507 ■ Claude Fable 5 (High) 1504 ■ Claude Opus 4.6 (High) 1503 ■ Claude Fable 5.1 (Max) 1502 ■ Claude Opus 4.7 (High) 1501 ■ Gemini 3.8 Flash (High) 1497 ■ Muse Spark 1.3 (Max) 1497 ■ Claude Opus 4.6 1496 ■ Claude Opus 4.7 1494 ■ Muse Spark 1.2 (xHigh) 1493 ■ Muse Spark 1.1 1491 ■ Gemini 4 Hydrogen (High) 1490 ■ Claude Opus 5 (High) 1490 ■ Gemini 3.7 Flash (High) 1489 ■ Muse Spark 1489 ■ Claude Opus 5 (Max) 1489 ■ Kimi K3 (Max) 1487 ■ Gemini 3.1 Pro Preview 1487 ■ Gemini 3 Pro 1486 ■ GPT-5.6 Sol (xHigh) 1485 ■ Kimi K3.1 Pro (Max) 1485 ■ Qwen3.8-Max 1484"
+      },
+      {
+        "index": 3,
+        "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Nov 13"
+      },
+      {
+        "index": 4,
+        "title": "AI News NVIDIA - Jensen Huang’s Exit Jensen",
+        "text": "AI News NVIDIA - Jensen Huang’s Exit Jensen Huang resigned as NVIDIA’s president, CEO, and board member CFO Colette Kress has become interim CEO Harvey C. Jones has become board chair NVIDIA is an American AI-chip company based in Santa Clara, CA Jensen Huang has co-funded it in 1993 and was its CEO for 33 years The departure is linked to his multiple affairs (3 reported so far) https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition https://www.reuters.com/business/retail-consumer/nvidia-ceo-jensen-huang-step-down-big-blow-ai-boom-2026-11-12/ Google Gemini 4 Hydrogen 2.5-times-faster than Gemini 3.8 Flash Pricing $1.50 / $7.50 per 1M tokens in/out For everyday coding and tool-using AI agents Fast, configurable reasoning, 1M-token context window Carbon or Argon are recommended for deeper reasoning https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      },
+      {
+        "index": 5,
+        "title": "AI News Anthropic Claude Fable 5.2 and Mythos",
+        "text": "AI News Anthropic Claude Fable 5.2 and Mythos 5.2 Coding, reasoning, and vision, targeting complex engineering problems and lengthy projects Difficult, multistep workflows, coordinating AI agents, delegating simpler tasks, and consulting on harder problems 30% faster than predecessors Pricing $8 / $40 https://www.anthropic.com/claude-fable-and-mythos-5-2 https://platform.claude.com/docs/en/models/fable-5-2/overview Switching from Obsidian to Trilium Run Trilium on a self-hosted Docker server; access notes through browsers or synchronized desktop apps, using Tailscale remotely Importance: Built-in editors, diagrams, and collections reduce plugin dependence; synchronization requires managing your own server rather than receiving free cloud hosting https://windowsforum.com/news/trilium-notes-vs-obsidian-free-self-hosted-sync-docker-setup-and-migration-trade-offs.451519/ https://triliumnotes.org https://github.com/TriliumNext/Trilium https://www.howtogeek.com/ditched-obsidian-for-free-and-open-source-alternative-with-built-in-sync/"
+      },
+      {
+        "index": 6,
+        "title": "AI News Cache-to-Cache Direct Semantic Communication Between LLMs",
+        "text": "AI News Cache-to-Cache Direct Semantic Communication Between LLMs Problem: Text-based communication between language models loses rich internal information and adds delays through sequential token generation Solution: Cache-to-Cache (C2C) uses trained neural adapters to project and fuse models’ key-value caches, transferring semantic representations without intermediate text. Both models remain frozen during adapter training. Achievement: The revised paper reports 6.4–14.2% higher accuracy than individual models and average 2.5-fold speedup over text communication. Importance: Enables faster, richer collaboration across different model families and sizes. https://arxiv.org/abs/2510.03215 https://github.com/thu-nics/C2C"
+      },
+      {
+        "index": 7,
+        "title": "AI News Baidu’s ERNIE 5.5 Flash Base Model",
+        "text": "AI News Baidu’s ERNIE 5.5 Flash Base Model Baidu, based in Beijing, China, released ERNIE 5.5 Flash Base online Weights on Hugging Face. MoE text, 280 B total / 14 B active Up to 1M context This is a raw pretrained foundation Custom license limits usage https://ernie.baidu.com/release/ernie-5-5-flash-base/ Nous Research Arete-27B Fine-tuned Qwen3.8-27B model; Open Weights Original Qwen model sometimes refused sensitive questions or repeated Chinese state framing In Arete-27B the propaganda fell from 22% to 0.9% Arete-27B was made using supervised fine-tuning without reinforcement learning or architecture changes https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune/"
+      },
+      {
+        "index": 8,
+        "title": "Weekly videos every Friday Weekly videos every Friday",
+        "text": "Weekly videos every Friday Weekly videos every Friday 7.69K subscribers, 397 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+      },
+      {
+        "index": 9,
+        "title": "AI News Discord rewriting its apps into Rust",
+        "text": "AI News Discord rewriting its apps into Rust Desktop app - from Electron Mobile app - from React Native The new \"Discord Phoenix\" is built on GPUI, the Rust UI framework from the team behind the Zed code editor New Rust app takes less memory ( 290MB vs 856MB ) No release date yet Rust: Origins and Birthday Graydon Hoare, a Canadian programmer working for Mozilla in Vancouver, Canada, started Rust as a personal project in 2006 His goal was to improve on C++ development by combining fast systems programming with stronger memory safety and concurrency protections Mozilla began sponsoring Rust in 2009; the project became public and openly developed in 2010 Rust 1.0, its first stable release, arrived May 15, 2015 May 15 is therefore celebrated as Rust’s birthday Its importance lies in making reliable, high-performance software easier to build while preventing many memory-related bugs https://www.rust-lang.org/ https://blog.rust-lang.org/2019/05/15/4-Years-Of-Rust/"
+      },
+      {
+        "index": 10,
+        "title": "AI News Gemini 4 Carbon takes first place",
+        "text": "AI News Gemini 4 Carbon takes first place on the Intelligence Index Scores 59 on the Artificial Analysis Intelligence Index v5.0, just ahead of Claude Opus 5.5 First on Arena's text leaderboard at 1,528 Elo Built for multi-day software engineering and cybersecurity work Access starts with vetted cyber defenders in the Fairwind Program Pricing $2 / $10 intro, then $4 / $20 Uses about 3x the median token count per task https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1 https://aidisruption.ai/p/gemini-4-carbon-launches https://www.deeplearning.ai/the-batch/gemini-leads-the-pack-again Google DeepMind AlphaGenome 2 Identifies nearly twice as many gene expression-altering variants as its predecessor Research how DNA changes affect specific cell types and states https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/ It computationally reproduced an established inflammatory bowel disease mechanism involving ETS2 activity in gut immune cells"
+      },
+      {
+        "index": 11,
+        "title": "AI News Profits of selling information go down.",
+        "text": "AI News Profits of selling information go down. Example: Stack Overflow https://stackoverflow.com/questions The number of monthly questions was falling from approximately 207,000 in March 2014 to 966 in September 2026 Mostly because people switched to using AI assistants. So now it is difficult to sell \"how-to\" information. You need to sell something else. You can sell stories. You can sell implementation (build the house instead of \"how to build\" You can sell human connection - \"community\" solutions."
+      },
+      {
+        "index": 12,
+        "title": "AI News AI Compression: Quality vs Speed CompressionBench",
+        "text": "AI News AI Compression: Quality vs Speed CompressionBench paper from Carnegie Mellon University, PA 6 agents each received 8 hours on one H200 NVL GPU to compress models and implement inference; 29 of 36 submissions passed verification. Sonnet 5.5 compressed Qwen3.8-27B within 8 GiB, achieving 68.67% accuracy versus an expert release’s 65.33%. However, its speed fell from 75 to 23 tok/sec Agents improved quality per byte, not speed. The budget excludes KV cache https://arxiv.org/abs/2611.06858 [ https://github.com/Infini-AI-Lab/Compression-Bench](https://github.com/Infini-AI-Lab/Compression-Bench) https://www.youtube.com/watch?v=xVJoOdlF7-E"
+      },
+      {
+        "index": 13,
+        "title": "AI News Hermes Marketplace for AI Agents Plugins,",
+        "text": "AI News Hermes Marketplace for AI Agents Plugins, connectors, and skills for Hermes Agent in one catalog with over 1,300 plugins, extending agents with memory, voice, messaging, browsing, and other capabilities It makes community-developed capabilities easier to discover and reuse, reducing setup friction. Browsing and installation are free, although individual integrations may incur charges https://hermes-agent.nousresearch.com/marketplace https://nousresearch.com https://github.com/nousresearch/hermes-agent - 262K stars Instinct: AI Assistant by Text A personal AI agent accessed through iMessage, WhatsApp, SMS, and calls, rather than a separate app. By Spear Street Technology, San Francisco, CA Company was founded in April, Started providing invite-only service in August Raised $1 Bln at a $10 Bln valuation in September Group-chat capabilities followed in October It works remotely using a persistent cloud computer, browser, and connected personal accounts Everyday administrative chores consume time; Instinct handles bookings, shopping, emails, and appointment coordination Privacy and account access remain concerns https://www.theverge.com/tech/1008254/instinct-agent-ai-hands-on-muse-dots https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/ https://www.youtube.com/watch?v=1jl6lQldNFE"
+      },
+      {
+        "index": 14,
+        "title": "IDE Shift Toward AI Code Review IDEs Shift",
+        "text": "IDE Shift Toward AI Code Review IDEs Shift Toward AI Code Review AI writes code, Developers increasingly review, validate and manage AI-generated code IDE provides code inspection, automated testing, generated documentation, semantic search and context-aware navigation Security flaws, inefficient implementations and inconsistent code require human oversight, testing and quality controls. Responsibility shifts toward specifying requirements and verifying results, not eliminating developers https://www.geeky-gadgets.com/future-of-ides-ai-agents/ https://cursor.com https://www.jetbrains.com/ai/ AI Solves Physics and Math Researchers tested OpenAI’s GPT-6 Astra on TheoPhysEval: 50 unpublished theoretical-physics problems. Using Codex, scientific searches, and computational tools, Astra reportedly solved 49 out of 50 problems, scoring 98% after experts corrected mistakes in their answer key. Epoch AI revised FrontierMath in June 2026, addressing errors in 42% of its mathematics problems So AI can now help audit expert work and accelerate research https://www.airosetta.com/en/news/gpt6-astra-theophys-eval-49-50 https://epoch.ai/benchmarks/frontiermath-tier-4-v2 https://epoch.ai/frontiermath"
+      },
+      {
+        "index": 15,
+        "title": "AI News Yann LeCun’s Smaller AI Alternative Published",
+        "text": "AI News Yann LeCun’s Smaller AI Alternative Published October 29, 2026. JEPA learns abstract representations using different observations of the same scene rather than reconstructing every detail A 109-Mln params model surpassed tested language models up to 72 Bln params on visual-language alignment Comparable alignment required 42 times fewer training samples JEPA (Joint Embedding Predictive Architecture) is potentially more efficient multimodal AI https://www.youtube.com/watch?v=_fEqQa5hBmI https://arxiv.org/abs/2610.39302 https://github.com/galilai-group/prh-proof Tencent Hyra 2.0 Research Agent (China) Hyra 2.0 - automated scientific research , reusable models, tools, and workflows Saves experimental records and skills, allowing later tasks to reuse successes and avoid failures Mission, and Worker agents coordinate long-running research, parallel sandbox experiments, and evidence-based verification 57-times-faster protein sequence generation, improved quantum error correction, mathematical proofs, and 5.79% higher XiangShan processor performance per GHz https://github.com/Tencent-Hunyuan/Hyra-results/ https://m.techflowpost.com/en-US/newsletter/142506 https://hy.tencent.ai/research/hyra2 https://www.techtimes.com/articles/329932/20261103/tencent-hyra-20-launches-protein-models-quantum-codes-recursive-self-improvement-loop.htm https://www.youtube.com/watch?v=y5aAoliwoqo"
+      },
+      {
+        "index": 16,
+        "title": "AI News SenseNova Loop 9B - Small Efficient",
+        "text": "AI News SenseNova Loop 9B - Small Efficient AI By SenseNova, part of China’s SenseTime On Hugging Face under Apache 2.0 This model reuses 24 layers twice, producing 56 layer executions from 32 distinct layers without duplicating weights In some tests 9B model wins against 27B competitors Approx 9 Bln stored params support deeper computation; two-stream manifold-constrained hyper-connections manage information flow Targets document understanding, coding, analysis, and multistep business workflows Suggested applications - content drafts, personalized outreach, and weekly performance summaries https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview https://chinaaibulletin.substack.com/p/china-ai-bulletin-15 https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview/blob/main/README.md"
+      },
+      {
+        "index": 17,
+        "title": "AI News OpenAI raises $11 billion at a",
+        "text": "AI News OpenAI raises $11 billion at a $1.25 trillion valuation Valuation $1.25 Trln, down from the $1.4 first asked Greg Brockman says OpenAI could be IPO-ready in 2027 https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/ Prism Decision model Sarvam AI, Bengaluru, India Selecting predefined answers with probabilities https://en.wikipedia.org/wiki/Sarvam_AI https://www.sarvam.ai/models https://www.sarvam.ai"
+      },
+      {
+        "index": 18,
+        "title": "AI Trading Robinhood Trading - Manual & Agentic",
+        "text": "AI Trading Robinhood Trading - Manual & Agentic Automatic does not mean profitable or dependable. Robinhood warns that agents can misunderstand instructions, use outdated information, and lose your entire investment. You remain responsible for their trades. External MCP accounts currently default to approvals off, unlike built-in agents. Approval controls are still rolling out for external accounts. https://robinhood.com AI Trading: Uses and Limits Today As of today, AI can assist pricing, hedging, and risk analysis; but it cannot guarantee consistently profitable autonomous trading. AI helps analyze information and improve execution efficiency U.S. securities firms use AI for investment research, portfolio management, and trading execution; FINRA, the U.S. industry regulator, monitors adoption. (FINRA = Financial Industry Regulatory Authority) https://www.finra.org/rules-guidance/key-topics/fintech/report/artificial-intelligence-in-the-securities-industry/ai-apps-in-the-industry https://www.finra.org/rules-guidance/key-topics/artificial-intelligence https://www.finra.org/investors/insights/artificial-intelligence-and-investment-fraud TL;DR - reliability requires validated data, independent testing, trading limits, and human oversight. General-purpose chatbots can hallucinate; institutional machine-learning systems are distinct from chatbots. Treat “guaranteed returns” as a warning sign"
+      },
+      {
+        "index": 19,
+        "title": "AI News Meta Muse Ember: Small Agent Model",
+        "text": "AI News Meta Muse Ember: Small Agent Model Available via Meta’s hosted API and Muse Code Affordable pricing $0.1 / $0.5 (and $0.3 / $1.5 for  > 200K tokens) Similar (trails) Claude Haiku 5.5; GPT-6 Luna For tool calls, routing, coding subtasks and document parsing Trained using Muse Wonder Full Accepts text, images, audio and video Input up to 1M-tokens, output 512K-tokens https://research.meta.ai/blog/muse-ember https://artificialanalysis.ai/articles/meta-s-muse-ember-is-the-cheapest-model-scoring-36-on-the-intelligence-index https://research.meta.ai/blog/muse-ember GitHub ports the Copilot runtime from TypeScript to Rust About 800K lines of code were ported One developer finished it in a few months with the Copilot app, Copilot CLI and agent fleets New runtime takes significantly less memory, more stable The new runtime can be loaded as a library into apps written in Python, Java or C# https://blog.bytebytego.com/p/how-github-used-ai-to-port-copilot"
+      },
+      {
+        "index": 20,
+        "title": "AI News Moonshot releases Kimi K3.1 Pro open",
+        "text": "AI News Moonshot releases Kimi K3.1 Pro open weights 2.8T-parameter MoE Gated DeepSeek Sparse Attention  for long context 1M-token context, text and image input For long coding sessions, game development and 3D work in Blender, CAD and Unity Better factual accuracy than Kimi K3 for financial research Weights posted in MXFP4 under a custom MIT-style license Also on Ollama Cloud: ollama run kimi-k3.1-pro:cloud https://ollama.com/library/kimi-k3.1-pro Claude Office Tools Claude Meetings - joins Google Meet for Team and Enterprise customers, joining calls as a visible participant and retrieving information from connected applications Claude Whiteboards - organizes brainstorming into responsibilities and deadlines Claude Sheets - builds collaborative spreadsheets Claude Data - converts connected business information into dashboards, summaries and videos The suite expands Claude beyond coding into competition with Microsoft’s workplace software https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now"
+      },
+      {
+        "index": 21,
+        "title": "AI News Anthropic sets IPO terms Nasdaq ticker",
+        "text": "AI News Anthropic sets IPO terms Nasdaq ticker ANT Up to $1.4 trillion, listing next week Roadshow launched with 825 million Class A shares at $70 to $78 Up to $64.4 billion raised; about $1.4 trillion fully diluted at the top of the range Seven partners (Nvidia, Microsoft, Google, ...) buy $26 Bln of non-voting stock Trading could start Thursday November 19 or Friday November 20 The FT says the book is oversubscribed; Some bankers weigh a valuation above $1.5 trillion Five customers supplied a quarter of $33.2 billion in 9-month sales ChatGPT Opens Doors to Brands OpenAI launched free verified business profiles and branded AI sales agents in ChatGPT It helps businesses turn AI discovery into customer conversations Agents initially serve eligible US online retailers and service businesses. Brands claim profiles through Business Hub, verify identity, and supply current information, addressing outdated answers. Retailers upload product feeds with pricing and stock or connect Shopify. A dashboard tracks mentions, website clicks, and discovery topics, highlighting information gaps without exposing customer conversations. Clearly labeled agents answer shopping questions Selected advertisers can pay to direct ChatGPT ads into these branded chats; Organic recommendations remain independent https://venturebeat.com/technology/openai-lets-you-claim-your-business-in-chatgpt-and-set-up-a-custom-agentic-ai-customer-sales-rep"
+      },
+      {
+        "index": 22,
+        "title": "AI News Superhuman AI Is Forecasted for 2027",
+        "text": "AI News Superhuman AI Is Forecasted for 2027 METR’s estimate that Anthropic’s AI progress runs roughly twice its historical pace 35–65% probability to AI capable of automating all white-collar work in 2027 Alignment is lagging, recursive self-improvement could amplify misalignment, and China could steal training recipes or weights https://ai-futures.org https://blog.aifutures.org/p/q35-timelines-update-looks-like-the Fable 5.2: New Prompting Rules Fable 5.2 delivers Opus 5.5-level coding performance at half the cost using high effort. So - use high effort initially; reserve extra-high for harder tasks; avoid costly maximum settings Require tests, evidence, and explicit completion criteria to counter unsupported claims and unfinished work Simplify outdated instructions, clarify code ownership, and let the model choose when to delegate subagents Request occasional progress updates Specify tone and length separately from effort https://www.youtube.com/watch?v=c_McosB62a4"
+      },
+      {
+        "index": 23,
+        "title": "AI News Grok Team Bot 1.0 A shared",
+        "text": "AI News Grok Team Bot 1.0 A shared bot a whole team can publish and use Works inside Slack and Microsoft Teams channels Joins Google Meet, Zoom and Teams calls, answers in chat, then sends a summary with action items Spots unfinished tasks and offers to take them on Shared memory builds team knowledge; learnings need owner approval before they stick Setup needs a team admin's approval Adds shared connectors and new admin controls https://flaviocopes.com/grok-bot-1-0/ Google Gemini Decisions API Pricing $0.10 per 1M tokens Scores up to 1,000 typed questions against one shared input in a single forward pass Returns calibrated probabilities for each option Takes images and text, for example judging spill severity and the cleanup needed Aimed at the small branching calls inside agents: routing, policy checks, tool selection and grading https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+      },
+      {
+        "index": 24,
+        "title": "AI News Runway Praxis-1: a 27B open-weight robotics",
+        "text": "AI News Runway Praxis-1: a 27B open-weight robotics model 27B parameters, released under Apache 2.0 Predicts both video and robot actions Tops NVIDIA's RoboLab-120 leaderboard at 46.2% success across 1,200 episodes Weights on GitHub and Hugging Face Supports full fine-tuning and LoRA on NVIDIA hardware Can be adapted to different robot bodies https://runway.com/news/company-news/praxis-1-is-now-available MCP vs CLI vs skills: what each costs in context OpenRouter measured token use for the same simple task MCP with default tools used 59,417 tokens A CLI used 1,421 A skill used 3,315 MCP servers add thousands of input tokens to every request through tool definitions Tool Search defers those definitions and cuts the upfront cost to under 600 tokens Tool-heavy MCP setups are the expensive choice unless definitions load on demand https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/"
+      },
+      {
+        "index": 25,
+        "title": "AI News How AI Models Learn to Reason",
+        "text": "AI News How AI Models Learn to Reason Reinforcement learning (RL) turns text predictors into better reasoners by rewarding successful solutions and discouraging failures Anthropic researcher Jeremy Berman explains the process to Matthew Berman, using apartment prices, Python, PyTorch, and Qwen demo-s. Neural networks adjust numerical weights to reduce prediction errors; pre-training teaches language patterns, while post-training develops assistant behavior Assistants can confidently produce incorrect answers. RL helps - practice verifiable tasks, compare attempts, and reinforce better reasoning https://www.youtube.com/watch?v=Sjdvu4nHfDk https://colab.research.google.com MedGraph: Time-Aware AI Memory https://arxiv.org/abs/2611.08433 https://www.youtube.com/watch?v=MPlg31ZhrQo MedGraph improved medical dialogue accuracy by 10.5 percentage points Donghua Zhang and colleagues at Michigan, Georgetown, Johns Hopkins, and Harvard universities, USA, introduced the research prototype It tackles outdated records, confusion between patients and relatives, and missing safety information Three layers preserve original conversations, organize dated clinical facts into temporal chains , and supply patient profiles containing every recorded safety fact Unlike basic retrieval, it assembles patient-specific histories reflecting the requested time without retraining model weights"
+      },
+      {
+        "index": 26,
+        "title": "AI News Claude Managed Agents can now run",
+        "text": "AI News Claude Managed Agents can now run inside your own perimeter Self-hosted Claude Managed Agents is in private beta The whole Managed Agents service runs in-house : sandboxes, credential handling and session history Works with existing cloud providers Meets zero data retention policies Gives security teams full control over what agents do and where data goes https://claude.com/resources/articles/self-hosted-claude-managed-agents"
+      },
+      {
+        "index": 27,
+        "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+        "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 142.5K in 2026 (as of Nov 13, 2026) 123K in 2025 153K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 206,817 people laid off (652 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs"
+      },
+      {
+        "index": 28,
+        "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+        "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+      },
+      {
+        "index": 29,
+        "title": "Thank You! Videos of every seminar are on",
+        "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+      }
+    ],
+    "points": [
+      {
+        "claim": "AI News - Nov 13, 2026 Models now",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 1,
+        "slideTitle": "AI News - Nov 13, 2026 Models now",
+        "source": "slide"
+      },
+      {
+        "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 2,
+        "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+        "source": "slide"
+      },
+      {
+        "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "topic": "benchmarks",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 3,
+        "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News NVIDIA - Jensen Huang’s Exit Jensen",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 4,
+        "slideTitle": "AI News NVIDIA - Jensen Huang’s Exit Jensen",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Anthropic Claude Fable 5.2 and Mythos",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 5,
+        "slideTitle": "AI News Anthropic Claude Fable 5.2 and Mythos",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Cache-to-Cache Direct Semantic Communication Between LLMs",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 6,
+        "slideTitle": "AI News Cache-to-Cache Direct Semantic Communication Between LLMs",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Baidu’s ERNIE 5.5 Flash Base Model",
+        "topic": "open-models",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 7,
+        "slideTitle": "AI News Baidu’s ERNIE 5.5 Flash Base Model",
+        "source": "slide"
+      },
+      {
+        "claim": "Weekly videos every Friday Weekly videos every Friday",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 8,
+        "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Discord rewriting its apps into Rust",
+        "topic": "rag",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 9,
+        "slideTitle": "AI News Discord rewriting its apps into Rust",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Gemini 4 Carbon takes first place",
+        "topic": "claude",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 10,
+        "slideTitle": "AI News Gemini 4 Carbon takes first place",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News Profits of selling information go down.",
+        "topic": "general",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 11,
+        "slideTitle": "AI News Profits of selling information go down.",
+        "source": "slide"
+      },
+      {
+        "claim": "AI News AI Compression: Quality vs Speed CompressionBench",
+        "topic": "agents",
+        "videoSeconds": null,
+        "videoUrl": null,
+        "slideIndex": 12,
+        "slideTitle": "AI News AI Compression: Quality vs Speed CompressionBench",
+        "source": "slide"
+      }
+    ]
+  },
+  {
     "id": "2026-11-06-2026-11-06-ai-news",
     "date": "2026-11-06",
     "title": "AI-News",
