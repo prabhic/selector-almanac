@@ -1,0 +1,284 @@
+{
+  "id": "2026-11-27-2026-11-27-ai-news",
+  "date": "2026-11-27",
+  "title": "AI-News",
+  "series": "ai-weekly",
+  "topics": [
+    "claude",
+    "openai",
+    "google",
+    "open-models",
+    "benchmarks",
+    "data-engineering",
+    "infra",
+    "safety",
+    "enterprise",
+    "general",
+    "agents"
+  ],
+  "video": null,
+  "deck": {
+    "path": "2026/2026-11-27-AI-News.pptx",
+    "filename": "2026-11-27-AI-News.pptx",
+    "title": "AI-News",
+    "githubUrl": "https://github.com/lselector/seminar/blob/master/2026/2026-11-27-AI-News.pptx",
+    "rawUrl": "https://raw.githubusercontent.com/lselector/seminar/master/2026/2026-11-27-AI-News.pptx"
+  },
+  "match": {
+    "confidence": "deck-only",
+    "method": "unmatched"
+  },
+  "chapters": [],
+  "slides": [
+    {
+      "index": 1,
+      "title": "AI News - Nov 27, 2026 Chatbot =>",
+      "text": "AI News - Nov 27, 2026 Chatbot => Multi-agent cockpit => Executive Updates LM Arena Leaderboard Artificial Analysis Intelligence Index Tokens per task Cost Per Intelligence Claude-Assisted Riemann Proof Nvidia Reinstates CEO Huang Dashboard vs Chat Emacs as a Multi-Agent Cockpit Agent Tracing Tools Compared MyClaw 3.0: Always-On AI Agents Inkling 2 Mini on a 32GB Mac Looped Transformer OpenAI GPT-Live-1.1 Voice API AI-Agent Attackers Gemini Tasks Microsoft’s Multiplayer AI Shift Gemini API Tool Retrieval Claude Ship - Review, Fix, Approve Nvidia's AVO Lifts ARC-AGI-3 Score Claude artifacts - Install as App Claude MCP Elicitation and File Uploads Claude Skills Over MCP - in public Beta Claude Background Tasks Big AI Deals of the Week Swarms Buy Speed, Not Capability Anthropic - Multi-Agent \"telephone game\" GPT-6.2 Astra Blocks Distillation GPT-6.2 Astra Beats Optimization Solvers Gemini Agents Cut Quantum Costs SELFWRITE - Self-Editing 27B Model Cognition - SWE-2.1 model Cognition Devin Bots Code Review Is the New Bottleneck Ternary Bonsai 2.5 27B How to Overcome Negativity Bias Jobs & Layoffs"
+    },
+    {
+      "index": 2,
+      "title": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "text": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\" Leaderboard LM Arena Text https://lmarena.ai/leaderboard/text LM Arena Coding https://lmarena.ai/leaderboard/text/coding Data for Nov 22 ■ Claude ■ Gemini ■ OpenAI ■ Open Source Claude Fable 5 - (~6T) Claude Opus 4.8 - (~5T) Claude Sonnet 4.5 - Claude Sonnet 5 - GLM-5.3 - ~744B Meta Muse Spark Open - 816B Qwen3.7-Max-Preview - Qwen3.8-Max - 2.4T Baidu ERNIE-5.1 - ~800B DeepSeek V4 Pro - 1.6T DeepSeek V4.1 Flash - 552B Kimi K3 - 2.8T Xiaomi MiMo-V2.5-Pro - 1.02T ByteDance Seed 2.0 Pro - MiniMax M3 - ~428B Code Model Score ■ Gemini 4 Carbon (High) 1567 ■ Gemini 4 Neon (xHigh) 1558 ■ Gemini 4 Argon (High) 1554 ■ Claude Fable 5 (High) 1551 ■ Claude Opus 4.7 (High) 1551 ■ Muse Wonder (Max) 1549 ■ GPT-6 Astra (Max) 1548 ■ Claude Opus 4.6 (High) 1547 ■ Claude Opus 5.5 (High) 1547 ■ Claude Opus 4.6 1547 ■ Claude Opus 4.7 1546 ■ GPT-6.1 Sol (Max) 1544 ■ Muse Spark 1.2 (xHigh) 1541 ■ GPT-6.1 Terra (Max) 1541 ■ MiMo-V2.6-Pro 1539 ■ Kimi K3 (Max) 1537 ■ Kimi K3.1 Pro (Max) 1535 ■ Muse Spark 1.3 (Max) 1535 ■ Claude Fable 5.1 (Max) 1534 ■ Muse Spark 1.1 1533 ■ Claude Opus 4.8 (High) 1533 ■ GPT-5.6 Sol (xHigh) 1533 ■ Claude Opus 5 (High) 1532 ■ Claude Opus 4.5 (High, 32K, 20251101) 1530 ■ Gemini 3.8 Flash (High) 1530 Code Model Score ■ Gemini 4 Carbon (High) 1527 ■ Gemini 4 Argon (High) 1520 ■ Gemini 4 Neon (xHigh) 1512 ■ Muse Wonder (Max) 1512 ■ Claude Opus 5.5 (High) 1507 ■ Claude Fable 5 (High) 1504 ■ Claude Opus 4.6 (High) 1503 ■ Claude Fable 5.2 (Max) 1502 ■ Claude Fable 5.1 (Max) 1502 ■ Claude Opus 4.7 (High) 1501 ■ Gemini 3.8 Flash (High) 1498 ■ Muse Spark 1.3 (Max) 1498 ■ Claude Opus 4.6 1496 ■ Claude Opus 4.7 1494 ■ Muse Spark 1.2 (xHigh) 1493 ■ Muse Spark 1.1 1491 ■ Gemini 4 Hydrogen (xHigh) 1490 ■ Gemini 3.7 Flash (High) 1490 ■ Claude Opus 5 (High) 1490 ■ Muse Spark 1489 ■ Claude Opus 5 (Max) 1489 ■ Kimi K3 (Max) 1488 ■ Gemini 3.1 Pro Preview 1487 ■ Gemini 3 Pro 1486 ■ GPT-5.6 Sol (xHigh) 1485"
+    },
+    {
+      "index": 3,
+      "title": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "text": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index Nov 27 Tokens per task Cost Per Intelligence"
+    },
+    {
+      "index": 4,
+      "title": "AI News Claude-Assisted Riemann Proof The proof passed",
+      "text": "AI News Claude-Assisted Riemann Proof The proof passed independent formal verification - potentially resolving one of mathematics’ most famous problems. The proof was released in Lean, rather than a conventional paper. Subsequent reports described independent checks confirming both the mathematical statement and the proof’s correctness. An official Clay Mathematics Institute recognition not done yet It was posed in 1859 by German mathematician Bernhard Riemann It is a $1 million Millennium Prize Problem \"All nontrivial zeros of the Riemann zeta function lie on the line with real part 1/2\" The Riemann zeta function links an infinite sum over integers to a product over all primes, which is why it reveals the hidden structure of prime numbers ζ(s) = 1 + 1/2^s + 1/3^s + …, extended to nearly the whole complex plane Primes look random, and their distribution is tied to these zeros Trillions of zeros were checked by computer, but that is not a proof. https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/ https://www.newscientist.com/article/2600134-anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis/"
+    },
+    {
+      "index": 5,
+      "title": "Nvidia Reinstates CEO Huang Nvidia Reinstates CEO Huang",
+      "text": "Nvidia Reinstates CEO Huang Nvidia Reinstates CEO Huang Nvidia's board reinstated founder Jensen Huang as president, CEO and director in a surprise reversal on Monday, November 23 Shares jumped almost 30 percent. Huang resigned November 12 after admitting affairs The board voted unanimously. It cited his candor and US government input that he poses no national security risk An independent investigation continues, and a Chief Compliance Officer will be hired https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+      "index": 6,
+      "title": "Weekly videos every Friday Weekly videos every Friday",
+      "text": "Weekly videos every Friday Weekly videos every Friday 7.71K subscribers, 405 videos 1. Subscribe to this channel https://www.youtube.com/@lev-selector 2. Download slides from GitHub using links under the videos 3. Please pause the video - and answer the pinned question in comments under the video"
+    },
+    {
+      "index": 7,
+      "title": "Dashboard vs Chat Dashboard vs Chat Can you",
+      "text": "Dashboard vs Chat Dashboard vs Chat Can you  fly a plane using AI chatbot instead of a real dashboard? The answer is no. Similarly you can NOT use a chatbot to manage multiple multi-agent projects. You need a dashboard. Or multiple dashboards. Dashboard Cockpit: Fleet overview: the status of each agent (running, idle, blocked, failed), queue depth, and the error rate per agent. Cost and tokens: spend per agent, model and task, plus budget burn. Latency and reliability: P95 latency, tool failure rates, and retries or loops. Run drill-down: a trace waterfall for one run, showing the parent and child agents and each tool call. Quality: eval scores, user feedback, and guardrail triggers. Governance: pending approvals and an audit log. Your SOX and SOC 2 interest fits here. Alerts on thresholds such as cost spikes, stuck runs and error bursts. Buttons for pause, kill, approve and retry, backed by an API on your orchestrator. A chat box beside the panels. It would read the same telemetry and answer questions like \"why did agent X stall?\", and it would be an add-on to the dashboards, not a replacement for them. Agents Tracing - Trajectories, OpenTelemetry https://www.morphllm.com/agent-tracing https://openlit.io/glossary/opentelemetry-genai-semantic-conventions"
+    },
+    {
+      "index": 8,
+      "title": "Emacs as a Multi-Agent Cockpit Emacs as a",
+      "text": "Emacs as a Multi-Agent Cockpit Emacs as a Multi-Agent Cockpit An experienced C++ programmer uses Emacs to manage multiple multi-agent projects, turning his familiar editor into a customizable monitoring and control cockpit. Instead of relying on chatbot conversations alone, he builds persistent views that keep agent activity visible across projects. AI-generated Emacs Lisp helps him create and adapt tools without building a separate web frontend. Buffers and windows can display agent status, logs, task queues, and errors, while commands provide project-specific controls. This approach combines monitoring, investigation, and intervention in one workspace. Its main value is flexibility: the interface evolves with the projects, although shared dashboards, rich charts, and auditing may require additional infrastructure."
+    },
+    {
+      "index": 9,
+      "title": "Agent Tracing Tools Compared Agent Tracing Tools Compared",
+      "text": "Agent Tracing Tools Compared Agent Tracing Tools Compared OpenLLMetry (Traceloop) : Built on OpenTelemetry with gen_ai.* extensions. Auto-instruments OpenAI, Anthropic, LangChain and vector DBs, and exports to any OTel backend. Apache 2.0, vendor-neutral SDK. Langfuse: Built on OpenTelemetry. Nested agent traces via the LangChain/LangGraph handler or the framework-agnostic SDK. MIT core, self-host or cloud, unit-based billing. Arize Phoenix : Built on OpenTelemetry plus OpenInference. Parent-child spans across agent, LLM and tool steps, with full I/O. Elastic License 2.0, free to self-host, no event caps. Braintrust: Own SDK, OTel-compatible. Nested agent spans, with wrappers for OpenAI Agents SDK, LangGraph and CrewAI. Closed source, cloud only, eval-first. LangSmith: Own SDK, with OTel ingest supported. First-party LangGraph support, and one trace is one full agent run. Closed source, cloud, deepest LangChain fit. Laminar : OpenTelemetry-native. Transcript/reader view and chat-with-trace, and it traces Claude Agent SDK sub-agents via a Rust proxy. Open source, self-host or cloud. OpenAI Agents SDK : Built-in tracer with pluggable processors. Captures generations, tool calls, handoffs and guardrails, and is on by default for the Traces dashboard. Tied to the SDK, and you can fan out to other tools via processors."
+    },
+    {
+      "index": 10,
+      "title": "MyClaw 3.0: Always-On AI Agents On cloud, always-on",
+      "text": "MyClaw 3.0: Always-On AI Agents On cloud, always-on AI teammates across multiple agent runtimes Introduced on Nov 18 Running in the cloud, teammates can handle research, software engineering, project management, and code reviews without keeping your computer open The platform addresses agent setup and hosting complexity by combining persistent execution, shared context, tools, data connections, and messaging interfaces. Supported runtimes include OpenClaw, Claude Code, Codex, Hermes, and Pi https://myclaw.ai https://www.advanceintelligence.ai/story/2026-11-18-47 AI News"
+    },
+    {
+      "index": 11,
+      "title": "AI News Thinking Machines Inkling 2 Mini runs",
+      "text": "AI News Thinking Machines Inkling 2 Mini runs on a 32GB Mac 26.4B-parameter looped MoE : middle layers run 3 times per token Weights take about 20GB, released under Apache 2.0 Self-reported 79.2% on SWE-bench Verified Trails Qwen3.8-27B on Terminal Bench v2.1 Available on Ollama: ollama run inkling-2-mini Can drive Claude Code or Codex locally: ollama launch claude --model inkling-2-mini https://ollama.com/library/inkling-2-mini OpenAI GPT-Live-1.1 voice API cuts idle time cost 60% The model behind ChatGPT voice is now in the API as gpt-live-1.1 Full duplex: it listens while it speaks Pricing $0.02/min standby, $0.05/min active Billed per second; 128K-token default context Standby works only on WebRTC and also applies to GPT-Live-1 No structured outputs, fine-tuning or image inputs Looped Transformer"
+    },
+    {
+      "index": 12,
+      "title": "AI News Attackers now run AI agents at",
+      "text": "AI News Attackers now run AI agents at machine speed CrowdStrike : one group used AI agents against 200+ organizations in 11 days Unit 42 : attacks move about 4x faster than a year ago Google and Mandiant say AI misuse hit a \"critical inflection point\" Several AI platforms disclosed breaches between May and November 2026 Targets: stored env variables, OAuth tokens, datasets, logs and traces Advice: rotate stored tokens before you have to Gemini Tasks: Google's agent makes calls and pays for you In Gemini app - runs on Gemini 4 Hydrogen Places phone calls to book appointments Completes payments through Google Pay Handles bills, shopping and web logins across Google apps Users can set spending limits"
+    },
+    {
+      "index": 13,
+      "title": "AI News Microsoft’s Multiplayer AI Shift Copilot Workspaces",
+      "text": "AI News Microsoft’s Multiplayer AI Shift Copilot Workspaces organize people and agents around shared goals. Copilot brings people, AI agents, and Office documents together, enabling real-time collaboration instead of isolated chatbot work Copilot Cowork was built by 11 engineers One engineer (just one!) maintains the whole GitHub Copilot runtime Agents are potentially becoming software’s primary users Humans retain architecture, goal-setting, testing, verification, and oversight Leadership priorities shift toward strategic alignment, controlled experiments, and empowered teams as code generation accelerates https://creatoreconomy.so/p/what-should-engineers-do-when-ai-writes-all-the-code-charles-lamanna https://www.youtube.com/watch?v=Ka2c-DGJvWc Gemini API loads tool schemas only when needed Tool Retrieval is in preview in the Gemini Interactions API (v1beta) The model sees only each tool's name and short description The full parameter schema loads when a task needs that tool Google says a few dozen tool declarations can cost tens of thousands of tokens per request No extra fee; Google still advises static loading for under 20 stable tools Anthropic reports 85% savings and OpenAI 47% for their own versions https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+    },
+    {
+      "index": 14,
+      "title": "AI News Claude Ship - Review, Fix, Approve",
+      "text": "AI News Claude Ship - Review, Fix, Approve Type /ship in Claude Code: it commits, opens the PR, reviews it, watches it for up to 7 days Code Review - flags bugs in the diff and is live for everyone PR Steward - (beta) pushes fixes for failing CI, merge conflicts and reviewer comments Claude Approvals - (beta) approves routine PRs that pass a policy file kept in the repo Branch protection rules - decide what merges https://code.claude.com/docs/en/claude-ship"
+    },
+    {
+      "index": 15,
+      "title": "AI News Nvidia's AVO Lifts ARC-AGI-3 Score Nvidia",
+      "text": "AI News Nvidia's AVO Lifts ARC-AGI-3 Score Nvidia reported that Claude Opus 5 went from about 30% on its own to a perfect 100.00 RHAE on ARC-AGI-3's public set once it ran inside its AVO agent system (Aug 21). AVO = Agentic Variation Operators ARC-AGI-3 public set - uses unfamiliar game-like environments with no stated rules or goals The model alone falls short. AVO adds persistent memory, supervision and an inspect, plan, implement and evaluate loop Nvidia first built AVO to optimize GPU kernels So we see again that the system around a model can matter as much as the model https://arxiv.org/abs/2603.24517 https://www.youtube.com/watch?v=5Ni98RYmT-0 - video"
+    },
+    {
+      "index": 16,
+      "title": "AI News Claude artifacts - Install as App",
+      "text": "AI News Claude artifacts - Install as App Describe your app to Claude, try it as an artifact, and then click \"Install as app.\" in beta , on Mac and Windows, from the Share menu Each app gets its own icon and window and updates when the artifact changes Apps can send notifications, set global shortcuts, live in the menu bar or tray, and read or run local files Catch: apps need internet and a signed-in Claude session, and every update resets permissions Anthropic does not review apps before install Elicitation and file uploads; tool search cuts context use by over 85% https://claude.com/resources/articles/install-as-app Claude MCP Elicitation and File Uploads Claude's MCP servers can now pause mid-task to ask users for approval File Uploads is coming soon (Intuit, Dropbox, ...) Note - without the files entering the model's context https://claude.com/resources/articles/skills-over-mcp-tasks-and-more https://blog.modelcontextprotocol.io/posts/exploring-file-uploads-and-downloads-in-mcp/ https://thenewstack.io/mcp-skills-tasks-claude/"
+    },
+    {
+      "index": 17,
+      "title": "AI News Claude Skills Over MCP - in",
+      "text": "AI News Claude Skills Over MCP - in public Beta MCP servers can now provide Agent Skills Extension io.modelcontextprotocol/skills provides SKILL.md directories as resources via skills/list and skills/get Problem - tool descriptions lack workflow guidance Solution - the skills help using MCP tools Progress in MCP: Data, Search, Tools, Agents in MCP ? https://modelcontextprotocol.io/extensions/skills/overview https://modelcontextprotocol.io/seps/2640-skills-extension https://claude.com/resources/articles/skills-over-mcp-tasks-and-more Claude Background Tasks Ctrl+B sends a job in background /tasks - lists and stops jobs Claude is working on new prompts while long jobs run in the background - bash commands, subagents, monitors and whole sessions can run in the background MCP Tasks - in Terminal, desktop app, VS Code and cloud sessions Long builds and tests used to block the session. Now the output goes to a file, and a notification arrives when the job finishes. Work runs in parallel, with a 5GB output cap and auto-cleanup. https://code.claude.com/docs/en/interactive-mode https://www.unite.ai/anthropic-brings-server-supplied-skills-and-background-tasks-to-claude/ https://code.claude.com/docs/en/commands"
+    },
+    {
+      "index": 18,
+      "title": "AI News A week of big AI deals",
+      "text": "AI News A week of big AI deals beyond the Anthropic IPO CrowdStrike agreed to buy Zscaler for about $44 Bln Palo Alto Networks is buying Applied Compute for $4.5 Bln in stock Isomorphic Labs raised a $5 Bln Series C Sierra , Bret Taylor's agent company, raised $1.75 Bln at $30 Bln valuation Model ML raised $250 Mln at $1.5 Bln valuation Epochal , from three xAI founders, launched with $100 Mln to train forecasting agents Study: agent swarms buy speed, not capability Paradigm3 compared swarms of coordinated agents with one agent at equal token budgets Swarms finished faster but used tokens less efficiently The penalty grows with swarm size, and quality degrades Earlier \"swarm premiums\" came from single agents going stale over long runs. Give the single agent fresh context resets and it beats the swarm Today's swarms mostly spend compute faster rather than solve harder problems https://www.paradigm3.org/research/swarms"
+    },
+    {
+      "index": 19,
+      "title": "AI News Anthropic - Multi-Agent \"telephone game\" Anthropic's",
+      "text": "AI News Anthropic - Multi-Agent \"telephone game\" Anthropic's experiment (January 2026) - split agents by software dev. role: planner, implementer, tester, reviewer They found that the agents spent more tokens on coordination than on the actual work . Anthropic calls this a \" telephone game \", where each handoff degrades fidelity . A common Claude Code and Codex setup splits work by role too: - One might write the fix, - the other could review it, - and a person coordinates the handoff https://x.com/akshay_pachaar/status/2126292505826398508 https://claude.com/resources/articles/building-multi-agent-systems-when-and-how-to-use-them"
+    },
+    {
+      "index": 20,
+      "title": "AI News GPT-6.2 Astra cuts distillation attacks from",
+      "text": "AI News GPT-6.2 Astra cuts distillation attacks from 54% to 0.2% Attack success: 54% on GPT-6 Astra 0.2% on GPT-6.2 Astra Defenses combine training, automated classifiers and API restrictions Weekly enforcement hits thousands to tens of thousands of accounts Older model families are now blocked from reading GPT-6.2's protected reasoning https://alphasignal.ai/email/1b7a5d6be16510c2 GPT-6.2 Astra beats human-built solvers on optimization problems A single GPT-6.2 Astra agent outperformed all human-designed software in an experiment on finding and proving optimal solutions Examples of problems: quadratic programming, mixed-integer non-linear programming, large-scale optimization, semidefinite programming The problems were open, of varied scale, and from diverse applications The agent was allowed to search the internet The author of the blog post calls the model superhuman at mathematical optimization https://rybindmitry.github.io/blogs/gpt-6-2-astra-is-superhuman-in-mathematical-optimization.html"
+    },
+    {
+      "index": 21,
+      "title": "AI News A week of big AI deals",
+      "text": "AI News A week of big AI deals beyond the Anthropic IPO CrowdStrike agreed to buy Zscaler for about $44 Bln Palo Alto Networks is buying Applied Compute for $4.5 Bln in stock Isomorphic Labs raised a $5 Bln Series C Sierra , Bret Taylor's agent company, raised $1.75 Bln at $30 Bln valuation Model ML raised $250 Mln at $1.5 Bln valuation Epochal , from three xAI founders, launched with $100 Mln to train forecasting agents Study: agent swarms buy speed, not capability Paradigm3 compared swarms of coordinated agents with one agent at equal token budgets Swarms finished faster but used tokens less efficiently The penalty grows with swarm size, and quality degrades Earlier \"swarm premiums\" came from single agents going stale over long runs. Give the single agent fresh context resets and it beats the swarm Today's swarms mostly spend compute faster rather than solve harder problems https://www.paradigm3.org/research/swarms"
+    },
+    {
+      "index": 22,
+      "title": "AI News Gemini Agents Cut Quantum Costs Teams",
+      "text": "AI News Gemini Agents Cut Quantum Costs Teams of Gemini 4 agents cut a fusion-simulation circuit's cost 11.8x. Its memory fell from 5,650 to 4,338 error-corrected qubits. Independent agent teams worked on 5 known algorithms. They met at a virtual conference every 4 hours. Gains were 8x (light-sensitive molecule), 2.5x (cytochrome P450), 2.57x (Grover) and 290x (arcsin routine). The circuits are too large to test today, so Lean proved each result correct. These are resource estimates, not hardware runs https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification SELFWRITE - Self-Editing 27B Model https://www.alphaxiv.org/abs/2611.29513 \"Recursive Self-Editing: LLMs Program Their Own Weight Edits for Self-Improvement\" Based on Qwen3.8-27B. A model writes code that edits its own weights, with no gradients, optimizer or larger teacher model. Each round the model reviews its reasoning on fresh math problems and inspects its weights and activations in a Python session. It then writes a low-rank edit. A hidden gate set tests each edit, and the best improving edit is merged. After 5 rounds, held-out accuracy rose from 76.30% to 77.75% (avg@4) and from 82.60% to 84.80% (pass@4). https://www.aiinsiders.net/article/a-language-model-writes-its-own-weight-edits-no-gradients"
+    },
+    {
+      "index": 23,
+      "title": "Cognition - SWE-2.1 model and Devin Bots Cognition",
+      "text": "Cognition - SWE-2.1 model and Devin Bots Cognition - SWE-2.1 model Cognition, a US startup valued at about $48 billion. CEO Scott Wu SWE-2.1 - a coding and agent model, RL-trained on  top of Kimi K3 It roughly doubles SWE-2 on Terminal-Bench 4.1, to 50.0 Cognition says it adds stronger security skills https://cognition.com/blog/swe-2-1 Cognition Devin Bots Devin Bots = AI Team Managers Devin Bots are persistent agents with memory that lead teams of Devin coding agents in parallel. It plans, delegates, reviews and brings humans only decisions. Example: one Devin Bot ran an Android app project for 44 days, merging 1,134 pull requests, writing 344,651 lines of Kotlin and closing 1,217 tickets, according to Cognition. Available online at devin.ai Bots work in Slack, iMessage, phone calls and the web app. - Problem: single Devin sessions handle one task and need human babysitting. - Solution: give a Bot an outcome to own. Competing with OpenAI's Dots and Anthropic's Duet. https://devin.ai/bots https://devin.ai/blog/introducing-devin-bots https://docs.devin.ai/work-with-devin/bots"
+    },
+    {
+      "index": 24,
+      "title": "AI News Ternary Bonsai 2.5 27B: agentic coding",
+      "text": "AI News Ternary Bonsai 2.5 27B: agentic coding in 5.9 GB PrismML released Ternary Bonsai 2.5 27B, a ternary-weight model It is built on Alibaba's Qwen3.8 27B It has only 5.9 GB footprint Much stronger agentic coding, multi-turn tool use and multi-step task execution Built for agents that work with private files and tools on-device PrismML calls it the strongest model of its memory size for agentic work Small enough for a laptop or phone-class hardware https://prismml.com/news/bonsai-2-5-27b Coding agents moved the bottleneck to code review Anthropic's Claude Code team more than doubled merged PRs from June to September 2026 while reverts fell over 40% Agents wrote the first draft of over 40% of PRs in September, up from 17% in March. Merged PRs hit 1.3 Billion in a year. Problem: Faros AI telemetry shows that under high AI adoption, median review time is up 441%. Bugs are up 54%, though Faros counts them per PR, not per developer. PRs merged with no review are up 31%. Solution: Anthropic uses layered checks, with human approval scaled by risk. It published six or seven layers, depending on how you count https://github.blog/news-insights/octoverse https://claude.dev/blog/solving-code-review-at-anthropic https://claude.com/resources/articles/introducing-claude-ship https://faros.ai/blog/ai-code-quality-senior-engineer-review-burden https://www.llmwatch.com/p/fast-alone-slow-together-how-to-unblock"
+    },
+    {
+      "index": 25,
+      "title": "Escaping Negativity Bias How to Overcome Negativity Bias",
+      "text": "Escaping Negativity Bias How to Overcome Negativity Bias Daily Practices - by Tatyana Chernigovskaya Problem: negativity bias and chronic threat-monitoring make the brain notice deficits faster than opportunities Solution: .. redirect attention to what already exists .. practice specific bodily gratitude .. Calm the nervous system with long exhales .. Build self-worth through kept promises .. Use the language of abundance .. look after sleep, movement and diet .. Take responsibility for your own state .. choose supportive people Tatyana Chernigovskaya Brain Wiring for Abundance (Summary) Abundance is a brain state built by daily practice, not luck or circumstance Neuroplasticity - small repeated actions can rewire perception. https://www.youtube.com/watch?v=10G_bxPunlM Tatyana Chernigovskaya"
+    },
+    {
+      "index": 26,
+      "title": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by",
+      "text": "Jobs and Layoffs https://layoffs.fyi https://trueup.io/layoffs Tech Layoffs by year (US only): 150.7K in 2026 (as of Nov 27, 2026) 123K in 2025 154K in 2024 266K in 2023 165K in 2022 https://layoffs.fyi The Tech Layoff Tracker In 2026: 206,817 people laid off (652 per day) In 2025: 245,953 people laid off (674 per day) In 2024: 238,461 people laid off (653 per day) https://trueup.io/layoffs SAP - 10K people in November"
+    },
+    {
+      "index": 27,
+      "title": "About the Speaker Lev Selector, Ph.D. 40+ years",
+      "text": "About the Speaker Lev Selector, Ph.D. 40+ years of software engineering, data science, and building teams (hiring, training, and managing) Ph.D. in mathematical modeling and computer simulations Interests: Generative AI, using LLMs with your data, local AI for local private data, cloud architecture, fin-tech, application security Find and connect: LinkedIn, GitHub, YouTube, Google https://eais.ai"
+    },
+    {
+      "index": 28,
+      "title": "Thank You! Videos of every seminar are on",
+      "text": "Thank You! Videos of every seminar are on YouTube https://www.youtube.com/@lev-selector Slides on GitHub. Click a pptx file, then the download button on the right https://github.com/lselector/seminar Slides on Google Drive https://drive.google.com/drive/folders/1dmj00iilSP-JYmriMUUaHCKz5X54e3UX?ths=true"
+    }
+  ],
+  "points": [
+    {
+      "claim": "AI News - Nov 27, 2026 Chatbot =>",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 1,
+      "slideTitle": "AI News - Nov 27, 2026 Chatbot =>",
+      "source": "slide"
+    },
+    {
+      "claim": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 2,
+      "slideTitle": "Starting Elo rating = 1000 https://en.wikipedia.org/wiki/Elo_rating_system \"LM Arena\"",
+      "source": "slide"
+    },
+    {
+      "claim": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "topic": "benchmarks",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 3,
+      "slideTitle": "Artificial Analysis Intelligence Index Artificial Analysis Intelligence Index",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Claude-Assisted Riemann Proof The proof passed",
+      "topic": "claude",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 4,
+      "slideTitle": "AI News Claude-Assisted Riemann Proof The proof passed",
+      "source": "slide"
+    },
+    {
+      "claim": "Nvidia Reinstates CEO Huang Nvidia Reinstates CEO Huang",
+      "topic": "infra",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 5,
+      "slideTitle": "Nvidia Reinstates CEO Huang Nvidia Reinstates CEO Huang",
+      "source": "slide"
+    },
+    {
+      "claim": "Weekly videos every Friday Weekly videos every Friday",
+      "topic": "general",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 6,
+      "slideTitle": "Weekly videos every Friday Weekly videos every Friday",
+      "source": "slide"
+    },
+    {
+      "claim": "Dashboard vs Chat Dashboard vs Chat Can you",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 7,
+      "slideTitle": "Dashboard vs Chat Dashboard vs Chat Can you",
+      "source": "slide"
+    },
+    {
+      "claim": "Emacs as a Multi-Agent Cockpit Emacs as a",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 8,
+      "slideTitle": "Emacs as a Multi-Agent Cockpit Emacs as a",
+      "source": "slide"
+    },
+    {
+      "claim": "Agent Tracing Tools Compared Agent Tracing Tools Compared",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 9,
+      "slideTitle": "Agent Tracing Tools Compared Agent Tracing Tools Compared",
+      "source": "slide"
+    },
+    {
+      "claim": "MyClaw 3.0: Always-On AI Agents On cloud, always-on",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 10,
+      "slideTitle": "MyClaw 3.0: Always-On AI Agents On cloud, always-on",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Thinking Machines Inkling 2 Mini runs",
+      "topic": "coding",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 11,
+      "slideTitle": "AI News Thinking Machines Inkling 2 Mini runs",
+      "source": "slide"
+    },
+    {
+      "claim": "AI News Attackers now run AI agents at",
+      "topic": "agents",
+      "videoSeconds": null,
+      "videoUrl": null,
+      "slideIndex": 12,
+      "slideTitle": "AI News Attackers now run AI agents at",
+      "source": "slide"
+    }
+  ]
+}

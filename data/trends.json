@@ -1,6 +1,6 @@
 {
   "scope": "weekly-ai-updates-2025-2026",
-  "weekCount": 98,
+  "weekCount": 99,
   "weeks": [
     "2025-01-03",
     "2025-01-10",
@@ -99,9 +99,11 @@
     "2026-10-30",
     "2026-11-06",
     "2026-11-13",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-27"
   ],
   "weeklyTotals": {
+    "2026-11-27": 0,
     "2026-11-20": 0,
     "2026-11-13": 0,
     "2026-11-06": 0,
@@ -23178,6 +23180,39 @@
           "jobs": 0,
           "safety": 0
         }
+      },
+      {
+        "date": "2026-11-27",
+        "seminarId": "2026-11-27-2026-11-27-ai-news",
+        "totalChapters": 0,
+        "counts": {
+          "agents": 0,
+          "coding": 0,
+          "claude": 0,
+          "openai": 0,
+          "google": 0,
+          "open-models": 0,
+          "benchmarks": 0,
+          "rag": 0,
+          "multimodal": 0,
+          "infra": 0,
+          "jobs": 0,
+          "safety": 0
+        },
+        "shares": {
+          "agents": 0,
+          "coding": 0,
+          "claude": 0,
+          "openai": 0,
+          "google": 0,
+          "open-models": 0,
+          "benchmarks": 0,
+          "rag": 0,
+          "multimodal": 0,
+          "infra": 0,
+          "jobs": 0,
+          "safety": 0
+        }
       }
     ],
     "labRace": [
@@ -26051,103 +26086,132 @@
             "share": 0
           }
         ]
+      },
+      {
+        "date": "2026-11-27",
+        "seminarId": "2026-11-27-2026-11-27-ai-news",
+        "leader": "claude",
+        "leaderLabel": "Claude / Anthropic",
+        "leaderShare": 0,
+        "ranking": [
+          {
+            "slug": "claude",
+            "label": "Claude / Anthropic",
+            "share": 0
+          },
+          {
+            "slug": "openai",
+            "label": "OpenAI / GPT",
+            "share": 0
+          },
+          {
+            "slug": "google",
+            "label": "Google / Gemini",
+            "share": 0
+          },
+          {
+            "slug": "open-models",
+            "label": "Open models & China labs",
+            "share": 0
+          }
+        ]
       }
     ],
     "shareMomentum": [
       {
         "slug": "claude",
         "label": "Claude / Anthropic",
-        "recentShare": 0.144530612244898,
-        "priorShare": 0.05406122448979594,
-        "delta": 0.09,
+        "recentShare": 0.14164000000000004,
+        "priorShare": 0.05298000000000002,
+        "delta": 0.089,
         "direction": "up"
       },
       {
         "slug": "agents",
         "label": "Agents & orchestration",
-        "recentShare": 0.15302040816326534,
-        "priorShare": 0.08812244897959183,
-        "delta": 0.065,
+        "recentShare": 0.14996,
+        "priorShare": 0.08807999999999999,
+        "delta": 0.062,
         "direction": "up"
       },
       {
         "slug": "coding",
         "label": "Coding assistants",
-        "recentShare": 0.07377551020408164,
-        "priorShare": 0.03322448979591836,
-        "delta": 0.041,
+        "recentShare": 0.07230000000000002,
+        "priorShare": 0.03256,
+        "delta": 0.04,
         "direction": "up"
-      },
-      {
-        "slug": "jobs",
-        "label": "Jobs & labor market",
-        "recentShare": 0.04059183673469387,
-        "priorShare": 0.035081632653061225,
-        "delta": 0.006,
-        "direction": "flat"
       },
       {
         "slug": "rag",
         "label": "RAG & memory",
-        "recentShare": 0.01902040816326531,
-        "priorShare": 0.014346938775510208,
+        "recentShare": 0.018640000000000004,
+        "priorShare": 0.014060000000000003,
+        "delta": 0.005,
+        "direction": "flat"
+      },
+      {
+        "slug": "jobs",
+        "label": "Jobs & labor market",
+        "recentShare": 0.03977999999999999,
+        "priorShare": 0.03496,
         "delta": 0.005,
         "direction": "flat"
       },
       {
         "slug": "safety",
         "label": "Safety & security",
-        "recentShare": 0.007469387755102041,
-        "priorShare": 0.002326530612244898,
+        "recentShare": 0.00732,
+        "priorShare": 0.00228,
         "delta": 0.005,
         "direction": "flat"
       },
       {
         "slug": "benchmarks",
         "label": "Benchmarks & leaderboards",
-        "recentShare": 0.03391836734693878,
-        "priorShare": 0.03132653061224489,
-        "delta": 0.003,
+        "recentShare": 0.033240000000000006,
+        "priorShare": 0.031279999999999995,
+        "delta": 0.002,
         "direction": "flat"
       },
       {
         "slug": "multimodal",
         "label": "Multimodal & media",
-        "recentShare": 0.019428571428571434,
-        "priorShare": 0.022102040816326534,
+        "recentShare": 0.019040000000000005,
+        "priorShare": 0.021660000000000002,
         "delta": -0.003,
         "direction": "flat"
       },
       {
         "slug": "google",
         "label": "Google / Gemini",
-        "recentShare": 0.024326530612244903,
-        "priorShare": 0.030183673469387756,
-        "delta": -0.006,
+        "recentShare": 0.023840000000000004,
+        "priorShare": 0.0313,
+        "delta": -0.007,
         "direction": "flat"
       },
       {
         "slug": "infra",
         "label": "Infrastructure & chips",
-        "recentShare": 0.030102040816326527,
-        "priorShare": 0.04748979591836735,
-        "delta": -0.017,
+        "recentShare": 0.0295,
+        "priorShare": 0.047119999999999995,
+        "delta": -0.018,
         "direction": "down"
       },
       {
         "slug": "openai",
         "label": "OpenAI / GPT",
-        "recentShare": 0.04924489795918366,
-        "priorShare": 0.07108163265306122,
-        "delta": -0.022,
+        "recentShare": 0.04825999999999999,
+        "priorShare": 0.07138,
+        "delta": -0.023,
         "direction": "down"
       },
       {
         "slug": "open-models",
         "label": "Open models & China labs",
-        "recentShare": 0.0673877551020408,
-        "priorShare": 0.10520408163265303,
-        "delta": -0.038,
+        "recentShare": 0.06603999999999999,
+        "priorShare": 0.10481999999999997,
+        "delta": -0.039,
         "direction": "down"
       }
     ],
@@ -37051,6 +37115,14 @@
         "totalChapters": 0,
         "novelRatio": 0,
         "highlights": []
+      },
+      {
+        "date": "2026-11-27",
+        "seminarId": "2026-11-27-2026-11-27-ai-news",
+        "novelCount": 0,
+        "totalChapters": 0,
+        "novelRatio": 0,
+        "highlights": []
       }
     ],
     "bursts": [
@@ -37237,20 +37309,6 @@
     ],
     "recentBriefs": [
       {
-        "date": "2026-10-16",
-        "seminarId": "2026-10-16-2026-10-16-ai-news",
-        "headline": "Claude / Anthropic-led week · 33 novel topics",
-        "bullets": [
-          "Claude / Anthropic led the narrative (14% of tagged chapters)",
-          "33 chapter topics not seen in the prior 8 weeks (92% novelty)",
-          "Top airtime: Agents & orchestration 17%, Claude / Anthropic 14%, Multimodal & media 8%",
-          "New angles: Introduction - Anthropic Replaces Git After Claude Hits 30,000 Merges a Day · Anthropic Replaces Git With Scion · Meta Muse Wonder"
-        ],
-        "leader": "claude",
-        "leaderShare": 0.139,
-        "noveltyRatio": 0.917
-      },
-      {
         "date": "2026-10-23",
         "seminarId": "2026-10-23-2026-10-23-ai-news",
         "headline": "Open models & China labs-led week · 33 novel topics",
@@ -37307,31 +37365,42 @@
         "leader": "claude",
         "leaderShare": 0,
         "noveltyRatio": 0
+      },
+      {
+        "date": "2026-11-27",
+        "seminarId": "2026-11-27-2026-11-27-ai-news",
+        "headline": "Claude / Anthropic-led week · 0 novel topics",
+        "bullets": [
+          "Claude / Anthropic led the narrative (0% of tagged chapters)"
+        ],
+        "leader": "claude",
+        "leaderShare": 0,
+        "noveltyRatio": 0
       }
     ],
     "risingShare": [
       {
         "slug": "claude",
         "label": "Claude / Anthropic",
-        "recentShare": 0.144530612244898,
-        "priorShare": 0.05406122448979594,
-        "delta": 0.09,
+        "recentShare": 0.14164000000000004,
+        "priorShare": 0.05298000000000002,
+        "delta": 0.089,
         "direction": "up"
       },
       {
         "slug": "agents",
         "label": "Agents & orchestration",
-        "recentShare": 0.15302040816326534,
-        "priorShare": 0.08812244897959183,
-        "delta": 0.065,
+        "recentShare": 0.14996,
+        "priorShare": 0.08807999999999999,
+        "delta": 0.062,
         "direction": "up"
       },
       {
         "slug": "coding",
         "label": "Coding assistants",
-        "recentShare": 0.07377551020408164,
-        "priorShare": 0.03322448979591836,
-        "delta": 0.041,
+        "recentShare": 0.07230000000000002,
+        "priorShare": 0.03256,
+        "delta": 0.04,
         "direction": "up"
       }
     ],
@@ -37339,25 +37408,25 @@
       {
         "slug": "infra",
         "label": "Infrastructure & chips",
-        "recentShare": 0.030102040816326527,
-        "priorShare": 0.04748979591836735,
-        "delta": -0.017,
+        "recentShare": 0.0295,
+        "priorShare": 0.047119999999999995,
+        "delta": -0.018,
         "direction": "down"
       },
       {
         "slug": "openai",
         "label": "OpenAI / GPT",
-        "recentShare": 0.04924489795918366,
-        "priorShare": 0.07108163265306122,
-        "delta": -0.022,
+        "recentShare": 0.04825999999999999,
+        "priorShare": 0.07138,
+        "delta": -0.023,
         "direction": "down"
       },
       {
         "slug": "open-models",
         "label": "Open models & China labs",
-        "recentShare": 0.0673877551020408,
-        "priorShare": 0.10520408163265303,
-        "delta": -0.038,
+        "recentShare": 0.06603999999999999,
+        "priorShare": 0.10481999999999997,
+        "delta": -0.039,
         "direction": "down"
       }
     ]
